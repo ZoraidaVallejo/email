@@ -63,14 +63,6 @@ $featured-site--width: image-width('/src/img//featured-site-01-a.jpg');
 .w-feaured-site {
     background-color: plt('concrete');
 
-    .spacer {
-        width: $inner-max-width;
-        height: 1px;
-        opacity: 0;
-        display: block;
-        font-size: 0;
-    }
-
     .client-url {
         color: plt('black');
     }

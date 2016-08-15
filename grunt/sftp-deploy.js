@@ -7,7 +7,7 @@ module.exports = {
             authKey: 'key1'
         },
         src: '<%= paths.dist_img %>',
-        dest: '/mnt/files/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>',
+        dest: '<%= paths.remoteImagePath %>/<%= currentYear %>/<%= currentMonth %>',
         exclusions: [
             '<%= paths.dist_img %>/**/.DS_Store',
             '<%= paths.dist_img %>/**/Thumbs.db',

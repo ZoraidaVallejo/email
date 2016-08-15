@@ -38,33 +38,37 @@ body {
     background-color: plt('white');
 }
 
+.spacer {
+    width: $inner-max-width;
+    height: 1px;
+    opacity: 0;
+    display: block;
+    font-size: 0;
+}
+
 
 
 // ----------------------------------------------------------------------------------------------------------
 // M A I N
 // ----------------------------------------------------------------------------------------------------------
 
-.widget {
+// .widget {
 
-    &-type-name {
-        color: plt('shuttle-gray');
-        font-size: ft-exist(14px);
-        font-weight: $font-weight--bold;
-        text-transform: uppercase;
-        line-height: 14px;
-        padding: 0 0 5px;
-    }
+//     &-type-name {
+//         color: plt('shuttle-gray');
+//         font-size: ft-exist(14px);
+//         font-weight: $font-weight--bold;
+//         text-transform: uppercase;
+//         line-height: 14px;
+//         padding: 0 0 5px;
+//     }
 
-    &-main-title {
-        color: plt('black');
-        font-size: ft-exist(29px);
-        font-weight: $font-weight--normal;
-        line-height: 37px;
-    }
-}
+//     &-main-title {
+//         color: plt('black');
+//         font-size: ft-exist(29px);
+//         font-weight: $font-weight--normal;
+//         line-height: 37px;
+//     }
+// }
 
-// Adds padding to content - use this instead of paragraphs for consistent padding/margin rendering
-.content-block {
-    padding: 45px $padding;
-}
 

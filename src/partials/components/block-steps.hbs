@@ -1,0 +1,30 @@
+{{!--
+    No version defined becuase this module cuold change each month.
+--}}
+
+
+<!-- BLOCK STEPS -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-block-steps set-max-width">
+    <tr>
+        <td class="head">
+            <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0" />
+            <p><strong>{{ title }}</strong></p>
+        </td>
+    </tr>
+    <tr>
+        {{> background classes="step-counter" image="welcome-step-separator-01.png" bgcolor="#06357a" dimensions="width:600px; height:21px;" bgStart=true content=true }}
+            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+                        <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0" />
+                        <p>{{ step }}</p>
+                    </td>
+                </tr>
+            </table>
+        {{> background bgEnd=true }}
+    </tr>
+    <tr>
+        <td class="bottom-space">&nbsp;</td>
+    </tr>
+</table>

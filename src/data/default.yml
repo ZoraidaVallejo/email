@@ -1,7 +1,13 @@
 
 image_dir_src: "../src/img"
-justia_insights_url: "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png"
-justia_insights_alt: "Justia Insights"
+
+# header_logo_url: "https://justatic.com/v/20160812a/branding/logos/emails/justia-lawyer-profile-essentials-blue.png"
+header_logo_url: "../src/img/justia-lawyer-profile-essentials-blue.png"
+header_logo_alt: "Justia Lawyer Profile Essentials"
+
+footer_logo_url: "https://justatic.com/v/20160812a/shared/images/logos/justia-blue.png"
+footer_logo_alt: "Justia"
 
 view_in_browser_url: "#"
-unsubscribe_url: "*|UNSUB|*"
+unsubscribe_url: "http://optout.justia.email/unsubscribe?pid=148043&h=000000000000000&m=ZW5nQGp1c3RpYS5jb20=&utm_source=source-&utm_medium=email&utm_campaign=campaign-83&utm_content=unsubscribe"
+# unsubscribe_url: "*|UNSUB|*"

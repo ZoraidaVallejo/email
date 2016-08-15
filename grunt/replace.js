@@ -93,7 +93,7 @@ module.exports = function() {
                     { match: /mobile-no-border/g, replacement: 'justia19' },
                 ]
             },
-            files: templateOptions
+            files: allTemplates
         },
 
 
@@ -102,7 +102,8 @@ module.exports = function() {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+                        match: /(?:class|responsive)=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+                        // match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
                         replacement: ''
                     }
                 ]
@@ -139,7 +140,7 @@ module.exports = function() {
                     }
                 ]
             },
-            files: templateOptions
+            files: allTemplates
         }
     };
 };

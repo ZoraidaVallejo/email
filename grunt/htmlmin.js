@@ -9,8 +9,11 @@ module.exports = {
             minifyCSS: true
             // processConditionalComments: true
         },
-        files: {
-            '<%= paths.dist %>/<%= watchFile %>.html': '<%= paths.dist %>/<%= watchFile %>.html',
-        }
+        files: [{
+            expand: true,
+            flatten: true,
+            src: '<%= paths.dist %>/*.html',
+            dest: '<%= paths.dist %>'
+        }]
     }
 };

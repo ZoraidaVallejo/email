@@ -81,7 +81,7 @@
   }
   .main-footer .logo {
     padding-bottom: 20px !important;
-    border-bottom: 1px solid #398ff2;
+    border-bottom: 1px solid;
   }
   .main-footer .social {
     padding-top: 20px !important;

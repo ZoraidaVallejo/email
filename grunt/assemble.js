@@ -10,7 +10,8 @@ module.exports = {
         flatten: true
     },
     pages: {
-        src: ['<%= paths.src %>/emails/<%= watchFile %>.hbs'],
+        // src: ['<%= paths.src %>/emails/<%= watchFile %>.hbs'],
+        src: ['<%= paths.src %>/emails/*.hbs'],
         dest: '<%= paths.dist %>/'
     }
 };

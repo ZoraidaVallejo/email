@@ -1,0 +1,67 @@
+/// ---------------------------
+// 
+// No version defined becuase this module cuold change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// B E C O M E   P R E M I U M   L O N G   A D
+// ----------------------------------------------------------------------------------------------------------
+
+.w-become-premium-long {
+    border-bottom: 2px solid plt('white');
+    background-color: plt('supernova');
+
+    a {
+        color: plt('tundora');
+        text-decoration: none;
+    }
+
+    p {
+        color: plt('tundora');
+    }
+
+    .columns {
+        padding: 30px $padding;
+        vertical-align: top;
+
+        .image {
+            text-align: left;
+            vertical-align: top;
+            width: (132px + 50px);
+            padding: 0;
+
+            img {
+                width: 132px;
+                max-width: floor(percentage(132px / (132px + 50px)));
+                height: auto;
+                display: block;
+            }
+        }
+
+        .desc {
+            width: ($inner-max-width - (132px + 50px));
+            padding: $padding 0 0;
+            vertical-align: top;
+
+            p {
+                line-height: 19px;
+            }
+        }
+
+        table {
+            width: 100%;
+        }
+    }
+
+    .cta {
+        text-align: center;
+        padding: 0 $padding $padding;
+
+        p {
+            font-size: 15px;
+        }
+    }
+}
+

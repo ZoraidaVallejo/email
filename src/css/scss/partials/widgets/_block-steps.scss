@@ -1,0 +1,58 @@
+/// ---------------------------
+// 
+// No version defined becuase this module cuold change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// B L O C K   S T E P S
+// ----------------------------------------------------------------------------------------------------------
+
+$steps-separator--dimensions: image-dimensions('/src/img/welcome-step-separator-01.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-block-steps {
+    border-bottom: 2px solid plt('white');
+    background-color: plt('primary');
+
+    p {
+        color: plt('white');
+    }
+
+    .head {
+        padding: 27px 0 8px;
+        vertical-align: top;
+        text-align: center;
+
+        p {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+
+    .step-counter {
+        width: nth($steps-separator--dimensions, 1);
+        height: nth($steps-separator--dimensions, 2);
+        background: url('../img/welcome-step-separator-01.png');
+        background-repeat: no-repeat !important;
+        background-color: plt('primary') !important;
+        vertical-align: middle;
+        text-align: center;
+
+        p {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    .bottom-space {
+        padding: 0;
+        height: 23px;
+        font-size: 0;
+        line-height: 0;
+    }
+}
+

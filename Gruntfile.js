@@ -14,7 +14,8 @@ module.exports = function(grunt) {
                 dist:       'dist',
                 dist_img:   'dist/img',
                 preview:    'preview',
-                live_img:   'https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters'
+                live_img:   'https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters',
+                remoteImagePath: '/mnt/files/emails/images/newsletters'
             },
 
             currentYear: '2016',
