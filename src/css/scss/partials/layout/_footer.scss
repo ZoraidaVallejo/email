@@ -1,0 +1,135 @@
+/// ---------------------------
+// 
+// Version: 1.0.0
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// F O O T E R
+// ----------------------------------------------------------------------------------------------------------
+
+$social-icons--size: 32px;
+$social-icons--gap: 4px;
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-footer {
+    clear: both;
+    background-color: plt('white');
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        max-width: none;
+    }
+
+    .spacer {
+        width: $inner-max-width;
+        height: 1px;
+        opacity: 0;
+        display: block;
+        font-size: 0;
+    }
+
+    .logo-social {
+        padding: 20px $padding;
+        border-bottom: 1px solid plt('picton-blue');
+
+        table {
+            width: 100%;
+        }
+
+        .logo,
+        .social {
+            width: percentage(1 / 2);
+            vertical-align: middle;
+        }
+
+        .logo {
+
+            img {
+                display: block;
+                max-width: none;
+                width: $justia-insights-width;
+                height: $justia-insights-height;
+            }
+        }
+
+
+        .social {
+            overflow: hidden;
+
+            table {
+                width: (($social-icons--size * 5) + ($social-icons--gap * 4)) !important;
+                // width: (($social-icons--size * 5) + ($social-icons--gap * 4));
+
+                td {
+                    width: ($social-icons--size + $social-icons--gap);
+                    height: $social-icons--size;
+                    text-align: left;
+                    vertical-align: top;
+
+                    &:last-child {
+                        width: $social-icons--size;
+                    }
+                }
+            }
+            
+            a {
+                display: inline-block !important;
+                vertical-align: middle;
+
+                img {
+                    width: $social-icons--size;
+                    height: $social-icons--size;
+                }
+            }
+        }
+    }
+
+
+
+    .disclaimer p,
+    .address p,
+    .footernav p,
+    span,
+    a {
+        font-size: ft-exist(14px);
+    }
+
+    .disclaimer {
+        padding: 40px $padding 20px;
+    }
+
+    .address {
+        padding: 0 $padding 10px;
+        vertical-align: top;
+
+        span,
+        a {
+            color: plt('black');
+        }
+    }
+
+
+    .footernav {
+        padding: 0 $padding floor($padding * 3);
+        vertical-align: top;
+
+        span,
+        a {
+            color: plt('accent');
+        }
+
+        .vline {
+            margin: 0 10px;
+            Margin: 0 10px;
+        }
+    }
+}
+
