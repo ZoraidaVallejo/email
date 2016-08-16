@@ -1,6 +1,6 @@
 /// ---------------------------
 // 
-// No version defined becuase this module cuold change each month.
+// No version defined becuase this module could change each month.
 // 
 /// ---------------------------
 
@@ -10,45 +10,81 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $buttons-grid: (
-    'cell-1': (
-        'bgcolor': plt('curious-blue'),
-        'image-dims': image-dimensions('/src/img/welcome-profile-button-01.png')
+
+    'w-step-buttons-01': (
+        'bgcolors': (
+            plt('curious-blue'),
+            plt('flush-orange'),
+            plt('purple-heart'),
+            plt('pelorous')
+        ),
+        'image-name': 'welcome-profile-button' // Just the begining of the name, ignore the serial number and extension.
     ),
-    'cell-2': (
-        'bgcolor': plt('flush-orange'),
-        'image-dims': image-dimensions('/src/img/welcome-profile-button-01.png')
+
+    'w-step-buttons-02': (
+        'bgcolors': (
+            plt('flush-orange'),
+            plt('curious-blue'),
+            plt('purple-heart')
+        ),
+        'image-name': 'welcome-put-a-face-button'
     ),
-    'cell-3': (
-        'bgcolor': plt('purple-heart'),
-        'image-dims': image-dimensions('/src/img/welcome-profile-button-03.png')
+
+    'w-step-buttons-03': (
+        'bgcolors': (
+            plt('flush-orange'),
+            plt('curious-blue'),
+            plt('purple-heart')
+        ),
+        'image-name': 'welcome-connect-clients-button'
     ),
-    'cell-4': (
-        'bgcolor': plt('pelorous'),
-        'image-dims': image-dimensions('/src/img/welcome-profile-button-04.png')
+
+    'w-step-buttons-04': (
+        'bgcolors': (
+            plt('flush-orange'),
+            plt('curious-blue'),
+            plt('purple-heart')
+        ),
+        'image-name': 'welcome-reach-clients-button'
+    ),
+
+    'w-step-buttons-05': (
+        'bgcolors': (
+            plt('curious-blue'),
+            plt('flush-orange'),
+            plt('purple-heart'),
+            plt('pelorous')
+        ),
+        'image-name': 'welcome-premium-member-button'
     ),
 );
 
 
+
 // ----------------------------------------------------------------------------------------------------------
 
-.w-buttons-grid-01 {
-    width: $max-width;
-    background-color: plt('white');
+@each $block, $config in $buttons-grid {
+    $_bgcolors: map-get($config, 'bgcolors');
+    $_img-name: map-get($config, 'image-name');
 
-    img {
-        display: block;
-        margin: 0;
-        color: plt('white');
-    }
+    .#{$block} {
+        width: $max-width;
+        background-color: plt('white');
 
-    @each $cell, $config in $buttons-grid {
+        img {
+            display: block;
+            margin: 0;
+            color: plt('white');
+        }
 
-        .#{$cell} {
-            background-color: map-get($config, 'bgcolor');
+        @for $i from 1 through length($_bgcolors) {
 
-            img {
-                width: (nth(map-get($config, 'image-dims'), 1) / 2);
-                // height: (nth(map-get($config, 'image-dims'), 2) / 2);
+            .cell-#{$i} {
+                background-color: nth($_bgcolors, $i);
+
+                img {
+                    width: (image-width('/src/img/#{$_img-name}-0#{$i}.png') / 2);
+                }
             }
         }
     }

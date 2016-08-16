@@ -1,0 +1,44 @@
+{{!--
+    No version defined becuase this module could change each month.
+--}}
+
+
+<!-- BUTTONS -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-step-buttons-05 columns-grid set-max-width">
+
+    {{!-- First row --}}
+    <tr>
+
+        {{> fixedColumnsGrid columStart=true fullWidth="600" cellWidth="300" cellAlignment="left" cellClasses="cell-1" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/premium-placement" target="_blank"><img src="{{default.image_dir_src}}/welcome-premium-member-button-01.png" alt="Premium placements enhance your visibility on the Justia & LII lawyer directories" border="0" /></a></td>
+            </tr>
+
+            {{> fixedColumnsGrid columnDiv=true cellWidth="300" cellAlignment="right" cellClasses="cell-2" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/premium-placement#traffic-stats" target="_blank"><img src="{{default.image_dir_src}}/welcome-premium-member-button-02.png" alt="Traffic stats of your visibility on the Justia & LII lawyer directories and legal portals" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnEnd=true }}
+    </tr>
+
+    {{!-- Second row --}}
+    <tr>
+        {{> fixedColumnsGrid rowClasses="-last" columStart=true fullWidth="600" cellWidth="300" cellAlignment="left" cellClasses="cell-3" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/premium-placement" target="_blank"><img src="{{default.image_dir_src}}/welcome-premium-member-button-03.png" alt="Enhanced profile intake form increases your potential client conversions" border="0" /></a></td>
+            </tr>
+
+            {{> fixedColumnsGrid columnDiv=true cellWidth="300" cellAlignment="right" cellClasses="cell-4" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/premium-placement" target="_blank"><img src="{{default.image_dir_src}}/welcome-premium-member-button-04.png" alt="Premium profile with no competitor advertising" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnEnd=true }}
+    </tr>
+</table>

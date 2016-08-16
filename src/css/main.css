@@ -221,6 +221,13 @@ body {
   vertical-align: top;
 }
 
+.columns-grid .single-grid-cell {
+  width: 600px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+}
+
 .columns-grid .grid-cell {
   width: 300px;
 }
@@ -343,46 +350,194 @@ body {
   line-height: 19px;
 }
 
-.w-buttons-grid-01 {
+.w-step-buttons-01 {
   width: 600px;
   background-color: #ffffff;
 }
 
-.w-buttons-grid-01 img {
+.w-step-buttons-01 img {
   display: block;
   margin: 0;
   color: #ffffff;
 }
 
-.w-buttons-grid-01 .cell-1 {
+.w-step-buttons-01 .cell-1 {
   background-color: #3498db;
 }
 
-.w-buttons-grid-01 .cell-1 img {
+.w-step-buttons-01 .cell-1 img {
   width: 300px;
 }
 
-.w-buttons-grid-01 .cell-2 {
+.w-step-buttons-01 .cell-2 {
   background-color: #ff7f00;
 }
 
-.w-buttons-grid-01 .cell-2 img {
+.w-step-buttons-01 .cell-2 img {
   width: 300px;
 }
 
-.w-buttons-grid-01 .cell-3 {
+.w-step-buttons-01 .cell-3 {
   background-color: #8635c2;
 }
 
-.w-buttons-grid-01 .cell-3 img {
+.w-step-buttons-01 .cell-3 img {
   width: 300px;
 }
 
-.w-buttons-grid-01 .cell-4 {
+.w-step-buttons-01 .cell-4 {
   background-color: #35b9ba;
 }
 
-.w-buttons-grid-01 .cell-4 img {
+.w-step-buttons-01 .cell-4 img {
+  width: 300px;
+}
+
+.w-step-buttons-02 {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.w-step-buttons-02 img {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-step-buttons-02 .cell-1 {
+  background-color: #ff7f00;
+}
+
+.w-step-buttons-02 .cell-1 img {
+  width: 600px;
+}
+
+.w-step-buttons-02 .cell-2 {
+  background-color: #3498db;
+}
+
+.w-step-buttons-02 .cell-2 img {
+  width: 300px;
+}
+
+.w-step-buttons-02 .cell-3 {
+  background-color: #8635c2;
+}
+
+.w-step-buttons-02 .cell-3 img {
+  width: 300px;
+}
+
+.w-step-buttons-03 {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.w-step-buttons-03 img {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-step-buttons-03 .cell-1 {
+  background-color: #ff7f00;
+}
+
+.w-step-buttons-03 .cell-1 img {
+  width: 600px;
+}
+
+.w-step-buttons-03 .cell-2 {
+  background-color: #3498db;
+}
+
+.w-step-buttons-03 .cell-2 img {
+  width: 300px;
+}
+
+.w-step-buttons-03 .cell-3 {
+  background-color: #8635c2;
+}
+
+.w-step-buttons-03 .cell-3 img {
+  width: 300px;
+}
+
+.w-step-buttons-04 {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.w-step-buttons-04 img {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-step-buttons-04 .cell-1 {
+  background-color: #ff7f00;
+}
+
+.w-step-buttons-04 .cell-1 img {
+  width: 600px;
+}
+
+.w-step-buttons-04 .cell-2 {
+  background-color: #3498db;
+}
+
+.w-step-buttons-04 .cell-2 img {
+  width: 300px;
+}
+
+.w-step-buttons-04 .cell-3 {
+  background-color: #8635c2;
+}
+
+.w-step-buttons-04 .cell-3 img {
+  width: 300px;
+}
+
+.w-step-buttons-05 {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.w-step-buttons-05 img {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-step-buttons-05 .cell-1 {
+  background-color: #3498db;
+}
+
+.w-step-buttons-05 .cell-1 img {
+  width: 300px;
+}
+
+.w-step-buttons-05 .cell-2 {
+  background-color: #ff7f00;
+}
+
+.w-step-buttons-05 .cell-2 img {
+  width: 300px;
+}
+
+.w-step-buttons-05 .cell-3 {
+  background-color: #8635c2;
+}
+
+.w-step-buttons-05 .cell-3 img {
+  width: 300px;
+}
+
+.w-step-buttons-05 .cell-4 {
+  background-color: #35b9ba;
+}
+
+.w-step-buttons-05 .cell-4 img {
   width: 300px;
 }
 

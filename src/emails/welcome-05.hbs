@@ -1,6 +1,6 @@
 ---
 layout: default.hbs
-subject: Welcome to Your Profile
+subject: Your Premium Membership
 ---
 
 {{!--
@@ -29,17 +29,17 @@ subject: Welcome to Your Profile
             {{> fixedLayoutHack tableStart=true }}
 
                 <!-- BLOCK STEPS -->
-                {{> block-steps title="Welcome to Your Profile" step="1 of 5" }}
+                {{> block-steps title="Your Premium Membership" step="5 of 5" }}
+
+            {{> fixedLayoutHack tableMiddleSeparator=true }}
+
+                <!-- BECOME PREMIUM SHORT AD -->
+                {{> become-premium-short}}
 
             {{> fixedLayoutHack tableMiddleSeparator=true }}
 
                 <!-- BUTTONS -->
-                {{> step-buttons-01}}
-
-            {{> fixedLayoutHack tableMiddleSeparator=true }}
-
-                <!-- BECOME PREMIUM LONG AD -->
-                {{> become-premium-long}}
+                {{> step-buttons-05}}
 
             {{> fixedLayoutHack tableMiddleSeparator=true }}
 
