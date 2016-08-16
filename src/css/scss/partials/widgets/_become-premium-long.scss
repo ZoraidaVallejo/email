@@ -10,6 +10,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-become-premium-long {
+    width: $max-width;
     border-bottom: 2px solid plt('white');
     background-color: plt('supernova');
 
@@ -47,6 +48,8 @@
 
             p {
                 line-height: 19px;
+                font-size: 16px !important;
+                // white-space: nowrap;
             }
         }
 
@@ -60,7 +63,9 @@
         padding: 0 $padding $padding;
 
         p {
-            font-size: 15px;
+            font-size: 15px !important;
+            line-height: 17px;
+            white-space: nowrap;
         }
     }
 }

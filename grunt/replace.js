@@ -2,12 +2,6 @@
 
 // Replace compiled template images sources from ../src/html to ../dist/html
 module.exports = function() {
-    var templateOptions = [{
-        expand: true,
-        flatten: true,
-        src: ['<%= paths.dist %>/<%= watchFile %>.html'],
-        dest: '<%= paths.dist %>'
-    }];
 
     var allTemplates = [{
         expand: true,
@@ -55,7 +49,7 @@ module.exports = function() {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(<(?:img|table|td)[^>]+?width=[\"']+?\d+(?:%|px|))( !important)/gi,
+                        match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
                         replacement: '$1'
                     },
                     {
@@ -132,11 +126,11 @@ module.exports = function() {
                 patterns: [
                     {
                         match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/<%= currentYear %>/<%= currentMonth %>/'
+                        replacement: '$1<%= paths.live_img %>/'
                     },
                     {
                         match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/<%= currentYear %>/<%= currentMonth %>/'
+                        replacement: '$1<%= paths.live_img %>/'
                     }
                 ]
             },

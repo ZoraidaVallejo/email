@@ -1,0 +1,55 @@
+/// ---------------------------
+// 
+// No version defined becuase this module cuold change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// B U T T O N S   G R I D
+// ----------------------------------------------------------------------------------------------------------
+
+$buttons-grid: (
+    'cell-1': (
+        'bgcolor': plt('curious-blue'),
+        'image-dims': image-dimensions('/src/img/welcome-profile-button-01.png')
+    ),
+    'cell-2': (
+        'bgcolor': plt('flush-orange'),
+        'image-dims': image-dimensions('/src/img/welcome-profile-button-01.png')
+    ),
+    'cell-3': (
+        'bgcolor': plt('purple-heart'),
+        'image-dims': image-dimensions('/src/img/welcome-profile-button-03.png')
+    ),
+    'cell-4': (
+        'bgcolor': plt('pelorous'),
+        'image-dims': image-dimensions('/src/img/welcome-profile-button-04.png')
+    ),
+);
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-buttons-grid-01 {
+    width: $max-width;
+    background-color: plt('white');
+
+    img {
+        display: block;
+        margin: 0;
+        color: plt('white');
+    }
+
+    @each $cell, $config in $buttons-grid {
+
+        .#{$cell} {
+            background-color: map-get($config, 'bgcolor');
+
+            img {
+                width: (nth(map-get($config, 'image-dims'), 1) / 2);
+                // height: (nth(map-get($config, 'image-dims'), 2) / 2);
+            }
+        }
+    }
+}

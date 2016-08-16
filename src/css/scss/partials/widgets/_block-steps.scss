@@ -15,6 +15,7 @@ $steps-separator--dimensions: image-dimensions('/src/img/welcome-step-separator-
 // ----------------------------------------------------------------------------------------------------------
 
 .w-block-steps {
+    width: $max-width;
     border-bottom: 2px solid plt('white');
     background-color: plt('primary');
 
@@ -23,13 +24,23 @@ $steps-separator--dimensions: image-dimensions('/src/img/welcome-step-separator-
     }
 
     .head {
-        padding: 27px 0 8px;
+        padding: 27px $padding 8px;
         vertical-align: top;
         text-align: center;
 
         p {
-            font-size: 32px;
+            font-size: 32px !important;
             line-height: 32px;
+        }
+    }
+
+    table {
+        width: $max-width;
+
+        td {
+            width: 100%;
+            padding: 0 $padding;
+            text-align: center;
         }
     }
 
@@ -43,7 +54,7 @@ $steps-separator--dimensions: image-dimensions('/src/img/welcome-step-separator-
         text-align: center;
 
         p {
-            font-size: 12px;
+            font-size: 12px !important;
             line-height: 12px;
         }
     }

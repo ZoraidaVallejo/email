@@ -10,6 +10,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-become-premium-short {
+    width: $max-width;
     border-bottom: 2px solid plt('white');
     background-color: plt('supernova');
 
@@ -44,10 +45,6 @@
             width: ($inner-max-width - (129px + $padding));
             padding: 0;
             vertical-align: top;
-
-            p {
-                line-height: 19px;
-            }
         }
 
         table {
@@ -58,8 +55,17 @@
             padding: 0 0 10px;
 
             p {
-                font-size: 22px;
+                font-size: 22px !important;
                 line-height: 22px;
+                white-space: nowrap;
+            }
+        }
+
+        .cta {
+
+            p {
+                font-size: 16px !important;
+                line-height: 19px;
             }
         }
     }

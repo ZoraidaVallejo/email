@@ -19,6 +19,7 @@ $footer-logo-height: 29px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer {
+    width: $max-width;
     clear: both;
     background-color: plt('white');
 
@@ -73,7 +74,8 @@ $footer-logo-height: 29px;
     .footernav p,
     span,
     a {
-        font-size: ft-exist(14px);
+        font-size: 14px !important;
+        white-space: nowrap;
     }
 
 
@@ -114,7 +116,7 @@ $footer-logo-height: 29px;
     }
 
     .address {
-        padding: 0 $padding floor($padding * 3);
+        padding: 0 $padding floor($padding * 4);
         vertical-align: top;
         text-align: center;
 

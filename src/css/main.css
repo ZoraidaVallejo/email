@@ -4,8 +4,8 @@ body {
   height: 100% !important;
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
-  background-color: #f3f3f3;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
 }
 
 .set-max-width {
@@ -16,13 +16,13 @@ body {
 h1,
 h2,
 h4 {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   margin: 0;
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
@@ -69,13 +69,15 @@ body {
 
 .spacer {
   width: 550px;
-  height: 1px;
+  height: 1px !important;
   opacity: 0;
-  display: block;
-  font-size: 0;
+  display: inline-block;
+  font-size: 0 !important;
+  margin: 0;
 }
 
 .main-header {
+  width: 600px;
   background: #ffffff;
 }
 
@@ -85,14 +87,15 @@ body {
   text-align: center;
 }
 
-.main-header .logo img {
-  display: inline-block;
+.main-header .logo .logo-img {
+  display: block;
   max-width: none;
-  width: 380px;
-  height: 27px;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .main-footer {
+  width: 600px;
   clear: both;
   background-color: #ffffff;
 }
@@ -148,7 +151,8 @@ body {
 .main-footer .footernav p,
 .main-footer span,
 .main-footer a {
-  font-size: 14px;
+  font-size: 14px !important;
+  white-space: nowrap;
 }
 
 .main-footer .social {
@@ -188,7 +192,7 @@ body {
 }
 
 .main-footer .address {
-  padding: 0 25px 75px;
+  padding: 0 25px 100px;
   vertical-align: top;
   text-align: center;
 }
@@ -203,7 +207,32 @@ body {
   text-transform: uppercase;
 }
 
+.columns-grid .grid-row {
+  padding: 0;
+  vertical-align: top;
+  font-size: 0;
+  text-align: center;
+}
+
+.columns-grid .grid-column {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+.columns-grid .grid-cell {
+  width: 300px;
+}
+
+.columns-grid .grid-cell td {
+  text-align: left;
+  vertical-align: top;
+  font-size: 16px;
+}
+
 .w-block-steps {
+  width: 600px;
   border-bottom: 2px solid #ffffff;
   background-color: #06357a;
 }
@@ -213,14 +242,24 @@ body {
 }
 
 .w-block-steps .head {
-  padding: 27px 0 8px;
+  padding: 27px 25px 8px;
   vertical-align: top;
   text-align: center;
 }
 
 .w-block-steps .head p {
-  font-size: 32px;
+  font-size: 32px !important;
   line-height: 32px;
+}
+
+.w-block-steps table {
+  width: 600px;
+}
+
+.w-block-steps table td {
+  width: 100%;
+  padding: 0 25px;
+  text-align: center;
 }
 
 .w-block-steps .step-counter {
@@ -234,7 +273,7 @@ body {
 }
 
 .w-block-steps .step-counter p {
-  font-size: 12px;
+  font-size: 12px !important;
   line-height: 12px;
 }
 
@@ -246,6 +285,7 @@ body {
 }
 
 .w-become-premium-short {
+  width: 600px;
   border-bottom: 2px solid #ffffff;
   background-color: #ffcb0b;
 }
@@ -284,10 +324,6 @@ body {
   vertical-align: top;
 }
 
-.w-become-premium-short .columns .desc p {
-  line-height: 19px;
-}
-
 .w-become-premium-short .columns table {
   width: 100%;
 }
@@ -297,11 +333,61 @@ body {
 }
 
 .w-become-premium-short .columns .title p {
-  font-size: 22px;
+  font-size: 22px !important;
   line-height: 22px;
+  white-space: nowrap;
+}
+
+.w-become-premium-short .columns .cta p {
+  font-size: 16px !important;
+  line-height: 19px;
+}
+
+.w-buttons-grid-01 {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.w-buttons-grid-01 img {
+  display: block;
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-buttons-grid-01 .cell-1 {
+  background-color: #3498db;
+}
+
+.w-buttons-grid-01 .cell-1 img {
+  width: 300px;
+}
+
+.w-buttons-grid-01 .cell-2 {
+  background-color: #ff7f00;
+}
+
+.w-buttons-grid-01 .cell-2 img {
+  width: 300px;
+}
+
+.w-buttons-grid-01 .cell-3 {
+  background-color: #8635c2;
+}
+
+.w-buttons-grid-01 .cell-3 img {
+  width: 300px;
+}
+
+.w-buttons-grid-01 .cell-4 {
+  background-color: #35b9ba;
+}
+
+.w-buttons-grid-01 .cell-4 img {
+  width: 300px;
 }
 
 .w-become-premium-long {
+  width: 600px;
   border-bottom: 2px solid #ffffff;
   background-color: #ffcb0b;
 }
@@ -342,6 +428,7 @@ body {
 
 .w-become-premium-long .columns .desc p {
   line-height: 19px;
+  font-size: 16px !important;
 }
 
 .w-become-premium-long .columns table {
@@ -354,10 +441,13 @@ body {
 }
 
 .w-become-premium-long .cta p {
-  font-size: 15px;
+  font-size: 15px !important;
+  line-height: 17px;
+  white-space: nowrap;
 }
 
 .w-main-description {
+  width: 600px;
   background-color: #06357a;
   color: #ffffff;
 }
@@ -368,5 +458,6 @@ body {
 
 .w-main-description p {
   color: #ffffff;
-  line-height: 18px;
+  line-height: 19px;
+  font-size: 16px !important;
 }

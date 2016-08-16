@@ -1,0 +1,44 @@
+{{!--
+    No version defined becuase this module cuold change each month.
+--}}
+
+
+<!-- BUTTONS -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-buttons-grid-01 columns-grid set-max-width">
+
+    {{!-- First row --}}
+    <tr>
+
+        {{> fixedColumnsGrid columStart=true fullWidth="600" cellWidth="300" cellAlignment="left" cellClasses="cell-1" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/profile/{ID}/edit/email" target="_blank"><img src="{{default.image_dir_src}}/welcome-profile-button-01.png" alt="Update your contact email address and receive more potential clients" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnDiv=true cellWidth="300" cellAlignment="right" cellClasses="cell-2" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/profile/{ID}/edit/profile_picture" target="_blank"><img src="{{default.image_dir_src}}/welcome-profile-button-02.png" alt="Add a high-resolution photo to build trust and present a strong first impression" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnEnd=true }}
+    </tr>
+
+    {{!-- Second row --}}
+    <tr>
+        {{> fixedColumnsGrid rowClasses="-last" columStart=true fullWidth="600" cellWidth="300" cellAlignment="left" cellClasses="cell-3" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/profile/{ID}/edit/contacts" target="_blank"><img src="{{default.image_dir_src}}/welcome-profile-button-03.png" alt="Target prospective clients by selecting practice areas and listing your office locations" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnDiv=true cellWidth="300" cellAlignment="right" cellClasses="cell-4" }}
+
+            <tr>
+                <td><a href="https://lawyers.justia.com/profile/{ID}/edit/profiles" target="_blank"><img src="{{default.image_dir_src}}/welcome-profile-button-04.png" alt="Provide more information by including your social media, blog, website, publications and awards" border="0" /></a></td>
+            </tr>
+
+        {{> fixedColumnsGrid columnEnd=true }}
+    </tr>
+</table>

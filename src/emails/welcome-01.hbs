@@ -26,27 +26,32 @@ subject: Welcome to Your Profile
     <tr>
         <td align="center" height="100%" width="100%" valign="top">
 
-            {{> ieLayoutHack tableStart=true }}
+            {{> fixedLayoutHack tableStart=true }}
 
                 <!-- BLOCK STEPS -->
                 {{> block-steps title="Welcome to Your Profile" step="1 of 5" }}
 
-            {{> ieLayoutHack tableMiddleSeparator=true }}
+            {{> fixedLayoutHack tableMiddleSeparator=true }}
 
                 <!-- BECOME PREMIUM SHORT AD -->
                 {{> become-premium-short}}
 
-            {{> ieLayoutHack tableMiddleSeparator=true }}
+            {{> fixedLayoutHack tableMiddleSeparator=true }}
+
+                <!-- BUTTONS -->
+                {{> step-01-grid}}
+
+            {{> fixedLayoutHack tableMiddleSeparator=true }}
 
                 <!-- BECOME PREMIUM LONG AD -->
                 {{> become-premium-long}}
 
-            {{> ieLayoutHack tableMiddleSeparator=true }}
+            {{> fixedLayoutHack tableMiddleSeparator=true }}
 
                 <!-- MAIN DESCRIPTION -->
                 {{> main-description}}
 
-            {{> ieLayoutHack tableEnd=true }}
+            {{> fixedLayoutHack tableEnd=true }}
 
         </td>
     </tr>
