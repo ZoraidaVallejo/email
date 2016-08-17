@@ -39,15 +39,12 @@ $divider-colors: (
     }
 
     .label {
-        // border-top: 1px solid plt('mine-shaft');
-        // background-color: plt('mine-shaft');
         width: 120px;
     }
 
     .empty-space {
         border-top: 1px solid plt('mercury');
     }
-    // }
 
     @each $type, $color in $divider-colors {
 

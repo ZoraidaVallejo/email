@@ -9,6 +9,6 @@ module.exports = {
             recipient: '<%= secrets.mailgun.recipient %>', // See README for secrets.json or replace this with your preferred recipient
             subject: 'This is a test email'
         },
-        src: ['<%= paths.dist %>/<%= watchFile %>']
+        src: ['<%= paths.dist %>/<%= fileToSend %>']
     }
 };

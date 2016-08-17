@@ -4,13 +4,14 @@
 module.exports = {
     main: {
         options: {
-            archive: '<%= watchFile %>.zip'
+            archive: '<%= compressName %>.zip'
         },
         files: [
             {
-                src: ['<%= paths.dist %>/<%= watchFile %>.html'],
-                dest: '/',
-                filter: 'isFile'
+                expand: true,
+                cwd: '<%= paths.dist %>/',
+                src: ['*.html'],
+                dest: '<%= paths.dist %>/'
             },
             {
                 expand: true,

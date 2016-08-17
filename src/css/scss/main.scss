@@ -30,11 +30,11 @@
 'partials/layout/footer';
 
 @import
-'partials/components/columns-grid';
+'partials/ui-components/columns-grid';
 
 @import
-'partials/widgets/block-steps',
-'partials/widgets/become-premium-short',
-'partials/widgets/step-buttons',
-'partials/widgets/become-premium-long',
-'partials/widgets/main-description';
+'partials/components/block-steps',
+'partials/components/become-premium-short',
+'partials/components/step-buttons',
+'partials/components/become-premium-long',
+'partials/components/main-description';

@@ -22,8 +22,9 @@ module.exports = function(grunt) {
                 remoteImagePath: '/mnt/files/emails/images/lawyer-directory/welcome-series'
             },
 
-            // watchFile: 'newsletter-<%= currentYear %>-<%= currentMonth %>',
-            watchFile: 'welcome-01.html',
+            // compressName: 'newsletter-<%= currentYear %>-<%= currentMonth %>',
+            fileToSend: 'welcome-01.html',
+            compressName: 'welcome-series',
 
             // secrets.json is ignored in git because it contains sensitive data
             // See the README for configuration settings

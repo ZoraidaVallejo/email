@@ -1,5 +1,5 @@
 
-# JUSTIA Newsletter v1.1.0
+# JUSTIA Mail Template Builder v1.1.0
 
 
 ## Table of Contents
@@ -22,7 +22,8 @@
     - [Version](#version)
     - [Workflow](#workflow)
 6. [Resources](#resources)
-7. [Recipients](#recipients)
+7. [Send the email to yourself](#send-the-email-to-yourself)
+    - [Recipients](#recipients)
 8. [Release History](#release-history)
 
 
@@ -35,14 +36,13 @@
 
 ## Installation
 
-Open a new terminal window and go to the `newsletters/` folder. Then change the node version to 5.11:
+Open a new terminal window and change the node version to 5.11:
 
 ```
-cd ~/path/to/newsletters/
 nvm use 5.11
 ```
 
-Or you can just use the following command (there is a `.nvmrc` file where the node version is declared):
+Or you can just use the following command (there is a **.nvmrc** file where the node version is declared):
 
 ```
 nvm use
@@ -73,30 +73,30 @@ npm install
     ├── img/
     ├── layouts/
     └── partials/
-        ├── components/
-        └── newsletter/
+        ├── ui-components/
+        └── components/
 ```
 
 Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
-`grunt/` | Contains all the Grunt modules. **Do not touch it unless you know what you are doing**.
-`log/` | Folder where the previous newsletter are stored in a zip file.
-`preview/` | All files related to the preview window where you see a ***preview*** of your work.
-`src/` | Main container folder of the newsletter source files.
+`grunt/` | Contains all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
+`log/` | Folder where the previous email templates are stored in a zip file.
+`preview/` | All files related to the preview window where you see a *preview* of your work.
+`src/` | Main folder where the source files of the email template are stored.
 `css/scss/modules/` | [More info](#css-modules).
 `css/scss/partials/` | [More info](#css-partials).
-`data/` | Contains optional .yml data files that can be used in your templates.
-`emails/` | Place where your main template will go. 
-`img/` | The name of the folder says it all.
+`data/` | Contains optional **.yml** data files that can be used in your templates.
+`emails/` | Place where your main template(s) will go. 
+`img/` | [More Info](#images)
 `layouts/` | Contains the standard HTML wrapper markup. You most likely will only need one layout template, but you can have as many as you like.
-`partials/components/` | [More info](#components).
-`partials/newsletter/` | [More info](#newsletter).
+`partials/ui-components/` | [More info](#ui-components).
+`partials/components/` | [More info](#newsletter).
 
 
 ### CSS
 
-This project uses [SCSS](http://sass-lang.com/).
+This project uses [SASS](http://sass-lang.com/).
 
 Media queries and responsive styles are in a separate stylesheet [preserve.scss](https://github.com/justia/justatic/blob/develop/newsletters/src/css/scss/preserve.scss) so that they don't get inlined. Go to [Responsive behavior](#responsive-behavior) to know how to set and use the responsive classes.
 
@@ -109,24 +109,28 @@ Directory reserved for Sass code that doesn't cause Sass to actually output CSS.
 
 This folder contains:
 
-- **functions**: A variety of functions for manage/modify colors, search/extend maps and do some mathematical operations. You will also find a file named `fn-shame`, where all the functions that are not properly documented with the [SassDoc annotations](http://sassdoc.com/annotations/) are.
-- **mixins**: Chunks of style rules. For now, it only has a mixin to declare a `font-face` rule.
-- **settings**: All the variables are declared here: available colors, font-sizes, dimentions and other stuff.
+- `functions/`: A variety of functions for manage/modify colors, search/extend maps and do some mathematical operations. You will also find a file named **fn-shame**, where all the functions that are not properly documented with the [SassDoc annotations](http://sassdoc.com/annotations/) are.
+- `mixins/`: Chunks of style rules. For now, it only has a mixin to declare a `font-face` rule.
+- `settings/`: All the variables are declared here: available colors, font-sizes, dimentions and other stuff.
 
 
 #### Partials
 
 Directory where the meat of the CSS is constructed.
 
-The following directories contain basic styles and some helper classes to create the newsletter. So, don't modify any file unless you really need to:
+The following directories contain basic styles and some helper classes. So, don't modify any of the files unless you really need to:
 
-- **components**: These files style some of the handlebars compoments: buttons and dividers with label. If you need another hbs component, please create a SCSS file with the same name and include all the styles here.
-- **layout**: Main styles of header and footer sections, and base styles of the main content containers.
-- **misc**: Reset styles and some helpers for development use.
+- `layout/`: Main styles of header and footer sections, and base styles of the main content.
+- `misc/`: Reset styles and some helpers for development use.
+- `ui-components/`: These files style some of the handlebars compoments: buttons, dividers, columns, etc.
 
 Now, this one is important:
 
-- **widgets**: Styles for all the block of the newsletter. *Add/modify/delete* SCSS files if you need to.
+- `components/`: Styles for all the *handlebar components* of the template. *Add/modify/delete* any file if you need to.
+
+> **Note**:
+> Some handlebar *UI components* or *components* will require a SASS partial. Name the new files like the handlebar component. For instance: **columnsGrid.hbs** → **columns-grid.scss**
+> Notice that the hbs file name is in camelCase and the SASS file uses dashes as separators. The reason is because you will posibly include the hbs component more than once (in my opinion, if use the dash format it becomes a little anoying to select/change/add it).
 
 
 ### Templates
@@ -134,26 +138,51 @@ Now, this one is important:
 Handlebars and Assemble are used for templating.
 
 
-#### Components
+#### UI Components
 
-Contains optional `.hbs` files that can help generate your markup. Each component will typically have a corresponding SCSS file in `src/css/scss/_{{component_name}}.scss`.
+Contains optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
 
-To use a component, for example `/partials/components/button.hbs` you would use the following code in your emails template.
+For example, to include the **button.hbs** component you would use the following code in your email template:
 
+```handlebars
+{{> button url="http://google.com/" }}
+```
 >**Note**: You can use single -or- double quotes for attributes.
 
+These are the available UI components that requires CSS to propertly work:
+
+- Buttons
+- Dividers with label
+- Columns grid (responsive)
+- Fixed columns grid (static)
+- Image backgrounds for IE (It doesn't have a module per-se. The styles should be defined on a case by case basis)
+
+This folder also includes some IE hack.
+
+- Center layout (responsive)
+- Fixed center layout (static)
+
+
+#### Components
+
+Contains all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
+
 ```handlebars
-{{> button buttonBlue=true url="http://google.com/" }}
+{{> customComponent}}
 ```
 
+### Images
 
-#### Newsletter
+The name of the folder says it all: place where all your source images will be stored.
 
-Contains all the `.hbs` blocks of the newsletter content. To use a partial, for example `/partials/newsletter/welcome-{{year}}-{{month}}.hbs` you will use the following code in your emails template:
+You maybe asking yourself, "Oh, Great Master, How the heck should I name the new images I create?". The answer is simple my little padawan, follow this convetion: ***[projectName]-[section]-[description]-[counter]***
 
-```handlebars
-{{> welcome-2016-08}}
-```
+For instance: **welcome-connect-clients-button-01.png**
+
+- [projectName] → **Welcome Series** → *welcome*
+- [section] → **Connect with Clients** → *connect-clients*
+- [description] → **According to the mockup, it's a button** → *button* :stuck_out_tongue_winking_eye:
+- [counter] → **This is the first button of many more** → *01*
 
 
 ## How to use
@@ -172,12 +201,12 @@ data: {
 
 ### Grunt commands
 
-- **`grunt`**: Cleans the `dist` folder and build the HTML (expanded version).
+- **`grunt`**: Cleans the `dist/` folder and build the HTML (expanded version).
 - **`grunt serve`**: Runs the default command (`grunt`), opens a local host and keeps watching your changes until you stop the proccess.
 - **`grunt build`**: Runs the default command, but this time the HTML will be compressed and all URL's will be absolute.
 - **`grunt send`**: Sends a copy of the Newsletter to the emails listed at the end of this document.
-- **`grunt upload`**: Uploads all the images to the remote server → `/mnt/files/emails/images/newsletters`.
-- **`grunt zip`**: Zip the `src/` and `dist/`.
+- **`grunt upload`**: Uploads all the images to the remote server → `/mnt/files/emails/images/{{remote_folder}}`.
+- **`grunt zip`**: Zip the `src/` and `dist/`. **CURRENTLY FAILING, DON'T USE IT**
 
 
 ### Responsive behavior
@@ -236,7 +265,7 @@ The main reason for these exclusions is that the styles and content can and will
 
 ### Workflow
 
-Defined in `main.scss`, `preserve.scss` and in the main template (`newsletter-{{year}}-{{month}}.hbs`).
+Defined in **main.scss**, **preserve.scss** and in the main template (**newsletter-{{year}}-{{month}}.hbs**).
 
 Tells which version of the main workflow said file and its children compatible with.
 
@@ -253,23 +282,37 @@ Tells which version of the main workflow said file and its children compatible w
 - http://ceagon.com/tools/charts
 - https://litmus.com/community/templates
 
+## Send the email to yourself
 
-## Recipients
+This workflow uses Mailgun to send one email at a time to the accounts defined below. To do that, open the **Gruntfile.js** and change the value of the `fileToSend` variable with the template name you want to test.
+
+Then simply run this command:
+```
+grunt 
+```
+
+
+### Recipients
 
 Client | Recipient
 ------ | ---------
-Gmail | digznav@gmail.com
-Outlook.com | digznav@hotmail.com
+Gmail | _Use the Justia account for this one. See Mailgun configuration to change the recipients in the **secrets.js** file._
+Outlook.com | diego.miguel.tester@outlook.com (pwd: diet32coke)
 Apple Mail | vinnz@me.com
-Yahoo! | digznav@yahoo.fr
+Yahoo! | jmailtester@yahoo.com (pwd: diet32coke)
 AOL | digznav@aol.com
+
+### Mailgun configuration
+
+User: diego.miguel@justia.com
+PWD: diet32coke
 
 
 ## Release History
 
 Version | Date | Description
 ------- | ---- | -----------
-v1.1.0 | 2016-08-03 | Remove duplicated variables in `default.yml` and keep the ones in the `Gruntfile.js` where the year and month of the current newsletter are been declared. Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
+v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
 v1.0.0 | 2016-07-28 | Delete unnecessary modules. Set version to all files. Create documentation.
 v0.1.0 | 2016-07-01 | Initial workflow.
 
