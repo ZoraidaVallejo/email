@@ -80,12 +80,14 @@ $footer-logo-height: 29px;
 
 
     .social {
-        width: 100%;
         overflow: hidden;
+        width: $max-width;
         padding: 20px $padding 10px;
+        text-align: center;
 
         table {
-            width: (($social-icons--size * 5) + ($social-icons--gap * 4)) !important;
+            width: (($social-icons--size * 5) + ($social-icons--gap * 4));
+            margin: 0 auto;
 
             td {
                 width: ($social-icons--size + $social-icons--gap);

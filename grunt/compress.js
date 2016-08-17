@@ -4,7 +4,7 @@
 module.exports = {
     main: {
         options: {
-            archive: '<%= compressedFileName %>.zip'
+            archive: '<%= compressed_file_name %>.zip'
         },
         files: [
             {

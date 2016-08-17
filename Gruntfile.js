@@ -5,9 +5,9 @@ module.exports = function(grunt) {
         // Pass data to tasks
         data: {
             port: 4000,
-            justaticVersion: '20160815a',
-            currentYear: '2016',
-            currentMonth: '08',
+            justatic_version: '20160815a',
+            current_year: '2016',
+            current_month: '08',
 
             // Re-usable filesystem path variables
             paths: {
@@ -16,12 +16,12 @@ module.exports = function(grunt) {
                 dist: 'dist',
                 dist_img: 'dist/img',
                 preview: 'preview',
-                live_img: 'https://justatic.com/v/<%= justaticVersion %>/emails/images/lawyer-directory/welcome-series',
-                remoteImagePath: '/mnt/files/emails/images/lawyer-directory/welcome-series'
+                live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/welcome-series',
+                remote_img_path: '/mnt/files/emails/images/lawyer-directory/welcome-series'
             },
 
-            fileToSend: 'welcome-01.html',
-            compressedFileName: 'welcome-series',
+            file_to_send: 'welcome-01.html',
+            compressed_file_name: 'welcome-series',
 
             // secrets.json is ignored in git because it contains sensitive data
             // See the README for configuration settings

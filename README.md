@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+
 1. [Requirements](#requirements)
 2. [Installation](#installation)
 3. [Folder structure](#folder-structure)
@@ -11,10 +12,11 @@
         - [Modules](#modules)
         - [Partials](#partials)
     - [Templates](#templates)
+        - [UI Components](#ui-components)
         - [Components](#components)
-        - [Newsletter](#newsletter)
+    - [Images](#images)
 4. [How to use](#how-to-use)
-    - [Set Year and Month](#set-year-and-month)
+    - [Gruntfile configuration](#gruntfile-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
@@ -22,8 +24,10 @@
     - [Version](#version)
     - [Workflow](#workflow)
 6. [Resources](#resources)
-7. [Send the email to yourself](#send-the-email-to-yourself)
+7. [Mailgun configuration](#mailgun-configuration)
+    - [Login information](#login-information)
     - [Recipients](#recipients)
+    - [Add another email account](#add-another-email-account)
 8. [Release History](#release-history)
 
 
@@ -81,7 +85,7 @@ Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `grunt/` | Contains all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
-`log/` | Folder where the previous email templates are stored in a zip file.
+`log/` | Folder where the previous email templates are stored in zip files.
 `preview/` | All files related to the preview window where you see a *preview* of your work.
 `src/` | Main folder where the source files of the email template are stored.
 `css/scss/modules/` | [More info](#css-modules).
@@ -188,25 +192,35 @@ For instance: **welcome-connect-clients-button-01.png**
 ## How to use
 
 
-### Set Year and Month
+### Gruntfile configuration
 
-Before you start, check/modify the **Gruntfile.js** files and make sure it has the correct year and month:
+Before you start, check/modify the **Gruntfile.js** file and make sure it has the correct configuration:
 
-```javascript
-data: {
-    currentYear: '2016',
-    currentMonth: '08'
-}
-```
+- **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
+- **`justatic_version`**: Version of Justatic to use in all absolute URL's.
+- **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
+- **`current_month`**: Current month. The same as the previous one.
+- **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
+- **`compressed_file_name`**: Name of the file where a copy of the **Gruntfile.js** file, `dist/` and `src/` folder are compressed.
+- **`secrets`**: File where the mailgun configuration is saved. **Don't touch it.**
+- **`path`**: Object with relative and remote paths.
+    - **`src`**: Folder where all development files are stored.
+    - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
+    - **`dist`**: Folder where the distribution-ready files will be placed.
+    - **`dist_img`**: Optimized images go here.
+    - **`preview`**: Folder for the source files of the preview mode.
+    - **`live_img`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
+    - **`remote_img_path`**: Remote folder to upload all images.
+
 
 ### Grunt commands
 
-- **`grunt`**: Cleans the `dist/` folder and build the HTML (expanded version).
-- **`grunt serve`**: Runs the default command (`grunt`), opens a local host and keeps watching your changes until you stop the proccess.
+- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version).
+- **`grunt serve`**: Runs the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
 - **`grunt build`**: Runs the default command, but this time the HTML will be compressed and all URL's will be absolute.
-- **`grunt send`**: Sends a copy of the Newsletter to the emails listed at the end of this document.
-- **`grunt upload`**: Uploads all the images to the remote server → `/mnt/files/emails/images/{{remote_folder}}`.
-- **`grunt zip`**: Zip the `src/` and `dist/`. **CURRENTLY FAILING, DON'T USE IT**
+- **`grunt send`**: Sends a copy of a template to all emails listed at the end of this document.
+- **`grunt upload`**: Uploads all the images to the remote server.
+- **`grunt zip`**: Zips the **Gruntfile.js** file, `src/` and `dist/` folders.
 
 
 ### Responsive behavior
@@ -282,30 +296,36 @@ Tells which version of the main workflow said file and its children compatible w
 - http://ceagon.com/tools/charts
 - https://litmus.com/community/templates
 
-## Send the email to yourself
+## Mailgun configuration
 
-This workflow uses Mailgun to send one email at a time to the accounts defined below. To do that, open the **Gruntfile.js** and change the value of the `fileToSend` variable with the template name you want to test.
+Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
 
-Then simply run this command:
-```
-grunt 
-```
+### Login information
+
+**Username** | diego.miguel@justia.com
+**Password** | diet32coke
 
 
 ### Recipients
 
-Client | Recipient
------- | ---------
-Gmail | _Use the Justia account for this one. See Mailgun configuration to change the recipients in the **secrets.js** file._
-Outlook.com | diego.miguel.tester@outlook.com (pwd: diet32coke)
-Apple Mail | vinnz@me.com
-Yahoo! | jmailtester@yahoo.com (pwd: diet32coke)
-AOL | digznav@aol.com
+Client | Account | Description
+------ | ------- | -----------
+Gmail | Use the Justia account for this one. | [More info][#add-another-email-account] about how to register a new mail account in Mailgun.
+Outlook.com | diego.miguel.tester@outlook.com | Password: *diet32coke*
+Yahoo! | jmailtester@yahoo.com | Password: *diet32coke*
+AOL | jmailtester@aol.com | Password: *diet32coke* <br> Security question: *What was the name of your first pet? → puppy*
+Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
 
-### Mailgun configuration
 
-User: diego.miguel@justia.com
-PWD: diet32coke
+### Add another email account
+
+> **Note:** You need log in first to modify this section.
+
+Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) section and "Invite a New Recipient" to the list (Mailgun will ask you to verify the new account before you can use it).
+
+Now open the **secrets.js** file and include the new account in the `"recipient"` option.
+
+And you are ready to go `s( ^ ‿ ^)-b`.
 
 
 ## Release History
