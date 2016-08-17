@@ -16,18 +16,18 @@
         - [Components](#components)
     - [Images](#images)
 4. [How to use](#how-to-use)
-    - [Gruntfile configuration](#gruntfile-configuration)
+    - [Grunt configuration](#grunt-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
 5. [File Version Control](#file-version-control)
     - [Version](#version)
     - [Workflow](#workflow)
-6. [Resources](#resources)
-7. [Mailgun configuration](#mailgun-configuration)
+6. [Mailgun configuration](#mailgun-configuration)
     - [Login information](#login-information)
     - [Recipients](#recipients)
     - [Add another email account](#add-another-email-account)
+7. [Resources](#resources)
 8. [Release History](#release-history)
 
 
@@ -192,7 +192,7 @@ For instance: **welcome-connect-clients-button-01.png**
 ## How to use
 
 
-### Gruntfile configuration
+### Grunt configuration
 
 Before you start, check/modify the **Gruntfile.js** file and make sure it has the correct configuration:
 
@@ -284,37 +284,26 @@ Defined in **main.scss**, **preserve.scss** and in the main template (**newslett
 Tells which version of the main workflow said file and its children compatible with.
 
 
-## Resources
-
-- http://mailbuild.rookiewebstudio.com/build?demo=Prorio
-- http://handlebarsjs.com/
-- https://litmus.com/blog/understanding-media-queries-in-html-email
-- https://backgrounds.cm/
-- https://www.campaignmonitor.com/blog/email-marketing/2012/12/using-web-fonts-in-email/
-- http://stylecampaign.com/blog/2015/02/webfont-support-in-email/
-- https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
-- http://ceagon.com/tools/charts
-- https://litmus.com/community/templates
-
 ## Mailgun configuration
 
 Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
 
 ### Login information
 
-**Username** | diego.miguel@justia.com
-**Password** | diet32coke
+**Username** | **Password**
+------------ | ------------
+diego.miguel@justia.com | diet32coke
 
 
 ### Recipients
 
 Client | Account | Description
 ------ | ------- | -----------
-Gmail | Use the Justia account for this one. | [More info][#add-another-email-account] about how to register a new mail account in Mailgun.
-Outlook.com | diego.miguel.tester@outlook.com | Password: *diet32coke*
-Yahoo! | jmailtester@yahoo.com | Password: *diet32coke*
-AOL | jmailtester@aol.com | Password: *diet32coke* <br> Security question: *What was the name of your first pet? → puppy*
-Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
+Gmail | Use the Justia account for this one. | [More info](#add-another-email-account) about how to register a new mail account in Mailgun.
+Outlook.com | diego.miguel.tester@outlook.com | **Password:** *diet32coke*
+Yahoo! | jmailtester@yahoo.com | **Password:** *diet32coke*
+AOL | jmailtester@aol.com | **Password:** *diet32coke* <br> **Security question:** <br> *What was the name of your first pet? → puppy*
+Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. <br>Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
 
 
 ### Add another email account
@@ -326,6 +315,19 @@ Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) se
 Now open the **secrets.js** file and include the new account in the `"recipient"` option.
 
 And you are ready to go `s( ^ ‿ ^)-b`.
+
+
+## Resources
+
+- http://mailbuild.rookiewebstudio.com/build?demo=Prorio
+- http://handlebarsjs.com/
+- https://litmus.com/blog/understanding-media-queries-in-html-email
+- https://backgrounds.cm/
+- https://www.campaignmonitor.com/blog/email-marketing/2012/12/using-web-fonts-in-email/
+- http://stylecampaign.com/blog/2015/02/webfont-support-in-email/
+- https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
+- http://ceagon.com/tools/charts
+- https://litmus.com/community/templates
 
 
 ## Release History
