@@ -4,9 +4,14 @@
 module.exports = {
     main: {
         options: {
-            archive: '<%= compressName %>.zip'
+            archive: '<%= compressedFileName %>.zip'
         },
         files: [
+            {
+                src: ['Gruntfile.js'],
+                dest: '/',
+                filter: 'isFile'
+            },
             {
                 expand: true,
                 cwd: '<%= paths.dist %>/',
