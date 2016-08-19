@@ -250,6 +250,11 @@ body {
   color: #ffffff;
 }
 
+.w-block-steps a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .w-block-steps .head {
   padding: 27px 25px 8px;
   vertical-align: top;

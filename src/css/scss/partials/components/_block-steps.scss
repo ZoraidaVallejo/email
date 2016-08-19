@@ -23,6 +23,11 @@ $steps-separator--dimensions: image-dimensions('/src/img/welcome-step-separator-
         color: plt('white');
     }
 
+    a {
+        text-decoration: none;
+        color: plt('white');
+    }
+
     .head {
         padding: 27px $padding 8px;
         vertical-align: top;
