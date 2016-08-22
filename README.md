@@ -319,6 +319,7 @@ And you are ready to go `s( ^ ‿ ^)-b`.
 
 ## Resources
 
+- http://www.leemunroe.com/responsive-email-design/ (Really good)
 - http://mailbuild.rookiewebstudio.com/build?demo=Prorio
 - http://handlebarsjs.com/
 - https://litmus.com/blog/understanding-media-queries-in-html-email
