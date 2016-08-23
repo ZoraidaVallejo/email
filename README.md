@@ -185,7 +185,7 @@ For instance: **welcome-connect-clients-button-01.png**
 
 - [projectName] → **Welcome Series** → *welcome*
 - [section] → **Connect with Clients** → *connect-clients*
-- [description] → **According to the mockup, it's a button** → *button* :stuck_out_tongue_winking_eye:
+- [description] → **According to the mockup, it's a button** → *button* `ᕕ( ՞ ᗜ ՞ )ᕗ`
 - [counter] → **This is the first button of many more** → *01*
 
 
@@ -237,9 +237,9 @@ To set a responsive behavior to any element, you will add all the classes you re
 
 If you really need a class in the final HTML, use the `id` attribute. The workflow will replace it with `class`.
 
-> You maybe asking yourself, "WTF?"   ╚═| ~ ಠ ₒ ಠ ~ |═╝
+> You maybe asking yourself, "WTF?" `╚═| ~ ಠ ₒ ಠ ~ |═╝`
 > 
-> It worked... so...   d–(^ ‿ ^ )z
+> It worked... so... `d–(^ ‿ ^ )z`
 
 
 #### Responsive Classes
@@ -335,8 +335,9 @@ And you are ready to go `s( ^ ‿ ^)-b`.
 
 Version | Date | Description
 ------- | ---- | -----------
-v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
-v1.0.0 | 2016-07-28 | Delete unnecessary modules. Set version to all files. Create documentation.
+v1.2.0 | 2016-08-03 | Changed all the workflow to work for multiple templates. <br> Created specific email accouts for testing.
+v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. <br> Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
+v1.0.0 | 2016-07-28 | Delete unnecessary modules. <br> Set version to all files. <br> Create documentation.
 v0.1.0 | 2016-07-01 | Initial workflow.
 
 
