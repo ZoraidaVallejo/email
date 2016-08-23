@@ -1,0 +1,26 @@
+/// ---------------------------
+// 
+// No version defined becuase this module could change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// F I R S T   C O M P O N E N T   E X A M P L E
+// ----------------------------------------------------------------------------------------------------------
+
+.w-firt-component-example {
+    width: $max-width;
+    border-bottom: 2px solid plt('white');
+    background-color: plt('supernova');
+
+    a {
+        color: plt('tundora');
+        text-decoration: none;
+    }
+
+    p {
+        color: plt('tundora');
+    }
+}
+
