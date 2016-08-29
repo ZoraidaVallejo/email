@@ -1,0 +1,54 @@
+---
+layout: default.hbs
+subject: Email subject
+---
+
+{{!--
+    Workflow: v1.1.0
+
+    All modules work perfectly with this workflow version.
+--}}
+
+<div id="preheader" style="height: 0; overflow: hidden; opacity: 0; display: none; width: 0; max-width: 0; visibility: hidden; max-height: 0; color: #f3f3f3; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 1px; line-height: 1px; mso-hide: all;">Preheader</div>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    {{!-- HEADER --}}
+    <tr>
+        <td align="center" height="100%" width="100%" valign="top">
+            {{> headerV1 date="August 2018"}}
+        </td>
+    </tr>
+
+
+
+    {{!-- CONTENT --}}
+    <tr>
+        <td align="center" height="100%" width="100%" valign="top">
+
+            {{> layoutHack tableStart=true }}
+                &nbsp;
+
+                {{!-- <!-- BLOCK STEPS -->
+                {{> block-steps title="Welcome to Your Profile" step="1 of 5" }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                <!-- BUTTONS -->
+                {{> step-buttons-01}} --}}
+
+            {{> layoutHack tableEnd=true }}
+
+        </td>
+    </tr>
+
+
+
+    {{!-- FOOTER --}}
+    <tr>
+        <td align="center" height="100%" width="100%" valign="top">
+            {{> footerV1}}
+        </td>
+    </tr>
+
+</table>
