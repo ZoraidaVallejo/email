@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder v1.1.0
+# JUSTIA Mail Template Builder v1.2.0
 
 
 ## Table of Contents
