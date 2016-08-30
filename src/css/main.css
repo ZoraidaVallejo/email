@@ -901,6 +901,57 @@ body {
   margin: 0 auto;
 }
 
+.w-feaured-site {
+  background-color: #f3f3f3;
+}
+
+.w-feaured-site .spacer {
+  width: 540px;
+  height: 1px;
+  opacity: 0;
+  display: block;
+  font-size: 0;
+}
+
+.w-feaured-site .client-url {
+  color: #000000;
+}
+
+.w-feaured-site a {
+  text-decoration: none;
+}
+
+.w-feaured-site .featured-site-title {
+  text-align: center;
+  padding: 45px 30px 20px;
+}
+
+.w-feaured-site .featured-client {
+  text-align: center;
+  padding: 0 30px 10px;
+}
+
+.w-feaured-site .featured-client p {
+  font-size: 22px;
+}
+
+.w-feaured-site .featured-desc {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.w-feaured-site .featured-img {
+  text-align: center;
+  padding: 30px 30px 45px;
+}
+
+.w-feaured-site .featured-img img {
+  display: block;
+  width: 520px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .align-center {
   text-align: center;
 }
