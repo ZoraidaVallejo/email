@@ -6,59 +6,13 @@
 
 
 // ----------------------------------------------------------------------------------------------------------
-// I N T E R N E T   S T A T S   &   F E A T U R E D   S I T E
+// F E A T U R E D   S I T E   O F   T H E   M O N T H
 // ----------------------------------------------------------------------------------------------------------
 
-$internet-stats-piechart--width: image-width('/src/img//piechart-01.png');
-
-$featured-site--width: image-width('/src/img//featured-site-01-a.jpg');
-// $featured-site--width: 500px;
+$featured-site--width: image-width('/src/img/featured-site-01-a.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
-
-.w-internet-stats {
-    background-color: plt('white');
-
-    .stats {
-
-        &-title {
-            vertical-align: top;
-            text-align: center;
-            padding: 45px $padding $padding;
-        }
-
-        &-piechart {
-            vertical-align: top;
-            text-align: center;
-            padding: 0 $padding;
-
-            img {
-                display: block;
-                width: $internet-stats-piechart--width;
-                height: auto;
-                margin: 0 auto;
-            }
-        }
-
-        &-desc {
-            vertical-align: top;
-            text-align: center;
-            padding: 40px $padding 45px;
-
-            a {
-                text-decoration: none;
-            }
-
-            .source {
-                font-size: ft-exist(14px);
-                line-height: 18px;
-            }
-        }
-    }
-
-}
-
 
 .w-feaured-site {
     background-color: plt('concrete');

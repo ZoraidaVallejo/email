@@ -6,26 +6,22 @@
 
 
 // ----------------------------------------------------------------------------------------------------------
-// P U G ' S   T A L E
+// M E E T   O U R   T E A M
 // ----------------------------------------------------------------------------------------------------------
 
-$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg') / 2;
+$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg') / 2;
 
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-pugs-tale {
-    background-color: plt('white');
+.w-meet-our-team {
+    background-color: plt('concrete');
 
-    a {
-        text-decoration: none;
-    }
-
-    .pugs-list {
+    .events-list {
         padding: 15px $padding 45px;
 
-        .pugs-desc {
-            width: ($inner-max-width - $pugs-image--width - $padding);
+        .event-desc {
+            width: ($inner-max-width - $meet-team-image--width - $padding);
             padding: $padding 0;
             text-align: left;
             vertical-align: top;
@@ -37,14 +33,14 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg') / 2;
             }
         }
 
-        .pugs-image {
-            width: ($pugs-image--width + $padding);
+        .event-image {
+            width: ($meet-team-image--width + $padding);
             padding: $padding 0;
             vertical-align: top;
 
             img {
-                width: $pugs-image--width;
-                max-width: floor(percentage($pugs-image--width / ($pugs-image--width + $padding)));
+                width: $meet-team-image--width;
+                max-width: floor(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
                 height: auto;
             }
         }
@@ -56,13 +52,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg') / 2;
             &:last-child {
                 border-bottom: 0;
 
-                .pugs-desc,
-                .pugs-image {
+                .event-desc,
+                .event-image {
                     padding: $padding 0 0;
                 }
             }
         }
     }
 }
-
 
