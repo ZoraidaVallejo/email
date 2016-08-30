@@ -79,11 +79,11 @@
   .mobile-no-border {
     border: 0 !important;
   }
-  .main-footer .logo {
+  .main-footer-v1 .logo {
     padding-bottom: 20px !important;
     border-bottom: 1px solid #398ff2;
   }
-  .main-footer .social {
+  .main-footer-v1 .social {
     padding-top: 20px !important;
   }
 }
