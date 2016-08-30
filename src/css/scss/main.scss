@@ -1,0 +1,52 @@
+/// ---------------------------
+// 
+// Workflow: v1.1.0
+// 
+// All modules work perfectly with this workflow version.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'../../../node_modules/sassy-maps/sass/sassy-maps',
+'image-dimensions';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+@import
+'partials/misc/global',
+'partials/misc/type';
+
+@import
+'partials/layout/main-container',
+'partials/layout/header-v1',
+'partials/layout/header-v2',
+'partials/layout/footer-v1',
+'partials/layout/footer-v2';
+
+@import
+'partials/ui-components/buttons',
+'partials/ui-components/label-dividers',
+'partials/ui-components/columns-grid';
+
+@import
+'partials/components/welcome',
+'partials/components/tech-news',
+'partials/components/tip-of-the-month',
+'partials/components/clients-in-the-news',
+'partials/components/did-you-know',
+'partials/components/pugs-tale',
+'partials/components/ask-a-lawyer',
+'partials/components/stats-featured',
+'partials/components/law-events',
+'partials/components/referral-program';
+
+@import
+'partials/misc/other';

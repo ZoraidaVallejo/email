@@ -1,0 +1,51 @@
+/// ---------------------------
+// 
+// No version defined becuase this module cuold change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// D I D   Y O U   K N O W ?
+// ----------------------------------------------------------------------------------------------------------
+
+.w-did-you-know {
+    background-color: plt('flush-orange');
+
+    .dyk {
+
+        &-title {
+            padding: 45px $padding 20px;
+        }
+
+        &-desc {
+            padding: 0 $padding;
+        }
+
+        &-link {
+            color: plt('white');
+            padding: 20px $padding 45px;
+        }
+    }
+
+    .widget-type-name,
+    .widget-main-title,
+    p,
+    a {
+        color: plt('white');
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .today-on-date {
+        display: block;
+        font-size: ft-exist(11px);
+        font-weight: $font-weight--bold;
+    }
+}
