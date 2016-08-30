@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder v1.2.0
+# JUSTIA Mail Template Builder v1.2.1
 
 
 ## Table of Contents
@@ -336,6 +336,7 @@ And you are ready to go `s( ^ ‿ ^)-b`.
 
 Version | Date | Description
 ------- | ---- | -----------
+v1.2.1 | 2016-08-30 | Zips the starter and moves it to the `log/` folder.
 v1.2.0 | 2016-08-23 | Changed all the workflow to work for multiple templates. <br> Created specific email accouts for testing. <br> Basic styles and modules to start creating a new email template.
 v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. <br> Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
 v1.0.0 | 2016-07-28 | Delete unnecessary modules. <br> Set version to all files. <br> Create documentation.
