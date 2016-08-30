@@ -5,101 +5,146 @@
 
 <!-- LAW EVENTS -->
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-law-events set-max-width">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-law-events columns-grid set-max-width">
     <tr>
         <td class="law-events-title align-center" responsive="mobile-padding-horizontal-sides">
             <h2 class="widget-main-title">Law Events</h2>
         </td>
     </tr>
 
-    {{!-- Law events - First row --}}
+{{!-- Law events - First row --}}
     <tr>
-        <td class="law-events-list" responsive="mobile-padding-horizontal-sides">
+        {{> columnsGrid
+            rowClasses="law-events-list"
+            columStart=true
+            fullWidth="540"
+            cellWidth="270"
+            cellAlignment="left"
+            cellClasses="event event-1"
+        }}
 
-            <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="540"><tr><td align="center" valign="top" width="270"><![endif]-->
+            <tr>
+                <td>
+                    <p class="date">September 8-9</p>
+                    <p class="desc">SEC Reporting Skills Workshop - San Francisco</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://pli.edu/Content/Seminar/SEC_Reporting_Skills_Workshop_2016/_/N-4kZ1z11c95?ID=262879" }}
+                </td>
+            </tr>
 
-                <div class="columns">
+        {{> columnsGrid
+            columnDiv=true
+            cellWidth="270"
+            cellAlignment="right"
+            cellClasses="event event-2"
+        }}
 
-                    <table cellpadding="0" cellspacing="0" border="0" align="left" class="event event-1" responsive="mobile-align-center mobile-no-float">
-                        <tr>
-                            <td>
-                                <p class="date">August 4 - 9</p>
-                                <p class="desc">American Bar Association Annual Meeting</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="button">
-                                {{> button buttonWhite=true url="http://www.americanbar.org/calendar/annual.html" }}
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-            <!--[if (gte mso 9)|(IE)]></td><td align="center" valign="top" width="270"><![endif]-->
+            <tr>
+                <td>
+                    <p class="date">September 8</p>
+                    <p class="desc">Nuts & Bolts of Electronic Discovery Law</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://pli.edu/Content/Seminar/Nuts_Bolts_of_Electronic_Discovery_2016/_/N-4kZ1z11i7e" }}
+                </td>
+            </tr>
 
-                <div class="columns">
-
-                    <table cellpadding="0" cellspacing="0" border="0" align="right" class="event event-3" responsive="mobile-align-center mobile-no-float">
-                        <tr>
-                            <td>
-                                <p class="date">Aug. 28 - Sep. 1</p>
-                                <p class="desc">International Legal Technology Association Annual Conference</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="button">
-                                {{> button buttonWhite=true url="http://www.iltacon.org/home?ssopc=1" }}
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-            <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
-        </td>
+        {{> columnsGrid columnEnd=true }}
     </tr>
 
-    {{!-- Law events - Second row --}}
+{{!-- Law events - Second row --}}
     <tr>
-        <td class="law-events-list -last" responsive="mobile-padding-horizontal-sides">
+        {{> columnsGrid
+            rowClasses="law-events-list"
+            columStart=true
+            fullWidth="540"
+            cellWidth="270"
+            cellAlignment="left"
+            cellClasses="event event-3"
+        }}
 
-            <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="540"><tr><td align="center" valign="top" width="270"><![endif]-->
+            <tr>
+                <td>
+                    <p class="date">September 12</p>
+                    <p class="desc">International Tax Issues 2016 - Chicago</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://pli.edu/Content/Seminar/International_Tax_Issues_2016/_/N-4kZ1z11j97" }}
+                </td>
+            </tr>
 
-                <div class="columns">
-                    <table cellpadding="0" cellspacing="0" border="0" align="left" class="event event-2" responsive="mobile-align-center mobile-no-float">
-                        <tr>
-                            <td>
-                                <p class="date">August 17</p>
-                                <p class="desc">Moneyball for Lawyers: How Legal Analytics Is Transforming the Business and Practice of Law (ABA Webinar)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="button">
-                                {{> button buttonWhite=true url="http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=251748950" }}
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            
-            <!--[if (gte mso 9)|(IE)]></td><td align="center" valign="top" width="270"><![endif]-->
+        {{> columnsGrid
+            columnDiv=true
+            cellWidth="270"
+            cellAlignment="right"
+            cellClasses="event event-4"
+        }}
 
-                <div class="columns">
-                    &nbsp;
-                    {{!-- <table cellpadding="0" cellspacing="0" border="0" align="right" class="event event-4" responsive="mobile-align-center mobile-no-float">
-                        <tr>
-                            <td>
-                                <p class="date">July 22 - 25</p>
-                                <p class="desc">American Association of Justice Annual Convention 2016</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="button">
-                                {{> button buttonWhite=true url="http://www.justiceannualconvention.org" }}
-                            </td>
-                        </tr>
-                    </table> --}}
-                </div>
+            <tr>
+                <td>
+                    <p class="date">September 13-14</p>
+                    <p class="desc">PLI 47th Annual Estate Planning Institute</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://pli.edu/Content/Seminar/47th_Annual_Estate_Planning_Institute/_/N-4kZ1z11iz7" }}
+                </td>
+            </tr>
 
-            <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
-        </td>
+        {{> columnsGrid columnEnd=true }}
     </tr>
+
+{{!-- Law events - Third row --}}
+    <tr>
+        {{> columnsGrid
+            rowClasses="law-events-list -last"
+            columStart=true
+            fullWidth="540"
+            cellWidth="270"
+            cellAlignment="left"
+            cellClasses="event event-5"
+        }}
+
+            <tr>
+                <td>
+                    <p class="date">September 19-20</p>
+                    <p class="desc">Clio Cloud Conference</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://cliocloudconference.com/" }}
+                </td>
+            </tr>
+
+        {{> columnsGrid
+            columnDiv=true
+            cellWidth="270"
+            cellAlignment="right"
+            cellClasses="event event-6"
+        }}
+
+            <tr>
+                <td>
+                    <p class="date">September 21</p>
+                    <p class="desc">Government Contracts 2016</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="button">
+                    {{> button buttonWhite=true url="http://pli.edu/Content/Seminar/Government_Contracts_2016/_/N-4kZ1z11i2r" }}
+                </td>
+            </tr>
+
+        {{> columnsGrid columnEnd=true }}
+    </tr>
+
 </table>

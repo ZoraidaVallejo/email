@@ -530,7 +530,6 @@ body {
   width: 600px;
   text-align: left;
   vertical-align: top;
-  font-size: 16px;
 }
 
 .columns-grid .grid-cell {
@@ -540,7 +539,6 @@ body {
 .columns-grid .grid-cell td {
   text-align: left;
   vertical-align: top;
-  font-size: 16px;
 }
 
 .w-welcome {
@@ -950,6 +948,49 @@ body {
   width: 520px;
   height: auto;
   margin: 0 auto;
+}
+
+.w-law-events {
+  background-color: #01b463;
+}
+
+.w-law-events .widget-main-title {
+  color: #ffffff;
+}
+
+.w-law-events .law-events-title {
+  padding: 45px 30px 30px;
+}
+
+.w-law-events .law-events-list {
+  padding: 0 30px;
+}
+
+.w-law-events .law-events-list.-last {
+  padding: 0 30px 15px;
+}
+
+.w-law-events .grid-column {
+  max-width: 270px;
+}
+
+.w-law-events .grid-cell {
+  width: 255px;
+}
+
+.w-law-events .date {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.w-law-events .desc {
+  color: #ffffff;
+}
+
+.w-law-events .button {
+  padding: 18px 0 40px;
 }
 
 .align-center {
