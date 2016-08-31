@@ -6,11 +6,10 @@
 
 
 // ----------------------------------------------------------------------------------------------------------
-// A S K   A   L A W Y E R
+// A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$ask-a-lawyer-background--dimensions: image-dimensions('/src/img/ask-a-lawyer-background-01.png');
-$ask-a-lawyer-button--width: image-width('/src/img/ask-a-lawyer-button-01.png');
+$advertisement-background--dimensions: image-dimensions('/src/img/advertisement-background-01.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -19,16 +18,16 @@ $ask-a-lawyer-button--width: image-width('/src/img/ask-a-lawyer-button-01.png');
 
     .dvbg {
         // padding: 45px $padding;
-        width: nth($ask-a-lawyer-background--dimensions, 1);
-        height: nth($ask-a-lawyer-background--dimensions, 2);
+        width: nth($advertisement-background--dimensions, 1);
+        height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/ask-a-lawyer-background-01.png');
+        background: url('../img/advertisement-background-01.png');
         background-color: plt('picton-blue');
         vertical-align: top;
     }
 
-    .cont {
-        width: 100%;
+    .inner-table {
+        width: $max-width;
         text-align: left;
 
         p,
@@ -42,36 +41,46 @@ $ask-a-lawyer-button--width: image-width('/src/img/ask-a-lawyer-button-01.png');
         }
 
         .cnt1 {
-            vertical-align: top;
+            height: 114px;
             padding: 25px $padding 0;
+            vertical-align: top;
+
+            p {
+                font-size: 40px;
+                line-height: 46px;
+            }
         }
 
         .cnt2 {
+            height: 82px;
+            padding: 0 $padding;
             vertical-align: top;
-            padding: 30px $padding 90px;
+
+            p {
+                font-size: 19px;
+                line-height: 27px;
+            }
         }
 
         .cnt3 {
-            text-align: center;
+            // text-align: center;
+            height: 45px;
             padding: 0 $padding;
+            vertical-align: top;
 
             p {
-                font-size: 12px;
+                font-size: 18px;
             }
         }
 
-        .ad-title {
+        .cnt4 {
+            padding: 23px $padding 0;
+            vertical-align: top;
 
             p {
-                font-size: 37px;
-                line-height: 45px;
+                font-size: 14px;
+                line-height: 21px;
             }
-        }
-
-        .jld-button {
-            display: block;
-            width: ($ask-a-lawyer-button--width / 2);
-            height: auto;
         }
     }
 }

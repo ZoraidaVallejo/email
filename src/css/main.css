@@ -824,56 +824,68 @@ body {
 
 .w-ask-a-lawyer .dvbg {
   width: 600px;
-  height: 300px;
+  height: 370px;
   background-repeat: no-repeat !important;
-  background: url("../img/ask-a-lawyer-background-01.png");
+  background: url("../img/advertisement-background-01.png");
   background-color: #398ff2;
   vertical-align: top;
 }
 
-.w-ask-a-lawyer .cont {
-  width: 100%;
+.w-ask-a-lawyer .inner-table {
+  width: 600px;
   text-align: left;
 }
 
-.w-ask-a-lawyer .cont p,
-.w-ask-a-lawyer .cont a,
-.w-ask-a-lawyer .cont strong {
+.w-ask-a-lawyer .inner-table p,
+.w-ask-a-lawyer .inner-table a,
+.w-ask-a-lawyer .inner-table strong {
   color: #ffffff;
 }
 
-.w-ask-a-lawyer .cont a {
+.w-ask-a-lawyer .inner-table a {
   text-decoration: none;
 }
 
-.w-ask-a-lawyer .cont .cnt1 {
-  vertical-align: top;
+.w-ask-a-lawyer .inner-table .cnt1 {
+  height: 114px;
   padding: 25px 30px 0;
-}
-
-.w-ask-a-lawyer .cont .cnt2 {
   vertical-align: top;
-  padding: 30px 30px 90px;
 }
 
-.w-ask-a-lawyer .cont .cnt3 {
-  text-align: center;
+.w-ask-a-lawyer .inner-table .cnt1 p {
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.w-ask-a-lawyer .inner-table .cnt2 {
+  height: 82px;
   padding: 0 30px;
+  vertical-align: top;
 }
 
-.w-ask-a-lawyer .cont .cnt3 p {
-  font-size: 12px;
+.w-ask-a-lawyer .inner-table .cnt2 p {
+  font-size: 19px;
+  line-height: 27px;
 }
 
-.w-ask-a-lawyer .cont .ad-title p {
-  font-size: 37px;
-  line-height: 45px;
+.w-ask-a-lawyer .inner-table .cnt3 {
+  height: 45px;
+  padding: 0 30px;
+  vertical-align: top;
 }
 
-.w-ask-a-lawyer .cont .jld-button {
-  display: block;
-  width: 225px;
-  height: auto;
+.w-ask-a-lawyer .inner-table .cnt3 p {
+  font-size: 18px;
+}
+
+.w-ask-a-lawyer .inner-table .cnt4 {
+  padding: 23px 30px 0;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .inner-table .cnt4 p {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .w-internet-stats {
