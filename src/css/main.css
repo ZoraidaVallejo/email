@@ -4,7 +4,7 @@ body {
   height: 100% !important;
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   background-color: #f3f3f3;
 }
 
@@ -16,13 +16,13 @@ body {
 h1,
 h2,
 h4 {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   font-weight: 400;
   margin: 0;
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
@@ -110,7 +110,7 @@ body {
   display: block;
   width: 100%;
   text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
 }
 
 .main-header-v1 .logo-date {
@@ -136,13 +136,13 @@ body {
 }
 
 .main-header-v1 .date {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
 }
 
 .main-header-v1 .date span {
   display: block;
   color: #000000;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
 }
 
 .main-header-v2 {
@@ -417,7 +417,7 @@ body {
 
 .label-divider span {
   color: #ffffff;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
 }
 
 .label-divider .label {
@@ -558,14 +558,14 @@ body {
 }
 
 .w-welcome--title h1 {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   font-size: 22px;
   color: #ffffff;
   line-height: 29px;
 }
 
 .w-welcome--title h1 span {
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   color: #ffffff;
 }
 
@@ -635,7 +635,7 @@ body {
 
 .w-tech-news .items-list a {
   text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif, "Open Sans";
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
   font-size: 16px;
   line-height: 22px;
 }
@@ -829,6 +829,13 @@ body {
   background: url("../img/advertisement-background-01.png");
   background-color: #398ff2;
   vertical-align: top;
+}
+
+.w-ask-a-lawyer .ad-icon {
+  display: inline-block;
+  width: 12.5px;
+  margin: 0;
+  vertical-align: middle;
 }
 
 .w-ask-a-lawyer .inner-table {

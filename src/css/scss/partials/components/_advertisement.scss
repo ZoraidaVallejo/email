@@ -26,6 +26,13 @@ $advertisement-background--dimensions: image-dimensions('/src/img/advertisement-
         vertical-align: top;
     }
 
+    .ad-icon {
+        display: inline-block;
+        width: (image-width('/src/img/ad-icon-phone-01.png') / 2);
+        margin: 0;
+        vertical-align: middle;
+    }
+
     .inner-table {
         width: $max-width;
         text-align: left;
