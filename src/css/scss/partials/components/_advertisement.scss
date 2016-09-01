@@ -79,15 +79,17 @@ $advertisement-background--dimensions: image-dimensions('/src/img/advertisement-
                 font-size: 18px;
             }
         }
+    }
 
-        .cnt4 {
-            padding: 23px $padding 0;
-            vertical-align: top;
+    .cnt4 {
+        background-color: plt('picton-blue');
+        padding: 23px $padding;
+        vertical-align: top;
 
-            p {
-                font-size: 14px;
-                line-height: 21px;
-            }
+        p {
+            font-size: 14px;
+            line-height: 21px;
+            color: plt('white');
         }
     }
 }
