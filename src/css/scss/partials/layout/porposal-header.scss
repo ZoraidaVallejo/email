@@ -9,8 +9,8 @@
 // H E A D E R
 // ----------------------------------------------------------------------------------------------------------
 
-$header-log-v1-width: 150px;
-$header-logo-v1-height: 40px;
+$header-log-v1-width: 208px;
+$header-logo-v1-height: 56px;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ $header-logo-v1-height: 40px;
     .logo-tag {
         overflow: hidden;
         width: 100%;
-        padding: $padding 50px 10px;
+        padding: 0 50px 10px;
     }
 
 
@@ -36,9 +36,8 @@ $header-logo-v1-height: 40px;
         img {
             float: left;
             display: block;
-            max-width: none;
             width: $header-log-v1-width;
-            height: $header-logo-v1-height;
+            // height: $header-logo-v1-height;
             margin: 0;
         }
     }

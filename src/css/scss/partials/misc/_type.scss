@@ -9,36 +9,37 @@
 // T Y P O G R A P H Y
 // ----------------------------------------------------------------------------------------------------------
 
-h1,
-h2,
-h4 {
-    display: block;
-    font-family: $serif-font-family;
-    // font-weight: $font-weight--normal;
-    // margin: 0;
-}
+// h1,
+// h2,
+// h4 {
+//     display: block;
+//     // font-weight: $font-weight--normal;
+//     // margin: 0;
+// }
 
 h4 {
     font-size: 14pt;
     // font-size: pt-to-px(14);
-    line-height: 1.5;
     margin: 0 0 1em;
 }
 
 h2 {
     font-size: 16pt;
     // font-size: pt-to-px(16);
-    line-height: 1.5;
+    // margin: 1em 0 0.83em;
 }
 
 p {
-    display: block;
-    font-family: $serif-font-family;
-    font-size: 12pt;
-    // font-size: pt-to-px(12);
-    line-height: 1.5;
-    font-weight: $font-weight--normal;
     margin: 0 0 1em;
+
+    + {
+
+        ul,
+        ol,
+        dl {
+            margin-top: 0;
+        }
+    }
 }
 
 a {

@@ -28,6 +28,18 @@ module.exports = function() {
             files: allTemplates
         },
 
+        dup_style: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: /(<\/style>\s*<style type=[^>]+>)/g,
+                        replacement: ''
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
         // Replace width="176 !important" in table tag
         important_style: {

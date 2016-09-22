@@ -9,6 +9,7 @@ body {
 }
 
 div {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -18,31 +19,23 @@ div {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h4 {
-  display: block;
-  font-family: TimesNewRoman, "Times New Roman", Times, serif;
-}
-
 h4 {
   font-size: 14pt;
-  line-height: 1.5;
   margin: 0 0 1em;
 }
 
 h2 {
   font-size: 16pt;
-  line-height: 1.5;
 }
 
 p {
-  display: block;
-  font-family: TimesNewRoman, "Times New Roman", Times, serif;
-  font-size: 12pt;
-  line-height: 1.5;
-  font-weight: 400;
   margin: 0 0 1em;
+}
+
+p + ul,
+p + ol,
+p + dl {
+  margin-top: 0;
 }
 
 a {
@@ -54,9 +47,56 @@ body {
   background-color: #e3e3e3;
 }
 
+.column {
+  float: left;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.column img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-p1,
+.columns-p2 {
+  overflow: hidden;
+}
+
+.columns-p1 .cl-1 {
+  width: 40%;
+  padding-right: 5%;
+}
+
+.columns-p1 .cl-2 {
+  width: 55%;
+}
+
+.columns-p2 .cl-1 {
+  width: 60%;
+  padding-right: 5%;
+}
+
+.columns-p2 .cl-2 {
+  width: 35%;
+}
+
+.columns-p3 .cl-1 {
+  width: 40%;
+  padding-right: 5%;
+}
+
+.columns-p3 .cl-2 {
+  width: 55%;
+}
+
 .main-content {
   background-color: #ffffff;
   padding: 10px 50px 30px;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+  font-size: 12pt;
+  line-height: 1.4;
 }
 
 .main-proposal-header {
@@ -66,7 +106,7 @@ body {
 .main-proposal-header .logo-tag {
   overflow: hidden;
   width: 100%;
-  padding: 30px 50px 10px;
+  padding: 0 50px 10px;
 }
 
 .main-proposal-header .logo,
@@ -78,9 +118,7 @@ body {
 .main-proposal-header .logo img {
   float: left;
   display: block;
-  max-width: none;
-  width: 150px;
-  height: 40px;
+  width: 208px;
   margin: 0;
 }
 
@@ -119,5 +157,4 @@ body {
 
 .no-margin {
   margin: 0;
-  Margin: 0;
 }
