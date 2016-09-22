@@ -4,10 +4,3 @@ image_dir_src: "../src/img"
 # Header and footer shared the same logo
 proposal_header_logo_url: "https://justatic.com/v/20160219c/branding/logos/emails/justia-blue.png"
 proposal_header_logo_alt: "Justia"
-
-footer_logo_v2_url: "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png"
-footer_logo_v2_alt: "Justia"
-
-
-view_in_browser_url: "#"
-unsubscribe_url: "*|UNSUB|*"
