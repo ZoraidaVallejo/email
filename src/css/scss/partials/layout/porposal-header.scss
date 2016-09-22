@@ -1,0 +1,58 @@
+/// ---------------------------
+// 
+// Version: 1.0.0
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// H E A D E R
+// ----------------------------------------------------------------------------------------------------------
+
+$header-log-v1-width: 150px;
+$header-logo-v1-height: 40px;
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-proposal-header {
+    background: plt('white');
+
+    .logo-tag {
+        overflow: hidden;
+        width: 100%;
+        padding: $padding 50px 10px;
+    }
+
+
+    .logo,
+    .tagline {
+        float: left;
+        width: percentage(1 / 2);
+    }
+
+    .logo {
+
+        img {
+            float: left;
+            display: block;
+            max-width: none;
+            width: $header-log-v1-width;
+            height: $header-logo-v1-height;
+            margin: 0;
+        }
+    }
+
+    .tagline {
+
+        p {
+            display: block;
+            margin: 0;
+            font-family: $sans-serif-font-family;
+            font-size: 18pt;
+            // font-size: pt-to-px(18);
+            line-height: 1.2;
+        }
+    }
+}
+

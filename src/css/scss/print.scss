@@ -1,0 +1,48 @@
+/// ---------------------------
+// 
+// Version: 1.0.0
+// 
+// All modules work perfectly with this workflow version.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'../../../node_modules/sassy-maps/sass/sassy-maps',
+'image-dimensions';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+@page {
+    margin: 0;
+    padding: 0;
+    size: auto;
+    odd-header-name: html_Header;
+    odd-footer-name: html_Footer;
+    even-header-name: html_Header;
+    even-footer-name: html_Footer;
+    // margin-top: 155px;
+}
+
+@page noheader {
+    odd-header-name: _blank;
+    odd-footer-name: _blank;
+}
+
+@page :first {
+    odd-header-name: html_HeaderFirst;
+    even-header-name: html_HeaderFirst;
+    even-header-name: html_Header;
+    even-footer-name: html_Footer;
+    // margin-top: 112px;
+}

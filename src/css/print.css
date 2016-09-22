@@ -1,0 +1,21 @@
+@page {
+  margin: 0;
+  padding: 0;
+  size: auto;
+  odd-header-name: html_Header;
+  odd-footer-name: html_Footer;
+  even-header-name: html_Header;
+  even-footer-name: html_Footer;
+}
+
+@page noheader {
+  odd-header-name: _blank;
+  odd-footer-name: _blank;
+}
+
+@page :first {
+  odd-header-name: html_HeaderFirst;
+  even-header-name: html_HeaderFirst;
+  even-header-name: html_Header;
+  even-footer-name: html_Footer;
+}

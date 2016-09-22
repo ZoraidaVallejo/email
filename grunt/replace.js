@@ -29,20 +29,6 @@ module.exports = function() {
         },
 
 
-        dup_style: {
-            options: {
-                usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<\/style>\n<style type=.+>)/g,
-                        replacement: ''
-                    }
-                ]
-            },
-            files: allTemplates
-        },
-
-
         // Replace width="176 !important" in table tag
         important_style: {
             options: {
@@ -51,10 +37,6 @@ module.exports = function() {
                     {
                         match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
                         replacement: '$1'
-                    },
-                    {
-                        match: /stylecustom/g,
-                        replacement: 'style'
                     }
                 ]
             },

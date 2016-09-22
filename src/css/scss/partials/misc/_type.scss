@@ -1,0 +1,57 @@
+/// ---------------------------
+// 
+// Version: 1.0.0
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// T Y P O G R A P H Y
+// ----------------------------------------------------------------------------------------------------------
+
+h1,
+h2,
+h4 {
+    display: block;
+    font-family: $serif-font-family;
+    // font-weight: $font-weight--normal;
+    // margin: 0;
+}
+
+h4 {
+    font-size: 14pt;
+    // font-size: pt-to-px(14);
+    line-height: 1.5;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 16pt;
+    // font-size: pt-to-px(16);
+    line-height: 1.5;
+}
+
+p {
+    display: block;
+    font-family: $serif-font-family;
+    font-size: 12pt;
+    // font-size: pt-to-px(12);
+    line-height: 1.5;
+    font-weight: $font-weight--normal;
+    margin: 0 0 1em;
+}
+
+a {
+    color: plt('accent');
+}
+
+// Break long strings to prevent x-scrolling
+// code,
+// pre,
+// .word-wrap {
+//     word-break: break-word;
+//     word-wrap: break-word;
+//     -webkit-hyphens: auto;
+//     -moz-hyphens: auto;
+//     hyphens: auto;
+// }

@@ -3,13 +3,13 @@
 default:
     - 'clean'
     - 'sass:dist'
+    - 'cssmin'
     - 'assemble'
     - 'juice'
     - 'imagemin'
-    - 'replace:important_style'
-    - 'replace:dup_style'
-    - 'replace:remove_classes'
-    - 'replace:fix_responsive'
+    # - 'replace:important_style'
+    # - 'replace:remove_classes'
+    # - 'replace:fix_responsive'
     - 'replace:src_images'
 
 build:
@@ -33,8 +33,8 @@ serve:
     - 'watch'
 
 upload:
-    - build
-    - sftp-deploy
+    - 'imagemin'
+    - 'sftp-deploy'
 
 zip:
-    - compress
+    - 'compress'
