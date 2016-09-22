@@ -47,56 +47,76 @@ body {
   background-color: #e3e3e3;
 }
 
-.column {
+.page {
+  background-color: #ffffff;
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 0 45px;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+  font-size: 12pt;
+  line-height: 1.4;
+}
+
+.main-content:last-child {
+  padding-bottom: 50px;
+}
+
+.col {
   float: left;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-.column img {
+.col img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.columns-p1,
-.columns-p2 {
+.cols {
+  clear: both;
   overflow: hidden;
 }
 
-.columns-p1 .cl-1 {
-  width: 40%;
-  padding-right: 5%;
+.cols-pnt-1 {
+  padding: 0 29px 0 45px;
 }
 
-.columns-p1 .cl-2 {
+.cols-pnt-1 .cl-1 {
+  width: 40%;
+}
+
+.cols-pnt-1 .cl-2 {
+  float: right;
   width: 55%;
 }
 
-.columns-p2 .cl-1 {
-  width: 60%;
-  padding-right: 5%;
+.cols-pnt-2 {
+  padding: 0 40px 0 45px;
 }
 
-.columns-p2 .cl-2 {
+.cols-pnt-2 .cl-1 {
+  width: 60%;
+}
+
+.cols-pnt-2 .cl-2 {
+  float: right;
   width: 35%;
 }
 
-.columns-p3 .cl-1 {
+.cols-pnt-3 {
+  padding: 0 29px 0 45px;
+}
+
+.cols-pnt-3 .cl-1 {
   width: 40%;
-  padding-right: 5%;
 }
 
-.columns-p3 .cl-2 {
+.cols-pnt-3 .cl-2 {
+  float: right;
   width: 55%;
-}
-
-.main-content {
-  background-color: #ffffff;
-  padding: 10px 50px 30px;
-  font-family: TimesNewRoman, "Times New Roman", Times, serif;
-  font-size: 12pt;
-  line-height: 1.4;
 }
 
 .main-proposal-header {
@@ -106,7 +126,7 @@ body {
 .main-proposal-header .logo-tag {
   overflow: hidden;
   width: 100%;
-  padding: 0 50px 10px;
+  padding: 0 50px 30px;
 }
 
 .main-proposal-header .logo,
