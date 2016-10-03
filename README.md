@@ -20,15 +20,12 @@
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-5. [File Version Control](#file-version-control)
-    - [Version](#version)
-    - [Workflow](#workflow)
-6. [Mailgun configuration](#mailgun-configuration)
+5. [Mailgun configuration](#mailgun-configuration)
     - [Login information](#login-information)
     - [Recipients](#recipients)
     - [Add another email account](#add-another-email-account)
-7. [Resources](#resources)
-8. [Release History](#release-history)
+6. [Resources](#resources)
+7. [Release History](#release-history)
 
 
 ## Requirements
@@ -263,25 +260,6 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 - **`mobile-no-padding-horizontal-sides`**: Removes the right and left paddings.
 - **`mobile-no-float`**: Resets float to none.
 - **`mobile-no-border`**: Removes all borders.
-
-
-## File Version Control
-
-
-### Version
-
-You will bump it up only when you modify something from the file's content. Even if it's a minor change like update a single variable, change a color or a selector.
-
-This only applies to most of the SCSS files except **`main.scss`** and all the files in the **`widgets/` directory**. And most of the **Handlebars components** except **all the files in the **`newsletter/` folder**.
-
-The main reason for these exclusions is that the styles and content can and will change each month.
-
-
-### Workflow
-
-Defined in **main.scss**, **preserve.scss** and in the main template (**newsletter-{{year}}-{{month}}.hbs**).
-
-Tells which version of the main workflow said file and its children compatible with.
 
 
 ## Mailgun configuration

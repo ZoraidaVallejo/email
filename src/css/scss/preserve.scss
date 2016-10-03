@@ -1,11 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-// All modules work perfectly with this workflow version.
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
@@ -87,7 +79,7 @@ a[href^=tel] {
 }
 
 // ANDROID CENTER FIX
-div[style*="margin: 16px 0;"] {
+div[style*='margin: 16px 0;'] {
     margin: 0 !important;
 }
 
@@ -112,8 +104,8 @@ div[style*="margin: 16px 0;"] {
 
 @media screen {
 
-    [style*="OpenSans"] {
-        font-family: "OpenSans", Arial, sans-serif !important;
+    [style*='OpenSans'] {
+        font-family: 'OpenSans', Arial, sans-serif !important;
     }
 }
 
