@@ -23,6 +23,12 @@ module.exports = {
                 cwd: '<%= paths.src %>/',
                 src: ['**/*'],
                 dest: '<%= paths.src %>/'
+            },
+            {
+                expand: true,
+                cwd: 'grunt/',
+                src: ['**/*'],
+                dest: 'grunt/'
             }
         ]
     }
