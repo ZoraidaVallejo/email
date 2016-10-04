@@ -780,11 +780,11 @@ body {
 }
 
 .w-pugs-tale .pugs-list {
-  padding: 15px 30px 45px;
+  padding: 15px 30px;
 }
 
 .w-pugs-tale .pugs-list .pugs-desc {
-  width: 330px;
+  width: 326px;
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
@@ -797,13 +797,13 @@ body {
 }
 
 .w-pugs-tale .pugs-list .pugs-image {
-  width: 210px;
+  width: 214px;
   padding: 30px 0;
   vertical-align: top;
 }
 
 .w-pugs-tale .pugs-list .pugs-image img {
-  width: 180px;
+  width: 184px;
   max-width: 85%;
   height: auto;
 }
@@ -817,9 +817,12 @@ body {
   border-bottom: 0;
 }
 
-.w-pugs-tale .pugs-list table:last-child .pugs-desc,
-.w-pugs-tale .pugs-list table:last-child .pugs-image {
+.w-pugs-tale .pugs-list table:last-child .pugs-desc {
   padding: 30px 0 0;
+}
+
+.w-pugs-tale .pugs-list table:last-child .pugs-image {
+  padding: 10px 0 0;
 }
 
 .w-ask-a-lawyer .dvbg {
@@ -839,7 +842,7 @@ body {
 .w-ask-a-lawyer .inner-table p,
 .w-ask-a-lawyer .inner-table a,
 .w-ask-a-lawyer .inner-table strong {
-  color: #3498db;
+  color: #398ff2;
 }
 
 .w-ask-a-lawyer .inner-table a {
@@ -888,13 +891,13 @@ body {
   padding: 45px 30px 30px;
 }
 
-.w-internet-stats .stats-piechart {
+.w-internet-stats .stats-chart {
   vertical-align: top;
   text-align: center;
   padding: 0 30px;
 }
 
-.w-internet-stats .stats-piechart img {
+.w-internet-stats .stats-chart img {
   display: block;
   width: 500px;
   height: auto;

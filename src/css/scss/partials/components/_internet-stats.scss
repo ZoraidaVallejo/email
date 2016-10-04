@@ -3,7 +3,7 @@
 // I N T E R N E T   S T A T S
 // ----------------------------------------------------------------------------------------------------------
 
-$internet-stats-piechart--width: image-width('/src/img/piechart-01.png') / 2;
+$internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ $internet-stats-piechart--width: image-width('/src/img/piechart-01.png') / 2;
             padding: 45px $padding $padding;
         }
 
-        &-piechart {
+        &-chart {
             vertical-align: top;
             text-align: center;
             padding: 0 $padding;
@@ -27,7 +27,7 @@ $internet-stats-piechart--width: image-width('/src/img/piechart-01.png') / 2;
 
             img {
                 display: block;
-                width: $internet-stats-piechart--width;
+                width: $internet-stats-chart--width;
                 height: auto;
                 margin: 0 auto;
             }

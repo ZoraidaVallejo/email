@@ -3,7 +3,7 @@
 // P U G ' S   T A L E
 // ----------------------------------------------------------------------------------------------------------
 
-$pugs-image--width: image-width('/src/img/pugs-tale-01.png') / 2;
+$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.png') / 2;
     }
 
     .pugs-list {
-        padding: 15px $padding 45px;
+        padding: 15px $padding;
 
         .pugs-desc {
             width: ($inner-max-width - $pugs-image--width - $padding);
@@ -50,9 +50,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.png') / 2;
             &:last-child {
                 border-bottom: 0;
 
-                .pugs-desc,
-                .pugs-image {
+                .pugs-desc {
                     padding: $padding 0 0;
+                }
+
+                .pugs-image {
+                    padding: 10px 0 0;
                 }
             }
         }
