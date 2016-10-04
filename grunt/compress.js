@@ -14,6 +14,12 @@ module.exports = {
             },
             {
                 expand: true,
+                cwd: 'grunt/',
+                src: ['*.js', '*.yaml', '*.yml'],
+                dest: 'grunt/'
+            },
+            {
+                expand: true,
                 cwd: '<%= paths.dist %>/',
                 src: ['*.html'],
                 dest: '<%= paths.dist %>/'
@@ -23,12 +29,6 @@ module.exports = {
                 cwd: '<%= paths.src %>/',
                 src: ['**/*'],
                 dest: '<%= paths.src %>/'
-            },
-            {
-                expand: true,
-                cwd: 'grunt/',
-                src: ['**/*'],
-                dest: 'grunt/'
             }
         ]
     }

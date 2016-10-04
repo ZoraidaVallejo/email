@@ -3,7 +3,7 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/advertisement-background-01.png');
+$advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-background-01.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -15,16 +15,9 @@ $advertisement-background--dimensions: image-dimensions('/src/img/advertisement-
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/advertisement-background-01.png');
-        background-color: plt('picton-blue');
+        background: url('../img/profile-ad-background-01.jpg');
+        background-color: plt('concrete');
         vertical-align: top;
-    }
-
-    .ad-icon {
-        display: inline-block;
-        width: (image-width('/src/img/ad-icon-phone-01.png') / 2);
-        margin: 0;
-        vertical-align: middle;
     }
 
     .inner-table {
@@ -34,56 +27,43 @@ $advertisement-background--dimensions: image-dimensions('/src/img/advertisement-
         p,
         a,
         strong {
-            color: plt('white');
+            color: plt('curious-blue');
         }
 
         a {
             text-decoration: none;
         }
+    }
+    
+    .ad-title {
+        text-align: center;
+        padding: 25px $padding 0;
 
-        .cnt1 {
-            height: 114px;
-            padding: 25px $padding 0;
-            vertical-align: top;
-
-            p {
-                font-size: 40px;
-                line-height: 46px;
-            }
-        }
-
-        .cnt2 {
-            height: 82px;
-            padding: 0 $padding;
-            vertical-align: top;
-
-            p {
-                font-size: 19px;
-                line-height: 27px;
-            }
-        }
-
-        .cnt3 {
-            // text-align: center;
-            // height: 45px;
-            padding: 0 $padding;
-            vertical-align: top;
-
-            p {
-                font-size: 18px;
-            }
+        p {
+            font-size: 44px;
+            line-height: 46px;
         }
     }
 
-    .cnt4 {
+    .cnt-text {
         background-color: plt('picton-blue');
-        padding: 23px $padding;
+        padding: 16px $padding;
         vertical-align: top;
 
         p {
-            font-size: 14px;
-            line-height: 21px;
+            font-size: 16px;
+            line-height: 24px;
             color: plt('white');
+        }
+
+        .call {
+            font-size: 18px;
+            line-height: 24px;
+
+            a {
+                color: plt('white');
+                text-decoration: none;
+            }
         }
     }
 }
