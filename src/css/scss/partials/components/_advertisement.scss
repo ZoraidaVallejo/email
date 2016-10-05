@@ -22,6 +22,7 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
 
     .inner-table {
         width: $max-width;
+        height: nth($advertisement-background--dimensions, 2);
         text-align: left;
 
         p,
@@ -38,6 +39,7 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
     .ad-title {
         text-align: center;
         padding: 25px $padding 0;
+        vertical-align: top;
 
         p {
             font-size: 44px;

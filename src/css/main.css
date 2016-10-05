@@ -836,6 +836,7 @@ body {
 
 .w-ask-a-lawyer .inner-table {
   width: 600px;
+  height: 448px;
   text-align: left;
 }
 
@@ -852,6 +853,7 @@ body {
 .w-ask-a-lawyer .ad-title {
   text-align: center;
   padding: 25px 30px 0;
+  vertical-align: top;
 }
 
 .w-ask-a-lawyer .ad-title p {

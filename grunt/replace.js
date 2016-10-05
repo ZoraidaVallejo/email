@@ -37,7 +37,11 @@ module.exports = function() {
                     {
                         match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
                         replacement: '$1'
-                    }
+                    },
+                    // {
+                    //     match: /linkcustom/g,
+                    //     replacement: 'link'
+                    // }
                 ]
             },
             files: allTemplates
