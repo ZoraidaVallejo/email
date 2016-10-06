@@ -58,14 +58,14 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
             color: plt('white');
         }
 
-        .call {
-            font-size: 18px;
-            line-height: 24px;
+        // .call {
+        //     font-size: 18px;
+        //     line-height: 24px;
+        // }
 
-            a {
-                color: plt('white');
-                text-decoration: none;
-            }
+        a {
+            color: plt('white');
+            text-decoration: none;
         }
     }
 }

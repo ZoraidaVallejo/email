@@ -873,12 +873,7 @@ body {
   color: #ffffff;
 }
 
-.w-ask-a-lawyer .cnt-text .call {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.w-ask-a-lawyer .cnt-text .call a {
+.w-ask-a-lawyer .cnt-text a {
   color: #ffffff;
   text-decoration: none;
 }
