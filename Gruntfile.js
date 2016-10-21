@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         // Pass data to tasks
         data: {
             port: 4000,
-            justatic_version: '20161003a',
+            justatic_version: '20161021b',
             current_year: '2016',
             current_month: '10',
 
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
             },
 
             file_to_send: 'mail1.html',
-            compressed_file_name: 'JLD-BLAST-October-2',
+            compressed_file_name: 'JLD-BLAST-Price-Increase',
 
             // secrets.json is ignored in git because it contains sensitive data
             // See the README for configuration settings
