@@ -21,7 +21,7 @@ module.exports = function(grunt) {
             },
 
             file_to_send: 'mail1.html',
-            compressed_file_name: 'JLD-BLAST-October',
+            compressed_file_name: 'JLD-BLAST-October-2',
 
             // secrets.json is ignored in git because it contains sensitive data
             // See the README for configuration settings
