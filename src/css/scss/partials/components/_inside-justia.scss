@@ -1,25 +1,21 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// P U G ' S   T A L E
+// I N S I D E   J U S T I A
 // ----------------------------------------------------------------------------------------------------------
 
-$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
+$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg') / 2;
 
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-pugs-tale {
-    background-color: plt('concrete');
+.w-inside-justia {
+    background-color: plt('white');
 
-    a {
-        text-decoration: none;
-    }
+    .inside-list {
+        padding: 15px $padding 45px;
 
-    .pugs-list {
-        padding: 15px $padding;
-
-        .pugs-desc {
-            width: ($inner-max-width - $pugs-image--width - $padding);
+        .inside-desc {
+            width: ($inner-max-width - $meet-team-image--width - $padding);
             padding: $padding 0;
             text-align: left;
             vertical-align: top;
@@ -31,14 +27,14 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             }
         }
 
-        .pugs-image {
-            width: ($pugs-image--width + $padding);
+        .inside-image {
+            width: ($meet-team-image--width + $padding);
             padding: $padding 0;
             vertical-align: top;
 
             img {
-                width: $pugs-image--width;
-                max-width: floor(percentage($pugs-image--width / ($pugs-image--width + $padding)));
+                width: $meet-team-image--width;
+                max-width: floor(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
                 height: auto;
             }
         }
@@ -50,16 +46,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             &:last-child {
                 border-bottom: 0;
 
-                .pugs-desc {
+                .inside-desc,
+                .inside-image {
                     padding: $padding 0 0;
-                }
-
-                .pugs-image {
-                    padding: 10px 0 0;
                 }
             }
         }
     }
 }
-
 

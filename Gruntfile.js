@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             port: 4000,
             justatic_version: '20161004a',
             current_year: '2016',
-            current_month: '10',
+            current_month: '11',
 
             // Re-usable filesystem path variables
             paths: {

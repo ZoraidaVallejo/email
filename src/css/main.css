@@ -591,7 +591,7 @@ body {
 }
 
 .w-tech-news .main-article-desc {
-  padding: 0 30px;
+  padding: 0 30px 45px;
 }
 
 .w-tech-news .main-article-desc table {
@@ -614,30 +614,6 @@ body {
   width: 150px;
   max-width: 83%;
   height: auto;
-}
-
-.w-tech-news .article-div {
-  padding: 0 30px;
-  vertical-align: top;
-}
-
-.w-tech-news .items-list {
-  padding: 0 30px 20px;
-}
-
-.w-tech-news .items-list.-last {
-  padding: 0 30px;
-}
-
-.w-tech-news .items-list.-verylast {
-  padding: 0 30px 45px;
-}
-
-.w-tech-news .items-list a {
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif, "OpenSans";
-  font-size: 16px;
-  line-height: 22px;
 }
 
 .w-tip-month {
@@ -771,8 +747,55 @@ body {
   padding: 30px 0 0;
 }
 
-.w-pugs-tale {
+.w-inside-justia {
   background-color: #ffffff;
+}
+
+.w-inside-justia .inside-list {
+  padding: 15px 30px 45px;
+}
+
+.w-inside-justia .inside-list .inside-desc {
+  width: 330px;
+  padding: 30px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-inside-justia .inside-list .inside-desc .widget-main-title {
+  font-size: 22px;
+  line-height: 32px;
+  padding: 0 0 10px;
+}
+
+.w-inside-justia .inside-list .inside-image {
+  width: 210px;
+  padding: 30px 0;
+  vertical-align: top;
+}
+
+.w-inside-justia .inside-list .inside-image img {
+  width: 180px;
+  max-width: 85%;
+  height: auto;
+}
+
+.w-inside-justia .inside-list table {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.w-inside-justia .inside-list table:last-child {
+  border-bottom: 0;
+}
+
+.w-inside-justia .inside-list table:last-child .inside-desc,
+.w-inside-justia .inside-list table:last-child .inside-image {
+  padding: 30px 0 0;
+}
+
+.w-pugs-tale {
+  background-color: #f3f3f3;
 }
 
 .w-pugs-tale a {
@@ -823,191 +846,6 @@ body {
 
 .w-pugs-tale .pugs-list table:last-child .pugs-image {
   padding: 10px 0 0;
-}
-
-.w-ask-a-lawyer .dvbg {
-  width: 600px;
-  height: 448px;
-  background-repeat: no-repeat !important;
-  background: url("../img/profile-ad-background-01.jpg");
-  background-color: #f3f3f3;
-  vertical-align: top;
-}
-
-.w-ask-a-lawyer .inner-table {
-  width: 600px;
-  height: 448px;
-  text-align: left;
-}
-
-.w-ask-a-lawyer .inner-table p,
-.w-ask-a-lawyer .inner-table a,
-.w-ask-a-lawyer .inner-table strong {
-  color: #398ff2;
-}
-
-.w-ask-a-lawyer .inner-table a {
-  text-decoration: none;
-}
-
-.w-ask-a-lawyer .ad-title {
-  text-align: center;
-  padding: 25px 30px 0;
-  vertical-align: top;
-}
-
-.w-ask-a-lawyer .ad-title p {
-  font-size: 44px;
-  line-height: 46px;
-}
-
-.w-ask-a-lawyer .cnt-text {
-  background-color: #398ff2;
-  padding: 16px 30px;
-  vertical-align: top;
-}
-
-.w-ask-a-lawyer .cnt-text p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
-
-.w-ask-a-lawyer .cnt-text a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.w-internet-stats {
-  background-color: #ffffff;
-}
-
-.w-internet-stats .stats-title {
-  vertical-align: top;
-  text-align: center;
-  padding: 45px 30px 30px;
-}
-
-.w-internet-stats .stats-chart {
-  vertical-align: top;
-  text-align: center;
-  padding: 0 30px;
-}
-
-.w-internet-stats .stats-chart img {
-  display: block;
-  width: 500px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.w-internet-stats .stats-desc {
-  vertical-align: top;
-  text-align: center;
-  padding: 40px 30px 45px;
-}
-
-.w-internet-stats .stats-desc a {
-  text-decoration: none;
-}
-
-.w-internet-stats .stats-desc .source {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-.w-feaured-site {
-  background-color: #f3f3f3;
-}
-
-.w-feaured-site .spacer {
-  width: 540px;
-  height: 1px;
-  opacity: 0;
-  display: block;
-  font-size: 0;
-}
-
-.w-feaured-site .client-url {
-  color: #000000;
-}
-
-.w-feaured-site a {
-  text-decoration: none;
-}
-
-.w-feaured-site .featured-site-title {
-  text-align: center;
-  padding: 45px 30px 20px;
-}
-
-.w-feaured-site .featured-client {
-  text-align: center;
-  padding: 0 30px 10px;
-}
-
-.w-feaured-site .featured-client p {
-  font-size: 22px;
-}
-
-.w-feaured-site .featured-desc {
-  padding: 0 30px;
-  text-align: center;
-}
-
-.w-feaured-site .featured-img {
-  text-align: center;
-  padding: 30px 30px 45px;
-}
-
-.w-feaured-site .featured-img img {
-  display: block;
-  width: 520px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.w-law-events {
-  background-color: #01b463;
-}
-
-.w-law-events .widget-main-title {
-  color: #ffffff;
-}
-
-.w-law-events .law-events-title {
-  padding: 45px 30px 30px;
-}
-
-.w-law-events .law-events-list {
-  padding: 0 30px;
-}
-
-.w-law-events .law-events-list.-last {
-  padding: 0 30px 15px;
-}
-
-.w-law-events .grid-column {
-  max-width: 270px;
-}
-
-.w-law-events .grid-cell {
-  width: 255px;
-}
-
-.w-law-events .date {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-.w-law-events .desc {
-  color: #ffffff;
-}
-
-.w-law-events .button {
-  padding: 18px 0 40px;
 }
 
 .align-center {
