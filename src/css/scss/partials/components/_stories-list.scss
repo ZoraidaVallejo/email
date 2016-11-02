@@ -10,10 +10,10 @@ $tech-news-image--width: ($tech-news-image--source / 2);
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-tech-news {
+.w-stories-list {
     background-color: plt('white');
 
-    .main-article-title {
+    .main-story-title {
         padding: 45px $padding 20px;
 
         .widget-main-title {
@@ -25,14 +25,18 @@ $tech-news-image--width: ($tech-news-image--source / 2);
         }
     }
 
-    .main-article-desc {
+    .main-story-desc {
         padding: 0 $padding 45px;
+
+        a {
+            text-decoration: none;
+        }
 
         table {
             width: 100%;
         }
 
-        .article-desc {
+        .story-desc {
             width: ($inner-max-width - $tech-news-image--width - $padding);
             text-align: left;
             vertical-align: top;
@@ -51,27 +55,60 @@ $tech-news-image--width: ($tech-news-image--source / 2);
         }
     }
 
-    // .article-div {
-    //     padding: 0 $padding;
-    //     vertical-align: top;
-    // }
+    .stories-title {
+        text-align: center;
+        padding: 45px $padding 20px;
+    }
 
-    // .items-list {
-    //     padding: 0 $padding 20px;
+    .story-item {
+        padding: 0 $padding 20px;
 
-    //     &.-last {
-    //         padding: 0 $padding;
-    //     }
+        &.-last {
+            padding: 0 $padding;
+        }
 
-    //     &.-verylast {
-    //         padding: 0 $padding 45px;
-    //     }
+        &.-verylast {
+            padding: 0 $padding 45px;
+        }
 
-    //     a {
-    //         text-decoration: none;
-    //         font-family: $sans-serif-font-family;
-    //         font-size: ft-exist(16px);
-    //         line-height: 22px;
-    //     }
-    // }
+        a {
+            text-decoration: none;
+            font-family: $sans-serif-font-family;
+            font-size: ft-exist(16px);
+            line-height: 22px;
+        }
+    }
+
+
+    &.tech-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('jade');
+        }
+    }
+
+    &.seo-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('picton-blue');
+        }
+    }
+
+    &.social-media-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('flush-orange');
+        }
+    }
+
+    &.legal-industry-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('pelorous');
+        }
+    }
 }

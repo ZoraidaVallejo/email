@@ -3,13 +3,13 @@
 // I N S I D E   J U S T I A
 // ----------------------------------------------------------------------------------------------------------
 
-$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg') / 2;
+$meet-team-image--width: image-width('/src/img/inside-justia-01.png') / 2;
 
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-inside-justia {
-    background-color: plt('white');
+    background-color: plt('concrete');
 
     .inside-list {
         padding: 15px $padding 45px;
@@ -34,7 +34,7 @@ $meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg') / 2;
 
             img {
                 width: $meet-team-image--width;
-                max-width: floor(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+                max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
                 height: auto;
             }
         }

@@ -577,43 +577,91 @@ body {
   color: #ffffff;
 }
 
-.w-tech-news {
+.w-stories-list {
   background-color: #ffffff;
 }
 
-.w-tech-news .main-article-title {
+.w-stories-list .main-story-title {
   padding: 45px 30px 20px;
 }
 
-.w-tech-news .main-article-title .widget-main-title a {
+.w-stories-list .main-story-title .widget-main-title a {
   color: #000000;
   text-decoration: none;
 }
 
-.w-tech-news .main-article-desc {
+.w-stories-list .main-story-desc {
   padding: 0 30px 45px;
 }
 
-.w-tech-news .main-article-desc table {
+.w-stories-list .main-story-desc a {
+  text-decoration: none;
+}
+
+.w-stories-list .main-story-desc table {
   width: 100%;
 }
 
-.w-tech-news .main-article-desc .article-desc {
+.w-stories-list .main-story-desc .story-desc {
   width: 360px;
   text-align: left;
   vertical-align: top;
 }
 
-.w-tech-news .main-article-desc .featured-image {
+.w-stories-list .main-story-desc .featured-image {
   width: 180px;
   text-align: right;
   vertical-align: top;
 }
 
-.w-tech-news .main-article-desc .featured-image img {
+.w-stories-list .main-story-desc .featured-image img {
   width: 150px;
   max-width: 83%;
   height: auto;
+}
+
+.w-stories-list .stories-title {
+  text-align: center;
+  padding: 45px 30px 20px;
+}
+
+.w-stories-list .story-item {
+  padding: 0 30px 20px;
+}
+
+.w-stories-list .story-item.-last {
+  padding: 0 30px;
+}
+
+.w-stories-list .story-item.-verylast {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list .story-item a {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, "OpenSans";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.w-stories-list.tech-news .story-item a,
+.w-stories-list.tech-news .widget-main-title {
+  color: #01b463;
+}
+
+.w-stories-list.seo-news .story-item a,
+.w-stories-list.seo-news .widget-main-title {
+  color: #398ff2;
+}
+
+.w-stories-list.social-media-news .story-item a,
+.w-stories-list.social-media-news .widget-main-title {
+  color: #ff7f00;
+}
+
+.w-stories-list.legal-industry-news .story-item a,
+.w-stories-list.legal-industry-news .widget-main-title {
+  color: #35b9ba;
 }
 
 .w-tip-month {
@@ -709,7 +757,7 @@ body {
 }
 
 .w-meet-our-team .events-list .event-desc {
-  width: 330px;
+  width: 300px;
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
@@ -722,14 +770,14 @@ body {
 }
 
 .w-meet-our-team .events-list .event-image {
-  width: 210px;
+  width: 240px;
   padding: 30px 0;
   vertical-align: top;
 }
 
 .w-meet-our-team .events-list .event-image img {
-  width: 180px;
-  max-width: 85%;
+  width: 210px;
+  max-width: 87%;
   height: auto;
 }
 
@@ -748,7 +796,7 @@ body {
 }
 
 .w-inside-justia {
-  background-color: #ffffff;
+  background-color: #f3f3f3;
 }
 
 .w-inside-justia .inside-list {
@@ -756,7 +804,7 @@ body {
 }
 
 .w-inside-justia .inside-list .inside-desc {
-  width: 330px;
+  width: 300px;
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
@@ -769,14 +817,14 @@ body {
 }
 
 .w-inside-justia .inside-list .inside-image {
-  width: 210px;
+  width: 240px;
   padding: 30px 0;
   vertical-align: top;
 }
 
 .w-inside-justia .inside-list .inside-image img {
-  width: 180px;
-  max-width: 85%;
+  width: 210px;
+  max-width: 88%;
   height: auto;
 }
 
@@ -803,11 +851,11 @@ body {
 }
 
 .w-pugs-tale .pugs-list {
-  padding: 15px 30px;
+  padding: 15px 30px 45px;
 }
 
 .w-pugs-tale .pugs-list .pugs-desc {
-  width: 326px;
+  width: 300px;
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
@@ -820,14 +868,14 @@ body {
 }
 
 .w-pugs-tale .pugs-list .pugs-image {
-  width: 214px;
+  width: 240px;
   padding: 30px 0;
   vertical-align: top;
 }
 
 .w-pugs-tale .pugs-list .pugs-image img {
-  width: 184px;
-  max-width: 85%;
+  width: 210px;
+  max-width: 87%;
   height: auto;
 }
 
@@ -845,7 +893,139 @@ body {
 }
 
 .w-pugs-tale .pugs-list table:last-child .pugs-image {
-  padding: 10px 0 0;
+  padding: 30px 0 0;
+}
+
+.w-internet-stats {
+  background-color: #f3f3f3;
+}
+
+.w-internet-stats .stats-title {
+  vertical-align: top;
+  text-align: center;
+  padding: 45px 30px 30px;
+}
+
+.w-internet-stats .stats-chart {
+  vertical-align: top;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.w-internet-stats .stats-chart img {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.w-internet-stats .stats-desc {
+  vertical-align: top;
+  text-align: center;
+  padding: 40px 30px 45px;
+}
+
+.w-internet-stats .stats-desc a {
+  text-decoration: none;
+}
+
+.w-internet-stats .stats-desc .source {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.w-feaured-site {
+  background-color: #f3f3f3;
+}
+
+.w-feaured-site .spacer {
+  width: 540px;
+  height: 1px;
+  opacity: 0;
+  display: block;
+  font-size: 0;
+}
+
+.w-feaured-site .client-url {
+  color: #000000;
+}
+
+.w-feaured-site a {
+  text-decoration: none;
+}
+
+.w-feaured-site .featured-site-title {
+  text-align: center;
+  padding: 45px 30px 20px;
+}
+
+.w-feaured-site .featured-client {
+  text-align: center;
+  padding: 0 30px 10px;
+}
+
+.w-feaured-site .featured-client p {
+  font-size: 22px;
+}
+
+.w-feaured-site .featured-desc {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.w-feaured-site .featured-img {
+  text-align: center;
+  padding: 30px 30px 45px;
+}
+
+.w-feaured-site .featured-img img {
+  display: block;
+  width: 520px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.w-law-events {
+  background-color: #01b463;
+}
+
+.w-law-events .widget-main-title {
+  color: #ffffff;
+}
+
+.w-law-events .law-events-title {
+  padding: 45px 30px 30px;
+}
+
+.w-law-events .law-events-list {
+  padding: 0 30px;
+}
+
+.w-law-events .law-events-list.-last {
+  padding: 0 30px 15px;
+}
+
+.w-law-events .grid-column {
+  max-width: 270px;
+}
+
+.w-law-events .grid-cell {
+  width: 255px;
+}
+
+.w-law-events .date {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.w-law-events .desc {
+  color: #ffffff;
+}
+
+.w-law-events .button {
+  padding: 18px 0 40px;
 }
 
 .align-center {
