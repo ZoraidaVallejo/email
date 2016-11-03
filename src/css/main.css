@@ -536,11 +536,6 @@ body {
   width: 300px;
 }
 
-.columns-grid .grid-cell td {
-  text-align: left;
-  vertical-align: top;
-}
-
 .w-welcome {
   background-color: #398ff2;
 }
@@ -748,156 +743,155 @@ body {
   padding: 30px 30px 45px;
 }
 
-.w-meet-our-team {
+.w-text-image {
   background-color: #f3f3f3;
 }
 
-.w-meet-our-team .events-list {
-  padding: 15px 30px 45px;
-}
-
-.w-meet-our-team .events-list .event-desc {
-  width: 300px;
-  padding: 30px 0;
-  text-align: left;
-  vertical-align: top;
-}
-
-.w-meet-our-team .events-list .event-desc .widget-main-title {
-  font-size: 22px;
-  line-height: 32px;
-  padding: 0 0 10px;
-}
-
-.w-meet-our-team .events-list .event-image {
-  width: 240px;
-  padding: 30px 0;
-  vertical-align: top;
-}
-
-.w-meet-our-team .events-list .event-image img {
-  width: 210px;
-  max-width: 87%;
-  height: auto;
-}
-
-.w-meet-our-team .events-list table {
-  width: 100%;
-  border-bottom: 1px solid #e3e3e3;
-}
-
-.w-meet-our-team .events-list table:last-child {
-  border-bottom: 0;
-}
-
-.w-meet-our-team .events-list table:last-child .event-desc,
-.w-meet-our-team .events-list table:last-child .event-image {
-  padding: 30px 0 0;
-}
-
-.w-inside-justia {
-  background-color: #f3f3f3;
-}
-
-.w-inside-justia .inside-list {
-  padding: 15px 30px 45px;
-}
-
-.w-inside-justia .inside-list .inside-desc {
-  width: 300px;
-  padding: 30px 0;
-  text-align: left;
-  vertical-align: top;
-}
-
-.w-inside-justia .inside-list .inside-desc .widget-main-title {
-  font-size: 22px;
-  line-height: 32px;
-  padding: 0 0 10px;
-}
-
-.w-inside-justia .inside-list .inside-image {
-  width: 240px;
-  padding: 30px 0;
-  vertical-align: top;
-}
-
-.w-inside-justia .inside-list .inside-image img {
-  width: 210px;
-  max-width: 88%;
-  height: auto;
-}
-
-.w-inside-justia .inside-list table {
-  width: 100%;
-  border-bottom: 1px solid #e3e3e3;
-}
-
-.w-inside-justia .inside-list table:last-child {
-  border-bottom: 0;
-}
-
-.w-inside-justia .inside-list table:last-child .inside-desc,
-.w-inside-justia .inside-list table:last-child .inside-image {
-  padding: 30px 0 0;
-}
-
-.w-pugs-tale {
-  background-color: #f3f3f3;
-}
-
-.w-pugs-tale a {
+.w-text-image a {
   text-decoration: none;
 }
 
-.w-pugs-tale .pugs-list {
+.w-text-image .item-list {
   padding: 15px 30px 45px;
 }
 
-.w-pugs-tale .pugs-list .pugs-desc {
-  width: 300px;
+.w-text-image .item-list .item-desc {
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
 }
 
-.w-pugs-tale .pugs-list .pugs-desc .widget-main-title {
+.w-text-image .item-list .item-desc .widget-main-title {
   font-size: 22px;
   line-height: 32px;
   padding: 0 0 10px;
 }
 
-.w-pugs-tale .pugs-list .pugs-image {
-  width: 240px;
-  padding: 30px 0;
+.w-text-image .item-list .item-image {
+  padding: 48px 0 30px;
   vertical-align: top;
 }
 
-.w-pugs-tale .pugs-list .pugs-image img {
-  width: 210px;
-  max-width: 87%;
+.w-text-image .item-list .item-image img {
   height: auto;
 }
 
-.w-pugs-tale .pugs-list table {
+.w-text-image .item-list table {
   width: 100%;
   border-bottom: 1px solid #e3e3e3;
 }
 
-.w-pugs-tale .pugs-list table:last-child {
+.w-text-image .item-list table:last-child {
   border-bottom: 0;
 }
 
-.w-pugs-tale .pugs-list table:last-child .pugs-desc {
+.w-text-image .item-list table:last-child .item-desc {
   padding: 30px 0 0;
 }
 
-.w-pugs-tale .pugs-list table:last-child .pugs-image {
-  padding: 30px 0 0;
+.w-text-image .item-list table:last-child .item-image {
+  padding: 48px 0 0;
+}
+
+.w-text-image.meet-our-team .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.meet-our-team .item-image {
+  width: 240px;
+}
+
+.w-text-image.meet-our-team .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-text-image.inside-justia .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.inside-justia .item-image {
+  width: 240px;
+}
+
+.w-text-image.inside-justia .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-text-image.pugs-tale .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.pugs-tale .item-image {
+  width: 240px;
+}
+
+.w-text-image.pugs-tale .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-ask-a-lawyer .dvbg {
+  width: 600px;
+  height: 239px;
+  background-repeat: no-repeat !important;
+  background: url("../img/pumpkin-ad-background-01.jpg");
+  background-color: #ff7f00;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .inner-table {
+  width: 600px;
+  height: 239px;
+  text-align: left;
+}
+
+.w-ask-a-lawyer .inner-table p,
+.w-ask-a-lawyer .inner-table a,
+.w-ask-a-lawyer .inner-table strong {
+  color: #ffffff;
+}
+
+.w-ask-a-lawyer .inner-table a {
+  text-decoration: none;
+}
+
+.w-ask-a-lawyer .ad-title {
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 0 30px 0 300px;
+  vertical-align: middle;
+}
+
+.w-ask-a-lawyer .ad-title p {
+  font-size: 35px;
+  line-height: 38px;
+}
+
+.w-ask-a-lawyer .cnt-text {
+  background-color: #ff7f00;
+  padding: 25px 30px;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .cnt-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.w-ask-a-lawyer .cnt-text a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .w-internet-stats {
   background-color: #f3f3f3;
+}
+
+.w-internet-stats .grid-row {
+  padding: 0 30px;
 }
 
 .w-internet-stats .stats-title {
@@ -909,12 +903,23 @@ body {
 .w-internet-stats .stats-chart {
   vertical-align: top;
   text-align: center;
-  padding: 0 30px;
 }
 
-.w-internet-stats .stats-chart img {
+.w-internet-stats .stats-chart.-title {
+  padding: 0 0 20px;
+}
+
+.w-internet-stats .stats-chart.-title p {
+  font-size: 13px;
+}
+
+.w-internet-stats .stats-chart.-image {
+  height: 200px;
+  vertical-align: middle;
+}
+
+.w-internet-stats .stats img {
   display: block;
-  width: 500px;
   height: auto;
   margin: 0 auto;
 }
@@ -922,7 +927,7 @@ body {
 .w-internet-stats .stats-desc {
   vertical-align: top;
   text-align: center;
-  padding: 40px 30px 45px;
+  padding: 45px 30px;
 }
 
 .w-internet-stats .stats-desc a {
@@ -932,6 +937,24 @@ body {
 .w-internet-stats .stats-desc .source {
   font-size: 14px;
   line-height: 18px;
+}
+
+.w-internet-stats .stat-1 {
+  max-width: 230px;
+}
+
+.w-internet-stats .stat-1 .grid-cell,
+.w-internet-stats .stat-1 img {
+  width: 210px;
+}
+
+.w-internet-stats .stat-2 {
+  max-width: 310px;
+}
+
+.w-internet-stats .stat-2 .grid-cell,
+.w-internet-stats .stat-2 img {
+  width: 290px;
 }
 
 .w-feaured-site {
@@ -1011,6 +1034,11 @@ body {
 
 .w-law-events .grid-cell {
   width: 255px;
+}
+
+.w-law-events .grid-cell td {
+  text-align: left;
+  vertical-align: top;
 }
 
 .w-law-events .date {

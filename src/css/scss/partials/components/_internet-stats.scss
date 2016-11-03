@@ -3,13 +3,26 @@
 // I N T E R N E T   S T A T S
 // ----------------------------------------------------------------------------------------------------------
 
-$internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
+// $internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
+
+$stats-col-1: 210px;
+$stats-col-2: 290px;
+$stats-col-gap: $inner-max-width - ($stats-col-1 + $stats-col-2);
+
+// @debug $stats-col-gap;
+// @debug (($inner-max-width / 2) - ($padding / 2));
+
+// $stats-table-width: (($inner-max-width / 2) - ($padding / 2));
 
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-internet-stats {
     background-color: plt('concrete');
+
+    .grid-row {
+        padding: 0 $padding;
+    }
 
     .stats {
 
@@ -22,21 +35,31 @@ $internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
         &-chart {
             vertical-align: top;
             text-align: center;
-            padding: 0 $padding;
-            // padding: 0 $padding 45px;
 
-            img {
-                display: block;
-                width: $internet-stats-chart--width;
-                height: auto;
-                margin: 0 auto;
+            &.-title {
+                padding: 0 0 20px;
+
+                p {
+                    font-size: 13px;
+                }
             }
+
+            &.-image {
+                height: (image-width('/src/img/internet-stats-01.png') / 2);
+                vertical-align: middle;
+            }
+        }
+
+        img {
+            display: block;
+            height: auto;
+            margin: 0 auto;
         }
 
         &-desc {
             vertical-align: top;
             text-align: center;
-            padding: 40px $padding 45px;
+            padding: 45px $padding;
 
             a {
                 text-decoration: none;
@@ -49,6 +72,23 @@ $internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
         }
     }
 
+    .stat-1 {
+        max-width: ($stats-col-1 + ($stats-col-gap / 2));
+
+        .grid-cell,
+        img {
+            width: $stats-col-1;
+        }
+    }
+
+    .stat-2 {
+        max-width: ($stats-col-2 + ($stats-col-gap / 2));
+
+        .grid-cell,
+        img {
+            width: $stats-col-2;
+        }
+    }
 }
 
 

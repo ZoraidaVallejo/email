@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         // Pass data to tasks
         data: {
             port: 4000,
-            justatic_version: '20161004a',
+            justatic_version: '20161103',
             current_year: '2016',
             current_month: '11',
 

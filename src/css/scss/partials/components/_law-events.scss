@@ -33,6 +33,11 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
     .grid-cell {
         width: $event-table-width;
+
+        td {
+            text-align: left;
+            vertical-align: top;
+        }
     }
 
     .date {

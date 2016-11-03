@@ -3,7 +3,7 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-background-01.jpg');
+$advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-background-01.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -11,12 +11,11 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
 .w-ask-a-lawyer {
 
     .dvbg {
-        // padding: 45px $padding;
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/profile-ad-background-01.jpg');
-        background-color: plt('concrete');
+        background: url('../img/pumpkin-ad-background-01.jpg');
+        background-color: plt('flush-orange');
         vertical-align: top;
     }
 
@@ -28,7 +27,7 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
         p,
         a,
         strong {
-            color: plt('picton-blue');
+            color: plt('white');
         }
 
         a {
@@ -38,18 +37,19 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
     
     .ad-title {
         text-align: center;
-        padding: 25px $padding 0;
-        vertical-align: top;
+        text-shadow: 0 0 8px rgba(plt('black'), 0.5);
+        padding: 0 $padding 0 300px;
+        vertical-align: middle;
 
         p {
-            font-size: 44px;
-            line-height: 46px;
+            font-size: 35px;
+            line-height: 38px;
         }
     }
 
     .cnt-text {
-        background-color: plt('picton-blue');
-        padding: 16px $padding;
+        background-color: plt('flush-orange');
+        padding: 25px $padding;
         vertical-align: top;
 
         p {
@@ -57,11 +57,6 @@ $advertisement-background--dimensions: image-dimensions('/src/img/profile-ad-bac
             line-height: 24px;
             color: plt('white');
         }
-
-        // .call {
-        //     font-size: 18px;
-        //     line-height: 24px;
-        // }
 
         a {
             color: plt('white');
