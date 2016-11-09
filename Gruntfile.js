@@ -16,12 +16,12 @@ module.exports = function(grunt) {
                 dist: 'dist',
                 dist_img: 'dist/img',
                 preview: 'preview',
-                live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>', // Change
-                remote_img_path: '/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>' // Change
+                live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/reports/blast', // Change
+                remote_img_path: '/mnt/files/emails/images/reports/blast' // Change
             },
 
             file_to_send: 'mail1.html',
-            compressed_file_name: 'JLD-BLAST-November',
+            compressed_file_name: 'Attack-BLAST',
 
             // secrets.json is ignored in git because it contains sensitive data
             // See the README for configuration settings
