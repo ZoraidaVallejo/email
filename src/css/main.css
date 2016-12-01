@@ -806,19 +806,6 @@ body {
   max-width: 88%;
 }
 
-.w-text-image.inside-justia .item-list .item-desc {
-  width: 300px;
-}
-
-.w-text-image.inside-justia .item-image {
-  width: 240px;
-}
-
-.w-text-image.inside-justia .item-image img {
-  width: 210px;
-  max-width: 88%;
-}
-
 .w-text-image.pugs-tale .item-list .item-desc {
   width: 300px;
 }
@@ -834,23 +821,23 @@ body {
 
 .w-ask-a-lawyer .dvbg {
   width: 600px;
-  height: 239px;
+  height: 337px;
   background-repeat: no-repeat !important;
-  background: url("../img/pumpkin-ad-background-01.jpg");
-  background-color: #ff7f00;
+  background: url("../img/planning-ad-background-01.jpg");
+  background-color: #f3f3f3;
   vertical-align: top;
 }
 
 .w-ask-a-lawyer .inner-table {
   width: 600px;
-  height: 239px;
+  height: 337px;
   text-align: left;
 }
 
 .w-ask-a-lawyer .inner-table p,
 .w-ask-a-lawyer .inner-table a,
 .w-ask-a-lawyer .inner-table strong {
-  color: #ffffff;
+  color: #398ff2;
 }
 
 .w-ask-a-lawyer .inner-table a {
@@ -859,18 +846,17 @@ body {
 
 .w-ask-a-lawyer .ad-title {
   text-align: center;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  padding: 0 30px 0 300px;
-  vertical-align: middle;
+  padding: 35px 30px 0;
+  vertical-align: top;
 }
 
 .w-ask-a-lawyer .ad-title p {
-  font-size: 35px;
-  line-height: 38px;
+  font-size: 40px;
+  line-height: 43px;
 }
 
 .w-ask-a-lawyer .cnt-text {
-  background-color: #ff7f00;
+  background-color: #398ff2;
   padding: 25px 30px;
   vertical-align: top;
 }
@@ -890,10 +876,6 @@ body {
   background-color: #f3f3f3;
 }
 
-.w-internet-stats .grid-row {
-  padding: 0 30px;
-}
-
 .w-internet-stats .stats-title {
   vertical-align: top;
   text-align: center;
@@ -903,23 +885,12 @@ body {
 .w-internet-stats .stats-chart {
   vertical-align: top;
   text-align: center;
+  padding: 0 30px;
 }
 
-.w-internet-stats .stats-chart.-title {
-  padding: 0 0 20px;
-}
-
-.w-internet-stats .stats-chart.-title p {
-  font-size: 13px;
-}
-
-.w-internet-stats .stats-chart.-image {
-  height: 200px;
-  vertical-align: middle;
-}
-
-.w-internet-stats .stats img {
+.w-internet-stats .stats-chart img {
   display: block;
+  width: 540px;
   height: auto;
   margin: 0 auto;
 }
@@ -927,7 +898,16 @@ body {
 .w-internet-stats .stats-desc {
   vertical-align: top;
   text-align: center;
-  padding: 45px 30px;
+  padding: 40px 30px 45px;
+}
+
+.w-internet-stats .stats-desc-head {
+  padding: 0 0 20px;
+}
+
+.w-internet-stats .stats-desc-head .line1 {
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .w-internet-stats .stats-desc a {
@@ -937,24 +917,6 @@ body {
 .w-internet-stats .stats-desc .source {
   font-size: 14px;
   line-height: 18px;
-}
-
-.w-internet-stats .stat-1 {
-  max-width: 230px;
-}
-
-.w-internet-stats .stat-1 .grid-cell,
-.w-internet-stats .stat-1 img {
-  width: 210px;
-}
-
-.w-internet-stats .stat-2 {
-  max-width: 310px;
-}
-
-.w-internet-stats .stat-2 .grid-cell,
-.w-internet-stats .stat-2 img {
-  width: 290px;
 }
 
 .w-feaured-site {

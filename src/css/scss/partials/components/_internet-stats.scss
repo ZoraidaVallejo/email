@@ -3,26 +3,14 @@
 // I N T E R N E T   S T A T S
 // ----------------------------------------------------------------------------------------------------------
 
-// $internet-stats-chart--width: image-width('/src/img/chart-01.png') / 2;
-
-$stats-col-1: 210px;
-$stats-col-2: 290px;
-$stats-col-gap: $inner-max-width - ($stats-col-1 + $stats-col-2);
-
-// @debug $stats-col-gap;
-// @debug (($inner-max-width / 2) - ($padding / 2));
-
-// $stats-table-width: (($inner-max-width / 2) - ($padding / 2));
+// $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png') / 2;
+$internet-stats-chart--width: $inner-max-width;
 
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-internet-stats {
     background-color: plt('concrete');
-
-    .grid-row {
-        padding: 0 $padding;
-    }
 
     .stats {
 
@@ -35,31 +23,31 @@ $stats-col-gap: $inner-max-width - ($stats-col-1 + $stats-col-2);
         &-chart {
             vertical-align: top;
             text-align: center;
+            padding: 0 $padding;
+            // padding: 0 $padding 45px;
 
-            &.-title {
-                padding: 0 0 20px;
-
-                p {
-                    font-size: 13px;
-                }
+            img {
+                display: block;
+                width: $internet-stats-chart--width;
+                height: auto;
+                margin: 0 auto;
             }
-
-            &.-image {
-                height: (image-width('/src/img/internet-stats-01.png') / 2);
-                vertical-align: middle;
-            }
-        }
-
-        img {
-            display: block;
-            height: auto;
-            margin: 0 auto;
         }
 
         &-desc {
+
+            &-head {
+                padding: 0 0 20px;
+
+                .line1 {
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+
             vertical-align: top;
             text-align: center;
-            padding: 45px $padding;
+            padding: 40px $padding 45px;
 
             a {
                 text-decoration: none;
@@ -72,23 +60,6 @@ $stats-col-gap: $inner-max-width - ($stats-col-1 + $stats-col-2);
         }
     }
 
-    .stat-1 {
-        max-width: ($stats-col-1 + ($stats-col-gap / 2));
-
-        .grid-cell,
-        img {
-            width: $stats-col-1;
-        }
-    }
-
-    .stat-2 {
-        max-width: ($stats-col-2 + ($stats-col-gap / 2));
-
-        .grid-cell,
-        img {
-            width: $stats-col-2;
-        }
-    }
 }
 
 

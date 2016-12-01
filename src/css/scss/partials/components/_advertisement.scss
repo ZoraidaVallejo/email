@@ -3,7 +3,7 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-background-01.jpg');
+$advertisement-background--dimensions: image-dimensions('/src/img/planning-ad-background-01.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -14,8 +14,8 @@ $advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-bac
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/pumpkin-ad-background-01.jpg');
-        background-color: plt('flush-orange');
+        background: url('../img/planning-ad-background-01.jpg');
+        background-color: plt('concrete');
         vertical-align: top;
     }
 
@@ -27,7 +27,7 @@ $advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-bac
         p,
         a,
         strong {
-            color: plt('white');
+            color: plt('picton-blue');
         }
 
         a {
@@ -37,18 +37,17 @@ $advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-bac
     
     .ad-title {
         text-align: center;
-        text-shadow: 0 0 8px rgba(plt('black'), 0.5);
-        padding: 0 $padding 0 300px;
-        vertical-align: middle;
+        padding: 35px $padding 0;
+        vertical-align: top;
 
         p {
-            font-size: 35px;
-            line-height: 38px;
+            font-size: 40px;
+            line-height: 43px;
         }
     }
 
     .cnt-text {
-        background-color: plt('flush-orange');
+        background-color: plt('picton-blue');
         padding: 25px $padding;
         vertical-align: top;
 

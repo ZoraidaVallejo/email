@@ -5,9 +5,9 @@ module.exports = function(grunt) {
         // Pass data to tasks
         data: {
             port: 4000,
-            justatic_version: '20161103',
+            justatic_version: '20161201',
             current_year: '2016',
-            current_month: '11',
+            current_month: '12',
 
             // Re-usable filesystem path variables
             paths: {
@@ -16,8 +16,8 @@ module.exports = function(grunt) {
                 dist: 'dist',
                 dist_img: 'dist/img',
                 preview: 'preview',
-                live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/newsletters/<%= current_year %>/<%= current_month %>', // Change
-                remote_img_path: '/mnt/files/emails/images/newsletters/<%= current_year %>/<%= current_month %>' // Change
+                live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/newsletters/<%= current_year %>/<%= current_month %>',
+                remote_img_path: '/mnt/files/emails/images/newsletters/<%= current_year %>/<%= current_month %>'
             },
 
             file_to_send: 'newsletter-<%= current_year %>-<%= current_month %>.html',

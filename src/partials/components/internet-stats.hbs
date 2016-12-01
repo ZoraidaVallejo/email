@@ -1,49 +1,28 @@
 
 <!-- INTERNET STATS -->
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-internet-stats columns-grid set-max-width">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-internet-stats set-max-width">
     <tr>
         <td class="stats-title" responsive="mobile-padding-horizontal-sides">
             <h2 class="widget-main-title">Internet Stats</h2>
         </td>
     </tr>
     <tr>
-        {{> columnsGrid columStart=true fullWidth="540" cellWidth="210" cellAlignment="left" colClass="stat-1" }}
-
-            <tr>
-                <!-- title -->
-                <td class="stats-chart -title">
-                    <p>Time Spent on Social Networking</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- image -->
-                <td class="stats-chart -image" responsive="mobile-reset-height mobile-padding-uneven-bottom">
-                    <a href="http://www.globalwebindex.net/blog/social-media-captures-30-of-online-time" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-01.png" alt="Time Spent on Social Networking" /></a>
-                </td>
-            </tr>
-
-        {{> columnsGrid columnDiv=true cellWidth="285" cellAlignment="right" colClass="stat-2" }}
-
-            <tr>
-                <!-- title -->
-                <td class="stats-chart -title">
-                    <p>Social Networking as a Share of Online Time</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- image -->
-                <td class="stats-chart -image" responsive="mobile-reset-height">
-                    <a href="http://www.globalwebindex.net/blog/social-media-captures-30-of-online-time" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-02.png" alt="Social Networking as a Share of Online Time" /></a>
-                </td>
-            </tr>
-
-        {{> columnsGrid columnEnd=true }}
+        <td class="stats-desc-head align-center" responsive="mobile-padding-horizontal-sides">
+            <p class="line1"><strong>Internet Usage Worldwide</strong></p>
+            <p class="line2">October 2009 - October 2016</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
+            <a href="http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-01.png" alt="Mobile & tablet internet usage exceeds desktop for first time worldwide" /></a>
+        </td>
     </tr>
     <tr>
         <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-            <p><strong>Time Spent Social Networking & Messaging</strong></p>
-            <p><em>Daily Average (Hours : Minutes)</em></p>
+            <p><strong>Mobile & tablet internet usage exceeds desktop</strong></p>
+            <p><strong>for first time worldwide</strong></p>
+            <p><em>Source: <a href="http://gs.statcounter.com/" target="_blank">StatCounter Global Stats</a></em></p>
         </td>
     </tr>
 </table>
