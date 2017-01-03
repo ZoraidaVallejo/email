@@ -3,63 +3,69 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/planning-ad-background-01.jpg');
+$advertisement-background--dimensions: image-dimensions('/src/img/ask-a-lawyer-background-01.png');
+$advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-ask-a-lawyer {
+.w-advertisement {
 
     .dvbg {
+        // padding: 45px $padding;
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/planning-ad-background-01.jpg');
-        background-color: plt('concrete');
+        background: url('../img/ask-a-lawyer-background-01.png');
+        background-color: plt('picton-blue');
         vertical-align: top;
     }
 
-    .inner-table {
-        width: $max-width;
-        height: nth($advertisement-background--dimensions, 2);
+    .cont {
+        width: 100%;
         text-align: left;
 
         p,
         a,
         strong {
-            color: plt('picton-blue');
+            color: plt('white');
         }
 
         a {
             text-decoration: none;
         }
-    }
-    
-    .ad-title {
-        text-align: center;
-        padding: 35px $padding 0;
-        vertical-align: top;
 
-        p {
-            font-size: 40px;
-            line-height: 43px;
-        }
-    }
-
-    .cnt-text {
-        background-color: plt('picton-blue');
-        padding: 25px $padding;
-        vertical-align: top;
-
-        p {
-            font-size: 16px;
-            line-height: 24px;
-            color: plt('white');
+        .cnt1 {
+            vertical-align: top;
+            padding: 25px $padding 0;
         }
 
-        a {
-            color: plt('white');
-            text-decoration: none;
+        .cnt2 {
+            vertical-align: top;
+            padding: 30px $padding 90px;
+        }
+
+        .cnt3 {
+            text-align: center;
+            padding: 0 $padding;
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .ad-title {
+
+            p {
+                font-size: 37px;
+                line-height: 45px;
+            }
+        }
+
+        .jld-button {
+            display: block;
+            width: ($advertisement-button--width / 2);
+            height: auto;
         }
     }
 }

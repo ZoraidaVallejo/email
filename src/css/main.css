@@ -819,57 +819,108 @@ body {
   max-width: 88%;
 }
 
-.w-ask-a-lawyer .dvbg {
+.w-did-you-know {
+  background-color: #ff7f00;
+}
+
+.w-did-you-know .dyk-title {
+  padding: 45px 30px 20px;
+}
+
+.w-did-you-know .dyk-desc {
+  padding: 0 30px;
+}
+
+.w-did-you-know .dyk-desc.-extra {
+  padding: 20px 30px 0;
+}
+
+.w-did-you-know .dyk-link {
+  color: #ffffff;
+  padding: 20px 30px 45px;
+}
+
+.w-did-you-know .widget-type-name,
+.w-did-you-know .widget-main-title,
+.w-did-you-know p,
+.w-did-you-know blockquote,
+.w-did-you-know q,
+.w-did-you-know a {
+  color: #ffffff;
+}
+
+.w-did-you-know blockquote {
+  padding: 0 30px;
+  margin: 0;
+  font-style: italic;
+}
+
+.w-did-you-know a {
+  text-decoration: none;
+}
+
+.w-did-you-know p {
+  margin: 0;
+}
+
+.w-did-you-know .today-on-date {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.w-advertisement .dvbg {
   width: 600px;
-  height: 337px;
+  height: 300px;
   background-repeat: no-repeat !important;
-  background: url("../img/planning-ad-background-01.jpg");
-  background-color: #f3f3f3;
+  background: url("../img/ask-a-lawyer-background-01.png");
+  background-color: #398ff2;
   vertical-align: top;
 }
 
-.w-ask-a-lawyer .inner-table {
-  width: 600px;
-  height: 337px;
+.w-advertisement .cont {
+  width: 100%;
   text-align: left;
 }
 
-.w-ask-a-lawyer .inner-table p,
-.w-ask-a-lawyer .inner-table a,
-.w-ask-a-lawyer .inner-table strong {
-  color: #398ff2;
+.w-advertisement .cont p,
+.w-advertisement .cont a,
+.w-advertisement .cont strong {
+  color: #ffffff;
 }
 
-.w-ask-a-lawyer .inner-table a {
+.w-advertisement .cont a {
   text-decoration: none;
 }
 
-.w-ask-a-lawyer .ad-title {
+.w-advertisement .cont .cnt1 {
+  vertical-align: top;
+  padding: 25px 30px 0;
+}
+
+.w-advertisement .cont .cnt2 {
+  vertical-align: top;
+  padding: 30px 30px 90px;
+}
+
+.w-advertisement .cont .cnt3 {
   text-align: center;
-  padding: 35px 30px 0;
-  vertical-align: top;
+  padding: 0 30px;
 }
 
-.w-ask-a-lawyer .ad-title p {
-  font-size: 40px;
-  line-height: 43px;
+.w-advertisement .cont .cnt3 p {
+  font-size: 12px;
 }
 
-.w-ask-a-lawyer .cnt-text {
-  background-color: #398ff2;
-  padding: 25px 30px;
-  vertical-align: top;
+.w-advertisement .cont .ad-title p {
+  font-size: 37px;
+  line-height: 45px;
 }
 
-.w-ask-a-lawyer .cnt-text p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
-
-.w-ask-a-lawyer .cnt-text a {
-  color: #ffffff;
-  text-decoration: none;
+.w-advertisement .cont .jld-button {
+  display: block;
+  width: 225px;
+  height: auto;
 }
 
 .w-internet-stats {

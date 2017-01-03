@@ -97,8 +97,8 @@ module.exports = function() {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(?:responsive|id)=/g,
-                        replacement: 'class='
+                        match: /\s(?:responsive|id)=/g,
+                        replacement: ' class='
                     }
                 ]
             },
