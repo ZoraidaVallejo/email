@@ -1,0 +1,114 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E C H   N E W S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+// $tech-news-image--width: 150px;
+$tech-news-image--source: image-width('/src/img/tech-news-01.png');
+$tech-news-image--width: ($tech-news-image--source / 2);
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-stories-list {
+    background-color: plt('white');
+
+    .main-story-title {
+        padding: 45px $padding 20px;
+
+        .widget-main-title {
+
+            a {
+                color: plt('black');
+                text-decoration: none;
+            }
+        }
+    }
+
+    .main-story-desc {
+        padding: 0 $padding 45px;
+
+        a {
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .story-desc {
+            width: ($inner-max-width - $tech-news-image--width - $padding);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .featured-image {
+            width: ($tech-news-image--width + $padding);
+            text-align: right;
+            vertical-align: top;
+
+            img {
+                width: $tech-news-image--width;
+                max-width: floor(percentage($tech-news-image--width / ($tech-news-image--width + $padding)));
+                height: auto;
+            }
+        }
+    }
+
+    .stories-title {
+        text-align: center;
+        padding: 45px $padding 20px;
+    }
+
+    .story-item {
+        padding: 0 $padding 20px;
+
+        &.-last {
+            padding: 0 $padding;
+        }
+
+        &.-verylast {
+            padding: 0 $padding 45px;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: $sans-serif-font-family;
+            font-size: ft-exist(16px);
+            line-height: 22px;
+        }
+    }
+
+
+    &.tech-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('jade');
+        }
+    }
+
+    &.seo-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('picton-blue');
+        }
+    }
+
+    &.social-media-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('flush-orange');
+        }
+    }
+
+    &.legal-industry-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('pelorous');
+        }
+    }
+}
