@@ -1,3 +1,9 @@
+## 1.3.1 (January 04, 2017)
+  - Merge pull request #6 from justia/diego-newsl
+  - :star: Adds version bumping files.
+  - :memo: changes to default files
+  - Merge branch 'develop' into diego-newsl
+
 
 # mail-template-builder Changelog
 
