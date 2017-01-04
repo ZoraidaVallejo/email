@@ -8,15 +8,9 @@ module.exports = {
         },
         files: [
             {
-                src: ['Gruntfile.js'],
+                src: ['custom-config.js'],
                 dest: '/',
                 filter: 'isFile'
-            },
-            {
-                expand: true,
-                cwd: 'grunt/',
-                src: ['*.js', '*.yaml', '*.yml'],
-                dest: 'grunt/'
             },
             {
                 expand: true,
