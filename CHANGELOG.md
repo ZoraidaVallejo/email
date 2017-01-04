@@ -9,6 +9,9 @@
 
 ---
 
+## 2017-01-04, Version 1.3.1
+Changes to default files and adds bumping version files.
+
 ## 2017-01-04, Version 1.3.0
 Changes to **yarn**, moves all the customizable configuration to its own file, removes log folder and changes all the newsletter files to default vaules.
 
