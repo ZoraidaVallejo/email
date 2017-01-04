@@ -5,8 +5,8 @@ module.exports = {
     live: {
         options: {
             removeComments: true,
-            collapseWhitespace: true,
-            minifyCSS: true
+            collapseWhitespace: true
+            // minifyCSS: true
             // processConditionalComments: true
         },
         files: [{
