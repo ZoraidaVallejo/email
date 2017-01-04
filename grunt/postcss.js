@@ -7,7 +7,7 @@ module.exports = {
             map: false,
             processors: [
                 require('autoprefixer')({
-                    browsers: ['Chrome >= 30', 'ff >= 30', 'ie >= 9', 'ios_saf >= 6.1', 'Safari >= 6', 'Android >= 3']
+                    browsers: ['last 2 versions']
                 })
             ]
         },

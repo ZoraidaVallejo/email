@@ -1,15 +1,17 @@
-{{!--
-    Version: 1.0.0
---}}
-
 
 <div class="btn {{class}}">
     <a href="{{url}}" target="_blank">
-        {{#if buttonWhite}}
-        <img src="{{default.image_dir_src}}/white-button-01-a.png" alt="Read More" border="0" />
+        {{#if moreWhite}}
+        <img src="{{default.image_dir_src}}/button-more-01.png" alt="Read More" border="0" />
         {{/if}}
-        {{#if buttonBlue}}
-        <img src="{{default.image_dir_src}}/blue-button-01-a.png" alt="Read More" border="0" />
+        {{#if moreBlue}}
+        <img src="{{default.image_dir_src}}/button-more-02.png" alt="Read More" border="0" />
+        {{/if}}
+        {{#if mailusWhite}}
+        <img src="{{default.image_dir_src}}/button-mailus-01.png" alt="Mail Us" border="0" />
+        {{/if}}
+        {{#if mailusBlue}}
+        <img src="{{default.image_dir_src}}/button-mailus-02.png" alt="Mail Us" border="0" />
         {{/if}}
     </a>
 </div>

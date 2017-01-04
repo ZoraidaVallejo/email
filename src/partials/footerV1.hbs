@@ -1,7 +1,3 @@
-{{!--
-    Version: 1.0.0
---}}
-
 
 {{> layoutHack tableStart=true }}
 
@@ -33,7 +29,14 @@
         </tr>
         <tr>
             <td class="disclaimer" responsive="mobile-padding-horizontal-sides">
+
+                {{#if clientsNewsletter}}
                 <p responsive="mobile-align-center">You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.</p>
+                {{/if}}
+
+                {{#if jldNewsletter}}
+                <p responsive="mobile-align-center">You are receiving this email because you are in the lawyer directory. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.</p>
+                {{/if}}
             </td>
         </tr>
         <tr>

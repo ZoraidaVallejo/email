@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder v1.2.0
+# JUSTIA Mail Template Builder v1.3.0
 
 
 ## Table of Contents
@@ -16,19 +16,16 @@
         - [Components](#components)
     - [Images](#images)
 4. [How to use](#how-to-use)
-    - [Grunt configuration](#grunt-configuration)
+    - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-5. [File Version Control](#file-version-control)
-    - [Version](#version)
-    - [Workflow](#workflow)
-6. [Mailgun configuration](#mailgun-configuration)
+5. [Mailgun configuration](#mailgun-configuration)
     - [Login information](#login-information)
     - [Recipients](#recipients)
     - [Add another email account](#add-another-email-account)
-7. [Resources](#resources)
-8. [Release History](#release-history)
+6. [Resources](#resources)
+7. [Release History](#release-history)
 
 
 ## Requirements
@@ -40,10 +37,10 @@
 
 ## Installation
 
-Open a new terminal window and change the node version to 5.11:
+Open a new terminal window and change the node version to 6.9.2:
 
 ```
-nvm use 5.11
+nvm use 6.9.2
 ```
 
 Or you can just use the following command (there is a **.nvmrc** file where the node version is declared):
@@ -192,17 +189,16 @@ For instance: **welcome-connect-clients-button-01.png**
 ## How to use
 
 
-### Grunt configuration
+### Workflow configuration
 
-Before you start, check/modify the **Gruntfile.js** file and make sure it has the correct configuration:
+Before you start, check/modify the **custom-config.js** file and make sure it has the correct configuration:
 
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
 - **`current_month`**: Current month. The same as the previous one.
 - **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
-- **`compressed_file_name`**: Name of the file where a copy of the **Gruntfile.js** file, `dist/` and `src/` folder are compressed.
-- **`secrets`**: File where the mailgun configuration is saved. **Don't touch it.**
+- **`compressed_file_name`**: Name of the file where a copy of the **custom-config.js** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
     - **`src`**: Folder where all development files are stored.
     - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
@@ -220,7 +216,7 @@ Before you start, check/modify the **Gruntfile.js** file and make sure it has th
 - **`grunt build`**: Runs the default command, but this time the HTML will be compressed and all URL's will be absolute.
 - **`grunt send`**: Sends a copy of a template to all emails listed at the end of this document.
 - **`grunt upload`**: Uploads all the images to the remote server.
-- **`grunt zip`**: Zips the **Gruntfile.js** file, `src/` and `dist/` folders.
+- **`grunt zip`**: Zips the **custom-config.js** file, `src/` and `dist/` folders.
 
 
 ### Responsive behavior
@@ -265,25 +261,6 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 - **`mobile-no-border`**: Removes all borders.
 
 
-## File Version Control
-
-
-### Version
-
-You will bump it up only when you modify something from the file's content. Even if it's a minor change like update a single variable, change a color or a selector.
-
-This only applies to most of the SCSS files except **`main.scss`** and all the files in the **`widgets/` directory**. And most of the **Handlebars components** except **all the files in the **`newsletter/` folder**.
-
-The main reason for these exclusions is that the styles and content can and will change each month.
-
-
-### Workflow
-
-Defined in **main.scss**, **preserve.scss** and in the main template (**newsletter-{{year}}-{{month}}.hbs**).
-
-Tells which version of the main workflow said file and its children compatible with.
-
-
 ## Mailgun configuration
 
 Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
@@ -308,7 +285,7 @@ Apple Mail | Use one of the previous accounts. | I recommend you to include the 
 
 ### Add another email account
 
-> **Note:** You need log in first to modify this section.
+> **Note:** You need to log in first to modify this section.
 
 Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) section and "Invite a New Recipient" to the list (Mailgun will ask you to verify the new account before you can use it).
 
@@ -336,6 +313,8 @@ And you are ready to go `s( ^ ‿ ^)-b`.
 
 Version | Date | Description
 ------- | ---- | -----------
+v1.3.0 | 2017-01-04 | Changes to **yarn**, moves all the customizable configuration to its own file, removes log folder and changes all the newsletter files to default vaules.
+v1.2.1 | 2016-08-30 | Zips the starter and moves it to the `log/` folder.
 v1.2.0 | 2016-08-23 | Changed all the workflow to work for multiple templates. <br> Created specific email accouts for testing. <br> Basic styles and modules to start creating a new email template.
 v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. <br> Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
 v1.0.0 | 2016-07-28 | Delete unnecessary modules. <br> Set version to all files. <br> Create documentation.

@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // D I V I D E R S
@@ -11,11 +5,6 @@
 
 $divider-selector: '.divider';
 
-$divider-colors: (
-    'blue': plt('picton-blue'),
-    'green': plt('jade'),
-    'orange': plt('flush-orange')
-);
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -39,16 +28,16 @@ $divider-colors: (
     }
 
     .label {
-        width: 120px;
+        width: 140px;
     }
 
     .empty-space {
         border-top: 1px solid plt('mercury');
     }
 
-    @each $type, $color in $divider-colors {
+    @each $name, $color in $primary-palette {
 
-        &.divider-#{$type} {
+        &.divider-#{$name} {
 
             .label {
                 background-color: $color;
