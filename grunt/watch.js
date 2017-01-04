@@ -2,6 +2,7 @@
 
 // Watches for changes to CSS or email templates then runs grunt tasks
 module.exports = {
+
     emails: {
         files: [
             '<%= paths.src %>/css/scss/**/*',
@@ -12,6 +13,7 @@ module.exports = {
         ],
         tasks: ['default']
     },
+
     preview_dist: {
         files: ['./dist/*'],
         tasks: [],
@@ -19,6 +21,7 @@ module.exports = {
             livereload: true
         }
     },
+
     preview: {
         files: ['<%= paths.preview %>/scss/**/*'],
         tasks: ['sass:preview', 'autoprefixer:preview'],
