@@ -873,8 +873,8 @@ body {
   width: 600px;
   height: 300px;
   background-repeat: no-repeat !important;
-  background: url("../img/ask-a-lawyer-background-01.png");
-  background-color: #398ff2;
+  background: url("../img/ad-name-background-01.png");
+  background-color: #444444;
   vertical-align: top;
 }
 
@@ -896,31 +896,6 @@ body {
 .w-advertisement .cont .cnt1 {
   vertical-align: top;
   padding: 25px 30px 0;
-}
-
-.w-advertisement .cont .cnt2 {
-  vertical-align: top;
-  padding: 30px 30px 90px;
-}
-
-.w-advertisement .cont .cnt3 {
-  text-align: center;
-  padding: 0 30px;
-}
-
-.w-advertisement .cont .cnt3 p {
-  font-size: 12px;
-}
-
-.w-advertisement .cont .ad-title p {
-  font-size: 37px;
-  line-height: 45px;
-}
-
-.w-advertisement .cont .jld-button {
-  display: block;
-  width: 225px;
-  height: auto;
 }
 
 .w-internet-stats {

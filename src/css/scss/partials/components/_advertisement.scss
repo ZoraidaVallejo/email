@@ -3,8 +3,7 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/ask-a-lawyer-background-01.png');
-$advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png');
+$advertisement-background--dimensions: image-dimensions('/src/img/ad-name-background-01.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -16,8 +15,8 @@ $advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png')
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
         background-repeat: no-repeat !important;
-        background: url('../img/ask-a-lawyer-background-01.png');
-        background-color: plt('picton-blue');
+        background: url('../img/ad-name-background-01.png');
+        background-color: plt('tundora');
         vertical-align: top;
     }
 
@@ -38,34 +37,6 @@ $advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png')
         .cnt1 {
             vertical-align: top;
             padding: 25px $padding 0;
-        }
-
-        .cnt2 {
-            vertical-align: top;
-            padding: 30px $padding 90px;
-        }
-
-        .cnt3 {
-            text-align: center;
-            padding: 0 $padding;
-
-            p {
-                font-size: 12px;
-            }
-        }
-
-        .ad-title {
-
-            p {
-                font-size: 37px;
-                line-height: 45px;
-            }
-        }
-
-        .jld-button {
-            display: block;
-            width: ($advertisement-button--width / 2);
-            height: auto;
         }
     }
 }

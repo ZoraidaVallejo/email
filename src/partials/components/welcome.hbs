@@ -5,6 +5,8 @@
     <tr>
         {{> background classes="head-img" image="background-01-a.png" bgcolor="#398ff2" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
     </tr>
+
+    {{#if clientsNewsletter}}
     <tr>
         <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
             <h1><span>Welcome to the January 2017 edition of</span>&nbsp;<br responsive="mobile-hide">the Justia monthly client newsletter!</h1>
@@ -12,7 +14,22 @@
     </tr>
     <tr>
         <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-            <p>Thank you for choosing Justia for your 2016 web design, development, SEO and marketing needs. Our team sincerely appreciates the opportunity to provide you with our services. We look forward to helping you continue to build your online presence in 2017 and beyond.</p>
+            <p>[welcome message (form the document)]</p>
         </td>
     </tr>
+    {{/if}}
+
+    {{#if jldNewsletter}}
+    <tr>
+        <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+            <h1><span>Welcome to the inaugural edition of</span>&nbsp;<br responsive="mobile-hide">the Justia monthly newsletter!</h1>
+        </td>
+    </tr>
+    <tr>
+        <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
+            <p>[welcome message (form the document)]</p>
+        </td>
+    </tr>
+    {{/if}}
+
 </table>
