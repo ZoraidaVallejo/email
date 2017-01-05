@@ -31,5 +31,6 @@
 
     .grid-cell {
         width: ($max-width / 2);
+        table-layout: auto;
     }
 }

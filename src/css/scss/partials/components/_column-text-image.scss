@@ -41,7 +41,6 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
 
         table {
-            width: 100%;
             border-bottom: 1px solid plt('mercury');
 
             &:last-child {
@@ -64,12 +63,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         .item-list {
 
             .item-desc {
-                width: ($inner-max-width - $meet-team-image--width - $padding);
+                width: percentage(($inner-max-width - $meet-team-image--width - $padding) / $inner-max-width);
             }
         }
 
         .item-image {
-            width: ($meet-team-image--width + $padding);
+            width: percentage(($meet-team-image--width + $padding) / $inner-max-width);
 
             img {
                 width: $meet-team-image--width;
@@ -84,12 +83,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
     //     .item-list {
 
     //         .item-desc {
-    //             width: ($inner-max-width - $inside-justia-image--width - $padding);
+    //             width: percentage(($inner-max-width - $inside-justia-image--width - $padding) / $inner-max-width);
     //         }
     //     }
 
     //     .item-image {
-    //         width: ($inside-justia-image--width + $padding);
+    //         width: percentage(($inside-justia-image--width + $padding) / $inner-max-width);
 
     //         img {
     //             width: $inside-justia-image--width;
@@ -104,12 +103,12 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         .item-list {
 
             .item-desc {
-                width: ($inner-max-width - $pugs-image--width - $padding);
+                width: percentage(($inner-max-width - $pugs-image--width - $padding) / $inner-max-width);
             }
         }
 
         .item-image {
-            width: ($pugs-image--width + $padding);
+            width: percentage(($pugs-image--width + $padding) / $inner-max-width);
 
             img {
                 width: $pugs-image--width;

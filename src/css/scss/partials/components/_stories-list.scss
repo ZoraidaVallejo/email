@@ -37,13 +37,13 @@ $tech-news-image--width: ($tech-news-image--source);
         }
 
         .story-desc {
-            width: ($inner-max-width - $tech-news-image--width - $padding);
+            width: percentage(($inner-max-width - $tech-news-image--width - $padding) / $inner-max-width);
             text-align: left;
             vertical-align: top;
         }
 
         .featured-image {
-            width: ($tech-news-image--width + $padding);
+            width: percentage(($tech-news-image--width + $padding) / $inner-max-width);
             text-align: right;
             vertical-align: top;
 

@@ -136,6 +136,10 @@ div[style*='margin: 16px 0;'] {
             &-bg-image {
                 background-image: none !important;
             }
+
+            &-fixed-layout {
+                table-layout: auto !important;
+            }
         }
 
         // Visual Modifiers
