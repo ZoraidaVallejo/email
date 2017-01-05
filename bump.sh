@@ -19,7 +19,7 @@
 # number), give user a chance to review and update the changelist
 # manually if needed and create a GIT tag.
 
-NOW="$(date +'%B %d, %Y')"
+NOW="$(date +'%Y-%m-%d')"
 RED="\033[1;31m"
 GREEN="\033[0;32m"
 YELLOW="\033[1;33m"
@@ -56,8 +56,8 @@ if [ -f VERSION ]; then
     fi
     echo -e "${NOTICE_FLAG} Will set new version to be ${WHITE}$INPUT_STRING"
     echo $INPUT_STRING > VERSION
-    echo "## $INPUT_STRING ($NOW)" > tmpfile
-    git log --pretty=format:"  - %s" "v$BASE_STRING"...HEAD >> tmpfile
+    echo "## Version $INPUT_STRING ($NOW)" > tmpfile
+    git log --graph --pretty=oneline --abbrev-commit "v$BASE_STRING"...HEAD >> tmpfile
     echo "" >> tmpfile
     echo "" >> tmpfile
     cat CHANGELOG.md >> tmpfile
@@ -67,6 +67,7 @@ if [ -f VERSION ]; then
     echo -e "$PUSHING_MSG"
     git add CHANGELOG.md VERSION
     git commit -m "Bump version to ${INPUT_STRING}."
+    git push origin develop
     git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
     git push origin --tags
 else
@@ -80,8 +81,8 @@ else
     if [ "$RESPONSE" = "YES" ]; then RESPONSE="y"; fi
     if [ "$RESPONSE" = "y" ]; then
         echo "0.1.0" > VERSION
-        echo "## 0.1.0 ($NOW)" > CHANGELOG.md
-        git log --pretty=format:"  - %s" >> CHANGELOG.md
+        echo "## Version 0.1.0 ($NOW)" > CHANGELOG.md
+        git log --graph --pretty=oneline --abbrev-commit >> CHANGELOG.md
         echo "" >> CHANGELOG.md
         echo "" >> CHANGELOG.md
         echo -e "$ADJUSTMENTS_MSG"
