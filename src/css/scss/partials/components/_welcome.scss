@@ -12,7 +12,7 @@ $welcome-image--dimensions: image-dimensions('/src/img/background-01-a.png');
     background-color: plt('picton-blue');
 
     .head-img {
-        width: percentage(nth($welcome-image--dimensions, 1) / $max-width);
+        width: nth($welcome-image--dimensions, 1);
         height: nth($welcome-image--dimensions, 2);
         vertical-align: middle;
         background: url('../img/background-01-a.png');
