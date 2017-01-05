@@ -1,3 +1,9 @@
+## Version 1.3.2 (2017-01-04)
+* 86b8be8 :memo: Manually bumped the version on package file.
+* f15f564 :memo: Updates to bumping version files and adds most of the changes until this point to the CHANGELOG file.
+* 80fde85 :memo: Logs changes.
+
+
 ## Version 1.3.1 (2017-01-04)
 * e01c2c9 Bump version to 1.3.1.
 * cde1e31 Merge pull request #6 from justia/diego-newsl
