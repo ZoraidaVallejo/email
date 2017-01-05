@@ -2,9 +2,9 @@
 
 module.exports = {
     port: 4000,
-    justatic_version: '1',
-    current_year: '0000',
-    current_month: '00',
+    justatic_version: '20161203',
+    current_year: '2017',
+    current_month: '01',
 
     // Re-usable filesystem path variables
     paths: {

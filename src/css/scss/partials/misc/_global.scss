@@ -13,6 +13,10 @@ body {
     background-color: plt('concrete');
 }
 
+table {
+    table-layout: fixed;
+}
+
 .set-max-width {
     width: 100%;
     max-width: $max-width;

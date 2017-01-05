@@ -8,6 +8,10 @@ body {
   background-color: #f3f3f3;
 }
 
+table {
+  table-layout: fixed;
+}
+
 .set-max-width {
   width: 100%;
   max-width: 600px;
@@ -452,6 +456,10 @@ body {
   background-color: #052450;
 }
 
+.label-divider.divider-mariner .label {
+  background-color: #327ed4;
+}
+
 .label-divider.divider-guardsman-red .label {
   background-color: #ba0000;
 }
@@ -873,8 +881,8 @@ body {
   width: 600px;
   height: 300px;
   background-repeat: no-repeat !important;
-  background: url("../img/ad-name-background-01.png");
-  background-color: #444444;
+  background: url("../img/ask-a-lawyer-background-01.png");
+  background-color: #398ff2;
   vertical-align: top;
 }
 
@@ -896,6 +904,94 @@ body {
 .w-advertisement .cont .cnt1 {
   vertical-align: top;
   padding: 25px 30px 0;
+}
+
+.w-advertisement .cont .cnt2 {
+  vertical-align: top;
+  padding: 30px 30px 90px;
+}
+
+.w-advertisement .cont .cnt3 {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.w-advertisement .cont .cnt3 p {
+  font-size: 12px;
+}
+
+.w-advertisement .cont .ad-title p {
+  font-size: 37px;
+  line-height: 45px;
+}
+
+.w-advertisement .cont .jld-button {
+  display: block;
+  width: 225px;
+  height: auto;
+}
+
+.w-jld-advertisement-01 {
+  background-color: #052450;
+}
+
+.w-jld-advertisement-01 a {
+  display: block;
+}
+
+.w-jld-advertisement-01 img {
+  display: block;
+  width: 600px;
+  max-width: 100%;
+}
+
+.w-jld-advertisement-02 {
+  background-color: #327ed4;
+}
+
+.w-jld-advertisement-02 a {
+  display: block;
+}
+
+.w-jld-advertisement-02 p,
+.w-jld-advertisement-02 a,
+.w-jld-advertisement-02 strong {
+  color: #ffffff;
+}
+
+.w-jld-advertisement-02 a {
+  text-decoration: none;
+}
+
+.w-jld-advertisement-02 .cont {
+  width: 100%;
+  text-align: center;
+}
+
+.w-jld-advertisement-02 .cnt1 {
+  text-align: center;
+  padding: 25px 30px 0;
+}
+
+.w-jld-advertisement-02 .cnt1 p {
+  font-size: 43px;
+  line-height: 45px;
+}
+
+.w-jld-advertisement-02 .cnt2 {
+  padding: 65px 30px 60px;
+  text-align: center;
+}
+
+.w-jld-advertisement-02 .cnt2 img {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-jld-advertisement-02 .cnt3 {
+  text-align: center;
+  padding: 0 25px 30px;
 }
 
 .w-internet-stats {
@@ -991,7 +1087,7 @@ body {
 
 .w-feaured-site .featured-img img {
   display: block;
-  width: 520px;
+  width: 540px;
   height: auto;
   margin: 0 auto;
 }
