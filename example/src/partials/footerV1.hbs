@@ -1,0 +1,66 @@
+
+{{> layoutHack tableStart=true }}
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-footer-v1 set-max-width" responsive="main-footer-v1">
+        <tr>
+            <td class="logo-social" responsive="mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border">
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="logo" responsive="logo collapse-one">
+                            <img src="{{default.header_logo_v1_url}}" alt="{{default.header_logo_v1_alt}}" responsive="mobile-align-center" border="0" />
+                        </td>
+
+                        <td class="social align-right" responsive="social collapse-one">
+
+                            <table align="right" border="0" cellpadding="0" cellspacing="0" responsive="collapse-one mobile-align-center mobile-no-float">
+                                <tr>
+                                    <td><a href="https://www.facebook.com/justia" target="_blank"><img src="https://lawyers.justia.com/s/facebook-flat-64.png" alt="Facebook" border="0" /></a></td>
+                                    <td><a href="https://twitter.com/justiacom" target="_blank"><img src="https://lawyers.justia.com/s/twitter-flat-64.png" alt="Twitter" border="0" /></a></td>
+                                    <td><a href="https://www.linkedin.com/company/justia" target="_blank"><img src="https://lawyers.justia.com/s/linkedin-flat-64.png" alt="LinkedIn" border="0" /></a></td>
+                                    <td><a href="https://lawyers.justia.com/organization/justia-inc-16302" target="_blank"><img src="https://lawyers.justia.com/s/justia-flat-64.png" alt="Justia" border="0" /></a></td>
+                                    <td><a href="https://plus.google.com/+justia" target="_blank" rel="publisher"><img src="https://lawyers.justia.com/s/google-plus-flat-64.png" alt="GooglePlus" border="0" /></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="disclaimer" responsive="mobile-padding-horizontal-sides">
+
+                {{#if clientsNewsletter}}
+                <p responsive="mobile-align-center">You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.</p>
+                {{/if}}
+
+                {{#if jldNewsletter}}
+                <p responsive="mobile-align-center">You are receiving this email because you are in the lawyer directory. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.</p>
+                {{/if}}
+            </td>
+        </tr>
+        <tr>
+            <td class="address" responsive="mobile-padding-horizontal-sides">
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0">
+                <p responsive="collapse-one mobile-align-center">
+                    <a href="https://www.justia.com/">Justia</a> <span class="vline">|</span> <span id="ios-links-black">1380 Pear Ave #2B, Mountain View, CA 94043 <span class="vline">|</span> Tel: (888) 587-8421</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="footernav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0">
+                <p responsive="mobile-align-center">
+                    <a responsive="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/" target="_blank">Contact Us</a>
+                    <span class="vline" responsive="mobile-hide">|</span>
+                    <a responsive="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/privacy-policy/" target="_blank">Privacy Policy</a>
+                    <span class="vline" responsive="mobile-hide">|</span>
+                    <a responsive="collapse-one mobile-padding-vertical-sides" href="{{{ default.unsubscribe_url }}}">Unsubscribe</a>
+                    {{!-- <span class="vline" responsive="mobile-hide">|</span> --}}
+                    {{!-- <a responsive="collapse-one mobile-padding-vertical-sides" href="{{default.view_in_browser_url}}" target="_blank">View in Browser</a> --}}
+                </p>
+            </td>
+        </tr>
+    </table>
+
+{{> layoutHack tableEnd=true }}
