@@ -9,7 +9,7 @@ body {
 }
 
 table {
-  table-layout: fixed;
+  width: 100%;
 }
 
 .set-max-width {
@@ -1007,12 +1007,12 @@ body {
 .w-internet-stats .stats-chart {
   vertical-align: top;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 30px 45px;
 }
 
 .w-internet-stats .stats-chart img {
   display: block;
-  width: 540px;
+  width: 480px;
   height: auto;
   margin: 0 auto;
 }
