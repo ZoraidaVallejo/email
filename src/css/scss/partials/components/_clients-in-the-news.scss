@@ -21,11 +21,11 @@
         .news-logo {
             text-align: left;
             vertical-align: top;
-            width: (150px + $padding);
+            width: percentage((150px + $padding) / $inner-max-width);
             padding: $padding 0;
 
             img {
-                width: 150px;
+                width: 100%;
                 max-width: floor(percentage(150px / (150px + $padding)));
                 height: auto;
                 display: block;
@@ -33,7 +33,7 @@
         }
 
         .news-desc {
-            width: ($inner-max-width - (150px + $padding));
+            width: percentage(($inner-max-width - (150px + $padding)) / $inner-max-width);
             padding: $padding 0;
             vertical-align: top;
         }
