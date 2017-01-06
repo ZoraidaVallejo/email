@@ -46,7 +46,7 @@ serve:
     - 'watch'
 
 upload:
-    - buildblast
+    - 'imagemin'
     - sftp-deploy
 
 zip:
