@@ -108,7 +108,7 @@ $advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png')
 
     .cnt1 {
         text-align: center;
-        padding: 25px $padding 0;
+        padding: $padding $padding 0;
 
         p {
             font-size: 43px;
@@ -117,7 +117,7 @@ $advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png')
     }
 
     .cnt2 {
-        padding: 65px $padding 60px;
+        padding: 61px $padding 61px;
         text-align: center;
 
         img {
@@ -129,6 +129,10 @@ $advertisement-button--width: image-width('/src/img/ask-a-lawyer-button-01.png')
 
     .cnt3 {
         text-align: center;
-        padding: 0 25px $padding;
+        padding: 0 $padding 35px;
+
+        p {
+            font-size: 15.5px;
+        }
     }
 }

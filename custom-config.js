@@ -2,7 +2,7 @@
 
 module.exports = {
     port: 4000,
-    justatic_version: '20170106a',
+    justatic_version: '20170106c',
     current_year: '2017',
     current_month: '01',
 

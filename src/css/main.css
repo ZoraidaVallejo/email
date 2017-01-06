@@ -970,7 +970,7 @@ body {
 
 .w-jld-advertisement-02 .cnt1 {
   text-align: center;
-  padding: 25px 30px 0;
+  padding: 30px 30px 0;
 }
 
 .w-jld-advertisement-02 .cnt1 p {
@@ -979,7 +979,7 @@ body {
 }
 
 .w-jld-advertisement-02 .cnt2 {
-  padding: 65px 30px 60px;
+  padding: 61px 30px 61px;
   text-align: center;
 }
 
@@ -991,7 +991,11 @@ body {
 
 .w-jld-advertisement-02 .cnt3 {
   text-align: center;
-  padding: 0 25px 30px;
+  padding: 0 30px 35px;
+}
+
+.w-jld-advertisement-02 .cnt3 p {
+  font-size: 15.5px;
 }
 
 .w-internet-stats {
@@ -1012,7 +1016,7 @@ body {
 
 .w-internet-stats .stats-chart img {
   display: block;
-  width: 480px;
+  width: 474px;
   height: auto;
   margin: 0 auto;
 }
