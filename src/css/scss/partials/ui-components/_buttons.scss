@@ -3,7 +3,7 @@
 // B U T T O N S
 // ----------------------------------------------------------------------------------------------------------
 
-$button--dimensions: image-dimensions('/src/img/button-more-01.png');
+$button-1--dimensions: 240px 64px;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -13,8 +13,8 @@ $button--dimensions: image-dimensions('/src/img/button-more-01.png');
     img,
     a {
         display: block;
-        width: (nth($button--dimensions, 1) / 2);
-        height: (nth($button--dimensions, 2) / 2);
+        width: (nth($button-1--dimensions, 1) / 2);
+        height: (nth($button-1--dimensions, 2) / 2);
         margin: 0;
         Margin: 0;
         cursor: pointer;

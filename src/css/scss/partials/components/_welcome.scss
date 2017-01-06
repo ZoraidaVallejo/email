@@ -15,7 +15,7 @@ $welcome-image--dimensions: image-dimensions('/src/img/welcome-background-01-a.p
         width: nth($welcome-image--dimensions, 1);
         height: nth($welcome-image--dimensions, 2);
         vertical-align: middle;
-        background: url('../img/background-01-a.png');
+        background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-a.png');
         background-repeat: no-repeat;
     }
 
@@ -39,10 +39,6 @@ $welcome-image--dimensions: image-dimensions('/src/img/welcome-background-01-a.p
         padding: 20px $padding 45px;
 
         p {
-            // margin: 0;
-            // font-family: $sans-serif-font-family;
-            // font-size: ft-exist(16px);
-            // line-height: 22px;
             color: plt('white');
         }
     }

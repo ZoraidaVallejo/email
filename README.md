@@ -185,6 +185,10 @@ For instance: **welcome-connect-clients-button-01.png**
 - [description] → **According to the mockup, it's a button** → *button* `ᕕ( ՞ ᗜ ՞ )ᕗ`
 - [counter] → **This is the first button of many more** → *01*
 
+Avoid using any of the following names, **they will be ignore when uploading to the server**:
+
+- welcome-background-01-a.png
+
 
 ## How to use
 

@@ -544,7 +544,7 @@ body {
   width: 600px;
   height: 169px;
   vertical-align: middle;
-  background: url("../img/background-01-a.png");
+  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-a.png");
   background-repeat: no-repeat;
 }
 
@@ -802,6 +802,19 @@ body {
 }
 
 .w-text-image.meet-our-team .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-text-image.inside-justia .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.inside-justia .item-image {
+  width: 240px;
+}
+
+.w-text-image.inside-justia .item-image img {
   width: 210px;
   max-width: 88%;
 }

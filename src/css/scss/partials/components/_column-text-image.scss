@@ -3,9 +3,9 @@
 // C O L U M N   T E X T - I M A G E
 // ----------------------------------------------------------------------------------------------------------
 
-$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg') / 2;
-// $inside-justia-image--width: image-width('/src/img/inside-justia-01.png') / 2;
-$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg') / 2;
+$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
+$inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
+$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -79,24 +79,24 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg') / 2;
     }
 
 
-    // &.inside-justia {
+    &.inside-justia {
 
-    //     .item-list {
+        .item-list {
 
-    //         .item-desc {
-    //             width: ($inner-max-width - $inside-justia-image--width - $padding);
-    //         }
-    //     }
+            .item-desc {
+                width: ($inner-max-width - $inside-justia-image--width - $padding);
+            }
+        }
 
-    //     .item-image {
-    //         width: ($inside-justia-image--width + $padding);
+        .item-image {
+            width: ($inside-justia-image--width + $padding);
 
-    //         img {
-    //             width: $inside-justia-image--width;
-    //             max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
-    //         }
-    //     }
-    // }
+            img {
+                width: $inside-justia-image--width;
+                max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+            }
+        }
+    }
 
 
     &.pugs-tale {
