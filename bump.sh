@@ -57,7 +57,7 @@ if [ -f VERSION ]; then
     echo -e "${NOTICE_FLAG} Will set new version to be ${WHITE}$INPUT_STRING"
     echo $INPUT_STRING > VERSION
     echo "## Version $INPUT_STRING ($NOW)" > tmpfile
-    git log --graph --pretty=oneline --abbrev-commit "v$BASE_STRING"...HEAD >> tmpfile
+    git log --pretty=format:"- [[\`%h\`](https://github.com/justia/mail-template-builder/commit/%H)] - %s" "v$BASE_STRING"...HEAD >> tmpfile
     echo "" >> tmpfile
     echo "" >> tmpfile
     cat CHANGELOG.md >> tmpfile
@@ -82,7 +82,7 @@ else
     if [ "$RESPONSE" = "y" ]; then
         echo "0.1.0" > VERSION
         echo "## Version 0.1.0 ($NOW)" > CHANGELOG.md
-        git log --graph --pretty=oneline --abbrev-commit >> CHANGELOG.md
+        git log --pretty=format:"- [[\`%h\`](https://github.com/justia/mail-template-builder/commit/%H)] - %s" >> CHANGELOG.md
         echo "" >> CHANGELOG.md
         echo "" >> CHANGELOG.md
         echo -e "$ADJUSTMENTS_MSG"
