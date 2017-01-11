@@ -1,11 +1,9 @@
-
 {{!
     Notification Block
     Params:
         date:   (string) unescaped Date of the current newslatter
 }}
 {{> layoutHack tableStart=true }}
-
     <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-header-v1 set-max-width">
         {{!-- <tr>
             <td class="view-in-browser align-right" responsive="mobile-padding-full">
@@ -20,7 +18,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td class="logo" responsive="collapse-one">
-                            <a href="https://www.justia.com/" target="_blank"><img src="{{default.header_logo_v1_url}}" alt="{{default.header_logo_v1_alt}}" responsive="mobile-align-center" border="0" /></a>
+                            <a href="{{default.header_logo_v1_url}}" target="_blank"><img src="{{default.header_logo_v1_source}}" alt="{{default.header_logo_v1_alt}}" responsive="mobile-align-center" border="0" /></a>
                         </td>
 
                         <td class="date align-right" responsive="collapse-one mobile-align-center mobile-padding-top">
@@ -31,5 +29,4 @@
             </td>
         </tr>
     </table>
-
 {{> layoutHack tableEnd=true }}

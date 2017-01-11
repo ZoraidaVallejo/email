@@ -36,8 +36,11 @@ module.exports = function (grunt, options) {
             'clean',
             'sass:dist',
             'assemble',
+            'juice',
             'imagemin',
             'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
             'replace:src_images'
         ],
 

@@ -2,7 +2,7 @@
 
 // Inlines your CSS
 module.exports = {
-    your_target: {
+    dist: {
         options: {
             preserveMediaQueries: true,
             applyAttributesTableElements: true,
