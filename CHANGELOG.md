@@ -1,3 +1,36 @@
+## Version 1.4.0 (2017-01-16)
+- [[`bc9ce89`](https://github.com/justia/mail-template-builder/commit/bc9ce8936c81e9cad5b81654b1bc1d16892e5a3f)] - :boom: Remove unwanted files on root folder.
+- [[`52af3e7`](https://github.com/justia/mail-template-builder/commit/52af3e7b5cc8518d43aabe2a6bbd44755b2c7466)] - Merge pull request #7 from justia/diego-blast
+- [[`7d2fdb7`](https://github.com/justia/mail-template-builder/commit/7d2fdb7bbf55bd67b5e05605bb7de4a0bd451c29)] - :floppy_disk: Move Blast starter to the examples folder.
+- [[`f5f4664`](https://github.com/justia/mail-template-builder/commit/f5f466482aa04076938fe3305405940d3307bc70)] - :star: Second template. :x: Remove unnecesary files.
+- [[`ec1b289`](https://github.com/justia/mail-template-builder/commit/ec1b289d858bb0096bfa727e346117380d584d1f)] - :memo: Update documentation.
+- [[`3edb2bc`](https://github.com/justia/mail-template-builder/commit/3edb2bca5b45897e11988e636bad3fe99b1f27b6)] - :star: Template 1 example.
+- [[`d099f99`](https://github.com/justia/mail-template-builder/commit/d099f997ebc39527aba3dd6491d3734e18f16170)] - :soon: Add partials files to test components.
+- [[`2b766ca`](https://github.com/justia/mail-template-builder/commit/2b766cada5fffda9a089cc7f975e0005bf31a359)] - :cyclone: Merge conflicts. :zap: Combine the newsletter and blast build workflows.
+- [[`7ee23e1`](https://github.com/justia/mail-template-builder/commit/7ee23e15e2de73fe28c140d1330fc2e06f5cbdfb)] - :file_folder: Update the bump version script.
+- [[`a0d33a8`](https://github.com/justia/mail-template-builder/commit/a0d33a88ecc8206b22f5223a69333ab90df4812e)] - :exclamation: Removes the custom-config file from the root (forgot to included it in previous commit).
+- [[`ce3511a`](https://github.com/justia/mail-template-builder/commit/ce3511a5b2fc3c34f5a0e9903824b1e170eb344f)] - :floppy_disk: Moves the newsletter starter to the example folder.
+- [[`d8fb5fa`](https://github.com/justia/mail-template-builder/commit/d8fb5fa42a6b9bb5b74e892f6278176331142edc)] - :memo: Adds missing widgets to default template.
+- [[`e29d3e4`](https://github.com/justia/mail-template-builder/commit/e29d3e4ba83ff3d02cff02eee8f018eb7f23c81f)] - :memo: Changes the images to normal size, moves the common images to remot folder and adds Inside Justia block.
+- [[`0a4c08b`](https://github.com/justia/mail-template-builder/commit/0a4c08b29cd506c45b055ef6c57114fa24499ce9)] - :memo: Rename the welcome background.
+- [[`bf17f53`](https://github.com/justia/mail-template-builder/commit/bf17f53edb6c1c85f94cbadd27ed5239c45e398a)] - :memo: Fixes requested by Mayra.
+- [[`d1f7333`](https://github.com/justia/mail-template-builder/commit/d1f7333e9388f73c0561443203af2528cbc0edaf)] - :star: Tim's template.
+- [[`341d07a`](https://github.com/justia/mail-template-builder/commit/341d07a500b28ded0bc609fc4d86551c755426df)] - :star: Ken's template done.
+- [[`23d4a61`](https://github.com/justia/mail-template-builder/commit/23d4a61c0e3d7ce138c71a0c6ca4309f3434db45)] - :star: Daniel's template done.
+- [[`367d46e`](https://github.com/justia/mail-template-builder/commit/367d46e12f16c941a6ac6c7e84c74342b4032909)] - :memo: attack blast conversion.
+- [[`aa3c211`](https://github.com/justia/mail-template-builder/commit/aa3c211d9f0431be4517deee82a91efb11368bce)] - :memo: QA Fixes to the envelope template.
+- [[`34cb72a`](https://github.com/justia/mail-template-builder/commit/34cb72a3845ce87949f848684dcbb1a3ed0bc355)] - :star: JLD BLAST December
+- [[`7def8bc`](https://github.com/justia/mail-template-builder/commit/7def8bc4e6643d95a4fb84441c2071f6e6dee5be)] - :memo: Second Attack Blast conversion.
+- [[`dde379c`](https://github.com/justia/mail-template-builder/commit/dde379cdbde7e75a23467ee37184baebfc4a2bb2)] - :memo: Attack Blast conversion.
+- [[`0197bd1`](https://github.com/justia/mail-template-builder/commit/0197bd13ada3ff859ac20f7f0adef1c6feaf50ed)] - :memo: Content changes.
+- [[`34e5cd8`](https://github.com/justia/mail-template-builder/commit/34e5cd8831075efb3dbd74d1c03b07d4ca886e56)] - :memo: JLD Blast November
+- [[`7a454bb`](https://github.com/justia/mail-template-builder/commit/7a454bb971b8d970578a1f37b532668d9ffc5c84)] - :star: Price Increase templates.
+- [[`7809b99`](https://github.com/justia/mail-template-builder/commit/7809b994fad8ef07d5d33bafadb48ef90746662e)] - :memo: Log October Blast
+- [[`93453be`](https://github.com/justia/mail-template-builder/commit/93453be2bdb1c6951835c86271f5e5aefb51ff2b)] - :checkered_flag: End of the conversion - October Blast
+- [[`6fab638`](https://github.com/justia/mail-template-builder/commit/6fab638b4f5af2555d9d06b7b34a4bf610439cba)] - :star: Setup for JLD BLAST October
+- [[`d2e309c`](https://github.com/justia/mail-template-builder/commit/d2e309ceab5b9f9f81a9d86323c91ba07d93472e)] - :bug: log changes
+- [[`99af1b9`](https://github.com/justia/mail-template-builder/commit/99af1b9b4bbb749895cab94eae53c0a5ab5fb6b3)] - :memo: updates to blast workflow
+
 ## Version 1.3.2 (2017-01-04)
 - [[`86b8be8`](https://github.com/justia/mail-template-builder/commit/86b8be8aa1b3ffd710f88682b7cd01e43a0dbf7b)] - :memo: Manually bumped the version on package file.
 - [[`f15f564`](https://github.com/justia/mail-template-builder/commit/f15f5640672c4ef70aa5406c44ff33c64926f0fb)] - :memo: Updates to bumping version files and adds most of the changes until this point to the CHANGELOG file.
