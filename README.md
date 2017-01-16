@@ -7,6 +7,10 @@
 
 1. [Requirements](#requirements)
 2. [Installation](#installation)
+    - [NVM](#nvm)
+    - [Node.js](#nodejs)
+    - [Yarn](#yarn)
+    - [Packages](#packages)
 3. [Folder structure](#folder-structure)
     - [CSS](#css)
         - [Modules](#modules)
@@ -30,29 +34,59 @@
 
 ## Requirements
 
-- **NVM** → [Install NVM](https://github.com/creationix/nvm)
-- **Node.js** → Using `nvm`, install the 5.11 version of node. You can find the intructions in the `nvm` documentation.
-- **Grunt** & **grunt-cli** installed globally → `npm install grunt-cli -g`
+- **NVM**
+- **Node.js**
+- **Yarn**
+- **Grunt**
 
 
 ## Installation
 
-Open a new terminal window and change the node version to 6.9.2:
+### NVM
 
+Use the [NVM documentation](https://github.com/creationix/nvm#install-script) for this.
+
+### Node.js
+
+Using `nvm`, install the 6.9 version of node:
+
+```shell
+nvm install 6.9.2
 ```
+
+**I highly recommend you** to set this new version of Node as **default** to be used in any new shell:
+
+```shell
+nvm alias default 6.9.2
+```
+
+You can do it manually too:
+
+```shell
 nvm use 6.9.2
 ```
 
-Or you can just use the following command (there is a **.nvmrc** file where the node version is declared):
+### Yarn
+
+Install it with the native OS package manager (if you are on a Mac, probably it will be `brew`):
+
+```shell
+brew update
+brew install yarn
+```
+
+### Packages
+
+First of all, install the Grunt Command Line Inteface globally:
+
+```shell
+npm install grunt-cli -g
+```
+
+Then, install the workflow packges in your local folder:
 
 ```
-nvm use
-```
-
-Then, install all the packapges and wait:
-
-```
-npm install
+yarn install
 ```
 
 
@@ -62,7 +96,6 @@ npm install
 /
 ├── dist/
 ├── grunt/
-├── log/
 ├── preview/
 └── src/
     ├── css/
@@ -82,7 +115,6 @@ Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `grunt/` | Contains all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
-`log/` | Folder where the previous email templates are stored in zip files.
 `preview/` | All files related to the preview window where you see a *preview* of your work.
 `src/` | Main folder where the source files of the email template are stored.
 `css/scss/modules/` | [More info](#css-modules).
@@ -141,7 +173,7 @@ Handlebars and Assemble are used for templating.
 
 #### UI Components
 
-Contains optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
+Contain optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
 
 For example, to include the **button.hbs** component you would use the following code in your email template:
 
@@ -166,7 +198,7 @@ This folder also includes some IE hack.
 
 #### Components
 
-Contains all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
+Contain all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
 
 ```handlebars
 {{> customComponent}}
@@ -185,6 +217,14 @@ For instance: **welcome-connect-clients-button-01.png**
 - [description] → **According to the mockup, it's a button** → *button* `ᕕ( ՞ ᗜ ՞ )ᕗ`
 - [counter] → **This is the first button of many more** → *01*
 
+Avoid using any of the following names, **they will be ignore when uploading to the server**:
+
+- welcome-background-01-a.png
+- button-mailus-01.png
+- button-mailus-02.png
+- button-more-01.png
+- button-more-02.png
+
 
 ## How to use
 
@@ -193,6 +233,7 @@ For instance: **welcome-connect-clients-button-01.png**
 
 Before you start, check/modify the **custom-config.js** file and make sure it has the correct configuration:
 
+- **`conversionType`**: Type of conversion: `blast` or `newsletter`.
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
@@ -211,13 +252,22 @@ Before you start, check/modify the **custom-config.js** file and make sure it ha
 
 ### Grunt commands
 
-- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version).
-- **`grunt serve`**: Runs the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
-- **`grunt build`**: Runs the default command, but this time the HTML will be compressed and all URL's will be absolute.
-- **`grunt send`**: Sends a copy of a template to all emails listed at the end of this document.
-- **`grunt upload`**: Uploads all the images to the remote server.
-- **`grunt zip`**: Zips the **custom-config.js** file, `src/` and `dist/` folders.
+- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
+- **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
+- **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
+- **`grunt send`**: Send a copy of a template to all emails listed at the end of this document.
+- **`grunt upload`**: Upload all the images to the remote server.
+- **`grunt zip`**: Zip the **custom-config.js** file, `src/` and `dist/` folders.
 
+For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
+
+```json
+{
+    "key1": {
+        "username": "username"
+    }
+}
+```
 
 ### Responsive behavior
 

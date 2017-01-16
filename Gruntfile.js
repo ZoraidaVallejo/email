@@ -2,7 +2,6 @@
 
 const customConfig = require('./custom-config.js');
 
-
 module.exports = function(grunt) {
 
     const allRules = Object.assign({}, customConfig, {
