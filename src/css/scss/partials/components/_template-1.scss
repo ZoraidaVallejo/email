@@ -24,7 +24,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
         width: nth($template1-background--dimensions, 1);
         height: nth($template1-background--dimensions, 2);
         padding: 0;
-        background: url('../img/template1-background-01a.png');
+        background: url('../img/template1-background-01.png');
         background-color: #4c6b97;
         background-repeat: no-repeat !important;
         background-size: $template1-background--dimensions;
@@ -66,31 +66,13 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
         }
     }
 
-    .block-3 {
-        padding: 0 $padding 20px;
-    }
-
-    .block-4 {
-        padding: 0 $padding;
-    }
-
-
-
     .contactus {
 
-        // .tagline { }
-
         .phone {
-            line-height: 1.3 !important;
-            font-size: 18px !important;
 
             a {
                 color: plt('white') !important;
             }
         }
-    }
-
-    .expiration {
-        font-size: 12px !important;
     }
 }

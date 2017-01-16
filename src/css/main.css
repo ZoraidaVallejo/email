@@ -16,6 +16,7 @@ table {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: #0a56c6;
 }
 
 img {
@@ -25,6 +26,25 @@ img {
 .set-max-width {
   width: 100%;
   max-width: 600px;
+}
+
+.contactus {
+  padding: 0 30px 20px;
+  text-align: center;
+}
+
+.contactus .phone {
+  line-height: 1.3 !important;
+  font-size: 18px !important;
+}
+
+.expiration {
+  padding: 0 30px 25px;
+  text-align: center;
+}
+
+.expiration p {
+  font-size: 12px !important;
 }
 
 h1,
@@ -232,7 +252,7 @@ body {
   width: 600px;
   height: 736px;
   padding: 0;
-  background: url("../img/template1-background-01a.png");
+  background: url("../img/template1-background-01.png");
   background-color: #4c6b97;
   background-repeat: no-repeat !important;
   background-size: 600px 736px;
@@ -274,25 +294,42 @@ body {
   text-align: left;
 }
 
-.template-1 .block-3 {
-  padding: 0 30px 20px;
-}
-
-.template-1 .block-4 {
-  padding: 0 30px;
-}
-
-.template-1 .contactus .phone {
-  line-height: 1.3 !important;
-  font-size: 18px !important;
-}
-
 .template-1 .contactus .phone a {
   color: #ffffff !important;
 }
 
-.template-1 .expiration {
-  font-size: 12px !important;
+.template-2 .description {
+  overflow: hidden;
+  width: 600px;
+  max-width: 600px !important;
+  background-color: #ffffff;
+  border-collapse: collapse !important;
+}
+
+.template-2 .description td {
+  width: 100%;
+}
+
+.template-2 .description .image {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.template-2 .block-2 {
+  padding: 25px 30px 40px;
+  text-align: center;
+}
+
+.template-2 .block-2 p {
+  font-size: 14px !important;
+}
+
+.template-2 .block-3,
+.template-2 .block-4,
+.template-2 .block-5 {
+  padding: 0 30px 25px;
 }
 
 .align-center {

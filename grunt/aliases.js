@@ -61,6 +61,7 @@ module.exports = function (grunt, options) {
         ],
 
         upload: [
+            options.conversionType,
             'imagemin',
             'sftp-deploy'
         ],
