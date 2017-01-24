@@ -119,6 +119,30 @@ body {
   width: 55%;
 }
 
+table {
+  table-layout: fixed;
+  border: 1px solid #e6e6e6;
+  border-collapse: collapse;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+}
+
+table td,
+table th {
+  padding: 7px 10px;
+  border: 1px solid #e6e6e6;
+  border-collapse: collapse;
+  line-height: 1.1;
+  font-family: TimesNewRoman, "Times New Roman", Times, serif;
+}
+
+table tr {
+  border-collapse: collapse;
+}
+
+table .odd td {
+  background-color: #f9f9f9;
+}
+
 .main-proposal-header {
   background: #ffffff;
 }
