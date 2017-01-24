@@ -31,6 +31,44 @@ table {
     table-layout: fixed;
 }
 
+.signature-form {
+    width: 100%;
+    max-width: ($max-width / 2);
+    margin: 0 auto;
+    padding: 2em;
+
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    input,
+    button {
+        display: block;
+        width: 100%;
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+
+    input {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    button {
+        -webkit-appearance: button;
+        appearance: button;
+        font-weight: bold;
+        background-color: plt('science-blue');
+        color: plt('white');
+        border-width: 0 0 2px;
+        border-color: plt('catalina-blue');
+        padding: 0.6em 5px;
+        font-size: 16px;
+        // padding: 0.5em;
+    }
+}
+
 .email-signature {
 
     p {
@@ -107,6 +145,14 @@ table {
         padding: 0 0 ($sig-padding * 3);
 
         // .address { }
+
+        .email {
+
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+        }
 
         .contact-info {
             padding: 0 0 10px;

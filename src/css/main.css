@@ -17,6 +17,43 @@ table {
   table-layout: fixed;
 }
 
+.signature-form {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.signature-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.signature-form input,
+.signature-form button {
+  display: block;
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.signature-form input {
+  height: 30px;
+  line-height: 30px;
+}
+
+.signature-form button {
+  -webkit-appearance: button;
+  appearance: button;
+  font-weight: bold;
+  background-color: #0a56c6;
+  color: #ffffff;
+  border-width: 0 0 2px;
+  border-color: #06357a;
+  padding: 0.6em 5px;
+  font-size: 16px;
+}
+
 .email-signature p {
   font-size: 12px;
   line-height: 1.4;
@@ -85,6 +122,11 @@ table {
 
 .email-signature .extra-info {
   padding: 0 0 60px;
+}
+
+.email-signature .extra-info .email a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .email-signature .extra-info .contact-info {
