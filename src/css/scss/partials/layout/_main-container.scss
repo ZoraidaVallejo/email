@@ -1,0 +1,69 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// B O D Y   &   C O N T A I N E R
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+    background-color: plt('white');
+}
+
+.body {
+    width: 100%;
+    background-color: plt('white');
+}
+
+// Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
+.container {
+    display: block;
+    width: auto !important;
+    width: $max-width;
+    max-width: $max-width;
+    padding: 10px 0;
+    Margin: 0 auto !important; /* makes it centered */
+}
+
+// This should also be a block element, so that it will fill 100% of the .container
+.content {
+    display: block;
+    max-width: $max-width;
+    padding: 0;
+    margin: 0 auto;
+    Margin: 0 auto !important;
+    background-color: plt('white');
+}
+
+.spacer {
+    width: $inner-max-width;
+    height: 1px !important;
+    opacity: 0;
+    display: block;
+    font-size: 0 !important;
+    margin: 0;
+}
+
+
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+.widget {
+
+    &-type-name {
+        color: plt('shuttle-gray');
+        font-size: ft-exist(14px);
+        font-weight: $font-weight--bold;
+        text-transform: uppercase;
+        line-height: 14px;
+        padding: 0 0 5px;
+    }
+
+    &-main-title {
+        color: plt('black');
+        font-size: ft-exist(29px);
+        font-weight: $font-weight--normal;
+        line-height: 37px;
+    }
+}
+
+

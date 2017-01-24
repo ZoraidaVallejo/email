@@ -1,0 +1,146 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// G L O B A L   R E S E T S
+// ----------------------------------------------------------------------------------------------------------
+
+$sig-size: 320px;
+$sig-padding: 20px;
+$sig-inner-size: 280px;
+
+$base-rhythm: 14px 1.4;
+$small-rhythm: 12px 1.4;
+
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+    -webkit-font-smoothing: antialiased;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    font-family: $sans-serif-font-family;
+    background-color: plt('white');
+}
+
+.set-max-width {
+    width: 100%;
+    max-width: $max-width;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.email-signature {
+
+    p {
+        font-size: nth($small-rhythm, 1);
+        line-height: nth($small-rhythm, 2);
+    }
+    
+    .logo-name-v1 {
+        padding: 30px 0 10px;
+
+        .logo {
+            text-align: left;
+            vertical-align: middle;
+            width: 125px;
+
+            img {
+                display: block;
+                margin: 0;
+                width: 113px;
+            }
+        }
+    }
+
+    .logo-name-v3 {
+        padding: $sig-padding 0 10px;
+
+        .logo {
+            text-align: left;
+
+            p {
+                font-size: 16px;
+                color: #06357a;
+            }
+        }
+    }
+
+    .logo-name-v4 {
+        padding: $sig-padding 0 10px;
+
+        .logo {
+            text-align: left;
+
+            img {
+                display: block;
+                margin: 0;
+                width: 113px;
+            }
+        }
+    }
+
+
+
+
+
+    .inner-wrapper {
+        background-color: plt('white');
+    }
+
+    .name-block {
+        vertical-align: middle;
+
+        .name {
+            font-size: nth($base-rhythm, 1);
+            line-height: nth($base-rhythm, 2);
+        }
+
+        .team-position {
+            font-size: nth($small-rhythm, 1);
+            line-height: nth($small-rhythm, 2);
+        }
+    }
+
+    .extra-info {
+        padding: 0 0 ($sig-padding * 3);
+
+        // .address { }
+
+        .contact-info {
+            padding: 0 0 10px;
+        }
+
+        .disclaimer {
+            padding: 0 0 10px;
+
+            p {
+                color: #939393;
+                font-size: 10px;
+                // line-height: nth($small-rhythm, 2);
+            }
+        }
+    }
+
+    .extra-links {
+        vertical-align: top;
+
+        span,
+        a,
+        p {
+            color: plt('catalina-blue');
+            font-size: 10px;
+            // line-height: nth($small-rhythm, 2);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .vline {
+            margin: 0 3px;
+            Margin: 0 3px;
+        }
+    }
+}
