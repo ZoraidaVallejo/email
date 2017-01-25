@@ -70,7 +70,7 @@ module.exports = function() {
                     { match: /mobile-no-padding-bottom/g, replacement: 'justia16' },
                     { match: /mobile-no-padding-horizontal-sides/g, replacement: 'justia17' },
                     { match: /mobile-no-float/g, replacement: 'justia18' },
-                    { match: /mobile-no-border/g, replacement: 'justia19' },
+                    { match: /mobile-no-border/g, replacement: 'justia19' }
                 ]
             },
             files: allTemplates
@@ -99,6 +99,10 @@ module.exports = function() {
                     {
                         match: /\s(?:responsive|id)=/g,
                         replacement: ' class='
+                    },
+                    {
+                        match: /\s(?:responsive|id)=""/g,
+                        replacement: ''
                     }
                 ]
             },
