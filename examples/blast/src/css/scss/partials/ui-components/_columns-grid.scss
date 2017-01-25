@@ -1,0 +1,35 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C O L U M N S   G R I D
+// ----------------------------------------------------------------------------------------------------------
+
+.columns-grid {
+
+    .grid-row {
+        padding: 0;
+        vertical-align: top;
+        font-size: 0;
+        text-align: center;
+
+        // &.-last {
+        //     background-color: red;
+        // }
+    }
+
+    .grid-column {
+        display: inline-block;
+        width: 100%;
+        max-width: ($max-width / 2);
+        vertical-align: top;
+    }
+
+    .single-grid-cell {
+        width: $max-width;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .grid-cell {
+        width: ($max-width / 2);
+    }
+}
