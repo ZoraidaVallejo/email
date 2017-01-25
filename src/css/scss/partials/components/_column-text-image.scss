@@ -1,0 +1,122 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C O L U M N   T E X T - I M A G E
+// ----------------------------------------------------------------------------------------------------------
+
+$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
+// $inside-justia-image--width: image-width('/src/img/inside-justia-01.png');
+$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-text-image {
+    background-color: plt('concrete');
+
+    a {
+        text-decoration: none;
+    }
+
+    .item-list {
+        padding: 15px $padding 45px;
+
+        .item-desc {
+            padding: $padding 0;
+            text-align: left;
+            vertical-align: top;
+
+            .widget-main-title {
+                font-size: ft-exist(22px);
+                line-height: 32px;
+                padding: 0 0 10px;
+            }
+        }
+
+        .item-image {
+            padding: 48px 0 $padding;
+            vertical-align: top;
+
+            img {
+                height: auto;
+            }
+        }
+
+        table {
+            width: 100%;
+            border-bottom: 1px solid plt('mercury');
+
+            &:last-child {
+                border-bottom: 0;
+
+                .item-desc {
+                    padding: $padding 0 0;
+                }
+
+                .item-image {
+                    padding: 48px 0 0;
+                }
+            }
+        }
+    }
+
+
+    &.meet-our-team {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $meet-team-image--width - $padding);
+            }
+        }
+
+        .item-image {
+            width: ($meet-team-image--width + $padding);
+
+            img {
+                width: $meet-team-image--width;
+                max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+            }
+        }
+    }
+
+
+    // &.inside-justia {
+
+    //     .item-list {
+
+    //         .item-desc {
+    //             width: ($inner-max-width - $inside-justia-image--width - $padding);
+    //         }
+    //     }
+
+    //     .item-image {
+    //         width: ($inside-justia-image--width + $padding);
+
+    //         img {
+    //             width: $inside-justia-image--width;
+    //             max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+    //         }
+    //     }
+    // }
+
+
+    &.pugs-tale {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $pugs-image--width - $padding);
+            }
+        }
+
+        .item-image {
+            width: ($pugs-image--width + $padding);
+
+            img {
+                width: $pugs-image--width;
+                max-width: ceil(percentage($pugs-image--width / ($pugs-image--width + $padding)));
+            }
+        }
+    }
+}
+
+

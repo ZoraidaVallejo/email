@@ -1,0 +1,93 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// P E O P L E   L I S T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-people-list {
+    background-color: plt('white');
+
+
+    .list-table {
+        padding: 50px $padding;
+    }
+
+    .widget-type-name,
+    .widget-main-title {
+        color: plt('white');
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .list-table-title {
+        padding: 20px $padding 15px;
+        background-color: plt('blaze-orange');
+    }
+
+    .people {
+
+        &-table {
+            table-layout: fixed;
+        }
+
+        &-photo {
+            vertical-align: middle;
+            padding: 10px 0 10px $padding;
+            text-align: right;
+        }
+
+        &-info {
+            vertical-align: middle;
+        }
+
+        &-ranking {
+            vertical-align: middle;
+        }
+    }
+
+    // .clients-list {
+    //     padding: 0 $padding;
+    //     vertical-align: top;
+
+    //     .news-logo {
+    //         text-align: left;
+    //         vertical-align: top;
+    //         width: (150px + $padding);
+    //         padding: $padding 0;
+
+    //         img {
+    //             width: 150px;
+    //             max-width: floor(percentage(150px / (150px + $padding)));
+    //             height: auto;
+    //             display: block;
+    //         }
+    //     }
+
+    //     .news-desc {
+    //         width: ($inner-max-width - (150px + $padding));
+    //         padding: $padding 0;
+    //         vertical-align: top;
+    //     }
+
+    //     table {
+    //         width: 100%;
+    //         border-bottom: 1px solid plt('mercury');
+
+    //         &:last-child {
+    //             border-bottom: 0;
+
+    //             .news-logo,
+    //             .news-desc {
+    //                 padding: $padding 0 0;
+    //             }
+    //         }
+    //     }
+    // }
+
+    // .clients-desc {
+    //     text-align: center;
+    //     padding: $padding $padding 45px;
+    // }
+}
+
