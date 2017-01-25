@@ -9,7 +9,6 @@ module.exports = {
             applyWidthAttributes: true,
             applyHeightAttributes: true,
             preserveImportant: true,
-            // preserveFontFaces: true,
             webResources: {
                 images: false
             }
