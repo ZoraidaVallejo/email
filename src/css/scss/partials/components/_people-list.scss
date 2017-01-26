@@ -4,8 +4,8 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-people-list {
-    background-color: plt('white');
-
+    background-color: plt('concrete');
+    border-bottom: 1px solid plt('concrete');
 
     .list-table {
         padding: 50px $padding;
@@ -22,72 +22,80 @@
 
     .list-table-title {
         padding: 20px $padding 15px;
-        background-color: plt('blaze-orange');
     }
 
     .people {
 
         &-table {
+            background-color: plt('white');
             table-layout: fixed;
+
+            tr:not(:last-child) {
+
+                td {
+                    border-bottom: 1px solid plt('mercury');
+                }
+            }
         }
 
         &-photo {
-            vertical-align: middle;
+            // width: percentage(70px / $inner-max-width);
+            width: 70px;
+            // padding: 10px 0 10px percentage($padding / $inner-max-width);
             padding: 10px 0 10px $padding;
             text-align: right;
+            vertical-align: middle;
+
+            img {
+                display: block;
+                width: 70px;
+                // max-width: floor(percentage(70px / 100px));
+                max-width: 100%;
+                height: auto;
+            }
         }
 
         &-info {
+            padding: 10px 25px;
             vertical-align: middle;
+
+            .-name {
+                font-size: 25px;
+                line-height: 1.1;
+            }
+
+            .-location {
+                font-size: 12px;
+                line-height: 1.1;
+            }
         }
 
         &-ranking {
+            width: 25px;
+            padding: 10px $padding 10px 0;
+            text-align: left;
             vertical-align: middle;
+
+            img {
+                display: block;
+                width: 25px;
+            }
         }
     }
+}
 
-    // .clients-list {
-    //     padding: 0 $padding;
-    //     vertical-align: top;
 
-    //     .news-logo {
-    //         text-align: left;
-    //         vertical-align: top;
-    //         width: (150px + $padding);
-    //         padding: $padding 0;
+.jld-featured-annotator {
 
-    //         img {
-    //             width: 150px;
-    //             max-width: floor(percentage(150px / (150px + $padding)));
-    //             height: auto;
-    //             display: block;
-    //         }
-    //     }
+    .list-table-title {
+        background-color: plt('blaze-orange');
+    }
+}
 
-    //     .news-desc {
-    //         width: ($inner-max-width - (150px + $padding));
-    //         padding: $padding 0;
-    //         vertical-align: top;
-    //     }
+.jld-leaderboard {
 
-    //     table {
-    //         width: 100%;
-    //         border-bottom: 1px solid plt('mercury');
-
-    //         &:last-child {
-    //             border-bottom: 0;
-
-    //             .news-logo,
-    //             .news-desc {
-    //                 padding: $padding 0 0;
-    //             }
-    //         }
-    //     }
-    // }
-
-    // .clients-desc {
-    //     text-align: center;
-    //     padding: $padding $padding 45px;
-    // }
+    .list-table-title {
+        background-color: plt('green-haze');
+    }
 }
 

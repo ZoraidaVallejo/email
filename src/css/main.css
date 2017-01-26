@@ -668,7 +668,8 @@ body {
 }
 
 .w-people-list {
-  background-color: #ffffff;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .w-people-list .list-table {
@@ -686,25 +687,64 @@ body {
 
 .w-people-list .list-table-title {
   padding: 20px 30px 15px;
-  background-color: #ff6e00;
 }
 
 .w-people-list .people-table {
+  background-color: #ffffff;
   table-layout: fixed;
 }
 
+.w-people-list .people-table tr:not(:last-child) td {
+  border-bottom: 1px solid #e3e3e3;
+}
+
 .w-people-list .people-photo {
-  vertical-align: middle;
+  width: 70px;
   padding: 10px 0 10px 30px;
   text-align: right;
+  vertical-align: middle;
+}
+
+.w-people-list .people-photo img {
+  display: block;
+  width: 70px;
+  max-width: 100%;
+  height: auto;
 }
 
 .w-people-list .people-info {
+  padding: 10px 25px;
   vertical-align: middle;
 }
 
+.w-people-list .people-info .-name {
+  font-size: 25px;
+  line-height: 1.1;
+}
+
+.w-people-list .people-info .-location {
+  font-size: 12px;
+  line-height: 1.1;
+}
+
 .w-people-list .people-ranking {
+  width: 25px;
+  padding: 10px 30px 10px 0;
+  text-align: left;
   vertical-align: middle;
+}
+
+.w-people-list .people-ranking img {
+  display: block;
+  width: 25px;
+}
+
+.jld-featured-annotator .list-table-title {
+  background-color: #ff6e00;
+}
+
+.jld-leaderboard .list-table-title {
+  background-color: #00ae41;
 }
 
 .w-tip-month {

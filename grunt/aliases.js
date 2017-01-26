@@ -5,13 +5,13 @@ module.exports = function (grunt, options) {
     // BLAST configuration
     let buildAlias = [
         options.conversionType,
-        'replace:shorten_classes',
         'replace:live_images'
     ];
 
     // Newsletter configuration overwrite
     if(options.conversionType === 'newsletter') {
         buildAlias = buildAlias.concat([
+            'replace:shorten_classes',
             'htmlmin:live'
         ]);
     }
