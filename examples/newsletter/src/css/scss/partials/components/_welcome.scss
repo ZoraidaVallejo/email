@@ -1,0 +1,46 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// W E L C O M E   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$welcome-image--dimensions: image-dimensions('/src/img/welcome-background-01-a.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-welcome {
+    background-color: plt('picton-blue');
+
+    .head-img {
+        width: nth($welcome-image--dimensions, 1);
+        height: nth($welcome-image--dimensions, 2);
+        vertical-align: middle;
+        background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-a.png');
+        background-repeat: no-repeat;
+    }
+
+    &--title {
+        padding: 0 $padding;
+
+        h1 {
+            font-family: $sans-serif-font-family;
+            font-size: ft-exist(22px);
+            color: plt('white');
+            line-height: 29px;
+
+            span {
+                font-family: $sans-serif-font-family;
+                color: plt('white');
+            }
+        }
+    }
+
+    &--message {
+        padding: 20px $padding 45px;
+
+        p {
+            color: plt('white');
+        }
+    }
+}
+

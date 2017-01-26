@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder v1.2.1
+# JUSTIA Mail Template Builder
 
 
 ## Table of Contents
@@ -7,6 +7,10 @@
 
 1. [Requirements](#requirements)
 2. [Installation](#installation)
+    - [NVM](#nvm)
+    - [Node.js](#nodejs)
+    - [Yarn](#yarn)
+    - [Packages](#packages)
 3. [Folder structure](#folder-structure)
     - [CSS](#css)
         - [Modules](#modules)
@@ -16,46 +20,73 @@
         - [Components](#components)
     - [Images](#images)
 4. [How to use](#how-to-use)
-    - [Grunt configuration](#grunt-configuration)
+    - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-5. [File Version Control](#file-version-control)
-    - [Version](#version)
-    - [Workflow](#workflow)
-6. [Mailgun configuration](#mailgun-configuration)
+5. [Mailgun configuration](#mailgun-configuration)
     - [Login information](#login-information)
     - [Recipients](#recipients)
     - [Add another email account](#add-another-email-account)
-7. [Resources](#resources)
-8. [Release History](#release-history)
+6. [Resources](#resources)
+7. [Release History](#release-history)
 
 
 ## Requirements
 
-- **NVM** → [Install NVM](https://github.com/creationix/nvm)
-- **Node.js** → Using `nvm`, install the 5.11 version of node. You can find the intructions in the `nvm` documentation.
-- **Grunt** & **grunt-cli** installed globally → `npm install grunt-cli -g`
+- **NVM**
+- **Node.js**
+- **Yarn**
+- **Grunt**
 
 
 ## Installation
 
-Open a new terminal window and change the node version to 5.11:
+### NVM
+
+Use the [NVM documentation](https://github.com/creationix/nvm#install-script) for this.
+
+### Node.js
+
+Using `nvm`, install the 6.9 version of node:
+
+```shell
+nvm install 6.9.2
+```
+
+**I highly recommend you** to set this new version of Node as **default** to be used in any new shell:
+
+```shell
+nvm alias default 6.9.2
+```
+
+You can do it manually too:
+
+```shell
+nvm use 6.9.2
+```
+
+### Yarn
+
+Install it with the native OS package manager (if you are on a Mac, probably it will be `brew`):
+
+```shell
+brew update
+brew install yarn
+```
+
+### Packages
+
+First of all, install the Grunt Command Line Inteface globally:
+
+```shell
+npm install grunt-cli -g
+```
+
+Then, install the workflow packges in your local folder:
 
 ```
-nvm use 5.11
-```
-
-Or you can just use the following command (there is a **.nvmrc** file where the node version is declared):
-
-```
-nvm use
-```
-
-Then, install all the packapges and wait:
-
-```
-npm install
+yarn install
 ```
 
 
@@ -65,7 +96,6 @@ npm install
 /
 ├── dist/
 ├── grunt/
-├── log/
 ├── preview/
 └── src/
     ├── css/
@@ -85,7 +115,6 @@ Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `grunt/` | Contains all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
-`log/` | Folder where the previous email templates are stored in zip files.
 `preview/` | All files related to the preview window where you see a *preview* of your work.
 `src/` | Main folder where the source files of the email template are stored.
 `css/scss/modules/` | [More info](#css-modules).
@@ -144,7 +173,7 @@ Handlebars and Assemble are used for templating.
 
 #### UI Components
 
-Contains optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
+Contain optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
 
 For example, to include the **button.hbs** component you would use the following code in your email template:
 
@@ -169,7 +198,7 @@ This folder also includes some IE hack.
 
 #### Components
 
-Contains all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
+Contain all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
 
 ```handlebars
 {{> customComponent}}
@@ -188,21 +217,29 @@ For instance: **welcome-connect-clients-button-01.png**
 - [description] → **According to the mockup, it's a button** → *button* `ᕕ( ՞ ᗜ ՞ )ᕗ`
 - [counter] → **This is the first button of many more** → *01*
 
+Avoid using any of the following names, **they will be ignore when uploading to the server**:
+
+- welcome-background-01-a.png
+- button-mailus-01.png
+- button-mailus-02.png
+- button-more-01.png
+- button-more-02.png
+
 
 ## How to use
 
 
-### Grunt configuration
+### Workflow configuration
 
-Before you start, check/modify the **Gruntfile.js** file and make sure it has the correct configuration:
+Before you start, check/modify the **custom-config.js** file and make sure it has the correct configuration:
 
+- **`conversionType`**: Type of conversion: `blast` or `newsletter`.
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
 - **`current_month`**: Current month. The same as the previous one.
 - **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
-- **`compressed_file_name`**: Name of the file where a copy of the **Gruntfile.js** file, `dist/` and `src/` folder are compressed.
-- **`secrets`**: File where the mailgun configuration is saved. **Don't touch it.**
+- **`compressed_file_name`**: Name of the file where a copy of the **custom-config.js** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
     - **`src`**: Folder where all development files are stored.
     - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
@@ -215,13 +252,22 @@ Before you start, check/modify the **Gruntfile.js** file and make sure it has th
 
 ### Grunt commands
 
-- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version).
-- **`grunt serve`**: Runs the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
-- **`grunt build`**: Runs the default command, but this time the HTML will be compressed and all URL's will be absolute.
-- **`grunt send`**: Sends a copy of a template to all emails listed at the end of this document.
-- **`grunt upload`**: Uploads all the images to the remote server.
-- **`grunt zip`**: Zips the **Gruntfile.js** file, `src/` and `dist/` folders.
+- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
+- **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
+- **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
+- **`grunt send`**: Send a copy of a template to all emails listed at the end of this document.
+- **`grunt upload`**: Upload all the images to the remote server.
+- **`grunt zip`**: Zip the **custom-config.js** file, `src/` and `dist/` folders.
 
+For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
+
+```json
+{
+    "key1": {
+        "username": "username"
+    }
+}
+```
 
 ### Responsive behavior
 
@@ -265,25 +311,6 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 - **`mobile-no-border`**: Removes all borders.
 
 
-## File Version Control
-
-
-### Version
-
-You will bump it up only when you modify something from the file's content. Even if it's a minor change like update a single variable, change a color or a selector.
-
-This only applies to most of the SCSS files except **`main.scss`** and all the files in the **`widgets/` directory**. And most of the **Handlebars components** except **all the files in the **`newsletter/` folder**.
-
-The main reason for these exclusions is that the styles and content can and will change each month.
-
-
-### Workflow
-
-Defined in **main.scss**, **preserve.scss** and in the main template (**newsletter-{{year}}-{{month}}.hbs**).
-
-Tells which version of the main workflow said file and its children compatible with.
-
-
 ## Mailgun configuration
 
 Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
@@ -308,7 +335,7 @@ Apple Mail | Use one of the previous accounts. | I recommend you to include the 
 
 ### Add another email account
 
-> **Note:** You need log in first to modify this section.
+> **Note:** You need to log in first to modify this section.
 
 Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) section and "Invite a New Recipient" to the list (Mailgun will ask you to verify the new account before you can use it).
 
@@ -330,16 +357,3 @@ And you are ready to go `s( ^ ‿ ^)-b`.
 - https://www.campaignmonitor.com/dev-resources/will-it-work/webfonts/
 - http://ceagon.com/tools/charts
 - https://litmus.com/community/templates
-
-
-## Release History
-
-Version | Date | Description
-------- | ---- | -----------
-v1.2.1 | 2016-08-30 | Zips the starter and moves it to the `log/` folder.
-v1.2.0 | 2016-08-23 | Changed all the workflow to work for multiple templates. <br> Created specific email accouts for testing. <br> Basic styles and modules to start creating a new email template.
-v1.1.0 | 2016-08-03 | Remove duplicated variables in **default.yml** and keep the ones in the **Gruntfile.js** where the year and month of the current newsletter are been declared. <br> Moves all the images and newsletter blocks to use its main container folder, instead using especific ones (`img/2016/08/` → `img/`).
-v1.0.0 | 2016-07-28 | Delete unnecessary modules. <br> Set version to all files. <br> Create documentation.
-v0.1.0 | 2016-07-01 | Initial workflow.
-
-

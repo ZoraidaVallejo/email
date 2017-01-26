@@ -1,0 +1,29 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'../../../node_modules/sassy-maps/sass/sassy-maps',
+'image-dimensions';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+@import
+'partials/misc/global',
+'partials/misc/type';
+
+@import
+'partials/layout/main-container',
+'partials/layout/header-v2',
+'partials/layout/footer-v2';
+
+@import
+'partials/components/template-1',
+'partials/components/template-2';
+
+@import
+'partials/misc/other';
