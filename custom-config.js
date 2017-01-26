@@ -3,9 +3,9 @@
 module.exports = {
     conversionType: 'newsletter',
     port: 4000,
-    justatic_version: '20170125',
+    justatic_version: '20170125a',
     current_year: '2017',
-    current_month: 'test',
+    current_month: '02',
 
     // Re-usable filesystem path variables
     paths: {
