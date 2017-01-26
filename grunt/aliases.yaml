@@ -7,7 +7,7 @@ default:
     - 'assemble'
     - 'juice'
     - 'imagemin'
-    - 'replace:dup_style'
+    # - 'replace:dup_style'
     # - 'replace:remove_classes'
     # - 'replace:fix_responsive'
     - 'replace:src_images'
