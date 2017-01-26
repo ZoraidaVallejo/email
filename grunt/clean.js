@@ -2,5 +2,6 @@
 
 // Clean your /dist folder
 module.exports = {
+
     dist: ['dist/']
 };

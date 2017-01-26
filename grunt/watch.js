@@ -4,6 +4,7 @@
 module.exports = function(grunt, options) {
 
     return {
+
         emails: {
             files: [
                 '<%= paths.src %>/emails/*',
