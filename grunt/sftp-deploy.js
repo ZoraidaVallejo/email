@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+
     dist: {
         auth: {
             host: 'internal.justiapro.com',
