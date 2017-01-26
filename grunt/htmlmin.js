@@ -7,8 +7,6 @@ module.exports = {
         options: {
             removeComments: true,
             collapseWhitespace: true
-            // minifyCSS: true
-            // processConditionalComments: true
         },
         files: [{
             expand: true,
