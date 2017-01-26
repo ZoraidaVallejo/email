@@ -1,3 +1,30 @@
+## Version 1.5.0 (2017-01-26)
+- [[`f615d8f`](https://github.com/justia/mail-template-builder/commit/f615d8fe7731706fd387d03d0965e0020f51c606)] - Merge pull request #11 from justia/priscila-blast
+- [[`49e6340`](https://github.com/justia/mail-template-builder/commit/49e6340b2decf12e0191a847ec147bb18407b362)] - :bug: Remove legacy code.
+- [[`b658f30`](https://github.com/justia/mail-template-builder/commit/b658f304e53e9c37533bcbedafb9c1663c42794e)] - :cyclone: Merge issues.
+- [[`4d5c0cc`](https://github.com/justia/mail-template-builder/commit/4d5c0cc86a3a01335c0a6402289330af3117bfe3)] - :x: Delete BLAST files. :floppy_disk: Files are already in the server.
+- [[`c92ca87`](https://github.com/justia/mail-template-builder/commit/c92ca872431dd097299c0e5b2f2b0f5fc97150c6)] - Merge pull request #9 from justia/master
+- [[`f9b9d05`](https://github.com/justia/mail-template-builder/commit/f9b9d0535a4a9524e5496636340235df5ac627a4)] - Merge pull request #8 from justia/diego-newsl
+- [[`276ab69`](https://github.com/justia/mail-template-builder/commit/276ab69ce8e02777d3fa7c38eeebbf20ed27c842)] - :cyclone: Merge issues.
+- [[`5179649`](https://github.com/justia/mail-template-builder/commit/5179649ee7bc9dec79ed7128e480b7968d0d65fb)] - :x: Remove all files of conversion. :floppy_disk: Already saved all files to the server for future modifications.
+- [[`d57e878`](https://github.com/justia/mail-template-builder/commit/d57e8784a716761ae933c0330cc62da38ba71fc4)] - Fix link color
+- [[`dcd9302`](https://github.com/justia/mail-template-builder/commit/dcd930216f08e3540ac3529ef01e2248392bf708)] - :bug: QA fixes per Hector.
+- [[`335b54d`](https://github.com/justia/mail-template-builder/commit/335b54d04526ab4500a17189a3eff8f6034b642e)] - :bug: Changes to content and images per KC and Hector.
+- [[`e509266`](https://github.com/justia/mail-template-builder/commit/e509266be7ad9d0a1a85ae308f14758d9d9a61af)] - Revert ":star: Adds example files."
+- [[`1e6635b`](https://github.com/justia/mail-template-builder/commit/1e6635b2a9473ca54d423592f84a3b9d3b44bf7b)] - Templates done
+- [[`8ea6b72`](https://github.com/justia/mail-template-builder/commit/8ea6b72d07cf8fb98fba0c96decfbd92829324db)] - :star: Adds example files.
+- [[`a8c40e6`](https://github.com/justia/mail-template-builder/commit/a8c40e6676c18cc3faf813df4306809aa47ba986)] - :memo: Update image versions.
+- [[`ca049c4`](https://github.com/justia/mail-template-builder/commit/ca049c442cd9b9a5a0db549584d951632f073df4)] - :memo: Optimizes the internet stats graphic.
+- [[`52abd88`](https://github.com/justia/mail-template-builder/commit/52abd8880685989e32a3a1832b91d61e7293f321)] - :bug: QA fixes.
+- [[`20f907c`](https://github.com/justia/mail-template-builder/commit/20f907cf4e13ad2a96dd32c95eba292691f88386)] - Revert ":x: Reverts all commits where the layout fixed property were applied."
+- [[`136dd6d`](https://github.com/justia/mail-template-builder/commit/136dd6d9ba1b790fc5c07b0581203817dd0ead68)] - :bug: Fixes due to layout fixed tables.
+- [[`db49e27`](https://github.com/justia/mail-template-builder/commit/db49e270b1c50ec135bbb4e271bc87fdd3ed889a)] - :memo: Fixes due to layout fixed tables.
+- [[`890753a`](https://github.com/justia/mail-template-builder/commit/890753ade7d47008853d1b77afafb9b808bab14b)] - :memo: Adds fixed layout property to all tables.
+- [[`cedb077`](https://github.com/justia/mail-template-builder/commit/cedb077752de76bb3bca57d8d00c74825940ff30)] - :memo: Finishes conversion of client and JLD newsletters.
+- [[`b02dce9`](https://github.com/justia/mail-template-builder/commit/b02dce9ae01908016943cafda2f6e5854e332fbb)] - Merge branch 'develop' into diego-newsl
+- [[`ee22164`](https://github.com/justia/mail-template-builder/commit/ee221649078cf4f8ff04f025fe2e641679b5b041)] - Merge pull request #5 from justia/develop
+- [[`b7af5f1`](https://github.com/justia/mail-template-builder/commit/b7af5f10ba20d8a51fa004b265bdf88e0a166fde)] - Merge pull request #1 from justia/develop
+
 ## Version 1.4.0 (2017-01-16)
 - [[`bc9ce89`](https://github.com/justia/mail-template-builder/commit/bc9ce8936c81e9cad5b81654b1bc1d16892e5a3f)] - :boom: Remove unwanted files on root folder.
 - [[`52af3e7`](https://github.com/justia/mail-template-builder/commit/52af3e7b5cc8518d43aabe2a6bbd44755b2c7466)] - Merge pull request #7 from justia/diego-blast
