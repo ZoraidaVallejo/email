@@ -2,6 +2,7 @@
 
 // Browser-based preview task
 module.exports = {
+
     preview: {
         options: {
             map: false,
