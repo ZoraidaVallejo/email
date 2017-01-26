@@ -1,3 +1,19 @@
+## Version 1.5.1 (2017-01-26)
+- [[`eb8ce54`](https://github.com/justia/mail-template-builder/commit/eb8ce54aed71121ada135a42745bf9b388d474b7)] - Merge branch 'develop' of github.com:justia/mail-template-builder into develop
+- [[`a69954e`](https://github.com/justia/mail-template-builder/commit/a69954ea2df954eb31eda747b471ef9bba008e80)] - Merge pull request #13 from justia/diego-proposal
+- [[`81d49d5`](https://github.com/justia/mail-template-builder/commit/81d49d555d25857994e132cfa1610b9cd1b6792a)] - :floppy_disk: Create proposal folder example.
+- [[`6554e59`](https://github.com/justia/mail-template-builder/commit/6554e59a4b3e7940a0809936177927983b981e02)] - :bug: Fix cssmin and htmlmin grunt tasks.
+- [[`23babc0`](https://github.com/justia/mail-template-builder/commit/23babc05f9a07dabec706792ceb2af0edadd40c2)] - :zap: Add Proposal Conversion task.
+- [[`4c21b3f`](https://github.com/justia/mail-template-builder/commit/4c21b3f249451663c7f16156701637cd3bc06151)] - :cyclone: Fix merge issues.
+- [[`ae716e6`](https://github.com/justia/mail-template-builder/commit/ae716e6a35e94a89eb35c44d680a1ba44b8d473a)] - :metal: Delete all files before merging with develop.
+- [[`39b0ff8`](https://github.com/justia/mail-template-builder/commit/39b0ff8c5eab8ce64e91453bf18a82ec037ba487)] - :bug: Minor fixes to workflow.
+- [[`6b3f3fa`](https://github.com/justia/mail-template-builder/commit/6b3f3fae3a59d15d787f30034cfd0818df03f71f)] - :memo: Minor changes per Sadaf.
+- [[`e0a4202`](https://github.com/justia/mail-template-builder/commit/e0a4202081d763aaf38e543f7924fa39c06961ff)] - :memo: Add table per Tim.
+- [[`cd26dae`](https://github.com/justia/mail-template-builder/commit/cd26daee08dd2e1df6a0a45509871a0bb9b203ce)] - :memo: QA fixes
+- [[`4a7e591`](https://github.com/justia/mail-template-builder/commit/4a7e59135db836958800fc176de01e44fff9003d)] - Cleaning things up.
+- [[`ff55d43`](https://github.com/justia/mail-template-builder/commit/ff55d437e302ac6b10e7992fe987da384abca4b8)] - Add the rest of the content
+- [[`17eda65`](https://github.com/justia/mail-template-builder/commit/17eda6584170e5e2ada87f55e99462ff94519eab)] - :star: New proposal.
+
 ## Version 1.5.0 (2017-01-26)
 - [[`f615d8f`](https://github.com/justia/mail-template-builder/commit/f615d8fe7731706fd387d03d0965e0020f51c606)] - Merge pull request #11 from justia/priscila-blast
 - [[`49e6340`](https://github.com/justia/mail-template-builder/commit/49e6340b2decf12e0191a847ec147bb18407b362)] - :bug: Remove legacy code.
