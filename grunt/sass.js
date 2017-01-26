@@ -4,6 +4,7 @@
 var eyeglass = require('eyeglass');
 
 module.exports = {
+
     dist: {
         options: eyeglass({
             outputStyle: 'expanded'

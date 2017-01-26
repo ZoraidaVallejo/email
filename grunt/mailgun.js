@@ -2,6 +2,7 @@
 
 // Use Mailgun option if you want to email the design to your inbox or to something like Litmus
 module.exports = {
+
     mailer: {
         options: {
             key: '<%= secrets.mailgun.api_key %>', // See README for secrets.json or replace this with your own key
