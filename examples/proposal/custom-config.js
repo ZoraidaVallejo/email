@@ -3,9 +3,9 @@
 module.exports = {
     conversionType: 'proposal',
     port: 4000,
-    justatic_version: '20160901a',
-    current_year: '2016',
-    current_month: '09',
+    justatic_version: '1',
+    current_year: '0000',
+    current_month: '00',
 
     // Re-usable filesystem path variables
     paths: {
