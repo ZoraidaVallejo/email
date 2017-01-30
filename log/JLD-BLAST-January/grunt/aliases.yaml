@@ -1,0 +1,53 @@
+# Where we tell Grunt what to do when we type "grunt" into the terminal
+# $ grunt
+default:
+    - 'clean'
+    - 'sass:dist'
+    - 'assemble'
+    - 'juice'
+    - 'imagemin'
+    - 'replace:important_style'
+    - 'replace:dup_style'
+    - 'replace:remove_classes'
+    - 'replace:fix_responsive'
+    - 'replace:src_images'
+
+blast:
+    - 'clean'
+    - 'sass:dist'
+    - 'assemble'
+    - 'imagemin'
+    - 'replace:important_style'
+    - 'replace:src_images'
+
+build:
+    - 'default'
+    - 'replace:shorten_classes'
+    - 'replace:live_images'
+    - 'htmlmin:live'
+
+buildblast:
+    - 'blast'
+    - 'replace:shorten_classes'
+    - 'replace:live_images'
+
+send:
+    - 'build'
+    - 'mailgun'
+
+# Launch the express server and start watching
+# $ grunt serve
+serve:
+    - 'blast'
+    - 'sass:preview'
+    - 'postcss:preview'
+    - 'express'
+    - 'open'
+    - 'watch'
+
+upload:
+    - buildblast
+    - sftp-deploy
+
+zip:
+    - compress
