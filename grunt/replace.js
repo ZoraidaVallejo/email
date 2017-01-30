@@ -29,20 +29,6 @@ module.exports = function() {
         },
 
 
-        dup_style: {
-            options: {
-                usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<\/style>\n<style type=.+>)/g,
-                        replacement: ''
-                    }
-                ]
-            },
-            files: allTemplates
-        },
-
-
         // Replace width="176 !important" in table tag
         important_style: {
             options: {
@@ -52,10 +38,10 @@ module.exports = function() {
                         match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
                         replacement: '$1'
                     },
-                    {
-                        match: /stylecustom/g,
-                        replacement: 'style'
-                    }
+                    // {
+                    //     match: /linkcustom/g,
+                    //     replacement: 'link'
+                    // }
                 ]
             },
             files: allTemplates
@@ -84,7 +70,7 @@ module.exports = function() {
                     { match: /mobile-no-padding-bottom/g, replacement: 'justia16' },
                     { match: /mobile-no-padding-horizontal-sides/g, replacement: 'justia17' },
                     { match: /mobile-no-float/g, replacement: 'justia18' },
-                    { match: /mobile-no-border/g, replacement: 'justia19' },
+                    { match: /mobile-no-border/g, replacement: 'justia19' }
                 ]
             },
             files: allTemplates
@@ -111,8 +97,12 @@ module.exports = function() {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(?:responsive|id)=/g,
-                        replacement: 'class='
+                        match: /\s(?:responsive|id)=/g,
+                        replacement: ' class='
+                    },
+                    {
+                        match: /\s(?:responsive|id)=""/g,
+                        replacement: ''
                     }
                 ]
             },

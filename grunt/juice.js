@@ -2,14 +2,13 @@
 
 // Inlines your CSS
 module.exports = {
-    your_target: {
+    dist: {
         options: {
             preserveMediaQueries: true,
             applyAttributesTableElements: true,
             applyWidthAttributes: true,
             applyHeightAttributes: true,
             preserveImportant: true,
-            // preserveFontFaces: true,
             webResources: {
                 images: false
             }
