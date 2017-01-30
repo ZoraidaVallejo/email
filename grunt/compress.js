@@ -2,21 +2,16 @@
 
 // Inlines your CSS
 module.exports = {
+
     main: {
         options: {
             archive: '<%= compressed_file_name %>.zip'
         },
         files: [
             {
-                src: ['Gruntfile.js'],
+                src: ['custom-config.js'],
                 dest: '/',
                 filter: 'isFile'
-            },
-            {
-                expand: true,
-                cwd: 'grunt/',
-                src: ['*.js', '*.yaml', '*.yml'],
-                dest: 'grunt/'
             },
             {
                 expand: true,

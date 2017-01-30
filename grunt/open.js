@@ -1,12 +1,9 @@
 'use strict';
 
 // Browser-based preview task
-module.exports = function(grunt) {
-    
-    return {
+module.exports = {
 
-        preview: {
-            path: 'http://localhost:<%= port %>'
-        }
-    };
+    preview: {
+        path: 'http://localhost:<%= port %>'
+    }
 };

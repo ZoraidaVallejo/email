@@ -11,37 +11,25 @@ module.exports = function() {
     }];
 
     return {
+
         src_images: {
             options: {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,  // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                        // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
                         replacement: '$1../<%= paths.dist_img %>/'
                     },
                     {
-                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,  // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                        // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
                         replacement: '$1../<%= paths.dist_img %>/'
                     }
                 ]
             },
             files: allTemplates
         },
-
-
-        dup_style: {
-            options: {
-                usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<\/style>\n<style type=.+>)/g,
-                        replacement: ''
-                    }
-                ]
-            },
-            files: allTemplates
-        },
-
 
         // Replace width="176 !important" in table tag
         important_style: {
@@ -51,16 +39,11 @@ module.exports = function() {
                     {
                         match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
                         replacement: '$1'
-                    },
-                    {
-                        match: /stylecustom/g,
-                        replacement: 'style'
                     }
                 ]
             },
             files: allTemplates
         },
-
 
         shorten_classes: {
             options: {
@@ -84,19 +67,17 @@ module.exports = function() {
                     { match: /mobile-no-padding-bottom/g, replacement: 'justia16' },
                     { match: /mobile-no-padding-horizontal-sides/g, replacement: 'justia17' },
                     { match: /mobile-no-float/g, replacement: 'justia18' },
-                    { match: /mobile-no-border/g, replacement: 'justia19' },
+                    { match: /mobile-no-border/g, replacement: 'justia19' }
                 ]
             },
             files: allTemplates
         },
-
 
         remove_classes: {
             options: {
                 usePrefix: false,
                 patterns: [
                     {
-                        // match: /(?:class|responsive)=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
                         match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
                         replacement: ''
                     }
@@ -105,20 +86,22 @@ module.exports = function() {
             files: allTemplates
         },
 
-
         fix_responsive: {
             options: {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(?:responsive|id)=/g,
-                        replacement: 'class='
+                        match: /\s(?:responsive|id)=/g,
+                        replacement: ' class='
+                    },
+                    {
+                        match: /\s(?:responsive|id)=""/g,
+                        replacement: ''
                     }
                 ]
             },
             files: allTemplates
         },
-
 
         live_images: {
             options: {

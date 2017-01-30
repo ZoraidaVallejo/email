@@ -2,6 +2,7 @@
 
 // Browser-based preview task
 module.exports = {
+
     server: {
         options: {
             port: '<%= port %>',

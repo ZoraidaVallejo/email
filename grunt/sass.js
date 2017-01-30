@@ -4,14 +4,18 @@
 var eyeglass = require('eyeglass');
 
 module.exports = {
+
     dist: {
         options: eyeglass({
             outputStyle: 'expanded'
         }),
-        files: {
-            '<%= paths.src %>/css/main.css': '<%= paths.src %>/css/scss/main.scss',
-            '<%= paths.src %>/css/preserve.css': '<%= paths.src %>/css/scss/preserve.scss'
-        }
+        files: [{
+            expand: true,
+            cwd: '<%= paths.src %>/css/scss',
+            src: ['*.scss'],
+            dest: '<%= paths.src %>/css',
+            ext: '.css'
+        }]
     },
 
     // This task compiles Sass for the browser-baed preview UI.
