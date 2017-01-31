@@ -240,14 +240,17 @@ body {
 }
 
 .claimed-bronze a,
-.claimed-gold a {
+.claimed-gold a,
+.claimed-silver a {
   text-decoration: none;
 }
 
 .claimed-bronze .title,
 .claimed-bronze .subtitle,
 .claimed-gold .title,
-.claimed-gold .subtitle {
+.claimed-gold .subtitle,
+.claimed-silver .title,
+.claimed-silver .subtitle {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -255,12 +258,14 @@ body {
 }
 
 .claimed-bronze .subtitle,
-.claimed-gold .subtitle {
+.claimed-gold .subtitle,
+.claimed-silver .subtitle {
   color: #555555;
 }
 
 .claimed-bronze .desc,
-.claimed-gold .desc {
+.claimed-gold .desc,
+.claimed-silver .desc {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -269,7 +274,8 @@ body {
 }
 
 .claimed-bronze img,
-.claimed-gold img {
+.claimed-gold img,
+.claimed-silver img {
   margin: 0 auto;
 }
 
