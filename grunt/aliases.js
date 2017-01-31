@@ -9,7 +9,7 @@ module.exports = function (grunt, options) {
     ];
 
     // Newsletter configuration overwrite
-    if(options.conversionType === 'newsletter') {
+    if(options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
             'htmlmin:live'
@@ -43,6 +43,16 @@ module.exports = function (grunt, options) {
             'replace:src_images'
         ],
 
+        'proposal': [
+            'clean',
+            'sass:dist',
+            'cssmin',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:src_images'
+        ],
+
         'build': buildAlias,
 
         send: [
@@ -68,6 +78,5 @@ module.exports = function (grunt, options) {
         zip: [
             'compress'
         ]
-
     };
 };

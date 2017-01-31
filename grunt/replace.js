@@ -55,23 +55,25 @@ module.exports = function() {
     }
 
     return {
+
         src_images: {
             options: {
                 usePrefix: false,
                 patterns: [
                     {
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,  // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                        // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
                         replacement: '$1../<%= paths.dist_img %>/'
                     },
                     {
-                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,  // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                        // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
                         replacement: '$1../<%= paths.dist_img %>/'
                     }
                 ]
             },
             files: allTemplates
         },
-
 
         // Replace width="176 !important" in table tag
         important_style: {
@@ -87,7 +89,6 @@ module.exports = function() {
             files: allTemplates
         },
 
-
         shorten_classes: {
             options: {
                 usePrefix: false,
@@ -96,13 +97,11 @@ module.exports = function() {
             files: allTemplates
         },
 
-
         remove_classes: {
             options: {
                 usePrefix: false,
                 patterns: [
                     {
-                        // match: /(?:class|responsive)=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
                         match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
                         replacement: ''
                     }
@@ -110,7 +109,6 @@ module.exports = function() {
             },
             files: allTemplates
         },
-
 
         fix_responsive: {
             options: {
@@ -128,7 +126,6 @@ module.exports = function() {
             },
             files: allTemplates
         },
-
 
         live_images: {
             options: {
