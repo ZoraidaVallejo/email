@@ -64,6 +64,10 @@ p {
   Margin: 0;
 }
 
+p.desc {
+  font-weight: 300;
+}
+
 code,
 pre,
 .word-wrap {
@@ -239,33 +243,23 @@ body {
   text-transform: uppercase;
 }
 
-.claimed-bronze a,
-.claimed-gold a,
-.claimed-silver a {
+.closedwon a {
   text-decoration: none;
 }
 
-.claimed-bronze .title,
-.claimed-bronze .subtitle,
-.claimed-gold .title,
-.claimed-gold .subtitle,
-.claimed-silver .title,
-.claimed-silver .subtitle {
+.closedwon .title,
+.closedwon .subtitle {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
   color: #02337c;
 }
 
-.claimed-bronze .subtitle,
-.claimed-gold .subtitle,
-.claimed-silver .subtitle {
+.closedwon .subtitle {
   color: #555555;
 }
 
-.claimed-bronze .desc,
-.claimed-gold .desc,
-.claimed-silver .desc {
+.closedwon .desc {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -273,9 +267,7 @@ body {
   font-weight: 300;
 }
 
-.claimed-bronze img,
-.claimed-gold img,
-.claimed-silver img {
+.closedwon img {
   margin: 0 auto;
 }
 

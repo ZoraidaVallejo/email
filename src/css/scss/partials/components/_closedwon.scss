@@ -10,9 +10,7 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-.claimed-bronze,
-.claimed-gold,
-.claimed-silver {
+.closedwon {
     a {
         text-decoration: none;
     }
@@ -34,7 +32,7 @@
         font-size: 16px;
         line-height: 1.5;
         color: #555555;
-        font-weight: 300;
+        font-weight: $font-weight--light;
     }
 
     img {
