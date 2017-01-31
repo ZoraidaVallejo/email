@@ -10,7 +10,7 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
     {{!-- HEADER --}}
     <tr>
         <td align="center" height="100%" width="100%" valign="top">
-            {{> headerV1 date='January 2017' }}
+            {{> headerV1 date='[month] [year]' }} {{!-- Optimized --}}
         </td>
     </tr>
 
@@ -18,42 +18,27 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
 
     {{!-- CONTENT --}}
     <tr>
-        <td align="center" height="100%" width="100%" valign="top">
+        <td align="center" height="100%" width="100%">
 
             {{> layoutHack tableStart=true }}
 
                 {{!-- WELCOME MESSAGE --}}
-                {{> welcome jldNewsletter=true }}
+                {{> welcome jldNewsletter=true }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- FEATURED ANNOTATOR --}}
-                {{> jld-featured-annotator }}
+                {{!-- ADVERTISEMENT --}}
+                {{> jld-advertisement-01 }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
-                {{> featured-news }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- LEADERBOARD --}}
-                {{> jld-leaderboard }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- TIP OF THE MONTH --}}
-                {{> tip-of-the-month }}
+                {{> featured-news }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- TECH NEWS --}}
-                {{> tech-news }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- INTERNET STATS --}}
-                {{> internet-stats }}
+                {{> tech-news }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -62,18 +47,28 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- FEATURED SITE OF THE MONTH --}}
-                {{> featured-site-of-the-month }}
+                {{!-- ASK A LAWYER LEADERBOARD --}}
+                {{> ask-lawyer-leaderboard }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- CLIENTS IN THE NEWS --}}
-                {{> clients-in-the-news }}
+                {{!-- SOCIAL MEDIA NEWS --}}
+                {{> social-media-news }}
+    
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- LEGAL INDUSTRY NEWS --}}
+                {{> legal-industry-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- INSIDE JUSTIA --}}
-                {{> inside-justia }}
+                {{!-- FEATURED ANNOTATOR --}}
+                {{> featured-annotator }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- TIP OF THE MONTH --}}
+                {{> tip-of-the-month }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -87,25 +82,30 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- SOCIAL MEDIA NEWS --}}
-                {{> social-media-news }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- ADVERTISEMENT --}}
-                {{> jld-advertisement-01 }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
                 {{!-- PUG'S TALE --}}
                 {{> pugs-tale }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- LEGAL INDUSTRY NEWS --}}
-                {{> legal-industry-news }}
+                {{!-- ADVERTISEMENT --}}
+                {{> jld-advertisement-02 }}
 
             {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- INTERNET STATS --}}
+                {{> internet-stats }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- FEATURED SITE OF THE MONTH --}}
+                {{> featured-site-of-the-month }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- JURISPRO --}}
+                {{!-- {{> jurispro }} --}}
+
+            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
 
                 {{!-- LAW EVENTS --}}
                 {{> law-events }}

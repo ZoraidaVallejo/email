@@ -11,6 +11,10 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
 .w-stories-list {
     background-color: plt('white');
 
+    a {
+        text-decoration: none;
+    }
+
     .main-story-title {
         padding: 45px $padding 20px;
 
@@ -26,14 +30,6 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
     .main-story-desc {
         padding: 0 $padding 45px;
 
-        a {
-            text-decoration: none;
-        }
-
-        table {
-            width: 100%;
-        }
-
         .story-desc {
             width: ($inner-max-width - $tech-news-image--width - $padding);
             text-align: left;
@@ -48,14 +44,13 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
             img {
                 width: $tech-news-image--width;
                 max-width: floor(percentage($tech-news-image--width / ($tech-news-image--width + $padding)));
-                height: auto;
             }
         }
     }
 
     .stories-title {
-        text-align: center;
         padding: 45px $padding 20px;
+        text-align: center;
     }
 
     .story-item {
@@ -68,17 +63,10 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         &.-verylast {
             padding: 0 $padding 45px;
         }
-
-        a {
-            text-decoration: none;
-            font-family: $sans-serif-font-family;
-            font-size: ft-exist(16px);
-            line-height: 22px;
-        }
     }
 
 
-    &.tech-news {
+    &.w-tech-news {
 
         .story-item a,
         .widget-main-title {
@@ -86,7 +74,7 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         }
     }
 
-    &.seo-news {
+    &.w-seo-news {
 
         .story-item a,
         .widget-main-title {
@@ -94,7 +82,7 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         }
     }
 
-    &.social-media-news {
+    &.w-social-media-news {
 
         .story-item a,
         .widget-main-title {
@@ -102,7 +90,7 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         }
     }
 
-    &.legal-industry-news {
+    &.w-legal-industry-news {
 
         .story-item a,
         .widget-main-title {

@@ -18,7 +18,7 @@
 
 @import
 'partials/layout/main-container',
-'partials/layout/header-v1',
+'partials/layout/header-v1', // Optimized
 'partials/layout/header-v2',
 'partials/layout/footer-v1',
 'partials/layout/footer-v2';
@@ -29,14 +29,14 @@
 'partials/ui-components/columns-grid';
 
 @import
-'partials/components/welcome',
-'partials/components/stories-list',
+'partials/components/welcome', // Optimized
+'partials/components/stories-list', // Optimized
 'partials/components/people-list',
 'partials/components/tip-of-the-month',
 'partials/components/clients-in-the-news',
 'partials/components/column-text-image',
 'partials/components/did-you-know',
-'partials/components/advertisement',
+'partials/components/advertisement', // JLD ad optimized
 'partials/components/internet-stats',
 'partials/components/featured-site-of-the-month',
 'partials/components/law-events';

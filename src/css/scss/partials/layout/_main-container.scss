@@ -33,12 +33,12 @@ body {
 }
 
 .spacer {
+    display: block;
+    opacity: 0;
     width: $inner-max-width;
     height: 1px !important;
-    opacity: 0;
-    display: block;
-    font-size: 0 !important;
     margin: 0;
+    font-size: 0 !important;
 }
 
 
@@ -50,19 +50,16 @@ body {
 .widget {
 
     &-type-name {
-        color: plt('shuttle-gray');
-        font-size: ft-exist(14px);
-        font-weight: $font-weight--bold;
-        text-transform: uppercase;
-        line-height: 14px;
         padding: 0 0 5px;
+        color: plt('shuttle-gray');
+        // font: $font-weight--bold 14px/14px $sans-serif-font-family;
+        font: $font-weight--bold 14px/1 $sans-serif-font-family;
     }
 
     &-main-title {
         color: plt('black');
-        font-size: ft-exist(29px);
-        font-weight: $font-weight--normal;
-        line-height: 37px;
+        // font: $font-weight--normal 29px/37px $sans-serif-font-family;
+        font: $font-weight--normal 29px/1.27 $sans-serif-font-family;
     }
 }
 

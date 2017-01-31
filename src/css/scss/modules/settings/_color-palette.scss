@@ -61,5 +61,5 @@ $ui-color-pallete: (
     'accent': map-get($primary-palette, 'picton-blue')
 );
 
-$colour-palette: map-extend($grayscale-palette, $primary-palette, $ui-color-pallete);
+$colour-palette: map-extend($grayscale-palette, $primary-palette, $new-primary-color, $ui-color-pallete);
 

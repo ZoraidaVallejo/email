@@ -6,17 +6,13 @@
 h1,
 h2,
 h4 {
-    font-family: $sans-serif-font-family;
-    font-weight: $font-weight--normal;
     margin: 0;
 }
 
 p {
-    font-family: $sans-serif-font-family;
-    font-size: ft-exist(16px);
-    line-height: 22px;
-    font-weight: $font-weight--normal;
     margin: 0;
+    // font: $font-weight--normal 16px/22px $sans-serif-font-family;
+    font: 16px/1.38 $sans-serif-font-family;
 }
 
 a {
@@ -27,10 +23,9 @@ a {
 code,
 pre,
 .word-wrap {
-    word-break: break-word;
     word-wrap: break-word;
+    word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
 }
-

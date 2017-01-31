@@ -42,7 +42,21 @@ $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-backgr
 }
 
 .w-jld-advertisement-01 {
-    background-color: plt('blue-whale');
+    background-color: plt('silver');
+
+    a {
+        display: block;
+    }
+
+    img {
+        display: block;
+        width: $max-width;
+        max-width: 100%;
+    }
+}
+
+.w-jld-advertisement-02 {
+    background-color: plt('silver');
 
     a {
         display: block;

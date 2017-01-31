@@ -14,6 +14,10 @@
     .widget-type-name,
     .widget-main-title {
         color: plt('white');
+
+        a {
+            color: plt('white');
+        }
     }
 
     a {
@@ -29,6 +33,11 @@
         &-table {
             background-color: plt('white');
             table-layout: fixed;
+
+
+            a {
+                color: plt('black');
+            }
 
             tr:not(:last-child) {
 
@@ -85,14 +94,14 @@
 }
 
 
-.jld-featured-annotator {
+.w-featured-annotator {
 
     .list-table-title {
         background-color: plt('blaze-orange');
     }
 }
 
-.jld-leaderboard {
+.w-ask-lawyer-leaderboard {
 
     .list-table-title {
         background-color: plt('green-haze');

@@ -10,7 +10,7 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
     {{!-- HEADER --}}
     <tr>
         <td align="center" height="100%" width="100%" valign="top">
-            {{> headerV1 date='January 2017' }}
+            {{> headerV1 date='[month] [year]' }} {{!-- Optimized --}}
         </td>
     </tr>
 
@@ -23,12 +23,12 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
             {{> layoutHack tableStart=true }}
 
                 {{!-- WELCOME MESSAGE --}}
-                {{> welcome clientsNewsletter=true }}
+                {{> welcome clientsNewsletter=true }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
-                {{> featured-news }}
+                {{> featured-news }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -38,7 +38,7 @@ subject: January 2017 edition - Justia’s exclusive client newsletter!
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- TECH NEWS --}}
-                {{> tech-news }}
+                {{> tech-news }} {{!-- Optimized --}}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
