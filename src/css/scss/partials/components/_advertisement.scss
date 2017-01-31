@@ -40,3 +40,17 @@ $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-backgr
         }
     }
 }
+
+.w-jld-advertisement-01 {
+    background-color: plt('blue-whale');
+
+    a {
+        display: block;
+    }
+
+    img {
+        display: block;
+        width: $max-width;
+        max-width: 100%;
+    }
+}
