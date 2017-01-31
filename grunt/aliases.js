@@ -22,7 +22,6 @@ module.exports = function (grunt, options) {
         'newsletter': [
             'clean',
             'sass:dist',
-            'cssmin',
             'assemble',
             'juice',
             'imagemin',
