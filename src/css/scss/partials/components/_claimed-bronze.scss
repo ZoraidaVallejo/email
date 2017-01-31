@@ -1,0 +1,41 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+
+// $template1-background--dimensions: image-dimensions('/src/img/template1-background-01.png');
+
+// $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.claimed-bronze {
+    a {
+        text-decoration: none;
+    }
+
+    .title,
+    .subtitle {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #02337c;
+    }
+
+    .subtitle {
+        color: #555555;
+    }
+
+    .desc {
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #555555;
+        font-weight: 300;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+}

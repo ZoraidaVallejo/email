@@ -1,0 +1,130 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// F O O T E R
+// ----------------------------------------------------------------------------------------------------------
+
+$social-icons-v2--size: 32px;
+$social-icons-v2--gap: 4px;
+
+$footer-logo-v2-width: 113px;
+$footer-logo-v2-height: 34px;
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-footer-v2 {
+    width: $max-width;
+    clear: both;
+    background-color: plt('white');
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        max-width: none;
+    }
+
+    .logo-footernav {
+        padding: 20px $padding;
+        background-color: plt('primary');
+
+        table {
+            width: 100%;
+        }
+
+        .logo {
+            width: 25%;
+            vertical-align: middle;
+
+            img {
+                display: block;
+                max-width: none;
+                width: $footer-logo-v2-width;
+                height: $footer-logo-v2-height;
+            }
+        }
+
+        .footernav {
+            width: 75%;
+            vertical-align: middle;
+            text-align: right;
+
+            span,
+            a {
+                color: plt('white');
+            }
+
+            .vline {
+                margin: 0 10px;
+                Margin: 0 10px;
+            }
+        }
+    }
+
+    .disclaimer p,
+    .address p,
+    .footernav p,
+    span,
+    a {
+        font-size: 14px !important;
+        white-space: nowrap;
+    }
+
+
+    .social {
+        overflow: hidden;
+        width: $max-width;
+        padding: 20px $padding 10px;
+        text-align: center;
+
+        table {
+            width: (($social-icons-v2--size * 5) + ($social-icons-v2--gap * 4));
+            margin: 0 auto;
+
+            td {
+                width: ($social-icons-v2--size + $social-icons-v2--gap);
+                height: $social-icons-v2--size;
+                text-align: left;
+                vertical-align: top;
+
+                &:last-child {
+                    width: $social-icons-v2--size;
+                }
+            }
+        }
+
+        a {
+            display: inline-block !important;
+            vertical-align: middle;
+
+            img {
+                width: $social-icons-v2--size;
+                height: $social-icons-v2--size;
+            }
+        }
+    }
+
+    .disclaimer {
+        padding: 0 $padding 5px;
+        text-align: center;
+    }
+
+    .address {
+        padding: 0 $padding floor($padding * 4);
+        vertical-align: top;
+        text-align: center;
+
+        span,
+        a {
+            color: plt('black');
+        }
+
+        .justia-inline {
+            font-weight: $font-weight--bold;
+            text-transform: uppercase;
+        }
+    }
+}
+
