@@ -28,7 +28,6 @@
     "grunt-express": "1.4.1",
     "grunt-juice-email": "0.1.4",
     "grunt-open": "0.2.3",
-    "grunt-parallel": "0.5.1",
     "grunt-postcss": "0.8.0",
     "grunt-replace": "0.9.3",
     "grunt-sass": "1.2.0",
@@ -36,7 +35,6 @@
     "imagemin-mozjpeg": "^6.0.0",
     "jit-grunt": "^0.10.0",
     "load-grunt-config": "0.19.2",
-    "load-grunt-tasks": "^3.5.2",
     "sassy-maps": "github:at-import/Sassy-Maps#v0.4.0",
     "time-grunt": "^1.4.0"
   }
