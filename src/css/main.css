@@ -1047,6 +1047,41 @@ body {
   margin: 0 auto;
 }
 
+.w-jurispro {
+  background-color: #ffffff;
+}
+
+.w-jurispro a {
+  text-decoration: none;
+}
+
+.w-jurispro .jurispro-title {
+  padding: 38px 30px 13px;
+  background-color: #01193e;
+}
+
+.w-jurispro .jurispro-title img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.w-jurispro .jurispro-desc {
+  padding: 20px 30px;
+}
+
+.w-jurispro .jurispro-case-list .case {
+  padding: 0 30px 20px;
+}
+
+.w-jurispro .jurispro-case-list .case a {
+  color: #01193e;
+}
+
+.w-jurispro .jurispro-case-list:last-of-type .case {
+  padding: 0 30px 45px;
+}
+
 .w-law-events {
   background-color: #01b463;
 }
