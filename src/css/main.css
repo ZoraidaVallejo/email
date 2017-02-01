@@ -589,6 +589,10 @@ body {
   max-width: 83%;
 }
 
+.w-stories-list .main-story-desc .story-extra {
+  padding: 30px 0 0;
+}
+
 .w-stories-list .stories-title {
   padding: 45px 30px 20px;
   text-align: center;
@@ -620,6 +624,21 @@ body {
 .w-stories-list.w-legal-industry-news .story-item a,
 .w-stories-list.w-legal-industry-news .widget-main-title {
   color: #35b9ba;
+}
+
+.w-stories-list.w-jurispro sup {
+  font: 16px/1 Arial, sans-serif;
+}
+
+.w-stories-list.w-jurispro .story-desc,
+.w-stories-list.w-jurispro .featured-image {
+  padding: 0 0 30px;
+  border-bottom: 1px solid #e3e3e3;
+  vertical-align: middle;
+}
+
+.w-stories-list.w-jurispro .story-desc p {
+  font: 20px/1.38 Arial, sans-serif;
 }
 
 .w-people-list {
@@ -1045,41 +1064,6 @@ body {
   display: block;
   width: 520px;
   margin: 0 auto;
-}
-
-.w-jurispro {
-  background-color: #ffffff;
-}
-
-.w-jurispro a {
-  text-decoration: none;
-}
-
-.w-jurispro .jurispro-title {
-  padding: 38px 30px 13px;
-  background-color: #01193e;
-}
-
-.w-jurispro .jurispro-title img {
-  display: block;
-  width: 100%;
-  margin: 0;
-}
-
-.w-jurispro .jurispro-desc {
-  padding: 20px 30px;
-}
-
-.w-jurispro .jurispro-case-list .case {
-  padding: 0 30px 20px;
-}
-
-.w-jurispro .jurispro-case-list .case a {
-  color: #01193e;
-}
-
-.w-jurispro .jurispro-case-list:last-of-type .case {
-  padding: 0 30px 45px;
 }
 
 .w-law-events {
