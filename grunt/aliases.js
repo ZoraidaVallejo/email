@@ -55,12 +55,7 @@ module.exports = function (grunt, options) {
 
         'build': buildAlias,
 
-        send: [
-            'build',
-            'mailgun'
-        ],
-
-        serve: [
+        'serve': [
             options.conversionType,
             'sass:preview',
             'postcss:preview',
@@ -69,13 +64,13 @@ module.exports = function (grunt, options) {
             'watch'
         ],
 
-        upload: [
+        'upload': [
             options.conversionType,
             'imagemin',
             'sftp-deploy'
         ],
 
-        zip: [
+        'zip': [
             'compress'
         ]
     };

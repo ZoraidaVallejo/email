@@ -10,9 +10,20 @@ module.exports = function(grunt) {
         secrets: grunt.file.readJSON('secrets.json')
     });
 
+    // Time how long tasks take. Can help when optimizing build times
+    require('time-grunt')(grunt);
+
     require('load-grunt-config')(grunt, {
 
         // Pass data to tasks
-        data: allRules
+        data: allRules,
+
+        jitGrunt: {
+
+            staticMappings: {
+                juice: 'grunt-juice-email'
+            }
+        }
+        // pattern: '!grunt-assemble-*',
     });
 };

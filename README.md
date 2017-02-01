@@ -24,12 +24,8 @@
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-5. [Mailgun configuration](#mailgun-configuration)
-    - [Login information](#login-information)
-    - [Recipients](#recipients)
-    - [Add another email account](#add-another-email-account)
-6. [Resources](#resources)
-7. [Release History](#release-history)
+5. [Resources](#resources)
+6. [Release History](#release-history)
 
 
 ## Requirements
@@ -309,39 +305,6 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 - **`mobile-no-padding-horizontal-sides`**: Removes the right and left paddings.
 - **`mobile-no-float`**: Resets float to none.
 - **`mobile-no-border`**: Removes all borders.
-
-
-## Mailgun configuration
-
-Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
-
-### Login information
-
-**Username** | **Password**
------------- | ------------
-diego.miguel@justia.com | diet32coke
-
-
-### Recipients
-
-Client | Account | Description
------- | ------- | -----------
-Gmail | Use the Justia account for this one. | [More info](#add-another-email-account) about how to register a new mail account in Mailgun.
-Outlook.com | diego.miguel.tester@outlook.com | **Password:** *diet32coke*
-Yahoo! | jmailtester@yahoo.com | **Password:** *diet32coke*
-AOL | jmailtester@aol.com | **Password:** *diet32coke* <br> **Security question:** <br> *What was the name of your first pet? → puppy*
-Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. <br>Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
-
-
-### Add another email account
-
-> **Note:** You need to log in first to modify this section.
-
-Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) section and "Invite a New Recipient" to the list (Mailgun will ask you to verify the new account before you can use it).
-
-Now open the **secrets.js** file and include the new account in the `"recipient"` option.
-
-And you are ready to go `s( ^ ‿ ^)-b`.
 
 
 ## Resources
