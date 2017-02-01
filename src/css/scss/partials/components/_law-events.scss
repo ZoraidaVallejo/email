@@ -21,8 +21,11 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
     .law-events-list {
         padding: 0 $padding;
+    }
 
-        &.-last {
+    tr:last-child {
+
+        .law-events-list {
             padding: 0 $padding 15px;
         }
     }
@@ -41,10 +44,9 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
     }
 
     .date {
-        font-size: 20px;
-        font-weight: $font-weight--bold;
-        line-height: 20px;
         color: plt('white');
+        font: $font-weight--bold 20px/1 $sans-serif-font-family;
+        // font: $font-weight--bold 20px/20px $sans-serif-font-family;
     }
 
     .desc {

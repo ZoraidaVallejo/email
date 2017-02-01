@@ -25,19 +25,15 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             vertical-align: top;
 
             .widget-main-title {
-                font-size: ft-exist(22px);
-                line-height: 32px;
                 padding: 0 0 10px;
+                font: 22px/1.45 $sans-serif-font-family;
             }
         }
 
         .item-image {
             padding: 48px 0 $padding;
+            text-align: right;
             vertical-align: top;
-
-            img {
-                height: auto;
-            }
         }
 
         table {
@@ -78,7 +74,6 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 
-
     &.w-inside-justia {
 
         .item-list {
@@ -97,7 +92,6 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             }
         }
     }
-
 
     &.w-pugs-tale {
 
@@ -118,5 +112,4 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 }
-
 

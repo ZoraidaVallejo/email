@@ -107,7 +107,6 @@ body {
 .main-header-v1 .view-in-browser a {
   display: block;
   width: 100%;
-  font-family: Arial, sans-serif;
   text-decoration: none;
 }
 
@@ -229,7 +228,7 @@ body {
 .main-footer-v1 .footernav p,
 .main-footer-v1 span,
 .main-footer-v1 a {
-  font-size: 14px;
+  font: 14px/1.38 Arial, sans-serif;
 }
 
 .main-footer-v1 .disclaimer {
@@ -258,7 +257,6 @@ body {
 
 .main-footer-v1 .footernav .vline {
   margin: 0 10px;
-  Margin: 0 10px;
 }
 
 .main-footer-v2 {
@@ -317,7 +315,7 @@ body {
 .main-footer-v2 .footernav p,
 .main-footer-v2 span,
 .main-footer-v2 a {
-  font-size: 14px !important;
+  font: 14px/1.38 Arial, sans-serif !important;
   white-space: nowrap;
 }
 
@@ -400,16 +398,13 @@ body {
 .label-divider td {
   padding: 4px 0;
   margin: 0;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 14px;
   color: #ffffff;
+  font: 700 14px/1 Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .label-divider span {
   color: #ffffff;
-  font-family: Arial, sans-serif;
 }
 
 .label-divider .label {
@@ -603,11 +598,7 @@ body {
   padding: 0 30px 20px;
 }
 
-.w-stories-list .story-item.-last {
-  padding: 0 30px;
-}
-
-.w-stories-list .story-item.-verylast {
+.w-stories-list tr:last-child .story-item {
   padding: 0 30px 45px;
 }
 
@@ -632,8 +623,8 @@ body {
 }
 
 .w-people-list {
-  background-color: #f3f3f3;
   border-bottom: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 .w-people-list .list-table {
@@ -663,10 +654,6 @@ body {
   table-layout: fixed;
 }
 
-.w-people-list .people-table a {
-  color: #000000;
-}
-
 .w-people-list .people-table tr:not(:last-child) td {
   border-bottom: 1px solid #e3e3e3;
 }
@@ -682,7 +669,6 @@ body {
   display: block;
   width: 70px;
   max-width: 100%;
-  height: auto;
 }
 
 .w-people-list .people-info {
@@ -690,14 +676,16 @@ body {
   vertical-align: middle;
 }
 
+.w-people-list .people-info a {
+  color: #000000;
+}
+
 .w-people-list .people-info .-name {
-  font-size: 25px;
-  line-height: 1.1;
+  font: 25px/1.1 Arial, sans-serif;
 }
 
 .w-people-list .people-info .-location {
-  font-size: 12px;
-  line-height: 1.1;
+  font: 12px/1.1 Arial, sans-serif;
 }
 
 .w-people-list .people-ranking {
@@ -710,6 +698,7 @@ body {
 .w-people-list .people-ranking img {
   display: block;
   width: 25px;
+  height: 56px;
 }
 
 .w-featured-annotator .list-table-title {
@@ -731,17 +720,12 @@ body {
   color: #ffffff;
 }
 
-.w-tip-month p a {
+.w-tip-month a {
   text-decoration: none;
-  font-weight: 700;
 }
 
 .w-tip-month .tip-title {
   padding: 45px 30px 20px;
-}
-
-.w-tip-month .tip-title .widget-main-title a {
-  text-decoration: none;
 }
 
 .w-tip-month .tip-desc {
@@ -823,18 +807,14 @@ body {
 }
 
 .w-text-image .item-list .item-desc .widget-main-title {
-  font-size: 22px;
-  line-height: 32px;
   padding: 0 0 10px;
+  font: 22px/1.45 Arial, sans-serif;
 }
 
 .w-text-image .item-list .item-image {
   padding: 48px 0 30px;
+  text-align: right;
   vertical-align: top;
-}
-
-.w-text-image .item-list .item-image img {
-  height: auto;
 }
 
 .w-text-image .item-list table {
@@ -937,18 +917,12 @@ body {
   margin: 0;
 }
 
-.w-did-you-know .today-on-date {
-  display: block;
-  font-size: 11px;
-  font-weight: 700;
-}
-
 .w-advertisement .dvbg {
   width: 600px;
   height: 300px;
-  background-repeat: no-repeat !important;
   background: url("../img/ad-name-background-01.png");
   background-color: #444444;
+  background-repeat: no-repeat !important;
   vertical-align: top;
 }
 
@@ -968,36 +942,26 @@ body {
 }
 
 .w-advertisement .cont .cnt1 {
-  vertical-align: top;
   padding: 25px 30px 0;
+  vertical-align: top;
 }
 
-.w-jld-advertisement-01 {
-  background-color: #bdbdbd;
-}
-
-.w-jld-advertisement-01 a {
+.w-advertisement a {
   display: block;
 }
 
-.w-jld-advertisement-01 img {
+.w-advertisement img {
   display: block;
   width: 600px;
   max-width: 100%;
 }
 
-.w-jld-advertisement-02 {
+.w-jld-ad-01 {
   background-color: #bdbdbd;
 }
 
-.w-jld-advertisement-02 a {
-  display: block;
-}
-
-.w-jld-advertisement-02 img {
-  display: block;
-  width: 600px;
-  max-width: 100%;
+.w-jld-ad-02 {
+  background-color: #bdbdbd;
 }
 
 .w-internet-stats {
@@ -1005,28 +969,24 @@ body {
 }
 
 .w-internet-stats .stats-title {
-  vertical-align: top;
-  text-align: center;
   padding: 45px 30px 30px;
+  text-align: center;
 }
 
 .w-internet-stats .stats-chart {
-  vertical-align: top;
+  padding: 0 30px 40px;
   text-align: center;
-  padding: 0 30px;
 }
 
 .w-internet-stats .stats-chart img {
   display: block;
   width: 540px;
-  height: auto;
   margin: 0 auto;
 }
 
 .w-internet-stats .stats-desc {
-  vertical-align: top;
   text-align: center;
-  padding: 40px 30px 45px;
+  padding: 0 30px 45px;
 }
 
 .w-internet-stats .stats-desc-head {
@@ -1034,8 +994,7 @@ body {
 }
 
 .w-internet-stats .stats-desc-head .line1 {
-  font-size: 20px;
-  line-height: 26px;
+  font: 20px/1.3 Arial, sans-serif;
 }
 
 .w-internet-stats .stats-desc a {
@@ -1043,20 +1002,11 @@ body {
 }
 
 .w-internet-stats .stats-desc .source {
-  font-size: 14px;
-  line-height: 18px;
+  font: 14px/1.3 Arial, sans-serif;
 }
 
 .w-feaured-site {
   background-color: #f3f3f3;
-}
-
-.w-feaured-site .spacer {
-  width: 540px;
-  height: 1px;
-  opacity: 0;
-  display: block;
-  font-size: 0;
 }
 
 .w-feaured-site .client-url {
@@ -1078,7 +1028,7 @@ body {
 }
 
 .w-feaured-site .featured-client p {
-  font-size: 22px;
+  font: 22px/1.38 Arial, sans-serif;
 }
 
 .w-feaured-site .featured-desc {
@@ -1094,7 +1044,6 @@ body {
 .w-feaured-site .featured-img img {
   display: block;
   width: 520px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -1114,7 +1063,7 @@ body {
   padding: 0 30px;
 }
 
-.w-law-events .law-events-list.-last {
+.w-law-events tr:last-child .law-events-list {
   padding: 0 30px 15px;
 }
 
@@ -1132,10 +1081,8 @@ body {
 }
 
 .w-law-events .date {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
   color: #ffffff;
+  font: 700 20px/1 Arial, sans-serif;
 }
 
 .w-law-events .desc {

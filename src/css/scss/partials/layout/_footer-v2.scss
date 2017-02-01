@@ -58,7 +58,6 @@ $footer-logo-v2-height: 29px;
 
             .vline {
                 margin: 0 10px;
-                Margin: 0 10px;
             }
         }
     }
@@ -68,7 +67,7 @@ $footer-logo-v2-height: 29px;
     .footernav p,
     span,
     a {
-        font-size: 14px !important;
+        font: 14px/1.38 $sans-serif-font-family !important;
         white-space: nowrap;
     }
 

@@ -3,9 +3,14 @@
 // P E O P L E   L I S T
 // ----------------------------------------------------------------------------------------------------------
 
+$ranking-number--dimensions: image-dimensions('/src/img/number-ranking-01-green.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
 .w-people-list {
-    background-color: plt('concrete');
     border-bottom: 1px solid plt('concrete');
+    background-color: plt('concrete');
 
     .list-table {
         padding: 50px $padding;
@@ -34,11 +39,6 @@
             background-color: plt('white');
             table-layout: fixed;
 
-
-            a {
-                color: plt('black');
-            }
-
             tr:not(:last-child) {
 
                 td {
@@ -48,9 +48,7 @@
         }
 
         &-photo {
-            // width: percentage(70px / $inner-max-width);
             width: 70px;
-            // padding: 10px 0 10px percentage($padding / $inner-max-width);
             padding: 10px 0 10px $padding;
             text-align: right;
             vertical-align: middle;
@@ -58,9 +56,7 @@
             img {
                 display: block;
                 width: 70px;
-                // max-width: floor(percentage(70px / 100px));
                 max-width: 100%;
-                height: auto;
             }
         }
 
@@ -68,26 +64,29 @@
             padding: 10px 25px;
             vertical-align: middle;
 
+            a {
+                color: plt('black');
+            }
+
             .-name {
-                font-size: 25px;
-                line-height: 1.1;
+                font: 25px/1.1 $sans-serif-font-family;
             }
 
             .-location {
-                font-size: 12px;
-                line-height: 1.1;
+                font: 12px/1.1 $sans-serif-font-family;
             }
         }
 
         &-ranking {
-            width: 25px;
+            width: nth($ranking-number--dimensions, 1);
             padding: 10px $padding 10px 0;
             text-align: left;
             vertical-align: middle;
 
             img {
                 display: block;
-                width: 25px;
+                width: nth($ranking-number--dimensions, 1);
+                height: nth($ranking-number--dimensions, 2);
             }
         }
     }

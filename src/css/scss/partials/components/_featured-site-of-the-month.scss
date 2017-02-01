@@ -3,21 +3,13 @@
 // F E A T U R E D   S I T E   O F   T H E   M O N T H
 // ----------------------------------------------------------------------------------------------------------
 
-$featured-site--width: image-width('/src/img/featured-site-01-a.jpg');
+$featured-site--width: image-width('/src/img/featured-site-01.jpg');
 
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-feaured-site {
     background-color: plt('concrete');
-
-    .spacer {
-        width: $inner-max-width;
-        height: 1px;
-        opacity: 0;
-        display: block;
-        font-size: 0;
-    }
 
     .client-url {
         color: plt('black');
@@ -39,7 +31,7 @@ $featured-site--width: image-width('/src/img/featured-site-01-a.jpg');
             padding: 0 $padding 10px;
             
             p {
-                font-size: ft-exist(22px);
+                font: 22px/1.38 $sans-serif-font-family;
             }
         }
 
@@ -55,7 +47,6 @@ $featured-site--width: image-width('/src/img/featured-site-01-a.jpg');
             img {
                 display: block;
                 width: $featured-site--width;
-                height: auto;
                 margin: 0 auto;
             }
         }

@@ -11,12 +11,11 @@ $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-backgr
 .w-advertisement {
 
     .dvbg {
-        // padding: 45px $padding;
         width: nth($advertisement-background--dimensions, 1);
         height: nth($advertisement-background--dimensions, 2);
-        background-repeat: no-repeat !important;
         background: url('../img/ad-name-background-01.png');
         background-color: plt('tundora');
+        background-repeat: no-repeat !important;
         vertical-align: top;
     }
 
@@ -35,14 +34,10 @@ $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-backgr
         }
 
         .cnt1 {
-            vertical-align: top;
             padding: 25px $padding 0;
+            vertical-align: top;
         }
     }
-}
-
-.w-jld-advertisement-01 {
-    background-color: plt('silver');
 
     a {
         display: block;
@@ -55,16 +50,10 @@ $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-backgr
     }
 }
 
-.w-jld-advertisement-02 {
+.w-jld-ad-01 {
     background-color: plt('silver');
+}
 
-    a {
-        display: block;
-    }
-
-    img {
-        display: block;
-        width: $max-width;
-        max-width: 100%;
-    }
+.w-jld-ad-02 {
+    background-color: plt('silver');
 }
