@@ -2383,6 +2383,13 @@ grunt-parallel@^0.3.1:
     lpad "~0.1.0"
     q "~0.8.12"
 
+grunt-parallel@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/grunt-parallel/-/grunt-parallel-0.5.1.tgz#5f7a3376f6185424128c4b2a2cf2e2d07c37f5d9"
+  dependencies:
+    lpad "~0.1.0"
+    q "~0.8.12"
+
 grunt-postcss@0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/grunt-postcss/-/grunt-postcss-0.8.0.tgz#8f30a8af607903ce0c45f01f0be42c60e31ceb0e"
@@ -3094,12 +3101,20 @@ js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
 
-"js-yaml@>= 1.0.2", js-yaml@^3.0.0, js-yaml@^3.0.2, js-yaml@~3.5.2:
+"js-yaml@>= 1.0.2", js-yaml@~3.5.2:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.5.5.tgz#0377c38017cabc7322b0d1fbcd25a491641f2fbe"
   dependencies:
     argparse "^1.0.2"
     esprima "^2.6.0"
+
+js-yaml@^3.0.0, js-yaml@^3.0.2, js-yaml@~3.4.3:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.4.6.tgz#6be1b23f6249f53d293370fd4d1aaa63ce1b4eb0"
+  dependencies:
+    argparse "^1.0.2"
+    esprima "^2.6.0"
+    inherit "^2.2.2"
 
 js-yaml@^3.2.3, js-yaml@~3.6.0:
   version "3.6.1"
@@ -3128,14 +3143,6 @@ js-yaml@~3.0.2:
   dependencies:
     argparse "~ 0.1.11"
     esprima "~ 1.0.2"
-
-js-yaml@~3.4.3:
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.4.6.tgz#6be1b23f6249f53d293370fd4d1aaa63ce1b4eb0"
-  dependencies:
-    argparse "^1.0.2"
-    esprima "^2.6.0"
-    inherit "^2.2.2"
 
 jsbn@~0.1.0:
   version "0.1.0"

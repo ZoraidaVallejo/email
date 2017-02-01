@@ -6,9 +6,10 @@ module.exports = {
     server: {
         options: {
             port: '<%= port %>',
+            hostname: '*',
             bases: ['<%= paths.dist %>', '<%= paths.preview %>', '<%= paths.src %>'],
             server: './server.js',
-            livereload: true
+            livereload: false
         }
     }
 };
