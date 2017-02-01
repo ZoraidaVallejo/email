@@ -3,7 +3,7 @@
 module.exports = {
     conversionType: 'blast',
     port: 4000,
-    justatic_version: '20170131',
+    justatic_version: '20170201',
     current_year: '2017',
     current_month: '01',
 
@@ -14,8 +14,8 @@ module.exports = {
         dist: 'dist',
         dist_img: 'dist/img',
         preview: 'preview',
-        live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/closedwon',
-        remote_img_path: '/mnt/files/emails/images/closedwon'
+        live_img: 'https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/closed-won',
+        remote_img_path: '/mnt/files/emails/images/lawyer-directory/closed-won'
     },
 
     file_to_send: 'newsletter-<%= current_year %>-<%= current_month %>.html',
