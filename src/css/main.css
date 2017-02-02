@@ -316,6 +316,83 @@ body {
   font-size: 14px;
 }
 
+.stats-v2 {
+  text-align: center;
+}
+
+.stats-v2 .description {
+  overflow: hidden;
+  width: 600px;
+  max-width: 600px !important;
+  border-collapse: collapse !important;
+}
+
+.stats-v2 .description .image {
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.stats-v2 .block-1 {
+  height: 207px;
+  background: url("../img/stats-v2-button.png");
+  background-color: #278dcf;
+  background-repeat: no-repeat !important;
+  background-size: 434px 207px;
+  background-position: center 39px;
+  vertical-align: top;
+  padding: 44px 30px 33px;
+}
+
+.stats-v2 .block-2 .image {
+  width: 600px;
+  height: 385px;
+}
+
+.stats-v2 .block-3 {
+  padding: 37px 30px 26px;
+}
+
+.stats-v2 .block-3 p {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.3 !important;
+}
+
+.stats-v2 .block-3 span {
+  color: #ff8f21;
+}
+
+.stats-v2 .block-4 {
+  padding: 0 30px 28px;
+}
+
+.stats-v2 .block-4 p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.stats-v2 .contactus {
+  padding: 0 30px 29px;
+}
+
+.stats-v2 .contactus .tagline {
+  color: #ffffff;
+}
+
+.stats-v2 .contactus .phone a {
+  color: #ffffff !important;
+  font-size: 18px;
+}
+
+.stats-v2 .expiration {
+  padding: 0 30px 34px;
+}
+
+.stats-v2 .expiration em {
+  font-size: 14px;
+  color: #ffffff;
+}
+
 .stats-kc-v1 {
   text-align: center;
 }
@@ -463,6 +540,14 @@ body {
 
 .bg-gray {
   background-color: #ededed;
+}
+
+.bg-blue {
+  background-color: #278dcf;
+}
+
+.bg-blue-dark {
+  background-color: #1977b3;
 }
 
 .image {

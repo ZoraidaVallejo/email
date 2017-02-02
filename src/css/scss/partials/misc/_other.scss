@@ -39,12 +39,22 @@
     }
 }
 
-.bg-white {
-    background-color: plt('white');
-}
+.bg {
+    &-white {
+        background-color: plt('white');
+    }
 
-.bg-gray {
-    background-color: #ededed;
+    &-gray {
+        background-color: #ededed;
+    }
+    
+    &-blue {
+        background-color: #278dcf;
+
+        &-dark {
+            background-color: #1977b3;
+        }
+    }
 }
 
 .image {

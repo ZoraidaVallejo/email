@@ -2,9 +2,9 @@
 // ----------------------------------------------------------------------------------------------------------
 // T E M P L A T E   1
 // ----------------------------------------------------------------------------------------------------------
-$stats-v1-tagline--dimensions: image-dimensions('/src/img/stats-v1-tagline-01.png');
+$stats-v1-tagline-01--dimensions: image-dimensions('/src/img/stats-v1-tagline-01.png');
 $stats-v1-tagline-02-bg--dimensions: image-dimensions('/src/img/stats-v1-tagline-02-background.png');
-$stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-desk-image.png');
+$stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -27,8 +27,8 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-desk-image.pn
         padding: 39px 30px 25px;
 
         .image {
-            width: nth($stats-v1-tagline--dimensions, 1);
-            height: nth($stats-v1-tagline--dimensions, 2);
+            width: nth($stats-v1-tagline-01--dimensions, 1);
+            height: nth($stats-v1-tagline-01--dimensions, 2);
         }
     }
 
