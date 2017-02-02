@@ -1,12 +1,10 @@
 {
-    "people": [
-        {
-            "id": "198352",
-            "rank": 1,
-            "url": "https://lawyers.justia.com/lawyer/ali-ebrahimzadeh,-esq.-198352",
-            "name": "Ali Ebrahimzadeh, Esq.",
-            "location": "Oakland, CA",
-            "answers_url": "https://answers.justia.com/lawyer/198352/questions/answered"
-        }
-    ]
+    "people": [{
+        "id": "1484113",
+        "rank": 1,
+        "name": "Christopher Spring",
+        "location": "Acton, MA",
+        "photo_url": "https://lawyers.justia.com/lawyer/christopher-w-spring-esq-1484113",
+        "name_url": "http://law.justia.com/annotations/lawyers/1484113/"
+    }]
 }

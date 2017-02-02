@@ -1,19 +1,15 @@
 {
-    "cases": [
-        {
-            "url": "http://www.expertwitnessblog.com/2016/12/psychologist-psychiatrist-expert-witness-testimony-challenged.html",
-            "title": "Child Psychology Expert Witness on Adult Dyslexia",
-            "description": "Psychology expert was allowed to opine on security guard’s condition in ADA claim though her work was mainly with children."
-        },
-        {
-            "url": "http://www.expertwitnessblog.com/2017/01/internal-medicine-fire-expert-witness-testimony-allowed.html",
-            "title": "Internal Medicine Expert Testifies on Life Expectancy Issues",
-            "description": "Experience with geriatrics allowed internal medicine expert witness to testify on life expectancy of plaintiff."
-        },
-        {
-            "url": "http://www.expertwitnessblog.com/2017/01/environmental-engineering-civil-engineering-expert-testimony-allowed-part.html",
-            "title": "Engineer Expert Testimony on Moral Responsibility Denied",
-            "description": "Civil engineering expert could not testify on fiduciary responsibility of defendant in groundwater contamination case."
-        }
-    ]
+    "cases": [{
+        "url": "http://www.expertwitnessblog.com/2016/12/psychologist-psychiatrist-expert-witness-testimony-challenged.html",
+        "title": "Child Psychology Expert Witness on Adult Dyslexia",
+        "description": "Psychology expert was allowed to opine on security guard’s condition in ADA claim though her work was mainly with children."
+    }, {
+        "url": "http://www.expertwitnessblog.com/2017/01/internal-medicine-fire-expert-witness-testimony-allowed.html",
+        "title": "Internal Medicine Expert Testifies on Life Expectancy Issues",
+        "description": "Experience with geriatrics allowed internal medicine expert witness to testify on life expectancy of plaintiff."
+    }, {
+        "url": "http://www.expertwitnessblog.com/2017/01/environmental-engineering-civil-engineering-expert-testimony-allowed-part.html",
+        "title": "Engineer Expert Testimony on Moral Responsibility Denied",
+        "description": "Civil engineering expert could not testify on fiduciary responsibility of defendant in groundwater contamination case."
+    }]
 }

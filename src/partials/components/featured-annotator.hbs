@@ -21,15 +21,15 @@
                     <td>
                         <!-- people-table -->
                         <table border="0" cellpadding="0" cellspacing="0" class="people-table">
-                            {{#forEach answers-leaderboard.people}}
+                            {{#forEach annotator.people}}
                                 <tr>
                                     <!-- people-photo -->
                                     <td class="people-photo" responsive="mobile-padding-left">
-                                        <a href="{{ url }}" target="_blank"><img src="{{../default.image_dir_src}}/annotator-photo-0{{ rank }}.png" alt="{{ name }}" border="0" /></a>
+                                        <a href="{{ photo_url }}" target="_blank"><img src="{{../default.image_dir_src}}/annotator-photo-0{{ rank }}.png" alt="{{ name }}" border="0" /></a>
                                     </td>
                                     <!-- people-info -->
                                     <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                        <a href="{{ answers_url }}" target="_blank">
+                                        <a href="{{ name_url }}" target="_blank">
                                             <!-- -name -->
                                             <p class="-name" responsive="mobile-fz-20">{{{ name }}}</p>
                                             <!-- -location -->
