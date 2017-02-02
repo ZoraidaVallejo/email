@@ -2,6 +2,8 @@
 
 const customConfig = require('./custom-config.js');
 
+const customConfig2 = require('./custom-config.json');
+
 module.exports = function(grunt) {
 
     const allRules = customConfig;
