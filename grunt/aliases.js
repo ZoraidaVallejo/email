@@ -9,7 +9,6 @@ module.exports = function (grunt, options) {
     ];
 
     // Newsletter configuration overwrite
-    console.log(options.conversionType);
     if(options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
