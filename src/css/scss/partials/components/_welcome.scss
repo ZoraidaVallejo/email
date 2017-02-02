@@ -3,7 +3,7 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$welcome-image--dimensions: image-dimensions('/src/img/welcome-background-01-a.png');
+$welcome-image--dimensions: 600px 169px;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ $welcome-image--dimensions: image-dimensions('/src/img/welcome-background-01-a.p
     .head-img {
         width: nth($welcome-image--dimensions, 1);
         height: nth($welcome-image--dimensions, 2);
-        background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-a.png');
+        background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
         background-repeat: no-repeat;
     }
 
