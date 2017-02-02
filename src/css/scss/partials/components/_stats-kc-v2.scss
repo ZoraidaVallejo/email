@@ -1,0 +1,73 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+$stats-kc-v2-button--dimensions: image-dimensions('/src/img/stats-kc-v2-button.png');
+$stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main-image.png');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.stats-kc-v2 {
+    text-align: center;
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+
+        .image {
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-1 {
+        padding: 39px 30px 50px;
+
+        .image {
+            width: nth($stats-kc-v2-button--dimensions, 1);
+            height: nth($stats-kc-v2-button--dimensions, 2);
+        }
+    }
+
+    .block-2 {
+
+        .image {
+            width: nth($stats-kc-v2-main-image--dimensions, 1);
+            height: nth($stats-kc-v2-main-image--dimensions, 2);
+        }
+    }
+
+    .block-3 {
+        padding: 46px 30px 28px;
+        background-color: #ededed;
+
+        p {
+            color: plt('black');
+        }
+    }
+
+    .contactus {
+        padding: 0 30px 30px;
+        background-color: #ededed;
+
+        .phone {
+
+            a {
+                color: plt('black') !important;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .expiration {
+        background-color: #ededed;
+        padding: 0 30px 44px;
+
+        em {
+            font-size: 14px;
+        }
+    }
+}

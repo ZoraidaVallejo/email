@@ -299,7 +299,11 @@ body {
   font-size: 14px;
 }
 
-.template-2 .description {
+.stats-kc-v2 {
+  text-align: center;
+}
+
+.stats-kc-v2 .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -307,30 +311,51 @@ body {
   border-collapse: collapse !important;
 }
 
-.template-2 .description td {
-  width: 100%;
-}
-
-.template-2 .description .image {
-  width: 600px;
-  height: 300px;
+.stats-kc-v2 .description .image {
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.template-2 .block-2 {
-  padding: 25px 30px 40px;
-  text-align: center;
+.stats-kc-v2 .block-1 {
+  padding: 39px 30px 50px;
 }
 
-.template-2 .block-2 p {
-  font-size: 14px !important;
+.stats-kc-v2 .block-1 .image {
+  width: 536px;
+  height: 217px;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
-.template-2 .block-5 {
-  padding: 0 30px 25px;
+.stats-kc-v2 .block-2 .image {
+  width: 600px;
+  height: 275px;
+}
+
+.stats-kc-v2 .block-3 {
+  padding: 46px 30px 28px;
+  background-color: #ededed;
+}
+
+.stats-kc-v2 .block-3 p {
+  color: #000000;
+}
+
+.stats-kc-v2 .contactus {
+  padding: 0 30px 30px;
+  background-color: #ededed;
+}
+
+.stats-kc-v2 .contactus .phone a {
+  color: #000000 !important;
+  font-size: 18px;
+}
+
+.stats-kc-v2 .expiration {
+  background-color: #ededed;
+  padding: 0 30px 44px;
+}
+
+.stats-kc-v2 .expiration em {
+  font-size: 14px;
 }
 
 .align-center {
