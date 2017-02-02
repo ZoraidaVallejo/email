@@ -20,10 +20,9 @@ $header-logo-v2-height: 78px;
 
         .logo-img {
             display: block;
-            max-width: none;
             width: $header-logo-v2-width;
+            max-width: none;
             margin: 0 auto;
         }
     }
 }
-

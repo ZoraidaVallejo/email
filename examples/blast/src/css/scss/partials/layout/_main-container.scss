@@ -16,8 +16,8 @@ body {
 .container {
     width: $max-width;
     max-width: $max-width;
-    Margin: 0 auto !important; /* makes it centered */
     margin: 0 auto !important; /* makes it centered */
+    Margin: 0 auto !important; /* makes it centered */
 }
 
 .content {
@@ -26,12 +26,10 @@ body {
 }
 
 .spacer {
+    display: block;
+    opacity: 0;
     width: $inner-max-width;
     height: 1px !important;
-    opacity: 0;
-    display: block;
-    font-size: 0 !important;
     margin: 0;
+    font-size: 0 !important;
 }
-
-

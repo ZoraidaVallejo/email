@@ -24,7 +24,7 @@ $social-icons-v1--gap: 4px;
 
     .logo-social {
         padding: 20px $padding;
-        border-bottom: 1px solid plt('picton-blue');
+        border-bottom: 1px solid plt('cerulean');
 
         table {
             width: 100%;
@@ -40,12 +40,11 @@ $social-icons-v1--gap: 4px;
 
             img {
                 display: block;
-                max-width: none;
                 width: $header-log-v1-width;
+                max-width: none;
                 height: $header-logo-v1-height;
             }
         }
-
 
         .social {
             overflow: hidden;
@@ -64,7 +63,7 @@ $social-icons-v1--gap: 4px;
                     }
                 }
             }
-            
+
             a {
                 display: inline-block !important;
                 vertical-align: middle;
@@ -77,14 +76,12 @@ $social-icons-v1--gap: 4px;
         }
     }
 
-
-
     .disclaimer p,
     .address p,
     .footernav p,
     span,
     a {
-        font-size: ft-exist(14px);
+        font: 14px/1.38 $sans-serif-font-family;
     }
 
     .disclaimer {
@@ -101,7 +98,6 @@ $social-icons-v1--gap: 4px;
         }
     }
 
-
     .footernav {
         padding: 0 $padding floor($padding * 3);
         vertical-align: top;
@@ -113,7 +109,6 @@ $social-icons-v1--gap: 4px;
 
         .vline {
             margin: 0 10px;
-            Margin: 0 10px;
         }
     }
 }
