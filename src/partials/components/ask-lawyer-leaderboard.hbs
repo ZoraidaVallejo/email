@@ -21,91 +21,31 @@
                     <td>
                         <!-- people-table -->
                         <table border="0" cellpadding="0" cellspacing="0" class="people-table">
-                            <tr>
-                                <!-- people-photo -->
-                                <td class="people-photo" responsive="mobile-padding-left">
-                                    <a href="[atty-link-1]" target="_blank"><img src="{{default.image_dir_src}}/leaderboard-photo-01.png" alt="[atty-name-1]" border="0" /></a>
-                                </td>
-                                <!-- people-info -->
-                                <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                    <!-- -name -->
-                                    <p class="-name" responsive="mobile-fz-20"><a href="[atty-link-1]" target="_blank">[atty-name-1]</a></p>
-                                    <!-- -location -->
-                                    <p class="-location"><strong>[atty-location-1]</strong></p>
-                                </td>
-                                <!-- people-ranking -->
-                                <td class="people-ranking" responsive="mobile-padding-right">
-                                    <img src="{{default.image_dir_src}}/number-ranking-01-green.png" alt="1" border="0" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <!-- people-photo -->
-                                <td class="people-photo" responsive="mobile-padding-left">
-                                    <a href="[atty-link-2]" target="_blank"><img src="{{default.image_dir_src}}/leaderboard-photo-02.png" alt="[atty-name-2]" border="0" /></a>
-                                </td>
-                                <!-- people-info -->
-                                <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                    <!-- -name -->
-                                    <p class="-name" responsive="mobile-fz-20"><a href="[atty-link-2]" target="_blank">[atty-name-2]</a></p>
-                                    <!-- -location -->
-                                    <p class="-location"><strong>[atty-location-2]</strong></p>
-                                </td>
-                                <!-- people-ranking -->
-                                <td class="people-ranking" responsive="mobile-padding-right">
-                                    <img src="{{default.image_dir_src}}/number-ranking-02.png" alt="1" border="0" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <!-- people-photo -->
-                                <td class="people-photo" responsive="mobile-padding-left">
-                                    <a href="[atty-link-3]" target="_blank"><img src="{{default.image_dir_src}}/leaderboard-photo-03.png" alt="[atty-name-3]" border="0" /></a>
-                                </td>
-                                <!-- people-info -->
-                                <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                    <!-- -name -->
-                                    <p class="-name" responsive="mobile-fz-20"><a href="[atty-link-3]" target="_blank">[atty-name-3]</a></p>
-                                    <!-- -location -->
-                                    <p class="-location"><strong>[atty-location-3]</strong></p>
-                                </td>
-                                <!-- people-ranking -->
-                                <td class="people-ranking" responsive="mobile-padding-right">
-                                    <img src="{{default.image_dir_src}}/number-ranking-03.png" alt="1" border="0" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <!-- people-photo -->
-                                <td class="people-photo" responsive="mobile-padding-left">
-                                    <a href="[atty-link-4]" target="_blank"><img src="{{default.image_dir_src}}/leaderboard-photo-04.png" alt="[atty-name-4]" border="0" /></a>
-                                </td>
-                                <!-- people-info -->
-                                <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                    <!-- -name -->
-                                    <p class="-name" responsive="mobile-fz-20"><a href="[atty-link-4]" target="_blank">[atty-name-4]</a></p>
-                                    <!-- -location -->
-                                    <p class="-location"><strong>[atty-location-4]</strong></p>
-                                </td>
-                                <!-- people-ranking -->
-                                <td class="people-ranking" responsive="mobile-padding-right">
-                                    <img src="{{default.image_dir_src}}/number-ranking-04.png" alt="1" border="0" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <!-- people-photo -->
-                                <td class="people-photo" responsive="mobile-padding-left">
-                                    <a href="[atty-link-5]" target="_blank"><img src="{{default.image_dir_src}}/leaderboard-photo-05.png" alt="[atty-name-5]" border="0" /></a>
-                                </td>
-                                <!-- people-info -->
-                                <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                                    <!-- -name -->
-                                    <p class="-name" responsive="mobile-fz-20"><a href="[atty-link-5]" target="_blank">[atty-name-5]</a></p>
-                                    <!-- -location -->
-                                    <p class="-location"><strong>[atty-location-5]</strong></p>
-                                </td>
-                                <!-- people-ranking -->
-                                <td class="people-ranking" responsive="mobile-padding-right">
-                                    <img src="{{default.image_dir_src}}/number-ranking-05.png" alt="1" border="0" />
-                                </td>
-                            </tr>
+                            {{#forEach answers-leaderboard.people}}
+                                <tr>
+                                    <!-- people-photo -->
+                                    <td class="people-photo" responsive="mobile-padding-left">
+                                        <a href="{{ url }}" target="_blank"><img src="{{../default.image_dir_src}}/leaderboard-photo-0{{ rank }}.png" alt="{{ name }}" border="0" /></a>
+                                    </td>
+                                    <!-- people-info -->
+                                    <td class="people-info" responsive="mobile-padding-horizontal-sides">
+                                        <a href="{{ answers_url }}" target="_blank">
+                                            <!-- -name -->
+                                            <p class="-name" responsive="mobile-fz-20">{{{ name }}}</p>
+                                            <!-- -location -->
+                                            <p class="-location"><b>{{#uppercase}}{{ location }}{{/uppercase}}</b></p>
+                                        </a>
+                                    </td>
+                                    <!-- people-ranking -->
+                                    <td class="people-ranking" responsive="mobile-padding-right">
+                                        {{#if isFirst}}
+                                        <img src="{{../../default.image_dir_src}}/number-ranking-0{{ rank }}-green.png" alt="{{ rank }}" border="0" />
+                                        {{else}}
+                                        <img src="{{../../default.image_dir_src}}/number-ranking-0{{ rank }}.png" alt="{{ rank }}" border="0" />
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                            {{/forEach}}
                         </table>
                     </td>
                 </tr>
