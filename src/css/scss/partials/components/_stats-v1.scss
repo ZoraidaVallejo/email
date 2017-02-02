@@ -1,0 +1,95 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+$stats-v1-tagline--dimensions: image-dimensions('/src/img/stats-v1-tagline-01.png');
+$stats-v1-tagline-02-bg--dimensions: image-dimensions('/src/img/stats-v1-tagline-02-background.png');
+$stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-desk-image.png');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.stats-v1 {
+    text-align: center;
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        border-collapse: collapse !important;
+
+        .image {
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-1 {
+        padding: 39px 30px 25px;
+
+        .image {
+            width: nth($stats-v1-tagline--dimensions, 1);
+            height: nth($stats-v1-tagline--dimensions, 2);
+        }
+    }
+
+    .block-2 {
+        height: nth($stats-v1-tagline-02-bg--dimensions, 2);
+        background: url('../img/stats-v1-tagline-02-background.png');
+        background-color: plt('white');
+        background-repeat: no-repeat !important;
+        background-size: $stats-v1-tagline-02-bg--dimensions;
+        background-position: center center;
+        vertical-align: top;
+        padding: 0 30px;
+
+        // .image {
+        //     width: nth($stats-kc-v1-main-image--dimensions, 1);
+        //     height: nth($stats-kc-v1-main-image--dimensions, 2);
+        // }
+    }
+
+    .block-3 {
+        padding: 37px 30px 33px;
+    }
+
+    .blcok-4 {
+        .image {
+            width: nth($stats-v1-main-image--dimensions, 1);
+            height: nth($stats-v1-main-image--dimensions, 2);
+        }
+    }
+
+    .block-5 {
+        padding: 34px 30px 79px;
+
+        p {
+            font-size: 20px;
+            color: plt('black');
+            line-height: 1.3 !important;
+        }
+
+        span {
+            color: #b31b1b;
+        }
+    }
+
+    .contactus {
+        padding: 0 30px 29px;
+
+        .phone {
+
+            a {
+                color: plt('black') !important;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .expiration {
+        padding: 0 30px 34px;
+
+        em {
+            font-size: 14px;
+        }
+    }
+}

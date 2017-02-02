@@ -14,7 +14,6 @@ $stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main
         overflow: hidden;
         width: $max-width;
         max-width: $max-width !important;
-        background-color: #ffffff;
         border-collapse: collapse !important;
 
         .image {
@@ -42,7 +41,6 @@ $stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main
 
     .block-3 {
         padding: 46px 30px 28px;
-        background-color: #ededed;
 
         p {
             color: plt('black');
@@ -51,7 +49,6 @@ $stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main
 
     .contactus {
         padding: 0 30px 30px;
-        background-color: #ededed;
 
         .phone {
 
@@ -63,7 +60,6 @@ $stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main
     }
 
     .expiration {
-        background-color: #ededed;
         padding: 0 30px 44px;
 
         em {

@@ -3,7 +3,7 @@
 // T E M P L A T E   1
 // ----------------------------------------------------------------------------------------------------------
 $stats-kc-v1-button--dimensions: image-dimensions('/src/img/stats-kc-v1-button.png');
-$stats-kc-v1-main-image--dimensions: image-dimensions('/src/img/stats-kc-v1-main-image.png');
+$stats-kc-v1-main-image--dimensions: image-dimensions('/src/img/stats-desk-image.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -42,7 +42,6 @@ $stats-kc-v1-main-image--dimensions: image-dimensions('/src/img/stats-kc-v1-main
 
     .block-3 {
         padding: 46px 30px 28px;
-        background-color: #ededed;
 
         p {
             color: plt('black');
@@ -51,7 +50,6 @@ $stats-kc-v1-main-image--dimensions: image-dimensions('/src/img/stats-kc-v1-main
 
     .contactus {
         padding: 0 30px 30px;
-        background-color: #ededed;
 
         .phone {
 
@@ -63,7 +61,6 @@ $stats-kc-v1-main-image--dimensions: image-dimensions('/src/img/stats-kc-v1-main
     }
 
     .expiration {
-        background-color: #ededed;
         padding: 0 30px 34px;
 
         em {
