@@ -265,6 +265,7 @@ body {
 
 .main-footer-v2 .logo-footernav {
   padding: 20px 30px;
+  border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
 }
 

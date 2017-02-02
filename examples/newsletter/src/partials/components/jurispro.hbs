@@ -31,14 +31,11 @@
                     <td colspan="2" class="story-extra" responsive="collapse-one">
                         <p><strong>Recent cases involving expert witness testimony:</strong></p>
                         <br>
-                        <p><strong><a href="[jurispro-case-url-1]" target="_blank">[jurispro-case-title-1]</a></strong></p>
-                        <p>[jurispro-case-desc-1]</p>
-                        <br>
-                        <p><strong><a href="[jurispro-case-url-2]" target="_blank">[jurispro-case-title-2]</a></strong></p>
-                        <p>[jurispro-case-desc-2]</p>
-                        <br>
-                        <p><strong><a href="[jurispro-case-url-3]" target="_blank">[jurispro-case-title-3]</a></strong></p>
-                        <p>[jurispro-case-desc-3]</p>
+                        {{#forEach jurispro.cases}}
+                        <p><strong><a href="{{ url }}" target="_blank">{{ title }}</a></strong></p>
+                        <p>{{ description }}</p>
+                        {{#unless isLast}}<br>{{/unless}}
+                        {{/forEach}}
                     </td>
                 </tr>
                 <tr>
