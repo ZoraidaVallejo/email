@@ -16,8 +16,7 @@
 
         {{!-- Open row if odd --}}
         {{#ifOdd index}}
-            <!-- event-row-{{ index }} -->
-            <tr class="event-row-{{ index }}">{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+            <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
         {{/ifOdd}}
 
         {{!-- Add the event --}}
