@@ -11,7 +11,10 @@ module.exports = {
             dest: './temp/'
         },
         helpers: 'handlebars-helpers',
-        data: ['<%= paths.src %>/data/*.{json,yml}'],
+        data: [
+            '<%= paths.src %>/data/*.{json,yml}',
+            'custom-config.json'
+        ],
         flatten: true
     },
 

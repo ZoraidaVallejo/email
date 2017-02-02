@@ -1,8 +1,6 @@
 'use strict';
 
-const customConfig = require('./custom-config.js');
-
-const customConfig2 = require('./custom-config.json');
+const customConfig = require('./custom-config.json');
 
 module.exports = function(grunt) {
 
