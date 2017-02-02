@@ -38,9 +38,9 @@ img {
 img {
     max-width: 100%;
     border: 0;
-    line-height: 100%;
     outline: none;
     text-decoration: none;
+    line-height: 100%;
 }
 
 table {
@@ -57,10 +57,10 @@ body {
 // iOS BLUE LINKS
 a[x-apple-data-detectors] {
     color: inherit !important;
-    text-decoration: none !important;
-    font-size: inherit !important;
     font-family: inherit !important;
+    font-size: inherit !important;
     font-weight: inherit !important;
+    text-decoration: none !important;
     line-height: inherit !important;
 }
 
@@ -68,6 +68,7 @@ a[x-apple-data-detectors] {
     color: #000000 !important;
     text-decoration: none !important;
 }
+
 .ios-links-white a {
     color: #ffffff !important;
     text-decoration: none !important;
@@ -115,8 +116,8 @@ div[style*='margin: 16px 0;'] {
 
     // Distribution
     .collapse-one {
-        width: 100% !important;
         display: block !important;
+        width: 100% !important;
     }
 
     // Mobile classes
@@ -236,7 +237,7 @@ div[style*='margin: 16px 0;'] {
 
         .logo {
             padding-bottom: 20px !important;
-            border-bottom: 1px solid plt('picton-blue');
+            border-bottom: 1px solid plt('cerulean');
         }
 
         .social {

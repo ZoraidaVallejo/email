@@ -24,7 +24,7 @@ $social-icons-v1--gap: 4px;
 
     .logo-social {
         padding: 20px $padding;
-        border-bottom: 1px solid plt('picton-blue');
+        border-bottom: 1px solid plt('cerulean');
 
         table {
             width: 100%;
@@ -40,8 +40,8 @@ $social-icons-v1--gap: 4px;
 
             img {
                 display: block;
-                max-width: none;
                 width: $header-log-v1-width;
+                max-width: none;
                 height: $header-logo-v1-height;
             }
         }
@@ -63,7 +63,7 @@ $social-icons-v1--gap: 4px;
                     }
                 }
             }
-            
+
             a {
                 display: inline-block !important;
                 vertical-align: middle;

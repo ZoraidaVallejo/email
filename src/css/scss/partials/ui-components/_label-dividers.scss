@@ -29,7 +29,7 @@ $divider-selector: '.divider';
     }
 
     .empty-space {
-        border-top: 1px solid plt('mercury');
+        border-top: 1px solid plt('black-haze');
     }
 
     @each $name, $color in $primary-palette {

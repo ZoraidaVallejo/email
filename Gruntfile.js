@@ -22,7 +22,8 @@ module.exports = function(grunt) {
         jitGrunt: {
 
             staticMappings: {
-                juice: 'grunt-juice-email'
+                juice: 'grunt-juice-email',
+                sasslint: 'grunt-sass-lint'
             }
         }
     });

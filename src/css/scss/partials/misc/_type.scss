@@ -18,14 +18,3 @@ p {
 a {
     color: plt('accent');
 }
-
-// Break long strings to prevent x-scrolling
-code,
-pre,
-.word-wrap {
-    word-wrap: break-word;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-}

@@ -9,8 +9,8 @@ $ranking-number--dimensions: image-dimensions('/src/img/number-ranking-01-green.
 // ----------------------------------------------------------------------------------------------------------
 
 .w-people-list {
-    border-bottom: 1px solid plt('concrete');
-    background-color: plt('concrete');
+    border-bottom: 1px solid plt('alabaster');
+    background-color: plt('alabaster');
 
     .list-table {
         padding: 50px $padding;
@@ -42,7 +42,7 @@ $ranking-number--dimensions: image-dimensions('/src/img/number-ranking-01-green.
             tr:not(:last-child) {
 
                 td {
-                    border-bottom: 1px solid plt('mercury');
+                    border-bottom: 1px solid plt('black-haze');
                 }
             }
         }

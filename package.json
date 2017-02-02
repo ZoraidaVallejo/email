@@ -32,6 +32,7 @@
     "grunt-postcss": "0.8.0",
     "grunt-replace": "0.9.3",
     "grunt-sass": "1.2.0",
+    "grunt-sass-lint": "^0.2.2",
     "grunt-sftp-deploy": "0.2.5",
     "imagemin-mozjpeg": "^6.0.0",
     "jit-grunt": "^0.10.0",

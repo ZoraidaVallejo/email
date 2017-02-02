@@ -36,9 +36,16 @@ $primary-palette: (
     'jade': #01b463
 );
 
-$new-primary-color: (
-    'blaze-orange': #ff6e00,
-    'green-haze': #00ae41,
+$new-primary-palette: (
+    'blaze-orange': #ff6b00,
+    'green-haze': #00af41,
+    'shamrock': #3fd4ad,
+    'cerulean': #00b3e3,
+    'alabaster': #f7f7f7,
+    'black-haze': #e7e8e8,
+    'edward': #9fa1a1,
+    'sirocco': #7b7d7d,
+
     'midnight': #01193e,
     'rodeo-dust': #cab99d
 );
@@ -59,13 +66,13 @@ $social-media-palette: (
 );
 
 $ui-color-pallete: (
-    'primary': map-get($primary-palette, 'catalina-blue'),
-    'accent': map-get($primary-palette, 'picton-blue'),
+    'primary': map-get($social-media-palette, 'justia'),
+    'accent': map-get($new-primary-palette, 'cerulean'),
     'jurispro': (
-        'primary': map-get($new-primary-color, 'midnight'),
-        'secondary': map-get($new-primary-color, 'rodeo-dust')
+        'primary': map-get($new-primary-palette, 'midnight'),
+        'secondary': map-get($new-primary-palette, 'rodeo-dust')
     ),
 );
 
-$colour-palette: map-extend($grayscale-palette, $primary-palette, $new-primary-color, $ui-color-pallete);
+$colour-palette: map-extend($grayscale-palette, $primary-palette, $new-primary-palette, $ui-color-pallete);
 

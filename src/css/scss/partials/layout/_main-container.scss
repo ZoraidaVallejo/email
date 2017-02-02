@@ -4,19 +4,18 @@
 // ----------------------------------------------------------------------------------------------------------
 
 body {
-    background-color: plt('mercury');
+    background-color: plt('black-haze');
 }
 
 .body {
     width: 100%;
-    background-color: plt('mercury');
+    background-color: plt('black-haze');
 }
 
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
 .container {
     display: block;
     width: auto !important;
-    width: $max-width;
     max-width: $max-width;
     padding: 10px 0;
     Margin: 0 auto !important; /* makes it centered */
@@ -51,7 +50,7 @@ body {
 
     &-type-name {
         padding: 0 0 5px;
-        color: plt('shuttle-gray');
+        color: plt('sirocco');
         // font: $font-weight--bold 14px/14px $sans-serif-font-family;
         font: $font-weight--bold 14px/1 $sans-serif-font-family;
     }

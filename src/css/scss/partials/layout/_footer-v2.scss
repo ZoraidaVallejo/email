@@ -13,8 +13,8 @@ $footer-logo-v2-height: 29px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer-v2 {
-    width: $max-width;
     clear: both;
+    width: $max-width;
     background-color: plt('white');
 
     a {
@@ -40,16 +40,16 @@ $footer-logo-v2-height: 29px;
 
             img {
                 display: block;
-                max-width: none;
                 width: $footer-logo-v2-width;
+                max-width: none;
                 height: $footer-logo-v2-height;
             }
         }
 
         .footernav {
             width: 75%;
-            vertical-align: middle;
             text-align: right;
+            vertical-align: middle;
 
             span,
             a {
@@ -112,8 +112,8 @@ $footer-logo-v2-height: 29px;
 
     .address {
         padding: 0 $padding floor($padding * 4);
-        vertical-align: top;
         text-align: center;
+        vertical-align: top;
 
         span,
         a {

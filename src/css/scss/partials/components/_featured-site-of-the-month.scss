@@ -9,7 +9,7 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
 // ----------------------------------------------------------------------------------------------------------
 
 .w-feaured-site {
-    background-color: plt('concrete');
+    background-color: plt('alabaster');
 
     .client-url {
         color: plt('black');
@@ -22,14 +22,14 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
     .featured {
 
         &-site-title {
-            text-align: center;
             padding: 45px $padding 20px;
+            text-align: center;
         }
 
         &-client {
-            text-align: center;
             padding: 0 $padding 10px;
-            
+            text-align: center;
+
             p {
                 font: 22px/1.38 $sans-serif-font-family;
             }
@@ -41,9 +41,9 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
         }
 
         &-img {
-            text-align: center;
             padding: $padding $padding 45px;
-        
+            text-align: center;
+
             img {
                 display: block;
                 width: $featured-site--width;

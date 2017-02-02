@@ -11,7 +11,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 // ----------------------------------------------------------------------------------------------------------
 
 .w-text-image {
-    background-color: plt('concrete');
+    background-color: plt('alabaster');
 
     a {
         text-decoration: none;
@@ -39,7 +39,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
         table {
             width: 100%;
-            border-bottom: 1px solid plt('mercury');
+            border-bottom: 1px solid plt('black-haze');
 
             &:last-child {
                 border-bottom: 0;

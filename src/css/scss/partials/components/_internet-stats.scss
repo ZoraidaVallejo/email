@@ -9,7 +9,7 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
 // ----------------------------------------------------------------------------------------------------------
 
 .w-internet-stats {
-    background-color: plt('concrete');
+    background-color: plt('alabaster');
 
     .stats {
 
@@ -30,8 +30,8 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
         }
 
         &-desc {
-            text-align: center;
             padding: 0 $padding 45px;
+            text-align: center;
 
             &-head {
                 padding: 0 0 20px;

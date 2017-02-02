@@ -19,9 +19,9 @@ img {
 img {
   max-width: 100%;
   border: 0;
-  line-height: 100%;
   outline: none;
   text-decoration: none;
+  line-height: 100%;
 }
 
 table {
@@ -37,10 +37,10 @@ body {
 
 a[x-apple-data-detectors] {
   color: inherit !important;
-  text-decoration: none !important;
-  font-size: inherit !important;
   font-family: inherit !important;
+  font-size: inherit !important;
   font-weight: inherit !important;
+  text-decoration: none !important;
   line-height: inherit !important;
 }
 
@@ -84,8 +84,8 @@ div[style*='margin: 16px 0;'] {
 
 @media only screen and (max-width: 640px) {
   .collapse-one {
-    width: 100% !important;
     display: block !important;
+    width: 100% !important;
   }
   .mobile-reset-width {
     width: auto !important;
@@ -156,7 +156,7 @@ div[style*='margin: 16px 0;'] {
   }
   .main-footer-v1 .logo {
     padding-bottom: 20px !important;
-    border-bottom: 1px solid #398ff2;
+    border-bottom: 1px solid #00b3e3;
   }
   .main-footer-v1 .social {
     padding-top: 20px !important;

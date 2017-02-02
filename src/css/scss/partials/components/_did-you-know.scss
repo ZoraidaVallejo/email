@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-did-you-know {
-    background-color: plt('flush-orange');
+    background-color: plt('blaze-orange');
 
     .dyk {
 
@@ -21,8 +21,8 @@
         }
 
         &-link {
-            color: plt('white');
             padding: 20px $padding 45px;
+            color: plt('white');
         }
     }
 
