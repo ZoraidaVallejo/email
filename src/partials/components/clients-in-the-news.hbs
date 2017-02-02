@@ -13,35 +13,22 @@
     <tr>
         <!-- clients-list -->
         <td class="clients-list" responsive="mobile-padding-horizontal-sides">
-            <!-- client-1 -->
-            <table border="0" cellpadding="0" cellspacing="0" class="client-1">
+            {{#forEach clients-in-the-news.clients}}
+            <!-- client-{{ index }} -->
+            <table border="0" cellpadding="0" cellspacing="0" class="client-{{ index }}">
                 <tr>
                     <!-- news-logo -->
                     <td class="news-logo">
-                        <a href="[article-url-1]" target="_blank"><img src="{{default.image_dir_src}}/clients-news-logo-01.png" alt="[logo-name-1]" border="0" /></a>
+                        <a href="{{ url_link }}" target="_blank"><img src="{{../default.image_dir_src}}/clients-news-logo-0{{ index }}.png" alt="{{ logo_name }}" border="0" /></a>
                     </td>
                     <!-- news-desc -->
                     <td class="news-desc">
-                        <p><strong>[client-name-1]</strong> [more-info-1 (Lorem ipsum dolor sit amet...)]</p> <br>
-                        {{> button moreBlue=true url="[article-url-1]" }}
+                        <p>{{{ description }}}</p> <br>
+                        {{> button moreBlue=true url=url_link }}
                     </td>
                 </tr>
             </table>
-
-            <!-- client-2 -->
-            <table border="0" cellpadding="0" cellspacing="0" class="client-2">
-                <tr>
-                    <!-- news-logo -->
-                    <td class="news-logo">
-                        <a href="[article-url-2]" target="_blank"><img src="{{default.image_dir_src}}/clients-news-logo-02.png" alt="[logo-name-2]" border="0" /></a>
-                    </td>
-                    <!-- news-desc -->
-                    <td class="news-desc">
-                        <p><strong>[client-name-2]</strong> [more-info-2 (Lorem ipsum dolor sit amet...)]</p> <br>
-                        {{> button moreBlue=true url="[article-url-2]" }}
-                    </td>
-                </tr>
-            </table>
+            {{/forEach}}
         </td>
     </tr>
     <tr>

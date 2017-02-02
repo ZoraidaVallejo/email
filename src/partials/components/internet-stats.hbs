@@ -11,15 +11,24 @@
         </td>
     </tr>
     <tr>
-        <!-- stats-chart -->
-        <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
-            <a href="[stats-url]" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-01.png" alt="[stats-title]" /></a>
+        <!-- stats-desc-head align-center -->
+        <td class="stats-subtitle align-center" responsive="mobile-padding-horizontal-sides">
+            <!-- line1 -->
+            <p class="line1">{{{ internet-stats.subtitle }}}</p>
         </td>
     </tr>
     <tr>
-        <!-- stats-desc -->
-        <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-            <p><strong>[stats-description]</strong></p>
+        <!-- stats-chart -->
+        <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
+            <a href="{{ internet-stats.url_link }}" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-01.png" alt="{{ internet-stats.subtitle }}" /></a>
         </td>
     </tr>
+    {{#is internet-stats.description ""}}{{else}}
+    <tr>
+        <!-- stats-desc -->
+        <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
+            <p>{{{ internet-stats.description }}}</p>
+        </td>
+    </tr>
+    {{/is}}
 </table>

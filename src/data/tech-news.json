@@ -1,0 +1,44 @@
+{
+    "articles": [
+        {
+            "title": "If a Best Buy Technician is a Paid FBI Informant, Are His Computer Searches Legal?",
+            "title_url": "https://www.washingtonpost.com/local/public-safety/if-a-best-buy-technician-is-a-paid-fbi-informant-are-his-computer-searches-legal/2017/01/09/f56028b4-d442-11e6-9cb0-54ab630851e8_story.html",
+            "description": "A California criminal case has recently raised questions about privacy and government use of informants. Specifically, does a defendant give up certain Fourth Amendment and privacy rights by handing their computer over to a repair company? Some see the discovery of incriminating information in this context as simply an offshoot of the “plain view” doctrine, while others suggest that alleged payments from the government to company technicians under these circumstances improperly make the company an arm of the agency."
+        },
+        {
+            "title": "Google Still Deindexing Some Material Found by Courts to be Defamatory -- But It’s Being More Skeptical",
+            "title_url": "https://www.washingtonpost.com/news/volokh-conspiracy/wp/2017/01/09/google-still-deindexing-some-material-found-by-courts-to-be-defamatory-but-its-being-more-skeptical/",
+            "description": "Reports indicate that Google may have become more selective in deindexing material in response to court orders. The search giant’s informal policy for a number of years has been to comply with many such requests. However, Google is now said to be taking a closer look at these court orders before removing search results due to the number of seemingly bogus orders it has apparently received in the past."
+        },
+        {
+            "title": "Mobile App Usage Increased 11% in 2016",
+            "title_url": "http://www.adweek.com/socialtimes/flurry-mobile-app-usage-increased-11-in-2016",
+            "description": "New data indicate that mobile app usage is on the rise, climbing 11% last year. Time spent in apps grew by 69%, with social and messaging apps experiencing session growth of 44% year over year. Notably, overall time spent in these same social apps grew by 394% in 2016 compared to the previous year, signaling their increasing influence."
+        },
+        {
+            "title": "Yahoo Faces SEC Probe Over Data-Breach Disclosures",
+            "title_url": "http://www.thedailybeast.com/cheats/2017/01/23/yahoo-faces-sec-probe-over-data-breach-disclosures.html",
+            "description": "Following revelations that the company experienced two massive data breaches compromising the data of an estimated 1.5 billion users, Yahoo will be investigated by the SEC over how it handled the disclosure of the hacks. At issue will likely be the timing of the disclosures, which did not occur until approximately two to three years after the fact. While the SEC has issued guidelines requiring disclosure of data breaches, it does not seem to have established a rule regarding when such events must be revealed. This case may therefore be an opportunity for Yahoo to set a precedent in this area."
+        },
+        {
+            "title": "FCC’s New Chair No Fan of Net Neutrality",
+            "title_url": "http://www.usatoday.com/story/tech/news/2017/01/23/new-fcc-chairman-ajit-pai-no-net-neutrality-fan/96967372/",
+            "description": "With the new presidential administration, the FCC has gotten a new chair who has an established track record of opposing consumer protection rules, including net neutrality. Ajit Pai, a former lawyer for Verizon, has been a Republican member of the Commission since 2012. Large websites such as Google and Netflix support net neutrality rules, which require equal treatment of all content and prohibit unfairly slowing content, while internet service providers such as Comcast and AT&T are opposed."
+        },
+        {
+            "title": "Court Rules Against Man Who Was Forced to Fingerprint-Unlock His Phone",
+            "title_url": "http://arstechnica.com/tech-policy/2017/01/court-rules-against-man-who-was-forced-to-fingerprint-unlock-his-phone/",
+            "description": "An appellate court in Minnesota recently ruled that a convicted burglar was required to provide his fingerprint to unlock his smartphone. The defendant argued that this violated his Fifth Amendment right against giving self-incriminating testimony, but the court disagreed, stating that submitting the fingerprint was “no more testimonial than providing a blood sample.” This is the latest in a series of cases across the country that have examined how data privacy, fingerprint technology in phones, and constitutional law intersect."
+        },
+        {
+            "title": "New Video Series Highlights Activists Using Tech to Defend Human Rights",
+            "title_url": "http://mashable.com/2017/01/24/internet-without-borders-tech-human-rights/",
+            "description": "Human rights leaders are finding new ways to harness the power of technology in advocating for equality, education, and safety around the world. “Internet Without Borders” is an online video series recently released by Jigsaw, which operates under the umbrella of Google’s parent company. The videos highlight the work of activists from countries including Afghanistan and Egypt, and their efforts to increase access to information, community, and free expression through technology."
+        },
+        {
+            "title": "Peter Thiel is Leading the Search for Trump’s Top Antitrust Officials",
+            "title_url": "http://www.cnbc.com/2017/01/26/peter-thiel-is-leading-the-search-for-trumps-top-antitrust-officials.html",
+            "description": "PayPal co-founder and billionaire venture capitalist Peter Thiel is heading up the Trump administration’s search for antitrust enforcement leaders at the FTC and Department of Justice. Thiel, who is also on the board of Facebook, supported Trump’s campaign and later joined his transition team. Though Thiel has previously made statements touting the benefits of monopolies, Trump’s campaign statements indicate that he may favor a more proactive antitrust stance."
+        }
+    ]
+}

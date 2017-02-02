@@ -3,41 +3,41 @@
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$advertisement-background--dimensions: image-dimensions('/src/img/ad-name-background-01.png');
+// $advertisement-background--dimensions: image-dimensions('/src/img/ad-name-background-01.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
 
-    .dvbg {
-        width: nth($advertisement-background--dimensions, 1);
-        height: nth($advertisement-background--dimensions, 2);
-        background: url('../img/ad-name-background-01.png');
-        background-color: plt('tundora');
-        background-repeat: no-repeat !important;
-        vertical-align: top;
-    }
+    // .dvbg {
+    //     width: nth($advertisement-background--dimensions, 1);
+    //     height: nth($advertisement-background--dimensions, 2);
+    //     background: url('../img/ad-name-background-01.png');
+    //     background-color: plt('tundora');
+    //     background-repeat: no-repeat !important;
+    //     vertical-align: top;
+    // }
 
-    .cont {
-        width: 100%;
-        text-align: left;
+    // .cont {
+    //     width: 100%;
+    //     text-align: left;
 
-        p,
-        a,
-        strong {
-            color: plt('white');
-        }
+    //     p,
+    //     a,
+    //     strong {
+    //         color: plt('white');
+    //     }
 
-        a {
-            text-decoration: none;
-        }
+    //     a {
+    //         text-decoration: none;
+    //     }
 
-        .cnt1 {
-            padding: 25px $padding 0;
-            vertical-align: top;
-        }
-    }
+    //     .cnt1 {
+    //         padding: 25px $padding 0;
+    //         vertical-align: top;
+    //     }
+    // }
 
     a {
         display: block;

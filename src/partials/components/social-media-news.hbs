@@ -10,25 +10,13 @@
             <h2 class="widget-main-title">Social Media News</h2>
         </td>
     </tr>
+    {{#forEach social-media-news.articles}}
     <tr>
         <!-- story-item -->
         <td class="story-item" responsive="mobile-padding-horizontal-sides">
-            <p><strong><a href="[article-url-1]" target="_blank">[article-title-1]</a></strong></p>
-            <p>[article-description-1]</p>
+            <p><strong><a href="{{ title_url }}" target="_blank">{{{ title }}}</a></strong></p>
+            <p>{{{ description }}}</p>
         </td>
     </tr>
-    <tr>
-        <!-- story-item -->
-        <td class="story-item" responsive="mobile-padding-horizontal-sides">
-            <p><strong><a href="[article-url-2]" target="_blank">[article-title-2]</a></strong></p>
-            <p>[article-description-2]</p>
-        </td>
-    </tr>
-    <tr>
-        <!-- story-item -->
-        <td class="story-item" responsive="mobile-padding-horizontal-sides">
-            <p><strong><a href="[article-url-3]" target="_blank">[article-title-3]</a></strong></p>
-            <p>[article-description-3]</p>
-        </td>
-    </tr>
+    {{/forEach}}
 </table>

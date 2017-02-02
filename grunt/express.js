@@ -9,7 +9,7 @@ module.exports = {
             hostname: '*',
             bases: ['<%= paths.dist %>', '<%= paths.preview %>', '<%= paths.src %>'],
             server: './server.js',
-            livereload: false
+            livereload: true
         }
     }
 };

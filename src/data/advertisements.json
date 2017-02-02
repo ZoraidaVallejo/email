@@ -1,0 +1,22 @@
+{
+    "clients": {
+        "ad1": {
+            "image": "login-jld-background-01.png",
+            "alt": "Login today to check out your Justia Lawyer Directory profile!",
+            "url": "#"
+        }
+    },
+
+    "jld": {
+        "ad1": {
+            "image": "jld-amp-background-01.png",
+            "alt": "Contact Us to AMP Up Your Site",
+            "url": "#"
+        },
+        "ad2": {
+            "image": "jld-premium-background-02.png",
+            "alt": "Become a Premium Member Now and Save 15%",
+            "url": "#"
+        }
+    }
+}
