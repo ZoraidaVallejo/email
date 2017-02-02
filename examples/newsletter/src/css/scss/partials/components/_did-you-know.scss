@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-did-you-know {
-    background-color: plt('flush-orange');
+    background-color: plt('blaze-orange');
 
     .dyk {
 
@@ -21,8 +21,8 @@
         }
 
         &-link {
-            color: plt('white');
             padding: 20px $padding 45px;
+            color: plt('white');
         }
     }
 
@@ -47,11 +47,5 @@
 
     p {
         margin: 0;
-    }
-
-    .today-on-date {
-        display: block;
-        font-size: ft-exist(11px);
-        font-weight: $font-weight--bold;
     }
 }

@@ -9,57 +9,48 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
 // ----------------------------------------------------------------------------------------------------------
 
 .w-internet-stats {
-    background-color: plt('concrete');
+    background-color: plt('alabaster');
 
     .stats {
 
         &-title {
-            vertical-align: top;
-            text-align: center;
             padding: 45px $padding $padding;
+            text-align: center;
         }
 
         &-chart {
-            vertical-align: top;
+            padding: 0 $padding 40px;
             text-align: center;
-            padding: 0 $padding;
-            // padding: 0 $padding 45px;
 
             img {
                 display: block;
                 width: $internet-stats-chart--width;
-                height: auto;
                 margin: 0 auto;
             }
         }
 
         &-desc {
+            padding: 0 $padding 45px;
+            text-align: center;
 
             &-head {
                 padding: 0 0 20px;
 
                 .line1 {
-                    font-size: 20px;
-                    line-height: 26px;
+                    font: 20px/1.3 $sans-serif-font-family;
+                    // font: 20px/26px $sans-serif-font-family;
                 }
             }
-
-            vertical-align: top;
-            text-align: center;
-            padding: 40px $padding 45px;
 
             a {
                 text-decoration: none;
             }
 
             .source {
-                font-size: ft-exist(14px);
-                line-height: 18px;
+                font: 14px/1.3 $sans-serif-font-family;
+                // font: 14px/18px $sans-serif-font-family;
             }
         }
     }
-
 }
-
-
 

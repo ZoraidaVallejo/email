@@ -7,10 +7,11 @@ $meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
 $inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
 $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
+
 // ----------------------------------------------------------------------------------------------------------
 
 .w-text-image {
-    background-color: plt('concrete');
+    background-color: plt('alabaster');
 
     a {
         text-decoration: none;
@@ -25,24 +26,20 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             vertical-align: top;
 
             .widget-main-title {
-                font-size: ft-exist(22px);
-                line-height: 32px;
                 padding: 0 0 10px;
+                font: 22px/1.45 $sans-serif-font-family;
             }
         }
 
         .item-image {
             padding: 48px 0 $padding;
+            text-align: right;
             vertical-align: top;
-
-            img {
-                height: auto;
-            }
         }
 
         table {
             width: 100%;
-            border-bottom: 1px solid plt('mercury');
+            border-bottom: 1px solid plt('black-haze');
 
             &:last-child {
                 border-bottom: 0;
@@ -59,7 +56,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
     }
 
 
-    &.meet-our-team {
+    &.w-meet-our-team {
 
         .item-list {
 
@@ -78,8 +75,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 
-
-    &.inside-justia {
+    &.w-inside-justia {
 
         .item-list {
 
@@ -98,8 +94,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 
-
-    &.pugs-tale {
+    &.w-pugs-tale {
 
         .item-list {
 
@@ -118,5 +113,4 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 }
-
 
