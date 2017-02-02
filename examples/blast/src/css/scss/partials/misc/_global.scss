@@ -40,8 +40,7 @@ img {
     // .tagline { }
 
     .phone {
-        font-size: 18px !important;
-        line-height: 1.3 !important;
+        font: 18px/1.3 $sans-serif-font-family !important;
     }
 }
 
@@ -50,6 +49,6 @@ img {
     text-align: center;
 
     p {
-        font-size: 12px !important;
+        font: 12px/1.5 $sans-serif-font-family !important;
     }
 }

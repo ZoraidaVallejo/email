@@ -122,7 +122,7 @@ $footer-logo-v2-height: 29px;
         }
 
         .justia-inline {
-            font-weight: $font-weight--bold;
+            font: $font-weight--bold 14px/1.38 $sans-serif-font-family !important;
             text-transform: uppercase;
         }
     }
