@@ -12,97 +12,36 @@
     </tr>
 
     {{!-- Law events - row --}}
-    <tr>
-        {{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event event-1" }}
+    {{#forEach law-events.events}}
 
-            <tr>
-                <td>
-                    <!-- date -->
-                    <p class="date">[event-date-1]</p>
-                    <!-- desc -->
-                    <p class="desc"><strong>[event-place-type-1]</strong><br> [event-description-1]</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- button -->
-                <td class="button">{{> button moreWhite=true url="[event-url-1]" }}</td>
-            </tr>
+        {{!-- Open row if odd --}}
+        {{#ifOdd index}}
+            <!-- event-row-{{ index }} -->
+            <tr class="event-row-{{ index }}">{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+        {{/ifOdd}}
 
-        {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-2" }}
+        {{!-- Add the event --}}
+        <tr>
+            <td>
+                <!-- date -->
+                <p class="date">{{{ date }}}</p>
+                <!-- desc -->
+                <p class="desc"><strong>{{{ type_location }}}</strong><br> {{{ description }}}</p>
+            </td>
+        </tr>
+        <tr>
+            <!-- button -->
+            <td class="button">{{> button moreWhite=true url=url_link }}</td>
+        </tr>
 
-            <tr>
-                <td>
-                    <!-- date -->
-                    <p class="date">[event-date-2]</p>
-                    <!-- desc -->
-                    <p class="desc"><strong>[event-place-type-2]</strong><br> [event-description-2]</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- button -->
-                <td class="button">{{> button moreWhite=true url="[event-url-2]" }}</td>
-            </tr>
+        {{!-- Close the first cell of the row if odd --}}
+        {{#ifOdd index}}
+            {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-2" }}
+        {{/ifOdd}}
 
-        {{> columnsGrid columnEnd=true }}
-    </tr>
-
-    {{!-- Law events - row --}}
-    <tr>
-        {{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event event-3" }}
-
-            <tr>
-                <td>
-                    <!-- date -->
-                    <p class="date">[event-date-3]</p>
-                    <!-- desc -->
-                    <p class="desc"><strong>[event-place-type-3]</strong><br> [event-description-3]</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- button -->
-                <td class="button">{{> button moreWhite=true url="[event-url-3]" }}</td>
-            </tr>
-
-        {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-4" }}
-
-            <tr>
-                <td>
-                    <!-- date -->
-                    <p class="date">[event-date-4]</p>
-                    <!-- desc -->
-                    <p class="desc"><strong>[event-place-type-4]</strong><br> [event-description-4]</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- button -->
-                <td class="button">{{> button moreWhite=true url="[event-url-4]" }}</td>
-            </tr>
-
-        {{> columnsGrid columnEnd=true }}
-    </tr>
-
-    {{!-- Law events - row --}}
-    <tr>
-        {{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event event-5" }}
-
-            <tr>
-                <td>
-                    <!-- date -->
-                    <p class="date">[event-date-5]</p>
-                    <!-- desc -->
-                    <p class="desc"><strong>[event-place-type-5]</strong><br> [event-description-5]</p>
-                </td>
-            </tr>
-            <tr>
-                <!-- button -->
-                <td class="button">{{> button moreWhite=true url="[event-url-5]" }}</td>
-            </tr>
-
-        {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-6" }}
-
-            {{!-- If you need an empty space, use this --}}
-            <tr>&nbsp;</tr>
-
-        {{> columnsGrid columnEnd=true }}
-    </tr>
+        {{!-- Close row if even --}}
+        {{#ifEven index}}
+            {{> columnsGrid columnEnd=true }}</tr>
+        {{/ifEven}}
+    {{/forEach}}
 </table>

@@ -10,7 +10,10 @@ module.exports = {
         contextual: {
             dest: './temp/'
         },
-        helpers: 'handlebars-helpers',
+        helpers: [
+            'handlebars-helpers',
+            '<%= paths.src %>/helpers/*.js'
+        ],
         data: [
             '<%= paths.src %>/data/*.{json,yml}',
             'custom-config.json'
