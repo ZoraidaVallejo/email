@@ -6,13 +6,16 @@
     <tr>
         <!-- tip-title -->
         <td class="tip-title" responsive="mobile-padding-horizontal-sides">
+            {{#if clientsNewsletter}}
             <!-- widget-type-name -->
             <h4 class="widget-type-name">TIP OF THE MONTH</h4>
             <!-- widget-main-title -->
-            {{#if clientsNewsletter}}
             <h2 class="widget-main-title">{{{ tip_month.clients.title }}}</h2>
             {{/if}}
             {{#if jldNewsletter}}
+            <!-- widget-type-name -->
+            <h4 class="widget-type-name">TIP OF THE MONTH - JUSTIA LAWYER DIRECTORY</h4>
+            <!-- widget-main-title -->
             <h2 class="widget-main-title">{{{ tip_month.jld.title }}}</h2>
             {{/if}}
         </td>
