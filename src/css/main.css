@@ -1084,3 +1084,10 @@ body {
   margin: 0;
   Margin: 0;
 }
+
+.jld-newsletter .w-featured-news,
+.jld-newsletter .w-tech-news,
+.jld-newsletter .w-social-media-news,
+.jld-newsletter .w-internet-stats {
+  border-bottom: 1px solid #e7e8e8;
+}
