@@ -252,32 +252,47 @@ body {
 }
 
 .stats-v1 .description .image {
-  margin: 0 auto;
-  Margin: 0 auto;
+  margin: 0;
+  Margin: 0;
 }
 
 .stats-v1 .block-1 {
-  padding: 39px 30px 25px;
+  padding: 39px 0 0;
 }
 
 .stats-v1 .block-1 .image {
-  width: 514px;
-  height: 66px;
+  width: 600px;
+  height: 91px;
 }
 
 .stats-v1 .block-2 {
+  width: 600px;
   height: 43px;
   background: url("../img/stats-v1-tagline-02-background.png");
   background-color: #ffffff;
   background-repeat: no-repeat !important;
-  background-size: 487px 43px;
-  background-position: center center;
+  background-size: 600px 43px;
   vertical-align: top;
-  padding: 0 30px;
+  padding: 0;
+}
+
+.stats-v1 .block-2 table {
+  width: 600px;
+  height: 43px;
+}
+
+.stats-v1 .btn {
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.stats-v1 .animated-wrapper {
+  text-align: left;
+  padding: 0 271px 0 119px;
 }
 
 .stats-v1 .block-3 {
-  padding: 37px 30px 33px;
+  padding: 37px 166px 33px;
 }
 
 .stats-v1 .blcok-4 .image {
@@ -286,7 +301,7 @@ body {
 }
 
 .stats-v1 .block-5 {
-  padding: 34px 30px 79px;
+  padding: 34px 30px 26px;
 }
 
 .stats-v1 .block-5 p {
@@ -297,6 +312,15 @@ body {
 
 .stats-v1 .block-5 span {
   color: #b31b1b;
+}
+
+.stats-v1 .block-6 {
+  padding: 0 30px 28px;
+}
+
+.stats-v1 .block-6 p {
+  font-size: 18px;
+  color: #000000;
 }
 
 .stats-v1 .contactus {
@@ -328,19 +352,33 @@ body {
 }
 
 .stats-v2 .description .image {
-  margin: 0 auto;
-  Margin: 0 auto;
+  margin: 0;
+  Margin: 0;
 }
 
 .stats-v2 .block-1 {
-  height: 207px;
+  width: 600px;
+  height: 246px;
   background: url("../img/stats-v2-button.png");
   background-color: #278dcf;
   background-repeat: no-repeat !important;
-  background-size: 434px 207px;
-  background-position: center 39px;
+  background-size: 600px 246px;
   vertical-align: top;
-  padding: 44px 30px 33px;
+  padding: 0;
+}
+
+.stats-v2 .block-1 table {
+  width: 600px;
+  height: 246px;
+}
+
+.stats-v2 .animated-wrapper {
+  text-align: left;
+  padding: 39px 118px 169px;
+}
+
+.stats-v2 .block-2 {
+  padding: 33px 0 0;
 }
 
 .stats-v2 .block-2 .image {
@@ -411,11 +449,11 @@ body {
 }
 
 .stats-kc-v1 .block-1 {
-  padding: 39px 30px 50px;
+  padding: 39px 0 50px;
 }
 
 .stats-kc-v1 .block-1 .image {
-  width: 532px;
+  width: 600px;
   height: 181px;
 }
 
@@ -461,16 +499,21 @@ body {
 }
 
 .stats-kc-v2 .description .image {
+  margin: 0;
+  Margin: 0;
+}
+
+.stats-kc-v2 .btn {
   margin: 0 auto;
   Margin: 0 auto;
 }
 
 .stats-kc-v2 .block-1 {
-  padding: 39px 30px 50px;
+  padding: 39px 0 50px;
 }
 
 .stats-kc-v2 .block-1 .image {
-  width: 536px;
+  width: 600px;
   height: 217px;
 }
 

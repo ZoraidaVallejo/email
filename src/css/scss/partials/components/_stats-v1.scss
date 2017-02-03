@@ -18,13 +18,13 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.pn
         border-collapse: collapse !important;
 
         .image {
-            margin: 0 auto;
-            Margin: 0 auto;
+            margin: 0;
+            Margin: 0;
         }
     }
 
     .block-1 {
-        padding: 39px 30px 25px;
+        padding: 39px 0 0;
 
         .image {
             width: nth($stats-v1-tagline-01--dimensions, 1);
@@ -33,14 +33,19 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.pn
     }
 
     .block-2 {
+        width: nth($stats-v1-tagline-02-bg--dimensions, 1);
         height: nth($stats-v1-tagline-02-bg--dimensions, 2);
         background: url('../img/stats-v1-tagline-02-background.png');
         background-color: plt('white');
         background-repeat: no-repeat !important;
         background-size: $stats-v1-tagline-02-bg--dimensions;
-        background-position: center center;
         vertical-align: top;
-        padding: 0 30px;
+        padding: 0;
+
+        table {
+            width: nth($stats-v1-tagline-02-bg--dimensions, 1);
+            height: nth($stats-v1-tagline-02-bg--dimensions, 2);
+        }
 
         // .image {
         //     width: nth($stats-kc-v1-main-image--dimensions, 1);
@@ -48,8 +53,18 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.pn
         // }
     }
 
+    .btn {
+        margin: 0 auto;
+        Margin: 0 auto;
+    }
+
+    .animated-wrapper {
+        text-align: left;
+        padding: 0 271px 0 119px;
+    }
+
     .block-3 {
-        padding: 37px 30px 33px;
+        padding: 37px 166px 33px;
     }
 
     .blcok-4 {
@@ -60,7 +75,7 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.pn
     }
 
     .block-5 {
-        padding: 34px 30px 79px;
+        padding: 34px 30px 26px;
 
         p {
             font-size: 20px;
@@ -70,6 +85,15 @@ $stats-v1-main-image--dimensions: image-dimensions('/src/img/stats-main-image.pn
 
         span {
             color: #b31b1b;
+        }
+    }
+
+    .block-6 {
+        padding: 0 30px 28px;
+
+        p {
+            font-size: 18px;
+            color: plt('black');
         }
     }
 

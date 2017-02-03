@@ -17,13 +17,18 @@ $stats-kc-v2-main-image--dimensions: image-dimensions('/src/img/stats-kc-v2-main
         border-collapse: collapse !important;
 
         .image {
-            margin: 0 auto;
-            Margin: 0 auto;
+            margin: 0;
+            Margin: 0;
         }
     }
 
+    .btn {
+        margin: 0 auto;
+        Margin: 0 auto;
+    }
+
     .block-1 {
-        padding: 39px 30px 50px;
+        padding: 39px 0 50px;
 
         .image {
             width: nth($stats-kc-v2-button--dimensions, 1);

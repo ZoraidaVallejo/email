@@ -17,20 +17,25 @@ $stats-v2-button--dimensions: image-dimensions('/src/img/stats-v2-button.png');
         border-collapse: collapse !important;
 
         .image {
-            margin: 0 auto;
-            Margin: 0 auto;
+            margin: 0;
+            Margin: 0;
         }
     }
 
     .block-1 {
+        width: nth($stats-v2-button--dimensions, 1);
         height: nth($stats-v2-button--dimensions, 2);
         background: url('../img/stats-v2-button.png');
         background-color: #278dcf;
         background-repeat: no-repeat !important;
         background-size: $stats-v2-button--dimensions;
-        background-position: center 39px;
         vertical-align: top;
-        padding: 44px 30px 33px;
+        padding: 0;
+
+        table {
+            width: nth($stats-v2-button--dimensions, 1);
+            height: nth($stats-v2-button--dimensions, 2);
+        }
 
         // .image {
         //     width: nth($stats-v2-button--dimensions, 1);
@@ -38,7 +43,14 @@ $stats-v2-button--dimensions: image-dimensions('/src/img/stats-v2-button.png');
         // }
     }
 
+    .animated-wrapper {
+        text-align: left;
+        padding: 39px 118px 169px;
+    }
+
     .block-2 {
+        padding: 33px 0 0;
+
         .image {
             width: nth($stats-v2-main-image--dimensions, 1);
             height: nth($stats-v2-main-image--dimensions, 2);
