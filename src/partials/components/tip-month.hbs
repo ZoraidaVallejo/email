@@ -9,13 +9,23 @@
             <!-- widget-type-name -->
             <h4 class="widget-type-name">TIP OF THE MONTH</h4>
             <!-- widget-main-title -->
-            <h2 class="widget-main-title">{{{ tip-of-the-month.title }}}</h2>
+            {{#if clientsNewsletter}}
+            <h2 class="widget-main-title">{{{ tip_month.clients.title }}}</h2>
+            {{/if}}
+            {{#if jldNewsletter}}
+            <h2 class="widget-main-title">{{{ tip_month.jld.title }}}</h2>
+            {{/if}}
         </td>
     </tr>
     <tr>
         <!-- tip-desc -->
         <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
-            <p>{{{ tip-of-the-month.description }}}</p>
+            {{#if clientsNewsletter}}
+            <p>{{{ tip_month.clients.description }}}</p>
+            {{/if}}
+            {{#if jldNewsletter}}
+            <p>{{{ tip_month.jld.description }}}</p>
+            {{/if}}
         </td>
     </tr>
 </table>

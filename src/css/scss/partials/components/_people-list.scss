@@ -13,7 +13,11 @@ $ranking-number--dimensions: image-dimensions('/src/img/number-ranking-01-green.
     background-color: plt('alabaster');
 
     .list-table {
-        padding: 50px $padding;
+        padding: 50px $padding 30px;
+    }
+
+    .list-desc {
+        padding: 0 $padding 45px;
     }
 
     .widget-type-name,
@@ -93,17 +97,16 @@ $ranking-number--dimensions: image-dimensions('/src/img/number-ranking-01-green.
 }
 
 
-.w-featured-annotator {
+.w-annotator {
 
     .list-table-title {
         background-color: plt('blaze-orange');
     }
 }
 
-.w-ask-lawyer-leaderboard {
+.w-answers-leaderboard {
 
     .list-table-title {
         background-color: plt('green-haze');
     }
 }
-

@@ -9,7 +9,7 @@
             <!-- widget-type-name -->
             <h4 class="widget-type-name">FEATURED NEWS</h4>
             <!-- widget-main-title -->
-            <h2 class="widget-main-title"><a href="{{ featured-news.title_url }}" target="_blank">{{ featured-news.title }}</a></h2>
+            <h2 class="widget-main-title"><a href="{{ featured_news.title_url }}" target="_blank">{{ featured_news.title }}</a></h2>
         </td>
     </tr>
     <tr>
@@ -19,14 +19,13 @@
                 <tr>
                     <!-- story-desc -->
                     <td class="story-desc" responsive="collapse-one">
-                        {{!-- <p>{{{embed featured-news.description 'html'}}}</p> --}}
-                        <p>{{{ featured-news.description }}}</p>
+                        <p>{{{ featured_news.description }}}</p>
                         <br>
-                        {{> button moreBlue=true url=featured-news.title_url }}
+                        {{> button moreBlue=true url=featured_news.title_url }}
                     </td>
                     <!-- featured-image -->
                     <td class="featured-image" responsive="mobile-hide collapse-one">
-                        <a href="{{ featured-news.title_url }}" target="_blank"><img src="{{default.image_dir_src}}/tech-news-01.png" alt="{{ featured-news.title }}" border="0" /></a>
+                        <a href="{{ featured_news.title_url }}" target="_blank"><img src="{{default.image_dir_src}}/tech-news-01.png" alt="{{ featured_news.title }}" border="0" /></a>
                     </td>
                 </tr>
             </table>

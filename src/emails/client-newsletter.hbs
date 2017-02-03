@@ -23,22 +23,22 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{> layoutHack tableStart=true }}
 
                 {{!-- WELCOME MESSAGE --}}
-                {{> welcome clientsNewsletter=true }}               {{!-- DONE --}}
+                {{> welcome clientsNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
-                {{> featured-news }}                                {{!-- DONE --}}
+                {{> featured-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- TIP OF THE MONTH --}}
-                {{> tip-of-the-month }}                             {{!-- DONE --}}
+                {{> tip-month clientsNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- TECH NEWS --}}
-                {{> tech-news }}                                    {{!-- DONE --}}
+                {{> tech-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -48,17 +48,17 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- SEO NEWS --}}
-                {{> seo-news }}                                     {{!-- DONE --}}
+                {{> seo-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED SITE OF THE MONTH --}}
-                {{> featured-site-of-the-month }}                   {{!-- DONE --}}
+                {{> featured-site-month }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- CLIENTS IN THE NEWS --}}
-                {{> clients-in-the-news }}                          {{!-- DONE --}}
+                {{> in-the-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -73,17 +73,17 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
 
                 {{!-- MEET OUR TEAM --}}
-                {{> meet-our-team }}                                {{!-- DONE --}}
+                {{> meet-our-team }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- SOCIAL MEDIA NEWS --}}
-                {{> social-media-news }}                            {{!-- DONE --}}
+                {{> social-media-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- ADVERTISEMENT --}}
-                {{> advertisement }}                                {{!-- DONE --}}
+                {{> advertisement }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
@@ -93,12 +93,12 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
 
                 {{!-- LEGAL INDUSTRY NEWS --}}
-                {{> legal-industry-news }}                          {{!-- DONE --}}
+                {{> legal-industry-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- LAW EVENTS --}}
-                {{> law-events }}                                   {{!-- DONE --}}
+                {{> law-events }}
 
             {{> layoutHack tableEnd=true }}
 

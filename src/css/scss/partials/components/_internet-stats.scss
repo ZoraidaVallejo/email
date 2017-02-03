@@ -19,7 +19,7 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
         }
 
         &-subtitle {
-            padding: 0 $padding 20px;
+            padding: 0 $padding 30px;
 
             .line1 {
                 font: 20px/1.3 $sans-serif-font-family;
@@ -28,7 +28,7 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
         }
 
         &-chart {
-            padding: 0 $padding 40px;
+            padding: 0 $padding 20px;
             text-align: center;
 
             img {
@@ -61,4 +61,3 @@ $internet-stats-chart--width: image-width('/src/img/internet-stats-01.png');
         }
     }
 }
-

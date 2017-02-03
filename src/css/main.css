@@ -637,7 +637,11 @@ body {
 }
 
 .w-people-list .list-table {
-  padding: 50px 30px;
+  padding: 50px 30px 30px;
+}
+
+.w-people-list .list-desc {
+  padding: 0 30px 45px;
 }
 
 .w-people-list .widget-type-name,
@@ -710,11 +714,11 @@ body {
   height: 56px;
 }
 
-.w-featured-annotator .list-table-title {
+.w-annotator .list-table-title {
   background-color: #ff6b00;
 }
 
-.w-ask-lawyer-leaderboard .list-table-title {
+.w-answers-leaderboard .list-table-title {
   background-color: #00af41;
 }
 
@@ -741,58 +745,58 @@ body {
   padding: 0 30px 45px;
 }
 
-.w-clients-news {
+.w-in-the-news {
   background-color: #ffffff;
 }
 
-.w-clients-news a {
+.w-in-the-news a {
   text-decoration: none;
 }
 
-.w-clients-news .clients-title {
+.w-in-the-news .clients-title {
   padding: 45px 30px 0;
 }
 
-.w-clients-news .clients-list {
+.w-in-the-news .clients-list {
   padding: 0 30px;
   vertical-align: top;
 }
 
-.w-clients-news .clients-list .news-logo {
+.w-in-the-news .clients-list .news-logo {
   width: 180px;
   padding: 30px 0;
   text-align: left;
   vertical-align: top;
 }
 
-.w-clients-news .clients-list .news-logo img {
+.w-in-the-news .clients-list .news-logo img {
   display: block;
   width: 150px;
   max-width: 83%;
   height: auto;
 }
 
-.w-clients-news .clients-list .news-desc {
+.w-in-the-news .clients-list .news-desc {
   width: 360px;
   padding: 30px 0;
   vertical-align: top;
 }
 
-.w-clients-news .clients-list table {
+.w-in-the-news .clients-list table {
   width: 100%;
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-clients-news .clients-list table:last-child {
+.w-in-the-news .clients-list table:last-child {
   border-bottom: 0;
 }
 
-.w-clients-news .clients-list table:last-child .news-logo,
-.w-clients-news .clients-list table:last-child .news-desc {
+.w-in-the-news .clients-list table:last-child .news-logo,
+.w-in-the-news .clients-list table:last-child .news-desc {
   padding: 30px 0 0;
 }
 
-.w-clients-news .clients-desc {
+.w-in-the-news .clients-desc {
   padding: 30px 30px 45px;
   text-align: center;
 }
@@ -928,7 +932,7 @@ body {
 }
 
 .w-internet-stats .stats-subtitle {
-  padding: 0 30px 20px;
+  padding: 0 30px 30px;
 }
 
 .w-internet-stats .stats-subtitle .line1 {
@@ -936,7 +940,7 @@ body {
 }
 
 .w-internet-stats .stats-chart {
-  padding: 0 30px 40px;
+  padding: 0 30px 20px;
   text-align: center;
 }
 
@@ -963,43 +967,43 @@ body {
   padding: 0 30px 45px;
 }
 
-.w-feaured-site {
+.w-feaured-site-month {
   background-color: #f7f7f7;
 }
 
-.w-feaured-site .client-url {
+.w-feaured-site-month .client-url {
   color: #000000;
 }
 
-.w-feaured-site a {
+.w-feaured-site-month a {
   text-decoration: none;
 }
 
-.w-feaured-site .featured-site-title {
+.w-feaured-site-month .featured-site-title {
   padding: 45px 30px 20px;
   text-align: center;
 }
 
-.w-feaured-site .featured-client {
+.w-feaured-site-month .featured-client {
   padding: 0 30px 10px;
   text-align: center;
 }
 
-.w-feaured-site .featured-client p {
+.w-feaured-site-month .featured-client p {
   font: 22px/1.38 Arial, sans-serif;
 }
 
-.w-feaured-site .featured-desc {
+.w-feaured-site-month .featured-desc {
   padding: 0 30px;
   text-align: center;
 }
 
-.w-feaured-site .featured-img {
+.w-feaured-site-month .featured-img {
   padding: 30px 30px 45px;
   text-align: center;
 }
 
-.w-feaured-site .featured-img img {
+.w-feaured-site-month .featured-img img {
   display: block;
   width: 520px;
   margin: 0 auto;
