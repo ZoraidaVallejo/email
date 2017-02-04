@@ -5,7 +5,7 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
 
 <div id="preheader" style="height: 0; overflow: hidden; opacity: 0; display: none; width: 0; max-width: 0; visibility: hidden; max-height: 0; color: #f3f3f3; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 1px; line-height: 1px; mso-hide: all;">News and developments from Justia and the tech world ----- </div>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="client-newsletter">
 
     {{!-- HEADER --}}
     <tr>
@@ -63,14 +63,14 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- INSIDE JUSTIA --}}
-                {{!-- {{> inside-justia }} --}}
+                {{> inside-justia }}                                {{!-- PENDING --}}
 
-            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
+            {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- DID YOU KNOW --}}
-                {{!-- {{> did-you-know }} --}}
+                {{> did-you-know }}                                 {{!-- PENDING --}}
 
-            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
+            {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- MEET OUR TEAM --}}
                 {{> meet-our-team }}
@@ -88,9 +88,9 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- PUG'S TALE --}}
-                {{!-- {{> pugs-tale }} --}}
+                {{> pugs-tale }}                                    {{!-- PENDING --}}
 
-            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
+            {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- LEGAL INDUSTRY NEWS --}}
                 {{> legal-industry-news }}

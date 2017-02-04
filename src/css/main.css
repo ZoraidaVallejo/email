@@ -860,6 +860,32 @@ body {
   max-width: 88%;
 }
 
+.w-text-image.w-inside-justia .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.w-inside-justia .item-image {
+  width: 240px;
+}
+
+.w-text-image.w-inside-justia .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-text-image.w-pugs-tale .item-list .item-desc {
+  width: 300px;
+}
+
+.w-text-image.w-pugs-tale .item-image {
+  width: 240px;
+}
+
+.w-text-image.w-pugs-tale .item-image img {
+  width: 210px;
+  max-width: 88%;
+}
+
 .w-did-you-know {
   background-color: #ff6b00;
 }
@@ -1005,7 +1031,7 @@ body {
 
 .w-feaured-site-month .featured-img img {
   display: block;
-  width: 520px;
+  width: 540px;
   margin: 0 auto;
 }
 

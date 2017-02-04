@@ -11,8 +11,8 @@ module.exports = {
             dest: './temp/'
         },
         helpers: [
-            'handlebars-helpers',
-            '<%= paths.src %>/helpers/*.js'
+            '<%= paths.src %>/helpers/custom-helpers.js',
+            './node_modules/handlebars-helpers/**/*.js'
         ],
         data: [
             '<%= paths.src %>/data/*.{json,yml}',

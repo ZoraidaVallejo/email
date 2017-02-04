@@ -1,22 +1,22 @@
 {
     "clients": {
         "ad1": {
-            "image": "login-jld-background-01.png",
-            "alt": "Login today to check out your Justia Lawyer Directory profile!",
-            "url": "https://accounts.justia.com/signin"
+            "image": "adname-image-01.png",
+            "alt": "[alt text]",
+            "url": "#"
         }
     },
 
     "jld": {
         "ad1": {
-            "image": "jld-amp-background-01.png",
-            "alt": "Contact Us to AMP Up Your Site",
-            "url": "https://marketing.justia.com/contact/promotion/?utm_source=source-jld_newsletter&utm_campaign=campaign-2017_feb&utm_content=ampad"
+            "image": "jld-adname-image-01.png",
+            "alt": "[alt text]",
+            "url": "#"
         },
         "ad2": {
-            "image": "jld-premium-background-02.png",
-            "alt": "Become a Premium Member Now and Save 15%",
-            "url": "https://lawyers.justia.com/premium-placement-form?profile_id=*|PROFILE_ID|*&email=*|EMAIL|*&utm_source=source-jld_newsletter&utm_campaign=campaign-2017_feb&utm_content=ampad"
+            "image": "jld-adname-image-02.png",
+            "alt": "[alt text]",
+            "url": "#"
         }
     }
 }

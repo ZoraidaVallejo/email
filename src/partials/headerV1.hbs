@@ -19,11 +19,7 @@
                         </td>
                         <!-- date -->
                         <td class="date align-right">
-                            {{!--
-                                DON'T CHANGE.
-                                Modify the custom-config.json file to set the year and month.
-                             --}}
-                            <span>{{ custom-config.current_month_string }} {{ custom-config.current_year }}</span>
+                            <span>{{getMonth custom-config.current_month }} {{ custom-config.current_year }}</span>
                         </td>
                     </tr>
                 </table>

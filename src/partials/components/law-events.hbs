@@ -15,6 +15,7 @@
     {{#forEach law_events.events}}
 
         {{!-- Open row if odd --}}
+
         {{#ifOdd index}}
             <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
         {{/ifOdd}}
@@ -23,7 +24,7 @@
         <tr>
             <td>
                 <!-- date -->
-                <p class="date">{{{ date }}}</p>
+                <p class="date">{{{ date_time }}}</p>
                 <!-- desc -->
                 <p class="desc"><strong>{{{ type_location }}}</strong><br> {{{ description }}}</p>
             </td>
