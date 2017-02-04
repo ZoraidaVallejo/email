@@ -4,8 +4,6 @@ const customConfig = require('./custom-config.json');
 const chalk = require('chalk');
 const getMonths = require('./src/helpers/lib/getMonth');
 
-// {{month custom-config.current_month }}
-
 module.exports = function(grunt) {
     let monthNum = parseInt(customConfig.current_month);
 

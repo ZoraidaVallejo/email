@@ -72,6 +72,10 @@ module.exports = function (grunt, options) {
 
         'zip': [
             'compress'
+        ],
+
+        'test': [
+            'sass'
         ]
     };
 };
