@@ -176,7 +176,7 @@ Contain optional handlebar components that can help generate your markup. Each c
 For example, to include the **button.hbs** component you would use the following code in your email template:
 
 ```handlebars
-{{> button url="http://google.com/" }}
+{{> button buttonLink="https://www.justia.com/" }}
 ```
 >**Note**: You can use single -or- double quotes for attributes.
 
@@ -225,7 +225,29 @@ Avoid using any of the following names, **they will be ignore when uploading to 
 
 ### Data
 
-Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores. For instance: The information showed in `custom-component.hbs` is feed by `custom_component.json`.
+Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores.
+
+For instance: The information showed in `custom-component.hbs` component is feeded by `custom_component.json` file.
+
+To access the data saved on these files, use the following syntax:
+
+```handlebars
+{{{ custom_component.path.to.data }}}
+```
+
+
+There are some cases that you will need different content for the same block, specially for the newsletters (Clients and JLD). In that case you can define two main objects in the JSON file:
+
+```json
+{
+    "clients": {
+        "data": "Specific to the client's newsletter"
+    },
+    "jld": {
+        "data": "Specific to the JLD's newsletter"
+    }
+}
+```
 
 
 ## How to use
