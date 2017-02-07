@@ -1,0 +1,38 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'../../../node_modules/sassy-maps/sass/sassy-maps',
+'image-dimensions';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+@page {
+    margin: 1.5cm 0;
+    padding: 0;
+    size: auto;
+    odd-header-name: html_Header;
+    odd-footer-name: html_Footer;
+    even-header-name: html_Header;
+    even-footer-name: html_Footer;
+}
+
+@page noheader {
+    odd-header-name: _blank;
+    odd-footer-name: _blank;
+}
+
+@page :first {
+    odd-header-name: html_HeaderFirst;
+    even-header-name: html_HeaderFirst;
+    even-header-name: html_Header;
+    even-footer-name: html_Footer;
+}

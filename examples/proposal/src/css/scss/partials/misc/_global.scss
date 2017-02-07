@@ -1,0 +1,25 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// G L O B A L   R E S E T S
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+    -webkit-font-smoothing: antialiased;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    font-family: $sans-serif-font-family;
+    background-color: plt('concrete');
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.set-max-width {
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}

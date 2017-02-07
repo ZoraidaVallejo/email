@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://justatic.com/v/1/shared/fonts/OpenSans-Regular.eot?") format("eot"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Regular.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Regular.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.eot?") format("eot"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.ttf") format("truetype");
+}
