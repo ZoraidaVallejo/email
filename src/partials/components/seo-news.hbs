@@ -10,12 +10,12 @@
             <h2 class="widget-main-title">SEO News</h2>
         </td>
     </tr>
-    {{#forEach seo_news.articles}}
+    {{#forEach seo_news.articles }}
     <tr>
         <!-- story-item -->
         <td class="story-item" responsive="mobile-padding-horizontal-sides">
-            <p><strong><a href="{{ title_url }}" target="_blank">{{{ title }}}</a></strong></p>
-            <p>{{{ description }}}</p>
+            <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
+            <p>{{{ this.description }}}</p>
         </td>
     </tr>
     {{/forEach}}

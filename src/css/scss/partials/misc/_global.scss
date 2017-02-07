@@ -4,13 +4,12 @@
 // ----------------------------------------------------------------------------------------------------------
 
 body {
-    -webkit-font-smoothing: antialiased;
     width: 100% !important;
     height: 100% !important;
     padding: 0;
     margin: 0;
-    background-color: plt('alabaster');
     font-family: $sans-serif-font-family;
+    -webkit-font-smoothing: antialiased;
 }
 
 table {
@@ -19,6 +18,22 @@ table {
     td {
         text-align: left;
     }
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    // font: $font-weight--normal 16px/22px $sans-serif-font-family;
+    font: 16px/1.38 $sans-serif-font-family;
+}
+
+a {
+    color: plt('accent');
 }
 
 .set-max-width {

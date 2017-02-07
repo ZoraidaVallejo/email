@@ -3,7 +3,7 @@
         "ad1": {
             "image": "adname-image-01.png",
             "alt": "[alt text]",
-            "url": "#"
+            "link": "#"
         }
     },
 
@@ -11,12 +11,12 @@
         "ad1": {
             "image": "jld-adname-image-01.png",
             "alt": "[alt text]",
-            "url": "#"
+            "link": "#"
         },
         "ad2": {
             "image": "jld-adname-image-02.png",
             "alt": "[alt text]",
-            "url": "#"
+            "link": "#"
         }
     }
 }

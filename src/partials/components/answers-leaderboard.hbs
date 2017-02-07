@@ -21,25 +21,25 @@
                     <td>
                         <!-- people-table -->
                         <table border="0" cellpadding="0" cellspacing="0" class="people-table">
-                            {{#forEach answers_leaderboard.people}}
+                            {{#forEach answers_leaderboard.people }}
                                 <tr>
                                     <!-- people-photo -->
                                     <td class="people-photo" responsive="mobile-padding-left">
-                                        <a href="{{ url }}" target="_blank"><img src="{{../default.image_dir_src}}/leaderboard-photo-0{{ rank }}.png" alt="{{ name }}" border="0" /></a>
+                                        <a href="{{ this.photo_link }}" target="_blank"><img src="{{ ../default.image_dir_src }}/leaderboard-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
                                     </td>
                                     <!-- people-info -->
                                     <td class="people-info" responsive="mobile-padding-horizontal-sides">
                                         <!-- -name -->
-                                        <p class="-name" responsive="mobile-fz-20"><a href="{{ answers_url }}" target="_blank">{{{ name }}}</a></p>
+                                        <p class="-name" responsive="mobile-fz-20"><a href="{{ this.name_link }}" target="_blank">{{{ this.name }}}</a></p>
                                         <!-- -location -->
-                                        <p class="-location"><b>{{#uppercase}}{{ location }}{{/uppercase}}</b></p>
+                                        <p class="-location"><b>{{#uppercase}}{{ this.location }}{{/uppercase}}</b></p>
                                     </td>
                                     <!-- people-ranking -->
                                     <td class="people-ranking" responsive="mobile-padding-right">
-                                        {{#if isFirst}}
-                                        <img src="{{../../default.image_dir_src}}/number-ranking-0{{ rank }}-green.png" alt="{{ rank }}" border="0" />
+                                        {{#if isFirst }}
+                                        <img src="{{ ../../default.image_dir_src }}/number-ranking-0{{ index }}-green.png" alt="{{ index }}" border="0" />
                                         {{else}}
-                                        <img src="{{../../default.image_dir_src}}/number-ranking-0{{ rank }}.png" alt="{{ rank }}" border="0" />
+                                        <img src="{{ ../../default.image_dir_src }}/number-ranking-0{{ index }}.png" alt="{{ index }}" border="0" />
                                         {{/if}}
                                     </td>
                                 </tr>
@@ -55,7 +55,7 @@
         <td class="list-desc" responsive="mobile-padding-horizontal-sides">
             <p>{{{ answers_leaderboard.description }}}</p>
             <br>
-            {{> button moreBlue=true url=answers_leaderboard.button_link }}
+            {{> button moreBlue=true buttonLink=answers_leaderboard.button_link }}
         </td>
     </tr>
 </table>

@@ -15,11 +15,11 @@
                     <tr>
                         <!-- logo -->
                         <td class="logo">
-                            <a href="{{default.header.logo.v1.url}}" target="_blank"><img src="{{default.header.logo.v1.source}}" alt="{{default.header.logo.v1.alt}}" border="0" /></a>
+                            <a href="{{ default.header.logo.v1.url }}" target="_blank"><img src="{{ default.header.logo.v1.source }}" alt="{{ default.header.logo.v1.alt }}" border="0" /></a>
                         </td>
                         <!-- date -->
                         <td class="date align-right">
-                            <span>{{ date }}</span>
+                            <span>{{getMonth custom-config.current_month }} {{ custom-config.current_year }}</span>
                         </td>
                     </tr>
                 </table>

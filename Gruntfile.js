@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
     if (monthNum < 1 || monthNum > 12) {
         console.log('');
-        console.log(chalk.yellow('Warning: Please set the month number between 01 to 12 in the ' + chalk.underline('custom-config.json') + ' file.'));
+        grunt.log.writeln(chalk.yellow('Warning: Please set the month number between 01 to 12 in the ' + chalk.underline('custom-config.json') + ' file.'));
         console.log('');
     }
 

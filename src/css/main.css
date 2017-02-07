@@ -1,11 +1,10 @@
 body {
-  -webkit-font-smoothing: antialiased;
   width: 100% !important;
   height: 100% !important;
   padding: 0;
   margin: 0;
-  background-color: #f7f7f7;
   font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 table {
@@ -14,11 +13,6 @@ table {
 
 table td {
   text-align: left;
-}
-
-.set-max-width {
-  width: 100%;
-  max-width: 600px;
 }
 
 h1,
@@ -36,6 +30,11 @@ a {
   color: #00b3e3;
 }
 
+.set-max-width {
+  width: 100%;
+  max-width: 600px;
+}
+
 body {
   background-color: #e7e8e8;
 }
@@ -46,20 +45,16 @@ body {
 }
 
 .container {
-  display: block;
-  width: auto !important;
+  width: 600px;
   max-width: 600px;
-  padding: 10px 0;
+  margin: 0 auto !important;
+  /* makes it centered */
   Margin: 0 auto !important;
   /* makes it centered */
 }
 
 .content {
-  display: block;
-  max-width: 600px;
-  padding: 0;
-  margin: 0 auto;
-  Margin: 0 auto !important;
+  width: 100%;
   background-color: #ffffff;
 }
 
@@ -359,7 +354,7 @@ body {
 }
 
 .main-footer-v2 .address .justia-inline {
-  font-weight: 700;
+  font: 700 14px/1.38 Arial, sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -895,7 +890,7 @@ body {
 }
 
 .w-did-you-know .dyk-desc {
-  padding: 0 30px;
+  padding: 0 30px 20px;
 }
 
 .w-did-you-know .dyk-desc.-extra {
@@ -903,8 +898,12 @@ body {
 }
 
 .w-did-you-know .dyk-link {
-  padding: 20px 30px 45px;
+  padding: 0 30px 45px;
   color: #ffffff;
+}
+
+.w-did-you-know tr:last-child td[class] {
+  padding: 0 30px 45px;
 }
 
 .w-did-you-know .widget-type-name,

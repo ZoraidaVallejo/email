@@ -1,12 +1,12 @@
 {
     "people": [{
-        "id": "1484113",
+        "id": "0000000",
         "rank": 1,
-        "name": "Christopher Spring",
-        "location": "Acton, MA",
-        "photo_url": "https://lawyers.justia.com/lawyer/christopher-w-spring-esq-1484113",
-        "name_url": "http://law.justia.com/annotations/lawyers/1484113/"
+        "name": "[name]",
+        "location": "[location]",
+        "name_link": "#",
+        "photo_link": "#"
     }],
-    "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
-    "button_link": "http://law.justia.com/annotations/"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus enim quo nulla, dicta dolor repellat architecto, amet voluptatem laboriosam quae qui nobis, aperiam consectetur cupiditate perferendis dignissimos commodi beatae.",
+    "button_link": "#"
 }

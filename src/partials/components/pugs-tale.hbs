@@ -14,12 +14,12 @@
                         <!-- widget-type-name -->
                         <h4 class="widget-type-name">A PUG'S TALE</h4>
                         <!-- widget-main-title -->
-                        <h2 class="widget-main-title">[pugs-title]</h2>
-                        <p>[pugs-description]</p>
+                        <h2 class="widget-main-title">{{{ pugs_tale.title }}}</h2>
+                        <p>{{{ pugs_tale.description }}}</p>
                     </td>
                     <!-- item-image -->
                     <td class="item-image" responsive="mobile-hide collapse-one">
-                        <a href="[pugs-url]" target="_blank"><img src="{{default.image_dir_src}}/pugs-tale-01.jpg" alt="[pugs-title]" border="0" /></a>
+                        <img src="{{ default.image_dir_src }}/pugs-tale-01.jpg" alt="{{{ pugs_tale.title }}}" border="0" />
                     </td>
                 </tr>
             </table>

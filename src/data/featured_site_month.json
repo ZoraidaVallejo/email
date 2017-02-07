@@ -1,8 +1,8 @@
 {
-    "client-name": "Stephen Law Group, PLLC",
-    "location": "New Hampshire",
-    "website": {
-        "long": "https://www.stephenlaw.com/",
-        "simple": "stephenlaw.com"
+    "client_name": "[name]",
+    "location": "[location]",
+    "domain": {
+        "long": "#",
+        "simple": "website.com"
     }
 }

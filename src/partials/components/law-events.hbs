@@ -11,37 +11,46 @@
         </td>
     </tr>
 
-    {{!-- Law events - row --}}
-    {{#forEach law_events.events}}
+    {{!-- OPEN --}}
+    <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
 
-        {{!-- Open row if odd --}}
+    {{#forEach law_events.events }}
 
-        {{#ifOdd index}}
+        {{#unless isFirst }}{{#ifOdd index }}
+            {{!-- OPEN UNLESS FIRST --}}
             <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
-        {{/ifOdd}}
+        {{/ifOdd}}{{/unless}}
 
-        {{!-- Add the event --}}
+        {{!-- CONTENT --}}
         <tr>
             <td>
                 <!-- date -->
-                <p class="date">{{{ date_time }}}</p>
+                <p class="date">{{{ this.date_time }}}</p>
                 <!-- desc -->
-                <p class="desc"><strong>{{{ type_location }}}</strong><br> {{{ description }}}</p>
+                <p class="desc"><strong>{{{ this.type_location }}}</strong><br> {{{ this.description }}}</p>
             </td>
         </tr>
         <tr>
             <!-- button -->
-            <td class="button">{{> button moreWhite=true url=url_link }}</td>
+            <td class="button">{{> button moreWhite=true buttonLink=this.link }}</td>
         </tr>
 
-        {{!-- Close the first cell of the row if odd --}}
-        {{#ifOdd index}}
+        {{#ifOdd index }}
+            {{!-- MIDDLE DIVIDER --}}
             {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-2" }}
+
+            {{#if isLast }}{{#ifOdd isLast }}
+            {{!-- EMPTY --}}
+            <tr><td>&nbsp;</td></tr>
+            {{/ifOdd}}{{/if}}
         {{/ifOdd}}
 
-        {{!-- Close row if even --}}
-        {{#ifEven index}}
+        {{#ifEven index }}
+            {{!-- CLOSE --}}
             {{> columnsGrid columnEnd=true }}</tr>
         {{/ifEven}}
     {{/forEach}}
+
+    {{!-- CLOSE LAST --}}
+    {{> columnsGrid columnEnd=true }}</tr>
 </table>

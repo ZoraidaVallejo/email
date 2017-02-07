@@ -14,20 +14,14 @@ body {
 
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
 .container {
-    display: block;
-    width: auto !important;
+    width: $max-width;
     max-width: $max-width;
-    padding: 10px 0;
+    margin: 0 auto !important; /* makes it centered */
     Margin: 0 auto !important; /* makes it centered */
 }
 
-// This should also be a block element, so that it will fill 100% of the .container
 .content {
-    display: block;
-    max-width: $max-width;
-    padding: 0;
-    margin: 0 auto;
-    Margin: 0 auto !important;
+    width: 100%;
     background-color: plt('white');
 }
 

@@ -20,10 +20,10 @@
     <tr>
         <!-- stats-chart -->
         <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
-            <a href="{{ internet_stats.url_link }}" target="_blank"><img src="{{default.image_dir_src}}/internet-stats-01.png" alt="{{ internet_stats.subtitle }}" /></a>
+            <a href="{{ internet_stats.link }}" target="_blank"><img src="{{ default.image_dir_src }}/internet-stats-01.png" alt="{{ internet_stats.subtitle }}" /></a>
         </td>
     </tr>
-    {{#is internet_stats.description ""}}{{else}}
+    {{#is internet_stats.description "" }}{{else}}
     <tr>
         <!-- stats-desc -->
         <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
