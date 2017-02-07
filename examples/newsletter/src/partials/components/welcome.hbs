@@ -1,35 +1,38 @@
 
 <!-- WELCOME MESSAGE -->
 
+<!-- w-welcome -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-welcome set-max-width">
     <tr>
-        {{> background classes="head-img" image="https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-a.png" absolutePath=true bgcolor="#398ff2" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
+        <!-- head-img -->
+        {{> background classes="head-img" image="https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png" absolutePath=true bgcolor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
     </tr>
-
-    {{#if clientsNewsletter}}
+    {{#if clientsNewsletter }}
     <tr>
+        <!-- w-welcome--title -->
         <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-            <h1><span>Welcome to the January 2017 edition of</span>&nbsp;<br responsive="mobile-hide">the Justia monthly client newsletter!</h1>
+            <h1><span>{{{ welcome.clients.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.clients.title.line2 }}}</h1>
         </td>
     </tr>
     <tr>
+        <!-- w-welcome--message -->
         <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-            <p>[welcome message (form the document)]</p>
+            <p>{{{ welcome.clients.message }}}</p>
         </td>
     </tr>
     {{/if}}
-
-    {{#if jldNewsletter}}
+    {{#if jldNewsletter }}
     <tr>
+        <!-- w-welcome--title -->
         <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-            <h1><span>Welcome to the inaugural edition of</span>&nbsp;<br responsive="mobile-hide">the Justia monthly newsletter!</h1>
+            <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
         </td>
     </tr>
     <tr>
+        <!-- w-welcome--message -->
         <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-            <p>[welcome message (form the document)]</p>
+            <p>{{{ welcome.jld.message }}}</p>
         </td>
     </tr>
     {{/if}}
-
 </table>

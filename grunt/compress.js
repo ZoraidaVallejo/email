@@ -9,7 +9,7 @@ module.exports = {
         },
         files: [
             {
-                src: ['custom-config.js'],
+                src: ['custom-config.*'],
                 dest: '/',
                 filter: 'isFile'
             },

@@ -3,12 +3,56 @@
 // Replace compiled template images sources from ../src/html to ../dist/html
 module.exports = function() {
 
-    var allTemplates = [{
+    var leftPad = function leftPad(number, targetLength = 2) {
+        let output = number + '';
+
+        while (output.length < targetLength) {
+            output = '0' + output;
+        }
+
+        return output;
+    };
+
+    let allTemplates = [{
         expand: true,
         flatten: true,
         src: ['<%= paths.dist %>/*.html'],
         dest: '<%= paths.dist %>'
     }];
+
+    let cssClasses = [
+        'collapse-one',
+        'mobile-reset-width',
+        'mobile-reset-height',
+        'mobile-reset-bg-image',
+        'mobile-hide',
+        'mobile-align-center',
+        'mobile-fz-20',
+        'mobile-padding-top',
+        'mobile-padding-right',
+        'mobile-padding-bottom',
+        'mobile-padding-left',
+        'mobile-padding-horizontal-sides',
+        'mobile-padding-vertical-sides',
+        'mobile-padding-full',
+        'mobile-padding-uneven-top',
+        'mobile-padding-uneven-bottom',
+        'mobile-padding-uneven-full',
+        'mobile-no-padding-top',
+        'mobile-no-padding-bottom',
+        'mobile-no-padding-horizontal-sides',
+        'mobile-no-float',
+        'mobile-no-border'
+    ];
+
+    let classesToReplace = [];
+
+    for (let i = 0; i < cssClasses.length; i++) {
+        classesToReplace.push({
+            match: new RegExp(cssClasses[i], 'g'),
+            replacement: 'justia' + leftPad(i + 1)
+        });
+    }
 
     return {
 
@@ -48,27 +92,7 @@ module.exports = function() {
         shorten_classes: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    { match: /collapse-one/g, replacement: 'justia01' },
-                    { match: /mobile-reset-width/g, replacement: 'justia02' },
-                    { match: /mobile-reset-height/g, replacement: 'justia03' },
-                    { match: /mobile-reset-bg-image/g, replacement: 'justia04' },
-                    { match: /mobile-hide/g, replacement: 'justia05' },
-                    { match: /mobile-align-center/g, replacement: 'justia06' },
-                    { match: /mobile-padding-top/g, replacement: 'justia07' },
-                    { match: /mobile-padding-bottom/g, replacement: 'justia08' },
-                    { match: /mobile-padding-horizontal-sides/g, replacement: 'justia09' },
-                    { match: /mobile-padding-vertical-sides/g, replacement: 'justia10' },
-                    { match: /mobile-padding-full/g, replacement: 'justia11' },
-                    { match: /mobile-padding-uneven-top/g, replacement: 'justia12' },
-                    { match: /mobile-padding-uneven-bottom/g, replacement: 'justia13' },
-                    { match: /mobile-padding-uneven-full/g, replacement: 'justia14' },
-                    { match: /mobile-no-padding-top/g, replacement: 'justia15' },
-                    { match: /mobile-no-padding-bottom/g, replacement: 'justia16' },
-                    { match: /mobile-no-padding-horizontal-sides/g, replacement: 'justia17' },
-                    { match: /mobile-no-float/g, replacement: 'justia18' },
-                    { match: /mobile-no-border/g, replacement: 'justia19' }
-                ]
+                patterns: classesToReplace
             },
             files: allTemplates
         },
