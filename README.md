@@ -4,15 +4,14 @@
 
 ## Table of Contents
 
-<details>
-<summary>Table of contents</summary>
-- [Requirements](#requirements)
-- [Installation](#installation)
+
+1. [Requirements](#requirements)
+2. [Installation](#installation)
     - [NVM](#nvm)
     - [Node.js](#nodejs)
     - [Yarn](#yarn)
     - [Packages](#packages)
-- [Folder structure](#folder-structure)
+3. [Folder structure](#folder-structure)
     - [CSS](#css)
         - [Modules](#modules)
         - [Partials](#partials)
@@ -20,14 +19,13 @@
         - [UI Components](#ui-components)
         - [Components](#components)
     - [Images](#images)
-- [How to use](#how-to-use)
+4. [How to use](#how-to-use)
     - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-- [Resources](#resources)
-- [Release History](#release-history)
-</details>
+5. [Resources](#resources)
+6. [Release History](#release-history)
 
 
 ## Requirements
