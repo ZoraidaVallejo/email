@@ -34,7 +34,7 @@ $template2-mainimage--dimensions: image-dimensions('/src/img/template2-main-imag
         text-align: center;
 
         p {
-            font-size: 14px !important;
+            font: 14px/1.5 $sans-serif-font-family !important;
         }
     }
 

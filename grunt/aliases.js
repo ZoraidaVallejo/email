@@ -5,13 +5,13 @@ module.exports = function (grunt, options) {
     // BLAST configuration
     let buildAlias = [
         options.conversionType,
-        'replace:shorten_classes',
         'replace:live_images'
     ];
 
     // Newsletter configuration overwrite
     if(options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
         buildAlias = buildAlias.concat([
+            'replace:shorten_classes',
             'htmlmin:live'
         ]);
     }
@@ -22,7 +22,6 @@ module.exports = function (grunt, options) {
         'newsletter': [
             'clean',
             'sass:dist',
-            'cssmin',
             'assemble',
             'juice',
             'imagemin',
@@ -56,12 +55,7 @@ module.exports = function (grunt, options) {
 
         'build': buildAlias,
 
-        send: [
-            'build',
-            'mailgun'
-        ],
-
-        serve: [
+        'serve': [
             options.conversionType,
             'sass:preview',
             'postcss:preview',
@@ -70,14 +64,18 @@ module.exports = function (grunt, options) {
             'watch'
         ],
 
-        upload: [
+        'upload': [
             options.conversionType,
             'imagemin',
             'sftp-deploy'
         ],
 
-        zip: [
+        'zip': [
             'compress'
+        ],
+
+        'test': [
+            'sass'
         ]
     };
 };

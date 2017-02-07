@@ -13,7 +13,7 @@ module.exports = function(grunt, options) {
                 '<%= paths.src %>/css/scss/**/*',
                 '<%= paths.src %>/partials/**/*'
             ],
-            tasks: [options.conversionType]
+            tasks: [options.conversionType, 'sasslint']
         },
 
         preview_dist: {

@@ -7,13 +7,9 @@
 
     .grid-row {
         padding: 0;
-        vertical-align: top;
         font-size: 0;
         text-align: center;
-
-        // &.-last {
-        //     background-color: red;
-        // }
+        vertical-align: top;
     }
 
     .grid-column {

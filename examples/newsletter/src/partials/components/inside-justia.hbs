@@ -1,18 +1,25 @@
 
 <!-- INSIDE JUSTIA -->
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image inside-justia set-max-width">
+<!-- w-text-image w-inside-justia -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-inside-justia set-max-width">
     <tr>
+        <!-- item-list -->
         <td class="item-list" responsive="mobile-padding-horizontal-sides">
+            <!-- item-1 -->
             <table cellpadding="0" cellspacing="0" border="0" class="item-1">
                 <tr>
+                    <!-- item-desc -->
                     <td class="item-desc" responsive="collapse-one">
-                        <h4 class="widget-type-name">Inside Justia</h4>
-                        <h2 class="widget-main-title">[inside-justia-title]</h2>
-                        <p>[inside-justia-description]</p>
+                        <!-- widget-type-name -->
+                        <h4 class="widget-type-name">INSIDE JUSTIA</h4>
+                        <!-- widget-main-title -->
+                        <h2 class="widget-main-title">{{{ inside_justia.title }}}</h2>
+                        <p>{{{ inside_justia.description }}}</p>
                     </td>
-                    <td class="item-image align-right" responsive="mobile-hide collapse-one">
-                        <img src="{{default.image_dir_src}}/inside-justia-01.jpg" alt="[inside-justia-title]" border="0" />
+                    <!-- item-image -->
+                    <td class="item-image" responsive="mobile-hide collapse-one">
+                        <img src="{{ default.image_dir_src }}/inside-justia-01.jpg" alt="{{{ inside_justia.title }}}" border="0" />
                     </td>
                 </tr>
             </table>
