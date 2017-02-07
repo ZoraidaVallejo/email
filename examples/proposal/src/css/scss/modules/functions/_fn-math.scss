@@ -55,3 +55,15 @@
     @return floor(($base-width + $element-gap) / ($element-width + $element-gap));
 }
 
+/// Returns the difference between two defined values.
+///
+/// @name get-difference
+///
+/// @param {number | any} $width1 - Any type of number.
+/// @param {number | any} $width2 - Any type of number.
+/// @return {number} - Difference.
+///
+@function get-difference($width1, $width2) {
+
+    @return abs($width2 - $width1);
+}
