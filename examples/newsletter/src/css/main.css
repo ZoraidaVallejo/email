@@ -33,6 +33,7 @@ a {
 .set-max-width {
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 body {
@@ -95,7 +96,6 @@ body {
 }
 
 .main-header-v1 .logo-date {
-  width: auto;
   padding: 15px 30px;
   vertical-align: middle;
 }
@@ -493,7 +493,7 @@ body {
 
 .columns-grid .grid-column {
   display: inline-block;
-  width: 100%;
+  width: 300px;
   max-width: 300px;
   vertical-align: top;
 }
@@ -939,6 +939,10 @@ body {
   max-width: 100%;
 }
 
+.w-advertisement td {
+  text-align: center;
+}
+
 .w-jld-ad-01 {
   background-color: #bdbdbd;
 }
@@ -1055,6 +1059,7 @@ body {
 }
 
 .w-law-events .grid-column {
+  width: 270px;
   max-width: 270px;
 }
 
@@ -1092,6 +1097,18 @@ body {
   text-align: left;
 }
 
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
 .last {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1107,7 +1124,6 @@ body {
 
 .no-margin {
   margin: 0;
-  Margin: 0;
 }
 
 .jld-newsletter .w-featured-news,

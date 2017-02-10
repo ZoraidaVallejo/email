@@ -13,14 +13,14 @@ module.exports = function() {
         return output;
     };
 
-    let allTemplates = [{
+    var allTemplates = [{
         expand: true,
         flatten: true,
         src: ['<%= paths.dist %>/*.html'],
         dest: '<%= paths.dist %>'
     }];
 
-    let cssClasses = [
+    var cssClasses = [
         'collapse-one',
         'mobile-reset-width',
         'mobile-reset-height',
@@ -45,7 +45,32 @@ module.exports = function() {
         'mobile-no-border'
     ];
 
-    let classesToReplace = [];
+    var htmlOptim = {
+        'td': [
+            'width',
+            'height',
+            'text-align',
+            'vertical-align',
+            'background-color'
+        ],
+        'table': [
+            'width',
+            'background-color'
+        ],
+        'img': [
+            'width',
+            'height'
+        ]
+    };
+
+    // Regex to match styles applied to specific tags
+    // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
+    // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
+    // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
+    let rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
+
+    // Set configuration to shorten classes
+    var classesToReplace = [];
 
     for (let i = 0; i < cssClasses.length; i++) {
         classesToReplace.push({
@@ -54,23 +79,35 @@ module.exports = function() {
         });
     }
 
+    // Set configuration to remove duplicated styles
+    var styleToRemove = [];
+
+    for (let element in htmlOptim) {
+
+        for (let cssStyle of htmlOptim[element]) {
+            let htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+
+            styleToRemove.push({
+                match: new RegExp(htmlRegex, 'g'),
+                replacement: '$1'
+            });
+        }
+    }
+
     return {
 
         src_images: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
-                        replacement: '$1../<%= paths.dist_img %>/'
-                    },
-                    {
-                        // Matches url('../src/img') or url(../src/img) and even url("../src/img")
-                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
-                        replacement: '$1../<%= paths.dist_img %>/'
-                    }
-                ]
+                patterns: [{
+                    // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                    match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
+                    replacement: '$1../<%= paths.dist_img %>/'
+                }, {
+                    // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                    match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
+                    replacement: '$1../<%= paths.dist_img %>/'
+                }]
             },
             files: allTemplates
         },
@@ -79,12 +116,10 @@ module.exports = function() {
         important_style: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
-                        replacement: '$1'
-                    }
-                ]
+                patterns: [{
+                    match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
+                    replacement: '$1'
+                }]
             },
             files: allTemplates
         },
@@ -97,15 +132,22 @@ module.exports = function() {
             files: allTemplates
         },
 
+        remove_dup_styles: {
+            options: {
+                usePrefix: false,
+                patterns: styleToRemove,
+                preserveOrder: true
+            },
+            files: allTemplates
+        },
+
         remove_classes: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
-                        replacement: ''
-                    }
-                ]
+                patterns: [{
+                    match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+                    replacement: ''
+                }]
             },
             files: allTemplates
         },
@@ -113,16 +155,13 @@ module.exports = function() {
         fix_responsive: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /\s(?:responsive|id)=/g,
-                        replacement: ' class='
-                    },
-                    {
-                        match: /\s(?:responsive|id)=""/g,
-                        replacement: ''
-                    }
-                ]
+                patterns: [{
+                    match: /\s(?:responsive|id)=/g,
+                    replacement: ' class='
+                }, {
+                    match: /\s(?:responsive|id)=""/g,
+                    replacement: ''
+                }]
             },
             files: allTemplates
         },
@@ -130,16 +169,13 @@ module.exports = function() {
         live_images: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/'
-                    },
-                    {
-                        match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/'
-                    }
-                ]
+                patterns: [{
+                    match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
+                    replacement: '$1<%= paths.live_img %>/'
+                }, {
+                    match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
+                    replacement: '$1<%= paths.live_img %>/'
+                }]
             },
             files: allTemplates
         }
