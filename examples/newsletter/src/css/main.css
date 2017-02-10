@@ -33,6 +33,7 @@ a {
 .set-max-width {
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 body {
@@ -1055,7 +1056,7 @@ body {
 }
 
 .w-law-events .grid-column {
-  max-width: 270px;
+  max-width: 269px;
 }
 
 .w-law-events .grid-cell {
@@ -1092,6 +1093,18 @@ body {
   text-align: left;
 }
 
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
 .last {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1107,7 +1120,6 @@ body {
 
 .no-margin {
   margin: 0;
-  Margin: 0;
 }
 
 .jld-newsletter .w-featured-news,
