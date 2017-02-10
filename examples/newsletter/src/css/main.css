@@ -96,7 +96,6 @@ body {
 }
 
 .main-header-v1 .logo-date {
-  width: auto;
   padding: 15px 30px;
   vertical-align: middle;
 }
@@ -938,6 +937,10 @@ body {
   display: block;
   width: 600px;
   max-width: 100%;
+}
+
+.w-advertisement td {
+  text-align: center;
 }
 
 .w-jld-ad-01 {

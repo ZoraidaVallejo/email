@@ -47,14 +47,27 @@ module.exports = function() {
 
     var htmlOptim = {
         'td': [
-            'vertical-align',
+            'width',
+            'height',
             'text-align',
+            'vertical-align',
             'background-color'
         ],
         'table': [
+            'width',
             'background-color'
+        ],
+        'img': [
+            'width',
+            'height'
         ]
     };
+
+    // Regex to match styles applied to specific tags
+    // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
+    // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
+    // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
+    let rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
 
     // Set configuration to shorten classes
     var classesToReplace = [];
@@ -72,8 +85,10 @@ module.exports = function() {
     for (let element in htmlOptim) {
 
         for (let cssStyle of htmlOptim[element]) {
+            let htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+
             styleToRemove.push({
-                match: new RegExp('(<' + element + '[^>]+?)(' + cssStyle + '[ ]*:[ ]*[^;]+;)', 'g'),
+                match: new RegExp(htmlRegex, 'g'),
                 replacement: '$1'
             });
         }
@@ -120,7 +135,8 @@ module.exports = function() {
         remove_dup_styles: {
             options: {
                 usePrefix: false,
-                patterns: styleToRemove
+                patterns: styleToRemove,
+                preserveOrder: true
             },
             files: allTemplates
         },
