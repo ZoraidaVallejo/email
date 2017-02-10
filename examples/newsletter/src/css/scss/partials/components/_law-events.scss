@@ -31,6 +31,7 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
     }
 
     .grid-column {
+        width: ($inner-max-width / 2);
         max-width: ($inner-max-width / 2);
     }
 

@@ -14,7 +14,7 @@
 
     .grid-column {
         display: inline-block;
-        width: 100%;
+        width: ($max-width / 2);
         max-width: ($max-width / 2);
         vertical-align: top;
     }

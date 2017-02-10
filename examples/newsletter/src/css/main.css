@@ -494,7 +494,7 @@ body {
 
 .columns-grid .grid-column {
   display: inline-block;
-  width: 100%;
+  width: 300px;
   max-width: 300px;
   vertical-align: top;
 }
@@ -1056,7 +1056,8 @@ body {
 }
 
 .w-law-events .grid-column {
-  max-width: 269px;
+  width: 270px;
+  max-width: 270px;
 }
 
 .w-law-events .grid-cell {
