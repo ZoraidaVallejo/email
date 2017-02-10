@@ -1,3 +1,52 @@
+## Version 1.6.0 (2017-02-06)
+- [[`8b5ca85`](https://github.com/justia/mail-template-builder/commit/8b5ca85dcd67d8e95fcfd4a2dabbbcbb3efc4e1a)] - Merge pull request #16 from justia/diego-updates
+- [[`0d7dabb`](https://github.com/justia/mail-template-builder/commit/0d7dabba73972586958f9d5018b92fa5f5cc6403)] - :memo: Documentation updates.
+- [[`97b6b88`](https://github.com/justia/mail-template-builder/commit/97b6b883df7fb658189bdd2712b491df5e3b5aff)] - :memo: Documentation updates.
+- [[`79d2c2f`](https://github.com/justia/mail-template-builder/commit/79d2c2fa653bf877adcebd345209ad68120f3596)] - Revert ":memo: Documentation test."
+- [[`b83f3ef`](https://github.com/justia/mail-template-builder/commit/b83f3ef6a7008f8c1bbc772921e6941d79139e35)] - :memo: Documentation test.
+- [[`a427960`](https://github.com/justia/mail-template-builder/commit/a427960e9adfd6e93fcdae33a2db633d3a022583)] - :bug: Fixes to proposal starter.
+- [[`f248395`](https://github.com/justia/mail-template-builder/commit/f24839544f7222605160b3928d6f06b940517c58)] - :floppy_disk: Log proposal starter.
+- [[`0785306`](https://github.com/justia/mail-template-builder/commit/0785306d612d4b1198d1e8e81daef5653572a085)] - :bug: Add missing files to Blast folder.
+- [[`09dbd70`](https://github.com/justia/mail-template-builder/commit/09dbd7003cb4f102f863613783bff353d4fea772)] - :floppy_disk: Move to examples folder.
+- [[`2f74479`](https://github.com/justia/mail-template-builder/commit/2f7447911578a7ebb22d8e9a9bdcd19296cf3a7b)] - Several changes: - :memo: Add filler text to block. - :bug: Fixes to blast starter. - :boom: Add missing json files.
+- [[`2bafee7`](https://github.com/justia/mail-template-builder/commit/2bafee798a22b1fb3d680ef60a30d8e3a9156854)] - :bug: Fix compatibility issues.
+- [[`bab1b30`](https://github.com/justia/mail-template-builder/commit/bab1b3051c439998aa9b8a17958c7e0251e549ca)] - :fire: Update grunt plugins.
+- [[`063ec20`](https://github.com/justia/mail-template-builder/commit/063ec203507a248209c8fabea3c06a207733d685)] - :zap: New handlebar function to get month and update packages. :floppy_disk: Change to default all files.
+- [[`81888b4`](https://github.com/justia/mail-template-builder/commit/81888b449b499096cea205e7869562019f0c1e59)] - :bug: QA Fixes.
+- [[`5006ed8`](https://github.com/justia/mail-template-builder/commit/5006ed88c0d708d42eb0ee4a7b2147b6c6b3a93b)] - :memo: QA fixes.
+- [[`2f0efe8`](https://github.com/justia/mail-template-builder/commit/2f0efe85a35c84bdddd20ada6599d94bc4e268c5)] - :memo::bug: QA Fixes. :cyclone: Rename files
+- [[`8ca5b55`](https://github.com/justia/mail-template-builder/commit/8ca5b55b61d5ace1ae11cfe3e111ab320f1e4a66)] - :memo: Fixes to annotator file. Reformatting.
+- [[`26fed41`](https://github.com/justia/mail-template-builder/commit/26fed4132e7da5baf807c149112b478af6c6c707)] - :memo: Annotator info: :bug: Fixes to amp ad.
+- [[`3bf9925`](https://github.com/justia/mail-template-builder/commit/3bf992515c18d4ae4cd5ca571c78857399859a8d)] - :memo: Leaderboard content.
+- [[`ad8321d`](https://github.com/justia/mail-template-builder/commit/ad8321dd756fcd79ecb295c1b7c185bb35006204)] - :memo: Add missing event.
+- [[`59e1b37`](https://github.com/justia/mail-template-builder/commit/59e1b37fd6d1ac4e2a54530355bfcb129dd1a2a2)] - :star::memo: More content and successfuly implementation of law events.
+- [[`fd80f2f`](https://github.com/justia/mail-template-builder/commit/fd80f2f21588a97a33b20ab3a2177b1350319cb0)] - :memo: Add info.
+- [[`ba6456f`](https://github.com/justia/mail-template-builder/commit/ba6456fe85f0ae62fd078b9a1ed230ce5f0b6b46)] - :metal: Automatically set date.
+- [[`cbdc9d5`](https://github.com/justia/mail-template-builder/commit/cbdc9d523905c3ecc715056ffa56a5ca12fd2933)] - :clap: Successfully change the custom-config to json.
+- [[`3695d33`](https://github.com/justia/mail-template-builder/commit/3695d33f2b0adb44417569661f554697d9e3c1e8)] - :flashlight: Testing custom-config.json format.
+- [[`0f972ec`](https://github.com/justia/mail-template-builder/commit/0f972ec63dc15724fec7b09d692adf09c9f9aa0e)] - :muscle: Enhance, optimize and automate the blocks creation by using json files.
+- [[`88ecb22`](https://github.com/justia/mail-template-builder/commit/88ecb2290c526a1fbb3331dfc033f18b7b646bb8)] - :thumbsup: More normalization to example files.
+- [[`1f99c4e`](https://github.com/justia/mail-template-builder/commit/1f99c4e7b0cda9a3e314e16d3837038204a3e89a)] - :thumbsup: Normalize example files.
+- [[`556598d`](https://github.com/justia/mail-template-builder/commit/556598deb60672c394b2c3a58f16092d968a1b20)] - :floppy_disk: Update example folder.
+- [[`abf6087`](https://github.com/justia/mail-template-builder/commit/abf608707c12b6543c1c8e35885851dedcf89d65)] - :fire: New buttons and change the bg color of welcome image.
+- [[`4eccae9`](https://github.com/justia/mail-template-builder/commit/4eccae94ef2d3f1ff1ce5a51c6518c47929ce42a)] - Several changes: - :star: Implement SassLint. - :star2: Add new colors. - :thumbsup: Change JurisPro block to default values.
+- [[`7b22845`](https://github.com/justia/mail-template-builder/commit/7b228457d26df13097c09846416f51dfa823cb18)] - :floppy_disk: Restore grunt-parallel dependency.
+- [[`3b26ab5`](https://github.com/justia/mail-template-builder/commit/3b26ab57a1c259120ed101e2711fc1441576cc61)] - :scissors: Remove dependencies.
+- [[`0463a97`](https://github.com/justia/mail-template-builder/commit/0463a9750adb7bbe89a16530730a4c2b1f1f407d)] - Checking dependencies.
+- [[`1102cbe`](https://github.com/justia/mail-template-builder/commit/1102cbe5b6b2d0bd5b4e50c8e16f7d484c99dbb4)] - :hammer: JurisPro block changes.
+- [[`2d14688`](https://github.com/justia/mail-template-builder/commit/2d14688de782a121f893d03909128e7f786eb4a3)] - :star: New JurisPro block.
+- [[`ea59a2c`](https://github.com/justia/mail-template-builder/commit/ea59a2c4276e864c2127100372b414c55de5369f)] - :zap: HTML and CSS optimization.
+- [[`644ec00`](https://github.com/justia/mail-template-builder/commit/644ec00cd639b54321afb3cca3cbf0709fa2246e)] - Several things: - :star: New blocks: Ask a Lawyer Leaderboard and Featured Annotator. - :bug: Fixes to keep consistency. - :zap: CSS and HTML optimization.
+- [[`4bd6907`](https://github.com/justia/mail-template-builder/commit/4bd6907317598c884a0c2d9c23191fb6d5744f80)] - :star: New modules.
+- [[`85c6570`](https://github.com/justia/mail-template-builder/commit/85c6570af3870b2d6a0dea87c25e3c83719a3fe9)] - :memo: Prepering to new module.
+- [[`034a853`](https://github.com/justia/mail-template-builder/commit/034a85349aa39fc568feadf46f7611cbbcb8248a)] - Merge branch 'develop' into diego-newsl
+- [[`a38ccca`](https://github.com/justia/mail-template-builder/commit/a38ccca13cd8b2af7ab288b49e7026b134e58e86)] - :x: Prepering to merge.
+- [[`144409d`](https://github.com/justia/mail-template-builder/commit/144409dcc11637afc4e6ee481d2959c0aa8d8d5b)] - :thumbsup: Optimization of the replacement of classes task.
+- [[`438ab67`](https://github.com/justia/mail-template-builder/commit/438ab67a35287e714eeea70b85f71ad5b5e1a43f)] - :memo: Include images new blocks.
+- [[`04932b9`](https://github.com/justia/mail-template-builder/commit/04932b9cd4dcc209210f1bf2ff0f0c33872b22db)] - :memo: Conversion of Leaderboard and Annotator blocks.
+- [[`e9b79c9`](https://github.com/justia/mail-template-builder/commit/e9b79c9a5a7a1528fa85bda96ad1a5ee802b1531)] - :star: Annotators and leaderboards tests.
+- [[`de29a94`](https://github.com/justia/mail-template-builder/commit/de29a94e22715e4c7dfcdfb8fdceeafc70d6ecc4)] - Merge branch 'develop' into diego-newsl
+
 ## Version 1.5.1 (2017-01-26)
 - [[`eb8ce54`](https://github.com/justia/mail-template-builder/commit/eb8ce54aed71121ada135a42745bf9b388d474b7)] - Merge branch 'develop' of github.com:justia/mail-template-builder into develop
 - [[`a69954e`](https://github.com/justia/mail-template-builder/commit/a69954ea2df954eb31eda747b471ef9bba008e80)] - Merge pull request #13 from justia/diego-proposal

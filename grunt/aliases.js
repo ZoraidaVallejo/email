@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (grunt, options) {
+module.exports = function(grunt, options) {
 
     // BLAST configuration
     let buildAlias = [
@@ -9,7 +9,7 @@ module.exports = function (grunt, options) {
     ];
 
     // Newsletter configuration overwrite
-    if(options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
+    if (options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
             'htmlmin:live'
@@ -28,7 +28,8 @@ module.exports = function (grunt, options) {
             'replace:important_style',
             'replace:remove_classes',
             'replace:fix_responsive',
-            'replace:src_images'
+            'replace:src_images',
+            'replace:remove_dup_styles'
         ],
 
         'blast': [
@@ -72,6 +73,10 @@ module.exports = function (grunt, options) {
 
         'zip': [
             'compress'
+        ],
+
+        'test': [
+            'sass'
         ]
     };
 };

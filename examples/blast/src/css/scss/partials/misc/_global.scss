@@ -16,6 +16,22 @@ table {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
+
+    td {
+        text-align: left;
+    }
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    // font: $font-weight--normal 16px/22px $sans-serif-font-family;
+    font: 16px/1.5 $sans-serif-font-family;
 }
 
 a {
@@ -31,6 +47,7 @@ img {
 .set-max-width {
     width: 100%;
     max-width: $max-width;
+    margin: 0 auto;
 }
 
 .contactus {

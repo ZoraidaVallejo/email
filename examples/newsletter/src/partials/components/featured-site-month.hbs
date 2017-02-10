@@ -1,0 +1,33 @@
+
+<!-- FEATURED SITE OF THE MONTH -->
+
+<!-- w-feaured-site-month -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-feaured-site-month set-max-width">
+    <tr>
+        <!-- featured-site-title -->
+        <td class="featured-site-title" responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title -->
+            <h2 class="widget-main-title">Featured Site of the Month</h2>
+        </td>
+    </tr>
+    <tr>
+        <!-- featured-client -->
+        <td class="featured-client" responsive="mobile-padding-horizontal-sides">
+            <!-- client-url -->
+            <p><a href="{{ featured_site_month.domain.long }}" target="_blank" class="client-url">{{{ featured_site_month.client_name }}}</a></p>
+        </td>
+    </tr>
+    <tr>
+        <!-- featured-desc -->
+        <td class="featured-desc" responsive="mobile-padding-horizontal-sides">
+            <p>in {{ featured_site_month.location }}&nbsp;<br responsive="mobile-hide"> just recently launched their Justia website:</p>
+            <p><a href="{{ featured_site_month.domain.long }}" target="_blank">{{ featured_site_month.domain.simple }}</a></p>
+        </td>
+    </tr>
+    <tr>
+        <!-- featured-img -->
+        <td class="featured-img" responsive="mobile-padding-horizontal-sides">
+            <a href="{{ featured_site_month.domain.long }}" target="_blank"><img src="{{ default.image_dir_src }}/featured-site-01.jpg" alt="{{ featured_site_month.client_name }}" border="0" /></a>
+        </td>
+    </tr>
+</table>
