@@ -26,6 +26,8 @@
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
 - [Resources](#resources)
+    - [Recipients for testing](#recipients-for-testing)
+    - [Useful links](#useful-links)
 
 
 ## Requirements
@@ -338,6 +340,20 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 
 
 ## Resources
+
+### Recipients for testing
+
+Use the following accounts to test desktop and web-based email clients:
+
+Client | Account | Description
+------ | ------- | -----------
+Gmail | Use the Justia account for this one. | [More info](#add-another-email-account) about how to register a new mail account in Mailgun.
+Outlook.com | diego.miguel.tester@outlook.com | **Password:** *diet32coke*
+Yahoo! | jmailtester@yahoo.com | **Password:** *diet32coke*
+AOL | jmailtester@aol.com | **Password:** *diet32coke* <br> **Security question:** <br> *What was the name of your first pet? → puppy*
+Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. <br>Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
+
+### Useful links
 
 - http://www.leemunroe.com/responsive-email-design/ (Really good)
 - https://css-tricks.com/override-gmail-mobile-optimized-email/ (Check this post when the template is not responsive)
