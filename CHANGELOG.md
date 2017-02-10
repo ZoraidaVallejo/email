@@ -1,3 +1,16 @@
+## Version 1.6.1 (2017-02-10)
+- [[`22f2bea`](https://github.com/justia/mail-template-builder/commit/22f2beadb67b90c9269374711df3187a1a9333ae)] - Merge pull request #19 from justia/diego-newsl
+- [[`8cb2882`](https://github.com/justia/mail-template-builder/commit/8cb28822ab9ee5e1b47741b779ad309480c1754a)] - :x: Remove unnecessary files from root.
+- [[`bbfcdce`](https://github.com/justia/mail-template-builder/commit/bbfcdceb525dfb843c6688e59544644d364ebbb0)] - :cyclone: Solve merge issues.
+- [[`772e7e6`](https://github.com/justia/mail-template-builder/commit/772e7e6e640077114d0e81828cb00fc6991eee83)] - Merge pull request #18 from justia/diego-updates
+- [[`f48b07b`](https://github.com/justia/mail-template-builder/commit/f48b07b993fc2d5af68127cde785502a8bfadaaf)] - :star: HTML optimization successful. :bug: Fix outlook bugs.
+- [[`5fb2a20`](https://github.com/justia/mail-template-builder/commit/5fb2a2044efb26f9a5e0133adf27d5b582247586)] - :star: Optimize HTML by removing duplicated styles.
+- [[`5a6136b`](https://github.com/justia/mail-template-builder/commit/5a6136b1aee9d33bfb295a92e4deed019bb954c3)] - :bug: Fix column bug in outlook app. :floppy_disk: Add fixes to blast and proposal examples.
+- [[`3755f94`](https://github.com/justia/mail-template-builder/commit/3755f940ca7e853a42861f1b77fc134d13cd21c7)] - :bug: Test fixes.
+- [[`5ee873f`](https://github.com/justia/mail-template-builder/commit/5ee873f042d4611ad5c07e4e64efed60c0cc46fe)] - Merge branch 'develop' into diego-updates
+- [[`9420259`](https://github.com/justia/mail-template-builder/commit/94202593df7b676d1a17532511cc4ace9e5264d0)] - Update README.md
+- [[`e0f802c`](https://github.com/justia/mail-template-builder/commit/e0f802cd44218f859485a4aeedcf52f8ac49d7cd)] - :bug: Fix to Premium placement ad url.
+
 ## Version 1.6.0 (2017-02-06)
 - [[`8b5ca85`](https://github.com/justia/mail-template-builder/commit/8b5ca85dcd67d8e95fcfd4a2dabbbcbb3efc4e1a)] - Merge pull request #16 from justia/diego-updates
 - [[`0d7dabb`](https://github.com/justia/mail-template-builder/commit/0d7dabba73972586958f9d5018b92fa5f5cc6403)] - :memo: Documentation updates.
