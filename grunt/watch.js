@@ -23,7 +23,7 @@ module.exports = function(grunt, options) {
                 livereload: true
             }
         },
-    
+
         preview: {
             files: ['<%= paths.preview %>/scss/**/*'],
             tasks: ['sass:preview', 'autoprefixer:preview'],

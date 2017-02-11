@@ -3,16 +3,34 @@
 // O T H E R   S T Y L E S   T H A T   M I G H T   B E   U S E F U L
 // ----------------------------------------------------------------------------------------------------------
 
-.align-center {
-    text-align: center;
+.align {
+
+    &-center {
+        text-align: center;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-left {
+        text-align: left;
+    }
 }
 
-.align-right {
-    text-align: right;
-}
+.valign {
 
-.align-left {
-    text-align: left;
+    &-top {
+        vertical-align: top;
+    }
+
+    &-middle {
+        vertical-align: middle;
+    }
+
+    &-bottom {
+        vertical-align: bottom;
+    }
 }
 
 .last {
