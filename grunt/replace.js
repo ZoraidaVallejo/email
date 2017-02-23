@@ -27,6 +27,7 @@ module.exports = function() {
         'mobile-reset-bg-image',
         'mobile-hide',
         'mobile-align-center',
+        'mobile-fz-16',
         'mobile-fz-20',
         'mobile-padding-top',
         'mobile-padding-right',

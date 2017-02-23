@@ -11,7 +11,7 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
     <tr>
         <!-- align-center valign-top -->
         <td height="100%" width="100%" class="align-center valign-top">
-            {{> headerV1 }}
+            {{> headerV3 }}
         </td>
     </tr>
 
@@ -27,10 +27,10 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
                 {{!-- WELCOME MESSAGE --}}
                 {{> welcome clientsNewsletter=true }}
 
-            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
+            {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
-                {{!-- {{> featured-news }} --}}
+                {{> advertisement }}
 
             {{> layoutHack tableEnd=true }}
 
