@@ -1,0 +1,56 @@
+
+<!-- LAW EVENTS -->
+
+<!-- w-law-events columns-grid -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-law-events columns-grid set-max-width">
+    <tr>
+        <!-- law-events-title align-center -->
+        <td class="law-events-title align-center" responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title -->
+            <h2 class="widget-main-title">Law Events</h2>
+        </td>
+    </tr>
+
+    {{!-- OPEN --}}
+    <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+
+    {{#forEach law_events.events }}
+
+        {{#unless isFirst }}{{#ifOdd index }}
+            {{!-- OPEN UNLESS FIRST --}}
+            <tr>{{> columnsGrid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+        {{/ifOdd}}{{/unless}}
+
+        {{!-- CONTENT --}}
+        <tr>
+            <td>
+                <!-- date -->
+                <p class="date">{{{ this.date_time }}}</p>
+                <!-- desc -->
+                <p class="desc"><strong>{{{ this.type_location }}}</strong><br> {{{ this.description }}}</p>
+            </td>
+        </tr>
+        <tr>
+            <!-- button -->
+            <td class="button">{{> button moreWhite=true buttonLink=this.link }}</td>
+        </tr>
+
+        {{#ifOdd index }}
+            {{!-- MIDDLE DIVIDER --}}
+            {{> columnsGrid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-2" }}
+
+            {{#if isLast }}{{#ifOdd isLast }}
+            {{!-- EMPTY --}}
+            <tr><td>&nbsp;</td></tr>
+            {{/ifOdd}}{{/if}}
+        {{/ifOdd}}
+
+        {{#ifEven index }}
+            {{!-- CLOSE --}}
+            {{> columnsGrid columnEnd=true }}</tr>
+        {{/ifEven}}
+    {{/forEach}}
+
+    {{!-- CLOSE LAST --}}
+    {{> columnsGrid columnEnd=true }}</tr>
+</table>
