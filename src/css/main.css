@@ -403,10 +403,6 @@ body {
 }
 
 .w-verdict .widget-content > td {
-  padding: 0 30px 16px;
-}
-
-.w-verdict .widget-content:last-child > td {
   padding: 0 30px 35px;
 }
 
@@ -423,8 +419,8 @@ body {
   font: 14px/1.38 Arial, sans-serif;
 }
 
-.w-verdict .post .-image {
-  padding: 10px 0 20px;
+.w-verdict .post .-image td {
+  padding: 15px 0 20px;
 }
 
 .w-verdict .post .-image img {
@@ -432,6 +428,22 @@ body {
   width: 540px;
   max-width: 100%;
   margin: 0;
+}
+
+.w-verdict .post .-more + .-title td {
+  padding: 30px 0 0;
+}
+
+.w-verdict .post .-more td {
+  padding: 15px 0 30px;
+}
+
+.w-verdict .post .-more:not(.last-post) td {
+  border-bottom: 1px solid #dddddd;
+}
+
+.w-verdict .post .last-post.-more td {
+  padding: 15px 0 0;
 }
 
 .w-advertisement a {

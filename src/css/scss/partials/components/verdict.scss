@@ -1,4 +1,4 @@
-
+   
 // ----------------------------------------------------------------------------------------------------------
 // T A B L E   O F   C O N T E N T S
 // ----------------------------------------------------------------------------------------------------------
@@ -8,37 +8,61 @@
     .widget-content {
 
         > td {
-            padding: 0 $padding 16px;
-        }
-
-        &:last-child {
-
-            >td {
-                padding: 0 $padding 35px;
-            }
+            padding: 0 $padding 35px;
         }
     }
 
     .post {
         table-layout: fixed;
 
-        .-title p {
-            color: plt('primary');
+        .-title {
+
+            p {
+                color: plt('primary');
+            }
         }
 
-        .-author p {
-            color: plt('primary');
-            font: 14px/1.38 $sans-serif-font-family;
+        .-author {
+
+            p {
+                color: plt('primary');
+                font: 14px/1.38 $sans-serif-font-family;
+            }
         }
 
         .-image {
-            padding: 10px 0 20px;
+            
+            td {
+                padding: 15px 0 20px;
+            }
 
             img {
                 display: block;
                 width: 540px;
                 max-width: 100%;
                 margin: 0;
+            }
+        }
+
+        .-more {
+
+            + .-title td {
+                padding: $padding 0 0;
+            }
+
+            td {
+                padding: 15px 0 $padding;
+            }
+
+            &:not(.last-post) td {
+                border-bottom: 1px solid plt('alto');
+            }
+        }
+
+        .last-post {
+
+            &.-more td {
+                padding: 15px 0 0;
             }
         }
     }

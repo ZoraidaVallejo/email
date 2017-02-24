@@ -1,7 +1,7 @@
 
 <!-- TABLE OF CONTENT -->
 
-<!-- w-stories-list -->
+<!-- widget w-table-contents -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-table-contents set-max-width">
     <tr>
         <!-- widget-title-block -->
@@ -14,9 +14,12 @@
     </tr>
     {{!--  --}}
     {{#forEach table_contents.list }}
+    <!-- widget-content -->
     <tr class="widget-content">
-        <td>
+        <td responsive="mobile-padding-horizontal-sides">
+        <!-- content-link -->
             <p class="content-link"><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
+            <!-- content-link-desc -->
             <p class="content-link-desc">{{{ this.description }}}</p>
         </td>
     </tr>
