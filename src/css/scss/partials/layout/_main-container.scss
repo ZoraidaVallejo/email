@@ -41,17 +41,25 @@ body {
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
+    border-bottom: 1px solid plt('alto');
+    background-color: plt('white');
 
-    &-type-name {
-        padding: 0 0 5px;
-        color: plt('sirocco');
-        // font: $font-weight--bold 14px/14px $sans-serif-font-family;
-        font: $font-weight--bold 14px/1.1 $sans-serif-font-family;
+    .widget-title-block {
+        padding: 40px $padding 10px;
+
+        &.no-padding-top {
+            padding: 0 $padding 10px;
+        }
     }
 
     &-main-title {
         color: plt('black');
-        // font: $font-weight--normal 29px/37px $sans-serif-font-family;
-        font: $font-weight--normal 29px/1.27 $sans-serif-font-family;
+        font: $font-weight--bold 20px/1.2 $sans-serif-font-family;
+    }
+
+    &-type-name {
+        padding: 2px 0 10px;
+        color: plt('black');
+        font: 16px/1.2 $sans-serif-font-family;
     }
 }

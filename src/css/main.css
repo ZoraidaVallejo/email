@@ -28,6 +28,7 @@ p {
 
 a {
   color: #06357a;
+  text-decoration: none;
 }
 
 .set-max-width {
@@ -68,15 +69,28 @@ body {
   font-size: 0 !important;
 }
 
-.widget-type-name {
-  padding: 0 0 5px;
-  color: #7b7d7d;
-  font: 700 14px/1.1 Arial, sans-serif;
+.widget {
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.widget .widget-title-block {
+  padding: 40px 30px 10px;
+}
+
+.widget .widget-title-block.no-padding-top {
+  padding: 0 30px 10px;
 }
 
 .widget-main-title {
   color: #000000;
-  font: 400 29px/1.27 Arial, sans-serif;
+  font: 700 20px/1.2 Arial, sans-serif;
+}
+
+.widget-type-name {
+  padding: 2px 0 10px;
+  color: #000000;
+  font: 16px/1.2 Arial, sans-serif;
 }
 
 .main-header-v3 {
@@ -86,7 +100,7 @@ body {
 
 .main-header-v3 .view-in-browser {
   padding: 20px 30px 15px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid #dddddd;
   background-color: #f3f3f3;
 }
 
@@ -374,6 +388,18 @@ body {
 
 .columns-grid .grid-cell {
   width: 300px;
+}
+
+.w-table-contents .widget-content > td {
+  padding: 0 30px 16px;
+}
+
+.w-table-contents .widget-content:last-child > td {
+  padding: 0 30px 35px;
+}
+
+.w-table-contents .content-link-desc {
+  font: 13px/1.2 Arial, sans-serif;
 }
 
 .w-advertisement a {

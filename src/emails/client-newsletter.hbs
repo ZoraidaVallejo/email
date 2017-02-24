@@ -24,7 +24,15 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
 
             {{> layoutHack tableStart=true }}
 
-            {{!-- {{> layoutHack tableMiddleSeparator=true }} --}}
+                {{!-- TABLE OF CONTENT --}}
+                {{> table-contents }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- TODAY ON VERDICT --}}
+                {{> verdict }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
                 {{> advertisement }}
