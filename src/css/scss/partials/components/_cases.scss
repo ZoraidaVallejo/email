@@ -1,0 +1,70 @@
+   
+// ----------------------------------------------------------------------------------------------------------
+// T A B L E   O F   C O N T E N T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-cases {
+
+    .widget-content {
+
+        > td {
+            padding: 0 $padding 35px;
+        }
+    }
+
+    .cases {
+        table-layout: fixed;
+
+        .-info {
+
+            p {
+                font: 14px/1.5 $sans-serif-font-family;
+            }
+        }
+
+        .-desc {
+
+            td {
+                padding: 15px 0;
+            }
+        }
+
+        .-more-info {
+
+            + .-title td {
+                padding: $padding 0 0;
+            }
+
+            td {
+                vertical-align: top;
+
+                table {
+                    table-layout: fixed;
+
+                    td {
+
+                        &:first-child {
+                            width: 110px;
+                            padding: 0 0 $padding;
+                        }
+
+                        &:last-child {
+                            padding: 0 0 $padding 10px;
+                        }
+                    }
+                }
+            }
+
+            &:not(.last-case) > td {
+                border-bottom: 1px solid plt('alto');
+            }
+        }
+
+        .last-case {
+
+            &.-more-info td {
+                padding: 0;
+            }
+        }
+    }
+}

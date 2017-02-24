@@ -1,0 +1,63 @@
+
+<!-- TODAY ON VERDICT -->
+
+<!-- w-stories-list -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-cases set-max-width">
+    <tr>
+        <!-- widget-title-block -->
+        <td class="widget-title-block" responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title -->
+            <h2 class="widget-main-title">U.S. Court of Appeals for the Ninth Circuit Opinions</h2>
+            {{!-- <!-- widget-type-name -->
+            <h4 class="widget-type-name">Legal Analysis and Commentary</h4> --}}
+        </td>
+    </tr>
+    <!-- widget-content -->
+    <tr class="widget-content">
+        <td responsive="mobile-padding-horizontal-sides">
+        <!-- post -->
+            <table align="left" border="0" cellpadding="0" cellspacing="0" class="cases">
+                {{#forEach cases.list }}
+                <!-- block {{ index }} -->
+                <!-- -title {{#if isLast}}last-case{{/if}} -->
+                <tr class="-title {{#if isLast}}last-case{{/if}}">
+                    <td>
+                        <p><strong>{{{ this.title }}}</strong></p>
+                    </td>
+                </tr>
+                <!-- -info {{#if isLast}}last-case{{/if}} -->
+                <tr class="-info {{#if isLast}}last-case{{/if}}">
+                    <td>
+                        <p><b>Docket:</b> {{{ this.docket }}}</p>
+                        <p><b>Opinion Date:</b> {{{ this.opinion_date }}}</p>
+                        <p><b>Areas of Law:</b> {{{ this.areas_of_law }}}</p>
+                    </td>
+                </tr>
+                <!-- -desc {{#if isLast}}last-case{{/if}} -->
+                <tr class="-desc {{#if isLast}}last-case{{/if}}">
+                    <td>
+                        {{{ this.description }}}
+                    </td>
+                </tr>
+                <!-- -more-info {{#if isLast}}last-case{{/if}} -->
+                <tr class="-more-info {{#if isLast}}last-case{{/if}}">
+                    <td>
+                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><strong><a href="{{ this.more }}" target="_blank">Read Opinion</a></strong></p>
+                                </td>
+                                <!-- align-right -->
+                                <td class="align-right">
+                                    <p>Are you a lawyer? <strong><a href="{{ this.id }}" target="_blank">Annotate this case</a></strong>.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- block {{ index }} end -->
+                {{/forEach}}
+            </table>
+        </td>
+    </tr>
+</table>

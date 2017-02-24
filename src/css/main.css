@@ -23,7 +23,7 @@ h4 {
 
 p {
   margin: 0;
-  font: 16px/1.38 Arial, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
 }
 
 a {
@@ -406,44 +406,93 @@ body {
   padding: 0 30px 35px;
 }
 
-.w-verdict .post {
+.w-verdict .posts {
   table-layout: fixed;
 }
 
-.w-verdict .post .-title p {
+.w-verdict .posts .-title p {
   color: #06357a;
 }
 
-.w-verdict .post .-author p {
+.w-verdict .posts .-author p {
   color: #06357a;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.5 Arial, sans-serif;
 }
 
-.w-verdict .post .-image td {
+.w-verdict .posts .-image td {
   padding: 15px 0 20px;
 }
 
-.w-verdict .post .-image img {
+.w-verdict .posts .-image img {
   display: block;
   width: 540px;
   max-width: 100%;
   margin: 0;
 }
 
-.w-verdict .post .-more + .-title td {
+.w-verdict .posts .-desc td {
+  padding: 0 0 15px;
+}
+
+.w-verdict .posts .-more + .-title td {
   padding: 30px 0 0;
 }
 
-.w-verdict .post .-more td {
-  padding: 15px 0 30px;
+.w-verdict .posts .-more td {
+  padding: 0 0 30px;
 }
 
-.w-verdict .post .-more:not(.last-post) td {
+.w-verdict .posts .-more:not(.last-post) td {
   border-bottom: 1px solid #dddddd;
 }
 
-.w-verdict .post .last-post.-more td {
-  padding: 15px 0 0;
+.w-verdict .posts .last-post.-more td {
+  padding: 0;
+}
+
+.w-cases .widget-content > td {
+  padding: 0 30px 35px;
+}
+
+.w-cases .cases {
+  table-layout: fixed;
+}
+
+.w-cases .cases .-info p {
+  font: 14px/1.5 Arial, sans-serif;
+}
+
+.w-cases .cases .-desc td {
+  padding: 15px 0;
+}
+
+.w-cases .cases .-more-info + .-title td {
+  padding: 30px 0 0;
+}
+
+.w-cases .cases .-more-info td {
+  vertical-align: top;
+}
+
+.w-cases .cases .-more-info td table {
+  table-layout: fixed;
+}
+
+.w-cases .cases .-more-info td table td:first-child {
+  width: 110px;
+  padding: 0 0 30px;
+}
+
+.w-cases .cases .-more-info td table td:last-child {
+  padding: 0 0 30px 10px;
+}
+
+.w-cases .cases .-more-info:not(.last-case) > td {
+  border-bottom: 1px solid #dddddd;
+}
+
+.w-cases .cases .last-case.-more-info td {
+  padding: 0;
 }
 
 .w-advertisement a {
