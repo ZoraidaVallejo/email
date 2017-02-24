@@ -74,7 +74,7 @@ body {
   background-color: #ffffff;
 }
 
-.widget .widget-title-block {
+.widget .widget-title td {
   padding: 40px 30px 20px;
 }
 
@@ -386,7 +386,7 @@ body {
   width: 300px;
 }
 
-.w-table-contents .widget-title-block {
+.w-table-contents .widget-title td {
   padding: 0 30px 10px;
 }
 
@@ -395,7 +395,7 @@ body {
 }
 
 .w-table-contents .widget-content:last-child > td {
-  padding: 0 30px 35px;
+  padding: 0 30px 40px;
 }
 
 .w-table-contents .content-link-desc {
@@ -403,7 +403,7 @@ body {
 }
 
 .w-verdict .widget-content > td {
-  padding: 0 30px 35px;
+  padding: 0 30px 40px;
 }
 
 .w-verdict .posts {
@@ -451,7 +451,7 @@ body {
 }
 
 .w-cases .widget-content > td {
-  padding: 0 30px 35px;
+  padding: 0 30px 40px;
 }
 
 .w-cases .cases {
@@ -507,6 +507,22 @@ body {
 
 .w-advertisement td {
   text-align: center;
+}
+
+.w-about .widget-title td {
+  padding: 40px 30px 10px;
+}
+
+.w-about .widget-content td {
+  padding: 0 30px 16px;
+}
+
+.w-about .widget-content + .widget-title td {
+  padding: 0 30px 10px;
+}
+
+.w-about .widget-content:last-child > td {
+  padding: 0 30px 40px;
 }
 
 .align-center {
