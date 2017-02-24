@@ -75,11 +75,7 @@ body {
 }
 
 .widget .widget-title-block {
-  padding: 40px 30px 10px;
-}
-
-.widget .widget-title-block.no-padding-top {
-  padding: 0 30px 10px;
+  padding: 40px 30px 20px;
 }
 
 .widget-main-title {
@@ -88,7 +84,7 @@ body {
 }
 
 .widget-type-name {
-  padding: 2px 0 10px;
+  padding: 2px 0 0;
   color: #000000;
   font: 16px/1.2 Arial, sans-serif;
 }
@@ -390,6 +386,10 @@ body {
   width: 300px;
 }
 
+.w-table-contents .widget-title-block {
+  padding: 0 30px 10px;
+}
+
 .w-table-contents .widget-content > td {
   padding: 0 30px 16px;
 }
@@ -400,6 +400,38 @@ body {
 
 .w-table-contents .content-link-desc {
   font: 13px/1.2 Arial, sans-serif;
+}
+
+.w-verdict .widget-content > td {
+  padding: 0 30px 16px;
+}
+
+.w-verdict .widget-content:last-child > td {
+  padding: 0 30px 35px;
+}
+
+.w-verdict .post {
+  table-layout: fixed;
+}
+
+.w-verdict .post .-title p {
+  color: #06357a;
+}
+
+.w-verdict .post .-author p {
+  color: #06357a;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.w-verdict .post .-image {
+  padding: 10px 0 20px;
+}
+
+.w-verdict .post .-image img {
+  display: block;
+  width: 540px;
+  max-width: 100%;
+  margin: 0;
 }
 
 .w-advertisement a {

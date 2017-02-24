@@ -45,11 +45,7 @@ body {
     background-color: plt('white');
 
     .widget-title-block {
-        padding: 40px $padding 10px;
-
-        &.no-padding-top {
-            padding: 0 $padding 10px;
-        }
+        padding: 40px $padding 20px;
     }
 
     &-main-title {
@@ -58,7 +54,7 @@ body {
     }
 
     &-type-name {
-        padding: 2px 0 10px;
+        padding: 2px 0 0;
         color: plt('black');
         font: 16px/1.2 $sans-serif-font-family;
     }

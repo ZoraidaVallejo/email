@@ -4,13 +4,42 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-verdict {
-    // background-color: plt('white');
 
-    // .widget-title-block {
-    //     padding: 40px $padding 20px;
-    // }
+    .widget-content {
 
-    // a {
-    //     text-decoration: none;
-    // }
+        > td {
+            padding: 0 $padding 16px;
+        }
+
+        &:last-child {
+
+            >td {
+                padding: 0 $padding 35px;
+            }
+        }
+    }
+
+    .post {
+        table-layout: fixed;
+
+        .-title p {
+            color: plt('primary');
+        }
+
+        .-author p {
+            color: plt('primary');
+            font: 14px/1.38 $sans-serif-font-family;
+        }
+
+        .-image {
+            padding: 10px 0 20px;
+
+            img {
+                display: block;
+                width: 540px;
+                max-width: 100%;
+                margin: 0;
+            }
+        }
+    }
 }
