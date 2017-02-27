@@ -1,0 +1,22 @@
+{
+    "clients": {
+        "ad1": {
+            "image": "adname-image-01.png",
+            "alt": "[alt text]",
+            "link": "#"
+        }
+    },
+
+    "jld": {
+        "ad1": {
+            "image": "jld-adname-image-01.png",
+            "alt": "[alt text]",
+            "link": "#"
+        },
+        "ad2": {
+            "image": "jld-adname-image-02.png",
+            "alt": "[alt text]",
+            "link": "#"
+        }
+    }
+}

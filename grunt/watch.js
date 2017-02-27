@@ -4,6 +4,7 @@
 module.exports = function(grunt, options) {
 
     return {
+
         emails: {
             files: [
                 '<%= paths.src %>/emails/*',
@@ -12,7 +13,7 @@ module.exports = function(grunt, options) {
                 '<%= paths.src %>/css/scss/**/*',
                 '<%= paths.src %>/partials/**/*'
             ],
-            tasks: [options.conversionType]
+            tasks: [options.conversionType, 'sasslint']
         },
 
         preview_dist: {
@@ -22,7 +23,7 @@ module.exports = function(grunt, options) {
                 livereload: true
             }
         },
-    
+
         preview: {
             files: ['<%= paths.preview %>/scss/**/*'],
             tasks: ['sass:preview', 'autoprefixer:preview'],

@@ -13,8 +13,8 @@ $footer-logo-v2-height: 29px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer-v2 {
-    width: $max-width;
     clear: both;
+    width: $max-width;
     background-color: plt('white');
 
     a {
@@ -28,6 +28,7 @@ $footer-logo-v2-height: 29px;
 
     .logo-footernav {
         padding: 20px $padding;
+        border-top: 1px solid plt('primary');
         border-bottom: 1px solid plt('primary');
 
         table {
@@ -40,16 +41,16 @@ $footer-logo-v2-height: 29px;
 
             img {
                 display: block;
-                max-width: none;
                 width: $footer-logo-v2-width;
+                max-width: none;
                 height: $footer-logo-v2-height;
             }
         }
 
         .footernav {
             width: 75%;
-            vertical-align: middle;
             text-align: right;
+            vertical-align: middle;
 
             span,
             a {
@@ -58,7 +59,6 @@ $footer-logo-v2-height: 29px;
 
             .vline {
                 margin: 0 10px;
-                Margin: 0 10px;
             }
         }
     }
@@ -68,7 +68,7 @@ $footer-logo-v2-height: 29px;
     .footernav p,
     span,
     a {
-        font-size: 14px !important;
+        font: 14px/1.38 $sans-serif-font-family !important;
         white-space: nowrap;
     }
 
@@ -113,8 +113,8 @@ $footer-logo-v2-height: 29px;
 
     .address {
         padding: 0 $padding floor($padding * 4);
-        vertical-align: top;
         text-align: center;
+        vertical-align: top;
 
         span,
         a {
@@ -122,9 +122,8 @@ $footer-logo-v2-height: 29px;
         }
 
         .justia-inline {
-            font-weight: $font-weight--bold;
+            font: $font-weight--bold 14px/1.38 $sans-serif-font-family !important;
             text-transform: uppercase;
         }
     }
 }
-

@@ -3,8 +3,8 @@
 // H E A D E R
 // ----------------------------------------------------------------------------------------------------------
 
-$header-logo-v2-width: 500px; // 380px
-$header-logo-v2-height: 35.526315789px; // 27px
+$header-logo-v2-width: 500px;
+$header-logo-v2-height: 78px;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -20,10 +20,9 @@ $header-logo-v2-height: 35.526315789px; // 27px
 
         .logo-img {
             display: block;
-            max-width: none;
             width: $header-logo-v2-width;
+            max-width: none;
             margin: 0 auto;
         }
     }
 }
-
