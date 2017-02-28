@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express'),
     cheerio = require('cheerio'),
     path = require('path'),
@@ -23,7 +25,10 @@ app.get('/', function(req, res) {
 
 module.exports = app;
 
-// Helper function to get templates and their 'subject' from <title> tag
+/**
+ * Helper function to get templates and their 'subject' from <title> tag
+ * @return {array} List of templates
+ */
 function getTemplates() {
     var templates = [],
         templateDir = path.join(__dirname, '/dist/'),
@@ -35,7 +40,7 @@ function getTemplates() {
             var contents = fs.readFileSync(templateDir + file, 'utf8');
 
             if (contents) {
-                $ = cheerio.load(contents);
+                var $ = cheerio.load(contents);
 
                 templates.push({
                     filename: file,
