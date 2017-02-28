@@ -2,12 +2,10 @@
 // ----------------------------------------------------------------------------------------------------------
 // T E M P L A T E   2
 // ----------------------------------------------------------------------------------------------------------
-$grade-mainimage--dimensions: 600px 278px;
-
-
+$days-mainimage--dimensions: 600px 295px;
 // ----------------------------------------------------------------------------------------------------------
 
-.grade {
+.days {
 
     .description {
         overflow: hidden;
@@ -21,8 +19,8 @@ $grade-mainimage--dimensions: 600px 278px;
         }
 
         .image {
-            width: nth($grade-mainimage--dimensions, 1);
-            height: nth($grade-mainimage--dimensions, 2);
+            width: nth($days-mainimage--dimensions, 1);
+            height: nth($days-mainimage--dimensions, 2);
             margin: 0 auto;
             Margin: 0 auto;
         }
@@ -33,7 +31,7 @@ $grade-mainimage--dimensions: 600px 278px;
     }
 
     .block-2 {
-        padding: 35px $padding 34px;
+        padding: 24px $padding 23px;
         text-align: center;
 
         p {
