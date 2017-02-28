@@ -10,9 +10,7 @@ module.exports = {
             applyWidthAttributes: true,
             applyHeightAttributes: true,
             preserveImportant: true,
-            webResources: {
-                images: false
-            }
+            webResources: { images: false }
         },
         files: [{
             expand: true,

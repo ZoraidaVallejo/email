@@ -7,9 +7,7 @@ module.exports = {
         layoutdir: '<%= paths.src %>/layouts',
         partials: ['<%= paths.src %>/partials/**/*.hbs'],
         plugins: 'grunt-assemble-contextual',
-        contextual: {
-            dest: './temp/'
-        },
+        contextual: { dest: './temp/' },
         helpers: [
             '<%= paths.src %>/helpers/custom-helpers.js',
             './node_modules/handlebars-helpers/**/*.js'
