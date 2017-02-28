@@ -13,8 +13,7 @@
 'modules/mixins';
 
 @import
-'partials/misc/global',
-'partials/misc/type';
+'partials/misc/global';
 
 @import
 'partials/layout/main-container',
@@ -22,10 +21,12 @@
 'partials/layout/footer-v2';
 
 @import
-'partials/components/stats-v1',
-'partials/components/stats-v2',
-'partials/components/stats-kc-v1',
-'partials/components/stats-kc-v2';
+'partials/components/grade',
+'partials/components/template-2';
+
+@import
+'partials/ui-components/buttons',
+'partials/ui-components/titles';
 
 @import
 'partials/misc/other';

@@ -3,21 +3,39 @@
 // O T H E R   S T Y L E S   T H A T   M I G H T   B E   U S E F U L
 // ----------------------------------------------------------------------------------------------------------
 
-.align-center {
-    text-align: center;
+.align {
+
+    &-center {
+        text-align: center;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-left {
+        text-align: left;
+    }
 }
 
-.align-right {
-    text-align: right;
-}
+.valign {
 
-.align-left {
-    text-align: left;
+    &-top {
+        vertical-align: top;
+    }
+
+    &-middle {
+        vertical-align: middle;
+    }
+
+    &-bottom {
+        vertical-align: bottom;
+    }
 }
 
 .last {
-    margin-bottom: 0;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .no {
@@ -32,32 +50,16 @@
             padding-bottom: 0 !important;
         }
     }
-    
+
     &-margin {
         margin: 0;
-        Margin: 0;
-    }
-}
 
-.bg {
-    &-white {
-        background-color: plt('white');
-    }
+        &-top {
+            margin-top: 0 !important;
+        }
 
-    &-gray {
-        background-color: #ededed;
-    }
-    
-    &-blue {
-        background-color: #278dcf;
-
-        &-dark {
-            background-color: #1977b3;
+        &-bottom {
+            margin-bottom: 0 !important;
         }
     }
-}
-
-.image {
-    margin: 0 auto;
-    Margin: 0 auto;
 }

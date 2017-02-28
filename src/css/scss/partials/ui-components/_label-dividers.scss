@@ -15,16 +15,13 @@ $divider-selector: '.divider';
     td {
         padding: 4px 0;
         margin: 0;
-        font-size: ft-exist(14px);
-        font-weight: $font-weight--bold;
-        text-transform: uppercase;
-        line-height: 14px;
         color: plt('white');
+        font: $font-weight--bold 14px/1 $sans-serif-font-family;
+        text-transform: uppercase;
     }
 
     span {
         color: plt('white');
-        font-family: $sans-serif-font-family;
     }
 
     .label {
@@ -32,7 +29,7 @@ $divider-selector: '.divider';
     }
 
     .empty-space {
-        border-top: 1px solid plt('mercury');
+        border-top: 1px solid plt('black-haze');
     }
 
     @each $name, $color in $primary-palette {
