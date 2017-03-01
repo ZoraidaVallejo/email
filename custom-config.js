@@ -3,7 +3,7 @@
 module.exports = {
     conversionType: 'blast',
     port: 4000,
-    justatic_version: '20170215',
+    justatic_version: '20170228',
     current_year: '2017',
     current_month: '02',
 
