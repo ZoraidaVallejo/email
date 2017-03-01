@@ -1,16 +1,11 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// J L D   S P E C I F I C
+// C L I E N T   S P E C I F I C
 // ----------------------------------------------------------------------------------------------------------
 
-.jld-newsletter {
+.client-newsletter {
 
-    .w-featured-news,
-    .w-tech-news,
-    .w-seo-news,
-    .w-social-media-news,
-    .w-meet-our-team,
-    .w-internet-stats {
+    .w-seo-news {
         border-bottom: 1px solid plt('black-haze');
     }
 }

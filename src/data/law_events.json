@@ -1,18 +1,68 @@
 {
     "events": [{
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link1"
+        "date_time": "March 16 9am CT",
+        "type_location": "Chicago, ABA TechShow",
+        "description": "Making it Rain: How Technology Can Boost Your Marketing Efforts<br>Justia president Stacy Stern will be on this panel at ABA TechShow",
+        "link": "http://www.techshow.com/schedule/"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link2"
+        "date_time": "March 3 1pm ET",
+        "type_location": "Webinar",
+        "description": "Using Google For Work Gmail to Deliver Better Client Service",
+        "link": "http://linkon.in/M030317"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link3"
+        "date_time": "March 8 1pm ET",
+        "type_location": "Webinar",
+        "description": "Burying the Billable Hour: Implementing Value Billing in Your Law Firm",
+        "link": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=269978031"
+    }, {
+        "date_time": "March 8 1pm ET",
+        "type_location": "Webinar",
+        "description": "Supercharge Gmail with Advanced Gmail Features, Tasks, and Contacts to Deliver Better Client Service",
+        "link": "http://linkon.in/M030817"
+    }, {
+        "date_time": "March 10 9am ET",
+        "type_location": "New York, NY / Webinar",
+        "description": "Fundamentals of Taking and Defending Depositions",
+        "link": "http://www.pli.edu/Content/Seminar/Fundamentals_of_Taking_and_Defending_Depositions/_/N-4kZ1z10ouo?ID=289496"
+    }, {
+        "date_time": "March 10 1pm ET",
+        "type_location": "Webinar",
+        "description": "Supercharge Gmail with Voice, Chat, Talk, and Hangout Services…and Calendar to Deliver Better Client Service",
+        "link": "http://linkon.in/M031017"
+    }, {
+        "date_time": "March 22 9am ET",
+        "type_location": "New York, NY / Webinar",
+        "description": "29th Annual Elder Law Institute",
+        "link": "http://www.pli.edu/Content/Seminar/29th_Annual_Elder_Law_Institute/_/N-4kZ1z10oto?ID=289568"
+    }, {
+        "date_time": "March 22 1pm ET",
+        "type_location": "Webinar",
+        "description": "Cybersleuth Investigative Series: How To Be Your Own Private Investigator With Pay Investigative Research Databases",
+        "link": "http://linkon.in/M032217"
+    }, {
+        "date_time": "March 22 1pm ET",
+        "type_location": "Webinar",
+        "description": "Tips and Tools For Ethical and Effective Law Firm Social Media Marketing",
+        "link": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=269389424"
+    }, {
+        "date_time": "March 23 12:30pm CT",
+        "type_location": "St. Louis, MO",
+        "description": "ABA Solo and Small Firm Regional Meeting",
+        "link": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=238304792"
+    }, {
+        "date_time": "March 24 1pm ET",
+        "type_location": "Webinar",
+        "description": "Internet Legal Research on a Budget",
+        "link": "http://linkon.in/M032417"
+    }, {
+        "date_time": "March 28 1pm ET",
+        "type_location": "Webinar",
+        "description": "Combating Bias and Increasing Inclusion in the Legal Profession",
+        "link": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=269848672"
+    }, {
+        "date_time": "March 29 1pm ET",
+        "type_location": "Webinar",
+        "description": "Do More In Less Time: Personal Productivity Tools and Tips for Lawyers",
+        "link": "http://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=270803700"
     }]
 }

@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
-$inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
+// $inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
 $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
 
@@ -32,7 +32,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
 
         .item-image {
-            padding: 48px 0 $padding;
+            padding: 30px 0 $padding;
             text-align: right;
             vertical-align: top;
         }
@@ -49,7 +49,7 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
                 }
 
                 .item-image {
-                    padding: 48px 0 0;
+                    padding: 30px 0 0;
                 }
             }
         }
@@ -75,24 +75,24 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
         }
     }
 
-    &.w-inside-justia {
+    // &.w-inside-justia {
 
-        .item-list {
+    //     .item-list {
 
-            .item-desc {
-                width: ($inner-max-width - $inside-justia-image--width - $padding);
-            }
-        }
+    //         .item-desc {
+    //             width: ($inner-max-width - $inside-justia-image--width - $padding);
+    //         }
+    //     }
 
-        .item-image {
-            width: ($inside-justia-image--width + $padding);
+    //     .item-image {
+    //         width: ($inside-justia-image--width + $padding);
 
-            img {
-                width: $inside-justia-image--width;
-                max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
-            }
-        }
-    }
+    //         img {
+    //             width: $inside-justia-image--width;
+    //             max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+    //         }
+    //     }
+    // }
 
     &.w-pugs-tale {
 

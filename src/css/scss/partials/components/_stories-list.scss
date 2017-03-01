@@ -88,6 +88,14 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         }
     }
 
+    &.w-design-news {
+
+        .story-item a,
+        .widget-main-title {
+            color: plt('primary');
+        }
+    }
+
     &.w-social-media-news {
 
         .story-item a,

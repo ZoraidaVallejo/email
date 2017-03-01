@@ -1,9 +1,9 @@
 {
     "conversionType": "newsletter",
     "port": 4000,
-    "justatic_version": "1",
-    "current_year": "0000",
-    "current_month": "00",
+    "justatic_version": "20170228",
+    "current_year": "2017",
+    "current_month": "03",
 
     "paths": {
         "src": "src",
@@ -15,6 +15,5 @@
         "remote_img_path": "/mnt/files/emails/images/newsletters/<%= current_year %>/<%= current_month %>"
     },
 
-    "file_to_send": "newsletter-<%= current_year %>-<%= current_month %>.html",
     "compressed_file_name": "newsletter-<%= current_year %>-<%= current_month %>"
 }

@@ -1,21 +1,21 @@
 {
     "clients": {
         "ad1": {
-            "image": "adname-image-01.png",
-            "alt": "[alt text]",
+            "image": "invite-friend-image-01.png",
+            "alt": "Get $200. Give $100. Invite a Friend - You Both Win",
             "link": "#"
         }
     },
 
     "jld": {
         "ad1": {
-            "image": "jld-adname-image-01.png",
-            "alt": "[alt text]",
+            "image": "consultation-image-01.png",
+            "alt": "Is your current website meeting your expectations?",
             "link": "#"
         },
         "ad2": {
-            "image": "jld-adname-image-02.png",
-            "alt": "[alt text]",
+            "image": "pugs-image-02.jpg",
+            "alt": "Wanna be Top Dog in the Justia Lawyer Directory?",
             "link": "#"
         }
     }

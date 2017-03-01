@@ -1,12 +1,12 @@
 {
     "people": [{
-        "id": "0000000",
+        "id": "1519973",
         "rank": 1,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
+        "name": "Brian Lehman",
+        "location": "Long Island City, NY",
+        "name_link": "http://law.justia.com/annotations/lawyers/1519973",
+        "photo_link": "https://lawyers.justia.com/lawyer/1519973"
     }],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus enim quo nulla, dicta dolor repellat architecto, amet voluptatem laboriosam quae qui nobis, aperiam consectetur cupiditate perferendis dignissimos commodi beatae.",
-    "button_link": "#"
+    "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
+    "button_link": "http://law.justia.com/annotations/"
 }
