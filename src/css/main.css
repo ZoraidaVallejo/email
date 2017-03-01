@@ -400,6 +400,10 @@ body {
   border-top: 1px solid #e7e8e8;
 }
 
+.label-divider.divider-green-vogue .label {
+  background-color: #022252;
+}
+
 .label-divider.divider-catalina-blue .label {
   background-color: #06357a;
 }
@@ -848,16 +852,16 @@ body {
 }
 
 .w-text-image.w-meet-our-team .item-list .item-desc {
-  width: 300px;
+  width: 360px;
 }
 
 .w-text-image.w-meet-our-team .item-image {
-  width: 240px;
+  width: 180px;
 }
 
 .w-text-image.w-meet-our-team .item-image img {
-  width: 210px;
-  max-width: 88%;
+  width: 150px;
+  max-width: 84%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -921,22 +925,43 @@ body {
   margin: 0;
 }
 
-.w-advertisement a {
+.w-advertisement .ad-image a {
   display: block;
 }
 
-.w-advertisement img {
+.w-advertisement .ad-image img {
   display: block;
   width: 600px;
   max-width: 100%;
 }
 
-.w-advertisement td {
+.w-advertisement .ad-image td {
   text-align: center;
 }
 
+.w-client-ad-01 {
+  background-color: #022252;
+}
+
+.w-client-ad-01 p,
+.w-client-ad-01 a {
+  color: #ffffff;
+}
+
+.w-client-ad-01 .ad-desc {
+  padding: 0 30px 35px;
+}
+
+.w-client-ad-01 .ad-desc p {
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.w-client-ad-01 .ad-desc p:first-child {
+  font: 20px/1.5 Arial, sans-serif;
+}
+
 .w-jld-ad-01 {
-  background-color: #bdbdbd;
+  background-color: #022252;
 }
 
 .w-jld-ad-02 {
@@ -1042,6 +1067,22 @@ body {
   padding: 45px 30px 30px;
 }
 
+.w-law-events .law-events-featured {
+  padding: 0 30px 40px;
+}
+
+.w-law-events .law-events-featured table {
+  border: 1px solid #ffffff;
+}
+
+.w-law-events .law-events-featured .event-desc {
+  padding: 25px 24px 0;
+}
+
+.w-law-events .law-events-featured .button {
+  padding: 18px 24px;
+}
+
 .w-law-events .law-events-list {
   padding: 0 30px;
 }
@@ -1120,13 +1161,8 @@ body {
 
 .jld-newsletter .w-featured-news,
 .jld-newsletter .w-tech-news,
-.jld-newsletter .w-seo-news,
 .jld-newsletter .w-social-media-news,
 .jld-newsletter .w-meet-our-team,
 .jld-newsletter .w-internet-stats {
-  border-bottom: 1px solid #e7e8e8;
-}
-
-.client-newsletter .w-seo-news {
   border-bottom: 1px solid #e7e8e8;
 }

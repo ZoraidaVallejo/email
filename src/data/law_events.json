@@ -1,10 +1,11 @@
 {
-    "events": [{
+    "featured": {
         "date_time": "March 16 9am CT",
         "type_location": "Chicago, ABA TechShow",
-        "description": "Making it Rain: How Technology Can Boost Your Marketing Efforts<br>Justia president Stacy Stern will be on this panel at ABA TechShow",
+        "description": "Making it Rain: How Technology Can Boost Your Marketing Efforts<br> Justia president Stacy Stern will be on this panel at ABA TechShow",
         "link": "http://www.techshow.com/schedule/"
-    }, {
+    },
+    "events": [{
         "date_time": "March 3 1pm ET",
         "type_location": "Webinar",
         "description": "Using Google For Work Gmail to Deliver Better Client Service",
