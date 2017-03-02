@@ -31,8 +31,12 @@
         color: plt('white');
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .ad-desc {
-        padding: 0 $padding 35px;
+        padding: 40px $padding 35px;
 
         p {
             font: 14px/1.38 $sans-serif-font-family;

@@ -947,8 +947,12 @@ body {
   color: #ffffff;
 }
 
+.w-client-ad-01 a {
+  text-decoration: none;
+}
+
 .w-client-ad-01 .ad-desc {
-  padding: 0 30px 35px;
+  padding: 40px 30px 35px;
 }
 
 .w-client-ad-01 .ad-desc p {
