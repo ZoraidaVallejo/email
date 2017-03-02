@@ -33,6 +33,7 @@ $internet-stats-chart--width: 300px;
             img {
                 display: block;
                 width: $internet-stats-chart--width;
+                max-width: 100%;
                 margin: 0 auto;
             }
         }

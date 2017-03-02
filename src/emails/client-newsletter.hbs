@@ -56,11 +56,6 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
 
             {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- DESIGN NEWS --}}
-                {{> design-news }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
                 {{!-- FEATURED SITE OF THE MONTH --}}
                 {{> featured-site-month }}
 
@@ -73,6 +68,11 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
 
                 {{!-- DID YOU KNOW --}}
                 {{> did-you-know }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
+
+                {{!-- DESIGN NEWS --}}
+                {{> design-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 

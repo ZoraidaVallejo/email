@@ -153,7 +153,6 @@ body {
 
 .main-footer-v1 img {
   display: block;
-  max-width: none;
 }
 
 .main-footer-v1 .logo-social {
@@ -174,7 +173,6 @@ body {
 .main-footer-v1 .logo-social .logo img {
   display: block;
   width: 235px;
-  max-width: none;
   height: 33px;
 }
 
@@ -852,17 +850,17 @@ body {
 }
 
 .w-text-image.w-meet-our-team .item-list .item-desc {
-  width: 360px;
+  width: 300px;
 }
 
 .w-text-image.w-meet-our-team .item-list .item-image {
-  width: 180px;
+  width: 240px;
   padding: 48px 0 30px;
 }
 
 .w-text-image.w-meet-our-team .item-list .item-image img {
-  width: 150px;
-  max-width: 84%;
+  width: 210px;
+  max-width: 88%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -994,6 +992,7 @@ body {
 .w-internet-stats .stats-chart img {
   display: block;
   width: 300px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -1052,7 +1051,8 @@ body {
 
 .w-feaured-site-month .featured-img img {
   display: block;
-  width: 740px;
+  width: 520px;
+  max-width: 100%;
   margin: 0 auto;
 }
 

@@ -47,6 +47,7 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
             img {
                 display: block;
                 width: $featured-site--width;
+                max-width: 100%;
                 margin: 0 auto;
             }
         }
