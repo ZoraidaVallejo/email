@@ -855,11 +855,12 @@ body {
   width: 360px;
 }
 
-.w-text-image.w-meet-our-team .item-image {
+.w-text-image.w-meet-our-team .item-list .item-image {
   width: 180px;
+  padding: 48px 0 30px;
 }
 
-.w-text-image.w-meet-our-team .item-image img {
+.w-text-image.w-meet-our-team .item-list .item-image img {
   width: 150px;
   max-width: 84%;
 }
@@ -868,11 +869,11 @@ body {
   width: 300px;
 }
 
-.w-text-image.w-pugs-tale .item-image {
+.w-text-image.w-pugs-tale .item-list .item-image {
   width: 240px;
 }
 
-.w-text-image.w-pugs-tale .item-image img {
+.w-text-image.w-pugs-tale .item-list .item-image img {
   width: 210px;
   max-width: 88%;
 }
