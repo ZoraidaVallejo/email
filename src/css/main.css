@@ -250,69 +250,103 @@ body {
   width: 100%;
 }
 
-.grade .description .image {
-  width: 600px;
-  height: 278px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
 .grade .description a {
   color: #09347a;
 }
 
+.grade .block-1 {
+  padding-top: 34px;
+  background-color: #00b3e3;
+}
+
+.grade .block-1 img {
+  width: 600px;
+  height: 124px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
 .grade .block-2 {
+  padding-left: 48px;
+  background-color: #00b3e3;
+}
+
+.grade .block-2 .main-image-down {
+  padding-left: 45px;
+}
+
+.grade .block-2 .main-image-down,
+.grade .block-2 img {
+  width: 292px;
+  height: 120px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.grade .block-2 .tagline {
+  padding: 0 0 47px;
+}
+
+.grade .block-2 .tagline,
+.grade .block-2 .tagline img {
+  width: 215px;
+  height: 73px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.grade .block-3 {
   padding: 35px 30px 34px;
   text-align: center;
 }
 
-.grade .block-2 p {
+.grade .block-3 p {
   font-family: Arial, sans-serif !important;
 }
 
-.grade .block-4 {
+.grade .block-5 {
   padding: 35px 30px 24px;
 }
 
-.grade .block-5 {
+.grade .block-6 {
   padding: 0 30px;
 }
 
-.grade .block-6 {
+.grade .block-7 {
   padding: 3px 240px 21px 30px;
 }
 
-.grade .block-6 ul {
+.grade .block-7 ul {
   padding: 0 0 0 36px;
   margin: 8px 0 0;
 }
 
-.grade .block-6 li {
+.grade .block-7 li {
   margin-bottom: 6px;
   color: #09347a;
   font-size: 0.9em;
 }
 
-.grade .block-6 li span {
+.grade .block-7 li span {
   color: #000000;
   font-size: 16px;
 }
 
-.grade .block-7 {
+.grade .block-8 {
   padding: 0 30px 8px;
 }
 
-.grade .block-9 {
+.grade .block-10 {
   padding: 0 30px 9px;
 }
 
-.grade .block-8,
-.grade .block-10 {
+.grade .block-9,
+.grade .block-11 {
   padding: 0 30px 24px;
 }
 
 .grade .contactus {
-  padding: 0 30px 35px;
+  padding: 3px 30px 35px;
 }
 
 .grade .contactus a {
@@ -332,8 +366,8 @@ body {
 }
 
 .days .description .image {
-  width: 600px;
-  height: 295px;
+  width: 542px;
+  height: 58px;
   margin: 0 auto;
   Margin: 0 auto;
 }
@@ -342,58 +376,85 @@ body {
   color: #09347a;
 }
 
+.days .block-1 {
+  background-color: #00b3e1;
+  padding: 30px 28px 19px 30px;
+}
+
 .days .block-2 {
+  background-color: #00b3e1;
+  padding: 0 88px 31px 89px;
+}
+
+.days .block-2 .tagline,
+.days .block-2 .tagline-image {
+  width: 236px;
+  height: 63px;
+}
+
+.days .block-2 .chart,
+.days .block-2 .chart-image {
+  width: 158px;
+  height: 158px;
+}
+
+.days .block-2 .chart {
+  padding: 0 0 0 29px;
+}
+
+.days .block-3 {
   padding: 24px 30px 23px;
   text-align: center;
 }
 
-.days .block-2 p {
+.days .block-3 p {
   font-family: Arial, sans-serif !important;
 }
 
-.days .block-4 {
+.days .block-5 {
   padding: 35px 30px 24px;
 }
 
-.days .block-5 {
+.days .block-6 {
   padding: 0 30px;
 }
 
-.days .block-6 {
+.days .block-7 {
   padding: 3px 240px 21px 30px;
 }
 
-.days .block-6 ul {
-  padding: 0 0 0 36px;
-  margin: 8px 0 0;
+.days .block-7 ul {
+  padding: 8px 0 0 36px;
+  margin: 0;
+  Margin: 0;
 }
 
-.days .block-6 li {
-  margin-bottom: 6px;
+.days .block-7 li {
+  padding-bottom: 6px;
   color: #09347a;
   font-size: 0.9em;
 }
 
-.days .block-6 li span {
+.days .block-7 li span {
   color: #000000;
   font-size: 16px;
 }
 
-.days .block-7 {
+.days .block-8 {
   padding: 0 30px 8px;
 }
 
-.days .block-9 {
+.days .block-10 {
   padding: 0 30px 9px;
 }
 
-.days .block-8,
-.days .block-10 {
+.days .block-9,
+.days .block-11 {
   padding: 0 30px 24px;
 }
 
 .days .contactus {
-  padding: 0 30px 35px;
+  padding: 3px 30px 35px;
 }
 
 .days .contactus a {

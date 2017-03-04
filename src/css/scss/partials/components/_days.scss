@@ -2,7 +2,7 @@
 // ----------------------------------------------------------------------------------------------------------
 // T E M P L A T E   2
 // ----------------------------------------------------------------------------------------------------------
-$days-mainimage--dimensions: 600px 295px;
+$days-mainimage--dimensions: 542px 58px;
 // ----------------------------------------------------------------------------------------------------------
 
 .days {
@@ -30,7 +30,33 @@ $days-mainimage--dimensions: 600px 295px;
         }
     }
 
+    .block-1 {
+        background-color: #00b3e1;
+        padding: 30px 28px 19px 30px;
+    }
+
     .block-2 {
+        background-color: #00b3e1;
+        padding: 0 88px 31px 89px;
+
+        .tagline,
+        .tagline-image {
+            width: 236px;
+            height: 63px;
+        }
+
+        .chart,
+        .chart-image {
+            width: 158px;
+            height: 158px;
+        }
+
+        .chart {
+            padding: 0 0 0 29px;
+        }
+    }
+
+    .block-3 {
         padding: 24px $padding 23px;
         text-align: center;
 
@@ -39,51 +65,50 @@ $days-mainimage--dimensions: 600px 295px;
         }
     }
 
-    .block-4 {
+    .block-5 {
         padding: 35px $padding 24px;
     }
 
-    .block-5 {
+    .block-6 {
         padding: 0 $padding;
     }
 
-    .block-6 {
+    .block-7 {
         padding: 3px 240px 21px $padding;
 
         ul {
-            padding: 0 0 0 36px; //22px;
-            margin: 8px 0 0;
+            padding: 8px 0 0 36px; //22px;
+            margin: 0;
+            Margin: 0;
         }
 
         li {
-            margin-bottom: 6px;
+            padding-bottom: 6px;
             color: #09347a;
             font-size: 0.9em;
 
             span {
-                // display: inline-block;
-                // margin-left: -6px;
                 color: #000000;
                 font-size: 16px;
             }
         }
     }
 
-    .block-7 {
+    .block-8 {
         padding: 0 $padding 8px;
     }
 
-    .block-9 {
+    .block-10 {
         padding: 0 $padding 9px;
     }
 
-    .block-8,
-    .block-10 {
+    .block-9,
+    .block-11 {
         padding: 0 $padding 24px;
     }
 
     .contactus {
-        padding: 0 $padding 35px;
+        padding: 3px $padding 35px;
 
         a {
             color: #09347a !important;

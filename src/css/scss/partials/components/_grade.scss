@@ -2,10 +2,6 @@
 // ----------------------------------------------------------------------------------------------------------
 // T E M P L A T E   2
 // ----------------------------------------------------------------------------------------------------------
-$grade-mainimage--dimensions: 600px 278px;
-
-
-// ----------------------------------------------------------------------------------------------------------
 
 .grade {
 
@@ -20,19 +16,53 @@ $grade-mainimage--dimensions: 600px 278px;
             width: 100%;
         }
 
-        .image {
-            width: nth($grade-mainimage--dimensions, 1);
-            height: nth($grade-mainimage--dimensions, 2);
-            margin: 0 auto;
-            Margin: 0 auto;
-        }
-
         a {
             color: #09347a;
         }
     }
 
+    .block-1 {
+        padding-top: 34px;
+        background-color: #00b3e3;
+        
+        img {
+            width: 600px;
+            height: 124px;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
     .block-2 {
+        padding-left: 48px;
+        background-color: #00b3e3;
+
+        .main-image-down {
+            padding-left: 45px;
+        }
+
+        .main-image-down,
+        img {
+            width: 292px;
+            height: 120px;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+
+        .tagline {
+            padding: 0 0 47px;
+        }
+
+        .tagline,
+        .tagline img {
+            width: 215px;
+            height: 73px;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-3 {
         padding: 35px $padding 34px;
         text-align: center;
 
@@ -41,15 +71,15 @@ $grade-mainimage--dimensions: 600px 278px;
         }
     }
 
-    .block-4 {
+    .block-5 {
         padding: 35px $padding 24px;
     }
 
-    .block-5 {
+    .block-6 {
         padding: 0 $padding;
     }
 
-    .block-6 {
+    .block-7 {
         padding: 3px 240px 21px $padding;
 
         ul {
@@ -71,21 +101,21 @@ $grade-mainimage--dimensions: 600px 278px;
         }
     }
 
-    .block-7 {
+    .block-8 {
         padding: 0 $padding 8px;
     }
 
-    .block-9 {
+    .block-10 {
         padding: 0 $padding 9px;
     }
 
-    .block-8,
-    .block-10 {
+    .block-9,
+    .block-11 {
         padding: 0 $padding 24px;
     }
 
     .contactus {
-        padding: 0 $padding 35px;
+        padding: 3px $padding 35px;
 
         a {
             color: #09347a !important;
