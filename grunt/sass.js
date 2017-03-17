@@ -1,9 +1,10 @@
 'use strict';
 
 // Takes your SCSS files and compiles them to CSS
-var eyeglass = require('eyeglass');
+const eyeglass = require('eyeglass');
 
 module.exports = {
+
     dist: {
         options: eyeglass({
             outputStyle: 'expanded'

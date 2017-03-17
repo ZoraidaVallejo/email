@@ -1,17 +1,17 @@
 'use strict';
 
-module.exports = function (grunt, options) {
+module.exports = function(grunt, options) {
 
     // BLAST configuration
     let buildAlias = [
         options.conversionType,
-        'replace:shorten_classes',
         'replace:live_images'
     ];
 
     // Newsletter configuration overwrite
-    if(options.conversionType === 'newsletter') {
+    if (options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
         buildAlias = buildAlias.concat([
+            'replace:shorten_classes',
             'htmlmin:live'
         ]);
     }
@@ -22,14 +22,14 @@ module.exports = function (grunt, options) {
         'newsletter': [
             'clean',
             'sass:dist',
-            'cssmin',
             'assemble',
             'juice',
             'imagemin',
             'replace:important_style',
             'replace:remove_classes',
             'replace:fix_responsive',
-            'replace:src_images'
+            'replace:src_images',
+            'replace:remove_dup_styles'
         ],
 
         'blast': [
@@ -44,14 +44,19 @@ module.exports = function (grunt, options) {
             'replace:src_images'
         ],
 
-        'build': buildAlias,
-
-        send: [
-            'build',
-            'mailgun'
+        'proposal': [
+            'clean',
+            'sass:dist',
+            'cssmin',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:src_images'
         ],
 
-        serve: [
+        'build': buildAlias,
+
+        'serve': [
             options.conversionType,
             'sass:preview',
             'postcss:preview',
@@ -60,15 +65,18 @@ module.exports = function (grunt, options) {
             'watch'
         ],
 
-        upload: [
+        'upload': [
             options.conversionType,
             'imagemin',
             'sftp-deploy'
         ],
 
-        zip: [
+        'zip': [
             'compress'
-        ]
+        ],
 
+        'test': [
+            'sass'
+        ]
     };
 };
