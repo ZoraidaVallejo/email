@@ -2,20 +2,19 @@
 // ----------------------------------------------------------------------------------------------------------
 // B U T T O N S
 // ----------------------------------------------------------------------------------------------------------
-$button-1--dimensions: 310px 56px;
+
+$button-1--dimensions: 240px 64px;
 
 // ----------------------------------------------------------------------------------------------------------
 
 .btn {
-    width: $max-width !important;
-    max-width: $max-width !important;
-    padding: 0 147px 0 143px !important;
+    display: inline-block;
 
     img,
     a {
         display: block;
-        width: nth($button-1--dimensions, 1);
-        height: nth($button-1--dimensions, 2);
+        width: (nth($button-1--dimensions, 1) / 2);
+        height: (nth($button-1--dimensions, 2) / 2);
         margin: 0;
     }
 

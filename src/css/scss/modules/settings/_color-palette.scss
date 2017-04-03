@@ -67,7 +67,7 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': map-get($new-primary-palette, 'cerulean'),
+    'accent': #09347a, //map-get($new-primary-palette, 'cerulean'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')

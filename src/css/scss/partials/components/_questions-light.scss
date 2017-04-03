@@ -1,0 +1,49 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// Q U E S T I O N S - L I G H T - B L U E
+// ----------------------------------------------------------------------------------------------------------
+
+$questions-light-mainimage--dimensions: image-dimensions('/src/img/questions-light-main-image-01.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.questions-light {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+
+        td {
+            width: 100%;
+        }
+
+        .image {
+            width: nth($questions-light-mainimage--dimensions, 1) / 1.2;
+            height: nth($questions-light-mainimage--dimensions, 2) / 1.2;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-1 {
+        padding: 39px 0 0 33px;
+        background-color: #01b3e2;
+    }
+
+    .block-2 {
+        padding: 33px $padding 27px;
+        text-align: left;
+
+        p {
+            font: 16px/1.5 $sans-serif-font-family !important;
+        }
+    }
+
+    .block-3 {
+        padding-bottom: 34px;
+    }
+}
