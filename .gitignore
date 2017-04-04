@@ -18,4 +18,5 @@ sftp-config*.json
 vendor/
 temp/
 psd/
+dist/img/
 node_modules/

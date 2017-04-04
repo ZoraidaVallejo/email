@@ -19,17 +19,13 @@ module.exports = function(grunt, options) {
         preview_dist: {
             files: ['./dist/*'],
             tasks: [],
-            options: {
-                livereload: true
-            }
+            options: { livereload: true }
         },
 
         preview: {
             files: ['<%= paths.preview %>/scss/**/*'],
             tasks: ['sass:preview', 'autoprefixer:preview'],
-            options: {
-                livereload: true
-            }
+            options: { livereload: true }
         }
     };
 };

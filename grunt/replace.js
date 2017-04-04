@@ -4,64 +4,64 @@
 module.exports = function() {
 
     var leftPad = function leftPad(number, targetLength = 2) {
-        let output = number + '';
+        let output = String(number);
 
         while (output.length < targetLength) {
-            output = '0' + output;
+            output = `0${output}`;
         }
 
         return output;
     };
 
     var allTemplates = [{
-        expand: true,
-        flatten: true,
-        src: ['<%= paths.dist %>/*.html'],
-        dest: '<%= paths.dist %>'
-    }];
+            expand: true,
+            flatten: true,
+            src: ['<%= paths.dist %>/*.html'],
+            dest: '<%= paths.dist %>'
+        }],
 
-    var cssClasses = [
-        'collapse-one',
-        'mobile-reset-width',
-        'mobile-reset-height',
-        'mobile-reset-bg-image',
-        'mobile-hide',
-        'mobile-align-center',
-        'mobile-fz-20',
-        'mobile-padding-top',
-        'mobile-padding-right',
-        'mobile-padding-bottom',
-        'mobile-padding-left',
-        'mobile-padding-horizontal-sides',
-        'mobile-padding-vertical-sides',
-        'mobile-padding-full',
-        'mobile-padding-uneven-top',
-        'mobile-padding-uneven-bottom',
-        'mobile-padding-uneven-full',
-        'mobile-no-padding-top',
-        'mobile-no-padding-bottom',
-        'mobile-no-padding-horizontal-sides',
-        'mobile-no-float',
-        'mobile-no-border'
-    ];
+        cssClasses = [
+            'collapse-one',
+            'mobile-reset-width',
+            'mobile-reset-height',
+            'mobile-reset-bg-image',
+            'mobile-hide',
+            'mobile-align-center',
+            'mobile-fz-20',
+            'mobile-padding-top',
+            'mobile-padding-right',
+            'mobile-padding-bottom',
+            'mobile-padding-left',
+            'mobile-padding-horizontal-sides',
+            'mobile-padding-vertical-sides',
+            'mobile-padding-full',
+            'mobile-padding-uneven-top',
+            'mobile-padding-uneven-bottom',
+            'mobile-padding-uneven-full',
+            'mobile-no-padding-top',
+            'mobile-no-padding-bottom',
+            'mobile-no-padding-horizontal-sides',
+            'mobile-no-float',
+            'mobile-no-border'
+        ],
 
-    var htmlOptim = {
-        'td': [
-            'width',
-            'height',
-            'text-align',
-            'vertical-align',
-            'background-color'
-        ],
-        'table': [
-            'width',
-            'background-color'
-        ],
-        'img': [
-            'width',
-            'height'
-        ]
-    };
+        htmlOptim = {
+            td: [
+                'width',
+                'height',
+                'text-align',
+                'vertical-align',
+                'background-color'
+            ],
+            table: [
+                'width',
+                'background-color'
+            ],
+            img: [
+                'width',
+                'height'
+            ]
+        };
 
     // Regex to match styles applied to specific tags
     // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
