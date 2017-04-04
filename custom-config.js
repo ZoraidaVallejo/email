@@ -3,9 +3,9 @@
 module.exports = {
     conversionType: 'blast',
     port: 4000,
-    justatic_version: '20170203',
+    justatic_version: '20170404',
     current_year: '2017',
-    current_month: '02',
+    current_month: '04',
 
     // Re-usable filesystem path variables
     paths: {
