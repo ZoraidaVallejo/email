@@ -1,4 +1,15 @@
 {
-    "title": "[title]",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?"
+    "blocks": [{
+        "title": "Stacy at ABA TechShow in Chicago",
+        "description": "Our president, Stacy Stern, participated in a panel at the recent ABA TechShow in Chicago on how technology can boost marketing efforts for law firms.",
+        "image": "meet-our-team-01.jpg"
+    }, {
+        "title": "San Jose Flood Cleanup",
+        "description": "After major flooding in San Jose and neighborhoods surrounding our offices, Hayden volunteered in the cleanup effort along Coyote Creek this month. Great job helping out our local community, Hayden!",
+        "image": ""
+    }, {
+        "title": "David Kemp quoted in ENTtoday",
+        "description": "Justia’s managing editor David Kemp was prominently quoted in an article in ENTtoday about the ethics of physician strikes. David has written on the subject for <a href=\"https://verdict.justia.com/2013/01/14/can-health-care-providers-ethically-go-on-strike\" target=\"_blank\">Verdict</a>, as well.",
+        "image": "meet-our-team-03.jpg"
+    }]
 }
