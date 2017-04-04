@@ -279,7 +279,7 @@ body {
   padding-bottom: 34px;
 }
 
-.template-2 .description {
+.questions-dark .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -287,30 +287,33 @@ body {
   border-collapse: collapse !important;
 }
 
-.template-2 .description td {
+.questions-dark .description td {
   width: 100%;
 }
 
-.template-2 .description .image {
-  width: 600px;
-  height: 300px;
+.questions-dark .description .image {
+  width: 566.666666667px;
+  height: 395.833333333px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.template-2 .block-2 {
-  padding: 25px 30px 40px;
-  text-align: center;
+.questions-dark .block-1 {
+  padding: 41px 0 0 33px;
+  background-color: #09347a;
 }
 
-.template-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+.questions-dark .block-2 {
+  padding: 33px 30px 26px;
+  text-align: left;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
-.template-2 .block-5 {
-  padding: 0 30px 25px;
+.questions-dark .block-2 p {
+  font: 16px/1.5 Arial, sans-serif !important;
+}
+
+.questions-dark .block-3 {
+  padding: 0 30px 33px;
 }
 
 .align-center {

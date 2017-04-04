@@ -3,12 +3,12 @@
 // T E M P L A T E   2
 // ----------------------------------------------------------------------------------------------------------
 
-$template2-mainimage--dimensions: image-dimensions('/src/img/template2-main-image-01.png');
+$questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark-main-image-01.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
 
-.template-2 {
+.questions-dark {
 
     .description {
         overflow: hidden;
@@ -22,25 +22,28 @@ $template2-mainimage--dimensions: image-dimensions('/src/img/template2-main-imag
         }
 
         .image {
-            width: nth($template2-mainimage--dimensions, 1);
-            height: nth($template2-mainimage--dimensions, 2);
+            width: nth($questions-dark-mainimage--dimensions, 1) / 1.2;
+            height: nth($questions-dark-mainimage--dimensions, 2) / 1.2;
             margin: 0 auto;
             Margin: 0 auto;
         }
     }
 
+    .block-1 {
+        padding: 41px 0 0 33px;
+        background-color: #09347a;
+    }
+
     .block-2 {
-        padding: 25px $padding 40px;
-        text-align: center;
+        padding: 33px $padding 26px;
+        text-align: left;
 
         p {
-            font: 14px/1.5 $sans-serif-font-family !important;
+            font: 16px/1.5 $sans-serif-font-family !important;
         }
     }
 
-    .block-3,
-    .block-4,
-    .block-5 {
-        padding: 0 $padding 25px;
+    .block-3 {
+        padding: 0 $padding 33px;
     }
 }
