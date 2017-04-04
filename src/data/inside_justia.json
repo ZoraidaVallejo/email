@@ -1,4 +1,11 @@
 {
-    "title": "[title]",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?"
+    "blocks": [{
+        "title": "Justia Sponsors Mission San Jose Little League",
+        "description": "We are proud to sponsor Mission San Jose Little League’s first all girls baseball team. Here they are with Fremont Mayor Lily Mei. Go Cubs!",
+        "image": "inside-justia-01.jpg"
+    }, {
+        "title": "At MozCon in Seattle",
+        "description": "Isma attended MozCon, an SEO conference in Seattle hosted by Moz, where industry leaders shared next-level tactics on social media, marketing analytics, content strategy and more.",
+        "image": "inside-justia-02.jpg"
+    }]
 }

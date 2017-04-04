@@ -851,17 +851,23 @@ body {
 }
 
 .w-text-image.multiple .item-list .item-image {
-  padding: 30px 0;
+  padding: 35px 0 30px;
 }
 
-.w-text-image.multiple .item-list table:first-child .item-desc,
-.w-text-image.multiple .item-list table:first-child .item-image {
+.w-text-image.multiple .item-list table:first-child .item-desc {
   padding: 10px 0 30px;
 }
 
-.w-text-image.multiple .item-list table:last-child .item-desc,
-.w-text-image.multiple .item-list table:last-child .item-image {
+.w-text-image.multiple .item-list table:first-child .item-image {
+  padding: 15px 0 30px;
+}
+
+.w-text-image.multiple .item-list table:last-child .item-desc {
   padding: 30px 0 0;
+}
+
+.w-text-image.multiple .item-list table:last-child .item-image {
+  padding: 35px 0 0;
 }
 
 .w-text-image.w-meet-our-team .item-list .item-desc {

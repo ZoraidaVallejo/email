@@ -65,24 +65,30 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
             padding: 0 $padding 45px;
 
             .item-image {
-                padding: $padding 0;
+                padding: 35px 0 $padding;
             }
 
             table {
 
                 &:first-child {
 
-                    .item-desc,
-                    .item-image {
+                    .item-desc {
                         padding: 10px 0 $padding;
+                    }
+
+                    .item-image {
+                        padding: 15px 0 $padding;
                     }
                 }
 
                 &:last-child {
 
-                    .item-desc,
-                    .item-image {
+                    .item-desc {
                         padding: $padding 0 0;
+                    }
+
+                    .item-image {
+                        padding: 35px 0 0;
                     }
                 }
             }
