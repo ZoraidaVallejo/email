@@ -15,6 +15,5 @@
         "remote_img_path": "/mnt/files/emails/images/newsletters/<%= current_year %>/<%= current_month %>"
     },
 
-    "file_to_send": "newsletter-<%= current_year %>-<%= current_month %>.html",
     "compressed_file_name": "newsletter-<%= current_year %>-<%= current_month %>"
 }

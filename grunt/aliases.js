@@ -3,7 +3,7 @@
 module.exports = function(grunt, options) {
 
     // BLAST configuration
-    let buildAlias = [
+    var buildAlias = [
         options.conversionType,
         'replace:live_images'
     ];
@@ -17,9 +17,9 @@ module.exports = function(grunt, options) {
     }
 
     return {
-        'default': ['newsletter'],
+        default: ['newsletter'],
 
-        'newsletter': [
+        newsletter: [
             'clean',
             'sass:dist',
             'assemble',
@@ -32,7 +32,7 @@ module.exports = function(grunt, options) {
             'replace:remove_dup_styles'
         ],
 
-        'blast': [
+        blast: [
             'clean',
             'sass:dist',
             'assemble',
@@ -44,7 +44,7 @@ module.exports = function(grunt, options) {
             'replace:src_images'
         ],
 
-        'proposal': [
+        proposal: [
             'clean',
             'sass:dist',
             'cssmin',
@@ -54,9 +54,9 @@ module.exports = function(grunt, options) {
             'replace:src_images'
         ],
 
-        'build': buildAlias,
+        build: buildAlias,
 
-        'serve': [
+        serve: [
             options.conversionType,
             'sass:preview',
             'postcss:preview',
@@ -65,17 +65,17 @@ module.exports = function(grunt, options) {
             'watch'
         ],
 
-        'upload': [
+        upload: [
             options.conversionType,
             'imagemin',
             'sftp-deploy'
         ],
 
-        'zip': [
+        zip: [
             'compress'
         ],
 
-        'test': [
+        test: [
             'sass'
         ]
     };

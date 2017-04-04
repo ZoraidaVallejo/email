@@ -264,7 +264,6 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
 - **`current_month`**: Current month. The same as the previous one.
-- **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
 - **`compressed_file_name`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
     - **`src`**: Folder where all development files are stored.
