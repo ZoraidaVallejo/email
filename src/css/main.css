@@ -958,7 +958,12 @@ body {
 }
 
 .w-advertisement a {
-  display: block;
+  text-decoration: none;
+}
+
+.w-advertisement p,
+.w-advertisement a {
+  color: #ffffff;
 }
 
 .w-advertisement img {
@@ -969,6 +974,27 @@ body {
 
 .w-advertisement td {
   text-align: center;
+}
+
+.w-advertisement .ad-image a {
+  display: block;
+}
+
+.w-advertisement .ad-desc {
+  padding: 0 30px 35px;
+  text-align: left;
+}
+
+.w-advertisement .ad-desc p {
+  font: 16px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc p:first-child {
+  font: 20px/1.5 Arial, sans-serif;
+}
+
+.w-client-ad-01 {
+  background-color: #06357a;
 }
 
 .w-jld-ad-01 {

@@ -1,9 +1,13 @@
 {
     "clients": {
         "ad1": {
-            "image": "marketing-contact-01.png",
-            "alt": "Take charge of your online marketing",
-            "link": "#"
+            "image": "strong-content-01.png",
+            "alt": "Content is needed for a strong site. Too busy to write or prefer not to write content yourself?",
+            "link": "#",
+            "description": [
+                "Call Us Now <b><a class=\"ios-links-white\" href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>",
+                "We offer à la carte writing services that combine SEO best practices with your firm’s unique voice and approach to legal issues. Rest assured with an experienced legal marketing team drafting and editing your pages."
+            ]
         }
     },
 
