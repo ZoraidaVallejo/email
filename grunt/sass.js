@@ -1,14 +1,10 @@
 'use strict';
 
 // Takes your SCSS files and compiles them to CSS
-const eyeglass = require('eyeglass');
-
 module.exports = {
 
     dist: {
-        options: eyeglass({
-            outputStyle: 'expanded'
-        }),
+        options: require('eyeglass')({ outputStyle: 'expanded' }),
         files: [{
             expand: true,
             cwd: '<%= paths.src %>/css/scss',
@@ -21,11 +17,7 @@ module.exports = {
     // This task compiles Sass for the browser-baed preview UI.
     // You should not need to edit it.
     preview: {
-        options: {
-            style: 'compressed'
-        },
-        files: {
-            '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
-        }
+        options: { style: 'compressed' },
+        files: { '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss' }
     }
 };
