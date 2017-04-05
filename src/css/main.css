@@ -896,19 +896,6 @@ body {
   max-width: 88%;
 }
 
-.w-text-image.w-pugs-tale .item-list .item-desc {
-  width: 300px;
-}
-
-.w-text-image.w-pugs-tale .item-image {
-  width: 240px;
-}
-
-.w-text-image.w-pugs-tale .item-image img {
-  width: 210px;
-  max-width: 88%;
-}
-
 .w-did-you-know {
   background-color: #ff6b00;
 }
@@ -1023,13 +1010,13 @@ body {
 }
 
 .w-internet-stats .stats-chart {
-  padding: 0 30px 20px;
+  padding: 0 30px 30px;
   text-align: center;
 }
 
 .w-internet-stats .stats-chart img {
   display: block;
-  width: 540px;
+  width: 460px;
   margin: 0 auto;
 }
 

@@ -17,7 +17,7 @@ module.exports = function(grunt, options) {
     }
 
     return {
-        default: ['newsletter'],
+        default: ['serve'],
 
         newsletter: [
             'clean',
