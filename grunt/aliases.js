@@ -9,7 +9,9 @@ module.exports = function(grunt, options) {
     ];
 
     // Newsletter configuration overwrite
-    if (options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
+    if (options.conversionType === 'newsletter' 
+        || options.conversionType === 'proposal'
+        || options.conversionType === 'oyez') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
             'htmlmin:live'
