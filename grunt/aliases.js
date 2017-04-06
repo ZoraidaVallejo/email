@@ -9,7 +9,9 @@ module.exports = function(grunt, options) {
     ];
 
     // Newsletter configuration overwrite
-    if (options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
+    if (options.conversionType === 'newsletter' 
+        || options.conversionType === 'proposal'
+        || options.conversionType === 'oyez') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
             'htmlmin:live'
@@ -53,6 +55,19 @@ module.exports = function(grunt, options) {
             'imagemin',
             'replace:src_images'
         ],
+
+        oyez: [
+            'clean',
+            'sass:dist',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
+            'replace:src_images',
+            'replace:remove_dup_styles'
+        ],        
 
         build: buildAlias,
 
