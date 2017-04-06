@@ -1142,6 +1142,16 @@ body {
   padding: 18px 0 40px;
 }
 
+.w-law-events .event-1 .inner-text,
+.w-law-events .event-2 .inner-text {
+  height: 108px;
+}
+
+.w-law-events .event-3 .inner-text,
+.w-law-events .event-4 .inner-text {
+  height: 130px;
+}
+
 .align-center {
   text-align: center;
 }

@@ -72,4 +72,21 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
     .button {
         padding: 18px 0 40px;
     }
+
+
+    .event-1,
+    .event-2 {
+
+        .inner-text {
+            height: 108px;
+        }
+    }
+
+    .event-3,
+    .event-4 {
+
+        .inner-text {
+            height: 130px;
+        }
+    }
 }
