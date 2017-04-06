@@ -1,0 +1,37 @@
+/// ---------------------------
+// 
+// No version defined becuase this module cuold change each month.
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// W E L C O M E   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$main-image--dimensions: image-dimensions('/src/img/main-image-01.jpg');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.intro {
+    background-color: plt('white');
+
+    .head-img {
+        width: nth($main-image--dimensions, 1);
+        height: nth($main-image--dimensions, 2);
+        vertical-align: middle;
+        background: url('../img/main-image-01.jpg');
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &--message {
+        padding: 25px $padding 5px;
+
+        p {
+            font-size: 18px;
+            line-height: 1.3;
+        }
+    }
+}
+

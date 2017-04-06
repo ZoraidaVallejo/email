@@ -54,6 +54,19 @@ module.exports = function(grunt, options) {
             'replace:src_images'
         ],
 
+        oyez: [
+            'clean',
+            'sass:dist',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
+            'replace:src_images',
+            'replace:remove_dup_styles'
+        ],        
+
         build: buildAlias,
 
         serve: [
