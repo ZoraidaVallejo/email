@@ -37,7 +37,8 @@ $subtitle-colors: (
         .title {
             text-align: center;
 
-            strong {
+            strong,
+            p {
                 color: #063579;
                 font: 30px/1.5 $sans-serif-font-family !important;
                 font-weight: normal;
@@ -58,17 +59,15 @@ $subtitle-colors: (
             }
 
             @each $key, $value in $subtitle-colors {
+                &.#{$key} {
+                    p {
+                        border-color: $value;
+                    }
 
-              &.#{$key} {
-
-                p {
-                    border-color: $value;
+                    strong {
+                        color: $value;
+                    }
                 }
-
-                strong {
-                    color: $value;
-                }
-              }
             }
         }
 
@@ -78,7 +77,7 @@ $subtitle-colors: (
             list-style: none;
             Margin: 0;
 
-            li {
+            div {
                 padding-bottom: 19px;
             }
 
@@ -86,8 +85,8 @@ $subtitle-colors: (
                 display: inline-block;
                 width: 18px;
                 height: 18px;
-                vertical-align: middle;
                 margin: 0 8px 0 3px;
+                vertical-align: middle;
                 Margin: 0 8px 0 3px;
             }
 
@@ -101,6 +100,7 @@ $subtitle-colors: (
 
     .block-1 {
         padding: 38px $padding;
+        border-top: 1px solid #dddddd;
     }
 
     .site-screenshot {
@@ -134,6 +134,7 @@ $subtitle-colors: (
         padding: 0 $padding;
 
         table {
+
             td {
                 padding: 7px 0;
                 vertical-align: top;
@@ -146,8 +147,10 @@ $subtitle-colors: (
     }
 
     .block-13 {
+
         .items-list {
-            li {
+
+            div {
                 padding-bottom: 15px;
             }
         }

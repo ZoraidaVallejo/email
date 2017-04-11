@@ -264,7 +264,8 @@ body {
   text-align: center;
 }
 
-.auditreport .description .title strong {
+.auditreport .description .title strong,
+.auditreport .description .title p {
   color: #063579;
   font: 30px/1.5 Arial, sans-serif !important;
   font-weight: normal;
@@ -315,7 +316,7 @@ body {
   Margin: 0;
 }
 
-.auditreport .description .items-list li {
+.auditreport .description .items-list div {
   padding-bottom: 19px;
 }
 
@@ -323,8 +324,8 @@ body {
   display: inline-block;
   width: 18px;
   height: 18px;
-  vertical-align: middle;
   margin: 0 8px 0 3px;
+  vertical-align: middle;
   Margin: 0 8px 0 3px;
 }
 
@@ -336,6 +337,7 @@ body {
 
 .auditreport .block-1 {
   padding: 38px 30px;
+  border-top: 1px solid #dddddd;
 }
 
 .auditreport .site-screenshot {
@@ -378,7 +380,7 @@ body {
   padding: 7px 30px 16px;
 }
 
-.auditreport .block-13 .items-list li {
+.auditreport .block-13 .items-list div {
   padding-bottom: 15px;
 }
 
