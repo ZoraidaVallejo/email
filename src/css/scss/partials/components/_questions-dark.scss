@@ -3,8 +3,9 @@
 // T E M P L A T E   2
 // ----------------------------------------------------------------------------------------------------------
 
+$questions-dark-tagline--dimensions: image-dimensions('/src/img/questions-dark-tagline-01.png');
+$questions-dark-button--dimensions: image-dimensions('/src/img/questions-dark-button-01.png');
 $questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark-main-image-01.png');
-
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -26,15 +27,40 @@ $questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark
             height: nth($questions-dark-mainimage--dimensions, 2) / 1.2;
             margin: 0 auto;
             Margin: 0 auto;
+
+            &.button {
+                width: nth($questions-dark-button--dimensions, 1) / 1.2;
+                height: nth($questions-dark-button--dimensions, 2) / 1.2;
+            }
+
+            &.tagline {
+                width: nth($questions-dark-tagline--dimensions, 1) / 1.2;
+                height: nth($questions-dark-tagline--dimensions, 2) / 1.2;   
+            }
         }
     }
 
     .block-1 {
-        padding: 41px 0 0 33px;
+        padding: 41px 35px 23px 42px;
         background-color: #09347a;
     }
 
     .block-2 {
+        padding: 0;
+        background-color: #09347a;
+
+        .right {
+            width: (334px - 23px - 33px);
+            padding: 47px 23px 85px 33px;
+        }
+
+        .left {
+            width: 266px;
+            padding: 0;
+        }
+    }
+
+    .block-3 {
         padding: 33px $padding 26px;
         text-align: left;
 
@@ -43,7 +69,7 @@ $questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark
         }
     }
 
-    .block-3 {
+    .block-4 {
         padding: 0 $padding 33px;
     }
 }
