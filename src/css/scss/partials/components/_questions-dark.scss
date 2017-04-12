@@ -41,26 +41,28 @@ $questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark
     }
 
     .block-1 {
-        padding: 41px 35px 23px 42px;
-        background-color: #09347a;
-    }
-
-    .block-2 {
-        padding: 0;
+        padding: 41px 0 0;
         background-color: #09347a;
 
         .right {
             width: (334px - 23px - 33px);
             padding: 47px 23px 85px 33px;
+            background-color: #09347a;
         }
 
         .left {
             width: 266px;
             padding: 0;
+            background-color: #09347a;
+        }
+
+        .tagline-container {
+            padding: 0 35px 23px 42px;
+            background-color: #09347a;
         }
     }
 
-    .block-3 {
+    .block-2 {
         padding: 33px $padding 26px;
         text-align: left;
 
@@ -69,7 +71,7 @@ $questions-dark-mainimage--dimensions: image-dimensions('/src/img/questions-dark
         }
     }
 
-    .block-4 {
+    .block-3 {
         padding: 0 $padding 33px;
     }
 }
