@@ -1,3 +1,50 @@
+## Version 1.6.3 (2017-04-28)
+- [[`1de6198`](https://github.com/justia/mail-template-builder/commit/1de61985904c8488b6b2e3fe3d7cd7ccbb33462a)] - Merge pull request #25 from justia/diego-newsl
+- [[`17b7745`](https://github.com/justia/mail-template-builder/commit/17b77455eaa15fd5aa0fb25e730194fa1a9e77bf)] - :wrench: Changes to Oyez newsletter example
+- [[`95836b3`](https://github.com/justia/mail-template-builder/commit/95836b34ec44c7e98ad862e918945261ee8574d1)] - Merge branch 'develop' into diego-newsl
+- [[`3233dc4`](https://github.com/justia/mail-template-builder/commit/3233dc4be1f0995ce736d88f6655931392a2715f)] - Remove conversion files
+- [[`28c1b0c`](https://github.com/justia/mail-template-builder/commit/28c1b0ce363abc5157a2396302dfbd9bd78d1bb1)] - :sparkles: Add changes to examples
+- [[`ed07d07`](https://github.com/justia/mail-template-builder/commit/ed07d077caec19b79fcde00d6aaac3cf5681aec9)] - :memo: Add ad links.
+- [[`824e590`](https://github.com/justia/mail-template-builder/commit/824e590e0c39f98b903f9ccf4335e11ba1a88f2d)] - Merge pull request #24 from justia/mayra-oyez2
+- [[`c4ceb47`](https://github.com/justia/mail-template-builder/commit/c4ceb47c0d4cc6a250e39f8a2538654965f073c6)] - Added Oyez newsletter
+- [[`e0d2acb`](https://github.com/justia/mail-template-builder/commit/e0d2acb01e3c7e749f336e8593dbc024167300ab)] - Added oyez newsletter
+- [[`f589c5f`](https://github.com/justia/mail-template-builder/commit/f589c5f5fc5419246c8d9e26da4332d1874368b8)] - :memo: QA fixes. :star: Changes to Law event and Tip of the month templates. :star: New concat helper.
+- [[`fa49208`](https://github.com/justia/mail-template-builder/commit/fa4920801557ed6107d67c5fd86d901af2d3e6fa)] - :memo: QA fixes.
+- [[`eff3ae9`](https://github.com/justia/mail-template-builder/commit/eff3ae9f5552d59f62cf28f380b330bd1c804d4b)] - :memo: Build templates.
+- [[`29b62db`](https://github.com/justia/mail-template-builder/commit/29b62dba73c4a12eb1046c2f6b54d75a17061cd9)] - :memo: Internet stats grphic. :star: Image optimization.
+- [[`277c148`](https://github.com/justia/mail-template-builder/commit/277c148f7eccf8d3ecf2923eb6819a9f85cd50b8)] - :star: Prevent did you know section fail when no title is given.
+- [[`ff74898`](https://github.com/justia/mail-template-builder/commit/ff748989dbbfebf21a28ffe634849329c81aa17b)] - :memo: Add content.
+- [[`81356bd`](https://github.com/justia/mail-template-builder/commit/81356bd4e88d28599977a6edf6fd9910d60b8235)] - :star: Support for Featured events in law events.
+- [[`d2495e0`](https://github.com/justia/mail-template-builder/commit/d2495e0ecd1862c2445c416ea415c4b8a015aa0c)] - :star: new option for featured site.
+- [[`4bcb8ee`](https://github.com/justia/mail-template-builder/commit/4bcb8eef01f66127ade5789e8f21ee6315c8687c)] - :star: Client Ad fixes.; gp
+- [[`b93a6de`](https://github.com/justia/mail-template-builder/commit/b93a6deda0a4704b0f4816a0aaaed787b4893fd4)] - :star: Modifications to inside justia block. :bug: fixes to column-text-image module.
+- [[`6be605f`](https://github.com/justia/mail-template-builder/commit/6be605faecb5504a19fa875a83cf42c46bc2d509)] - :star: Modifications to Meet our team block.
+- [[`7c7a50a`](https://github.com/justia/mail-template-builder/commit/7c7a50a6feaa50531f55d12c499b5f8f999c8383)] - :memo: Add info to the newsletter.
+- [[`8fba267`](https://github.com/justia/mail-template-builder/commit/8fba267edb5c92feef15ef179701f754bbdd3c98)] - :checkered_flag: Initial Conversion.
+- [[`a83dcc8`](https://github.com/justia/mail-template-builder/commit/a83dcc83a65f537585fd4724901428e339942dfb)] - Merge branch 'develop' into diego-newsl
+
+## Version 1.6.2 (2017-04-04)
+- [[`0c68d5f`](https://github.com/justia/mail-template-builder/commit/0c68d5fa71369263336ec6053b459ab80d29f88c)] - Merge pull request #22 from justia/diego-blast
+- [[`08ac3fb`](https://github.com/justia/mail-template-builder/commit/08ac3fb0fb526e34e5cbb46cf33f73973746852a)] - Merge branch 'develop' into diego-blast
+- [[`99a326d`](https://github.com/justia/mail-template-builder/commit/99a326dfc6502cb1670e8b15c8c12a395f83d437)] - :memo: Delete conversion.
+- [[`165055e`](https://github.com/justia/mail-template-builder/commit/165055e7f16aa10a4b2b0944d43dc718215c34ae)] - Merge pull request #21 from justia/diego-newsl
+- [[`6f041e1`](https://github.com/justia/mail-template-builder/commit/6f041e10c657cc6f39ea07e65fa8d5da645f209e)] - :star: Update dependencies.
+- [[`150eb2d`](https://github.com/justia/mail-template-builder/commit/150eb2d8c6759b2ead5fca0bdaaa7679ca18ae90)] - :memo: Delete conversion.
+- [[`531c250`](https://github.com/justia/mail-template-builder/commit/531c25061c8a29524e79084940b84c8e89bf5f66)] - :memo: Audit emails Conversion.
+- [[`79fe732`](https://github.com/justia/mail-template-builder/commit/79fe732ab36d3b89f5c105cdda04e4b9d4bb8e80)] - Merge branch 'develop' into diego-blast
+- [[`f42feae`](https://github.com/justia/mail-template-builder/commit/f42feae9ddd8e185624d3fe1729f494466f215b0)] - :bug: Final QA Fixes
+- [[`381b80e`](https://github.com/justia/mail-template-builder/commit/381b80e050825c9b860d37eb3fab17b9b793130d)] - :bug: More QA fixes.
+- [[`d696c2a`](https://github.com/justia/mail-template-builder/commit/d696c2a5a55031f10c032e00a2e94dffdc057784)] - :bug: QA fixes.
+- [[`966d11a`](https://github.com/justia/mail-template-builder/commit/966d11a84045bdd85430218c0cf5916265ae8deb)] - :bug: Add link to Client ad.
+- [[`ee497f6`](https://github.com/justia/mail-template-builder/commit/ee497f6db1fbc713a1d942e8de713a0d7a50a4c2)] - :memo: More QA fixes.
+- [[`1cf9936`](https://github.com/justia/mail-template-builder/commit/1cf99368989573e56f847dcaf166ef2508a7c10d)] - :memo: QA fixes.
+- [[`a43869b`](https://github.com/justia/mail-template-builder/commit/a43869be168f774517e5eb7725aa6c8f03c5136f)] - :checkered_flag: JLD and Client newsletter.
+- [[`7f95573`](https://github.com/justia/mail-template-builder/commit/7f9557318282f12e10b68d3f7c25eca7e6652262)] - :memo: Grunt workflow fixes.
+- [[`f0ad05d`](https://github.com/justia/mail-template-builder/commit/f0ad05d515b3b4414376178259c4b9a60f149829)] - :star: Lint updates to Grunt workflow.
+- [[`8629430`](https://github.com/justia/mail-template-builder/commit/8629430e56a710d880722b9a4ca730eacc5a72dc)] - :star: March Newsletter - Initial conversion.
+- [[`e4d38c8`](https://github.com/justia/mail-template-builder/commit/e4d38c8ef6f2d17d59abafb15520179a426f3c8e)] - Merge branch 'develop' into diego-newsl
+- [[`7d51e0d`](https://github.com/justia/mail-template-builder/commit/7d51e0d2e8fe89fa1cd58cd8dcca10cd667d6771)] - :memo: Add lib folder.
+
 ## Version 1.6.1 (2017-02-10)
 - [[`22f2bea`](https://github.com/justia/mail-template-builder/commit/22f2beadb67b90c9269374711df3187a1a9333ae)] - Merge pull request #19 from justia/diego-newsl
 - [[`8cb2882`](https://github.com/justia/mail-template-builder/commit/8cb28822ab9ee5e1b47741b779ad309480c1754a)] - :x: Remove unnecessary files from root.

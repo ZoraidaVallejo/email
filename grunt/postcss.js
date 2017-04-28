@@ -7,9 +7,7 @@ module.exports = {
         options: {
             map: false,
             processors: [
-                require('autoprefixer')({
-                    browsers: ['last 2 versions']
-                })
+                require('autoprefixer')
             ]
         },
         src: 'preview/css/preview.css'

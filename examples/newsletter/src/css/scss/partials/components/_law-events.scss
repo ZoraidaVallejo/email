@@ -19,6 +19,22 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
         padding: 45px $padding $padding;
     }
 
+    .law-events-featured {
+        padding: 0 $padding 40px;
+
+        table {
+            border: 1px solid plt('white');
+        }
+
+        .event-desc {
+            padding: 25px 24px 0;
+        }
+
+        .button {
+            padding: 18px 24px;
+        }
+    }
+
     .law-events-list {
         padding: 0 $padding;
     }
@@ -47,7 +63,6 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
     .date {
         color: plt('white');
         font: $font-weight--bold 20px/1 $sans-serif-font-family;
-        // font: $font-weight--bold 20px/20px $sans-serif-font-family;
     }
 
     .desc {
@@ -56,5 +71,15 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
     .button {
         padding: 18px 0 40px;
+    }
+
+
+    // Add/change the height based on the preview. There is no way to change it dynamically.
+    .event-1,
+    .event-2 {
+
+        .inner-text {
+            height: 108px;
+        }
     }
 }

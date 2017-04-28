@@ -7,7 +7,7 @@ module.exports = {
         options: {
             removeComments: true,
             collapseWhitespace: true,
-            removeEmptyAttributes: function(attrName, tag) {
+            removeEmptyAttributes: function(attrName) {
                 return attrName === 'style';
             }
         },
