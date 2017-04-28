@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // H E A D E R
@@ -12,7 +6,7 @@
 .main-header {
     background: plt('concrete');
     color: plt('tundora');
-    font-size: ft-exist(13px);
+    font-size: 13px;
 
     .tagline-wrapper {
         width: auto;
@@ -35,9 +29,8 @@
         a {
             display: block;
             color: plt('tundora');
-            text-decoration: underline;
             font-family: $sans-serif-font-family;
+            text-decoration: underline;
         }
     }
 }
-

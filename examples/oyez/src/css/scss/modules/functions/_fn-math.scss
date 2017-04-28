@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 ////
 /// @group math
@@ -60,4 +54,3 @@
 @function how-many-fit($element-width, $element-gap, $base-width) {
     @return floor(($base-width + $element-gap) / ($element-width + $element-gap));
 }
-

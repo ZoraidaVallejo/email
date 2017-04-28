@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // B O D Y   &   C O N T A I N E R
@@ -21,8 +15,7 @@ body {
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
 .container {
     display: block;
-    width: auto !important;
-    width: $max-width;
+    width: auto;
     max-width: $max-width;
     padding: 10px 0;
     Margin: 0 auto !important; /* makes it centered */
@@ -47,17 +40,17 @@ body {
 .widget {
 
     &-type-name {
+        padding: 0 0 5px;
         color: plt('shuttle-gray');
-        font-size: ft-exist(14px);
+        font-size: 14px;
         font-weight: $font-weight--bold;
         text-transform: uppercase;
         line-height: 14px;
-        padding: 0 0 5px;
     }
 
     &-main-title {
         color: plt('black');
-        font-size: ft-exist(29px);
+        font-size: 29px;
         font-weight: $font-weight--normal;
         line-height: 37px;
     }
@@ -67,4 +60,3 @@ body {
 .content-block {
     padding: 45px $padding;
 }
-
