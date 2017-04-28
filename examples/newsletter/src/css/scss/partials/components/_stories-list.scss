@@ -11,102 +11,117 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
 .w-stories-list {
     background-color: plt('white');
 
-    .main-story-title {
-        padding: 45px $padding 20px;
-
-        .widget-main-title {
-
-            a {
-                color: plt('black');
-                text-decoration: none;
-            }
-        }
+    a {
+        text-decoration: none;
     }
 
-    .main-story-desc {
-        padding: 0 $padding 45px;
+    .main-story {
 
-        a {
-            text-decoration: none;
+        &-title {
+            padding: 45px $padding 20px;
+
+            .widget-main-title {
+
+                a {
+                    color: plt('black');
+                    text-decoration: none;
+                }
+            }
         }
 
-        table {
-            width: 100%;
-        }
+        &-desc {
+            padding: 0 $padding 45px;
 
-        .story-desc {
-            width: ($inner-max-width - $tech-news-image--width - $padding);
-            text-align: left;
-            vertical-align: top;
-        }
+            .story-desc {
+                width: ($inner-max-width - $tech-news-image--width - $padding);
+                text-align: left;
+                vertical-align: top;
+            }
 
-        .featured-image {
-            width: ($tech-news-image--width + $padding);
-            text-align: right;
-            vertical-align: top;
+            .featured-image {
+                width: ($tech-news-image--width + $padding);
+                text-align: right;
+                vertical-align: top;
 
-            img {
-                width: $tech-news-image--width;
-                max-width: floor(percentage($tech-news-image--width / ($tech-news-image--width + $padding)));
-                height: auto;
+                img {
+                    width: $tech-news-image--width;
+                    max-width: floor(percentage($tech-news-image--width / ($tech-news-image--width + $padding)));
+                }
+            }
+
+            .story-extra {
+                padding: 30px 0 0;
             }
         }
     }
 
     .stories-title {
-        text-align: center;
         padding: 45px $padding 20px;
+        text-align: center;
     }
 
     .story-item {
         padding: 0 $padding 20px;
+    }
 
-        &.-last {
-            padding: 0 $padding;
-        }
+    tr:last-child {
 
-        &.-verylast {
+        .story-item {
             padding: 0 $padding 45px;
         }
-
-        a {
-            text-decoration: none;
-            font-family: $sans-serif-font-family;
-            font-size: ft-exist(16px);
-            line-height: 22px;
-        }
     }
 
 
-    &.tech-news {
+    &.w-tech-news {
 
         .story-item a,
         .widget-main-title {
-            color: plt('jade');
+            color: plt('green-haze');
         }
     }
 
-    &.seo-news {
+    &.w-seo-news {
 
         .story-item a,
         .widget-main-title {
-            color: plt('picton-blue');
+            color: plt('cerulean');
         }
     }
 
-    &.social-media-news {
+    &.w-social-media-news {
 
         .story-item a,
         .widget-main-title {
-            color: plt('flush-orange');
+            color: plt('blaze-orange');
         }
     }
 
-    &.legal-industry-news {
+    &.w-legal-industry-news {
 
         .story-item a,
         .widget-main-title {
-            color: plt('pelorous');
+            color: plt('shamrock');
+        }
+    }
+
+    &.w-jurispro {
+
+        sup {
+            font: 16px/1 $sans-serif-font-family;
+        }
+
+        .story-desc,
+        .featured-image {
+            padding: 0 0 30px;
+            border-bottom: 1px solid plt('black-haze');
+            vertical-align: middle;
+        }
+
+        .story-desc {
+
+            p {
+                font: 20px/1.38 $sans-serif-font-family;
+            }
         }
     }
 }

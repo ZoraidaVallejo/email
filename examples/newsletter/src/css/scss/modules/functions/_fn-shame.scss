@@ -7,17 +7,4 @@
 ////
 
 
-@function ft-exist($font, $type: 'default') {
 
-    @if $type == 'default' and sl-contain($available-font-sizes, $font) {
-        @return $font;
-
-    } @else if $type == 'resp' and sl-contain($responsive-font-sizes, $font) {
-        @return $font;
-
-    } @else {
-        @warn 'No size found for `#{$font}` in $available-font-sizes or $responsive-font-sizes. Property omitted.';
-    }
-
-    @return '';
-}

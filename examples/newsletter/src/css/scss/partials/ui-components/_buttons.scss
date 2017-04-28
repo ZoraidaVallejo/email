@@ -16,14 +16,10 @@ $button-1--dimensions: 240px 64px;
         width: (nth($button-1--dimensions, 1) / 2);
         height: (nth($button-1--dimensions, 2) / 2);
         margin: 0;
-        Margin: 0;
-        cursor: pointer;
     }
 
     a {
-        display: inline-block;
         text-decoration: none;
         mso-hide: all;
     }
 }
-

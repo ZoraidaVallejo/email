@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'../../../node_modules/sassy-maps/sass/sassy-maps',
+'sassy-maps',
 'image-dimensions';
 
 @import
@@ -13,8 +13,7 @@
 'modules/mixins';
 
 @import
-'partials/misc/global',
-'partials/misc/type';
+'partials/misc/global';
 
 @import
 'partials/layout/main-container',

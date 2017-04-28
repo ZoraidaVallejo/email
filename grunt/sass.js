@@ -1,13 +1,17 @@
 'use strict';
 
-// Takes your SCSS files and compiles them to CSS
-var eyeglass = require('eyeglass');
+const path = require('path');
+const cwd = process.cwd();
 
+// Takes your SCSS files and compiles them to CSS
 module.exports = {
 
     dist: {
-        options: eyeglass({
-            outputStyle: 'expanded'
+        options: require('eyeglass')({
+            outputStyle: 'expanded',
+            includePaths: [
+                path.join(cwd, '/node_modules/sassy-maps/sass/')
+            ]
         }),
         files: [{
             expand: true,
@@ -21,11 +25,7 @@ module.exports = {
     // This task compiles Sass for the browser-baed preview UI.
     // You should not need to edit it.
     preview: {
-        options: {
-            style: 'compressed'
-        },
-        files: {
-            '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
-        }
+        options: { style: 'compressed' },
+        files: { '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss' }
     }
 };

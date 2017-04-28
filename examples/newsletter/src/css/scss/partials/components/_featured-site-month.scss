@@ -1,0 +1,54 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// F E A T U R E D   S I T E   O F   T H E   M O N T H
+// ----------------------------------------------------------------------------------------------------------
+
+$featured-site--width: image-width('/src/img/featured-site-01.jpg');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-feaured-site-month {
+    background-color: plt('alabaster');
+
+    .client-url {
+        color: plt('black');
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .featured {
+
+        &-site-title {
+            padding: 45px $padding 20px;
+            text-align: center;
+        }
+
+        &-client {
+            padding: 0 $padding 10px;
+            text-align: center;
+
+            p {
+                font: 22px/1.38 $sans-serif-font-family;
+            }
+        }
+
+        &-desc {
+            padding: 0 $padding;
+            text-align: center;
+        }
+
+        &-img {
+            padding: $padding $padding 45px;
+            text-align: center;
+
+            img {
+                display: block;
+                width: $featured-site--width;
+                margin: 0 auto;
+            }
+        }
+    }
+}
