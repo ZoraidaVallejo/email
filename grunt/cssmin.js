@@ -2,13 +2,16 @@
 
 // Compress images
 module.exports = {
-    options: {
-        advanced: false
-    },
+
+    options: { advanced: false },
 
     target: {
-        files: {
-            '<%= paths.src %>/css/preserve.css': '<%= paths.src %>/css/preserve.css'
-        }
+        files: [{
+            expand: true,
+            cwd: '<%= paths.src %>/css',
+            src: ['*.css', '!OpenSansFamily.css'],
+            dest: '<%= paths.src %>/css',
+            ext: '.css'
+        }]
     }
 };

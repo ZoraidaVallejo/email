@@ -3,126 +3,179 @@
 // Replace compiled template images sources from ../src/html to ../dist/html
 module.exports = function() {
 
+    var leftPad = function leftPad(number, targetLength = 2) {
+        let output = String(number);
+
+        while (output.length < targetLength) {
+            output = `0${output}`;
+        }
+
+        return output;
+    };
+
     var allTemplates = [{
-        expand: true,
-        flatten: true,
-        src: ['<%= paths.dist %>/*.html'],
-        dest: '<%= paths.dist %>'
-    }];
+            expand: true,
+            flatten: true,
+            src: ['<%= paths.dist %>/*.html'],
+            dest: '<%= paths.dist %>'
+        }],
+
+        cssClasses = [
+            'collapse-one',
+            'mobile-reset-width',
+            'mobile-reset-height',
+            'mobile-reset-bg-image',
+            'mobile-hide',
+            'mobile-align-center',
+            'mobile-fz-20',
+            'mobile-padding-top',
+            'mobile-padding-right',
+            'mobile-padding-bottom',
+            'mobile-padding-left',
+            'mobile-padding-horizontal-sides',
+            'mobile-padding-vertical-sides',
+            'mobile-padding-full',
+            'mobile-padding-uneven-top',
+            'mobile-padding-uneven-bottom',
+            'mobile-padding-uneven-full',
+            'mobile-no-padding-top',
+            'mobile-no-padding-bottom',
+            'mobile-no-padding-horizontal-sides',
+            'mobile-no-float',
+            'mobile-no-border'
+        ],
+
+        htmlOptim = {
+            td: [
+                'width',
+                'height',
+                'text-align',
+                'vertical-align',
+                'background-color'
+            ],
+            table: [
+                'width',
+                'background-color'
+            ],
+            img: [
+                'width',
+                'height'
+            ]
+        };
+
+    // Regex to match styles applied to specific tags
+    // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
+    // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
+    // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
+    let rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
+
+    // Set configuration to shorten classes
+    var classesToReplace = [];
+
+    for (let i = 0; i < cssClasses.length; i++) {
+        classesToReplace.push({
+            match: new RegExp(cssClasses[i], 'g'),
+            replacement: 'justia' + leftPad(i + 1)
+        });
+    }
+
+    // Set configuration to remove duplicated styles
+    var styleToRemove = [];
+
+    for (let element in htmlOptim) {
+
+        for (let cssStyle of htmlOptim[element]) {
+            let htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+
+            styleToRemove.push({
+                match: new RegExp(htmlRegex, 'g'),
+                replacement: '$1'
+            });
+        }
+    }
 
     return {
+
         src_images: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,  // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
-                        replacement: '$1../<%= paths.dist_img %>/'
-                    },
-                    {
-                        match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,  // Matches url('../src/img') or url(../src/img) and even url("../src/img")
-                        replacement: '$1../<%= paths.dist_img %>/'
-                    }
-                ]
+                patterns: [{
+                    // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+                    match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
+                    replacement: '$1../<%= paths.dist_img %>/'
+                }, {
+                    // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+                    match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
+                    replacement: '$1../<%= paths.dist_img %>/'
+                }]
             },
             files: allTemplates
         },
-
 
         // Replace width="176 !important" in table tag
         important_style: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
-                        replacement: '$1'
-                    },
-                    // {
-                    //     match: /linkcustom/g,
-                    //     replacement: 'link'
-                    // }
-                ]
+                patterns: [{
+                    match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
+                    replacement: '$1'
+                }]
             },
             files: allTemplates
         },
-
 
         shorten_classes: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    { match: /collapse-one/g, replacement: 'justia01' },
-                    { match: /mobile-reset-width/g, replacement: 'justia02' },
-                    { match: /mobile-reset-height/g, replacement: 'justia03' },
-                    { match: /mobile-reset-bg-image/g, replacement: 'justia04' },
-                    { match: /mobile-hide/g, replacement: 'justia05' },
-                    { match: /mobile-align-center/g, replacement: 'justia06' },
-                    { match: /mobile-padding-top/g, replacement: 'justia07' },
-                    { match: /mobile-padding-bottom/g, replacement: 'justia08' },
-                    { match: /mobile-padding-horizontal-sides/g, replacement: 'justia09' },
-                    { match: /mobile-padding-vertical-sides/g, replacement: 'justia10' },
-                    { match: /mobile-padding-full/g, replacement: 'justia11' },
-                    { match: /mobile-padding-uneven-top/g, replacement: 'justia12' },
-                    { match: /mobile-padding-uneven-bottom/g, replacement: 'justia13' },
-                    { match: /mobile-padding-uneven-full/g, replacement: 'justia14' },
-                    { match: /mobile-no-padding-top/g, replacement: 'justia15' },
-                    { match: /mobile-no-padding-bottom/g, replacement: 'justia16' },
-                    { match: /mobile-no-padding-horizontal-sides/g, replacement: 'justia17' },
-                    { match: /mobile-no-float/g, replacement: 'justia18' },
-                    { match: /mobile-no-border/g, replacement: 'justia19' }
-                ]
+                patterns: classesToReplace
             },
             files: allTemplates
         },
 
+        remove_dup_styles: {
+            options: {
+                usePrefix: false,
+                patterns: styleToRemove,
+                preserveOrder: true
+            },
+            files: allTemplates
+        },
 
         remove_classes: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        // match: /(?:class|responsive)=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
-                        match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
-                        replacement: ''
-                    }
-                ]
+                patterns: [{
+                    match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+                    replacement: ''
+                }]
             },
             files: allTemplates
         },
-
 
         fix_responsive: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /\s(?:responsive|id)=/g,
-                        replacement: ' class='
-                    },
-                    {
-                        match: /\s(?:responsive|id)=""/g,
-                        replacement: ''
-                    }
-                ]
+                patterns: [{
+                    match: /\s(?:responsive|id)=/g,
+                    replacement: ' class='
+                }, {
+                    match: /\s(?:responsive|id)=""/g,
+                    replacement: ''
+                }]
             },
             files: allTemplates
         },
 
-
         live_images: {
             options: {
                 usePrefix: false,
-                patterns: [
-                    {
-                        match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/'
-                    },
-                    {
-                        match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
-                        replacement: '$1<%= paths.live_img %>/'
-                    }
-                ]
+                patterns: [{
+                    match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
+                    replacement: '$1<%= paths.live_img %>/'
+                }, {
+                    match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
+                    replacement: '$1<%= paths.live_img %>/'
+                }]
             },
             files: allTemplates
         }

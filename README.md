@@ -5,13 +5,13 @@
 ## Table of Contents
 
 
-1. [Requirements](#requirements)
-2. [Installation](#installation)
+- [Requirements](#requirements)
+- [Installation](#installation)
     - [NVM](#nvm)
     - [Node.js](#nodejs)
     - [Yarn](#yarn)
     - [Packages](#packages)
-3. [Folder structure](#folder-structure)
+- [Folder structure](#folder-structure)
     - [CSS](#css)
         - [Modules](#modules)
         - [Partials](#partials)
@@ -19,17 +19,15 @@
         - [UI Components](#ui-components)
         - [Components](#components)
     - [Images](#images)
-4. [How to use](#how-to-use)
+    - [Data](#data)
+- [How to use](#how-to-use)
     - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
-5. [Mailgun configuration](#mailgun-configuration)
-    - [Login information](#login-information)
-    - [Recipients](#recipients)
-    - [Add another email account](#add-another-email-account)
-6. [Resources](#resources)
-7. [Release History](#release-history)
+- [Resources](#resources)
+    - [Recipients for testing](#recipients-for-testing)
+    - [Useful links](#useful-links)
 
 
 ## Requirements
@@ -104,6 +102,7 @@ yarn install
     │       └── partials/
     ├── data/
     ├── emails/
+    ├── helpers/
     ├── img/
     ├── layouts/
     └── partials/
@@ -114,17 +113,18 @@ yarn install
 Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
-`grunt/` | Contains all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
+`grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
 `preview/` | All files related to the preview window where you see a *preview* of your work.
 `src/` | Main folder where the source files of the email template are stored.
-`css/scss/modules/` | [More info](#css-modules).
-`css/scss/partials/` | [More info](#css-partials).
-`data/` | Contains optional **.yml** data files that can be used in your templates.
+`css/scss/modules/` | [More info](#modules).
+`css/scss/partials/` | [More info](#partials).
+`data/` | Contain **.json** data files that can be used in your templates [More info](#data).
 `emails/` | Place where your main template(s) will go. 
+`helpers/` | Custom handlebar helpers.
 `img/` | [More Info](#images)
-`layouts/` | Contains the standard HTML wrapper markup. You most likely will only need one layout template, but you can have as many as you like.
+`layouts/` | Contain the standard HTML wrapper markup. You most likely will only need one layout template, but you can have as many as you like.
 `partials/ui-components/` | [More info](#ui-components).
-`partials/components/` | [More info](#newsletter).
+`partials/components/` | [More info](#components).
 
 
 ### CSS
@@ -178,7 +178,7 @@ Contain optional handlebar components that can help generate your markup. Each c
 For example, to include the **button.hbs** component you would use the following code in your email template:
 
 ```handlebars
-{{> button url="http://google.com/" }}
+{{> button buttonLink="https://www.justia.com/" }}
 ```
 >**Note**: You can use single -or- double quotes for attributes.
 
@@ -201,7 +201,7 @@ This folder also includes some IE hack.
 Contain all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
 
 ```handlebars
-{{> customComponent}}
+{{> custom-component }}
 ```
 
 ### Images
@@ -225,21 +225,46 @@ Avoid using any of the following names, **they will be ignore when uploading to 
 - button-more-01.png
 - button-more-02.png
 
+### Data
+
+Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores.
+
+For instance: The information showed in `custom-component.hbs` component is feeded by `custom_component.json` file.
+
+To access the data saved on these files, use the following syntax:
+
+```handlebars
+{{{ custom_component.path.to.data }}}
+```
+
+
+There are some cases that you will need different content for the same block, specially for the newsletters (Clients and JLD). In that case you can define two main objects in the JSON file:
+
+```json
+{
+    "clients": {
+        "data": "Specific to the client's newsletter"
+    },
+    "jld": {
+        "data": "Specific to the JLD's newsletter"
+    }
+}
+```
+
 
 ## How to use
 
 
 ### Workflow configuration
 
-Before you start, check/modify the **custom-config.js** file and make sure it has the correct configuration:
+Before you start, check/modify the **custom-config.json** file and make sure it has the correct configuration:
 
 - **`conversionType`**: Type of conversion: `blast` or `newsletter`.
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
 - **`current_month`**: Current month. The same as the previous one.
-- **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
-- **`compressed_file_name`**: Name of the file where a copy of the **custom-config.js** file, `dist/` and `src/` folder are compressed.
+- **`compressed_file_name`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
     - **`src`**: Folder where all development files are stored.
     - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
@@ -255,9 +280,8 @@ Before you start, check/modify the **custom-config.js** file and make sure it ha
 - **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
 - **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
 - **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
-- **`grunt send`**: Send a copy of a template to all emails listed at the end of this document.
 - **`grunt upload`**: Upload all the images to the remote server.
-- **`grunt zip`**: Zip the **custom-config.js** file, `src/` and `dist/` folders.
+- **`grunt zip`**: Zip the **custom-config.json** file, `src/` and `dist/` folders.
 
 For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
 
@@ -291,38 +315,34 @@ If you really need a class in the final HTML, use the `id` attribute. The workfl
 #### Responsive Classes
 
 - **`collapse-one`**: Force a 100% width.
-- **`mobile-reset-width`**: Resets the width of an element.
-- **`mobile-reset-height`**: Resets the height.
-- **`mobile-reset-bg-image`**: Removes any image set as a background.
-- **`mobile-hide`**: Hides it.
-- **`mobile-align-center`**: Centers the text and if the element has a smaller width than its parent, it will be centered as well.
-- **`mobile-padding-top`**: Forces a top padding of 10px.
+- **`mobile-reset-width`**: Reset the width of an element.
+- **`mobile-reset-height`**: Reset the height.
+- **`mobile-reset-bg-image`**: Remove any image set as a background.
+- **`mobile-hide`**: Hide it.
+- **`mobile-align-center`**: Center the text and if the element has a smaller width than its parent, it will be centered as well.
+- **`mobile-fz-20`**: Chage the `font-size` to 20px.
+- **`mobile-padding-top`**: Force a top padding of 10px.
+- **`mobile-padding-right`**: Top → 10px.
 - **`mobile-padding-bottom`**: Botom → 10px.
+- **`mobile-padding-left`**: Left → 10px.
 - **`mobile-padding-horizontal-sides`**: Right & Left → 10px.
 - **`mobile-padding-vertical-sides`**: Top & Bottom → 10px.
 - **`mobile-padding-full`**: All sides → 10px.
 - **`mobile-padding-uneven-top`**: Top → 45px.
 - **`mobile-padding-uneven-bottom`**: Bottom → 45px.
 - **`mobile-padding-uneven-full`**: All Sides → 45px.
-- **`mobile-no-padding-top`**: Removes the top padding.
-- **`mobile-no-padding-bottom`**: Removes the bottom padding.
-- **`mobile-no-padding-horizontal-sides`**: Removes the right and left paddings.
-- **`mobile-no-float`**: Resets float to none.
-- **`mobile-no-border`**: Removes all borders.
+- **`mobile-no-padding-top`**: Remove the top padding.
+- **`mobile-no-padding-bottom`**: Remove the bottom padding.
+- **`mobile-no-padding-horizontal-sides`**: Remove the right and left paddings.
+- **`mobile-no-float`**: Reset float to none.
+- **`mobile-no-border`**: Remove all borders.
 
 
-## Mailgun configuration
+## Resources
 
-Mailgun is used to send test emails to all the [recipients](#recipients) below. Since we are using a free account, we are limited to send 10,000 mails per month. But I think this is more than enough, but still be careful `໒( ͡ᵔ ▾ ͡ᵔ )७`.
+### Recipients for testing
 
-### Login information
-
-**Username** | **Password**
------------- | ------------
-diego.miguel@justia.com | diet32coke
-
-
-### Recipients
+Use the following accounts to test desktop and web-based email clients:
 
 Client | Account | Description
 ------ | ------- | -----------
@@ -332,19 +352,7 @@ Yahoo! | jmailtester@yahoo.com | **Password:** *diet32coke*
 AOL | jmailtester@aol.com | **Password:** *diet32coke* <br> **Security question:** <br> *What was the name of your first pet? → puppy*
 Apple Mail | Use one of the previous accounts. | I recommend you to include the Justia account. <br>Check [this article](https://support.apple.com/en-us/HT204093#setup) if you don't know how to do it.
 
-
-### Add another email account
-
-> **Note:** You need to log in first to modify this section.
-
-Go to the [Authorized Recipients](https://mailgun.com/app/testing/recipients) section and "Invite a New Recipient" to the list (Mailgun will ask you to verify the new account before you can use it).
-
-Now open the **secrets.js** file and include the new account in the `"recipient"` option.
-
-And you are ready to go `s( ^ ‿ ^)-b`.
-
-
-## Resources
+### Useful links
 
 - http://www.leemunroe.com/responsive-email-design/ (Really good)
 - https://css-tricks.com/override-gmail-mobile-optimized-email/ (Check this post when the template is not responsive)
