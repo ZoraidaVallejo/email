@@ -11,12 +11,12 @@
         </td>
     </tr>
     {{#forEach social_media_news.articles }}
-    <tr>
-        <!-- story-item -->
-        <td class="story-item" responsive="mobile-padding-horizontal-sides">
-            <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
-            <p>{{{ this.description }}}</p>
-        </td>
-    </tr>
+        <tr>
+            <!-- story-item -->
+            <td class="story-item" responsive="mobile-padding-horizontal-sides">
+                <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
+                <p>{{{ this.description }}}</p>
+            </td>
+        </tr>
     {{/forEach}}
 </table>

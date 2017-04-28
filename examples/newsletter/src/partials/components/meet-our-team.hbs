@@ -2,27 +2,48 @@
 <!-- MEET OUR TEAM -->
 
 <!-- w-text-image w-meet-our-team -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-meet-our-team set-max-width">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-meet-our-team set-max-width {{#gt (length meet_our_team.blocks) 1 }}multiple{{/gt}}">
+
+    {{#gt (length meet_our_team.blocks) 1 }}
+        <tr>
+            <!-- items-main-title -->
+            <td class="items-main-title" responsive="mobile-padding-horizontal-sides">
+                <!-- widget-type-name -->
+                <h4 class="widget-type-name">MEET OUR TEAM</h4>
+            </td>
+        </tr>
+    {{/gt}}
+
     <tr>
         <!-- item-list -->
         <td class="item-list" responsive="mobile-padding-horizontal-sides">
-            <!-- item-1 -->
-            <table cellpadding="0" cellspacing="0" border="0" class="item-1">
-                <tr>
-                    <!-- item-desc -->
-                    <td class="item-desc" responsive="collapse-one">
-                        <!-- widget-type-name -->
-                        <h4 class="widget-type-name">MEET OUR TEAM</h4>
-                        <!-- widget-main-title -->
-                        <h2 class="widget-main-title">{{{ meet_our_team.title }}}</h2>
-                        <p>{{{ meet_our_team.description }}}</p>
-                    </td>
-                    <!-- item-image -->
-                    <td class="item-image" responsive="mobile-hide collapse-one">
-                        <img src="{{ default.image_dir_src }}/meet-our-team-01.jpg" alt="{{ meet_our_team.title }}" border="0" />
-                    </td>
-                </tr>
-            </table>
+            {{#forEach meet_our_team.blocks }}
+                <!-- item-{{ index }} -->
+                <table cellpadding="0" cellspacing="0" border="0" class="item-{{ index }}">
+                    <tr>
+                        <!-- item-desc -->
+                        <td class="item-desc" responsive="collapse-one">
+
+                            {{#eq (length ../meet_our_team.blocks) 1 }}
+                                <!-- widget-type-name -->
+                                <h4 class="widget-type-name">MEET OUR TEAM</h4>
+                            {{/eq}}
+
+                            <!-- widget-main-title -->
+                            <h2 class="widget-main-title">{{{ this.title }}}</h2>
+                            <p>{{{ this.description }}}</p>
+                        </td>
+                        <!-- item-image -->
+                        <td class="item-image" responsive="mobile-hide collapse-one">
+                            {{#if this.image }}
+                                <img src="{{ ../../default.image_dir_src }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                            {{else}}
+                                &nbsp;
+                            {{/if}}
+                        </td>
+                    </tr>
+                </table>
+            {{/forEach}}
         </td>
     </tr>
 </table>

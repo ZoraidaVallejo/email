@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // T Y P O G R A P H Y
@@ -12,31 +6,21 @@
 h1,
 h2,
 h4 {
+    margin: 0;
     font-family: $sans-serif-font-family;
     font-weight: $font-weight--normal;
-    margin: 0;
 }
 
-p, ol, ul {
-    font-family: $sans-serif-font-family;
-    font-size: ft-exist(16px);
-    line-height: 22px;
-    font-weight: $font-weight--normal;
+p,
+ol,
+ul {
     margin: 0;
+    font-family: $sans-serif-font-family;
+    font-size: 16px;
+    font-weight: $font-weight--normal;
+    line-height: 22px;
 }
 
 a {
     color: plt('accent');
 }
-
-// Break long strings to prevent x-scrolling
-code,
-pre,
-.word-wrap {
-    word-break: break-word;
-    word-wrap: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-}
-

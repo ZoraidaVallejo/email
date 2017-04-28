@@ -76,12 +76,6 @@ div[style*='margin: 16px 0;'] {
   line-height: 100%;
 }
 
-@media screen {
-  [style*='font'] {
-    font-family: Arial, sans-serif !important;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   .collapse-one {
     display: block !important;
@@ -156,7 +150,7 @@ div[style*='margin: 16px 0;'] {
   }
   .main-footer-v1 .logo {
     padding-bottom: 20px !important;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #00b3e3;
   }
   .main-footer-v1 .social {
     padding-top: 20px !important;

@@ -1,11 +1,25 @@
 
 <!-- ADVERTISEMENT -->
 
-<!-- w-advertisement -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement set-max-width">
+<!-- w-advertisement w-client-ad-01 -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-client-ad-01 set-max-width">
     <tr>
-        <td>
-            <a href="{{ advertisements.clients.ad1.link }}" target="_blank"><img src="{{ default.image_dir_src }}/{{ advertisements.clients.ad1.image }}" alt="{{ advertisements.clients.ad1.alt }}" border="0" /></a>
+    <!-- ad-image -->
+        <td class="ad-image">
+            <a href="{{ advertisements.clients.ad1.link }}" target="_blank">
+                <img src="{{ default.image_dir_src }}/{{ advertisements.clients.ad1.image }}" alt="{{ advertisements.clients.ad1.alt }}" border="0" />
+            </a>
         </td>
     </tr>
+
+    {{#if advertisements.clients.ad1.description }}
+        <tr>
+        <!-- ad-desc -->
+            <td class="ad-desc" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+                {{#each advertisements.clients.ad1.description }}
+                    <p>{{{ this }}}</p>
+                {{/each}}
+            </td>
+        </tr>
+    {{/if}}
 </table>
