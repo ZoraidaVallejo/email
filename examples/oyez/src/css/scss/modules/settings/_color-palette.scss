@@ -1,0 +1,49 @@
+/// ---------------------------
+// 
+// Version: 1.0.1
+// 
+/// ---------------------------
+
+
+// ----------------------------------------------------------------------------------------------------------
+// C O L O U R   P A L E T T E
+// ----------------------------------------------------------------------------------------------------------
+
+$grayscale-palette: (
+    'black': #000000,
+    'mine-shaft': #282828,
+    'tundora': #404040,
+    'silver': #bdbdbd,
+    'mercury': #e3e3e3, // #dcdcdc
+    'concrete': #f3f3f3,
+    'white': #ffffff
+);
+
+$primary-palette: (
+    'supernova': #ffca00,
+    'shuttle-gray': #5f646e,
+    'cape-cod': #3d4041,
+    'picton-blue': #008abb,
+    'jade': #01b463,
+    'flush-orange': #ff7f00,
+    'sunset-orange': #ff4747
+);
+
+$social-media-palette: (
+    'facebook': #3b5998,
+    'google-plus': #dc4e41,
+    'linkedin': #0077b5,
+    'stumbleupon': #eb4924,
+    'blogger': #f59038,
+    'twitter': #55acee,
+    'justia': #06357a,
+    'share': #f9724b,
+    'pdf': #ff0000
+);
+
+$ui-color-pallete: (
+    'accent': map-get($primary-palette, 'picton-blue')
+);
+
+$colour-palette: map-extend($grayscale-palette, $primary-palette, $ui-color-pallete);
+
