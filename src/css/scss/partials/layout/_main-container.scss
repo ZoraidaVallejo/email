@@ -4,34 +4,31 @@
 // ----------------------------------------------------------------------------------------------------------
 
 body {
-    background-color: plt('black-haze');
+    background-color: plt('mercury');
 }
 
 .body {
     width: 100%;
-    background-color: plt('black-haze');
+    background-color: plt('mercury');
 }
 
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
 .container {
-    width: $max-width;
+    display: block;
+    width: auto;
     max-width: $max-width;
-    margin: 0 auto !important; /* makes it centered */
+    padding: 10px 0;
     Margin: 0 auto !important; /* makes it centered */
 }
 
+// This should also be a block element, so that it will fill 100% of the .container
 .content {
-    width: 100%;
-    background-color: plt('white');
-}
-
-.spacer {
     display: block;
-    opacity: 0;
-    width: $inner-max-width;
-    height: 1px !important;
-    margin: 0;
-    font-size: 0 !important;
+    max-width: $max-width;
+    padding: 0;
+    margin: 0 auto;
+    Margin: 0 auto !important;
+    background-color: plt('white');
 }
 
 
@@ -44,12 +41,22 @@ body {
 
     &-type-name {
         padding: 0 0 5px;
-        color: plt('sirocco');
-        font: $font-weight--bold 14px/1.1 $sans-serif-font-family;
+        color: plt('shuttle-gray');
+        font-size: 14px;
+        font-weight: $font-weight--bold;
+        text-transform: uppercase;
+        line-height: 14px;
     }
 
     &-main-title {
         color: plt('black');
-        font: $font-weight--normal 29px/1.27 $sans-serif-font-family;
+        font-size: 29px;
+        font-weight: $font-weight--normal;
+        line-height: 37px;
     }
+}
+
+// Adds padding to content - use this instead of paragraphs for consistent padding/margin rendering
+.content-block {
+    padding: 45px $padding;
 }

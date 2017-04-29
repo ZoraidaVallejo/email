@@ -14,6 +14,7 @@ $grayscale-palette: (
 );
 
 $primary-palette: (
+    'dodger-blue': #2bb2f8,
     'catalina-blue': #06357a,
     'science-blue': #0a56c6,
     'cobalt': #084aab,
@@ -67,7 +68,7 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': map-get($new-primary-palette, 'cerulean'),
+    'accent': map-get($primary-palette, 'dodger-blue'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')

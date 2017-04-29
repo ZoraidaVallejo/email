@@ -1,9 +1,9 @@
 {
-    "conversionType": "newsletter",
+    "conversionType": "oyez",
     "port": 4000,
     "justatic_version": "1",
-    "current_year": "0000",
-    "current_month": "00",
+    "current_year": "2017",
+    "current_month": "04",
 
     "paths": {
         "src": "src",
@@ -11,9 +11,9 @@
         "dist": "dist",
         "dist_img": "dist/img",
         "preview": "preview",
-        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/newsletters/<%= current_year %>/<%= current_month %>",
-        "remote_img_path": "/mnt/files/emails/images/newsletters/<%= current_year %>/<%= current_month %>"
+        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/lawsites/<%= current_year %>/<%= current_month %>",
+        "remote_img_path": "/mnt/files/emails/images/lawsites/<%= current_year %>/<%= current_month %>"
     },
 
-    "compressed_file_name": "newsletter-<%= current_year %>-<%= current_month %>"
+    "compressed_file_name": "lawsites"
 }

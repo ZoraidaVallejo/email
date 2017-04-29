@@ -7,6 +7,10 @@ $padding: 30px; // For consistent padding
 $max-width: 600px; // Width of the content area
 $inner-max-width: $max-width - ($padding * 2);
 
+// JUSTIA INSIGHTS DIMENSIONS
+$justia-insights-width: 235px;
+$justia-insights-height: 33px;
+
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -16,3 +20,7 @@ $inner-max-width: $max-width - ($padding * 2);
 @import
 'settings/color-palette',
 'settings/typography';
+// 'settings/paths',
+// 'settings/miscellaneous',
+// 'settings/dimensions',
+// 'settings/buttons';
