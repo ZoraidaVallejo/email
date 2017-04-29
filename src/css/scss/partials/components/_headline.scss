@@ -19,18 +19,3 @@
         line-height: 24px;
     }
 }
-
-.intro--message {
-
-    a {
-        text-decoration: none;
-    }
-
-    p {
-        margin-bottom: $padding;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-}

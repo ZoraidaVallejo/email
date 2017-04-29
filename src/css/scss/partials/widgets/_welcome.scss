@@ -10,12 +10,9 @@ $main-image--dimensions: image-dimensions('/src/img/main-image-01.jpg');
 .intro {
     background-color: plt('white');
 
-    .head-img {
+    img {
+        display: block;
         width: nth($main-image--dimensions, 1);
-        height: nth($main-image--dimensions, 2);
-        background: url('../img/main-image-01.jpg');
-        background-repeat: no-repeat;
-        background-position: center top;
-        vertical-align: middle;
+        margin: 0;
     }
 }

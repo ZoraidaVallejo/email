@@ -11,5 +11,9 @@
         padding: 13px $padding;
         font: 13px/1.2 $sans-serif-font-family;
         text-align: center;
+
+        a {
+            color: plt('dodger-blue');
+        }
     }
 }

@@ -5,6 +5,7 @@
 
 $grayscale-palette: (
     'black': #000000,
+    'scorpion': #5a5a5a,
     'mine-shaft': #282828,
     'tundora': #444444,
     'silver': #bdbdbd,
@@ -14,6 +15,7 @@ $grayscale-palette: (
 );
 
 $primary-palette: (
+    'blumine': #1d548a,
     'dodger-blue': #2bb2f8,
     'catalina-blue': #06357a,
     'science-blue': #0a56c6,
@@ -41,7 +43,7 @@ $new-primary-palette: (
     'blaze-orange': #ff6b00,
     'green-haze': #00af41,
     'shamrock': #3fd4ad,
-    'cerulean': #00b3e3,
+    'cerulean': #0391da,
     'alabaster': #f7f7f7,
     'black-haze': #e7e8e8,
     'edward': #9fa1a1,
@@ -68,7 +70,7 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': map-get($primary-palette, 'dodger-blue'),
+    'accent': map-get($new-primary-palette, 'cerulean'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')
