@@ -1,0 +1,17 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// S P E C I A L   F O N T   F A M I L I E S
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'../../../node_modules/sassy-maps/sass/sassy-maps';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+// ----------------------------------------------------------------------------------------------------------
+
+@include font-face('OpenSans', 'OpenSans-Regular', 400, normal);
+@include font-face('OpenSans', 'OpenSans-Bold', 700, normal);

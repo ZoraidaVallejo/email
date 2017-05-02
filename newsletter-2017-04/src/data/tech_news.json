@@ -1,0 +1,27 @@
+{
+    "articles": [{
+        "title": "Amazon Releases Smart Speaker Data to Court",
+        "link": "http://www.abajournal.com/news/article/amazon_releases_smart_speaker_data_to_court",
+        "description": "Amazon has agreed to release information contained in its smart speaker data related to an Arkansas murder case. This follows a discovery fight where Amazon filed a motion to quash a subpoena based on the argument that the First Amendment protects against requests for information obtained through its smart speakers. Amazon had initially argued that its product, along with the service’s responses, constituted protected speech under the First Amendment."
+    }, {
+        "title": "Police Win Warrant to Search Dakota Access Pipeline Protest Facebook Page",
+        "link": "https://arstechnica.com/tech-policy/2017/03/police-win-warrant-to-search-dakota-access-pipeline-protest-facebook-page/",
+        "description": "Local police in Washington State have obtained a court warrant that will allow them to search a Facebook group page, which is dedicated to protests related to the Dakota Access Pipeline. The warrant allows police not only to access the account information of individuals who have interacted on the group page during a period in February 2017, but to seek out content such as Facebook messages, photos, videos, posts to the group’s wall, and information about group users’ locations. The ACLU has since intervened, filing a motion to quash the warrant, under the argument that the sought-after data is constitutionally protected speech under the First Amendment. The Whatcom County prosecutor's office later chose to <a href=\"http://www.huffingtonpost.com/entry/dakota-access-pipeline-protesters-facebook-searches_us_58c186c5e4b054a0ea68a431\" target=\"_blank\">withdraw the search warrant</a> on March 13."
+    }, {
+        "title": "GOP Senators’ New Bill Would Let ISPs Sell Your Web Browsing Data",
+        "link": "https://arstechnica.com/tech-policy/2017/03/gop-senators-new-bill-would-let-isps-sell-your-web-browsing-data/",
+        "description": "In March, Republican senators introduced a bill that would eliminate rules associated with internet service provider (ISP) privacy. These Federal Communications Commision (FCC) rules require ISPs to obtain a consumer’s explicit consent before they can sell or share a customer’s internet browsing data or other private information with third parties, such as advertisers. The Senate ultimately <a href=\"https://arstechnica.com/tech-policy/2017/03/for-sale-your-private-browsing-history/\" target=\"_blank\">voted in favor</a> of the bill. A week later, the US House of Representatives also voted in favor. This legislation is now on its way to President Donald Trump to sign or veto."
+    }, {
+        "title": "Russian Spies Are Behind the Yahoo Data Breach, Says the DOJ",
+        "link": "http://www.recode.net/2017/3/15/14934992/russian-spies-yahoo-data-breach-doj",
+        "description": "The Department of Justice recently charged two criminal hackers and two Russian spies with the theft of 500 million Yahoo users’ account information that occurred in 2014. Not only is this one of the largest data breaches in history, this is also the first instance of a known cyber attack where criminal charges have been issued against Russian Federal Security Service officers."
+    }, {
+        "title": "Court Says FBI Doesn’t Have to Hand Over Its Rules for Surveilling Domestic Journalists",
+        "link": "http://abovethelaw.com/2017/03/court-says-fbi-doesnt-have-to-hand-over-its-rules-for-surveilling-domestic-journalists/",
+        "description": "A federal judge has sided with the Department of Justice and FBI in a finding that methods associated with the their investigative techniques are too sensitive to hand over to the public, including journalists. This is based on the government’s assertion that rules surrounding its National Security Letters (to which the FBI has been granted an exception) contain information of interest to national security. Consequently, the FBI remains free to use National Security Letters to obtain information about journalists, such as call records."
+    }, {
+        "title": "Google Maps Will Let You Share Your Location with Friends and Family for a Specific Period of Time",
+        "link": "https://techcrunch.com/2017/03/22/google-maps-now-lets-you-share-your-location-with-friends-and-family-for-a-specific-period-of-time/",
+        "description": "A new feature in Google Maps will allow you to share your location with friends and family for a set amount of time. While this isn’t the first app to offer such a feature, its integration with Google Maps makes it possible to give others directions to your current location or even share your whereabouts with specific individuals on a more long-term basis. People who don’t have Google Maps can opt to share their location by sending a short link via SMS instead."
+    }]
+}

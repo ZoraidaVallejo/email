@@ -1,0 +1,23 @@
+{
+    "clients": {
+        "ad1": {
+            "image": "answers-image-01.png",
+            "alt": "Get New Questions by Email",
+            "link": "#",
+            "description": []
+        }
+    },
+
+    "jld": {
+        "ad1": {
+            "image": "jld-connect-image-02.png",
+            "alt": "Connect with Clients by Putting a Face to Your Name",
+            "link": "#"
+        },
+        "ad2": {
+            "image": "jld-website-image-01.png",
+            "alt": "Contact Us Now",
+            "link": "#"
+        }
+    }
+}

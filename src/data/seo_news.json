@@ -1,0 +1,24 @@
+{
+    "articles": [
+        {
+            "title": "Harnessing the Power of Online Reviews",
+            "link": "http://searchengineland.com/smx-west-session-harnessing-power-online-reviews-271823",
+            "description": "Local businesses increasingly depend on online reviews to attract customers. In fact, studies show that more than half of prospective customers trust user-generated content (such as customer reviews) over information found on a company website or in news articles. To that end, this article offers advice on handling bad reviews (view them as a business issue, not a review issue) and cultivating good reviews."
+        },
+        {
+            "title": "Fact Check Now Available in Google Search and News Around the World",
+            "link": "https://blog.google/products/search/fact-check-now-available-google-search-and-news-around-world/",
+            "description": "Google has continued its efforts to help users differentiate between factually accurate and false statements from online sources. The search giant has expanded the Fact Check feature it rolled out on a limited basis last fall to all of Google Search and News worldwide. However, this feature won’t be available in all searches, and in order for publishers to be included they must use a specific fact-checking schema markup or tool."
+        },
+        {
+            "title": "Google to Include Built-in Ad Blocker in Chrome Browser",
+            "link": "https://www.searchenginejournal.com/google-include-built-ad-blocker-chrome-browser/",
+            "description": "Recent reports indicate that Google plans to include an ad-blocker in its Chrome browser, despite the fact that Google itself sells digital ads. The apparent reason for this move is a change in ad standards put forth by an industry group that has identified ads such as pop-ups and auto-playing videos as being “beneath a threshold of consumer acceptability.” In light of this development as well as the proliferation of third-party ad blockers, reports speculate that Google’s strategy is to filter out bad ads in order to make users more receptive to higher quality ads and therefore less likely to block them."
+        },
+        {
+            "title": "Google Brings ‘Your Timeline’ to iOS: A Searchable History of Your Life",
+            "link": "https://www.searchenginejournal.com/google-brings-timeline-ios-searchable-history-life/",
+            "description": "Google is now providing users with a searchable history of locations they have physically visited via its ‘Your Timeline’ feature in the iOS version of Google Maps. This tool, which in the past was only available on the Android system, allows users to not only retrace their steps, but also to edit or delete information from their location timelines. It also stores information about all of a user’s past visits to a particular location for review via one succinct ‘Place Card.’"
+        }
+    ]
+}

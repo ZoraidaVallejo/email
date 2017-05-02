@@ -1,0 +1,34 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// E T H I C S    R E M I N D E R
+// ----------------------------------------------------------------------------------------------------------
+
+.w-ethics-reminder {
+    background-color: plt('white');
+
+    .ethics {
+
+        &-title {
+            padding: 45px $padding 20px;
+        }
+
+        &-desc {
+            padding: 0 $padding 20px;
+
+            &.-extra {
+                padding: 20px $padding 0;
+            }
+        }
+
+        &-link {
+            padding: 0 $padding 45px;
+        }
+    }
+
+    tr:last-child {
+
+        td[class] {
+            padding: 0 $padding 45px;
+        }
+    }
+}
