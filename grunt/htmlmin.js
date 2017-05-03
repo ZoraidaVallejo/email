@@ -5,7 +5,7 @@ module.exports = {
 
     live: {
         options: {
-            removeComments: true,
+            removeComments: false,
             collapseWhitespace: true,
             removeEmptyAttributes: function(attrName) {
                 return attrName === 'style';

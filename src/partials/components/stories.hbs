@@ -6,101 +6,47 @@
     <tr>
         <!-- stories-desc -->
         <td class="stories-desc" responsive="mobile-padding-horizontal-sides">
-            <!-- story -->
-            <table border="0" cellpadding="0" cellspacing="0" class="story">
-                <tr>
-                    <!-- story-date -->
-                    <td class="story-date">
-                        Story #1
-                    </td>
-                    <!-- story-date align-right -->
-                    <td class="story-date align-right">
-                        March 15, 2017
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-title -->
-                    <td colspan="2" class="story-title">
-                        <p><a href="#" target="_blank"><b>Probo fugit electram in quo id eum ferri sapientem instructior reque iusto ad sed eros justo intellegat ut has.</b></a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-desc -->
-                    <td colspan="2" class="story-desc">
-                        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-more -->
-                    <td colspan="2" class="story-more">
-                        <p><a href="#" target="_blank"><b>Read More »</b></a></p>
-                    </td>
-                </tr>
-            </table>
+            {{#times 4 }}
+                <!-- story story-{{ @index }} -->
+                <table border="0" cellpadding="0" cellspacing="0" class="story story-{{ @index }}">
+                    <tr>
+                        <!-- story-date -->
+                        <td class="story-date">
+                            Story #{{ @index }}
+                        </td>
+                        <!-- story-date align-right -->
+                        <td class="story-date align-right">
+                            March 15, 2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- story-title -->
+                        <td colspan="2" class="story-title">
+                            <p><a href="#" target="_blank"><b>Probo fugit electram in quo id eum ferri sapientem instructior reque iusto ad sed eros justo intellegat ut has.</b></a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- story-desc -->
+                        <td colspan="2" class="story-desc">
+                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- story-more -->
+                        <td colspan="2" class="story-more">
+                            <p><a href="#" target="_blank"><b>Read More »</b></a></p>
+                        </td>
+                    </tr>
+                </table>
 
-            <!-- story -->
-            <table border="0" cellpadding="0" cellspacing="0" class="story">
-                <tr>
-                    <!-- story-date -->
-                    <td class="story-date">
-                        Story #2
-                    </td>
-                    <!-- story-date align-right -->
-                    <td class="story-date align-right">
-                        March 15, 2017
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-title -->
-                    <td colspan="2" class="story-title">
-                        <p><a href="#" target="_blank"><b>Probo fugit electram in quo id eum ferri sapientem instructior reque iusto ad sed eros justo intellegat ut has.</b></a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-desc -->
-                    <td colspan="2" class="story-desc">
-                        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-more -->
-                    <td colspan="2" class="story-more">
-                        <p><a href="#" target="_blank"><b>Read More »</b></a></p>
-                    </td>
-                </tr>
-            </table>
-
-            <!-- story -->
-            <table border="0" cellpadding="0" cellspacing="0" class="story">
-                <tr>
-                    <!-- story-date -->
-                    <td class="story-date">
-                        Story #3
-                    </td>
-                    <!-- story-date align-right -->
-                    <td class="story-date align-right">
-                        March 15, 2017
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-title -->
-                    <td colspan="2" class="story-title">
-                        <p><a href="#" target="_blank"><b>Probo fugit electram in quo id eum ferri sapientem instructior reque iusto ad sed eros justo intellegat ut has.</b></a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-desc -->
-                    <td colspan="2" class="story-desc">
-                        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-more -->
-                    <td colspan="2" class="story-more">
-                        <p><a href="#" target="_blank"><b>Read More »</b></a></p>
-                    </td>
-                </tr>
-            </table>
+                {{#unless @isLast }}
+                    <!-- story-separator -->
+                    <table border="0" cellpadding="0" cellspacing="0" class="story-separator">
+                        <tr><td>&nbsp;</td></tr>
+                        <tr><td class="border">&nbsp;</td></tr>
+                    </table>
+                {{/unless}}
+            {{/times}}
         </td>
     </tr>
 </table>

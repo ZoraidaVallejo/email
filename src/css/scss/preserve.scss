@@ -251,4 +251,21 @@ div[style*='margin: 16px 0;'] {
             padding-top: 20px !important;
         }
     }
+
+    .main-footer-v3 {
+
+        .logo {
+            padding-bottom: 20px !important;
+        }
+
+        .footernav {
+            padding-top: $padding !important;
+            background-color: plt('white');
+
+            span,
+            a {
+                color: plt('justia') !important;
+            }
+        }
+    }
 }

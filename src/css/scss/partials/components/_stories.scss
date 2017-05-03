@@ -24,5 +24,18 @@
         &-desc {
             padding: 0 0 8px;
         }
+
+        &-separator {
+
+            td {
+                padding: 0 0 $padding;
+                font-size: 0;
+            }
+
+            .border {
+                padding: 0 0 40px;
+                border-top: 1px solid plt('black-haze');
+            }
+        }
     }
 }

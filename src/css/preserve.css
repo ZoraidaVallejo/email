@@ -164,4 +164,15 @@ div[style*='margin: 16px 0;'] {
   .main-footer-v1 .social {
     padding-top: 20px !important;
   }
+  .main-footer-v3 .logo {
+    padding-bottom: 20px !important;
+  }
+  .main-footer-v3 .footernav {
+    padding-top: 30px !important;
+    background-color: #ffffff;
+  }
+  .main-footer-v3 .footernav span,
+  .main-footer-v3 .footernav a {
+    color: #06357a !important;
+  }
 }

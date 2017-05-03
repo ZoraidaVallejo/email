@@ -19,7 +19,10 @@ module.exports.register = function(Handlebars, options) {
         var accum = '';
 
         for (var i = 0; i < n; ++i) {
-            accum += block.fn(i);
+            block.data.index = i + 1;
+            block.data.isFirst = i === 0;
+            block.data.isLast = i === (n - 1);
+            accum += block.fn(this);
         }
 
         return accum;
