@@ -28,11 +28,12 @@ h4 {
 
 p {
     margin: 0;
-    font: 16px/1.38 $sans-serif-font-family;
+    font: 16px/1.5 $sans-serif-font-family;
 }
 
 a {
     color: plt('accent');
+    text-decoration: none;
 }
 
 .set-max-width {

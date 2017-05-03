@@ -1,0 +1,26 @@
+{{!
+    Notification Block
+    Params:
+        date:   (string) unescaped Date of the current newslatter
+}}
+{{> layoutHack tableStart=true }}
+    <!-- main-header-v3 -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-header-v3 set-max-width">
+        <tr>
+            <!-- view-in-browser -->
+            <td class="view-in-browser" responsive="mobile-padding-horizontal-sides">
+                <!-- spacer -->
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0" />
+                <p>If you are unable to see this message, <a href="{{ default.header.browser }}" target="_blank">click here</a> to view it in a web browser.</p>
+            </td>
+        </tr>
+        <tr>
+            <!-- logo -->
+            <td class="logo" responsive="mobile-padding-horizontal-sides">
+                <!-- spacer -->
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0" />
+                <a href="{{ default.header.logo.v3.url }}" target="_blank"><img src="{{ default.header.logo.v3.source }}" alt="{{ default.header.logo.v3.alt }}" border="0" /></a>
+            </td>
+        </tr>
+    </table>
+{{> layoutHack tableEnd=true }}

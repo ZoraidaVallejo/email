@@ -1,0 +1,47 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// W E L C O M E   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$welcome-image--dimensions: image-dimensions('/src/img/banner-image-01.jpg');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-main-banner {
+    background-color: plt('cerulean');
+
+    .banner-img {
+        width: nth($welcome-image--dimensions, 1);
+        height: nth($welcome-image--dimensions, 2);
+        background: url('../img/banner-image-01.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .banner-tagline {
+        width: auto;
+        text-align: center;
+
+        .icon {
+            width: 64px;
+            padding: 0 0 0 5px;
+            color: plt('white');
+            vertical-align: middle;
+
+            img {
+                width: 64px;
+                height: 64px;
+            }
+        }
+
+        .tagline {
+            padding: 0 5px 0 20px;
+            color: plt('white');
+            vertical-align: middle;
+
+            p {
+                font: 32px/1.2 $sans-serif-font-family;
+            }
+        }
+    }
+}

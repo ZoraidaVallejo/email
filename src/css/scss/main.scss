@@ -19,29 +19,20 @@
 'partials/layout/main-container',
 'partials/layout/header-v1',
 'partials/layout/header-v2',
+'partials/layout/header-v3',
 'partials/layout/footer-v1',
-'partials/layout/footer-v2';
+'partials/layout/footer-v2',
+'partials/layout/footer-v3';
 
 @import
 'partials/ui-components/buttons',
-'partials/ui-components/label-dividers',
 'partials/ui-components/columns-grid';
 
 @import
-'partials/components/welcome',
-'partials/components/stories-list',
-'partials/components/people-list',
-'partials/components/tip-month',
-'partials/components/in-the-news',
-'partials/components/column-text-image',
-'partials/components/did-you-know',
-'partials/components/advertisement',
-'partials/components/internet-stats',
-'partials/components/featured-site-month',
-'partials/components/law-events';
+'partials/components/main-banner',
+'partials/components/intro',
+'partials/components/in-this-issue',
+'partials/components/stories';
 
 @import
 'partials/misc/other';
-
-@import
-'partials/components/jld-specific';

@@ -9,6 +9,7 @@ $grayscale-palette: (
     'tundora': #444444,
     'silver': #bdbdbd,
     'mercury': #e3e3e3,
+    'alabaster': #f8f8f8,
     'concrete': #f3f3f3,
     'white': #ffffff
 );
@@ -67,7 +68,7 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': map-get($new-primary-palette, 'cerulean'),
+    'accent': map-get($social-media-palette, 'justia'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')

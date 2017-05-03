@@ -8,10 +8,30 @@ module.exports.register = function(Handlebars, options) {
         return getMonths(val);
     });
 
-    Handlebars.registerHelper('concat', function() {
-        var arg = Array.prototype.slice.call(arguments, 0);
+    Handlebars.registerHelper('concat', function(...args) {
+        var arg = Array.prototype.slice.call(args, 0);
 
         arg.pop();
         return arg.join('');
+    });
+
+    Handlebars.registerHelper('times', function(n, block) {
+        var accum = '';
+
+        for (var i = 0; i < n; ++i) {
+            accum += block.fn(i);
+        }
+
+        return accum;
+    });
+
+    Handlebars.registerHelper('for', function(from, to, incr, block) {
+        var accum = '';
+
+        for (var i = from; i < to; i += incr) {
+            accum += block.fn(i);
+        }
+
+        return accum;
     });
 };

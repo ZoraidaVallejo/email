@@ -42,14 +42,8 @@ body {
 
 .widget {
 
-    &-type-name {
-        padding: 0 0 5px;
-        color: plt('sirocco');
-        font: $font-weight--bold 14px/1.1 $sans-serif-font-family;
-    }
-
     &-main-title {
         color: plt('black');
-        font: $font-weight--normal 29px/1.27 $sans-serif-font-family;
+        font: $font-weight--bold 20px/1.27 $sans-serif-font-family;
     }
 }

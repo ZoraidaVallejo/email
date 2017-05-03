@@ -2,6 +2,7 @@
     "image_dir_src": "../src/img",
 
     "header": {
+        "browser": "#",
         "logo": {
             "v1": {
                 "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
@@ -12,6 +13,11 @@
                 "source": "https://justatic.com/v/20160815a/branding/logos/emails/justia-lawyer-profile-essentials-blue.png",
                 "url": "https://lawyers.justia.com/premium-placement",
                 "alt": "Justia Lawyer Profile Essentials"
+            },
+            "v3": {
+                "source": "https://justatic.com/v/20160815a/branding/logos/emails/justia-blogging-ideas-blue.png",
+                "url": "#",
+                "alt": "Justia Blogging Ideas"
             }
         }
     },

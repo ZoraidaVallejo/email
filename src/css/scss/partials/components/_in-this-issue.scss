@@ -1,0 +1,17 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// I N   T H I S   I S S U E
+// ----------------------------------------------------------------------------------------------------------
+
+.w-this-issue {
+    background-color: plt('white');
+
+    .this-issue-title {
+        padding: 40px $padding 10px;
+    }
+
+    .this-issue-desc {
+        padding: 0 $padding $padding;
+        border-bottom: 1px solid plt('black-haze');
+    }
+}

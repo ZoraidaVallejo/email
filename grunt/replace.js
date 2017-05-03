@@ -28,6 +28,7 @@ module.exports = function() {
             'mobile-hide',
             'mobile-align-center',
             'mobile-fz-20',
+            'mobile-fz-25',
             'mobile-padding-top',
             'mobile-padding-right',
             'mobile-padding-bottom',

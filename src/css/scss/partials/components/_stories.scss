@@ -1,0 +1,28 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// S T O R I E S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-stories {
+    background-color: plt('white');
+
+    .stories-desc {
+        padding: 40px $padding $padding;
+        border-bottom: 1px solid plt('black-haze');
+    }
+
+    .story {
+
+        &-date {
+            padding: 0 0 25px;
+        }
+
+        &-title {
+            padding: 0 0 8px;
+        }
+
+        &-desc {
+            padding: 0 0 8px;
+        }
+    }
+}
