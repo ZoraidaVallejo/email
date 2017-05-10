@@ -23,6 +23,7 @@
 - [How to use](#how-to-use)
     - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
+        - [Caveats](#caveats)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
 - [Resources](#resources)
