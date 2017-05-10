@@ -286,7 +286,7 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
 - **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
 - **`grunt upload`**: Upload all the images to the remote server.
-- **`grunt publish`**: This command do the following:
+- **`grunt publish`**: This command does the following:
     - Run the `build` command.
     - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
     - Compress the **custom-config.json** file, `src/` and `dist/` folders.
