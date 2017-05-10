@@ -29,16 +29,15 @@ const PKG = require(path.join(cwd, 'package.json'));
 
 // ----------------------------------------------------------------------------------------------------------
 
-var version = $.versionInfo(PKG.version);
+var versionList = $.versionInfo(PKG.version);
 
 var targetBranch = 'diego-public';
-var currentBranch = $.checkOverallStatus()
+var overallStatus = $.checkOverallStatus()
 
     .then((status) => {
         let summary = status[0];
 
         if (summary.current !== targetBranch) {
-
             console.error(
                 chalk.red([
                     `\n${ figures.cross } ${ chalk.bold('Working on the wrong branch!') }`,
@@ -50,16 +49,16 @@ var currentBranch = $.checkOverallStatus()
             process.exit(1);
         }
 
-        console.log(summary);
-        console.log('');
+        if (summary.files.length > 0) {
+            console.error(
+                chalk.red([
+                    `\n${ figures.cross } ${ chalk.bold('Working dirty!') }`,
+                    '  Please commit before trying again!'
+                ].join('\n'))
+            );
 
-        console.log(summary.files.length);
-        console.log(summary.not_added.length);
-        console.log(summary.conflicted.length);
-        console.log(summary.created.length);
-        console.log(summary.deleted.length);
-        console.log(summary.modified.length);
-        console.log(summary.renamed.length);
+            process.exit(1);
+        }
 
         return summary.current;
     })
@@ -74,57 +73,43 @@ var currentBranch = $.checkOverallStatus()
     });
 
 
+Promise.all([overallStatus])
+    .then((currentBranch) => {
+        console.log(currentBranch);
 
+        console.log(
+            chalk.cyan(
+                `\n${ figures.info } Current version in package.json is ${ chalk.bold(versionList.current) }`
+            )
+        );
+    })
 
-// Promise.all([overallStatus])
-//     .then((status) => {
-//         console.log(version.current);
-//         console.log(status);
-//     })
+    // Catch for any errors.
+    .catch((reason) => {
+        console.error(
+            chalk.red(`\n${ figures.cross } ${ reason }`)
+        );
 
-//     // Catch for any errors.
-//     .catch((reason) => {
-//         console.error(
-//             chalk.red(`\n${ figures.cross } ${ reason }`)
-//         );
-
-//         process.exit(1);
-//     });
-
-// if ($.git('status', ['--porcelain']) !== '') {
-//     console.error(
-//         chalk.red(
-//             `\n${figures.cross} ${chalk.bold('Working dirty!')}` +
-//             '\n  Please commit before trying again!'
-//         )
-//     );
-
-//     process.exit(1);
-// }
-
-// console.log(
-//     chalk.cyan(
-//         `\n${figures.info} Current version in package.json is ${chalk.bold(Version.current)}`
-//     )
-// );
+        process.exit(1);
+    });
 
 // inquirer.prompt([{
 //     type: 'list',
 //     name: 'newVersion',
 //     message: 'How would you like to bump it?',
 //     choices: [
-//         { value: 'nextMajor', name: `major (${Version.nextMajor})` },
-//         { value: 'nextMinor', name: `minor (${Version.nextMinor})` },
-//         { value: 'nextPatch', name: `patch (${Version.nextPatch})` },
-//         { value: 'nextPreMajor', name: `pre-release major (${Version.nextPreMajor})` },
-//         { value: 'nextPreMinor', name: `pre-release minor (${Version.nextPreMinor})` },
-//         { value: 'nextPrePatch', name: `pre-relase patch (${Version.nextPrePatch})` },
-//         { value: 'nextPreRelease', name: `pre-release (${Version.nextPreRelease})` }
+//         { value: 'nextMajor', name: `major (${versionList.nextMajor})` },
+//         { value: 'nextMinor', name: `minor (${versionList.nextMinor})` },
+//         { value: 'nextPatch', name: `patch (${versionList.nextPatch})` },
+//         { value: 'nextPreMajor', name: `pre-release major (${versionList.nextPreMajor})` },
+//         { value: 'nextPreMinor', name: `pre-release minor (${versionList.nextPreMinor})` },
+//         { value: 'nextPrePatch', name: `pre-relase patch (${versionList.nextPrePatch})` },
+//         { value: 'nextPreRelease', name: `pre-release (${versionList.nextPreRelease})` }
 //     ]
 // }]).then(function(answers) {
-//     Version = Object.assign(Version, { newVersion: Version[answers.newVersion] });
+//     versionList = Object.assign(versionList, { newVersion: versionList[answers.newVersion] });
 
-//     BUMPFILES(Version.newVersion).then(function(prefixedVersion) {
+//     BUMPFILES(versionList.newVersion).then(function(prefixedVersion) {
 
 //         CHANGELOG(prefixedVersion).then(function(filesCreated) {
 //             console.log(
