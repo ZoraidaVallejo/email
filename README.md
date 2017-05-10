@@ -304,7 +304,8 @@ For the `grunt upload` command, you will need to create a `.ftppass` file where 
 
 #### Caveats
 
-- You will have to backup the zip file on S3 manually.
+- You will have to backup the zip file on S3 manually after runninf the `grunt publish` command.
+- The `grunt upload` command will fail if the parent folder of the direct parent folder doesn't exists remotely. For instance, if you are trying to upload all the images to `/emails/images/lawyer-directory/2018/01` but `2018/` doesn't exist, it will fail.
 
 
 ### Responsive behavior
