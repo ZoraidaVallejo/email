@@ -1,0 +1,39 @@
+{
+    "image_dir_src": "../src/img",
+
+    "header": {
+        "logo": {
+            "v1": {
+                "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
+                "url": "https://www.justia.com/",
+                "alt": "Justia Insights"
+            },
+            "v2": {
+                "source": "https://justatic.com/v/20160815a/branding/logos/emails/justia-lawyer-profile-essentials-blue.png",
+                "url": "https://lawyers.justia.com/premium-placement",
+                "alt": "Justia Lawyer Profile Essentials"
+            },
+            "v3": {
+                "source": "https://justatic.com/v/20151223a/branding/logos/emails/justia-law-firm-marketing-blue.png",
+                "url": "https://www.justia.com/marketing/",
+                "alt": "Justia Marketing"
+            }
+        }
+    },
+
+    "footer": {
+        "logo": {
+            "v2": {
+                "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
+                "alt": "Justia"
+            },
+            "v3": {
+                "url": "https://justatic.com/v/20151223a/branding/logos/justia-transparent-200.png",
+                "alt": "Justia"
+            }
+        }
+    },
+
+    "view_in_browser_url": "#",
+    "unsubscribe_url": "*|UNSUB|*"
+}
