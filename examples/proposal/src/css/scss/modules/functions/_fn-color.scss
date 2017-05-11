@@ -56,6 +56,6 @@
 /// @param {arglist} $colors - Colors
 /// @return {color}
 ///
-@function plt($colours...) {
-    @return palette($colours...);
+@function plt($colors...) {
+    @return palette($colors...);
 }
