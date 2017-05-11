@@ -20,7 +20,8 @@ const PKG = require(path.join(cwd, 'package.json'));
 
 // ----------------------------------------------------------------------------------------------------------
 
-var repoURL = PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git'));
+var repoURL = PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git')),
+    repoName = $.capitalize(PKG.name.replace(/-/g, ' '));
 
 function createChangelog(newTag, folder = 'changelog') {
     let prevTag = API.git('firstCommit'),
@@ -37,9 +38,9 @@ function createChangelog(newTag, folder = 'changelog') {
                 logDetailed = [];
 
             logContent = [
-                `\n# Conversion Starters ${ version } ChangeLog\n`,
+                `\n# ${ repoName } ${ version } ChangeLog\n`,
                 `All changes commited to this repository will be documented in this file. It adheres to [Semantic Versioning](http://semver.org/).\n`,
-                `<details>\n<summary>List of tags released on the ${ version } range</summary>\n`;
+                `<details>\n<summary>List of tags released on the ${ version } range</summary>\n`
             ].join('\n');
 
             for (let info of tags) {

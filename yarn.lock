@@ -2172,6 +2172,13 @@ gifsicle@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
+git-promise@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/git-promise/-/git-promise-0.3.1.tgz#0c6dbd16acbb35ecaf407311bb790f923f62891f"
+  dependencies:
+    q "~1.4.1"
+    shelljs "~0.5.3"
+
 glob-base@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.1.1.tgz#f3b2dc406467ced2567f19657450fb8e036f8c6d"
@@ -4738,6 +4745,10 @@ q@~0.8.12:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/q/-/q-0.8.12.tgz#9162a91e11819c4bcda7da15cf5fefaad0778823"
 
+q@~1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
+
 qs@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-4.0.0.tgz#c31d9b74ec27df75e543a86c78728ed8d4623607"
@@ -5245,6 +5256,10 @@ setprototypeof@1.0.3:
 shelljs@^0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.6.1.tgz#ec6211bed1920442088fe0f70b2837232ed2c8a8"
+
+shelljs@~0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.5.3.tgz#c54982b996c76ef0c1e6b59fbdc5825f5b713113"
 
 sigmund@~1.0.0:
   version "1.0.1"

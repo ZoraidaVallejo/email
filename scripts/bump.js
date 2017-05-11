@@ -33,7 +33,7 @@ var versionList = $.versionInfo(PKG.version),
     targetBranch = 'diego-public';
 
 
-var overallStatus = $.checkOverallStatus().then((status) => {
+$.checkOverallStatus().then((status) => {
     let summary = status[0];
 
     if (summary.current !== targetBranch) {
@@ -59,13 +59,7 @@ var overallStatus = $.checkOverallStatus().then((status) => {
         // process.exit(1);
     }
 
-    return summary.current;
-
-// Catch for any errors.
-}).catch($.catchError);
-
-
-Promise.all([overallStatus]).then((currentBranch) => {
+    var currentBranch = summary.current;
 
     console.log(
         chalk.cyan(

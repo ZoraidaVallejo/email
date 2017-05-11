@@ -9,7 +9,7 @@
 const fs = require('fs');
 const cwd = process.cwd();
 // const path = require('path');
-const exec = require('child_process').execSync;
+// const exec = require('child_process').execSync;
 
 // EXTERNAL PACKAGES
 // -----------------
@@ -28,7 +28,7 @@ const git = require('simple-git')(cwd);
  */
 function getCurrentBranch() {
 
-    return new Promise(function(resolve, reject) {
+    return new Promise((resolve, reject) => {
 
         git.branchLocal((err, summary) => {
             /* eslint-disable curly */
@@ -47,19 +47,16 @@ function getCurrentBranch() {
  */
 function checkOverallStatus() {
 
-    return Promise.all([
+    return new Promise((resolve, reject) => {
 
-        new Promise((resolve, reject) => {
+        git.status((err, status) => {
+            /* eslint-disable curly */
+            if (err) reject(err);
+            /* eslint-enable curly */
 
-            git.status((err, status) => {
-                /* eslint-disable curly */
-                if (err) reject(err);
-                /* eslint-enable curly */
-
-                resolve(status);
-            });
-        })
-    ]);
+            resolve(status);
+        });
+    });
 }
 
 
@@ -91,6 +88,7 @@ function versionInfo(baseVer = '0.1.0') {
  * Promise-base `writeFile` function.
  * @param  {string} targetPath  File path.
  * @param  {string} content     File content.
+ * @param  {number} tabs       [description]
  * @return {promise}            Promise to write the given file.
  */
 function writeFileP(targetPath, content, tabs = 4) {
@@ -112,6 +110,33 @@ function writeFileP(targetPath, content, tabs = 4) {
                 fileName
             });
         });
+    });
+}
+
+
+/**
+ * Function to manage errors.
+ * @param  {object} reason  Reasons.
+ * @return {object}         Error message.
+ */
+function catchError(reason) {
+    console.error(
+        chalk.red(`\n${ figures.cross } ${ reason }`)
+    );
+
+    process.exit(1);
+}
+
+
+/**
+ * Capitalize each word.
+ * Borrowed from https://github.com/grncdr/js-capitalize
+ * @param  {string} string  String.
+ * @return {string}         Capitalize string.
+ */
+function capitalize(string) {
+    return string.replace(/(^|[^a-zA-Z\u00C0-\u017F'])([a-zA-Z\u00C0-\u017F])/g, function(m) {
+        return m.toUpperCase();
     });
 }
 
@@ -187,20 +212,6 @@ function writeFileP(targetPath, content, tabs = 4) {
 // }
 
 
-/**
- * Function to manage errors.
- * @param  {object} reason  Reasons.
- * @return {object}         Error message.
- */
-function catchError(reason) {
-    console.error(
-        chalk.red(`\n${ figures.cross } ${ reason }`)
-    );
-
-    process.exit(1);
-}
-
-
 // var releaseGit = function releaseGit(newVersion) {
 
     // console.log(
@@ -258,7 +269,7 @@ module.exports = {
     getCurrentBranch,
     checkOverallStatus,
     versionInfo,
+    writeFileP,
     catchError,
-    getFirstCommit,
-    writeFileP
+    capitalize
 };

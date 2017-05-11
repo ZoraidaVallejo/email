@@ -70,9 +70,9 @@
         /* Variables */
         "no-label-var": "warn",
         "no-shadow-restricted-names": "error",
-        "no-undef": "off", // Becuase of several Google variables
         "no-undef-init": "warn",
         "no-undefined": "warn",
+        "no-unused-vars": "warn",
 
         /* Node.js and CommonJS */
         "global-require": "error",
