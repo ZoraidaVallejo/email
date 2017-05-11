@@ -14,14 +14,13 @@ const path = require('path');
 const chalk = require('chalk');
 const figures = require('figures');
 const inquirer = require('inquirer');
-const replace = require('replace-in-file');
+// const replace = require('replace-in-file');
 // const git = require('simple-git')(cwd);
 
 // CUSTOM PACKAGES
 // ---------------
 const $ = require('./helpers');
-// const bumpfiles = require('./bumpFiles');
-// const CHANGELOG = require('./changelog');
+const changelog = require('./changelog');
 
 // FILES
 // -----
@@ -30,8 +29,9 @@ const PKG = require(path.join(cwd, 'package.json'));
 
 // ----------------------------------------------------------------------------------------------------------
 
-var versionList = $.versionInfo(PKG.version);
-var targetBranch = 'diego-public';
+var versionList = $.versionInfo(PKG.version),
+    targetBranch = 'diego-public';
+
 
 var overallStatus = $.checkOverallStatus().then((status) => {
     let summary = status[0];
@@ -88,82 +88,66 @@ Promise.all([overallStatus]).then((currentBranch) => {
         ]
 
     }]).then((answers) => {
-        let repalceOptions = {
+        // let repalceOptions = {
 
-            files: [
-                'responsive-starter-superwide/css/scss/**/*.scss',
-                'responsive-starter-superwide/js/*.js',
-                'single-column/css/scss/**/*.scss',
-                'single-column/js/*.js',
-                'README.md'
-            ],
+        //     files: [
+        //         'responsive-starter-superwide/css/scss/**/*.scss',
+        //         'responsive-starter-superwide/js/*.js',
+        //         'single-column/css/scss/**/*.scss',
+        //         'single-column/js/*.js',
+        //         'README.md'
+        //     ],
 
-            // Replacement to make (string or regex)
-            from: /((?:#|\/\/) Conversion Starter(?:s|) v)(\d.*)/,
-            to: `$1${ bumpVersion }`,
+        //     // Replacement to make (string or regex)
+        //     from: /((?:#|\/\/) Conversion Starter(?:s|) v)(\d.*)/,
+        //     to: `$1${ bumpVersion }`,
 
-            // Specify if empty/invalid file paths are allowed (defaults to false)
-            // If set to true these paths will fail silently and no error will be thrown.
-            allowEmptyPaths: false,
+        //     // Specify if empty/invalid file paths are allowed (defaults to false)
+        //     // If set to true these paths will fail silently and no error will be thrown.
+        //     allowEmptyPaths: false,
 
-            // Character encoding for reading/writing files (defaults to utf-8)
-            encoding: 'utf8'
-        };
+        //     // Character encoding for reading/writing files (defaults to utf-8)
+        //     encoding: 'utf8'
+        // };
 
         versionList.newVersion = versionList[answers.newVersion];
 
-        // Bump Version in all files
-        return replace(repalceOptions);
+        // // Bump Version in all files
+        // return replace(repalceOptions);
 
-    // Success
-    }).then((changedFiles) => {
+    // // Continue if the version bumped up successfully in all files
+    // }).then((changedFiles) => {
 
-        console.log(
-            chalk.green(
-                `\n${ figures.tick } Version bumped in the following files:\n`
-            )
-        );
+        // console.log(
+        //     chalk.green(
+        //         `\n${ figures.tick } Version bumped in the following files:\n`
+        //     )
+        // );
 
-        for (let file of changedFiles) {
-            console.log(
-                chalk.green(
-                    `${ figures.arrowRight } ${ file }`
-                )
-            );
-        }
+        // for (let file of changedFiles) {
+        //     console.log(
+        //         chalk.green(
+        //             `${ figures.arrowRight } ${ file }`
+        //         )
+        //     );
+        // }
 
         PKG.version = versionList.newVersion;
 
         // Update Package file
-        return $.writeFileP(path.join(cwd, 'package.json'), PKG);
+        return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
 
-    // Success
+    // Continue if the update to the Package files was successful
     }).then((reweritePKG) => {
-        console.log(reweritePKG);
 
         console.log(
-            chalk.green(`${ figures.arrowRight } ${ file.replace(`${ cwd }/`, '') }`)
+            chalk.green([
+                `\n${ figures.tick } Version bumped in the following file:`,
+                `${ figures.arrowRight } ${ reweritePKG.fileName }`
+            ].join('\n'))
         );
 
-        // BUMPFILES(versionList.newVersion).then(function(prefixedVersion) {
 
-        //     CHANGELOG(prefixedVersion).then(function(filesCreated) {
-        //         console.log(
-        //             chalk.green(
-        //                 `\n${ figures.tick } Changelog:\n`
-        //             )
-        //         );
-        //         console.log(filesCreated);
-
-        //         $.releaseGit(prefixedVersion);
-
-        //     }).catch(function(error) {
-        //         console.error(`\n${ error }`);
-        //     });
-
-        // }).catch(function(error) {
-        //     console.error(`\n${ error }`);
-        // });
 
     }).catch($.catchError);
 

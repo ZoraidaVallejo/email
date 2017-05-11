@@ -9,6 +9,7 @@
 const fs = require('fs');
 const cwd = process.cwd();
 // const path = require('path');
+const exec = require('child_process').execSync;
 
 // EXTERNAL PACKAGES
 // -----------------
@@ -92,11 +93,11 @@ function versionInfo(baseVer = '0.1.0') {
  * @param  {string} content     File content.
  * @return {promise}            Promise to write the given file.
  */
-function writeFileP(targetPath, content) {
+function writeFileP(targetPath, content, tabs = 4) {
     let fileName = targetPath.split('/').pop();
 
     if (targetPath.endsWith('.json')) {
-        content = JSON.stringify(content, null, 4);
+        content = JSON.stringify(content, null, tabs);
     }
 
     return new Promise((resolve, reject) => {
@@ -115,163 +116,75 @@ function writeFileP(targetPath, content) {
 }
 
 
-// var git = function git(cmd, options) {
-//     options = options ? options.join(' ') : '';
+// function customGit(cmd, options) {
+    // options = options ? options.join(' ') : '';
 
-//     if (cmd === 'tags') {
-//         let allTags = exec('git tag -l').toString().trim().split('\n').sort(function(a, b) {
-//             if (semver.lt(a, b)) return -1;
-//             if (semver.gt(a, b)) return 1;
-//             return 0;
-//         });
+    // if (cmd === 'tags') {
+    //     let allTags = exec('git tag -l').toString().trim().split('\n').sort(function(a, b) {
+    //         if (semver.lt(a, b)) return -1;
+    //         if (semver.gt(a, b)) return 1;
+    //         return 0;
+    //     });
 
-//         return {
-//             latest: allTags[allTags.length - 1],
-//             all: allTags
-//         };
+    //     return {
+    //         latest: allTags[allTags.length - 1],
+    //         all: allTags
+    //     };
 
-//     } else if (cmd === 'dateOf') {
-//         let date = null;
+    // } else if (cmd === 'dateOf') {
+    //     let date = null;
 
-//         try {
-//             date = exec(`git log -1 --format=%cI ${options}`).toString();
+    //     try {
+    //         date = exec(`git log -1 --format=%cI ${options}`).toString();
 
-//         } catch (error) {
-//             date = new Date().toISOString();
-//         }
+    //     } catch (error) {
+    //         date = new Date().toISOString();
+    //     }
 
-//         return date.substring(0, date.indexOf('T'));
+    //     return date.substring(0, date.indexOf('T'));
 
-//     } else if (cmd === 'firstCommit') {
-//         return exec('git rev-list HEAD | tail -n 1').toString().trim();
+    // } else if (cmd === 'firstCommit') {
+    //     return exec('git rev-list HEAD | tail -n 1').toString().trim();
 
-//     } else {
-//         return exec(`git ${cmd} ${options}`).toString();
-//     }
+    // } else {
+    //     return exec(`git ${cmd} ${options}`).toString();
+    // }
 // };
 
 
-// var getTags = function getTags(newTag) {
-//     let tags = git('tags').all;
+// function getTags(newTag) {
+    // let tags = git('tags').all;
 
-//     if (newTag) tags.push(newTag);
+    // if (newTag) tags.push(newTag);
 
-//     let tagsHolder = new Map(),
-//         currentMajor = 1,
-//         nextMajor = 2,
-//         groups = [];
+    // let tagsHolder = new Map(),
+    //     currentMajor = 1,
+    //     nextMajor = 2,
+    //     groups = [];
 
-//     for (var i = 0; i < tags.length; i++) {
-//         groups.push({
-//             tag: tags[i],
-//             date: git('dateOf', [tags[i]])
-//         });
+    // for (var i = 0; i < tags.length; i++) {
+    //     groups.push({
+    //         tag: tags[i],
+    //         date: git('dateOf', [tags[i]])
+    //     });
 
-//         if (semver.valid(tags[i + 1])) {
+    //     if (semver.valid(tags[i + 1])) {
 
-//             if (semver.major(tags[i + 1]) === nextMajor) {
-//                 tagsHolder.set('v' + currentMajor, groups);
+    //         if (semver.major(tags[i + 1]) === nextMajor) {
+    //             tagsHolder.set('v' + currentMajor, groups);
 
-//                 currentMajor++;
-//                 nextMajor++;
-//                 groups = [];
-//             }
+    //             currentMajor++;
+    //             nextMajor++;
+    //             groups = [];
+    //         }
 
-//         } else {
-//             tagsHolder.set('v' + currentMajor, groups);
-//         }
-//     }
+    //     } else {
+    //         tagsHolder.set('v' + currentMajor, groups);
+    //     }
+    // }
 
-//     return tagsHolder;
-// };
-
-
-// var writeFile = function writeFile(file, content) {
-
-//         try {
-//             fs.writeFileSync(path.join(cwd, file), content);
-//             return {
-//                 result: true,
-//                 message: chalk.green(`${figures.arrowRight} ${file.replace(`${cwd}/`, '')}`)
-//         };
-
-//     } catch (error) {
-//         return {
-//             result: false,
-//             message: chalk.red(`${figures.cross} ${error}`)
-//         };
-//     }
-// };
-
-
-// var writeFilePromise = function writeFilePromise(file, content) {
-
-//     return new Promise(function(resolve, reject) {
-
-//         fs.writeFile(path.join(cwd, file), content, function(error) {
-
-//             if (error) {
-//                 reject(chalk.red(`${figures.tick} ${error}`));
-
-//             } else {
-//                 resolve(chalk.green(`${figures.cross} ${file.replace(`${cwd}/`, '')}`));
-//             }
-//         });
-//     });
-// };
-
-
-// var releaseGit = function releaseGit(newVersion) {
-
-//     console.log(
-//         chalk.cyan(
-//             `\n${figures.pointerSmall} Pushing new tag to ${chalk.bold('origin')}...`
-//         )
-//     );
-
-//     git('add', [
-//         'responsive-starter-superwide/css/',
-//         'responsive-starter-superwide/js/',
-//         'single-column/css/',
-//         'single-column/js/',
-//         'changelog/',
-//         'README.md',
-//         'package.json'
-//     ]);
-
-//     // git commit -m "Bump version to ${INPUT_STRING}."
-//     git('commit', [
-//         '-m',
-//         `"Bump version to ${newVersion}"`
-//     ]);
-
-//     // git push origin master
-//     git('push', ['origin', 'master']);
-
-//     // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
-//     git('tag', [
-//         '-a -m',
-//         `"Tag version ${newVersion}"`,
-//         `"${newVersion}"`
-//     ]);
-
-//     // git push origin --tags
-//     git('push', ['origin', '--tags']);
-
-//     console.log(
-//         chalk.green(
-//             `\n${figures.tick} Release ${newVersion} was generated!`
-//         )
-//     );
-//     console.log(
-//         chalk.green(
-//             `\n  Please go to: ${chalk.underline(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`)}` +
-//             '\n  to describe the new changes/features added in this release.\n'
-//         )
-//     );
-
-//     openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
-// };
+    // return tagsHolder;
+// }
 
 
 /**
@@ -288,10 +201,64 @@ function catchError(reason) {
 }
 
 
+// var releaseGit = function releaseGit(newVersion) {
+
+    // console.log(
+    //     chalk.cyan(
+    //         `\n${figures.pointerSmall} Pushing new tag to ${chalk.bold('origin')}...`
+    //     )
+    // );
+
+    // git('add', [
+    //     'responsive-starter-superwide/css/',
+    //     'responsive-starter-superwide/js/',
+    //     'single-column/css/',
+    //     'single-column/js/',
+    //     'changelog/',
+    //     'README.md',
+    //     'package.json'
+    // ]);
+
+    // // git commit -m "Bump version to ${INPUT_STRING}."
+    // git('commit', [
+    //     '-m',
+    //     `"Bump version to ${newVersion}"`
+    // ]);
+
+    // // git push origin master
+    // git('push', ['origin', 'master']);
+
+    // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
+    // git('tag', [
+    //     '-a -m',
+    //     `"Tag version ${newVersion}"`,
+    //     `"${newVersion}"`
+    // ]);
+
+    // // git push origin --tags
+    // git('push', ['origin', '--tags']);
+
+    // console.log(
+    //     chalk.green(
+    //         `\n${figures.tick} Release ${newVersion} was generated!`
+    //     )
+    // );
+    // console.log(
+    //     chalk.green(
+    //         `\n  Please go to: ${chalk.underline(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`)}` +
+    //         '\n  to describe the new changes/features added in this release.\n'
+    //     )
+    // );
+
+    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
+// };
+
+
 module.exports = {
     getCurrentBranch,
     checkOverallStatus,
     versionInfo,
     catchError,
+    getFirstCommit,
     writeFileP
 };
