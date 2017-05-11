@@ -20,7 +20,7 @@ const inquirer = require('inquirer');
 // CUSTOM PACKAGES
 // ---------------
 const $ = require('./helpers');
-const changelog = require('./changelog');
+// const changelog = require('./changelog');
 
 // FILES
 // -----
@@ -33,10 +33,9 @@ var versionList = $.versionInfo(PKG.version),
     targetBranch = 'diego-public';
 
 
-$.checkOverallStatus().then((status) => {
-    let summary = status[0];
+$.overallStatus().then((status) => {
 
-    if (summary.current !== targetBranch) {
+    if (status.currentBranch !== targetBranch) {
         console.error(
             chalk.red([
                 `\n${ figures.cross } ${ chalk.bold('Working on the wrong branch!') }`,
@@ -48,7 +47,7 @@ $.checkOverallStatus().then((status) => {
         process.exit(1);
     }
 
-    if (summary.files.length > 0) {
+    if (!status.clean) {
         console.error(
             chalk.red([
                 `\n${ figures.cross } ${ chalk.bold('Working dirty!') }`,
@@ -59,46 +58,32 @@ $.checkOverallStatus().then((status) => {
         // process.exit(1);
     }
 
-    var currentBranch = summary.current;
-
     console.log(
         chalk.cyan(
             `\n${ figures.info } Current version in package.json is ${ chalk.bold(versionList.current) }`
         )
     );
 
-    inquirer.prompt([{
+    return inquirer.prompt([{
         type: 'list',
         name: 'newVersion',
         message: 'How would you like to bump it?',
-        choices: [
-            { value: 'nextMajor', name: `major (${ versionList.nextMajor })` },
-            { value: 'nextMinor', name: `minor (${ versionList.nextMinor })` },
-            { value: 'nextPatch', name: `patch (${ versionList.nextPatch })` },
-            { value: 'nextPreMajor', name: `pre-release major (${ versionList.nextPreMajor })` },
-            { value: 'nextPreMinor', name: `pre-release minor (${ versionList.nextPreMinor })` },
-            { value: 'nextPrePatch', name: `pre-relase patch (${ versionList.nextPrePatch })` },
-            { value: 'nextPreRelease', name: `pre-release (${ versionList.nextPreRelease })` }
-        ]
+        choices: versionList.prompt
+    }]);
 
-    }]).then((answers) => {
-        versionList.newVersion = versionList[answers.newVersion];
-        PKG.version = versionList.newVersion;
+}).then((answers) => {
+    PKG.version = answers.newVersion;
 
-        // Update Package file
-        return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
+    // Update Package file
+    return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
 
     // Continue if the update to the Package files was successful
-    }).then((reweritePKG) => {
+}).then((reweritePKG) => {
+    console.log(
+        chalk.green([
+            `\n${ figures.tick } Version bumped in the following file:`,
+            `${ figures.arrowRight } ${ reweritePKG.fileName }`
+        ].join('\n'))
+    );
 
-        console.log(
-            chalk.green([
-                `\n${ figures.tick } Version bumped in the following file:`,
-                `${ figures.arrowRight } ${ reweritePKG.fileName }`
-            ].join('\n'))
-        );
-
-    }).catch($.catchError);
-
-// Catch for any errors.
 }).catch($.catchError);

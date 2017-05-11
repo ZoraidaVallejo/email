@@ -7,17 +7,17 @@
 // SYSTEM MODULES
 // --------------
 const fs = require('fs');
-const cwd = process.cwd();
+// const cwd = process.cwd();
 // const path = require('path');
-// const exec = require('child_process').execSync;
 
 // EXTERNAL PACKAGES
 // -----------------
 const chalk = require('chalk');
 const semver = require('semver');
 const figures = require('figures');
+const git = require('git-promise');
+const gitUtil = require('git-promise/util');
 // const openUrl = require('openurl');
-const git = require('simple-git')(cwd);
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -26,17 +26,11 @@ const git = require('simple-git')(cwd);
  * Get the current branch.
  * @return {promise}    A promise to do it.
  */
-function getCurrentBranch() {
+function currentBranch() {
 
-    return new Promise((resolve, reject) => {
-
-        git.branchLocal((err, summary) => {
-            /* eslint-disable curly */
-            if (err) reject(err);
-            /* eslint-enable curly */
-
-            resolve(summary.current);
-        });
+    return git('status --porcelain -b', function(stdout) {
+        var status = gitUtil.extractStatus(stdout);
+        return status.branch.split('...')[0];
     });
 }
 
@@ -45,17 +39,31 @@ function getCurrentBranch() {
  * Verify the status of the repository.
  * @return {object}     Current branch and the status of hte repository.
  */
-function checkOverallStatus() {
+function overallStatus() {
 
-    return new Promise((resolve, reject) => {
+    return git('status --porcelain -b', (stdout) => {
+        let status = gitUtil.extractStatus(stdout);
+        let clean = true;
 
-        git.status((err, status) => {
-            /* eslint-disable curly */
-            if (err) reject(err);
-            /* eslint-enable curly */
+        /* eslint-disable no-labels */
+        loop1:
+            for (let layer of[status.index, status.workingTree]) {
 
-            resolve(status);
-        });
+                for (let sts in layer) {
+
+                    if (layer[sts].length > 0) {
+                        clean = false;
+                        break loop1;
+                    }
+                }
+            }
+        /* eslint-enable no-labels */
+
+        return {
+            status,
+            currentBranch: status.branch.split('...')[0],
+            clean
+        };
     });
 }
 
@@ -68,18 +76,36 @@ function checkOverallStatus() {
  * @return {object}             Available versions.
  */
 function versionInfo(baseVer = '0.1.0') {
-    let current = new semver(baseVer);
-    let identifier = current.prerelease[0] || 'beta';
+    let current = new semver(baseVer),
+        identifier = current.prerelease[0] || 'beta',
+        prompt = [];
+
+    let types = {
+        major: 'major',
+        minor: 'minor',
+        patch: 'patch',
+        premajor: 'pre-release major',
+        preminor: 'pre-release minor',
+        prepatch: 'pre-relase patch',
+        prerelease: 'pre-release'
+    };
+
+    for (let type in types) {
+        let newVer = semver.inc(
+            current.version,
+            type,
+            type.startsWith('pre') ? identifier : ''
+        );
+
+        prompt.push({
+            value: newVer,
+            name: `${ types[type] } (${ newVer })`
+        });
+    }
 
     return {
         current: current.version,
-        nextMajor: semver.inc(current.version, 'major'),
-        nextMinor: semver.inc(current.version, 'minor'),
-        nextPatch: semver.inc(current.version, 'patch'),
-        nextPreMajor: semver.inc(current.version, 'premajor', identifier),
-        nextPreMinor: semver.inc(current.version, 'preminor', identifier),
-        nextPrePatch: semver.inc(current.version, 'prepatch', identifier),
-        nextPreRelease: semver.inc(current.version, 'prerelease', identifier)
+        prompt
     };
 }
 
@@ -88,7 +114,7 @@ function versionInfo(baseVer = '0.1.0') {
  * Promise-base `writeFile` function.
  * @param  {string} targetPath  File path.
  * @param  {string} content     File content.
- * @param  {number} tabs       [description]
+ * @param  {number} tabs        Number of tabs.
  * @return {promise}            Promise to write the given file.
  */
 function writeFileP(targetPath, content, tabs = 4) {
@@ -141,133 +167,9 @@ function capitalize(string) {
 }
 
 
-// function customGit(cmd, options) {
-    // options = options ? options.join(' ') : '';
-
-    // if (cmd === 'tags') {
-    //     let allTags = exec('git tag -l').toString().trim().split('\n').sort(function(a, b) {
-    //         if (semver.lt(a, b)) return -1;
-    //         if (semver.gt(a, b)) return 1;
-    //         return 0;
-    //     });
-
-    //     return {
-    //         latest: allTags[allTags.length - 1],
-    //         all: allTags
-    //     };
-
-    // } else if (cmd === 'dateOf') {
-    //     let date = null;
-
-    //     try {
-    //         date = exec(`git log -1 --format=%cI ${options}`).toString();
-
-    //     } catch (error) {
-    //         date = new Date().toISOString();
-    //     }
-
-    //     return date.substring(0, date.indexOf('T'));
-
-    // } else if (cmd === 'firstCommit') {
-    //     return exec('git rev-list HEAD | tail -n 1').toString().trim();
-
-    // } else {
-    //     return exec(`git ${cmd} ${options}`).toString();
-    // }
-// };
-
-
-// function getTags(newTag) {
-    // let tags = git('tags').all;
-
-    // if (newTag) tags.push(newTag);
-
-    // let tagsHolder = new Map(),
-    //     currentMajor = 1,
-    //     nextMajor = 2,
-    //     groups = [];
-
-    // for (var i = 0; i < tags.length; i++) {
-    //     groups.push({
-    //         tag: tags[i],
-    //         date: git('dateOf', [tags[i]])
-    //     });
-
-    //     if (semver.valid(tags[i + 1])) {
-
-    //         if (semver.major(tags[i + 1]) === nextMajor) {
-    //             tagsHolder.set('v' + currentMajor, groups);
-
-    //             currentMajor++;
-    //             nextMajor++;
-    //             groups = [];
-    //         }
-
-    //     } else {
-    //         tagsHolder.set('v' + currentMajor, groups);
-    //     }
-    // }
-
-    // return tagsHolder;
-// }
-
-
-// var releaseGit = function releaseGit(newVersion) {
-
-    // console.log(
-    //     chalk.cyan(
-    //         `\n${figures.pointerSmall} Pushing new tag to ${chalk.bold('origin')}...`
-    //     )
-    // );
-
-    // git('add', [
-    //     'responsive-starter-superwide/css/',
-    //     'responsive-starter-superwide/js/',
-    //     'single-column/css/',
-    //     'single-column/js/',
-    //     'changelog/',
-    //     'README.md',
-    //     'package.json'
-    // ]);
-
-    // // git commit -m "Bump version to ${INPUT_STRING}."
-    // git('commit', [
-    //     '-m',
-    //     `"Bump version to ${newVersion}"`
-    // ]);
-
-    // // git push origin master
-    // git('push', ['origin', 'master']);
-
-    // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
-    // git('tag', [
-    //     '-a -m',
-    //     `"Tag version ${newVersion}"`,
-    //     `"${newVersion}"`
-    // ]);
-
-    // // git push origin --tags
-    // git('push', ['origin', '--tags']);
-
-    // console.log(
-    //     chalk.green(
-    //         `\n${figures.tick} Release ${newVersion} was generated!`
-    //     )
-    // );
-    // console.log(
-    //     chalk.green(
-    //         `\n  Please go to: ${chalk.underline(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`)}` +
-    //         '\n  to describe the new changes/features added in this release.\n'
-    //     )
-    // );
-
-    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
-// };
-
-
 module.exports = {
-    getCurrentBranch,
-    checkOverallStatus,
+    currentBranch,
+    overallStatus,
     versionInfo,
     writeFileP,
     catchError,
