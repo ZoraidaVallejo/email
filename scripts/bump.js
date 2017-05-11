@@ -88,50 +88,7 @@ Promise.all([overallStatus]).then((currentBranch) => {
         ]
 
     }]).then((answers) => {
-        // let repalceOptions = {
-
-        //     files: [
-        //         'responsive-starter-superwide/css/scss/**/*.scss',
-        //         'responsive-starter-superwide/js/*.js',
-        //         'single-column/css/scss/**/*.scss',
-        //         'single-column/js/*.js',
-        //         'README.md'
-        //     ],
-
-        //     // Replacement to make (string or regex)
-        //     from: /((?:#|\/\/) Conversion Starter(?:s|) v)(\d.*)/,
-        //     to: `$1${ bumpVersion }`,
-
-        //     // Specify if empty/invalid file paths are allowed (defaults to false)
-        //     // If set to true these paths will fail silently and no error will be thrown.
-        //     allowEmptyPaths: false,
-
-        //     // Character encoding for reading/writing files (defaults to utf-8)
-        //     encoding: 'utf8'
-        // };
-
         versionList.newVersion = versionList[answers.newVersion];
-
-        // // Bump Version in all files
-        // return replace(repalceOptions);
-
-    // // Continue if the version bumped up successfully in all files
-    // }).then((changedFiles) => {
-
-        // console.log(
-        //     chalk.green(
-        //         `\n${ figures.tick } Version bumped in the following files:\n`
-        //     )
-        // );
-
-        // for (let file of changedFiles) {
-        //     console.log(
-        //         chalk.green(
-        //             `${ figures.arrowRight } ${ file }`
-        //         )
-        //     );
-        // }
-
         PKG.version = versionList.newVersion;
 
         // Update Package file
@@ -146,8 +103,6 @@ Promise.all([overallStatus]).then((currentBranch) => {
                 `${ figures.arrowRight } ${ reweritePKG.fileName }`
             ].join('\n'))
         );
-
-
 
     }).catch($.catchError);
 
