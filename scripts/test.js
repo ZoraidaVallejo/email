@@ -10,19 +10,19 @@
 // const chalk = require('chalk');
 // const figures = require('figures');
 // const inquirer = require('inquirer');
-const git = require('git-promise');
+// const git = require('git-promise');
 // const gitUtil = require('git-promise/util');
 
 // CUSTOM PACKAGES
 // ---------------
-const $ = require('./helpers');
+// const $ = require('./helpers');
 
 // FILES
 // -----
 // const PKG = require(path.join(cwd, 'package.json'));
 
 
-git('rev-list HEAD | tail -n 1').then((result) => {
-    console.log(result);
-}).catch($.catchError);
+// git('rev-list HEAD | tail -n 1').then((result) => {
+//     console.log(result);
+// }).catch($.catchError);
 

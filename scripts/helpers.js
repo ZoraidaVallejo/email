@@ -155,6 +155,64 @@ function catchError(reason) {
 
 
 /**
+ * It adds an icon and tabulates the log massage.
+ * @param  {string} fig     Icon.
+ * @param  {string} st      First line of the log message.
+ * @param  {array}  lns     Rest of the message.
+ * @return {array}          Parsed message.
+ */
+function _logMessage(fig, st, lns) {
+    let holder = [`\n${ fig } ${ st }`];
+
+    if (lns.length > 0) {
+
+        for (let i = 0; i < lns.length; i++) {
+            holder.push(`  ${ lns[i] }`);
+        }
+    }
+
+    return holder;
+}
+
+
+/**
+ * Console log custom wrapper.
+ * @param  {string} first   First line.
+ * @param  {args}   lines   Rest of the lines.
+ * @return {log}            Log message.
+ */
+function log(first, ...lines) {
+    console.log(
+        _logMessage(figures.bullet, first, lines).join('\n')
+    );
+}
+
+log.error = function(first, ...lines) {
+    console.error(
+        `${ chalk.red(_logMessage(figures.cross, first, lines).join('\n')) }\n`
+    );
+
+    process.exit(1);
+};
+
+log.info = function(first, ...lines) {
+    console.log(
+        chalk.cyan(
+            _logMessage(figures.info, first, lines).join('\n')
+        )
+    );
+};
+
+log.success = function(first, ...lines) {
+    console.log(
+        chalk.green(
+            _logMessage(figures.tick, first, lines).join('\n')
+        )
+    );
+};
+
+
+/**
  * Capitalize each word.
  * Borrowed from https://github.com/grncdr/js-capitalize
  * @param  {string} string  String.
@@ -173,5 +231,6 @@ module.exports = {
     versionInfo,
     writeFileP,
     catchError,
+    log,
     capitalize
 };

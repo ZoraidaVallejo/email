@@ -36,32 +36,24 @@ var versionList = $.versionInfo(PKG.version),
 $.overallStatus().then((status) => {
 
     if (status.currentBranch !== targetBranch) {
-        console.error(
-            chalk.red([
-                `\n${ figures.cross } ${ chalk.bold('Working on the wrong branch!') }`,
-                `  All tags must be created on ${ chalk.bold(targetBranch) } branch. Please push your work and`,
-                `  create a Pull Request to ${ chalk.bold(targetBranch) }. Then you can continue this process.`
-            ].join('\n'))
-        );
 
-        process.exit(1);
+        $.log.error(
+            `${ chalk.bold('Working on the wrong branch!') }`,
+            `All tags must be created on ${ chalk.bold(targetBranch) } branch. Please push your work and`,
+            `create a Pull Request to ${ chalk.bold(targetBranch) }. Then you can continue this process.`
+        );
     }
 
-    if (!status.clean) {
-        console.error(
-            chalk.red([
-                `\n${ figures.cross } ${ chalk.bold('Working dirty!') }`,
-                '  Please commit before trying again!'
-            ].join('\n'))
-        );
+    // if (!status.clean) {
 
-        // process.exit(1);
-    }
+    //     $.log.error(
+    //         `${ chalk.bold('Working dirty!') }`,
+    //         'Please commit before trying again!'
+    //     );
+    // }
 
-    console.log(
-        chalk.cyan(
-            `\n${ figures.info } Current version in package.json is ${ chalk.bold(versionList.current) }`
-        )
+    $.log.info(
+        `Current version in package.json is ${ chalk.bold(versionList.current) }\n`
     );
 
     return inquirer.prompt([{
@@ -77,13 +69,12 @@ $.overallStatus().then((status) => {
     // Update Package file
     return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
 
-    // Continue if the update to the Package files was successful
+// Continue if the update to the Package files was successful
 }).then((reweritePKG) => {
-    console.log(
-        chalk.green([
-            `\n${ figures.tick } Version bumped in the following file:`,
-            `${ figures.arrowRight } ${ reweritePKG.fileName }`
-        ].join('\n'))
+
+    $.log.success(
+        `Version bumped in the following file:`,
+        `${ figures.arrowRight } ${ reweritePKG.fileName }`
     );
 
 }).catch($.catchError);
