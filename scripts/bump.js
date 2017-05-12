@@ -77,4 +77,13 @@ $.overallStatus().then((status) => {
         `${ figures.arrowRight } ${ reweritePKG.fileName }`
     );
 
-}).catch($.catchError);
+    return $.tagsInfo('v' + PKG.version);
+
+// Continue if the update to the Package files was successful
+}).then(([tags, firstCommit]) => {
+    // let prevTag = firstCommit;
+
+    console.log(tags);
+    console.log(firstCommit);
+
+}).catch($.log.error);

@@ -21,8 +21,3 @@
 // -----
 // const PKG = require(path.join(cwd, 'package.json'));
 
-
-// git('rev-list HEAD | tail -n 1').then((result) => {
-//     console.log(result);
-// }).catch($.catchError);
-

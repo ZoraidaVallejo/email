@@ -9,6 +9,7 @@
 const fs = require('fs');
 // const cwd = process.cwd();
 // const path = require('path');
+const exec = require('child_process').execSync;
 
 // EXTERNAL PACKAGES
 // -----------------
@@ -65,6 +66,89 @@ function overallStatus() {
             clean
         };
     });
+}
+
+
+/**
+ * Date of a git value
+ * @param  {string} val     Value.
+ * @return {string}         Date.
+ */
+function _gitDateOf(val) {
+    let date = null;
+
+    try {
+        date = exec(`git log -1 --format=%cI ${ val }`).toString();
+
+    } catch(err) {
+        return new Error(err);
+    }
+
+    return date.substring(0, date.indexOf('T'));
+}
+
+
+/**
+ * Information of existing tags.
+ * @param  {string} newTag  Tag.
+ * @return {array}          Full info of tags and the first commit.
+ */
+function tagsInfo(newTag) {
+    var date = new Date().toISOString();
+
+    return Promise.all([
+
+        git('git tag -l', (stdout) => {
+            let allTags = stdout.toString().trim().split('\n').sort(function(a, b) {
+
+                /* eslint-disable curly */
+                if (semver.lt(a, b)) return -1;
+                if (semver.gt(a, b)) return 1;
+                /* eslint-enable curly */
+                return 0;
+            });
+
+            // latest: allTags[allTags.length - 1],
+            return allTags;
+
+        }).then((tagsInfo) => {
+            tagsInfo.push(newTag);
+
+            let tagsHolder = {},
+                currentMajor = 1,
+                nextMajor = 2,
+                groups = [];
+
+            for (var i = 0; i < tagsInfo.length; i++) {
+
+                groups.push({
+                    tag: tagsInfo[i],
+                    date: tagsInfo[i] === newTag ? date.substring(0, date.indexOf('T')) : _gitDateOf(tagsInfo[i])
+                });
+
+                if (semver.valid(tagsInfo[i + 1])) {
+
+                    if (semver.major(tagsInfo[i + 1]) === nextMajor) {
+                        // tagsHolder.set(`v${ currentMajor }`, groups);
+                        tagsHolder[`v${ currentMajor }`] = groups;
+
+                        currentMajor++;
+                        nextMajor++;
+                        groups = [];
+                    }
+
+                } else {
+                    // tagsHolder.set(`v${ currentMajor }`, groups);
+                    tagsHolder[`v${ currentMajor }`] = groups;
+                }
+            }
+
+            return tagsHolder;
+
+        }).catch(log.error),
+
+        git('rev-list HEAD | tail -n 1')
+    ]);
 }
 
 
@@ -137,20 +221,6 @@ function writeFileP(targetPath, content, tabs = 4) {
             });
         });
     });
-}
-
-
-/**
- * Function to manage errors.
- * @param  {object} reason  Reasons.
- * @return {object}         Error message.
- */
-function catchError(reason) {
-    console.error(
-        chalk.red(`\n${ figures.cross } ${ reason }`)
-    );
-
-    process.exit(1);
 }
 
 
@@ -230,7 +300,7 @@ module.exports = {
     overallStatus,
     versionInfo,
     writeFileP,
-    catchError,
     log,
-    capitalize
+    capitalize,
+    tagsInfo
 };
