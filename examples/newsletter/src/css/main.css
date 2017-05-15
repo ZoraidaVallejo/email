@@ -842,6 +842,34 @@ body {
   padding: 48px 0 0;
 }
 
+.w-text-image.multiple .items-main-title {
+  padding: 45px 30px 0;
+}
+
+.w-text-image.multiple .item-list {
+  padding: 0 30px 45px;
+}
+
+.w-text-image.multiple .item-list .item-image {
+  padding: 35px 0 30px;
+}
+
+.w-text-image.multiple .item-list table:first-child .item-desc {
+  padding: 10px 0 30px;
+}
+
+.w-text-image.multiple .item-list table:first-child .item-image {
+  padding: 15px 0 30px;
+}
+
+.w-text-image.multiple .item-list table:last-child .item-desc {
+  padding: 30px 0 0;
+}
+
+.w-text-image.multiple .item-list table:last-child .item-image {
+  padding: 35px 0 0;
+}
+
 .w-text-image.w-meet-our-team .item-list .item-desc {
   width: 300px;
 }
@@ -930,7 +958,12 @@ body {
 }
 
 .w-advertisement a {
-  display: block;
+  text-decoration: none;
+}
+
+.w-advertisement p,
+.w-advertisement a {
+  color: #ffffff;
 }
 
 .w-advertisement img {
@@ -941,6 +974,27 @@ body {
 
 .w-advertisement td {
   text-align: center;
+}
+
+.w-advertisement .ad-image a {
+  display: block;
+}
+
+.w-advertisement .ad-desc {
+  padding: 0 30px 35px;
+  text-align: left;
+}
+
+.w-advertisement .ad-desc p {
+  font: 16px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc p:first-child {
+  font: 20px/1.5 Arial, sans-serif;
+}
+
+.w-client-ad-01 {
+  background-color: #bdbdbd;
 }
 
 .w-jld-ad-01 {
@@ -969,7 +1023,7 @@ body {
 }
 
 .w-internet-stats .stats-chart {
-  padding: 0 30px 20px;
+  padding: 0 30px 30px;
   text-align: center;
 }
 
@@ -1050,6 +1104,22 @@ body {
   padding: 45px 30px 30px;
 }
 
+.w-law-events .law-events-featured {
+  padding: 0 30px 40px;
+}
+
+.w-law-events .law-events-featured table {
+  border: 1px solid #ffffff;
+}
+
+.w-law-events .law-events-featured .event-desc {
+  padding: 25px 24px 0;
+}
+
+.w-law-events .law-events-featured .button {
+  padding: 18px 24px;
+}
+
 .w-law-events .law-events-list {
   padding: 0 30px;
 }
@@ -1083,6 +1153,11 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-1 .inner-text,
+.w-law-events .event-2 .inner-text {
+  height: 108px;
 }
 
 .align-center {

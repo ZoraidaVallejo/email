@@ -15,5 +15,5 @@
         "remote_img_path": "/mnt/files/emails/images/oyez/newsletter/<%= current_year %>/<%= current_month %>"
     },
 
-    "compressed_file_name": "oyez-<%= current_year %>-<%= current_month %>"
+    "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
 }
