@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder
+# Mail Template Builder
 
 
 ## Table of Contents

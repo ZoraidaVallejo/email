@@ -14,12 +14,12 @@ const path = require('path');
 const chalk = require('chalk');
 const figures = require('figures');
 const inquirer = require('inquirer');
-// const replace = require('replace-in-file');
+const git = require('git-promise');
+// const openUrl = require('openurl');
 
 // CUSTOM PACKAGES
 // ---------------
 const $ = require('./helpers');
-// const changelog = require('./changelog');
 
 // FILES
 // -----
@@ -113,5 +113,57 @@ $.overallStatus().then((status) => {
 
     // API.releaseGit(prefixedVersion);
     // Make release
+
+    $.log.info(
+        `Pushing new tag to ${ chalk.bold('origin') }...`
+    );
+
+    let filesToAdd = [
+        // 'responsive-starter-superwide/css/',
+        // 'responsive-starter-superwide/js/',
+        // 'single-column/css/',
+        // 'single-column/js/',
+        // 'README.md',
+        'changelog/',
+        'package.json'
+    ];
+
+    return git(`add ${ filesToAdd.join(' ') }`);
+
+    // // git commit -m "Bump version to ${INPUT_STRING}."
+    // git('commit', [
+    //     '-m',
+    //     `"Bump version to ${newVersion}"`
+    // ]);
+
+    // // git push origin master
+    // git('push', ['origin', 'master']);
+
+    // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
+    // git('tag', [
+    //     '-a -m',
+    //     `"Tag version ${newVersion}"`,
+    //     `"${newVersion}"`
+    // ]);
+
+    // // git push origin --tags
+    // git('push', ['origin', '--tags']);
+
+    // console.log(
+    //     chalk.green(
+    //         `\n${figures.tick} Release ${newVersion} was generated!`
+    //     )
+    // );
+    // console.log(
+    //     chalk.green(
+    //         `\n  Please go to: ${chalk.underline(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`)}` +
+    //         '\n  to describe the new changes/features added in this release.\n'
+    //     )
+    // );
+
+    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
+
+}).then((result) => {
+    console.log(result);
 
 }).catch($.log.error);
