@@ -132,14 +132,12 @@ $.overallStatus().then((status) => {
         $.log.success(...status);
 
         return git(`push origin ${ targetBranch }`, $.parseGitOutput);
-    });
 
-    // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
-    // git('tag', [
-    //     '-a -m',
-    //     `"Tag version ${newVersion}"`,
-    //     `"${newVersion}"`
-    // ]);
+    }).then((status) => {
+        $.log.success(...status);
+
+        return git(`tag -a -m "Tag version ${ PKG.version }." "v${ PKG.version }"`, $.parseGitOutput);
+    });
 
     // // git push origin --tags
     // git('push', ['origin', '--tags']);
