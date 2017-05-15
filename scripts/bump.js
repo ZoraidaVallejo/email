@@ -15,7 +15,7 @@ const chalk = require('chalk');
 const figures = require('figures');
 const inquirer = require('inquirer');
 const git = require('git-promise');
-// const openUrl = require('openurl');
+const openUrl = require('openurl');
 
 // CUSTOM PACKAGES
 // ---------------
@@ -29,7 +29,8 @@ const PKG = require(path.join(cwd, 'package.json'));
 // ----------------------------------------------------------------------------------------------------------
 
 var versionList = $.versionInfo(PKG.version),
-    targetBranch = 'diego-public';
+    targetBranch = 'diego-public',
+    repoURL = PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git'));
 
 
 $.overallStatus().then((status) => {
@@ -89,7 +90,7 @@ $.overallStatus().then((status) => {
         firstCommit.trim(),
 
         // URL of the repository.
-        PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git')),
+        repoURL,
 
         // Name of the repository.
         $.capitalize(PKG.name.replace(/-/g, ' '))
@@ -111,53 +112,46 @@ $.overallStatus().then((status) => {
         ..._log
     );
 
-    // API.releaseGit(prefixedVersion);
-    // Make release
-
-    $.log.info(
-        `Pushing new tag to ${ chalk.bold('origin') }...`
-    );
+    $.log.info(`Pushing new tag to ${ chalk.bold('origin') }...`);
 
     let filesToAdd = [
         'changelog/',
         'package.json'
     ];
 
-    return git(`add ${ filesToAdd.join(' ') }`).then(() => {
-        let _commitMessage = `Bump version to ${ PKG.version }`;
+    return git(`add ${ filesToAdd.join(' ') }`);
 
-        return git(`commit -m "${ _commitMessage }"`, $.parseGitOutput);
+}).then(() => {
+    let _commitMessage = `Bump version to ${ PKG.version }`;
 
-    }).then((status) => {
-        $.log.success(...status);
+    return git(`commit -m "${ _commitMessage }"`, $.parseGitOutput);
 
-        return git(`push origin ${ targetBranch }`, $.parseGitOutput);
+}).then((status) => {
+    $.log(...status);
 
-    }).then((status) => {
-        $.log.success(...status);
+    return git(`push origin ${ targetBranch }`, $.parseGitOutput);
 
-        return git(`tag -a -m "Tag version ${ PKG.version }." "v${ PKG.version }"`, $.parseGitOutput);
-    });
+}).then((status) => {
+    $.log(...status);
 
-    // // git push origin --tags
-    // git('push', ['origin', '--tags']);
+    return git(`tag -a -m "Tag version ${ PKG.version }." "v${ PKG.version }"`);
 
-    // console.log(
-    //     chalk.green(
-    //         `\n${figures.tick} Release ${newVersion} was generated!`
-    //     )
-    // );
-    // console.log(
-    //     chalk.green(
-    //         `\n  Please go to: ${chalk.underline(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`)}` +
-    //         '\n  to describe the new changes/features added in this release.\n'
-    //     )
-    // );
+}).then(function() {
 
+    return git('git push origin --tags', $.parseGitOutput);
 
-}).then((result) => {
-    $.log.success(...result);
+}).then((status) => {
+    let publicURL = `${ repoURL }/releases/tag/v${ PKG.version }`;
 
-    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
+    $.log(...status);
+
+    $.log.success(`Release v${ PKG.version } was generated!`);
+
+    $.log(
+        `Please go to: ${ chalk.underline(publicURL) }`,
+        'to describe the new changes/features added in this release.'
+    );
+
+    openUrl.open(publicURL);
 
 }).catch($.log.error);
