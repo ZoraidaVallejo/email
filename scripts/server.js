@@ -1,5 +1,7 @@
 'use strict';
 
+const cwd = process.cwd();
+
 var express = require('express'),
     cheerio = require('cheerio'),
     path = require('path'),
@@ -11,8 +13,8 @@ var app = express();
 app.set('view engine', 'ejs');
 
 // Allow relative image links from either ./dist/img or ./src/img
-app.use('/src/img', express.static(path.join(__dirname, '/src/img')));
-app.use('/dist/img', express.static(path.join(__dirname, '/dist/img')));
+app.use('/src/img', express.static(path.join(cwd, '/src/img')));
+app.use('/dist/img', express.static(path.join(cwd, '/dist/img')));
 
 // Set the route handler for the preview page.
 app.get('/', function(req, res) {
@@ -20,7 +22,7 @@ app.get('/', function(req, res) {
 
     var data = { templates: getTemplates() };
 
-    res.render(path.join(__dirname, '/preview/index'), data);
+    res.render(path.join(cwd, '/preview/index'), data);
 });
 
 module.exports = app;
@@ -31,7 +33,7 @@ module.exports = app;
  */
 function getTemplates() {
     var templates = [],
-        templateDir = path.join(__dirname, '/dist/'),
+        templateDir = path.join(cwd, '/dist/'),
         templateFiles = fs.readdirSync(templateDir);
 
     templateFiles.forEach(function(file) {
