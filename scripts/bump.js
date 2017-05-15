@@ -131,8 +131,12 @@ $.overallStatus().then((status) => {
     return git(`add ${ filesToAdd.join(' ') }`).then(() => {
         let _commitMessage = `Bump version to ${ PKG.version }`;
 
-        return git(`commit -m "${ _commitMessage }"`, function(output) {
-            return output.trim().split('\n');
+        return git(`commit -m "${ _commitMessage }"`, (output) => {
+            let _message = output.trim().split('\n').map(function(val) {
+                return val.trim();
+            });
+
+            return _message;
         });
     });
 
