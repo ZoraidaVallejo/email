@@ -119,11 +119,6 @@ $.overallStatus().then((status) => {
     );
 
     let filesToAdd = [
-        // 'responsive-starter-superwide/css/',
-        // 'responsive-starter-superwide/js/',
-        // 'single-column/css/',
-        // 'single-column/js/',
-        // 'README.md',
         'changelog/',
         'package.json'
     ];
@@ -131,18 +126,17 @@ $.overallStatus().then((status) => {
     return git(`add ${ filesToAdd.join(' ') }`).then(() => {
         let _commitMessage = `Bump version to ${ PKG.version }`;
 
-        return git(`commit -m "${ _commitMessage }"`, (output) => {
-            let _message = output.trim().split('\n').map(function(val) {
-                return val.trim();
-            });
+        return git(`commit -m "${ _commitMessage }"`);
 
-            return _message;
+    }).then((stdout) => {
+        let _message = stdout.trim().split('\n').map(function(val) {
+            return val.trim();
         });
+
+        $.log.success(_message);
+
+        return git(`push origin ${ targetBranch }`);
     });
-
-
-    // // git push origin master
-    // git('push', ['origin', 'master']);
 
     // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
     // git('tag', [
@@ -166,17 +160,10 @@ $.overallStatus().then((status) => {
     //     )
     // );
 
-    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
 
 }).then((result) => {
     console.log(result);
 
-    // // Report
-    // console.log([
-    //     chalk.green(`\n${ figures.tick } ${ chalk.bold(resultFolder) }`),
-
-    //     // Commit info
-    //     parse.commitInfo`\n  ${ _commitMessage }${ overview }`
-    // ].join(''));
+    // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
 
 }).catch($.log.error);
