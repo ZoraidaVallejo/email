@@ -15,7 +15,6 @@ const chalk = require('chalk');
 const figures = require('figures');
 const inquirer = require('inquirer');
 // const replace = require('replace-in-file');
-// const git = require('simple-git')(cwd);
 
 // CUSTOM PACKAGES
 // ---------------
@@ -69,21 +68,50 @@ $.overallStatus().then((status) => {
     // Update Package file
     return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
 
-// Continue if the update to the Package files was successful
 }).then((reweritePKG) => {
+    // Continue if the update to the Package files was successful.
 
     $.log.success(
         `Version bumped in the following file:`,
         `${ figures.arrowRight } ${ reweritePKG.fileName }`
     );
 
-    return $.tagsInfo('v' + PKG.version);
+    return $.tagsInfo(`v${ PKG.version }`);
 
-// Continue if the update to the Package files was successful
-}).then(([tags, firstCommit]) => {
-    // let prevTag = firstCommit;
+}).then(function([tagsList, firstCommit]) {
+    // Continue if the update to the Package files was successful.
 
-    console.log(tags);
-    console.log(firstCommit);
+    return $.createChangelog(
+        // Object with all the tags info.
+        tagsList,
+
+        // First commit.
+        firstCommit.trim(),
+
+        // URL of the repository.
+        PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git')),
+
+        // Name of the repository.
+        $.capitalize(PKG.name.replace(/-/g, ' '))
+    );
+
+}).then((result) => {
+    // Continue if the changelog files were created successfully.
+
+    let _log = [];
+
+    for (let i = 0; i < result.length; i++) {
+        _log.push(
+            `${ figures.arrowRight } ${ result[i].fileName }`
+        );
+    }
+
+    $.log.success(
+        `Changelog:`,
+        ..._log
+    );
+
+    // API.releaseGit(prefixedVersion);
+    // Make release
 
 }).catch($.log.error);

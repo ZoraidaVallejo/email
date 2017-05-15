@@ -108,7 +108,6 @@ function tagsInfo(newTag) {
                 return 0;
             });
 
-            // latest: allTags[allTags.length - 1],
             return allTags;
 
         }).then((tagsInfo) => {
@@ -129,7 +128,6 @@ function tagsInfo(newTag) {
                 if (semver.valid(tagsInfo[i + 1])) {
 
                     if (semver.major(tagsInfo[i + 1]) === nextMajor) {
-                        // tagsHolder.set(`v${ currentMajor }`, groups);
                         tagsHolder[`v${ currentMajor }`] = groups;
 
                         currentMajor++;
@@ -138,7 +136,6 @@ function tagsInfo(newTag) {
                     }
 
                 } else {
-                    // tagsHolder.set(`v${ currentMajor }`, groups);
                     tagsHolder[`v${ currentMajor }`] = groups;
                 }
             }
@@ -295,12 +292,63 @@ function capitalize(string) {
 }
 
 
+/**
+ * Create Changelog files.
+ * @param  {object} tagsList    Tags info.
+ * @param  {string} prevTag     Previous tag to compare with.
+ * @param  {string} repoURL     URL of the repository.
+ * @param  {string} repoName    Name of the repository.
+ * @return {promise}            A promise to do it.
+ */
+function createChangelog(tagsList, prevTag, repoURL, repoName) {
+    let writeLogFiles = [];
+
+    for (let majorVersion in tagsList) {
+        let logIndex = [],
+            logDetailed = [];
+
+        let logContent = [
+            `\n# ${ repoName } ${ majorVersion } ChangeLog\n`,
+            `All changes commited to this repository will be documented in this file. It adheres to [Semantic Versioning](http://semver.org/).\n`,
+            '<details>',
+            `<summary>List of tags released on the ${ majorVersion } range</summary>\n`
+        ];
+
+        for (let _info of tagsList[majorVersion]) {
+            let link = `${ _info.tag }-${ _info.date }`;
+            logIndex.push(`- [${ _info.tag }](#${ link.replace(/\./g, '') })`);
+
+            logDetailed.push(
+                `\n## [${ _info.tag }](${ repoURL }/tree/${ _info.tag }), ${ _info.date }\n`
+                + `- [Release notes](${ repoURL }/releases/tag/${ _info.tag })\n`
+                + `- [Full changelog](${ repoURL }/compare/${ prevTag }...${ _info.tag })\n`
+            );
+
+            prevTag = _info.tag;
+        }
+
+        logContent.push(
+            logIndex.reverse().join('\n'),
+            '\n</details>\n\n',
+            logDetailed.reverse().join('\n')
+        );
+
+        writeLogFiles.push(
+            writeFileP(`changelog/CHANGELOG-${ majorVersion.toUpperCase() }.md`, logContent.join('\n'))
+        );
+    }
+
+    return Promise.all(writeLogFiles);
+}
+
+
 module.exports = {
     currentBranch,
     overallStatus,
+    tagsInfo,
     versionInfo,
     writeFileP,
     log,
     capitalize,
-    tagsInfo
+    createChangelog
 };
