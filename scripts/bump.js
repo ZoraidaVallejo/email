@@ -128,13 +128,12 @@ $.overallStatus().then((status) => {
         'package.json'
     ];
 
-    return git(`add ${ filesToAdd.join(' ') }`);
+    return git(`add ${ filesToAdd.join(' ') }`).then(() => {
+        let _commitMessage = `Bump version to ${ PKG.version }`;
 
-    // // git commit -m "Bump version to ${INPUT_STRING}."
-    // git('commit', [
-    //     '-m',
-    //     `"Bump version to ${newVersion}"`
-    // ]);
+        return git(`commit -m "${ _commitMessage }"`);
+    });
+
 
     // // git push origin master
     // git('push', ['origin', 'master']);
@@ -165,5 +164,13 @@ $.overallStatus().then((status) => {
 
 }).then((result) => {
     console.log(result);
+
+    // // Report
+    // console.log([
+    //     chalk.green(`\n${ figures.tick } ${ chalk.bold(resultFolder) }`),
+
+    //     // Commit info
+    //     parse.commitInfo`\n  ${ _commitMessage }${ overview }`
+    // ].join(''));
 
 }).catch($.log.error);
