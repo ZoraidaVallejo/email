@@ -44,13 +44,13 @@ $.overallStatus().then((status) => {
         );
     }
 
-    // if (!status.clean) {
+    if (!status.clean) {
 
-    //     $.log.error(
-    //         `${ chalk.bold('Working dirty!') }`,
-    //         'Please commit before trying again!'
-    //     );
-    // }
+        $.log.error(
+            `${ chalk.bold('Working dirty!') }`,
+            'Please commit before trying again!'
+        );
+    }
 
     $.log.info(
         `Current version in package.json is ${ chalk.bold(versionList.current) }\n`
