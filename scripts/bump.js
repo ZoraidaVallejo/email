@@ -29,7 +29,7 @@ const PKG = require(path.join(cwd, 'package.json'));
 // ----------------------------------------------------------------------------------------------------------
 
 var versionList = $.versionInfo(PKG.version),
-    targetBranch = 'diego-public',
+    targetBranch = 'master',
     repoURL = PKG.repository.url.substring(0, PKG.repository.url.indexOf('.git'));
 
 
