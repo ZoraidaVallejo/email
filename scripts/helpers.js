@@ -342,6 +342,18 @@ function createChangelog(tagsList, prevTag, repoURL, repoName) {
 }
 
 
+/**
+ * Convert to an array the status message of the git command.
+ * @param  {string} stdout  Message.
+ * @return {array}          Array.
+ */
+function parseGitOutput(stdout) {
+    return stdout.trim().split('\n').map(function(line) {
+        return line.trim();
+    });
+}
+
+
 module.exports = {
     currentBranch,
     overallStatus,
@@ -350,5 +362,6 @@ module.exports = {
     writeFileP,
     log,
     capitalize,
-    createChangelog
+    createChangelog,
+    parseGitOutput
 };

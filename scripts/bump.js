@@ -126,16 +126,12 @@ $.overallStatus().then((status) => {
     return git(`add ${ filesToAdd.join(' ') }`).then(() => {
         let _commitMessage = `Bump version to ${ PKG.version }`;
 
-        return git(`commit -m "${ _commitMessage }"`);
+        return git(`commit -m "${ _commitMessage }"`, $.parseGitOutput);
 
-    }).then((stdout) => {
-        let _message = stdout.trim().split('\n').map(function(val) {
-            return val.trim();
-        });
+    }).then((status) => {
+        $.log.success(...status);
 
-        $.log.success(_message);
-
-        return git(`push origin ${ targetBranch }`);
+        return git(`push origin ${ targetBranch }`, $.parseGitOutput);
     });
 
     // // git tag -a -m "Tag version ${INPUT_STRING}." "v$INPUT_STRING"
@@ -162,7 +158,7 @@ $.overallStatus().then((status) => {
 
 
 }).then((result) => {
-    console.log(result);
+    $.log.success(...result);
 
     // openUrl.open(`https://github.com/justia/conversion-starters/releases/tag/${newVersion}`);
 
