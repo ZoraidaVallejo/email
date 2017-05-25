@@ -1,7 +1,12 @@
 'use strict';
 
-// Clean your /dist folder
+// Clean folders
 module.exports = {
+    dist: ['dist/'],
 
-    dist: ['dist/']
+    all: [
+        'dist/',
+        'src/',
+        'custom-config.json'
+    ]
 };

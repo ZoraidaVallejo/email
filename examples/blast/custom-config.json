@@ -15,6 +15,5 @@
         "remote_img_path": "/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>"
     },
 
-    "file_to_send": "newsletter-<%= current_year %>-<%= current_month %>.html",
-    "compressed_file_name": "newsletter-<%= current_year %>-<%= current_month %>"
+    "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
 }

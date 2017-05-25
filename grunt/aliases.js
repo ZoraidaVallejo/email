@@ -3,13 +3,15 @@
 module.exports = function(grunt, options) {
 
     // BLAST configuration
-    let buildAlias = [
+    var buildAlias = [
         options.conversionType,
         'replace:live_images'
     ];
 
     // Newsletter configuration overwrite
-    if (options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
+    if (options.conversionType === 'newsletter'
+        || options.conversionType === 'proposal'
+        || options.conversionType === 'oyez') {
         buildAlias = buildAlias.concat([
             'replace:shorten_classes',
             'htmlmin:live'
@@ -17,10 +19,10 @@ module.exports = function(grunt, options) {
     }
 
     return {
-        'default': ['newsletter'],
+        default: ['serve'],
 
-        'newsletter': [
-            'clean',
+        newsletter: [
+            'clean:dist',
             'sass:dist',
             'assemble',
             'juice',
@@ -32,8 +34,8 @@ module.exports = function(grunt, options) {
             'replace:remove_dup_styles'
         ],
 
-        'blast': [
-            'clean',
+        blast: [
+            'clean:dist',
             'sass:dist',
             'assemble',
             'juice',
@@ -44,8 +46,8 @@ module.exports = function(grunt, options) {
             'replace:src_images'
         ],
 
-        'proposal': [
-            'clean',
+        proposal: [
+            'clean:dist',
             'sass:dist',
             'cssmin',
             'assemble',
@@ -54,9 +56,22 @@ module.exports = function(grunt, options) {
             'replace:src_images'
         ],
 
-        'build': buildAlias,
+        oyez: [
+            'clean:dist',
+            'sass:dist',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
+            'replace:src_images',
+            'replace:remove_dup_styles'
+        ],
 
-        'serve': [
+        build: buildAlias,
+
+        serve: [
             options.conversionType,
             'sass:preview',
             'postcss:preview',
@@ -65,17 +80,19 @@ module.exports = function(grunt, options) {
             'watch'
         ],
 
-        'upload': [
-            options.conversionType,
+        upload: [
             'imagemin',
-            'sftp-deploy'
+            'sftp-deploy:images'
         ],
 
-        'zip': [
-            'compress'
+        publish: [
+            'build',
+            'copy',
+            'compress',
+            'clean:all'
         ],
 
-        'test': [
+        test: [
             'sass'
         ]
     };

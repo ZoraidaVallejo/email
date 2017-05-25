@@ -1,5 +1,5 @@
 
-# JUSTIA Mail Template Builder
+# Mail Template Builder
 
 
 ## Table of Contents
@@ -23,6 +23,7 @@
 - [How to use](#how-to-use)
     - [Workflow configuration](#workflow-configuration)
     - [Grunt commands](#grunt-commands)
+        - [Caveats](#caveats)
     - [Responsive behavior](#responsive-behavior)
         - [Responsive Classes](#responsive-classes)
 - [Resources](#resources)
@@ -95,6 +96,8 @@ yarn install
 ├── dist/
 ├── grunt/
 ├── preview/
+├── scripts/
+├── public/
 └── src/
     ├── css/
     │   └── scss/
@@ -115,6 +118,8 @@ Folder name | Description
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
 `preview/` | All files related to the preview window where you see a *preview* of your work.
+`scripts/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
+`public/` | Folder where the final HTML files are stored.
 `src/` | Main folder where the source files of the email template are stored.
 `css/scss/modules/` | [More info](#modules).
 `css/scss/partials/` | [More info](#partials).
@@ -264,7 +269,6 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
 - **`current_month`**: Current month. The same as the previous one.
-- **`file_to_send`**: Name and extension of the template you want to test with the `grunt send` command.
 - **`compressed_file_name`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
     - **`src`**: Folder where all development files are stored.
@@ -278,11 +282,15 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 
 ### Grunt commands
 
-- **`grunt`**: Cleans the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
+- **`grunt`**: Clean the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
 - **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
 - **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
 - **`grunt upload`**: Upload all the images to the remote server.
-- **`grunt zip`**: Zip the **custom-config.json** file, `src/` and `dist/` folders.
+- **`grunt publish`**: This command does the following:
+    - Run the `build` command.
+    - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
+    - Compress the **custom-config.json** file, `src/` and `dist/` folders.
+    - Delete all the folders and files that were zipped.
 
 For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
 
@@ -293,6 +301,12 @@ For the `grunt upload` command, you will need to create a `.ftppass` file where 
     }
 }
 ```
+
+#### Caveats
+
+- You will have to backup the zip file on S3 manually after runninf the `grunt publish` command.
+- The `grunt upload` command will fail if the parent folder of the direct parent folder doesn't exists remotely. For instance, if you are trying to upload all the images to `/emails/images/lawyer-directory/2018/01` but `2018/` doesn't exist, it will fail.
+
 
 ### Responsive behavior
 
