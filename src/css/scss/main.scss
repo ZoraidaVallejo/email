@@ -22,7 +22,11 @@
 
 @import
 'partials/components/template-1',
-'partials/components/template-2';
+'partials/components/grade';
+
+@import
+'partials/ui-components/buttons',
+'partials/ui-components/titles';
 
 @import
 'partials/misc/other';

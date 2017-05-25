@@ -296,7 +296,7 @@ body {
   color: #ffffff !important;
 }
 
-.template-2 .description {
+.grade .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -304,30 +304,136 @@ body {
   border-collapse: collapse !important;
 }
 
-.template-2 .description td {
+.grade .description td {
   width: 100%;
 }
 
-.template-2 .description .image {
+.grade .description a {
+  color: #09347a;
+}
+
+.grade .block-1 {
+  padding-top: 34px;
+  background-color: #00b3e3;
+}
+
+.grade .block-1 img {
   width: 600px;
-  height: 300px;
+  height: 124px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.template-2 .block-2 {
-  padding: 25px 30px 40px;
+.grade .block-2 {
+  padding-left: 48px;
+  background-color: #00b3e3;
+}
+
+.grade .block-2 .main-image-down {
+  padding-left: 45px;
+}
+
+.grade .block-2 .main-image-down,
+.grade .block-2 img {
+  width: 292px;
+  height: 120px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.grade .block-2 .tagline {
+  padding: 0 0 47px;
+}
+
+.grade .block-2 .tagline,
+.grade .block-2 .tagline img {
+  width: 215px;
+  height: 73px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.grade .block-3 {
+  padding: 35px 30px 34px;
   text-align: center;
 }
 
-.template-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+.grade .block-3 p {
+  font-family: Arial, sans-serif !important;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
-.template-2 .block-5 {
-  padding: 0 30px 25px;
+.grade .block-5 {
+  padding: 35px 30px 24px;
+}
+
+.grade .block-6 {
+  padding: 0 30px;
+}
+
+.grade .block-7 {
+  padding: 3px 240px 21px 30px;
+}
+
+.grade .block-7 ul {
+  padding: 0 0 0 36px;
+  margin: 8px 0 0;
+}
+
+.grade .block-7 li {
+  margin-bottom: 6px;
+  color: #09347a;
+  font-size: 0.9em;
+}
+
+.grade .block-7 li span {
+  color: #000000;
+  font-size: 16px;
+}
+
+.grade .block-8 {
+  padding: 0 30px 8px;
+}
+
+.grade .block-10 {
+  padding: 0 30px 9px;
+}
+
+.grade .block-9,
+.grade .block-11 {
+  padding: 0 30px 24px;
+}
+
+.grade .contactus {
+  padding: 3px 30px 35px;
+}
+
+.grade .contactus a {
+  color: #09347a !important;
+}
+
+.btn {
+  width: 600px !important;
+  max-width: 600px !important;
+  padding: 0 147px 0 143px !important;
+}
+
+.btn img,
+.btn a {
+  display: block;
+  width: 310px;
+  height: 56px;
+  margin: 0;
+}
+
+.btn a {
+  text-decoration: none;
+  mso-hide: all;
+}
+
+.title {
+  color: #09347a;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .align-center {
