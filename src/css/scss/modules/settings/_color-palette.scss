@@ -1,6 +1,6 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// C O L O U R   P A L E T T E
+// C O L O R   P A L E T T E
 // ----------------------------------------------------------------------------------------------------------
 
 $grayscale-palette: (
@@ -67,11 +67,11 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': #09347a, //map-get($new-primary-palette, 'cerulean'),
+    'accent': map-get($new-primary-palette, 'cerulean'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')
     ),
 );
 
-$colour-palette: map-extend($grayscale-palette, $primary-palette, $new-primary-palette, $ui-color-pallete);
+$color-palette: map-extend($grayscale-palette, $primary-palette, $new-primary-palette, $ui-color-pallete);

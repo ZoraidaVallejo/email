@@ -53,10 +53,6 @@ img {
   font: 18px/1.3 Arial, sans-serif !important;
 }
 
-.contactus .phone a {
-  color: #09347a !important;
-}
-
 .expiration {
   padding: 0 30px 25px;
   text-align: center;
@@ -242,7 +238,65 @@ body {
   text-transform: uppercase;
 }
 
-.questions-light .description {
+.template-1 .description {
+  overflow: hidden;
+  width: 600px;
+  max-width: 600px !important;
+  background-color: #4c6b97;
+  border-collapse: collapse !important;
+}
+
+.template-1 .dvbg {
+  width: 600px;
+  height: 736px;
+  padding: 0;
+  background: url("../img/template1-background-01.png");
+  background-color: #4c6b97;
+  background-repeat: no-repeat !important;
+  background-size: 600px 736px;
+  vertical-align: top;
+}
+
+.template-1 .inner-content {
+  width: 600px;
+}
+
+.template-1 .inner-content p,
+.template-1 .inner-content a,
+.template-1 .inner-content strong {
+  color: #ffffff;
+}
+
+.template-1 .inner-content td {
+  width: 100%;
+  text-align: center;
+}
+
+.template-1 .block-1 {
+  padding: 50px 67px 295px;
+}
+
+.template-1 .block-1 .image {
+  width: 465.5px;
+  height: 164px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.template-1 .block-2 {
+  padding: 0 30px 20px;
+  text-align: left;
+}
+
+.template-1 .block-2 p {
+  text-align: left;
+}
+
+.template-1 .contactus .phone a {
+  color: #ffffff !important;
+}
+
+.template-2 .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -250,124 +304,30 @@ body {
   border-collapse: collapse !important;
 }
 
-.questions-light .description td {
+.template-2 .description td {
   width: 100%;
 }
 
-.questions-light .description .image {
-  width: 265.833333333px;
-  height: 309.166666667px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
-.questions-light .description .image.button {
-  width: 278.333333333px;
-  height: 177.5px;
-}
-
-.questions-light .description .image.tagline {
-  width: 529.166666667px;
-  height: 96.6666666667px;
-}
-
-.questions-light .block-1 {
-  padding: 41px 0 0;
-  background-color: #01b3e2;
-}
-
-.questions-light .block-1 .right {
-  width: 278px;
-  padding: 47px 23px 85px 33px;
-  background-color: #01b3e2;
-}
-
-.questions-light .block-1 .left {
-  width: 266px;
-  padding: 0;
-  background-color: #01b3e2;
-}
-
-.questions-light .block-1 .tagline-container {
-  padding: 0 32px 30px 39px;
-  background-color: #01b3e2;
-}
-
-.questions-light .block-2 {
-  padding: 33px 30px 27px;
-  text-align: left;
-}
-
-.questions-light .block-2 p {
-  font: 16px/1.5 Arial, sans-serif !important;
-}
-
-.questions-light .block-3 {
-  padding-bottom: 34px;
-}
-
-.questions-dark .description {
-  overflow: hidden;
+.template-2 .description .image {
   width: 600px;
-  max-width: 600px !important;
-  background-color: #ffffff;
-  border-collapse: collapse !important;
-}
-
-.questions-dark .description td {
-  width: 100%;
-}
-
-.questions-dark .description .image {
-  width: 265.833333333px;
-  height: 309.166666667px;
+  height: 300px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.questions-dark .description .image.button {
-  width: 278.333333333px;
-  height: 177.5px;
+.template-2 .block-2 {
+  padding: 25px 30px 40px;
+  text-align: center;
 }
 
-.questions-dark .description .image.tagline {
-  width: 523.333333333px;
-  height: 64.1666666667px;
+.template-2 .block-2 p {
+  font: 14px/1.5 Arial, sans-serif !important;
 }
 
-.questions-dark .block-1 {
-  padding: 41px 0 0;
-  background-color: #09347a;
-}
-
-.questions-dark .block-1 .right {
-  width: 278px;
-  padding: 47px 23px 85px 33px;
-  background-color: #09347a;
-}
-
-.questions-dark .block-1 .left {
-  width: 266px;
-  padding: 0;
-  background-color: #09347a;
-}
-
-.questions-dark .block-1 .tagline-container {
-  padding: 0 35px 23px 42px;
-  background-color: #09347a;
-}
-
-.questions-dark .block-2 {
-  padding: 33px 30px 26px;
-  text-align: left;
-}
-
-.questions-dark .block-2 p {
-  font: 16px/1.5 Arial, sans-serif !important;
-}
-
-.questions-dark .block-3 {
-  padding: 0 30px 33px;
+.template-2 .block-3,
+.template-2 .block-4,
+.template-2 .block-5 {
+  padding: 0 30px 25px;
 }
 
 .align-center {

@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'../../../node_modules/sassy-maps/sass/sassy-maps',
+'sassy-maps',
 'image-dimensions';
 
 @import
@@ -21,8 +21,8 @@
 'partials/layout/footer-v2';
 
 @import
-'partials/components/questions-light',
-'partials/components/questions-dark';
+'partials/components/template-1',
+'partials/components/template-2';
 
 @import
 'partials/misc/other';
