@@ -238,62 +238,62 @@ body {
   text-transform: uppercase;
 }
 
-.template-1 .description {
+.flash .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
-  background-color: #4c6b97;
+  background-color: #ffffff;
   border-collapse: collapse !important;
 }
 
-.template-1 .dvbg {
+.flash .dvbg {
   width: 600px;
-  height: 736px;
+  height: 430.833333333px;
   padding: 0;
-  background: url("../img/template1-background-01.png");
-  background-color: #4c6b97;
+  background: url("../img/flash-main-image-01.png");
+  background-color: #09347a;
   background-repeat: no-repeat !important;
-  background-size: 600px 736px;
+  background-size: 600px 430.833333333px;
   vertical-align: top;
 }
 
-.template-1 .inner-content {
+.flash .inner-content {
   width: 600px;
 }
 
-.template-1 .inner-content p,
-.template-1 .inner-content a,
-.template-1 .inner-content strong {
-  color: #ffffff;
+.flash .inner-content p,
+.flash .inner-content a,
+.flash .inner-content strong {
+  color: #000000;
 }
 
-.template-1 .inner-content td {
+.flash .inner-content td {
   width: 100%;
   text-align: center;
 }
 
-.template-1 .block-1 {
-  padding: 50px 67px 295px;
+.flash .block-1 {
+  padding: 105px 40px 223px 38px;
 }
 
-.template-1 .block-1 .image {
-  width: 465.5px;
-  height: 164px;
+.flash .block-1 .image {
+  width: 522px;
+  height: 103px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.template-1 .block-2 {
+.flash .main-content {
   padding: 0 30px 20px;
   text-align: left;
 }
 
-.template-1 .block-2 p {
+.flash .main-content p {
   text-align: left;
 }
 
-.template-1 .contactus .phone a {
-  color: #ffffff !important;
+.flash .contactus .phone a {
+  color: #09347a !important;
 }
 
 .grade .description {

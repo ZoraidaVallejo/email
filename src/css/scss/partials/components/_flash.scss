@@ -1,32 +1,32 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// T E M P L A T E   1
+// F L A S H    S A  L E
 // ----------------------------------------------------------------------------------------------------------
 
-$template1-background--dimensions: image-dimensions('/src/img/template1-background-01.png');
-$template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.png');
+$flash-background--dimensions: image-dimensions('/src/img/flash-main-image-01.png');
+$flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
 
 
 // ----------------------------------------------------------------------------------------------------------
 
-.template-1 {
+.flash {
 
     .description {
         overflow: hidden;
         width: $max-width;
         max-width: $max-width !important;
-        background-color: #4c6b97;
+        background-color: #ffffff;
         border-collapse: collapse !important;
     }
 
     .dvbg {
-        width: nth($template1-background--dimensions, 1);
-        height: nth($template1-background--dimensions, 2);
+        width: nth($flash-background--dimensions, 1) / 1.2;
+        height: nth($flash-background--dimensions, 2) / 1.2;
         padding: 0;
-        background: url('../img/template1-background-01.png');
-        background-color: #4c6b97;
+        background: url('../img/flash-main-image-01.png');
+        background-color: #09347a;
         background-repeat: no-repeat !important;
-        background-size: $template1-background--dimensions;
+        background-size: (nth($flash-background--dimensions, 1) / 1.2) (nth($flash-background--dimensions, 2) / 1.2);
         vertical-align: top;
     }
 
@@ -36,7 +36,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
         p,
         a,
         strong {
-            color: plt('white');
+            color: plt('black');
         }
 
         td {
@@ -46,17 +46,17 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
     }
 
     .block-1 {
-        padding: 50px 67px 295px;
+        padding: 105px 40px 223px 38px;
 
         .image {
-            width: nth($template1-image-01--dimensions, 1) / 2;
-            height: nth($template1-image-01--dimensions, 2) / 2;
+            width: nth($flash-image-01--dimensions, 1);
+            height: nth($flash-image-01--dimensions, 2);
             margin: 0 auto;
             Margin: 0 auto;
         }
     }
 
-    .block-2 {
+    .main-content {
         padding: 0 $padding 20px;
         text-align: left;
 
@@ -70,7 +70,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
         .phone {
 
             a {
-                color: plt('white') !important;
+                color: #09347a !important;
             }
         }
     }
