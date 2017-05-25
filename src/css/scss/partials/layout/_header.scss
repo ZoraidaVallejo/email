@@ -1,0 +1,19 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// H E A D E R
+// ----------------------------------------------------------------------------------------------------------
+
+.main-header {
+    background: plt('white');
+    color: plt('mine-shaft');
+
+    .view-in-browser {
+        padding: 13px $padding;
+        font: 13px/1.2 $sans-serif-font-family;
+        text-align: center;
+
+        a {
+            color: plt('dodger-blue');
+        }
+    }
+}
