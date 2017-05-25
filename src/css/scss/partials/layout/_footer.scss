@@ -3,7 +3,7 @@
 // F O O T E R
 // ----------------------------------------------------------------------------------------------------------
 
-$social-icons--total: 3;
+$social-icons--total: 2;
 $social-icons-v1--size: 32px;
 $social-icons-v1--gap: 4px;
 
@@ -26,7 +26,7 @@ $footer-logo--dimensions: image-dimensions('src/img/footer-logo.png');
     }
 
     .logo-footernav {
-        padding: 20px $padding;
+        padding: 32px $padding;
         background-color: plt('blumine');
 
         .logo,

@@ -22,12 +22,12 @@ p,
 ol,
 ul {
   margin: 0;
-  font: 400 16px/1.5 Arial, sans-serif;
   color: #5a5a5a;
+  font: 400 16px/1.5 Arial, sans-serif;
 }
 
 a {
-  color: #0391da;
+  color: #bb5a3e;
   text-decoration: none;
 }
 
@@ -60,7 +60,6 @@ body {
 
 .widget-type-name {
   padding: 0 0 5px;
-  color: #5f646e;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -89,10 +88,6 @@ body {
   text-align: center;
 }
 
-.main-header .view-in-browser a {
-  color: #2bb2f8;
-}
-
 .main-footer {
   clear: both;
   background-color: #ffffff;
@@ -108,8 +103,8 @@ body {
 }
 
 .main-footer .logo-footernav {
-  padding: 20px 30px;
-  background-color: #1d548a;
+  padding: 32px 30px;
+  background-color: #205372;
 }
 
 .main-footer .logo-footernav .logo,
@@ -120,9 +115,9 @@ body {
 
 .main-footer .logo-footernav .logo img {
   display: block;
-  width: 214px;
+  width: 219px;
   max-width: none;
-  height: 63px;
+  height: 43px;
 }
 
 .main-footer .logo-footernav .footernav span,
@@ -156,7 +151,7 @@ body {
 }
 
 .main-footer .social table {
-  width: 104px !important;
+  width: 68px !important;
 }
 
 .main-footer .social table td {
@@ -201,8 +196,8 @@ body {
 }
 
 .w-main-article .article--title h2 {
-  color: #000000;
-  font: 400 26px/1.2 TimesNewRoman, serif;
+  color: #205372;
+  font: 700 24px/1.2 Arial, sans-serif;
 }
 
 .w-main-article .article--date-author {
@@ -235,8 +230,8 @@ body {
 }
 
 .w-main-article .article--recent-posts-wrapper .recent-posts--title h4 {
-  color: #000000;
-  font: 700 16px/1.5 TimesNewRoman, serif;
+  color: #205372;
+  font: 700 16px/1.5 Arial, sans-serif;
 }
 
 .w-main-article .article--recent-posts-wrapper .recent-posts--content ul {
