@@ -2,7 +2,6 @@
 // ----------------------------------------------------------------------------------------------------------
 // F L A S H    S A  L E
 // ----------------------------------------------------------------------------------------------------------
-
 $flash-background--dimensions: image-dimensions('/src/img/flash-main-image-01.png');
 $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
 
@@ -56,22 +55,57 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
         }
     }
 
-    .main-content {
-        padding: 0 $padding 20px;
+    .title {
+        text-align: center;
+        padding: 31px $padding 23px;
+
+        p,
+        strong {
+            color: #09347a;
+            font-size: 20px;
+        }
+    }
+
+    .info {
         text-align: left;
+        padding: 0 $padding 23px;
 
         p {
             text-align: left;
         }
+
+        strong,
+        a {
+            color: #09347a;
+        }
     }
 
     .contactus {
+        padding: 4px $padding 45px;
+
+        .tagline {
+            font-size: 18px !important;
+            line-height: 1.2 !important;
+        }
 
         .phone {
-
             a {
+                line-height: 1.2 !important;
+                font-size: 20px !important;
                 color: #09347a !important;
             }
+        }
+    }
+
+    .expiration {
+        padding: 0 $padding 34px;
+        text-align: center;
+
+        p,
+        em {
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
         }
     }
 }

@@ -283,17 +283,56 @@ body {
   Margin: 0 auto;
 }
 
-.flash .main-content {
-  padding: 0 30px 20px;
+.flash .title {
+  text-align: center;
+  padding: 31px 30px 23px;
+}
+
+.flash .title p,
+.flash .title strong {
+  color: #09347a;
+  font-size: 20px;
+}
+
+.flash .info {
+  text-align: left;
+  padding: 0 30px 23px;
+}
+
+.flash .info p {
   text-align: left;
 }
 
-.flash .main-content p {
-  text-align: left;
+.flash .info strong,
+.flash .info a {
+  color: #09347a;
+}
+
+.flash .contactus {
+  padding: 4px 30px 45px;
+}
+
+.flash .contactus .tagline {
+  font-size: 18px !important;
+  line-height: 1.2 !important;
 }
 
 .flash .contactus .phone a {
+  line-height: 1.2 !important;
+  font-size: 20px !important;
   color: #09347a !important;
+}
+
+.flash .expiration {
+  padding: 0 30px 34px;
+  text-align: center;
+}
+
+.flash .expiration p,
+.flash .expiration em {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
 }
 
 .grade .description {
