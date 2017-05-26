@@ -373,52 +373,12 @@ body {
   color: #09347a;
 }
 
-.grade .dvbg {
-  width: 600px;
-  height: 278px;
-  padding: 0;
-  background: url("../img/grade-main-image-01.png");
-  background-color: #00b3e3;
-  background-repeat: no-repeat !important;
-  background-size: 600px 278px;
-  vertical-align: top;
-}
-
 .grade .block-1 {
-  padding-top: 34px;
+  padding: 158px 337px 47px 48px;
   background-color: #00b3e3;
 }
 
 .grade .block-1 img {
-  width: 600px;
-  height: 124px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
-.grade .block-2 {
-  padding-left: 48px;
-  background-color: #00b3e3;
-}
-
-.grade .block-2 .main-image-down {
-  padding-left: 45px;
-}
-
-.grade .block-2 .main-image-down,
-.grade .block-2 img {
-  width: 292px;
-  height: 120px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
-.grade .block-2 .tagline {
-  padding: 0 0 47px;
-}
-
-.grade .block-2 .tagline,
-.grade .block-2 .tagline img {
   width: 215px;
   height: 73px;
   margin: 0 auto;
