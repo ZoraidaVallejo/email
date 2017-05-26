@@ -56,8 +56,8 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
     }
 
     .title {
-        text-align: center;
         padding: 31px $padding 23px;
+        text-align: center;
 
         p,
         strong {
@@ -67,8 +67,8 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
     }
 
     .info {
-        text-align: left;
         padding: 0 $padding 23px;
+        text-align: left;
 
         p {
             text-align: left;
@@ -89,10 +89,11 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
         }
 
         .phone {
+
             a {
-                line-height: 1.2 !important;
-                font-size: 20px !important;
                 color: #09347a !important;
+                font-size: 20px !important;
+                line-height: 1.2 !important;
             }
         }
     }
@@ -103,9 +104,9 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
 
         p,
         em {
-            text-align: center;
-            font-style: italic;
             font-size: 14px;
+            font-style: italic;
+            text-align: center;
         }
     }
 }

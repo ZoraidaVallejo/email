@@ -284,8 +284,8 @@ body {
 }
 
 .flash .title {
-  text-align: center;
   padding: 31px 30px 23px;
+  text-align: center;
 }
 
 .flash .title p,
@@ -295,8 +295,8 @@ body {
 }
 
 .flash .info {
-  text-align: left;
   padding: 0 30px 23px;
+  text-align: left;
 }
 
 .flash .info p {
@@ -318,9 +318,9 @@ body {
 }
 
 .flash .contactus .phone a {
-  line-height: 1.2 !important;
-  font-size: 20px !important;
   color: #09347a !important;
+  font-size: 20px !important;
+  line-height: 1.2 !important;
 }
 
 .flash .expiration {
@@ -330,9 +330,9 @@ body {
 
 .flash .expiration p,
 .flash .expiration em {
-  text-align: center;
-  font-style: italic;
   font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
 
 .grade .description {
