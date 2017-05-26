@@ -2,8 +2,11 @@
 // ----------------------------------------------------------------------------------------------------------
 // F L A S H    S A  L E
 // ----------------------------------------------------------------------------------------------------------
-$flash-background--dimensions: image-dimensions('/src/img/flash-main-image-01.png');
-$flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
+$flash-background--dimensions: image-dimensions('/src/img/flash-main-image-bg.png');
+
+$flash-image-up--dimensions: image-dimensions('/src/img/flash-main-image-up.png');
+$flash-image-middle--dimensions: image-dimensions('/src/img/flash-animated.gif');
+$flash-image-down--dimensions: image-dimensions('/src/img/flash-main-image-down.png');
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -19,13 +22,13 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
     }
 
     .dvbg {
-        width: nth($flash-background--dimensions, 1) / 1.2;
-        height: nth($flash-background--dimensions, 2) / 1.2;
+        width: nth($flash-background--dimensions, 1);
+        height: nth($flash-background--dimensions, 2);
         padding: 0;
-        background: url('../img/flash-main-image-01.png');
+        background: url('../img/flash-main-image-bg.png');
         background-color: #09347a;
         background-repeat: no-repeat !important;
-        background-size: (nth($flash-background--dimensions, 1) / 1.2) (nth($flash-background--dimensions, 2) / 1.2);
+        background-size: nth($flash-background--dimensions, 1) nth($flash-background--dimensions, 2);
         vertical-align: top;
     }
 
@@ -45,11 +48,33 @@ $flash-image-01--dimensions: image-dimensions('/src/img/flash-animated.gif');
     }
 
     .block-1 {
-        padding: 105px 40px 223px 38px;
+        padding: 0;
 
         .image {
-            width: nth($flash-image-01--dimensions, 1);
-            height: nth($flash-image-01--dimensions, 2);
+            width: nth($flash-image-up--dimensions, 1) / 1.2;
+            height: nth($flash-image-up--dimensions, 2) / 1.2;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-2 {
+        padding: 0 40px 0 38px;
+
+        .image {
+            width: nth($flash-image-middle--dimensions, 1);
+            height: nth($flash-image-middle--dimensions, 2);
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-3 {
+        padding: 0;
+
+        .image {
+            width: nth($flash-image-down--dimensions, 1) / 1.2;
+            height: nth($flash-image-down--dimensions, 2) / 1.2;
             margin: 0 auto;
             Margin: 0 auto;
         }

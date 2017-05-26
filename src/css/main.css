@@ -248,12 +248,12 @@ body {
 
 .flash .dvbg {
   width: 600px;
-  height: 430.833333333px;
+  height: 431px;
   padding: 0;
-  background: url("../img/flash-main-image-01.png");
+  background: url("../img/flash-main-image-bg.png");
   background-color: #09347a;
   background-repeat: no-repeat !important;
-  background-size: 600px 430.833333333px;
+  background-size: 600px 431px;
   vertical-align: top;
 }
 
@@ -273,12 +273,34 @@ body {
 }
 
 .flash .block-1 {
-  padding: 105px 40px 223px 38px;
+  padding: 0;
 }
 
 .flash .block-1 .image {
+  width: 600px;
+  height: 105px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.flash .block-2 {
+  padding: 0 40px 0 38px;
+}
+
+.flash .block-2 .image {
   width: 522px;
   height: 103px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.flash .block-3 {
+  padding: 0;
+}
+
+.flash .block-3 .image {
+  width: 600px;
+  height: 223.333333333px;
   margin: 0 auto;
   Margin: 0 auto;
 }
@@ -349,6 +371,17 @@ body {
 
 .grade .description a {
   color: #09347a;
+}
+
+.grade .dvbg {
+  width: 600px;
+  height: 278px;
+  padding: 0;
+  background: url("../img/grade-main-image-01.png");
+  background-color: #00b3e3;
+  background-repeat: no-repeat !important;
+  background-size: 600px 278px;
+  vertical-align: top;
 }
 
 .grade .block-1 {
