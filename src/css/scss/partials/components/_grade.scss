@@ -21,16 +21,55 @@
         }
     }
 
-    .block-1 {
-        padding: 158px 337px 47px 48px;
+    .main-image {
         background-color: #00b3e3;
-        
+    }
+
+    .block-1 {
+        width: 301px;
+        padding: 57px 23px 47px 29px;
+        background-color: #00b3e3;
+
+        .image {
+
+            &-left {
+                width: 249px;
+                height: 57px;
+
+                img {
+                    width: 249px;
+                    height: 57px;
+                    margin: 0 auto;
+                    Margin: 0 auto;
+                }
+            }
+
+            &-tagline {
+                width: 215px;
+                height: 73px;
+                padding-top: 44px;
+
+                img {
+                    width: 215px;
+                    height: 73px;
+                    margin: 0 auto;
+                    Margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .image-right {
+        width: 299px;
+        height: 244px;
+        padding: 34px 0 0;
+        background-color: #00b3e3;
 
         img {
-            width: 215px;
-            height: 73px;
-            margin: 0 auto;
-            Margin: 0 auto;
+            width: 299px;
+            height: 244px;
+            margin: 0;
+            Margin: 0;
         }
     }
 
