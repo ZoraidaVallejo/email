@@ -33,7 +33,7 @@
                         <br>
                         {{#forEach jurispro.cases }}
                             <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
-                            <p>{{ description }}</p>
+                            <p>{{{ description }}}</p>
                             {{#unless isLast }}<br>{{/unless}}
                         {{/forEach}}
                     </td>

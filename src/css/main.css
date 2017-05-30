@@ -981,16 +981,24 @@ body {
 }
 
 .w-advertisement .ad-desc {
-  padding: 0 30px 35px;
-  text-align: left;
+  padding: 0 30px 12px;
+  text-align: center;
 }
 
 .w-advertisement .ad-desc p {
-  font: 16px/1.38 Arial, sans-serif;
+  font: 14px/1.38 Arial, sans-serif;
 }
 
-.w-advertisement .ad-desc p:first-child {
-  font: 20px/1.5 Arial, sans-serif;
+.w-advertisement .ad-desc--first {
+  padding: 25px 30px 12px;
+}
+
+.w-advertisement .ad-desc--first p {
+  font: 16px/1.5 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc--last {
+  padding: 0 30px 25px;
 }
 
 .w-client-ad-01 {
@@ -998,11 +1006,11 @@ body {
 }
 
 .w-jld-ad-01 {
-  background-color: #bdbdbd;
+  background-color: #00b3e3;
 }
 
 .w-jld-ad-02 {
-  background-color: #bdbdbd;
+  background-color: #06357a;
 }
 
 .w-internet-stats {
@@ -1214,9 +1222,9 @@ body {
   border-bottom: 1px solid #e7e8e8;
 }
 
-.jld-newsletter .w-featured-news,
 .jld-newsletter .w-tech-news,
 .jld-newsletter .w-social-media-news,
+.jld-newsletter .w-meet-our-team,
 .jld-newsletter .w-internet-stats {
   border-bottom: 1px solid #e7e8e8;
 }

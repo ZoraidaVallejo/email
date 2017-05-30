@@ -32,15 +32,23 @@
     }
 
     .ad-desc {
-        padding: 0 $padding 35px;
-        text-align: left;
+        padding: 0 $padding 12px;
+        text-align: center;
 
         p {
-            font: 16px/1.38 $sans-serif-font-family;
+            font: 14px/1.38 $sans-serif-font-family;
+        }
 
-            &:first-child {
-                font: 20px/1.5 $sans-serif-font-family;
+        &--first {
+            padding: 25px $padding 12px;
+
+            p {
+                font: 16px/1.5 $sans-serif-font-family;
             }
+        }
+
+        &--last {
+            padding: 0 $padding 25px;
         }
     }
 }
@@ -50,9 +58,9 @@
 }
 
 .w-jld-ad-01 {
-    background-color: plt('silver');
+    background-color: plt('cerulean');
 }
 
 .w-jld-ad-02 {
-    background-color: plt('silver');
+    background-color: plt('catalina-blue');
 }
