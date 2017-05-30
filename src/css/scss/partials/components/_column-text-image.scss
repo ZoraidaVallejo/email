@@ -1,0 +1,155 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C O L U M N   T E X T - I M A G E
+// ----------------------------------------------------------------------------------------------------------
+
+$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
+$inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
+$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-text-image {
+    background-color: plt('alabaster');
+
+    a {
+        text-decoration: none;
+    }
+
+    .item-list {
+        padding: 15px $padding 45px;
+
+        .item-desc {
+            padding: $padding 0;
+            text-align: left;
+            vertical-align: top;
+
+            .widget-main-title {
+                padding: 0 0 10px;
+                font: 22px/1.45 $sans-serif-font-family;
+            }
+        }
+
+        .item-image {
+            padding: 48px 0 $padding;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        table {
+            width: 100%;
+            border-bottom: 1px solid plt('black-haze');
+
+            &:last-child {
+                border-bottom: 0;
+
+                .item-desc {
+                    padding: $padding 0 0;
+                }
+
+                .item-image {
+                    padding: 48px 0 0;
+                }
+            }
+        }
+    }
+
+    &.multiple {
+
+        .items-main-title {
+            padding: 45px $padding 0;
+        }
+
+        .item-list {
+            padding: 0 $padding 45px;
+
+            .item-image {
+                padding: 35px 0 $padding;
+            }
+
+            table {
+
+                &:first-child {
+
+                    .item-desc {
+                        padding: 10px 0 $padding;
+                    }
+
+                    .item-image {
+                        padding: 15px 0 $padding;
+                    }
+                }
+
+                &:last-child {
+
+                    .item-desc {
+                        padding: $padding 0 0;
+                    }
+
+                    .item-image {
+                        padding: 35px 0 0;
+                    }
+                }
+            }
+        }
+    }
+
+
+    &.w-meet-our-team {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $meet-team-image--width - $padding);
+            }
+        }
+
+        .item-image {
+            width: ($meet-team-image--width + $padding);
+
+            img {
+                width: $meet-team-image--width;
+                max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+            }
+        }
+    }
+
+    &.w-inside-justia {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $inside-justia-image--width - $padding);
+            }
+        }
+
+        .item-image {
+            width: ($inside-justia-image--width + $padding);
+
+            img {
+                width: $inside-justia-image--width;
+                max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+            }
+        }
+    }
+
+    &.w-pugs-tale {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $pugs-image--width - $padding);
+            }
+        }
+
+        .item-image {
+            width: ($pugs-image--width + $padding);
+
+            img {
+                width: $pugs-image--width;
+                max-width: ceil(percentage($pugs-image--width / ($pugs-image--width + $padding)));
+            }
+        }
+    }
+}
