@@ -1,24 +1,58 @@
 {
-    "featured": {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#featured-link"
-    },
     "events": [{
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link1"
+        "date_time": "June 6 1PM ET",
+        "type_location": "Webinar",
+        "description": "Using Experts in Litigation: Discovery, Attorney-Client Privilege and Work Product Doctrine",
+        "link": "https://www.straffordpub.com/products/using-experts-in-litigation-discovery-attorney-client-privilege-and-work-product-doctrine-2017-06-06"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link2"
+        "date_time": "June 7 1PM ET",
+        "type_location": "Webinar",
+        "description": "Can You Hear Me Now? Improving Internal / External Communication through Process and Technology",
+        "link": "http://linkon.in/M060717"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link3"
+        "date_time": "June 8 1PM ET",
+        "type_location": "Webinar",
+        "description": "Who’s Hacking Lawyers and Why?",
+        "link": "http://linkon.in/M060817"
+    }, {
+        "date_time": "June 9 1PM ET",
+        "type_location": "Webinar",
+        "description": "Become the Lawyer Every Small Business Owner Needs: A UCC Overview",
+        "link": "http://linkon.in/M060917"
+    }, {
+        "date_time": "June 14 1PM ET",
+        "type_location": "Webinar",
+        "description": "Deposing Nursing Home Staff and Corporate Representatives in Nursing Home Injury Cases",
+        "link": "https://www.straffordpub.com/products/deposing-nursing-home-staff-and-corporate-representatives-in-nursing-home-injury-cases-2017-06-14"
+    }, {
+        "date_time": "June 19 1PM ET",
+        "type_location": "Webinar",
+        "description": "Implicit Bias in the Legal Workplace: Moving From “Who Is Biased?” to “What Can We Do About It?”",
+        "link": "https://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=273641543"
+    }, {
+        "date_time": "June 23 1PM ET",
+        "type_location": "Webinar",
+        "description": "Clear and Effective Communications With Clients, Colleagues and Staff",
+        "link": "http://linkon.in/M062317"
+    }, {
+        "date_time": "June 23 1PM EDT",
+        "type_location": "Webinar",
+        "description": "Microsoft Word for Litigators",
+        "link": "https://www.ali-cle.org/course/Microsoft-Word-for-Litigators-VCYW0623"
+    }, {
+        "date_time": "June 28 1PM ET",
+        "type_location": "Webinar",
+        "description": "An Overview of Music Copyright Law Using the Beatles as a Case Study",
+        "link": "http://linkon.in/M062817"
+    }, {
+        "date_time": "June 29 1PM ET",
+        "type_location": "Webinar",
+        "description": "Retain Your Clients:  A Roadmap to Effective, Ethical Client Service",
+        "link": "http://linkon.in/M062917"
+    }, {
+        "date_time": "June 30 1PM ET",
+        "type_location": "Webinar",
+        "description": "Bad Review? Bad Response? Bad Idea! - Ethically Managing Your Online Reputation",
+        "link": "http://linkon.in/M063017"
     }]
 }

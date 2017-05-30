@@ -13,15 +13,15 @@
         </td>
     </tr>
     <tr>
-        <!-- main-story-desc -->
-        <td class="main-story-desc" responsive="mobile-padding-horizontal-sides">
+        <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
+        <td class="main-story-desc {{#if featured_news.description }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <!-- story-desc -->
                     <td class="story-desc" responsive="collapse-one">
                         <p>{{{ featured_news.description }}}</p>
-                        <br>
-                        {{> button moreBlue=true buttonLink=featured_news.link }}
+                        {{!-- <br>
+                        {{> button moreBlue=true buttonLink=featured_news.link }} --}}
                     </td>
                     <!-- featured-image -->
                     <td class="featured-image" responsive="mobile-hide collapse-one">
@@ -31,4 +31,13 @@
             </table>
         </td>
     </tr>
+    {{#forEach featured_news.list }}
+        <tr>
+            <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
+            <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
+                {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
+            </td>
+        </tr>
+    {{/forEach}}
 </table>

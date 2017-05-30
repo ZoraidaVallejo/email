@@ -21,7 +21,8 @@ h4 {
   margin: 0;
 }
 
-p {
+p,
+li {
   margin: 0;
   font: 16px/1.38 Arial, sans-serif;
 }
@@ -557,6 +558,10 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-stories-list .main-story-desc.-with-list {
+  padding: 0 30px 20px;
+}
+
 .w-stories-list .main-story-desc .story-desc {
   width: 360px;
   text-align: left;
@@ -576,6 +581,14 @@ body {
 
 .w-stories-list .main-story-desc .story-extra {
   padding: 30px 0 0;
+}
+
+.w-stories-list .main-story-list {
+  padding: 0 30px 14px;
+}
+
+.w-stories-list .main-story-list--last {
+  padding: 0 30px 45px;
 }
 
 .w-stories-list .stories-title {
@@ -883,19 +896,6 @@ body {
   max-width: 88%;
 }
 
-.w-text-image.w-inside-justia .item-list .item-desc {
-  width: 300px;
-}
-
-.w-text-image.w-inside-justia .item-image {
-  width: 240px;
-}
-
-.w-text-image.w-inside-justia .item-image img {
-  width: 210px;
-  max-width: 88%;
-}
-
 .w-text-image.w-pugs-tale .item-list .item-desc {
   width: 300px;
 }
@@ -1155,9 +1155,18 @@ body {
   padding: 18px 0 40px;
 }
 
-.w-law-events .event-1 .inner-text,
-.w-law-events .event-2 .inner-text {
+.w-law-events .event-3 .inner-text,
+.w-law-events .event-4 .inner-text,
+.w-law-events .event-7 .inner-text,
+.w-law-events .event-8 .inner-text,
+.w-law-events .event-9 .inner-text,
+.w-law-events .event-10 .inner-text {
   height: 108px;
+}
+
+.w-law-events .event-5 .inner-text,
+.w-law-events .event-6 .inner-text {
+  height: 130px;
 }
 
 .align-center {
@@ -1199,6 +1208,10 @@ body {
 
 .no-margin {
   margin: 0;
+}
+
+.client-newsletter .w-feaured-site-month {
+  border-bottom: 1px solid #e7e8e8;
 }
 
 .jld-newsletter .w-featured-news,

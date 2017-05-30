@@ -1,15 +1,19 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "Facebook Must Remove Hate Speech Posts, Austrian Court Rules",
+        "link": "https://techcrunch.com/2017/05/08/facebook-must-remove-hate-speech-posts-austrian-court-rules/",
+        "description": "Following what seems to be an increasing trend among European governments, an Austrian court has ruled that Facebook must remove content deemed to be hate speech regarding a specific individual from its platforms on a global basis. This ruling comes after German lawmakers agreed to back measures that would impose steep fines on social media companies for failing to promptly remove hate speech and other offensive content, an approach that politicians in the UK have signaled they may follow. Facebook has been under increasing pressure to police content across multiple jurisdictions in light of reports that fake news outlets have utilized the service to influence election outcomes, as well as multiple disturbing incidents that have been broadcast via Facebook Live."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Instagram Copies Snapchat Again, This Time With Fun Face Masks",
+        "link": "https://www.bloomberg.com/news/articles/2017-05-16/instagram-copies-snapchat-again-this-time-with-fun-face-masks-j2rkfuut",
+        "description": "Facebook-owned photo-sharing app Instagram has added a feature already well-known to SnapChat users: the ability to add digital embellishments like animal ears to selfies. Mark Zuckerberg, Facebook’s Chief Executive Officer, believes that face filters and other camera tools will be a big step toward augmented reality tech innovations and developments over the coming year."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Facebook Updates News Feed to Combat ‘Low Quality’ Websites",
+        "link": "http://www.socialmediatoday.com/social-business/facebook-updates-news-feed-combat-low-quality-websites",
+        "description": "Facebook’s latest News Feed algorithm update is focused on limiting the reach of links to ad-heavy websites that are deemed to have minimal substantive content. This update will also block ads displayed on these websites, the ultimate result of which will make it far more difficult for domain owners whose websites display disruptive ads and little quality content to draw significant traffic from Facebook."
+    }, {
+        "title": "Twitter Adds Advanced Privacy Controls, New Data Collection Methods",
+        "link": "http://www.socialmediatoday.com/social-networks/twitter-adds-advanced-privacy-controls-new-data-collection-methods",
+        "description": "A new set of advanced privacy controls on Twitter aims to provide insight about how the social media platform uses your data, and also offers more control to users over this information. Particularly relevant for those whose websites use embedded tweets, these new privacy controls also allow users more oversight of their Twitter data profile, among other personal data."
     }]
 }

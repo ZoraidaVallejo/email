@@ -1,15 +1,23 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "Google Analytics to Unify Users Across AMP and Non-AMP Pages",
+        "link": "https://www.searchenginejournal.com/google-analytics-unify-users-across-amp-non-amp-pages/",
+        "description": "Google will soon be unifying users of AMP and non-AMP versions of pages for which Analytics data is being collected. This means that AMP pages will be getting more support from this service as it identifies sets of distinct user IDs that are actually the same user simply accessing the AMP and non-AMP versions of these pages. These views are no longer being counted as more than one session, meaning that measurements such as time spent on a site are expected to rise on a one-time basis until the unification process is complete."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Google Announces Google Lens, An AI-Powered Visual Search Tool",
+        "link": "http://searchengineland.com/google-announces-lens-ai-powered-visual-search-tool-275245",
+        "description": "At its recent I/O conference, Google introduced a new visual search tool called Google Lens. This new machine learning and AI-based product will initially be available in Google Assistant and Google Photos. It will be able to understand what users are viewing and offer them background information and options for additional action, such as to purchase products identified in photos."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Google Rolls Out New Event Search Feature On App & Mobile Web",
+        "link": "http://searchengineland.com/google-rolls-new-event-search-feature-app-mobile-web-274857",
+        "description": "The Google app and mobile web version now make it easier to search for events. Users can enter queries such as “rock concerts this weekend” and see listings of activities from multiple websites. There are also options to click through and purchase tickets or get more details about events listed in the search results."
+    }, {
+        "title": "Google Advertisers Can Now See Historical Quality Score Data in AdWords",
+        "link": "http://searchengineland.com/google-adwords-quality-score-reporting-improvements-275010",
+        "description": "Google has made seven historical quality score data metrics available in AdWords. These new reporting columns are easily visible, and allow advertisers to access data for items including landing page experience and ad relevance. The data for certain quality scores will be segmented by day, assuming there is enough data to report for a given date, making it possible to determine how those scores have changed over time."
+    }, {
+        "title": "How Google Measures the Authority of Web Pages",
+        "link": "http://searchengineland.com/google-authority-metric-274231",
+        "description": "While Google does not rely on any single factor in ranking individual pages, it appears to consistently use a core group of metrics in determining how authoritative a page is. While content and linking are still considered to be two of the most important factors, a number of other metrics, thought to be derived in large part from the work of Google’s quality raters, have a significant impact. And while sitewide ranking signals make a difference, authority is typically measured on a page-by-page basis."
     }]
 }

@@ -32,6 +32,10 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
         &-desc {
             padding: 0 $padding 45px;
 
+            &.-with-list {
+                padding: 0 $padding 20px;
+            }
+
             .story-desc {
                 width: ($inner-max-width - $tech-news-image--width - $padding);
                 text-align: left;
@@ -51,6 +55,14 @@ $tech-news-image--width: image-width('/src/img/tech-news-01.png');
 
             .story-extra {
                 padding: 30px 0 0;
+            }
+        }
+
+        &-list {
+            padding: 0 $padding 14px;
+
+            &--last {
+                padding: 0 $padding 45px;
             }
         }
     }
