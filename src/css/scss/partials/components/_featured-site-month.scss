@@ -5,6 +5,9 @@
 
 $featured-site--width: image-width('/src/img/featured-site-01.jpg');
 
+$featured-thumb--width: 240px;
+$featured-thumb-list--gap: 40px;
+
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -58,18 +61,18 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
             padding: 25px $padding 45px;
 
             .ft-list-img {
-                width: (240px + $padding);
-                padding: 40px 0;
+                width: ($featured-thumb--width + $padding);
+                padding: $featured-thumb-list--gap 0;
 
                 img {
-                    width: 240px;
-                    max-width: ceil(percentage(240px / (240px + $padding)));
+                    width: $featured-thumb--width;
+                    max-width: ceil(percentage($featured-thumb--width / ($featured-thumb--width + $padding)));
                 }
             }
 
             .ft-list-desc {
-                width: ($inner-max-width - 240px - $padding);
-                padding: 40px 0;
+                width: ($inner-max-width - $featured-thumb--width - $padding);
+                padding: $featured-thumb-list--gap 0;
                 text-align: left;
                 vertical-align: top;
 
@@ -94,11 +97,11 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
                 &:first-child {
 
                     .ft-list-desc {
-                        padding: 0 0 40px;
+                        padding: 0 0 $featured-thumb-list--gap;
                     }
 
                     .ft-list-img {
-                        padding: 0 0 40px;
+                        padding: 0 0 $featured-thumb-list--gap;
                     }
                 }
 
@@ -106,11 +109,11 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
                     border-bottom: 0;
 
                     .ft-list-desc {
-                        padding: 40px 0 0;
+                        padding: $featured-thumb-list--gap 0 0;
                     }
 
                     .ft-list-img {
-                        padding: 40px 0 0;
+                        padding: $featured-thumb-list--gap 0 0;
                     }
                 }
             }
