@@ -11,43 +11,108 @@ $featured-site--width: image-width('/src/img/featured-site-01.jpg');
 .w-feaured-site-month {
     background-color: plt('alabaster');
 
-    .client-url {
-        color: plt('black');
-    }
-
     a {
         text-decoration: none;
     }
 
-    .featured {
+    .featured-site-title {
+        padding: 45px $padding 20px;
+        text-align: center;
+    }
 
-        &-site-title {
-            padding: 45px $padding 20px;
-            text-align: center;
-        }
+    .ft {
 
-        &-client {
-            padding: 0 $padding 10px;
-            text-align: center;
+        &-single {
 
-            p {
-                font: 22px/1.38 $sans-serif-font-family;
+            &-client {
+                padding: 0 $padding 10px;
+                text-align: center;
+
+                p {
+                    font: 22px/1.38 $sans-serif-font-family;
+                }
+
+                a {
+                    color: plt('black');
+                }
+            }
+
+            &-desc {
+                padding: 0 $padding;
+                text-align: center;
+            }
+
+            &-img {
+                padding: $padding $padding 45px;
+                text-align: center;
+
+                img {
+                    display: block;
+                    width: $featured-site--width;
+                    margin: 0 auto;
+                }
             }
         }
 
-        &-desc {
-            padding: 0 $padding;
-            text-align: center;
-        }
+        &-list {
+            padding: 25px $padding 45px;
 
-        &-img {
-            padding: $padding $padding 45px;
-            text-align: center;
+            .ft-list-img {
+                width: (240px + $padding);
+                padding: 40px 0;
 
-            img {
-                display: block;
-                width: $featured-site--width;
-                margin: 0 auto;
+                img {
+                    width: 240px;
+                    max-width: ceil(percentage(240px / (240px + $padding)));
+                }
+            }
+
+            .ft-list-desc {
+                width: ($inner-max-width - 240px - $padding);
+                padding: 40px 0;
+                text-align: left;
+                vertical-align: top;
+
+                tr:first-child {
+
+                    p {
+                        font: 18px/1.38 $sans-serif-font-family;
+                    }
+                }
+
+                tr:not(:first-child) {
+
+                    td {
+                        padding: 10px 0 0;
+                    }
+                }
+            }
+
+            table {
+                border-bottom: 1px solid plt('black-haze');
+
+                &:first-child {
+
+                    .ft-list-desc {
+                        padding: 0 0 40px;
+                    }
+
+                    .ft-list-img {
+                        padding: 0 0 40px;
+                    }
+                }
+
+                &:last-child {
+                    border-bottom: 0;
+
+                    .ft-list-desc {
+                        padding: 40px 0 0;
+                    }
+
+                    .ft-list-img {
+                        padding: 40px 0 0;
+                    }
+                }
             }
         }
     }

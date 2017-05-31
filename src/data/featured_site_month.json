@@ -1,9 +1,27 @@
 {
-    "client_name": "The Law Office of Zachary Margulis-Ohnuma",
-    "location": "New York City",
-    "possessive_adjective": "their",
-    "domain": {
-        "long": "https://www.zmolaw.com/",
-        "simple": "zmolaw.com"
-    }
+    "sites": [{
+        "client_name": "The Law Office of Zachary Margulis-Ohnuma",
+        "location": "New York City",
+        "possessive_adjective": "their",
+        "domain": {
+            "long": "https://www.zmolaw.com/",
+            "simple": "zmolaw.com"
+        }
+    }, {
+        "client_name": "Cook, Bradford & Levy, LLC",
+        "location": "Colorado",
+        "possessive_adjective": "their",
+        "domain": {
+            "long": "https://www.cookinjurylaw.com/",
+            "simple": "cookinjurylaw.com"
+        }
+    }, {
+        "client_name": "The Nathanson Law Firm LLP",
+        "location": "Long Island ",
+        "possessive_adjective": "their",
+        "domain": {
+            "long": "https://www.nathansonlaw.com/",
+            "simple": "nathansonlaw.com"
+        }
+    }]
 }

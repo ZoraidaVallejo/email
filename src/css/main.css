@@ -1062,10 +1062,6 @@ body {
   background-color: #f7f7f7;
 }
 
-.w-feaured-site-month .client-url {
-  color: #000000;
-}
-
 .w-feaured-site-month a {
   text-decoration: none;
 }
@@ -1075,29 +1071,86 @@ body {
   text-align: center;
 }
 
-.w-feaured-site-month .featured-client {
+.w-feaured-site-month .ft-single-client {
   padding: 0 30px 10px;
   text-align: center;
 }
 
-.w-feaured-site-month .featured-client p {
+.w-feaured-site-month .ft-single-client p {
   font: 22px/1.38 Arial, sans-serif;
 }
 
-.w-feaured-site-month .featured-desc {
+.w-feaured-site-month .ft-single-client a {
+  color: #000000;
+}
+
+.w-feaured-site-month .ft-single-desc {
   padding: 0 30px;
   text-align: center;
 }
 
-.w-feaured-site-month .featured-img {
+.w-feaured-site-month .ft-single-img {
   padding: 30px 30px 45px;
   text-align: center;
 }
 
-.w-feaured-site-month .featured-img img {
+.w-feaured-site-month .ft-single-img img {
   display: block;
   width: 540px;
   margin: 0 auto;
+}
+
+.w-feaured-site-month .ft-list {
+  padding: 25px 30px 45px;
+}
+
+.w-feaured-site-month .ft-list .ft-list-img {
+  width: 270px;
+  padding: 40px 0;
+}
+
+.w-feaured-site-month .ft-list .ft-list-img img {
+  width: 240px;
+  max-width: 89%;
+}
+
+.w-feaured-site-month .ft-list .ft-list-desc {
+  width: 270px;
+  padding: 40px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-feaured-site-month .ft-list .ft-list-desc tr:first-child p {
+  font: 18px/1.38 Arial, sans-serif;
+}
+
+.w-feaured-site-month .ft-list .ft-list-desc tr:not(:first-child) td {
+  padding: 10px 0 0;
+}
+
+.w-feaured-site-month .ft-list table {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-feaured-site-month .ft-list table:first-child .ft-list-desc {
+  padding: 0 0 40px;
+}
+
+.w-feaured-site-month .ft-list table:first-child .ft-list-img {
+  padding: 0 0 40px;
+}
+
+.w-feaured-site-month .ft-list table:last-child {
+  border-bottom: 0;
+}
+
+.w-feaured-site-month .ft-list table:last-child .ft-list-desc {
+  padding: 40px 0 0;
+}
+
+.w-feaured-site-month .ft-list table:last-child .ft-list-img {
+  padding: 40px 0 0;
 }
 
 .w-law-events {
