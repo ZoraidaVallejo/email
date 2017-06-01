@@ -21,5 +21,10 @@ $main-image--dimensions: image-dimensions('/src/img/main-image-01.jpg');
 
     &--message {
         padding: 25px $padding 5px;
+
+        p {
+            font-size: 18px;
+            line-height: 1.3;
+        }
     }
 }

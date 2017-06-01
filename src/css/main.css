@@ -222,6 +222,11 @@ body {
   padding: 25px 30px 5px;
 }
 
+.intro--message p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
 .w-tech-news {
   background-color: #ffffff;
 }
