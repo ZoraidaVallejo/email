@@ -1101,12 +1101,17 @@ body {
 }
 
 .w-feaured-site-month .ft-list {
-  padding: 25px 30px 45px;
+  padding: 30px 30px 45px;
+}
+
+.w-feaured-site-month .ft-list-description {
+  padding: 10px 30px 0;
+  text-align: center;
 }
 
 .w-feaured-site-month .ft-list .ft-list-img {
   width: 270px;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 
 .w-feaured-site-month .ft-list .ft-list-img img {
@@ -1116,7 +1121,7 @@ body {
 
 .w-feaured-site-month .ft-list .ft-list-desc {
   width: 270px;
-  padding: 40px 0;
+  padding: 35px 0;
   text-align: left;
   vertical-align: top;
 }
@@ -1134,11 +1139,11 @@ body {
 }
 
 .w-feaured-site-month .ft-list table:first-child .ft-list-desc {
-  padding: 0 0 40px;
+  padding: 0 0 35px;
 }
 
 .w-feaured-site-month .ft-list table:first-child .ft-list-img {
-  padding: 0 0 40px;
+  padding: 0 0 35px;
 }
 
 .w-feaured-site-month .ft-list table:last-child {
@@ -1146,11 +1151,11 @@ body {
 }
 
 .w-feaured-site-month .ft-list table:last-child .ft-list-desc {
-  padding: 40px 0 0;
+  padding: 35px 0 0;
 }
 
 .w-feaured-site-month .ft-list table:last-child .ft-list-img {
-  padding: 40px 0 0;
+  padding: 35px 0 0;
 }
 
 .w-law-events {

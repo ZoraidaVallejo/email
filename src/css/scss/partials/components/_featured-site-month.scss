@@ -6,7 +6,7 @@
 $featured-site--width: image-width('/src/img/featured-site-01.jpg');
 
 $featured-thumb--width: 240px;
-$featured-thumb-list--gap: 40px;
+$featured-thumb-list--gap: 35px;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -58,7 +58,12 @@ $featured-thumb-list--gap: 40px;
         }
 
         &-list {
-            padding: 25px $padding 45px;
+            padding: $padding $padding 45px;
+
+            &-description {
+                padding: 10px $padding 0;
+                text-align: center;
+            }
 
             .ft-list-img {
                 width: ($featured-thumb--width + $padding);

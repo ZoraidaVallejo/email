@@ -35,8 +35,11 @@
 
     {{#if listSites }}
     <tr>
+        <td class="ft-list-description" responsive="mobile-padding-horizontal-sides"><p>The following clients recently launched their sites with Justia.</p></td>
+    </tr>
+    <tr>
         <!-- ft-list -->
-        <td class="ft-list" responsive="mobile-padding-horizontal-sides mobile-padding-top">
+        <td class="ft-list" responsive="mobile-padding-horizontal-sides">
 
             {{#forEach featured_site_month.sites }}
                 <!-- ft-list-item-{{ index }} -->
@@ -50,13 +53,13 @@
                         <td class="ft-list-desc" responsive="collapse-one {{#unless isFirst}}mobile-padding-top{{/unless}} {{#unless isLast}}mobile-padding-bottom{{/unless}}">
                             <table cellpadding="0" cellspacing="0" border="0">
                                 <tr>
-                                    <td responsive="{{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{ this.client_name }}}</strong></p></td>
+                                    <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{ this.client_name }}}</strong></p></td>
                                 </tr>
                                 <tr>
-                                    <td responsive="mobile-no-padding-top"><p>in {{ this.location }}&nbsp;<br>just recently launched {{ this.possessive_adjective }} Justia website:</p></td>
+                                    <td class="no-padding-top" responsive="mobile-align-center mobile-no-padding-top"><p>in {{ this.location }}</p></td>
                                 </tr>
                                 <tr>
-                                    <td responsive="mobile-no-padding-top {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{ this.domain.long }}" target="_blank">{{ this.domain.simple }}</a></p></td>
+                                    <td responsive="mobile-align-center mobile-no-padding-top {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{ this.domain.long }}" target="_blank">{{ this.domain.simple }}</a></p></td>
                                 </tr>
                             </table>
                         </td>
