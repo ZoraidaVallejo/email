@@ -750,6 +750,10 @@ body {
 }
 
 .w-tip-month .tip-desc {
+  padding: 0 30px 15px;
+}
+
+.w-tip-month .tip-desc--last {
   padding: 0 30px 45px;
 }
 
@@ -1282,7 +1286,6 @@ body {
 
 .jld-newsletter .w-tech-news,
 .jld-newsletter .w-social-media-news,
-.jld-newsletter .w-meet-our-team,
-.jld-newsletter .w-internet-stats {
+.jld-newsletter .w-meet-our-team {
   border-bottom: 1px solid #e7e8e8;
 }

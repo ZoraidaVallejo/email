@@ -21,15 +21,26 @@
             </h2>
         </td>
     </tr>
-    <tr>
-        <!-- tip-desc -->
-        <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
-            {{#if clientsNewsletter }}
-                <p>{{{ tip_month.clients.description }}}</p>
-            {{/if}}
-            {{#if jldNewsletter }}
-                <p>{{{ tip_month.jld.description }}}</p>
-            {{/if}}
-        </td>
-    </tr>
+
+    {{#if clientsNewsletter }}
+        {{#each tip_month.clients.description }}
+            <tr>
+                <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
+                <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p>{{{ this }}}</p>
+                </td>
+            </tr>
+        {{/each}}
+    {{/if}}
+
+    {{#if jldNewsletter }}
+        {{#each tip_month.jld.description }}
+            <tr>
+                <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
+                <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p>{{{ this }}}</p>
+                </td>
+            </tr>
+        {{/each}}
+    {{/if}}
 </table>

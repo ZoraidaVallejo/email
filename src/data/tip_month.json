@@ -1,11 +1,17 @@
 {
     "clients": {
         "title": "Complete Your Justia Lawyer Directory Profile",
-        "description": "Our data analysis shows lawyers with complete profiles in Justia’s Lawyer Directory receive 76 times more client contacts than those with incomplete profiles. To make your profile more complete, we suggest adding a professional photo and short biography, participating in <a href=\"https://answers.justia.com/\" target=\"_blank\"><b>Ask a Lawyer</b></a>, and connecting your profile to your social media accounts. If you need help accessing your profile, contact us!"
+        "link": "https://www.justia.com/lawyers",
+        "description": [
+            "Our data analysis shows lawyers with complete profiles in <a href=\"https://www.justia.com/lawyers\"><b><u>Justia’s Lawyer Directory</u></b></a> receive 76 times more client contacts than those with incomplete profiles. To make your profile more complete, we suggest adding a professional photo and short biography, participating in <a href=\"https://answers.justia.com/\" target=\"_blank\"><b><u>Ask a Lawyer</u></b></a>, and connecting your profile to your social media accounts. If you need help accessing your profile, contact us!"
+        ]
     },
     "jld": {
         "title": "Complete Your Justia Lawyer Directory Profile",
         "link": "https://accounts.justia.com/signin/fast?uid=xxxx&code=xxxx&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F148043%2Fedit%2Fprofile_picture%3Futm_medium%3Demail%26utm_source%3Djld-newsletter%26utm_campaign%3D2017-05%26utm_content%3Dbanner-tip-of-the-month-profile-completeness-v1",
-        "description": "Our data shows that lawyers who complete their profiles in our directory receive 76 times more client contacts than those with incomplete profiles. We suggest adding a professional photo, short biography, updating contact information, participating in Ask a Lawyer, and connecting your profile to your website, blog, and social media accounts. Get placed ahead of your competition. You can update and complete your profile for free."
+        "description": [
+            "Our data shows that lawyers who complete their profiles in our directory receive 76 times more client contacts than those with incomplete profiles. We suggest adding a professional photo, short biography, updating contact information, participating in Ask a Lawyer, and connecting your profile to your website, blog, and social media accounts. Get placed ahead of your competition.",
+            "<b><a href=\"https://accounts.justia.com/signin/fast?uid=xxxx&code=xxxx&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F148043%2Fedit%2Fprofile_picture%3Futm_medium%3Demail%26utm_source%3Djld-newsletter%26utm_campaign%3D2017-05%26utm_content%3Dbanner-tip-of-the-month-profile-completeness-v1\" target=\"_blank\">Click here to update and complete your profile for free.</a></b>"
+        ]
     }
 }

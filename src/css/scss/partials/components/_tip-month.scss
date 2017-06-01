@@ -22,6 +22,10 @@
     }
 
     .tip-desc {
-        padding: 0 $padding 45px;
+        padding: 0 $padding 15px;
+
+        &--last {
+            padding: 0 $padding 45px;
+        }
     }
 }
