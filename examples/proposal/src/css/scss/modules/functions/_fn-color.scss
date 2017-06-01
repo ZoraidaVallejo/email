@@ -30,7 +30,7 @@
 }
 
 
-/// A function helper to avoid having to type `map-get-deep($colour-palette, ...)`
+/// A function helper to avoid having to type `map-get-deep($color-palette, ...)`
 ///
 /// @name pallete
 ///
@@ -39,11 +39,11 @@
 ///
 @function palette($colors...) {
 
-    @if not map-has-nested-keys($colour-palette, $colors...) {
-        @warn 'No layer found for `#{inspect-list($colors...)}` in $colour-palette. Property omitted.';
+    @if not map-has-nested-keys($color-palette, $colors...) {
+        @warn 'No layer found for `#{inspect-list($colors...)}` in $color-palette. Property omitted.';
     }
 
-    $result: map-get-deep($colour-palette, $colors...);
+    $result: map-get-deep($color-palette, $colors...);
 
     @return $result;
 }
@@ -56,6 +56,6 @@
 /// @param {arglist} $colors - Colors
 /// @return {color}
 ///
-@function plt($colours...) {
-    @return palette($colours...);
+@function plt($colors...) {
+    @return palette($colors...);
 }
