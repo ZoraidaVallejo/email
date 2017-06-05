@@ -17,11 +17,18 @@
         text-decoration: none;
     }
 
-    .tip-title {
-        padding: 45px $padding 20px;
-    }
+    .tip {
 
-    .tip-desc {
-        padding: 0 $padding 45px;
+        &-title {
+            padding: 45px $padding 20px;
+        }
+
+        &-desc {
+            padding: 0 $padding 15px;
+
+            &--last {
+                padding: 0 $padding 45px;
+            }
+        }
     }
 }
