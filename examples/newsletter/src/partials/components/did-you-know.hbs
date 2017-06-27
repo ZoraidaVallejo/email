@@ -14,18 +14,13 @@
             {{/if}}
         </td>
     </tr>
-    <tr>
-        <!-- dyk-desc -->
-        <td class="dyk-desc" responsive="mobile-padding-horizontal-sides">
-            <p>{{{ did_you_know.description }}}</p>
-        </td>
-    </tr>
-    {{#is did_you_know.extra "" }}{{else}}
-    <tr>
-        <!-- dyk-link -->
-        <td class="dyk-link" responsive="mobile-padding-horizontal-sides">
-            <p>{{{ did_you_know.extra }}}</p>
-        </td>
-    </tr>
-    {{/is}}
+
+    {{#each did_you_know.description }}
+        <tr>
+            <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+            <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <p>{{{ this }}}</p>
+            </td>
+        </tr>
+    {{/each}}
 </table>
