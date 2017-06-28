@@ -248,12 +248,12 @@ body {
 
 .fireworks .dvbg {
   width: 600px;
-  height: 437.692307692px;
+  height: 500px;
   padding: 0;
   background: url("../img/fireworks-background-01.png");
   background-color: #fcfcfc;
   background-repeat: no-repeat !important;
-  background-size: 600px 437.692307692px;
+  background-size: 600px 500px;
   vertical-align: top;
 }
 
@@ -272,25 +272,13 @@ body {
   text-align: center;
 }
 
-.fireworks .top-banner {
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-.fireworks .top-banner .image {
-  width: 600px;
-  height: 63.0769230769px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
 .fireworks .animation {
-  padding: 5px 53px 0 28px;
+  padding: 0;
 }
 
 .fireworks .animation .image-animation {
-  width: 519px;
-  height: 433px;
+  width: 600px;
+  height: 500px;
   margin: 0 auto;
   Margin: 0 auto;
 }
