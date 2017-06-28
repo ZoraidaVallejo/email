@@ -1,0 +1,99 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+
+$fireworks-background--dimensions: image-dimensions('/src/img/fireworks-background-01.png');
+$fireworks-banner-01--dimensions: image-dimensions('/src/img/fireworks-banner-01.png');
+$fireworks-main-image-01--dimensions: image-dimensions('/src/img/fireworks-main-image-animation-01.gif');
+    
+$fireworks-background--width: (nth($fireworks-background--dimensions, 1) / 1.3);
+$fireworks-background--height: (nth($fireworks-background--dimensions, 2) / 1.3);
+// ----------------------------------------------------------------------------------------------------------
+
+.fireworks {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+    }
+
+    .dvbg {
+        width: $fireworks-background--width;
+        height: $fireworks-background--height;
+        padding: 0;
+        background: url('../img/fireworks-background-01.png');
+        background-color: #fcfcfc;
+        background-repeat: no-repeat !important;
+        background-size: $fireworks-background--width $fireworks-background--height;
+        vertical-align: top;
+    }
+
+    .inner-content {
+        width: $max-width;
+
+        p,
+        a,
+        strong {
+            color: plt('black');
+        }
+
+        td {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .top-banner {
+        padding: 0;
+        background-color: #f4f4f4;
+
+        .image {
+            width: nth($fireworks-banner-01--dimensions, 1) / 1.3;
+            height: nth($fireworks-banner-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .animation {
+        padding: 5px 53px 0 28px;
+
+        .image-animation {
+            width: nth($fireworks-main-image-01--dimensions, 1);
+            height: nth($fireworks-main-image-01--dimensions, 2);
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .contactus {
+        padding-top: 20px;
+        padding-bottom: 29px;
+
+        .tagline {
+            font-size: 18px;
+        }
+
+        .phone {
+
+            a[href^=tel] {
+                color: plt('catalina-blue') !important;
+                font-size: 20px;
+                line-height: 1.1;
+            }
+        }
+    }
+
+    .expiration {
+        padding-bottom: 35px;
+
+        em {
+            font-family: $sans-serif-font-family;
+            font-size: 14px;
+        }
+    }
+}
