@@ -324,15 +324,19 @@ body {
   padding: 8px 121px 34px 122px;
 }
 
-.gposts .block-12 .image {
-  width: 356.923076923px;
-  height: 53.0769230769px;
+.gposts .block-12 .button {
+  width: 357px;
+  height: 53px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
 .gposts .account-manager {
   padding: 0 30px 33px;
+  text-align: center !important;
+}
+
+.gposts .account-manager p {
   text-align: center !important;
 }
 
