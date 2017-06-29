@@ -1,0 +1,113 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+
+$gposts-main-image-01--dimensions: image-dimensions('/src/img/gposts-main-image-01.png');
+$gposts-phones-01--dimensions: image-dimensions('/src/img/gposts-phones-01.png');
+$gposts-button-01--dimensions: image-dimensions('/src/img/gposts-button-01.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.gposts {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+    }
+
+    .inner-content {
+        width: $max-width;
+
+        p,
+        a,
+        strong {
+            color: plt('black');
+        }
+
+        p {
+            font: 16px/1.5 $sans-serif-font-family !important;
+        }
+
+        a {
+            color: plt('catalina-blue') !important;
+            font-weight: bold;
+        }
+
+        td {
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .main-image {
+        .image {
+            width: nth($gposts-main-image-01--dimensions, 1) / 1.3;
+            height: nth($gposts-main-image-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+    .greetings {
+        padding: 34px $padding 24px;
+    }
+
+    .introduction {
+        padding: 0 $padding 24px;
+    }
+
+    .title {
+        padding: 0 $padding 9px;
+    }
+
+    .explanation {
+        padding: 0 $padding 24px;
+    }
+
+    .middle-image {
+        padding: 9px 92px 35px 85px;
+
+        .image {
+            width: nth($gposts-phones-01--dimensions, 1) / 1.3;
+            height: nth($gposts-phones-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-9 {
+        padding-bottom: 12px;
+    }
+
+    .list {
+        padding: 0 $padding;
+
+        td {
+            padding-bottom: 12px;
+        }
+    }
+
+    .block-11 {
+        padding-top: 12px;
+    }
+
+    .block-12 {
+        padding: 8px 121px 34px 122px;
+
+        .image {
+            width: nth($gposts-button-01--dimensions, 1) / 1.3;
+            height: nth($gposts-button-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .account-manager {
+        padding: 0 $padding 33px;
+        text-align: center !important;
+    }
+}
