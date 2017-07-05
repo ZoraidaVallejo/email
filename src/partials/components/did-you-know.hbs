@@ -8,19 +8,39 @@
         <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
             <!-- widget-type-name -->
             <h4 class="widget-type-name">DID YOU KNOW?</h4>
-            {{#if did_you_know.title }}
-                <!-- widget-main-title -->
-                <h2 class="widget-main-title">{{{ did_you_know.title }}}</h2>
+            {{#if clientsNewsletter }}
+                {{#if did_you_know.clients.title }}
+                    <!-- widget-main-title -->
+                    <h2 class="widget-main-title">{{{ did_you_know.clients.title }}}</h2>
+                {{/if}}
+            {{/if}}
+            {{#if jldNewsletter }}
+                {{#if did_you_know.jld.title }}
+                    <!-- widget-main-title -->
+                    <h2 class="widget-main-title">{{{ did_you_know.jld.title }}}</h2>
+                {{/if}}
             {{/if}}
         </td>
     </tr>
 
-    {{#each did_you_know.description }}
-        <tr>
-            <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
-            <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                <p>{{{ this }}}</p>
-            </td>
-        </tr>
-    {{/each}}
+    {{#if clientsNewsletter }}
+        {{#each did_you_know.clients.description }}
+            <tr>
+                <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+                <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p>{{{ this }}}</p>
+                </td>
+            </tr>
+        {{/each}}
+    {{/if}}
+    {{#if jldNewsletter }}
+        {{#each did_you_know.jld.description }}
+            <tr>
+                <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+                <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p>{{{ this }}}</p>
+                </td>
+            </tr>
+        {{/each}}
+    {{/if}}
 </table>

@@ -1,33 +1,36 @@
 {
-    "sites": [{
-        "client_name": "Oresky & Associates, PLLC",
-        "location": "New York City",
-        "possessive_adjective": "their",
-        "domain": [
-            {
-                "long": "https://www.oreskylaw.com/",
-                "simple": "oreskylaw.com"
-            },
-            {
-                "long": "https://www.oreskylaw.com/en/",
-                "simple": "oreskylaw.com/en"
+    "sites": [
+        {
+            "client_name": "Rush & Gransee",
+            "location": "San Antonio",
+            "possessive_adjective": "their",
+            "domain": {
+                "long": "https://www.southtexaslawfirm.com/",
+                "simple": "southtexaslawfirm.com"
             }
-        ]
-    }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
-        "domain": {
-            "long": "#",
-            "simple": "website.com"
+        }, {
+            "client_name": "Therman Law Offices, LTD",
+            "location": "Chicago",
+            "possessive_adjective": "their",
+            "domain": {
+                "long": "https://www.attorneychicago.com/",
+                "simple": "attorneychicago.com"
+            }
+        },
+        {
+            "client_name": "Oresky & Associates, PLLC",
+            "location": "New York City",
+            "possessive_adjective": "their",
+            "domain": [
+                {
+                    "long": "https://www.oreskylaw.com/",
+                    "simple": "oreskylaw.com"
+                },
+                {
+                    "long": "https://www.oreskylaw.com/en/",
+                    "simple": "oreskylaw.com/en"
+                }
+            ]
         }
-    }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
-        "domain": {
-            "long": "#",
-            "simple": "website.com"
-        }
-    }]
+    ]
 }

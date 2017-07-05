@@ -15,7 +15,10 @@ module.exports.register = function(Handlebars, options) {
         return arg.join('');
     });
 
-    Handlebars.registerHelper('usePlural', function(cant) {
-        return (cant > 1) ? 's' : '';
+    Handlebars.registerHelper('isPlural', function(cant, options) {
+        var fnTrue = options.fn,
+        fnFalse = options.inverse;
+
+        return cant > 1 ? fnTrue(this) : fnFalse(this);
     });
 };

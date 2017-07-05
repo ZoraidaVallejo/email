@@ -9,22 +9,14 @@
 
     "jld": {
         "ad1": {
-            "image": "jld-adname-image-01.png",
+            "image": "jld-website-marketing-solution-image-01.png",
             "alt": "[alt text]",
-            "link": "#",
-            "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-            ]
+            "link": "https://marketing.justia.com/contact/promotion/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=banner-website-marketing-solution-v1"
         },
         "ad2": {
-            "image": "jld-adname-image-02.png",
-            "alt": "[alt text]",
-            "link": "#",
-            "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-            ]
+            "image": "jld-website-ask-a-lawyer-image-01.png",
+            "alt": "Be the first to answer! Get more points!",
+            "link": "https://answers.justia.com/about-legal-answers?utm_medium=email&utm_source=jld-newsletter&utm_campaign=2017-07&utm_content=banner-ask-a-lawyer-subscriptions-v2#faq-subscriptions"
         }
     }
 }

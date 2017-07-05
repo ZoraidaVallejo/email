@@ -1,40 +1,46 @@
 {
-    "people": [{
-        "id": "0000000",
-        "rank": 1,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }, {
-        "id": "0000000",
-        "rank": 2,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }, {
-        "id": "0000000",
-        "rank": 3,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }, {
-        "id": "0000000",
-        "rank": 4,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }, {
-        "id": "0000000",
-        "rank": 5,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }],
+    "people": [
+        {
+            "id": "561700",
+            "rank": 1,
+            "name": "Rand Scott Lieber",
+            "location": "Hollywood, FL",
+            "name_link": "https://answers.justia.com/lawyer/561700/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+            "photo_link": "https://lawyers.justia.com/lawyer/561700?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+        },
+        {
+            "id": "1524369",
+            "rank": 2,
+            "name": "Kristina M. Bergsten",
+            "location": "Denver, CO",
+            "name_link": "https://answers.justia.com/lawyer/1524369/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+            "photo_link": "https://lawyers.justia.com/lawyer/1524369?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+        },
+        {
+            "id": "1488838",
+            "rank": 3,
+            "name": "Scott C. Stockwell",
+            "location": "Lawrence, KS",
+            "name_link": "https://answers.justia.com/lawyer/1488838/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+            "photo_link": "https://lawyers.justia.com/lawyer/1488838?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+        },
+        {
+            "id": "1524376",
+            "rank": 4,
+            "name": "Indy G. Colbath",
+            "location": "Walnut Creek, CA",
+            "name_link": "https://answers.justia.com/lawyer/1524376/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+            "photo_link": "https://lawyers.justia.com/lawyer/1524376?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+        },
+        {
+            "id": "1498901",
+            "rank": 5,
+            "name": "Ashley Negrette",
+            "location": "San Diego, CA",
+            "name_link": "https://answers.justia.com/lawyer/1498901/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+            "photo_link": "https://lawyers.justia.com/lawyer/1498901?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+        }
+    ],
     "description": "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys have recently signed up or contributed to the \"Ask a Lawyer\" community.",
     "button_link": "https://answers.justia.com/about-legal-answers"
 }

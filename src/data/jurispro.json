@@ -1,15 +1,19 @@
 {
-    "cases": [{
-        "title": "[case]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam!"
-    }, {
-        "title": "[case]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nobis?"
-    }, {
-        "title": "[case]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, cumque."
-    }]
+    "cases": [
+        {
+            "title": "Radiology Expert Witness Allowed to Testify in Murder Case",
+            "link": "https://www.expertwitnessblog.com/2017/06/radiology-expert-witnesses-affirmed-criminal-court-appeals.html",
+            "description": "A <a href=\"https://www.jurispro.com/category/radiology-nuclear-medicine-s-480\" target=\"_blank\">Radiology Expert Witness</a> was allowed to testify that the fatal injuries suffered by the victim were a result of severe trauma, and not accidental."
+        },
+        {
+            "title": "Plaintiff's Police Procedure Expert Testifies on Coercive Interrogation",
+            "link": "https://www.expertwitnessblog.com/2017/06/police-procedures-expert-witness-testimony-partially-allowed.html",
+            "description": "The court allowed a <a href=\"https://www.jurispro.com/category/police-procedures-s-160\" target=\"_blank\">Police Procedures Expert Witness</a> to testify in a murder case involving allegations of false confessions."
+        },
+        {
+            "title": "Ninth Circuit Reverses Ruling on Pathology and Oncology Experts",
+            "link": "https://www.expertwitnessblog.com/2017/06/oncology-pathology-expert-witness-testimony-allowed-says-ninth-circuit.html",
+            "description": "An <a href=\"https://www.jurispro.com/category/oncology-s-460\" target=\"_blank\">Oncology Expert Witness</a> and a <a href=\"https://www.jurispro.com/category/pathology-s-406\" target=\"_blank\">Pathology Expert Witness</a> were allowed to testify when the appellate court looked broadly at their methodology."
+        }
+    ]
 }
