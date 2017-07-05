@@ -1,15 +1,39 @@
 {
-    "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
-    }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
-    }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
-    }]
+  "articles": [
+    {
+        "title": "Social Media Giants Making Progress on Illegal Hate Speech Takedowns: EC",
+        "link": "https://techcrunch.com/2017/06/01/social-media-giants-making-progress-on-illegal-hate-speech-takedowns-ec/ ",
+        "description": "The European Commission recently announced that there has been “significant progress” over the past six months in taking down illegal hate speech on the large social media outlets—including Facebook, Twitter, YouTube, and Microsoft—in large part due to their implementation of a voluntary Code of Conduct prohibiting such speech on their platforms. The EU defines illegal hate speech as the public incitement to violence or hatred on the basis of certain characteristics, including race, color, religion, descent and national or ethnic origin."
+    },
+    {
+        "title": "Blocked Trump Twitter Followers Claim First Amendment Violation",
+        "link": "http://www.abajournal.com/news/article/blocked_trump_twitter_followers_claim_a_first_amendment_violation ",
+        "description": "Several Twitter users have sent a letter to President Trump asking him to unblock them from his verified Twitter account. The users argue that by blocking them, the president is excluding them from a public forum based on their viewpoint, in violation of the First Amendment of the U.S. Constitution. According to the Wall Street Journal, there is little case law on the issue, and it is not clear as a matter of law whether social media accounts such as Facebook pages or Twitter accounts constitute public forums for the purposes of the First Amendment."
+    },
+    {
+        "title": "Can Words Kill? Michelle Carter Is Guilty of Manslaughter in Texting Suicide Case",
+        "link": "https://www.nytimes.com/2017/06/16/us/suicide-texting-trial-michelle-carter-conrad-roy.html ",
+        "description": "A Massachusetts judge found a young woman guilty of involuntary manslaughter for sending text messages to her boyfriend encouraging him to commit suicide. In general, mere words are insufficient to establish criminal liability for inciting another to commit suicide, but the judge in this case found the facts—particularly the woman’s text instructing him to “get back in” the truck where lethal fumes ultimately caused his death—supported an involuntary manslaughter conviction. The decision raises interesting questions about the scope of legal responsibility and causation."
+    },
+    {
+        "title": "Right to Speak Freely About Engineering is Subject of 1st Amendment Lawsuit",
+        "link": "https://arstechnica.com/tech-policy/2017/06/right-to-speak-freely-about-engineering-is-subject-of-1st-amendment-lawsuit/ ",
+        "description": "An Oregon man who was fined by the state engineering board for allegedly practicing engineering without a license has sued on First Amendment grounds. The plaintiff, who has an engineering degree from Sweden, had been engaged in a research and advocacy campaign to elongate yellow traffic light times. The state board, which has fined as many as six other individuals for similar activities, has agreed to lift the restriction on the plaintiff referring to himself as an “engineer” while the lawsuit is pending."
+    },
+    {
+        "title": "Does First Amendment Protect Augmented Reality Games Like Pokémon Go? Suit Raises the Issue",
+        "link": "http://www.abajournal.com/news/article/does_first_amendment_protect_augmented_reality_games_like_pokemon_go_suit_r  ",
+        "description": "In response to a Milwaukee County ordinance requiring permits for game makers before augmented reality technology apps can be used in public parks, developer Candy Labs has sued on First Amendment grounds. The developer argues that restricting augmented reality games such as Pokémon Go in this manner constitutes a prior restraint on its speech, is unconstitutionally vague, and restricts speech on the basis of content. The County responds that in this case the First Amendment does not protect games that do not convey messages or ideas."
+    },
+    {
+        "title": "EU Reportedly Ready to Fine Google Billions in Shopping Search Antitrust Case",
+        "link": "http://searchengineland.com/eu-slaps-google-2-7-billion-antitrust-fine-277912 ",
+        "description": "After months of anticipation, the EU has leveled a hefty fine at Google for alleged abuses of power related to shopping search. While the fine has been expected for some time, the $2.7 billion amount was larger than expected. The search giant is accused of favoring Google Shopping results over other content. Google maintains that its results were beneficial to users, and plans to study the decision before determining next steps. In the meantime, at least two other antitrust matters are currently pending against Google."
+    },
+    {
+        "title": "Uber Founder Travis Kalanick Resigns as C.E.O.",
+        "link": "https://www.nytimes.com/2017/06/21/technology/uber-ceo-travis-kalanick.html ",
+        "description": "Last month, Travis Kalanick resigned as CEO of the ride-hailing service Uber. Kalanick helped found Uber in 2009, as well as build it into the wildly popular and successful company it is today. He stepped down under pressure after a shareholder revolt made it infeasible to stay on, capping months of inquiries over Uber’s leadership and widespread criticism of the Silicon Valley startup culture it helped develop."
+    }
+  ]
 }

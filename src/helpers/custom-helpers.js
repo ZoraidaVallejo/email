@@ -14,4 +14,8 @@ module.exports.register = function(Handlebars, options) {
         arg.pop();
         return arg.join('');
     });
+
+    Handlebars.registerHelper('usePlural', function(cant) {
+        return (cant > 1) ? 's' : '';
+    });
 };

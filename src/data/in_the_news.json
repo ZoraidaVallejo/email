@@ -1,11 +1,12 @@
 {
     "news": [{
         "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+        "link": "http://www.nydailynews.com/new-york/detective-prosecutor-duo-bust-blackmailers-clients-article-1.3255481",
+        "description": "Former prosecutor <b>Jeremy Saland</b> uses his skills for a new side business: busting blackmailers."
     }, {
-        "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+        "logo_name": "Law Office of Jeffrey S. Glassman LLC",
+        "link": "http://www.massbike.org/40th_anniversary_party_wrapup",
+        "description": "Attorney Andrew Fischer of <b>BikeAttorney.com</b> has been awarded the prestigious Paul Dudley White Lifetime Achievement Award."
     }]
 }
+

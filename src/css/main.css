@@ -988,28 +988,80 @@ body {
 }
 
 .w-advertisement .ad-desc {
-  padding: 0 30px 12px;
+  padding: 10px 30px 12px;
   text-align: center;
 }
 
 .w-advertisement .ad-desc p {
-  font: 14px/1.38 Arial, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc a,
+.w-advertisement .ad-desc strong {
+  color: #06357a;
 }
 
 .w-advertisement .ad-desc--first {
-  padding: 25px 30px 12px;
-}
-
-.w-advertisement .ad-desc--first p {
-  font: 16px/1.5 Arial, sans-serif;
+  padding: 35px 30px 12px;
 }
 
 .w-advertisement .ad-desc--last {
   padding: 0 30px 25px;
 }
 
+.w-advertisement .ad-desc--last p {
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc .ad-table-icon {
+  width: 70px;
+  max-width: 13%;
+  padding-bottom: 23px;
+  vertical-align: top;
+}
+
+.w-advertisement .ad-desc .ad-table-icon img {
+  display: block;
+  width: 58px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.w-advertisement .ad-desc .ad-table-icon--last {
+  padding-bottom: 8px;
+}
+
+.w-advertisement .ad-desc .ad-table-desc {
+  width: 470px;
+  max-width: 87%;
+  padding-bottom: 23px;
+  padding-left: 11px;
+}
+
+.w-advertisement .ad-desc .ad-table-desc--last {
+  padding-bottom: 8px;
+}
+
 .w-client-ad-01 {
-  background-color: #bdbdbd;
+  background-color: #ffffff;
+}
+
+.w-client-ad-01 p,
+.w-client-ad-01 a {
+  color: #000000;
+}
+
+.w-client-ad-01 td {
+  text-align: left;
+}
+
+.w-client-ad-01 .ad-desc {
+  text-align: left;
+}
+
+.w-client-ad-01 .ad-desc--last {
+  padding-bottom: 37px;
+  text-align: center;
 }
 
 .w-jld-ad-01 {
@@ -1226,6 +1278,15 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-2 .inner-text,
+.w-law-events .event-4 .inner-text {
+  height: 130px;
+}
+
+.w-law-events .event-8 .inner-text {
+  height: 108px;
 }
 
 .align-center {

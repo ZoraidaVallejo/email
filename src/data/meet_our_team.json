@@ -1,11 +1,19 @@
 {
-    "blocks": [{
-        "title": "[title]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
-        "image": "meet-our-team-01.jpg"
-    }, {
-        "title": "[title]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
-        "image": "meet-our-team-02.jpg"
-    }]
+    "blocks": [
+        {
+            "title": "At SMX Advanced",
+            "description": "Gus, Frank & Hayden attended the SMX Advanced conference in Seattle this June, where the latest tips and best practices for search marketing & SEO are covered. ",
+            "image": "meet-our-team-01.jpg"
+        },
+        {
+            "title": "Warriors Win It",
+            "description": "Our team had a blast watching the Golden State Warriors win the NBA Championship. Congrats to the Dubs! ",
+            "image": "meet-our-team-02.jpg"
+        },
+        {
+            "title": "Supporting CALIcon",
+            "description": "Justia sponsored and attended CALIcon17, held at the Sandra Day O'Connor College of Law at Arizona State University. The conference brought together leading academics, educators, institutional leaders, and technology professionals to discuss the transformation of legal education through technology and innovation. ",
+            "image": "meet-our-team-03.jpg"
+        }
+    ]
 }

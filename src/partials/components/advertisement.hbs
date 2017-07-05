@@ -11,15 +11,49 @@
             </a>
         </td>
     </tr>
-
-    {{#if advertisements.clients.ad1.description }}
-        {{#each advertisements.clients.ad1.description }}
-            <tr>
-                <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-                <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-                    <p>{{{ this }}}</p>
-                </td>
-            </tr>
-        {{/each}}
-    {{/if}}
+    <tr>
+        <td class="ad-desc ad-desc--first" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+            <p>Justia Annotations is a project for attorneys to showcase their knowledge and help promote public understanding of United States case law.</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="ad-desc" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+            <p>Annotating has several benefits:</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="ad-desc table" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-client-ad-01 set-max-width">
+                <tr>
+                    <td class="ad-table-icon">
+                        <img src="{{ default.image_dir_src }}/ad-icon-01.png" alt="Get noticed" border="0" />
+                    </td>
+                    <td class="ad-table-desc">
+                        <p><strong>Get noticed.</strong> For every case you annotate, your name, photo, and a link to your profile in the Justia Lawyer Directory will appear in the sidebar of the case page. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ad-table-icon">
+                        <img src="{{ default.image_dir_src }}/ad-icon-02.png" alt="Show off your work" border="0" />
+                    </td>
+                    <td class="ad-table-desc">
+                        <p><strong>Show off your work.</strong> On your lawyer directory profile page, potential clients and visitors will see a list of cases that you have annotated.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ad-table-icon ad-table-icon--last">
+                        <img src="{{ default.image_dir_src }}/ad-icon-03.png" alt="Share knowledge" border="0" />
+                    </td>
+                    <td class="ad-table-desc ad-table-icon--last">
+                        <p><strong>Share knowledge.</strong> As an online Justia community member, you can help other attorneys, scholars, and researchers understand the significance or nuances of every case you annotate.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="ad-desc ad-desc--last" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+            <p>To learn more about the benefits of Justia Annotations and how to contribute your insight, visit the <strong><a href="{{ advertisements.clients.ad1.link }}" target="_blank">Justia Annotations</a></strong> webpage.</p>
+        </td>
+    </tr>
 </table>

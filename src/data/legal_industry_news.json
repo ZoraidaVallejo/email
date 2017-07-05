@@ -1,15 +1,29 @@
 {
-    "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
-    }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
-    }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
-    }]
+    "articles": [
+        {
+            "title": "New Mexico’s Top Court Should Acknowledge Excessive PD Workloads and Craft Remedy, ABA Says",
+            "link": "http://www.abajournal.com/news/article/new_mexicos_top_court_should_acknowledge_excessive_pd_workloads_and_craft_r ",
+            "description": "The ABA has filed a brief with the New Mexico Supreme Court in support of a petition by the state public defender’s office encouraging the high court to address and rectify excessive public defender workloads. The petition seeks, among other things, an order that private lawyers represent indigent clients for free or that court clerks stop accepting cases alleging minor drug crimes. Concerns about competent representation by overworked attorneys contributed to the ABA’s involvement in the case. "
+        },
+        {
+            "title": "Does California Make It Too Difficult to Pass the Bar? Two Profs Link Low Scores to Ethics Issues",
+            "link": "http://www.abajournal.com/news/article/does_california_make_it_too_difficult_to_pass_the_bar_two_profs_link_low_sc ",
+            "description": "Deans from 20 ABA-accredited law schools in California have asked the state supreme court to consider lowering the required multistate bar exam score required to pass the test.  California’s minimum required score is the highest in the nation next to Delaware, and its bar passage rates have been dismally low in recent years. Some point to the declining credentials of incoming students or millennials’ study habits as alternative explanations for the drop in bar exam success rates. Others in the academic world also argue that lower bar scores lead to a greater likelihood of professional discipline issues, presenting a possible counterargument to the notion that minimum score requirements should be lowered."
+        },
+        {
+            "title": "Should Tech Training For Lawyers Be Mandatory?",
+            "link": "http://abovethelaw.com/2017/06/this-week-in-legal-tech-should-tech-training-for-lawyers-be-mandatory/ ",
+            "description": "With the impacts of technology on the legal profession becoming more apparent each day, and over half of all states mandating tech competence for lawyers, this column considers whether other states should follow Florida’s lead in making tech MCLE training a requirement for all attorneys. "
+        },
+        {
+            "title": "The Ethics of Crowdfunding for Lawyers: Uncharted Territory or Familiar Terrain?",
+            "link": "https://verdict.justia.com/2017/06/26/ethics-crowdfunding-lawyers  ",
+            "description": "Crowdfunding represents another opportunity for lawyers to reshape the legal practice world through tech, though this method of funding isn't without its ethical risks. But are these actually new risks, or does crowdfunding simply call on lawyers to apply established ethics rules to new technology? This piece in Justia’s Verdict column explores those questions and reviews recent ethics opinions on the subject."
+        },
+        {
+            "title": "New ABA Email Guidelines: How Can Lawyers Comply?",
+            "link": "http://abovethelaw.com/2017/06/new-aba-email-guidelines-how-can-lawyers-comply/ ",
+            "description": "The ABA recently released a new opinion providing guidance to attorneys on secure client communication. Though the consensus among legal tech commentators is that this complex opinion is not especially user-friendly from a practical standpoint, this column argues that the simple solution is to implement a standardized communication process that provides secure encryption for most case-related communications. It also provides recommendations for securing other modes of communication, including phone calls and text messages."
+        }
+    ]
 }
