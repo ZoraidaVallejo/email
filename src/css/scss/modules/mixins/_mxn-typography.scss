@@ -1,0 +1,44 @@
+
+////
+/// @group typography
+////
+
+
+
+/// Creates a font-face rule. Embedded OpenType, WOFF2, WOFF, TrueType and SVG files are automatically sourced.
+///
+/// @name font-face
+///
+/// @author jonathantneal (<https://gist.github.com/jonathantneal>)
+///
+/// @param {string} $name - Name of the font family.
+/// @param {string} $$filename - File name of the font variant.
+/// @param {string} $weight - Weight of the given font family.
+/// @param {string} $style - Style of the given font family.
+/// @param {list} $exts [eot woff2 woff ttf] - List of the formats you want to include in the `font-face` rule.
+/// @param {string} $path ['https://justatic.com/v/1/shared/fonts/'] - Location of the given font files.
+///
+@mixin font-face($name, $filename, $weight, $style, $exts: eot woff2 woff ttf, $path: 'https://justatic.com/v/1/shared/fonts/') {
+    $src: null;
+    $extmods: (
+        eot: '?',
+        svg: '#' + str-replace($name, ' ', '_')
+    );
+    $formats: (
+        otf: 'opentype',
+        ttf: 'truetype'
+    );
+
+    @each $ext in $exts {
+        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append($src, url(quote($path + $filename + '.' + $extmod)) format(quote($format)), comma);
+    }
+
+    @font-face {
+        font-family: $name;
+        font-weight: $weight;
+        font-style: $style;
+        src: $src;
+    }
+}
