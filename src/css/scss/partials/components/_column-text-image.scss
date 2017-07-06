@@ -107,6 +107,7 @@ $pugs-image--width: 210px;
 
         .item-image {
             width: ($meet-team-image--width + $padding);
+            vertical-align: middle;
 
             img {
                 width: $meet-team-image--width;

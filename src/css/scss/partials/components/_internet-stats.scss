@@ -27,12 +27,12 @@ $internet-stats-chart--width: 540px;
         }
 
         &-chart {
-            padding: 0 $padding $padding;
+            padding: 0 ($padding + ($internet-stats-chart--width * 0.1)) $padding;
             text-align: center;
 
             img {
                 display: block;
-                width: $internet-stats-chart--width;
+                width: $internet-stats-chart--width * 0.8;
                 margin: 0 auto;
             }
         }

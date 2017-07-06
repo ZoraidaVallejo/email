@@ -10,7 +10,9 @@
             <h4 class="widget-type-name">FEATURED NEWS</h4>
             <!-- widget-main-title -->
             <h2 class="widget-main-title">
-                {{#if featured_news.link }}<a href="{{ featured_news.link }}" target="_blank">{{/if}}
+                {{#if featured_news.link }}
+                    <a href="{{ featured_news.link }}{{#if clientsNewsletter }}{{ featured_news.utm.source.clients }}{{/if}}{{#if jldNewsletter }}{{ featured_news.utm.source.jld }}{{/if}}{{ featured_news.utm.content.title }}" target="_blank">
+                {{/if}}
                     {{ featured_news.title }}
                 {{#if featured_news.link }}</a>{{/if}}
             </h2>
@@ -29,7 +31,12 @@
                     </td>
                     <!-- featured-image -->
                     <td class="featured-image" responsive="mobile-hide collapse-one">
-                        <a href="{{ featured_news.link }}" target="_blank"><img src="{{ default.image_dir_src }}/tech-news-01.png" alt="{{ featured_news.title }}" border="0" /></a>
+                        {{#if featured_news.link }}
+                            <a href="{{ featured_news.link }}{{#if clientsNewsletter }}{{ featured_news.utm.source.clients }}{{/if}}{{#if jldNewsletter }}{{ featured_news.utm.source.jld }}{{/if}}{{ featured_news.utm.content.image }}"
+                                    target="_blank">
+                        {{/if}}
+                            <img src="{{ default.image_dir_src }}/tech-news-01.png" alt="{{ featured_news.title }}" border="0" />
+                        {{#if featured_news.link }}</a>{{/if}}
                     </td>
                 </tr>
             </table>

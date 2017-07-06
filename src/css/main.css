@@ -892,6 +892,7 @@ body {
 
 .w-text-image.w-meet-our-team .item-image {
   width: 240px;
+  vertical-align: middle;
 }
 
 .w-text-image.w-meet-our-team .item-image img {
@@ -1090,13 +1091,13 @@ body {
 }
 
 .w-internet-stats .stats-chart {
-  padding: 0 30px 30px;
+  padding: 0 84px 30px;
   text-align: center;
 }
 
 .w-internet-stats .stats-chart img {
   display: block;
-  width: 540px;
+  width: 432px;
   margin: 0 auto;
 }
 
