@@ -1332,6 +1332,8 @@ body {
 }
 
 .jld-newsletter .w-tech-news,
+.jld-newsletter .w-social-media-news,
+.jld-newsletter .w-pugs-tale,
 .jld-newsletter .w-meet-our-team {
   border-bottom: 1px solid #e7e8e8;
 }
