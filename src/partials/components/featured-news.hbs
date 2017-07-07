@@ -11,7 +11,7 @@
             <!-- widget-main-title -->
             <h2 class="widget-main-title">
                 {{#if featured_news.link }}
-                    <a href="{{ featured_news.link }}{{#if clientsNewsletter }}{{ featured_news.utm.source.clients }}{{/if}}{{#if jldNewsletter }}{{ featured_news.utm.source.jld }}{{/if}}{{ featured_news.utm.content.title }}" target="_blank">
+                    <a href="{{{ featured_news.link }}}{{#if clientsNewsletter }}{{{ featured_news.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featured_news.utm.source.jld }}}{{/if}}{{{ featured_news.utm.content.title }}}" target="_blank">
                 {{/if}}
                     {{ featured_news.title }}
                 {{#if featured_news.link }}</a>{{/if}}
@@ -32,7 +32,7 @@
                     <!-- featured-image -->
                     <td class="featured-image" responsive="mobile-hide collapse-one">
                         {{#if featured_news.link }}
-                            <a href="{{ featured_news.link }}{{#if clientsNewsletter }}{{ featured_news.utm.source.clients }}{{/if}}{{#if jldNewsletter }}{{ featured_news.utm.source.jld }}{{/if}}{{ featured_news.utm.content.image }}"
+                            <a href="{{{ featured_news.link }}}{{#if clientsNewsletter }}{{{ featured_news.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featured_news.utm.source.jld }}}{{/if}}{{{ featured_news.utm.content.image }}}"
                                     target="_blank">
                         {{/if}}
                             <img src="{{ default.image_dir_src }}/tech-news-01.png" alt="{{ featured_news.title }}" border="0" />
