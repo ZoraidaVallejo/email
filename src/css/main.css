@@ -45,6 +45,7 @@ body {
   background-color: #e7e8e8;
 }
 
+.wrapper-link,
 .container {
   width: 600px;
   max-width: 600px;
@@ -77,6 +78,11 @@ body {
 .widget-main-title {
   color: #000000;
   font: 400 29px/1.27 Arial, sans-serif;
+}
+
+.wrapper-link {
+  display: block;
+  text-decoration: none !important;
 }
 
 .main-header-v1 {

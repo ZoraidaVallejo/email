@@ -13,6 +13,7 @@ body {
 }
 
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
+.wrapper-link,
 .container {
     width: $max-width;
     max-width: $max-width;
@@ -52,4 +53,9 @@ body {
         color: plt('black');
         font: $font-weight--normal 29px/1.27 $sans-serif-font-family;
     }
+}
+
+.wrapper-link {
+    display: block;
+    text-decoration: none !important;
 }
