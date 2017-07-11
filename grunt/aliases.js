@@ -22,6 +22,8 @@ module.exports = function(grunt, options) {
     return {
         default: ['serve'],
 
+        report: ['spreadsheet'],
+
         newsletter: [
             'clean:dist',
             'sass:dist',

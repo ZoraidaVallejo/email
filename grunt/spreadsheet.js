@@ -14,10 +14,39 @@ module.exports = function(grunt) {
         return values;
     };
 
-    var writeCSV = function writeCSV(filename, values, done) {        
+    var getUtmVars = function getUtmVars(query) {
+        var parameters = query.split('&');
+        var utm_values = [];
+
+        parameters.forEach(function(parameter) {
+            utm_values.push(parameter.substring(parameter.indexOf('=') + 1));
+        });
+
+        return utm_values;
+    };
+
+    var handleLinks = function handleLinks(links) {
+        var links_vars = [];
+
+        links.forEach(function(link) {
+            var utm_position = link.indexOf('?utm_');
+
+            if (utm_position > 0) {
+                var utm_vars = getUtmVars(link.substring(utm_position));
+                links_vars.push([link.substring(0, utm_position), ...utm_vars]);
+            } else {
+                links_vars.push([link]);
+            }
+
+        });
+
+        return links_vars;
+    };
+
+    var writeCSV = function writeCSV(filename, values, done) {
         var dirname = 'tags/';
         var file_path = dirname + filename;
-        var values = values.join(',\n');
+        var values = values.join('\n');
 
         if (!fs.existsSync(dirname)) {
             fs.mkdirSync(dirname);
@@ -33,7 +62,7 @@ module.exports = function(grunt) {
         });
     };
 
-    grunt.registerMultiTask('spreadsheet', 'Get src and href values from HTML a document', function spreadsheet() {
+    grunt.registerMultiTask('spreadsheet', 'Get src and href values from HTML documents.', function spreadsheet() {
         var done = this.async();
         var anchor_regex = /(<a href="([^"]+))/g,
             img_regex = /(<img src="([^"]+))/g;
@@ -46,6 +75,8 @@ module.exports = function(grunt) {
 
                 var hrefs = getValue(data, anchor_regex);
                 var srcs = getValue(data, img_regex);
+
+                hrefs = handleLinks(hrefs, done);
 
                 writeCSV('links-' + filename, hrefs, done);
                 writeCSV('images-' + filename, srcs, done);
