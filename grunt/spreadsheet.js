@@ -4,43 +4,57 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function(grunt) {
-    var getValue = function getValue(data, regex) {
-        var values = [];
+    var LINKS = {
+        replacer: function(data) {
+            var hrefs = [];
+            
+            data.replace(/(<a href="([^"]+))/g, function(tag, substr, href) {
+                hrefs.push(href);
+            });
 
-        data.replace(regex, function(tag, substr, value) {
-            values.push(value);
-        });
+            return hrefs;
+        },
 
-        return values;
+        getUtmVars: function getUtmVars(query) {
+            var parameters = query.split('&');
+            var utm_values = [];
+
+            parameters.forEach(function(parameter) {
+                utm_values.push(parameter.substring(parameter.indexOf('=') + 1));
+            });
+
+            return utm_values;
+        },
+        
+        formatLinks: function formatLinks(links) {
+            var links_vars = [];
+
+            links.forEach(function(link) {
+                var utm_position = link.indexOf('?utm_');
+
+                if (utm_position > 0) {
+                    var utm_vars = LINKS.getUtmVars(link.substring(utm_position));
+                    links_vars.push([link.substring(0, utm_position), ...utm_vars]);
+                } else {
+                    links_vars.push([link]);
+                }
+
+            });
+
+            return links_vars;
+        }
     };
 
-    var getUtmVars = function getUtmVars(query) {
-        var parameters = query.split('&');
-        var utm_values = [];
+    var IMAGES = {
+        replacer: function(data) {
+            var attr_values = [];
+            
+            data.replace(/(<img src="([^"]+).*?alt="([^"]+))/g, function(tag, substr, src, alt) {
+                attr_values.push([src, alt]);
+            });
 
-        parameters.forEach(function(parameter) {
-            utm_values.push(parameter.substring(parameter.indexOf('=') + 1));
-        });
-
-        return utm_values;
-    };
-
-    var handleLinks = function handleLinks(links) {
-        var links_vars = [];
-
-        links.forEach(function(link) {
-            var utm_position = link.indexOf('?utm_');
-
-            if (utm_position > 0) {
-                var utm_vars = getUtmVars(link.substring(utm_position));
-                links_vars.push([link.substring(0, utm_position), ...utm_vars]);
-            } else {
-                links_vars.push([link]);
-            }
-
-        });
-
-        return links_vars;
+            return attr_values;
+        }
     };
 
     var writeCSV = function writeCSV(filename, values, done) {
@@ -64,8 +78,6 @@ module.exports = function(grunt) {
 
     grunt.registerMultiTask('spreadsheet', 'Get src and href values from HTML documents.', function spreadsheet() {
         var done = this.async();
-        var anchor_regex = /(<a href="([^"]+))/g,
-            img_regex = /(<img src="([^"]+))/g;
 
         this.files[0].src.forEach(function(file) {
             var filename = path.basename(file).replace('.html', '.csv');
@@ -73,13 +85,13 @@ module.exports = function(grunt) {
             fs.readFile(file, 'utf8', function(err, data) {
                 if (err) done;
 
-                var hrefs = getValue(data, anchor_regex);
-                var srcs = getValue(data, img_regex);
+                var hrefs = LINKS.replacer(data);
+                var img_attr = IMAGES.replacer(data);
 
-                hrefs = handleLinks(hrefs, done);
+                hrefs = LINKS.formatLinks(hrefs, done);
 
                 writeCSV('links-' + filename, hrefs, done);
-                writeCSV('images-' + filename, srcs, done);
+                writeCSV('images-' + filename, img_attr, done);
             });
         });
     });
