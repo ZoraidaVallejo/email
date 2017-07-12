@@ -50,7 +50,7 @@ module.exports = function(grunt) {
             var attr_values = [];
             
             data.replace(/(<img src="([^"]+).*?alt="([^"]+))/g, function(tag, substr, src, alt) {
-                attr_values.push([src, alt]);
+                attr_values.push([src, alt.replace(',', '","')]);
             });
 
             return attr_values;
