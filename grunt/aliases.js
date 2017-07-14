@@ -6,7 +6,7 @@ module.exports = function(grunt, options) {
     var buildAlias = [
         options.conversionType,
         'replace:live_images',
-        'spreadsheet'
+        'spreadsheet:all'
     ];
 
     // Newsletter configuration overwrite

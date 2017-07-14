@@ -31,11 +31,11 @@ module.exports = function(grunt) {
 
             for (var link in links) {
                 var utm_position = link.indexOf('?utm_');
-                var link_val = link;
+                var link_val = [links[link], link];
 
                 if (utm_position > 0) {
                     var utm_vars = LINKS.getUtmVars(link.substring(utm_position));
-                    link_val = [link.substring(0, utm_position), ...utm_vars, links[link]];
+                    link_val = [links[link], link.substring(0, utm_position), ...utm_vars];
                 }
 
                 links_values.push(link_val);
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
                     img_size = IMAGES.getSize(img_local_path);
                 }
 
-                images_values.push([image, images[image].alt, img_size, images[image].count]);
+                images_values.push([images[image].count, image, images[image].alt, img_size]);
             }
 
             return images_values;
