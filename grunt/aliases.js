@@ -22,7 +22,7 @@ module.exports = function(grunt, options) {
     return {
         default: ['serve'],
 
-        report: ['spreadsheet'],
+        report: ['spreadsheet:all'],
 
         newsletter: [
             'clean:dist',

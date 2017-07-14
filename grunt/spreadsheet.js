@@ -56,6 +56,36 @@ module.exports = function(grunt) {
             });
 
             return attr_values;
+        },
+
+        getSize: function getSize(image) {
+            if (fs.existsSync(image)) {
+                var image_stats = fs.statSync(image);
+
+                if (image_stats.isFile()) {
+                    return image_stats.size / 1000.0;
+                }
+            }
+
+            return null;
+        },
+
+        format: function format(images, live_img_path) {
+            var images_values = [];
+
+            images.forEach(function(image) {
+                var img_path = image[0];
+                var img_size = '[remote]';
+
+                if (img_path.includes(live_img_path)) {
+                    var img_local_path = `dist/img${ img_path.substr(live_img_path.length) }`;
+                    img_size = IMAGES.getSize(img_local_path);
+                }
+
+                images_values.push([...image, img_size]);
+            });
+
+            return images_values;
         }
     };
 
@@ -91,8 +121,9 @@ module.exports = function(grunt) {
 
     grunt.registerMultiTask('spreadsheet', 'Get images and links attributes from HTML documents.', function spreadsheet() {
         var done = this.async();
+        var live_img_path = this.data.options.live_img_path;
 
-        this.files[0].src.forEach(function(file) {
+        this.filesSrc.forEach(function(file) {
             var filename = path.basename(file).replace('.html', '.csv');
 
             fs.readFile(file, 'utf8', function(err, data) {
@@ -103,6 +134,8 @@ module.exports = function(grunt) {
 
                 hrefs = HELPERS.removeDuplicates(hrefs);
                 hrefs = LINKS.format(hrefs);
+                
+                img_attr = IMAGES.format(img_attr, live_img_path);
 
                 HELPERS.writeCSV(`links-${ filename }`, hrefs, done);
                 HELPERS.writeCSV(`images-${ filename }`, img_attr, done);
@@ -111,6 +144,9 @@ module.exports = function(grunt) {
     });
 
     return {
-        src: 'dist/*.html'
+        all: {
+            src: 'dist/*.html',
+            options: { live_img_path: '<%= paths.live_img %>' }
+        }
     };
 };
