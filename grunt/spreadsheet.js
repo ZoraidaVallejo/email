@@ -73,17 +73,19 @@ module.exports = function(grunt) {
         format: function format(images, live_img_path) {
             var images_values = [];
 
-            images.forEach(function(image) {
-                var img_path = image[0];
+            for (var image in images) {
+                var img_path = image;
                 var img_size = '[remote]';
+                var img_str = (images[image].count > 1) ? `${ image } (${ images[image].count })` : image;
 
                 if (img_path.includes(live_img_path)) {
                     var img_local_path = `dist/img${ img_path.substr(live_img_path.length) }`;
                     img_size = IMAGES.getSize(img_local_path);
                 }
 
-                images_values.push([...image, img_size]);
-            });
+
+                images_values.push([img_str, images[image].src, img_size]);
+            }
 
             return images_values;
         }
@@ -112,7 +114,19 @@ module.exports = function(grunt) {
             var items_cleaned = {};
 
             items.forEach(function(item) {
-                items_cleaned[item] = (items_cleaned[item]) ? items_cleaned[item] + 1 : items_cleaned[item] = 1;
+                if (typeof item === 'object') {
+                    if (items_cleaned[item[0]]) {
+                        items_cleaned[item[0]].count++;
+                    } else {
+                        items_cleaned[item[0]] = {
+                            src: item[1],
+                            count: 1
+                        };
+                    }
+                } else {
+                    items_cleaned[item] = (items_cleaned[item]) ? items_cleaned[item] + 1 : items_cleaned[item] = 1;
+                }
+
             });
 
             return items_cleaned;
@@ -134,7 +148,8 @@ module.exports = function(grunt) {
 
                 hrefs = HELPERS.removeDuplicates(hrefs);
                 hrefs = LINKS.format(hrefs);
-                
+
+                img_attr = HELPERS.removeDuplicates(img_attr);
                 img_attr = IMAGES.format(img_attr, live_img_path);
 
                 HELPERS.writeCSV(`links-${ filename }`, hrefs, done);
