@@ -30,14 +30,12 @@ module.exports = function(grunt) {
             var links_values = [];
 
             for (var link in links) {
-                link = (links[link] > 1) ? `${ link } (${ links[link] })` : link;
-
                 var utm_position = link.indexOf('?utm_');
                 var link_val = link;
 
                 if (utm_position > 0) {
                     var utm_vars = LINKS.getUtmVars(link.substring(utm_position));
-                    link_val = [link.substring(0, utm_position), ...utm_vars];
+                    link_val = [link.substring(0, utm_position), ...utm_vars, links[link]];
                 }
 
                 links_values.push(link_val);
@@ -76,15 +74,13 @@ module.exports = function(grunt) {
             for (var image in images) {
                 var img_path = image;
                 var img_size = '[remote]';
-                var img_str = (images[image].count > 1) ? `${ image } (${ images[image].count })` : image;
 
                 if (img_path.includes(live_img_path)) {
                     var img_local_path = `dist/img${ img_path.substr(live_img_path.length) }`;
                     img_size = IMAGES.getSize(img_local_path);
                 }
 
-
-                images_values.push([img_str, images[image].src, img_size]);
+                images_values.push([image, images[image].alt, img_size, images[image].count]);
             }
 
             return images_values;
@@ -92,7 +88,7 @@ module.exports = function(grunt) {
     };
 
     var HELPERS = {
-        writeCSV: function writeCSV(filename, values, done) {
+        writeCSV: function writeCSV(filename, values) {
             var dirname = 'tags/';
             var file_path = dirname + filename;
             var values = values.join('\n');
@@ -102,13 +98,9 @@ module.exports = function(grunt) {
             }
 
             fs.writeFileSync(file_path, ''); // RESETS FILE
+            fs.writeFileSync(file_path, values, 'utf8');
             
-            fs.writeFile(file_path, values, 'utf8', function(err) {
-                if (err) done;
-
-                grunt.log.oklns('File saved: ', filename);
-                done();
-            });
+            grunt.log.oklns('File saved: ', filename);
         },
         removeDuplicates: function removeDuplicates(items) {
             var items_cleaned = {};
@@ -119,7 +111,7 @@ module.exports = function(grunt) {
                         items_cleaned[item[0]].count++;
                     } else {
                         items_cleaned[item[0]] = {
-                            src: item[1],
+                            alt: item[1],
                             count: 1
                         };
                     }
@@ -140,22 +132,22 @@ module.exports = function(grunt) {
         this.filesSrc.forEach(function(file) {
             var filename = path.basename(file).replace('.html', '.csv');
 
-            fs.readFile(file, 'utf8', function(err, data) {
-                if (err) done;
+            var data = fs.readFileSync(file, 'utf8');
 
-                var hrefs = LINKS.replace(data);
-                var img_attr = IMAGES.replace(data);
+            var hrefs = LINKS.replace(data);
+            var img_attr = IMAGES.replace(data);
 
-                hrefs = HELPERS.removeDuplicates(hrefs);
-                hrefs = LINKS.format(hrefs);
+            hrefs = HELPERS.removeDuplicates(hrefs);
+            hrefs = LINKS.format(hrefs);
 
-                img_attr = HELPERS.removeDuplicates(img_attr);
-                img_attr = IMAGES.format(img_attr, live_img_path);
+            img_attr = HELPERS.removeDuplicates(img_attr);
+            img_attr = IMAGES.format(img_attr, live_img_path);
 
-                HELPERS.writeCSV(`links-${ filename }`, hrefs, done);
-                HELPERS.writeCSV(`images-${ filename }`, img_attr, done);
-            });
+            HELPERS.writeCSV(`links-${ filename }`, hrefs);
+            HELPERS.writeCSV(`images-${ filename }`, img_attr);
         });
+
+        done();
     });
 
     return {
