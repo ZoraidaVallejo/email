@@ -1,0 +1,101 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+
+$gposts-main-image-01--dimensions: image-dimensions('/src/img/schema-main-image-01.png');
+$schema-search-results-01--dimensions: image-dimensions('/src/img/schema-search-results-01.png');
+$schema-review-form-01--dimensions: image-dimensions('/src/img/schema-review-form-01.png');
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.schema {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #ffffff;
+        border-collapse: collapse !important;
+    }
+
+    .inner-content {
+        width: $max-width;
+
+        p,
+        a,
+        strong {
+            color: plt('black');
+        }
+
+        p {
+            font: 16px/1.5 $sans-serif-font-family !important;
+        }
+
+        a {
+            color: plt('catalina-blue') !important;
+            font-weight: bold;
+        }
+
+        td {
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .main-image {
+        padding: 29px 0 0 28px;
+        background-color: #00b3e1;
+
+        .image {
+            width: nth($gposts-main-image-01--dimensions, 1) / 1.3;
+            height: nth($gposts-main-image-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+
+    .greetings {
+        padding: 34px $padding 24px;
+    }
+
+    .introduction {
+        padding: 0 $padding 24px;
+    }
+
+    .explanation {
+        padding: 0 $padding 24px;
+    }
+
+    .image-01 {
+        padding: 9px 0 20px;
+
+        .image {
+            width: nth($schema-search-results-01--dimensions, 1) / 1.3;
+            height: nth($schema-search-results-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-5 {
+        padding-bottom: 9px;
+    }
+
+    .image-02 {
+        padding: 0 30px 2px 28px;
+
+        .image {
+            width: nth($schema-review-form-01--dimensions, 1) / 1.3;
+            height: nth($schema-review-form-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .block-11 {
+        padding-bottom: 33px;
+    }
+}
