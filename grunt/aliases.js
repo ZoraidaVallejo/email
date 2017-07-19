@@ -5,7 +5,8 @@ module.exports = function(grunt, options) {
     // BLAST configuration
     var buildAlias = [
         options.conversionType,
-        'replace:live_images'
+        'replace:live_images',
+        'spreadsheet:all'
     ];
 
     // Newsletter configuration overwrite
@@ -20,6 +21,8 @@ module.exports = function(grunt, options) {
 
     return {
         default: ['serve'],
+
+        report: ['spreadsheet:all'],
 
         newsletter: [
             'clean:dist',

@@ -29,7 +29,8 @@ module.exports = function(grunt) {
 
             staticMappings: {
                 juice: 'grunt-juice-email',
-                sasslint: 'grunt-sass-lint'
+                sasslint: 'grunt-sass-lint',
+                spreadsheet: 'grunt/spreadsheet.js'
             }
         }
     });
