@@ -46,14 +46,32 @@ module.exports = function(grunt) {
     };
 
     var IMAGES = {
-        replace: function(data) {
-            var attr_values = [];
+        getImageTags: function(data) {
+            var image_tags = [];
 
-            data.replace(/(<img src="([^"]+).*?alt="([^"]+))/g, function(tag, substr, src, alt) {
-                attr_values.push([src, alt.replace(',', '","')]);
+            data.replace(/(<img.*?>)/g, function(image_tag) {
+                image_tags.push(image_tag);
             });
 
-            return attr_values;
+            return image_tags;
+        },
+
+        getAttr: function(image_tags, attr) {
+            var values = [];
+            var regex = new RegExp(`${ attr }="([^"]+)`);
+
+            image_tags.forEach(function(image_tag) {
+                if (image_tag.indexOf(attr) >= 0) {
+                    image_tag.replace(regex, function(match, value) {
+                        values.push(value);
+                    });
+                } else {
+                    values.push('');
+                }
+            });
+
+            return values;
+
         },
 
         getSize: function getSize(image) {
@@ -102,6 +120,17 @@ module.exports = function(grunt) {
             
             grunt.log.oklns('File saved: ', filename);
         },
+
+        combineArrays: function(arr1, arr2) {
+            var result = [];
+            
+            for (var i = 0; i < arr1.length; i++) {
+                result.push([arr1[i], arr2[i]]);
+            }
+
+            return result;
+        },
+
         removeDuplicates: function removeDuplicates(items) {
             var items_cleaned = {};
 
@@ -134,17 +163,23 @@ module.exports = function(grunt) {
 
             var data = fs.readFileSync(file, 'utf8');
 
+            // Find links and their hrefs
             var hrefs = LINKS.replace(data);
-            var img_attr = IMAGES.replace(data);
-
             hrefs = HELPERS.removeDuplicates(hrefs);
             hrefs = LINKS.format(hrefs);
 
-            img_attr = HELPERS.removeDuplicates(img_attr);
-            img_attr = IMAGES.format(img_attr, live_img_path);
+            // Find images and their src and alts
+            var image_tags = IMAGES.getImageTags(data);
+            var image_srcs = IMAGES.getAttr(image_tags, 'src');
+            var image_alts = IMAGES.getAttr(image_tags, 'alt');
+            var image_attr = HELPERS.combineArrays(image_srcs, image_alts);
 
+            image_attr = HELPERS.removeDuplicates(image_attr);
+            image_attr = IMAGES.format(image_attr, live_img_path);
+
+            // Write files
             HELPERS.writeCSV(`links-${ filename }`, hrefs);
-            HELPERS.writeCSV(`images-${ filename }`, img_attr);
+            HELPERS.writeCSV(`images-${ filename }`, image_attr);
         });
 
         done();
