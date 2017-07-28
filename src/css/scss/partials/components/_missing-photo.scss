@@ -56,17 +56,19 @@ $photo-text-01--dimensions: image-dimensions('/src/img/photo-text-01.png');
     .dvbg {
         width: nth($missing-photo-background-01--dimensions, 1);
         height: nth($missing-photo-background-01--dimensions, 2);
-        padding: 0 145px 0 146px;
-        background-color: plt('cerulean');
+        padding: 0;
+        background-color: #008fb6;
         background-image: url('../img/missing-photo-background-01.png');
         background-repeat: no-repeat !important;
+        background-position: top center;
         background-size: $missing-photo-background-01--dimensions;
-        vertical-align: top;
+        vertical-align: middle;
     }
 
     .img-animation {
         width: nth($missing-photo-animation-01--dimensions, 1);
         height: nth($missing-photo-animation-01--dimensions, 2);
+        padding: 0;
         margin: 0 auto;
         Margin: 0 auto;
     }

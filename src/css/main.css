@@ -276,17 +276,19 @@ body {
 .missing-photo .dvbg {
   width: 600px;
   height: 265px;
-  padding: 0 145px 0 146px;
-  background-color: #00b3e3;
+  padding: 0;
+  background-color: #008fb6;
   background-image: url("../img/missing-photo-background-01.png");
   background-repeat: no-repeat !important;
+  background-position: top center;
   background-size: 600px 265px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .missing-photo .img-animation {
-  width: 309px;
+  width: 600px;
   height: 265px;
+  padding: 0;
   margin: 0 auto;
   Margin: 0 auto;
 }
@@ -417,7 +419,7 @@ body {
 .update-photo .dvbg {
   width: 600px;
   height: 265px;
-  padding: 0 145px 0 146px;
+  padding: 0;
   background: url("../img/update-photo-background-01.png");
   background-color: #008fb6;
   background-repeat: no-repeat !important;
@@ -426,8 +428,9 @@ body {
 }
 
 .update-photo .image-animation {
-  width: 309px;
+  width: 600px;
   height: 265px;
+  padding: 0;
   margin: 0 auto;
   Margin: 0 auto;
 }
