@@ -1,0 +1,140 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M I S S I N G    P H O T O
+// ----------------------------------------------------------------------------------------------------------
+
+@function real-size($_size) {
+    @return $_size / 1.3;
+}
+
+$missing-photo-text-01--dimensions: image-dimensions('/src/img/missing-photo-text-01.png');
+$missing-photo-button-01--dimensions: image-dimensions('/src/img/missing-photo-button-01.png');
+$missing-photo-background-01--dimensions: image-dimensions('/src/img/missing-photo-background-01.png');
+$missing-photo-animation-01--dimensions: image-dimensions('/src/img/missing-photo-animation-01.gif');
+
+$photo-text-01--dimensions: image-dimensions('/src/img/photo-text-01.png');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.missing-photo {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: #008fb6;
+        border-collapse: collapse !important;
+    }
+
+    .inner-content {
+        width: $max-width;
+
+        p,
+        a,
+        strong {
+            color: plt('white');
+        }
+
+        td {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .img-first-impression {
+        padding: 39px 56px 38px 58px;
+        background-color: plt('cerulean');
+
+        .image {
+            width: real-size(nth($photo-text-01--dimensions, 1));
+            height: real-size(nth($photo-text-01--dimensions, 2));
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .dvbg {
+        width: real-size(nth($missing-photo-background-01--dimensions, 1));
+        height: real-size(nth($missing-photo-background-01--dimensions, 2));
+        padding: 0 145px 0 146px;
+        background-color: plt('cerulean');
+        background-image: url('../img/missing-photo-background-01.png');
+        background-repeat: no-repeat !important;
+        background-size: real-size(nth($missing-photo-background-01--dimensions, 1)) real-size(nth($missing-photo-background-01--dimensions, 2));
+        vertical-align: top;
+    }
+
+    .img-animation {
+        width: nth($missing-photo-animation-01--dimensions, 1);
+        height: nth($missing-photo-animation-01--dimensions, 2);
+        margin: 0 auto;
+        Margin: 0 auto;
+    }
+
+    .img-missing-photo {
+        padding: 29px 72px 24px 71px;
+
+        .image {
+            width: real-size(nth($missing-photo-text-01--dimensions, 1));
+            height: real-size(nth($missing-photo-text-01--dimensions, 2));
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .img-button {
+        padding: 0 173px 0 172px;
+
+        .image {
+            width: real-size(nth($missing-photo-button-01--dimensions, 1));
+            height: real-size(nth($missing-photo-button-01--dimensions, 2));
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .text-centered {
+        padding: 24px 45px 0;
+        color: plt('white');
+        text-align: center;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .block-6 {
+        padding: 24px $padding 26px;
+    }
+
+    .contactus {
+        padding-bottom: 29px;
+        color: plt('white');
+        
+
+        .tagline {
+            font-size: 18px !important;
+            line-height: 1.2 !important;
+        }
+
+        .phone {
+            a {
+                color: plt('white') !important;
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .expiration {
+        padding-bottom: 0;
+
+        em {
+            color: plt('white');
+            font-size: 14px !important;
+        }
+    }
+
+    .block-9 {
+        padding-bottom: 35px;
+    }
+}

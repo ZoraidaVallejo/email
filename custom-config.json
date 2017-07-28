@@ -1,0 +1,19 @@
+{
+    "conversionType": "blast",
+    "port": 4000,
+    "justatic_version": "1",
+    "current_year": "2017",
+    "current_month": "08",
+
+    "paths": {
+        "src": "src",
+        "src_img": "src/img",
+        "dist": "dist",
+        "dist_img": "dist/img",
+        "preview": "preview",
+        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>",
+        "remote_img_path": "/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>"
+    },
+
+    "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
+}
