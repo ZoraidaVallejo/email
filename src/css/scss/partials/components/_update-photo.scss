@@ -72,13 +72,13 @@ $update-photo-animation-01--dimensions: image-dimensions('/src/img/update-photo-
     }
 
     .dvbg {
-        width: real-size(nth($update-photo-background-01--dimensions, 1));
-        height: real-size(nth($update-photo-background-01--dimensions, 2));
+        width: nth($update-photo-background-01--dimensions, 1);
+        height: nth($update-photo-background-01--dimensions, 2);
         padding: 0 145px 0 146px;
         background: url('../img/update-photo-background-01.png');
         background-color: #008fb6;
         background-repeat: no-repeat !important;
-        background-size: real-size(nth($update-photo-background-01--dimensions, 1)) real-size(nth($update-photo-background-01--dimensions, 2));
+        background-size: $update-photo-background-01--dimensions;
         vertical-align: top;
     }
 

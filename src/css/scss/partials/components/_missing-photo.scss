@@ -54,13 +54,13 @@ $photo-text-01--dimensions: image-dimensions('/src/img/photo-text-01.png');
     }
 
     .dvbg {
-        width: real-size(nth($missing-photo-background-01--dimensions, 1));
-        height: real-size(nth($missing-photo-background-01--dimensions, 2));
+        width: nth($missing-photo-background-01--dimensions, 1);
+        height: nth($missing-photo-background-01--dimensions, 2);
         padding: 0 145px 0 146px;
         background-color: plt('cerulean');
         background-image: url('../img/missing-photo-background-01.png');
         background-repeat: no-repeat !important;
-        background-size: real-size(nth($missing-photo-background-01--dimensions, 1)) real-size(nth($missing-photo-background-01--dimensions, 2));
+        background-size: $missing-photo-background-01--dimensions;
         vertical-align: top;
     }
 
