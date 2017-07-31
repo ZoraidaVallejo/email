@@ -1,0 +1,46 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// D I D   Y O U   K N O W ?
+// ----------------------------------------------------------------------------------------------------------
+
+.w-did-you-know {
+    background-color: plt('blaze-orange');
+
+    .dyk {
+
+        &-title {
+            padding: 45px $padding 20px;
+        }
+
+        &-desc {
+            padding: 0 $padding 15px;
+
+            &--last {
+                padding: 0 $padding 45px;
+            }
+        }
+    }
+
+    .widget-type-name,
+    .widget-main-title,
+    p,
+    blockquote,
+    q,
+    a {
+        color: plt('white');
+    }
+
+    blockquote {
+        padding: 0 $padding;
+        margin: 0;
+        font-style: italic;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0;
+    }
+}
