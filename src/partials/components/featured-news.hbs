@@ -18,7 +18,7 @@
     </tr>
     <tr>
         <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
-        <td class="main-story-desc {{#if featured_news.description }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <td class="main-story-desc {{#if featured_news.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <!-- story-desc -->
@@ -36,13 +36,15 @@
         </td>
     </tr>
 
-    {{#forEach featured_news.list }}
-        <tr>
-            <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
-            <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
-                {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
-            </td>
-        </tr>
-    {{/forEach}}
+    {{#if featured_news.list }}
+        {{#forEach featured_news.list }}
+            <tr>
+                <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
+                <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
+                    {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
+                </td>
+            </tr>
+        {{/forEach}}
+    {{/if}}
 </table>

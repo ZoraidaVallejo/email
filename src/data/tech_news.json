@@ -1,15 +1,23 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "Google, Amazon Join Online Protest of Net Neutrality Change",
+        "link": "http://adage.com/article/digital/google-amazon-join-online-protest-net-neutrality-change/309718/",
+        "description": "Earlier this month, a number of companies, including tech giants Google and Amazon, asserted their influence to ask people to contact Congress and the Federal Communications Commission not to change the Obama-era rule preventing broadband companies from discriminating against content providers in the delivery of broadband service. Known as net neutrality, the rule requiring equal treatment of content by internet service providers has come under attack by FCC Chairman Ajit Pai, who has threatened to weaken or eliminate it altogether."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Google Maps Now Lets Users Add Wheelchair Accessibility Details for Locations",
+        "link": "https://techcrunch.com/2017/07/08/google-maps-now-lets-users-add-wheelchair-accessibility-details-for-locations/",
+        "description": "Google recently announced that its Google Maps would allow users to see information about wheelchair accessibility. Although it has already collected accessibility data for almost seven million places, Google is also allowing Android users to enter accessibility information for a location themselves. The information now includes such data as whether a location has a wheelchair-accessible entrance, elevator, restroom, and more."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "What Are the Impacts of Facial Recognition Tech on Society?",
+        "link": "https://readwrite.com/2017/07/02/done-the-impact-of-facial-recognition-dl1/",
+        "description": "This article considers the change in attitudes toward facial recognition technology as society seeks to find a balance between privacy and security. The use of biometric data, such as fingerprints, was initially met with skepticism amid privacy concerns, but is now widely seen as a convenience. Will facial recognition be the same, making transactions more secure, and providing greater levels of convenience?"
+    }, {
+        "title": "US Customs Says It Can Search iPhones, But Not Cloud Services",
+        "link": "http://appleinsider.com/articles/17/07/14/us-customs-says-it-can-search-iphones-but-not-cloud-services",
+        "description": "In response to concern over reports that border agents were asking U.S. travelers to provide passwords and access to social media accounts, US Customs and Border Protection issued a statement asserting that its officers have the legal authority to search phones without probable cause when people leave or enter the United States, and that the practice protects against threats like terrorism and child pornography. However, the scope of that authority is limited to searches of data on the device and does not extend to cloud services, according to the statement."
+    }, {
+        "title": "US Appeals Court Upholds Gag Orders on National Security Letters to Firms Like Apple",
+        "link": "http://appleinsider.com/articles/17/07/17/us-appeals-court-upholds-gag-orders-on-national-security-letters-to-firms-like-apple",
+        "description": "The US Court of Appeals for the Ninth Circuit recently held that the FBI can serve national security letters that come with a gag order, preventing the subjects from disclosing that they received the letter. Two companies had sued the federal government, arguing they should be able to tell customers about national security letters (NSLs) and that the gag orders violated their First Amendment rights. The Ninth Circuit panel was unpersuaded, finding that the gag orders are narrowly tailored to fulfill a compelling government interest (national security)."
     }]
 }

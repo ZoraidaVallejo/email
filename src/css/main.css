@@ -609,7 +609,8 @@ body {
 }
 
 .w-stories-list.w-seo-news .story-item a,
-.w-stories-list.w-seo-news .widget-main-title {
+.w-stories-list.w-seo-news .widget-main-title, .w-stories-list.w-design-news .story-item a,
+.w-stories-list.w-design-news .widget-main-title {
   color: #00b3e3;
 }
 

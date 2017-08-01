@@ -1,15 +1,27 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "How to Improve Your Facebook Videos With Facebook Video Insights",
+        "link": "http://www.socialmediaexaminer.com/how-to-improve-facebook-videos-with-facebook-video-insights/",
+        "description": "Facebook videos are but one way to engage with your clients and prospective clients. This article gives three concrete tips on how to evaluate and improve your Facebook video performance. Specifically, it suggests checking your view and watch time metrics, learning more about your viewers, and producing (but not promoting) live videos to inform your decisions about paid content."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Ads Are Coming to Facebook Messenger’s Home Screen",
+        "link": "https://www.theverge.com/2017/7/11/15953828/facebook-messenger-home-screen-ads-coming-soon",
+        "description": "Ads are commonplace to see on your Facebook news feed. Now, the social network is starting to roll out ads to its Messenger home screen. Before the end of 2017, most people will start seeing sponsored ads. As with the main Facebook app, along with Instagram, these ads will be targeted specifically to you as a user. Perhaps more relevant to business owners, businesses that use Messenger can already direct sponsored messages to users who have engaged in previous messaging interactions with them."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Google Begins Rolling Out Messaging Feature Within Google My Business",
+        "link": "http://searchengineland.com/google-begins-rolling-messaging-feature-within-google-business-278790 ",
+        "description": "In November 2016, Google began testing a messaging feature geared toward Google My Business customers. This feature now appears to be rolling out to U.S. businesses. To see if it is currently available to you, access your Google My Business home page and look for the new section called “Messaging”. Prior to messaging customers for the first time, a prompt will appear to configure your settings. Once those steps have been completed, your business will then have the ability to message customers directly."
+    }, {
+        "title": "LinkedIn Starts Letting People Natively Upload Videos That Play Automatically",
+        "link": "http://marketingland.com/linkedin-starts-letting-people-natively-upload-videos-play-automatically-219608 ",
+        "description": "Video sharing has been an integral feature to most social media networks for quite some time. Now, the ability to upload videos that play automatically is coming to LinkedIn—along with access to useful information about the people who are viewing your videos. Starting with its mobile app, LinkedIn has begun to let people natively upload videos that are up to 10 minutes in length. Additionally, LinkedIn will provide users with information about a selection of the people viewing their videos. This includes what companies they work for, as well as their job titles. "
+    }, {
+        "title": "Facebook’s Removing the Ability to Edit Link Previews - Here Are Your Alternatives",
+        "link": "http://www.socialmediatoday.com/social-networks/facebooks-removing-ability-edit-link-previews-here-are-your-alternatives  ",
+        "description": "In July 2017, Facebook announced its decision to remove a user’s ability to edit the previews that are associated with link shares. Despite calls for reconsideration coming from major publishers, the change went into effect last month. This restriction is not without an exception, however; a new feature that appears on some Pages will allow media publishers to maintain the ability to edit previews on their own published content that they then share on Facebook. "
+    }, {
+        "title": "Facebook to Launch Subscription News Service",
+        "link": "http://thehill.com/policy/technology/342802-facebook-to-launch-subscription-news-service-report ",
+        "description": "A subscription news product will soon be debuting on Facebook. This indicates that articles shared by some news and media publishers may ultimately exist behind a paywall that will prompt users to purchase a subscription. This announcement appears to be Facebook’s latest attempt to appease and improve its relationship with news organizations that have been unhappy with the lack of control they have about how their articles get shared on Facebook."
     }]
 }
