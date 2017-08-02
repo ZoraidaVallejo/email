@@ -914,16 +914,16 @@ body {
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
-  width: 300px;
+  width: 310px;
 }
 
 .w-text-image.w-pugs-tale .item-image {
-  width: 240px;
+  width: 230px;
 }
 
 .w-text-image.w-pugs-tale .item-image img {
-  width: 210px;
-  max-width: 88%;
+  width: 200px;
+  max-width: 87%;
 }
 
 .w-did-you-know {
@@ -965,6 +965,81 @@ body {
   margin: 0;
 }
 
+.w-ask-a-lawyer .dvbg {
+  width: 600px;
+  height: 268px;
+  background: url("../img/adname-image-01.jpg");
+  background-color: #398ff2;
+  background-repeat: no-repeat !important;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .ad-icon {
+  display: inline-block;
+  width: 12.5px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.w-ask-a-lawyer .inner-table {
+  width: 600px;
+  text-align: left;
+}
+
+.w-ask-a-lawyer .inner-table p,
+.w-ask-a-lawyer .inner-table a,
+.w-ask-a-lawyer .inner-table strong {
+  color: #ffffff;
+}
+
+.w-ask-a-lawyer .inner-table a {
+  text-decoration: none;
+}
+
+.w-ask-a-lawyer .inner-table .cnt1 {
+  height: 114px;
+  padding: 25px 30px 0;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .inner-table .cnt1 p {
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.w-ask-a-lawyer .inner-table .cnt2 {
+  height: 82px;
+  padding: 0 30px;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .inner-table .cnt2 p {
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.w-ask-a-lawyer .inner-table .cnt3 {
+  height: 45px;
+  padding: 0 30px;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .inner-table .cnt3 p {
+  font-size: 18px;
+}
+
+.w-ask-a-lawyer .cnt4 {
+  padding: 23px 30px;
+  background-color: #398ff2;
+  vertical-align: top;
+}
+
+.w-ask-a-lawyer .cnt4 p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .w-advertisement a {
   text-decoration: none;
 }
@@ -980,17 +1055,13 @@ body {
   max-width: 100%;
 }
 
-.w-advertisement td {
-  text-align: center;
-}
-
 .w-advertisement .ad-image a {
   display: block;
 }
 
 .w-advertisement .ad-desc {
-  padding: 0 30px 12px;
-  text-align: center;
+  padding: 25px 30px;
+  text-align: left;
 }
 
 .w-advertisement .ad-desc p {
@@ -1010,7 +1081,7 @@ body {
 }
 
 .w-client-ad-01 {
-  background-color: #bdbdbd;
+  background-color: #00b3e3;
 }
 
 .w-jld-ad-01 {

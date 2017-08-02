@@ -1,24 +1,32 @@
 {
-    "featured": {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#featured-link"
-    },
     "events": [{
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link1"
+        "date_time": "August 8 9AM ET",
+        "type_location": "Webinar",
+        "description": "Ethics and Conflicts of Interest in Law Practice 2017",
+        "link": "http://www.pli.edu/Content/Seminar/Ethics_and_Conflicts_of_Interest_in_Law_Practice/_/N-4kZ1z10mji"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link2"
+        "date_time": "August 10-15",
+        "description": "2017 ABA New York Annual Meeting",
+        "link": "https://www.americanbar.org/portals/annual-meeting.html"
     }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link3"
+        "date_time": "August 18 1PM ET",
+        "type_location": "Webinar",
+        "description": "Social Media as Investigative Research and Evidence",
+        "link": "http://linkon.in/M081817"
+    }, {
+        "date_time": "August 24 1PM ET",
+        "type_location": "Webinar",
+        "description": "Lawyer Ethics: E-Communications, Social Media, and the Internet (Part 2)",
+        "link": "https://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=277286406"
+    }, {
+        "date_time": "August 25 1PM ET",
+        "type_location": "Webinar",
+        "description": "The Ethics of Social Media Research",
+        "link": "http://linkon.in/M082517"
+    }, {
+        "date_time": "August 30 1PM ET",
+        "type_location": "Webinar",
+        "description": "Creating An Online Publishing Strategy for Your Law Firm",
+        "link": "https://shop.americanbar.org/ebus/ABAEventsCalendar/EventDetails.aspx?productId=272686460"
     }]
 }

@@ -1,12 +1,14 @@
 {
-    "people": [{
-        "id": "0000000",
-        "rank": 1,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }],
+    "people": [
+        {
+            "id": "1186656",
+            "rank": 1,
+            "name": "John Bostany",
+            "location": "New York, NY",
+            "name_link": "http://law.justia.com/annotations/lawyers/1186656?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-08&utm_content=name-annotations-leaderboard-1",
+            "photo_link": "https://lawyers.justia.com/lawyer/1186656?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-08&utm_content=image-annotations-leaderboard-1"
+        }
+    ],
     "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
     "button_link": "http://law.justia.com/annotations/"
 }

@@ -1,27 +1,27 @@
 {
     "sites": [{
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Racine Olson",
+        "location": "Idaho",
+        "possessive_adjective": "their",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.racinelaw.net/ ",
+            "simple": "racinelaw.net"
         }
     }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Fidlon Legal",
+        "location": "Atlanta",
+        "possessive_adjective": "their",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.fidlonlegal.com/",
+            "simple": "fidlonlegal.com"
         }
     }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Hanlon Law",
+        "location": "Tampa",
+        "possessive_adjective": "their",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.criminalattorneytampa.net/",
+            "simple": "criminalattorneytampa.net"
         }
     }]
 }

@@ -1,34 +1,25 @@
 {
     "clients": {
         "ad1": {
-            "image": "adname-image-01.png",
-            "alt": "[alt text]",
+            "image": "adname-image-01.jpg",
+            "alt": "Content is needed for a strong site",
             "link": "#",
             "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
+                "We offer à la carte writing services that combine SEO best practices with your firm’s unique voice and approach to legal issues. Rest assured with an experienced legal marketing team drafting and editing your pages."
             ]
         }
     },
 
     "jld": {
         "ad1": {
-            "image": "jld-adname-image-01.png",
-            "alt": "[alt text]",
-            "link": "#",
-            "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-            ]
+            "image": "jld-adname-image-01.gif",
+            "alt": "Contact Us Now",
+            "link": "https://marketing.justia.com/contact/promotion/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-08&utm_content=banner-marketing-turn-visitors-into-revenue-v1"
         },
         "ad2": {
-            "image": "jld-adname-image-02.png",
-            "alt": "[alt text]",
-            "link": "#",
-            "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-            ]
+            "image": "jld-adname-image-02.jpg",
+            "alt": "Become a Premium Member",
+            "link": "https://lawyers.justia.com/premium-placement-form?profile_id=*|PROFILE_ID|*&email=*|EMAIL|*&utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-08&utm_content=banner-premium-memberships-v5"
         }
     }
 }
