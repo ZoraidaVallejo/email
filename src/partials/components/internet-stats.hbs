@@ -25,12 +25,12 @@
             {{#if internet_stats.link }}</a>{{/if}}
         </td>
     </tr>
-    {{#is internet_stats.description "" }}{{else}}
-    <tr>
-        <!-- stats-desc -->
-        <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-            <p>{{{ internet_stats.description }}}</p>
-        </td>
-    </tr>
-    {{/is}}
+    {{#if internet_stats.description }}
+        <tr>
+            <!-- stats-desc -->
+            <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
+                <p>{{{ internet_stats.description }}}</p>
+            </td>
+        </tr>
+    {{/if}}
 </table>

@@ -14,9 +14,13 @@
                     {{{ tip_month.clients.title }}}
                 {{/if}}
                 {{#if jldNewsletter }}
-                    {{#if tip_month.jld.link }}<a href="{{ tip_month.jld.link }}" target="_blank">{{/if}}
+                    {{#if tip_month.jld.link }}
+                        <a href="{{{ tip_month.jld.link }}}" target="_blank">
+                    {{/if}}
                         {{{ tip_month.jld.title }}}
-                    {{#if tip_month.jld.link }}</a>{{/if}}
+                    {{#if tip_month.jld.link }}
+                        </a>
+                    {{/if}}
                 {{/if}}
             </h2>
         </td>
