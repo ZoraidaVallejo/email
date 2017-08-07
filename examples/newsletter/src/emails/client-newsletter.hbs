@@ -23,67 +23,51 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
         <td height="100%" width="100%" class="align-center valign-top">
 
             {{> layoutHack tableStart=true }}
-
                 {{> welcome clientsNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> featured-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> tip-month clientsNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> tech-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> internet-stats }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> seo-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{> featured-site-month }}
+                {{> featured-site-month singleSite=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> in-the-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> inside-justia }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> did-you-know }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> meet-our-team }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> social-media-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> advertisement }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> pugs-tale }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> legal-industry-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
                 {{> law-events }}
 
             {{> layoutHack tableEnd=true }}

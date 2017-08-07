@@ -5,11 +5,12 @@ module.exports = function(grunt, options) {
     // BLAST configuration
     var buildAlias = [
         options.conversionType,
-        'replace:live_images'
+        'replace:live_images',
+        'spreadsheet:all'
     ];
 
     // Newsletter configuration overwrite
-    if (options.conversionType === 'newsletter' 
+    if (options.conversionType === 'newsletter'
         || options.conversionType === 'proposal'
         || options.conversionType === 'oyez') {
         buildAlias = buildAlias.concat([
@@ -21,8 +22,10 @@ module.exports = function(grunt, options) {
     return {
         default: ['serve'],
 
+        report: ['spreadsheet:all'],
+
         newsletter: [
-            'clean',
+            'clean:dist',
             'sass:dist',
             'assemble',
             'juice',
@@ -35,7 +38,7 @@ module.exports = function(grunt, options) {
         ],
 
         blast: [
-            'clean',
+            'clean:dist',
             'sass:dist',
             'assemble',
             'juice',
@@ -47,7 +50,7 @@ module.exports = function(grunt, options) {
         ],
 
         proposal: [
-            'clean',
+            'clean:dist',
             'sass:dist',
             'cssmin',
             'assemble',
@@ -57,7 +60,7 @@ module.exports = function(grunt, options) {
         ],
 
         oyez: [
-            'clean',
+            'clean:dist',
             'sass:dist',
             'assemble',
             'juice',
@@ -67,7 +70,7 @@ module.exports = function(grunt, options) {
             'replace:fix_responsive',
             'replace:src_images',
             'replace:remove_dup_styles'
-        ],        
+        ],
 
         build: buildAlias,
 
@@ -81,13 +84,15 @@ module.exports = function(grunt, options) {
         ],
 
         upload: [
-            options.conversionType,
             'imagemin',
-            'sftp-deploy'
+            'sftp-deploy:images'
         ],
 
-        zip: [
-            'compress'
+        publish: [
+            'build',
+            'copy',
+            'compress',
+            'clean:all'
         ],
 
         test: [

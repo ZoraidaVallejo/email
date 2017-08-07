@@ -10,13 +10,12 @@ module.exports = function(grunt) {
     if (monthNum < 1 || monthNum > 12) {
         grunt.log.writeln(
             chalk.yellow(
-                `\nWarning: Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`
+                `\nWarning: Please set the month number between 01 to 12 in the ${ chalk.underline('custom-config.json') } file.\n`
             )
         );
     }
 
-    // const allRules = customConfig;
-    const allRules = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
+    var allRules = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
 
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
@@ -30,7 +29,8 @@ module.exports = function(grunt) {
 
             staticMappings: {
                 juice: 'grunt-juice-email',
-                sasslint: 'grunt-sass-lint'
+                sasslint: 'grunt-sass-lint',
+                spreadsheet: 'grunt/spreadsheet.js'
             }
         }
     });
