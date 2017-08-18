@@ -1,10 +1,9 @@
 {
     "conversionType": "blast",
     "port": 4000,
-    "justatic_version": "2",
+    "justatic_version": "1",
     "current_year": "2017",
-    "current_month": "08",
-    "current_day": "16",
+    "current_month": "09",
 
     "paths": {
         "src": "src",
@@ -12,9 +11,9 @@
         "dist": "dist",
         "dist_img": "dist/img",
         "preview": "preview",
-        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/clients/<%= current_year %>/<%= current_month %>/<%= current_day %>",
-        "remote_img_path": "/mnt/files/emails/images/clients/<%= current_year %>/<%= current_month %>/<%= current_day %>"
+        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>",
+        "remote_img_path": "/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>"
     },
 
-    "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>-<%= current_day %>"
+    "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
 }

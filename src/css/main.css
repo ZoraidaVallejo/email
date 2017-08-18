@@ -246,6 +246,17 @@ body {
   border-collapse: collapse !important;
 }
 
+.competitors .dvbg {
+  width: 600px;
+  height: 347px;
+  padding: 0;
+  background: url("../img/competitors-background-01.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat !important;
+  background-size: 600px 347px;
+  vertical-align: top;
+}
+
 .competitors .inner-content {
   width: 600px;
 }
@@ -262,10 +273,12 @@ body {
 }
 
 .competitors .title {
-  padding: 49px 80px 25px 79px;
+  padding: 49px 80px 32px 79px;
 }
 
 .competitors .title .image {
+  width: 440.769230769px;
+  height: 66.9230769231px;
   margin: 0 auto;
   Margin: 0 auto;
 }
@@ -275,31 +288,42 @@ body {
 }
 
 .competitors .animations .image {
-  width: 277px;
-  height: 361px;
+  width: 264px;
+  height: 347px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
 .competitors .button {
-  padding: 34px 121px 39px 122px;
+  padding: 41px 121px 34px 122px;
 }
 
 .competitors .button .image {
+  width: 356.923076923px;
+  height: 53.0769230769px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
 .competitors .desc {
-  padding: 0 30px 35px;
+  padding: 0 30px 28px;
 }
 
 .competitors .desc p {
   text-align: left;
 }
 
+.competitors .contactus {
+  padding-bottom: 34px;
+}
+
+.competitors .contactus p {
+  font-size: 18px !important;
+}
+
 .competitors .contactus .phone a {
   color: #06357a !important;
+  font-size: 20px !important;
 }
 
 .align-center {
