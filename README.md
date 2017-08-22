@@ -284,13 +284,14 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 
 - **`grunt`**: Clean the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
 - **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
-- **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute.
+- **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
+- **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute. The `grunt report` command also run with the `build`.
 - **`grunt upload`**: Upload all the images to the remote server.
 - **`grunt publish`**: This command does the following:
     - Run the `build` command.
     - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
     - Compress the **custom-config.json** file, `src/` and `dist/` folders.
-    - Delete all the folders and files that were zipped.
+    - Delete all the folders and files that were zipped and the `tags/` folder.
 
 For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
 
