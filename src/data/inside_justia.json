@@ -1,11 +1,9 @@
 {
     "blocks": [{
-        "title": "[title]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
-        "image": "inside-justia-01.jpg"
-    }, {
-        "title": "[title]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
-        "image": "inside-justia-02.jpg"
+        "title": "Justia Brand Site",
+        "description": "Our Justia Brand site is now live! Visit the site to find our logo, icon, brand colors, and standard typography. We also provide brand usage guidelines to help you use our artwork properly and in a manner consistent with our branding.",
+        "image": "inside-justia-01.jpg",
+        "link": "https://brand.justia.com/"
     }]
 }
+

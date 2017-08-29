@@ -1,27 +1,27 @@
 {
     "sites": [{
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Johnson Beard & Trueb PC",
+        "location": "Anchorage & Seattle",
+        "possessive_adjective": "their",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.alaskamaritimeinjurylawyers.com/",
+            "simple": "alaskamaritimeinjurylawyers.com"
         }
     }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Barsumian Law",
+        "location": "Indiana",
+        "possessive_adjective": "his",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.barsumianlaw.com/",
+            "simple": "barsumianlaw.com"
         }
     }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "The Law Offices of Frank J. Prainito",
+        "location": "Rancho Cucamonga",
+        "possessive_adjective": "his",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.prainitolaw.com/",
+            "simple": "prainitolaw.com"
         }
     }]
 }

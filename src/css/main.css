@@ -899,16 +899,16 @@ body {
 }
 
 .w-text-image.w-inside-justia .item-list .item-desc {
-  width: 300px;
+  width: 360px;
 }
 
 .w-text-image.w-inside-justia .item-image {
-  width: 240px;
+  width: 180px;
 }
 
 .w-text-image.w-inside-justia .item-image img {
-  width: 210px;
-  max-width: 88%;
+  width: 150px;
+  max-width: 84%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -1225,6 +1225,10 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-6 .inner-text {
+  height: 108px;
 }
 
 .align-center {

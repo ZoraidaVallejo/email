@@ -1,15 +1,44 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "Facebook Will Soon Start Ranking Faster Loading Webpages Higher in News Feed",
+        "link": "https://techcrunch.com/2017/08/02/facebook-will-soon-start-ranking-faster-loading-webpages-higher-in-news-feed/",
+        "description": "Facebook recently announced that it will be changing its News Feed to prioritize faster loading web pages, including those pages that use Facebook's own Instant Article format. The update will be rolled out gradually over the next several months, giving content publishers time to adapt."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Introducing the LinkedIn Company Pages Playbook",
+        "link": "https://blog.linkedin.com/2017/august/3/introducing-the-linkedin-company-pages-playbook",
+        "description": "LinkedIn recently announced its Company Pages Playbook to help companies take full advantage of the features of their LinkedIn profile. With over 13 million company pages, LinkedIn is a valuable resource for companies, employees, and prospective workers seeking to do research on a company. The LinkedIn Company Pages Playbook contains instructions and tips for companies in all stages of developing a LinkedIn presence."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Twitter SEO: Ninja Tricks for Reputation Repair",
+        "link": "http://searchengineland.com/twitter-seo-ninja-tricks-reputation-repair-280267",
+        "description": "If negative content is harming your reputation, a strong Twitter account can be instrumental in pushing the negative content lower in the search results for your name. In this article, learn some tips to increase the ranking of your Twitter profile."
+    }, {
+        "title": "New Features to Get the Most From Posting on LinkedIn",
+        "link": "https://blog.linkedin.com/2017/august/10/new-features-to-get-the-most-from-posting-on-linkedin",
+        "description": "To help its users generate conversations and discover new professional opportunities, LinkedIn has added new features, including the ability to add multiple photos to a single post. This feature was released on iOS and will later be available to the Android operating system and desktop computers. LinkedIn users can now also share drafts of articles among a selected group of other users prior to live publishing, as well as manage comments received on a their own posts."
+    }, {
+        "title": "10 Tools for Creating Compelling Content for Social Media",
+        "link": "http://marketingland.com/create-compelling-content-social-media-221333",
+        "description": "You don’t have to be a web designer or developer to create effective and impactful content on social media. With a growing number of web-based tools available online, it is now easier than ever to create shareable images, build quizzes to spark conversations, and compile data into a visually pleasing infographic. Here are 10 web-based products that help you do just that, with minimal to no background knowledge required."
+    }, {
+        "title": "Facebook Lets Brands Promote Publisher & Influencer Posts as Ads",
+        "link": "http://marketingland.com/facebook-lets-brands-promote-publishers-influencers-posts-ads-221805",
+        "description": "Facebook recently unveiled a new way for brands to promote third-party sponsored posts as ads. This new process streamlines the process and provides a cleaner UI. Brands now also have access to added controls to determine who can tag them in Facebook posts."
+    }, {
+        "title": "Facebook Will Penalize Fake Videos in Latest News Feed Algorithm Update",
+        "link": "http://marketingland.com/facebook-will-penalize-fake-videos-latest-news-feed-algorithm-update-222150",
+        "description": "The latest algorithm update to Facebook’s news feed aims to target photo posts that display fake video play buttons and other static images that deceptively appear to be videos. Specifically, the update penalizes posts of photos that mimic elements of video thumbnails. While Facebook has indicated that it will not actually remove offending posts or penalize Pages that publish them, the penalty will be assessed by lowering the ranking of that post in users’ news feeds."
+    }, {
+        "title": "Facebook Tests Targeting Ads to People Who Visited Brands’ Brick-and-Mortor Stores",
+        "link": "http://marketingland.com/facebook-tests-targeting-ads-people-visited-brands-brick-mortar-stores-221585",
+        "description": "Facebook has offered ways for business owners and retailers to attract Facebook users to their physical stores for a couple of years already. Now, the social media company is testing an option that would let businesses and services show ads on Facebook to individuals who have visited their brick-and-mortar stores. This may end up being a new option within Facebook’s ad-targeting product, Custom Audiences."
+    }, {
+        "title": "Google Local Question-and-Answer Feature Now Live in Search for All Mobile Browsers",
+        "link": "http://searchengineland.com/google-local-question-answer-feature-now-live-search-mobile-browsers-281311",
+        "description": "Google has released a new feature that allows business owners to answer frequently asked questions about their business. These questions and answers will then appear on a business’s local knowledge panel. This new feature is currently available exclusively on mobile browsers, with no date yet announced on when it will roll out to other platforms."
+    }, {
+        "title": "Facebook Steps Up Fake News Fight With ‘Related Articles’",
+        "link": "http://money.cnn.com/2017/08/03/technology/facebook-related-articles/",
+        "description": "Facebook users may have noticed additional articles appearing beneath links for topics other users have shared on the social network in recent weeks. Dubbed “Related Articles,” this new feature is Facebook’s attempt at cracking down on fake news. By including articles that have been fact-checked by third-party sites, the social network hopes to combat criticism that it let fake news stories go viral on the lead-up to the U.S. presidential election."
     }]
 }
+ 

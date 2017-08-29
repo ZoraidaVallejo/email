@@ -1,11 +1,11 @@
 {
     "news": [{
-        "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+        "logo_name": "npr.org",
+        "link": "http://www.npr.org/2017/07/28/539945595/justice-department-argues-sexual-orientation-not-protected-by-civil-rights-laws",
+        "description": "Eric Meyer from <b>Dilworth Paxson</b> appeared on NPR to discuss the new position by the U.S. Department of Justice that civil rights laws do not cover sexual orientation discrimination."
     }, {
         "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+        "link": "https://www.topnewyorkcriminalattorneysblog.com/2017/08/09/jeffrey-lichtman-represent-joaquin-guzman-el-chapo/",
+        "description": "Jeffrey Lichtman to Represent Joaquin Guzman (“El Chapo”)."
     }]
 }

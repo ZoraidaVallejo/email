@@ -36,7 +36,13 @@
                         <!-- item-image -->
                         <td class="item-image" responsive="mobile-hide collapse-one">
                             {{#if this.image }}
+                                {{#if this.link }}
+                                    <a href="{{{ this.link }}}" target="_blank">
+                                {{/if}}
                                 <img src="{{ ../default.image_dir_src }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                                {{#if featured_news.link }}
+                                   </a>
+                               {{/if}}
                             {{else}}
                                 &nbsp;
                             {{/if}}
