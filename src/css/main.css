@@ -899,16 +899,32 @@ body {
 }
 
 .w-text-image.w-inside-justia .item-list .item-desc {
-  width: 360px;
+  width: 410px;
 }
 
 .w-text-image.w-inside-justia .item-image {
-  width: 180px;
+  width: 130px;
+  padding-top: 85px !important;
 }
 
 .w-text-image.w-inside-justia .item-image img {
-  width: 150px;
-  max-width: 84%;
+  width: 100px;
+  max-width: 77%;
+}
+
+.w-text-image.w-did-you-know .item-list .item-desc {
+  width: 410px;
+  padding-top: 0;
+}
+
+.w-text-image.w-did-you-know .item-image {
+  width: 130px;
+  padding-top: 0 !important;
+}
+
+.w-text-image.w-did-you-know .item-image img {
+  width: 100px;
+  max-width: 77%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -1008,7 +1024,27 @@ body {
 }
 
 .w-client-ad-01 {
-  background-color: #bdbdbd;
+  background-color: #022252;
+}
+
+.w-client-ad-01 .ad-desc {
+  text-align: left;
+}
+
+.w-client-ad-01 .ad-desc--first {
+  padding: 31px 30px 6px;
+}
+
+.w-client-ad-01 .ad-desc--first p {
+  font: 20px/1.5 'OpenSans', Arial, sans-serif !important;
+}
+
+.w-client-ad-01 .ad-desc--last {
+  padding-bottom: 30px;
+}
+
+.w-client-ad-01 .ad-desc--last p {
+  font: 14px/1.5 Helvetica, Arial, sans-serif !important;
 }
 
 .w-jld-ad-01 {

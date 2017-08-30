@@ -4,7 +4,8 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $meet-team-image--width: 210px;
-$inside-justia-image--width: 150px;
+$inside-justia-image--width: 100px;
+$dyk-image--width: 100px;
 $pugs-image--width: 210px;
 
 
@@ -126,10 +127,32 @@ $pugs-image--width: 210px;
 
         .item-image {
             width: ($inside-justia-image--width + $padding);
+            padding-top: 85px !important;
 
             img {
                 width: $inside-justia-image--width;
                 max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+            }
+        }
+    }
+
+    &.w-did-you-know {
+
+        .item-list {
+
+            .item-desc {
+                width: ($inner-max-width - $dyk-image--width - $padding);
+                padding-top: 0;
+            }
+        }
+
+        .item-image {
+            width: ($dyk-image--width + $padding);
+            padding-top: 0 !important;
+
+            img {
+                width: $dyk-image--width;
+                max-width: ceil(percentage($dyk-image--width / ($dyk-image--width + $padding)));
             }
         }
     }

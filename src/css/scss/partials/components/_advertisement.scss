@@ -54,7 +54,27 @@
 }
 
 .w-client-ad-01 {
-    background-color: plt('silver');
+    background-color: #022252;
+
+    .ad-desc {
+        text-align: left;
+
+        &--first {
+            padding: 31px $padding 6px;
+
+            p {
+                font: 20px/1.5 'OpenSans', Arial, sans-serif !important;
+            }
+        }
+
+        &--last {
+            padding-bottom: 30px;
+
+            p {
+                font: 14px/1.5 Helvetica, Arial, sans-serif !important;
+            }
+        }
+    }
 }
 
 .w-jld-ad-01 {
