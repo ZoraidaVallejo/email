@@ -56,10 +56,7 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
                 {{> tip-month jldNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-                {{> did-you-know }}
-
-            {{!-- {{> layoutHack tableMiddleSeparator=true }}
-                {{> meet-our-team }} --}}
+                {{> inside-justia jldNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
                 {{> pugs-tale }}
@@ -68,7 +65,7 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
                 {{> jld-advertisement-02 }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-                {{> internet-stats }}
+                {{> internet-stats jldNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
                 {{> jurispro }}

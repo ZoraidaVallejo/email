@@ -2,13 +2,15 @@
     "clients": {
         "title": "Add a Narrative Bio to Your Free Justia Lawyer Directory Profile",
         "description": [
-            "We recommend adding a well-written biography to your JLD profile that highlights your practice and shows off your passion for the law. While you may discuss your educational and professional experience, this section is really targeted for weaving a narrative about your entire practice so that a potential client can understand you and your law firm in a way that mere biographical facts cannot communicate. If you need assistance logging in to update your profile, please <a href=\"mailto:support@justia.com\"><b>contact us</b></a>."
-        ]
+            "We recommend adding a well-written biography to your JLD profile that highlights your practice and shows off your passion for the law. While you may discuss your educational and professional experience, this section is really targeted for weaving a narrative about your entire practice so that a potential client can understand you and your law firm in a way that mere biographical facts cannot communicate. If you need assistance logging in to update your profile, please <a href=\"mailto:support@justia.com\" target=\"_blank\"><b>contact us</b></a>."
+        ],
+        "link": "mailto:support@justia.com"
     },
     "jld": {
         "title": "Increase Your Exposure to Prospective Clients With Justia Ask a Lawyer",
         "description": [
             "Justia Ask A Lawyer provides a platform for non-lawyers to post basic legal questions online and get free responses from attorneys. Answering questions allows you to earn points and get noticed in our legal practice area forums. In turn, point leaders appear on highlighted leaderboards across our site. Sign up to receive an email in real time when a question is submitted in your practice area and locality, allowing you to be the first to answer a question and earn more points!"
-        ]
+        ],
+        "link": "https://answers.justia.com/"
     }
 }

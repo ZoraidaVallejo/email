@@ -370,6 +370,12 @@ body {
   margin: 0;
 }
 
+.btn.-large img,
+.btn.-large a {
+  width: 210px;
+  height: 32px;
+}
+
 .btn a {
   text-decoration: none;
 }
@@ -755,6 +761,10 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-tip-month .tip-desc .btn {
+  padding-top: 20px;
+}
+
 .w-in-the-news {
   background-color: #ffffff;
 }
@@ -898,33 +908,50 @@ body {
   max-width: 88%;
 }
 
+.w-text-image.w-inside-justia {
+  background-color: #ffffff;
+}
+
+.w-text-image.w-inside-justia.-bordered {
+  border: 1px solid #e7e8e8;
+  border-width: 1px 0;
+}
+
 .w-text-image.w-inside-justia .item-list .item-desc {
-  width: 410px;
+  width: 300px;
+}
+
+.w-text-image.w-inside-justia .item-list .btn {
+  padding-top: 20px;
 }
 
 .w-text-image.w-inside-justia .item-image {
-  width: 130px;
+  width: 240px;
   padding-top: 85px !important;
 }
 
 .w-text-image.w-inside-justia .item-image img {
-  width: 100px;
-  max-width: 77%;
+  width: 210px;
+  max-width: 88%;
+}
+
+.w-text-image.w-did-you-know .item-list {
+  padding-top: 0 !important;
 }
 
 .w-text-image.w-did-you-know .item-list .item-desc {
-  width: 410px;
-  padding-top: 0;
+  width: 300px;
+  padding-top: 0 !important;
 }
 
 .w-text-image.w-did-you-know .item-image {
-  width: 130px;
+  width: 240px;
   padding-top: 0 !important;
 }
 
 .w-text-image.w-did-you-know .item-image img {
-  width: 100px;
-  max-width: 77%;
+  width: 210px;
+  max-width: 88%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -941,7 +968,7 @@ body {
 }
 
 .w-did-you-know {
-  background-color: #ff6b00;
+  background-color: #ffffff;
 }
 
 .w-did-you-know .dyk-title {
@@ -954,15 +981,6 @@ body {
 
 .w-did-you-know .dyk-desc--last {
   padding: 0 30px 45px;
-}
-
-.w-did-you-know .widget-type-name,
-.w-did-you-know .widget-main-title,
-.w-did-you-know p,
-.w-did-you-know blockquote,
-.w-did-you-know q,
-.w-did-you-know a {
-  color: #ffffff;
 }
 
 .w-did-you-know blockquote {

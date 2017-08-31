@@ -1,5 +1,15 @@
 {
-    "subtitle": "Your Justia law firm website targets both desktop and mobile traffic with a responsive web design.",
+    "subtitle": {
+        "clients": "57% of Search Traffic is Now Mobile",
+        "jld": "57% of Traffic Now from Smartphones and Tablets"
+    },
     "link": "https://www.brightedge.com/sites/default/files/BrightEdge-Mobile-Research-Paper-2017.pdf",
-    "description": "2017 BrightEdge Research"
+    "description": {
+        "clients": "Source: 2017 BrightEdge Research.",
+        "jld": "Source: 2017 BrightEdge Research."
+    },
+    "footerdesc": {
+        "clients": "Your Justia law firm website targets both desktop and mobile traffic with a responsive web design.",
+        "jld": "Justia law firm websites target both desktop and mobile traffic with responsive web designs."
+    }
 }

@@ -11,7 +11,9 @@
             <!-- widget-main-title -->
             <h2 class="widget-main-title">
                 {{#if clientsNewsletter }}
-                    {{{ tip_month.clients.title }}}
+                    {{#if tip_month.clients.link }}<a href="{{ tip_month.clients.link }}" target="_blank">{{/if}}
+                        {{{ tip_month.clients.title }}}
+                    {{#if tip_month.clients.link }}</a>{{/if}}
                 {{/if}}
                 {{#if jldNewsletter }}
                     {{#if tip_month.jld.link }}<a href="{{ tip_month.jld.link }}" target="_blank">{{/if}}
@@ -28,6 +30,8 @@
                 <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
                 <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
                     <p>{{{ this }}}</p>
+                    <!-- button -->
+                    {{> button contactusWhite=true buttonLink="mailto:support@justia.com" }}
                 </td>
             </tr>
         {{/each}}
@@ -39,6 +43,11 @@
                 <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
                 <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
                     <p>{{{ this }}}</p>
+                    <div class="btn -large">
+                        <a href="https://answers.justia.com/" target="_blank">
+                            <img src="{{ ../default.image_dir_src }}/button-answerquestions-01-a.png" alt="Answer Questions Now" border="0" />
+                        </a>
+                    </div>    
                 </td>
             </tr>
         {{/each}}

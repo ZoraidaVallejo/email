@@ -4,6 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $button-1--dimensions: 240px 64px;
+$button-2--dimensions: 420px 64px;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -16,6 +17,14 @@ $button-1--dimensions: 240px 64px;
         width: (nth($button-1--dimensions, 1) / 2);
         height: (nth($button-1--dimensions, 2) / 2);
         margin: 0;
+    }
+
+    &.-large {
+        img,
+        a {
+            width: (nth($button-2--dimensions, 1) / 2);
+            height: (nth($button-2--dimensions, 2) / 2);
+        }
     }
 
     a {

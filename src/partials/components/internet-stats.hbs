@@ -14,7 +14,14 @@
         <!-- stats-desc-head align-center -->
         <td class="stats-subtitle align-center" responsive="mobile-padding-horizontal-sides">
             <!-- line1 -->
-            <p class="line1">{{{ internet_stats.subtitle }}}</p>
+            <p class="line1">
+                {{#if clientsNewsletter }}
+                    {{{ internet_stats.subtitle.clients }}}
+                {{/if}}
+                {{#if jldNewsletter }}
+                    {{{ internet_stats.subtitle.jld }}}
+                {{/if}}
+            </p>
         </td>
     </tr>
     <tr>
@@ -25,12 +32,35 @@
             {{#if internet_stats.link }}</a>{{/if}}
         </td>
     </tr>
-    {{#is internet_stats.description "" }}{{else}}
+    {{#if internet_stats.description }}
     <tr>
         <!-- stats-desc -->
         <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-            <p>{{{ internet_stats.description }}}</p>
+            <p>
+                {{#if clientsNewsletter }}
+                    {{{ internet_stats.description.clients }}}
+                {{/if}}
+                {{#if jldNewsletter }}
+                    {{{ internet_stats.description.jld }}}
+                {{/if}}
+            </p>
         </td>
     </tr>
-    {{/is}}
+    {{/if}}
+    {{#if internet_stats.footerdesc.clients }}
+    <tr>
+        <!-- stats-desc-head align-center -->
+        <td class="stats-subtitle align-center" responsive="mobile-padding-horizontal-sides">
+            <!-- line1 -->
+            <p class="line1">
+                {{#if clientsNewsletter }}
+                    {{{ internet_stats.footerdesc.clients }}}
+                {{/if}}
+                {{#if jldNewsletter }}
+                    {{{ internet_stats.footerdesc.jld }}}
+                {{/if}}
+            </p>
+        </td>
+    </tr>
+    {{/if}}
 </table>

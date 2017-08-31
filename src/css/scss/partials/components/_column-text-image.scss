@@ -4,8 +4,8 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $meet-team-image--width: 210px;
-$inside-justia-image--width: 100px;
-$dyk-image--width: 100px;
+$inside-justia-image--width: 210px;
+$dyk-image--width: 210px;
 $pugs-image--width: 210px;
 
 
@@ -117,11 +117,21 @@ $pugs-image--width: 210px;
     }
 
     &.w-inside-justia {
+        background-color: plt('white');
+
+        &.-bordered {
+            border: 1px solid plt('black-haze');
+            border-width: 1px 0;
+        }
 
         .item-list {
 
             .item-desc {
                 width: ($inner-max-width - $inside-justia-image--width - $padding);
+            }
+
+            .btn {
+                padding-top: 20px;
             }
         }
 
@@ -139,10 +149,11 @@ $pugs-image--width: 210px;
     &.w-did-you-know {
 
         .item-list {
+            padding-top: 0 !important;
 
             .item-desc {
                 width: ($inner-max-width - $dyk-image--width - $padding);
-                padding-top: 0;
+                padding-top: 0 !important;
             }
         }
 
