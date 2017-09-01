@@ -7,6 +7,9 @@ $competitors-title-01--dimensions: image-dimensions('/src/img/competitors-title-
 $competitors-animation-01--dimensions: image-dimensions('/src/img/competitors-animation-01.gif');
 $competitors-button-01--dimensions: image-dimensions('/src/img/competitors-button-01.png');
 
+$competitors-text-after-01: image-dimensions('/src/img/competitors-text-after-01.png');
+$competitors-text-before-01: image-dimensions('/src/img/competitors-text-before-01.png');
+
 // ----------------------------------------------------------------------------------------------------------
 
 .competitors {
@@ -47,11 +50,38 @@ $competitors-button-01--dimensions: image-dimensions('/src/img/competitors-butto
     }
 
     .title {
-        padding: 49px 80px 32px 79px;
+        padding: 30px 80px 32px 79px;
 
         .image {
             width: nth($competitors-title-01--dimensions, 1) / 1.3;
             height: nth($competitors-title-01--dimensions, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .before-after {
+        width: $max-width;
+        height: nth($competitors-text-before-01, 2) / 1.3;
+    }
+
+    .before-text {
+        padding: 0 106px 10px 130px;
+
+        .image {
+            width: nth($competitors-text-before-01, 1) / 1.3;
+            height: nth($competitors-text-before-01, 2) / 1.3;
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .after-text {
+        padding: 0 136px 10px 113px;
+
+        .image {
+            width: nth($competitors-text-after-01, 1) / 1.3;
+            height: nth($competitors-text-after-01, 2) / 1.3;
             margin: 0 auto;
             Margin: 0 auto;
         }

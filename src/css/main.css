@@ -277,12 +277,39 @@ body {
 }
 
 .competitors .title {
-  padding: 49px 80px 32px 79px;
+  padding: 30px 80px 32px 79px;
 }
 
 .competitors .title .image {
   width: 440.769230769px;
   height: 66.9230769231px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.competitors .before-after {
+  width: 600px;
+  height: 16.9230769231px;
+}
+
+.competitors .before-text {
+  padding: 0 106px 10px 130px;
+}
+
+.competitors .before-text .image {
+  width: 63.8461538462px;
+  height: 16.9230769231px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.competitors .after-text {
+  padding: 0 136px 10px 113px;
+}
+
+.competitors .after-text .image {
+  width: 50.7692307692px;
+  height: 16.9230769231px;
   margin: 0 auto;
   Margin: 0 auto;
 }
