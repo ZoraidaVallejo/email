@@ -3,7 +3,6 @@
 
 <!-- w-text-image w-inside-justia -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-inside-justia set-max-width {{#gt (length inside_justia.blocks) 1 }}multiple{{/gt}} {{#if clientsNewsletter }}-bordered{{/if}}">
-
     {{#gt (length inside_justia.blocks) 1 }}
         <tr>
             <!-- items-main-title -->
@@ -44,21 +43,33 @@
                         <!-- widget-main-title -->
                         <h2 class="widget-main-title">{{{ inside_justia.title }}}</h2>
                         <p>{{{ inside_justia.description }}}</p>
+                        {{#if inside_justia.link }}
                         <!-- item-image -->
                         <div class="btn">
-                            <a href="{{ inside_justia.link }}" target="_blank">
-                                <img src="{{ default.image_dir_src }}/button-viewsite-01-c.png" alt="View Site" border="0" />
-                            </a>
-                        </div>    
+                            {{#if jldNewsletter }}
+                                <a href="{{{ inside_justia.link }}}{{{ inside_justia.utm.jld.source }}}{{{ inside_justia.utm.jld.content.button }}}" target="_blank">
+                            {{/if}}
+                            {{#if clientsNewsletter }}
+                                <a href="{{{ inside_justia.link }}}{{{ inside_justia.utm.clients.source }}}{{{ inside_justia.utm.clients.content.button }}}" target="_blank">
+                            {{/if}}
+                                    <img src="{{ default.image_dir_src }}/button-viewsite-01-c.png" alt="View Site" border="0" />
+                                </a>
+                        </div>
+                        {{/if}}
                     </td>
                     <!-- item-image -->
                     <td class="item-image" responsive="mobile-hide collapse-one">
                         {{#if inside_justia.image }}
                             {{#if inside_justia.link }}
-                                <a href="{{{ inside_justia.link }}}" target="_blank">
+                                {{#if jldNewsletter }}
+                                    <a href="{{{ inside_justia.link }}}{{{ inside_justia.utm.jld.source }}}{{{ inside_justia.utm.jld.content.image }}}" target="_blank">
+                                {{/if}}
+                                {{#if clientsNewsletter }}
+                                    <a href="{{{ inside_justia.link }}}{{{ inside_justia.utm.clients.source }}}{{{ inside_justia.utm.clients.content.image }}}" target="_blank">
+                                {{/if}}
                             {{/if}}
                             <img src="{{ default.image_dir_src }}/{{ inside_justia.image }}" alt="{{ inside_justia.title }}" border="0" />
-                            {{#if featured_news.link }}
+                            {{#if inside_justia.link }}
                                </a>
                            {{/if}}
                         {{else}}

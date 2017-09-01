@@ -16,7 +16,7 @@
                     {{#if tip_month.clients.link }}</a>{{/if}}
                 {{/if}}
                 {{#if jldNewsletter }}
-                    {{#if tip_month.jld.link }}<a href="{{ tip_month.jld.link }}" target="_blank">{{/if}}
+                    {{#if tip_month.jld.link }}<a href="{{{ tip_month.jld.link }}}{{{ tip_month.jld.utm.title }}}" target="_blank">{{/if}}
                         {{{ tip_month.jld.title }}}
                     {{#if tip_month.jld.link }}</a>{{/if}}
                 {{/if}}
@@ -38,18 +38,16 @@
     {{/if}}
 
     {{#if jldNewsletter }}
-        {{#each tip_month.jld.description }}
-            <tr>
-                <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
-                <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                    <p>{{{ this }}}</p>
-                    <div class="btn -large">
-                        <a href="https://answers.justia.com/" target="_blank">
-                            <img src="{{ ../default.image_dir_src }}/button-answerquestions-01-a.png" alt="Answer Questions Now" border="0" />
-                        </a>
-                    </div>    
-                </td>
-            </tr>
-        {{/each}}
+        <tr>
+            <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
+            <td class="tip-desc tip-desc--last" responsive="mobile-padding-horizontal-sides">
+                <p>{{{ tip_month.jld.description }}}</p>
+                <div class="btn -large">
+                    <a href="{{{ tip_month.jld.link  }}}{{{ tip_month.jld.utm.button }}}" target="_blank">
+                        <img src="{{ default.image_dir_src }}/button-answerquestions-01-a.png" alt="Answer Questions Now" border="0" />
+                    </a>
+                </div>    
+            </td>
+        </tr>
     {{/if}}
 </table>
