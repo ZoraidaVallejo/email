@@ -7,6 +7,7 @@ module.exports = {
     all: [
         'dist/',
         'src/',
+        'tags/',
         'custom-config.json'
     ]
 };
