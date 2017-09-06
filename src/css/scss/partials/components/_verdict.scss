@@ -1,0 +1,76 @@
+   
+// ----------------------------------------------------------------------------------------------------------
+// V E R D I C T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-verdict {
+
+    .widget-content {
+
+        > td {
+            padding: 0 $padding 40px;
+        }
+    }
+
+    .posts {
+        table-layout: fixed;
+
+        .-title {
+
+            p {
+                color: plt('primary');
+            }
+        }
+
+        .-author {
+
+            p {
+                color: plt('primary');
+                font: 14px/1.5 $sans-serif-font-family;
+            }
+        }
+
+        .-image {
+            
+            td {
+                padding: 15px 0 20px;
+            }
+
+            img {
+                display: block;
+                width: 540px;
+                max-width: 100%;
+                margin: 0;
+            }
+        }
+
+        .-desc {
+
+            td {
+                padding: 0 0 15px;
+            }
+        }
+
+        .-more {
+
+            + .-title td {
+                padding: $padding 0 0;
+            }
+
+            td {
+                padding: 0 0 $padding;
+            }
+
+            &:not(.last-post) td {
+                border-bottom: 1px solid plt('alto');
+            }
+        }
+
+        .last-post {
+
+            &.-more td {
+                padding: 0;
+            }
+        }
+    }
+}
