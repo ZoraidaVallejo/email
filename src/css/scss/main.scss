@@ -1,0 +1,33 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+'sassy-maps',
+'image-dimensions';
+
+@import
+'modules/functions',
+'modules/global-settings',
+'modules/mixins';
+
+@import
+'partials/misc/global',
+'partials/misc/type';
+
+@import
+'partials/layout/main-container',
+'partials/layout/header',
+'partials/layout/footer';
+
+@import
+'partials/widgets/welcome',
+'partials/widgets/opinions';
+
+@import
+'partials/components/label-dividers',
+'partials/components/headline';
+
+@import
+'partials/misc/other';
