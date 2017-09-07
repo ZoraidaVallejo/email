@@ -48,6 +48,12 @@
         }
     }
 
+    .subject,
+    .granted {
+        margin: 0.4em 0;
+        font-size: 14px !important;
+    }
+
     .hr-separator {
         height: 1px;
         border: 0;

@@ -32,7 +32,7 @@ ul {
 }
 
 a {
-  color: #00b3e3;
+  color: #148BB9;
 }
 
 body {
@@ -308,6 +308,12 @@ body {
 .w-tech-news .items-list ul,
 .w-tech-news .items-list ol {
   padding-left: 18px;
+}
+
+.w-tech-news .subject,
+.w-tech-news .granted {
+  margin: 0.4em 0;
+  font-size: 14px !important;
 }
 
 .w-tech-news .hr-separator {

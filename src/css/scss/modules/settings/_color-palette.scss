@@ -3,6 +3,10 @@
 // C O L O R   P A L E T T E
 // ----------------------------------------------------------------------------------------------------------
 
+$oyez-palette: (
+    'eastern-blue': #148BB9
+);
+
 $grayscale-palette: (
     'black': #000000,
     'mine-shaft': #282828,
@@ -67,7 +71,7 @@ $social-media-palette: (
 
 $ui-color-pallete: (
     'primary': map-get($social-media-palette, 'justia'),
-    'accent': map-get($new-primary-palette, 'cerulean'),
+    'accent': map-get($oyez-palette, 'eastern-blue'),
     'jurispro': (
         'primary': map-get($new-primary-palette, 'midnight'),
         'secondary': map-get($new-primary-palette, 'rodeo-dust')
