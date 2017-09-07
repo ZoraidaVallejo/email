@@ -458,41 +458,21 @@ body {
   table-layout: fixed;
 }
 
+.w-cases .cases .-title td {
+  padding-top: 30px;
+}
+
 .w-cases .cases .-info p {
   font: 14px/1.5 Arial, sans-serif;
 }
 
 .w-cases .cases .-desc td {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
-.w-cases .cases .-more-info + .-title td {
-  padding: 30px 0 0;
-}
-
-.w-cases .cases .-more-info td {
-  vertical-align: top;
-}
-
-.w-cases .cases .-more-info td table {
-  table-layout: fixed;
-}
-
-.w-cases .cases .-more-info td table td:first-child {
-  width: 110px;
-  padding: 0 0 30px;
-}
-
-.w-cases .cases .-more-info td table td:last-child {
-  padding: 0 0 30px 10px;
-}
-
-.w-cases .cases .-more-info:not(.last-case) > td {
-  border-bottom: 1px solid #dddddd;
-}
-
-.w-cases .cases .last-case.-more-info td {
-  padding: 0;
+.w-cases .cases .last-case td {
+  padding-top: 30px;
+  padding-bottom: 0;
 }
 
 .w-advertisement a {

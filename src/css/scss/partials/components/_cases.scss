@@ -1,6 +1,6 @@
    
 // ----------------------------------------------------------------------------------------------------------
-// A N N O T A T I O N   C A S E S
+// G R A N T E D   C A S E S
 // ----------------------------------------------------------------------------------------------------------
 
 .w-cases {
@@ -15,6 +15,13 @@
     .cases {
         table-layout: fixed;
 
+        .-title {
+
+            td {
+                padding-top: $padding;
+            }
+        }
+
         .-info {
 
             p {
@@ -25,45 +32,15 @@
         .-desc {
 
             td {
-                padding: 15px 0;
-            }
-        }
-
-        .-more-info {
-
-            + .-title td {
-                padding: $padding 0 0;
-            }
-
-            td {
-                vertical-align: top;
-
-                table {
-                    table-layout: fixed;
-
-                    td {
-
-                        &:first-child {
-                            width: 110px;
-                            padding: 0 0 $padding;
-                        }
-
-                        &:last-child {
-                            padding: 0 0 $padding 10px;
-                        }
-                    }
-                }
-            }
-
-            &:not(.last-case) > td {
-                border-bottom: 1px solid plt('alto');
+                padding: 10px 0;
             }
         }
 
         .last-case {
 
-            &.-more-info td {
-                padding: 0;
+            td {
+                padding-top: $padding;
+                padding-bottom: 0;
             }
         }
     }
