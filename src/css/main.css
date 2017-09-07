@@ -472,12 +472,13 @@ body {
 }
 
 .w-cases .cases .-info hr {
+  display: block;
   height: 1px;
   border: 0;
   margin-top: 30px;
   background: #bdbdbd;
   color: #bdbdbd;
-  font-size: 0;
+  font-size: 1px;
 }
 
 .w-cases .cases .-desc td {
