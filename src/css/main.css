@@ -312,8 +312,15 @@ body {
 
 .w-tech-news .subject,
 .w-tech-news .granted {
-  margin: 0.4em 0;
   font-size: 14px !important;
+}
+
+.w-tech-news .subject {
+  margin-bottom: 0.4em;
+}
+
+.w-tech-news .granted {
+  margin: 0.4em 0;
 }
 
 .w-tech-news .hr-separator {
