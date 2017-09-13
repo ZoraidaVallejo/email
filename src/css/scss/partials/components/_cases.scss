@@ -1,0 +1,47 @@
+   
+// ----------------------------------------------------------------------------------------------------------
+// G R A N T E D   C A S E S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-cases {
+
+    .widget-content {
+
+        > td {
+            padding: 0 $padding 40px;
+        }
+    }
+
+    .cases {
+        table-layout: fixed;
+
+        .-title {
+
+            td {
+                padding-top: $padding;
+            }
+        }
+
+        .-info {
+
+            p {
+                font: 14px/1.5 $sans-serif-font-family;
+            }
+        }
+
+        .-desc {
+
+            td {
+                padding: 10px 0;
+            }
+        }
+
+        .last-case {
+
+            td {
+                padding-top: $padding;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

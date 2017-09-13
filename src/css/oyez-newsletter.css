@@ -8,9 +8,48 @@ body {
   font-family: Helvetica, Arial, sans-serif, serif;
 }
 
+table {
+  width: 100%;
+}
+
+table td {
+  text-align: left;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font: 16px/1.5 Helvetica, Arial, sans-serif, serif;
+}
+
+a {
+  color: #06357a;
+  text-decoration: none;
+}
+
 .set-max-width {
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
+}
+
+.view-in-browser {
+  padding: 20px 30px 15px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
+}
+
+.view-in-browser p {
+  font: 12px/1.2 Helvetica, Arial, sans-serif, serif;
+}
+
+.view-in-browser a {
+  text-decoration: none;
 }
 
 h1,
@@ -119,6 +158,26 @@ body {
   background: #bdbdbd;
   color: #bdbdbd;
   font-size: 1px;
+}
+
+.widget {
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.widget .widget-title td {
+  padding: 40px 30px 20px;
+}
+
+.widget-main-title {
+  color: #000000;
+  font: 700 20px/1.2 Helvetica, Arial, sans-serif, serif;
+}
+
+.widget-type-name {
+  padding: 2px 0 0;
+  color: #000000;
+  font: 16px/1.2 Helvetica, Arial, sans-serif, serif;
 }
 
 .main-header {

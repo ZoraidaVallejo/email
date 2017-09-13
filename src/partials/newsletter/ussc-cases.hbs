@@ -1,0 +1,69 @@
+
+<!-- USSC CASES -->
+
+<!-- w-stories-list -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-cases set-max-width">
+    <!-- widget-title -->
+    <tr class="widget-title">
+        <td responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title -->
+            <h2 class="widget-main-title">{{{ cases.title }}}</h2>
+            {{!-- <!-- widget-type-name -->
+            <h4 class="widget-type-name">Legal Analysis and Commentary</h4> --}}
+        </td>
+    </tr>
+    <!-- widget-content -->
+    <tr class="widget-content">
+        <td responsive="mobile-padding-horizontal-sides">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="cases">
+                {{#each cases.items }}
+                    {{!-- case --}}
+                    <tr class="-title">
+                        <td>
+                            <p>
+                                <strong>
+                                    <a href="{{{ this.link }}}">{{{ this.title }}}</a>
+                                </strong>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="-subject">
+                        <td>
+                            <p>
+                                {{{ this.subject }}}
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="-desc">
+                        <td>
+                            <p>{{{ this.description }}}</p>
+                        </td>
+                    </tr>
+                    <tr class="-info">
+                        <td>
+                            {{#if this.granted}}
+                                <p>
+                                    {{{ this.granted }}}
+                                </p>
+                            {{/if}}
+                            {{#if this.schedule}}
+                                <p>
+                                    {{{ this.schedule }}}
+                                </p>
+                            {{/if}}
+                            {{#if @last }}{{else}}<hr class="hr-separator">{{/if}}
+                        </td>
+                    </tr>
+                {{/each}}
+
+                {{#if cases.footer }}
+                    <tr class="info last-case">
+                        <td>
+                            {{{ cases.footer }}}
+                        </td>
+                    </tr>
+                {{/if}}
+            </table>
+        </td>
+    </tr>
+</table>

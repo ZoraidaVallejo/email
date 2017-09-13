@@ -1,5 +1,6 @@
 ---
 layout: default.hbs
+cssfile: oyez-newsletter
 subject: Supreme Court 2017 October Term Preview - The Oyez Project
 tagline: Listen to U.S. Supreme Court arguments provided by The Oyez Project.
 tagline_header: Listen to U.S. Supreme Court arguments provided by The Oyez Project.
@@ -32,7 +33,7 @@ tagline_header: Listen to U.S. Supreme Court arguments provided by The Oyez Proj
                     {{> preview }}
 
                     {{!-- CASES --}}
-                    {{> cases }}
+                    {{> oyez-cases }}
                 </table>
 
             {{> ieLayoutHack tableEnd=true }}

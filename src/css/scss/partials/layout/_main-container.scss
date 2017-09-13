@@ -95,3 +95,23 @@ body {
         font-size: 1px;
     }
 }
+
+.widget {
+    border-bottom: 1px solid plt('alto');
+    background-color: plt('white');
+
+    .widget-title td {
+        padding: 40px $padding 20px;
+    }
+
+    &-main-title {
+        color: plt('black');
+        font: $font-weight--bold 20px/1.2 $sans-serif-font-family;
+    }
+
+    &-type-name {
+        padding: 2px 0 0;
+        color: plt('black');
+        font: 16px/1.2 $sans-serif-font-family;
+    }
+}
