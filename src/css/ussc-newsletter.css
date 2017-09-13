@@ -472,16 +472,31 @@ body {
   table-layout: fixed;
 }
 
-.w-cases .cases .-title td {
-  padding-top: 30px;
-}
-
-.w-cases .cases .-info p {
+.w-cases .cases .-info p,
+.w-cases .cases .-subject p {
   font: 14px/1.5 Helvetica, Arial, sans-serif, serif;
 }
 
+.w-cases .cases .-info td {
+  padding-bottom: 30px;
+}
+
+.w-cases .cases .-info.last td {
+  padding-bottom: 0;
+}
+
+.w-cases .cases .-info hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin-top: 30px;
+  background: #bdbdbd;
+  color: #bdbdbd;
+  font-size: 1px;
+}
+
 .w-cases .cases .-desc td {
-  padding: 10px 0;
+  padding: 10px 0 10px;
 }
 
 .w-cases .cases .last-case td {
