@@ -1,0 +1,62 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// G L O B A L   R E S E T S
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+    -webkit-font-smoothing: antialiased;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    background-color: plt('concrete');
+    font-family: $sans-serif-font-family;
+}
+
+table {
+    width: 100%;
+
+    td {
+        text-align: left;
+    }
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font: 16px/1.5 $sans-serif-font-family;
+}
+
+a {
+    color: plt('primary');
+    text-decoration: none;
+}
+
+.set-max-width {
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.view-in-browser {
+    padding: 20px $padding 15px;
+    border-bottom: 1px solid plt('alto');
+    background-color: plt('concrete');
+
+    p {
+        font: 12px/1.2 $sans-serif-font-family;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.ussc-newsletter * {
+    font-family: 'OpenSans', Arial, sans-serif !important;
+}

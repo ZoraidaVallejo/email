@@ -1,0 +1,14 @@
+<tr>
+    <td class="article-div" responsive="mobile-padding-horizontal-sides">
+        {{> labelDivider text=preview.title }}
+    </td>
+</tr>
+<tr>
+  <td class="items-list" responsive="mobile-padding-horizontal-sides">
+    {{#each preview.text }}
+        <p class="text {{#if @last }}-last{{/if}}">
+            {{{ this }}}
+        </p>
+    {{/each}}
+  </td>
+</tr>

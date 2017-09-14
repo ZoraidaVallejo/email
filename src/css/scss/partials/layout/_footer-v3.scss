@@ -1,0 +1,121 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// F O O T E R
+// ----------------------------------------------------------------------------------------------------------
+
+$social-icons-v3--size: 32px;
+$social-icons-v3--gap: 4px;
+
+$footer-logo-v3-width: 111px;
+$footer-logo-v3-height: 21px;
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-footer-v3 {
+    clear: both;
+    background-color: plt('white');
+    table-layout: fixed;
+
+    table {
+        table-layout: fixed;
+    }
+
+    a {
+        color: plt('primary');
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        max-width: none;
+    }
+
+    .logo-footernav {
+        padding: 19px $padding;
+        background-color: plt('primary');
+
+        .logo {
+            width: 25%;
+            text-align: left;
+            vertical-align: middle;
+
+            img {
+                display: block;
+                width: $footer-logo-v3-width;
+                max-width: none;
+                height: $footer-logo-v3-height;
+                margin: 0;
+            }
+        }
+
+        .footernav {
+            width: 75%;
+            text-align: right;
+            vertical-align: middle;
+
+            span,
+            a {
+                color: plt('white');
+            }
+
+            .vline {
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .disclaimer p,
+    .address p,
+    .footernav p,
+    span,
+    a {
+        font: 14px/1.38 $sans-serif-font-family;
+    }
+
+
+    .social {
+        overflow: hidden;
+        padding: 20px $padding 15px;
+        text-align: center;
+
+        table {
+            width: (($social-icons-v3--size * 5) + ($social-icons-v3--gap * 4));
+            text-align: center;
+
+            td {
+                width: ($social-icons-v3--size + $social-icons-v3--gap);
+                height: $social-icons-v3--size;
+                text-align: left;
+                vertical-align: top;
+
+                &:last-child {
+                    width: $social-icons-v3--size;
+                }
+            }
+        }
+
+        a {
+            display: block;
+            vertical-align: middle;
+
+            img {
+                display: block;
+                width: $social-icons-v3--size;
+                height: $social-icons-v3--size;
+                margin: 0;
+            }
+        }
+    }
+
+
+    .disclaimer {
+        padding: 0 $padding 10px;
+        text-align: center;
+    }
+
+    .address {
+        padding: 0 $padding floor($padding * 3);
+        text-align: center;
+    }
+}

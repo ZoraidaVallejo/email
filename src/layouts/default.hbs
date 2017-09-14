@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+{{#if subject }}
+    <title>{{ subject }}</title>
+{{/if}}
+<link href="../src/css/{{ cssfile }}.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../src/css/preserve.css" rel="stylesheet" type="text/css" data-embed />
+{{#if opensans }}
+    <link href="../src/css/OpenSansFamily.css" rel="stylesheet" type="text/css" data-embed />
+{{/if}}
+</head>
+<body>
+    {{ body }}
+</body>
+</html>
