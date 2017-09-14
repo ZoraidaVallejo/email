@@ -121,7 +121,7 @@ body {
 }
 
 .main-header-v3 .subtitle {
-  padding: 0 30px 17px;
+  padding: 17px 30px;
   color: #06357a;
   text-align: center;
 }
@@ -387,7 +387,7 @@ body {
 }
 
 .w-introduction .widget-title td {
-  padding: 0 30px 10px;
+  padding: 20px 30px 10px;
 }
 
 .w-introduction .widget-content > td {
@@ -399,7 +399,7 @@ body {
 }
 
 .w-introduction .content-link-desc {
-  font: 13px/1.2 Arial, sans-serif;
+  font: 16px/1.2 Arial, sans-serif;
 }
 
 .w-verdict .widget-content > td {
@@ -482,7 +482,7 @@ body {
 }
 
 .w-cases .cases .-desc td {
-  padding: 10px 0 10px;
+  padding: 10px 0;
 }
 
 .w-cases .cases .last-case td {
