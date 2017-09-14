@@ -402,54 +402,6 @@ body {
   font: 16px/1.2 Arial, sans-serif;
 }
 
-.w-verdict .widget-content > td {
-  padding: 0 30px 40px;
-}
-
-.w-verdict .posts {
-  table-layout: fixed;
-}
-
-.w-verdict .posts .-title p {
-  color: #06357a;
-}
-
-.w-verdict .posts .-author p {
-  color: #06357a;
-  font: 14px/1.5 Arial, sans-serif;
-}
-
-.w-verdict .posts .-image td {
-  padding: 15px 0 20px;
-}
-
-.w-verdict .posts .-image img {
-  display: block;
-  width: 540px;
-  max-width: 100%;
-  margin: 0;
-}
-
-.w-verdict .posts .-desc td {
-  padding: 0 0 15px;
-}
-
-.w-verdict .posts .-more + .-title td {
-  padding: 30px 0 0;
-}
-
-.w-verdict .posts .-more td {
-  padding: 0 0 30px;
-}
-
-.w-verdict .posts .-more:not(.last-post) td {
-  border-bottom: 1px solid #dddddd;
-}
-
-.w-verdict .posts .last-post.-more td {
-  padding: 0;
-}
-
 .w-cases .widget-content > td {
   padding: 0 30px 40px;
 }
