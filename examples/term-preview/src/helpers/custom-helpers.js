@@ -8,6 +8,11 @@ module.exports.register = function(Handlebars, options) {
         return getMonths(val);
     });
 
+    Handlebars.registerHelper('getID', function(link) {
+        const id = link.replace(/https:\/\/www.oyez.org\/cases\/\d{4}\/(\d{2,}-\d{3,})/, '$1');
+        return id.replace(/-/, '');
+    });
+
     Handlebars.registerHelper('concat', function() {
         var arg = Array.prototype.slice.call(arguments, 0);
 

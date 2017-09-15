@@ -15,6 +15,16 @@
     .cases {
         table-layout: fixed;
 
+        .-title {
+
+            &.-first {
+
+                td {
+                    padding-top: 40px;
+                }
+            }
+        }
+
         .-info,
         .-subject {
 
@@ -51,9 +61,18 @@
             td {
                 padding: 10px 0;
             }
+
+            p {
+                margin-bottom: 1em;
+            }
         }
 
         .last-case {
+
+            &.footer {
+                border-top: 1px solid plt('alto');
+                line-height: 1.5;
+            }
 
             td {
                 padding-top: $padding;

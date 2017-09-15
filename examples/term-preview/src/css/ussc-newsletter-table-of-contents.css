@@ -404,6 +404,28 @@ body {
   width: 600px;
 }
 
+.w-table-of-contents .widget-title td {
+  padding: 0 30px 10px;
+}
+
+.w-table-of-contents .widget-content > td {
+  padding: 0 30px 16px;
+}
+
+.w-table-of-contents .widget-content:last-child > td {
+  padding: 0 30px 40px;
+}
+
+.w-table-of-contents .content-link {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.w-table-of-contents .content-link.-last {
+  margin-bottom: 0;
+}
+
 .w-introduction .widget-title td {
   padding: 0 30px 10px;
 }

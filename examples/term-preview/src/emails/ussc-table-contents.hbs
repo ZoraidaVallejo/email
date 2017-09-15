@@ -1,6 +1,6 @@
 ---
 layout: default.hbs
-cssfile: ussc-newsletter
+cssfile: ussc-newsletter-table-of-contents
 opensans: true
 ---
 
@@ -12,7 +12,7 @@ opensans: true
     <tr>
         <!-- align-center valign-top -->
         <td height="100%" width="100%" class="align-center valign-top">
-            {{> headerV3 }}
+            {{> headerV3 removeTitle=true }}
         </td>
     </tr>
 
@@ -22,26 +22,20 @@ opensans: true
     <tr>
         <!-- align-center valign-top -->
         <td height="100%" width="100%" class="align-center valign-top">
-
             {{> layoutHack tableStart=true }}
 
-                {{!-- Introduction --}}
-                {{> introduction }}
+                {{!-- TABLE OF CONTENTS --}}
+                {{> tableOfContents }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- CASES --}}
-                {{> ussc-cases }}
+                {{> ussc-cases tableOfContents=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
 
                 {{!-- FEATURED NEWS --}}
-                {{> advertisement ad1=true }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- ABOUT --}}
-                {{> about }}
+                {{> advertisement ad2=true }}
 
             {{> layoutHack tableEnd=true }}
 
