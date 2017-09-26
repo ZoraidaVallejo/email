@@ -14,8 +14,11 @@
                             <td>
                                 <p>
                                     <strong>
-                                        <a href="{{{ this.link }}}">{{{ this.title }}}</a>
+                                        <a href="{{{ this.link }}}">&#128266; {{{ this.title }}}</a>
                                     </strong>
+                                    {{#if this.date }}
+                                        (Argued {{{ this.date }}})
+                                    {{/if}}
                                 </p>
                             </td>
                         </tr>

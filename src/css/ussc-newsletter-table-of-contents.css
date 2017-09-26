@@ -169,14 +169,14 @@ body {
 
 .main-header-v3 .logo {
   padding: 20px 30px 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .main-header-v3 .logo .logo-img {
   display: block;
-  width: 500px;
+  width: 365px;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .main-header-v3 .subtitle {
@@ -405,7 +405,7 @@ body {
 }
 
 .w-table-of-contents .widget-title td {
-  padding: 0 30px 10px;
+  padding: 24px 30px 10px;
 }
 
 .w-table-of-contents .widget-content > td {
@@ -424,6 +424,20 @@ body {
 
 .w-table-of-contents .content-link.-last {
   margin-bottom: 0;
+}
+
+.headline {
+  width: 100%;
+}
+
+.headline .label {
+  width: 100%;
+  padding: 0 0 30px;
+}
+
+.headline p {
+  color: #06357a;
+  font: 700 20px/24px Helvetica, Arial, sans-serif, serif !important;
 }
 
 .w-introduction .widget-title td {
