@@ -1,0 +1,108 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// B E C O M E   A   P R E M I U M   M E M B E R
+// ----------------------------------------------------------------------------------------------------------
+
+$become-a-premium-member-title--dimensions: 460px 110px;
+$become-a-premium-member-background--dimensions: 540px 540px;
+$become-a-premium-member-background-color: #06357a;
+
+// C O N T A CT   U S   B L O C K
+$become-a-premium-member-contactus-button--dimensions: 218px 45px;
+$become-a-premium-member-contactus-tagline--dimensions: 281px 17px;
+
+// ----------------------------------------------------------------------------------------------------------
+
+.become-a-premium-member {
+
+    .description {
+        overflow: hidden;
+        width: $max-width;
+        max-width: $max-width !important;
+        background-color: $become-a-premium-member-background-color;
+        border-collapse: collapse !important;
+    }
+
+    .inner-content {
+        width: $max-width;
+
+        p,
+        a,
+        strong {
+            color: plt('white');
+        }
+
+        td {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .background-block {
+        padding: 0 $padding;
+    }
+
+    .title {
+        padding: $padding 69px $padding 70px;
+
+        .image {
+            width: nth($become-a-premium-member-title--dimensions, 1);
+            height: nth($become-a-premium-member-title--dimensions, 2);
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .animation {
+        width: nth($become-a-premium-member-background--dimensions, 1) !important;
+        height: nth($become-a-premium-member-background--dimensions, 2);
+        padding: 0;
+        background: url('../img/become-a-premium-member-background-01.png');
+        background-color: $become-a-premium-member-background-color;
+        background-repeat: no-repeat !important;
+        background-position: center center;
+        background-size: $become-a-premium-member-background--dimensions;
+        vertical-align: top;
+
+        .image {
+            width: nth($become-a-premium-member-background--dimensions, 1);
+            height: nth($become-a-premium-member-background--dimensions, 2);
+            margin: 0 auto;
+            Margin: 0 auto;
+        }
+    }
+
+    .contactus {
+        padding: 40px 0 0;
+        background-color: $become-a-premium-member-background-color;
+
+        .wrapper {
+            background-color: plt('white');
+        }
+
+        .contactus-button {
+            width: nth($become-a-premium-member-contactus-button--dimensions, 1);
+            padding: $padding;
+            padding-right: 0;
+
+            .image {
+                width: nth($become-a-premium-member-contactus-button--dimensions, 1);
+                height: nth($become-a-premium-member-contactus-button--dimensions, 2);
+                margin: 0 auto;
+                Margin: 0 auto;
+            }
+        }
+
+        .contactus-tagline {
+            width: nth($become-a-premium-member-contactus-tagline--dimensions, 1) + 41px;
+            padding: 11px $padding 10px 0;
+
+            .image {
+                width: nth($become-a-premium-member-contactus-tagline--dimensions, 1);
+                height: nth($become-a-premium-member-contactus-tagline--dimensions, 2);
+                margin: 0 0 0 auto;
+                Margin: 0 0 0 auto;
+            }
+        }
+    }
+}
