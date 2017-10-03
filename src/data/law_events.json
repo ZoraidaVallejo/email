@@ -1,11 +1,12 @@
 {
     "featured": {
+    },
+    "events": [{
         "date_time": "October 6 1PM ET",
         "type_location": "Webinar",
         "description": "To Indemnify, or To Hold Harmless?",
         "link": "http://linkon.in/M100617"
-    },
-    "events": [{
+    }, {
         "date_time": "October 11 1PM ET",
         "type_location": "Webinar",
         "description": "The Case for Practice Management – Why Outlook Isn’t Enough",

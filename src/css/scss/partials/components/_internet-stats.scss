@@ -19,7 +19,7 @@ $internet-stats-chart--width: 540px;
         }
 
         &-subtitle {
-            padding: 0 $padding 30px;
+            padding: 0 $padding 10px;
 
             .line1 {
                 font: 20px/1.3 $sans-serif-font-family;
@@ -50,6 +50,12 @@ $internet-stats-chart--width: 540px;
                 font: 14px/1.3 $sans-serif-font-family;
             }
         }
+    }
+
+    .chart-title {
+        display: block;
+        margin-top: 1em;
+        font-size: 16px;
     }
 
     tr:last-child {

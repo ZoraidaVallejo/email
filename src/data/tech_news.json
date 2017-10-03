@@ -1,6 +1,9 @@
 {
-    "articles": [
-        {
+    "articles": [{
+            "title": "Can Cops Use iPhone X's Facial Recognition Technology to Access Users' Information?",
+            "link": "http://www.abajournal.com/news/article/can_cops_use_iphone_xs_facial_recognition_technology_to_access_users_iphone",
+            "description": "With Apple’s recent announcement that the much-anticipated iPhone X will replace fingerprint technology with face-recognition technology, civil liberties advocates are expressing concern that law enforcement officers might be able to force users to unlock their devices and search them. Although it is fairly settled law that police may not require an arrestee to reveal their passcode, it remains unclear whether police may unlock an arrestee’s phone using its face-recognition technology."
+        }, {
             "title": "Chatbot Lets You Sue Equifax for Up to $25,000 Without a Lawyer",
             "link": "https://www.theverge.com/2017/9/11/16290730/equifax-chatbots-ai-joshua-browder-security-breach",
             "description": "The DoNotPay chatbot recently made news as a simple tool to help users fight parking tickets, but it has expanded to helping consumers with other simple legal issues. Following the Equifax security breach, DoNotPay is encouraging consumers (and helping them) to sue Equifax in small claims court for the maximum amount permissible in their state."

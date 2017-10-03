@@ -2,7 +2,7 @@
 <!-- TECH NEWS -->
 
 <!-- w-stories-list -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-stories-list w-featured-news set-max-width">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-stories-list w-featured-news {{#if clientsNewsletter }}clients{{/if}}{{#if jldNewsletter }}jld{{/if}} set-max-width">
     <tr>
         <!-- main-story-title -->
         <td class="main-story-title" responsive="mobile-padding-horizontal-sides">
@@ -10,49 +10,113 @@
             <h4 class="widget-type-name">FEATURED NEWS</h4>
             <!-- widget-main-title -->
             <h2 class="widget-main-title">
-                {{#if featured_news.link }}
-                    <a href="{{{ featured_news.link }}}{{#if clientsNewsletter }}{{{ featured_news.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featured_news.utm.source.jld }}}{{/if}}{{{ featured_news.utm.content.title }}}" target="_blank">
+                {{#if clientsNewsletter }}
+                    {{#if featured_news.clients.link }}
+                        <a href="{{{ featured_news.clients.link }}}{{{ featured_news.clients.utm.source }}}{{{ featured_news.clients.utm.content.title }}}">
+                            {{ featured_news.clients.title }}
+                        </a>
+                    {{/if}}
                 {{/if}}
-                    {{ featured_news.title }}
-                {{#if featured_news.link }}
-                    </a>
+                {{#if jldNewsletter }}
+                    {{#if featured_news.jld.link }}
+                        <a href="{{{ featured_news.jld.link }}}{{{ featured_news.jld.utm.source }}}{{{ featured_news.jld.utm.content.title }}}">
+                            {{ featured_news.jld.title }}
+                        </a>
+                    {{/if}}
                 {{/if}}
             </h2>
         </td>
     </tr>
     <tr>
-        <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
-        <td class="main-story-desc {{#if featured_news.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
-            <table cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                    <!-- story-desc -->
-                    <td class="story-desc" responsive="collapse-one">
-                        <p>{{{ featured_news.description }}}</p>
-                        {{!-- <br>
-                        {{> button moreBlue=true buttonLink=featured_news.link }} --}}
-                    </td>
-                    <!-- featured-image -->
-                    <td class="featured-image" responsive="mobile-hide collapse-one">
-                       {{#if featured_news.link }}
-                           <a href="{{{ featured_news.link }}}{{#if clientsNewsletter }}{{{ featured_news.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featured_news.utm.source.jld }}}{{/if}}{{{ featured_news.utm.content.image }}}" target="_blank">
-                       {{/if}}
-                       <img src="{{ default.image_dir_src }}/tech-news-01.png" alt="{{ featured_news.title }}" border="0" />
-                       {{#if featured_news.link }}
-                           </a>
-                       {{/if}}
-                   </td>
-                </tr>
-            </table>
-        </td>
+        {{#if clientsNewsletter }}
+            <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
+            <td class="main-story-desc {{#if featured_news.clients.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <!-- story-desc -->
+                        <td class="story-desc" responsive="collapse-one">
+                            {{#each featured_news.clients.description }}
+                                <p>{{{ this }}}</p>
+                            {{/each}}
+                        </td>
+                        <!-- featured-image -->
+                        <td class="featured-image" responsive="mobile-hide collapse-one">
+                           {{#if featured_news.clients.link }}
+                               <a href="{{{ featured_news.clients.link }}}{{{ featured_news.clients.utm.source }}}{{{ featured_news.clients.utm.content.image }}}" target="_blank">
+                           {{/if}}
+                           <img src="{{ default.image_dir_src }}/{{{ featured_news.clients.image }}}" alt="{{ featured_news.clients.title }}" border="0" />
+                           {{#if featured_news.clients.link }}
+                               </a>
+                           {{/if}}
+                       </td>
+                    </tr>
+                </table>
+            </td>
+        {{/if}}
+        {{#if jldNewsletter }}
+            <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
+            <td class="main-story-desc {{#if featured_news.jld.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <!-- story-desc -->
+                        <td class="story-desc" responsive="collapse-one">
+                            <p>{{{ featured_news.jld.tagline }}}</p>
+                        </td>
+                        <!-- featured-image -->
+                        <td class="featured-image large" responsive="mobile-hide collapse-one">
+                           {{#if featured_news.jld.link }}
+                               <a href="{{{ featured_news.jld.link }}}{{{ featured_news.jld.utm.source }}}{{{ featured_news.jld.utm.content.image }}}" target="_blank">
+                           {{/if}}
+                           <img src="{{ default.image_dir_src }}/{{{ featured_news.jld.image }}}" alt="{{ featured_news.jld.title }}" border="0" />
+                           {{#if featured_news.jld.link }}
+                               </a>
+                           {{/if}}
+                       </td>
+                    </tr>
+                </table>
+            </td>
+        {{/if}}
     </tr>
 
-    {{#forEach featured_news.list }}
+    {{#if clientNewsletter }}
+        {{#forEach featured_news.clients.list }}
+            <tr>
+                <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
+                <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
+                    {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
+                </td>
+            </tr>
+        {{/forEach}}
+    {{/if}}
+    {{#if jldNewsletter }}
+        {{#each featured_news.jld.description }}
+            <tr>
+            <!-- story-desc FULL WIDTH -->
+                <td class="full-width-desc {{#if isLast }}last{{/if}}" responsive="collapse-one">
+                    <p>{{{ this }}}</p>
+                </td>
+            </tr>
+        {{/each}}
+        {{#forEach featured_news.jld.list }}
+            <tr>
+                <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
+                <td class="main-story-list" responsive="mobile-padding-horizontal-sides">
+                    <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
+                    {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
+                </td>
+            </tr>
+        {{/forEach}}
         <tr>
-            <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
-            <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
-                {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
+            <td class="separator">
+                <hr>
             </td>
         </tr>
-    {{/forEach}}
+        <tr>
+            <!-- story-desc FULL WIDTH -->
+            <td class="full-width-desc" responsive="collapse-one">
+                <p>{{{ featured_news.jld.footer }}}</p>
+            </td>
+        </tr>
+    {{/if}}
 </table>
