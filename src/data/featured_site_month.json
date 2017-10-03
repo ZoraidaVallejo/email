@@ -1,11 +1,11 @@
 {
     "sites": [{
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
+        "client_name": "Rarick & Beskin, P.A.",
+        "location": "South Florida",
+        "possessive_adjective": "their",
         "domain": {
-            "long": "#",
-            "simple": "website.com"
+            "long": "https://www.rblawfl.com/",
+            "simple": "rblawfl.com"
         }
     }, {
         "client_name": "[name]",

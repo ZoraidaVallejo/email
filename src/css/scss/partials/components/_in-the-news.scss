@@ -30,6 +30,10 @@
                 max-width: floor(percentage(150px / (150px + $padding)));
                 height: auto;
             }
+
+            &.no-padding {
+                padding-top: 0;
+            }
         }
 
         .news-desc {

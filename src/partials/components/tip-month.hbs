@@ -26,11 +26,17 @@
         {{#each tip_month.clients.description }}
             <tr>
                 <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
-                <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
                     <p>{{{ this }}}</p>
                 </td>
             </tr>
         {{/each}}
+
+        <tr>
+            <td class="tip-desc tip-desc--last">
+                {{> button getStartedWhite=true buttonLink="https://www.google.com/business/" }}
+            </td>
+        </tr>
     {{/if}}
 
     {{#if jldNewsletter }}

@@ -1,13 +1,10 @@
 {
     "clients": {
         "ad1": {
-            "image": "adname-image-01.png",
-            "alt": "[alt text]",
+            "image": "adname-image-01.jpg",
+            "alt": "Save $100 on the #1 Online CLE Provider",
             "link": "#",
-            "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-            ]
+            "description": []
         }
     },
 

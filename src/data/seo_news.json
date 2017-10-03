@@ -1,15 +1,31 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "August 22, 2017: The Day the ‘Hawk’ Google Local Algorithm Update Swooped In",
+        "link": "http://searchengineland.com/august-22-2017-hawk-google-local-algorithm-update-282269",
+        "description": "Google updated its search engine algorithm on August 22, 2017, which affected how it filtered and displayed local results. Prior to the update, Google filtered out listings from local results that were similar to other listings and were physically located near those other listings. This filtering algorithm had a disproportionately negative effect on businesses located near other businesses in the same industry. The update made the filtering requirements stricter, so fewer businesses (though still some) were filtered out of local results."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "6 Things You Need to Know About Google’s Q&A Feature on Google Maps",
+        "link": "http://searchengineland.com/6-things-need-know-googles-qa-feature-google-maps-281255",
+        "description": "Google rolled out a new feature called Questions & Answers, which appears on Google Maps in mobile browsers and in the Google Maps Android app. To take advantage of this feature (including getting notifications about questions submitted by customers), business owners must have the Google Maps app and must be signed in with the same Google account that they use to manage their listing in Google My Business. This article provides some additional tips for using this feature."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Google Is Now Notifying Page Managers When Business Data Changes in GMB",
+        "link": "https://www.sterlingsky.ca/google-now-notifying-page-managers-business-data-changes-gmb/",
+        "description": "Google is suggesting edits for Google My Business listings to their page managers. Since Google may implement these edits even before it has been confirmed by a page manager, this development should serve as a reminder that you don’t have full control over the data that Google displays for your business. A user or bot may suggest a change to your data, and it’s up to you to log in and confirm or deny the edit."
+    }, {
+        "title": "Bing Now Officially Supports Fact Check Label With ClaimReview Markup",
+        "link": "http://searchengineland.com/bing-now-officially-supports-fact-check-label-claimreview-markup-282636",
+        "description": "About a year after Google started showing fact check labels in search, Bing has followed suit. Powered by the ClaimReview schema markup, the “Fact Check” label now shows up in Bing search results. In some search results, you may see a line that reads “Fact checked by Snopes” along with a determination of “True” or “False.”"
+    }, {
+        "title": "8 Major Google Algorithm Updates, Explained",
+        "link": "https://marketingland.com/8-major-google-algorithm-updates-explained-224088",
+        "description": "This article neatly summarizes eight of Google’s algorithmic changes and penalties, and also provides the information in free downloadable PDF format. The updates described are: Panda (2011), Penguin (2012), Hummingbird (2013), Pigeon (2014), Mobile (2015), RankBrain (2015), Possum (2016), and Fred (2017)."
+    }, {
+        "title": "Leading Up to the Mobile-first Index, Google Has Some Advice",
+        "link": "http://searchengineland.com/leading-mobile-first-index-google-explains-go-responsive-282631",
+        "description": "Google’s mobile-first index is expected to be implemented soon, and Google is encouraging website owners to make their websites responsive in anticipation of this launch. Google recently published some tips on how to move your site from m-dot to responsive. These steps are relatively simple to implement and will go a long way in preparing your site for Google’s mobile-first rollout. Justia law firm websites already target both desktop and mobile traffic with responsive web designs."
+    }, {
+        "title": "Google Responds to Apple’s Intelligent Tracking Prevention with AdWords Tracking Update",
+        "link": "http://searchengineland.com/google-analytics-adwords-response-apple-intelligent-tracking-prevention-282233",
+        "description": "Starting in September, Google began making changes to the way AdWords captures and reports on conversions as a response to Apple’s coming update to its Safari web browser. It is believed that this update will incorporate Intelligent Tracking Prevention (ITP), an initiative Apple launched last June to limit the ability of third-party trackers to capture cross-site browsing data. Google has noted that advertisers who link their AdWords and Google Analytics accounts should not experience any changes. AdWords used by advertisers who don’t link their Google Analytics accounts or disable the new cookie Google has developed to capture campaign and conversation data from Safari in an ITP-conforming way, however, will employ a modeling process to account for conversions in Safari, which may occur 24 hours after a user last visited a site via an ad in their Safari browser."
     }]
 }

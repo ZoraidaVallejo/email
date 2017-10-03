@@ -1,15 +1,23 @@
 {
     "articles": [{
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+        "title": "Lawyers Can Accept Payment in Bitcoin, Nebraska Ethics Opinion Says",
+        "link": "http://www.abajournal.com/news/article/lawyers_can_accept_payment_in_bitcoin_nebraska_ethics_opinion_says",
+        "description": "A recent Nebraska advisory opinion indicates that attorneys may accept payment in digital currencies like bitcoin for legal services rendered. The opinion is the first of its kind released by a state ethics body that addresses the ethics of receiving cryptocurrency as payment in the legal sector. According to the opinion, lawyers should take three steps: notifying the client that the payment will immediately be converted into US currency, making the currency conversion via a payment processor, and crediting the client’s account upon receipt of payment."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+        "title": "Can Robots Practice Law?",
+        "link": "https://verdict.justia.com/2017/09/11/can-robots-practice-law",
+        "description": "Chapman University, Fowler School of Law, professor Ronald D. Rotunda comments on the laws regulating the practice of law, and specifically, defining (or not defining) what the practice of law means. Rotunda argues that despite (or because of) the difficulty of defining the practice of law, computers and technology are advancing the practice of law and the work of lawyers."
     }, {
-        "title": "[title]",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+        "title": "Delaware Loses Long-held No. 1 Ranking for Business-friendly Legal Climate to South Dakota",
+        "link": "http://www.abajournal.com/news/article/delaware_south_dakota_us_chamber_institute_for_legal_reform",
+        "description": "The US Chamber of Commerce’s Institute for Legal Reform recently released the results of its latest periodic survey of corporations. After holding the number one position in the business-friendly legal climate category for the last 10 surveys, Delaware dropped to number 11. This is likely due in part to legislation the state passed in 2015, which ended a corporation’s ability to have its legal costs reimbursed by investors who bring specific types of lawsuits against it. South Dakota took over the top spot in this survey, as well as ranked number one in three other categories."
+    }, {
+        "title": "California Bar Brief Pokes Holes in Some Arguments For a Lower Bar Exam Cut Score",
+        "link": "http://www.abajournal.com/news/article/california_bar_brief_pokes_holes_in_some_arguments_for_a_lower_bar_exam_cut",
+        "description": "Arguments in favor of lowering the cut score on the California bar exam include the potential to increase diversity in the legal profession and expand access to lawyers for moderate-income residents. In September, however, the State Bar of California filed a brief with the California Supreme Court that included data demonstrating little evidence in support of the majority of these claims. The Supreme Court must now take this data into consideration when deciding whether to keep the score where it has been since 1986 or lower the score between 26 and 50 points. While the Court does not face any deadline for releasing its decision, some speculate that it will come in time to be applied to the July 2017 bar exam scores."
+    }, {
+        "title": "ABA Helps Set Up Hotline For Islanders Needing Legal Assistance After Hurricanes",
+        "link": "http://www.abajournal.com/news/article/aba_helps_set_up_hotline_for_for_islanders_needing_legal_assistance_after_h",
+        "description": "A mainland hotline is available for residents of the US Virgin Islands in need of legal assistance, thanks to the American Bar Association. The hotline is manned seven hours every weekday for those who would like to request disaster-related legal assistance. Qualified callers will then be matched with lawyers, which include volunteers from the ABA Young Lawyers Division’s Disaster Legal Service Program, the Federal Emergency Management Agency, the Virgin Islands Bar Association Young Lawyers Division, and more, all working in partnership with the ABA. The Louisiana Civil Justice Center is hosting the hotline in New Orleans where there is stable power, telephone, and internet services."
     }]
 }

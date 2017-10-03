@@ -372,7 +372,6 @@ body {
 
 .btn a {
   text-decoration: none;
-  mso-hide: all;
 }
 
 .label-divider {
@@ -787,6 +786,10 @@ body {
   height: auto;
 }
 
+.w-in-the-news .clients-list .news-logo.no-padding {
+  padding-top: 0;
+}
+
 .w-in-the-news .clients-list .news-desc {
   width: 360px;
   padding: 30px 0;
@@ -887,29 +890,29 @@ body {
 }
 
 .w-text-image.w-meet-our-team .item-list .item-desc {
-  width: 300px;
+  width: 320px;
 }
 
 .w-text-image.w-meet-our-team .item-image {
-  width: 240px;
+  width: 220px;
 }
 
 .w-text-image.w-meet-our-team .item-image img {
-  width: 210px;
-  max-width: 88%;
+  width: 190px;
+  max-width: 87%;
 }
 
 .w-text-image.w-inside-justia .item-list .item-desc {
-  width: 300px;
+  width: 320px;
 }
 
 .w-text-image.w-inside-justia .item-image {
-  width: 240px;
+  width: 220px;
 }
 
-.w-text-image.w-inside-justia .item-image img {
-  width: 210px;
-  max-width: 88%;
+.w-text-image.w-inside-justia img {
+  width: 190px;
+  max-width: 87%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
