@@ -11,7 +11,7 @@
 
     p,
     a {
-        color: plt('white');
+        color: plt('black');
     }
 
     img {
@@ -32,15 +32,38 @@
     }
 
     .ad-desc {
-        padding: 0 $padding 12px;
-        text-align: center;
+        padding: 5px $padding 0;
+        text-align: left;
+
+        .title {
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        .footer {
+            font-size: 20px;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        a {
+            color: plt('cerulean');
+            font-weight: 700;
+        }
 
         p {
-            font: 14px/1.38 $sans-serif-font-family;
+            font: 14px/1.5 $sans-serif-font-family;
+        }
+
+        .text {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
         }
 
         &--first {
-            padding: 25px $padding 12px;
+            padding: 15px $padding 0;
 
             p {
                 font: 16px/1.5 $sans-serif-font-family;
@@ -48,7 +71,7 @@
         }
 
         &--last {
-            padding: 0 $padding 25px;
+            padding: 15px $padding 21px;
         }
     }
 }
@@ -58,7 +81,8 @@
 }
 
 .w-jld-ad-01 {
-    background-color: plt('silver');
+    border-bottom: 1px solid plt('mercury');
+    background-color: plt('white');
 }
 
 .w-jld-ad-02 {

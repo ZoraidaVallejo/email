@@ -1,5 +1,5 @@
-<div class="btn {{ class }}">
-    <a href="{{ buttonLink }}" target="_blank">
+<div class="btn {{ class }} {{#if large }}large{{/if}}">
+    <a href="{{{ buttonLink }}}" target="_blank">
         {{#if moreWhite }}
             <img src="https://justatic.com/v/1/emails/images/newsletters/common/button-more-01-a.png" alt="Read More" border="0" />
         {{/if}}
@@ -14,6 +14,9 @@
         {{/if}}
         {{#if getStartedWhite}}
             <img src="{{ default.image_dir_src }}/button-get-started-01-a.png" alt="Get Started" border="0" />
+        {{/if}}
+        {{#if updateYourProfileWhite }}
+            <img src="{{ default.image_dir_src }}/button-update-your-profile-01-a.png" alt="Update Your Profile Now" border="0" />
         {{/if}}
     </a>
 </div>

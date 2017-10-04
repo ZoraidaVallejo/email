@@ -11,10 +11,12 @@
             <!-- widget-main-title -->
             <h2 class="widget-main-title">
                 {{#if clientsNewsletter }}
-                    {{{ tip_month.clients.title }}}
+                    {{#if tip_month.clients.link }}<a href="{{{ tip_month.clients.link }}}" target="_blank">{{/if}}
+                        {{{ tip_month.clients.title }}}
+                    {{#if tip_month.clients.link }}</a>{{/if}}
                 {{/if}}
                 {{#if jldNewsletter }}
-                    {{#if tip_month.jld.link }}<a href="{{ tip_month.jld.link }}" target="_blank">{{/if}}
+                    {{#if tip_month.jld.link }}<a href="{{{ tip_month.jld.link }}}" target="_blank">{{/if}}
                         {{{ tip_month.jld.title }}}
                     {{#if tip_month.jld.link }}</a>{{/if}}
                 {{/if}}
@@ -33,7 +35,7 @@
         {{/each}}
 
         <tr>
-            <td class="tip-desc tip-desc--last">
+            <td class="tip-desc tip-desc--last" responsive="mobile-padding-horizontal-sides">
                 {{> button getStartedWhite=true buttonLink="https://www.google.com/business/" }}
             </td>
         </tr>
@@ -43,10 +45,16 @@
         {{#each tip_month.jld.description }}
             <tr>
                 <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
-                <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
                     <p>{{{ this }}}</p>
                 </td>
             </tr>
         {{/each}}
+
+        <tr>
+            <td class="tip-desc tip-desc--last" responsive="mobile-padding-horizontal-sides">
+                {{> button updateYourProfileWhite=true large=true buttonLink=tip_month.jld.link }}
+            </td>
+        </tr>
     {{/if}}
 </table>

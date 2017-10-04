@@ -28,7 +28,7 @@
         <tr>
             <!-- ft-single-img -->
             <td class="ft-single-img" responsive="mobile-padding-horizontal-sides">
-                <a href="{{ featured_site_month.sites.0.domain.long }}" target="_blank"><img src="{{ default.image_dir_src }}/featured-site-01.jpg" alt="{{ featured_site_month.sites.0.client_name }}" border="0" /></a>
+                <a href="{{ featured_site_month.sites.0.domain.long }}" target="_blank"><img src="{{ default.image_dir_src }}/featured-site-01.jpg" alt="{{{ featured_site_month.sites.0.client_name }}}" border="0" /></a>
             </td>
         </tr>
     {{/if}}
@@ -47,7 +47,7 @@
                     <tr>
                         <!-- ft-list-img -->
                         <td class="ft-list-img" responsive="mobile-hide collapse-one">
-                            <a href="{{ this.domain.long }}" target="_blank"><img src="{{ ../default.image_dir_src }}/featured-site-0{{ index }}-thumb.jpg" alt="{{ this.client_name }}" border="0" /></a>
+                            <a href="{{ this.domain.long }}" target="_blank"><img src="{{ ../default.image_dir_src }}/featured-site-0{{ index }}-thumb.jpg" alt="{{{ this.client_name }}}" border="0" /></a>
                         </td>
                         <!-- ft-list-desc -->
                         <td class="ft-list-desc" responsive="collapse-one {{#unless isFirst}}mobile-padding-top{{/unless}} {{#unless isLast}}mobile-padding-bottom{{/unless}}">

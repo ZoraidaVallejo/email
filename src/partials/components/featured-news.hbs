@@ -12,14 +12,14 @@
             <h2 class="widget-main-title">
                 {{#if clientsNewsletter }}
                     {{#if featured_news.clients.link }}
-                        <a href="{{{ featured_news.clients.link }}}{{{ featured_news.clients.utm.source }}}{{{ featured_news.clients.utm.content.title }}}">
+                        <a href="{{{ featured_news.clients.link }}}{{{ featured_news.clients.utm.source }}}{{{ featured_news.clients.utm.content.title }}}" target="_blank">
                             {{ featured_news.clients.title }}
                         </a>
                     {{/if}}
                 {{/if}}
                 {{#if jldNewsletter }}
                     {{#if featured_news.jld.link }}
-                        <a href="{{{ featured_news.jld.link }}}{{{ featured_news.jld.utm.source }}}{{{ featured_news.jld.utm.content.title }}}">
+                        <a href="{{{ featured_news.jld.link }}}{{{ featured_news.jld.utm.source }}}{{{ featured_news.jld.utm.content.title }}}" target="_blank">
                             {{ featured_news.jld.title }}
                         </a>
                     {{/if}}
@@ -59,7 +59,7 @@
                 <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <!-- story-desc -->
-                        <td class="story-desc" responsive="collapse-one">
+                        <td class="story-desc" responsive="mobile-padding-horizontal-sides">
                             <p>{{{ featured_news.jld.tagline }}}</p>
                         </td>
                         <!-- featured-image -->
@@ -93,7 +93,7 @@
         {{#each featured_news.jld.description }}
             <tr>
             <!-- story-desc FULL WIDTH -->
-                <td class="full-width-desc {{#if isLast }}last{{/if}}" responsive="collapse-one">
+                <td class="full-width-desc {{#if isLast }}last{{/if}}" responsive="mobile-padding-horizontal-sides">
                     <p>{{{ this }}}</p>
                 </td>
             </tr>
@@ -102,7 +102,7 @@
             <tr>
                 <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
                 <td class="main-story-list" responsive="mobile-padding-horizontal-sides">
-                    <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
+                    <p><a href="{{{ this.link }}}" target="_blank">{{{ this.title }}}</a></p>
                     {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
                 </td>
             </tr>
@@ -114,7 +114,7 @@
         </tr>
         <tr>
             <!-- story-desc FULL WIDTH -->
-            <td class="full-width-desc" responsive="collapse-one">
+            <td class="full-width-desc" responsive="mobile-padding-horizontal-sides">
                 <p>{{{ featured_news.jld.footer }}}</p>
             </td>
         </tr>

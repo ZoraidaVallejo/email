@@ -370,6 +370,12 @@ body {
   margin: 0;
 }
 
+.btn.large img,
+.btn.large a {
+  width: 200px;
+  height: 32px;
+}
+
 .btn a {
   text-decoration: none;
 }
@@ -1003,7 +1009,7 @@ body {
 
 .w-advertisement p,
 .w-advertisement a {
-  color: #ffffff;
+  color: #000000;
 }
 
 .w-advertisement img {
@@ -1021,16 +1027,39 @@ body {
 }
 
 .w-advertisement .ad-desc {
-  padding: 0 30px 12px;
-  text-align: center;
+  padding: 5px 30px 0;
+  text-align: left;
+}
+
+.w-advertisement .ad-desc .title {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.w-advertisement .ad-desc .footer {
+  font-size: 20px;
+}
+
+.w-advertisement .ad-desc .footer span {
+  font-weight: 400;
+}
+
+.w-advertisement .ad-desc a {
+  color: #00b3e3;
+  font-weight: 700;
 }
 
 .w-advertisement .ad-desc p {
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.5 Arial, sans-serif;
+}
+
+.w-advertisement .ad-desc .text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 .w-advertisement .ad-desc--first {
-  padding: 25px 30px 12px;
+  padding: 15px 30px 0;
 }
 
 .w-advertisement .ad-desc--first p {
@@ -1038,7 +1067,7 @@ body {
 }
 
 .w-advertisement .ad-desc--last {
-  padding: 0 30px 25px;
+  padding: 15px 30px 21px;
 }
 
 .w-client-ad-01 {
@@ -1046,7 +1075,8 @@ body {
 }
 
 .w-jld-ad-01 {
-  background-color: #bdbdbd;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #ffffff;
 }
 
 .w-jld-ad-02 {
@@ -1268,6 +1298,7 @@ body {
 }
 
 .w-law-events .event-1 .inner-text,
+.w-law-events .event-2 .inner-text,
 .w-law-events .event-4 .inner-text {
   height: 108px;
 }

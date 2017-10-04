@@ -3,7 +3,7 @@
         "ad1": {
             "image": "adname-image-01.jpg",
             "alt": "Save $100 on the #1 Online CLE Provider",
-            "link": "#",
+            "link": "mailto:support@justia.com",
             "description": []
         }
     },
@@ -11,17 +11,18 @@
     "jld": {
         "ad1": {
             "image": "jld-adname-image-01.png",
-            "alt": "[alt text]",
-            "link": "https://marketing.justia.com/contact/promotion/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-consultation-v2",
+            "alt": "New Marketing Website",
+            "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-new-marketing-v1",
             "description": [
-                "Lorem ipsum dolor sit amet.",
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
+                "<strong class=\"title\">Justia Launches New Marketing Website </strong>",
+                "<span class=\"text\">We are pleased to announce the launch of our newly designed <a href=\"https://www.justia.com/marketing/\" target=\"_blank\">marketing website</a>. There you can find descriptions of the legal <a href=\"https://www.justia.com/marketing/#state-of-the-art\" target=\"_blank\">marketing services</a> we offer, read <a href=\"https://www.justia.com/marketing/testimonials/\" target=\"_blank\">testimonials</a> from a few of our many satisfied clients, and talk to one of our legal marketing specialists about how we can help your law firm grow its business.</span>",
+                "<strong class=\"footer\"><a href=\"https://www.justia.com/marketing/contact/\" target=\"_blank\">Contact Us Now</a> <span>or Call Us at</span> (888) 587-8421</strong>"
             ]
         },
         "ad2": {
             "image": "jld-adname-image-02.png",
             "alt": "Become a Premium Member",
-            "link": "https://lawyers.justia.com/premium-placement-form?profile_id=*|PROFILE_ID|*&email=*|EMAIL|*&utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-premium-memberships-v6",
+            "link": "https://lawyers.justia.com/premium-placement-form?profile_id=*|PROFILE_ID|*&email=*|EMAIL|*&utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-premium-memberships-v3",
             "description": []
         }
     }
