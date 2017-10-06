@@ -14,11 +14,11 @@
 
         &-desc {
             padding: 0 $padding 15px;
-
-            &--last {
-                padding: 0 $padding 45px;
-            }
         }
+    }
+
+    .button {
+        padding: 0 $padding 45px;
     }
 
     .widget-type-name,

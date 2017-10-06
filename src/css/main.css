@@ -562,6 +562,10 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-stories-list .main-story-desc.last {
+  padding-bottom: 10px;
+}
+
 .w-stories-list .main-story-desc.-with-list {
   padding: 0 30px 20px;
 }
@@ -618,24 +622,20 @@ body {
 
 .w-stories-list .full-width-desc {
   width: 510px;
-  padding: 0 30px 20px;
-}
-
-.w-stories-list .full-width-desc.last {
-  padding-bottom: 0;
+  padding: 0 30px 45px;
 }
 
 .w-stories-list.jld .main-story-desc .story-desc {
-  width: 280px;
+  width: 310px;
 }
 
 .w-stories-list.jld .main-story-desc .featured-image {
-  width: 260px;
+  width: 230px;
 }
 
 .w-stories-list.jld .main-story-desc .featured-image img {
-  width: 230px;
-  max-width: 88%;
+  width: 200px;
+  max-width: 86%;
 }
 
 .w-stories-list.w-tech-news .story-item a,
@@ -803,6 +803,10 @@ body {
   padding: 45px 30px 0;
 }
 
+.w-in-the-news .friends-title {
+  padding: 15px 30px 0;
+}
+
 .w-in-the-news .clients-list {
   padding: 0 30px;
   vertical-align: top;
@@ -938,6 +942,10 @@ body {
   max-width: 87%;
 }
 
+.w-text-image.w-inside-justia .item-list {
+  padding-bottom: 15px;
+}
+
 .w-text-image.w-inside-justia .item-list .item-desc {
   width: 320px;
 }
@@ -949,6 +957,15 @@ body {
 .w-text-image.w-inside-justia img {
   width: 190px;
   max-width: 87%;
+}
+
+.w-text-image.w-inside-justia .button {
+  padding: 0 30px 45px;
+}
+
+.w-text-image.w-inside-justia .button img {
+  width: 100%;
+  max-width: 100%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -976,7 +993,7 @@ body {
   padding: 0 30px 15px;
 }
 
-.w-did-you-know .dyk-desc--last {
+.w-did-you-know .button {
   padding: 0 30px 45px;
 }
 

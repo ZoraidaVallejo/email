@@ -3,7 +3,7 @@
 // T E C H   N E W S   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$tech-news-image-large--width: 230px;
+$tech-news-image-large--width: 200px;
 $tech-news-image--width: 150px;
 
 
@@ -32,6 +32,10 @@ $tech-news-image--width: 150px;
 
         &-desc {
             padding: 0 $padding 45px;
+
+            &.last {
+                padding-bottom: 10px;
+            }
 
             &.-with-list {
                 padding: 0 $padding 20px;
@@ -94,11 +98,7 @@ $tech-news-image--width: 150px;
 
     .full-width-desc {
         width: ($inner-max-width - $padding);
-        padding: 0 $padding 20px;
-
-        &.last {
-            padding-bottom: 0;
-        }
+        padding: 0 $padding 45px;
     }
 
     &.jld {

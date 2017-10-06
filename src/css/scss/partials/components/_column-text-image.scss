@@ -118,6 +118,7 @@ $pugs-image--width: 210px;
     &.w-inside-justia {
 
         .item-list {
+            padding-bottom: 15px;
 
             .item-desc {
                 width: ($inner-max-width - $inside-justia-image--width - $padding);
@@ -131,6 +132,15 @@ $pugs-image--width: 210px;
         img {
             width: $inside-justia-image--width;
             max-width: ceil(percentage($inside-justia-image--width / ($inside-justia-image--width + $padding)));
+        }
+
+        .button {
+            padding: 0 $padding 45px;
+
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
         }
     }
 

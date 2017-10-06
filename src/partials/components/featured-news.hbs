@@ -55,15 +55,17 @@
         {{/if}}
         {{#if jldNewsletter }}
             <!-- main-story-desc {{#if featured_news.description }}-with-list{{/if}} -->
-            <td class="main-story-desc {{#if featured_news.jld.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
+            <td class="main-story-desc {{#if featured_news.jld.list }}-with-list{{/if}} last" responsive="mobile-padding-horizontal-sides">
                 <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <!-- story-desc -->
-                        <td class="story-desc" responsive="mobile-padding-horizontal-sides">
-                            <p>{{{ featured_news.jld.tagline }}}</p>
+                        <td class="story-desc" responsive="collapse-one">
+                            {{#each featured_news.jld.description }}
+                                <p>{{{ this }}}</p>
+                            {{/each}}
                         </td>
                         <!-- featured-image -->
-                        <td class="featured-image large" responsive="mobile-hide collapse-one">
+                        <td class="featured-image" responsive="mobile-hide collapse-one">
                            {{#if featured_news.jld.link }}
                                <a href="{{{ featured_news.jld.link }}}{{{ featured_news.jld.utm.source }}}{{{ featured_news.jld.utm.content.image }}}" target="_blank">
                            {{/if}}
@@ -90,14 +92,6 @@
         {{/forEach}}
     {{/if}}
     {{#if jldNewsletter }}
-        {{#each featured_news.jld.description }}
-            <tr>
-            <!-- story-desc FULL WIDTH -->
-                <td class="full-width-desc {{#if isLast }}last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                    <p>{{{ this }}}</p>
-                </td>
-            </tr>
-        {{/each}}
         {{#forEach featured_news.jld.list }}
             <tr>
                 <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->

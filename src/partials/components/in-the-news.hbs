@@ -13,23 +13,55 @@
     <tr>
         <!-- clients-list -->
         <td class="clients-list" responsive="mobile-padding-horizontal-sides">
-            {{#forEach in_the_news.news }}
             <!-- client-{{ index }} -->
-            <table border="0" cellpadding="0" cellspacing="0" class="client-{{ index }}">
+            <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <!-- news-logo -->
-                    <td class="news-logo {{#if this.no_padding}}no-padding{{/if}}">
-                        <a href="{{ this.link }}" target="_blank"><img src="{{ ../default.image_dir_src }}/clients-news-logo-0{{ index }}.png" alt="{{ this.logo_name }}" border="0" /></a>
+                    <td class="news-logo {{#if in_the_news.clients.no_padding}}no-padding{{/if}}">
+                        <a href="{{ in_the_news.clients.link }}" target="_blank"><img src="{{ default.image_dir_src }}/clients-news-logo-01.png" alt="{{ in_the_news.clients.logo_name }}" border="0" /></a>
                     </td>
                     <!-- news-desc -->
                     <td class="news-desc">
-                        <p>{{{ this.description }}}</p>
+                        <p>{{{ in_the_news.clients.description }}}</p>
                         <br>
-                        {{> button moreBlue=true buttonLink=this.link }}
+                        {{> button moreBlue=true buttonLink=in_the_news.clients.link }}
                     </td>
                 </tr>
             </table>
-            {{/forEach}}
+        </td>
+    </tr>
+
+    <tr>
+        <td class="separator">
+            <hr>
+        </td>
+    </tr>
+
+    <tr>
+        <!-- clients-title -->
+        <td class="friends-title" responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title align-center -->
+            <h2 class="widget-main-title align-center">Justia Friends in the News</h2>
+        </td>
+    </tr>
+    <tr>
+        <!-- clients-list -->
+        <td class="clients-list" responsive="mobile-padding-horizontal-sides">
+            <!-- client-{{ index }} -->
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <!-- news-logo -->
+                    <td class="news-logo {{#if in_the_news.friends.no_padding}}no-padding{{/if}}">
+                        <a href="{{ in_the_news.friends.link }}" target="_blank"><img src="{{ default.image_dir_src }}/friends-news-logo-01.png" alt="{{ in_the_news.friends.logo_name }}" border="0" /></a>
+                    </td>
+                    <!-- news-desc -->
+                    <td class="news-desc">
+                        <p>{{{ in_the_news.friends.description }}}</p>
+                        <br>
+                        {{> button moreBlue=true buttonLink=in_the_news.friends.link }}
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
     <tr>
