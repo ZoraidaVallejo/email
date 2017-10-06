@@ -6,6 +6,7 @@ All changes commited to this repository will be documented in this file. It adhe
 <details>
 <summary>List of tags released on the v1 range</summary>
 
+- [v1.9.0](#v190-2017-10-06)
 - [v1.8.0](#v180-2017-06-05)
 - [v1.7.0](#v170-2017-05-15)
 - [v1.6.3](#v163-2017-04-28)
@@ -24,6 +25,11 @@ All changes commited to this repository will be documented in this file. It adhe
 
 </details>
 
+
+
+## [v1.9.0](https://github.com/justia/mail-template-builder/tree/v1.9.0), 2017-10-06
+- [Release notes](https://github.com/justia/mail-template-builder/releases/tag/v1.9.0)
+- [Full changelog](https://github.com/justia/mail-template-builder/compare/v1.8.0...v1.9.0)
 
 
 ## [v1.8.0](https://github.com/justia/mail-template-builder/tree/v1.8.0), 2017-06-05
