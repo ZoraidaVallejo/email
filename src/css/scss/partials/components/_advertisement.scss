@@ -39,6 +39,11 @@
             font-size: 30px;
             font-weight: 400;
             letter-spacing: -0.02em;
+
+            a {
+                color: currentColor;
+                font-weight: 400;
+            }
         }
 
         .footer {
@@ -46,6 +51,10 @@
 
             span {
                 font-weight: 400;
+
+                + a {
+                    color: plt('black') !important;
+                }
             }
         }
 

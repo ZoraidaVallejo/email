@@ -1054,12 +1054,21 @@ body {
   letter-spacing: -0.02em;
 }
 
+.w-advertisement .ad-desc .title a {
+  color: currentColor;
+  font-weight: 400;
+}
+
 .w-advertisement .ad-desc .footer {
   font-size: 20px;
 }
 
 .w-advertisement .ad-desc .footer span {
   font-weight: 400;
+}
+
+.w-advertisement .ad-desc .footer span + a {
+  color: #000000 !important;
 }
 
 .w-advertisement .ad-desc a {

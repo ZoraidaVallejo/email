@@ -23,17 +23,23 @@
                     <!-- item-desc -->
                     <td class="item-desc" responsive="collapse-one">
                         <!-- widget-type-name -->
-                        <h4 class="widget-type-name">INSIDE JUSTIA</h4>
+                        <h4 class="widget-type-name">
+                            INSIDE JUSTIA
+                        </h4>
 
                         <!-- widget-main-title -->
-                        <h2 class="widget-main-title">{{{ inside_justia.info.title }}}</h2>
+                        <h2 class="widget-main-title">
+                            <a href="{{{ inside_justia.info.link }}}text-marketing-post-title-1" target="_blank">
+                                {{{ inside_justia.info.title }}}
+                            </a>
+                        </h2>
                         <p>{{{ inside_justia.info.description }}}</p>
                     </td>
                     <!-- item-image -->
                     <td class="item-image" responsive="mobile-hide collapse-one">
                         {{#if inside_justia.info.image }}
                             {{#if inside_justia.info.link }}
-                                <a href="{{{ inside_justia.info.link }}}" target="_blank">
+                                <a href="{{{ inside_justia.info.link }}}image-marketing-1" target="_blank">
                             {{/if}}
                                 <img src="{{ default.image_dir_src }}/{{ inside_justia.info.image }}" alt="{{ inside_justia.info.title }}" border="0" />
                             {{#if inside_justia.info.link }}
@@ -50,7 +56,7 @@
     <tr>
         <!-- button -->
         <td class="button" responsive="mobile-padding-horizontal-sides">
-            {{> button visitSiteBlue=true buttonLink=inside_justia.info.link }}
+            {{> button visitSiteBlue=true buttonLink=(concat inside_justia.info.link 'button-marketing-1') }}
         </td>
     </tr>
 </table>
