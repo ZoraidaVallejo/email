@@ -1,9 +1,3 @@
-/// ---------------------------
-// 
-// Version: 1.0.0
-// 
-/// ---------------------------
-
 
 // ----------------------------------------------------------------------------------------------------------
 // G L O B A L   R E S E T S
@@ -15,8 +9,8 @@ body {
     height: 100% !important;
     padding: 0;
     margin: 0;
-    font-family: $sans-serif-font-family;
     background-color: plt('concrete');
+    font-family: $sans-serif-font-family;
 }
 
 .set-max-width {

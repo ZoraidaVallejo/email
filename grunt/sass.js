@@ -1,10 +1,18 @@
 'use strict';
 
+const path = require('path');
+const cwd = process.cwd();
+
 // Takes your SCSS files and compiles them to CSS
 module.exports = {
 
     dist: {
-        options: require('eyeglass')({ outputStyle: 'expanded' }),
+        options: require('eyeglass')({
+            outputStyle: 'expanded',
+            includePaths: [
+                path.join(cwd, '/node_modules/sassy-maps/sass/')
+            ]
+        }),
         files: [{
             expand: true,
             cwd: '<%= paths.src %>/css/scss',

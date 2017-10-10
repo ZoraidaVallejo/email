@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'../../../node_modules/sassy-maps/sass/sassy-maps',
+'sassy-maps',
 'image-dimensions';
 
 @import
@@ -96,18 +96,6 @@ div[style*='margin: 16px 0;'] {
 .ExternalClass td,
 .ExternalClass div {
     line-height: 100%;
-}
-
-// .a5S,
-// img + div[dir] {
-//     display: none !important;
-// }
-
-@media screen {
-
-    [style*='font'] {
-        font-family: Arial, sans-serif !important;
-    }
 }
 
 

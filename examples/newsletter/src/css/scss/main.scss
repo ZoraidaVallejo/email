@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'../../../node_modules/sassy-maps/sass/sassy-maps',
+'sassy-maps',
 'image-dimensions';
 
 @import
@@ -44,4 +44,5 @@
 'partials/misc/other';
 
 @import
+'partials/components/client-specific',
 'partials/components/jld-specific';

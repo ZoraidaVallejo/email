@@ -2,7 +2,7 @@
 
 module.exports = {
 
-    dist: {
+    images: {
         auth: {
             host: 'internal.justiapro.com',
             authKey: 'key1'

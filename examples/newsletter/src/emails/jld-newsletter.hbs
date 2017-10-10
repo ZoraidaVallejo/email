@@ -23,93 +23,57 @@ subject: <%= current_month_string %> <%= current_year %> edition - Justia’s ex
         <td height="100%" width="100%" class="align-center valign-top">
 
             {{> layoutHack tableStart=true }}
-
-                {{!-- WELCOME MESSAGE --}}
                 {{> welcome jldNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- ADVERTISEMENT --}}
-                {{> jld-advertisement-01 }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- FEATURED NEWS --}}
                 {{> featured-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
+                {{> featured-site-month listSites=true }}
 
-                {{!-- TECH NEWS --}}
+            {{> layoutHack tableMiddleSeparator=true }}
+                {{> jld-advertisement-01 }}
+
+            {{> layoutHack tableMiddleSeparator=true }}
                 {{> tech-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- SEO NEWS --}}
                 {{> seo-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- ASK A LAWYER LEADERBOARD --}}
                 {{> answers-leaderboard }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- SOCIAL MEDIA NEWS --}}
                 {{> social-media-news }}
-    
-            {{> layoutHack tableMiddleSeparator=true }}
 
-                {{!-- LEGAL INDUSTRY NEWS --}}
+            {{> layoutHack tableMiddleSeparator=true }}
                 {{> legal-industry-news }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- FEATURED ANNOTATOR --}}
                 {{> annotator }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- TIP OF THE MONTH --}}
                 {{> tip-month jldNewsletter=true }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- DID YOU KNOW --}}
                 {{> did-you-know }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- MEET OUR TEAM --}}
                 {{> meet-our-team }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- PUG'S TALE --}}
                 {{> pugs-tale }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- ADVERTISEMENT --}}
                 {{> jld-advertisement-02 }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- INTERNET STATS --}}
                 {{> internet-stats }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- FEATURED SITE OF THE MONTH --}}
-                {{> featured-site-month }}
-
-            {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- JURISPRO --}}
                 {{> jurispro }}
 
             {{> layoutHack tableMiddleSeparator=true }}
-
-                {{!-- LAW EVENTS --}}
                 {{> law-events }}
 
             {{> layoutHack tableEnd=true }}

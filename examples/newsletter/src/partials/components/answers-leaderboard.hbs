@@ -12,9 +12,9 @@
                     <!-- list-table-title -->
                     <td class="list-table-title" responsive="mobile-padding-horizontal-sides">
                         <!-- widget-type-name -->
-                        <h4 class="widget-type-name">LAWYER ANSWERS TO LEGAL QUESTIONS</h4>
+                        <h4 class="widget-type-name">ASK A LAWYER</h4>
                         <!-- widget-main-title -->
-                        <h2 class="widget-main-title"><a href="https://answers.justia.com/about-legal-answers#faq-atty" target="_blank">Leaderboard</a></h2>
+                        <h2 class="widget-main-title"><a href="https://answers.justia.com/about-legal-answers#faq-atty" target="_blank">Participating Lawyers</a></h2>
                     </td>
                 </tr>
                 <tr>
@@ -25,21 +25,21 @@
                                 <tr>
                                     <!-- people-photo -->
                                     <td class="people-photo" responsive="mobile-padding-left">
-                                        <a href="{{ this.photo_link }}" target="_blank"><img src="{{ ../default.image_dir_src }}/leaderboard-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
+                                        <a href="{{{ this.photo_link }}}" target="_blank"><img src="{{ ../default.image_dir_src }}/leaderboard-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
                                     </td>
                                     <!-- people-info -->
                                     <td class="people-info" responsive="mobile-padding-horizontal-sides">
                                         <!-- -name -->
-                                        <p class="-name" responsive="mobile-fz-20"><a href="{{ this.name_link }}" target="_blank">{{{ this.name }}}</a></p>
+                                        <p class="-name" responsive="mobile-fz-20"><a href="{{{ this.name_link }}}" target="_blank">{{{ this.name }}}</a></p>
                                         <!-- -location -->
                                         <p class="-location"><b>{{#uppercase}}{{ this.location }}{{/uppercase}}</b></p>
                                     </td>
                                     <!-- people-ranking -->
                                     <td class="people-ranking" responsive="mobile-padding-right">
                                         {{#if isFirst }}
-                                        <img src="{{ ../../default.image_dir_src }}/number-ranking-0{{ index }}-green.png" alt="{{ index }}" border="0" />
+                                        <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{ index }}-green.png" alt="{{ index }}" border="0" />
                                         {{else}}
-                                        <img src="{{ ../../default.image_dir_src }}/number-ranking-0{{ index }}.png" alt="{{ index }}" border="0" />
+                                        <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{ index }}.png" alt="{{ index }}" border="0" />
                                         {{/if}}
                                     </td>
                                 </tr>

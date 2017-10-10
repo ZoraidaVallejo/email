@@ -3,9 +3,9 @@
 // C O L U M N   T E X T - I M A G E
 // ----------------------------------------------------------------------------------------------------------
 
-$meet-team-image--width: image-width('/src/img/meet-our-team-01.jpg');
-$inside-justia-image--width: image-width('/src/img/inside-justia-01.jpg');
-$pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
+$meet-team-image--width: 210px;
+$inside-justia-image--width: 210px;
+$pugs-image--width: 210px;
 
 
 // ----------------------------------------------------------------------------------------------------------
@@ -50,6 +50,46 @@ $pugs-image--width: image-width('/src/img/pugs-tale-01.jpg');
 
                 .item-image {
                     padding: 48px 0 0;
+                }
+            }
+        }
+    }
+
+    &.multiple {
+
+        .items-main-title {
+            padding: 45px $padding 0;
+        }
+
+        .item-list {
+            padding: 0 $padding 45px;
+
+            .item-image {
+                padding: 35px 0 $padding;
+            }
+
+            table {
+
+                &:first-child {
+
+                    .item-desc {
+                        padding: 10px 0 $padding;
+                    }
+
+                    .item-image {
+                        padding: 15px 0 $padding;
+                    }
+                }
+
+                &:last-child {
+
+                    .item-desc {
+                        padding: $padding 0 0;
+                    }
+
+                    .item-image {
+                        padding: 35px 0 0;
+                    }
                 }
             }
         }

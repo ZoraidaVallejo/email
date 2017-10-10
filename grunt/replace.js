@@ -156,6 +156,9 @@ module.exports = function() {
             options: {
                 usePrefix: false,
                 patterns: [{
+                    match: /\s(?:data-id)=/g,
+                    replacement: ' id='
+                }, {
                     match: /\s(?:responsive|id)=/g,
                     replacement: ' class='
                 }, {

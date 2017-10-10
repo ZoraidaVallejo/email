@@ -32,9 +32,9 @@
                         <p><strong>Recent cases involving expert witness testimony:</strong></p>
                         <br>
                         {{#forEach jurispro.cases }}
-                        <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
-                        <p>{{ description }}</p>
-                        {{#unless isLast }}<br>{{/unless}}
+                            <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
+                            <p>{{{ description }}}</p>
+                            {{#unless isLast }}<br>{{/unless}}
                         {{/forEach}}
                     </td>
                 </tr>
