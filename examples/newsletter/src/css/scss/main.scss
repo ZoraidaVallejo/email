@@ -4,7 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'../../../node_modules/sassy-maps/sass/sassy-maps',
+'sassy-maps',
 'image-dimensions';
 
 @import
@@ -13,8 +13,7 @@
 'modules/mixins';
 
 @import
-'partials/misc/global',
-'partials/misc/type';
+'partials/misc/global';
 
 @import
 'partials/layout/main-container',
@@ -31,14 +30,19 @@
 @import
 'partials/components/welcome',
 'partials/components/stories-list',
-'partials/components/tip-of-the-month',
-'partials/components/clients-in-the-news',
+'partials/components/people-list',
+'partials/components/tip-month',
+'partials/components/in-the-news',
 'partials/components/column-text-image',
 'partials/components/did-you-know',
 'partials/components/advertisement',
 'partials/components/internet-stats',
-'partials/components/featured-site-of-the-month',
+'partials/components/featured-site-month',
 'partials/components/law-events';
 
 @import
 'partials/misc/other';
+
+@import
+'partials/components/client-specific',
+'partials/components/jld-specific';

@@ -56,7 +56,7 @@
             $map: map-merge($map, $current);
 
         } @else {
-            
+
             // If in deep mode, loop through all tuples in current map
             @each $key, $value in $current {
 
@@ -74,4 +74,3 @@
 
     @return $map;
 }
-

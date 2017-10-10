@@ -1,28 +1,45 @@
 'use strict';
 
-module.exports = function (grunt, options) {
+module.exports = function(grunt, options) {
 
     // BLAST configuration
-    let buildAlias = [
+    var buildAlias = [
         options.conversionType,
-        'replace:shorten_classes',
-        'replace:live_images'
+        'replace:live_images',
+        'spreadsheet:all'
     ];
 
     // Newsletter configuration overwrite
-    if(options.conversionType === 'newsletter' || options.conversionType === 'proposal') {
+    if (options.conversionType === 'newsletter'
+        || options.conversionType === 'proposal'
+        || options.conversionType === 'oyez') {
         buildAlias = buildAlias.concat([
+            'replace:shorten_classes',
             'htmlmin:live'
         ]);
     }
 
     return {
-        'default': ['newsletter'],
+        default: ['serve'],
 
-        'newsletter': [
-            'clean',
+        report: ['spreadsheet:all'],
+
+        newsletter: [
+            'clean:dist',
             'sass:dist',
-            'cssmin',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
+            'replace:src_images',
+            'replace:remove_dup_styles'
+        ],
+
+        blast: [
+            'clean:dist',
+            'sass:dist',
             'assemble',
             'juice',
             'imagemin',
@@ -32,20 +49,8 @@ module.exports = function (grunt, options) {
             'replace:src_images'
         ],
 
-        'blast': [
-            'clean',
-            'sass:dist',
-            'assemble',
-            'juice',
-            'imagemin',
-            'replace:important_style',
-            'replace:remove_classes',
-            'replace:fix_responsive',
-            'replace:src_images'
-        ],
-
-        'proposal': [
-            'clean',
+        proposal: [
+            'clean:dist',
             'sass:dist',
             'cssmin',
             'assemble',
@@ -54,12 +59,20 @@ module.exports = function (grunt, options) {
             'replace:src_images'
         ],
 
-        'build': buildAlias,
-
-        send: [
-            'build',
-            'mailgun'
+        oyez: [
+            'clean:dist',
+            'sass:dist',
+            'assemble',
+            'juice',
+            'imagemin',
+            'replace:important_style',
+            'replace:remove_classes',
+            'replace:fix_responsive',
+            'replace:src_images',
+            'replace:remove_dup_styles'
         ],
+
+        build: buildAlias,
 
         serve: [
             options.conversionType,
@@ -71,13 +84,19 @@ module.exports = function (grunt, options) {
         ],
 
         upload: [
-            options.conversionType,
             'imagemin',
-            'sftp-deploy'
+            'sftp-deploy:images'
         ],
 
-        zip: [
-            'compress'
+        publish: [
+            'build',
+            'copy',
+            'compress',
+            'clean:all'
+        ],
+
+        test: [
+            'sass'
         ]
     };
 };
