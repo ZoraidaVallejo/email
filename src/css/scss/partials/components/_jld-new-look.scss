@@ -6,6 +6,7 @@ $jld-new-look-mainimage--dimensions: image-dimensions('/src/img/jld-new-look-mai
 $jld-new-look-button--dimensions: image-dimensions('/src/img/jld-new-look-button-01.png');
 $jld-new-look-star--dimensions: image-dimensions('/src/img/jld-new-look-star-01.png');
 $jld-new-look-look-todos-boxes-background-01--dimensions: image-dimensions('/src/img/jld-new-look-todos-boxes-background-01.png');
+$jld-new-look-look-todos-boxes-animation-01--dimensions: image-dimensions('/src/img/jld-new-look-todos-boxes-animation-01.gif');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -65,12 +66,22 @@ $jld-new-look-look-todos-boxes-background-01--dimensions: image-dimensions('/src
     .todos-boxes {
         height: nth($jld-new-look-look-todos-boxes-background-01--dimensions, 2);
         padding: 0;
-        padding-left: 11px;
         background: url('../img/jld-new-look-todos-boxes-background-01.png');
         background-color: #ffffff;
         background-repeat: no-repeat !important;
         background-size: $jld-new-look-look-todos-boxes-background-01--dimensions;
         vertical-align: top;
+
+        .image {
+            width: nth($jld-new-look-look-todos-boxes-animation-01--dimensions, 1);
+            height: nth($jld-new-look-look-todos-boxes-animation-01--dimensions, 2);
+            margin: 0;
+            Margin: 0;
+        }
+    }
+
+    .todos-text {
+        padding-left: 11px;
     }
 
     .todo-1 {

@@ -292,12 +292,22 @@ body {
 .jld-new-look .todos-boxes {
   height: 149px;
   padding: 0;
-  padding-left: 11px;
   background: url("../img/jld-new-look-todos-boxes-background-01.png");
   background-color: #ffffff;
   background-repeat: no-repeat !important;
   background-size: 28px 149px;
   vertical-align: top;
+}
+
+.jld-new-look .todos-boxes .image {
+  width: 28px;
+  height: 149px;
+  margin: 0;
+  Margin: 0;
+}
+
+.jld-new-look .todos-text {
+  padding-left: 11px;
 }
 
 .jld-new-look .todo-1 {
