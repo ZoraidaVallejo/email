@@ -11,8 +11,8 @@
         "dist": "dist",
         "dist_img": "dist/img",
         "preview": "preview",
-        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>",
-        "remote_img_path": "/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>"
+        "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>/new-look",
+        "remote_img_path": "/mnt/files/emails/images/lawyer-directory/<%= current_year %>/<%= current_month %>/new-look"
     },
 
     "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
