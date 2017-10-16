@@ -1,5 +1,3 @@
-'use strict';
-
 // Clean folders
 module.exports = {
   dist: ['dist/'],

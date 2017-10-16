@@ -1,5 +1,3 @@
-'use strict';
-
 const cwd = process.cwd();
 
 const express = require('express');
@@ -17,7 +15,7 @@ app.use('/src/img', express.static(path.join(cwd, '/src/img')));
 app.use('/dist/img', express.static(path.join(cwd, '/dist/img')));
 
 // Set the route handler for the preview page.
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
   res.status(200);
 
   var data = { templates: getTemplates() };
@@ -36,7 +34,7 @@ function getTemplates() {
     templateDir = path.join(cwd, '/dist/'),
     templateFiles = fs.readdirSync(templateDir);
 
-  templateFiles.forEach(function(file) {
+  templateFiles.forEach(file => {
     if (file.substr(-5) === '.html') {
       var contents = fs.readFileSync(templateDir + file, 'utf8');
 

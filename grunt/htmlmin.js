@@ -1,12 +1,10 @@
-'use strict';
-
 // Compress images
 module.exports = {
   live: {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      removeEmptyAttributes: function(attrName) {
+      removeEmptyAttributes(attrName) {
         return attrName === 'style';
       }
     },

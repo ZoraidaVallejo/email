@@ -1,5 +1,3 @@
-'use strict';
-
 // Replace compiled template images sources from ../src/html to ../dist/html
 module.exports = function() {
   var leftPad = function leftPad(number, targetLength = 2) {
@@ -54,7 +52,7 @@ module.exports = function() {
   // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
   // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
   // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
-  let rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
+  const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
 
   // Set configuration to shorten classes
   var classesToReplace = [];
@@ -62,16 +60,16 @@ module.exports = function() {
   for (let i = 0; i < cssClasses.length; i++) {
     classesToReplace.push({
       match: new RegExp(cssClasses[i], 'g'),
-      replacement: 'justia' + leftPad(i + 1)
+      replacement: `justia${leftPad(i + 1)}`
     });
   }
 
   // Set configuration to remove duplicated styles
   var styleToRemove = [];
 
-  for (let element in htmlOptim) {
-    for (let cssStyle of htmlOptim[element]) {
-      let htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+  for (const element in htmlOptim) {
+    for (const cssStyle of htmlOptim[element]) {
+      const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
 
       styleToRemove.push({
         match: new RegExp(htmlRegex, 'g'),

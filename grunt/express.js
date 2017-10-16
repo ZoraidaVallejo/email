@@ -1,5 +1,3 @@
-'use strict';
-
 // Browser-based preview task
 module.exports = {
   server: {

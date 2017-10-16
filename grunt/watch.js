@@ -1,5 +1,3 @@
-'use strict';
-
 // Watches for changes to CSS or email templates then runs grunt tasks
 module.exports = function(grunt, options) {
   return {

@@ -1,5 +1,3 @@
-'use strict';
-
 // Inlines your CSS
 module.exports = {
   main: {

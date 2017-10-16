@@ -1,14 +1,12 @@
-'use strict';
-
 var fs = require('fs');
 var path = require('path');
 
 module.exports = function(grunt) {
   var LINKS = {
-    replace: function(data) {
+    replace(data) {
       var hrefs = [];
 
-      data.replace(/(<a [^>]*href="([^"]+))/g, function(tag, substr, href) {
+      data.replace(/(<a [^>]*href="([^"]+))/g, (tag, substr, href) => {
         hrefs.push(href);
       });
 
@@ -19,7 +17,7 @@ module.exports = function(grunt) {
       var parameters = query.split('&');
       var utm_values = [];
 
-      parameters.forEach(function(parameter) {
+      parameters.forEach(parameter => {
         utm_values.push(parameter.substring(parameter.indexOf('=') + 1));
       });
 
@@ -46,23 +44,23 @@ module.exports = function(grunt) {
   };
 
   var IMAGES = {
-    getImageTags: function(data) {
+    getImageTags(data) {
       var image_tags = [];
 
-      data.replace(/(<img.*?>)/g, function(image_tag) {
+      data.replace(/(<img.*?>)/g, image_tag => {
         image_tags.push(image_tag);
       });
 
       return image_tags;
     },
 
-    getAttr: function(image_tags, attr) {
+    getAttr(image_tags, attr) {
       var values = [];
       var regex = new RegExp(`${attr}="([^"]+)`);
 
-      image_tags.forEach(function(image_tag) {
+      image_tags.forEach(image_tag => {
         if (image_tag.indexOf(attr) >= 0) {
-          image_tag.replace(regex, function(match, value) {
+          image_tag.replace(regex, (match, value) => {
             values.push(value);
           });
         } else {
@@ -120,7 +118,7 @@ module.exports = function(grunt) {
       grunt.log.oklns('File saved: ', filename);
     },
 
-    combineArrays: function(arr1, arr2) {
+    combineArrays(arr1, arr2) {
       var result = [];
 
       for (var i = 0; i < arr1.length; i++) {
@@ -133,7 +131,7 @@ module.exports = function(grunt) {
     removeDuplicates: function removeDuplicates(items) {
       var items_cleaned = {};
 
-      items.forEach(function(item) {
+      items.forEach(item => {
         if (typeof item === 'object') {
           if (items_cleaned[item[0]]) {
             items_cleaned[item[0]].count++;
@@ -156,7 +154,7 @@ module.exports = function(grunt) {
     var done = this.async();
     var live_img_path = this.data.options.live_img_path;
 
-    this.filesSrc.forEach(function(file) {
+    this.filesSrc.forEach(file => {
       var filename = path.basename(file).replace('.html', '.csv');
 
       var data = fs.readFileSync(file, 'utf8');

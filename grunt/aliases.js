@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = function(grunt, options) {
   // BLAST configuration
   var buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet:all'];

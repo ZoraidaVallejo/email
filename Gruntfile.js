@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const getMonths = require('./src/helpers/lib/getMonth');
 
 module.exports = function(grunt) {
-  let monthNum = parseInt(customConfig.current_month);
+  const monthNum = parseInt(customConfig.current_month);
 
   if (monthNum < 1 || monthNum > 12) {
     grunt.log.writeln(

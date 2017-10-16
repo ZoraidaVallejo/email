@@ -1,5 +1,3 @@
-'use strict';
-
 // Assembles your email content with HTML layout
 module.exports = {
   options: {

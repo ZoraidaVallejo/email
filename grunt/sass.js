@@ -1,6 +1,5 @@
-'use strict';
-
 const path = require('path');
+
 const cwd = process.cwd();
 
 // Takes your SCSS files and compiles them to CSS

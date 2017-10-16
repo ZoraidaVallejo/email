@@ -1,5 +1,3 @@
-'use strict';
-
 // Compress images
 module.exports = {
   dynamic: {
