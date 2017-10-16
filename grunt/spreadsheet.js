@@ -12,7 +12,7 @@ var LINKS = {
     return hrefs;
   },
 
-  getUtmVars: function getUtmVars(query) {
+  getUtmVars(query) {
     var parameters = query.split('&');
     var utm_values = [];
 
@@ -23,7 +23,7 @@ var LINKS = {
     return utm_values;
   },
 
-  format: function format(links) {
+  format(links) {
     var links_values = [];
 
     for (var link in links) {
@@ -70,7 +70,7 @@ var IMAGES = {
     return values;
   },
 
-  getSize: function getSize(image) {
+  getSize(image) {
     if (fs.existsSync(image)) {
       var image_stats = fs.statSync(image);
 
@@ -82,7 +82,7 @@ var IMAGES = {
     return null;
   },
 
-  format: function format(images, live_img_path) {
+  format(images, live_img_path) {
     var images_values = [];
 
     for (var image in images) {
@@ -102,7 +102,7 @@ var IMAGES = {
 };
 
 var HELPERS = {
-  writeCSV: function writeCSV(filename, values) {
+  writeCSV(filename, values) {
     var dirname = 'tags/';
     var file_path = dirname + filename;
     var values = values.join('\n');
@@ -127,7 +127,7 @@ var HELPERS = {
     return result;
   },
 
-  removeDuplicates: function removeDuplicates(items) {
+  removeDuplicates(items) {
     var items_cleaned = {};
 
     items.forEach(item => {
