@@ -3,9 +3,7 @@ module.exports = {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      removeEmptyAttributes(attrName) {
-        return attrName === 'style';
-      }
+      removeEmptyAttributes: attrName => attrName === 'style'
     },
     files: [
       {

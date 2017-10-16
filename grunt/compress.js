@@ -3,7 +3,6 @@ module.exports = {
     options: {
       archive: '<%= compressed_file_name %>.zip'
     },
-
     files: [
       {
         src: ['custom-config.*'],

@@ -8,7 +8,7 @@ module.exports = (grunt, options) => ({
       '<%= paths.src %>/css/scss/**/*',
       '<%= paths.src %>/partials/**/*'
     ],
-    tasks: [options.conversionType, 'sasslint']
+    tasks: [options.conversionType, 'stylelint']
   },
 
   preview_dist: {

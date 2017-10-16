@@ -21,9 +21,7 @@ module.exports = grunt => {
   timeGrunt(grunt);
 
   loadGruntConfig(grunt, {
-    data: {
-      configuration
-    },
+    data: configuration,
 
     // Time how long tasks take. Can help when optimizing build times
     timeGrunt: true,

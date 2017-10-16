@@ -2,7 +2,6 @@ module.exports = {
   options: {
     advanced: false
   },
-
   target: {
     files: [
       {
