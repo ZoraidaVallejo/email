@@ -1,5 +1,5 @@
 // Replace compiled template images sources from ../src/html to ../dist/html
-module.exports = function() {
+module.exports = () => {
   var leftPad = function leftPad(number, targetLength = 2) {
     let output = String(number);
 
@@ -11,42 +11,42 @@ module.exports = function() {
   };
 
   var allTemplates = [
-      {
-        expand: true,
-        flatten: true,
-        src: ['<%= paths.dist %>/*.html'],
-        dest: '<%= paths.dist %>'
-      }
-    ],
-    cssClasses = [
-      'collapse-one',
-      'mobile-reset-width',
-      'mobile-reset-height',
-      'mobile-reset-bg-image',
-      'mobile-hide',
-      'mobile-align-center',
-      'mobile-fz-20',
-      'mobile-padding-top',
-      'mobile-padding-right',
-      'mobile-padding-bottom',
-      'mobile-padding-left',
-      'mobile-padding-horizontal-sides',
-      'mobile-padding-vertical-sides',
-      'mobile-padding-full',
-      'mobile-padding-uneven-top',
-      'mobile-padding-uneven-bottom',
-      'mobile-padding-uneven-full',
-      'mobile-no-padding-top',
-      'mobile-no-padding-bottom',
-      'mobile-no-padding-horizontal-sides',
-      'mobile-no-float',
-      'mobile-no-border'
-    ],
-    htmlOptim = {
-      td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
-      table: ['width', 'background-color'],
-      img: ['width', 'height']
-    };
+    {
+      expand: true,
+      flatten: true,
+      src: ['<%= paths.dist %>/*.html'],
+      dest: '<%= paths.dist %>'
+    }
+  ];
+  var cssClasses = [
+    'collapse-one',
+    'mobile-reset-width',
+    'mobile-reset-height',
+    'mobile-reset-bg-image',
+    'mobile-hide',
+    'mobile-align-center',
+    'mobile-fz-20',
+    'mobile-padding-top',
+    'mobile-padding-right',
+    'mobile-padding-bottom',
+    'mobile-padding-left',
+    'mobile-padding-horizontal-sides',
+    'mobile-padding-vertical-sides',
+    'mobile-padding-full',
+    'mobile-padding-uneven-top',
+    'mobile-padding-uneven-bottom',
+    'mobile-padding-uneven-full',
+    'mobile-no-padding-top',
+    'mobile-no-padding-bottom',
+    'mobile-no-padding-horizontal-sides',
+    'mobile-no-float',
+    'mobile-no-border'
+  ];
+  var htmlOptim = {
+    td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
+    table: ['width', 'background-color'],
+    img: ['width', 'height']
+  };
 
   // Regex to match styles applied to specific tags
   // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
@@ -55,17 +55,13 @@ module.exports = function() {
   const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
 
   // Set configuration to shorten classes
-  var classesToReplace = [];
-
-  for (let i = 0; i < cssClasses.length; i++) {
-    classesToReplace.push({
-      match: new RegExp(cssClasses[i], 'g'),
-      replacement: `justia${leftPad(i + 1)}`
-    });
-  }
+  var classesToReplace = cssClasses.map((clss, idx) => ({
+    match: new RegExp(clss, 'g'),
+    replacement: `justia${leftPad(idx + 1)}`
+  }));
 
   // Set configuration to remove duplicated styles
-  var styleToRemove = [];
+  const styleToRemove = [];
 
   for (const element in htmlOptim) {
     for (const cssStyle of htmlOptim[element]) {
@@ -85,7 +81,7 @@ module.exports = function() {
         patterns: [
           {
             // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
-            match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/src\/img\/)/gi,
+            match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/src\/img\/)/gi,
             replacement: '$1../<%= paths.dist_img %>/'
           },
           {
@@ -104,7 +100,7 @@ module.exports = function() {
         usePrefix: false,
         patterns: [
           {
-            match: /(<(?:img|table|td)[^>]+?(?:width|height)=[\"']+?\d+(?:%|px|))( !important)/gi,
+            match: /(<(?:img|table|td)[^>]+?(?:width|height)=["']+?\d+(?:%|px|))( !important)/gi,
             replacement: '$1'
           }
         ]
@@ -168,7 +164,7 @@ module.exports = function() {
         usePrefix: false,
         patterns: [
           {
-            match: /(<(?:img|v|td)[^>]+?(?:src|background)=[\"'])(\.\.\/dist\/img\/)/gi,
+            match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/dist\/img\/)/gi,
             replacement: '$1<%= paths.live_img %>/'
           },
           {

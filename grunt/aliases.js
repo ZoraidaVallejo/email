@@ -1,4 +1,4 @@
-module.exports = function(grunt, options) {
+module.exports = (grunt, options) => {
   // BLAST configuration
   var buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet:all'];
 

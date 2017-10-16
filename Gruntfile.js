@@ -1,9 +1,14 @@
+/* eslint-disable node/no-missing-require, import/no-unresolved */
 const customConfig = require('./custom-config.json');
-const chalk = require('chalk');
 const getMonths = require('./src/helpers/lib/getMonth');
+/* eslint-enable node/no-missing-require, import/no-unresolved */
 
-module.exports = function(grunt) {
-  const monthNum = parseInt(customConfig.current_month);
+const chalk = require('chalk');
+const timeGrunt = require('time-grunt');
+const loadGruntConfig = require('load-grunt-config');
+
+module.exports = grunt => {
+  const monthNum = parseInt(customConfig.current_month, 10);
 
   if (monthNum < 1 || monthNum > 12) {
     grunt.log.writeln(
@@ -11,19 +16,18 @@ module.exports = function(grunt) {
     );
   }
 
-  var allRules = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
+  const allRules = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
 
   // Time how long tasks take. Can help when optimizing build times
-  require('time-grunt')(grunt);
+  timeGrunt(grunt);
 
-  require('load-grunt-config')(grunt, {
+  loadGruntConfig(grunt, {
     // Pass data to tasks
     data: allRules,
 
     jitGrunt: {
       staticMappings: {
         juice: 'grunt-juice-email',
-        sasslint: 'grunt-sass-lint',
         spreadsheet: 'grunt/spreadsheet.js'
       }
     }

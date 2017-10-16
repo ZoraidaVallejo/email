@@ -1,9 +1,10 @@
-// Browser-based preview task
+const Autoprefixer = require('autoprefixer');
+
 module.exports = {
   preview: {
     options: {
       map: false,
-      processors: [require('autoprefixer')]
+      processors: [Autoprefixer]
     },
     src: 'preview/css/preview.css'
   }
