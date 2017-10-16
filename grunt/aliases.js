@@ -1,6 +1,6 @@
 module.exports = (grunt, options) => {
   // BLAST configuration
-  var buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet:all'];
+  var buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet'];
 
   // Newsletter configuration overwrite
   if (options.conversionType === 'newsletter' || options.conversionType === 'proposal' || options.conversionType === 'oyez') {
@@ -10,7 +10,7 @@ module.exports = (grunt, options) => {
   return {
     default: ['serve'],
 
-    report: ['spreadsheet:all'],
+    report: ['spreadsheet'],
 
     newsletter: [
       'clean:dist',
