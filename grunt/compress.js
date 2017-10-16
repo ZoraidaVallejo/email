@@ -1,7 +1,8 @@
-// Inlines your CSS
 module.exports = {
   main: {
-    options: { archive: '<%= compressed_file_name %>.zip' },
+    options: {
+      archive: '<%= compressed_file_name %>.zip'
+    },
 
     files: [
       {

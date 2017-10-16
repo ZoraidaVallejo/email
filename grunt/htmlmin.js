@@ -1,4 +1,3 @@
-// Compress images
 module.exports = {
   live: {
     options: {

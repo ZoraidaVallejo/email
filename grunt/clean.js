@@ -1,4 +1,3 @@
-// Clean folders
 module.exports = {
   dist: ['dist/'],
 

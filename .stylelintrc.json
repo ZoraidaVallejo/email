@@ -1,7 +1,6 @@
 {
   "extends": [
-    "stylelint-config-sass-guidelines",
-    "stylelint-rscss/config"
+    "stylelint-config-sass-guidelines"
   ],
   "rules": {
     "at-rule-empty-line-before": [
@@ -245,16 +244,6 @@
       "always",
       {
         "ignore": ["after-comment"]
-      }
-    ],
-    "rscss/no-descendant-combinator": false,
-    "rscss/class-format": [
-      true,
-      {
-        "componentWhitelist": [
-          "header",
-          "footer"
-        ]
       }
     ],
     "selector-max-id": 1

@@ -1,4 +1,3 @@
-// Inlines your CSS
 module.exports = {
   dist: {
     options: {
@@ -7,7 +6,9 @@ module.exports = {
       applyWidthAttributes: true,
       applyHeightAttributes: true,
       preserveImportant: true,
-      webResources: { images: false }
+      webResources: {
+        images: false
+      }
     },
     files: [
       {

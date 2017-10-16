@@ -1,4 +1,3 @@
-// Assembles your email content with HTML layout
 module.exports = {
   options: {
     layoutdir: '<%= paths.src %>/layouts',

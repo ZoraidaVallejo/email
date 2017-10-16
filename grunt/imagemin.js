@@ -1,9 +1,12 @@
-// Compress images
 module.exports = {
   dynamic: {
     options: {
       optimizationLevel: 3,
-      svgoPlugins: [{ removeViewBox: false }]
+      svgoPlugins: [
+        {
+          removeViewBox: false
+        }
+      ]
     },
     files: [
       {

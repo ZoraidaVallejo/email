@@ -1,6 +1,7 @@
-// Compress images
 module.exports = {
-  options: { advanced: false },
+  options: {
+    advanced: false
+  },
 
   target: {
     files: [

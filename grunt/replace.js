@@ -1,179 +1,178 @@
-// Replace compiled template images sources from ../src/html to ../dist/html
-module.exports = () => {
-  var leftPad = function leftPad(number, targetLength = 2) {
-    let output = String(number);
+function leftPad(number, targetLength = 2) {
+  let output = String(number);
 
-    while (output.length < targetLength) {
-      output = `0${output}`;
-    }
-
-    return output;
-  };
-
-  var allTemplates = [
-    {
-      expand: true,
-      flatten: true,
-      src: ['<%= paths.dist %>/*.html'],
-      dest: '<%= paths.dist %>'
-    }
-  ];
-  var cssClasses = [
-    'collapse-one',
-    'mobile-reset-width',
-    'mobile-reset-height',
-    'mobile-reset-bg-image',
-    'mobile-hide',
-    'mobile-align-center',
-    'mobile-fz-20',
-    'mobile-padding-top',
-    'mobile-padding-right',
-    'mobile-padding-bottom',
-    'mobile-padding-left',
-    'mobile-padding-horizontal-sides',
-    'mobile-padding-vertical-sides',
-    'mobile-padding-full',
-    'mobile-padding-uneven-top',
-    'mobile-padding-uneven-bottom',
-    'mobile-padding-uneven-full',
-    'mobile-no-padding-top',
-    'mobile-no-padding-bottom',
-    'mobile-no-padding-horizontal-sides',
-    'mobile-no-float',
-    'mobile-no-border'
-  ];
-  var htmlOptim = {
-    td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
-    table: ['width', 'background-color'],
-    img: ['width', 'height']
-  };
-
-  // Regex to match styles applied to specific tags
-  // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
-  // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
-  // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
-  const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
-
-  // Set configuration to shorten classes
-  var classesToReplace = cssClasses.map((clss, idx) => ({
-    match: new RegExp(clss, 'g'),
-    replacement: `justia${leftPad(idx + 1)}`
-  }));
-
-  // Set configuration to remove duplicated styles
-  const styleToRemove = [];
-
-  for (const element in htmlOptim) {
-    for (const cssStyle of htmlOptim[element]) {
-      const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
-
-      styleToRemove.push({
-        match: new RegExp(htmlRegex, 'g'),
-        replacement: '$1'
-      });
-    }
+  while (output.length < targetLength) {
+    output = `0${output}`;
   }
 
-  return {
-    src_images: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
-            match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/src\/img\/)/gi,
-            replacement: '$1../<%= paths.dist_img %>/'
-          },
-          {
-            // Matches url('../src/img') or url(../src/img) and even url("../src/img")
-            match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
-            replacement: '$1../<%= paths.dist_img %>/'
-          }
-        ]
-      },
-      files: allTemplates
-    },
+  return output;
+}
 
-    // Replace width="176 !important" in table tag
-    important_style: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /(<(?:img|table|td)[^>]+?(?:width|height)=["']+?\d+(?:%|px|))( !important)/gi,
-            replacement: '$1'
-          }
-        ]
-      },
-      files: allTemplates
-    },
+const allTemplates = [
+  {
+    expand: true,
+    flatten: true,
+    src: ['<%= paths.dist %>/*.html'],
+    dest: '<%= paths.dist %>'
+  }
+];
 
-    shorten_classes: {
-      options: {
-        usePrefix: false,
-        patterns: classesToReplace
-      },
-      files: allTemplates
-    },
+const cssClasses = [
+  'collapse-one',
+  'mobile-reset-width',
+  'mobile-reset-height',
+  'mobile-reset-bg-image',
+  'mobile-hide',
+  'mobile-align-center',
+  'mobile-fz-20',
+  'mobile-padding-top',
+  'mobile-padding-right',
+  'mobile-padding-bottom',
+  'mobile-padding-left',
+  'mobile-padding-horizontal-sides',
+  'mobile-padding-vertical-sides',
+  'mobile-padding-full',
+  'mobile-padding-uneven-top',
+  'mobile-padding-uneven-bottom',
+  'mobile-padding-uneven-full',
+  'mobile-no-padding-top',
+  'mobile-no-padding-bottom',
+  'mobile-no-padding-horizontal-sides',
+  'mobile-no-float',
+  'mobile-no-border'
+];
 
-    remove_dup_styles: {
-      options: {
-        usePrefix: false,
-        patterns: styleToRemove,
-        preserveOrder: true
-      },
-      files: allTemplates
-    },
+const htmlOptim = {
+  td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
+  table: ['width', 'background-color'],
+  img: ['width', 'height']
+};
 
-    remove_classes: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
-            replacement: ''
-          }
-        ]
-      },
-      files: allTemplates
-    },
+// Regex to match styles applied to specific tags
+// (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
+// (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
+// (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
+const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
 
-    fix_responsive: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /\s(?:data-id)=/g,
-            replacement: ' id='
-          },
-          {
-            match: /\s(?:responsive|id)=/g,
-            replacement: ' class='
-          },
-          {
-            match: /\s(?:responsive|id)=""/g,
-            replacement: ''
-          }
-        ]
-      },
-      files: allTemplates
-    },
+// Set configuration to shorten classes
+const classesToReplace = cssClasses.map((clss, idx) => ({
+  match: new RegExp(clss, 'g'),
+  replacement: `justia${leftPad(idx + 1)}`
+}));
 
-    live_images: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/dist\/img\/)/gi,
-            replacement: '$1<%= paths.live_img %>/'
-          },
-          {
-            match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
-            replacement: '$1<%= paths.live_img %>/'
-          }
-        ]
-      },
-      files: allTemplates
-    }
-  };
+// Set configuration to remove duplicated styles
+const styleToRemove = [];
+
+for (const element in htmlOptim) {
+  for (const cssStyle of htmlOptim[element]) {
+    const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+
+    styleToRemove.push({
+      match: new RegExp(htmlRegex, 'g'),
+      replacement: '$1'
+    });
+  }
+}
+
+module.exports = {
+  src_images: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
+          match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/src\/img\/)/gi,
+          replacement: '$1../<%= paths.dist_img %>/'
+        },
+        {
+          // Matches url('../src/img') or url(../src/img) and even url("../src/img")
+          match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
+          replacement: '$1../<%= paths.dist_img %>/'
+        }
+      ]
+    },
+    files: allTemplates
+  },
+
+  // Replace width="176 !important" in table tag
+  important_style: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: /(<(?:img|table|td)[^>]+?(?:width|height)=["']+?\d+(?:%|px|))( !important)/gi,
+          replacement: '$1'
+        }
+      ]
+    },
+    files: allTemplates
+  },
+
+  shorten_classes: {
+    options: {
+      usePrefix: false,
+      patterns: classesToReplace
+    },
+    files: allTemplates
+  },
+
+  remove_dup_styles: {
+    options: {
+      usePrefix: false,
+      patterns: styleToRemove,
+      preserveOrder: true
+    },
+    files: allTemplates
+  },
+
+  remove_classes: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+          replacement: ''
+        }
+      ]
+    },
+    files: allTemplates
+  },
+
+  fix_responsive: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: /\s(?:data-id)=/g,
+          replacement: ' id='
+        },
+        {
+          match: /\s(?:responsive|id)=/g,
+          replacement: ' class='
+        },
+        {
+          match: /\s(?:responsive|id)=""/g,
+          replacement: ''
+        }
+      ]
+    },
+    files: allTemplates
+  },
+
+  live_images: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/dist\/img\/)/gi,
+          replacement: '$1<%= paths.live_img %>/'
+        },
+        {
+          match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
+          replacement: '$1<%= paths.live_img %>/'
+        }
+      ]
+    },
+    files: allTemplates
+  }
 };
