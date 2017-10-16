@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-    options: { configFile: '.sass-lint.yml' },
-    target: ['<%= paths.src %>/css/scss/**/*.scss']
+  options: { configFile: '.sass-lint.yml' },
+  target: ['<%= paths.src %>/css/scss/**/*.scss']
 };

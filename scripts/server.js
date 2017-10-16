@@ -37,7 +37,6 @@ function getTemplates() {
     templateFiles = fs.readdirSync(templateDir);
 
   templateFiles.forEach(function(file) {
-
     if (file.substr(-5) === '.html') {
       var contents = fs.readFileSync(templateDir + file, 'utf8');
 

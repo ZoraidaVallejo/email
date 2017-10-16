@@ -2,12 +2,7 @@
 
 // Clean folders
 module.exports = {
-    dist: ['dist/'],
+  dist: ['dist/'],
 
-    all: [
-        'dist/',
-        'src/',
-        'tags/',
-        'custom-config.json'
-    ]
+  all: ['dist/', 'src/', 'tags/', 'custom-config.json']
 };
