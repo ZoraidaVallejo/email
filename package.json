@@ -1,18 +1,51 @@
 {
   "name": "mail-template-builder",
   "version": "1.9.0",
-  "description": "Wrokflow to create email templates.",
+  "description": "Workflow to create email templates",
   "main": "scripts/server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node scripts/test.js",
+    "optim": "imageoptim --verbose --directory ./src/img",
+    "format": "./node_modules/.bin/prettier --write --single-quote --print-width=140 --parser=flow \"**/*.js\"",
+    "lint": "./node_modules/.bin/eslint \"**/*.js\" --format table || true",
+    "lint-break-on-errors": "./node_modules/.bin/eslint \"**/*.js\" --format table",
+    "bump": "npm run lint-break-on-errors && node scripts/bump.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justia/mail-template-builder.git"
+    "url": "git+https://github.com/justia/mail-template-builder.git"
   },
-  "author": "Diego Miguel <digznav@gmail.com>",
-  "license": "MIT",
+  "keywords": [
+    "mail",
+    "template",
+    "builder",
+    "grunt",
+    "campaigns"
+  ],
+  "author": "Diego Miguel <digznav@gmail.com> (https://github.com/Digznav)",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/justia/mail-template-builder/issues"
+  },
+  "homepage": "https://github.com/justia/mail-template-builder#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "babel-eslint": "^8.0.1",
     "cheerio": "^0.22.0",
     "ejs": "^2.5.5",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
     "express": "^4.15.3",
     "eyeglass": "^1.2.1",
     "eyeglass-image-dimensions": "0.2.2",
@@ -43,6 +76,7 @@
     "jit-grunt": "^0.10.0",
     "load-grunt-config": "0.19.2",
     "openurl": "^1.1.1",
+    "prettier": "^1.7.4",
     "replace-in-file": "^2.5.0",
     "sassy-maps": "github:at-import/Sassy-Maps#v0.4.0",
     "semver": "^5.3.0",
@@ -53,12 +87,10 @@
     "months": "^1.1.0"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions"
+    "last 1 version"
   ],
-  "scripts": {
-    "optim": "imageoptim --verbose --directory ./src/img",
-    "test": "node scripts/test.js",
-    "bump": "node scripts/bump.js"
+  "engines": {
+    "node": ">=7",
+    "npm": ">=5"
   }
 }

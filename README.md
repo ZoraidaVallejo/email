@@ -7,28 +7,28 @@
 
 - [Requirements](#requirements)
 - [Installation](#installation)
-    - [NVM](#nvm)
-    - [Node.js](#nodejs)
-    - [Yarn](#yarn)
-    - [Packages](#packages)
+  - [NVM](#nvm)
+  - [Node.js](#nodejs)
+  - [Yarn](#yarn)
+  - [Packages](#packages)
 - [Folder structure](#folder-structure)
-    - [CSS](#css)
-        - [Modules](#modules)
-        - [Partials](#partials)
-    - [Templates](#templates)
-        - [UI Components](#ui-components)
-        - [Components](#components)
-    - [Images](#images)
-    - [Data](#data)
+  - [CSS](#css)
+    - [Modules](#modules)
+    - [Partials](#partials)
+  - [Templates](#templates)
+    - [UI Components](#ui-components)
+    - [Components](#components)
+  - [Images](#images)
+  - [Data](#data)
 - [How to use](#how-to-use)
-    - [Workflow configuration](#workflow-configuration)
-    - [Grunt commands](#grunt-commands)
-        - [Caveats](#caveats)
-    - [Responsive behavior](#responsive-behavior)
-        - [Responsive Classes](#responsive-classes)
+  - [Workflow configuration](#workflow-configuration)
+  - [Grunt commands](#grunt-commands)
+    - [Caveats](#caveats)
+  - [Responsive behavior](#responsive-behavior)
+    - [Responsive Classes](#responsive-classes)
 - [Resources](#resources)
-    - [Recipients for testing](#recipients-for-testing)
-    - [Useful links](#useful-links)
+  - [Recipients for testing](#recipients-for-testing)
+  - [Useful links](#useful-links)
 
 
 ## Requirements
@@ -247,12 +247,12 @@ There are some cases that you will need different content for the same block, sp
 
 ```json
 {
-    "clients": {
-        "data": "Specific to the client's newsletter"
-    },
-    "jld": {
-        "data": "Specific to the JLD's newsletter"
-    }
+  "clients": {
+    "data": "Specific to the client's newsletter"
+  },
+  "jld": {
+    "data": "Specific to the JLD's newsletter"
+  }
 }
 ```
 
@@ -271,13 +271,13 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`current_month`**: Current month. The same as the previous one.
 - **`compressed_file_name`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
-    - **`src`**: Folder where all development files are stored.
-    - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
-    - **`dist`**: Folder where the distribution-ready files will be placed.
-    - **`dist_img`**: Optimized images go here.
-    - **`preview`**: Folder for the source files of the preview mode.
-    - **`live_img`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
-    - **`remote_img_path`**: Remote folder to upload all images.
+  - **`src`**: Folder where all development files are stored.
+  - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
+  - **`dist`**: Folder where the distribution-ready files will be placed.
+  - **`dist_img`**: Optimized images go here.
+  - **`preview`**: Folder for the source files of the preview mode.
+  - **`live_img`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
+  - **`remote_img_path`**: Remote folder to upload all images.
 
 
 ### Grunt commands
@@ -288,18 +288,18 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute. The `grunt report` command also run with the `build`.
 - **`grunt upload`**: Upload all the images to the remote server.
 - **`grunt publish`**: This command does the following:
-    - Run the `build` command.
-    - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
-    - Compress the **custom-config.json** file, `src/` and `dist/` folders.
-    - Delete all the folders and files that were zipped and the `tags/` folder.
+  - Run the `build` command.
+  - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
+  - Compress the **custom-config.json** file, `src/` and `dist/` folders.
+  - Delete all the folders and files that were zipped and the `tags/` folder.
 
 For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
 
 ```json
 {
-    "key1": {
-        "username": "username"
-    }
+  "key1": {
+    "username": "username"
+  }
 }
 ```
 
@@ -315,7 +315,7 @@ To set a responsive behavior to any element, you will add all the classes you re
 
 ```html
 <td class="..." responsive="[Responsive classes]">
-    [Content]
+  [Content]
 </td>
 ```
 
