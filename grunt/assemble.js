@@ -6,7 +6,7 @@ module.exports = {
     contextual: {
       dest: './temp/'
     },
-    helpers: ['<%= paths.src %>/helpers/custom-helpers.js', './node_modules/handlebars-helpers/**/*.js'],
+    helpers: ['./scripts/handlebars-helpers.js', './node_modules/handlebars-helpers/**/*.js'],
     data: ['<%= paths.src %>/data/*.{json,yml}', 'custom-config.json'],
     flatten: true
   },

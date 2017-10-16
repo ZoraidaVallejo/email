@@ -1,4 +1,3 @@
-// Watches for changes to CSS or email templates then runs grunt tasks
 module.exports = (grunt, options) => ({
   emails: {
     files: [

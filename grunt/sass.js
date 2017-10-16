@@ -1,7 +1,6 @@
+const cwd = process.cwd();
 const path = require('path');
 const Eyeglass = require('eyeglass');
-
-const cwd = process.cwd();
 
 // Takes your SCSS files and compiles them to CSS
 module.exports = {
