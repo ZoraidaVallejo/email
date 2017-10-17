@@ -1,5 +1,5 @@
 module.exports = {
-  dist: {
+  target: {
     options: {
       preserveMediaQueries: true,
       applyAttributesTableElements: true,

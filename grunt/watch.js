@@ -10,7 +10,7 @@ module.exports = (grunt, options) => ({
     tasks: [options.conversionType, 'stylelint']
   },
 
-  preview_dist: {
+  dist: {
     files: ['./dist/*'],
     tasks: [],
     options: {

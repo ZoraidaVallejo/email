@@ -1,5 +1,5 @@
 module.exports = {
-  server: {
+  target: {
     options: {
       port: '<%= port %>',
       hostname: '*',

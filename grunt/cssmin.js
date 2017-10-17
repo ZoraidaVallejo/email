@@ -1,8 +1,12 @@
 module.exports = {
   options: {
-    advanced: false
+    level: {
+      1: {
+        roundingPrecision: 5
+      }
+    }
   },
-  target: {
+  proposal: {
     files: [
       {
         expand: true,

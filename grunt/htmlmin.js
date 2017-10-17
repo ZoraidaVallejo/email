@@ -1,5 +1,5 @@
 module.exports = {
-  live: {
+  prod: {
     options: {
       removeComments: true,
       collapseWhitespace: true,

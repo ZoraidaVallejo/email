@@ -4,7 +4,7 @@ module.exports = (grunt, options) => {
 
   // Newsletter configuration overwrite
   if (options.conversionType === 'newsletter' || options.conversionType === 'proposal' || options.conversionType === 'oyez') {
-    buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin:live']);
+    buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
   }
 
   return {
@@ -37,7 +37,15 @@ module.exports = (grunt, options) => {
       'replace:src_images'
     ],
 
-    proposal: ['clean:dist', 'sass:dist', 'cssmin', 'assemble', 'juice', 'imagemin', 'replace:src_images'],
+    proposal: [
+      'clean:dist',
+      'sass:dist',
+      'cssmin',
+      'assemble',
+      'juice',
+      'imagemin',
+      'replace:src_images'
+    ],
 
     oyez: [
       'clean:dist',
@@ -54,9 +62,17 @@ module.exports = (grunt, options) => {
 
     build: buildAlias,
 
-    serve: [options.conversionType, 'sass:preview', 'postcss:preview', 'express', 'open', 'watch'],
+    serve: [
+      // Serve based on conversion type.
+      options.conversionType,
+      'sass:preview',
+      'postcss:preview',
+      'express',
+      'open',
+      'watch'
+    ],
 
-    upload: ['imagemin', 'sftp-deploy:images'],
+    upload: ['imagemin', 'sftp-deploy'],
 
     publish: ['build', 'copy', 'compress', 'clean:all'],
 

@@ -1,5 +1,5 @@
 module.exports = {
-  dynamic: {
+  target: {
     options: {
       optimizationLevel: 3,
       svgoPlugins: [
