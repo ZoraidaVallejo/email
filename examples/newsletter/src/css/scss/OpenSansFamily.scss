@@ -13,5 +13,5 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-@include font-face('OpenSans', 'OpenSans-Regular', 400, normal);
-@include font-face('OpenSans', 'OpenSans-Bold', 700, normal);
+@include font-face('OpenSans', 'OpenSans-Regular', 400, normal, $path: 'https://justatic.com/v/1/shared/fonts/');
+@include font-face('OpenSans', 'OpenSans-Bold', 700, normal, $path: 'https://justatic.com/v/1/shared/fonts/');

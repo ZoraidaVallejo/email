@@ -2,10 +2,13 @@
 // ----------------------------------------------------------------------------------------------------------
 // R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
+/* stylelint-disable selector-class-pattern, selector-no-qualifying-type, property-no-vendor-prefix, length-zero-no-unit */
 
 @import
+  'breakpoint',
   'sassy-maps',
-  'image-dimensions';
+  'image-dimensions',
+  'frontend-helpers';
 
 @import
   'modules/functions',
@@ -26,8 +29,8 @@ a {
 
 table,
 td {
-  mso-table-lspace: 0;
-  mso-table-rspace: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
 }
 
 img {
@@ -237,7 +240,7 @@ div[style*='margin: 16px 0;'] {
 
     .logo {
       padding-bottom: 20px !important;
-      border-bottom: 1px solid plt('cerulean');
+      border-bottom: 1px solid plt('bright-blue');
     }
 
     .social {

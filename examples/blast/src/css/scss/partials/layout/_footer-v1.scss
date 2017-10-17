@@ -24,7 +24,7 @@ $social-icons-v1--gap: 4px;
 
     .logo-social {
         padding: 20px $padding;
-        border-bottom: 1px solid plt('cerulean');
+        border-bottom: 1px solid plt('bright-blue');
 
         table {
             width: 100%;
@@ -104,7 +104,7 @@ $social-icons-v1--gap: 4px;
 
         span,
         a {
-            color: plt('accent');
+            color: plt('bright-blue');
         }
 
         .vline {

@@ -29,7 +29,7 @@ $divider-selector: '.divider';
     }
 
     .empty-space {
-        border-top: 1px solid plt('black-haze');
+        border-top: 1px solid plt('mail', 'black-haze');
     }
 
     @each $name, $color in $primary-palette {

@@ -38,6 +38,7 @@
   "devDependencies": {
     "@justia/frontend-helpers": "^0.5.13",
     "babel-eslint": "^8.0.1",
+    "breakpoint-sass": "^2.7.1",
     "ejs": "^2.5.5",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.0.0",

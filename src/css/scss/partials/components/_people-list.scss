@@ -46,7 +46,7 @@ $ranking-number--dimensions: 25px 56px;
       tr:not(:last-child) {
 
         td {
-          border-bottom: 1px solid plt('black-haze');
+          border-bottom: 1px solid plt('mail', 'black-haze');
         }
       }
     }
@@ -100,13 +100,13 @@ $ranking-number--dimensions: 25px 56px;
 .w-annotator {
 
   .list-table-title {
-    background-color: plt('blaze-orange');
+    background-color: plt('orange');
   }
 }
 
 .w-answers-leaderboard {
 
   .list-table-title {
-    background-color: plt('green-haze');
+    background-color: plt('bright-green');
   }
 }

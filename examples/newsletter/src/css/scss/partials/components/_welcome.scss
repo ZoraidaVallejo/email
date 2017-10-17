@@ -9,7 +9,7 @@ $welcome-image--dimensions: 600px 169px;
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-    background-color: plt('cerulean');
+    background-color: plt('bright-blue');
 
     .head-img {
         width: nth($welcome-image--dimensions, 1);

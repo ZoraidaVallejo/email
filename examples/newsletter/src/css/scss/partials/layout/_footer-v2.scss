@@ -28,8 +28,8 @@ $footer-logo-v2-height: 29px;
 
     .logo-footernav {
         padding: 20px $padding;
-        border-top: 1px solid plt('primary');
-        border-bottom: 1px solid plt('primary');
+        border-top: 1px solid plt('justia-blue');
+        border-bottom: 1px solid plt('justia-blue');
 
         table {
             width: 100%;
@@ -54,7 +54,7 @@ $footer-logo-v2-height: 29px;
 
             span,
             a {
-                color: plt('primary');
+                color: plt('justia-blue');
             }
 
             .vline {

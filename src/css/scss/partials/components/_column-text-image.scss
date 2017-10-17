@@ -39,7 +39,7 @@ $pugs-image--width: 210px;
 
     table {
       width: 100%;
-      border-bottom: 1px solid plt('black-haze');
+      border-bottom: 1px solid plt('mail', 'black-haze');
 
       &:last-child {
         border-bottom: 0;

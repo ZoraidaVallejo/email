@@ -240,6 +240,15 @@
         "unspecified": "bottom"
       }
     ],
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "mso-table-lspace",
+          "mso-table-rspace"
+        ]
+      }
+    ],
     "rule-empty-line-before": [
       "always",
       {

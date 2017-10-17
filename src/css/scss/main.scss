@@ -4,8 +4,10 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
+  'breakpoint',
   'sassy-maps',
-  'image-dimensions';
+  'image-dimensions',
+  'frontend-helpers';
 
 @import
   'modules/functions',

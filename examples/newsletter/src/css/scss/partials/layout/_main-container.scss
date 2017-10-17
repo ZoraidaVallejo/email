@@ -4,12 +4,12 @@
 // ----------------------------------------------------------------------------------------------------------
 
 body {
-    background-color: plt('black-haze');
+    background-color: plt('mail', 'black-haze');
 }
 
 .body {
     width: 100%;
-    background-color: plt('black-haze');
+    background-color: plt('mail', 'black-haze');
 }
 
 // Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something
@@ -44,7 +44,7 @@ body {
 
     &-type-name {
         padding: 0 0 5px;
-        color: plt('sirocco');
+        color: plt('mail', 'sirocco');
         font: $font-weight--bold 14px/1.1 $sans-serif-font-family;
     }
 
