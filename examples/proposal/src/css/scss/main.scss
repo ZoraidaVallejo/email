@@ -4,20 +4,20 @@
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-'sassy-maps',
-'image-dimensions';
+  'sassy-maps',
+  'image-dimensions';
 
 @import
-'modules/functions',
-'modules/global-settings',
-'modules/mixins';
+  'modules/functions',
+  'modules/settings',
+  'modules/mixins';
 
 @import
-'partials/misc/global';
+  'partials/misc/global';
 
 @import
-'partials/layout/main-container',
-'partials/layout/porposal-header';
+  'partials/layout/main-container',
+  'partials/layout/porposal-header';
 
 @import
-'partials/misc/other';
+  'partials/misc/other';
