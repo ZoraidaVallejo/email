@@ -2,10 +2,12 @@
 // ----------------------------------------------------------------------------------------------------------
 // R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
+
 /* stylelint-disable selector-class-pattern, selector-no-qualifying-type, property-no-vendor-prefix, length-zero-no-unit */
 
+$use-breakpoint: false;
+
 @import
-  'breakpoint',
   'sassy-maps',
   'image-dimensions',
   'frontend-helpers';

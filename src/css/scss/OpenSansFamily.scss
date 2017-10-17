@@ -3,8 +3,9 @@
 // S P E C I A L   F O N T   F A M I L I E S
 // ----------------------------------------------------------------------------------------------------------
 
+$use-breakpoint: false;
+
 @import
-  'breakpoint',
   'sassy-maps',
   'frontend-helpers';
 

@@ -3,8 +3,9 @@
 // M A I N
 // ----------------------------------------------------------------------------------------------------------
 
+$use-breakpoint: false;
+
 @import
-  'breakpoint',
   'sassy-maps',
   'image-dimensions',
   'frontend-helpers';
