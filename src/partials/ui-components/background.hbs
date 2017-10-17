@@ -1,17 +1,17 @@
 {{#if bgStart }}
-  {{#if absolutePath }}
-    <td class="{{ classes }}" responsive="{{ responsiveClasses }}" background="{{ image }}">
-      <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{ dimensions }}border:0;outline:0;"><v:fill type="tile" src="{{ image }}" color="{{ bgcolor }}" /><v:textbox inset="0,0,0,0"><![endif]-->
-  {{/if}}
-  {{#unless absolutePath }}
-    <td class="{{ classes }}" responsive="{{ responsiveClasses }}" background="{{ default.image_dir_src }}/{{ image }}">
-      <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{ dimensions }}border:0;outline:0;"><v:fill type="tile" src="{{ default.image_dir_src }}/{{ image }}" color="{{ bgcolor }}" /><v:textbox inset="0,0,0,0"><![endif]-->
-  {{/unless}}
-  {{#unless content }}
-    &nbsp;
-  {{/unless}}
+    {{#if absolutePath }}
+        <td class="{{ classes }}" responsive="{{ responsiveClasses }}" background="{{ image }}">
+            <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{ dimensions }}border:0;outline:0;"><v:fill type="tile" src="{{ image }}" color="{{ bgcolor }}" /><v:textbox inset="0,0,0,0"><![endif]-->
+    {{/if}}
+    {{#unless absolutePath }}
+        <td class="{{ classes }}" responsive="{{ responsiveClasses }}" background="{{ default.image_dir_src }}/{{ image }}">
+            <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{ dimensions }}border:0;outline:0;"><v:fill type="tile" src="{{ default.image_dir_src }}/{{ image }}" color="{{ bgcolor }}" /><v:textbox inset="0,0,0,0"><![endif]-->
+    {{/unless}}
+    {{#unless content }}
+        &nbsp;
+    {{/unless}}
 {{/if}}
 {{#if bgEnd }}
-    <!--[if mso]></v:textbox></v:rect><![endif]-->
-  </td>
+        <!--[if mso]></v:textbox></v:rect><![endif]-->
+    </td>
 {{/if}}

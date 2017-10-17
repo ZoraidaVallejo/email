@@ -3,36 +3,36 @@
 
 <!-- w-welcome -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-welcome set-max-width">
-  <tr>
-    <!-- head-img -->
-    {{> background classes="head-img" image="https://justatic.com/v/20170209/emails/images/newsletters/common/welcome-background-01-b.png" absolutePath=true bgcolor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
-  </tr>
-  {{#if clientsNewsletter }}
     <tr>
-      <!-- w-welcome--title -->
-      <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-        <h1><span>{{{ welcome.clients.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.clients.title.line2 }}}</h1>
-      </td>
+        <!-- head-img -->
+        {{> background classes="head-img" image="https://justatic.com/v/20170209/emails/images/newsletters/common/welcome-background-01-b.png" absolutePath=true bgcolor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
     </tr>
-    <tr>
-      <!-- w-welcome--message -->
-      <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ welcome.clients.message }}}</p>
-      </td>
-    </tr>
-  {{/if}}
-  {{#if jldNewsletter }}
-    <tr>
-      <!-- w-welcome--title -->
-      <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-        <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
-      </td>
-    </tr>
-    <tr>
-      <!-- w-welcome--message -->
-      <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ welcome.jld.message }}}</p>
-      </td>
-    </tr>
-  {{/if}}
+    {{#if clientsNewsletter }}
+        <tr>
+            <!-- w-welcome--title -->
+            <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+                <h1><span>{{{ welcome.clients.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.clients.title.line2 }}}</h1>
+            </td>
+        </tr>
+        <tr>
+            <!-- w-welcome--message -->
+            <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
+                <p>{{{ welcome.clients.message }}}</p>
+            </td>
+        </tr>
+    {{/if}}
+    {{#if jldNewsletter }}
+        <tr>
+            <!-- w-welcome--title -->
+            <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+                <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
+            </td>
+        </tr>
+        <tr>
+            <!-- w-welcome--message -->
+            <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
+                <p>{{{ welcome.jld.message }}}</p>
+            </td>
+        </tr>
+    {{/if}}
 </table>

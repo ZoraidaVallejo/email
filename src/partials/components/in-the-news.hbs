@@ -3,40 +3,40 @@
 
 <!-- w-in-the-news -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-in-the-news set-max-width">
-  <tr>
-    <!-- clients-title -->
-    <td class="clients-title" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-main-title align-center -->
-      <h2 class="widget-main-title align-center">Clients in the News</h2>
-    </td>
-  </tr>
-  <tr>
-    <!-- clients-list -->
-    <td class="clients-list" responsive="mobile-padding-horizontal-sides">
-      {{#forEach in_the_news.news }}
-      <!-- client-{{ index }} -->
-      <table border="0" cellpadding="0" cellspacing="0" class="client-{{ index }}">
-        <tr>
-          <!-- news-logo -->
-          <td class="news-logo">
-            <a href="{{ this.link }}" target="_blank"><img src="{{ ../default.image_dir_src }}/clients-news-logo-0{{ index }}.png" alt="{{ this.logo_name }}" border="0" /></a>
-          </td>
-          <!-- news-desc -->
-          <td class="news-desc">
-            <p>{{{ this.description }}}</p>
-            <br>
-            {{> button moreBlue=true buttonLink=this.link }}
-          </td>
-        </tr>
-      </table>
-      {{/forEach}}
-    </td>
-  </tr>
-  <tr>
-    <!-- clients-desc -->
-    <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
-      <p>Have you or your firm been mentioned in the news recently?</p>
-      <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
-    </td>
-  </tr>
+    <tr>
+        <!-- clients-title -->
+        <td class="clients-title" responsive="mobile-padding-horizontal-sides">
+            <!-- widget-main-title align-center -->
+            <h2 class="widget-main-title align-center">Clients in the News</h2>
+        </td>
+    </tr>
+    <tr>
+        <!-- clients-list -->
+        <td class="clients-list" responsive="mobile-padding-horizontal-sides">
+            {{#forEach in_the_news.news }}
+            <!-- client-{{ index }} -->
+            <table border="0" cellpadding="0" cellspacing="0" class="client-{{ index }}">
+                <tr>
+                    <!-- news-logo -->
+                    <td class="news-logo">
+                        <a href="{{ this.link }}" target="_blank"><img src="{{ ../default.image_dir_src }}/clients-news-logo-0{{ index }}.png" alt="{{ this.logo_name }}" border="0" /></a>
+                    </td>
+                    <!-- news-desc -->
+                    <td class="news-desc">
+                        <p>{{{ this.description }}}</p>
+                        <br>
+                        {{> button moreBlue=true buttonLink=this.link }}
+                    </td>
+                </tr>
+            </table>
+            {{/forEach}}
+        </td>
+    </tr>
+    <tr>
+        <!-- clients-desc -->
+        <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
+            <p>Have you or your firm been mentioned in the news recently?</p>
+            <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
+        </td>
+    </tr>
 </table>
