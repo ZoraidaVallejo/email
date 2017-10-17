@@ -1,15 +1,19 @@
 {
-  "cases": [{
-    "title": "[case]",
-    "link": "#",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam!"
-  }, {
-    "title": "[case]",
-    "link": "#",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nobis?"
-  }, {
-    "title": "[case]",
-    "link": "#",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, cumque."
-  }]
+  "cases": [
+    {
+      "title": "[case]",
+      "link": "#",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, ullam!"
+    },
+    {
+      "title": "[case]",
+      "link": "#",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nobis?"
+    },
+    {
+      "title": "[case]",
+      "link": "#",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, cumque."
+    }
+  ]
 }

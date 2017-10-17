@@ -12,14 +12,18 @@
     }
   },
   "description": "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi. Molestiae eaque amet, fugit excepturi praesentium culpa, quae perferendis delectus ea corporis quia hic recusandae dolore, suscipit cumque?]",
-  "list": [{
-    "title": "[list item 1]",
-    "link": "#"
-  }, {
-    "title": "[list item 2]",
-    "link": "#"
-  }, {
-    "title": "[list item 3]",
-    "link": "#"
-  }]
+  "list": [
+    {
+      "title": "[list item 1]",
+      "link": "#"
+    },
+    {
+      "title": "[list item 2]",
+      "link": "#"
+    },
+    {
+      "title": "[list item 3]",
+      "link": "#"
+    }
+  ]
 }
