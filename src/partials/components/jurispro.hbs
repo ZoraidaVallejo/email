@@ -3,48 +3,48 @@
 
 <!-- w-stories-list w-jurispro -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-stories-list w-jurispro set-max-width">
-    <tr>
-        <!-- main-story-title -->
-        <td class="main-story-title" responsive="mobile-padding-horizontal-sides">
-            <!-- widget-type-name -->
-            <h4 class="widget-type-name">POWERED BY JUSTIA</h4>
-            <!-- widget-main-title -->
-            <h2 class="widget-main-title"><a href="https://www.jurispro.com/" target="_blank">JurisPro<sup>&#174;</sup> Expert Witness Directory</a></h2>
-        </td>
-    </tr>
-    <tr>
-        <!-- main-story-desc -->
-        <td class="main-story-desc" responsive="mobile-padding-horizontal-sides">
-            <table cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                    <!-- story-desc -->
-                    <td class="story-desc" responsive="collapse-one">
-                        <p>JurisPro provides a free directory of expert witnesses in over 10,000 areas of expertise.</p>
-                    </td>
-                    <!-- featured-image -->
-                    <td class="featured-image" responsive="mobile-hide collapse-one">
-                        <a href="https://www.jurispro.com/" target="_blank"><img src="{{ default.image_dir_src }}/jurispro-01.png" alt="JurisPro Expert Witness Directory" border="0" /></a>
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-extra -->
-                    <td colspan="2" class="story-extra" responsive="collapse-one">
-                        <p><strong>Recent cases involving expert witness testimony:</strong></p>
-                        <br>
-                        {{#forEach jurispro.cases }}
-                            <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
-                            <p>{{{ description }}}</p>
-                            {{#unless isLast }}<br>{{/unless}}
-                        {{/forEach}}
-                    </td>
-                </tr>
-                <tr>
-                    <!-- story-extra -->
-                    <td colspan="2" class="story-extra" responsive="collapse-one">
-                        <p>Learn how to research experts here: <a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+  <tr>
+    <!-- main-story-title -->
+    <td class="main-story-title" responsive="mobile-padding-horizontal-sides">
+      <!-- widget-type-name -->
+      <h4 class="widget-type-name">POWERED BY JUSTIA</h4>
+      <!-- widget-main-title -->
+      <h2 class="widget-main-title"><a href="https://www.jurispro.com/" target="_blank">JurisPro<sup>&#174;</sup> Expert Witness Directory</a></h2>
+    </td>
+  </tr>
+  <tr>
+    <!-- main-story-desc -->
+    <td class="main-story-desc" responsive="mobile-padding-horizontal-sides">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- story-desc -->
+          <td class="story-desc" responsive="collapse-one">
+            <p>JurisPro provides a free directory of expert witnesses in over 10,000 areas of expertise.</p>
+          </td>
+          <!-- featured-image -->
+          <td class="featured-image" responsive="mobile-hide collapse-one">
+            <a href="https://www.jurispro.com/" target="_blank"><img src="{{ default.image_dir_src }}/jurispro-01.png" alt="JurisPro Expert Witness Directory" border="0" /></a>
+          </td>
+        </tr>
+        <tr>
+          <!-- story-extra -->
+          <td colspan="2" class="story-extra" responsive="collapse-one">
+            <p><strong>Recent cases involving expert witness testimony:</strong></p>
+            <br>
+            {{#forEach jurispro.cases }}
+              <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
+              <p>{{{ description }}}</p>
+              {{#unless isLast }}<br>{{/unless}}
+            {{/forEach}}
+          </td>
+        </tr>
+        <tr>
+          <!-- story-extra -->
+          <td colspan="2" class="story-extra" responsive="collapse-one">
+            <p>Learn how to research experts here: <a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
