@@ -61,18 +61,18 @@ const classesToReplace = cssClasses.map((clss, idx) => ({
 }));
 
 // Set configuration to remove duplicated styles
-const styleToRemove = [];
+const styleToRemove = Object.keys(htmlOptim)
+  .map(element =>
+    htmlOptim[element].map(cssStyle => {
+      const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
 
-for (const element in htmlOptim) {
-  for (const cssStyle of htmlOptim[element]) {
-    const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
-
-    styleToRemove.push({
-      match: new RegExp(htmlRegex, 'g'),
-      replacement: '$1'
-    });
-  }
-}
+      return {
+        match: new RegExp(htmlRegex, 'g'),
+        replacement: '$1'
+      };
+    })
+  )
+  .reduce((a, b) => a.concat(b), []);
 
 module.exports = {
   src_images: {

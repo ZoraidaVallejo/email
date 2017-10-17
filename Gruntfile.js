@@ -29,8 +29,7 @@ module.exports = grunt => {
     // Load only needed packages when a task is called.
     jitGrunt: {
       staticMappings: {
-        juice: 'grunt-juice-email',
-        spreadsheet: 'grunt/spreadsheet.js'
+        juice: 'grunt-juice-email'
       }
     }
   });
