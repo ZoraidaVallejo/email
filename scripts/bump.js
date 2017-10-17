@@ -6,6 +6,7 @@
 // ------
 const cwd = process.cwd();
 const path = require('path');
+const fs = require('fs');
 
 // EXTERNAL PACKAGES
 // -----------------
@@ -22,12 +23,23 @@ const $ = require('./helpers');
 // FILES
 // -----
 const PKG = require('../package.json');
+const PKG_LOCK = fs.existsSync(path.join(cwd, 'package-lock.json')) ? require('../package-lock.json') : null;
+
+if (!PKG_LOCK) {
+  $.log.error(
+    `${chalk.bold('Missing package-lock.json file!')}`,
+    'Please create this file by reinstalling all NPM modules and commit it.',
+    'Make sure you are using NPM v5 and Node v7. If not, install it globally',
+    'with the following command:\n',
+    'npm install -g npm\n'
+  );
+}
 
 // ---------------------------------------------------------------------------------------------------------------------
 
-var versionList = $.versionInfo(PKG.version);
-var targetBranch = 'develop';
-var repoURL = PKG.repository.url.replace(/(?:git\+|\.git)/g, '');
+const versionList = $.versionInfo(PKG.version);
+const targetBranch = 'develop';
+const repoURL = PKG.repository.url.replace(/(?:git\+|\.git)/g, '');
 
 $.overallStatus()
   .then(status => {
@@ -56,12 +68,20 @@ $.overallStatus()
   })
   .then(answers => {
     PKG.version = answers.newVersion;
+    PKG_LOCK.version = answers.newVersion;
 
-    // Update Package file
-    return $.writeFileP(path.join(cwd, 'package.json'), PKG, 2);
+    // Update Package files
+    return Promise.all([
+      $.writeFileP(path.join(cwd, 'package.json'), PKG, 2),
+      $.writeFileP(path.join(cwd, 'package-lock.json'), PKG_LOCK, 2)
+    ]);
   })
-  .then(reweritePKG => {
-    $.log.success(`Version bumped in the following file:`, `${figures.arrowRight} ${reweritePKG.fileName}`);
+  .then(([rewritePKG, rewritePKGLOCK]) => {
+    $.log.success(
+      `Version bumped in the following file:`,
+      `${figures.arrowRight} ${rewritePKG.fileName}`,
+      `${figures.arrowRight} ${rewritePKGLOCK.fileName}`
+    );
 
     return $.tagsInfo(`v${PKG.version}`);
   })
@@ -78,7 +98,7 @@ $.overallStatus()
     )
   )
   .then(result => {
-    var filesToAdd = ['changelog/', 'package.json'];
+    var filesToAdd = ['changelog/', 'package.json', 'package-lock.json'];
     var resultLog = result.reduce((prev, { fileName }) => prev.concat(`${figures.arrowRight} ${fileName}`), []);
 
     $.log.success(`Changelog:`, ...resultLog);

@@ -7,7 +7,6 @@
     "example": "examples"
   },
   "scripts": {
-    "postinstall": "npm link @justia/frontend-helpers",
     "test": "node scripts/test.js",
     "optim": "imageoptim --verbose --directory ./src/img",
     "sassformat": "./node_modules/.bin/stylelint \"src/css/scss/**/*.scss\" --syntax scss --fix",
@@ -37,7 +36,7 @@
   },
   "homepage": "https://github.com/justia/mail-template-builder#readme",
   "devDependencies": {
-    "@justia/frontend-helpers": "^0.5.13",
+    "@justia/frontend-helpers": "^0.6.0-beta.0",
     "babel-eslint": "^8.0.1",
     "ejs": "^2.5.5",
     "eslint": "^4.9.0",
