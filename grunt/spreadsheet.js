@@ -1,181 +1,171 @@
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-module.exports = function(grunt) {
-  var LINKS = {
-    replace(data) {
-      var hrefs = [];
+const $ = require('../scripts/helpers');
 
-      data.replace(/(<a [^>]*href="([^"]+))/g, (tag, substr, href) => {
-        hrefs.push(href);
-      });
+const LINKS = {
+  replace(data) {
+    var hrefs = [];
 
-      return hrefs;
-    },
+    data.replace(/(<a [^>]*href="([^"]+))/g, (tag, substr, href) => {
+      hrefs.push(href);
+    });
 
-    getUtmVars(query) {
-      var parameters = query.split('&');
-      var utm_values = [];
+    return hrefs;
+  },
 
-      parameters.forEach(parameter => {
-        utm_values.push(parameter.substring(parameter.indexOf('=') + 1));
-      });
+  getUtmVars(query) {
+    var parameters = query.split('&');
+    var utmValues = [];
 
-      return utm_values;
-    },
+    parameters.forEach(parameter => {
+      utmValues.push(parameter.substring(parameter.indexOf('=') + 1));
+    });
 
-    format(links) {
-      var links_values = [];
+    return utmValues;
+  },
 
-      for (var link in links) {
-        var utm_position = link.indexOf('?utm_');
-        var link_val = [links[link], link];
+  format(links) {
+    var linksValues = Object.keys(links).map(link => {
+      const utmPosition = link.indexOf('?utm_');
 
-        if (utm_position > 0) {
-          var utm_vars = LINKS.getUtmVars(link.substring(utm_position));
-          link_val = [links[link], link.substring(0, utm_position), ...utm_vars];
-        }
-
-        links_values.push(link_val);
+      if (utmPosition > 0) {
+        const utmVars = LINKS.getUtmVars(link.substring(utmPosition));
+        return [links[link], link.substring(0, utmPosition), ...utmVars];
       }
 
-      return links_values;
+      return [links[link], link];
+    });
+
+    return linksValues;
+  }
+};
+
+const IMAGES = {
+  getImageTags(data) {
+    var imageTags = [];
+
+    data.replace(/(<img.*?>)/g, imageTag => {
+      imageTags.push(imageTag);
+    });
+
+    return imageTags;
+  },
+
+  getAttr(imageTags, attr) {
+    var values = [];
+    var regex = new RegExp(`${attr}="([^"]+)`);
+
+    imageTags.forEach(imageTag => {
+      if (imageTag.indexOf(attr) >= 0) {
+        imageTag.replace(regex, (match, value) => {
+          values.push(value);
+        });
+      } else {
+        values.push('');
+      }
+    });
+
+    return values;
+  },
+
+  getSize(image) {
+    if (fs.existsSync(image)) {
+      const imageStats = fs.statSync(image);
+
+      if (imageStats.isFile()) {
+        return imageStats.size / 1000.0;
+      }
     }
-  };
 
-  var IMAGES = {
-    getImageTags(data) {
-      var image_tags = [];
+    return null;
+  },
 
-      data.replace(/(<img.*?>)/g, image_tag => {
-        image_tags.push(image_tag);
-      });
+  format(images, liveImgPath) {
+    var imagesValues = Object.keys(images).map(image => {
+      const imgPath = image;
+      let imgSize = '[remote]';
 
-      return image_tags;
-    },
+      if (imgPath.includes(liveImgPath)) {
+        const imgLocalPath = `dist/img${imgPath.substr(liveImgPath.length)}`;
+        imgSize = IMAGES.getSize(imgLocalPath);
+      }
 
-    getAttr(image_tags, attr) {
-      var values = [];
-      var regex = new RegExp(`${attr}="([^"]+)`);
+      return [images[image].count, image, images[image].alt, imgSize];
+    });
 
-      image_tags.forEach(image_tag => {
-        if (image_tag.indexOf(attr) >= 0) {
-          image_tag.replace(regex, (match, value) => {
-            values.push(value);
-          });
+    return imagesValues;
+  }
+};
+
+const HELPERS = {
+  writeCSV(filename, vals) {
+    var dirname = 'tags/';
+    var filePath = dirname + filename;
+    var values = vals.join('\n');
+
+    if (!fs.existsSync(dirname)) {
+      fs.mkdirSync(dirname);
+    }
+
+    fs.writeFileSync(filePath, ''); // RESETS FILE
+    fs.writeFileSync(filePath, values, 'utf8');
+
+    $.log.success(`File saved: ${filename}`);
+  },
+
+  combineArrays(arr1, arr2) {
+    return arr1.map((val1, idx) => [val1, arr2[idx]]);
+  },
+
+  removeDuplicates(items) {
+    var itemsCleaned = {};
+
+    items.forEach(item => {
+      if (typeof item === 'object') {
+        if (itemsCleaned[item[0]]) {
+          itemsCleaned[item[0]].count += 1;
         } else {
-          values.push('');
+          itemsCleaned[item[0]] = {
+            alt: item[1],
+            count: 1
+          };
         }
-      });
-
-      return values;
-    },
-
-    getSize(image) {
-      if (fs.existsSync(image)) {
-        var image_stats = fs.statSync(image);
-
-        if (image_stats.isFile()) {
-          return image_stats.size / 1000.0;
-        }
+      } else {
+        itemsCleaned[item] = itemsCleaned[item] ? itemsCleaned[item] + 1 : (itemsCleaned[item] = 1);
       }
+    });
 
-      return null;
-    },
+    return itemsCleaned;
+  }
+};
 
-    format(images, live_img_path) {
-      var images_values = [];
-
-      for (var image in images) {
-        var img_path = image;
-        var img_size = '[remote]';
-
-        if (img_path.includes(live_img_path)) {
-          var img_local_path = `dist/img${img_path.substr(live_img_path.length)}`;
-          img_size = IMAGES.getSize(img_local_path);
-        }
-
-        images_values.push([images[image].count, image, images[image].alt, img_size]);
-      }
-
-      return images_values;
-    }
-  };
-
-  var HELPERS = {
-    writeCSV(filename, values) {
-      var dirname = 'tags/';
-      var file_path = dirname + filename;
-      var values = values.join('\n');
-
-      if (!fs.existsSync(dirname)) {
-        fs.mkdirSync(dirname);
-      }
-
-      fs.writeFileSync(file_path, ''); // RESETS FILE
-      fs.writeFileSync(file_path, values, 'utf8');
-
-      grunt.log.oklns('File saved: ', filename);
-    },
-
-    combineArrays(arr1, arr2) {
-      var result = [];
-
-      for (var i = 0; i < arr1.length; i++) {
-        result.push([arr1[i], arr2[i]]);
-      }
-
-      return result;
-    },
-
-    removeDuplicates(items) {
-      var items_cleaned = {};
-
-      items.forEach(item => {
-        if (typeof item === 'object') {
-          if (items_cleaned[item[0]]) {
-            items_cleaned[item[0]].count++;
-          } else {
-            items_cleaned[item[0]] = {
-              alt: item[1],
-              count: 1
-            };
-          }
-        } else {
-          items_cleaned[item] = items_cleaned[item] ? items_cleaned[item] + 1 : (items_cleaned[item] = 1);
-        }
-      });
-
-      return items_cleaned;
-    }
-  };
-
+module.exports = grunt => {
   grunt.registerMultiTask('spreadsheet', 'Get images and links attributes from HTML documents.', function spreadsheet() {
-    var done = this.async();
-    var live_img_path = this.data.options.live_img_path;
+    const done = this.async();
+    const { liveImgPath } = this.data.options;
 
     this.filesSrc.forEach(file => {
-      var filename = path.basename(file).replace('.html', '.csv');
-
-      var data = fs.readFileSync(file, 'utf8');
+      const filename = path.basename(file).replace('.html', '.csv');
+      const data = fs.readFileSync(file, 'utf8');
 
       // Find links and their hrefs
-      var hrefs = LINKS.replace(data);
+      let hrefs = LINKS.replace(data);
       hrefs = HELPERS.removeDuplicates(hrefs);
       hrefs = LINKS.format(hrefs);
 
       // Find images and their src and alts
-      var image_tags = IMAGES.getImageTags(data);
-      var image_srcs = IMAGES.getAttr(image_tags, 'src');
-      var image_alts = IMAGES.getAttr(image_tags, 'alt');
-      var image_attr = HELPERS.combineArrays(image_srcs, image_alts);
+      const imageTags = IMAGES.getImageTags(data);
+      const imageSrcs = IMAGES.getAttr(imageTags, 'src');
+      const imageAlts = IMAGES.getAttr(imageTags, 'alt');
 
-      image_attr = HELPERS.removeDuplicates(image_attr);
-      image_attr = IMAGES.format(image_attr, live_img_path);
+      let imageAttr = HELPERS.combineArrays(imageSrcs, imageAlts);
+      imageAttr = HELPERS.removeDuplicates(imageAttr);
+      imageAttr = IMAGES.format(imageAttr, liveImgPath);
 
       // Write files
       HELPERS.writeCSV(`links-${filename}`, hrefs);
-      HELPERS.writeCSV(`images-${filename}`, image_attr);
+      HELPERS.writeCSV(`images-${filename}`, imageAttr);
     });
 
     done();
@@ -185,7 +175,7 @@ module.exports = function(grunt) {
     all: {
       src: 'dist/*.html',
       options: {
-        live_img_path: '<%= paths.live_img %>'
+        liveImgPath: '<%= paths.live_img %>'
       }
     }
   };
