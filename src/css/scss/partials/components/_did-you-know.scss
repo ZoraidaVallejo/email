@@ -4,43 +4,43 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-did-you-know {
-    background-color: plt('blaze-orange');
+  background-color: plt('blaze-orange');
 
-    .dyk {
+  .dyk {
 
-        &-title {
-            padding: 45px $padding 20px;
-        }
-
-        &-desc {
-            padding: 0 $padding 15px;
-
-            &--last {
-                padding: 0 $padding 45px;
-            }
-        }
+    &-title {
+      padding: 45px $padding 20px;
     }
 
-    .widget-type-name,
-    .widget-main-title,
-    p,
-    blockquote,
-    q,
-    a {
-        color: plt('white');
-    }
+    &-desc {
+      padding: 0 $padding 15px;
 
-    blockquote {
-        padding: 0 $padding;
-        margin: 0;
-        font-style: italic;
+      &--last {
+        padding: 0 $padding 45px;
+      }
     }
+  }
 
-    a {
-        text-decoration: none;
-    }
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  blockquote,
+  q,
+  a {
+    color: plt('white');
+  }
 
-    p {
-        margin: 0;
-    }
+  blockquote {
+    padding: 0 $padding;
+    margin: 0;
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+  }
 }

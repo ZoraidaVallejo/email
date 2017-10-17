@@ -5,53 +5,53 @@
 
 .align {
 
-    &-center {
-        text-align: center;
-    }
+  &-center {
+    text-align: center;
+  }
 
-    &-right {
-        text-align: right;
-    }
+  &-right {
+    text-align: right;
+  }
 
-    &-left {
-        text-align: left;
-    }
+  &-left {
+    text-align: left;
+  }
 }
 
 .valign {
 
-    &-top {
-        vertical-align: top;
-    }
+  &-top {
+    vertical-align: top;
+  }
 
-    &-middle {
-        vertical-align: middle;
-    }
+  &-middle {
+    vertical-align: middle;
+  }
 
-    &-bottom {
-        vertical-align: bottom;
-    }
+  &-bottom {
+    vertical-align: bottom;
+  }
 }
 
 .last {
-    padding-bottom: 0;
-    margin-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .no {
 
-    &-padding {
+  &-padding {
 
-        &-top {
-            padding-top: 0 !important;
-        }
-
-        &-bottom {
-            padding-bottom: 0 !important;
-        }
+    &-top {
+      padding-top: 0 !important;
     }
 
-    &-margin {
-        margin: 0;
+    &-bottom {
+      padding-bottom: 0 !important;
     }
+  }
+
+  &-margin {
+    margin: 0;
+  }
 }

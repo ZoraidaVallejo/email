@@ -10,105 +10,105 @@ $social-icons-v1--gap: 4px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer-v1 {
-    clear: both;
-    background-color: plt('white');
+  clear: both;
+  background-color: plt('white');
 
-    a {
-        text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .logo-social {
+    padding: 20px $padding;
+    border-bottom: 1px solid plt('cerulean');
+
+    table {
+      width: 100%;
     }
 
-    img {
+    .logo,
+    .social {
+      width: percentage(1 / 2);
+      vertical-align: middle;
+    }
+
+    .logo {
+
+      img {
         display: block;
+        width: $header-log-v1-width;
         max-width: none;
+        height: $header-logo-v1-height;
+      }
     }
 
-    .logo-social {
-        padding: 20px $padding;
-        border-bottom: 1px solid plt('cerulean');
+    .social {
+      overflow: hidden;
 
-        table {
-            width: 100%;
+      table {
+        width: (($social-icons-v1--size * 5) + ($social-icons-v1--gap * 4)) !important;
+
+        td {
+          width: ($social-icons-v1--size + $social-icons-v1--gap);
+          height: $social-icons-v1--size;
+          text-align: left;
+          vertical-align: top;
+
+          &:last-child {
+            width: $social-icons-v1--size;
+          }
         }
+      }
 
-        .logo,
-        .social {
-            width: percentage(1 / 2);
-            vertical-align: middle;
+      a {
+        display: inline-block !important;
+        vertical-align: middle;
+
+        img {
+          width: $social-icons-v1--size;
+          height: $social-icons-v1--size;
         }
-
-        .logo {
-
-            img {
-                display: block;
-                width: $header-log-v1-width;
-                max-width: none;
-                height: $header-logo-v1-height;
-            }
-        }
-
-        .social {
-            overflow: hidden;
-
-            table {
-                width: (($social-icons-v1--size * 5) + ($social-icons-v1--gap * 4)) !important;
-
-                td {
-                    width: ($social-icons-v1--size + $social-icons-v1--gap);
-                    height: $social-icons-v1--size;
-                    text-align: left;
-                    vertical-align: top;
-
-                    &:last-child {
-                        width: $social-icons-v1--size;
-                    }
-                }
-            }
-
-            a {
-                display: inline-block !important;
-                vertical-align: middle;
-
-                img {
-                    width: $social-icons-v1--size;
-                    height: $social-icons-v1--size;
-                }
-            }
-        }
+      }
     }
+  }
 
-    .disclaimer p,
-    .address p,
-    .footernav p,
+  .disclaimer p,
+  .address p,
+  .footernav p,
+  span,
+  a {
+    font: 14px/1.38 $sans-serif-font-family;
+  }
+
+  .disclaimer {
+    padding: 40px $padding 20px;
+  }
+
+  .address {
+    padding: 0 $padding 10px;
+    vertical-align: top;
+
     span,
     a {
-        font: 14px/1.38 $sans-serif-font-family;
+      color: plt('black');
+    }
+  }
+
+  .footernav {
+    padding: 0 $padding floor($padding * 3);
+    vertical-align: top;
+
+    span,
+    a {
+      color: plt('accent');
     }
 
-    .disclaimer {
-        padding: 40px $padding 20px;
+    .vline {
+      margin: 0 10px;
     }
-
-    .address {
-        padding: 0 $padding 10px;
-        vertical-align: top;
-
-        span,
-        a {
-            color: plt('black');
-        }
-    }
-
-    .footernav {
-        padding: 0 $padding floor($padding * 3);
-        vertical-align: top;
-
-        span,
-        a {
-            color: plt('accent');
-        }
-
-        .vline {
-            margin: 0 10px;
-        }
-    }
+  }
 }

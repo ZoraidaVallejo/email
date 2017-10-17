@@ -8,17 +8,17 @@ $button-1--dimensions: 240px 64px;
 // ----------------------------------------------------------------------------------------------------------
 
 .btn {
-    display: inline-block;
+  display: inline-block;
 
-    img,
-    a {
-        display: block;
-        width: (nth($button-1--dimensions, 1) / 2);
-        height: (nth($button-1--dimensions, 2) / 2);
-        margin: 0;
-    }
+  img,
+  a {
+    display: block;
+    width: (nth($button-1--dimensions, 1) / 2);
+    height: (nth($button-1--dimensions, 2) / 2);
+    margin: 0;
+  }
 
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 }

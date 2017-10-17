@@ -4,31 +4,31 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-tip-month {
-    background-color: plt('green-haze');
+  background-color: plt('green-haze');
 
-    .widget-type-name,
-    .widget-main-title,
-    p,
-    a {
-        color: plt('white');
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  a {
+    color: plt('white');
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .tip {
+
+    &-title {
+      padding: 45px $padding 20px;
     }
 
-    a {
-        text-decoration: none;
+    &-desc {
+      padding: 0 $padding 15px;
+
+      &--last {
+        padding: 0 $padding 45px;
+      }
     }
-
-    .tip {
-
-        &-title {
-            padding: 45px $padding 20px;
-        }
-
-        &-desc {
-            padding: 0 $padding 15px;
-
-            &--last {
-                padding: 0 $padding 45px;
-            }
-        }
-    }
+  }
 }

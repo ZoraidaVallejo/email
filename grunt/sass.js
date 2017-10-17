@@ -7,7 +7,7 @@ module.exports = {
   dist: {
     options: Eyeglass({
       outputStyle: 'expanded',
-      includePaths: [path.join(cwd, '/node_modules/sassy-maps/sass/')]
+      includePaths: [path.join(cwd, '/node_modules/sassy-maps/sass/'), path.join(cwd, '/node_modules/@justia/frontend-helpers/scss/')]
     }),
     files: [
       {

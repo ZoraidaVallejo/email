@@ -9,29 +9,29 @@ $welcome-image--dimensions: 600px 169px;
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-    background-color: plt('cerulean');
+  background-color: plt('cerulean');
 
-    .head-img {
-        width: nth($welcome-image--dimensions, 1);
-        height: nth($welcome-image--dimensions, 2);
-        background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
-        background-repeat: no-repeat;
+  .head-img {
+    width: nth($welcome-image--dimensions, 1);
+    height: nth($welcome-image--dimensions, 2);
+    background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
+    background-repeat: no-repeat;
+  }
+
+  &--title {
+    padding: 0 $padding;
+
+    h1 {
+      color: plt('white');
+      font: $font-weight--normal 22px/1.3 $sans-serif-font-family;
     }
+  }
 
-    &--title {
-        padding: 0 $padding;
+  &--message {
+    padding: 20px $padding 45px;
 
-        h1 {
-            color: plt('white');
-            font: $font-weight--normal 22px/1.3 $sans-serif-font-family;
-        }
+    p {
+      color: plt('white');
     }
-
-    &--message {
-        padding: 20px $padding 45px;
-
-        p {
-            color: plt('white');
-        }
-    }
+  }
 }

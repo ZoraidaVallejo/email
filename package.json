@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/justia/mail-template-builder#readme",
   "devDependencies": {
+    "@justia/frontend-helpers": "^0.5.13",
     "babel-eslint": "^8.0.1",
     "ejs": "^2.5.5",
     "eslint": "^4.9.0",

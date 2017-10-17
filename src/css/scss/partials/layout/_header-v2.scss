@@ -10,19 +10,19 @@ $header-logo-v2-height: 78px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header-v2 {
-    width: $max-width;
-    background: plt('white');
+  width: $max-width;
+  background: plt('white');
 
-    .logo {
-        width: 100%;
-        padding: 20px $padding 15px;
-        text-align: center;
+  .logo {
+    width: 100%;
+    padding: 20px $padding 15px;
+    text-align: center;
 
-        .logo-img {
-            display: block;
-            width: $header-logo-v2-width;
-            max-width: none;
-            margin: 0 auto;
-        }
+    .logo-img {
+      display: block;
+      width: $header-logo-v2-width;
+      max-width: none;
+      margin: 0 auto;
     }
+  }
 }
