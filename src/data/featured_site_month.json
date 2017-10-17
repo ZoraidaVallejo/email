@@ -1,27 +1,27 @@
 {
-    "sites": [{
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
-        "domain": {
-            "long": "#",
-            "simple": "website.com"
-        }
-    }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
-        "domain": {
-            "long": "#",
-            "simple": "website.com"
-        }
-    }, {
-        "client_name": "[name]",
-        "location": "[location]",
-        "possessive_adjective": "[adj]",
-        "domain": {
-            "long": "#",
-            "simple": "website.com"
-        }
-    }]
+  "sites": [{
+    "client_name": "[name]",
+    "location": "[location]",
+    "possessive_adjective": "[adj]",
+    "domain": {
+      "long": "#",
+      "simple": "website.com"
+    }
+  }, {
+    "client_name": "[name]",
+    "location": "[location]",
+    "possessive_adjective": "[adj]",
+    "domain": {
+      "long": "#",
+      "simple": "website.com"
+    }
+  }, {
+    "client_name": "[name]",
+    "location": "[location]",
+    "possessive_adjective": "[adj]",
+    "domain": {
+      "long": "#",
+      "simple": "website.com"
+    }
+  }]
 }

@@ -1,24 +1,24 @@
 {
-    "featured": {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#featured-link"
-    },
-    "events": [{
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link1"
-    }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link2"
-    }, {
-        "date_time": "[date / time]",
-        "type_location": "[type / location]",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        "link": "#link3"
-    }]
+  "featured": {
+    "date_time": "[date / time]",
+    "type_location": "[type / location]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "link": "#featured-link"
+  },
+  "events": [{
+    "date_time": "[date / time]",
+    "type_location": "[type / location]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "link": "#link1"
+  }, {
+    "date_time": "[date / time]",
+    "type_location": "[type / location]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "link": "#link2"
+  }, {
+    "date_time": "[date / time]",
+    "type_location": "[type / location]",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "link": "#link3"
+  }]
 }

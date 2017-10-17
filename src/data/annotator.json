@@ -1,12 +1,12 @@
 {
-    "people": [{
-        "id": "0000000",
-        "rank": 1,
-        "name": "[name]",
-        "location": "[location]",
-        "name_link": "#",
-        "photo_link": "#"
-    }],
-    "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
-    "button_link": "http://law.justia.com/annotations/"
+  "people": [{
+    "id": "0000000",
+    "rank": 1,
+    "name": "[name]",
+    "location": "[location]",
+    "name_link": "#",
+    "photo_link": "#"
+  }],
+  "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
+  "button_link": "http://law.justia.com/annotations/"
 }

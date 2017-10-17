@@ -1,11 +1,11 @@
 {
-    "news": [{
-        "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
-    }, {
-        "logo_name": "[alt logo name]",
-        "link": "#",
-        "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
-    }]
+  "news": [{
+    "logo_name": "[alt logo name]",
+    "link": "#",
+    "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+  }, {
+    "logo_name": "[alt logo name]",
+    "link": "#",
+    "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+  }]
 }
