@@ -431,20 +431,20 @@ body {
   background-color: #e62117;
 }
 
-.label-divider.divider-green .label {
-  background-color: #008000;
-}
-
 .label-divider.divider-astronaut .label {
   background-color: #264269;
 }
 
 .label-divider.divider-supernova .label {
-  background-color: #ffcb0b;
+  background-color: #ffc700;
 }
 
 .label-divider.divider-sunset-orange .label {
   background-color: #ff534b;
+}
+
+.label-divider.divider-green .label {
+  background-color: #008000;
 }
 
 .label-divider.divider-curious-blue .label {

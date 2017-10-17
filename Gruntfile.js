@@ -5,7 +5,7 @@ const timeGrunt = require('time-grunt');
 const loadGruntConfig = require('load-grunt-config');
 
 const customConfig = require('./custom-config.json');
-const getMonths = require('./src/helpers/lib/getMonth');
+const getMonths = require('./scripts/handlebars-helpers/getMonth');
 const $ = require('./scripts/helpers');
 
 const monthNum = parseInt(customConfig.current_month, 10);

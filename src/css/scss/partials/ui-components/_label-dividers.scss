@@ -3,7 +3,28 @@
 // D I V I D E R S
 // ----------------------------------------------------------------------------------------------------------
 
-$divider-selector: '.divider';
+$divider-colors: (
+  'catalina-blue': plt('justia-blue'),
+  'science-blue': plt('legacy', 'science-blue'),
+  'cobalt': plt('legacy', 'cobalt'),
+  'kashmir-blue': plt('legacy', 'kashmir-blue'),
+  'deep-sapphire': plt('legacy', 'deep-sapphire'),
+  'blue-whale': plt('legacy', 'blue-whale'),
+  'guardsman-red': plt('legacy', 'guardsman-red'),
+  'vivid-red': plt('legacy', 'vivid-red'),
+  'astronaut': plt('legacy', 'astronaut'),
+  'supernova': plt('yellow-sun'),
+  'sunset-orange': plt('legacy', 'sunset-orange'),
+  'green': plt('mail', 'green'),
+  'curious-blue': plt('mail', 'curious-blue'),
+  'flush-orange': plt('mail', 'flush-orange'),
+  'purple-heart': plt('mail', 'purple-heart'),
+  'pelorous': plt('mail', 'pelorous'),
+  'shuttle-gray': plt('mail', 'shuttle-gray'),
+  'picton-blue': plt('mail', 'picton-blue'),
+  'cape-cod': plt('mail', 'cape-cod'),
+  'jade': plt('mail', 'jade')
+);
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -31,7 +52,7 @@ $divider-selector: '.divider';
     border-top: 1px solid plt('mail', 'black-haze');
   }
 
-  @each $name, $color in $label-colors {
+  @each $name, $color in $divider-colors {
 
     &.divider-#{$name} {
 

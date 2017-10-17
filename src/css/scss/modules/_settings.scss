@@ -7,19 +7,11 @@ $padding: 30px; // For consistent padding
 $max-width: 600px; // Width of the content area
 $inner-max-width: $max-width - ($padding * 2);
 
-$label-colors: (
-  'catalina-blue': plt('justia-blue'),
-  'science-blue': plt('legacy', 'science-blue'),
-  'cobalt': plt('legacy', 'cobalt'),
-  'kashmir-blue': plt('legacy', 'kashmir-blue'),
-  'deep-sapphire': plt('legacy', 'deep-sapphire'),
-  'blue-whale': plt('legacy', 'blue-whale'),
-  'guardsman-red': plt('legacy', 'guardsman-red'),
-  'vivid-red': plt('legacy', 'vivid-red'),
+$mail-color-palette: (
+  'shamrock': #3fd4ad,
+  'sirocco': #7b7d7d,
+  'black-haze': #e7e8e8,
   'green': #008000,
-  'astronaut': plt('legacy', 'astronaut'),
-  'supernova': #ffcb0b,
-  'sunset-orange': plt('legacy', 'sunset-orange'),
   'curious-blue': #3498db,
   'flush-orange': #ff7f00,
   'purple-heart': #8635c2,
@@ -28,12 +20,6 @@ $label-colors: (
   'picton-blue': #398ff2,
   'cape-cod': #3d4041,
   'jade': #01b463
-);
-
-$mail-color-palette: (
-  'shamrock': #3fd4ad,
-  'sirocco': #7b7d7d,
-  'black-haze': #e7e8e8
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
