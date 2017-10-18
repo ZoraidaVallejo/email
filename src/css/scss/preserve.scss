@@ -5,9 +5,12 @@
 
 /* stylelint-disable */
 
+$use-breakpoint: false;
+
 @import
   'sassy-maps',
-  'image-dimensions';
+  'image-dimensions',
+  'frontend-helpers';
 
 @import
   'modules/functions',
