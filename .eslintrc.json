@@ -8,11 +8,7 @@
     "plugin:node/recommended",
     "plugin:promise/recommended"
   ],
-  "plugins": [
-    "prettier",
-    "node",
-    "promise"
-  ],
+  "plugins": ["prettier", "node", "promise"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2016,
