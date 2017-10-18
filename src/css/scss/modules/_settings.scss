@@ -7,12 +7,27 @@ $padding: 30px; // For consistent padding
 $max-width: 600px; // Width of the content area
 $inner-max-width: $max-width - ($padding * 2);
 
+$mail-color-palette: (
+  'shamrock': #3fd4ad,
+  'sirocco': #7b7d7d,
+  'black-haze': #e7e8e8,
+  'green': #008000,
+  'curious-blue': #3498db,
+  'flush-orange': #ff7f00,
+  'purple-heart': #8635c2,
+  'pelorous': #35b9ba,
+  'shuttle-gray': #5f646e,
+  'picton-blue': #398ff2,
+  'cape-cod': #3d4041,
+  'jade': #01b463
+);
 
+$color-palette: map-set($color-palette, 'mail', $mail-color-palette);
 
-// ----------------------------------------------------------------------------------------------------------
-// M O R E   C O N F I G U R A T I O N
-// ----------------------------------------------------------------------------------------------------------
+// T Y P O G R A P H Y
+// -------------------
+$font-weight--normal: 400;
+$font-weight--bold: 700;
 
-@import
-  'settings/color-palette',
-  'settings/typography';
+$sans-serif-font-family: Arial, sans-serif;
+$serif-font-family: TimesNewRoman, 'Times New Roman', Times, serif;

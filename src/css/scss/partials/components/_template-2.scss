@@ -25,6 +25,7 @@ $template2-mainimage--dimensions: image-dimensions('/src/img/template2-main-imag
       width: nth($template2-mainimage--dimensions, 1);
       height: nth($template2-mainimage--dimensions, 2);
       margin: 0 auto;
+      // stylelint-disable-next-line declaration-block-no-duplicate-properties
       Margin: 0 auto;
     }
   }

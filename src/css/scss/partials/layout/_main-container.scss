@@ -17,6 +17,7 @@ body {
   width: $max-width;
   max-width: $max-width;
   margin: 0 auto !important; /* makes it centered */
+  // stylelint-disable-next-line declaration-block-no-duplicate-properties
   Margin: 0 auto !important; /* makes it centered */
 }
 

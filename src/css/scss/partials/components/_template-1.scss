@@ -52,6 +52,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
       width: nth($template1-image-01--dimensions, 1) / 2;
       height: nth($template1-image-01--dimensions, 2) / 2;
       margin: 0 auto;
+      // stylelint-disable-next-line declaration-block-no-duplicate-properties
       Margin: 0 auto;
     }
   }
