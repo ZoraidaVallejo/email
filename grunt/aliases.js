@@ -38,6 +38,7 @@ module.exports = (grunt, options) => {
     ],
 
     proposal: [
+      //
       'clean:dist',
       'sass:dist',
       'cssmin',

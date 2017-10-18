@@ -16,7 +16,9 @@
     "format": "./node_modules/.bin/prettier --write --single-quote --print-width=140 --parser=flow \"**/*.js\"",
     "lint": "./node_modules/.bin/eslint \"**/*.js\" --format table || true",
     "lint-break-on-errors": "./node_modules/.bin/eslint \"**/*.js\" --format table",
-    "bump": "npm run lint-break-on-errors && node scripts/bump.js"
+    "bump": "npm run lint-break-on-errors && node scripts/bump.js",
+    "build": "npm run jsonformat && npm run sasslint-break-on-errors && npm run lint-break-on-errors && grunt build",
+    "publish": "npm run jsonformat && npm run sasslint-break-on-errors && npm run lint-break-on-errors && grunt publish"
   },
   "repository": {
     "type": "git",

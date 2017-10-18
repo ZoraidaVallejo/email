@@ -1,35 +1,35 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box; }
 
 html,
 body {
-  background: #fff;
+  padding: 0;
   margin: 0;
-  padding: 0; }
+  background: #ffffff; }
 
 .preview-interface-view body {
-  background: #fff;
-  color: #333;
+  background: #ffffff;
+  color: #333333;
   font: normal 14px/1.4 Helvetica, Arial, Sans-serif; }
 
 .preview-interface-view a {
-  color: #000;
+  color: #000000;
   text-decoration: none; }
   .preview-interface-view a:hover {
     color: #348eda; }
 
 .preview-interface-view iframe {
-  border: none;
-  width: 100%; }
+  width: 100%;
+  border: 0; }
 
 .preview-interface-view .header {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
   display: table;
   width: 100%;
-  position: relative;
-  z-index: 2; }
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
   .preview-interface-view .header > div {
     display: table-cell;
     padding: 8px 20px;
@@ -125,18 +125,15 @@ body {
     transition: all 0.3s ease-in-out; }
   .preview-interface-view .toggle-drawer-close:before {
     left: 18px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
+    transform: rotate(45deg); }
   .preview-interface-view .toggle-drawer-close:after {
     right: 18px;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
+    transform: rotate(-45deg); }
 
 .preview-interface-view .mobile-drawer-hidden .toggle-drawer-close:before, .preview-interface-view .mobile-drawer-hidden .toggle-drawer-close:after {
   width: 1px;
   opacity: 0;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg); }
+  transform: rotate(0deg); }
 
 .preview-interface-view .mobile-drawer-hidden .toggle-drawer-close:before {
   left: 0; }
@@ -211,31 +208,13 @@ body {
     display: block;
     width: 80px;
     height: 80px;
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2);
-    -webkit-animation-name: wilkomen;
-            animation-name: wilkomen;
-    -webkit-animation-duration: 1.8s;
-            animation-duration: 1.8s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear; }
+    transform: scale(0.2);
+    animation-name: wilkomen;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
   .welcome-view .animation--icon + .animation--icon span {
-    -webkit-animation-delay: .9s;
-            animation-delay: .9s; }
-
-@-webkit-keyframes wilkomen {
-  0% { }
-  25% {
-    background: #348eda; }
-  50% {
-    background: transparent;
-    box-shadow: inset 0 0 2px #348eda; }
-  100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-    box-shadow: inset 0 0 2px rgba(52, 142, 218, 0); } }
+    animation-delay: .9s; }
 
 @keyframes wilkomen {
   0% { }
@@ -245,6 +224,5 @@ body {
     background: transparent;
     box-shadow: inset 0 0 2px #348eda; }
   100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
+    transform: scale(1, 1);
     box-shadow: inset 0 0 2px rgba(52, 142, 218, 0); } }
