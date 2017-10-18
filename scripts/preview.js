@@ -1,4 +1,4 @@
-(function($) {
+(function iife($) {
   // Reusables
   var $templateSelect = $('#template-select');
   var $body = $('body');
@@ -6,7 +6,7 @@
   var drawerCookieName = 'mobile-drawer-hidden';
 
   // On change, reload template
-  $templateSelect.on('change', function() {
+  $templateSelect.on('change', function templateSelectChange() {
     var $s = $(this);
     var v = $s.val();
     var ms = new Date().getTime(); // We'll timestamp each iframe load for cache-busting
@@ -15,8 +15,8 @@
       return;
     }
 
-    $('iframe').attr('src', v + '?t=' + ms);
-    document.location.hash = 'template:' + v;
+    $('iframe').attr('src', v+'?t='+ms);
+    document.location.hash = 'template:'+v;
   });
 
   // Preload selected template from hashed template:
@@ -27,11 +27,11 @@
 
   // Mobile Preview Drawer
   function mobilePreviewDrawer() {
-    var $toggleBtns = $('.js-drawer-toggle'),
-      $mobileDrawer = $('#mobile-drawer'),
-      drawerHiddenClass = 'mobile-drawer-hidden';
+    var $toggleBtns = $('.js-drawer-toggle');
+    var $mobileDrawer = $('#mobile-drawer');
+    var drawerHiddenClass = 'mobile-drawer-hidden';
 
-    $toggleBtns.on('click', function() {
+    $toggleBtns.on('click', function toggleBtnsClick() {
       $body.toggleClass(drawerHiddenClass);
 
       // Remember via cookie the drawer state
@@ -55,26 +55,30 @@
   function _debounce(func, wait, immediate) {
     var timeout;
 
-    return function() {
-      var context = this,
-        args = arguments;
+    return function returnedDebounce() {
+      var context = this;
+      var args = arguments;
+
       var later = function() {
         timeout = null;
         if (!immediate) func.apply(context, args);
       };
+
       var callNow = immediate && !timeout;
+
       clearTimeout(timeout);
       timeout = setTimeout(later, wait);
+
       if (callNow) func.apply(context, args);
     };
   }
 
   // iFrame Sizing
   function resizeUi() {
-    var headerHeight = $('#header').height(),
-      windowHeight = $(window).height(),
-      uiHeightAvail = windowHeight - headerHeight,
-      $fullHeightEls = $('.preview-ui, .preview-ui--full, .preview-ui--full iframe, .preview-ui--mobile');
+    var headerHeight = $('#header').height();
+    var windowHeight = $(window).height();
+    var uiHeightAvail = windowHeight - headerHeight;
+    var $fullHeightEls = $('.preview-ui, .preview-ui--full, .preview-ui--full iframe, .preview-ui--mobile');
 
     $fullHeightEls.height(uiHeightAvail);
   }
@@ -93,13 +97,14 @@
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
-  var expires = 'expires=' + d.toUTCString();
-  document.cookie = cname + '=' + cvalue + '; ' + expires;
+  var expires = 'expires='+d.toUTCString();
+  document.cookie = cname+'='+cvalue+'; '+expires;
 }
 
 function getCookie(cname) {
   var name = cname + '=';
   var ca = document.cookie.split(';');
+
   for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') c = c.substring(1);
@@ -110,10 +115,14 @@ function getCookie(cname) {
 
 function checkCookie() {
   var user = getCookie('username');
+
   if (user != '') {
-    alert('Welcome again ' + user);
+    // eslint-disable-next-line no-alert
+    alert('Welcome again '+user);
   } else {
+    // eslint-disable-next-line no-alert
     user = prompt('Please enter your name:', '');
+
     if (user != '' && user != null) {
       setCookie('username', user, 365);
     }
