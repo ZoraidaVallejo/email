@@ -3,7 +3,7 @@ const path = require('path');
 const Eyeglass = require('eyeglass');
 
 // Takes your SCSS files and compiles them to CSS
-module.exports = {
+module.exports = (grunt, { version, paths }) => ({
   dist: {
     options: Eyeglass({
       outputStyle: 'expanded',
@@ -12,9 +12,9 @@ module.exports = {
     files: [
       {
         expand: true,
-        cwd: '<%= paths.src %>/scss',
+        cwd: `${paths.src}${!version ? '/css' : ''}/scss`,
         src: ['*.scss'],
-        dest: '<%= paths.src %>/css',
+        dest: `${paths.src}/css`,
         ext: '.css'
       }
     ]
@@ -30,4 +30,4 @@ module.exports = {
       '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
     }
   }
-};
+});

@@ -5,7 +5,7 @@ module.exports = {
     },
     files: [
       {
-        src: ['custom-config.*'],
+        src: ['custom-config.json'],
         dest: '/',
         filter: 'isFile'
       },

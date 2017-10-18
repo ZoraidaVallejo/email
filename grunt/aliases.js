@@ -1,9 +1,9 @@
-module.exports = (grunt, options) => {
+module.exports = (grunt, { conversionType }) => {
   // BLAST configuration
-  let buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet'];
+  let buildAlias = [conversionType, 'replace:live_images', 'spreadsheet'];
 
   // Newsletter configuration overwrite
-  if (options.conversionType === 'newsletter' || options.conversionType === 'proposal' || options.conversionType === 'oyez') {
+  if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
     buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
   }
 
@@ -30,7 +30,7 @@ module.exports = (grunt, options) => {
 
     serve: [
       // Serve based on conversion type.
-      options.conversionType,
+      conversionType,
       'sass:preview',
       'postcss:preview',
       'express',

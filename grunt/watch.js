@@ -1,13 +1,13 @@
-module.exports = (grunt, options) => ({
+module.exports = (grunt, {version, conversionType, paths }) => ({
   emails: {
     files: [
-      '<%= paths.src %>/emails/*',
-      '<%= paths.src %>/layouts/*',
-      '<%= paths.src %>/data/*',
-      '<%= paths.src %>/css/scss/**/*',
-      '<%= paths.src %>/partials/**/*'
+      `${paths.src}/emails/*`,
+      `${paths.src}/layouts/*`,
+      `${paths.src}/data/*`,
+      `${paths.src}${!version ? '/css' : ''}/scss/**/*`,
+      `${paths.src}/partials/**/*`
     ],
-    tasks: [options.conversionType, 'stylelint']
+    tasks: [conversionType, 'stylelint']
   },
 
   dist: {
@@ -19,7 +19,7 @@ module.exports = (grunt, options) => ({
   },
 
   preview: {
-    files: ['<%= paths.preview %>/scss/**/*'],
+    files: [`${paths.preview}/scss/**/*`],
     tasks: ['sass:preview', 'postcss:preview'],
     options: {
       livereload: true
