@@ -1,11 +1,29 @@
 module.exports = (grunt, options) => {
   // BLAST configuration
-  var buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet'];
+  let buildAlias = [options.conversionType, 'replace:live_images', 'spreadsheet'];
 
   // Newsletter configuration overwrite
   if (options.conversionType === 'newsletter' || options.conversionType === 'proposal' || options.conversionType === 'oyez') {
     buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
   }
+
+  const commonTasks = {
+    group1: [
+      'clean:dist',
+      'sass:dist'
+    ],
+    group2: [
+      'assemble',
+      'juice',
+      'imagemin'
+    ],
+    group3: [
+      'replace:important_style',
+      'replace:remove_classes',
+      'replace:fix_responsive',
+      'replace:src_images'
+    ]
+  };
 
   return {
     default: ['serve'],
@@ -13,51 +31,29 @@ module.exports = (grunt, options) => {
     report: ['spreadsheet'],
 
     newsletter: [
-      'clean:dist',
-      'sass:dist',
-      'assemble',
-      'juice',
-      'imagemin',
-      'replace:important_style',
-      'replace:remove_classes',
-      'replace:fix_responsive',
-      'replace:src_images',
+      ...commonTasks.group1,
+      ...commonTasks.group2,
+      ...commonTasks.group3,
       'replace:remove_dup_styles'
     ],
 
     blast: [
-      'clean:dist',
-      'sass:dist',
-      'assemble',
-      'juice',
-      'imagemin',
-      'replace:important_style',
-      'replace:remove_classes',
-      'replace:fix_responsive',
-      'replace:src_images'
+      ...commonTasks.group1,
+      ...commonTasks.group2,
+      ...commonTasks.group3
     ],
 
     proposal: [
-      //
-      'clean:dist',
-      'sass:dist',
+      ...commonTasks.group1,
       'cssmin',
-      'assemble',
-      'juice',
-      'imagemin',
+      ...commonTasks.group2,
       'replace:src_images'
     ],
 
     oyez: [
-      'clean:dist',
-      'sass:dist',
-      'assemble',
-      'juice',
-      'imagemin',
-      'replace:important_style',
-      'replace:remove_classes',
-      'replace:fix_responsive',
-      'replace:src_images',
+      ...commonTasks.group1,
+      ...commonTasks.group2,
+      ...commonTasks.group3,
       'replace:remove_dup_styles'
     ],
 
