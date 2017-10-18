@@ -1,26 +1,38 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// S E T T I N G S
+// C U S T O M   S E T T I N G S
 // ----------------------------------------------------------------------------------------------------------
 
-$padding: 30px; // For consistent padding
-$max-width: 600px; // Width of the content area
+$padding: 30px;
+$max-width: 600px;
 $inner-max-width: $max-width - ($padding * 2);
 
-// JUSTIA INSIGHTS DIMENSIONS
+$mail-color-palette: (
+  'shamrock': #3fd4ad,
+  'sirocco': #7b7d7d,
+  'black-haze': #e7e8e8,
+  'green': #008000,
+  'curious-blue': #3498db,
+  'flush-orange': #ff7f00,
+  'purple-heart': #8635c2,
+  'pelorous': #35b9ba,
+  'shuttle-gray': #5f646e,
+  'picton-blue': #398ff2,
+  'cape-cod': #3d4041,
+  'jade': #01b463
+);
+
+$color-palette: map-set($color-palette, 'mail', $mail-color-palette);
+
+// J U S T I A   I N S I G H T S   D I M E N S I O N S
+// ---------------------------------------------------
 $justia-insights-width: 235px;
 $justia-insights-height: 33px;
 
+// T Y P O G R A P H Y
+// -------------------
+$font-weight--normal: 400;
+$font-weight--bold: 700;
 
-
-// ----------------------------------------------------------------------------------------------------------
-// M O R E   C O N F I G U R A T I O N
-// ----------------------------------------------------------------------------------------------------------
-
-@import
-'settings/color-palette',
-'settings/typography';
-// 'settings/paths',
-// 'settings/miscellaneous',
-// 'settings/dimensions',
-// 'settings/buttons';
+$sans-serif-font-family: Helvetica, Arial, sans-serif, serif;
+$serif-font-family: TimesNewRoman, 'Times New Roman', Times, serif;

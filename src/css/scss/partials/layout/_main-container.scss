@@ -18,7 +18,7 @@ body {
     width: auto;
     max-width: $max-width;
     padding: 10px 0;
-    Margin: 0 auto !important; /* makes it centered */
+    Margin: 0 auto !important;
 }
 
 // This should also be a block element, so that it will fill 100% of the .container
@@ -27,6 +27,7 @@ body {
     max-width: $max-width;
     padding: 0;
     margin: 0 auto;
+    // stylelint-disable-next-line declaration-block-no-duplicate-properties
     Margin: 0 auto !important;
     background-color: plt('white');
 }
