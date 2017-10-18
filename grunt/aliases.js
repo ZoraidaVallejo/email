@@ -16,8 +16,6 @@ module.exports = (grunt, { conversionType }) => {
   return {
     default: ['serve'],
 
-    report: ['spreadsheet'],
-
     newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
 
     blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
@@ -26,19 +24,13 @@ module.exports = (grunt, { conversionType }) => {
 
     oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
 
-    build: buildAlias,
+    serve: [conversionType, 'sass:preview', 'postcss:preview', 'express', 'open', 'watch'],
 
-    serve: [
-      // Serve based on conversion type.
-      conversionType,
-      'sass:preview',
-      'postcss:preview',
-      'express',
-      'open',
-      'watch'
-    ],
+    report: ['spreadsheet'],
 
     upload: ['imagemin', 'sftp-deploy'],
+
+    build: buildAlias,
 
     publish: ['build', 'copy', 'compress', 'clean:all'],
 

@@ -1,4 +1,4 @@
-module.exports = (grunt, {version, conversionType, paths }) => ({
+module.exports = (grunt, { version, conversionType, paths }) => ({
   emails: {
     files: [
       `${paths.src}/emails/*`,
