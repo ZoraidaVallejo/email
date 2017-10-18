@@ -13,117 +13,117 @@ $footer-logo-v2-height: 29px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer-v2 {
-    clear: both;
-    width: $max-width;
-    background-color: plt('white');
+  clear: both;
+  width: $max-width;
+  background-color: plt('white');
 
-    a {
-        text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .logo-footernav {
+    padding: 20px $padding;
+    border-top: 1px solid plt('justia-blue');
+    border-bottom: 1px solid plt('justia-blue');
+
+    table {
+      width: 100%;
     }
 
-    img {
+    .logo {
+      width: 25%;
+      vertical-align: middle;
+
+      img {
         display: block;
+        width: $footer-logo-v2-width;
         max-width: none;
+        height: $footer-logo-v2-height;
+      }
     }
 
-    .logo-footernav {
-        padding: 20px $padding;
-        border-top: 1px solid plt('justia-blue');
-        border-bottom: 1px solid plt('justia-blue');
+    .footernav {
+      width: 75%;
+      text-align: right;
+      vertical-align: middle;
 
-        table {
-            width: 100%;
-        }
+      span,
+      a {
+        color: plt('justia-blue');
+      }
 
-        .logo {
-            width: 25%;
-            vertical-align: middle;
-
-            img {
-                display: block;
-                width: $footer-logo-v2-width;
-                max-width: none;
-                height: $footer-logo-v2-height;
-            }
-        }
-
-        .footernav {
-            width: 75%;
-            text-align: right;
-            vertical-align: middle;
-
-            span,
-            a {
-                color: plt('justia-blue');
-            }
-
-            .vline {
-                margin: 0 10px;
-            }
-        }
+      .vline {
+        margin: 0 10px;
+      }
     }
+  }
 
-    .disclaimer p,
-    .address p,
-    .footernav p,
-    span,
-    a {
-        font: 14px/1.38 $sans-serif-font-family !important;
-        white-space: nowrap;
-    }
+  .disclaimer p,
+  .address p,
+  .footernav p,
+  span,
+  a {
+    font: 14px/1.38 $sans-serif-font-family !important;
+    white-space: nowrap;
+  }
 
 
-    .social {
-        overflow: hidden;
-        width: $max-width;
-        padding: 20px $padding 10px;
-        text-align: center;
+  .social {
+    overflow: hidden;
+    width: $max-width;
+    padding: 20px $padding 10px;
+    text-align: center;
 
-        table {
-            width: (($social-icons-v2--size * 5) + ($social-icons-v2--gap * 4));
-            margin: 0 auto;
+    table {
+      width: (($social-icons-v2--size * 5) + ($social-icons-v2--gap * 4));
+      margin: 0 auto;
 
-            td {
-                width: ($social-icons-v2--size + $social-icons-v2--gap);
-                height: $social-icons-v2--size;
-                text-align: left;
-                vertical-align: top;
-
-                &:last-child {
-                    width: $social-icons-v2--size;
-                }
-            }
-        }
-
-        a {
-            display: inline-block !important;
-            vertical-align: middle;
-
-            img {
-                width: $social-icons-v2--size;
-                height: $social-icons-v2--size;
-            }
-        }
-    }
-
-    .disclaimer {
-        padding: 0 $padding 5px;
-        text-align: center;
-    }
-
-    .address {
-        padding: 0 $padding floor($padding * 4);
-        text-align: center;
+      td {
+        width: ($social-icons-v2--size + $social-icons-v2--gap);
+        height: $social-icons-v2--size;
+        text-align: left;
         vertical-align: top;
 
-        span,
-        a {
-            color: plt('black');
+        &:last-child {
+          width: $social-icons-v2--size;
         }
-
-        .justia-inline {
-            font: $font-weight--bold 14px/1.38 $sans-serif-font-family !important;
-            text-transform: uppercase;
-        }
+      }
     }
+
+    a {
+      display: inline-block !important;
+      vertical-align: middle;
+
+      img {
+        width: $social-icons-v2--size;
+        height: $social-icons-v2--size;
+      }
+    }
+  }
+
+  .disclaimer {
+    padding: 0 $padding 5px;
+    text-align: center;
+  }
+
+  .address {
+    padding: 0 $padding floor($padding * 4);
+    text-align: center;
+    vertical-align: top;
+
+    span,
+    a {
+      color: plt('black');
+    }
+
+    .justia-inline {
+      font: $font-weight--bold 14px/1.38 $sans-serif-font-family !important;
+      text-transform: uppercase;
+    }
+  }
 }

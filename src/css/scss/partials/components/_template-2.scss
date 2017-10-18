@@ -10,37 +10,37 @@ $template2-mainimage--dimensions: image-dimensions('/src/img/template2-main-imag
 
 .template-2 {
 
-    .description {
-        overflow: hidden;
-        width: $max-width;
-        max-width: $max-width !important;
-        background-color: #ffffff;
-        border-collapse: collapse !important;
+  .description {
+    overflow: hidden;
+    width: $max-width;
+    max-width: $max-width !important;
+    background-color: #ffffff;
+    border-collapse: collapse !important;
 
-        td {
-            width: 100%;
-        }
-
-        .image {
-            width: nth($template2-mainimage--dimensions, 1);
-            height: nth($template2-mainimage--dimensions, 2);
-            margin: 0 auto;
-            Margin: 0 auto;
-        }
+    td {
+      width: 100%;
     }
 
-    .block-2 {
-        padding: 25px $padding 40px;
-        text-align: center;
-
-        p {
-            font: 14px/1.5 $sans-serif-font-family !important;
-        }
+    .image {
+      width: nth($template2-mainimage--dimensions, 1);
+      height: nth($template2-mainimage--dimensions, 2);
+      margin: 0 auto;
+      Margin: 0 auto;
     }
+  }
 
-    .block-3,
-    .block-4,
-    .block-5 {
-        padding: 0 $padding 25px;
+  .block-2 {
+    padding: 25px $padding 40px;
+    text-align: center;
+
+    p {
+      font: 14px/1.5 $sans-serif-font-family !important;
     }
+  }
+
+  .block-3,
+  .block-4,
+  .block-5 {
+    padding: 0 $padding 25px;
+  }
 }

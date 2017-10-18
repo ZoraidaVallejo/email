@@ -10,53 +10,53 @@ $header-logo-v1-height: 33px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header-v1 {
-    background: plt('white');
+  background: plt('white');
 
-    .view-in-browser {
-        padding: 5px $padding;
-        border-bottom: 1px solid plt('mail', 'black-haze');
-        vertical-align: top;
+  .view-in-browser {
+    padding: 5px $padding;
+    border-bottom: 1px solid plt('mail', 'black-haze');
+    vertical-align: top;
 
-        a {
-            display: block;
-            width: 100%;
-            text-decoration: none;
-        }
+    a {
+      display: block;
+      width: 100%;
+      text-decoration: none;
     }
+  }
 
-    .logo-date {
-        padding: ($padding / 2) $padding;
-        vertical-align: middle;
+  .logo-date {
+    padding: ($padding / 2) $padding;
+    vertical-align: middle;
 
-        table {
-            table-layout: fixed;
-        }
+    table {
+      table-layout: fixed;
     }
+  }
 
-    .logo {
-        width: 65%;
+  .logo {
+    width: 65%;
+  }
+
+  .date {
+    width: 35%;
+  }
+
+  .logo {
+
+    img {
+      width: $header-log-v1-width;
+      max-width: 87%;
+      margin: 0;
     }
+  }
 
-    .date {
-        width: 35%;
+  .date {
+
+    span {
+      display: block;
+      color: plt('black');
+      font: 16px/1.25 $sans-serif-font-family;
+      // font: 16px/20px $sans-serif-font-family;
     }
-
-    .logo {
-
-        img {
-            width: $header-log-v1-width;
-            max-width: 87%;
-            margin: 0;
-        }
-    }
-
-    .date {
-
-        span {
-            display: block;
-            color: plt('black');
-            font: 16px/1.25 $sans-serif-font-family;
-            // font: 16px/20px $sans-serif-font-family;
-        }
-    }
+  }
 }
