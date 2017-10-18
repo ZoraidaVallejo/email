@@ -1,0 +1,72 @@
+
+<!-- FEATURED SITE OF THE MONTH -->
+
+<!-- w-feaured-site-month -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-feaured-site-month set-max-width">
+  <tr>
+    <!-- featured-site-title -->
+    <td class="featured-site-title" responsive="mobile-padding-horizontal-sides">
+      <!-- widget-main-title -->
+      <h2 class="widget-main-title">Featured Site{{#if listSites }}s{{/if}} of the Month</h2>
+    </td>
+  </tr>
+
+  {{#if singleSite }}
+    <tr>
+      <!-- ft-single-client -->
+      <td class="ft-single-client" responsive="mobile-padding-horizontal-sides">
+        <p><a href="{{ featured_site_month.sites.0.domain.long }}" target="_blank">{{{ featured_site_month.sites.0.client_name }}}</a></p>
+      </td>
+    </tr>
+    <tr>
+      <!-- ft-single-desc -->
+      <td class="ft-single-desc" responsive="mobile-padding-horizontal-sides">
+        <p>in {{ featured_site_month.sites.0.location }}&nbsp;<br responsive="mobile-hide"> just recently launched {{ featured_site_month.sites.0.possessive_adjective }} Justia website:</p>
+        <p><a href="{{ featured_site_month.sites.0.domain.long }}" target="_blank">{{ featured_site_month.sites.0.domain.simple }}</a></p>
+      </td>
+    </tr>
+    <tr>
+      <!-- ft-single-img -->
+      <td class="ft-single-img" responsive="mobile-padding-horizontal-sides">
+        <a href="{{ featured_site_month.sites.0.domain.long }}" target="_blank"><img src="{{ default.image_dir_src }}/featured-site-01.jpg" alt="{{ featured_site_month.sites.0.client_name }}" border="0" /></a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if listSites }}
+  <tr>
+    <td class="ft-list-description" responsive="mobile-padding-horizontal-sides"><p>The following clients recently launched their sites with Justia.</p></td>
+  </tr>
+  <tr>
+    <!-- ft-list -->
+    <td class="ft-list" responsive="mobile-padding-horizontal-sides">
+
+      {{#forEach featured_site_month.sites }}
+        <!-- ft-list-item-{{ index }} -->
+        <table cellpadding="0" cellspacing="0" border="0" class="ft-list-item-{{ index }}">
+          <tr>
+            <!-- ft-list-img -->
+            <td class="ft-list-img" responsive="mobile-hide collapse-one">
+              <a href="{{ this.domain.long }}" target="_blank"><img src="{{ ../default.image_dir_src }}/featured-site-0{{ index }}-thumb.jpg" alt="{{ this.client_name }}" border="0" /></a>
+            </td>
+            <!-- ft-list-desc -->
+            <td class="ft-list-desc" responsive="collapse-one {{#unless isFirst}}mobile-padding-top{{/unless}} {{#unless isLast}}mobile-padding-bottom{{/unless}}">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{ this.client_name }}}</strong></p></td>
+                </tr>
+                <tr>
+                  <td class="no-padding-top" responsive="mobile-align-center mobile-no-padding-top"><p>in {{ this.location }}</p></td>
+                </tr>
+                <tr>
+                  <td responsive="mobile-align-center mobile-no-padding-top {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{ this.domain.long }}" target="_blank">{{ this.domain.simple }}</a></p></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      {{/forEach}}
+    </td>
+  </tr>
+  {{/if}}
+</table>

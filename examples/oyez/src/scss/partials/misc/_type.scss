@@ -1,0 +1,26 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T Y P O G R A P H Y
+// ----------------------------------------------------------------------------------------------------------
+
+h1,
+h2,
+h4 {
+  margin: 0;
+  font-family: $sans-serif-font-family;
+  font-weight: $font-weight--normal;
+}
+
+p,
+ol,
+ul {
+  margin: 0;
+  font-family: $sans-serif-font-family;
+  font-size: 16px;
+  font-weight: $font-weight--normal;
+  line-height: 22px;
+}
+
+a {
+  color: plt('bright-blue');
+}

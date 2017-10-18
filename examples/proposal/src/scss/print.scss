@@ -1,0 +1,41 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+
+@import
+  'sassy-maps',
+  'image-dimensions',
+  'frontend-helpers';
+
+@import
+  'modules/functions',
+  'modules/settings',
+  'modules/mixins';
+
+// ----------------------------------------------------------------------------------------------------------
+
+@page {
+  size: auto;
+  odd-header-name: html_Header;
+  even-header-name: html_Header;
+  odd-footer-name: html_Footer;
+  even-footer-name: html_Footer;
+  padding: 0;
+  margin: 1.5cm 0;
+}
+
+@page noheader {
+  odd-header-name: _blank;
+  odd-footer-name: _blank;
+}
+
+@page :first {
+  odd-header-name: html_HeaderFirst;
+  even-header-name: html_HeaderFirst;
+  // stylelint-disable-next-line
+  even-header-name: html_Header;
+  even-footer-name: html_Footer;
+}
