@@ -33,6 +33,13 @@
         "lost-move",
         "lost-masonry-wrap",
         "lost-masonry-column",
+        "size",
+        "header",
+        "odd-header-name",
+        "even-header-name",
+        "footer",
+        "odd-footer-name",
+        "even-footer-name",
         "position",
         "z-index",
         "top",
@@ -241,7 +248,19 @@
     "property-no-unknown": [
       true,
       {
-        "ignoreProperties": ["mso-table-lspace", "mso-table-rspace"]
+        "ignoreProperties": [
+          "mso-table-lspace",
+          "mso-table-rspace",
+          "autosize",
+          "header",
+          "odd-header-name",
+          "even-header-name",
+          "footer",
+          "odd-footer-name",
+          "even-footer-name",
+          "background-image-resize",
+          "background-image-resolution"
+        ]
       }
     ],
     "rule-empty-line-before": [
