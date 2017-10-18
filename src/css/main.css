@@ -13,8 +13,23 @@ table {
   border-collapse: collapse;
 }
 
+table td {
+  text-align: left;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font: 16px/1.5 Arial, sans-serif;
+}
+
 a {
-  color: #0a56c6;
+  color: #06357a;
   text-decoration: none;
   cursor: pointer;
 }
@@ -26,6 +41,7 @@ img {
 .set-max-width {
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .contactus {
@@ -46,24 +62,13 @@ img {
   font: 12px/1.5 Arial, sans-serif !important;
 }
 
-h1,
-h2,
-h4 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-  font: 16px/1.5 Arial, sans-serif;
-}
-
 body {
-  background-color: #e3e3e3;
+  background-color: #e7e8e8;
 }
 
 .body {
   width: 100%;
-  background-color: #e3e3e3;
+  background-color: #e7e8e8;
 }
 
 .container {
@@ -87,6 +92,17 @@ body {
   height: 1px !important;
   margin: 0;
   font-size: 0 !important;
+}
+
+.widget-type-name {
+  padding: 0 0 5px;
+  color: #7b7d7d;
+  font: 700 14px/1.1 Arial, sans-serif;
+}
+
+.widget-main-title {
+  color: #000000;
+  font: 400 29px/1.27 Arial, sans-serif;
 }
 
 .main-header-v2 {
@@ -326,6 +342,18 @@ body {
   text-align: left;
 }
 
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
 .last {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -341,5 +369,4 @@ body {
 
 .no-margin {
   margin: 0;
-  Margin: 0;
 }

@@ -50,10 +50,9 @@
   .preview-ui--full,
   .preview-ui--mobile,
   .preview-ui--mobile__container {
-    transition: margin all $drawer-animation-duration linear, 
-                padding all $drawer-animation-duration linear, 
-                width all $drawer-animation-duration linear, 
-                opaciy all $drawer-animation-duration linear;
+    transition-property: margin, padding, width, opacity;
+    transition-duration: $drawer-animation-duration;
+    transition-timing-function: linear;
   }
 
   .preview-ui {

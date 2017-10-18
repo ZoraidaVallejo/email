@@ -45,7 +45,9 @@ body {
 .preview-interface-view .preview-ui--full,
 .preview-interface-view .preview-ui--mobile,
 .preview-interface-view .preview-ui--mobile__container {
-  transition: margin all 0.3s linear, padding all 0.3s linear, width all 0.3s linear, opaciy all 0.3s linear; }
+  transition-property: margin, padding, width, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear; }
 
 .preview-interface-view .preview-ui {
   position: relative;
