@@ -4,33 +4,33 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header {
-    background: plt('concrete');
-    color: plt('tundora');
-    font-size: 13px;
+  background: plt('concrete');
+  color: plt('tundora');
+  font-size: 13px;
 
-    .tagline-wrapper {
-        width: auto;
-        padding: ($padding / 2) $padding;
-        vertical-align: middle;
+  .tagline-wrapper {
+    width: auto;
+    padding: ($padding / 2) $padding;
+    vertical-align: middle;
 
-        table {
-            width: 100%;
-        }
+    table {
+      width: 100%;
     }
+  }
 
-    .tagline {
-        display: block;
+  .tagline {
+    display: block;
+  }
+
+  .view-in-browser {
+    width: percentage(1 / 3);
+    font-family: $sans-serif-font-family;
+
+    a {
+      display: block;
+      color: plt('tundora');
+      font-family: $sans-serif-font-family;
+      text-decoration: underline;
     }
-
-    .view-in-browser {
-        width: percentage(1 / 3);
-        font-family: $sans-serif-font-family;
-
-        a {
-            display: block;
-            color: plt('tundora');
-            font-family: $sans-serif-font-family;
-            text-decoration: underline;
-        }
-    }
+  }
 }

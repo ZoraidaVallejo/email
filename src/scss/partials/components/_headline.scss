@@ -4,33 +4,33 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .headline {
+  width: 100%;
+
+  .label {
     width: 100%;
+    padding: 30px 0 5px;
+  }
 
-    .label {
-        width: 100%;
-        padding: 30px 0 5px;
-    }
-
-    p {
-        color: plt('tundora');
-        font-family: $sans-serif-font-family;
-        font-size: 22px;
-        font-weight: $font-weight--bold;
-        line-height: 24px;
-    }
+  p {
+    color: plt('tundora');
+    font-family: $sans-serif-font-family;
+    font-size: 22px;
+    font-weight: $font-weight--bold;
+    line-height: 24px;
+  }
 }
 
 .intro--message {
 
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 
-    p {
-        margin-bottom: $padding;
+  p {
+    margin-bottom: $padding;
 
-        &:last-child {
-            margin-bottom: 0;
-        }
+    &:last-child {
+      margin-bottom: 0;
     }
+  }
 }

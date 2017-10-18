@@ -4,37 +4,36 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .last {
-    padding-bottom: 0;
-    margin-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .no {
 
-    &-padding {
+  &-padding {
 
-        &-top {
-            padding-top: 0 !important;
-        }
-
-        &-bottom {
-            padding-bottom: 0 !important;
-        }
+    &-top {
+      padding-top: 0 !important;
     }
 
-    &-margin {
-        margin: 0;
-        Margin: 0;
+    &-bottom {
+      padding-bottom: 0 !important;
     }
+  }
+
+  &-margin {
+    margin: 0;
+  }
 }

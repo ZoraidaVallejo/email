@@ -8,17 +8,17 @@ $divider-selector: '.divider';
 // ----------------------------------------------------------------------------------------------------------
 
 .label-divider {
-    width: 100%;
+  width: 100%;
 
-    .label {
-        padding: 20px 0 15px;
-    }
+  .label {
+    padding: 20px 0 15px;
+  }
 
-    p {
-        color: plt('black');
-        font-family: $sans-serif-font-family;
-        font-size: 22px;
-        font-weight: $font-weight--bold;
-        line-height: 22px;
-    }
+  p {
+    color: plt('black');
+    font-family: $sans-serif-font-family;
+    font-size: 22px;
+    font-weight: $font-weight--bold;
+    line-height: 22px;
+  }
 }

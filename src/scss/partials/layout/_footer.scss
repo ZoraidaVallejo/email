@@ -9,92 +9,93 @@ $social-icons--gap: 4px;
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer {
-    clear: both;
-    background-color: plt('concrete');
+  clear: both;
+  background-color: plt('concrete');
+  color: plt('tundora');
+  text-align: center;
+
+  a {
     color: plt('tundora');
-    text-align: center;
+    text-decoration: none;
+  }
+
+  // stylelint-disable-next-line selector-no-qualifying-type
+  a.underlined {
+    text-decoration: underline;
+  }
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .spacer {
+    display: block;
+    opacity: 0;
+    width: $inner-max-width;
+    height: 1px;
+    font-size: 0;
+  }
+
+  .logo-social {
+    padding: 20px $padding;
+    border-bottom: 1px solid plt('mercury');
+
+    table {
+      width: 100%;
+    }
+
+    .social {
+      overflow: hidden;
+
+      table {
+        width: (($social-icons--size * 5) + ($social-icons--gap * 4)) !important;
+
+        td {
+          width: ($social-icons--size + $social-icons--gap);
+          height: $social-icons--size;
+          text-align: left;
+          vertical-align: top;
+
+          &:last-child {
+            width: $social-icons--size;
+          }
+        }
+      }
+
+      a {
+        display: inline-block !important;
+        vertical-align: middle;
+
+        img {
+          width: $social-icons--size;
+          height: $social-icons--size;
+        }
+      }
+    }
+  }
+
+  .underlined {
+    color: plt('tundora');
 
     a {
-        color: plt('tundora');
-        text-decoration: none;
-
-        &.underlined {
-            text-decoration: underline;
-        }
+      color: plt('tundora');
     }
+  }
 
-    img {
-        display: block;
-        max-width: none;
-    }
+  .disclaimer p,
+  .address p,
+  .preferences p,
+  span,
+  a {
+    font-size: 14px;
+  }
 
-    .spacer {
-        display: block;
-        opacity: 0;
-        width: $inner-max-width;
-        height: 1px;
-        font-size: 0;
-    }
+  .disclaimer {
+    padding: 20px $padding 0;
+  }
 
-    .logo-social {
-        padding: 20px $padding;
-        border-bottom: 1px solid plt('mercury');
-
-        table {
-            width: 100%;
-        }
-
-        .social {
-            overflow: hidden;
-
-            table {
-                width: (($social-icons--size * 5) + ($social-icons--gap * 4)) !important;
-
-                td {
-                    width: ($social-icons--size + $social-icons--gap);
-                    height: $social-icons--size;
-                    text-align: left;
-                    vertical-align: top;
-
-                    &:last-child {
-                        width: $social-icons--size;
-                    }
-                }
-            }
-
-            a {
-                display: inline-block !important;
-                vertical-align: middle;
-
-                img {
-                    width: $social-icons--size;
-                    height: $social-icons--size;
-                }
-            }
-        }
-    }
-
-    .underlined {
-        color: plt('tundora');
-
-        a {
-            color: plt('tundora');
-        }
-    }
-
-    .disclaimer p,
-    .address p,
-    .preferences p,
-    span,
-    a {
-        font-size: 14px;
-    }
-
-    .disclaimer {
-        padding: 20px $padding 0;
-    }
-
-    .preferences {
-        padding: 20px $padding floor($padding * 3);
-    }
+  .preferences {
+    padding: 20px $padding floor($padding * 3);
+  }
 }
