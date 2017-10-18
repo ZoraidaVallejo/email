@@ -9,16 +9,16 @@
   "scripts": {
     "test": "node scripts/test.js",
     "optim": "imageoptim --verbose --directory ./src/img",
-    "sassformat": "./node_modules/.bin/stylelint \"src/css/scss/**/*.scss\" --syntax scss --fix",
-    "sasslint": "./node_modules/.bin/stylelint \"src/css/scss/**/*.scss\" --syntax scss || true",
-    "sasslint-break-on-errors": "./node_modules/.bin/stylelint \"src/css/scss/**/*.scss\" --syntax scss",
-    "jsonformat": "./node_modules/.bin/prettier --write --print-width=999999 --parser=json \"src/data/*.json\"",
-    "format": "./node_modules/.bin/prettier --write --single-quote --print-width=140 --parser=flow \"**/*.js\"",
-    "lint": "./node_modules/.bin/eslint \"**/*.js\" --format table || true",
-    "lint-break-on-errors": "./node_modules/.bin/eslint \"**/*.js\" --format table",
-    "bump": "npm run lint-break-on-errors && node scripts/bump.js",
+    "sassformat": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss --fix",
+    "sasslint": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss || true",
+    "sasslint-break-on-errors": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss",
+    "jsonformat": "./node_modules/.bin/prettier --write --print-width=999999 --parser=json 'src/data/*.json'",
+    "format": "./node_modules/.bin/prettier --write --single-quote --print-width=140 --parser=flow '**/*.js'",
+    "lint": "./node_modules/.bin/eslint '**/*.js' --format table || true",
+    "lint-break-on-errors": "./node_modules/.bin/eslint '**/*.js' --format table",
     "build": "npm run jsonformat && npm run sasslint-break-on-errors && npm run lint-break-on-errors && grunt build",
-    "publish": "npm run jsonformat && npm run sasslint-break-on-errors && npm run lint-break-on-errors && grunt publish"
+    "publish": "npm run jsonformat && npm run sasslint-break-on-errors && npm run lint-break-on-errors && grunt publish",
+    "bump": "npm run lint-break-on-errors && node scripts/bump.js"
   },
   "repository": {
     "type": "git",

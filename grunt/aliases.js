@@ -8,21 +8,9 @@ module.exports = (grunt, options) => {
   }
 
   const commonTasks = {
-    group1: [
-      'clean:dist',
-      'sass:dist'
-    ],
-    group2: [
-      'assemble',
-      'juice',
-      'imagemin'
-    ],
-    group3: [
-      'replace:important_style',
-      'replace:remove_classes',
-      'replace:fix_responsive',
-      'replace:src_images'
-    ]
+    group1: ['clean:dist', 'sass:dist'],
+    group2: ['assemble', 'juice', 'imagemin'],
+    group3: ['replace:important_style', 'replace:remove_classes', 'replace:fix_responsive', 'replace:src_images']
   };
 
   return {
@@ -30,32 +18,13 @@ module.exports = (grunt, options) => {
 
     report: ['spreadsheet'],
 
-    newsletter: [
-      ...commonTasks.group1,
-      ...commonTasks.group2,
-      ...commonTasks.group3,
-      'replace:remove_dup_styles'
-    ],
+    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
 
-    blast: [
-      ...commonTasks.group1,
-      ...commonTasks.group2,
-      ...commonTasks.group3
-    ],
+    blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
 
-    proposal: [
-      ...commonTasks.group1,
-      'cssmin',
-      ...commonTasks.group2,
-      'replace:src_images'
-    ],
+    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:src_images'],
 
-    oyez: [
-      ...commonTasks.group1,
-      ...commonTasks.group2,
-      ...commonTasks.group3,
-      'replace:remove_dup_styles'
-    ],
+    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
 
     build: buildAlias,
 
