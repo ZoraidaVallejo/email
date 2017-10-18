@@ -20,7 +20,7 @@
       }
     ],
     "color-hex-length": "long",
-    "max-nesting-depth": 4,
+    "max-nesting-depth": 5,
     "order/properties-alphabetical-order": null,
     "order/properties-order": [
       [
@@ -255,6 +255,7 @@
         "ignore": ["after-comment"]
       }
     ],
+    "selector-max-compound-selectors": 5,
     "selector-max-id": 1
   }
 }

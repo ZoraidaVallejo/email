@@ -1021,6 +1021,7 @@ body {
 
 .w-internet-stats {
   background-color: #fafafa;
+  /* stylelint-disable selector-no-qualifying-type */
 }
 
 .w-internet-stats .stats-title {
