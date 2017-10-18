@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node scripts/test.js",
     "optim": "imageoptim --verbose --directory ./src/img",
-    "sassformat": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss --fix",
+    "sassformat": "./node_modules/.bin/stylelint 'src/css/scss/partials/**/*.scss' --syntax scss --fix",
     "sasslint": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss || true",
     "sasslint-break-on-errors": "./node_modules/.bin/stylelint 'src/css/scss/**/*.scss' --syntax scss",
     "jsonformat": "./node_modules/.bin/prettier --write --print-width=999999 --parser=json 'src/data/*.json'",
