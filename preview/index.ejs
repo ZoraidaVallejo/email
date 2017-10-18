@@ -38,6 +38,138 @@
   </section>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script>
+    function setCookie(cname, cvalue, exdays) {
+      const d = new Date();
+      d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+      const expires = `expires=${d.toUTCString()}`;
+      document.cookie = `${cname}=${cvalue}; ${expires}`;
+    }
+
+    function getCookie(cname) {
+      var name = `${cname}=`;
+      var ca = document.cookie.split(';');
+
+      for (let i = 0; i < ca.length; i += 1) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1);
+        if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+      }
+      return '';
+    }
+
+    // eslint-disable-next-line no-unused-vars
+    function checkCookie() {
+      var user = getCookie('username');
+
+      if (user !== '') {
+        // eslint-disable-next-line no-alert
+        alert(`Welcome again ${user}`);
+      } else {
+        // eslint-disable-next-line no-alert
+        user = prompt('Please enter your name:', '');
+
+        if (user !== '' && user !== null) {
+          setCookie('username', user, 365);
+        }
+      }
+    }
+
+    (function iife($) {
+      // Reusables
+      var $templateSelect = $('#template-select');
+      var $body = $('body');
+      var h = document.location.hash;
+      var drawerCookieName = 'mobile-drawer-hidden';
+
+      // On change, reload template
+      $templateSelect.on('change', function templateSelectChange() {
+        var $s = $(this);
+        var v = $s.val();
+        var ms = new Date().getTime(); // We'll timestamp each iframe load for cache-busting
+
+        if (!v) {
+          return;
+        }
+
+        $('iframe').attr('src', `${v}?t=${ms}`);
+        document.location.hash = `template:${v}`;
+      });
+
+      // Preload selected template from hashed template:
+      if (h && h.indexOf('template:') !== -1) {
+        const tpl = h.split(':')[1];
+        $templateSelect.val(tpl).trigger('change');
+      }
+
+      // Mobile Preview Drawer
+      function mobilePreviewDrawer() {
+        var $toggleBtns = $('.js-drawer-toggle');
+        // var $mobileDrawer = $('#mobile-drawer');
+        var drawerHiddenClass = 'mobile-drawer-hidden';
+
+        $toggleBtns.on('click', () => {
+          $body.toggleClass(drawerHiddenClass);
+
+          // Remember via cookie the drawer state
+          if ($body.hasClass(drawerHiddenClass)) {
+            setCookie(drawerCookieName, 1, 30);
+          } else {
+            setCookie(drawerCookieName, 1, -30);
+          }
+        });
+      }
+
+      mobilePreviewDrawer();
+
+      // Close the drawer onload if we have the cookie
+      if (getCookie(drawerCookieName)) {
+        $('.js-drawer-toggle:eq(0)').trigger('click');
+      }
+
+      // Debounce helper
+      // url: http://davidwalsh.name/javascript-debounce-function
+      function debounce(func, wait, immediate) {
+        var timeout;
+
+        return function returnedDebounce() {
+          var context = this;
+          // eslint-disable-next-line prefer-rest-params
+          var args = arguments;
+
+          var later = () => {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+          };
+
+          var callNow = immediate && !timeout;
+
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+
+          if (callNow) func.apply(context, args);
+        };
+      }
+
+      // iFrame Sizing
+      function resizeUi() {
+        var headerHeight = $('#header').height();
+        var windowHeight = $(window).height();
+        var uiHeightAvail = windowHeight - headerHeight;
+        var $fullHeightEls = $('.preview-ui, .preview-ui--full, .preview-ui--full iframe, .preview-ui--mobile');
+
+        $fullHeightEls.height(uiHeightAvail);
+      }
+
+      // Debouce UI resizing
+      const resizeUiDebouced = debounce(() => {
+        resizeUi();
+      }, 200);
+
+      window.addEventListener('resize', resizeUiDebouced);
+
+      // Trigger UI resize since the page is painted
+      resizeUi();
+    })(jQuery);
   </script>
 </body>
 </html>
