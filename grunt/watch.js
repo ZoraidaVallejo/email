@@ -20,7 +20,7 @@ module.exports = (grunt, options) => ({
 
   preview: {
     files: ['<%= paths.preview %>/scss/**/*'],
-    tasks: ['sass:preview', 'autoprefixer:preview'],
+    tasks: ['sass:preview', 'postcss:preview'],
     options: {
       livereload: true
     }
