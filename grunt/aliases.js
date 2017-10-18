@@ -1,11 +1,17 @@
 module.exports = (grunt, { conversionType }) => {
   // BLAST configuration
-  let buildAlias = [conversionType, 'replace:live_images', 'spreadsheet'];
+  let buildAlias = [conversionType, 'replace:live_images'];
+
+  if (conversionType !== 'proposal') {
+    buildAlias = buildAlias.concat(['spreadsheet']);
+  }
 
   // Newsletter configuration overwrite
   if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
     buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
   }
+
+  console.log(buildAlias);
 
   const commonTasks = {
     group1: ['clean:dist', 'sass:dist'],
