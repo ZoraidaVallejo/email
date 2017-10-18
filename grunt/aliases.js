@@ -11,8 +11,6 @@ module.exports = (grunt, { conversionType }) => {
     buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
   }
 
-  console.log(buildAlias);
-
   const commonTasks = {
     group1: ['clean:dist', 'sass:dist'],
     group2: ['assemble', 'juice', 'imagemin'],
