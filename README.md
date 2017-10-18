@@ -12,7 +12,7 @@
   - [Yarn](#yarn)
   - [Packages](#packages)
 - [Folder structure](#folder-structure)
-  - [CSS](#css)
+  - [SCSS](#scss)
     - [Modules](#modules)
     - [Partials](#partials)
   - [Templates](#templates)
@@ -47,22 +47,22 @@ Use the [NVM documentation](https://github.com/creationix/nvm#install-script) fo
 
 ### Node.js
 
-Using `nvm`, install the 6.9 version of node:
+Using `nvm`, install node v7:
 
 ```shell
-nvm install 6.9.2
+nvm install 7.10
 ```
 
 **I highly recommend you** to set this new version of Node as **default** to be used in any new shell:
 
 ```shell
-nvm alias default 6.9.2
+nvm alias default 7.10
 ```
 
 You can do it manually too:
 
 ```shell
-nvm use 6.9.2
+nvm use 7.10
 ```
 
 ### Yarn
@@ -94,62 +94,61 @@ yarn install
 ```
 /
 ├── dist/
+├── examples/
 ├── grunt/
 ├── preview/
-├── scripts/
 ├── public/
+├── scripts/
 └── src/
     ├── css/
-    │   └── scss/
-    │       ├── modules/
-    │       └── partials/
     ├── data/
     ├── emails/
-    ├── helpers/
     ├── img/
     ├── layouts/
     └── partials/
-        ├── ui-components/
-        └── components/
+    │   ├── ui-components/
+    │   └── components/
+    └── scss/
+        ├── modules/
+        └── partials/
 ```
 
 Folder name | Description
 ----------- | -----------
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
+`examples/` | Mail template starters: it includes Blast, Newsletter, Oyez and Proposal (pdf).
 `grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
-`preview/` | All files related to the preview window where you see a *preview* of your work.
-`scripts/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
+`preview/` | All files related to the preview window where you see a _preview_ of your work.
 `public/` | Folder where the final HTML files are stored.
+`scripts/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
 `src/` | Main folder where the source files of the email template are stored.
-`css/scss/modules/` | [More info](#modules).
-`css/scss/partials/` | [More info](#partials).
 `data/` | Contain **.json** data files that can be used in your templates [More info](#data).
 `emails/` | Place where your main template(s) will go. 
-`helpers/` | Custom handlebar helpers.
 `img/` | [More Info](#images)
 `layouts/` | Contain the standard HTML wrapper markup. You most likely will only need one layout template, but you can have as many as you like.
 `partials/ui-components/` | [More info](#ui-components).
 `partials/components/` | [More info](#components).
+`scss/modules/` | [More info](#modules).
+`scss/partials/` | [More info](#partials).
 
-
-### CSS
+### SCSS
 
 This project uses [SASS](http://sass-lang.com/).
 
-Media queries and responsive styles are in a separate stylesheet [preserve.scss](https://github.com/justia/justatic/blob/develop/newsletters/src/css/scss/preserve.scss) so that they don't get inlined. Go to [Responsive behavior](#responsive-behavior) to know how to set and use the responsive classes.
+Media queries and responsive styles are in a separate stylesheet [preserve.scss](https://github.com/justia/justatic/blob/develop/newsletters/src/scss/preserve.scss) so that they don't get inlined. Go to [Responsive behavior](#responsive-behavior) to know how to set and use the responsive classes.
 
 > **Note**: Only a few email clients support media queries. Litmus has done his homework and created this article for us: [***"Understanding Media Queries in HTML Email"***](https://litmus.com/blog/understanding-media-queries-in-html-email). Please read it :D (seriously, read it `୧( ಠ Д ಠ )୨` ).
 
 
 #### Modules
 
-Directory reserved for Sass code that doesn't cause Sass to actually output CSS. Things like mixin declarations, functions, and variables. Most of the time you won't need to modify any of these files.
+Directory reserved for SASS code that doesn't cause SASS to actually output CSS. Things like mixin declarations, functions, and variables. Most of the time you won't need to modify any of these files.
 
-This folder contains:
+Since this project uses the [frontend helpers](https://github.com/justia/frontend-helpers) module, the following folders only contain custom code:
 
-- `functions/`: A variety of functions for manage/modify colors, search/extend maps and do some mathematical operations. You will also find a file named **fn-shame**, where all the functions that are not properly documented with the [SassDoc annotations](http://sassdoc.com/annotations/) are.
-- `mixins/`: Chunks of style rules. For now, it only has a mixin to declare a `font-face` rule.
-- `settings/`: All the variables are declared here: available colors, font-sizes, dimentions and other stuff.
+- `functions/`: Custom/hardcoded functions specific for the current conversion.
+- `mixins/`: Custom/hardcoded mixins specific for the current conversion.
+- `settings/`: Custom/hardcoded variables specific for the current conversion.
 
 
 #### Partials
@@ -264,7 +263,8 @@ There are some cases that you will need different content for the same block, sp
 
 Before you start, check/modify the **custom-config.json** file and make sure it has the correct configuration:
 
-- **`conversionType`**: Type of conversion: `blast` or `newsletter`.
+- **`version`**: Workflow version which the current conversion is compatible with. If this value is not defined, the workflow will assume the conversion is compiled with a workflow version 1.
+- **`conversionType`**: Type of conversion: `blast`, `newsletter`, `oyez` and `proposal`.
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
 - **`justatic_version`**: Version of Justatic to use in all absolute URL's.
 - **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
@@ -280,18 +280,22 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
   - **`remote_img_path`**: Remote folder to upload all images.
 
 
-### Grunt commands
+### Commands
 
-- **`grunt`**: Clean the `dist/` folder and builds the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
-- **`grunt serve`**: Run the default command (`grunt`), opens a local server and keeps watching your changes until you stop the proccess.
-- **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
-- **`grunt build`**: Run the default command, but this time the HTML will be compressed and all URL's will be absolute. The `grunt report` command also run with the `build`.
-- **`grunt upload`**: Upload all the images to the remote server.
-- **`grunt publish`**: This command does the following:
-  - Run the `build` command.
-  - Copy all the HTML files located in the `dist/` folder to the `public/` folder and categorize them by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
-  - Compress the **custom-config.json** file, `src/` and `dist/` folders.
-  - Delete all the folders and files that were zipped and the `tags/` folder.
+- **Grunt**:
+  - **`grunt`**: Clean the `dist/` folder and build the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
+  - **`grunt serve`**: Run the default command (`grunt`), open a local server and keep watching your changes until you stop the proccess.
+  - **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
+  - **`grunt upload`**: Upload all the images to the remote server.
+- **Node**:
+  - **`npm run build`**: This command does the following:
+    - Reformat all json files realted to the current conversion, including the `custom-config.json` and all the files within the `data/` folder.
+    - Run **stylelint** and check all the SASS files realated to this conversion. The process will stop if there are errors.
+    - Build the files (`grunt build`) and prepare them for distribution. The report will also be created during the process.
+  - **`npm run publish`**: This command is similar to the previous one but with more steps:
+    - After the distribution files are ready, all the HTML files located in the `dist/` folder are copied to the `public/` folder and categorized by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
+    - Compress the **custom-config.json** file, `src/` and `dist/` folders.
+    - Delete all the folders and files that were zipped and the `tags/` folder.
 
 For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
 
