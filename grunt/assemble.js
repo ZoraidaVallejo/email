@@ -1,8 +1,6 @@
 const cwd = process.cwd();
 const path = require('path');
 
-console.log(__dirname, cwd);
-
 module.exports = {
   options: {
     layouts: [
