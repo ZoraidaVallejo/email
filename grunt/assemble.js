@@ -1,6 +1,14 @@
+const cwd = process.cwd();
+const path = require('path');
+
+console.log(__dirname, cwd);
+
 module.exports = {
   options: {
-    layoutdir: '<%= paths.src %>/layouts',
+    layouts: [
+      path.join(cwd, '/common/layouts/*.hbs'),
+      '<%= paths.src %>/layouts/*.hbs'
+    ],
     partials: ['<%= paths.src %>/partials/**/*.hbs'],
     plugins: 'grunt-assemble-contextual',
     contextual: {
