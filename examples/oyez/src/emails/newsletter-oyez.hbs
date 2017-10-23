@@ -12,7 +12,7 @@ tagline_header: Listen to U.S. Supreme Court arguments from March 2017, provided
   {{!-- HEADER --}}
   <tr>
     <td align="center" height="100%" width="100%" valign="top">
-      {{> header tagline=tagline_header }}
+      {{> oyez-header tagline=tagline_header }}
     </td>
   </tr>
 
@@ -22,13 +22,13 @@ tagline_header: Listen to U.S. Supreme Court arguments from March 2017, provided
   <tr>
     <td align="center" height="100%" width="100%" valign="top">
 
-      {{> layoutHack tableStart=true }}
+      {{> ui-layout-hack tableStart=true }}
         {{> main-image }}
 
-      {{> layoutHack tableMiddleSeparator=true }}
+      {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> opinions }}
 
-      {{> layoutHack tableEnd=true }}
+      {{> ui-layout-hack tableEnd=true }}
 
     </td>
   </tr>
@@ -37,7 +37,7 @@ tagline_header: Listen to U.S. Supreme Court arguments from March 2017, provided
   {{!-- FOOTER --}}
   <tr>
     <td align="center" height="100%" width="100%" valign="top">
-      {{> footer}}
+      {{> oyez-footer }}
     </td>
   </tr>
 

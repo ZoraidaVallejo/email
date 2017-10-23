@@ -7,7 +7,10 @@ module.exports = {
       path.join(cwd, '/common/layouts/*.hbs'),
       '<%= paths.src %>/layouts/*.hbs'
     ],
-    partials: ['<%= paths.src %>/partials/**/*.hbs'],
+    partials: [
+      path.join(cwd, '/common/ui-components/*.hbs'),
+      '<%= paths.src %>/partials/**/*.hbs'
+    ],
     plugins: 'grunt-assemble-contextual',
     contextual: {
       dest: './temp/'
