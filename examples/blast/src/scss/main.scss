@@ -12,12 +12,12 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
-  'partials/misc/global';
+  'partials/misc/global',
+  'partials/layout/main-container';
 
 @import
-  'partials/layout/main-container',
-  'partials/layout/header-v2',
-  'partials/layout/footer-v2';
+  'justia-header-v2',
+  'justia-footer-v2';
 
 @import
   'partials/components/template-1',

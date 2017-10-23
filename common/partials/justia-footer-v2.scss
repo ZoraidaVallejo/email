@@ -1,6 +1,6 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// F O O T E R
+// J U S T I A   F O O T E R   V 2
 // ----------------------------------------------------------------------------------------------------------
 
 $social-icons-v2--size: 32px;
@@ -11,7 +11,7 @@ $footer-logo-v2-height: 29px;
 
 // ----------------------------------------------------------------------------------------------------------
 
-.main-footer-v2 {
+.justia-footer-v2 {
   clear: both;
   width: $max-width;
   background-color: plt('white');
@@ -121,7 +121,7 @@ $footer-logo-v2-height: 29px;
     }
 
     .justia-inline {
-      font: $font-weight--bold 14px/1.38 $sans-serif-font-family !important;
+      font: tp('weight', 'bold') 14px/1.38 $sans-serif-font-family !important;
       text-transform: uppercase;
     }
   }

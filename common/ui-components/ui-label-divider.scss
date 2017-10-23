@@ -1,6 +1,6 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// D I V I D E R S
+// U I   D I V I D E R S
 // ----------------------------------------------------------------------------------------------------------
 
 $divider-colors: (
@@ -28,7 +28,7 @@ $divider-colors: (
 
 // ----------------------------------------------------------------------------------------------------------
 
-.label-divider {
+.ui-label-divider {
   width: 100%;
   margin: 0 auto;
 
@@ -36,7 +36,7 @@ $divider-colors: (
     padding: 4px 0;
     margin: 0;
     color: plt('white');
-    font: $font-weight--bold 14px/1 $sans-serif-font-family;
+    font: tp('weight', 'bold') 14px/1 $sans-serif-font-family;
     text-transform: uppercase;
   }
 

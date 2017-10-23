@@ -16,11 +16,7 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
-  'partials/misc/global';
-
-@import
-  'partials/layout/main-container',
-  'partials/layout/porposal-header';
-
-@import
-  'partials/misc/other';
+  'partials/global',
+  'partials/main-container',
+  'partials/porposal-header',
+  'partials/other';

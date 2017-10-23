@@ -16,21 +16,12 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
-  'partials/misc/global',
-  'partials/misc/type';
-
-@import
-  'partials/layout/main-container',
-  'partials/layout/header',
-  'partials/layout/footer';
-
-@import
-  'partials/widgets/welcome',
-  'partials/widgets/opinions';
-
-@import
-  'partials/components/label-dividers',
-  'partials/components/headline';
-
-@import
-  'partials/misc/other';
+  'partials/global',
+  'partials/main-container',
+  'partials/oyez-header',
+  'partials/oyez-footer',
+  'partials/main-image',
+  'partials/opinions',
+  'partials/label-divider',
+  'partials/headline',
+  'partials/other';

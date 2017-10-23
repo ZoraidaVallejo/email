@@ -44,7 +44,7 @@ body {
     padding: 0 0 5px;
     color: plt('mail', 'shuttle-gray');
     font-size: 14px;
-    font-weight: $font-weight--bold;
+    font-weight: tp('weight', 'bold');
     text-transform: uppercase;
     line-height: 14px;
   }
@@ -52,7 +52,7 @@ body {
   &-main-title {
     color: plt('black');
     font-size: 29px;
-    font-weight: $font-weight--normal;
+    font-weight: tp('weight', 'normal');
     line-height: 37px;
   }
 }

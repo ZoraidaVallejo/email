@@ -1,24 +1,36 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// D I V I D E R S
+// H E A D L I N E S
 // ----------------------------------------------------------------------------------------------------------
 
-$divider-selector: '.divider';
-
-// ----------------------------------------------------------------------------------------------------------
-
-.label-divider {
+.headline {
   width: 100%;
 
   .label {
-    padding: 20px 0 15px;
+    width: 100%;
+    padding: 30px 0 5px;
   }
 
   p {
-    color: plt('black');
+    color: plt('tundora');
     font-family: $sans-serif-font-family;
     font-size: 22px;
-    font-weight: $font-weight--bold;
-    line-height: 22px;
+    font-weight: tp('weight', 'bold');
+    line-height: 24px;
+  }
+}
+
+.intro--message {
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: $padding;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

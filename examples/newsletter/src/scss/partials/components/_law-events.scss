@@ -61,7 +61,7 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
   .date {
     color: plt('white');
-    font: $font-weight--bold 20px/1 $sans-serif-font-family;
+    font: tp('weight', 'bold') 20px/1 $sans-serif-font-family;
   }
 
   .desc {
