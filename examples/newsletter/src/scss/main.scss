@@ -16,8 +16,8 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
-  'partials/misc/global',
-  'partials/layout/main-container';
+  'partials/global',
+  'partials/main-container';
 
 @import
   'justia-header-v1',
@@ -42,7 +42,7 @@ $use-breakpoint: false;
   'partials/components/law-events';
 
 @import
-  'partials/misc/other';
+  'partials/other';
 
 @import
   'partials/components/client-specific',

@@ -12,16 +12,16 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
-  'partials/misc/global',
-  'partials/layout/main-container';
+  'partials/global',
+  'partials/main-container';
 
 @import
   'justia-header-v2',
   'justia-footer-v2';
 
 @import
-  'partials/components/template-1',
-  'partials/components/template-2';
+  'partials/template-1',
+  'partials/template-2';
 
 @import
-  'partials/misc/other';
+  'partials/other';
