@@ -1,4 +1,4 @@
-/* stylelint-disable selector-class-pattern, selector-no-qualifying-type, property-no-vendor-prefix, length-zero-no-unit */
+/* stylelint-disable */
 body,
 table,
 td,
@@ -155,11 +155,11 @@ div[style*='margin: 16px 0;'] {
   .mobile-no-border {
     border: 0 !important;
   }
-  .main-footer-v1 .logo {
+  .justia-footer-v1 .logo {
     padding-bottom: 20px !important;
     border-bottom: 1px solid #00b3e3;
   }
-  .main-footer-v1 .social {
+  .justia-footer-v1 .social {
     padding-top: 20px !important;
   }
 }
