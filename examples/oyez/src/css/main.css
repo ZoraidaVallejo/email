@@ -81,60 +81,60 @@ body {
   padding: 45px 30px;
 }
 
-.main-header {
+.oyez-header {
   background: #f2f2f2;
   color: #424242;
   font-size: 13px;
 }
 
-.main-header .tagline-wrapper {
+.oyez-header .tagline-wrapper {
   width: auto;
   padding: 15px 30px;
   vertical-align: middle;
 }
 
-.main-header .tagline-wrapper table {
+.oyez-header .tagline-wrapper table {
   width: 100%;
 }
 
-.main-header .tagline {
+.oyez-header .tagline {
   display: block;
 }
 
-.main-header .view-in-browser {
+.oyez-header .view-in-browser {
   width: 33.3333333333%;
   font-family: Helvetica, Arial, sans-serif, serif;
 }
 
-.main-header .view-in-browser a {
+.oyez-header .view-in-browser a {
   display: block;
   color: #424242;
   font-family: Helvetica, Arial, sans-serif, serif;
   text-decoration: underline;
 }
 
-.main-footer {
+.oyez-footer {
   clear: both;
   background-color: #f2f2f2;
   color: #424242;
   text-align: center;
 }
 
-.main-footer a {
+.oyez-footer a {
   color: #424242;
   text-decoration: none;
 }
 
-.main-footer a.underlined {
+.oyez-footer a.underlined {
   text-decoration: underline;
 }
 
-.main-footer img {
+.oyez-footer img {
   display: block;
   max-width: none;
 }
 
-.main-footer .spacer {
+.oyez-footer .spacer {
   display: block;
   opacity: 0;
   width: 540px;
@@ -142,73 +142,73 @@ body {
   font-size: 0;
 }
 
-.main-footer .logo-social {
+.oyez-footer .logo-social {
   padding: 20px 30px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.main-footer .logo-social table {
+.oyez-footer .logo-social table {
   width: 100%;
 }
 
-.main-footer .logo-social .social {
+.oyez-footer .logo-social .social {
   overflow: hidden;
 }
 
-.main-footer .logo-social .social table {
+.oyez-footer .logo-social .social table {
   width: 176px !important;
 }
 
-.main-footer .logo-social .social table td {
+.oyez-footer .logo-social .social table td {
   width: 36px;
   height: 32px;
   text-align: left;
   vertical-align: top;
 }
 
-.main-footer .logo-social .social table td:last-child {
+.oyez-footer .logo-social .social table td:last-child {
   width: 32px;
 }
 
-.main-footer .logo-social .social a {
+.oyez-footer .logo-social .social a {
   display: inline-block !important;
   vertical-align: middle;
 }
 
-.main-footer .logo-social .social a img {
+.oyez-footer .logo-social .social a img {
   width: 32px;
   height: 32px;
 }
 
-.main-footer .underlined {
+.oyez-footer .underlined {
   color: #424242;
 }
 
-.main-footer .underlined a {
+.oyez-footer .underlined a {
   color: #424242;
 }
 
-.main-footer .disclaimer p,
-.main-footer .address p,
-.main-footer .preferences p,
-.main-footer span,
-.main-footer a {
+.oyez-footer .disclaimer p,
+.oyez-footer .address p,
+.oyez-footer .preferences p,
+.oyez-footer span,
+.oyez-footer a {
   font-size: 14px;
 }
 
-.main-footer .disclaimer {
+.oyez-footer .disclaimer {
   padding: 20px 30px 0;
 }
 
-.main-footer .preferences {
+.oyez-footer .preferences {
   padding: 20px 30px 90px;
 }
 
-.intro {
+.main-image {
   background-color: #ffffff;
 }
 
-.intro .head-img {
+.main-image .head-img {
   width: 600px;
   height: 450px;
   background: url("../img/main-image-01.jpg");
@@ -217,13 +217,22 @@ body {
   vertical-align: middle;
 }
 
-.intro--message {
+.main-image--message {
   padding: 25px 30px 5px;
 }
 
-.intro--message p {
+.main-image--message a {
+  text-decoration: none;
+}
+
+.main-image--message p {
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 1.3;
+}
+
+.main-image--message p:last-child {
+  margin-bottom: 0;
 }
 
 .w-tech-news {

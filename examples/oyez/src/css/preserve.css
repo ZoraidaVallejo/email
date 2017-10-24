@@ -149,11 +149,4 @@ div[style*='margin: 16px 0;'] {
   .mobile-no-border {
     border: 0 !important;
   }
-  .main-footer-v1 .logo {
-    padding-bottom: 20px !important;
-    border-bottom: 1px solid #00b3e3;
-  }
-  .main-footer-v1 .social {
-    padding-top: 20px !important;
-  }
 }

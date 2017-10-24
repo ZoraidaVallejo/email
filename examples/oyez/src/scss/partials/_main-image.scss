@@ -22,9 +22,18 @@ $main-image--dimensions: image-dimensions('/src/img/main-image-01.jpg');
   &--message {
     padding: 25px $padding 5px;
 
+    a {
+      text-decoration: none;
+    }
+
     p {
+      margin-bottom: 30px;
       font-size: 18px;
       line-height: 1.3;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
