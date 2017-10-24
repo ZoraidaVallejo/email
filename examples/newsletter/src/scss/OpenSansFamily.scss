@@ -5,9 +5,7 @@
 
 $use-breakpoint: false;
 
-@import
-  'sassy-maps',
-  'frontend-helpers';
+@import 'frontend-helpers';
 
 @import
   'modules/functions',
