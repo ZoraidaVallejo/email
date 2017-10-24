@@ -166,7 +166,7 @@ Now, this one is important:
 - `components/`: Styles for all the *handlebar components* of the template. *Add/modify/delete* any file if you need to.
 
 > **Note**:
-> Some handlebar *UI components* or *components* will require a SASS partial. Name the new files like the handlebar component. For instance: **columnsGrid.hbs** → **columns-grid.scss**
+> Some handlebar *UI components* or *components* will require a SASS partial. Name the new files like the handlebar component. For instance: **ui-columns-grid.hbs** → **ui-columns-grid.scss**
 > Notice that the hbs file name is in camelCase and the SASS file uses dashes as separators. The reason is because you will posibly include the hbs component more than once (in my opinion, if use the dash format it becomes a little anoying to select/change/add it).
 
 
