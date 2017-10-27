@@ -1,0 +1,42 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C L O S E D   W O N 
+// ----------------------------------------------------------------------------------------------------------
+
+.closedwon {
+
+    a {
+        color: plt('catalina-blue') !important;
+        font-weight: $font-weight--bold;
+        text-decoration: none;
+    }
+
+    .title,
+    .subtitle {
+        color: #02337c;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .subtitle {
+        color: #555555;
+    }
+
+    .desc {
+        color: #555555;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: $font-weight--normal;
+        line-height: 1.5;
+
+        &-list {
+            padding: 1em 0 1em 48px;
+            margin: 0;
+        }
+    }
+
+    img {
+        margin: 0 auto;
+    }
+}
