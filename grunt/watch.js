@@ -16,13 +16,5 @@ module.exports = (grunt, { version, conversionType, paths }) => ({
     options: {
       livereload: true
     }
-  },
-
-  preview: {
-    files: [`${paths.preview}/scss/**/*`],
-    tasks: ['sass:preview', 'postcss:preview'],
-    options: {
-      livereload: true
-    }
   }
 });

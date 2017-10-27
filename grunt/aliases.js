@@ -28,13 +28,15 @@ module.exports = (grunt, { conversionType }) => {
 
     oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
 
-    serve: [conversionType, 'sass:preview', 'postcss:preview', 'express', 'open', 'watch'],
+    serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
 
     report: ['spreadsheet'],
 
     upload: ['imagemin', 'sftp-deploy'],
 
     build: buildAlias,
+
+    buildPreview: ['sass:preview', 'postcss:preview'],
 
     publish: ['build', 'copy', 'compress', 'clean:all'],
 
