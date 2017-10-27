@@ -38,7 +38,7 @@ if (!PKG_LOCK) {
 // ---------------------------------------------------------------------------------------------------------------------
 
 const versionList = $.versionInfo(PKG.version);
-const targetBranch = 'develop';
+const targetBranch = 'master';
 const repoURL = PKG.repository.url.replace(/(?:git\+|\.git)/g, '');
 
 $.overallStatus()

@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const timeGrunt = require('time-grunt');
 const loadGruntConfig = require('load-grunt-config');
 
-const customConfig = require('./custom-config.json');
+const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
 const getMonths = require('./scripts/handlebars-helpers/getMonth');
 const $ = require('./scripts/helpers');
 
