@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "nps",
-    "test": "nps test",
-    "publish": "npm run jsonformat-data && npm run sasslint-break-on-errors && grunt publish"
+    "test": "nps test"
   },
   "repository": {
     "type": "git",

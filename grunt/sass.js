@@ -7,10 +7,7 @@ module.exports = (grunt, { version, paths }) => ({
   dist: {
     options: Eyeglass({
       outputStyle: 'expanded',
-      includePaths: [
-        path.join(cwd, '/common/partials/'),
-        path.join(cwd, '/common/ui-components/')
-      ]
+      includePaths: [path.join(cwd, '/common/partials/'), path.join(cwd, '/common/ui-components/')]
     }),
     files: [
       {

@@ -1,18 +1,49 @@
+const npsUtils = require('nps-utils');
+
+const serialize = npsUtils.series;
+
+const localBins = {
+  stylelint: {
+    bin: './node_modules/.bin/stylelint --syntax scss',
+    files: ['src/scss/**/*.scss', '!src/scss/preserve.scss']
+  },
+  prettier: './node_modules/.bin/prettier --write',
+  eslint: './node_modules/.bin/eslint "**/*.js"'
+};
+
 module.exports = {
   scripts: {
     test: 'node scripts/test.js',
+
     optim: 'imageoptim --verbose --directory ./src/img',
-    sassformat: './node_modules/.bin/stylelint --syntax scss --fix "src/scss/**/*.scss" "!src/scss/preserve.scss"',
-    sasslint: './node_modules/.bin/stylelint --syntax scss "src/scss/**/*.scss" || true',
-    sasslintBreakOnErrors: './node_modules/.bin/stylelint --syntax scss "src/scss/**/*.scss"',
-    jsonformat: './node_modules/.bin/prettier --write --parser=json "*.json" "!package*.json" "!custom-config.json"',
-    jsonformatData: './node_modules/.bin/prettier --write --print-width=999999 --parser=json "custom-config.json" "src/data/*.json"',
-    format: './node_modules/.bin/prettier --write --single-quote --print-width=140 --parser=flow "**/*.js"',
-    lint: './node_modules/.bin/eslint "**/*.js" --format table || true',
-    lintFix: './node_modules/.bin/eslint "**/*.js" --fix',
-    lintBreakOnErrors: './node_modules/.bin/eslint "**/*.js" --format table',
-    build: 'nps "jsonformatData npm run sasslint-break-on-errors && grunt build"',
-    bump: 'nps "lintBreakOnErrors node scripts/bump.js"',
-    publish: 'npm run jsonformat-data && npm run sasslint-break-on-errors && grunt publish'
+
+    js: {
+      format: `${localBins.prettier} --single-quote --print-width=140 --parser=flow "**/*.js"`,
+      lint: {
+        default: `${localBins.eslint} || true`,
+        fix: `${localBins.eslint} --fix`,
+        strict: localBins.eslint
+      }
+    },
+
+    sass: {
+      format: `${localBins.stylelint.bin} "${localBins.stylelint.files.join('" "')}" --fix`,
+      lint: {
+        default: `${localBins.stylelint.bin} "${localBins.stylelint.files[0]}" || true`,
+        strict: `${localBins.stylelint.bin} "${localBins.stylelint.files[0]}"`
+      }
+    },
+
+    json: {
+      format: {
+        default: `${localBins.prettier} --parser=json "*.json" "!package*.json" "!custom-config.json"`,
+        data: `${localBins.prettier} --parser=json --print-width=999999 "custom-config.json" "src/data/*.json"`
+      }
+    },
+
+    build: serialize(serialize.nps('json.format.data', 'sass.lint.strict'), 'grunt build'),
+    publish: serialize(serialize.nps('json.format.data', 'sass.lint.strict'), 'grunt publish'),
+
+    bump: serialize('nps js.lint.strict', 'node scripts/bump.js')
   }
 };

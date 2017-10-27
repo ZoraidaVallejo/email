@@ -41,7 +41,8 @@ function log(first, ...lines) {
 
 log.error = function logError(first, ...lines) {
   console.error(`${chalk.red(logMessage(figures.cross, first, lines).join('\n'))}\n`);
-  throw new Error();
+  // eslint-disable-next-line
+  process.exit(1);
 };
 
 log.info = function logInfo(first, ...lines) {
