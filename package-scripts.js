@@ -12,8 +12,6 @@ if (customConfig && !customConfig.version) {
 
 const linterTasks = workflowVersion === 2 ? serialize.nps('json.format.data', 'sass.lint.strict') : '';
 
-console.log(workflowVersion);
-
 const localBins = {
   stylelint: {
     bin: './node_modules/.bin/stylelint --syntax scss',
