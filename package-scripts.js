@@ -1,11 +1,18 @@
 const fs = require('fs');
 const npsUtils = require('nps-utils');
 
+const serialize = npsUtils.series;
 const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null;
 
-console.log(customConfig);
+let workflowVersion = 2;
 
-const serialize = npsUtils.series;
+if (customConfig && !customConfig.version) {
+  workflowVersion = 1;
+}
+
+const linterTasks = workflowVersion === 2 ? serialize.nps('json.format.data', 'sass.lint.strict') : '';
+
+console.log(workflowVersion);
 
 const localBins = {
   stylelint: {
@@ -46,8 +53,8 @@ module.exports = {
       }
     },
 
-    build: serialize(serialize.nps('json.format.data', 'sass.lint.strict'), 'grunt build'),
-    publish: serialize(serialize.nps('json.format.data', 'sass.lint.strict'), 'grunt publish'),
+    build: serialize(linterTasks, 'grunt build'),
+    publish: serialize(linterTasks, 'grunt publish'),
 
     bump: serialize('nps js.lint.strict', 'node scripts/bump.js')
   }
