@@ -8,9 +8,20 @@ const customConfig = require('./custom-config.json'); // eslint-disable-line imp
 const getMonths = require('./scripts/handlebars-helpers/getMonth');
 const $ = require('./scripts/helpers');
 
+if (!customConfig.version) {
+  customConfig.currentYear = customConfig.current_year;
+  customConfig.currentMonth = customConfig.current_month;
+  customConfig.compressedFileName = customConfig.compressed_file_name;
+
+  customConfig.paths.srcImg = customConfig.paths.src_img;
+  customConfig.paths.distImg = customConfig.paths.dist_img;
+  customConfig.paths.liveImg = customConfig.paths.live_img;
+  customConfig.paths.remoteImgPath = customConfig.paths.remote_img_path;
+}
+
 const monthNum = parseInt(customConfig.currentMonth, 10);
 const configuration = Object.assign({}, customConfig, {
-  currentMonthString: getMonths(monthNum)
+  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonths(monthNum)
 });
 
 if (monthNum < 1 || monthNum > 12) {

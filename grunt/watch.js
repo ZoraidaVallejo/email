@@ -7,7 +7,7 @@ module.exports = (grunt, { version, conversionType, paths }) => ({
       `${paths.src}${!version ? '/css' : ''}/scss/**/*`,
       `${paths.src}/partials/**/*`
     ],
-    tasks: [conversionType, 'stylelint']
+    tasks: !version ? conversionType : [conversionType, 'stylelint']
   },
 
   dist: {

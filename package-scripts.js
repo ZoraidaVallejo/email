@@ -1,4 +1,9 @@
+const fs = require('fs');
 const npsUtils = require('nps-utils');
+
+const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null;
+
+console.log(customConfig);
 
 const serialize = npsUtils.series;
 

@@ -10,7 +10,8 @@ module.exports = (grunt, { version, paths }) => ({
       includePaths: [
         path.join(cwd, '/common/partials/'),
         path.join(cwd, '/common/ui-components/'),
-        path.join(cwd, '/node_modules/sassy-maps/sass/') // Kept it due to legacy support.
+        // Kept it due to legacy support.
+        path.join(cwd, '/node_modules/sassy-maps/sass/')
       ]
     }),
     files: [
