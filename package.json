@@ -66,6 +66,7 @@
     "jit-grunt": "^0.10.0",
     "prettier": "^1.7.4",
     "replace-in-file": "^2.5.0",
+    "sassy-maps": "github:at-import/Sassy-Maps#v0.4.0",
     "stylelint": "^8.2.0",
     "stylelint-config-sass-guidelines": "^3.1.0"
   },
