@@ -14,22 +14,22 @@
     <!-- stats-desc-head align-center -->
     <td class="stats-subtitle align-center" responsive="mobile-padding-horizontal-sides">
       <!-- line1 -->
-      <p class="line1">{{{ internet_stats.subtitle }}}</p>
+      <p class="line1">{{{ internetStats.subtitle }}}</p>
     </td>
   </tr>
   <tr>
     <!-- stats-chart -->
     <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
-      {{#if internet_stats.link }}<a href="{{ internet_stats.link }}" target="_blank">{{/if}}
-        <img src="{{ default.imageDirSrc }}/internet-stats-01.png" alt="{{ internet_stats.subtitle }}" />
-      {{#if internet_stats.link }}</a>{{/if}}
+      {{#if internetStats.link }}<a href="{{ internetStats.link }}" target="_blank">{{/if}}
+        <img src="{{ default.imageDirSrc }}/internet-stats-01.png" alt="{{ internetStats.subtitle }}" />
+      {{#if internetStats.link }}</a>{{/if}}
     </td>
   </tr>
-  {{#is internet_stats.description "" }}{{else}}
+  {{#is internetStats.description "" }}{{else}}
   <tr>
     <!-- stats-desc -->
     <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-      <p>{{{ internet_stats.description }}}</p>
+      <p>{{{ internetStats.description }}}</p>
     </td>
   </tr>
   {{/is}}

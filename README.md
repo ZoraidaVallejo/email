@@ -233,12 +233,12 @@ Avoid using any of the following names, **they will be ignore when uploading to 
 
 Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores.
 
-For instance: The information showed in `custom-component.hbs` component is feeded by `custom_component.json` file.
+For instance: The information showed in `custom-component.hbs` component is feeded by `customComponent.json` file.
 
 To access the data saved on these files, use the following syntax:
 
 ```handlebars
-{{{ custom_component.path.to.data }}}
+{{{ customComponent.path.to.data }}}
 ```
 
 

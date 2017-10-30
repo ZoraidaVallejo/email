@@ -75,7 +75,7 @@ const styleToRemove = Object.keys(htmlOptim)
   .reduce((a, b) => a.concat(b), []);
 
 module.exports = {
-  src_images: {
+  srcImages: {
     options: {
       usePrefix: false,
       patterns: [
@@ -95,7 +95,7 @@ module.exports = {
   },
 
   // Replace width="176 !important" in table tag
-  important_style: {
+  importantStyle: {
     options: {
       usePrefix: false,
       patterns: [
@@ -108,7 +108,7 @@ module.exports = {
     files: allTemplates
   },
 
-  shorten_classes: {
+  shortenClasses: {
     options: {
       usePrefix: false,
       patterns: classesToReplace
@@ -116,7 +116,7 @@ module.exports = {
     files: allTemplates
   },
 
-  remove_dup_styles: {
+  removeDupStyles: {
     options: {
       usePrefix: false,
       patterns: styleToRemove,
@@ -125,7 +125,7 @@ module.exports = {
     files: allTemplates
   },
 
-  remove_classes: {
+  removeClasses: {
     options: {
       usePrefix: false,
       patterns: [
@@ -138,7 +138,7 @@ module.exports = {
     files: allTemplates
   },
 
-  fix_responsive: {
+  fixResponsive: {
     options: {
       usePrefix: false,
       patterns: [
@@ -159,7 +159,7 @@ module.exports = {
     files: allTemplates
   },
 
-  live_images: {
+  liveImages: {
     options: {
       usePrefix: false,
       patterns: [

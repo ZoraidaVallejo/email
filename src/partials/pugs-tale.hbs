@@ -2,9 +2,9 @@
 <!-- PUG'S TALE -->
 
 <!-- w-text-image w-pugs-tale -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-pugs-tale set-max-width {{#gt (length pugs_tale.blocks) 1 }}multiple{{/gt}}">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-pugs-tale set-max-width {{#gt (length pugsTale.blocks) 1 }}multiple{{/gt}}">
 
-  {{#gt (length pugs_tale.blocks) 1 }}
+  {{#gt (length pugsTale.blocks) 1 }}
     <tr>
       <!-- items-main-title -->
       <td class="items-main-title" responsive="mobile-padding-horizontal-sides">
@@ -17,14 +17,14 @@
   <tr>
     <!-- item-list -->
     <td class="item-list" responsive="mobile-padding-horizontal-sides">
-      {{#forEach pugs_tale.blocks }}
+      {{#forEach pugsTale.blocks }}
         <!-- item-{{ index }} -->
         <table cellpadding="0" cellspacing="0" border="0" class="item-{{ index }}">
           <tr>
             <!-- item-desc -->
             <td class="item-desc" responsive="collapse-one">
 
-              {{#eq (length ../pugs_tale.blocks) 1 }}
+              {{#eq (length ../pugsTale.blocks) 1 }}
                 <!-- widget-type-name -->
                 <h4 class="widget-type-name">A PUG'S TALE</h4>
               {{/eq}}

@@ -25,12 +25,12 @@
                 <tr>
                   <!-- people-photo -->
                   <td class="people-photo" responsive="mobile-padding-left">
-                    <a href="{{{ this.photo_link }}}" target="_blank"><img src="{{ ../default.imageDirSrc }}/annotator-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
+                    <a href="{{{ this.photoLink }}}" target="_blank"><img src="{{ ../default.imageDirSrc }}/annotator-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
                   </td>
                   <!-- people-info -->
                   <td class="people-info" responsive="mobile-padding-horizontal-sides">
                     <!-- -name -->
-                    <p class="-name" responsive="mobile-fz-20"><a href="{{{ this.name_link }}}" target="_blank">{{{ this.name }}}</a></p>
+                    <p class="-name" responsive="mobile-fz-20"><a href="{{{ this.nameLink }}}" target="_blank">{{{ this.name }}}</a></p>
                     <!-- -location -->
                     <p class="-location"><b>{{#uppercase}}{{ this.location }}{{/uppercase}}</b></p>
                   </td>
@@ -47,7 +47,7 @@
     <td class="list-desc" responsive="mobile-padding-horizontal-sides">
       <p>{{{ annotator.description }}}</p>
       <br>
-      {{> ui-button moreBlue=true buttonLink=annotator.button_link }}
+      {{> ui-button moreBlue=true buttonLink=annotator.buttonLink }}
     </td>
   </tr>
 </table>

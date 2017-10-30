@@ -11,19 +11,19 @@
       <!-- widget-main-title -->
       <h2 class="widget-main-title">
         {{#if clientsNewsletter }}
-          {{{ tip_month.clients.title }}}
+          {{{ tipMonth.clients.title }}}
         {{/if}}
         {{#if jldNewsletter }}
-          {{#if tip_month.jld.link }}<a href="{{ tip_month.jld.link }}" target="_blank">{{/if}}
-            {{{ tip_month.jld.title }}}
-          {{#if tip_month.jld.link }}</a>{{/if}}
+          {{#if tipMonth.jld.link }}<a href="{{ tipMonth.jld.link }}" target="_blank">{{/if}}
+            {{{ tipMonth.jld.title }}}
+          {{#if tipMonth.jld.link }}</a>{{/if}}
         {{/if}}
       </h2>
     </td>
   </tr>
 
   {{#if clientsNewsletter }}
-    {{#each tip_month.clients.description }}
+    {{#each tipMonth.clients.description }}
       <tr>
         <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
         <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
@@ -34,7 +34,7 @@
   {{/if}}
 
   {{#if jldNewsletter }}
-    {{#each tip_month.jld.description }}
+    {{#each tipMonth.jld.description }}
       <tr>
         <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
         <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">

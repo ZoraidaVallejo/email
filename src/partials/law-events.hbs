@@ -11,9 +11,9 @@
     </td>
   </tr>
 
-  {{#if law_events.featured }}
+  {{#if lawEvents.featured }}
 
-    {{#isEmpty law_events.featured }}
+    {{#isEmpty lawEvents.featured }}
       {{!-- DO NOTHING --}}
 
     {{else}}
@@ -25,15 +25,15 @@
               <!-- event-desc -->
               <td class="event-desc" responsive="mobile-padding-horizontal-sides">
                 <!-- date -->
-                <p class="date">{{{ law_events.featured.date_time }}}</p>
+                <p class="date">{{{ lawEvents.featured.dateTime }}}</p>
                 <!-- desc -->
-                <p class="desc"><strong>{{{ law_events.featured.type_location }}}</strong><br> {{{ law_events.featured.description }}}</p>
+                <p class="desc"><strong>{{{ lawEvents.featured.typeLocation }}}</strong><br> {{{ lawEvents.featured.description }}}</p>
               </td>
             </tr>
             <tr>
               <!-- button -->
               <td class="button" responsive="mobile-padding-horizontal-sides">
-                {{> ui-button moreWhite=true buttonLink=law_events.featured.link }}
+                {{> ui-button moreWhite=true buttonLink=lawEvents.featured.link }}
               </td>
             </tr>
           </table>
@@ -46,7 +46,7 @@
   <tr>
     {{> ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
 
-    {{#forEach law_events.events }}
+    {{#forEach lawEvents.events }}
 
       {{#unless isFirst }}
 
@@ -63,9 +63,9 @@
         <!-- inner-text -->
         <td class="inner-text" responsive="mobile-reset-height">
           <!-- date -->
-          <p class="date">{{{ this.date_time }}}</p>
+          <p class="date">{{{ this.dateTime }}}</p>
           <!-- desc -->
-          <p class="desc"><strong>{{{ this.type_location }}}</strong><br> {{{ this.description }}}</p>
+          <p class="desc"><strong>{{{ this.typeLocation }}}</strong><br> {{{ this.description }}}</p>
         </td>
       </tr>
       <tr>

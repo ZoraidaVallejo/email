@@ -1,6 +1,6 @@
 module.exports = (grunt, { conversionType }) => {
   // BLAST configuration
-  let buildAlias = [conversionType, 'replace:live_images'];
+  let buildAlias = [conversionType, 'replace:liveImages'];
 
   if (conversionType !== 'proposal') {
     buildAlias = buildAlias.concat(['spreadsheet']);
@@ -8,25 +8,25 @@ module.exports = (grunt, { conversionType }) => {
 
   // Newsletter configuration overwrite
   if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
-    buildAlias = buildAlias.concat(['replace:shorten_classes', 'htmlmin']);
+    buildAlias = buildAlias.concat(['replace:shortenClasses', 'htmlmin']);
   }
 
   const commonTasks = {
     group1: ['clean:dist', 'sass:dist'],
     group2: ['assemble', 'juice', 'imagemin'],
-    group3: ['replace:important_style', 'replace:remove_classes', 'replace:fix_responsive', 'replace:src_images']
+    group3: ['replace:importantStyle', 'replace:removeClasses', 'replace:fixResponsive', 'replace:srcImages']
   };
 
   return {
     default: ['serve'],
 
-    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
+    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
     blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
 
-    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:src_images'],
+    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:srcImages'],
 
-    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:remove_dup_styles'],
+    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
     serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
 
