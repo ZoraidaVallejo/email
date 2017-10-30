@@ -1,5 +1,5 @@
 {
-  "image_dir_src": "../src/img",
+  "imageDirSrc": "../src/img",
 
   "header": {
     "logo": {
@@ -25,6 +25,6 @@
     }
   },
 
-  "view_in_browser_url": "#",
-  "unsubscribe_url": "*|UNSUB|*"
+  "viewInBrowserUrl": "#",
+  "unsubscribeUrl": "*|UNSUB|*"
 }
