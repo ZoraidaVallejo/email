@@ -1,7 +1,7 @@
 module.exports = {
   target: {
     options: {
-      archive: '<%= compressed_file_name %>.zip'
+      archive: '<%= compressedFileName %>.zip'
     },
     files: [
       {

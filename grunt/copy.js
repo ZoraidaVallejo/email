@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
 
-module.exports = (grunt, { conversionType, current_year, current_month }) => ({
+module.exports = (grunt, { conversionType, currentYear, currentMonth }) => ({
   public: {
     expand: true,
     cwd: 'dist/',
     src: ['*.html'],
-    dest: `public/${conversionType}/${current_year}/${current_month}/`,
+    dest: `public/${conversionType}/${currentYear}/${currentMonth}/`,
     filter: 'isFile'
   }
 });

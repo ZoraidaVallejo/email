@@ -266,18 +266,18 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
 - **`version`**: Workflow version which the current conversion is compatible with. If this value is not defined, the workflow will assume the conversion is compiled with a workflow version 1.
 - **`conversionType`**: Type of conversion: `blast`, `newsletter`, `oyez` and `proposal`.
 - **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
-- **`justatic_version`**: Version of Justatic to use in all absolute URL's.
-- **`current_year`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
-- **`current_month`**: Current month. The same as the previous one.
-- **`compressed_file_name`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
+- **`justaticVersion`**: Version of Justatic to use in all absolute URL's.
+- **`currentYear`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
+- **`currentMonth`**: Current month. The same as the previous one.
+- **`compressedFileName`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
 - **`path`**: Object with relative and remote paths.
   - **`src`**: Folder where all development files are stored.
-  - **`src_img`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
+  - **`srcImg`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
   - **`dist`**: Folder where the distribution-ready files will be placed.
-  - **`dist_img`**: Optimized images go here.
+  - **`distImg`**: Optimized images go here.
   - **`preview`**: Folder for the source files of the preview mode.
-  - **`live_img`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
-  - **`remote_img_path`**: Remote folder to upload all images.
+  - **`liveImg`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
+  - **`remoteImgPath`**: Remote folder to upload all images.
 
 
 ### Commands

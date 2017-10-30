@@ -8,8 +8,10 @@ const customConfig = require('./custom-config.json'); // eslint-disable-line imp
 const getMonths = require('./scripts/handlebars-helpers/getMonth');
 const $ = require('./scripts/helpers');
 
-const monthNum = parseInt(customConfig.current_month, 10);
-const configuration = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
+const monthNum = parseInt(customConfig.currentMonth, 10);
+const configuration = Object.assign({}, customConfig, {
+  currentMonthString: getMonths(monthNum)
+});
 
 if (monthNum < 1 || monthNum > 12) {
   $.log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);

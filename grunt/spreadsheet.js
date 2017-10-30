@@ -175,7 +175,7 @@ module.exports = grunt => {
     csv: {
       src: 'dist/*.html',
       options: {
-        liveImgPath: '<%= paths.live_img %>'
+        liveImgPath: '<%= paths.liveImg %>'
       }
     }
   };

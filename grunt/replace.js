@@ -82,12 +82,12 @@ module.exports = {
         {
           // Matches <img * src="../src/img/, <img * src='../src/img/', <v * src='../src/img/ or <td * background='../src/img/
           match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/src\/img\/)/gi,
-          replacement: '$1../<%= paths.dist_img %>/'
+          replacement: '$1../<%= paths.distImg %>/'
         },
         {
           // Matches url('../src/img') or url(../src/img) and even url("../src/img")
           match: /(url\(*[^)])(\.\.\/src\/img\/)/gi,
-          replacement: '$1../<%= paths.dist_img %>/'
+          replacement: '$1../<%= paths.distImg %>/'
         }
       ]
     },
@@ -165,11 +165,11 @@ module.exports = {
       patterns: [
         {
           match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/dist\/img\/)/gi,
-          replacement: '$1<%= paths.live_img %>/'
+          replacement: '$1<%= paths.liveImg %>/'
         },
         {
           match: /(url\(*[^)])(\.\.\/dist\/img\/)/gi,
-          replacement: '$1<%= paths.live_img %>/'
+          replacement: '$1<%= paths.liveImg %>/'
         }
       ]
     },

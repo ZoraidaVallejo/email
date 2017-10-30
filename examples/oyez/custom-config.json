@@ -2,19 +2,19 @@
   "version": 2,
   "conversionType": "oyez",
   "port": 4000,
-  "justatic_version": "1",
-  "current_year": "0000",
-  "current_month": "00",
+  "justaticVersion": "1",
+  "currentYear": "0000",
+  "currentMonth": "00",
 
   "paths": {
     "src": "src",
-    "src_img": "src/img",
+    "srcImg": "src/img",
     "dist": "dist",
-    "dist_img": "dist/img",
+    "distImg": "dist/img",
     "preview": "preview",
-    "live_img": "https://justatic.com/v/<%= justatic_version %>/emails/images/oyez/newsletter/<%= current_year %>/<%= current_month %>",
-    "remote_img_path": "/mnt/files/emails/images/oyez/newsletter/<%= current_year %>/<%= current_month %>"
+    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/oyez/newsletter/<%= currentYear %>/<%= currentMonth %>",
+    "remoteImgPath": "/mnt/files/emails/images/oyez/newsletter/<%= currentYear %>/<%= currentMonth %>"
   },
 
-  "compressed_file_name": "<%= conversionType %>-<%= current_year %>-<%= current_month %>"
+  "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
 }
