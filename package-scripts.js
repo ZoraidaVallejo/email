@@ -2,7 +2,7 @@ const fs = require('fs');
 const npsUtils = require('nps-utils');
 
 const serialize = npsUtils.series;
-const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null;
+const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null; // eslint-disable-line import/no-unresolved, node/no-missing-require
 
 let workflowVersion = 2;
 
