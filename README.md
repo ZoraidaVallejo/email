@@ -196,7 +196,7 @@ This project uses [SASS](http://sass-lang.com/).
 
 Media queries and responsive styles are in a separate stylesheet [preserve.scss](https://github.com/justia/justatic/blob/develop/newsletters/src/scss/preserve.scss) so that they don't get inlined. Go to [Responsive behavior](#responsive-behavior) to know how to set and use the responsive classes.
 
-> **Note**: Only a few email clients support media queries. Litmus has done his homework and created this article for us: [***"Understanding Media Queries in HTML Email"***](https://litmus.com/blog/understanding-media-queries-in-html-email). Please read it :D (seriously, read it `୧( ಠ Д ಠ )୨` ).
+> **Note**: Only a few email clients support media queries. Litmus has done his homework and created this article for us: _**["Understanding Media Queries in HTML Email"](https://litmus.com/blog/understanding-media-queries-in-html-email)**_. Please read it :D (seriously, read it `୧( ಠ Д ಠ )୨` ).
 
 ##### SCSS Modules
 
