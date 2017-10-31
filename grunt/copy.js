@@ -1,14 +1,11 @@
-'use strict';
+/* eslint-disable camelcase */
 
-module.exports = function(grunt, options) {
-
-    return {
-        public: {
-            expand: true,
-            cwd: 'dist/',
-            src: ['*.html'],
-            dest: `public/${ options.conversionType }/${ options.current_year }/${ options.current_month }/`,
-            filter: 'isFile'
-        }
-    };
-};
+module.exports = (grunt, { conversionType, currentYear, currentMonth }) => ({
+  public: {
+    expand: true,
+    cwd: 'dist/',
+    src: ['*.html'],
+    dest: `public/${conversionType}/${currentYear}/${currentMonth}/`,
+    filter: 'isFile'
+  }
+});

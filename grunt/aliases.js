@@ -1,102 +1,45 @@
-'use strict';
+module.exports = (grunt, { conversionType }) => {
+  // BLAST configuration
+  let buildAlias = [conversionType, 'replace:liveImages'];
 
-module.exports = function(grunt, options) {
+  if (conversionType !== 'proposal') {
+    buildAlias = buildAlias.concat(['spreadsheet']);
+  }
 
-    // BLAST configuration
-    var buildAlias = [
-        options.conversionType,
-        'replace:live_images',
-        'spreadsheet:all'
-    ];
+  // Newsletter configuration overwrite
+  if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
+    buildAlias = buildAlias.concat(['replace:shortenClasses', 'htmlmin']);
+  }
 
-    // Newsletter configuration overwrite
-    if (options.conversionType === 'newsletter'
-        || options.conversionType === 'proposal'
-        || options.conversionType === 'oyez') {
-        buildAlias = buildAlias.concat([
-            'replace:shorten_classes',
-            'htmlmin:live'
-        ]);
-    }
+  const commonTasks = {
+    group1: ['clean:dist', 'sass:dist'],
+    group2: ['assemble', 'juice', 'imagemin'],
+    group3: ['replace:importantStyle', 'replace:removeClasses', 'replace:fixResponsive', 'replace:srcImages']
+  };
 
-    return {
-        default: ['serve'],
+  return {
+    default: ['serve'],
 
-        report: ['spreadsheet:all'],
+    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
-        newsletter: [
-            'clean:dist',
-            'sass:dist',
-            'assemble',
-            'juice',
-            'imagemin',
-            'replace:important_style',
-            'replace:remove_classes',
-            'replace:fix_responsive',
-            'replace:src_images',
-            'replace:remove_dup_styles'
-        ],
+    blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
 
-        blast: [
-            'clean:dist',
-            'sass:dist',
-            'assemble',
-            'juice',
-            'imagemin',
-            'replace:important_style',
-            'replace:remove_classes',
-            'replace:fix_responsive',
-            'replace:src_images'
-        ],
+    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:srcImages'],
 
-        proposal: [
-            'clean:dist',
-            'sass:dist',
-            'cssmin',
-            'assemble',
-            'juice',
-            'imagemin',
-            'replace:src_images'
-        ],
+    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
-        oyez: [
-            'clean:dist',
-            'sass:dist',
-            'assemble',
-            'juice',
-            'imagemin',
-            'replace:important_style',
-            'replace:remove_classes',
-            'replace:fix_responsive',
-            'replace:src_images',
-            'replace:remove_dup_styles'
-        ],
+    serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
 
-        build: buildAlias,
+    report: ['spreadsheet'],
 
-        serve: [
-            options.conversionType,
-            'sass:preview',
-            'postcss:preview',
-            'express',
-            'open',
-            'watch'
-        ],
+    upload: ['imagemin', 'sftp-deploy'],
 
-        upload: [
-            'imagemin',
-            'sftp-deploy:images'
-        ],
+    build: buildAlias,
 
-        publish: [
-            'build',
-            'copy',
-            'compress',
-            'clean:all'
-        ],
+    buildPreview: ['sass:preview', 'postcss:preview'],
 
-        test: [
-            'sass'
-        ]
-    };
+    publish: ['build', 'copy', 'compress', 'clean:all'],
+
+    test: ['sass']
+  };
 };
