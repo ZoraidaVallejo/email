@@ -158,9 +158,9 @@ Depending on the partial it may accept attributes to customize the result:
 
 ##### Handlebar UI Components
 
-Contain optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file.
+Contain optional handlebar components that can help generate your markup.
 
-These are the available UI components that requires CSS to propertly work:
+These are the available UI components:
 
 - Button: `ui-button`
 - Responsive columns grid: `ui-column-grid`
@@ -174,6 +174,8 @@ This folder also includes some IE hack.
 - Static centered layout: `ui-fixed-layout-hack`
 
 And you can include them the same way as the [handlebar partials](#handlebar-partials).
+
+For more detailed information about the component's configuration, [continue reading here](https://github.com/justia/mail-template-builder/tree/develop/common/ui-components#ui-components).
 
 
 ### Editable folders: `src`
@@ -306,11 +308,11 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
   - **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
   - **`grunt upload`**: Upload all the images to the remote server.
 - **Node (nps)**:
-  - **`nps build`**: This command does the following:
+  - **`npm start build`**: This command does the following:
     - Reformat all json files realted to the current conversion, including the `custom-config.json` and all the files within the `data/` folder.
     - Run **stylelint** and check all the SASS files realated to this conversion. The process will stop if there are errors.
     - Build the files (`grunt build`) and prepare them for distribution. The report will also be created during the process.
-  - **`nps publish`**: This command is similar to the previous one but with more steps:
+  - **`npm start publish`**: This command is similar to the previous one but with more steps:
     - After the distribution files are ready, all the HTML files located in the `dist/` folder are copied to the `public/` folder and categorized by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
     - Compress the **custom-config.json** file, `src/` and `dist/` folders.
     - Delete all the folders and files that were zipped and the `tags/` folder.
