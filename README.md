@@ -4,25 +4,27 @@
 
 ## Table of Contents
 
-
 - [Requirements](#requirements)
 - [Installation](#installation)
-  - [NVM](#nvm)
-  - [Node.js](#nodejs)
-  - [Yarn](#yarn)
+  - [nvm](#nvm)
+  - [Node v7.10](#node-v710)
+  - [npm5](#npm5)
   - [Packages](#packages)
 - [Folder structure](#folder-structure)
-  - [SCSS](#scss)
-    - [Modules](#modules)
-    - [Partials](#partials)
-  - [Templates](#templates)
-    - [UI Components](#ui-components)
-    - [Components](#components)
-  - [Images](#images)
-  - [Data](#data)
+  - [Static folders](#static-folders)
+    - [Common](#common)
+      - [Handlebar Layouts](#handlebar-layouts)
+      - [Handlebar Partials](#handlebar-partials)
+      - [Handlebar UI Components](#handlebar-ui-components)
+  - [Editable folders: `src`](#editable-folders-src)
+    - [SCSS](#scss)
+      - [SCSS Modules](#scss-modules)
+      - [SCSS Partials](#scss-partials)
+    - [Images](#images)
+    - [Data](#data)
 - [How to use](#how-to-use)
   - [Workflow configuration](#workflow-configuration)
-  - [Grunt commands](#grunt-commands)
+  - [Commands](#commands)
     - [Caveats](#caveats)
   - [Responsive behavior](#responsive-behavior)
     - [Responsive Classes](#responsive-classes)
@@ -33,21 +35,21 @@
 
 ## Requirements
 
-- **NVM**
-- **Node.js**
-- **Yarn**
+- **nvm**
+- **Node v7.10**
+- **npm5**
 - **Grunt**
 
 
 ## Installation
 
-### NVM
+### nvm
 
-Use the [NVM documentation](https://github.com/creationix/nvm#install-script) for this.
+Use the [nvm documentation](https://github.com/creationix/nvm#install-script) to install it.
 
-### Node.js
+### Node v7.10
 
-Using `nvm`, install node v7:
+Using `nvm`, install node v7.10:
 
 ```shell
 nvm install 7.10
@@ -65,13 +67,12 @@ You can do it manually too:
 nvm use 7.10
 ```
 
-### Yarn
+### npm5
 
-Install it with the native OS package manager (if you are on a Mac, probably it will be `brew`):
+Install it globally with the following command:
 
 ```shell
-brew update
-brew install yarn
+npm install -g npm
 ```
 
 ### Packages
@@ -85,7 +86,7 @@ npm install grunt-cli -g
 Then, install the workflow packges in your local folder:
 
 ```
-yarn install
+npm install
 ```
 
 
@@ -93,6 +94,8 @@ yarn install
 
 ```
 /
+├── changelog/
+├── common/
 ├── dist/
 ├── examples/
 ├── grunt/
@@ -104,34 +107,90 @@ yarn install
     ├── data/
     ├── emails/
     ├── img/
-    ├── layouts/
-    └── partials/
-    │   ├── ui-components/
-    │   └── components/
+    ├── partials/
     └── scss/
         ├── modules/
         └── partials/
 ```
 
+### Static folders
+
+This folders contain the workflow functionality and other files for it to work properly.
+
 Folder name | Description
 ----------- | -----------
+`changelog/` | Store all the log files that document the changes of each version.
+`common/` | Contain common [layouts](#handlebar-layouts), [partials](#handlebar-partials) and [ui-components](#handlebar-ui-components) for the email templates.
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `examples/` | Mail template starters: it includes Blast, Newsletter, Oyez and Proposal (pdf).
 `grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
 `preview/` | All files related to the preview window where you see a _preview_ of your work.
 `public/` | Folder where the final HTML files are stored.
 `scripts/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
-`src/` | Main folder where the source files of the email template are stored.
+
+
+#### Common
+
+##### Handlebar Layouts
+
+This folder contains the standard HTML wrapper markup for different types of templates:
+
+- Blast
+- Newsletter (Open Sans font)
+- Newsletter (Arial font)
+- PDF print
+
+##### Handlebar Partials
+
+Contain all the partials of the email template. To include them use the following snippet:
+
+```handlebars
+{{> custom-partial }}
+```
+
+Depending on the partial it may accept attributes to customize the result:
+
+```handlebars
+{{> custom-partial booleanAttribute=true stringAttribute="lorem" variableAttribute=customPartial.value }}
+```
+
+>**Note**: You can use single -or- double quotes for attributes.
+
+##### Handlebar UI Components
+
+Contain optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file.
+
+These are the available UI components that requires CSS to propertly work:
+
+- Button: `ui-button`
+- Responsive columns grid: `ui-column-grid`
+- Static columns grid: `ui-fixed-column-grid`
+- Labaled dividers: `ui-label-divider`
+- Image backgrounds for IE (The styles should be defined on a case by case basis): `ui-background`
+
+This folder also includes some IE hack.
+
+- Responsive centered layout: `ui-layout-hack`
+- Static centered layout: `ui-fixed-layout-hack`
+
+And you can include them the same way as the [handlebar partials](#handlebar-partials).
+
+
+### Editable folders: `src`
+
+The `src/` folder contains the source files (styles, custom handlebars, data, etc) of the email templates.
+
+Folder name | Description
+----------- | -----------
 `data/` | Contain **.json** data files that can be used in your templates [More info](#data).
 `emails/` | Place where your main template(s) will go. 
 `img/` | [More Info](#images)
-`layouts/` | Contain the standard HTML wrapper markup. You most likely will only need one layout template, but you can have as many as you like.
-`partials/ui-components/` | [More info](#ui-components).
-`partials/components/` | [More info](#components).
-`scss/modules/` | [More info](#modules).
-`scss/partials/` | [More info](#partials).
+`partials/` | [More info](#ui-components).
+`scss/modules/` | [More info](#scss-modules).
+`scss/partials/` | [More info](#scss-partials).
 
-### SCSS
+
+#### SCSS
 
 This project uses [SASS](http://sass-lang.com/).
 
@@ -139,8 +198,7 @@ Media queries and responsive styles are in a separate stylesheet [preserve.scss]
 
 > **Note**: Only a few email clients support media queries. Litmus has done his homework and created this article for us: [***"Understanding Media Queries in HTML Email"***](https://litmus.com/blog/understanding-media-queries-in-html-email). Please read it :D (seriously, read it `୧( ಠ Д ಠ )୨` ).
 
-
-#### Modules
+##### SCSS Modules
 
 Directory reserved for SASS code that doesn't cause SASS to actually output CSS. Things like mixin declarations, functions, and variables. Most of the time you won't need to modify any of these files.
 
@@ -150,8 +208,7 @@ Since this project uses the [frontend helpers](https://github.com/justia/fronten
 - `mixins/`: Custom/hardcoded mixins specific for the current conversion.
 - `settings/`: Custom/hardcoded variables specific for the current conversion.
 
-
-#### Partials
+##### SCSS Partials
 
 Directory where the meat of the CSS is constructed.
 
@@ -169,46 +226,7 @@ Now, this one is important:
 > Some handlebar *UI components* or *components* will require a SASS partial. Name the new files like the handlebar component. For instance: **ui-columns-grid.hbs** → **ui-columns-grid.scss**
 > Notice that the hbs file name is in camelCase and the SASS file uses dashes as separators. The reason is because you will posibly include the hbs component more than once (in my opinion, if use the dash format it becomes a little anoying to select/change/add it).
 
-
-### Templates
-
-Handlebars and Assemble are used for templating.
-
-
-#### UI Components
-
-Contain optional handlebar components that can help generate your markup. Each component will typically have a corresponding SCSS file in the `ui-components/` folder. See [Partials](#partials) for more info.
-
-For example, to include the **button.hbs** component you would use the following code in your email template:
-
-```handlebars
-{{> button buttonLink="https://www.justia.com/" }}
-```
->**Note**: You can use single -or- double quotes for attributes.
-
-These are the available UI components that requires CSS to propertly work:
-
-- Buttons
-- Dividers with label
-- Columns grid (responsive)
-- Fixed columns grid (static)
-- Image backgrounds for IE (It doesn't have a module per-se. The styles should be defined on a case by case basis)
-
-This folder also includes some IE hack.
-
-- Center layout (responsive)
-- Fixed center layout (static)
-
-
-#### Components
-
-Contain all the content components of the email template. You can include them in the same way as the UI components, but without extra attributes:
-
-```handlebars
-{{> custom-component }}
-```
-
-### Images
+#### Images
 
 The name of the folder says it all: place where all your source images will be stored.
 
@@ -229,7 +247,7 @@ Avoid using any of the following names, **they will be ignore when uploading to 
 - button-more-01.png
 - button-more-02.png
 
-### Data
+#### Data
 
 Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores.
 
@@ -287,12 +305,12 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
   - **`grunt serve`**: Run the default command (`grunt`), open a local server and keep watching your changes until you stop the proccess.
   - **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
   - **`grunt upload`**: Upload all the images to the remote server.
-- **Node**:
-  - **`npm run build`**: This command does the following:
+- **Node (nps)**:
+  - **`nps build`**: This command does the following:
     - Reformat all json files realted to the current conversion, including the `custom-config.json` and all the files within the `data/` folder.
     - Run **stylelint** and check all the SASS files realated to this conversion. The process will stop if there are errors.
     - Build the files (`grunt build`) and prepare them for distribution. The report will also be created during the process.
-  - **`npm run publish`**: This command is similar to the previous one but with more steps:
+  - **`nps publish`**: This command is similar to the previous one but with more steps:
     - After the distribution files are ready, all the HTML files located in the `dist/` folder are copied to the `public/` folder and categorized by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
     - Compress the **custom-config.json** file, `src/` and `dist/` folders.
     - Delete all the folders and files that were zipped and the `tags/` folder.
