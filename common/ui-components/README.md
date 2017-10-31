@@ -35,7 +35,7 @@ Attributes | Type | Description
 Attributes | Type | Description
 ---------- | ---- | -----------
 `bgStart` | `boolean` | Whether or not to include the opening hack code.
-`absolutePath` | `boolean` | If true, you can pass an absolute path to the `image` attribute: "https://justatic.com/v/20170209/emails/images/newsletters/common/welcome-background-01-b.png". <br>Otherwise the image will be called from the path defined in `default.imageDirSrc`.
+`absolutePath` | `boolean` | If true, you can pass an absolute path to the `image` attribute. <br>Otherwise the image will be called from the path defined in `default.imageDirSrc`.
 `classes` | `string` | List of custom classes to stilize the button.
 `responsiveClasses` | `string` | List of custom classes to keep in the final HTML and add responsive behavior.
 `image` | `string` | Name of any image located in the `image/` folder.

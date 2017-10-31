@@ -175,7 +175,7 @@ This folder also includes some IE hack.
 
 And you can include them the same way as the [handlebar partials](#handlebar-partials).
 
-For more detailed information about the component's configuration, continue reading here.
+For more detailed information about the component's configuration, [continue reading here](https://github.com/justia/mail-template-builder/tree/develop/common/ui-components#ui-components).
 
 
 ### Editable folders: `src`
