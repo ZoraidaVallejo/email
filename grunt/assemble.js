@@ -1,26 +1,24 @@
-'use strict';
+const cwd = process.cwd();
+const path = require('path');
 
-// Assembles your email content with HTML layout
 module.exports = {
-
-    options: {
-        layoutdir: '<%= paths.src %>/layouts',
-        partials: ['<%= paths.src %>/partials/**/*.hbs'],
-        plugins: 'grunt-assemble-contextual',
-        contextual: { dest: './temp/' },
-        helpers: [
-            '<%= paths.src %>/helpers/custom-helpers.js',
-            './node_modules/handlebars-helpers/**/*.js'
-        ],
-        data: [
-            '<%= paths.src %>/data/*.{json,yml}',
-            'custom-config.json'
-        ],
-        flatten: true
+  options: {
+    layouts: [path.join(cwd, '/common/layouts/*.hbs'), '<%= paths.src %>/layouts/*.hbs'],
+    partials: [
+      path.join(cwd, '/common/partials/*.hbs'),
+      path.join(cwd, '/common/ui-components/*.hbs'),
+      '<%= paths.src %>/partials/**/*.hbs'
+    ],
+    plugins: 'grunt-assemble-contextual',
+    contextual: {
+      dest: './temp/'
     },
-
-    pages: {
-        src: ['<%= paths.src %>/emails/*.hbs'],
-        dest: '<%= paths.dist %>/'
-    }
+    helpers: ['./scripts/handlebars-helpers.js', './node_modules/handlebars-helpers/lib/**/*.js'],
+    data: ['<%= paths.src %>/data/*.{json,yml}', 'custom-config.json'],
+    flatten: true
+  },
+  pages: {
+    src: ['<%= paths.src %>/emails/*.hbs'],
+    dest: '<%= paths.dist %>/'
+  }
 };

@@ -1,12 +1,12 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html,
 body {
-  background: #fff;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  background: #ffffff;
 }

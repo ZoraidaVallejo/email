@@ -1,11 +1,11 @@
 // Some vars here are fine.
-$drawer-animation-duration:     0.3s;
+$drawer-animation-duration: 0.3s;
 
 // Janky, basic needs reset
-@import "reset-ish";
+@import 'reset-ish';
 
 // Preivew User Interface
-@import "ui";
+@import 'ui';
 
 // Preview "Welcome (default) Screen"
-@import "welcome";
+@import 'welcome';
