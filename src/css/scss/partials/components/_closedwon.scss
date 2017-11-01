@@ -6,9 +6,13 @@
 .closedwon {
 
     a {
-        color: plt('catalina-blue') !important;
+        color: plt('catalina-blue');
         font-weight: $font-weight--bold;
         text-decoration: none;
+    }
+
+    .intro-message {
+        padding: 43px 0 0;
     }
 
     .title,
@@ -39,4 +43,27 @@
     img {
         margin: 0 auto;
     }
+
+    .btn-wrapper {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .btn-real-text {
+
+        a {
+            display: inline-block;
+            padding: 0.86em 1.4375em;
+            border: 0;
+            border-radius: 50px;
+            margin: 0 auto;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+
 }
