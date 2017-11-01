@@ -1,19 +1,24 @@
 {
   "articles": [
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+      "title": "PwC Launches Temporary Lawyer Service",
+      "link": "http://www.abajournal.com/news/article/pwc_launches_temporary_lawyer_service#When:12:00:00Z",
+      "description": "PricewaterhouseCoopers, a firm that offers audit, consulting, and tax services, is launching a new service that will match temporary lawyers with large in-house law departments. Dubbed Flexible Legal Resources, the service is seeking to hire attorneys experienced in practice areas such as corporate law, data protection, and financial services regulations. The aim is to enable legal services clients to increase or decrease their legal teams based their current demand."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+      "title": "What is the Technology Needed for Access to Justice?",
+      "link": "http://www.abajournal.com/news/article/the_technology_needed_for_access_to_justice#When:13:30:00Z",
+      "description": "The legal tech industry has been booming over the past handful of years, with the number of legal technology startups approximately doubling between 2014 and 2017. While law is often viewed as one of the more traditional professions that can be considerably resistant to change, industry professionals are also recognizing that technology may be able to address needs such as broader access to justice. The means by which this can be accomplished extends beyond the development of legal software and into the realm of evolving processes, approaches, and solutions that are both web-based and, increasingly, mobile-focused."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+      "title": "Many Patent-Holders Stop Looking to East Texas Following Supreme Court Ruling",
+      "link": "https://arstechnica.com/tech-policy/2017/10/patent-cases-in-east-texas-plunge-more-than-60-percent/",
+      "description": "Once considered the national hotspot for patent disputes, the Eastern District of Texas has seen a marked decrease in the number of lawsuits filed there. This is likely the result of the US Supreme Court decision  in TC Heartland LLC v. Kraft Foods Group Brands LLC from last May.  That case held that the statute which limited the venue of patent infringement suits against a company to its residence meant the the state where the company was incorporated. As a  popular incorporation venue, the state of Delaware has already seen a sharp rise in the number of lawsuits filed since the TC Heartland decision came down. Recent decisions that clarified this decision seem to support the increase in Delaware-based patent lawsuit filings."
+    },
+    {
+      "title": "California Bar Exam to Remain One of Nation’s Most Difficult, Court Rules",
+      "link": "https://www.wsj.com/articles/california-bar-exam-to-remain-one-of-nations-most-difficult-court-rules-1508428572",
+      "description": "Long recognized as one of the most difficult to pass in the nation, the California bar exam reinforced its reputation by reporting the lowest passing rate of any state bar last year. As a result, several law school deans called for reducing the score needed to pass the exam. The California Supreme Court subsequently asked the State Bar of California to study the issue. The data that the State Bar presented did not  sway the Court to lower the pass score below 1440, a number that has remained unchanged for the past thirty years."
     }
   ]
 }
