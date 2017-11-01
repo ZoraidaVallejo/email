@@ -991,60 +991,58 @@ body {
   margin: 0;
 }
 
-.w-advertisement a {
-  text-decoration: none;
+.w-ask-a-lawyer .dvbg {
+  width: 600px;
+  height: 239px;
+  background-repeat: no-repeat !important;
+  background: url("../img/pumpkin-ad-background-01.jpg");
+  background-color: #ff7f00;
+  vertical-align: top;
 }
 
-.w-advertisement p,
-.w-advertisement a {
+.w-ask-a-lawyer .inner-table {
+  width: 600px;
+  height: 239px;
+  text-align: left;
+}
+
+.w-ask-a-lawyer .inner-table p,
+.w-ask-a-lawyer .inner-table a,
+.w-ask-a-lawyer .inner-table strong {
   color: #ffffff;
 }
 
-.w-advertisement img {
-  display: block;
-  width: 600px;
-  max-width: 100%;
+.w-ask-a-lawyer .inner-table a {
+  text-decoration: none;
 }
 
-.w-advertisement td {
+.w-ask-a-lawyer .ad-title {
   text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 0 30px 0 300px;
+  vertical-align: middle;
 }
 
-.w-advertisement .ad-image a {
-  display: block;
+.w-ask-a-lawyer .ad-title p {
+  font-size: 35px;
+  line-height: 38px;
 }
 
-.w-advertisement .ad-desc {
-  padding: 0 30px 12px;
-  text-align: center;
+.w-ask-a-lawyer .cnt-text {
+  background-color: #ff7f00;
+  padding: 25px 30px;
+  vertical-align: top;
 }
 
-.w-advertisement .ad-desc p {
-  font: 14px/1.38 Arial, sans-serif;
+.w-ask-a-lawyer .cnt-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
-.w-advertisement .ad-desc--first {
-  padding: 25px 30px 12px;
-}
-
-.w-advertisement .ad-desc--first p {
-  font: 16px/1.5 Arial, sans-serif;
-}
-
-.w-advertisement .ad-desc--last {
-  padding: 0 30px 25px;
-}
-
-.w-client-ad-01 {
-  background-color: #c0c0c0;
-}
-
-.w-jld-ad-01 {
-  background-color: #c0c0c0;
-}
-
-.w-jld-ad-02 {
-  background-color: #c0c0c0;
+.w-ask-a-lawyer .cnt-text a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .w-internet-stats {
