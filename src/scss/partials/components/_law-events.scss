@@ -75,10 +75,10 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
   // Add/change the height based on the preview. There is no way to change it dynamically.
   // .event-1,
-  // .event-2 {
+  .event-2 {
 
-  //     .inner-text {
-  //         height: 108px;
-  //     }
-  // }
+      .inner-text {
+          height: 108px;
+      }
+  }
 }

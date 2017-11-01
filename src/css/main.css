@@ -855,6 +855,18 @@ body {
   padding: 48px 0 0;
 }
 
+.w-text-image .item-list table table {
+  border-bottom: 0;
+}
+
+.w-text-image .item-list.oneCol .item-desc {
+  border-top: 1px solid #e7e8e8;
+}
+
+.w-text-image .item-list.oneCol .item-image {
+  padding: 0 0 15px !important;
+}
+
 .w-text-image.multiple .items-main-title {
   padding: 45px 30px 0;
 }
@@ -896,6 +908,19 @@ body {
   max-width: 88%;
 }
 
+.w-text-image.w-meet-our-team .oneCol .item-image img {
+  width: 540px;
+  max-width: 225%;
+}
+
+.w-text-image.w-meet-our-team .oneCol .item-desc {
+  border-top: 0;
+}
+
+.w-text-image.w-meet-our-team .twoCols table {
+  border-top: 1px solid #e7e8e8;
+}
+
 .w-text-image.w-inside-justia .item-list .item-desc {
   width: 300px;
 }
@@ -907,6 +932,11 @@ body {
 .w-text-image.w-inside-justia .item-image img {
   width: 210px;
   max-width: 88%;
+}
+
+.w-text-image.w-inside-justia .oneCol .item-image img {
+  width: 540px;
+  max-width: 225%;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -1224,6 +1254,10 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-2 .inner-text {
+  height: 108px;
 }
 
 .align-center {

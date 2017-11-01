@@ -1,28 +1,29 @@
 {
-  "featured": {
-    "dateTime": "[date / time]",
-    "typeLocation": "[type / location]",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "link": "#featured-link"
-  },
+  "featured": {},
   "events": [
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link1"
+      "dateTime": "November 3 1PM",
+      "typeLocation": "ET Webinar",
+      "description": "Bad Review? Bad Response? Bad Idea! - Ethically Managing Your Online Reputation",
+      "link": "http://j.st/4DLj"
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link2"
+      "dateTime": "November 10 1PM",
+      "typeLocation": "ET Webinar",
+      "description": "The Ethics of Delegation",
+      "link": "http://j.st/4DL9"
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link3"
+      "dateTime": "November 14 1PM",
+      "typeLocation": "ET Webinar",
+      "description": "8 Mistakes Experienced Contract Drafters Usually Make",
+      "link": "http://j.st/4DLC"
+    },
+    {
+      "dateTime": "November 29 1PM",
+      "typeLocation": "ET",
+      "description": "Networking Professionally and Ethically",
+      "link": "http://j.st/4DLy"
     }
   ]
 }
