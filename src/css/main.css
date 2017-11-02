@@ -209,12 +209,53 @@ body {
 }
 
 .main-image .head-img {
+  display: inline-block;
   width: 600px;
-  height: 450px;
-  background: url("../img/main-image-01.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
+  max-width: 100%;
+  max-height: 248px;
+  margin: 0;
+}
+
+.main-image .sponsored-logos {
+  padding: 13px 30px;
+}
+
+.main-image .sponsored-logos td {
+  width: 270px;
+  max-width: 270px;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.main-image .sponsored-logos a {
+  display: inline-block;
   vertical-align: middle;
+}
+
+.main-image .sponsored-logos img {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.main-image .sponsored-logos .lii {
+  width: 236px;
+  height: 24px;
+}
+
+.main-image .sponsored-logos .cornell {
+  width: 168px;
+  height: 36px;
+}
+
+.main-image .sponsored-logos .justia {
+  width: 126px;
+  height: 38px;
+}
+
+.main-image .sponsored-logos .it-chicago {
+  width: 222px;
+  height: 24px;
 }
 
 .main-image--message {
