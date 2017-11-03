@@ -8,19 +8,43 @@
     <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
       <!-- widget-type-name -->
       <h4 class="widget-type-name">DID YOU KNOW?</h4>
-      {{#if didYouKnow.title }}
-        <!-- widget-main-title -->
-        <h2 class="widget-main-title"><a href="{{ didYouKnow.link }}" target="_blank">{{{ didYouKnow.title }}}</a></h2>
+      {{#if clientsNewsletter }}
+        {{#if didYouKnow.clients.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title"><a href="{{{ didYouKnow.clients.link }}}" target="_blank">{{{ didYouKnow.clients.title }}}</a></h2>
+        {{/if}}
+      {{/if}}
+      {{#if jldNewsletter }}
+        {{#if didYouKnow.jld.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title"><a href="{{{ didYouKnow.jld.link }}}" target="_blank">{{{ didYouKnow.jld.title }}}</a></h2>
+        {{/if}}
       {{/if}}
     </td>
   </tr>
+  {{#if clientsNewsletter }}
+    {{#each didYouKnow.clients.description }}
+      <tr>
+        <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+        <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <p>{{{ this }}}</p>
+        </td>
+      </tr>
+    {{/each}}
+  {{/if}}
 
-  {{#each didYouKnow.description }}
-    <tr>
-      <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
-      <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ this }}}</p>
-      </td>
-    </tr>
-  {{/each}}
+  {{#if jldNewsletter }}
+    {{#each didYouKnow.jld.description }}
+      <tr>
+        <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+        <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <p>{{{ this }}}</p>
+          {{#if @last}}
+            <br>
+            {{> ui-button custom=true buttonLink="https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-11&utm_content=section-did-you-know-contact-us-button-v1" rootPath=../default.imageDirSrc imagePath="button-contactus-01-a.png" alt="Contact Us For More Info" class="wide-button" }}
+          {{/if}}
+        </td>
+      </tr>
+    {{/each}}
+  {{/if}}
 </table>

@@ -11,15 +11,15 @@
   "jld": {
     "ad1": {
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "Become a Premium Member",
+      "link": "https://www.justia.com/marketing/contact/submit/?profile_id=*|PROFILE_ID|*&email=*|EMAIL|*&utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-premium-memberships-v7",
+      "description": []
     },
     "ad2": {
       "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "Schedule my Free Consultation",
+      "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2017-10&utm_content=banner-website-marketing-generic-v2",
+      "description": []
     }
   }
 }

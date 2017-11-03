@@ -16,9 +16,9 @@
 
   {{#forEach insideJustia.blocks }}
     <tr>
-          {{#if twoCols}}
+          {{#if two-cols}}
             <!-- item-list -->
-            <td class="item-list twoCols" responsive="mobile-padding-horizontal-sides">
+            <td class="item-list two-cols" responsive="mobile-padding-horizontal-sides">
                 <!-- item-{{ index }} -->
                 <table cellpadding="0" cellspacing="0" border="0" class="item-{{ index }}">
                   <tr>
@@ -37,7 +37,7 @@
                     <!-- item-image -->
                     <td class="item-image" responsive="mobile-hide collapse-one">
                       {{#if this.image }}
-                        <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                        <a href="#"><img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" /></a>
                       {{else}}
                         &nbsp;
                       {{/if}}
@@ -47,7 +47,7 @@
             </td>
         {{else}}
           <!-- item-list -->
-          <td class="item-list oneCol" responsive="mobile-padding-horizontal-sides">
+          <td class="item-list one-col" responsive="mobile-padding-horizontal-sides">
               <!-- item-{{ index }} -->
               <table cellpadding="0" cellspacing="0" border="0" class="item-{{ index }}">
                 <tr>
@@ -65,7 +65,7 @@
                       <tr>
                         <td class="item-image" responsive="mobile-hide collapse-one">
                           {{#if this.image }}
-                            <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                            <a href="#"><img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" /></a>
                           {{else}}
                             &nbsp;
                           {{/if}}

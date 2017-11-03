@@ -6,7 +6,7 @@
 $meet-team-image--width: 210px;
 $inside-justia-image--width: 210px;
 $pugs-image--width: 210px;
-$inside-justia-image-oneCol--width: 540px;
+$inside-justia-image-one-col--width: 540px;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ $inside-justia-image-oneCol--width: 540px;
       }
     }
 
-    &.oneCol {
+    &.one-col {
 
       .item-desc {
         border-top: 1px solid plt('mail', 'black-haze');
@@ -129,19 +129,19 @@ $inside-justia-image-oneCol--width: 540px;
       }
     }
 
-    .oneCol .item-image img {
-      width: $inside-justia-image-oneCol--width;
-      max-width: ceil(percentage($inside-justia-image-oneCol--width / ($inside-justia-image--width + $padding)));
+    .one-col .item-image img {
+      width: $inside-justia-image-one-col--width;
+      max-width: ceil(percentage($inside-justia-image-one-col--width / ($inside-justia-image--width + $padding)));
     }
 
-    .oneCol {
+    .one-col {
 
       .item-desc {
         border-top: 0;
       }
     }
 
-    .twoCols {
+    .two-cols {
 
       table {
         border-top: 1px solid plt('mail', 'black-haze');
@@ -167,9 +167,9 @@ $inside-justia-image-oneCol--width: 540px;
       }
     }
 
-    .oneCol .item-image img {
-      width: $inside-justia-image-oneCol--width;
-      max-width: ceil(percentage($inside-justia-image-oneCol--width / ($inside-justia-image--width + $padding)));
+    .one-col .item-image img {
+      width: $inside-justia-image-one-col--width;
+      max-width: ceil(percentage($inside-justia-image-one-col--width / ($inside-justia-image--width + $padding)));
     }
   }
 

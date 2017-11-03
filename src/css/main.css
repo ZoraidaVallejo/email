@@ -859,11 +859,11 @@ body {
   border-bottom: 0;
 }
 
-.w-text-image .item-list.oneCol .item-desc {
+.w-text-image .item-list.one-col .item-desc {
   border-top: 1px solid #e7e8e8;
 }
 
-.w-text-image .item-list.oneCol .item-image {
+.w-text-image .item-list.one-col .item-image {
   padding: 0 0 15px !important;
 }
 
@@ -908,16 +908,16 @@ body {
   max-width: 88%;
 }
 
-.w-text-image.w-meet-our-team .oneCol .item-image img {
+.w-text-image.w-meet-our-team .one-col .item-image img {
   width: 540px;
   max-width: 225%;
 }
 
-.w-text-image.w-meet-our-team .oneCol .item-desc {
+.w-text-image.w-meet-our-team .one-col .item-desc {
   border-top: 0;
 }
 
-.w-text-image.w-meet-our-team .twoCols table {
+.w-text-image.w-meet-our-team .two-cols table {
   border-top: 1px solid #e7e8e8;
 }
 
@@ -934,7 +934,7 @@ body {
   max-width: 88%;
 }
 
-.w-text-image.w-inside-justia .oneCol .item-image img {
+.w-text-image.w-inside-justia .one-col .item-image img {
   width: 540px;
   max-width: 225%;
 }
@@ -989,6 +989,12 @@ body {
 
 .w-did-you-know p {
   margin: 0;
+}
+
+.w-did-you-know .wide-button a,
+.w-did-you-know .wide-button a img {
+  width: 220px;
+  height: 32px;
 }
 
 .w-ask-a-lawyer .dvbg {

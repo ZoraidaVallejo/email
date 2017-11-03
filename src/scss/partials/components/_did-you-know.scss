@@ -43,4 +43,13 @@
   p {
     margin: 0;
   }
+
+  .wide-button {
+
+    a,
+    a img {
+      width: 220px;
+      height: 32px;
+    }
+  }
 }
