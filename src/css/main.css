@@ -1000,9 +1000,9 @@ body {
 .w-ask-a-lawyer .dvbg {
   width: 600px;
   height: 239px;
-  background-repeat: no-repeat !important;
   background: url("../img/pumpkin-ad-background-01.jpg");
   background-color: #ff7f00;
+  background-repeat: no-repeat !important;
   vertical-align: top;
 }
 
@@ -1023,9 +1023,9 @@ body {
 }
 
 .w-ask-a-lawyer .ad-title {
+  padding: 0 30px 0 300px;
   text-align: center;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  padding: 0 30px 0 300px;
   vertical-align: middle;
 }
 
@@ -1035,15 +1035,15 @@ body {
 }
 
 .w-ask-a-lawyer .cnt-text {
-  background-color: #ff7f00;
   padding: 25px 30px;
+  background-color: #ff7f00;
   vertical-align: top;
 }
 
 .w-ask-a-lawyer .cnt-text p {
+  color: #ffffff;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
 }
 
 .w-ask-a-lawyer .cnt-text a {

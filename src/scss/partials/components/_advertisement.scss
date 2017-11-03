@@ -10,57 +10,57 @@ $advertisement-background--dimensions: image-dimensions('/src/img/pumpkin-ad-bac
 
 .w-ask-a-lawyer {
 
-    .dvbg {
-        width: nth($advertisement-background--dimensions, 1);
-        height: nth($advertisement-background--dimensions, 2);
-        background-repeat: no-repeat !important;
-        background: url('../img/pumpkin-ad-background-01.jpg');
-        background-color: #ff7f00;
-        vertical-align: top;
+  .dvbg {
+    width: nth($advertisement-background--dimensions, 1);
+    height: nth($advertisement-background--dimensions, 2);
+    background: url('../img/pumpkin-ad-background-01.jpg');
+    background-color: #ff7f00;
+    background-repeat: no-repeat !important;
+    vertical-align: top;
+  }
+
+  .inner-table {
+    width: $max-width;
+    height: nth($advertisement-background--dimensions, 2);
+    text-align: left;
+
+    p,
+    a,
+    strong {
+      color: plt('white');
     }
 
-    .inner-table {
-        width: $max-width;
-        height: nth($advertisement-background--dimensions, 2);
-        text-align: left;
-
-        p,
-        a,
-        strong {
-            color: plt('white');
-        }
-
-        a {
-            text-decoration: none;
-        }
+    a {
+      text-decoration: none;
     }
-    
-    .ad-title {
-        text-align: center;
-        text-shadow: 0 0 8px rgba(plt('black'), 0.5);
-        padding: 0 $padding 0 300px;
-        vertical-align: middle;
+  }
+  
+  .ad-title {
+    padding: 0 $padding 0 300px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(plt('black'), 0.5);
+    vertical-align: middle;
 
-        p {
-            font-size: 35px;
-            line-height: 38px;
-        }
+    p {
+      font-size: 35px;
+      line-height: 38px;
+    }
+  }
+
+  .cnt-text {
+    padding: 25px $padding;
+    background-color: #ff7f00;
+    vertical-align: top;
+
+    p {
+      color: plt('white');
+      font-size: 16px;
+      line-height: 24px;
     }
 
-    .cnt-text {
-        background-color: #ff7f00;
-        padding: 25px $padding;
-        vertical-align: top;
-
-        p {
-            font-size: 16px;
-            line-height: 24px;
-            color: plt('white');
-        }
-
-        a {
-            color: plt('white');
-            text-decoration: none;
-        }
+    a {
+      color: plt('white');
+      text-decoration: none;
     }
+  }
 }
