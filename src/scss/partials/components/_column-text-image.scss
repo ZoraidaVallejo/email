@@ -190,5 +190,9 @@ $inside-justia-image-one-col--width: 540px;
         max-width: ceil(percentage($pugs-image--width / ($pugs-image--width + $padding)));
       }
     }
+
+    &.jld {
+      border-bottom: 1px solid plt('mail', 'black-haze');
+    }
   }
 }

@@ -952,6 +952,10 @@ body {
   max-width: 88%;
 }
 
+.w-text-image.w-pugs-tale.jld {
+  border-bottom: 1px solid #e7e8e8;
+}
+
 .w-did-you-know {
   background-color: #ff6b00;
 }
