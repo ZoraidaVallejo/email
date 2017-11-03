@@ -1264,8 +1264,8 @@ body {
   padding: 18px 0 40px;
 }
 
-.w-law-events .event-2 .inner-text {
-  height: 108px;
+.w-law-events .event-1 .inner-text {
+  height: 84px;
 }
 
 .align-center {
@@ -1313,4 +1313,12 @@ body {
 .jld-newsletter .w-social-media-news,
 .jld-newsletter .w-meet-our-team {
   border-bottom: 1px solid #e7e8e8;
+}
+
+.jld-newsletter .w-jld-ad-01 {
+  background-color: #06357a;
+}
+
+.jld-newsletter .w-jld-ad-02 {
+  background-color: #052450;
 }
