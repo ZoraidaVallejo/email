@@ -3,8 +3,8 @@
 // T E M P L A T E   1
 // ----------------------------------------------------------------------------------------------------------
 
-$template1-background--dimensions: image-dimensions('/src/img/template1-background-01.png');
-$template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.png');
+$template1-background--dimensions: image-dimensions('/src/img/marketing-blue-background-01.png');
+$template1-image-01--dimensions: image-dimensions('/src/img/marketing-blue-desc-01.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -22,11 +22,16 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
     width: nth($template1-background--dimensions, 1);
     height: nth($template1-background--dimensions, 2);
     padding: 0;
-    background: url('../img/template1-background-01.png') center;
+    background: url('../img/marketing-blue-background-01.png');
+    background-position: center center;
     background-color: #06357a;
     background-repeat: no-repeat !important;
     background-size: $template1-background--dimensions;
     vertical-align: top;
+
+    img {
+      padding: 0 60px;
+    }
   }
 
   .inner-content {
@@ -57,6 +62,31 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
     }
   }
 
+  .button-gold-upgrade {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    > tr > td {
+      padding: 30px 0;
+    }
+
+    a {
+      padding: 23px 45px;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      font-weight: bold;
+      display: inline-block;
+      font-size: 18px;
+      border: 0;
+      border-radius: 50px;
+      margin: 0 auto;
+      background-color: #edaa00;
+      color: #000000 !important;
+    }
+  }
+
   .block-2 {
     padding: 26px $padding;
     background-color: #06357a;
@@ -74,6 +104,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
 
   .block-3 {
     padding: 24px $padding 20px;
+    background-color: plt('white');
     text-align: left;
 
     tr {
@@ -103,6 +134,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
   }
 
   .contactus {
+    background-color: plt('white');
     text-align: left !important;
 
     p {
