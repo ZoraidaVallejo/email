@@ -45,7 +45,7 @@ img {
 }
 
 .contactus {
-  padding: 0 30px 25px;
+  padding: 0 30px 35px;
   text-align: center;
 }
 
@@ -294,7 +294,7 @@ body {
 }
 
 .december-1 .button-gold-upgrade > tr > td {
-  padding: 30px 0;
+  padding: 24px 0;
 }
 
 .december-1 .button-gold-upgrade a {
@@ -383,30 +383,106 @@ body {
   border-collapse: collapse !important;
 }
 
-.december-2 .description td {
-  width: 100%;
+.december-2 .dvbg {
+  width: 540px;
+  height: 730px;
+  padding: 0;
+  background: url("../img/marketing-white-background-01.png");
+  background-position: center center;
+  background-color: #ffffff;
+  background-repeat: no-repeat !important;
+  background-size: 540px 730px;
+  vertical-align: top;
 }
 
-.december-2 .description .image {
+.december-2 .dvbg img {
+  padding: 0 30px;
+}
+
+.december-2 .inner-content {
   width: 600px;
-  height: 300px;
+}
+
+.december-2 .inner-content p,
+.december-2 .inner-content a,
+.december-2 .inner-content strong {
+  color: #ffffff;
+}
+
+.december-2 .inner-content td {
+  width: 100%;
+  text-align: center;
+}
+
+.december-2 .block-1 {
+  padding: 50px 30px 30px;
+  background-color: #ffffff;
+}
+
+.december-2 .block-1 .image {
+  width: 467.692307692px;
+  height: 59.2307692308px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
+.december-2 .button-gold-upgrade {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.december-2 .button-gold-upgrade > tr > td {
+  padding: 32px 0;
+}
+
+.december-2 .button-gold-upgrade a {
+  padding: 23px 45px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  border: 0;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #edaa00;
+  color: #000000 !important;
+}
+
 .december-2 .block-2 {
-  padding: 25px 30px 40px;
+  padding: 26px 30px 30px;
+  background-color: #ffffff;
   text-align: center;
 }
 
 .december-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+  color: #000000 !important;
+  text-align: center;
+  line-height: 1.3 !important;
 }
 
-.december-2 .block-3,
-.december-2 .block-4,
-.december-2 .block-5 {
-  padding: 0 30px 25px;
+.december-2 .block-2 strong {
+  color: #06357a !important;
+  font-size: 24px;
+}
+
+.december-2 .contactus {
+  background-color: #ffffff;
+}
+
+.december-2 .contactus p {
+  color: #000000;
+}
+
+.december-2 .contactus .phone {
+  color: #000000 !important;
+  font-size: 16px !important;
+}
+
+.december-2 .contactus .phone a {
+  color: #06357a !important;
 }
 
 .align-center {
