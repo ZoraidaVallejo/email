@@ -245,19 +245,15 @@ body {
 }
 
 .december-1 .dvbg {
-  width: 480px;
+  width: 600px;
   height: 365px;
   padding: 0;
   background: url("../img/marketing-blue-background-01.png");
   background-position: center center;
   background-color: #06357a;
   background-repeat: no-repeat !important;
-  background-size: 480px 365px;
+  background-size: 600px 365px;
   vertical-align: top;
-}
-
-.december-1 .dvbg img {
-  padding: 0 60px;
 }
 
 .december-1 .inner-content {
@@ -384,19 +380,15 @@ body {
 }
 
 .december-2 .dvbg {
-  width: 540px;
+  width: 600px;
   height: 730px;
   padding: 0;
   background: url("../img/marketing-white-background-01.png");
   background-position: center center;
   background-color: #ffffff;
   background-repeat: no-repeat !important;
-  background-size: 540px 730px;
+  background-size: 600px 730px;
   vertical-align: top;
-}
-
-.december-2 .dvbg img {
-  padding: 0 30px;
 }
 
 .december-2 .inner-content {
