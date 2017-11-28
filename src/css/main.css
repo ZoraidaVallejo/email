@@ -236,65 +236,7 @@ body {
   text-transform: uppercase;
 }
 
-.template-1 .description {
-  overflow: hidden;
-  width: 600px;
-  max-width: 600px !important;
-  background-color: #4c6b97;
-  border-collapse: collapse !important;
-}
-
-.template-1 .dvbg {
-  width: 600px;
-  height: 736px;
-  padding: 0;
-  background: url("../img/template1-background-01.png");
-  background-color: #4c6b97;
-  background-repeat: no-repeat !important;
-  background-size: 600px 736px;
-  vertical-align: top;
-}
-
-.template-1 .inner-content {
-  width: 600px;
-}
-
-.template-1 .inner-content p,
-.template-1 .inner-content a,
-.template-1 .inner-content strong {
-  color: #ffffff;
-}
-
-.template-1 .inner-content td {
-  width: 100%;
-  text-align: center;
-}
-
-.template-1 .block-1 {
-  padding: 50px 67px 295px;
-}
-
-.template-1 .block-1 .image {
-  width: 465.5px;
-  height: 164px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
-.template-1 .block-2 {
-  padding: 0 30px 20px;
-  text-align: left;
-}
-
-.template-1 .block-2 p {
-  text-align: left;
-}
-
-.template-1 .contactus .phone a {
-  color: #ffffff !important;
-}
-
-.template-2 .description {
+.tips .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -302,30 +244,161 @@ body {
   border-collapse: collapse !important;
 }
 
-.template-2 .description td {
+.tips .description td {
   width: 100%;
 }
 
-.template-2 .description .image {
+.tips .description .image {
   width: 600px;
-  height: 300px;
+  height: 299.230769231px;
   margin: 0 auto;
   Margin: 0 auto;
 }
 
-.template-2 .block-2 {
-  padding: 25px 30px 40px;
+.tips .block-title {
+  display: block;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.tips .block-2 {
+  padding: 24px 30px 40px;
+}
+
+.tips .block-2 .block-title {
   text-align: center;
 }
 
-.template-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+.tips .block-2 p {
+  display: block;
+  padding-bottom: 24px;
+  font: 16px/1.5 Arial, sans-serif !important;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
-.template-2 .block-5 {
+.tips .block-2 p:last-child {
+  padding-bottom: 0 !important;
+}
+
+.tips .block-3 {
   padding: 0 30px 25px;
+}
+
+.tips .button-red {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center !important;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tips .button-red > tr > td {
+  padding: 8px 0;
+  text-align: center !important;
+}
+
+.tips .button-red a {
+  display: inline-block;
+  padding: 23px 45px;
+  border: 0;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #e2231a;
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tips .block-4 {
+  padding: 24px 30px 0;
+  text-align: left;
+}
+
+.tips .block-4 tr {
+  display: block;
+}
+
+.tips .block-4 tr p strong {
+  color: #06357a;
+}
+
+.tips .block-4 tr:last-child {
+  margin-bottom: 0;
+}
+
+.tips .block-4 > p:last-child {
+  padding-bottom: 34px;
+}
+
+.tips .block-4 p {
+  color: #000000;
+  font: 16px/1.4 Arial, sans-serif !important;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tips .block-4 p strong {
+  color: #000000;
+}
+
+.tips .block-4 p img {
+  display: inline-block;
+  width: 5px;
+  height: 4px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tips .block-4 .list-01 {
+  display: block;
+  padding: 10px 0 10px 30px;
+}
+
+.tips .block-5 {
+  padding: 0 30px 25px;
+}
+
+.tips .block-5 table {
+  display: block;
+  padding: 30px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.tips .block-5 table .column-photo {
+  width: 145px;
+}
+
+.tips .block-5 table .column-photo img {
+  width: 143px;
+  height: 123px;
+}
+
+.tips .block-5 table .column-text {
+  padding-left: 23px;
+}
+
+.tips .block-5 table .column-text a {
+  color: #06357a;
+}
+
+.tips .contactus {
+  padding: 0 30px 30px;
+}
+
+.tips .contactus a {
+  color: #06357a !important;
+}
+
+.tips .block-7 {
+  padding: 0 30px 35px;
+  text-align: center;
+}
+
+.tips .block-7 p {
+  font: 13px/1.5 Arial, sans-serif !important;
 }
 
 .align-center {
