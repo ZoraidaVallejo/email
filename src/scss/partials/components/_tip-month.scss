@@ -1,0 +1,49 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T I P   O F   T H E   M O N T H   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-tip-month {
+  background-color: plt('bright-green');
+
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  a {
+    color: plt('white');
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    color: #ffffff;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .tipButton,
+  .tipButton a,
+  .tipButton img {
+    width: image-width('/src/img/button-update-01.png') / 2;
+    height: image-height('/src/img/button-update-01.png') / 2;
+  }
+
+  .tip {
+
+    &-title {
+      padding: 45px $padding 20px;
+    }
+
+    &-desc {
+      padding: 0 $padding 15px;
+
+      &--last {
+        padding: 0 $padding 45px;
+      }
+    }
+  }
+}

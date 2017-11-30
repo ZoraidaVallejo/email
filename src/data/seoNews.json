@@ -1,0 +1,35 @@
+{
+  "articles": [
+    {
+      "title": "Google: Improving Low Quality Content is Better Than Deleting It",
+      "link": "https://www.searchenginejournal.com/google-improving-low-quality-content-better-deleting/222177",
+      "description": "Google recently clarified that improving low quality content on your site is usually better than deleting it altogether. In some situations, such as when you simply have too much poor quality content, removing the content is best. However, in general, Google’s recommended approach is to clean up the content you have and make sure it is useful."
+    },
+    {
+      "title": "Google Will Require AMP and Canonical Pages to Match as of February 1, 2018",
+      "link": "https://searchengineland.com/google-will-require-amp-canonical-pages-match-february-1-2018-286921",
+      "description": "Next year, Google will start enforcing its requirement that accelerated mobile pages (AMP) and canonical pages maintain content parity. AMP pages that contain only snippets of the canonical page content, for example, will no longer be eligible for inclusion in AMP search results. Instead, users will be sent to the non-AMP version of that page, which may have slower load times. Though there is no penalty per se, this potential loss in visibility provides webmasters with an incentive to comply with the content parity requirement."
+    },
+    {
+      "title": "Google Rolls Out AdWords Promotion Extensions, Custom Intent Audiences & Ad Variations for Testing",
+      "link": "https://searchengineland.com/google-rolls-promotion-extensions-custom-intent-audiences-ad-variations-testing-286942 ",
+      "description": "Google will be offering some new features to its advertisers on its AdWords platform. Google is rolling out promotional extensions in text ads worldwide in every supported AdWords language and currency within the new AdWords interface. In addition, auto-generated custom intent audience lists will be viewable in the Audience Center. Each will display reach and performance estimates. The new AdWords interface will also help advertisers test ad variations which employ different headlines, display paths, and descriptions."
+    },
+    {
+      "title": "Firefox Ditches Yahoo for Google as Default Search Provider",
+      "link": "https://www.searchenginejournal.com/firefox-ditches-yahoo-google-default-search-provider/223803/",
+      "description": "In conjunction with Mozilla’s Firefox Quantum release, the company announced that Google will return as the default search provider on Firefox. Mozilla had previously partnered with Yahoo; however, the company cited the speed of Google’s search engine as well as the prevalence of accelerated mobile pages (AMP) within it for its decision to make the change. Firefox Quantum is available now for desktop operating systems. Users have the option to manually change their default search engine back to Yahoo or another search engine if they prefer."
+    },
+    {
+      "title": "Reviews Are the Most Prominent Local SEO Ranking Factor in 2017",
+      "link": "https://www.searchenginejournal.com/reviews-prominent-local-seo-ranking-factor-2017/223643/",
+      "description": "According to Local SEO Guide’s annual study of local SEO ranking factors, reviews are one of the most important local search ranking factors. Over 200 factors across more than 100,000 local businesses were examined in the study to identify similarities between the well-ranking businesses in Google’s local pack. While it was determined that a business with a significant number of reviews can rank well in local packs, it appears that the content of what is said in these reviews is even more important. Reviews that reference a keyword (geographical or otherwise), for example, were discovered to have stronger rankings. This finding is just one of a handful of important takeaways that business owners can reference when fine-tuning their SEO strategy."
+    },
+    {
+      "title": "Google Rolls Out a Fresh Look for Mobile Search Results",
+      "link": "https://www.searchenginejournal.com/google-rolls-fresh-look-mobile-search-results/222657/",
+      "description": "Google’s latest update to its mobile search results introduces a new look that more closely resembles the devices on which users are viewing them. Rounded corners have replaced a formerly sharp-cornered look, for instance, and they now align with the edge-to-edge displays on the latest smartphones. The blue link color has also been lightened, and review stars on local business listings are now yellow instead of their previous orange. This newest update appears to be exclusively aesthetic, with the rendering of search results remaining unchanged."
+    }
+  ]
+}
+

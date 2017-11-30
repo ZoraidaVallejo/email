@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "title": "Judge Rules Canada's De-Indexing Order Won't Apply to Google in the U.S.",
+      "link": "https://www.engadget.com/2017/11/06/judge-rules-canada-de-indexing-order-wont-apply-google-us/",
+      "description": "In a decision applauded by internet free speech advocates, a U.S. District Court has ruled that a Canadian Supreme Court decision requiring Google to globally de-index hundreds of websites belonging to the losing party in a trade secrets dispute does not apply in the U.S. Amicus briefs submitted on Google’s behalf voiced concerns about the Canadian ruling leading to widespread censorship by foreign governments via restrictive speech laws. Judge Edward Davila ruled that the Canadian order violated the Communications Decency Act in the U.S. by holding Google responsible for content posted by others."
+    },
+    {
+      "title": "Apple's $119.6 million victory in iPhone utility patent battle with Samsung finally upheld",
+      "link": "http://appleinsider.com/articles/17/11/06/apples-1196-million-victory-in-iphone-utility-patent-battle-with-samsung-finally-upheld",
+      "description": "The U.S. Supreme Court has rejected Samsung’s most recent attempt to throw out a 2014 verdict awarding Apple close to $120 million in a patent infringement dispute. A jury found that Samsung had infringed on patents including Apple’s slide-to-unlock screen technology, and the U.S. Court of Appeals for the Federal Circuit ultimately upheld the damages award. Samsung sought review, alleging failure by the appellate court to consider evidence and oral arguments, among other things. The Supreme Court declined to hear the case, leaving the lower court’s ruling in place."
+    },
+    {
+      "title": "Google to Introduce 8 Trust Indicators for Publishers to Add to News Stories",
+      "link": "https://www.searchenginejournal.com/google-introduce-8-trust-indicators-publishers-add-news-stories/224329/",
+      "description": "In its ongoing initiative to connect users with trustworthy news content, Google has announced plans to add eight new trust indicators to news search results. Working in conjunction with the Trust Project and over 75 news organizations, Google will utilize these factors to highlight content attributes such as author expertise, citations, and methods. The eight new indicators will join Google’s Fact Check tag and Knowledge Panels as quality control measures that the search giant has rolled out within the past year to give users additional context for news search results."
+    },
+    {
+      "title": "FCC Approves New Rules to Block Robocalls",
+      "link": "https://www.consumerreports.org/robocalls/block-robocalls-new-fcc-rules/",
+      "description": "As part of its effort to curb the ever-growing problem of robocalls, the FCC has approved new rules allowing telecom carriers to block calls that seem fraudulent. Experts predict that the new rules will only prevent an estimated 10% of robocalls, and that scammers will soon change their methods to get around these new barriers. However, telecom industry leaders support the move as a first step toward clarifying what carriers are allowed to do to block these calls."
+    },
+    {
+      "title": "FCC Releases Final Proposal to End Net Neutrality",
+      "link": "https://www.theverge.com/2017/11/22/16690870/fcc-repeal-net-neutrality-proposal-release",
+      "description": "The FCC has disseminated the final draft of its plan to dismantle most net neutrality rules. Trump-appointed FCC Chair Ajit Pai has long signaled his intention to remove these regulations, which passed under President Obama and banned blocking, throttling, and paid prioritization of consumer internet content. Though ISPs must publicly disclose these actions under the proposed rules, net neutrality proponents are concerned that they lack adequate consumer protections. The proposal will go to a vote in December and is expected to pass."
+    }
+  ]
+}
