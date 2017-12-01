@@ -32,11 +32,19 @@
       {{/forEach}}
     </td>
   </tr>
-  <tr>
-    <!-- clients-desc -->
-    <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
-      <p>Have you or your firm been mentioned in the news recently?</p>
-      <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
-    </td>
-  </tr>
+  {{#if jldNewsletter }}
+    <tr>
+      <!-- clients-desc -->
+      <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
+      </td>
+    </tr>
+  {{else}}
+    <tr>
+      <!-- clients-desc -->
+      <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
+        <p>Have you or your firm been mentioned in the news recently?</p>
+        <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
+      </td>
+    </tr>
+  {{/if}}
 </table>
