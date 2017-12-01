@@ -916,6 +916,10 @@ body {
   padding: 80px 0 30px !important;
 }
 
+.w-text-image.w-meet-our-team .item-2 .item-image {
+  padding: 55px 0 0 !important;
+}
+
 .w-text-image.w-inside-justia .item-list .item-desc {
   width: 300px;
 }
