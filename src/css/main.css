@@ -1274,8 +1274,12 @@ body {
 }
 
 .w-law-events .date {
-  color: #ffffff;
+  color: #ffffff !important;
   font: 700 20px/1 Arial, sans-serif;
+}
+
+.w-law-events .date a {
+  color: #ffffff !important;
 }
 
 .w-law-events .desc {
