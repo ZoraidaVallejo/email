@@ -11,7 +11,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-header-v1 }}
+      {{> justia-header-v1 jldNewsletter=true }}
     </td>
   </tr>
 
@@ -65,7 +65,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{> meet-our-team }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> pugs-tale }}
+        {{> pugs-tale jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> jld-advertisement-02 }}

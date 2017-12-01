@@ -743,6 +743,7 @@ body {
 
 .w-tip-month ul {
   color: #ffffff;
+  font-size: 16px !important;
 }
 
 .w-tip-month ul li {
@@ -911,6 +912,10 @@ body {
   max-width: 88%;
 }
 
+.w-text-image.w-meet-our-team .item-1 .item-image {
+  padding: 80px 0 30px !important;
+}
+
 .w-text-image.w-inside-justia .item-list .item-desc {
   width: 300px;
 }
@@ -935,6 +940,10 @@ body {
 .w-text-image.w-pugs-tale .item-image img {
   width: 210px;
   max-width: 88%;
+}
+
+.w-text-image.w-pugs-tale.jld {
+  background-color: #ffffff;
 }
 
 .w-did-you-know {
@@ -1271,6 +1280,15 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-2 .inner-text {
+  height: 130px;
+}
+
+.w-law-events .event-4 .inner-text,
+.w-law-events .event-8 .inner-text {
+  height: 108px;
 }
 
 .align-center {

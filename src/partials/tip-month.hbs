@@ -34,14 +34,12 @@
   {{/if}}
 
   {{#if jldNewsletter }}
-    {{#each tipMonth.jld.description }}
       <tr>
         <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
         <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p><br>
+          <p>{{{ tipMonth.jld.description }}}</p><br>
           {{> ui-button class="tipButton" custom=true buttonLink=tipMonth.jld.buttonLink rootPath="../src/img" imagePath="button-update-01.png" imageAlt="Update your profile now" }}
         </td>
       </tr>
-    {{/each}}
   {{/if}}
 </table>
