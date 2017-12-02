@@ -50,7 +50,7 @@ img {
 }
 
 .contactus .phone {
-  font: 18px/1.3 Arial, sans-serif !important;
+  font: 16px/1.3 Arial, sans-serif !important;
 }
 
 .expiration {
@@ -236,38 +236,105 @@ body {
   text-transform: uppercase;
 }
 
-.template-2 .description {
-  overflow: hidden;
-  width: 600px;
-  max-width: 600px !important;
-  background-color: #ffffff;
-  border-collapse: collapse !important;
-}
-
-.template-2 .description td {
-  width: 100%;
-}
-
-.template-2 .description .image {
-  width: 600px;
-  height: 300px;
-  margin: 0 auto;
-  Margin: 0 auto;
-}
-
 .template-2 .block-2 {
-  padding: 25px 30px 40px;
+  padding: 40px 30px;
   text-align: center;
 }
 
 .template-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+  font: 24px/1.25 Arial, sans-serif !important;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
+.template-2 .block-3 {
+  padding: 0 30px;
+}
+
+.template-2 .button-red-contact {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.template-2 .button-red-contact > tr > td {
+  padding: 0 0 32px;
+  text-align: center !important;
+}
+
+.template-2 .button-red-contact a {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px 88px;
+  border: 0;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #e2231a;
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.template-2 .block-4 {
+  padding: 24px 30px 20px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.template-2 .block-4 tr {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.template-2 .block-4 tr:last-child {
+  margin-bottom: 0;
+}
+
+.template-2 .block-4 tr:first-child {
+  font-size: 21px;
+}
+
+.template-2 .block-4 tr:first-child p {
+  font: 21px/1.5 Arial, sans-serif !important;
+}
+
+.template-2 .block-4 .star-icon {
+  padding-top: 5px !important;
+  vertical-align: top;
+}
+
+.template-2 .block-4 .list-text {
+  vertical-align: top;
+}
+
+.template-2 .block-4 img {
+  display: inline-block;
+  width: 17.6923076923px;
+  height: 17.6923076923px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.template-2 .block-4 p {
+  color: #000000;
+  text-align: left;
+  line-height: 18px;
+}
+
+.template-2 .block-4 p strong {
+  color: #000000;
+}
+
 .template-2 .block-5 {
-  padding: 0 30px 25px;
+  padding: 0 30px 35px;
+}
+
+.template-2 .block-5 a {
+  color: #333333 !important;
+}
+
+.template-2 .block-4 {
+  padding: 0 30px 35px;
 }
 
 .align-center {
