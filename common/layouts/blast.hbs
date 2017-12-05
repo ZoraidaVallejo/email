@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{ subject }}</title>
+<link href="../src/css/preserve.css" rel="stylesheet" type="text/css" data-embed />
+<link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" id="email-container">
+    <tr>
+      <td>
+        <table border="0" cellpadding="0" cellspacing="0" class="content">
+          <tr>
+            <td>
+              {{> justia-header-v2 }}
+            </td>
+          </tr>
+<!-- COPY FROM HERE -->
+{{ body }}
+<!-- TO HERE -->
+          <tr>
+            <td>
+              <table width="100%" cellpadding="30" cellspacing="0" border="0"><tbody></tbody></table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  {{> justia-footer-v2 }}
+</body>
+</html>

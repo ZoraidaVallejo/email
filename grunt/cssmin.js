@@ -1,17 +1,20 @@
-'use strict';
-
-// Compress images
 module.exports = {
-
-    options: { advanced: false },
-
-    target: {
-        files: [{
-            expand: true,
-            cwd: '<%= paths.src %>/css',
-            src: ['*.css', '!OpenSansFamily.css'],
-            dest: '<%= paths.src %>/css',
-            ext: '.css'
-        }]
+  options: {
+    level: {
+      1: {
+        roundingPrecision: 5
+      }
     }
+  },
+  proposal: {
+    files: [
+      {
+        expand: true,
+        cwd: '<%= paths.src %>/css',
+        src: ['*.css', '!OpenSansFamily.css'],
+        dest: '<%= paths.src %>/css',
+        ext: '.css'
+      }
+    ]
+  }
 };
