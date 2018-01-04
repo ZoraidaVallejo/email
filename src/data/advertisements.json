@@ -1,0 +1,28 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "[alt text]",
+      "link": "tel:8885878421",
+      "title": "<strong>Content</strong> is needed<br>for a strong site",
+      "line-1": "Too busy or prefer not to<br>write content yourself?",
+      "line-2": "Call Us Now <strong><a href=\"tel:8885878421\">(888) 587-8421</a></strong>",
+      "description": ["We offer à la carte writing services that combine SEO best practices with your firm’s unique voice and approach to legal issues. Rest assured with an experienced legal writing team drafting your pages."]
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "image": "jld-adname-image-01.png",
+      "alt": "[alt text]",
+      "link": "#",
+      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+    },
+    "ad2": {
+      "image": "jld-adname-image-02.png",
+      "alt": "[alt text]",
+      "link": "#",
+      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+    }
+  }
+}

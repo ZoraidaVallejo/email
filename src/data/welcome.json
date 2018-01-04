@@ -1,0 +1,16 @@
+{
+  "clients": {
+    "title": {
+      "line1": "Welcome to the <%= currentMonthString %> <%= currentYear %> edition of",
+      "line2": "the Justia client newsletter!"
+    },
+    "message": "Learn about the developments in online marketing over the past year, look ahead to what’s coming in the new year, discover new ways to reach your audience, and hear about what’s going on with our team."
+  },
+  "jld": {
+    "title": {
+      "line1": "Welcome to the <%= currentMonthString %> <%= currentYear %> edition of",
+      "line2": "the Justia monthly newsletter!"
+    },
+    "message": "Get an inside look at new developments in the online marketing world, keep up with the latest social media trends, and hear about what’s happening at the JUSTIA offices."
+  }
+}

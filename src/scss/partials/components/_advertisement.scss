@@ -1,0 +1,115 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T
+// ----------------------------------------------------------------------------------------------------------
+
+$ad-image--dimensions: 600px 268px;
+
+.w-advertisement {
+
+  a {
+    text-decoration: none;
+  }
+
+  p,
+  a {
+    color: plt('white');
+  }
+
+  img {
+    display: block;
+    width: $max-width;
+    max-width: 100%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .ad-image {
+
+    a {
+      // display: block;
+    }
+  }
+
+  .ad-desc {
+    padding: 0 $padding 12px;
+    text-align: center;
+
+    p {
+      font: 14px/1.38 $sans-serif-font-family;
+    }
+
+    &--first {
+      padding: 25px $padding 12px;
+
+      p {
+        font: 16px/1.5 $sans-serif-font-family;
+      }
+    }
+
+    &--last {
+      padding: 0 $padding 25px;
+    }
+  }
+}
+
+.w-client-ad-01 {
+  background-color: #00a8d5;//plt('silver');
+
+  .ad-desc {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: left;
+  }
+
+  .ad-img {
+    width: nth($ad-image--dimensions, 1);
+    height: nth($ad-image--dimensions, 2);
+    padding-left: 30px;
+    background: url('../img/adname-image-01.png');
+    background-repeat: no-repeat;
+    font-family: Helvetica, Arial, sans-serif, 'OpenSans';
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .ad-title {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: left;
+  }
+
+  .ad-line-1 {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .ad-line-2 {
+    display: block;
+    margin-bottom: 22px;
+    line-height: 22px;
+    font-size: 18.5px;
+    text-align: left;
+
+    img {
+      display: inline-block;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.w-jld-ad-01 {
+  background-color: plt('silver');
+}
+
+.w-jld-ad-02 {
+  background-color: plt('silver');
+}

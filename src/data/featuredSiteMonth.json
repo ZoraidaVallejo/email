@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Nooney & Roberts",
+      "location": "Jacksonville",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.nooneyandroberts.com/",
+        "simple": "nooneyandroberts.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    }
+  ]
+}

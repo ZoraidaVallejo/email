@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "title": "Google Extends Search Results Snippets to Max 320 Characters",
+      "link": "https://www.seroundtable.com/google-extends-snippets-320-characters-24862.html",
+      "description": "In an effort to help people better understand how pages are relevant to their searches, Google recently increased the maximum length of snippets displayed for each search result from 160 characters to 320 characters. Google is not recommending updates to the meta descriptions based on these changes because the ​snippets are usually dynamically generated based on the user query and metadata and visible content of the destination page​."
+    },
+    {
+      "title": "Google’s Latest Search Updates Bring More Content to Featured Snippets & Knowledge Panel Info",
+      "link": "https://searchengineland.com/googles-latest-search-updates-will-bring-content-featured-snippets-knowledge-panel-info-287787",
+      "description": "Google has released three new search updates to enhance a user’s experience with its featured snippets, knowledge panel information, and related topics suggestions. More images and suggestions for related searches will now be included in a selection of featured snippets. Additionally, the Knowledge Panel has been expanded to include related content information. This related topics expansion also extends to the top of the search results, which Google says will enrich the discovery process each time a user performs a search. "
+    },
+    {
+      "title": "AdWords Advertisers Can Use Phone Numbers and Addresses for Google Customer Match Targeting",
+      "link": "https://searchengineland.com/google-adwords-customer-match-phone-numbers-mailing-addresses-launch-288150",
+      "description": "There are now more ways that businesses can target customers with campaigns launched via the Google AdWords platform. Advertisers can now add the phone numbers and mailing addresses of their known customers to the AdWords Customer Match feature. This update adds to the amount of information that can be added to Customer Match, which previously only supported the uploading of email lists. The addition of these two new known customer information data sets will offer marketers more opportunities to take advantage of existing first-party customer information in their Google campaigns."
+    },
+    {
+      "title": "Bing Announces AI-Powered New ‘Intelligent Search’ Features",
+      "link": "https://searchengineland.com/bing-announces-ai-powered-new-intelligent-search-features-288363",
+      "description": "Search engine company Bing is hopping on the artificial intelligence (AI) bandwagon. It showcased its vision for AI-enabled computing at a Microsoft AI event held in San Francisco in mid-December. Bing aspires to improve everyday experiences by make AI-supported software widely accessible. Specifically, Bing appears to be interested in how AI can improve an individual’s search experience. Its focus is on three areas of search: Answers, Images, and Conversational Search. Whether these enhancements will put Bing ahead of search frontrunner Google is unknown, particularly in the short-term, but Microsoft’s focus on including AI-driven search features in Bing may compel Google to respond with the development of AI search features of its own in the future."
+    },
+    {
+      "title": "Google offers advice on how to get ready for the mobile-first index",
+      "link": "https://searchengineland.com/google-offers-advice-get-ready-mobile-first-index-288532",
+      "description": "Recently, Google has been moving sites to its mobile-first index for monitoring purposes. A significant increase in the crawling rate of the Smartphone Googlebot in your log files and search results snippets is an indication that your site has been moved over. While Google has indicated that only a small number of sites were migrated, ensuring the mobile version of your site has important, high-quality content, plus metadata that is present on both versions of your site, is among the suggested tips that will help prepare you for the mobile-first index, regardless of whether your site has already been migrated."
+    }
+  ]
+}
