@@ -70,8 +70,8 @@ $ad-image--dimensions: 600px 268px;
     padding-left: 30px;
     background: url('../img/adname-image-01.png');
     background-repeat: no-repeat;
-    font-family: Helvetica, Arial, sans-serif, 'OpenSans';
     color: plt('white');
+    font-family: Helvetica, Arial, sans-serif, 'OpenSans';
     text-align: left;
   }
 
@@ -80,8 +80,8 @@ $ad-image--dimensions: 600px 268px;
     padding-bottom: 24px;
     color: plt('white');
     font-size: 40px;
-    line-height: 46px;
     text-align: left;
+    line-height: 46px;
   }
 
   .ad-line-1 {
@@ -89,17 +89,17 @@ $ad-image--dimensions: 600px 268px;
     padding-bottom: 24px;
     color: plt('white');
     font-size: 19px;
-    line-height: 27px;
     text-align: left;
+    line-height: 27px;
   }
 
   .ad-line-2 {
     display: block;
     padding-bottom: 22px;
     color: plt('white');
-    line-height: 22px;
     font-size: 18.5px;
     text-align: left;
+    line-height: 22px;
 
     img {
       display: inline-block;

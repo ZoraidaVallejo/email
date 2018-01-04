@@ -1032,8 +1032,8 @@ body {
   padding-left: 30px;
   background: url("../img/adname-image-01.png");
   background-repeat: no-repeat;
-  font-family: Helvetica, Arial, sans-serif, 'OpenSans';
   color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif, 'OpenSans';
   text-align: left;
 }
 
@@ -1042,8 +1042,8 @@ body {
   padding-bottom: 24px;
   color: #ffffff;
   font-size: 40px;
-  line-height: 46px;
   text-align: left;
+  line-height: 46px;
 }
 
 .w-client-ad-01 .ad-line-1 {
@@ -1051,17 +1051,17 @@ body {
   padding-bottom: 24px;
   color: #ffffff;
   font-size: 19px;
-  line-height: 27px;
   text-align: left;
+  line-height: 27px;
 }
 
 .w-client-ad-01 .ad-line-2 {
   display: block;
   padding-bottom: 22px;
   color: #ffffff;
-  line-height: 22px;
   font-size: 18.5px;
   text-align: left;
+  line-height: 22px;
 }
 
 .w-client-ad-01 .ad-line-2 img {
