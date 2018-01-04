@@ -60,8 +60,12 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
   }
 
   .date {
-    color: plt('white');
+    color: plt('white') !important;
     font: tp('weight', 'bold') 20px/1 $sans-serif-font-family;
+
+    a {
+      color: plt('white');
+    }
   }
 
   .desc {

@@ -745,6 +745,7 @@ body {
   padding-left: 20px;
   margin-top: 0;
   color: #ffffff;
+  font: 16px/1.38 Arial, sans-serif;
 }
 
 .w-tip-month ul li {
@@ -1038,7 +1039,8 @@ body {
 
 .w-client-ad-01 .ad-title {
   display: block;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  color: #ffffff;
   font-size: 40px;
   line-height: 46px;
   text-align: left;
@@ -1046,7 +1048,8 @@ body {
 
 .w-client-ad-01 .ad-line-1 {
   display: block;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  color: #ffffff;
   font-size: 19px;
   line-height: 27px;
   text-align: left;
@@ -1054,7 +1057,8 @@ body {
 
 .w-client-ad-01 .ad-line-2 {
   display: block;
-  margin-bottom: 22px;
+  padding-bottom: 22px;
+  color: #ffffff;
   line-height: 22px;
   font-size: 18.5px;
   text-align: left;
@@ -1062,8 +1066,12 @@ body {
 
 .w-client-ad-01 .ad-line-2 img {
   display: inline-block;
-  margin-right: 4px;
+  padding-right: 4px;
   vertical-align: middle;
+}
+
+.w-client-ad-01 .ad-line-2 a {
+  color: #ffffff;
 }
 
 .w-jld-ad-01 {
@@ -1271,8 +1279,12 @@ body {
 }
 
 .w-law-events .date {
-  color: #ffffff;
+  color: #ffffff !important;
   font: 700 20px/1 Arial, sans-serif;
+}
+
+.w-law-events .date a {
+  color: #ffffff;
 }
 
 .w-law-events .desc {

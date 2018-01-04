@@ -5,7 +5,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-client-ad-01 set-max-width">
   <tr>
     <!-- ad-image -->
-    {{> ui-background classes="ad-img ad-image" image=advertisements.clients.ad1.image absolutePath=true bgColor="#00b3e3" dimensions="width:600px; height:268px;" bgStart=true }}
+    {{> ui-background classes="ad-img ad-image mobile-reset-bg-image" responsiveClasses="mobile-reset-bg-image" image=advertisements.clients.ad1.image absolutePath=true bgColor="#00b3e3" dimensions="width:600px; height:268px;" bgStart=true }}
       <table align="center" border="0" cellpadding="0" cellspacing="0">
         <tr>
           <td class="ad-title">{{{ advertisements.clients.ad1.title }}}</td>
@@ -14,7 +14,7 @@
           <td class="ad-line-1">{{{ advertisements.clients.ad1.line-1 }}}</td>
         </tr>
         <tr>
-          <td class="ad-line-2"><a href="{{{ advertisements.clients.ad1.link }}}" target="_blank"><img src="../img/ad-phone-01.png" alt="" style="width:13px; height:17px;"></a>{{{ advertisements.clients.ad1.line-2 }}}</td>
+          <td class="ad-line-2"><a href="{{{ advertisements.clients.ad1.link }}}" target="_blank"><img src="{{ default.imageDirSrc }}/ad-phone-01.png" alt="" style="width:13px; height:17px;"></a>{{{ advertisements.clients.ad1.line-2 }}}</td>
         </tr>
       </table>
     {{> ui-background bgEnd=true }}

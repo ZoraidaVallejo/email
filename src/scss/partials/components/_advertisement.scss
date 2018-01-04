@@ -71,13 +71,14 @@ $ad-image--dimensions: 600px 268px;
     background: url('../img/adname-image-01.png');
     background-repeat: no-repeat;
     font-family: Helvetica, Arial, sans-serif, 'OpenSans';
-    color: #ffffff;
+    color: plt('white');
     text-align: left;
   }
 
   .ad-title {
     display: block;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    color: plt('white');
     font-size: 40px;
     line-height: 46px;
     text-align: left;
@@ -85,7 +86,8 @@ $ad-image--dimensions: 600px 268px;
 
   .ad-line-1 {
     display: block;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    color: plt('white');
     font-size: 19px;
     line-height: 27px;
     text-align: left;
@@ -93,15 +95,20 @@ $ad-image--dimensions: 600px 268px;
 
   .ad-line-2 {
     display: block;
-    margin-bottom: 22px;
+    padding-bottom: 22px;
+    color: plt('white');
     line-height: 22px;
     font-size: 18.5px;
     text-align: left;
 
     img {
       display: inline-block;
-      margin-right: 4px;
+      padding-right: 4px;
       vertical-align: middle;
+    }
+
+    a {
+      color: plt('white');
     }
   }
 }
