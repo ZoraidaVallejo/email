@@ -10,21 +10,21 @@
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "Syverson, Lesowitz & Gebelin, LLP",
+      "location": "Los Angeles, CA",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.syversonlaw.com/",
+        "simple": "syversonlaw.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "The Zinn Law Firm",
+      "location": "San Francisco, CA",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.zinn-law.com/",
+        "simple": "zinn-law.com"
       }
     }
   ]

@@ -114,9 +114,53 @@ $ad-image--dimensions: 600px 268px;
 }
 
 .w-jld-ad-01 {
-  background-color: plt('silver');
+  background-color: plt('justia-blue');
+
+  .ad-desc.ad-desc--first {
+    p {
+      font-size: 39px;
+      font-weight: bold;
+    }
+  }
+
+  .ad-desc {
+    text-align: left;
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .ad-desc1 {
+    padding-bottom: 26px;
+  }
+
+  .ad-desc2 {
+    padding-right: 280px;
+    padding-bottom: 22px;
+  }
+
+  .ad-desc .redButton {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 4px; 
+    background-color: plt('red');
+    font-size: 16px;
+    text-align: center;
+  }
+
 }
 
 .w-jld-ad-02 {
-  background-color: plt('silver');
+  background-color: plt('justia-blue');
+
+  .ad-desc0 {
+    padding-left: 51px;
+    text-align: left;
+  }
+
+  .ad-desc1,
+  .ad-desc2 {
+    padding-left: 40px
+  }
 }

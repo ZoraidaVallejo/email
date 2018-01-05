@@ -6,7 +6,7 @@
       "link": "tel:8885878421",
       "title": "<strong>Content</strong> is needed<br>for a strong site",
       "line-1": "Too busy or prefer not to<br>write content yourself?",
-      "line-2": "Call Us Now <strong><a href=\"tel:8885878421\">(888) 587-8421</a></strong>",
+      "line-2": "Call Us Now <strong><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></strong>",
       "description": ["We offer à la carte writing services that combine SEO best practices with your firm’s unique voice and approach to legal issues. Rest assured with an experienced legal writing team drafting your pages."]
     }
   },
@@ -14,15 +14,16 @@
   "jld": {
     "ad1": {
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "New Year = New Marketing! 2018",
+      "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=banner-website-marketing-generic-v3",
+      "description": ["New Year = New Marketing!", "Make a resolution to enhance your marketing strategy this year!<br>Justia provides premium law firm marketing solutions.","<strong><a href=\"https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=banner-website-marketing-generic-v3\" target=\"_blank\" class=\"redButton\">Contact Us Today to Learn More</a></strong>","Call Us Now <strong><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></strong>"],
+      "buttonLink": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=banner-website-marketing-generic-v3"
     },
     "ad2": {
       "image": "jld-adname-image-02.png",
       "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=banner-website-marketing-generic-v1",
+      "description": ["Or Call Us Now <strong><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></strong>", "Justia provides premium law firm marketing solutions. We build websites <br>that are fast, secure, mobile-friendly, and search engine-optimized.","* Offer valid until 1/31/18. Offer cannot be combined with other discounts."]
     }
   }
 }

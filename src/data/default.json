@@ -5,8 +5,9 @@
     "logo": {
       "v1": {
         "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-        "url": "https://www.justia.com/",
-        "alt": "Justia Insights"
+        "url": "https://www.justia.com/marketing/?utm_medium=email&utm_source=client-newsletter&utm_campaign=2018-01&utm_content=image-header-logo-1",
+        "alt": "Justia Insights",
+        "urlJld": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=image-header-logo-1"
       },
       "v2": {
         "source": "https://justatic.com/v/20160815a/branding/logos/emails/justia-lawyer-profile-essentials-blue.png",
@@ -20,7 +21,9 @@
     "logo": {
       "v2": {
         "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
-        "alt": "Justia"
+        "alt": "Justia",
+        "urlClient": "https://www.justia.com/marketing/?utm_medium=email&utm_source=client-newsletter&utm_campaign=2018-01&utm_content=image-footer-logo-1",
+        "urlJld": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-01&utm_content=image-footer-logo-1"
       }
     }
   },

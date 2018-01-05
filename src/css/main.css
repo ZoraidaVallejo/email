@@ -506,13 +506,13 @@ body {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #19a0d5;
 }
 
 .w-welcome .head-img {
   width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
+  height: 221px;
+  background: url("../img/welcome-background-02-b.png");
   background-repeat: no-repeat;
 }
 
@@ -741,18 +741,21 @@ body {
   text-decoration: none;
 }
 
-.w-tip-month ul {
+.w-tip-month ul,
+.w-tip-month ol {
   padding-left: 20px;
   margin-top: 0;
   color: #ffffff;
   font: 16px/1.38 Arial, sans-serif;
 }
 
-.w-tip-month ul li {
+.w-tip-month ul li,
+.w-tip-month ol li {
   padding-bottom: 0.5em;
 }
 
-.w-tip-month ul li ul {
+.w-tip-month ul li ul,
+.w-tip-month ol li ul {
   padding-top: 0.5em;
 }
 
@@ -766,6 +769,35 @@ body {
 
 .w-tip-month .tip-desc--last {
   padding: 0 30px 45px;
+}
+
+.w-tip-month .grid-row {
+  padding: 0 30px 15px;
+  font-size: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.w-tip-month .grid-column {
+  display: inline-block;
+  width: 270px;
+  max-width: 270px;
+  vertical-align: top;
+}
+
+.w-tip-month .single-grid-cell {
+  width: 600px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-tip-month .grid-cell {
+  width: 255px;
+}
+
+.w-tip-month .grid-cell td {
+  text-align: left;
+  vertical-align: top;
 }
 
 .w-in-the-news {
@@ -953,6 +985,12 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-did-you-know .dyk-button img,
+.w-did-you-know .dyk-button a {
+  width: 155px;
+  height: 32px;
+}
+
 .w-did-you-know .widget-type-name,
 .w-did-you-know .widget-main-title,
 .w-did-you-know p,
@@ -1075,11 +1113,52 @@ body {
 }
 
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  background-color: #06357a;
+}
+
+.w-jld-ad-01 .ad-desc.ad-desc--first p {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+.w-jld-ad-01 .ad-desc {
+  text-align: left;
+}
+
+.w-jld-ad-01 .ad-desc p {
+  font-size: 18px;
+}
+
+.w-jld-ad-01 .ad-desc1 {
+  padding-bottom: 26px;
+}
+
+.w-jld-ad-01 .ad-desc2 {
+  padding-right: 280px;
+  padding-bottom: 22px;
+}
+
+.w-jld-ad-01 .ad-desc .redButton {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 4px;
+  background-color: #e2231a;
+  font-size: 16px;
+  text-align: center;
 }
 
 .w-jld-ad-02 {
-  background-color: #c0c0c0;
+  background-color: #06357a;
+}
+
+.w-jld-ad-02 .ad-desc0 {
+  padding-left: 51px;
+  text-align: left;
+}
+
+.w-jld-ad-02 .ad-desc1,
+.w-jld-ad-02 .ad-desc2 {
+  padding-left: 40px;
 }
 
 .w-internet-stats {
