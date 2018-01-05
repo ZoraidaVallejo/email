@@ -777,8 +777,14 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-tip-month .tipButton img,
+.w-tip-month .tipButton a {
+  width: 190px;
+  height: 32px;
+}
+
 .w-tip-month .grid-row {
-  padding: 0 30px 15px;
+  padding: 0 30px;
   font-size: 0;
   text-align: center;
   vertical-align: top;

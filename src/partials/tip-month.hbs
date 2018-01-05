@@ -45,7 +45,7 @@
       </tr>
     {{/each}}
     <tr>
-      {{> ui-columns-grid rowClasses="tip-lists tip-desc--last" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="tiplist" }}
+      {{> ui-columns-grid rowClasses="tip-lists" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="tiplist" }}
         <tr>
           <td>
             <ul>
@@ -68,6 +68,12 @@
           </td>
         </tr>
       {{> ui-columns-grid columnEnd=true }}
+    </tr>
+    <tr>
+      <!-- tip-desc--last -->
+      <td class="tip-desc--last" responsive="mobile-padding-horizontal-sides">
+        {{> ui-button class="tipButton" custom=true buttonLink=tipMonth.jld.link rootPath="../src/img" imagePath="button-update-01.png" imageAlt="Update your profile now" }}
+      </td>
     </tr>
   {{/if}}
 </table>

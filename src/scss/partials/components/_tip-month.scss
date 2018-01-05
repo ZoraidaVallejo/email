@@ -52,8 +52,17 @@ $tip-table-width: (($inner-max-width / 2) - ($padding / 2));
     }
   }
 
+  .tipButton {
+    img,
+    a {
+      width: 190px;
+      height: 32px;
+    }
+
+  }
+
   .grid-row {
-    padding: 0 $padding 15px;
+    padding: 0 $padding;
     font-size: 0;
     text-align: center;
     vertical-align: top;
