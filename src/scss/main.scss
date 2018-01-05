@@ -19,8 +19,8 @@ $use-breakpoint: false;
   'justia-footer-v2';
 
 @import
-  'partials/template-1',
-  'partials/template-2';
+  'partials/non-client',
+  'partials/client';
 
 @import
   'partials/other';

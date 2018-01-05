@@ -1,0 +1,54 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C L I E N T
+// ----------------------------------------------------------------------------------------------------------
+
+$client-banner--dimensions: image-dimensions('/src/img/loyalmember-banner-01.jpg');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.template-2 {
+
+  .description {
+    overflow: hidden;
+    width: $max-width;
+    max-width: $max-width !important;
+    background-color: #ffffff;
+    border-collapse: collapse !important;
+
+    td {
+      width: 100%;
+    }
+  }
+
+  .banner img {
+    width: nth($client-banner--dimensions, 1);
+    height: nth($client-banner--dimensions, 2);
+    margin: 0 auto;
+    // stylelint-disable-next-line declaration-block-no-duplicate-properties
+    Margin: 0 auto;
+  }
+
+  .content {
+    padding: 0 $padding 25px;
+  }
+
+  .text-1 {
+    padding: 35px $padding 24px;
+
+    p {
+      font: 18px/1.3 $sans-serif-font-family !important;
+    }
+  }
+
+  .contactus {
+    padding: 0 $padding 34px;
+
+    .phone {
+
+      a {
+        color: plt('justia-blue') !important;
+      }
+    }
+  }
+}

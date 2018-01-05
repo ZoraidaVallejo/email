@@ -1,9 +1,9 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// T E M P L A T E   1
+// N O N - C L I E N T
 // ----------------------------------------------------------------------------------------------------------
 
-$template1-animation--dimensions: image-dimensions('/src/img/newyear-banner-static-01.png');
+$nonclient-banner--dimensions: image-dimensions('/src/img/newyear-banner-static-01.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -18,13 +18,13 @@ $template1-animation--dimensions: image-dimensions('/src/img/newyear-banner-stat
   }
 
   .animation-banner {
-    width: nth($template1-animation--dimensions, 1);
-    height: nth($template1-animation--dimensions, 2);
+    width: nth($nonclient-banner--dimensions, 1);
+    height: nth($nonclient-banner--dimensions, 2);
     padding: 0;
     background: url('../img/newyear-banner-static-01.png');
     background-color: plt('justia-blue');
     background-repeat: no-repeat !important;
-    background-size: $template1-animation--dimensions;
+    background-size: $nonclient-banner--dimensions;
     vertical-align: top;
   }
 
@@ -40,8 +40,8 @@ $template1-animation--dimensions: image-dimensions('/src/img/newyear-banner-stat
       padding: 0;
 
       .image {
-        width: nth($template1-animation--dimensions, 1);
-        height: nth($template1-animation--dimensions, 2);
+        width: nth($nonclient-banner--dimensions, 1);
+        height: nth($nonclient-banner--dimensions, 2);
         margin: 0 auto;
         // stylelint-disable-next-line declaration-block-no-duplicate-properties
         Margin: 0 auto;
@@ -49,7 +49,7 @@ $template1-animation--dimensions: image-dimensions('/src/img/newyear-banner-stat
     }
   }
 
-  .inner-content {
+  .content {
     width: 100%;
     padding: 0 $padding 24px;
 
