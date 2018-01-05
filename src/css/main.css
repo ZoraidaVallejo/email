@@ -240,58 +240,78 @@ body {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
-  background-color: #4c6b97;
+  background-color: #ffffff;
   border-collapse: collapse !important;
 }
 
-.template-1 .dvbg {
+.template-1 .animation-banner {
   width: 600px;
-  height: 736px;
+  height: 367px;
   padding: 0;
-  background: url("../img/template1-background-01.png");
-  background-color: #4c6b97;
+  background: url("../img/newyear-banner-static-01.png");
+  background-color: #06357a;
   background-repeat: no-repeat !important;
-  background-size: 600px 736px;
+  background-size: 600px 367px;
   vertical-align: top;
 }
 
-.template-1 .inner-content {
+.template-1 .banner-gif {
   width: 600px;
+}
+
+.template-1 .banner-gif td {
+  width: 100%;
+  text-align: center;
+}
+
+.template-1 .banner-gif .gif-wrapper {
+  padding: 0;
+}
+
+.template-1 .banner-gif .gif-wrapper .image {
+  width: 600px;
+  height: 367px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.template-1 .inner-content {
+  width: 100%;
+  padding: 0 30px 24px;
 }
 
 .template-1 .inner-content p,
 .template-1 .inner-content a,
 .template-1 .inner-content strong {
-  color: #ffffff;
+  color: #000000;
 }
 
-.template-1 .inner-content td {
-  width: 100%;
+.template-1 .text-1 {
+  padding: 35px 30px 24px;
+}
+
+.template-1 .red-button {
   text-align: center;
 }
 
-.template-1 .block-1 {
-  padding: 50px 67px 295px;
-}
-
-.template-1 .block-1 .image {
-  width: 465.5px;
-  height: 164px;
+.template-1 .red-button a {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 4px;
   margin: 0 auto;
-  Margin: 0 auto;
+  background-color: #e2231a;
+  color: #ffffff !important;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.template-1 .block-2 {
-  padding: 0 30px 20px;
-  text-align: left;
-}
-
-.template-1 .block-2 p {
-  text-align: left;
+.template-1 .contactus {
+  padding: 0 30px 34px;
 }
 
 .template-1 .contactus .phone a {
-  color: #ffffff !important;
+  color: #06357a !important;
 }
 
 .template-2 .description {
