@@ -514,6 +514,7 @@ body {
   height: 221px;
   background: url("../img/welcome-background-02-b.png");
   background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .w-welcome--title {
@@ -523,6 +524,10 @@ body {
 .w-welcome--title h1 {
   color: #ffffff;
   font: 400 22px/1.3 Arial, sans-serif;
+}
+
+.w-welcome--title h1 im {
+  color: #ffffff;
 }
 
 .w-welcome--message {
