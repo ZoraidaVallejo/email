@@ -25,14 +25,23 @@ $button-1--dimensions: 240px 64px;
 
 .button-wrapper {
   display: inline-block;
-  padding: 0.25em 1.16em;
+  padding: 0 1.16em;
   border: 1px solid #ffffff;
   border-radius: 3px;
+  font-size: 16px !important;
   text-align: center;
+  line-height: 1.75 !important;
+
+  .ui-button {
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+  }
 
   a {
     display: inline-block;
     width: 100%;
     height: auto;
+    font-size: 16px !important;
+    line-height: 1.75 !important;
   }
 }
