@@ -372,6 +372,20 @@ body {
   text-decoration: none;
 }
 
+.button-wrapper {
+  display: inline-block;
+  padding: 0.25em 1.16em;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.button-wrapper a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
 .ui-label-divider {
   width: 100%;
   margin: 0 auto;
@@ -809,6 +823,10 @@ body {
   text-align: center;
 }
 
+.w-in-the-news .client-2 .news-logo img {
+  border: 1px solid #cccccc;
+}
+
 .w-text-image {
   background-color: #fafafa;
 }
@@ -1006,10 +1024,6 @@ body {
 }
 
 .w-client-ad-01 {
-  background-color: #c0c0c0;
-}
-
-.w-jld-ad-01 {
   background-color: #c0c0c0;
 }
 

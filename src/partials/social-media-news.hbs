@@ -10,13 +10,26 @@
       <h2 class="widget-main-title">Social Media News</h2>
     </td>
   </tr>
-  {{#forEach socialMediaNews.articles }}
-    <tr>
-      <!-- story-item -->
-      <td class="story-item" responsive="mobile-padding-horizontal-sides">
-        <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
-        <p>{{{ this.description }}}</p>
-      </td>
-    </tr>
-  {{/forEach}}
+  {{#if jldNewsletter }}
+    {{#forEach socialMediaNews.jldArticles }}
+      <tr>
+        <!-- story-item -->
+        <td class="story-item" responsive="mobile-padding-horizontal-sides">
+          <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
+          <p>{{{ this.description }}}</p>
+        </td>
+      </tr>
+    {{/forEach}}
+  {{/if}}
+  {{#if clientsNewsletter }}
+    {{#forEach socialMediaNews.clientsArticles }}
+      <tr>
+        <!-- story-item -->
+        <td class="story-item" responsive="mobile-padding-horizontal-sides">
+          <p><strong><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></strong></p>
+          <p>{{{ this.description }}}</p>
+        </td>
+      </tr>
+    {{/forEach}}
+  {{/if}}
 </table>

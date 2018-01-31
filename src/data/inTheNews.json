@@ -1,14 +1,14 @@
 {
   "news": [
     {
-      "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+      "logoName": "NBC-TV News",
+      "link": "https://www.nbclosangeles.com/investigations/Fare-Fraud-Lyft-Drivers-Say-Theyre-Getting-Shortchanged-by-the-Company-465572743.html",
+      "description": "<b>Stephan Mashel</b> interviewed by NBC-TV News regarding its investigation into Lyft Drivers being shortchanged by the company"
     },
     {
-      "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+      "logoName": "The Triton",
+      "link": "http://triton.news/2018/01/ucsd-student-daca-recipient-orr-yakobi-released/",
+      "description": "<b>Jacob Sapochnick</b>'s client Orr Yakobi, UCSD student and DACA recipient, released after wrong turn and border crossing"
     }
   ]
 }

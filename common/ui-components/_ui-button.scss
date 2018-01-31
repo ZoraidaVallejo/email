@@ -22,3 +22,17 @@ $button-1--dimensions: 240px 64px;
     text-decoration: none;
   }
 }
+
+.button-wrapper {
+  display: inline-block;
+  padding: 0.25em 1.16em;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+}

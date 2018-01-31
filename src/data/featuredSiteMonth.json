@@ -1,30 +1,30 @@
 {
   "sites": [
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Law Offices of Marc S. Albert",
+      "location": "Queens",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.msainjurylaw.com/",
+        "simple": "msainjurylaw.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Langer Law Firm",
+      "location": "North Carolina",
+      "possessiveAdjective": "his",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.langerlawfirm.com/",
+        "simple": "langerlawfirm.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Reeves Law Firm",
+      "location": "Alabama",
+      "possessiveAdjective": "his",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.thereeveslawfirm.com/",
+        "simple": "thereeveslawfirm.com"
       }
     }
   ]

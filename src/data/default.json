@@ -5,7 +5,10 @@
     "logo": {
       "v1": {
         "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-        "url": "https://www.justia.com/",
+        "url": {
+          "jld": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_content=image-header-logo-1",
+          "clients": "https://www.justia.com/marketing/?utm_medium=email&utm_source=client-newsletter&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_content=image-header-logo-1"
+        },
         "alt": "Justia Insights"
       },
       "v2": {
