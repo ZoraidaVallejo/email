@@ -832,10 +832,6 @@ body {
   text-align: center;
 }
 
-.w-in-the-news .client-2 .news-logo img {
-  border: 1px solid #cccccc;
-}
-
 .w-text-image {
   background-color: #fafafa;
 }
@@ -1037,7 +1033,9 @@ body {
 }
 
 .w-jld-ad-02 {
-  background-color: #c0c0c0;
+  border: 1px solid #cccccc;
+  border-width: 1px 0;
+  background-color: #ffffff;
 }
 
 .w-internet-stats {
