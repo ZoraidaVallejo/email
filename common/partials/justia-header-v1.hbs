@@ -1,0 +1,29 @@
+{{!
+  Notification Block
+  Params:
+    date:   (string) unescaped Date of the current newslatter
+}}
+{{> ui-layout-hack tableStart=true }}
+  <!-- justia-header-v1 -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" class="justia-header-v1 set-max-width">
+    <tr>
+      <!-- logo-date -->
+      <td class="logo-date" responsive="mobile-padding-horizontal-sides">
+        <!-- spacer -->
+        <img src="https://justatic.com/v/1/emails/images/spacer.gif" class="spacer" responsive="mobile-hide" border="0" />
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- logo -->
+            <td class="logo">
+              <a href="{{#if jldNewsletter }}{{default.header.logo.v1.urlJld}}{{else}}{{default.header.logo.v1.url}}{{/if}}" target="_blank"><img src="{{ default.header.logo.v1.source }}" alt="{{ default.header.logo.v1.alt }}" border="0" /></a>
+            </td>
+            <!-- date -->
+            <td class="date align-right">
+              <span>{{getMonth custom-config.currentMonth }} {{ custom-config.currentYear }}</span>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+{{> ui-layout-hack tableEnd=true }}

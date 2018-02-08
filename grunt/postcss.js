@@ -1,15 +1,11 @@
-'use strict';
+const Autoprefixer = require('autoprefixer');
 
-// Browser-based preview task
 module.exports = {
-
-    preview: {
-        options: {
-            map: false,
-            processors: [
-                require('autoprefixer')
-            ]
-        },
-        src: 'preview/css/preview.css'
-    }
+  preview: {
+    options: {
+      map: false,
+      processors: [Autoprefixer]
+    },
+    src: 'preview/css/preview.css'
+  }
 };

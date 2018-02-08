@@ -1,8 +1,8 @@
-
 // SYSTEM
 // ------
 // const cwd = process.cwd();
 // const path = require('path');
+// const fs = require('fs');
 // const util = require('util');
 
 // EXTERNAL PACKAGES
@@ -19,5 +19,4 @@
 
 // FILES
 // -----
-// const PKG = require(path.join(cwd, 'package.json'));
-
+// const PKG = require('../package.json');

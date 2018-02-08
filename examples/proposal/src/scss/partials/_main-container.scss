@@ -1,0 +1,113 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// B O D Y   &   C O N T A I N E R
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+  width: 100%;
+  background-color: plt('mail', 'black-haze');
+}
+
+.page {
+  background-color: plt('white');
+}
+
+.main-content {
+  padding: 0 $padding;
+  background-color: plt('white');
+  font-family: $serif-font-family;
+  font-size: 12pt;
+  line-height: 1.4;
+
+  &:last-child {
+    padding-bottom: 50px;
+  }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+.col {
+  float: left;
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cols {
+  clear: both;
+  overflow: hidden;
+}
+
+.cols-pnt-1 {
+  padding: 0 ($padding - 16px) 0 $padding;
+
+  .cl-1 {
+    width: 40%;
+  }
+
+  .cl-2 {
+    float: right;
+    width: 55%;
+  }
+}
+
+.cols-pnt-2 {
+  padding: 0 ($padding - 5px) 0 $padding;
+
+  .cl-1 {
+    width: 60%;
+  }
+
+  .cl-2 {
+    float: right;
+    width: 35%;
+  }
+}
+
+.cols-pnt-3 {
+  padding: 0 ($padding - 16px) 0 $padding;
+
+  .cl-1 {
+    width: 40%;
+  }
+
+  .cl-2 {
+    float: right;
+    width: 55%;
+  }
+}
+
+table {
+  border: 1px solid plt('mercury');
+  font-family: $serif-font-family;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  td,
+  th {
+    padding: 7px 10px;
+    border: 1px solid plt('mercury');
+    font-family: $serif-font-family;
+    line-height: 1.1;
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-collapse: collapse;
+  }
+
+  .odd {
+
+    td {
+      background-color: plt('alabaster');
+    }
+  }
+}

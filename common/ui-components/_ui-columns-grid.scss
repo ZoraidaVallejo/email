@@ -1,0 +1,31 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// U I   C O L U M N S   G R I D
+// ----------------------------------------------------------------------------------------------------------
+
+.ui-columns-grid {
+
+  .grid-row {
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .grid-column {
+    display: inline-block;
+    width: ($max-width / 2);
+    max-width: ($max-width / 2);
+    vertical-align: top;
+  }
+
+  .single-grid-cell {
+    width: $max-width;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .grid-cell {
+    width: ($max-width / 2);
+  }
+}

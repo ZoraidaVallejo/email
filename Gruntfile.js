@@ -1,37 +1,48 @@
-'use strict';
+/* eslint-disable no-console */
 
-const customConfig = require('./custom-config.json');
 const chalk = require('chalk');
-const getMonths = require('./src/helpers/lib/getMonth');
+const timeGrunt = require('time-grunt');
+const loadGruntConfig = require('load-grunt-config');
 
-module.exports = function(grunt) {
-    let monthNum = parseInt(customConfig.current_month);
+const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
+const getMonths = require('./scripts/handlebars-helpers/getMonth');
+const $ = require('./scripts/helpers');
 
-    if (monthNum < 1 || monthNum > 12) {
-        grunt.log.writeln(
-            chalk.yellow(
-                `\nWarning: Please set the month number between 01 to 12 in the ${ chalk.underline('custom-config.json') } file.\n`
-            )
-        );
-    }
+if (!customConfig.version) {
+  customConfig.currentYear = customConfig.current_year;
+  customConfig.currentMonth = customConfig.current_month;
+  customConfig.compressedFileName = customConfig.compressed_file_name;
 
-    var allRules = Object.assign({}, customConfig, { current_month_string: getMonths(monthNum) });
+  customConfig.paths.srcImg = customConfig.paths.src_img;
+  customConfig.paths.distImg = customConfig.paths.dist_img;
+  customConfig.paths.liveImg = customConfig.paths.live_img;
+  customConfig.paths.remoteImgPath = customConfig.paths.remote_img_path;
+}
+
+const monthNum = parseInt(customConfig.currentMonth, 10);
+const configuration = Object.assign({}, customConfig, {
+  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonths(monthNum)
+});
+
+if (monthNum < 1 || monthNum > 12) {
+  $.log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
+}
+
+module.exports = grunt => {
+  // Time how long tasks take. Can help when optimizing build times
+  timeGrunt(grunt);
+
+  loadGruntConfig(grunt, {
+    data: configuration,
 
     // Time how long tasks take. Can help when optimizing build times
-    require('time-grunt')(grunt);
+    timeGrunt: true,
 
-    require('load-grunt-config')(grunt, {
-
-        // Pass data to tasks
-        data: allRules,
-
-        jitGrunt: {
-
-            staticMappings: {
-                juice: 'grunt-juice-email',
-                sasslint: 'grunt-sass-lint',
-                spreadsheet: 'grunt/spreadsheet.js'
-            }
-        }
-    });
+    // Load only needed packages when a task is called.
+    jitGrunt: {
+      staticMappings: {
+        juice: 'grunt-juice-email'
+      }
+    }
+  });
 };
