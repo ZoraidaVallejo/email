@@ -136,4 +136,17 @@ $we-miss-you-main-image-01--dimensions: image-dimensions('/src/img/we-miss-you-m
       }
     }
   }
+
+  .contactus {
+    padding-bottom: 33px;
+    background-color: plt('white');
+
+    .phone {
+      color: plt('justia-blue') !important;
+
+      a {
+        color: plt('justia-blue') !important;
+      }
+    }
+  }
 }

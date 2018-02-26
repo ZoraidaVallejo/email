@@ -351,6 +351,19 @@ body {
   padding-bottom: 0;
 }
 
+.we-miss-you .contactus {
+  padding-bottom: 33px;
+  background-color: #ffffff;
+}
+
+.we-miss-you .contactus .phone {
+  color: #06357a !important;
+}
+
+.we-miss-you .contactus .phone a {
+  color: #06357a !important;
+}
+
 .align-center {
   text-align: center;
 }
