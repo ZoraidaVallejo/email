@@ -1,0 +1,43 @@
+
+<!-- DID YOU KNOW? -->
+
+<!-- w-did-you-know -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-did-you-know {{#if jldNewsletter }}jld-newsletter {{/if}}set-max-width">
+  <tr>
+    <!-- dyk-title -->
+    <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
+      <!-- widget-type-name -->
+      {{#if clientsNewsletter }}
+        <h4 class="widget-type-name">DID YOU KNOW?</h4>
+      {{/if}}
+      {{#if didYouKnow.title }}
+        <!-- widget-main-title -->
+        <h2 class="widget-main-title">
+          {{#if didYouKnow.link }}
+            <a href="{{ didYouKnow.link }}" target="_blank">
+          {{/if}}
+            {{{ didYouKnow.title }}}
+          {{#if didYouKnow.link }}
+            </a>
+          {{/if}}
+        </h2>
+      {{/if}}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="dyk-desc dyk-desc--last" responsive="mobile-padding-horizontal-sides">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <!-- dyk-desc -->
+          <td class="dyk-desc" responsive="collapse-one">
+            <p>{{{ didYouKnow.description }}}</p>
+          </td>
+          <td class="featured-image" responsive="mobile-hide collapse-one">
+             <img src="{{ default.imageDirSrc }}/did-you-know-01.png" alt="{{ didYouKnow.title }}" border="0" />
+           </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

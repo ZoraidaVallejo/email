@@ -22,3 +22,29 @@ $button-1--dimensions: 240px 64px;
     text-decoration: none;
   }
 }
+
+.button-wrapper {
+  display: inline-block;
+  padding: 0 1.16em;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  font-size: 16px !important;
+  line-height: 1.75 !important;
+
+  .ui-button {
+    display: inline-block;
+    font-size: 16px !important;
+    line-height: 1.75 !important;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px !important;
+    text-decoration: none;
+    line-height: 1.75 !important;
+  }
+}

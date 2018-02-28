@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Jesse Minc Law Group",
+      "location": "New York City",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.personalinjurylawyersbronx.com/",
+        "simple": "personalinjurylawyersbronx.com"
+      }
+    },
+    {
+      "clientName": "Goodman Law Firm",
+      "location": "Texas",
+      "possessiveAdjective": "his",
+      "domain": {
+        "long": "https://www.michaelgoodmanlaw.com/",
+        "simple": "michaelgoodmanlaw.com"
+      }
+    },
+    {
+      "clientName": "Law Offices of Allan Marain Counsellors at Law",
+      "location": "New Jersey",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.marainlaw.com/",
+        "simple": "marainlaw.com"
+      }
+    }
+  ]
+}

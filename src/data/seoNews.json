@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "title": "Chrome Will Soon Mark All Unencrypted Pages as ‘Not Secure’",
+      "link": "https://techcrunch.com/2018/02/08/chrome-will-soon-mark-all-unencrypted-pages-as-not-secure/",
+      "description": "Starting in July 2018, Chrome will mark all sites that do not use HTTPS encryption as “not secure” in the address bar. For several years, Google has consistently pushed website owners and developers to use HTTPS to help secure browsing data. While Chrome already flags non-HTTPS pages that have form fields as “not secure,” the changes in July will apply to all non-HTTPS sites, regardless of whether they have form fields on them."
+    },
+    {
+      "title": "Bing Adds Sentiment Analysis to Search - Google Said to be Next",
+      "link": "https://www.searchenginejournal.com/sentiment-analysis/",
+      "description": "Microsoft’s internet search engine, Bing, is now offering sentiment analysis technology. This technology involves the ability to determine whether web content has a negative or positive sentiment, and is believed to affect SEO in a variety of ways. Google has also indicated its intention to one day add sentiment analysis into its Featured Snippets, in a move likely meant to allow it to keep pace with Bing’s latest announcement."
+    }
+  ]
+}

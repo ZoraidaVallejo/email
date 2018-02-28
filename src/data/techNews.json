@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "title": "Mueller Indicts 13 Russian Nationals Over 2016 Election Interference",
+      "link": "https://www.cnn.com/2018/02/16/politics/mueller-russia-indictments-election-interference/",
+      "description": "In a much-anticipated move, the US Department of Justice announced in February that Special Counsel Robert Mueller had indicted 13 Russian nationals and three Russian entities for allegedly conspiring to defraud the United States, among other charges, in connection with the 2016 presidential election. The indictment describes how the Russian individuals and entities allegedly began their operations as early as 2014, using social media and other technological means to interfere with the election process."
+    },
+    {
+      "title": "Russia Used Mainstream Media to Manipulate American Voters",
+      "link": "https://www.washingtonpost.com/business/technology/russia-used-mainstream-media-to-manipulate-american-voters/2018/02/15/85f7914e-11a7-11e8-9065-e55346f6de81_story.html",
+      "description": "According to analysis conducted by Columbia University social-media researcher Jonathan Albright, Russia’s interference in the 2016 presidential election relied heavily on stories produced by major American news sources. In many instances, the stories themselves were generally factually accurate, but Russian Twitter accounts highlighted certain themes in order to bolster Republican Donald Trump and undermine his Democratic rival Hillary Clinton."
+    },
+    {
+      "title": "Uber and Waymo Settle Trade Secrets Suit Over Driverless Cars",
+      "link": "https://www.nytimes.com/2018/02/09/technology/uber-waymo-lawsuit-driverless.html",
+      "description": "Nearly a year after Waymo (formerly part of Google) first accused Uber of plotting to steal its proprietary self-driving car technology, and four days into trial, the two companies agreed on a settlement. The dispute centered on former Google engineer Anthony Levandowski, who was accused of downloading thousands of Google documents related to autonomous-vehicle technology before leaving the company, and whether Uber had known or played any role in the theft and use of this proprietary information when it acquired a company Levandowski founded."
+    },
+    {
+      "title": "This Crafty Tactic May Let States Get Around the FCC on Net Neutrality",
+      "link": "https://www.washingtonpost.com/news/the-switch/wp/2018/02/09/states-and-the-fcc-are-on-a-collision-course-over-net-neutrality-and-nobodys-sure-how-itll-go/",
+      "description": "After the Federal Communications Commission repealed net neutrality rules in December, many states have worked to find ways to impose their own version of those rules within their own borders. Some states are using an innovative strategy; rather than regulating the broadband industry directly, they are requiring that state agencies contract only with providers who agree to net neutrality principles. The idea is that because the state agencies are substantial consumers of internet service, this may create pressure on service providers to abide by net neutrality principles for individual consumers, as well."
+    },
+    {
+      "title": "97% of Cybersecurity Leaders are Evaluating Vendor Security, Including Law Firms, Says New Survey",
+      "link": "http://www.abajournal.com/news/article/97_of_cybersecurity_leaders_are_evaluating_vendor_security",
+      "description": "A report released in February 2018 considers the roles of CISOs (chief information security officers) in managing and safeguarding data, as well as their business vendor auditing practices and the adoption of cloud technology. The report’s findings indicate that ninety-seven percent of leaders in corporate cybersecurity formally assess the security practices of their vendors, including law firms. Despite this level of scrutiny, fifty-three percent of respondents revealed that they were confident the data managed by third party vendors was secure, including information managed by law firms."
+    },
+    {
+      "title": "Blockchain: Disrupting Industries and Transforming Legal Roles",
+      "link": "https://abovethelaw.com/2018/02/blockchain-disrupting-industries-and-transforming-legal-roles/",
+      "description": "This article from Above the Law encourages lawyers to learn about blockchain technology, and even to adopt blockchain in their practices, in order to stay on top of revolutionary technology. The author explains the different ways in which blockchain can affect the practice of law, and notes that we cannot even predict all the ways the technology might change the world."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "Login today to check out your Justia Lawyer Directory profile!",
+      "link": "https://accounts.justia.com/signin?utm_medium=email&utm_source=client-newsletter&utm_campaign=2018-03&utm_content=banner-premium-memberships-v2"
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "image": "jld-adname-image-01.png",
+      "alt": "We Can Optimize Your Website for Google's Mobile-First Index - Contact Us For Help",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-premium-memberships-v8"
+    },
+    "ad2": {
+      "image": "jld-adname-image-02.png",
+      "alt": "Remove Competitors From Your Profile - Contact Us Now to Become a Premium Member",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-website-marketing-generic-v5"
+    }
+  }
+}
