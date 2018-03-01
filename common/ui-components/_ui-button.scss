@@ -47,4 +47,12 @@ $button-1--dimensions: 240px 64px;
     text-decoration: none;
     line-height: 1.75 !important;
   }
+
+  &.-orange {
+    border-color: plt('orange');
+
+    a {
+      color: plt('orange') !important;
+    }
+  }
 }

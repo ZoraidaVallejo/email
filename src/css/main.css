@@ -398,6 +398,14 @@ body {
   line-height: 1.75 !important;
 }
 
+.button-wrapper.-orange {
+  border-color: #ff6b00;
+}
+
+.button-wrapper.-orange a {
+  color: #ff6b00 !important;
+}
+
 .ui-label-divider {
   width: 100%;
   margin: 0 auto;
