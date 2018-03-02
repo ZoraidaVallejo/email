@@ -12,6 +12,11 @@ $featured-thumb-list--gap: 35px;
 .w-feaured-site-month {
   background-color: plt('alabaster');
 
+  &.-with-list {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+  }
+
   a {
     text-decoration: none;
   }

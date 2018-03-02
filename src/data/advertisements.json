@@ -9,14 +9,32 @@
 
   "jld": {
     "ad1": {
-      "image": "jld-adname-image-01.png",
-      "alt": "We Can Optimize Your Website for Google's Mobile-First Index - Contact Us For Help",
-      "link": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-premium-memberships-v8#state-of-the-art"
+      "image": {
+        "a": "jld-adname-image-01.png",
+        "b": "jld-adname-image-01-b.png"
+      },
+      "alt": {
+        "a": "We Can Optimize Your Website for Google's Mobile-First Index",
+        "b": "Contact Us For Help"
+      },
+      "link": {
+        "a": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-premium-memberships-v8#state-of-the-art",
+        "b": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=button-premium-memberships-v8"
+      }
     },
     "ad2": {
-      "image": "jld-adname-image-02.png",
-      "alt": "Remove Competitors From Your Profile - Contact Us Now to Become a Premium Member",
-      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-website-marketing-generic-v5"
+      "image": {
+        "a": "jld-adname-image-02.png",
+        "b": "jld-adname-image-02-b.png"
+      },
+      "alt": {
+        "a": "Remove Competitors From Your Profile",
+        "b": "Contact Us Now to Become a Premium Member"
+      },
+      "link": {
+        "a": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=banner-website-marketing-generic-v5",
+        "b": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-03&utm_content=button-website-marketing-generic-v5"
+      }
     }
   }
 }

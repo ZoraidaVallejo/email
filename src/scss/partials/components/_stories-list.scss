@@ -41,6 +41,13 @@ $tech-news-image--width: 150px;
         vertical-align: top;
       }
 
+      &.-with-button {
+
+        .story-desc {
+          padding-bottom: 20px;
+        }
+      }
+
       .featured-image {
         width: ($tech-news-image--width + $padding);
         text-align: right;

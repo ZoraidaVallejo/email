@@ -398,12 +398,20 @@ body {
   line-height: 1.75 !important;
 }
 
-.button-wrapper.-orange {
-  border-color: #ff6b00;
+.button-wrapper.-red {
+  border-color: #e2231a;
 }
 
-.button-wrapper.-orange a {
-  color: #ff6b00 !important;
+.button-wrapper.-red a {
+  color: #e2231a !important;
+}
+
+.button-wrapper.-blue {
+  border-color: #00b3e3;
+}
+
+.button-wrapper.-blue a {
+  color: #00b3e3 !important;
 }
 
 .ui-label-divider {
@@ -596,6 +604,10 @@ body {
   width: 360px;
   text-align: left;
   vertical-align: top;
+}
+
+.w-stories-list .main-story-desc.-with-button .story-desc {
+  padding-bottom: 20px;
 }
 
 .w-stories-list .main-story-desc .featured-image {
@@ -989,7 +1001,7 @@ body {
 }
 
 .w-did-you-know.jld-newsletter .widget-main-title {
-  color: #ff6b00;
+  color: #e2231a;
 }
 
 .w-did-you-know .dyk-title {
@@ -1145,6 +1157,11 @@ body {
 
 .w-feaured-site-month {
   background-color: #fafafa;
+}
+
+.w-feaured-site-month.-with-list {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 .w-feaured-site-month a {

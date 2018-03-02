@@ -48,11 +48,19 @@ $button-1--dimensions: 240px 64px;
     line-height: 1.75 !important;
   }
 
-  &.-orange {
-    border-color: plt('orange');
+  &.-red {
+    border-color: plt('red');
 
     a {
-      color: plt('orange') !important;
+      color: plt('red') !important;
+    }
+  }
+
+  &.-blue {
+    border-color: plt('bright-blue');
+
+    a {
+      color: plt('bright-blue') !important;
     }
   }
 }

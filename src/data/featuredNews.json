@@ -12,5 +12,12 @@
     }
   },
   "description": "On law firm websites, the attorney profile pages are often among the highest-trafficked pages, yet too many attorneys neglect this page or leave it looking like a barebones résumé. Justia President Stacy Stern shares some tips on how to create an effective profile page, regardless of where you are in your career.",
+  "button": {
+    "text": "Read More",
+    "link": {
+      "clients": "https://onward.justia.com/2018/02/26/write-compelling-attorney-profile-page/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=button-onward-post-1",
+      "jld": "https://onward.justia.com/2018/02/26/write-compelling-attorney-profile-page/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=button-onward-post-1"
+    }
+  },
   "list": []
 }
