@@ -1,0 +1,66 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+
+  a {
+    text-decoration: none;
+  }
+
+  p,
+  a {
+    color: plt('white');
+  }
+
+  img {
+    display: block;
+    width: $max-width;
+    max-width: 100%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .ad-image {
+
+    a {
+      display: block;
+    }
+  }
+
+  .ad-desc {
+    padding: 0 $padding 12px;
+    text-align: center;
+
+    p {
+      font: 14px/1.38 $sans-serif-font-family;
+    }
+
+    &--first {
+      padding: 25px $padding 12px;
+
+      p {
+        font: 16px/1.5 $sans-serif-font-family;
+      }
+    }
+
+    &--last {
+      padding: 0 $padding 25px;
+    }
+  }
+}
+
+.w-client-ad-01 {
+  border-top: 1px solid plt('mail', 'black-haze');
+}
+
+.w-jld-ad-01 {
+  background-color: plt('silver');
+}
+
+.w-jld-ad-02 {
+  background-color: plt('silver');
+}

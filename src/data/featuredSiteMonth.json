@@ -1,0 +1,29 @@
+{
+  "sites": [
+    {
+      "clientName": "Powers Landreth PLLC",
+      "location": "North Carolina",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.carolinaattorneys.com/",
+        "simple": "carolinaattorneys.com"
+      }
+    },
+    {
+      "clientName": "Law Office of Bernie McEvoy",
+      "location": "Tennessee",
+      "domain": {
+        "long": "https://www.mcevoycriminallaw.com/",
+        "simple": "mcevoycriminallaw.com"
+      }
+    },
+    {
+      "clientName": "Queller, Fisher, Washor, Fuchs & Kool, L.L.P.",
+      "location": "New York",
+      "domain": {
+        "long": "https://www.quellerfisher.com/",
+        "simple": "quellerfisher.com"
+      }
+    }
+  ]
+}

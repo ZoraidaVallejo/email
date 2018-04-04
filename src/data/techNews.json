@@ -1,0 +1,33 @@
+{
+  "articles": [
+    {
+      "title": "California Weighs Toughest Net Neutrality Law in US—With Ban on Paid Zero-Rating",
+      "link": "https://arstechnica.com/tech-policy/2018/03/att-and-verizon-data-cap-exemptions-would-be-banned-by-california-bill/",
+      "description": "California legislators are considering a net neutrality law to replace the recently repealed federal regulations. The proposed law would not only prevent internet service providers from throttling bandwidth, it would also ban paid data cap exemptions."
+    }, {
+      "title": "Apple is Acquiring the Netflix of Magazines",
+      "link": "https://arstechnica.com/gadgets/2018/03/apple-is-acquiring-the-netflix-of-magazines/",
+      "description": "Apple recently announced that it was acquiring the digital magazine service Texture, dubbed the “Netflix of Magazines.” Texture serves articles from over 200 magazines digitally on iOS, Windows, Amazon, and Android devices."
+    }, {
+      "title": "Ninth Circuit Says Hacking Victims Have Standing to Sue, Even Without Actual Identity Theft",
+      "link": "http://lawprofessors.typepad.com/conlaw/2018/03/ninth-circuit-says-hacking-victims-have-standing-to-sue-even-without-actual-identity-theft.html",
+      "description": "A panel of the US Court of Appeals for the Ninth Circuit recently held that plaintiffs whose Zappos.com accounts had been hacked had judicial standing to sue based on a substantial risk that the hackers will commit identity fraud or identity theft. Judicial standing, or Article III standing, is a requirement that plaintiffs in federal court allege an actual injury, a causal connection between the injury and the cause complained of, and likelihood that a favorable court decision will address the injury."
+    }, {
+      "title": "Google Will Ban Ads Promoting Cryptocurrency and ICOs from June",
+      "link": "https://www.theverge.com/2018/3/14/17118846/google-ads-ban-cryptocurrency-ico",
+      "description": "Google recently announced it will ban advertisements that promote cryptocurrencies and initial coin offerings (ICOs) starting in June 2018. The move comes as part of an update to its policy, which will also ban other risky financial products. The Federal Trade Commission also recently moved against some cryptocurrency promoters, filing a lawsuit alleging deceptive referral schemes."
+    }, {
+      "title": "Maryland Judiciary Defends Decision to Remove Police Officers' Names from Public Online Court Database",
+      "link": "http://www.baltimoresun.com/news/maryland/crime/bs-md-ci-officers-names-case-search-20180301-story.html",
+      "description": "The Maryland Judiciary defended a recent decision by a judicial rules committee to remove the names of police officers from the state’s online court database, citing “safety concerns raised by law enforcement.” However, even the police disagreed with the change and conceded that the move went too far by hiding information that should be publicly accessible."
+    }, {
+      "title": "GitHub: New Copyright Rules Could Strangle Software Development",
+      "link": "http://www.zdnet.com/article/github-new-copyright-rules-could-strangle-software-development/",
+      "description": "Article 13 of the European Commission's proposed Copyright Directive requires that service providers that store and provide access to large amounts of content uploaded by their users take measures to ensure that access to copyrighted material can be blocked. The law is aimed at illegal video and music sharing, but developer platform GitHub is concerned that the rules are broad enough to affect software development too."
+    }, {
+      "title": "If You Can’t Woo ‘Em, Sue ‘Em: Tinder Files Suit Against Bumble After Failed Courtship",
+      "link": "http://fortune.com/2018/03/19/tinder-match-group-sues-bumble-patent-infringement/",
+      "description": "Match Group, the parent company of online data app developer Tinder, sued its competitor Bumble for copying major elements of their dating app’s interface, which allegedly infringed on Tinder’s utility and design patents, trademark, as well as misappropriated its trade secrets. However, Bumble asserts that Match is just upset that Bumble has spurned repeated attempts by Match to acquire it."
+    }
+  ]
+}
