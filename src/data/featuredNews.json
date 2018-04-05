@@ -12,5 +12,12 @@
     }
   },
   "description": "Including a high-quality photo of yourself and your team on your law firm website can help instill a sense of trust and encourage visitors to contact you. Follow these photo tips to ensure that your website is working to convert your visitors to quality leads.",
+  "button": {
+    "text": "Learn More",
+    "link": {
+      "clients": "https://onward.justia.com/2018/02/20/high-quality-personal-photo-can-improve-sites-conversion/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=button-learn-more-1",
+      "jld": "https://onward.justia.com/2018/02/20/high-quality-personal-photo-can-improve-sites-conversion/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=button-learn-more-1"
+    }
+  },
   "list": []
 }

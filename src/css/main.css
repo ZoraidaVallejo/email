@@ -372,6 +372,45 @@ body {
   text-decoration: none;
 }
 
+.ui-real-text-button {
+  width: 125px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #00b3e3;
+  border-collapse: separate !important;
+  text-align: left;
+}
+
+.ui-real-text-button a {
+  display: block;
+  padding: 7px 0;
+  color: #00b3e3;
+  text-align: center;
+  line-height: 1;
+}
+
+.ui-real-text-button .wrapper {
+  color: #00b3e3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.-white .ui-real-text-button {
+  border: 1px solid #ffffff;
+}
+
+.-white .ui-real-text-button a {
+  color: #ffffff;
+}
+
+.-white .ui-real-text-button .wrapper {
+  color: #ffffff;
+}
+
+.-large .ui-real-text-button {
+  width: 250px;
+}
+
 .ui-label-divider {
   width: 100%;
   margin: 0 auto;
@@ -505,15 +544,12 @@ body {
   width: 300px;
 }
 
-.w-welcome {
-  background-color: #00b3e3;
-  background-image: url("../img/welcome-background-april.png");
-  background-repeat: no-repeat;
-  background-size: 600px 356px;
-}
-
 .w-welcome .head-img {
   padding-top: 140px;
+  background: url("../img/welcome-background-april.png");
+  background-color: #00b3e3;
+  background-repeat: no-repeat !important;
+  background-size: 600px 356px;
 }
 
 .w-welcome--title {
@@ -698,11 +734,11 @@ body {
 }
 
 .w-people-list .people-info .-name {
-  font: 25px/1.1 Arial, sans-serif;
+  font: 25px/1.2 Arial, sans-serif;
 }
 
 .w-people-list .people-info .-location {
-  font: 12px/1.1 Arial, sans-serif;
+  font: 12px/1.5 Arial, sans-serif;
 }
 
 .w-people-list .people-ranking {
@@ -750,6 +786,24 @@ body {
 }
 
 .w-tip-month .tip-desc--last {
+  padding: 0 30px 45px;
+}
+
+.w-tip-month .tip-text {
+  width: 425px;
+  vertical-align: top;
+}
+
+.w-tip-month .tip-image {
+  width: 175px;
+  text-align: right;
+}
+
+.w-tip-month .tip-image img {
+  width: 130px !important;
+}
+
+.w-tip-month .btn-container {
   padding: 0 30px 45px;
 }
 

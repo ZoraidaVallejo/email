@@ -8,13 +8,13 @@ $welcome-image--dimensions: 600px 356px;
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-  background-color: plt('bright-blue');
-  background-image: url('../img/welcome-background-april.png');
-  background-repeat: no-repeat;
-  background-size: $welcome-image--dimensions;
 
   .head-img {
     padding-top: 140px;
+    background: url('../img/welcome-background-april.png');
+    background-color: plt('bright-blue');
+    background-repeat: no-repeat !important;
+    background-size: $welcome-image--dimensions;
   }
 
   &--title {

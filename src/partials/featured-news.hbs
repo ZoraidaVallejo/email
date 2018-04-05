@@ -47,13 +47,12 @@
                 <table border="0" cellpadding="0" cellspacing="0" align="center">
                     <tr>
                         <td>
-                          {{> ui-real-text-button buttonLink="{{{ featuredNews.link }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.image }}}" buttonText="Learn More" }}
-                          {{!-- {{#if clientsNewsletter }}
-                          {{> ui-real-text-button buttonLink="{{{ featuredNews.link }}}" buttonText="Learn More" }}
+                          {{#if clientsNewsletter }}
+                          {{> ui-real-text-button buttonLink=featuredNews.button.link.clients buttonText=featuredNews.button.text }}
                           {{/if}}
                           {{#if jldNewsletter }}
-                          {{> ui-real-text-button buttonLink= buttonText="Learn More" }}
-                          {{/if}} --}}
+                          {{> ui-real-text-button buttonLink=featuredNews.button.link.jld buttonText=featuredNews.button.text }}
+                          {{/if}}
                         </td>
                     </tr>
                 </table>

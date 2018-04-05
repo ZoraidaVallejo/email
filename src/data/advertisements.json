@@ -3,7 +3,7 @@
     "ad1": {
       "image": "adname-image-01.png",
       "alt": "The Justia Lawyer Directory Now Features Attorney Reviews and Ratings - Contact Us Now",
-      "link": "#",
+      "link": "mailto:support@justia.com",
       "description": []
     }
   },
@@ -11,15 +11,15 @@
   "jld": {
     "ad1": {
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "Interested in Checking Out Your Stats? - Contact Us Now",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2018-04&utm_source=directory-newsletter&utm_content=banner-premium-memberships-v9",
+      "description": []
     },
     "ad2": {
       "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "Contact Us for Help with Your SEO",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_campaign=2018-04&utm_source=directory-newsletter&utm_content=banner-website-marketing-generic-v6",
+      "description": []
     }
   }
 }
