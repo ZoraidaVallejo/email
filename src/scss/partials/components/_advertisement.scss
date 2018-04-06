@@ -32,23 +32,14 @@
   }
 
   .ad-desc {
-    padding: 0 $padding 12px;
-    text-align: center;
+    padding: 0 53px 0 $padding;
+    background-color: plt('white');
+    text-align: left;
 
-    p {
-      font: 14px/1.38 $sans-serif-font-family;
-    }
-
-    &--first {
-      padding: 25px $padding 12px;
-
-      p {
-        font: 16px/1.5 $sans-serif-font-family;
-      }
-    }
-
-    &--last {
-      padding: 0 $padding 25px;
+    p,
+    a {
+      color: plt('justia-blue');
+      font: 12px/1.38 $sans-serif-font-family !important;
     }
   }
 }

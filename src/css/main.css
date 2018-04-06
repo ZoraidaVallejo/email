@@ -671,6 +671,10 @@ body {
   font: 20px/1.38 Arial, sans-serif;
 }
 
+.w-featured-news .story-desc {
+  padding-bottom: 15px;
+}
+
 .w-people-list {
   border-bottom: 1px solid #fafafa;
   background-color: #fafafa;
@@ -1039,24 +1043,15 @@ body {
 }
 
 .w-advertisement .ad-desc {
-  padding: 0 30px 12px;
-  text-align: center;
+  padding: 0 53px 0 30px;
+  background-color: #ffffff;
+  text-align: left;
 }
 
-.w-advertisement .ad-desc p {
-  font: 14px/1.38 Arial, sans-serif;
-}
-
-.w-advertisement .ad-desc--first {
-  padding: 25px 30px 12px;
-}
-
-.w-advertisement .ad-desc--first p {
-  font: 16px/1.5 Arial, sans-serif;
-}
-
-.w-advertisement .ad-desc--last {
-  padding: 0 30px 25px;
+.w-advertisement .ad-desc p,
+.w-advertisement .ad-desc a {
+  color: #06357a;
+  font: 12px/1.38 Arial, sans-serif !important;
 }
 
 .w-client-ad-01 {
