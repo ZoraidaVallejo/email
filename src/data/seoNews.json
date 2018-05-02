@@ -1,0 +1,25 @@
+{
+  "articles": [
+    {
+      "title": "Google’s Direct Answers Now Shown on 10% of SERPs",
+      "link": "https://www.searchenginejournal.com/googles-direct-answers-now-shown-10-serps-report/",
+      "description": "In a return to Google’s more direct answers search results format, 10% of mobile SERPs now show a direct answer box. The statistic represents a 1.4% increase of direct answers in April as compared to March. This month-over-month increase is one of the greatest on record, according to data from RankRanger’s most recent report on US-based mobile SERP features. Such data is noteworthy, because it seems to demonstrate that Google is increasing its efforts to produce more immediate answers to user queries."
+    }, {
+      "title": "Google Officially Rolls Out ‘More Results’ Search Button On Mobile",
+      "link": "https://searchengineland.com/google-officially-rolls-out-more-results-search-button-on-mobile-296097",
+      "description": "Last month, Google transitioned from testing its mobile “More results” search button to officially launching it. The announcement came via a tweet from an official Google account and confirmed that the “More results” button is intended to replace its previous “Next” button, which displayed a new page of mobile search results when clicked on."
+    }, {
+      "title": "Google Chrome to Prevent Videos With Sound from Autoplaying",
+      "link": "https://www.searchenginejournal.com/google-chrome-prevent-videos-sound-autoplaying/",
+      "description": "Most videos with sound will be disabled automatically in Google’s latest version of Chrome for desktop. There will, however, be exceptions for videos that Google thinks individual users are interested in. This is determined by three factors, one of which is whether the user has viewed the video before. Google is taking the same step with video ads on its desktop and mobile browsers. Videos that are designed to autoplay without sound remain unaffected."
+    }, {
+      "title": "Google Search Console is Notifying Site Owners About AMP Issues",
+      "link": "https://www.searchenginejournal.com/google-search-console-notifying-site-owners-amp-issues/",
+      "description": "Google Search Console has been sending email notifications to site owners related to issues which are specific to social media on AMP pages. These issues do not affect how web pages show up in search results. User experience is, however, often considered an indirect ranking factor, one that Google itself stresses. This makes Google Search Console’s email notifications useful tools that site owners can employ to quickly address social media issues on AMP pages and ensure an optimal user experience."
+    }, {
+      "title": "Google Expanding Types of Predictions They Remove from Autocomplete",
+      "link": "https://searchengineland.com/google-expanding-types-of-predictions-they-remove-from-autocomplete-296576",
+      "description": "In a recent post on the Google Blog, search liaison Danny Sullivan revealed that Google expects to expand the types of autocomplete predictions it prohibits. Over the years, autocomplete predictions have induced public outrage over alleged racism or political party bias. While Google has steadfastly maintained that its autocomplete results merely reflect the behavior of its search users, the company will nevertheless be removing predictions that it determines are against its guidelines going forward."
+    }
+  ]
+}

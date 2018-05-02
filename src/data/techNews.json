@@ -1,0 +1,41 @@
+{
+  "articles": [
+    {
+      "title": "Facebook and Cambridge Analytica Face Class Action Lawsuit",
+      "link": "https://www.theguardian.com/news/2018/apr/10/cambridge-analytica-and-facebook-face-class-action-lawsuit",
+      "description": "Lawyers from the UK and the US have filed a class action lawsuit in federal court in Delaware alleging that Facebook, Cambridge Analytica, and two other companies misused the personal data of more one million people in the UK and over 70 million people in the US. This article describes the context of that lawsuit and summarizes the claims and responses by the companies. Read the complaint on Justia Dockets."
+    }, {
+      "title": "Facebook & Cambridge Analytica: What We Know, What They Knew, & Where That Leaves Us",
+      "link": "https://searchengineland.com/facebook-cambridge-analytica-what-we-know-what-they-knew-where-that-leaves-us-296107",
+      "description": "Search Engine Land has compiled this timeline of Facebook's privacy problems and comments on their individual and collective significance. The author predicts that Facebook's response to the present crisis, and its users' response in return, will have a serious impact on the viability of the social network giant as a dominant marketing channel."
+    }, {
+      "title": "Sen. Warner: Congress Needs Silicon Valley to Help Fix Privacy",
+      "link": "https://www.cnet.com/news/virginia-warner-facebook-twitter-silicon-valley-needs-to-help-congress-cambridge-analytica/",
+      "description": "Senator Mark Warner (D-VA), vice-chairman of the Senate Select Committee on Intelligence, has been asking technology companies to address privacy issues. Now, after Facebook CEO Mark Zuckerberg testified before Congress, Senator Warner is in good company in calling upon tech companies to work with Congress rather than against it. CNET interviewed the senator after Zuckerberg's testimony and summarizes the highlights in this article."
+    }, {
+      "title": "Senators Introduce Privacy ‘Bill of Rights’ to Protect Consumer Data",
+      "link": "https://marketingland.com/senators-introduce-privacy-bill-of-rights-to-protect-consumer-data-238552",
+      "description": "In early April, Senators Edward J. Markey (D-MA) and Richard Blumenthal (D-CT) introduced a bill aimed at protecting American consumers' personal data online. Known as the Customer Online Notification for Stopping Edge-provider Network Transgressions (CONSENT) Act, the legislation would impose an obligation on the Federal Trade Commission (FTC)—the agency tasked with protecting America's consumers—to establish privacy protections for consumers of online goods and services."
+    }, {
+      "title": "‘Right to Be Forgotten’ Can Apply to Criminals: UK High Court Rules Against Google",
+      "link": "http://www.abajournal.com/news/article/right_to_be_forgotten_can_apply_to_criminal_records_rules",
+      "description": "A High Court in the UK (roughly comparable to federal district court in the US) recently ruled that Google must remove from its search results references to the plaintiffs' criminal histories. In that case, two businessmen requested that Google remove the references, and Google refused. The court's decision was based on a \"right to be forgotten\" that is gaining a foothold since the Court of Justice of the European Union recognized it as a right in a 2014 ruling."
+    }, {
+      "title": "LA Councilman Asks City Attorney to “Review Possible Legal Action” Against Waze",
+      "link": "https://arstechnica.com/tech-policy/2018/04/waze-slammed-for-inadequate-responses-to-traffic-woes-by-another-councilman/",
+      "description": "A Los Angeles city councilman is asking the city to look into taking legal action against the navigation app Waze (owned by Google) for routing large volumes of traffic into small neighborhood streets, causing traffic disruption and accidents. This article reports that no one from Waze or Google has responded to requests to meet with local politicians to discuss the issue."
+    }, {
+      "title": "Facebook Takes the Punches While Rest of Silicon Valley Ducks",
+      "link": "https://www.nytimes.com/2018/04/13/technology/facebook-silicon-valley.html",
+      "description": "While Facebook's mishandling of users' personal data has been in the spotlight in recent months, many other Silicon Valley companies that collect huge amounts of user data have gone practically unnoticed. Most notably, Google has maintained a relatively low profile despite having nearly double the advertising presence as Facebook and serving millions more users across its range of products. This article explores the reasons behind the disparity but anticipates that Google is likely next in line for scrutiny."
+    }, {
+      "title": "Microsoft, Facebook, Oracle Among 34 Firms to Join Cybersecurity Tech Accord",
+      "link": "https://www.technewsworld.com/story/Microsoft-Facebook-Oracle-Among-34-Firms-to-Join-Cybersecurity-Tech-Accord-85283.html",
+      "description": "Earlier this month, a handful of tech companies, including Microsoft, Oracle and Facebook signed the Cybersecurity Tech Accord, an agreement aimed at defending against cyberattacks. By signing the agreement, the companies express their commitment to fortifying defenses against cyberattacks and to not helping governments launch cyberattacks against innocent citizens or enterprises. Notably, Amazon, Apple, and Google are not signatories to the accord, but this article quotes an analyst as explaining their absence as potentially attributable to conflicts with governments with which they already have agreements."
+    }, {
+      "title": "Amazon Reveals It Has More Than 100 Million Prime Members",
+      "link": "http://money.cnn.com/2018/04/18/technology/amazon-100-million-prime-members/",
+      "description": "Jeff Bezos tends to be reticent about making public statistics associated with the online shopping giant, Amazon. Bucking tradition, Bezos recently shared some information about Amazon’s membership program, Prime, which includes benefits like free shipping, e-books, and music and video streaming. In mid-April, Bezos stated via letter that Amazon Prime has 100 million members. This is 10 million users more than 2017 estimates by outside analysts."
+    }
+  ]
+}

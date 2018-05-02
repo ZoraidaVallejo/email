@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "The Law Firm of A. Dale Naticchia",
+      "location": "Cleveland",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.lawyersdui.com/",
+        "simple": "lawyersdui.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    }
+  ]
+}
