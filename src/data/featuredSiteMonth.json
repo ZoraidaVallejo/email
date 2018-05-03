@@ -10,21 +10,21 @@
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Law Offices of Alan Jay Braverman, P.A.",
+      "location": "Florida",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.abravermanlaw.com/",
+        "simple": "abravermanlaw.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Kobs & Philley, PLLC",
+      "location": "Mississippi",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.kobsphilley.com/",
+        "simple": "kobsphilley.com"
       }
     }
   ]

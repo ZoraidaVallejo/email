@@ -8,7 +8,7 @@ $welcome-image--dimensions: 600px 104px;
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-  background: plt('justia-blue') url('../img/welcome-bg.png') repeat-y center center;
+  background: plt('justia-blue') url('../src/img/welcome-bg.png') repeat-y center center;
 
   .head-img {
     width: nth($welcome-image--dimensions, 1);
@@ -63,14 +63,14 @@ $welcome-image--dimensions: 600px 104px;
     }
 
     .message {
+      width: 400px;
       padding: 30px 0 55px $padding;
-      width: 349px;
     }
 
     .image {
-      width: 216px;
-      vertical-align: top;
+      width: 205px;
       text-align: center;
+      vertical-align: top;
 
       img {
         width: 200px;
@@ -89,9 +89,9 @@ $welcome-image--dimensions: 600px 104px;
     }
 
     .head-img {
+      height: 148px;
       background: url('../img/welcome-jld-01-bg.png');
       background-position: center center;
-      height: 148px;
     }
   }
 }

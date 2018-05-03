@@ -5,21 +5,50 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-jld-ad-01 set-max-width">
   <tr>
     <!-- ad-image -->
-    <td class="ad-image">
+    <td class="ad-logo" responsive="mobile-padding-horizontal-sides">
       <a href="{{{ advertisements.jld.ad1.link }}}" target="_blank">
-        <img src="{{ default.imageDirSrc }}/{{ advertisements.jld.ad1.image }}" alt="{{ advertisements.jld.ad1.alt }}" border="0" />
+        <img src="{{ default.imageDirSrc }}/{{ advertisements.jld.ad1.images.logo }}" alt="{{ advertisements.jld.ad1.alts.logo }}" border="0" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="ad-title" responsive="mobile-padding-horizontal-sides mobile-padding-bottom">
+      <a href="{{{ advertisements.jld.ad1.link }}}" target="_blank">
+        <strong>{{{ advertisements.jld.ad1.title }}}</strong>
       </a>
     </td>
   </tr>
 
-  {{#if advertisements.jld.ad1.description }}
-    {{#each advertisements.jld.ad1.description }}
-      <tr>
-        <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-        <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
-        </td>
-      </tr>
-    {{/each}}
-  {{/if}}
+  <tr>
+    <td class="ad-columns" responsive="mobile-padding-bottom">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="ad-image" responsive="mobile-hide">
+            <img src="{{ default.imageDirSrc }}/{{ advertisements.jld.ad1.images.image }}" alt="{{ advertisements.jld.ad1.alts.image }}" border="0" />
+          </td>
+          <td class="ad-description" responsive="mobile-padding-horizontal-sides mobile-padding-bottom mobile-align-center">
+            {{ advertisements.jld.ad1.description }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="ad-footer">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="ad-button -red" responsive="mobile-padding-horizontal-sides">
+            {{> ui-real-text-button buttonLink=advertisements.jld.ad1.link buttonText=advertisements.jld.ad1.button.text }}
+          </td>
+        </tr>
+        <tr>
+          <td class="ad-footer-line" responsive="mobile-padding-horizontal-sides">
+            {{{ advertisements.jld.ad1.footerLine }}}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
+

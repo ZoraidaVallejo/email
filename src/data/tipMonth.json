@@ -1,11 +1,14 @@
 {
   "clients": {
     "title": "Expand Your Homepage with Practice Area Summaries",
-    "description": ["If you haven't already, we recommend expanding your Homepage content to include individual paragraphs within the narrative, where you briefly cover each of the main practice areas you are looking to target. Your potential clients will easily be able to see what your firm handles at a quick glance, and including these individual practice area paragraphs will help with your organic and local SEO as well."]
+    "description": ["Developing a content-rich Homepage strengthens your search engine optimization and improves user experience. One area that merits extra attention is the practice area summaries for your law firm. Adding a few paragraphs that describe the individual areas that your firm practices allows potential clients to easily see the types of cases that your firm handles. Practice area keywords and text can also improve your organic and local SEO."]
   },
   "jld": {
-    "title": "[title]",
-    "link": "#",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!", "Doloribus debitis corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!"]
+    "title": "Get more out of your free Justia Lawyer Directory profile by making it more complete!",
+    "description": ["Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads. Adding your office location will help you appear in local lawyer directory searches, and listing an updated email address will make it easier for clients to get in touch today!"],
+    "button": {
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https://lawyers.justia.com/profile/*|PROFILE_ID|*/edit/overview?utm_medium=email&utm_campaign=2018-05&utm_source=directory-newletter&utm_content=section-tip-of-the-month-update-profile-now-1",
+      "text": "Update Profile Now"
+    }
   }
 }

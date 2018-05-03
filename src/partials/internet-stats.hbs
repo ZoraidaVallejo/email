@@ -20,7 +20,7 @@
   <tr>
     <!-- stats-chart -->
     <td class="stats-chart" responsive="mobile-padding-horizontal-sides">
-      {{#if internetStats.link }}<a href="{{ internetStats.link }}" target="_blank">{{/if}}
+      {{#if internetStats.link }}<a href="{{{ internetStats.link }}}" target="_blank">{{/if}}
         <img src="{{ default.imageDirSrc }}/internet-stats-01.png" alt="{{ internetStats.subtitle }}" />
       {{#if internetStats.link }}</a>{{/if}}
     </td>

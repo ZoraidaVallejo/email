@@ -3,51 +3,62 @@
 
 <!-- w-welcome -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-welcome set-max-width {{#if clientsNewsletter }}-clients{{/if}} {{#if jldNewsletter }}-jld{{/if}}">
-  {{#if clientsNewsletter }}
-    <tr>
-      <!-- head-img -->
-      {{> ui-background classes="head-img" image="welcome-clients-01-bg.png" absolutePath=true bgColor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
-    </tr>
-    {{#each welcome.clients.message }}
-      <tr>
-      <!-- w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}} -->
-      <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    {{#if clientsNewsletter }}
+      {{> ui-background image="welcome-bg.png" bgColor="#06357a" dimensions="width:600px; height:377px;" content=true bgStart=true }}
+    {{/if}}
+    {{#if jldNewsletter }}
+      {{> ui-background image="welcome-bg.png" bgColor="#06357a" dimensions="width:600px; height:523px;" content=true bgStart=true }}
+    {{/if}}
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        {{#if clientsNewsletter }}
           <tr>
-            <td class="message" responsive="mobile-padding-horizontal-sides">
-              <h1><span>{{{ ../welcome.clients.title.line1 }}}</span> <br responsive="mobile-hide">{{{ ../welcome.clients.title.line2 }}}</h1><br/>
-              <p>{{{ this }}}</p>
-            </td>
-            <td class="image" responsive="mobile-hide">
-              <img src="{{ ../default.imageDirSrc }}/welcome-clients-01-cactus.png" alt="Cactus">
+            <!-- head-img -->
+            {{> ui-background classes="head-img" image="welcome-clients-01-bg.png" bgColor="#06357a" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
+          </tr>
+          {{#each welcome.clients.message }}
+            <tr>
+            <!-- w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}} -->
+            <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+              <table align="center" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="message" responsive="mobile-padding-horizontal-sides">
+                    <h1><span>{{{ ../welcome.clients.title.line1 }}}</span> <br responsive="mobile-hide">{{{ ../welcome.clients.title.line2 }}}</h1><br/>
+                    <p>{{{ this }}}</p>
+                  </td>
+                  <td class="image" responsive="mobile-hide">
+                    <img src="{{ ../default.imageDirSrc }}/welcome-clients-01-cactus.png" alt="Cactus">
+                  </td>
+                </tr>
+              </table>
+            </tr>
+          {{/each}}
+        {{/if}}
+        {{#if jldNewsletter }}
+          <tr>
+            <!-- head-img -->
+            {{> ui-background classes="head-img" image="welcome-jld-01-bg.png" absolutePath=true bgColor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
+          </tr>
+          <tr>
+            <!-- w-welcome--title -->
+            <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+              <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
             </td>
           </tr>
-        </table>
-      </tr>
-    {{/each}}
-  {{/if}}
-  {{#if jldNewsletter }}
-    <tr>
-      <!-- head-img -->
-      {{> ui-background classes="head-img" image="welcome-jld-01-bg.png" absolutePath=true bgColor="#00b3e3" dimensions="width:600px; height:169px;" bgStart=true bgEnd=true }}
-    </tr>
-    <tr>
-      <!-- w-welcome--title -->
-      <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-        <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
-      </td>
-    </tr>
-    {{#each welcome.jld.message }}
-      <tr>
-      <!-- w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} -->
-      <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ this }}}</p>
-      </tr>
-    {{/each}}
-    {{!-- <tr>
-      <td class="w-welcome--message w-welcome--message--first w-welcome--message--last -white" responsive="mobile-padding-horizontal-sides">
-        {{> ui-real-text-button buttonLink=featuredNews.buttonLink.jld buttonText="Learn More" }}
-      </td>
-    </tr> --}}
-  {{/if}}
+          {{#each welcome.jld.message }}
+            <tr>
+            <!-- w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} -->
+            <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+              <p>{{{ this }}}</p>
+            </tr>
+          {{/each}}
+          {{!-- <tr>
+            <td class="w-welcome--message w-welcome--message--first w-welcome--message--last -white" responsive="mobile-padding-horizontal-sides">
+              {{> ui-real-text-button buttonLink=featuredNews.buttonLink.jld buttonText="Learn More" }}
+            </td>
+          </tr> --}}
+        {{/if}}
+      </table>
+    {{> ui-background bgEnd=true }}
+  </tr>
 </table>

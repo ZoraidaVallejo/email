@@ -5,7 +5,8 @@
     "logo": {
       "v1": {
         "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-        "url": "https://www.justia.com/",
+        "url": "https://www.justia.com/marketing/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=image-header-logo-1",
+        "urlJld": "https://www.justia.com/marketing/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=image-header-logo-1",
         "alt": "Justia Insights"
       },
       "v2": {
@@ -18,6 +19,10 @@
 
   "footer": {
     "logo": {
+      "v1": {
+        "url": "https://www.justia.com/marketing/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=image-footer-logo-1",
+        "urlJld": "https://www.justia.com/marketing/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=image-footer-logo-1"
+      },
       "v2": {
         "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
         "alt": "Justia"
