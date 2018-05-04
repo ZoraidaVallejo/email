@@ -23,7 +23,7 @@
               <table align="center" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="message" responsive="mobile-padding-horizontal-sides">
-                    <h1><span>{{{ ../welcome.clients.title.line1 }}}</span> <br responsive="mobile-hide">{{{ ../welcome.clients.title.line2 }}}</h1><br/>
+                    <h1>{{{ ../welcome.clients.title.line1 }}} <span>{{{ ../welcome.clients.title.line2 }}}</span></h1><br/>
                     <p>{{{ this }}}</p>
                   </td>
                   <td class="image" responsive="mobile-hide">
@@ -48,15 +48,15 @@
           {{#each welcome.jld.message }}
             <tr>
             <!-- w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} -->
-            <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}} {{#if @last }}w-welcome--message--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            <td class="w-welcome--message {{#if @first }}w-welcome--message--first{{/if}}" responsive="mobile-padding-horizontal-sides">
               <p>{{{ this }}}</p>
             </tr>
           {{/each}}
-          {{!-- <tr>
-            <td class="w-welcome--message w-welcome--message--first w-welcome--message--last -white" responsive="mobile-padding-horizontal-sides">
+          <tr>
+            <td class="w-welcome--message w-welcome--message--last -white" responsive="mobile-padding-horizontal-sides">
               {{> ui-real-text-button buttonLink=featuredNews.buttonLink.jld buttonText="Learn More" }}
             </td>
-          </tr> --}}
+          </tr>
         {{/if}}
       </table>
     {{> ui-background bgEnd=true }}
