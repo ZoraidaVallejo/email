@@ -243,6 +243,13 @@ body {
   padding: 0 30px 24px;
 }
 
+.template-2 .block-2 p,
+.template-2 .block-3 p,
+.template-2 .block-4 p,
+.template-2 .block-5 p {
+  font: 16px/1.5 Arial, sans-serif !important;
+}
+
 .template-2 .block-6,
 .template-2 .block-7,
 .template-2 .block-8 {
@@ -269,13 +276,24 @@ body {
   Margin: 0 auto;
 }
 
+.template-2 .dvbg {
+  width: 600px;
+  height: 348px;
+  padding: 0;
+  background: url("../img/a2a-review-background-01.png");
+  background-color: #f4f4f4;
+  background-repeat: no-repeat !important;
+  background-size: 600px 348px;
+  vertical-align: top;
+}
+
 .template-2 .inner-content {
   width: 600px;
 }
 
 .template-2 .inner-content td {
   width: 100%;
-  padding: 0 160px;
+  padding: 0 160px 0 160px;
 }
 
 .template-2 .inner-content td p {
@@ -283,16 +301,12 @@ body {
 }
 
 .template-2 .inner-content .inner-block-1 {
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .template-2 .inner-content .inner-block-2 {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.template-2 .inner-content .inner-block-3 {
-  padding-bottom: 82px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .template-2 .block-2 {
