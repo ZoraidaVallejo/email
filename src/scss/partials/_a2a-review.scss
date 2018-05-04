@@ -1,0 +1,124 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   2
+// ----------------------------------------------------------------------------------------------------------
+
+$a2a-review-mainimage--dimensions: image-dimensions('/src/img/a2a-review-main-image-01.png');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.template-2 {
+
+  .block-2,
+  .block-3,
+  .block-4,
+  .block-5 {
+    padding: 0 $padding 24px;
+  }
+
+  .block-6,
+  .block-7,
+  .block-8 {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+  .description {
+    overflow: hidden;
+    width: $max-width;
+    max-width: $max-width !important;
+    background-color: #ffffff;
+    border-collapse: collapse !important;
+
+    td {
+      width: 100%;
+    }
+
+    .image {
+      width: nth($a2a-review-mainimage--dimensions, 1) / 1.5;
+      height: nth($a2a-review-mainimage--dimensions, 2) / 1.5;
+      margin: 0 auto;
+      // stylelint-disable-next-line declaration-block-no-duplicate-properties
+      Margin: 0 auto;
+    }
+  }
+
+  .inner-content {
+    width: $max-width;
+
+    td {
+      width: 100%;
+      padding: 0 160px;
+      p {
+        font: 15px/1.6 $sans-serif-font-family !important;
+      }
+    }
+
+    .inner-block-1 {
+      padding-top: 50px;
+    }
+
+    .inner-block-2 {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    .inner-block-3 {
+      padding-bottom: 82px;
+    }
+  }
+
+  .block-2 {
+    padding-top: 35px;
+
+    p {
+      font: 14px/1.5 $sans-serif-font-family !important;
+    }
+  }
+
+  .block-5 {
+    padding-bottom: 44px;
+  }
+
+  .block-6 {
+    padding: 35px 96px 24px;
+
+    p {
+      color: #09347a;
+      font: 24px/1.2 $sans-serif-font-family !important;
+    }
+  }
+
+  .block-7 {
+    padding: 0 96px 35px;
+    font: 18px/1.5 $sans-serif-font-family !important;
+
+    a {
+      color: #ffffff;
+    }
+
+    .button {
+      padding: 10px 0;
+      border-radius: 3px;
+      background-color: #e2231a;
+      text-align: center;
+    }
+  }
+
+  .contactus {
+    padding: 0 $padding 34px;
+
+    p {
+      font: 18px/1.2 $sans-serif-font-family !important;
+    }
+
+    .phone {
+
+      a {
+        color: plt('justia-blue') !important;
+        font: 20px/1.2 $sans-serif-font-family !important;
+        font-weight: bold;
+      }
+    }
+  }
+}
