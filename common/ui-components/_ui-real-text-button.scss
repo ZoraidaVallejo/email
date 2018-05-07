@@ -46,7 +46,22 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
     }
   }
 
+  .-red & {
+    border: 1px solid plt('red');
+    background-color: plt('red');
+
+    a {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+
   .-large & {
-    width: map-get($button-settings, 'width') * 2;    
+    width: map-get($button-settings, 'width') * 1.5;    
   }
 }
