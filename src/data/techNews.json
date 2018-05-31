@@ -1,0 +1,33 @@
+{
+  "articles": [
+    {
+      "title": "California Net Neutrality Bill That AT&T Hates is Coming to New York, Too",
+      "link": "https://arstechnica.com/tech-policy/2018/05/california-net-neutrality-bill-that-att-hates-is-coming-to-new-york-too/",
+      "description": "In response to the FCC’s repeal of federal net neutrality rules, the California legislature is working on the strictest net neutrality law in the country, and New York is positioned to take the same route. Both state’s bills would prohibit internet service providers from blocking, throttling, or otherwise discriminating against content providers, and they would go a step further than the repealed federal rules by also banning paid data-cap exemptions."
+    }, {
+      "title": "A California Ruling Threatens the Gig Economy",
+      "link": "https://www.wired.com/story/a-california-ruling-threatens-the-gig-economy/",
+      "description": "The California Supreme Court ruled in <a href=\"https://law.justia.com/cases/california/supreme-court/2018/s222732.html\" target=\"_blank\"><i>Dynamex Operations West, Inc. v. Superior Court</i></a> that in order for gig economy companies like Dynamex Operations West, Lyft, and Uber to classify their workers as contractors (as opposed to employees), the companies must prove that their workers are, in fact, running their own businesses. Under Dynamex, there is now a rebuttable presumption that a worker is an employee, and the employer must prove, under what is known as the “ABC test,” that the worker is properly classified as an independent contractor. This change will make it more difficult for some employers to classify their workers as independent contractors, as compared to the prior rule."
+    }, {
+      "title": "A Second State Moves Closer to Mandating Technology Training for Lawyers",
+      "link": "https://www.lawsitesblog.com/2018/05/a-second-state-moves-closer-to-mandating-technology-training-for-lawyers.html",
+      "description": "In 2016, Florida became the first state to require that lawyers complete CLE in the use of technology. Now, North Carolina is poised to do the same. The North Carolina State Bar Council has approved a proposed amendment to lawyers’ annual CLE requirements that would mandate that one of the required 12 hours of CLE training cover technology."
+    }, {
+      "title": "Net Neutrality Rules Will End June 11 With The FCC's Final Say-So",
+      "link": "https://www.cnet.com/news/net-neutrality-rules-to-end-in-june/",
+      "description": "The FCC’s net neutrality rules will be defunct on June 11, 2018. Repealed in December of last year, the rules prohibited internet service providers from throttling or blocking content providers who did not pay premium fees for the delivery of content. FCC Chairman Ajit Pai called the rules “heavy-handed, utility-style regulation” and is opting for a “light-touch” approach instead."
+    }, {
+      "title": "Supreme Court Declines to Hear “Podcasting Patent” Case, Handing Win to EFF",
+      "link": "https://arstechnica.com/tech-policy/2018/05/podcasting-patent-case-is-finally-totally-and-completely-dead-now/",
+      "description": "In a victory for podcasters everywhere, the US Supreme Court declined to hear a case in which a Texas company was seeking to enforce a patent that broadly described podcasts. The company had been sending letters to numerous podcasters demanding that they obtain a license to continue podcasting. The Electronic Frontier Foundation (EFF) challenged the underlying patent, and the US Court of Appeals for the Federal Circuit ruled in favor of the EFF on a central issue, allowing the challenge to proceed."
+    }, {
+      "title": "How a “Location API” Allows Cops to Figure Out Where We All Are in Real Time",
+      "link": "https://arstechnica.com/tech-policy/2018/05/senator-furious-at-polices-easy-ability-to-get-real-time-mobile-location-data/",
+      "description": "The New York Times recently reported that a company used by jails and prisons to monitor prisoners’ calls also provides a lesser-known service that allows law enforcement officers to seek and obtain real-time location information about any mobile phone without a warrant. Courts are split on whether and when investigators need a warrant based on probable cause to acquire location data, but the technology is causing alarm not only among consumers, but with at least one US Senator who has called for additional information."
+    }, {
+      "title": "Uber Ends Policy of Forced Arbitration for Individual Sexual Assault Claims",
+      "link": "https://techcrunch.com/2018/05/15/uber-ends-policy-of-forced-arbitration-for-individual-sexual-assault-clams/",
+      "description": "Last month, ride sharing company Uber received a letter from a group of women who allegedly experienced sexual violence at the hands of Uber drivers. These women requested that they be released from the mandatory arbitration clause that appeared in the Uber app’s terms of service. As a result of this letter, Uber recently announced that it plans to end the required arbitration on individual claims of sexual assault, harassment, and violence by Uber drivers, riders, or employees, thus signaling a major change in policy for the company’s US operations."
+    }
+  ]
+}

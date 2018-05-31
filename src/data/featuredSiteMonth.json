@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Cook, Bradford & Levy, LLC",
+      "location": "Colorado",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.cookinjurylaw.com/",
+        "simple": "cookinjurylaw.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    },
+    {
+      "clientName": "[name]",
+      "location": "[location]",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "#",
+        "simple": "website.com"
+      }
+    }
+  ]
+}

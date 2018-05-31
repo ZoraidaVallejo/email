@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "conversionType": "newsletter",
+  "port": 4000,
+  "justaticVersion": "1",
+  "currentYear": "2018",
+  "currentMonth": "06",
+
+  "paths": {
+    "src": "src",
+    "srcImg": "src/img",
+    "dist": "dist",
+    "distImg": "dist/img",
+    "preview": "preview",
+    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>",
+    "remoteImgPath": "/mnt/files/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>"
+  },
+
+  "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
+}
