@@ -26,12 +26,14 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
     color: plt('bright-blue');
     text-align: center;
     line-height: 1;
+    text-decoration: none !important;
   }
 
   .wrapper {
     color: plt('bright-blue');
     font-size: map-get($button-settings, 'font-size');
     font-weight: tp('weight', 'normal');
+    text-decoration: none !important;
   }
 
   .-white & {
@@ -53,10 +55,27 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
     a {
       color: plt('white');
       font-weight: tp('weight', 'bold');
+      text-decoration: none !important;
     }
 
     .wrapper {
       color: plt('white');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+
+  .-yellow & {
+    border: 1px solid #ffc600;
+    background-color: #ffc600;
+
+    a {
+      color: #06357a;
+      font-weight: tp('weight', 'bold');
+      text-decoration: none !important;
+    }
+
+    .wrapper {
+      color: #06357a;
       font-weight: tp('weight', 'bold');
     }
   }

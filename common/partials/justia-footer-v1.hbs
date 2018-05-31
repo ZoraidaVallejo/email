@@ -8,7 +8,12 @@
           <tr>
             <!-- logo -->
             <td class="logo" responsive="logo collapse-one">
-              <a href="{{#if jldNewsletter }}{{{default.footer.logo.v1.urlJld}}}{{else}}{{{default.footer.logo.v1.url}}}{{/if}}" target="_blank">
+              {{#if jldNewsletter }}
+                <a href="{{{ default.header.logo.v1.url.jld }}}&utm_content=image-footer-logo-1" target="_blank">
+              {{/if}}
+              {{#if clientsNewsletter }}
+                <a href="{{{ default.header.logo.v1.url.clients }}}&utm_content=image-footer-logo-1" target="_blank">
+              {{/if}}
                 <img src="{{ default.header.logo.v1.source }}" alt="{{ default.header.logo.v1.alt }}" responsive="mobile-align-center" border="0" />
               </a>
             </td>

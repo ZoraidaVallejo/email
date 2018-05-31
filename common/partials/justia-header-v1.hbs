@@ -15,7 +15,14 @@
           <tr>
             <!-- logo -->
             <td class="logo">
-              <a href="{{#if jldNewsletter }}{{{default.header.logo.v1.urlJld}}}{{else}}{{{default.header.logo.v1.url}}}{{/if}}" target="_blank"><img src="{{ default.header.logo.v1.source }}" alt="{{ default.header.logo.v1.alt }}" border="0" /></a>
+              {{#if jldNewsletter }}
+                <a href="{{{ default.header.logo.v1.url.jld }}}&utm_content=image-header-logo-1" target="_blank">
+              {{/if}}
+              {{#if clientsNewsletter }}
+                <a href="{{{ default.header.logo.v1.url.clients }}}&utm_content=image-header-logo-1" target="_blank">
+              {{/if}}
+                <img src="{{ default.header.logo.v1.source }}" alt="{{ default.header.logo.v1.alt }}" border="0" />
+              </a>
             </td>
             <!-- date -->
             <td class="date align-right">

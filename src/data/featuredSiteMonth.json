@@ -10,21 +10,21 @@
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "Law Offices of Trent R. Buckallew, PC",
+      "location": "Arizona",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.crim-law.info/",
+        "simple": "crim-law.info"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "Injury Lawyers of Illinois, LLC",
+      "location": "Illinois",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.injuryrights.com/",
+        "simple": "injuryrights.com"
       }
     }
   ]

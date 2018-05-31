@@ -4,6 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $ad-image--dimensions: 600px 268px;
+$ad-image-2--dimensions: 600px 490px;
 
 .w-advertisement {
 
@@ -66,12 +67,10 @@ $ad-image--dimensions: 600px 268px;
 
   .ad-image {
     width: 278px;
-    height: 223px;
     vertical-align: bottom;
 
     img {
       width: 231px;
-      height: 192px;
     }
   }
 
@@ -80,11 +79,11 @@ $ad-image--dimensions: 600px 268px;
   }
 
   .ad-description {
-    background-color: #042554;
-    max-width: $max-width;
-    width: 100%;
     box-sizing: border-box;
+    width: 100%;
+    max-width: $max-width;
     padding: 9px 0;
+    background-color: #042554;
 
     p,
     a {
@@ -104,11 +103,21 @@ $ad-image--dimensions: 600px 268px;
 
 .w-jld-ad-01,
 .w-jld-ad-02 {
-  border: 5px solid plt('bright-blue');
-  background-color: #f7f7f7;
+  padding: 0 30px 25px;
+  background-color: #00addb;
+  color: plt('white');
+  text-align: center;
+
+  .ad-bg-img {
+    width: 600px;
+    background: url('../img/jld-adname-image-01-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 
   .ad-logo {
-    padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 21px;
 
     img {
       width: 234px;
@@ -117,90 +126,92 @@ $ad-image--dimensions: 600px 268px;
   }
 
   .ad-title {
-    padding: 0 25px 45px;
-
-    strong {
-      color: plt('justia-blue');
-      font-size: 36px;
-      line-height: 1.11;
-    }
-  }
-
-  .ad-columns {
-    padding-bottom: 55px;
+    padding-bottom: 14px;
+    font-size: 32px;
   }
 
   .ad-image {
-    width: 277px;
-    padding: 0 0 0 25px;
-    text-align: center;
-    vertical-align: middle;
+    width: 245px;
+    padding-right: 10px;
+    padding-left: 30px;
 
     img {
-      display: inline-block;
-      width: 277px;
-      height: 254px;
+      width: 258px;
     }
   }
 
-  .ad-description {
-    width: 255px;
-    padding: 0 25px 0 15px;
-    color: plt('justia-blue');
-    font-size: 20px;
+  .ad-text {
+    width: 270px;
+    padding-right: 30px;
+    font-size: 18px;
     text-align: left;
-    vertical-align: middle;
   }
 
   .ad-button {
-    padding: 0 135px 15px;
+    padding-top: 27px;
+    padding-bottom: 13px;
   }
 
   .ui-real-text-button {
     float: none;
-    width: 317px;
+    width: 270px;
     height: 42px;
-  }
-
-  .ad-footer-line {
-    padding: 0 $padding 33px;
-    color: plt('justia-blue');
+    margin: 0 auto;
 
     a {
-      color: plt('justia-blue');
-      font-size: 20px;
-      font-weight: tp('weight', 'bold');
+      padding: 13px 0;
     }
+  }
+
+  .phone-number {
+    padding-bottom: 23px;
   }
 }
 
-.w-jld-ad-02 {
-  border-color: plt('red');
-  background-color: #e5f7fc;
-
-  a {
-    color: plt('justia-blue') !important;
-  }
+.w-jld-ad-01 {
+  background-color: #06357a;
 
   .ad-title {
-    padding-bottom: 25px;
+    font-size: 38px;
   }
 
-  .ad-columns {
-    padding-bottom: 6px;
+  .ad-text {
+    width: 279px;
+    padding-left: 33px;
+    font-size: 26px;
   }
 
   .ad-image {
-    width: 292px;
-    padding: 0;
+    width: 242px;
 
     img {
-      width: 292px;
-      height: 291px;
+      width: 242px;
     }
   }
 
-  .ad-description {
-    width: 273px;
+  .ad-content {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+
+  .ad-disclaimer {
+    padding-bottom: 27px;
+    color: plt('white') !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .ad-button {
+    padding-top: 33px;
+  }
+
+  .ui-real-text-button {
+    float: left;
+    width: 246px;
+
+    .wrapper {
+      font-size: 18px;
+    }
   }
 }

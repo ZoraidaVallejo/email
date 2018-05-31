@@ -140,15 +140,19 @@ $pugs-image--width: 540px;
 
       .item-desc {
         width: ($inner-max-width - $pugs-image--width - $padding);
+        max-width: 100%;
       }
     }
 
     .item-image {
-      padding-top: 25px !important;
       width: ($pugs-image--width + $padding);
+      max-width: 100%;
+      padding-top: 25px !important;
+      text-align: center;
 
       img {
         width: $pugs-image--width;
+        max-width: 100%;
         // max-width: ceil(percentage($pugs-image--width / ($pugs-image--width + $padding)));
       }
     }

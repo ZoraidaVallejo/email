@@ -12,5 +12,6 @@
       "line2": "the Justia monthly newsletter!"
     },
     "message": "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing.<br/><br/>Justia has an unparalleled track record of helping law firms grow. If you're interested in our website and SEO services, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
-  }
+  },
+  "link": "https://www.justia.com/marketing/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=button-main-image-learn-more-1"
 }

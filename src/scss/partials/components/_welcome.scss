@@ -3,17 +3,18 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$welcome-image--dimensions: 600px 169px;
+$welcome-image--dimensions: 600px 356px;
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-  background-color: plt('bright-blue');
+  background-color: #016abb;
 
   .head-img {
     width: nth($welcome-image--dimensions, 1);
-    height: nth($welcome-image--dimensions, 2);
-    background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
+    height: nth($welcome-image--dimensions, 2) - 180px;
+    padding-top: 180px;
+    background: url('../img/welcome-06-bg.png');
     background-repeat: no-repeat;
   }
 
@@ -28,6 +29,10 @@ $welcome-image--dimensions: 600px 169px;
 
   &--message {
     padding: 20px $padding 45px;
+
+    &.-no-padding {
+      padding-bottom: 0;
+    }
 
     p {
       color: plt('white');
