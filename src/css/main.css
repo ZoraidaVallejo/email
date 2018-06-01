@@ -1492,13 +1492,10 @@ body {
 }
 
 .w-law-events .event-1 .inner-text,
+.w-law-events .event-3 .inner-text,
 .w-law-events .event-4 .inner-text,
 .w-law-events .event-6 .inner-text {
   height: 108px;
-}
-
-.w-law-events .event-3 .inner-text {
-  height: 130px;
 }
 
 .w-law-events .event-7 .inner-text {
