@@ -80,6 +80,10 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
     }
   }
 
+  .-medium & {
+    width: map-get($button-settings, 'width') * 1.5;
+  }
+
   .-large & {
     width: map-get($button-settings, 'width') * 2;
   }

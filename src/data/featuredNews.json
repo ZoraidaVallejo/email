@@ -14,7 +14,7 @@
   "description": "Everyone knows that first impressions are important, but too many law firms neglect a component of their website that is critical to making a positive first impression: the tagline. A carefully crafted tagline can make your law firm stand out in visitors’ minds as relevant and memorable. Follow these tips to ensure your tagline is working to create a positive first impression.",
   "list": [],
   "buttonLink": {
-    "clients":  "https://onward.justia.com/2018/05/29/five-reasons-a-tagline-is-important-for-your-law-firm-website/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=button-learn-more-1",
-    "jld":  "https://onward.justia.com/2018/05/29/five-reasons-a-tagline-is-important-for-your-law-firm-website/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=button-learn-more-1"	
+    "clients": "https://onward.justia.com/2018/05/29/five-reasons-a-tagline-is-important-for-your-law-firm-website/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=client-newsletter&utm_content=button-learn-more-1",
+    "jld": "https://onward.justia.com/2018/05/29/five-reasons-a-tagline-is-important-for-your-law-firm-website/?utm_medium=email&utm_campaign=<%= currentYear %>-<%= currentMonth %>&utm_source=directory-newsletter&utm_content=button-learn-more-1"
   }
 }

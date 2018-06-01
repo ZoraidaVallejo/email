@@ -441,6 +441,10 @@ body {
   font-weight: 700;
 }
 
+.-medium .ui-real-text-button {
+  width: 187.5px;
+}
+
 .-large .ui-real-text-button {
   width: 250px;
 }
