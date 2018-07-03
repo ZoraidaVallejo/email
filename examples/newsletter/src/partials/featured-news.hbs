@@ -11,7 +11,7 @@
       <!-- widget-main-title -->
       <h2 class="widget-main-title">
         {{#if featuredNews.link }}
-          <a href="{{{ featuredNews.link }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.title }}}" target="_blank">
+          <a href="{{{ featuredNews.link }}}{{{ featuredNews.utm.medium }}}{{{ featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.title }}}" target="_blank">
         {{/if}}
           {{ featuredNews.title }}
         {{#if featuredNews.link }}
@@ -21,8 +21,8 @@
     </td>
   </tr>
   <tr>
-    <!-- main-story-desc {{#if featuredNews.description }}-with-list{{/if}} -->
-    <td class="main-story-desc {{#if featuredNews.list }}-with-list{{/if}}" responsive="mobile-padding-horizontal-sides">
+    <!-- main-story-desc {{#gt (length featuredNews.list) 1 }}-with-list{{/gt}} -->
+    <td class="main-story-desc {{#gt (length featuredNews.list) 1 }}-with-list{{/gt}}" responsive="mobile-padding-horizontal-sides">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
           <!-- story-desc -->
@@ -48,11 +48,24 @@
 
   {{#forEach featuredNews.list }}
     <tr>
-      <!-- main-story-list {{#if isLast }}main-story-list--last{{/if}} -->
-      <td class="main-story-list {{#if isLast }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <!-- main-story-list {{#if featuredNews.button }}{{ else }}main-story-list--last{{/if}} -->
+      <td class="main-story-list {{#if featuredNews.button }}{{ else }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
         {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
       </td>
     </tr>
   {{/forEach}}
+
+  {{#if featuredNews.button }}
+    <tr>
+      <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
+        {{#if clientsNewsletter }}
+          {{> ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign featuredNews.utm.source.clients featuredNews.utm.content.button) }}
+        {{/if}}
+        {{#if jldNewsletter }}
+          {{> ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign featuredNews.utm.source.jld featuredNews.utm.content.button) }}
+        {{/if}}
+      </td>
+    </tr>
+  {{/if}}
 </table>
