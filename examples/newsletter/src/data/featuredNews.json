@@ -18,5 +18,18 @@
   "button": {
     "text": "Learn More"
   },
-  "list": []
+  "list": [
+    {
+      "title": "[list item 1]",
+      "link": "#"
+    },
+    {
+      "title": "[list item 2]",
+      "link": "#"
+    },
+    {
+      "title": "[list item 3]",
+      "link": "#"
+    }
+  ]
 }
