@@ -11,7 +11,7 @@
       <!-- widget-main-title -->
       <h2 class="widget-main-title">
         {{#if featuredNews.link }}
-          <a href="{{{ featuredNews.link }}}{{{ featuredNews.utm.medium }}}{{{ featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.title }}}" target="_blank">
+          <a href="{{{ concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.title }}}" target="_blank">
         {{/if}}
           {{ featuredNews.title }}
         {{#if featuredNews.link }}
@@ -34,7 +34,7 @@
           <!-- featured-image -->
           <td class="featured-image" responsive="mobile-hide collapse-one">
              {{#if featuredNews.link }}
-               <a href="{{{ featuredNews.link }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.image }}}" target="_blank">
+               <a href="{{{ concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.image }}}" target="_blank">
              {{/if}}
              <img src="{{ default.imageDirSrc }}/tech-news-01.png" alt="{{ featuredNews.title }}" border="0" />
              {{#if featuredNews.link }}
