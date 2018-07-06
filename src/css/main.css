@@ -422,6 +422,10 @@ body {
   font-weight: 700;
 }
 
+.-medium .ui-real-text-button {
+  width: 230px;
+}
+
 .-large .ui-real-text-button {
   width: 230px;
   height: 44px;
@@ -1151,6 +1155,11 @@ body {
 .w-client-ad-01 .ad-button .ui-real-text-button {
   float: none;
   margin: 0 auto;
+  font-weight: 400;
+}
+
+.w-client-ad-01 .ad-button .ui-real-text-button .wrapper {
+  font-weight: 400;
 }
 
 .w-jld-ad-01 {
@@ -1513,6 +1522,11 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-5 .inner-text,
+.w-law-events .event-6 .inner-text {
+  height: 86px;
 }
 
 .align-center {

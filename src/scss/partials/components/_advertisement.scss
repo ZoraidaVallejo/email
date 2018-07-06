@@ -115,6 +115,11 @@
     .ui-real-text-button {
       float: none;
       margin: 0 auto;
+      font-weight: tp('weight', 'normal');
+
+      .wrapper {
+        font-weight: tp('weight', 'normal');
+      }
     }
   }
 }

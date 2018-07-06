@@ -6,7 +6,9 @@
   "jld": {
     "title": "Increase Your Exposure to Prospective Clients With Justia Ask a Lawyer",
     "link": "https://answers.justia.com/",
-    "description": ["Justia Ask A Lawyer provides a platform for non-lawyers to post basic legal questions online and get free responses from attorneys. Answering questions allows you to earn points and get noticed in our legal practice area forums. In turn, point leaders appear on highlighted leaderboards across our site. <a href=\"https://answers.justia.com/\" target=\"_blank\"><b>Sign up</b></a> to receive an email in real time when a question is submitted in your practice area and locality, allowing you to be the first to answer a question and earn more points!",
-      "<a href=\"https://answers.justia.com/\" target=\"_blank\"><b>https://answers.justia.com/</b></a>"]
+    "description": ["Justia Ask A Lawyer provides a platform for non-lawyers to post basic legal questions online and get free responses from attorneys. Answering questions allows you to earn points and get noticed in our legal practice area forums. In turn, point leaders appear on highlighted leaderboards across our site. <a href=\"https://answers.justia.com/\" target=\"_blank\"><b><u>Sign up</u></b></a> to receive an email in real time when a question is submitted in your practice area and locality, allowing you to be the first to answer a question and earn more points!"],
+    "button": {
+      "text": "Answer Questions Now"
+    }
   }
 }
