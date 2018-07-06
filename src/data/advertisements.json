@@ -1,0 +1,41 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "Laptop and phone devices",
+      "link": "mailto:support@justia.com",
+      "title": "Get Reviews on Your <br responsive=\"mobile-hide\" />Justia Lawyer Directory Profile!",
+      "description": ["Any lawyer with a verified Justia account can now write a review for another lawyer, provided they are personally familiar with the attorney’s work. The more positive reviews you receive, the greater your professional online reputation and standing within the community."],
+      "footer": "Showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!",
+      "button": {
+        "text": "CONTACT US NOW"
+      }
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "title": "Connect To More Clients",
+      "image": "jld-adname-image-01.png",
+      "alt": "Justia Lawyer Directory",
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https://lawyers.justia.com/profile/*|PROFILE_ID|*/edit/profile_picture?utm_medium=email&utm_campaign=2018-06&utm_source=directory-newsletter&utm_content=banner-jld-editing-photo-v1",
+      "description": "Take your lawyer profile to the next level with a Premium Membership! Your profile will appear in front of more potential clients searching for legal representation in the Justia Lawyer Directory.",
+      "button": {
+        "text": "BECOME A PREMIUM MEMBER TODAY"
+      },
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>"
+    },
+    "ad2": {
+      "title": "We Can Optimize Your Website <br responsive=\"mobile-hide\" />for Google's Mobile-First Index",
+      "image": "jld-adname-image-02.png",
+      "alt": "Laptop and mobile devices",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_campaign=2018-07&utm_source=directory-newsletter&utm_content=banner-website-marketing-generic-v8",
+      "description-01": "Take advantage of Google's new focus on mobile rankings by updating the mobile version of your website.",
+      "description-02": "A responsive design delivers an optimized layout for both desktop and mobile visitors. Add fast <strong>Accelerated Mobile Pages (AMP)</strong> to your website to appear higher in Google's mobile-first index.",
+      "button": {
+        "text": "Contact Us For Help"
+      },
+      "phone": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>"
+    }
+  }
+}

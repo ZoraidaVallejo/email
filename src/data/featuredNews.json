@@ -1,0 +1,22 @@
+{
+  "title": "Six Website Design Mistakes That Could Be Driving Prospects Away",
+  "link": "https://onward.justia.com/2018/07/05/six-website-design-mistakes-that-could-be-driving-prospects-away/",
+  "utm": {
+    "medium": "?utm_medium=email",
+    "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
+    "source": {
+      "clients": "&utm_source=client-newsletter",
+      "jld": "&utm_source=directory-newsletter"
+    },
+    "content": {
+      "title": "&utm_content=text-onward-post-title-1",
+      "image": "&utm_content=image-onward-post-1",
+      "button": "&utm_content=button-learn-more-1"
+    }
+  },
+  "description": "It’s easy to think that your website should be on the cutting edge of web design trends, but we encourage you to consider the ultimate goal of your law firm website: converting visitors into clients. In this post we provide six common website design errors that people fall into that might actually hurt, rather than help, their website serve their purpose.",
+  "button": {
+    "text": "Learn More"
+  },
+  "list": []
+}

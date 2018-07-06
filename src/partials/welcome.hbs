@@ -1,0 +1,49 @@
+
+<!-- WELCOME MESSAGE -->
+
+<!-- w-welcome -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-welcome set-max-width">
+  <tr>
+    {{#if clientsNewsletter }}
+      <!-- head-img -->
+      {{> ui-background classes="head-img" image="welcome-07-bg.jpg" bgColor="#06316f" dimensions="width:600px; height:356px;" bgStart=true content=true }}
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- w-welcome--title -->
+            <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+              <h1><span>{{{ welcome.clients.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.clients.title.line2 }}}</h1>
+            </td>
+          </tr>
+          <tr>
+            <!-- w-welcome--message -->
+            <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
+              <p>{{{ welcome.clients.message }}}</p>
+            </td>
+          </tr>
+        {{/if}}
+        {{#if jldNewsletter }}
+        <!-- head-img -->
+        {{> ui-background classes="head-img -large-bg" image="welcome-07-bg--large.jpg" bgColor="#06316f" dimensions="width:600px; height:356px;" bgStart=true content=true }}
+          <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- w-welcome--title -->
+            <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
+              <h1><span>{{{ welcome.jld.title.line1 }}}</span>&nbsp;<br responsive="mobile-hide">{{{ welcome.jld.title.line2 }}}</h1>
+            </td>
+          </tr>
+          <tr>
+            <!-- w-welcome--message -->
+            <td class="w-welcome--message -no-padding" responsive="mobile-padding-horizontal-sides">
+              <p>{{{ welcome.jld.message }}}</p>
+            </td>
+          </tr>
+          <tr>  
+            <td class="w-welcome--message -white" responsive="mobile-padding-horizontal-sides">
+              {{> ui-real-text-button buttonLink=welcome.jld.button.link buttonText=welcome.jld.button.text }}
+            </td>
+          </tr>
+        {{/if}}
+      </table>
+    {{> ui-background bgEnd=true }}
+  </tr>
+</table>

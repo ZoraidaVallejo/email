@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Jonathan D. Katz",
+      "location": "New York",
+      "possessiveAdjective": "his",
+      "domain": {
+        "long": "https://www.dutchesscountynyticketlawyer.com/",
+        "simple": "dutchesscountynyticketlawyer.com"
+      }
+    },
+    {
+      "clientName": "The Law Office of Ryan P. Sullivan",
+      "location": "Massachusetts",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.ryansullivanlaw.com/",
+        "simple": "ryansullivanlaw.com"
+      }
+    },
+    {
+      "clientName": "The Simmons Law Firm",
+      "location": "California",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.simmonslawpc.com/",
+        "simple": "simmonslawpc.com"
+      }
+    }
+  ]
+}
