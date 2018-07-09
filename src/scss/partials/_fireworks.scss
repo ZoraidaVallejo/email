@@ -1,0 +1,133 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T E M P L A T E   1
+// ----------------------------------------------------------------------------------------------------------
+
+$fireworks-background--dimensions: image-dimensions('/src/img/fireworks-background-01.gif');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.fireworks {
+
+  .description {
+    overflow: hidden;
+    width: $max-width;
+    max-width: $max-width !important;
+    background-color: #4c6b97;
+    border-collapse: collapse !important;
+  }
+
+  .dvbg {
+    width: nth($fireworks-background--dimensions, 1);
+    height: nth($fireworks-background--dimensions, 2);
+    padding: 0;
+    background: url('../img/fireworks-background-01.gif');
+    background-color: #4c6b97;
+    background-repeat: no-repeat !important;
+    background-size: $fireworks-background--dimensions;
+    vertical-align: top;
+  }
+
+  .inner-content {
+    width: $max-width;
+
+    p,
+    a,
+    strong {
+      color: plt('white');
+    }
+
+    td {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .block-1 {
+    padding: 75px 50px 150px;
+
+    p {
+      font-size: 24px !important;
+      font-weight: bold !important;
+      text-shadow: -1px -1px 1px #09347a, 1px 1px 1px #09347a, 1px -1px 1px #09347a, -1px 1px 1px #09347a;
+      line-height: 1.2 !important;
+    }
+  }
+
+  .block-2 {
+    padding: 0 $padding;
+    // text-align: left;
+
+    p {
+      // text-align: left;
+      font-size: 30px !important;
+      font-weight: bold !important;
+      text-shadow: -1px -1px 1px #09347a, 1px 1px 1px #09347a, 1px -1px 1px #09347a, -1px 1px 1px #09347a;
+      line-height: 1.2 !important;
+    }
+  }
+
+  .block-3 {
+    padding: 28px 92px 32px;
+    font-weight: bold !important;
+
+    td {
+      padding: 16px 0;
+      font-size: 20px !important;
+      text-transform: uppercase;
+    }
+
+    a {
+      padding: 16px 40px 17px;
+      border-radius: 26px;
+    }
+
+    span {
+      font-weight: bold !important;
+    }
+  }
+
+  .ui-real-text-button {
+    width: 417px;
+    height: 54px;
+    border-radius: 26px;
+    background-color: #df1f23;
+  }
+
+  .contactus {
+    font-size: 18px !important;
+
+    .phone {
+
+      a {
+        color: plt('white') !important;
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  .block-5 {
+    padding: 10px $padding;
+
+    p {
+      font-size: 14px !important;
+    }
+  }
+
+  .block-6 {
+    padding: 22px $padding 20px;
+    border-top: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    text-align: left;
+
+    p {
+      font-size: 14px !important;
+      text-align: left;
+
+      a {
+        color: #000000;
+        font-weight: bold;
+      }
+    }
+  }
+}
