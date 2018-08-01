@@ -17,10 +17,16 @@
 
   {{#each didYouKnow.description }}
     <tr>
-      <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
-      <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <!-- dyk-desc -->
+      <td class="dyk-desc" responsive="mobile-padding-horizontal-sides">
         <p>{{{ this }}}</p>
       </td>
     </tr>
   {{/each}}
+
+  <tr>
+    <td class="dyk-desc dyk-desc--last -white" responsive="mobile-padding-horizontal-sides">
+      {{> ui-real-text-button buttonLink=didYouKnow.link buttonText="Learn More" }}
+    </td>
+  </tr>
 </table>

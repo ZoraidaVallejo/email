@@ -86,8 +86,8 @@
     padding: 0 $padding 28px;
 
     .title {
-      line-height: 1.1;
       font-size: 30px;
+      line-height: 1.1;
     }
   }
 
@@ -96,8 +96,8 @@
   }
 
   .ad-desc {
-    text-align: left;
     padding: 0 !important;
+    text-align: left;
 
     strong,
     p {
@@ -117,7 +117,7 @@
 
   $button-ad-01-settings: (
     'width': 250px,
-    'height': 45px,
+    'height': 44px,
     'font-size': 16px
   );
   $button-ad-01-padding: floor((map-get($button-ad-01-settings, 'height') - map-get($button-ad-01-settings, 'font-size')) / 2);
@@ -126,10 +126,10 @@
     padding: 0 $padding 23px;
 
     .ui-real-text-button {
-      margin: 0 auto;
       float: none;
       width: map-get($button-ad-01-settings, 'width');
       height: map-get($button-ad-01-settings, 'height');
+      margin: 0 auto;
 
       a {
         padding: $button-ad-01-padding 0;
@@ -139,13 +139,66 @@
 
   .ad-footer {
     padding: 0 $padding $padding;
-    text-align: center;
     font-size: 18px;
-    line-height: 1.1;
     font-weight: tp('weight', 'bold');
+    text-align: center;
+    line-height: 1.1;
   }
 }
 
 .w-jld-ad-02 {
   background-color: #20b8a8;
+
+  .ad-main {
+    padding: 0 14px $padding 13px;
+  }
+
+  .ad-image {
+    width: 287px;
+    padding-right: 10px;
+
+    img {
+      width: 287px;
+    }
+  }
+
+  .ad-title {
+
+    .title {
+      font-size: 28px;
+    }
+  }
+
+  .ad-desc {
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  $button-ad-02-settings: (
+    'width': 340px,
+    'height': 44px,
+    'font-size': 14px
+  );
+  $button-ad-02-padding: floor((map-get($button-ad-02-settings, 'height') - map-get($button-ad-02-settings, 'font-size')) / 2);
+
+  .ad-button {
+    padding: 0 $padding 23px;
+
+    .ui-real-text-button {
+      float: none;
+      width: map-get($button-ad-02-settings, 'width');
+      height: map-get($button-ad-02-settings, 'height');
+      margin: 0 auto;
+
+      .wrapper {
+        font-size: map-get($button-ad-02-settings, 'font-size');
+      }
+
+      a {
+        padding: $button-ad-02-padding 10px;
+      }
+    }
+  }
 }

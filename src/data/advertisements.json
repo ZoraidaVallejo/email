@@ -28,11 +28,13 @@
       "image": "jld-adname-image-02.png",
       "alt": "Premium Placement",
       "link": "#",
-      "button": "HELP IMPROVE MY SITE",
+      "button": "BECOME A GOLD PREMIUM MEMBER TODAY",
       "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
       "description": {
-        "title": "",
-        "text": "Gold Premium members are the only ones eligible to have a customizable tagline, description, and website URL on their placement.<br/><br/> Gold Premium placements offer the most visibility on the directory and have other additional benefits as well."
+        "text": [
+          "Gold Premium members are the only ones eligible to have a customizable tagline, description, and website URL on their placement.",
+          "Gold Premium placements offer the most visibility on the directory and have other additional benefits as well."
+        ]
       }
     }
   }
