@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "[alt text]",
+      "link": "#",
+      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
+      "title": "Looking to Improve Your Site?",
+      "image": "jld-adname-image-01.png",
+      "alt": "Website illustration",
+      "link": "#",
+      "button": "HELP IMPROVE MY SITE",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
+      "description": {
+        "title": "Justia provides premium law firm marketing solutions.",
+        "text": "We build websites that are fast, secure, mobile-friendly and search engine optimized to reach more potential clients."
+      }
+    },
+    "ad2": {
+      "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
+      "title": "Want to Customize Your Placement?",
+      "image": "jld-adname-image-02.png",
+      "alt": "Premium Placement",
+      "link": "#",
+      "button": "HELP IMPROVE MY SITE",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
+      "description": {
+        "title": "",
+        "text": "Gold Premium members are the only ones eligible to have a customizable tagline, description, and website URL on their placement.<br/><br/> Gold Premium placements offer the most visibility on the directory and have other additional benefits as well."
+      }
+    }
+  }
+}

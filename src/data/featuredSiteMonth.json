@@ -1,0 +1,22 @@
+{
+  "sites": [
+    {
+      "clientName": "Mirick, O'Connell, DeMallie & Lougee, LLP",
+      "location": " Massachusetts",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://injury.mirickoconnell.com/",
+        "simple": "injury.mirickoconnell.com"
+      }
+    },
+    {
+      "clientName": "Peña & Bromberg",
+      "location": "California",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.jonathanpena.com/",
+        "simple": "jonathanpena.com"
+      }
+    }
+  ]
+}

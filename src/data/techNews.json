@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "title": "Europe Hits Google With Record $5 Billion Antitrust Fine Over Bundling of Its Apps on Android",
+      "link": "https://www.washingtonpost.com/technology/2018/07/18/europe-penalizes-google-with-record-billion-antitrust-fine-way-it-bundles-its-apps-android-smartphones-tablets/",
+      "description": "A regulatory body of the European Union fined Google $5 billion for bundling its own search and web browsing apps on devices running its Android operating system. The regulators gave Google 90 days to restructure its relationships with device makers and submit fixes for their approval. Although the ruling pertains to Android users in the European Union, Google may determine that it is too cumbersome to have different policies for different markets and thus may make changes to devices worldwide."
+    }, {
+      "title": "The 21st Century Internet Act Aims to Enshrine Net Neutrality in Law",
+      "link": "https://techcrunch.com/2018/07/17/the-21st-century-internet-act-aims-to-enshrine-net-neutrality-in-law/",
+      "description": "Reacting to the FCC’s repeal of “net neutrality” rules last December, Representative Mike Coffman (R-CO) has proposed a bill that would provide for internet openness, albeit via legislation rather than by regulation. The “21st Century Internet Act,” would modify the Communications Act of 1934 and the 1996 Telecommunications Act to add a host of new provisions specifically applicable to internet service providers (ISPs). As the now-repealed net neutrality rules did, the Act would ban ISPs from blocking, throttling, or prioritizing content on the basis of how much the content provider pays the ISP."
+    }, 
+
+    {
+      "title": "ACLU Calls for a Moratorium on Government Use of Facial Recognition Technologies",
+      "link": "https://techcrunch.com/2018/07/13/aclu-calls-for-a-moratorium-on-government-use-of-facial-recognition-technologies/",
+      "description": "The ACLU has called for a moratorium on the use of facial recognition technology by government agencies. Companies like Amazon, Google, and Microsoft have faced criticism for selling facial recognition technology to the government before the implications of such technology can be adequately studied and discussed."
+    }, {
+      "title": "FTC Says It Will Take a ‘Close Look’ At EU Antitrust Fine Against Google",
+      "link": "https://marketingland.com/ftc-says-it-will-take-a-close-look-at-eu-antitrust-fine-against-google-244607",
+      "description": "FTC Chairman Joseph Simons stated that the commission will be reviewing the EU decision to levy a $5 billion fine against Google for alleged antitrust violations due to its bundling of search and browser apps with its Android operating system. According to this article, however, US regulators have generally declined to pursue antitrust remedies against US technology giants, preferring to let the market regulate competition."
+    }, {
+      "title": "How Russian Spies Hid Behind Bitcoin in Hacking Campaign",
+      "link": "https://www.nytimes.com/2018/07/13/technology/bitcoin-russian-hacking.html",
+      "description": "In the US Justice Department’s indictment of 12 Russian operatives accused of interfering with the 2016 presidential election, documents describe how the intelligence officers used the cryptocurrency Bitcoin to purchase tools that could be used in attacks on national security. According to sources quoted in the article, this is the first time such descriptions of the nefarious use of cryptocurrencies have been detailed in a court document."
+    }, {
+      "title": "Microsoft Says Hackers Already Targeted Three 2018 Midterm Candidates",
+      "link": "https://www.theverge.com/2018/7/19/17593134/microsoft-2018-midterms-election-candidates-hacks",
+      "description": "A Microsoft executive recently disclosed that the company has detected multiple sophisticated attempts at cyber-attacks targeting three 2018 congressional candidates. This article reports that the attempts were linked to a group Microsoft calls “Strontium,” which is the same group of hackers with ties to Russian military intelligence who targeted the Democratic National Committee in 2016."
+    }
+  ]
+}
