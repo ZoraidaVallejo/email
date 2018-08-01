@@ -1457,12 +1457,15 @@ body {
   font: 16px/1.38 Arial, sans-serif;
 }
 
+.w-law-events .event-1 .inner-text,
 .w-law-events .event-2 .inner-text,
+.w-law-events .event-3 .inner-text,
 .w-law-events .event-4 .inner-text {
   height: 108px;
 }
 
-.w-law-events .event-5 .inner-text {
+.w-law-events .event-5 .inner-text,
+.w-law-events .event-6 .inner-text {
   height: 152px;
 }
 
