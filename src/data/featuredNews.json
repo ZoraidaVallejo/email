@@ -1,6 +1,6 @@
 {
-  "title": "[featured article title]",
-  "link": "#",
+  "title": "Five Design Elements That May Be Slowing Down Your Law Firm Website",
+  "link": "https://onward.justia.com/2018/08/02/five-design-elements-that-may-be-slowing-down-your-law-firm-website/",
   "utm": {
     "medium": "?utm_medium=email",
     "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
@@ -14,22 +14,9 @@
       "button": "&utm_content=button-learn-more-1"
     }
   },
-  "description": "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi. Molestiae eaque amet, fugit excepturi praesentium culpa, quae perferendis delectus ea corporis quia hic recusandae dolore, suscipit cumque?]",
+  "description": "Although it may be tempting to try to implement some of the latest flashy design elements on your website, doing so could have the unintended effect of slowing down your website and thus negatively affecting your SEO. In this post, we describe five popular elements and themes that can weigh down your site and hurt its performance.",
   "button": {
     "text": "Learn More"
   },
-  "list": [
-    {
-      "title": "[list item 1]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 2]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 3]",
-      "link": "#"
-    }
-  ]
+  "list": []
 }

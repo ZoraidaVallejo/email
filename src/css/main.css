@@ -614,7 +614,7 @@ body {
   padding: 0 30px 45px;
 }
 
-.w-stories-list .main-story-desc.-with-list {
+.w-stories-list .main-story-desc.-with-list, .w-stories-list .main-story-desc.-with-btn {
   padding: 0 30px 20px;
 }
 

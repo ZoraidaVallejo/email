@@ -31,7 +31,8 @@ $tech-news-image--width: 150px;
     &-desc {
       padding: 0 $padding 45px;
 
-      &.-with-list {
+      &.-with-list,
+      &.-with-btn {
         padding: 0 $padding 20px;
       }
 
