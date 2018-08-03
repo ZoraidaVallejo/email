@@ -38,7 +38,9 @@
             <!-- item-image -->
             <td class="item-image" responsive="mobile-hide collapse-one">
               {{#if this.image }}
-                <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                <a href="#">
+                  <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+                </a>
               {{else}}
                 &nbsp;
               {{/if}}
