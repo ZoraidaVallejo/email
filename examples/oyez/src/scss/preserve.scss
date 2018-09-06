@@ -3,13 +3,11 @@
 // R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
 
-// stylelint-disable
-
 $use-breakpoint: false;
 
 @import
   'image-dimensions',
-  'frontend-helpers';
+  'maple-sass';
 
 @import
   'modules/functions',
@@ -17,6 +15,8 @@ $use-breakpoint: false;
   'modules/mixins';
 
 // ----------------------------------------------------------------------------------------------------------
+
+// stylelint-disable
 
 // CLIENT-SPECIFIC STYLES
 body,
