@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 
 const chalk = require('chalk');
+const log = require('bilberry/log');
 const timeGrunt = require('time-grunt');
 const loadGruntConfig = require('load-grunt-config');
 
 const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
 const getMonths = require('./scripts/handlebars-helpers/getMonth');
-const $ = require('./scripts/helpers');
 
 if (!customConfig.version) {
   customConfig.currentYear = customConfig.current_year;
@@ -25,7 +25,7 @@ const configuration = Object.assign({}, customConfig, {
 });
 
 if (monthNum < 1 || monthNum > 12) {
-  $.log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
+  log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
 }
 
 module.exports = grunt => {

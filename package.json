@@ -29,24 +29,19 @@
     "test": "nps --config .npmscripts.js test"
   },
   "dependencies": {
-    "autoprefixer": "^7.2.6",
     "chalk": "^2.4.1",
     "cheerio": "^0.22.0",
     "express": "^4.16.3",
     "eyeglass": "^1.5.0",
-    "figures": "^2.0.0",
-    "git-promise": "^0.3.1",
-    "inquirer": "^4.0.2",
     "load-grunt-config": "0.19.2",
     "months": "^2.0.0",
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
-    "openurl": "^1.1.1",
-    "semver": "^5.5.1",
     "time-grunt": "^1.4.0"
   },
   "devDependencies": {
-    "@justia/frontend-helpers": "^0.8.0",
+    "@justia/maple-sass": "^3.2.0",
+    "autoprefixer": "^9.1.5",
     "babel-eslint": "^9.0.0",
     "bilberry": "^0.3.0",
     "ejs": "^2.6.1",
