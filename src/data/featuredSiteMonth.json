@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Cosenza Law Firm",
+      "location": "Louisiana",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.cosenzalaw.com/",
+        "simple": "cosenzalaw.com"
+      }
+    },
+    {
+      "clientName": "Law Offices of Charles R. Frazier",
+      "location": "Tennessee",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.crfrazierlaw.com/",
+        "simple": "crfrazierlaw.com"
+      }
+    },
+    {
+      "clientName": "Perrone Law, P.C.",
+      "location": "Michigan",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.perronelawpc.com/",
+        "simple": "perronelawpc.com"
+      }
+    }
+  ]
+}

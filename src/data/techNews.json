@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "DNC Serves WikiLeaks With Lawsuit Via Twitter",
+      "link": "https://news.justia.com/dnc-serves-wikileaks-with-lawsuit-via-twitter/",
+      "description": "In an unusual move, the US District Court for the Southern District of New York granted a motion by the Democratic National Committee (DNC) to serve WikiLeaks by way of a tweet. The firm representing the DNC had asked the court for permission to use Twitter to serve the defendant after more traditional methods of service had failed. Service by Twitter is not unprecedented. In granting the DNC’s motion, the court cited a 2016 case in which the court authorized service by tweet."
+    },
+    {
+      "title": "FCC Says Court Made Error in Approval of AT&T/Time Warner Merger",
+      "link": "https://arstechnica.com/tech-policy/2018/08/fcc-says-court-made-error-in-approval-of-atttime-warner-merger/",
+      "description": "The US Department of Justice (DOJ) has appealed the decision of a federal district court allowing the merger of AT&T and Time Warner Cable. The FCC, which did not join the DOJ in opposing the merger, has submitted a filing in the appeal that argues the district court erred in not giving enough weight to some of the evidence presented."
+    },
+    {
+      "title": "Ajit Pai Loses In Court--FCC Can’t Kill Broadband Subsidy in Tribal Areas",
+      "link": "https://arstechnica.com/tech-policy/2018/08/court-blocks-fcc-plan-that-could-cause-mass-disconnection-in-tribal-lands/",
+      "description": "The US Court of Appeals for the DC Circuit has stayed an order by the FCC to limit eligibility for the Tribal Lifeline enhanced subsidy to “facilities-based” service providers in rural areas. This subsidy reduces the cost of internet and phone service for low-income residents of federal Tribal reservations. According to the ruling, the plaintiff tribes showed a substantial risk that tribal populations would “suffer widespread loss of vital telecommunications services absent a stay,” and the FCC did not carry its burden of proving that its plan would not result in “mass disconnection.”"
+    },
+    {
+      "title": "Google Employees Protest Secret Work on Censored Search Engine for China",
+      "link": "https://www.nytimes.com/2018/08/16/technology/google-employees-protest-search-censored-china.html",
+      "description": "The New York Times reports that it obtained a letter signed by over a thousand Google employees who are upset at the search giant’s decision to secretly build a censored version of its search engine in China. The Times points out that Google employees have previously been outspoken about the company’s decisions and policies, such as its involvement in a weapons program by the US government, and have effectively advocated for changes."
+    },
+    {
+      "title": "ISPs Say They Can’t Expand Broadband Unless Government Gives Them More Money",
+      "link": "https://arstechnica.com/tech-policy/2018/08/isps-want-to-be-utilities-but-only-to-get-more-money-from-the-government/",
+      "description": "Although internet service providers (ISPs) have long battled being classified as utilities (and thus being subject to more stringent regulations than they currently are), Ars Technica reports that they are now asking for the government for the same type of assistance provided to utility companies, under the rationale that they are, essentially, utilities as well."
+    },
+    {
+      "title": "Google Updates Location History Language After Tracking Backlash",
+      "link": "https://techcrunch.com/2018/08/17/google-updates-location-history-language-after-tracking-backlash/",
+      "description": "In mid-August, Google admitted that it continues to track users even after users disable location history tracking. Four days after this admission, Google updated its website to more accurately reflect the nature of its location policy. The Google Account Help page now states that disabling location history tracking does not affect Google Location Services and Find My Device, and that “[s]ome location data may be saved as part of your activity on other services, like Search and Maps.”"
+    },
+    {
+      "title": "Google Releases a Searchable Database of US Political Ads",
+      "link": "https://techcrunch.com/2018/08/15/google-political-ad-library/",
+      "description": "Google recently released a database of all US political ads that have run on its platform. The database, dubbed Ad Library, is fully searchable and browsable and can be filtered and sorted across a number of different parameters, including candidate name or advertiser, spend, the dates the ads were live, impressions, and type of ad."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "Lawline - Experience Unlimited CLE - Start your 10 day free trial",
+      "link": "https://www.lawline.com/register/trial?utm_source=justia&utm_medium=affiliate&utm_campaign=September%20Newsletter",
+      "description": []
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "image": "jld-adname-image-01.png",
+      "alt": "[alt text]",
+      "link": "#",
+      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+    },
+    "ad2": {
+      "image": "jld-adname-image-02.png",
+      "alt": "[alt text]",
+      "link": "#",
+      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+    }
+  }
+}

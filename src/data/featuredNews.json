@@ -1,0 +1,22 @@
+{
+  "title": "How To Choose a Winning Color Scheme For Your Law Firm Website",
+  "link": "https://onward.justia.com/2018/09/04/how-to-choose-a-winning-color-scheme-for-your-law-firm-website/",
+  "utm": {
+    "medium": "?utm_medium=email",
+    "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
+    "source": {
+      "clients": "&utm_source=client-newsletter",
+      "jld": "&utm_source=directory-newsletter"
+    },
+    "content": {
+      "title": "&utm_content=text-onward-post-title-1",
+      "image": "&utm_content=image-onward-post-1",
+      "button": "&utm_content=button-learn-more-1"
+    }
+  },
+  "description": "The colors you choose for use on your website may have a more significant impact on your visitors than you expect. Learn how certain colors affect people differently, and follow these tips to make deliberate and informed choices about the colors you use on your law firm website.",
+  "button": {
+    "text": "Learn More"
+  },
+  "list": []
+}

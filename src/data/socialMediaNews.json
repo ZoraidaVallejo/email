@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "title": "Facebook Now Requiring Pages With Large US Audiences to Go Through Additional Authorization",
+      "link": "https://techcrunch.com/2018/08/10/facebook-now-requiring-pages-with-large-us-audiences-to-go-through-additional-authorization/",
+      "description": "Facebook Pages that boast large US followings will now be more difficult for people to undermine via fake or compromised accounts. Facebook has recently implemented a “Page Publishing Authorization” process that requires Page managers to verify their location and secure their accounts. Facebook says that the process only takes a couple of minutes to complete. A Page that requires such authorization will reflect a notification on top of its News Feed, which then directs its admins to begin the process."
+    },
+    {
+      "title": "Twitter Suspends Alex Jones and Infowars for Seven Days",
+      "link": "https://www.nytimes.com/2018/08/14/technology/twitter-alex-jones-suspension.html",
+      "description": "In mid-August, Twitter suspended accounts of far-right Alex Jones and his media website, Infowars. The dual action prevented Jones and InfoWars from tweeting or retweeting content from their respective Twitter accounts for seven days, although it had no affect on their ability to browse the social network. The suspension resulted after both accounts posted a video, which called for their supporters to ready their rifles against media and other individuals they viewed as opponents. This was deemed a violation of Twitter’s rules against inciting violence."
+    },
+    {
+      "title": "Justice Department Argues Trump Could Block Anyone He Wants on Twitter, Not Obliged to Let People 'Piggyback' on His Tweets",
+      "link": "https://www.businessinsider.com/can-donald-trump-block-people-on-twitter-argument-2018-8",
+      "description": "The US Department of Justice is appealing a May 2018 ruling that President Trump violated the constitution by blocking users from his Twitter account. The administration argued that Trump uses the account in his personal capacity, meaning that he should not be obligated to engage with members of the public via the social media platform. The White House previously stated that Trump’s tweets were official statements, but did not specify whether this was in reference to Trump’s personal account or the president’s official account."
+    },
+    {
+      "title": "Reddit Says It Was Hacked in June and Attackers Got Private Messages and Other Info of Early Users",
+      "link": "https://www.businessinsider.com/reddit-hack-user-data-from-2005-to-2007-accessed-2018-8",
+      "description": "Reddit has announced that hackers gained access to one of its databases in June 2018, and obtained email addresses, private messages, and other personal data belonging to people who used the site between 2005 and 2007. The breach doesn’t involve users who have only accessed the site since 2007. Reddit is requiring password changes for the affected users, and encouraging password changes for all others."
+    },
+    {
+      "title": "Twitter Lite Expands To 21 More Countries, Adds Push Notifications",
+      "link": "https://techcrunch.com/2018/08/13/twitter-lite-expands-to-21-more-countries-adds-push-notifications/",
+      "description": "The data-saving version of Twitter, Twitter Lite, has been released to 21 additional countries, making it available in 45 countries overall. Twitter Lite was released in the Philippines last fall, and has since been rolled out to other countries where low bandwidth could otherwise be a barrier to using the app. Twitter’s objective in expanding Twitter Lite has been to grow its user base, which has been relatively stagnant."
+    },
+    {
+      "title": "Twitter Kills Off Third-Party App Features",
+      "link": "https://www.searchenginejournal.com/twitter-kills-off-third-party-app-features/",
+      "description": "After warning developers for many years, Twitter has finally restricted third-party apps from access to its APIs. Users of these apps will lose certain features, including push notifications and automated refreshes to their timelines. Twitter is implementing this restriction in order to dedicate more resources to its native app."
+    }
+  ]
+}
