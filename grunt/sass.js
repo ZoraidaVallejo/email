@@ -32,7 +32,8 @@ module.exports = (grunt, { version, paths }) => ({
   // You should not need to edit it.
   preview: {
     options: {
-      style: 'compressed'
+      style: 'compressed',
+      implementation: sass
     },
     files: {
       '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'

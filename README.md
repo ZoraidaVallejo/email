@@ -8,7 +8,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
   - [nvm](#nvm)
-  - [Node v7.10](#node-v710)
+  - [Node v8.10](#node-v810)
   - [npm5](#npm5)
   - [Packages](#packages)
 - [Folder structure](#folder-structure)
@@ -37,7 +37,7 @@
 ## Requirements
 
 - **nvm**
-- **Node v7.10**
+- **Node v8.10**
 - **npm5**
 - **Grunt**
 
@@ -48,24 +48,24 @@
 
 Use the [nvm documentation](https://github.com/creationix/nvm#install-script) to install it.
 
-### Node v7.10
+### Node v8.10
 
-Using `nvm`, install node v7.10:
+Using `nvm`, install node v8.10:
 
 ```shell
-nvm install 7.10
+nvm install 8.10
 ```
 
 **I highly recommend you** to set this new version of Node as **default** to be used in any new shell:
 
 ```shell
-nvm alias default 7.10
+nvm alias default 8.10
 ```
 
 You can do it manually too:
 
 ```shell
-nvm use 7.10
+nvm use 8.10
 ```
 
 ### npm5
