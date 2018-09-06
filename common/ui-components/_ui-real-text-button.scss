@@ -15,23 +15,23 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
 .ui-real-text-button {
   width: map-get($button-settings, 'width');
   height: map-get($button-settings, 'height');
-  border-radius: 3px;
   border: 1px solid plt('bright-blue');
-  border-collapse: separate !important;
+  border-radius: 3px;
   text-align: left;
+  border-collapse: separate !important;
 
   a {
     display: block;
     padding: $button-padding 0;
     color: plt('bright-blue');
-    text-align: center;
     line-height: 1;
+    text-align: center;
   }
 
   .wrapper {
     color: plt('bright-blue');
-    font-size: map-get($button-settings, 'font-size');
     font-weight: tp('weight', 'normal');
+    font-size: map-get($button-settings, 'font-size');
   }
 
   .-white & {
