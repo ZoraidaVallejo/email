@@ -1,0 +1,67 @@
+// ----------------------------------------------------------------------------------------------------------
+// R E A L   T E X T   B U T T O N
+// ----------------------------------------------------------------------------------------------------------
+
+$button-settings: (
+  'width': 125px,
+  'height': 30px,
+  'font-size': 16px
+);
+
+$button-padding: floor((map-get($button-settings, 'height') - map-get($button-settings, 'font-size')) / 2);
+
+// ----------------------------------------------------------------------------------------------------------
+
+.ui-real-text-button {
+  width: map-get($button-settings, 'width');
+  height: map-get($button-settings, 'height');
+  border-radius: 3px;
+  border: 1px solid plt('bright-blue');
+  border-collapse: separate !important;
+  text-align: left;
+
+  a {
+    display: block;
+    padding: $button-padding 0;
+    color: plt('bright-blue');
+    text-align: center;
+    line-height: 1;
+  }
+
+  .wrapper {
+    color: plt('bright-blue');
+    font-size: map-get($button-settings, 'font-size');
+    font-weight: tp('weight', 'normal');
+  }
+
+  .-white & {
+    border: 1px solid plt('white');
+
+    a {
+      color: plt('white');
+    }
+
+    .wrapper {
+      color: plt('white');
+    }
+  }
+
+  .-red & {
+    border: 1px solid plt('red');
+    background-color: plt('red');
+
+    a {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+
+  .-large & {
+    width: map-get($button-settings, 'width') * 1.5;
+  }
+}
