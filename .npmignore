@@ -1,0 +1,12 @@
+# Folders
+grunt/
+
+# Config files
+.editorconfig
+.eslint*
+.npmscripts.js
+.nvmrc
+
+# Other
+Gruntfile.*
+package-lock.json
