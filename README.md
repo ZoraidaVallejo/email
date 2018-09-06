@@ -100,9 +100,9 @@ npm install
 ├── dist/
 ├── examples/
 ├── grunt/
+├── lib/
 ├── preview/
 ├── public/
-├── scripts/
 └── src/
     ├── css/
     ├── data/
@@ -125,9 +125,9 @@ Folder name | Description
 `dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
 `examples/` | Mail template starters: it includes Blast, Newsletter, Oyez and Proposal (pdf).
 `grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
+`lib/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
 `preview/` | All files related to the preview window where you see a _preview_ of your work.
 `public/` | Folder where the final HTML files are stored.
-`scripts/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
 
 
 #### Common
@@ -186,7 +186,7 @@ The `src/` folder contains the source files (styles, custom handlebars, data, et
 Folder name | Description
 ----------- | -----------
 `data/` | Contain **.json** data files that can be used in your templates [More info](#data).
-`emails/` | Place where your main template(s) will go. 
+`emails/` | Place where your main template(s) will go.
 `img/` | [More Info](#images)
 `partials/` | [More info](#ui-components).
 `scss/modules/` | [More info](#scss-modules).
@@ -349,7 +349,7 @@ To set a responsive behavior to any element, you will add all the classes you re
 If you really need a class in the final HTML, use the `id` attribute. The workflow will replace it with `class`.
 
 > You maybe asking yourself, "WTF?" `╚═| ~ ಠ ₒ ಠ ~ |═╝`
-> 
+>
 > It worked... so... `d–(^ ‿ ^ )z`
 
 

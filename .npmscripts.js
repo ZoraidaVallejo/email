@@ -34,7 +34,7 @@ const sassPatterns = ['src/scss/**/*.scss', '!src/scss/preserve.scss'];
 
 module.exports = {
   scripts: {
-    test: 'node scripts/test.js',
+    test: 'node lib/test.js',
 
     optim: 'imageoptim --verbose --directory ./src/img',
 

@@ -20,7 +20,7 @@
   },
   "license": "UNLICENSED",
   "author": "Diego Miguel <digznav@gmail.com> (https://github.com/Digznav)",
-  "main": "scripts/server.js",
+  "main": "lib/server.js",
   "directories": {
     "example": "examples"
   },
