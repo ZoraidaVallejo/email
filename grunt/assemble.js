@@ -1,5 +1,6 @@
-const cwd = process.cwd();
 const path = require('path');
+
+const cwd = process.cwd();
 
 module.exports = {
   options: {

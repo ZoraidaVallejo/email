@@ -1,11 +1,14 @@
-const cwd = process.cwd();
 const path = require('path');
+const sass = require('node-sass');
 const Eyeglass = require('eyeglass');
+
+const cwd = process.cwd();
 
 // Takes your SCSS files and compiles them to CSS
 module.exports = (grunt, { version, paths }) => ({
   dist: {
     options: Eyeglass({
+      implementation: sass,
       outputStyle: 'expanded',
       includePaths: [
         path.join(cwd, '/common/partials/'),
