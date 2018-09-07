@@ -708,6 +708,15 @@ body {
   background-color: #fafafa;
 }
 
+.w-stories-list.w-new .widget-main-title {
+  color: #06357a;
+  font-weight: 700;
+}
+
+.w-stories-list.w-new a {
+  color: #06357a;
+}
+
 .w-stories-list.w-jurispro sup {
   font: 16px/1 Arial, sans-serif;
 }
