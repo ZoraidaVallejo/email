@@ -427,6 +427,10 @@ body {
   width: 187.5px;
 }
 
+.-large-x2 .ui-real-text-button {
+  width: 250px;
+}
+
 .-large-x3 .ui-real-text-button {
   width: 375px;
 }
@@ -834,6 +838,24 @@ body {
 }
 
 .w-tip-month .tip-desc--last {
+  padding: 0 30px 45px;
+}
+
+.w-tip-month .tip-text {
+  width: 425px;
+  vertical-align: top;
+}
+
+.w-tip-month .tip-image {
+  width: 175px;
+  text-align: right;
+}
+
+.w-tip-month .tip-image img {
+  width: 130px !important;
+}
+
+.w-tip-month .btn-container {
   padding: 0 30px 45px;
 }
 
@@ -1284,6 +1306,10 @@ body {
 .w-internet-stats {
   background-color: #fafafa;
   /* stylelint-disable selector-no-qualifying-type */
+}
+
+.w-internet-stats.-client {
+  border-bottom: 1px solid #e7e8e8;
 }
 
 .w-internet-stats .stats-title {

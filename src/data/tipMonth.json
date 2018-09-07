@@ -6,10 +6,11 @@
   },
   "jld": {
     "title": "Justia Lawyer Rating and Reviews",
-    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newletter&utm_content=section-tip-of-the-month-reviews-text-v1",
-    "description": ["The Justia Lawyer Directory now features attorney reviews and ratings. Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!"],
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newletter&utm_content=section-tip-of-the-month-reviews-title-v1",
+    "description": ["The Justia Lawyer Directory now features attorney reviews and ratings. Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!<br/><br/><b><a href=\"https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newletter&utm_content=section-tip-of-the-month-reviews-text-v1\" target=\"_blank\">Learn more ›</a></b>"],
     "button": {
-      "text": "Learn More"
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https://lawyers.justia.com/profile/*|PROFILE_ID|*/edit/reviews?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newletter&utm_content=section-tip-of-the-month-reviews-button-v1",
+      "text": "Get your Justia Rating Badge"
     }
   }
 }

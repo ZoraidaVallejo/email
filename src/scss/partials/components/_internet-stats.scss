@@ -10,6 +10,10 @@ $internet-stats-chart--width: 540px;
 .w-internet-stats {
   background-color: plt('alabaster');
 
+  &.-client {
+    border-bottom: 1px solid plt('mail', 'black-haze');
+  }
+
   .stats {
 
     &-title {

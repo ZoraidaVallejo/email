@@ -30,5 +30,23 @@
         padding: 0 $padding 45px;
       }
     }
+
+    &-text {
+      width: ($max-width - 175px);
+      vertical-align: top;
+    }
+
+    &-image {
+      width: 175px;
+      text-align: right;
+
+      img {
+        width: 130px !important;
+      }
+    }
+  }
+
+  .btn-container {
+    padding: 0 $padding 45px;
   }
 }
