@@ -387,6 +387,7 @@ body {
   color: #00b3e3;
   text-align: center;
   line-height: 1;
+  text-decoration: none !important;
 }
 
 .ui-real-text-button .wrapper {
@@ -424,6 +425,10 @@ body {
 
 .-large .ui-real-text-button {
   width: 187.5px;
+}
+
+.-large-x3 .ui-real-text-button {
+  width: 375px;
 }
 
 .ui-label-divider {
@@ -572,6 +577,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.w-welcome.-jld .head-img {
+  width: 600px;
+  height: 181px;
+  background: url("../img/welcome-09-bg-jld.png");
+}
+
 .w-welcome--title {
   padding: 0 30px;
 }
@@ -687,6 +698,10 @@ body {
 .w-stories-list.w-design-news .story-item a,
 .w-stories-list.w-design-news .widget-main-title {
   color: #8547ad;
+}
+
+.w-stories-list.w-new {
+  background-color: #fafafa;
 }
 
 .w-stories-list.w-jurispro sup {
@@ -952,6 +967,10 @@ body {
   padding: 35px 0 0;
 }
 
+.w-text-image.w-meet-our-team.-jld {
+  border-bottom: 0;
+}
+
 .w-text-image.w-meet-our-team .item-list .item-desc {
   width: 300px;
 }
@@ -993,6 +1012,11 @@ body {
 .w-text-image.w-inside-justia .item-image img {
   width: 210px;
   max-width: 88%;
+}
+
+.w-text-image.w-pugs-tale.-jld {
+  border-top: 1px solid #e7e8e8;
+  border-bottom: 1px solid #e7e8e8;
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
@@ -1091,16 +1115,170 @@ body {
   padding: 0 30px 25px;
 }
 
-.w-client-ad-01 {
-  background-color: #c0c0c0;
+.w-jld-ad-01,
+.w-jld-ad-02 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.w-jld-ad-01 a,
+.w-jld-ad-01 p,
+.w-jld-ad-01 strong,
+.w-jld-ad-02 a,
+.w-jld-ad-02 p,
+.w-jld-ad-02 strong {
+  color: #000000;
+}
+
+.w-jld-ad-01 .ad-header,
+.w-jld-ad-02 .ad-header {
+  padding: 30px;
+}
+
+.w-jld-ad-01 .ad-header img,
+.w-jld-ad-02 .ad-header img {
+  width: 318px;
+  max-width: 100%;
+}
+
+.w-jld-ad-01 .ad-title,
+.w-jld-ad-02 .ad-title {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-title .title,
+.w-jld-ad-02 .ad-title .title {
+  color: #06357a;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.w-jld-ad-01 .ad-main,
+.w-jld-ad-02 .ad-main {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-image,
+.w-jld-ad-02 .ad-image {
+  width: 507px;
+  height: 376px;
+  padding-left: 29px;
+  background: url("../img/jld-adname-image-01.png");
+  background-repeat: no-repeat;
+}
+
+.w-jld-ad-01 .ad-image img,
+.w-jld-ad-02 .ad-image img {
+  width: 502px;
+  max-width: 100%;
+}
+
+.w-jld-ad-01 .ad-desc,
+.w-jld-ad-02 .ad-desc {
+  padding: 30px 0 0;
+  text-align: left;
+}
+
+.w-jld-ad-01 .ad-desc p,
+.w-jld-ad-02 .ad-desc p {
+  font-size: 16px !important;
+}
+
+.w-jld-ad-01 .ad-button,
+.w-jld-ad-02 .ad-button {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button,
+.w-jld-ad-02 .ad-button .ui-real-text-button {
+  float: none;
+  width: 250px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button a,
+.w-jld-ad-02 .ad-button .ui-real-text-button a {
+  padding: 14px 0;
+}
+
+.w-jld-ad-01 .ad-footer,
+.w-jld-ad-02 .ad-footer {
+  padding: 0 30px 30px;
+  color: #06357a;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.w-jld-ad-01 .ad-footer a,
+.w-jld-ad-02 .ad-footer a {
+  color: #06357a;
 }
 
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  border-bottom: 1px solid #e7e8e8;
 }
 
-.w-jld-ad-02 {
-  background-color: #c0c0c0;
+.w-jld-ad-01 .ad-button {
+  padding: 0 30px 23px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button {
+  float: none;
+  width: 410px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button .wrapper {
+  font-size: 16px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button a {
+  padding: 14px 10px;
+}
+
+.w-jld-ad-02 .ad-title .title {
+  font-size: 26px;
+}
+
+.w-jld-ad-02 .ad-main {
+  padding: 0;
+}
+
+.w-jld-ad-02 .ad-image {
+  width: 600px;
+  height: 229px;
+  padding-left: 0;
+  background: url("../img/jld-adname-image-02.png");
+  background-repeat: repeat-x;
+}
+
+.w-jld-ad-02 .ad-image img {
+  width: 368px;
+  max-width: 100%;
+}
+
+.w-jld-ad-02 .ad-desc,
+.w-jld-ad-02 .ad-button,
+.w-jld-ad-02 .ad-footer {
+  background-color: #06357a;
+  color: #ffffff;
+}
+
+.w-jld-ad-02 .ad-desc p,
+.w-jld-ad-02 .ad-desc a,
+.w-jld-ad-02 .ad-button p,
+.w-jld-ad-02 .ad-button a,
+.w-jld-ad-02 .ad-footer p,
+.w-jld-ad-02 .ad-footer a {
+  color: #ffffff;
+}
+
+.w-jld-ad-02 .ad-desc {
+  padding: 30px;
 }
 
 .w-internet-stats {

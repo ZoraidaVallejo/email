@@ -98,6 +98,10 @@ $pugs-image--width: 150px;
 
   &.w-meet-our-team {
 
+    &.-jld {
+      border-bottom: 0;
+    }
+
     .item-list {
 
       .item-desc {
@@ -155,6 +159,11 @@ $pugs-image--width: 150px;
   }
 
   &.w-pugs-tale {
+
+    &.-jld {
+      border-top: 1px solid plt('mail', 'black-haze');
+      border-bottom: 1px solid plt('mail', 'black-haze');
+    }
 
     .item-list {
 

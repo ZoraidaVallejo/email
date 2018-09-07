@@ -13,11 +13,13 @@
         {{#if clientsNewsletter }}
           {{{ tipMonth.clients.title }}}
         {{/if}}
-        {{#if jldNewsletter }}
-          {{#if tipMonth.jld.link }}<a href="{{ tipMonth.jld.link }}" target="_blank">{{/if}}
-            {{{ tipMonth.jld.title }}}
-          {{#if tipMonth.jld.link }}</a>{{/if}}
-        {{/if}}
+        {{!-- {{#if jldNewsletter }}
+          {{#if tipMonth.jld.title }}
+            {{#if tipMonth.jld.link }}<a href="{{ tipMonth.jld.link }}" target="_blank">{{/if}}
+              {{{ tipMonth.jld.title }}}
+            {{#if tipMonth.jld.link }}</a>{{/if}}
+          {{/if}}
+        {{/if}} --}}
       </h2>
     </td>
   </tr>
@@ -43,7 +45,7 @@
       </tr>
     {{/each}}
     <tr>
-      <td class="tip-desc tip-desc--last" responsive="mobile-padding-horizontal-sides">
+      <td class="tip-desc tip-desc--last -white" responsive="mobile-padding-horizontal-sides">
         {{> ui-real-text-button buttonText=tipMonth.jld.button.text buttonLink=tipMonth.jld.link }}
       </td>
     </tr>

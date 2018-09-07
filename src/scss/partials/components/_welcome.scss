@@ -4,6 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $welcome-image--dimensions: 600px 356px;
+$welcome-image--dimensions-jld: 600px 518px;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -17,6 +18,12 @@ $welcome-image--dimensions: 600px 356px;
     padding-bottom: 177px;
     background: url('../img/welcome-09-bg.png');
     background-repeat: no-repeat;
+  }
+
+  &.-jld .head-img {
+    width: nth($welcome-image--dimensions-jld, 1);
+    height: nth($welcome-image--dimensions-jld, 2) - 33px - 304px;
+    background: url('../img/welcome-09-bg-jld.png');
   }
 
   &--title {

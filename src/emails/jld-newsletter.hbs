@@ -26,6 +26,9 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{> welcome jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
+        {{> new jldNewsletter=true }}
+      
+      {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> featured-news jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
@@ -39,6 +42,9 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> seo-news }}
+
+      {{> ui-layout-hack tableMiddleSeparator=true }}
+        {{> did-you-know }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> answers-leaderboard }}
@@ -56,22 +62,19 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{> tip-month jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> did-you-know }}
-
-      {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> meet-our-team }}
+        {{> meet-our-team jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> events-we-attended }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> pugs-tale }}
-
-      {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> jld-advertisement-02 }}
+        {{> pugs-tale jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> internet-stats }}
+
+      {{> ui-layout-hack tableMiddleSeparator=true }}
+        {{> jld-advertisement-02 }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> jurispro }}
