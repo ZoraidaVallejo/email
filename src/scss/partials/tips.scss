@@ -84,12 +84,18 @@ $tips-01-mainimage--dimensions: image-dimensions('/src/img/tips-main-image-01.pn
       padding-bottom: 15px;
     }
 
+    td {
+      vertical-align: top;
+    }
+
     table {
+
       td:first-child {
         width: 5%;
       }
 
       .first-row {
+
         td {
           padding-bottom: 18px;
         }
@@ -133,7 +139,7 @@ $tips-01-mainimage--dimensions: image-dimensions('/src/img/tips-main-image-01.pn
     border-collapse: collapse;
 
     > tr > td {
-      padding: 0 65px;
+      padding: 0 140px;
       text-align: center !important;
     }
 

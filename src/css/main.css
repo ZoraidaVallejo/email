@@ -311,6 +311,10 @@ body {
   padding-bottom: 15px;
 }
 
+.tips .block-8 td {
+  vertical-align: top;
+}
+
 .tips .block-8 table td:first-child {
   width: 5%;
 }
@@ -356,7 +360,7 @@ body {
 }
 
 .tips .new-red-button > tr > td {
-  padding: 0 65px;
+  padding: 0 140px;
   text-align: center !important;
 }
 
