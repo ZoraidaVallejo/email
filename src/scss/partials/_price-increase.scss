@@ -3,7 +3,7 @@
 // T E M P L A T E   1
 // ----------------------------------------------------------------------------------------------------------
 
-$price-increase-background--dimensions: image-dimensions('/src/img/price-increase-background-01.gif');
+$price-increase-background--dimensions: image-dimensions('/src/img/price-increase-background-01.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
     width: nth($price-increase-background--dimensions, 1);
     height: nth($price-increase-background--dimensions, 2);
     padding: 0;
-    background: url('../img/price-increase-background-01.gif');
+    background: url('../img/price-increase-background-01.png');
     background-color: #233a77;
     background-repeat: no-repeat !important;
     background-size: $price-increase-background--dimensions;
@@ -44,45 +44,7 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
   }
 
   .block-1 {
-    padding: 148px 85px 0;
-    // text-align: left;
-
-    p {
-      // text-align: left;
-      font-size: 24px !important;
-      font-weight: bold !important;
-      text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
-      line-height: 1.2 !important;
-    }
-
-    a {
-      color: #ffffff !important;
-    }
-  }
-
-  .block-2 {
-    padding: 28px 92px 32px;
-    font-weight: bold !important;
-
-    td {
-      padding: 16px 0;
-      font-size: 18px !important;
-    }
-
-    span {
-      font-weight: bold !important;
-    }
-
-    .ui-real-text-button {
-      width: 370px;
-      height: 47px;
-      border-radius: 3px;
-      background-color: #df1f23;
-    }
-  }
-
-  .block-3 {
-    padding: 358px 30px 0;
+    padding: 0 30px;
 
     p {
       color: #000000;
@@ -91,10 +53,14 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
     }
   }
 
-  .block-4 {
+  .block-2 {
     padding: 20px $padding 20px;
     background-color: plt('white');
     text-align: left;
+
+    p {
+      font-size: 16px !important;
+    }
 
     tr {
       display: block;
@@ -136,7 +102,7 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
     }
   }
 
-  .block-5 {
+  .block-3 {
     padding: 14px 92px 32px;
     font-weight: bold !important;
 
@@ -177,7 +143,7 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
     }
   }
 
-  .block-7 {
+  .block-5 {
     padding: 0 $padding 34px;
 
     p {
@@ -186,7 +152,7 @@ $price-increase-background--dimensions: image-dimensions('/src/img/price-increas
     }
   }
 
-  .block-8 {
+  .block-6 {
     padding: 22px $padding 20px;
     border-top: 1px solid #dddddd;
     background-color: #f4f4f4;

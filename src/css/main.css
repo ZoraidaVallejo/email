@@ -248,7 +248,7 @@ body {
   width: 600px;
   height: 705px;
   padding: 0;
-  background: url("../img/price-increase-background-01.gif");
+  background: url("../img/price-increase-background-01.png");
   background-color: #233a77;
   background-repeat: no-repeat !important;
   background-size: 600px 705px;
@@ -271,76 +271,44 @@ body {
 }
 
 .price-increase .block-1 {
-  padding: 148px 85px 0;
+  padding: 0 30px;
 }
 
 .price-increase .block-1 p {
-  font-size: 24px !important;
-  font-weight: bold !important;
-  text-shadow: 4px 4px 2px black;
-  line-height: 1.2 !important;
-}
-
-.price-increase .block-1 a {
-  color: #ffffff !important;
-}
-
-.price-increase .block-2 {
-  padding: 28px 92px 32px;
-  font-weight: bold !important;
-}
-
-.price-increase .block-2 td {
-  padding: 16px 0;
-  font-size: 18px !important;
-}
-
-.price-increase .block-2 span {
-  font-weight: bold !important;
-}
-
-.price-increase .block-2 .ui-real-text-button {
-  width: 370px;
-  height: 47px;
-  border-radius: 3px;
-  background-color: #df1f23;
-}
-
-.price-increase .block-3 {
-  padding: 358px 30px 0;
-}
-
-.price-increase .block-3 p {
   color: #000000;
   font-size: 16px !important;
   text-align: left;
 }
 
-.price-increase .block-4 {
+.price-increase .block-2 {
   padding: 20px 30px 20px;
   background-color: #ffffff;
   text-align: left;
 }
 
-.price-increase .block-4 tr {
+.price-increase .block-2 p {
+  font-size: 16px !important;
+}
+
+.price-increase .block-2 tr {
   display: block;
   margin-bottom: 22px;
 }
 
-.price-increase .block-4 tr:last-child {
+.price-increase .block-2 tr:last-child {
   margin-bottom: 0;
 }
 
-.price-increase .block-4 .star-icon {
+.price-increase .block-2 .star-icon {
   padding-top: 5px !important;
   vertical-align: top;
 }
 
-.price-increase .block-4 .list-text {
+.price-increase .block-2 .list-text {
   vertical-align: top;
 }
 
-.price-increase .block-4 img {
+.price-increase .block-2 img {
   display: inline-block;
   width: 16.1538461538px;
   height: 16.1538461538px;
@@ -348,38 +316,38 @@ body {
   vertical-align: top;
 }
 
-.price-increase .block-4 p {
+.price-increase .block-2 p {
   color: #000000;
   text-align: left;
   font-size: 16px !important;
   line-height: 18px;
 }
 
-.price-increase .block-4 p strong {
+.price-increase .block-2 p strong {
   color: #000000;
 }
 
-.price-increase .block-5 {
+.price-increase .block-3 {
   padding: 14px 92px 32px;
   font-weight: bold !important;
 }
 
-.price-increase .block-5 td {
+.price-increase .block-3 td {
   padding: 16px 0;
   font-size: 18px !important;
   text-align: center;
   color: #ffffff;
 }
 
-.price-increase .block-5 a {
+.price-increase .block-3 a {
   color: #ffffff;
 }
 
-.price-increase .block-5 span {
+.price-increase .block-3 span {
   font-weight: bold !important;
 }
 
-.price-increase .block-5 .ui-real-text-button {
+.price-increase .block-3 .ui-real-text-button {
   width: 370px;
   height: 47px;
   border-radius: 3px;
@@ -394,28 +362,28 @@ body {
   color: #09347a !important;
 }
 
-.price-increase .block-7 {
+.price-increase .block-5 {
   padding: 0 30px 34px;
 }
 
-.price-increase .block-7 p {
+.price-increase .block-5 p {
   font-size: 14px !important;
   font-style: italic !important;
 }
 
-.price-increase .block-8 {
+.price-increase .block-6 {
   padding: 22px 30px 20px;
   border-top: 1px solid #dddddd;
   background-color: #f4f4f4;
   text-align: left;
 }
 
-.price-increase .block-8 p {
+.price-increase .block-6 p {
   font-size: 14px !important;
   text-align: left;
 }
 
-.price-increase .block-8 p a {
+.price-increase .block-6 p a {
   color: #000000;
   font-weight: bold;
 }
