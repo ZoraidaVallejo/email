@@ -418,6 +418,106 @@ body {
   font-size: 14px;
 }
 
+.price-increase-reminder .description {
+  overflow: hidden;
+  width: 600px;
+  max-width: 600px !important;
+  border-collapse: collapse !important;
+}
+
+.price-increase-reminder .dvbg {
+  width: 600px;
+  height: 400px;
+  padding: 0 !important;
+  background: url("../img/price-increase-reminder-background-01.png");
+  background-color: #083f83;
+  background-repeat: no-repeat !important;
+  background-size: 600px 400px;
+  vertical-align: top;
+}
+
+.price-increase-reminder .dvbg .image {
+  width: 600px;
+  height: 400px;
+}
+
+.price-increase-reminder .inner-content {
+  width: 600px;
+}
+
+.price-increase-reminder .inner-content p,
+.price-increase-reminder .inner-content a,
+.price-increase-reminder .inner-content strong {
+  color: #000000;
+}
+
+.price-increase-reminder .inner-content td {
+  width: 100%;
+  text-align: center;
+}
+
+.price-increase-reminder .inner-content .image {
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.price-increase-reminder .title {
+  padding: 33px 30px;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.price-increase-reminder .title a {
+  text-decoration: none;
+}
+
+.price-increase-reminder .title strong {
+  color: #06357a;
+}
+
+.price-increase-reminder .btn {
+  padding: 0 105px;
+}
+
+.price-increase-reminder .btn .ui-real-text-button {
+  width: 390px;
+  height: 47px;
+}
+
+.price-increase-reminder .btn .ui-real-text-button a {
+  padding: 14px 0;
+}
+
+.price-increase-reminder .btn .ui-real-text-button .wrapper {
+  font-size: 18px;
+}
+
+.price-increase-reminder .contactus {
+  padding-top: 35px;
+}
+
+.price-increase-reminder .contactus .phone a {
+  color: #06357a !important;
+}
+
+.price-increase-reminder .disclaimer {
+  padding-top: 2px;
+  padding-bottom: 37px;
+  font-size: 14px;
+}
+
+.price-increase-reminder .footer {
+  padding: 25px 30px 33px;
+  border-top: 1px solid #dddddd;
+  background-color: #f4f4f4;
+}
+
+.price-increase-reminder .footer p {
+  font-size: 14px !important;
+  text-align: left;
+  line-height: 1.7 !important;
+}
+
 .align-center {
   text-align: center;
 }
