@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "Instagram Will Promote Mid-Term Voting With Stickers, Registration Info",
+      "link": "https://techcrunch.com/2018/09/18/instagram-vote/",
+      "description": "Instagram plans to encourage its users to take a more active role in the political process by running ads in Stories aimed at US users who are of voting age. These ads will point them toward information about registering to vote and various voting rules and regulations. On election day this coming November, users will then be able to add “I Voted” stickers to their Instagram photos and videos with an embedded link directing others to additional relevant voting information. The aim appears to be increasing voter turnout, particularly among Millennials who make up the core of Instagram’s user audience. The video ads seem to purposefully trend nonpartisan, with no use of imagery relating to any major political party."
+    },
+    {
+      "title": "Facebook Accused of Allowing Bias Against Women in Job Ads",
+      "link": "https://www.nytimes.com/2018/09/18/business/economy/facebook-job-ads.html",
+      "description": "A group of job seekers has accused Facebook of aiding employers in their exclusion of female candidates from job recruiting campaigns on its social network. These job seekers, along with the Communications Workers of America and the American Civil Liberties Union, recently filed charges with the federal EEOC (Equal Employment Opportunity Commission) against Facebook and nine employers. Federal law prohibits employers and employment agencies such as recruitment firms from discriminating based on a prospective employee’s gender and other protected categories. The job seekers claim Facebook violated this law by allowing employers to target men within a specific age range, while excluding women who might be equally qualified for the positions."
+    },
+    {
+      "title": "Twitter is Bringing Back the Chronological Timeline",
+      "link": "https://techcrunch.com/2018/09/17/twitter-chronological-timeline/",
+      "description": "Twitter users have voiced dissatisfaction about changes to the social network’s timeline over the past three years. Such changes have all but removed the ability for users to view their timeline chronologically. In a recent announcement, Twitter’s Support account indicated the intention of allowing users to opt back into viewing their timelines chronologically in the future. Twitter Support indicated users will begin seeing the chronological feature being tested in the coming weeks, with the goal of making it simpler for people to control their Twitter timelines in the near future."
+    },
+    {
+      "title": "Facebook Pilots New Political Campaign Security Tools -- Just 50 Days Before Election Day",
+      "link": "https://techcrunch.com/2018/09/17/facebook-pilots-new-political-campaign-security-tools-just-50-days-before-election-day/",
+      "description": "Only weeks before millions of Americans head to the polls to vote in the midterm elections, Facebook has developed a “pilot” program that includes new security-focused tools for political campaigns. The social network’s goal is to counter hackers and foreign adversaries by identifying campaigns that may be especially vulnerable to such attacks. Campaigns can enroll in the program and Facebook can then help them adopt stronger security methods. Among these tools are an option for two-factor authentication and a method by which to monitor potential hacking threats."
+    },
+    {
+      "title": "Facebook Ads Updates and New Instagram Features",
+      "link": "https://www.socialmediaexaminer.com/facebook-ads-updates-new-instagram-features/",
+      "description": "Facebook and Instagram have delivered new features during September that could benefit law firms on those platforms. In addition to newly released visual features, Instagram has also expanded its verification process to allow accounts with large followings to request verification via a form within the app. Users will soon also be able to employ third-party, two-factor authentication apps to log into their Instagram accounts. Facebook has also recently released new updates for evaluating customer engagement, additional insights into the location of ads within individual campaigns, and has additionally been testing the ability to share links within Stories, similar to how users already share via their News Feed."
+    },
+    {
+      "title": "Twitter Begins Testing Timeline Ads on Publisher Sites",
+      "link": "https://marketingland.com/twitter-begins-testing-timeline-ads-on-publisher-sites-248570",
+      "description": "Five months ago, Twitter began recruiting publishers for a test on Timeline Ads that are embedded on third-party publisher sites. The publishers who are currently alpha testing the new feature vary in size from large to small. Twitter began testing these ads as of late September. This will potentially open the door to allow publishers to generate additional revenue from any timelines they’ve embedded on their sites. The test also aims to offer a way for advertisers to generate additional ad inventory."
+    },
+    {
+      "title": "Facebook Bug Allowed Some Advertisers to Access Other Facebook Analytics App Data",
+      "link": "https://marketingland.com/facebook-bug-allowed-some-advertisers-to-access-other-facebook-analytics-app-data-248065",
+      "description": "Facebook has issued an apology after it was discovered that a code change in early August introduced a bug that allowed a handful of Facebook advertisers who had apps and a Facebook ads account to access the Facebook Analytics information of other apps. It was reported that 10 advertisers viewed the analytics data of 21 apps over a three-week period in August before a customer reported the bug and Facebook repaired it; Facebook states that no users’ personal information was shared. The company is conducting an audit into the instances of unauthorized access to determine the extent of the analytics data that may have been improperly viewed and retained."
+    }
+  ]
+}

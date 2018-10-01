@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "title": "Answering Its Critics, Google Loosens Reins on AMP Project",
+      "link": "https://techcrunch.com/2018/09/18/answering-its-critics-google-loosens-reins-on-amp-project/",
+      "description": "Google is reportedly making changes to the governance of its Accelerated Mobile Pages (AMP) project. According to TechCrunch, the project will be led by a “technical steering committee comprised of companies invested in the success in the project.” This diversification is expected to lead to deeper support for the project from other browser developers, including Apple, Mozilla, and Microsoft, as well as the broader open source community."
+    },
+    {
+      "title": "Google is Bringing ‘WWW’ Back to Chrome URLs Following User Complaints",
+      "link": "https://www.searchenginejournal.com/google-is-bringing-www-back-to-chrome-urls-following-user-complaints/",
+      "description": "Google recently reversed course on changes to its Chrome browser. Chrome 69, released in early September, stopped displaying “m” and “www” at the beginning of URLs containing those prefixes, but it reportedly faced criticism that removing those parts of a URL could expose users to phishing threats. Search Engine Journal reports that Chrome will once again display those parts of a website’s URL."
+    },
+    {
+      "title": "Google is Testing Sitelink Image Thumbnails in Mobile Search Results",
+      "link": "https://www.searchenginejournal.com/google-is-testing-images-with-sitelinks-in-mobile-search-results/",
+      "description": "According to Search Engine Journal, a report by CNBC that takes a deep dive into Google Search indicates that Google is testing “a new format for mobile searches that would display a photo from a webpage alongside its link.” Although search snippets have already been displaying a thumbnail next to the main snippet, Google is apparently testing the use of thumbnail images adjacent to the sitelinks at the bottom of the snippet."
+    },
+    {
+      "title": "Bing’s Mobile Search Results Now Supports AMP Pages",
+      "link": "https://www.searchenginejournal.com/bings-mobile-search-results-now-supports-amp-pages/",
+      "description": "Microsoft’s recent release of the Bing AMP viewer and Bing AMP cache has enabled AMP-supported web pages to work straight from Bing’s mobile search results. Before now, that capability was limited to the iOS and Android Bing apps. This release allows users to experience fast load times typical of AMP-enabled web pages on their preferred mobile web browsers. US-based users can try out the feature on mobile devices by visiting bing.com, searching for topics, and subsequently choosing search results that display the AMP icon."
+    }
+  ]
+}
