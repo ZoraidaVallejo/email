@@ -1,28 +1,27 @@
 {
-  "featured": {
-    "dateTime": "[date / time]",
-    "typeLocation": "[type / location]",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "link": "#featured-link"
-  },
   "events": [
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link1"
+      "dateTime": "October 26 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Cybersleuth Investigative Series: How To Be Your Own Private Investigator With Pay Investigative Research Databases",
+      "link": "http://linkon.in/M102618"
+    },{
+      "dateTime": "October 26 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Cybersleuth Investigative Series: How To Be Your Own Private Investigator With Pay Investigative Research Databases",
+      "link": "http://linkon.in/M102618"
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link2"
+      "dateTime": "October 30 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Social Media as Investigative Research and Evidence",
+      "link": "http://linkon.in/M103018"
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link3"
+      "dateTime": "October 31 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "The Ethics of Social Media Research",
+      "link": "http://linkon.in/M103118"
     }
   ]
 }

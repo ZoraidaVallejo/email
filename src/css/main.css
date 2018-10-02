@@ -386,6 +386,7 @@ body {
   padding: 7px 0;
   color: #00b3e3;
   text-align: center;
+  text-decoration: none !important;
   line-height: 1;
 }
 
@@ -560,14 +561,22 @@ body {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #1b0d2e;
 }
 
 .w-welcome .head-img {
-  width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
+  width: 440px;
+  height: 183px;
+  padding: 88px 160px 85px 0;
+  background: url("../img/welcome-10-bg.png");
   background-repeat: no-repeat;
+}
+
+.w-welcome.-jld .head-img {
+  width: 570px;
+  height: 340px;
+  padding: 30px 30px 30px 0;
+  background: url("../img/welcome-10-bg-jld.png");
 }
 
 .w-welcome--title {
@@ -580,11 +589,15 @@ body {
 }
 
 .w-welcome--message {
-  padding: 20px 30px 45px;
+  padding: 15px 105px 0 30px;
 }
 
 .w-welcome--message p {
   color: #ffffff;
+}
+
+.w-welcome.-jld .w-welcome--message {
+  padding-right: 175px;
 }
 
 .w-stories-list {
@@ -968,16 +981,16 @@ body {
 }
 
 .w-text-image.w-pugs-tale .item-list .item-desc {
-  width: 300px;
+  width: 540px;
 }
 
 .w-text-image.w-pugs-tale .item-image {
-  width: 240px;
+  width: 540px;
 }
 
 .w-text-image.w-pugs-tale .item-image img {
-  width: 210px;
-  max-width: 88%;
+  width: 540px;
+  max-width: 100%;
 }
 
 .w-did-you-know {
@@ -1063,16 +1076,206 @@ body {
   padding: 0 30px 25px;
 }
 
+.w-jld-ad-01,
+.w-jld-ad-02,
 .w-client-ad-01 {
-  background-color: #c0c0c0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.w-jld-ad-01 a,
+.w-jld-ad-01 p,
+.w-jld-ad-01 strong,
+.w-jld-ad-02 a,
+.w-jld-ad-02 p,
+.w-jld-ad-02 strong,
+.w-client-ad-01 a,
+.w-client-ad-01 p,
+.w-client-ad-01 strong {
+  color: #000000;
+}
+
+.w-jld-ad-01 .ad-header,
+.w-jld-ad-02 .ad-header,
+.w-client-ad-01 .ad-header {
+  padding: 30px;
+}
+
+.w-jld-ad-01 .ad-header img,
+.w-jld-ad-02 .ad-header img,
+.w-client-ad-01 .ad-header img {
+  width: 318px;
+  max-width: 100%;
+}
+
+.w-jld-ad-01 .ad-title,
+.w-jld-ad-02 .ad-title,
+.w-client-ad-01 .ad-title {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-title .title,
+.w-jld-ad-02 .ad-title .title,
+.w-client-ad-01 .ad-title .title {
+  color: #06357a;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.w-jld-ad-01 .ad-main,
+.w-jld-ad-02 .ad-main,
+.w-client-ad-01 .ad-main {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-image,
+.w-jld-ad-02 .ad-image,
+.w-client-ad-01 .ad-image {
+  width: 507px;
+  height: 376px;
+  padding-left: 29px;
+  background: url("../img/jld-adname-image-01.png");
+  background-repeat: no-repeat;
+}
+
+.w-jld-ad-01 .ad-image img,
+.w-jld-ad-02 .ad-image img,
+.w-client-ad-01 .ad-image img {
+  width: 502px;
+  max-width: 100%;
+}
+
+.w-jld-ad-01 .ad-desc,
+.w-jld-ad-02 .ad-desc,
+.w-client-ad-01 .ad-desc {
+  padding: 30px 0 0;
+  text-align: left;
+}
+
+.w-jld-ad-01 .ad-desc p,
+.w-jld-ad-02 .ad-desc p,
+.w-client-ad-01 .ad-desc p {
+  font-size: 16px !important;
+}
+
+.w-jld-ad-01 .ad-button,
+.w-jld-ad-02 .ad-button,
+.w-client-ad-01 .ad-button {
+  padding: 0 30px 30px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button,
+.w-jld-ad-02 .ad-button .ui-real-text-button,
+.w-client-ad-01 .ad-button .ui-real-text-button {
+  float: none;
+  width: 250px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button a,
+.w-jld-ad-02 .ad-button .ui-real-text-button a,
+.w-client-ad-01 .ad-button .ui-real-text-button a {
+  padding: 14px 0;
+}
+
+.w-jld-ad-01 .ad-footer,
+.w-jld-ad-02 .ad-footer,
+.w-client-ad-01 .ad-footer {
+  padding: 0 30px 30px;
+  color: #06357a;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.w-jld-ad-01 .ad-footer a,
+.w-jld-ad-02 .ad-footer a,
+.w-client-ad-01 .ad-footer a {
+  color: #06357a;
 }
 
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  border-bottom: 1px solid #e7e8e8;
 }
 
-.w-jld-ad-02 {
-  background-color: #c0c0c0;
+.w-jld-ad-01 .ad-button {
+  padding: 0 30px 23px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button {
+  float: none;
+  width: 410px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button .wrapper {
+  font-size: 16px;
+}
+
+.w-jld-ad-01 .ad-button .ui-real-text-button a {
+  padding: 14px 10px;
+}
+
+.w-client-ad-01 {
+  border-top: 1px solid #e5e5e5;
+}
+
+.w-jld-ad-02 .ad-title .title,
+.w-client-ad-01 .ad-title .title {
+  font-size: 26px;
+}
+
+.w-jld-ad-02 .ad-main,
+.w-client-ad-01 .ad-main {
+  padding: 0;
+}
+
+.w-jld-ad-02 .ad-image,
+.w-client-ad-01 .ad-image {
+  width: 600px;
+  height: 229px;
+  padding-left: 0;
+  background: url("../img/adname-image-01.png");
+  background-repeat: repeat-x;
+}
+
+.w-jld-ad-02 .ad-image img,
+.w-client-ad-01 .ad-image img {
+  width: 368px;
+  max-width: 100%;
+}
+
+.w-jld-ad-02 .ad-desc,
+.w-jld-ad-02 .ad-button,
+.w-jld-ad-02 .ad-footer,
+.w-client-ad-01 .ad-desc,
+.w-client-ad-01 .ad-button,
+.w-client-ad-01 .ad-footer {
+  background-color: #06357a;
+  color: #ffffff;
+}
+
+.w-jld-ad-02 .ad-desc p,
+.w-jld-ad-02 .ad-desc a,
+.w-jld-ad-02 .ad-button p,
+.w-jld-ad-02 .ad-button a,
+.w-jld-ad-02 .ad-footer p,
+.w-jld-ad-02 .ad-footer a,
+.w-client-ad-01 .ad-desc p,
+.w-client-ad-01 .ad-desc a,
+.w-client-ad-01 .ad-button p,
+.w-client-ad-01 .ad-button a,
+.w-client-ad-01 .ad-footer p,
+.w-client-ad-01 .ad-footer a {
+  color: #ffffff;
+}
+
+.w-jld-ad-02 .ad-desc,
+.w-client-ad-01 .ad-desc {
+  padding: 30px;
 }
 
 .w-internet-stats {

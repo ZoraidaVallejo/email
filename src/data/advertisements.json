@@ -1,25 +1,39 @@
 {
   "clients": {
     "ad1": {
-      "image": "adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
+      "title": "Get Rated on the Justia Lawyer Directory",
+      "animation": "adname-image-01.gif",
+      "bg": "adname-image-01.png",
+      "alt": "Justia Badge in a website",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-directory-reviews-and-ratings-v1",
+      "button": "GET YOUR BADGE TODAY",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
+      "description": "Get rated on the Justia Lawyer Directory and receive a Justia Lawyer Rating badge on your profile that you can add to your website to showcase your reputation. To review an attorney, the reviewer must have a claimed profile in the Justia Lawyer Directory and be personally familiar with the attorney’s work."
     }
   },
-
   "jld": {
     "ad1": {
+      "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
+      "title": "Does Your Site Provide a<br responsive=\"mobile-hide\" /> Good User Experience?",
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "animation": "jld-adname-image-01.gif",
+      "alt": "non-AMP website vs AMP website",
+      "description": "Justia builds branded <b>AMP pages</b> that provide a <b>faster user experience</b> since they’re lightweight, optimized for mobile downloads and preloaded to a user’s mobile browser when they’re on a Google Search result page. ",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-website-marketing-generic-v10",
+      "button": "MAKE YOUR SITE MORE USER FRIENDLY TODAY",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>"
     },
     "ad2": {
-      "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
+      "title": "Get Rated on the Justia Lawyer Directory",
+      "animation": "jld-adname-image-02.gif",
+      "bg": "jld-adname-image-02.png",
+      "alt": "Justia Badge in a website",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-directory-reviews-and-ratings-v1",
+      "button": "GET YOUR BADGE TODAY",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
+      "description": "Get rated on the Justia Lawyer Directory and receive a Justia Lawyer Rating badge on your profile that you can add to your website to showcase your reputation. To review an attorney, the reviewer must have a claimed profile in the Justia Lawyer Directory and be personally familiar with the attorney’s work."
     }
   }
 }

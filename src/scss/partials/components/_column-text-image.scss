@@ -5,7 +5,7 @@
 
 $meet-team-image--width: 210px;
 $inside-justia-image--width: 210px;
-$pugs-image--width: 210px;
+$pugs-image--width: 540px;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -138,16 +138,16 @@ $pugs-image--width: 210px;
     .item-list {
 
       .item-desc {
-        width: ($inner-max-width - $pugs-image--width - $padding);
+        width: $inner-max-width;
       }
     }
 
     .item-image {
-      width: ($pugs-image--width + $padding);
+      width: $pugs-image--width;
 
       img {
         width: $pugs-image--width;
-        max-width: ceil(percentage($pugs-image--width / ($pugs-image--width + $padding)));
+        max-width: 100%;
       }
     }
   }
