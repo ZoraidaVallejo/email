@@ -10,21 +10,21 @@
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Adams & Luka",
+      "location": "Orlando",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.myfloridafamilyattorney.com/",
+        "simple": "myfloridafamilyattorney.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Steven M. Sweat, APC",
+      "location": "Los Angeles",
+      "possessiveAdjective": "his",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.elaborlaw.com/",
+        "simple": "elaborlaw.com"
       }
     }
   ]

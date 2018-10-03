@@ -36,11 +36,17 @@
   {{#if jldNewsletter }}
     {{#each tipMonth.jld.description }}
       <tr>
-        <!-- tip-desc {{#if @last }}tip-desc--last{{/if}} -->
-        <td class="tip-desc {{#if @last }}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <!-- tip-desc -->
+        <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
           <p>{{{ this }}}</p>
         </td>
       </tr>
     {{/each}}
+
+    <tr>
+      <td class="tip-desc tip-desc--last -white" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonLink=tipMonth.jld.button.link buttonText=tipMonth.jld.button.text }}
+      </td>
+    </tr>
   {{/if}}
 </table>

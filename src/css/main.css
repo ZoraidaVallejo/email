@@ -577,6 +577,7 @@ body {
   height: 340px;
   padding: 30px 30px 30px 0;
   background: url("../img/welcome-10-bg-jld.png");
+  background-size: cover;
 }
 
 .w-welcome--title {
@@ -689,6 +690,19 @@ body {
 .w-stories-list.w-legal-industry-news .story-item a,
 .w-stories-list.w-legal-industry-news .widget-main-title {
   color: #3fd4ad;
+}
+
+.w-stories-list.w-new {
+  background-color: #fafafa;
+}
+
+.w-stories-list.w-new .widget-main-title {
+  color: #06357a;
+  font-weight: 700;
+}
+
+.w-stories-list.w-new a {
+  color: #06357a;
 }
 
 .w-stories-list.w-jurispro sup {

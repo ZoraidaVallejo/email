@@ -119,6 +119,19 @@ $tech-news-image--width: 150px;
     }
   }
 
+  &.w-new {
+    background-color: plt('alabaster');
+
+    .widget-main-title {
+      color: plt('justia-blue');
+      font-weight: tp('weight', 'bold');
+    }
+
+    a {
+      color: plt('justia-blue');
+    }
+  }
+
   &.w-jurispro {
 
     sup {

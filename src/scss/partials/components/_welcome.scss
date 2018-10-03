@@ -24,6 +24,7 @@ $welcome-image-jld--dimensions: 600px 400px;
     height: nth($welcome-image-jld--dimensions, 2) - $padding - $padding;
     padding: $padding $padding $padding 0;
     background: url('../img/welcome-10-bg-jld.png');
+    background-size: cover;
   }
 
   &--title {
