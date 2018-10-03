@@ -12,6 +12,7 @@
   padding: 7px 0;
   color: #00b3e3;
   text-align: center;
+  text-decoration: none !important;
   line-height: 1;
 }
 
@@ -398,7 +399,7 @@ body {
 
 .website-marketing .-navigation .image {
   width: 412.307692308px;
-  height: 80px;
+  height: 76.1538461538px;
 }
 
 .website-marketing .btn {
