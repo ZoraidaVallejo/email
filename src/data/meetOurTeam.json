@@ -1,14 +1,9 @@
 {
   "blocks": [
     {
-      "title": "[title]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
+      "title": "Justia Online Day",
+      "description": "For the fifth year in a row, we held Justia Online Day which is a cycle of presentations conducted by our teammates on various subjects related to web technologies, hosted at a university. With the theme \"Mining the Web\", the presentations covered a variety of online-related topics such as Web Scraping, Geolocation, Voice Search, and Image Optimization among others. Just like every year, the students and teachers enjoyed the presentations and took advantage of the opportunity to exchange ideas with our group of experienced engineers.",
       "image": "meet-our-team-01.jpg"
-    },
-    {
-      "title": "[title]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptates accusantium dolorum quis tempora molestiae velit assumenda quos aspernatur praesentium itaque veritatis ea, tempore ipsam rerum harum? Alias, corporis quod?",
-      "image": "meet-our-team-02.jpg"
     }
   ]
 }

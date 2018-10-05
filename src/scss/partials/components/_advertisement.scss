@@ -53,9 +53,106 @@
   }
 }
 
-.w-jld-ad-01,
-.w-jld-ad-02,
 .w-client-ad-01 {
+  border-top: 1px solid plt('mercury');
+  background-color: #ffffff;
+  color: plt('black');
+
+  a,
+  p,
+  strong {
+    color: plt('black');
+  }
+
+  .ad-header {
+    padding: $padding;
+
+    img {
+      width: 318px;
+      max-width: 100%;
+    }
+  }
+
+  .ad-title {
+    padding: 0 $padding $padding;
+
+    .title {
+      color: plt('justia-blue');
+      font-size: 26px;
+      line-height: 1.1;
+    }
+  }
+
+  .ad-main {
+    padding: 0;
+  }
+
+  .ad-image {
+    width: 600px;
+    height: 229px;
+    background: url('../img/adname-bg-01.png');
+    background-repeat: repeat-x;
+
+    img {
+      width: 368px;
+      max-width: 100%;
+    }
+  }
+
+  .ad-desc {
+    padding: $padding;
+    text-align: left;
+    
+    p {
+      font-size: 16px !important;
+    }
+  }
+
+  $button-ad-01-settings: (
+    'width': 250px,
+    'height': 44px,
+    'font-size': 16px
+  );
+  $button-ad-01-padding: floor((map-get($button-ad-01-settings, 'height') - map-get($button-ad-01-settings, 'font-size')) / 2);
+
+  .ad-button {
+    padding: 0 $padding $padding;
+
+    .ui-real-text-button {
+      float: none;
+      width: map-get($button-ad-01-settings, 'width');
+      height: map-get($button-ad-01-settings, 'height');
+      margin: 0 auto;
+
+      a {
+        padding: $button-ad-01-padding 0;
+      }
+    }
+  }
+
+  .ad-footer {
+    padding: 0 $padding $padding;
+    font-size: 18px;
+    font-weight: tp('weight', 'bold');
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .ad-desc,
+  .ad-button,
+  .ad-footer {
+    background-color: plt('justia-blue');
+    color: plt('white');
+
+    p,
+    a {
+      color: plt('white');
+    }
+  }
+}
+
+.w-jld-ad-01,
+.w-jld-ad-02 {
   background-color: #ffffff;
   color: plt('black');
 
@@ -86,19 +183,6 @@
 
   .ad-main {
     padding: 0 $padding $padding;
-  }
-
-  .ad-image {
-    width: 507px;
-    height: 376px;
-    padding-left: 29px;
-    background: url('../img/jld-adname-image-01.png');
-    background-repeat: no-repeat;
-
-    img {
-      width: 502px;
-      max-width: 100%;
-    }
   }
 
   .ad-desc {
@@ -147,17 +231,75 @@
 }
 
 .w-jld-ad-01 {
-  border-bottom: 1px solid plt('mail', 'black-haze');
+  $button-ad-01-settings: (
+    'width': 212px,
+    'height': 44px,
+    'font-size': 16px
+  );
+  $button-ad-01-padding: floor((map-get($button-ad-01-settings, 'height') - map-get($button-ad-01-settings, 'font-size')) / 2);
+  background-color: #3b37a0;
 
+  .ad-image {
+    width: 600px;
+    height: auto;
+    padding: 0;
+    background: url('../img/jld-adname-bg-01.png');
+    background-repeat: no-repeat;
+
+    img {
+      width: 600px;
+      max-width: 100%;
+    }
+  }
+
+  .ad-main,
+  .ad-footer {
+    color: plt('white');
+
+    a,
+    p {
+      color: plt('white');
+    }
+  }
+
+  .ad-button {
+    padding: 0 $padding 23px;
+
+    .ui-real-text-button {
+      float: none;
+      width: map-get($button-ad-01-settings, 'width');
+      height: map-get($button-ad-01-settings, 'height');
+      border-color: plt('yellow-sun');
+      margin: 0 auto;
+      background-color: plt('yellow-sun');
+
+      .wrapper {
+        color: #3b37a0;
+        font-size: map-get($button-ad-01-settings, 'font-size');
+      }
+
+      a {
+        padding: $button-ad-01-padding 10px;
+        color: #3b37a0;
+      }
+
+      span {
+        font-weight: tp('weight', 'bold');
+      }
+    }
+  }
+}
+
+.w-jld-ad-02 {
   $button-ad-02-settings: (
-    'width': 410px,
+    'width': 360px,
     'height': 44px,
     'font-size': 16px
   );
   $button-ad-02-padding: floor((map-get($button-ad-02-settings, 'height') - map-get($button-ad-02-settings, 'font-size')) / 2);
 
   .ad-button {
-    padding: 0 $padding 23px;
+    padding: 0 $padding 18px;
 
     .ui-real-text-button {
       float: none;
@@ -172,21 +314,28 @@
       a {
         padding: $button-ad-02-padding 10px;
       }
+
+      span {
+        font-weight: tp('weight', 'bold');
+      }
     }
   }
-}
 
-.w-client-ad-01 {
-  border-top: 1px solid plt('mercury');
-}
+  .ad-image {
+    width: 600px;
+    padding: 0;
+    background: none;
 
-.w-jld-ad-02,
-.w-client-ad-01 {
+    img {
+      width: 600px;
+    }
+  }
 
   .ad-title {
+    padding-bottom: 0;
 
     .title {
-      font-size: 26px;
+      font-size: 30px;
     }
   }
 
@@ -194,32 +343,11 @@
     padding: 0;
   }
 
-  .ad-image {
-    width: 600px;
-    height: 229px;
-    padding-left: 0;
-    background: url('../img/adname-image-01.png');
-    background-repeat: repeat-x;
-
-    img {
-      width: 368px;
-      max-width: 100%;
-    }
-  }
-
-  .ad-desc,
-  .ad-button,
-  .ad-footer {
-    background-color: plt('justia-blue');
-    color: plt('white');
-
-    p,
-    a {
-      color: plt('white');
-    }
-  }
-
   .ad-desc {
-    padding: $padding;
+    padding: 5px $padding 16px;
+    
+    strong {
+      color: plt('justia-blue');
+    }
   }
 }

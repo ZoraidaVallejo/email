@@ -3,7 +3,7 @@
 // C O L U M N   T E X T - I M A G E
 // ----------------------------------------------------------------------------------------------------------
 
-$meet-team-image--width: 210px;
+$meet-team-image--width: 600px;
 $inside-justia-image--width: 210px;
 $pugs-image--width: 540px;
 
@@ -96,20 +96,22 @@ $pugs-image--width: 540px;
 
 
   &.w-meet-our-team {
+    border-top: 1px solid plt('mercury');
 
     .item-list {
 
       .item-desc {
-        width: ($inner-max-width - $meet-team-image--width - $padding);
+        width: $inner-max-width;
       }
     }
 
     .item-image {
-      width: ($meet-team-image--width + $padding);
+      width: $meet-team-image--width;
+      padding-top: $padding !important;
 
       img {
         width: $meet-team-image--width;
-        max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+        max-width: 100%;
       }
     }
   }
@@ -144,6 +146,7 @@ $pugs-image--width: 540px;
 
     .item-image {
       width: $pugs-image--width;
+      padding-top: $padding !important;
 
       img {
         width: $pugs-image--width;

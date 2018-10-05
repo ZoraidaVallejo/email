@@ -6,7 +6,7 @@
       "animation": "adname-image-01.gif",
       "bg": "adname-image-01.png",
       "alt": "Justia Badge in a website",
-      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-directory-reviews-and-ratings-v1",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_campaign=2018-10&utm_source=client-newsletter&utm_content=banner-directory-reviews-and-ratings-v1",
       "button": "GET YOUR BADGE TODAY",
       "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
       "description": "Get rated on the Justia Lawyer Directory and receive a Justia Lawyer Rating badge on your profile that you can add to your website to showcase your reputation. To review an attorney, the reviewer must have a claimed profile in the Justia Lawyer Directory and be personally familiar with the attorney’s work."
@@ -15,25 +15,22 @@
   "jld": {
     "ad1": {
       "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
-      "title": "Does Your Site Provide a<br responsive=\"mobile-hide\" /> Good User Experience?",
-      "image": "jld-adname-image-01.png",
-      "animation": "jld-adname-image-01.gif",
-      "alt": "non-AMP website vs AMP website",
-      "description": "Justia builds branded <b>AMP pages</b> that provide a <b>faster user experience</b> since they’re lightweight, optimized for mobile downloads and preloaded to a user’s mobile browser when they’re on a Google Search result page. ",
-      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-website-marketing-generic-v10",
-      "button": "MAKE YOUR SITE MORE USER FRIENDLY TODAY",
-      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>"
+      "animation": "jld-adname-animation-01.gif",
+      "alt": "Get a Spooktacular New Website",
+      "description": "Thinking about getting a new website? Let Justia create the best concoction for your site. All Justia websites are built to be responsive and secure, are AMP enabled, and are search engine optimized.<br/>No tricks, just treats.",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_campaign=2018-10&utm_source=directory-newsletter&utm_content=banner-website-marketing-generic-v11",
+      "button": "GET STARTED TODAY",
+      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us at (888) 587-8421</a>"
     },
     "ad2": {
       "logo": "http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png",
-      "title": "Get Rated on the Justia Lawyer Directory",
-      "animation": "jld-adname-image-02.gif",
-      "bg": "jld-adname-image-02.png",
-      "alt": "Justia Badge in a website",
+      "title": "Take Advantage of What<br responsive=\"mobile-hide\" />Premium Placements Have to Offer",
+      "animation": "jld-adname-animation-02.gif",
+      "alt": "Higher Placement - Premium Profile - Traffic Stats",
       "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2018-09&utm_source=directory-newsletter&utm_content=banner-directory-reviews-and-ratings-v1",
-      "button": "GET YOUR BADGE TODAY",
-      "footer": "<a href=\"tel:+1-888-587-8421\">Or call us now at (888) 587-8421</a>",
-      "description": "Get rated on the Justia Lawyer Directory and receive a Justia Lawyer Rating badge on your profile that you can add to your website to showcase your reputation. To review an attorney, the reviewer must have a claimed profile in the Justia Lawyer Directory and be personally familiar with the attorney’s work."
+      "button": "CLICK TO BECOME A PREMIUM MEMBER",
+      "footer": "<a href=\"tel:+1-888-587-8421\">or call us for more information (888) 587-8421</a>",
+      "description": "<strong>Premium Placements</strong> on the Justia and Legal Information Institute Lawyer Directories have advantages. They increase your visibility with higher placement on search result pages and by removing competitors' listings from your profile page. Premium members can also view their traffic stats."
     }
   }
 }

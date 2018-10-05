@@ -33,12 +33,14 @@
               <h2 class="widget-main-title">{{{ this.title }}}</h2>
               <p>{{{ this.description }}}</p>
             </td>
+          </tr>
+          <tr>
             <!-- item-image -->
             <td class="item-image" responsive="mobile-hide collapse-one">
               {{#if this.image }}
-                <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
+              <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
               {{else}}
-                &nbsp;
+              &nbsp;
               {{/if}}
             </td>
           </tr>

@@ -25,6 +25,7 @@ $button-padding: floor((map-get($button-settings, 'height') - map-get($button-se
     padding: $button-padding 0;
     color: plt('bright-blue');
     text-align: center;
+    text-decoration: none !important;
     line-height: 1;
   }
 

@@ -1,6 +1,6 @@
 {
-  "title": "[featured article title]",
-  "link": "#",
+  "title": "Key Aspects to Consider When Choosing a Header Image for Your Law Firm Website",
+  "link": "https://onward.justia.com/2018/10/02/key-aspects-to-consider-when-choosing-a-header-image-for-your-law-firm-website/",
   "utm": {
     "medium": "?utm_medium=email",
     "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
@@ -14,22 +14,9 @@
       "button": "&utm_content=button-learn-more-1"
     }
   },
-  "description": "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi. Molestiae eaque amet, fugit excepturi praesentium culpa, quae perferendis delectus ea corporis quia hic recusandae dolore, suscipit cumque?]",
+  "description": "Your website's header is the first thing visitors see on your site and is often the most memorable component. Justia’s SEO team has compiled some tips on how to use your website header to make a positive, lasting impact on your visitors.",
   "button": {
     "text": "Learn More"
   },
-  "list": [
-    {
-      "title": "[list item 1]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 2]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 3]",
-      "link": "#"
-    }
-  ]
+  "list": []
 }
