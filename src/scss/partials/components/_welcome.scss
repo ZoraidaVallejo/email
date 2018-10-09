@@ -13,7 +13,6 @@ $welcome-image--dimensions: 600px 169px;
   .head-img {
     width: nth($welcome-image--dimensions, 1);
     height: nth($welcome-image--dimensions, 2);
-    background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
     background-repeat: no-repeat;
   }
 

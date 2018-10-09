@@ -28,22 +28,8 @@ $use-breakpoint: false;
   'ui-label-divider',
   'ui-columns-grid';
 
-@import
-  'partials/components/welcome',
-  'partials/components/stories-list',
-  'partials/components/people-list',
-  'partials/components/tip-month',
-  'partials/components/in-the-news',
-  'partials/components/column-text-image',
-  'partials/components/did-you-know',
-  'partials/components/advertisement',
-  'partials/components/internet-stats',
-  'partials/components/featured-site-month',
-  'partials/components/law-events';
+// @import
+//   'partials/components/welcome';
 
 @import
   'partials/other';
-
-@import
-  'partials/components/client-specific',
-  'partials/components/jld-specific';
