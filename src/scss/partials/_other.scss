@@ -1,0 +1,57 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// O T H E R   S T Y L E S   T H A T   M I G H T   B E   U S E F U L
+// ----------------------------------------------------------------------------------------------------------
+
+.align {
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-left {
+    text-align: left;
+  }
+}
+
+.valign {
+
+  &-top {
+    vertical-align: top;
+  }
+
+  &-middle {
+    vertical-align: middle;
+  }
+
+  &-bottom {
+    vertical-align: bottom;
+  }
+}
+
+.last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.no {
+
+  &-padding {
+
+    &-top {
+      padding-top: 0 !important;
+    }
+
+    &-bottom {
+      padding-bottom: 0 !important;
+    }
+  }
+
+  &-margin {
+    margin: 0;
+  }
+}
