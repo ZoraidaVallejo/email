@@ -32,10 +32,17 @@ $button-jobs-listing-padding: floor((map-get($button-jobs-listing-settings, 'hei
     color: plt('justia-blue');
     font: 18px/1 $sans-serif-font-family;
 
-    img {
-      @include size($jobs-location-pin-dimensions...);
-      display: inline-block;
-      margin: 0 10px -1px 0;
+    td {
+      vertical-align: top;
+    }
+
+    .pin {
+      width: 20px;
+      padding: 2px 0 0;
+
+      img {
+        @include size($jobs-location-pin-dimensions...);
+      }
     }
   }
 

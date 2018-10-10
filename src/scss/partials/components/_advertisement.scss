@@ -19,7 +19,6 @@ $button-ad-padding: floor((map-get($button-ad-settings, 'height') - map-get($but
   .ad-image {
     @include size($welcome-image--dimensions...);
     background-repeat: no-repeat;
-    text-align: center;
     text-align: left;
     vertical-align: top;
   }

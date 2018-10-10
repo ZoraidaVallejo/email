@@ -72,9 +72,9 @@ body {
 }
 
 .widget-main-title h4 {
+  margin: 0;
   color: #000000;
   font: 700 18px/1.45 Arial, sans-serif;
-  margin: 0;
 }
 
 .justia-header-v2 {
@@ -493,11 +493,18 @@ body {
   font: 18px/1 Arial, sans-serif;
 }
 
-.jobs-listing .location-title img {
+.jobs-listing .location-title td {
+  vertical-align: top;
+}
+
+.jobs-listing .location-title .pin {
+  width: 20px;
+  padding: 2px 0 0;
+}
+
+.jobs-listing .location-title .pin img {
   width: 10px;
   height: 16px;
-  display: inline-block;
-  margin: 0 10px -1px 0;
 }
 
 .jobs-listing .location-jobs tr {
@@ -543,7 +550,6 @@ body {
   width: 600px;
   height: 180px;
   background-repeat: no-repeat;
-  text-align: center;
   text-align: left;
   vertical-align: top;
 }
