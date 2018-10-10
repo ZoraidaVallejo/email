@@ -21,17 +21,17 @@ $header-logo-v2-height: 37px;
   'partials/main-container';
 
 @import
-  'justia-header-v1',
+  // 'justia-header-v1',
   'justia-header-v2',
-  'justia-footer-v1',
-  'justia-footer-v2',
+  // 'justia-footer-v1',
   'ui-button',
   'ui-real-text-button',
   'ui-label-divider',
   'ui-columns-grid';
 
-// @import
-//   'partials/components/welcome';
+@import
+  'partials/justia-footer',
+  'partials/components/welcome';
 
 @import
   'partials/other';
