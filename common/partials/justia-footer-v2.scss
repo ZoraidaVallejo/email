@@ -72,18 +72,6 @@ $footer-v2-address-weight: tp('weight', 'normal') !default;
     }
   }
 
-  .disclaimer p {
-    font: #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
-  }
-
-  .address {
-    a,
-    span {
-      font: #{$footer-v2-address-weight} #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
-    }
-  }
-
-
   .social {
     overflow: hidden;
     width: $max-width;
@@ -120,6 +108,10 @@ $footer-v2-address-weight: tp('weight', 'normal') !default;
   .disclaimer {
     padding: 0 $padding 5px;
     text-align: center;
+
+    p {
+      font: #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
+    }
   }
 
   .address {
@@ -130,6 +122,7 @@ $footer-v2-address-weight: tp('weight', 'normal') !default;
     span,
     a {
       color: plt('black');
+      font: $footer-v2-address-weight #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
     }
 
     .justia-inline {

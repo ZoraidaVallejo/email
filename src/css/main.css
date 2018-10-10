@@ -23,11 +23,12 @@ h4 {
 
 p {
   margin: 0;
-  font: 16px/1.38 Arial, sans-serif;
+  font: 16px/1.45 Arial, sans-serif;
 }
 
 a {
   color: #00b3e3;
+  text-decoration: none;
 }
 
 .set-max-width {
@@ -150,15 +151,6 @@ body {
   margin: 0 10px;
 }
 
-.justia-footer-v2 .disclaimer p {
-  font: 14px/1.38 Arial, sans-serif !important;
-}
-
-.justia-footer-v2 .address a,
-.justia-footer-v2 .address span {
-  font: 700 14px/1.38 Arial, sans-serif !important;
-}
-
 .justia-footer-v2 .social {
   overflow: hidden;
   width: 600px;
@@ -197,6 +189,10 @@ body {
   text-align: center;
 }
 
+.justia-footer-v2 .disclaimer p {
+  font: 14px/1.38 Arial, sans-serif !important;
+}
+
 .justia-footer-v2 .address {
   padding: 0 30px 120px;
   text-align: center;
@@ -206,6 +202,7 @@ body {
 .justia-footer-v2 .address span,
 .justia-footer-v2 .address a {
   color: #000000;
+  font: 700 14px/1.38 Arial, sans-serif !important;
 }
 
 .justia-footer-v2 .address .justia-inline {
@@ -443,6 +440,47 @@ body {
 
 .w-welcome--message p {
   color: #ffffff;
+}
+
+.w-content {
+  background-color: #ffffff;
+  border-bottom: 1px solid #efefef;
+}
+
+.w-content .main-content-title {
+  padding: 35px 30px 10px;
+}
+
+.w-content .main-content-title h4 {
+  font: 700 18px/1.45 Arial, sans-serif;
+  margin: 0;
+}
+
+.w-content .main-content-text {
+  padding: 0 30px 25px;
+}
+
+.w-content .main-content-text-last {
+  padding: 0 30px 35px;
+}
+
+.w-content .main-content-list {
+  padding: 0 30px;
+}
+
+.w-content .main-content-list .list-item-bullet {
+  width: 25px;
+  padding: 3px 0 25px;
+  vertical-align: top;
+}
+
+.w-content .main-content-list .list-item-bullet img {
+  width: 16px;
+  height: 16px;
+}
+
+.w-content .main-content-list .list-item-text {
+  padding: 0 0 25px;
 }
 
 .align-center {
