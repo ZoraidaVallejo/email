@@ -1,4 +1,3 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // M A I N
 // ----------------------------------------------------------------------------------------------------------
@@ -31,7 +30,9 @@ $use-breakpoint: false;
 @import
   'partials/components/welcome',
   'partials/components/content',
-  'partials/components/jobs-listing';
+  'partials/components/jobs-listing',
+  'partials/components/advertisement',
+  'partials/components/ending';
 
 @import
   'partials/other';

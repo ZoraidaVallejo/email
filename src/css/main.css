@@ -442,8 +442,8 @@ body {
 }
 
 .w-content {
-  background-color: #fafafa;
   border-bottom: 1px solid #efefef;
+  background-color: #fafafa;
 }
 
 .w-content .main-content-text {
@@ -474,6 +474,7 @@ body {
 }
 
 .w-jobs {
+  border-bottom: 1px solid #efefef;
   background-color: #ffffff;
 }
 
@@ -531,6 +532,77 @@ body {
 
 .jobs-listing .ui-real-text-button .wrapper {
   font-size: 12px;
+}
+
+.w-advertisement {
+  border-bottom: 1px solid #efefef;
+  background-color: #cde2e8;
+}
+
+.w-advertisement .ad-image {
+  width: 600px;
+  height: 180px;
+  background-repeat: no-repeat;
+  text-align: center;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-advertisement .ad-content {
+  padding: 25px 30px 15px;
+  vertical-align: top;
+}
+
+.w-advertisement .ad-content .pt-1 {
+  color: #06357a;
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
+
+.w-advertisement .ad-content .pt-2 {
+  color: #06357a;
+  font-size: 26px !important;
+  line-height: 1.2 !important;
+}
+
+.w-advertisement .ad-button {
+  padding: 0 30px;
+  vertical-align: top;
+}
+
+.w-advertisement .ui-real-text-button {
+  width: 218px;
+  height: 35px;
+  border: 1px solid #e2231a;
+  background-color: #e2231a;
+}
+
+.w-advertisement .ui-real-text-button a {
+  padding: 9px 0;
+  color: #ffffff;
+}
+
+.w-advertisement .ui-real-text-button .wrapper {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.w-ending {
+  background-color: #ffffff;
+}
+
+.w-ending .ending-text {
+  padding: 25px 30px;
+}
+
+.w-ending .ending-text a {
+  color: #000000;
+}
+
+.w-ending .ending-text p {
+  font-size: 14px !important;
+  line-height: 1.7 !important;
 }
 
 .align-center {

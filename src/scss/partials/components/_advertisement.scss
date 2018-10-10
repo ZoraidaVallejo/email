@@ -1,0 +1,66 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$button-ad-settings: (
+  'width': 218px,
+  'height': 35px,
+  'font-size': 16px
+);
+
+$button-ad-padding: floor((map-get($button-ad-settings, 'height') - map-get($button-ad-settings, 'font-size')) / 2);
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+  border-bottom: 1px solid plt('gallery');
+  background-color: #cde2e8;
+
+  .ad-image {
+    @include size($welcome-image--dimensions...);
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .ad-content {
+    padding: 25px $padding 15px;
+    vertical-align: top;
+
+    .pt-1 {
+      color: plt('justia-blue');
+      font-size: 20px !important;
+      line-height: 1 !important;
+    }
+
+    .pt-2 {
+      color: plt('justia-blue');
+      font-size: 26px !important;
+      line-height: 1.2 !important;
+    }
+  }
+
+  .ad-button {
+    padding: 0 $padding;
+    vertical-align: top;
+  }
+
+  .ui-real-text-button {
+    width: map-get($button-ad-settings, 'width');
+    height: map-get($button-ad-settings, 'height');
+    border: 1px solid plt('red');
+    background-color: plt('red');
+
+    a {
+      padding: $button-ad-padding 0;
+      color: plt('white');
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+      font-size: map-get($button-ad-settings, 'font-size');
+    }
+  }
+}

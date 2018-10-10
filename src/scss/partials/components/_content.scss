@@ -1,11 +1,10 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // C O N T E N T   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
 .w-content {
-  background-color: plt('alabaster');
   border-bottom: 1px solid plt('gallery');
+  background-color: plt('alabaster');
 
   .main-content-text {
     padding: 0 $padding 25px;
