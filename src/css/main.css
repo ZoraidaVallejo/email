@@ -95,6 +95,124 @@ body {
   margin: 0 auto;
 }
 
+.justia-footer-v2 {
+  clear: both;
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.justia-footer-v2 a {
+  text-decoration: none;
+}
+
+.justia-footer-v2 img {
+  display: block;
+  max-width: none;
+}
+
+.justia-footer-v2 .logo-footernav {
+  padding: 20px 30px;
+  border-top: 1px solid #06357a;
+  border-bottom: 1px solid #06357a;
+  background-color: #06357a;
+}
+
+.justia-footer-v2 .logo-footernav table {
+  width: 100%;
+}
+
+.justia-footer-v2 .logo-footernav .logo {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.justia-footer-v2 .logo-footernav .logo img {
+  display: block;
+  width: 111px;
+  max-width: none;
+  height: 29px;
+}
+
+.justia-footer-v2 .logo-footernav .footernav {
+  width: 75%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.justia-footer-v2 .logo-footernav .footernav span,
+.justia-footer-v2 .logo-footernav .footernav a {
+  color: #ffffff;
+  font: 14px/1.38 Arial, sans-serif !important;
+  white-space: nowrap;
+}
+
+.justia-footer-v2 .logo-footernav .footernav .vline {
+  margin: 0 10px;
+}
+
+.justia-footer-v2 .disclaimer p {
+  font: 14px/1.38 Arial, sans-serif !important;
+}
+
+.justia-footer-v2 .address a,
+.justia-footer-v2 .address span {
+  font: 700 14px/1.38 Arial, sans-serif !important;
+}
+
+.justia-footer-v2 .social {
+  overflow: hidden;
+  width: 600px;
+  padding: 20px 30px 10px;
+  text-align: center;
+}
+
+.justia-footer-v2 .social table {
+  width: 176px;
+  margin: 0 auto;
+}
+
+.justia-footer-v2 .social table td {
+  width: 36px;
+  height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.justia-footer-v2 .social table td:last-child {
+  width: 32px;
+}
+
+.justia-footer-v2 .social a {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+.justia-footer-v2 .social a img {
+  width: 32px;
+  height: 32px;
+}
+
+.justia-footer-v2 .disclaimer {
+  padding: 0 30px 5px;
+  text-align: center;
+}
+
+.justia-footer-v2 .address {
+  padding: 0 30px 120px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.justia-footer-v2 .address span,
+.justia-footer-v2 .address a {
+  color: #000000;
+}
+
+.justia-footer-v2 .address .justia-inline {
+  font: 700 14px/1.38 Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+
 .ui-button {
   display: inline-block;
 }
@@ -296,128 +414,6 @@ body {
 
 .ui-columns-grid .grid-cell {
   width: 300px;
-}
-
-.justia-footer-v2 {
-  clear: both;
-  width: 600px;
-  background-color: #ffffff;
-}
-
-.justia-footer-v2 a {
-  text-decoration: none;
-}
-
-.justia-footer-v2 img {
-  display: block;
-  max-width: none;
-}
-
-.justia-footer-v2 .logo-footernav {
-  padding: 20px 30px;
-  border-top: 1px solid #06357a;
-  border-bottom: 1px solid #06357a;
-  background-color: #06357a;
-}
-
-.justia-footer-v2 .logo-footernav table {
-  width: 100%;
-}
-
-.justia-footer-v2 .logo-footernav .logo {
-  width: 25%;
-  vertical-align: middle;
-}
-
-.justia-footer-v2 .logo-footernav .logo img {
-  display: block;
-  width: 111px;
-  max-width: none;
-  height: 29px;
-}
-
-.justia-footer-v2 .logo-footernav .footernav {
-  width: 75%;
-  text-align: right;
-  vertical-align: middle;
-}
-
-.justia-footer-v2 .logo-footernav .footernav span,
-.justia-footer-v2 .logo-footernav .footernav a {
-  color: #ffffff;
-}
-
-.justia-footer-v2 .logo-footernav .footernav .vline {
-  margin: 0 10px;
-}
-
-.justia-footer-v2 .disclaimer p,
-.justia-footer-v2 .address p,
-.justia-footer-v2 .footernav p,
-.justia-footer-v2 span,
-.justia-footer-v2 a {
-  font: 14px/1.38 Arial, sans-serif;
-  white-space: nowrap;
-}
-
-.justia-footer-v2 .address p,
-.justia-footer-v2 .address a,
-.justia-footer-v2 .address span {
-  font: 700 14px/1.38 Arial, sans-serif;
-}
-
-.justia-footer-v2 .social {
-  overflow: hidden;
-  width: 600px;
-  padding: 20px 30px 10px;
-  text-align: center;
-}
-
-.justia-footer-v2 .social table {
-  width: 176px;
-  margin: 0 auto;
-}
-
-.justia-footer-v2 .social table td {
-  width: 36px;
-  height: 32px;
-  text-align: left;
-  vertical-align: top;
-}
-
-.justia-footer-v2 .social table td:last-child {
-  width: 32px;
-}
-
-.justia-footer-v2 .social a {
-  display: inline-block !important;
-  vertical-align: middle;
-}
-
-.justia-footer-v2 .social a img {
-  width: 32px;
-  height: 32px;
-}
-
-.justia-footer-v2 .disclaimer {
-  padding: 0 30px 5px;
-  text-align: center;
-}
-
-.justia-footer-v2 .address {
-  padding: 0 30px 120px;
-  text-align: center;
-  vertical-align: top;
-}
-
-.justia-footer-v2 .address span,
-.justia-footer-v2 .address a {
-  color: #000000;
-}
-
-.justia-footer-v2 .address .justia-inline {
-  font: 700 14px/1.38 Arial, sans-serif !important;
-  text-transform: uppercase;
 }
 
 .w-welcome {

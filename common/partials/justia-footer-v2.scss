@@ -9,6 +9,13 @@ $social-icons-v2--gap: 4px !default;
 $footer-logo-v2-width: 111px !default;
 $footer-logo-v2-height: 29px !default;
 
+$footer-v2-font-size: 14px !default;
+
+$footernav-v2-bg-color: plt('white') !default;
+$footernav-v2-text-color: plt('justia-blue') !default;
+
+$footer-v2-address-weight: tp('weight', 'normal') !default;
+
 // ----------------------------------------------------------------------------------------------------------
 
 .justia-footer-v2 {
@@ -29,6 +36,7 @@ $footer-logo-v2-height: 29px !default;
     padding: 20px $padding;
     border-top: 1px solid plt('justia-blue');
     border-bottom: 1px solid plt('justia-blue');
+    background-color: $footernav-v2-bg-color;
 
     table {
       width: 100%;
@@ -53,7 +61,9 @@ $footer-logo-v2-height: 29px !default;
 
       span,
       a {
-        color: plt('justia-blue');
+        color: $footernav-v2-text-color;
+        font: #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
+        white-space: nowrap;
       }
 
       .vline {
@@ -62,13 +72,15 @@ $footer-logo-v2-height: 29px !default;
     }
   }
 
-  .disclaimer p,
-  .address p,
-  .footernav p,
-  span,
-  a {
-    font: 14px/1.38 $sans-serif-font-family !important;
-    white-space: nowrap;
+  .disclaimer p {
+    font: #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
+  }
+
+  .address {
+    a,
+    span {
+      font: #{$footer-v2-address-weight} #{$footer-v2-font-size}/1.38 $sans-serif-font-family !important;
+    }
   }
 
 

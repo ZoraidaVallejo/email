@@ -24,7 +24,19 @@ $mail-color-palette: (
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
 
+
 // T Y P O G R A P H Y
 // -------------------
 $sans-serif-font-family: Arial, sans-serif;
 $serif-font-family: TimesNewRoman, 'Times New Roman', Times, serif;
+
+
+// C U S T O M
+// -----------
+$header-logo-v2-width: 308px;
+$header-logo-v2-height: 37px;
+
+$footernav-v2-bg-color: plt('justia-blue');
+$footernav-v2-text-color: plt('white');
+
+$footer-v2-address-weight: tp('weight', 'bold');
