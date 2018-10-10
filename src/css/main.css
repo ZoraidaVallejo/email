@@ -12,7 +12,6 @@
   padding: 7px 0;
   color: #00b3e3;
   text-align: center;
-  text-decoration: none !important;
   line-height: 1;
 }
 
@@ -320,7 +319,7 @@ body {
 
 .website-marketing .title {
   padding: 11px 30px 34px;
-  font-size: 28px;
+  font-size: 28px !important;
   font-weight: 700;
 }
 
@@ -336,7 +335,7 @@ body {
 
 .website-marketing .box .description {
   padding: 17px 0;
-  font-size: 17px;
+  font-size: 17px !important;
   text-align: center;
 }
 
@@ -416,7 +415,7 @@ body {
 }
 
 .website-marketing .btn .ui-real-text-button .wrapper {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .price-increase-reminder .description {

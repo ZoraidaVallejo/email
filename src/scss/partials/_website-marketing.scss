@@ -48,7 +48,7 @@ $website-marketing-button-padding: floor((map-get($website-marketing-button-sett
 
   .title {
     padding: 11px $padding 34px;
-    font-size: 28px;
+    font-size: 28px !important;
     font-weight: tp('weight', 'bold');
   }
 
@@ -63,7 +63,7 @@ $website-marketing-button-padding: floor((map-get($website-marketing-button-sett
 
     .description {
       padding: 17px 0;
-      font-size: 17px;
+      font-size: 17px !important;
       text-align: center;
 
       strong {
@@ -142,7 +142,7 @@ $website-marketing-button-padding: floor((map-get($website-marketing-button-sett
       }
 
       .wrapper {
-        font-size: map-get($website-marketing-button-settings, 'font-size');
+        font-size: map-get($website-marketing-button-settings, 'font-size') !important;
       }
     }
   }
