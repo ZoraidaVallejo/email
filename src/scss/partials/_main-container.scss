@@ -41,14 +41,19 @@ body {
 
 .widget {
 
-  &-type-name {
-    padding: 0 0 5px;
-    color: plt('mail', 'sirocco');
-    font: tp('weight', 'bold') 14px/1.1 $sans-serif-font-family;
-  }
+  // &-type-name {
+  //   padding: 0 0 5px;
+  //   color: plt('mail', 'sirocco');
+  //   font: tp('weight', 'bold') 14px/1.1 $sans-serif-font-family;
+  // }
 
   &-main-title {
-    color: plt('black');
-    font: tp('weight', 'normal') 29px/1.27 $sans-serif-font-family;
+    padding: 35px $padding 10px;
+
+    h4 {
+      color: plt('black');
+      font: tp('weight', 'bold') 18px/1.45 $sans-serif-font-family;
+      margin: 0;
+    }
   }
 }

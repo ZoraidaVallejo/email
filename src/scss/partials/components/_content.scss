@@ -4,17 +4,8 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-content {
-  background-color: plt('white');
+  background-color: plt('alabaster');
   border-bottom: 1px solid plt('gallery');
-
-  .main-content-title {
-    padding: 35px $padding 10px;
-
-    h4 {
-      font: tp('weight', 'bold') 18px/1.45 $sans-serif-font-family;
-      margin: 0;
-    }
-  }
 
   .main-content-text {
     padding: 0 $padding 25px;

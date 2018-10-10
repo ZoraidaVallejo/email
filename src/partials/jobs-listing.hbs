@@ -1,0 +1,62 @@
+
+<!-- CONTENT -->
+
+<!-- w-jobs -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-jobs set-max-width">
+  <tr>
+    <!-- widget-main-title -->
+    <td class="widget-main-title">
+      <h4>Latest Opportunities</h4>
+    </td>
+  </tr>
+  <tr>
+    <!-- jobs-general-desc -->
+    <td class="jobs-general-desc">
+      <p>The latest and best jobs for you this month:</p>
+    </td>
+  </tr>
+  {{#forEach jobsListing.places }}
+    <tr>
+      <!-- jobs-listing -->
+      <td class="jobs-listing">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- location-title -->
+            <td class="location-title">
+              <img src="https://justatic.com/emails/images/legal-jobs-newsletters/common/jobs-location-01.png" alt="Location Pin">
+              <strong>{{{ this.area }}}</strong>
+            </td>
+          </tr>
+          {{#forEach this.jobs }}
+            <tr>
+              <!-- location-jobs -->
+              <td class="location-jobs">
+                <table align="center" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <!-- job-info -->
+                    <td class="job-info">
+                      <!-- job-title -->
+                      <a href="#" class="job-title">
+                        <span>{{{ this.title }}}</span>
+                      </a>
+                      <br/>
+                      <!-- company -->
+                      <a href="#" class="company">
+                        <span>{{{ this.company }}}</span>
+                      </a>
+                    </td>
+                    <!-- job-details-btn -->
+                    <td class="job-details-btn">
+                      {{> ui-real-text-button buttonLink=this.link buttonText="VIEW DETAILS" }}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          {{/forEach}}
+        </table>
+      </td>
+    </tr>
+  {{/forEach}}
+</table>
