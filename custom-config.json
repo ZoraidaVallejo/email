@@ -2,7 +2,7 @@
   "version": 2,
   "conversionType": "newsletter",
   "port": 4000,
-  "justaticVersion": "1",
+  "justaticVersion": "2",
   "currentYear": "2018",
   "currentMonth": "10",
 
@@ -12,8 +12,8 @@
     "dist": "dist",
     "distImg": "dist/img",
     "preview": "preview",
-    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>",
-    "remoteImgPath": "/mnt/files/emails/images/legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>"
+    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>/blast",
+    "remoteImgPath": "/mnt/files/emails/images/legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>/blast"
   },
 
   "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
