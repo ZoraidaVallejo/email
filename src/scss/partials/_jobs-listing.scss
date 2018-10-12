@@ -25,7 +25,7 @@ $button-jobs-listing-padding: floor((map-get($button-jobs-listing-settings, 'hei
 
     strong {
       color: plt('justia-blue');
-      font-size: 18px;
+      font-size: 18px !important;
     }
 
     img {
@@ -47,7 +47,7 @@ $button-jobs-listing-padding: floor((map-get($button-jobs-listing-settings, 'hei
     width: $inner-max-width - map-get($button-jobs-listing-settings, 'width') - 10px;
     padding-top: $padding;
     padding-bottom: $padding;
-    font-size: 16px;
+    font-size: 16px !important;
 
     .job-title {
       color: plt('justia-blue');
@@ -60,18 +60,18 @@ $button-jobs-listing-padding: floor((map-get($button-jobs-listing-settings, 'hei
 
   .job-details-btn {
     width: map-get($button-jobs-listing-settings, 'width') + 10px;
-  }
 
-  .ui-real-text-button {
-    width: map-get($button-jobs-listing-settings, 'width');
-    height: map-get($button-jobs-listing-settings, 'height');
-  
-    a {
-      padding: $button-jobs-listing-padding 0;
-    }
-  
-    .wrapper {
-      font-size: map-get($button-jobs-listing-settings, 'font-size');
+    .ui-real-text-button {
+      width: map-get($button-jobs-listing-settings, 'width');
+      height: map-get($button-jobs-listing-settings, 'height');
+    
+      a {
+        padding: $button-jobs-listing-padding 0;
+      }
+    
+      .wrapper {
+        font-size: map-get($button-jobs-listing-settings, 'font-size') !important;
+      }
     }
   }
 }

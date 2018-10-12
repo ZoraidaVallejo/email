@@ -68,7 +68,7 @@ $button-jobs-padding: floor((map-get($button-jobs-settings, 'height') - map-get(
     
     strong {
       color: plt('justia-blue');
-      font-size: 20px;
+      font-size: 20px !important;
     }
   }
 
@@ -82,7 +82,7 @@ $button-jobs-padding: floor((map-get($button-jobs-settings, 'height') - map-get(
     text-align: center;
   }
 
-  .ui-real-text-button {
+  .-large .ui-real-text-button {
     float: none;
     width: map-get($button-jobs-settings, 'width');
     height: map-get($button-jobs-settings, 'height');
@@ -94,7 +94,7 @@ $button-jobs-padding: floor((map-get($button-jobs-settings, 'height') - map-get(
     }
   
     .wrapper {
-      font-size: map-get($button-jobs-settings, 'font-size');
+      font-size: map-get($button-jobs-settings, 'font-size') !important;
     }
   }
 

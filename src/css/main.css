@@ -339,7 +339,7 @@ body {
 
 .jobs .title strong {
   color: #06357a;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .jobs .examples-text {
@@ -352,7 +352,7 @@ body {
   text-align: center;
 }
 
-.jobs .ui-real-text-button {
+.jobs .-large .ui-real-text-button {
   float: none;
   width: 190px;
   height: 47px;
@@ -360,12 +360,12 @@ body {
   margin-left: auto;
 }
 
-.jobs .ui-real-text-button a {
+.jobs .-large .ui-real-text-button a {
   padding: 14px 0;
 }
 
-.jobs .ui-real-text-button .wrapper {
-  font-size: 18px;
+.jobs .-large .ui-real-text-button .wrapper {
+  font-size: 18px !important;
 }
 
 .jobs .contactus {
@@ -404,7 +404,7 @@ body {
 
 .jobs-listing .location-title strong {
   color: #06357a;
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .jobs-listing .location-title img {
@@ -422,7 +422,7 @@ body {
   width: 421px;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .jobs-listing .job-info .job-title {
@@ -437,17 +437,17 @@ body {
   width: 119px;
 }
 
-.jobs-listing .ui-real-text-button {
+.jobs-listing .job-details-btn .ui-real-text-button {
   width: 109px;
   height: 35px;
 }
 
-.jobs-listing .ui-real-text-button a {
+.jobs-listing .job-details-btn .ui-real-text-button a {
   padding: 11px 0;
 }
 
-.jobs-listing .ui-real-text-button .wrapper {
-  font-size: 12px;
+.jobs-listing .job-details-btn .ui-real-text-button .wrapper {
+  font-size: 12px !important;
 }
 
 .align-center {
