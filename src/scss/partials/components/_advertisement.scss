@@ -29,14 +29,12 @@ $button-ad-padding: floor((map-get($button-ad-settings, 'height') - map-get($but
 
     .pt-1 {
       color: plt('justia-blue');
-      font-size: 20px !important;
-      line-height: 1 !important;
+      font: 20px/1 $sans-serif-font-family;
     }
 
     .pt-2 {
       color: plt('justia-blue');
-      font-size: 26px !important;
-      line-height: 1.2 !important;
+      font: 26px/1.2 $sans-serif-font-family;
     }
   }
 

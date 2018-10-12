@@ -6,16 +6,19 @@
     <tr>
         <!-- ad-image -->
         {{> ui-background classes="ad-image" image="jobs-premium-01.png" bgColor="#cde2e8" dimensions="width:600px; height:180px;" bgStart=true content=true }}
-          <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="set-max-width">
             <tr>
               <!-- ad-content -->
-              <td class="ad-content">
+              <td class="ad-content" responsive="mobile-padding-horizontal-sides">
+                <!-- pt-1 -->
                 <p class="pt-1">Lawyers: Want to view your traffic stats?</p>
-                <p class="pt-2"><strong>Become a Premium&nbsp;<br>Member Now!</strong></p>
+                <!-- pt-2 -->
+                <p class="pt-2" responsive="mobile-fz-20"><strong>Become a Premium&nbsp;<br>Member Now!</strong></p>
               </td>
             </tr>
             <tr>
-                <td class="ad-button">
+              <!-- ad-button -->
+                <td class="ad-button" responsive="mobile-padding-horizontal-sides">
                     {{> ui-real-text-button buttonLink=this.link buttonText="Click Here For More Info" }}
                 </td>
             </tr>

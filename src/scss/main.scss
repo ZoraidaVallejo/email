@@ -19,9 +19,7 @@ $use-breakpoint: false;
 
 @import
   // 'justia-header-v1',
-  'justia-header-v2',
-  // 'justia-footer-v1',
-  'justia-footer-v2',
+  'justia-header-v3',
   'ui-button',
   'ui-real-text-button',
   'ui-label-divider',
@@ -33,6 +31,10 @@ $use-breakpoint: false;
   'partials/components/jobs-listing',
   'partials/components/advertisement',
   'partials/components/ending';
+
+@import
+  // 'justia-footer-v1',
+  'justia-footer-v3';
 
 @import
   'partials/other';
