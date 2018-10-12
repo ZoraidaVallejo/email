@@ -23,7 +23,24 @@
 
   "footer": {
     "logo": {
+      "v1": {
+        "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "source": {
+            "clients": "&utm_source=client-newsletter",
+            "jld": "&utm_source=directory-newsletter"
+          },
+          "medium": "?utm_medium=email",
+          "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
+          "content": "&utm_content=image-footer-logo-1"
+        }
+      },
       "v2": {
+        "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
+        "alt": "Justia"
+      },
+      "v3": {
         "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
         "alt": "Justia"
       }
