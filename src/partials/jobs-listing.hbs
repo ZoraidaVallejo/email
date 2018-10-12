@@ -7,13 +7,19 @@
   <tr>
     <!-- widget-main-title -->
     <td class="widget-main-title" responsive="mobile-padding-horizontal-sides">
-      <h4>Latest Opportunities</h4>
+      <h4>Legal jobs delivered to you!</h4>
     </td>
   </tr>
   <tr>
     <!-- jobs-general-desc -->
     <td class="jobs-general-desc" responsive="mobile-padding-horizontal-sides">
-      <p>The latest and best jobs for you this month:</p>
+      <p>The Justia Legal Jobs newsletter will feature job postings from across the U.S. for lawyers, law students, and other legal professionals. This newsletter is free for job seekers!</p>
+    </td>
+  </tr>
+  <tr>
+    <!-- jobs-general-desc -->
+    <td class="jobs-general-desc" responsive="mobile-padding-horizontal-sides">
+      <p><a href="https://eepurl.com/dJneqj" target="_blank">Subscribe</a> to receive more jobs like the ones below:</p>
     </td>
   </tr>
   {{#forEach jobsListing.places }}
@@ -45,9 +51,9 @@
                     <td class="job-info" responsive="collapse-one mobile-padding-bottom mobile-no-padding-horizontal-sides">
                       <p>
                         <!-- job-title -->
-                        <span class="job-title">{{{ this.title }}}</span><br/>
+                        <a class="job-title" href="{{ this.link }}" target="_blank">{{{ this.title }}}</a><br/>
                         <!-- company -->
-                        <span class="company">{{{ this.company }}}</span>
+                        <a class="company" href="{{ this.link }}" target="_blank">{{{ this.company }}}</a>
                       </p>
                     </td>
                     <!-- job-details-btn -->
@@ -63,4 +69,19 @@
       </td>
     </tr>
   {{/forEach}}
+  <tr>
+    <!-- jobs-general-desc -->
+    <td class="jobs-general-desc cta-button -red -large" responsive="mobile-padding-horizontal-sides">
+      {{> ui-real-text-button buttonLink="https://eepurl.com/dJneqj" buttonText="Subscribe Now" }}
+    </td>
+  </tr>
+  <tr>
+    <!-- jobs-general-desc contactus -->
+    <td class="jobs-general-desc contactus">
+      <!-- tagline -->
+      <p class="tagline">Justia Legal Jobs Team</p>
+      <!-- phone -->
+      <p class="phone"><strong><a href="tel:8885878421" target="_blank">(888) 587-8421</a></strong></p>
+    </td>
+  </tr>
 </table>

@@ -27,7 +27,7 @@ p {
 }
 
 a {
-  color: #00b3e3;
+  color: #06357a;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .justia-header-v3 .logo-img {
-  width: 308px;
+  width: 500px;
   max-width: 87%;
   margin: 0;
 }
@@ -325,49 +325,57 @@ body {
   color: #ffffff;
 }
 
-.w-content {
-  border-bottom: 1px solid #efefef;
-  background-color: #fafafa;
-}
-
-.w-content .main-content-text {
-  padding: 0 30px 25px;
-}
-
-.w-content .main-content-text-last {
-  padding: 0 30px 35px;
-}
-
-.w-content .main-content-list {
-  padding: 0 30px;
-}
-
-.w-content .main-content-list .list-item-bullet {
-  width: 25px;
-  padding: 3px 0 25px;
-  vertical-align: top;
-}
-
-.w-content .main-content-list .list-item-bullet img {
-  width: 16px;
-  height: 16px;
-}
-
-.w-content .main-content-list .list-item-text {
-  padding: 0 0 25px;
-}
-
 .w-jobs {
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #dbdbdb;
   background-color: #ffffff;
 }
 
+.w-jobs .widget-main-title {
+  padding: 35px 30px 30px;
+  text-align: center;
+}
+
+.w-jobs .widget-main-title h4 {
+  color: #06357a;
+  font: 700 20px/1.45 Arial, sans-serif;
+}
+
 .w-jobs .jobs-general-desc {
-  padding: 0 30px 35px;
+  padding: 0 30px 30px;
+}
+
+.w-jobs .cta-button {
+  padding: 6px 30px 35px;
+  text-align: center;
+}
+
+.w-jobs .cta-button.-large .ui-real-text-button {
+  float: none;
+  width: 190px;
+  height: 47px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.w-jobs .cta-button.-large .ui-real-text-button a {
+  padding: 14px 0;
+}
+
+.w-jobs .cta-button.-large .ui-real-text-button .wrapper {
+  font-size: 18px;
+}
+
+.w-jobs .contactus {
+  text-align: center;
+}
+
+.w-jobs .contactus .phone {
+  color: #06357a;
+  font: 18px/1.3 Arial, sans-serif;
 }
 
 .jobs-listing {
-  padding: 0 30px 40px;
+  padding: 0 30px 34px;
 }
 
 .jobs-listing .location-title {
@@ -426,59 +434,8 @@ body {
   font-size: 12px;
 }
 
-.w-advertisement {
-  border-bottom: 1px solid #efefef;
-  background-color: #cde2e8;
-}
-
-.w-advertisement .ad-image {
-  width: 100%;
-  height: 180px;
-  background-repeat: no-repeat;
-  text-align: left;
-  vertical-align: top;
-}
-
-.w-advertisement .ad-content {
-  padding: 25px 30px 15px;
-  vertical-align: top;
-}
-
-.w-advertisement .ad-content .pt-1 {
-  color: #06357a;
-  font: 20px/1 Arial, sans-serif;
-}
-
-.w-advertisement .ad-content .pt-2 {
-  color: #06357a;
-  font: 26px/1.2 Arial, sans-serif;
-}
-
-.w-advertisement .ad-button {
-  padding: 0 30px;
-  vertical-align: top;
-}
-
-.w-advertisement .ui-real-text-button {
-  width: 218px;
-  height: 35px;
-  border: 1px solid #e2231a;
-  background-color: #e2231a;
-}
-
-.w-advertisement .ui-real-text-button a {
-  padding: 9px 0;
-  color: #ffffff;
-}
-
-.w-advertisement .ui-real-text-button .wrapper {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-}
-
 .w-ending {
-  background-color: #ffffff;
+  background-color: #f4f4f4;
 }
 
 .w-ending .ending-text {
