@@ -272,7 +272,7 @@ body {
 }
 
 .cannabis .block-3 {
-  padding: 14px 92px;
+  padding: 14px 135px;
   font-weight: bold !important;
 }
 
@@ -304,6 +304,10 @@ body {
 }
 
 .cannabis .contactus .phone a {
+  color: #ffffff !important;
+}
+
+.cannabis .contactus .phone span {
   color: #ffffff !important;
 }
 

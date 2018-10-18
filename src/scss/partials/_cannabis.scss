@@ -46,7 +46,7 @@ $cannabis-image-01--dimensions: image-dimensions('/src/img/cannabis-main-image-0
   }
 
   .block-3 {
-    padding: 14px 92px;
+    padding: 14px 135px;
     font-weight: bold !important;
 
     td {
@@ -79,6 +79,10 @@ $cannabis-image-01--dimensions: image-dimensions('/src/img/cannabis-main-image-0
     .phone {
 
       a {
+        color: #ffffff !important;
+      }
+
+      span {
         color: #ffffff !important;
       }
     }
