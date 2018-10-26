@@ -432,49 +432,17 @@ body {
 }
 
 .w-advertisement .ad-image {
-  width: 100%;
-  height: 180px;
-  background-repeat: no-repeat;
   text-align: left;
   vertical-align: top;
 }
 
-.w-advertisement .ad-content {
-  padding: 25px 30px 15px;
-  vertical-align: top;
+.w-advertisement .ad-image a {
+  color: #cde2e8;
 }
 
-.w-advertisement .ad-content .pt-1 {
-  color: #06357a;
-  font: 20px/1 Arial, sans-serif;
-}
-
-.w-advertisement .ad-content .pt-2 {
-  color: #06357a;
-  font: 26px/1.2 Arial, sans-serif;
-}
-
-.w-advertisement .ad-button {
-  padding: 0 30px;
-  vertical-align: top;
-}
-
-.w-advertisement .ui-real-text-button {
-  width: 218px;
-  height: 35px;
-  border: 1px solid #e2231a;
-  background-color: #e2231a;
-}
-
-.w-advertisement .ui-real-text-button a {
-  padding: 9px 0;
-  color: #ffffff;
-}
-
-.w-advertisement .ui-real-text-button .wrapper {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
+.w-advertisement .ad-image img {
+  display: block;
+  width: 100%;
 }
 
 .w-ending {
