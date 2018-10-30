@@ -328,6 +328,107 @@ body {
   font-weight: bold;
 }
 
+.premium .description {
+  overflow: hidden;
+  width: 600px;
+  max-width: 600px !important;
+  background-color: #ffffff;
+  border-collapse: collapse !important;
+}
+
+.premium .block-1 {
+  padding: 0;
+  text-align: center;
+}
+
+.premium .block-1 p {
+  font: 24px/1.2 Arial, sans-serif !important;
+  text-transform: uppercase;
+}
+
+.premium .block-1 .image {
+  width: 600px;
+  height: 696px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.premium .block-2 {
+  padding: 30px 35px 0;
+  color: #000000;
+}
+
+.premium .block-2 p {
+  font: 16px/1.5 Arial, sans-serif !important;
+}
+
+.premium .block-3 {
+  padding: 0 35px 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.premium .block-3 p {
+  font: 16px/1.5 Arial, sans-serif !important;
+}
+
+.premium .block-4 {
+  padding: 14px 136px;
+  font-weight: bold !important;
+}
+
+.premium .block-4 td {
+  padding: 14px 0;
+  color: #000000;
+  font-size: 18px !important;
+  text-align: center;
+}
+
+.premium .block-4 a {
+  color: #ffffff;
+}
+
+.premium .block-4 span {
+  font-weight: bold !important;
+}
+
+.premium .block-4 .ui-real-text-button {
+  width: 320px;
+  height: 47px;
+  border-radius: 3px;
+  background-color: #e2231a;
+}
+
+.premium .contactus {
+  padding: 15px 30px 32px;
+  color: #000000;
+}
+
+.premium .contactus .phone a {
+  color: #09347a !important;
+}
+
+.premium .contactus .phone span {
+  color: #09347a !important;
+}
+
+.premium .block-6 {
+  padding: 22px 30px 20px;
+  border-top: 1px solid #dddddd;
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.premium .block-6 p {
+  font-size: 14px !important;
+  text-align: left;
+}
+
+.premium .block-6 p a {
+  color: #000000;
+  font-weight: bold;
+}
+
 .align-center {
   text-align: center;
 }
