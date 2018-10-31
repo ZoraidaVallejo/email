@@ -1,0 +1,22 @@
+{
+  "title": "Justia Lawyer Directory Now Features Filtered Searches",
+  "link": "https://onward.justia.com/2018/10/19/justia-lawyer-directory-now-features-filtered-searches/",
+  "utm": {
+    "medium": "?utm_medium=email",
+    "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
+    "source": {
+      "clients": "&utm_source=client-newsletter",
+      "jld": "&utm_source=directory-newsletter"
+    },
+    "content": {
+      "title": "&utm_content=text-onward-post-title-1",
+      "image": "&utm_content=image-onward-post-1",
+      "button": "&utm_content=button-learn-more-1"
+    }
+  },
+  "description": "In our ongoing quest to make the Justia Lawyer Directory as useful as possible, we recently added filtering options so visitors can search for lawyers by rating, languages spoken, years of experience and other handy choices. We encourage you to make your profile as complete as possible, and if you haven't already, ask other lawyers familiar with your work to give you a review.",
+  "button": {
+    "text": "Learn More"
+  },
+  "list": []
+}

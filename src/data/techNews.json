@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "title": "Trump Signs The Music Modernization Act, The Biggest Change to Copyright Law in Decades",
+      "link": "https://www.vox.com/culture/2018/10/11/17965690/music-modernization-act-copyright-law-licensing-streaming",
+      "description": "President Trump recently signed the Music Modernization Act, one of the largest overhauls of copyright law in decades.The law received unanimous bipartisan support in the House and Senate, and addresses the issue of music licensing in the age of streaming media. Among other things, the law streamlines the process by which music rights holders can be paid for their songs being played on streaming services."
+    },
+    {
+      "title": "Facebook Bans Hundreds of Clickbait Farms for ‘Coordinated Inauthentic Behavior’",
+      "link": "https://techcrunch.com/2018/10/12/facebook-bans-hundreds-of-clickbait-farms-for-coordinated-inauthentic-behavior/",
+      "description": "In early October, Facebook announced that it had removed 810 pages and accounts from its platform for having “consistently broken our rules against spam and coordinated inauthentic behavior.” Coordinated inauthentic behavior refers to the practice of improving the rankings of spam content on Facebook by deceiving the algorithm about the popularity of such content. Using fake or multiple accounts, spammers would create a network of Facebook pages with posts to the clickbait content, and then create fake likes and shares to further boost the popularity signal of such content."
+    },
+    {
+      "title": "Google Plus Will Be Shut Down After User Information Exposed",
+      "link": "https://www.nytimes.com/2018/10/08/technology/google-plus-security-disclosure.html",
+      "description": "Google is shutting down its social networking endeavor, Google Plus, after discovering a security vulnerability that exposed the private data of up to 500,000 of its users. The search giant controversially opted not to tell its users about the security issue when it was discovered in March."
+    },
+    {
+      "title": "FCC Tells Court It Has No “Legal Authority” to Impose Net Neutrality Rules",
+      "link": "https://arstechnica.com/tech-policy/2018/10/ajit-pais-fcc-tells-court-that-net-neutrality-rules-were-illegal/",
+      "description": "In the lawsuit by over 20 state attorneys general, consumer advocacy groups, and tech companies over the FCC’s repeal of net neutrality laws, the FCC filed a brief arguing that broadband is not a \"telecommunications service\" as defined by federal law, but an information service instead. As an information service, broadband cannot be subject to common carrier regulations such as net neutrality rules, the brief argues."
+    },
+    {
+      "title": "Fed to Judge: We Still Think We Can Put GPS Trackers on Cars Entering US",
+      "link": "https://arstechnica.com/tech-policy/2018/10/feds-to-judge-we-still-think-we-can-put-gps-trackers-on-cars-entering-us/",
+      "description": "A high-ranking Homeland Security Investigations official submitted a brief to a federal court arguing that law enforcement officers can legally install a GPS tracking device on cars entering the United States \"without a warrant or individualized suspicion\" for up to 48 hours, notwithstanding a federal judge’s ruling in another case that such a practice was unconstitutional."
+    },
+    {
+      "title": "New York Attorney General Expands Inquiry Into Net Neutrality Comments",
+      "link": "https://www.nytimes.com/2018/10/16/technology/net-neutrality-inquiry-comments.html",
+      "description": "The New York attorney general requested subpoenas of a handful of telecommunications trade groups, lobbying contractors, and advocacy organizations, as part of its widening investigation into the millions of fraudulent public comments on the FCC’s repeal of net neutrality. Over 22 million public comments submitted on the FCC’s website were provided using temporary or duplicate email addresses, or saying the same phrases over and over again."
+    },
+    {
+      "title": "California Agrees to Pause Net Neutrality Rules Amid Messy Legal Battle",
+      "link": "https://www.sfchronicle.com/business/article/California-agrees-to-pause-net-neutrality-rules-13339707.php",
+      "description": "The US Department of Justice and several internet service provider trade associations sued California for enacting a state law that effectively implemented net neutrality rules similar to (but more stringent than) those the FCC repealed. California has agreed not to enforce its new net neutrality rules while the litigation over the federal government rollback of the rules is ongoing."
+    }
+  ]
+}
+
+
+
+
