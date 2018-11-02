@@ -2,24 +2,25 @@
   "clients": {
     "ad1": {
       "image": "adname-image-01.png",
-      "alt": "[alt text]",
+      "alt": "Justia is Giving Thanks for Your Kind Referrals!",
       "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "description": ["Rest assured that any attorney you refer to Justia will receive excellent service. To show our appreciation, we'll give you a <b>$200 credit</b> and your friend a <b>$100 discount</b> on their set-up fees if they purchase a website or blog from us within 60 days of the referral.", "Call Us Now <a href=\"tel:+1-888-587-8421\"><b>(888) 587-8421</b></a>"]
     }
   },
 
   "jld": {
     "ad1": {
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "Let Justia Create a Website You Can Be Thankful For",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-11&utm_content=banner-website-marketing-generic-v12",
+      "description": ["Justia websites are built to be responsive, AMP-enabled, search-engine optimized, and more. Let Justia create a new website for you.", "or call us for more information <a href=\"tel:+1-888-587-8421\" responsive=\"collapse-one\"><b>(888) 587-8421</b></a>"]
     },
     "ad2": {
       "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "alt": "",
+      "title": "<span>Be Thankful For </span><br responsive=\"mobile-hide\">Premium Membership",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-11&utm_content=banner-premium-memberships-v15",
+      "description": ["Justia's premium membership comes with premium placements which gives you increased visibility on the directory, a contact form on your profile, and access to statistics.", "or call us for more information<br><a href=\"tel:+1-888-587-8421\"><b>(888) 587-8421</b></a>"]
     }
   }
 }

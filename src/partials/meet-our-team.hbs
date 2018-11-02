@@ -31,15 +31,21 @@
 
               <!-- widget-main-title -->
               <h2 class="widget-main-title">{{{ this.title }}}</h2>
-              <p>{{{ this.description }}}</p>
             </td>
+          </tr>
+          <tr>
             <!-- item-image -->
-            <td class="item-image" responsive="mobile-hide collapse-one">
+            <td class="item-image" responsive="mobile-padding-vertical-sides collapse-one">
               {{#if this.image }}
                 <img src="{{ ../default.imageDirSrc }}/{{ this.image }}" alt="{{ this.title }}" border="0" />
               {{else}}
                 &nbsp;
               {{/if}}
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>{{{ this.description }}}</p>
             </td>
           </tr>
         </table>

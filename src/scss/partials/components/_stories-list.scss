@@ -139,4 +139,11 @@ $tech-news-image--width: 150px;
       }
     }
   }
+
+  &.w-featured-news {
+
+    .main-story-desc {
+      padding-bottom: 15px;
+    }
+  }
 }

@@ -3,7 +3,7 @@
 // C O L U M N   T E X T - I M A G E
 // ----------------------------------------------------------------------------------------------------------
 
-$meet-team-image--width: 210px;
+$meet-team-image--width: 550px;
 $inside-justia-image--width: 210px;
 $pugs-image--width: 210px;
 
@@ -102,14 +102,15 @@ $pugs-image--width: 210px;
       .item-desc {
         width: ($inner-max-width - $meet-team-image--width - $padding);
       }
-    }
 
-    .item-image {
-      width: ($meet-team-image--width + $padding);
+      .item-image {
+        width: ($meet-team-image--width + $padding);
+        padding: 10px 0 20px;
 
-      img {
-        width: $meet-team-image--width;
-        max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+        img {
+          width: $meet-team-image--width;
+          // max-width: ceil(percentage($meet-team-image--width / ($meet-team-image--width + $padding)));
+        }
       }
     }
   }

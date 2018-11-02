@@ -13,13 +13,22 @@
   </tr>
 
   {{#if advertisements.jld.ad1.description }}
-    {{#each advertisements.jld.ad1.description }}
-      <tr>
-        <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-        <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
-        </td>
-      </tr>
-    {{/each}}
+    <tr>
+      <!-- ad-desc ad-desc--first -->
+      <td class="ad-desc ad-desc--first" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+        <p>{{{ advertisements.jld.ad1.description.[0] }}}</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="ad-desc ad-desc--button" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonText='Get Started Today' responsiveClasses='mobile-align-center mobile-no-float' buttonLink=advertisements.jld.ad1.link }}
+      </td>
+    </tr>
+    <tr>
+      <!-- ad-desc ad-desc--last -->
+      <td class="ad-desc ad-desc--last" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+        <p>{{{ advertisements.jld.ad1.description.[1] }}}</p>
+      </td>
+    </tr>
   {{/if}}
 </table>

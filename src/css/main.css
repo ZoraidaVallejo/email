@@ -561,14 +561,25 @@ body {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #1b0d2e;
 }
 
 .w-welcome .head-img {
-  width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
+  width: 440px;
+  height: 183px;
+  padding: 110px 25px 62px 0;
+  background: url("../img/welcome-11-bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w-welcome.-jld .head-img {
+  width: 570px;
+  height: 340px;
+  padding: 80px 30px 30px 0;
+  background: url("../img/welcome-11-bg-jld.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .w-welcome--title {
@@ -581,11 +592,15 @@ body {
 }
 
 .w-welcome--message {
-  padding: 20px 30px 45px;
+  padding: 15px 0 0 30px;
 }
 
 .w-welcome--message p {
   color: #ffffff;
+}
+
+.w-welcome.-jld .w-welcome--message {
+  padding-right: 25px;
 }
 
 .w-stories-list {
@@ -692,6 +707,10 @@ body {
 
 .w-stories-list.w-jurispro .story-desc p {
   font: 20px/1.38 Arial, sans-serif;
+}
+
+.w-stories-list.w-featured-news .main-story-desc {
+  padding-bottom: 15px;
 }
 
 .w-people-list {
@@ -810,6 +829,31 @@ body {
 
 .w-tip-month .tip-desc--last {
   padding: 0 30px 45px;
+}
+
+.w-tip-month .button-tip-month .ui-real-text-button {
+  border-color: #ffffff;
+}
+
+.w-tip-month .button-tip-month a {
+  color: #ffffff;
+}
+
+.w-tip-month .button-tip-month a span {
+  color: #ffffff;
+}
+
+.w-tip-month .ui-real-text-button {
+  width: 200px;
+  height: 30px;
+}
+
+.w-tip-month .ui-real-text-button a {
+  padding: 7px 0;
+}
+
+.w-tip-month .ui-real-text-button .wrapper {
+  font-size: 16px;
 }
 
 .w-in-the-news {
@@ -943,16 +987,16 @@ body {
 }
 
 .w-text-image.w-meet-our-team .item-list .item-desc {
-  width: 300px;
+  width: -40px;
 }
 
-.w-text-image.w-meet-our-team .item-image {
-  width: 240px;
+.w-text-image.w-meet-our-team .item-list .item-image {
+  width: 580px;
+  padding: 10px 0 20px;
 }
 
-.w-text-image.w-meet-our-team .item-image img {
-  width: 210px;
-  max-width: 88%;
+.w-text-image.w-meet-our-team .item-list .item-image img {
+  width: 550px;
 }
 
 .w-text-image.w-inside-justia .item-list .item-desc {
@@ -995,6 +1039,18 @@ body {
 
 .w-did-you-know .dyk-desc--last {
   padding: 0 30px 45px;
+}
+
+.w-did-you-know .button-did-you-know .ui-real-text-button {
+  border-color: #ffffff;
+}
+
+.w-did-you-know .button-did-you-know a {
+  color: #ffffff;
+}
+
+.w-did-you-know .button-did-you-know a span {
+  color: #ffffff;
 }
 
 .w-did-you-know .widget-type-name,
@@ -1043,17 +1099,26 @@ body {
   display: block;
 }
 
+.w-advertisement .justia-logo-image {
+  padding-top: 30px;
+}
+
+.w-advertisement .justia-logo-image img {
+  width: 320px;
+  max-width: 80%;
+}
+
 .w-advertisement .ad-desc {
   padding: 0 30px 12px;
   text-align: center;
 }
 
 .w-advertisement .ad-desc p {
-  font: 14px/1.38 Arial, sans-serif;
+  font: 16px/1.38 Arial, sans-serif;
 }
 
 .w-advertisement .ad-desc--first {
-  padding: 25px 30px 12px;
+  padding: 35px 30px 12px;
 }
 
 .w-advertisement .ad-desc--first p {
@@ -1061,19 +1126,126 @@ body {
 }
 
 .w-advertisement .ad-desc--last {
-  padding: 0 30px 25px;
+  padding: 0 30px 35px;
 }
 
 .w-client-ad-01 {
-  background-color: #c0c0c0;
+  background-color: #ff6b00;
+}
+
+.w-client-ad-01 .ad-desc {
+  text-align: left;
 }
 
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  background-color: #000000;
+}
+
+.w-jld-ad-01 .ad-desc--button {
+  padding: 0 177.5px 12px;
+}
+
+.w-jld-ad-01 .ui-real-text-button {
+  width: 245px;
+  height: 50px;
+  border: 1px solid #b22900;
+  background-color: #b22900;
+}
+
+.w-jld-ad-01 .ui-real-text-button a {
+  padding: 17px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.w-jld-ad-01 .ui-real-text-button a b {
+  color: #ffffff;
+}
+
+.w-jld-ad-01 .ui-real-text-button .wrapper {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .w-jld-ad-02 {
-  background-color: #c0c0c0;
+  background-color: #b22b26;
+}
+
+.w-jld-ad-02 .turkey-img {
+  width: 270px;
+  height: 311px;
+}
+
+.w-jld-ad-02 .ad-desc--button {
+  padding: 68px 30px 12px;
+}
+
+.w-jld-ad-02 .ad-desc--first {
+  padding: 0 20px 90px 30px;
+  color: #000000;
+  text-align: left;
+}
+
+.w-jld-ad-02 .ad-desc--first p {
+  color: #000000;
+}
+
+.w-jld-ad-02 .ad-desc--last {
+  padding: 8px 30px 12px;
+}
+
+.w-jld-ad-02 p {
+  color: #feedc6;
+}
+
+.w-jld-ad-02 p a {
+  color: #feedc6;
+}
+
+.w-jld-ad-02 p a b {
+  color: #feedc6;
+}
+
+.w-jld-ad-02 .w-jld-ad-02-title {
+  padding: 28px 30px;
+}
+
+.w-jld-ad-02 .w-jld-ad-02-title p {
+  color: #b22b26;
+  font: 36px/1.05 Arial, sans-serif;
+  font-weight: bold;
+}
+
+.w-jld-ad-02 .ad-desc--button {
+  padding: 0 0 12px 30px;
+}
+
+.w-jld-ad-02 .ui-real-text-button {
+  width: 310px;
+  height: 38px;
+  border: 1px solid #ffd200;
+  background-color: #ffd200;
+}
+
+.w-jld-ad-02 .ui-real-text-button a {
+  padding: 12px 0;
+  color: #511f06;
+  text-transform: uppercase;
+}
+
+.w-jld-ad-02 .ui-real-text-button .wrapper {
+  color: #511f06;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.w-jld-ad-02 .w-jld-ad-02-img {
+  width: 600px;
+  height: 548px;
+  background: url("../img/jld-adname-image-02.png");
+  background-repeat: no-repeat;
+  vertical-align: top;
 }
 
 .w-internet-stats {
@@ -1283,6 +1455,11 @@ body {
 
 .w-law-events .button {
   padding: 18px 0 40px;
+}
+
+.w-law-events .event-1 .inner-text,
+.w-law-events .event-6 .inner-text {
+  height: 108px;
 }
 
 .align-center {
