@@ -2,9 +2,9 @@
   "version": 2,
   "conversionType": "newsletter",
   "port": 4000,
-  "justaticVersion": "2",
+  "justaticVersion": "1",
   "currentYear": "2018",
-  "currentMonth": "10",
+  "currentMonth": "11",
 
   "paths": {
     "src": "src",
@@ -16,5 +16,5 @@
     "remoteImgPath": "/mnt/files/emails/images/legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>"
   },
 
-  "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
+  "compressedFileName": "legal-jobs-<%= currentYear %>-<%= currentMonth %>"
 }
