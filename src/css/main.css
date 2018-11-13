@@ -341,7 +341,7 @@ body {
   vertical-align: top;
 }
 
-.premium-placements .description .image {
+.premium-placements .description .animation .image {
   width: 600px;
   height: 281px;
   margin: 0 auto;
@@ -402,8 +402,66 @@ body {
   line-height: 1.714285714 !important;
 }
 
-.premium-placements .footer a {
-  color: #000000;
+.premium-placements .footer a,
+.premium-placements .footer strong,
+.premium-placements .footer p {
+  color: #000000 !important;
+}
+
+.premium-placements.premium-placements-02 p,
+.premium-placements.premium-placements-02 strong,
+.premium-placements.premium-placements-02 a {
+  color: #ffffff;
+}
+
+.premium-placements.premium-placements-02 .description {
+  background-color: #3f3a35;
+}
+
+.premium-placements.premium-placements-02 .title {
+  padding-bottom: 25px;
+}
+
+.premium-placements.premium-placements-02 .main-image {
+  width: 600px;
+  height: 427px;
+  background: url("../img/premiumplacements-main-image-02.png");
+  background-size: 600px 373px;
+}
+
+.premium-placements.premium-placements-02 .main-image .title {
+  padding-top: 60px;
+  text-shadow: 0 0 8.2px rgba(63, 58, 53, 0.48);
+}
+
+.premium-placements.premium-placements-02 .main-image .title strong {
+  color: #e0b649;
+}
+
+.premium-placements.premium-placements-02 .main-image .title a {
+  color: #e0b649;
+}
+
+.premium-placements.premium-placements-02 .animation {
+  height: 233px;
+  background: url("../img/premiumplacements-animation-bg-02.png");
+  background-position: center center;
+  background-size: 371px 233px;
+}
+
+.premium-placements.premium-placements-02 .animation .image {
+  width: 371px;
+  height: 233px;
+}
+
+.premium-placements.premium-placements-02 .intro-text {
+  padding-top: 40px;
+}
+
+.premium-placements.premium-placements-02 .block-4.contactus .phone,
+.premium-placements.premium-placements-02 .block-4.contactus .phone a,
+.premium-placements.premium-placements-02 .block-4.contactus .phone strong {
+  color: #ffffff !important;
 }
 
 .align-center {

@@ -4,8 +4,14 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $premiumplacements-mainimage--dimensions: image-dimensions('/src/img/premiumplacements-main-image-01.png');
+$premiumplacements-mainimage-02--dimensions: image-dimensions('/src/img/premiumplacements-main-image-02.png');
+
 $premiumplacements-animation-bg--dimensions: image-dimensions('/src/img/premiumplacements-animation-bg.png');
+$premiumplacements-animation-bg-02--dimensions: image-dimensions('/src/img/premiumplacements-animation-bg-02.png');
+
 $premiumplacements-animation--dimensions: image-dimensions('/src/img/premiumplacements-animation-01.gif');
+$premiumplacements-animation-02--dimensions: image-dimensions('/src/img/premiumplacements-animation-02.gif');
+
 $premiumplacements-button-settings: (
   'width': 380px,
   'height': 47px,
@@ -64,14 +70,14 @@ $premiumplacements-padding: floor((map-get($premiumplacements-button-settings, '
       background-position: 30px top;
       background-size: $premiumplacements-animation-bg--dimensions;
       vertical-align: top;
-    }
 
-    .image {
-      width: nth($premiumplacements-animation--dimensions, 1);
-      height: nth($premiumplacements-animation--dimensions, 2);
-      margin: 0 auto;
-      // stylelint-disable-next-line declaration-block-no-duplicate-properties
-      Margin: 0 auto;
+      .image {
+        width: nth($premiumplacements-animation--dimensions, 1);
+        height: nth($premiumplacements-animation--dimensions, 2);
+        margin: 0 auto;
+        // stylelint-disable-next-line declaration-block-no-duplicate-properties
+        Margin: 0 auto;
+      }
     }
   }
 
@@ -129,8 +135,72 @@ $premiumplacements-padding: floor((map-get($premiumplacements-button-settings, '
       line-height: 1.714285714 !important;
     }
 
-    a {
-      color: plt('black');
+    a,
+    strong,
+    p {
+      color: plt('black') !important;
     }
+  }
+}
+
+.premium-placements.premium-placements-02 {
+
+  p,
+  strong,
+  a {
+    color: plt('white');
+  }
+
+  .description {
+    background-color: #3f3a35;
+  }
+
+  .title {
+    padding-bottom: 25px;
+  }
+
+  .main-image {
+    width: nth($premiumplacements-mainimage-02--dimensions, 1);
+    height: nth($premiumplacements-mainimage-02--dimensions, 2) + 54px;
+    background: image-url('premiumplacements-main-image-02.png');
+    background-size: $premiumplacements-mainimage-02--dimensions;
+
+    .title {
+      padding-top: 60px;
+      text-shadow: 0 0 8.2px rgba(63, 58, 53, 0.48);
+
+      strong {
+        color: #e0b649;
+      }
+
+      a {
+        color: #e0b649;
+      }
+    }
+  }
+
+  .animation {
+    height: nth($premiumplacements-animation-bg-02--dimensions, 2);
+    background: image-url('premiumplacements-animation-bg-02.png');
+    background-position: center center;
+    background-size: $premiumplacements-animation-bg-02--dimensions;
+
+    .image {
+      width: nth($premiumplacements-animation-02--dimensions, 1);
+      height: nth($premiumplacements-animation-02--dimensions, 2);
+    }
+  }
+
+  .intro-text {
+    padding-top: 40px;
+  }
+
+  .block-4.contactus {
+
+    .phone,
+    .phone a,
+    .phone strong {
+      color: plt('white') !important;
+    } 
   }
 }
