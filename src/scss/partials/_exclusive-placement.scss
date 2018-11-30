@@ -1,0 +1,80 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// E X C L U S I V E   P L A C E M E N T
+// ----------------------------------------------------------------------------------------------------------
+
+$exclusive-placement-mainimage--dimensions: image-dimensions('/src/img/exclusive-placements-main-image-01.png');
+$exclusive-placement-button-settings: (
+  'width': 320px,
+  'height': 47px,
+  'font-size': 18px
+);
+
+$exclusive-placement-button-padding: floor((map-get($exclusive-placement-button-settings, 'height') - map-get($exclusive-placement-button-settings, 'font-size')) / 2);
+
+// ----------------------------------------------------------------------------------------------------------
+
+.exclusive-placement {
+
+  .description {
+    overflow: hidden;
+    width: $max-width;
+    max-width: $max-width !important;
+    background-color: #ffffff;
+    border-collapse: collapse !important;
+
+    td {
+      width: 100%;
+    }
+
+    .image {
+      width: nth($exclusive-placement-mainimage--dimensions, 1) / 1.3;
+      height: nth($exclusive-placement-mainimage--dimensions, 2) / 1.3;
+      margin: 0 auto;
+      // stylelint-disable-next-line declaration-block-no-duplicate-properties
+      Margin: 0 auto;
+    }
+  }
+
+  .text {
+    padding: 0 $padding 27px;
+    text-align: left;
+
+    a {
+      color: plt('black');
+    }
+
+    p {
+      font: 16px/1.5 $sans-serif-font-family !important;
+    }
+  }
+
+  .button {
+    padding: 0 $padding 40px;
+
+    .ui-real-text-button {
+      float: none;
+      width: map-get($exclusive-placement-button-settings, 'width');
+      height: map-get($exclusive-placement-button-settings, 'height');
+      margin: 0 auto;
+
+      a {
+        padding: $exclusive-placement-button-padding 0;
+      }
+
+      .wrapper {
+        font-size: map-get($exclusive-placement-button-settings, 'font-size');
+      }
+    }
+  }
+
+  .contactus {
+    padding-bottom: 35px;
+
+    a,
+    .phone,
+    .phone strong {
+      color: plt('justia') !important;
+    }
+  }
+}
