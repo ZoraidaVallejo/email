@@ -260,7 +260,7 @@ body {
 }
 
 .december .block-2 {
-  padding: 0 30px;
+  padding: 0 25px;
   text-align: center;
 }
 
@@ -270,8 +270,8 @@ body {
 
 .december .block-3 {
   padding: 0 30px;
-  text-align: center;
   color: #06357a;
+  text-align: center;
 }
 
 .december .block-3 p {
@@ -279,7 +279,7 @@ body {
 }
 
 .december .block-4 {
-  padding: 22px 92px 34px;
+  padding: 22px 160px 34px;
   font-weight: bold !important;
 }
 
