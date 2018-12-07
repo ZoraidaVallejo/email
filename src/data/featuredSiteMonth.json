@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "clientName": "Glover Law Firm",
+      "location": "Outer Banks, North Carolina",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.dannygloverlawfirm.com/",
+        "simple": "dannygloverlawfirm.com"
+      }
+    },
+    {
+      "clientName": "Rick Davis & Associates",
+      "location": "Bryan, Texas",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.attorneyrickdavis.com/",
+        "simple": "attorneyrickdavis.com"
+      }
+    },
+    {
+      "clientName": "Bridgewater Law Group",
+      "location": "Santa Fe Springs, California",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.bwaterlaw.com/",
+        "simple": "bwaterlaw.com"
+      }
+    }
+  ]
+}

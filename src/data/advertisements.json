@@ -1,0 +1,25 @@
+{
+  "clients": {
+    "ad1": {
+      "image": "adname-image-01.png",
+      "alt": "Taxes",
+      "link": "mailto:support@justia.com",
+      "description": ["Contact us if you wish to advance your payments or purchase additional services before the end of the year as part of your tax planning."]
+    }
+  },
+
+  "jld": {
+    "ad1": {
+      "image": "jld-adname-image-01.png",
+      "alt": "Tax",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-12&utm_content=banner-premium-memberships-v16",
+      "description": ["December is a popular time of the year to invest in marketing for tax planning purposes. Save on taxes by getting premium placements on the Justia Lawyer Directory and increase your visibility.", "or call us for more information <a href=\"tel:+1-888-587-8421\"><b>(888) 587-8421</b></a>"]
+    },
+    "ad2": {
+      "image": "jld-adname-image-02.png",
+      "alt": "Desk",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2018-12&utm_content=banner-website-marketing-generic-v13",
+      "description": ["If you’ve been thinking about getting a new website, now is the time to get one. Get the best of both worlds by getting a new website while also saving on taxes.", "or call us for more information<br><a href=\"tel:+1-888-587-8421\"><b>(888) 587-8421</b></a>"]
+    }
+  }
+}

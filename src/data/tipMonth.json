@@ -1,0 +1,13 @@
+{
+  "clients": {
+    "title": "Stay Focused on Your Legal Website - Beware of Fake Auto-generated Audits",
+    "link": "#",
+    "description": ["You may receive solicitations from third parties with recommendations for your website based on \"audits\" they have performed. Please note that many of these are generic statements with no actual examples of issues about your website. Others point at issues that do not exist, or in fact are wrong (e.g. suggesting to use schema type \"attorney\" rather than \"legal services\" when the schema type \"attorney\" has been explicitly been marked for removal on the site <a href=\"https://schema.org/\" target=\"_blank\"><span>schema.org</span></a> used by Google; see <a href=\"https://schema.org/Attorney\" target=\"_blank\"><span>https://schema.org/Attorney<span></a>). Many of them also misinterpret some of the technical aspects and report errors where there are none (e.g. their checkers cannot read the JSON-LD text). In any case, if you do have a question about a recommendation, please feel free to forward it to us for review.", "Please note that we systematically check your site and run customized audits each month to generate your SEO report. We recommend checking your Justia SEO report and following your customized recommendations which your account manager specifically provides to you to best optimize your web presence."]
+  },
+  "jld": {
+    "title": "Justia Lawyer Rating and Reviews",
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newletter&utm_campaign=2018-12&utm_content=section-tip-of-the-month-reviews-button-v1",
+    "description": ["The Justia Lawyer Directory features attorney reviews and ratings. Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!"],
+    "image": "justia-badge-01.png"
+  }
+}

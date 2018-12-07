@@ -1,0 +1,78 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T I P   O F   T H E   M O N T H   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$lawyer-directory-image--width: 150px;
+
+.w-lawyer-directory {
+  background-color: plt('justia-blue');
+
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  a {
+    color: plt('white');
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .tip {
+
+    &-title {
+      padding: 45px $padding 20px;
+    }
+
+    &-desc {
+      padding: 0 0 15px $padding;
+
+      &--last {
+        padding: 0 0 45px $padding;
+      }
+
+      a span {
+        color: plt('white') !important;
+      }
+    }
+  }
+
+  .tip-wrap {
+
+    .tip-item {
+      width: ($inner-max-width - $lawyer-directory-image--width - $padding);
+    }
+
+    .tip-image {
+      width: ($lawyer-directory-image--width + $padding);
+      padding: 0 $padding 45px 0;
+      text-align: right;
+      vertical-align: top;
+
+      img {
+        width: $lawyer-directory-image--width;
+        max-width: ceil(percentage($lawyer-directory-image--width / ($lawyer-directory-image--width + $padding)));
+      }
+    }
+  }
+
+  .ui-real-text-button {
+    border: 1px solid #ffc700;
+    background-color: #ffc700;
+
+    a {
+      color: plt('black');
+
+      span {
+        color: plt('black');
+        font-weight: normal;
+      }
+    }
+
+    .wrapper {
+      color: plt('black');
+      font-weight: tp('weight', 'normal');
+    }
+  }
+}

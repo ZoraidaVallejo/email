@@ -1,0 +1,59 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// T I P   O F   T H E   M O N T H   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$tip-jld-image--width: 150px;
+
+.w-tip-month {
+  background-color: plt('bright-green');
+
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  a {
+    color: plt('white');
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .tip {
+
+    &-title {
+      padding: 45px $padding 20px;
+    }
+
+    &-desc {
+      padding: 0 $padding 15px;
+
+      &--last {
+        padding: 0 $padding 45px;
+      }
+
+      a span {
+        color: plt('white') !important;
+      }
+    }
+  }
+
+  .tip-wrap {
+
+    .tip-item {
+      width: ($inner-max-width - $tip-jld-image--width - $padding);
+    }
+
+    .tip-image {
+      width: ($tip-jld-image--width + $padding);
+      padding: 0 $padding 45px 0;
+      text-align: right;
+      vertical-align: top;
+
+      img {
+        width: $tip-jld-image--width;
+        max-width: ceil(percentage($tip-jld-image--width / ($tip-jld-image--width + $padding)));
+      }
+    }
+  }
+}

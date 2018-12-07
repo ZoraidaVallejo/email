@@ -1,0 +1,274 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T
+// ----------------------------------------------------------------------------------------------------------
+
+$button-ad-settings: (
+  'width': 230px,
+  'height': 44px,
+  'font-size': 16px
+);
+
+$button-ad-padding: floor((map-get($button-ad-settings, 'height') - map-get($button-ad-settings, 'font-size')) / 2);
+
+$button-ad-settings-01: (
+  'width': 245px,
+  'height': 50px,
+  'font-size': 18px
+);
+
+$button-ad-padding-01: floor((map-get($button-ad-settings-01, 'height') - map-get($button-ad-settings-01, 'font-size')) / 2);
+
+$button-ad-settings-02: (
+  'width': 245px,
+  'height': 50px,
+  'font-size': 18px
+);
+
+$button-ad-padding-02: floor((map-get($button-ad-settings-02, 'height') - map-get($button-ad-settings-02, 'font-size')) / 2);
+
+.w-advertisement {
+
+  a {
+    text-decoration: none;
+  }
+
+  p,
+  a {
+    color: plt('white');
+  }
+
+  img {
+    display: block;
+    width: $max-width;
+    max-width: 100%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .ad-title {
+
+    a {
+      display: block;
+    }
+
+    p {
+      font-weight: bold;
+    }
+  }
+
+  .justia-logo-image {
+    padding-top: 30px;
+    padding-bottom: 24px;
+
+    img {
+      width: 320px;
+      max-width: 80%;
+    }
+  }
+
+  .ad-image {
+
+    a {
+      display: block;
+    }
+  }
+
+  .ad-desc {
+    padding: 0 $padding 12px;
+    text-align: center;
+
+    p {
+      font: 14px/1.38 $sans-serif-font-family;
+    }
+
+    a b {
+      color: plt('white') !important;
+    }
+
+    &--first {
+      padding: 25px $padding 12px;
+
+      p {
+        font: 16px/1.5 $sans-serif-font-family;
+      }
+    }
+
+    &--last {
+      padding: 0 $padding 25px;
+    }
+  }
+}
+
+.w-client-ad-01 {
+  background-color: #0a3777;
+
+  .justia-logo-image {
+    margin-bottom: 30px;
+  }
+
+  .ad-title {
+    padding: 32px 10px 20px;
+    background-color: #00b3e3;
+
+    p {
+      font: 48px/1 $sans-serif-font-family;
+    }
+  }
+
+  .ad-desc {
+    padding-top: 24px;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .ad-desc--button {
+    padding: 15px (($max-width / 2) - (map-get($button-ad-settings, 'width') / 2)) 30px;
+  }
+
+  .ui-real-text-button {
+    width: map-get($button-ad-settings, 'width');
+    height: map-get($button-ad-settings, 'height');
+    border: 1px solid #e2231a;
+    background-color: #e2231a;
+
+    a {
+      padding: $button-ad-padding 0;
+      color: plt('white');
+      text-transform: uppercase;
+
+      b {
+        color: plt('white');
+      }
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-size: map-get($button-ad-settings, 'font-size');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+}
+
+.w-jld-ad-01 {
+  background-color: #005293;
+
+  .ad-title {
+    padding: 24px 10px 15px;
+    background-color: #c4d9e2;
+
+    p {
+      color: #06357a;
+      font: 36px/1 $sans-serif-font-family;
+    }
+  }
+
+  .ad-desc--last {
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  .ad-desc--button {
+    padding: 15px (($max-width / 2) - (map-get($button-ad-settings-01, 'width') / 2)) 30px;
+  }
+
+  .ui-real-text-button {
+    width: map-get($button-ad-settings-01, 'width');
+    height: map-get($button-ad-settings-01, 'height');
+    border: 1px solid #e2231a;
+    background-color: #e2231a;
+
+    a {
+      padding: $button-ad-padding-01 0;
+      color: plt('white');
+      text-transform: uppercase;
+
+      b {
+        color: plt('white');
+      }
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-size: map-get($button-ad-settings-01, 'font-size');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+}
+
+.w-jld-ad-02-img {
+  background-color: #1d60ac;
+  background-position: center center;
+}
+
+.w-jld-ad-02 {
+  background-color: #1d60ac;
+
+  .w-jld-ad-02-title {
+    padding: 24px 10px 0;
+
+    p {
+      font: 26px/1 $sans-serif-font-family;
+
+      span {
+        font-weight: bold !important;
+      }
+
+      strong {
+        display: block;
+        font: 48px/1 $sans-serif-font-family;
+        font-weight: bold !important;
+      }
+    }
+  }
+
+  .ad-desc {
+
+    p {
+      font: 20px/1.2 $sans-serif-font-family;
+    }
+  }
+
+  .ad-desc--first {
+    padding: 25px 101px 12px;
+  }
+
+  .ad-desc--last {
+    padding-bottom: 90px;
+
+    p {
+      font: 16px/1.25 $sans-serif-font-family;
+    }
+  }
+
+  .ad-desc--button {
+    padding: 12px (($max-width / 2) - (map-get($button-ad-settings-02, 'width') / 2)) 18px;
+  }
+
+  .ui-real-text-button {
+    width: map-get($button-ad-settings-02, 'width');
+    height: map-get($button-ad-settings-02, 'height');
+    border: 1px solid #e2231a;
+    background-color: #e2231a;
+
+    a {
+      padding: $button-ad-padding-02 0;
+      color: plt('white');
+      text-transform: uppercase;
+
+      b {
+        color: plt('white');
+      }
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-size: map-get($button-ad-settings-02, 'font-size');
+      font-weight: tp('weight', 'bold');
+    }
+  }
+}
