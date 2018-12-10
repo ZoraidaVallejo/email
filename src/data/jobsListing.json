@@ -1,177 +1,205 @@
 {
-  "places": [
+  "places": [{
+      "area": "Chicago, IL; Indianapolis, IN; Burlington, MA; or New York, NY",
+      "jobs": [{
+        "title": "Counsel / Corporate Counsel / Senior Corporate Counsel - Commercial ",
+        "company": "Salesforce",
+        "link": "https://salesforce.wd1.myworkdayjobs.com/en-US/External_Career_Site/job/New-York---New-York/Counsel---Corporate-Counsel---Senior-Corporate-Counsel---Commercial-_JR14353"
+      }]
+    },
     {
-      "area": "Location Flexible",
-      "jobs": [
+      "area": "Los Angeles, CA; Oakland, CA; or Washington DC",
+      "jobs": [{
+        "title": "Senior Attorney / Attorney, Immigration",
+        "company": "National Center for Youth Law",
+        "link": "https://youthlaw.org/about/jobs/#Immigration"
+      }]
+    },
+    {
+      "area": "California - Los Angeles Metro Area",
+      "jobs": [{
+          "title": "DreamWorks Feature - Senior Counsel",
+          "company": "NBCUniversal",
+          "link": "https://sjobs.brassring.com/TGWEbHost/jobdetails.aspx?partnerid=25354&siteid=5108&jobid=436681"
+        },
+
         {
-          "title": "General Counsel",
-          "company": "The Good Food Institute",
-          "link": "https://www.gfi.org/jobs?gh_jid=4113386002"
+          "title": "Managing Attorney - Asian & Pacific Islander (API) Community Outreach Project",
+          "company": "Legal Aid Foundation of Los Angeles",
+          "link": "http://lafla.org/about-us/employment-and-fellowships/managing-attorney-api/"
+        },
+
+        {
+          "title": "Special Education / Early Intervention Attorney",
+          "company": "Alliance for Children’s Rights",
+          "link": "https://kids-alliance.org/wp-content/uploads/2018/08/EI-Spec-Ed-General-Attorney-job-description-8-18.pdf"
         }
       ]
     },
     {
-      "area": "Oakland, CA or Washington, DC",
-      "jobs": [
+      "area": "California - Sacramento Metro Area",
+      "jobs": [{
+          "title": "Legal Counsel",
+          "company": "Adventist Health System/West",
+          "link": "https://careers.adventisthealth.org/jobs/legal-counsel-6909"
+        },
+
         {
-          "title": "Program Manager",
-          "company": "National Employment Lawyers Association",
-          "link": "https://www.nela.org/index.cfm?pg=ProgramManager2018"
-        }
-      ]
-    },
-    {
-      "area": "California - Los Angeles",
-      "jobs": [
-        {
-          "title": "VP & Senior Counsel, Legal",
-          "company": "HBO",
-          "link": "https://careers.warnermediagroup.com/tgwebhost/jobdetails.aspx?jobid=819908&partnerid=391&siteid=36"
+          "title": "Tax Counsel III (deadline 12/18)",
+          "company": "California Department of Tax and Fee Administration",
+          "link": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=136549"
         }
       ]
     },
     {
       "area": "California - San Francisco Bay Area",
-      "jobs": [
-        {
-          "title": "Associate Counsel, Supercharger and Real Estate",
+      "jobs": [{
+          "title": "Corporate Counsel, Energy Products",
           "company": "Tesla",
-          "link": "https://www.tesla.com/careers/job/associate-counselsuperchargerandrealestate-33404"
+          "link": "https://www.tesla.com/careers/job/corporate-counselenergyproducts-42490"
         },
+
         {
-          "title": "Corporate Counsel, Product and Technology",
-          "company": "Pandora",
-          "link": "https://pandora.com/careers/position?id=oet47fwC"
+          "title": "Executive Director, Stanford Law School Digital Initiative",
+          "company": "Stanford University",
+          "link": "https://careersearch.stanford.edu/jobs/executive-director-stanford-law-school-digital-initiative-4738"
         },
+
         {
-          "title": "Director, Access and Inclusion",
-          "company": "State Bar of California",
-          "link": "http://www.calbar.ca.gov/About-Us/Jobs-Opportunities/San-Francisco/Director-of-Access-and-Inclusion"
+          "title": "Legal Counsel, IP Transactions",
+          "company": "Apple",
+          "link": "https://jobs.apple.com/en-us/details/113833184/legal-counsel-ip-transactions-patent-assertions-licensing-due-diligence"
         },
+
         {
-          "title": "General Counsel and VP, Human Resources",
-          "company": "Sustainable Apparel Coalition",
-          "link": "https://apparelcoalition.org/job/general-counsel-and-vp-human-resources/"
+          "title": "Legal Director",
+          "company": "Legal Services for Children",
+          "link": "https://www.lsc-sf.org/wp-content/uploads/2018/12/Legal-Services-for-Children-Legal-Director-.pdf"
         },
+
         {
-          "title": "Legal Counsel, Marketing and Content Partnerships",
-          "company": "Twitter",
-          "link": "https://careers.twitter.com/en/work-for-twitter/201810/legal-counsel-marketing-and-content-partnerships.html"
-        }
-      ]
-    },
-    {
-      "area": "Connecticut - Bristol",
-      "jobs": [
-        {
-          "title": "Counsel ",
-          "company": "ESPN",
-          "link": "https://jobs.disneycareers.com/job/bristol/counsel/391/9614091"
+          "title": "Real Estate Counsel",
+          "company": "Facebook",
+          "link": "https://www.facebook.com/careers/jobs/304304236847460/"
         }
       ]
     },
     {
       "area": "DC - Washington",
-      "jobs": [
-        {
-          "title": "Assistant General Counsel",
-          "company": "United States Holocaust Memorial Museum",
-          "link": "https://www.ushmm.org/information/career-volunteer-opportunities/careers/assistant-general-counsel-1"
+      "jobs": [{
+          "title": "Attorney-Advisor",
+          "company": "U.S. Commission on Civil Rights (deadline 12/20)",
+          "link": "https://www.usajobs.gov/GetJob/ViewDetails/517453600"
         },
+
         {
-          "title": "Attorney Advisor (deadline November 18)",
-          "company": "Administrative Conference of the United States ",
-          "link": "https://www.acus.gov/current-opportunities"
+          "title": "Associate General Counsel",
+          "company": "The Brookings Institution",
+          "link": "https://careers-brookings.icims.com/jobs/1910/associate-general-counsel-%28job-id%3a-2018-1910%29/job"
         },
+
         {
-          "title": "Climate and Clean Energy Legal Fellow",
-          "company": "NRDC",
-          "link": "https://careers-nrdc.icims.com/jobs/4036/climate-and-clean-energy-legal-fellow/job"
+          "title": "Director, Stop Hate Project",
+          "company": "Lawyers’ Committee for Civil Rights Under Law",
+          "link": "https://lawyerscommittee.org/wp-content/uploads/2018/11/Director-of-Stop-Hate-2018-2.2.pdf"
         },
+
         {
-          "title": "Legal Content Editor",
-          "company": "American Association for Justice",
-          "link": "https://www.justice.org/careers/legal-content-editor-0"
+          "title": "Legal Counsel - Redistricting (deadline 12/21)",
+          "company": "Campaign Legal Center",
+          "link": "https://campaignlegal.org/legal-counsel-redistricting"
         },
+
         {
-          "title": "Senior Attorney",
-          "company": "Federal Reserve Board of Governors",
-          "link": "https://frbog.taleo.net/careersection/1/jobdetail.ftl?job=12001"
+          "title": "Staff Attorney",
+          "company": "U.S. Court of Appeals for the D.C. Circuit",
+          "link": "https://www.cadc.uscourts.gov/internet/home.nsf/Content/Vacancy+Announcement+-Staff+Attorney+USCA-18-08/$FILE/AnnouncementNov2018.pdf"
         }
       ]
     },
     {
       "area": "Illinois - Chicago",
-      "jobs": [
-        {
-          "title": "Assistant General Counsel - Transactional",
-          "company": "University of Chicago",
-          "link": "https://uchicago.wd5.myworkdayjobs.com/en-US/External/job/Hyde-Park-Campus/Assistant-General-Counsel---Transactional_JR03279"
+      "jobs": [{
+          "title": "Associate Counsel",
+          "company": "Regional Transportation Authority",
+          "link": "https://www.rtachicago.org/sites/default/files/careers/Posting_Associate%20Counsel_2018.pdf"
         },
+
         {
-          "title": "Staff Attorney - Military Pro Bono Coordinator ",
-          "company": "American Bar Association",
-          "link": "https://www5.recruitingcenter.net/Clients/abanet/PublicJobs/controller.cfm?jbaction=JobProfile&Job_Id=12260&esid=az"
+          "title": "General Counsel",
+          "company": "Heartland Alliance",
+          "link": "https://chu.tbe.taleo.net/chu01/ats/careers/requisition.jsp?org=HEARTLANDALLIANCE&cws=1&rid=5524"
         }
       ]
     },
     {
+      "area": "Maryland - Baltimore",
+      "jobs": [{
+        "title": "Associate Counsel, Employment",
+        "company": "Under Armour",
+        "link": "https://careers.underarmour.com/job/baltimore/associate-counsel-employment/7686/10019070"
+      }]
+    },
+    {
       "area": "Massachusetts - Boston Metro Area",
-      "jobs": [
-        {
-          "title": "Associate Counsel",
-          "company": "Massachusetts Health Policy Commission",
-          "link": "https://massachusettshealthpolicycommission.applytojob.com/apply/xhKCbqiXO3/Associate-Counsel"
+      "jobs": [{
+          "title": "Attorney",
+          "company": "Massachusetts Department of Agricultural Resources",
+          "link": "https://massanf.taleo.net/careersection/ex/jobdetail.ftl?job=1800078S"
         },
+
         {
-          "title": "Counsel, Advertising and Brand",
-          "company": "iRobot",
-          "link": "https://irobot.wd5.myworkdayjobs.com/en-US/iRobot/job/US-MA-Bedford/Counsel--Advertising-and-Brand_R229"
+          "title": "Title IX Specialist",
+          "company": "Harvard Law School",
+          "link": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25240&siteid=5341&jobid=1419865"
         }
       ]
     },
     {
       "area": "New York - New York City",
-      "jobs": [
-        {
-          "title": "Assistant General Counsel",
-          "company": "Rockefeller Foundation",
-          "link": "https://www.rockefellerfoundation.org/about-us/careers/assistant-general-counsel/"
+      "jobs": [{
+          "title": "Associate Attorney",
+          "company": "Earthjustice",
+          "link": "http://jobs.jobvite.com/earthjustice/job/oqBG8fwz"
         },
+
+        {
+          "title": "Associate Counsel, Crime Strategies",
+          "company": "Office of the Counsel to the Mayor",
+          "link": "https://a002-oom03.nyc.gov/IRM/Handlers/Campaign/Attachments.ashx?attachmentId=a1d74155-30f7-4662-a8b2-8aa9a19f5670"
+        },
+
         {
           "title": "Counsel",
-          "company": "Equinox",
-          "link": "https://careers.equinox.com/job/-/-/433/9761506"
+          "company": "Major League Baseball",
+          "link": "http://www.mlb.com/careers/boc/?gh_jid=1242327"
         },
+
         {
-          "title": "General Counsel & Executive VP for Legal Affairs",
-          "company": "New York City Housing Authority",
-          "link": "https://a127-jobs.nyc.gov/psc/nycjobs/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_JBPST&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=332695&PostingSeq=1"
+          "title": "Deputy Director, Housing Unit",
+          "company": "Bronx Legal Services",
+          "link": "http://www.legalservicesnyc.org/get-involved/opportunities/8-job-openings-and-internships/1386-deputy-director-housing-unit-job-1252018"
         },
+
         {
-          "title": "Legal Fellow",
-          "company": "Lincoln Center for the Performing Arts",
-          "link": "http://www.aboutlincolncenter.org/about/employment/temporary/legal-fellow"
-        },
-        {
-          "title": "VP, Television Business and Legal Affairs",
-          "company": "MGM",
-          "link": "https://recruiting.adp.com/srccar/public/nghome.guid?c=2169107&d=ExternalCareerSite&prc=RMPOD4&r=5000417152006"
+          "title": "Senior Director, International Tax",
+          "company": "Viacom",
+          "link": "https://viacomcareers-viacom.icims.com/jobs/10589/25386/job"
         }
       ]
     },
     {
       "area": "Washington - Seattle",
-      "jobs": [
-        {
-          "title": "Corporate Counsel, Amazon Business",
+      "jobs": [{
+          "title": "Associate Corporate Counsel - North America Consumer",
           "company": "Amazon",
-          "link": "https://us-amazon.icims.com/jobs/737769/corporate-counsel%2c-amazon-business/job"
+          "link": "https://us-amazon.icims.com/jobs/750174/associate-corporate-counsel---north-america-consumer/job"
         },
+
         {
-          "title": "Senior Counsel",
-          "company": "Redfin",
-          "link": "https://redfin.wd1.myworkdayjobs.com/redfin_careers/job/WA---Seattle/Senior-Corporate-Counsel_19278"
+          "title": "Chief Legal Counsel",
+          "company": "Metropolitan King County Council",
+          "link": "https://www.governmentjobs.com/careers/kingcounty/jobs/2278851/chief-legal-counsel"
         }
       ]
     }
