@@ -1,6 +1,6 @@
 {
-  "title": "[featured article title]",
-  "link": "#",
+  "title": "2018 in review",
+  "link": "https://onward.justia.com/2018/12/31/2018-in-review/",
   "utm": {
     "medium": "?utm_medium=email",
     "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
@@ -14,22 +14,8 @@
       "button": "&utm_content=button-learn-more-1"
     }
   },
-  "description": "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi. Molestiae eaque amet, fugit excepturi praesentium culpa, quae perferendis delectus ea corporis quia hic recusandae dolore, suscipit cumque?]",
+  "description": "In our annual post reflecting on the search and marketing developments of the past year and looking ahead to the anticipated changes in the coming year, we highlight some of the changes that have the greatest impact on our clients and anyone who uses the internet for marketing. Among the notable developments that we discuss are: the expansion of Accelerated Mobile Pages (AMP) beyond Google, an updated Google Search Console, the launch of Google’s Mobile First Index, continued changes to Google’s search algorithms, and more.",
   "button": {
     "text": "Learn More"
-  },
-  "list": [
-    {
-      "title": "[list item 1]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 2]",
-      "link": "#"
-    },
-    {
-      "title": "[list item 3]",
-      "link": "#"
-    }
-  ]
+  }
 }

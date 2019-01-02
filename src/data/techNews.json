@@ -1,19 +1,44 @@
 {
   "articles": [
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+      "title": "Google’s Pichai Faces Privacy and Bias Questions in Congress",
+      "link": "https://www.nytimes.com/2018/12/11/technology/google-pichai-house-committee-hearing.html",
+      "description": "In a congressional hearing before the House Judiciary Committee, Google CEO Sundar Pichai answered questions about Google’s algorithms and business practices. Specifically, Pichai fielded questions about whether the search engine’s algorithms exhibit bias based on political perspective and the extent to which Google tracks users without their consent."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+      "title": "Ajit Pai's FCC Gives Carriers the Option to Block Text Messages",
+      "link": "https://www.cnet.com/news/ajit-pais-fcc-gives-carriers-option-to-block-text-messages/",
+      "description": "The Federal Communications Commission recently voted 3–1 to reclassify SMS text messages as a “Title I information service” under the Telecom Act, which the proponents on the Commission say would allow phone companies to block spam text messages. The dissenting vote on the agency—the lone Democrat—argued that the new classification does not give consumers any greater protection against robotexts but does give carriers unfettered power to censor the content of text messages and to block certain text messages altogether."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+      "title": "Microsoft Calls on Companies to Adopt a Facial Recognition Code of Conduct",
+      "link": "https://techcrunch.com/2018/12/06/microsoft-calls-on-companies-to-adopt-a-facial-recognition-code-of-conduct/",
+      "description": "On the heels of calling upon governments to take a close look at how facial recognition technology is being used across the globe, Microsoft is now calling upon technology companies to do the same. In asking tech companies to self-regulate to prevent abuse of the technology, Microsoft President Brad Smith highlights three specific concerns: biased outcomes, invasion of privacy, and mass surveillance."
+    },
+    {
+      "title": "Was Your Phone Imaged by Border Agents? They May Still Have the Data",
+      "link": "https://arstechnica.com/tech-policy/2018/12/was-your-phone-imaged-by-border-agents-they-may-still-have-the-data/",
+      "description": "Amid widespread concerns about border agents searching travelers’ smartphones and other devices, a new report by the Department of Homeland Security’s Office of the Inspector General reveals that DHS agents often do not adequately delete data seized during these searches. The responsible office at Customs and Border Patrol has reportedly stated that it is \"developing a process…to ensure documentation of actions are input properly, to include supervisory review.\""
+    },
+    {
+      "title": "FCC Panel Wants to Tax Internet-Using Businesses and Give the Money to ISPs",
+      "link": "https://arstechnica.com/tech-policy/2018/12/fcc-panel-wants-to-tax-internet-using-businesses-and-give-the-money-to-isps/",
+      "description": "In response to lobbying by AT&T, an FCC advisory committee has proposed a new tax on Netflix, Google, Facebook, and other internet-based businesses that use subscription services and advertising-supported services. However, the article predicts that FCC Chairman Ajit Pai is unlikely to support the proposed tax, having stated previously that he opposes taxes on the internet."
+    },
+    {
+      "title": "Report: FBI Opens Criminal Investigation Into Net Neutrality Comment Fraud",
+      "link": "https://arstechnica.com/tech-policy/2018/12/fbi-investigating-identity-theft-in-net-neutrality-comments-report-says/",
+      "description": "When the FCC opened for public comment its proposed repeal of net neutrality laws, it received millions of comments that turned out to be fraudulent, submitted using stolen identities. The FBI is reportedly opening an investigation into the comment scandal, which allegedly helped obscure the fact that about 98.5 percent of unique comments written by individuals opposed the repeal of the rules."
+    },
+    {
+      "title": "Google Agrees Not to Sell Facial Recognition Tech, Citing Abuse Potential",
+      "link": "https://techcrunch.com/2018/12/14/google-agrees-not-to-sell-facial-recognition-tech-citing-abuse-potential/",
+      "description": "In a recent blog post about using artificial intelligence to benefit health clinics in Asia, Google mentioned that it will not offer “general-purpose facial recognition APIs before working through important technology and policy questions”; CEO Sundar Pichai subsequently reiterated this commitment in an interview with The Washington Post. This comes in response to growing concerns that tech companies might provide facial recognition technology to governments without fully understanding the repercussions of doing so."
+    },
+    {
+      "title": "Senators Aim to Give Internet Companies Doctor-Like Duties to Protect Our Data",
+      "link": "https://techcrunch.com/2018/12/12/senators-aim-to-give-internet-companies-doctor-like-duties-to-protect-our-data/",
+      "description": "Senator Brian Schatz (D-HI) recently proposed a bill that would impose on tech companies certain duties to their consumers, similar to the duties that doctors and lawyers have to their clients. In recognition of the fact that consumers largely have no meaningful choice in whether to provide personal data to online services and websites, the bill aims to protect consumers’ data from abuse or misuse."
     }
   ]
 }

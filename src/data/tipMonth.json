@@ -1,12 +1,20 @@
 {
   "clients": {
-    "title": "[title]",
-    "link": "#",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus expedita, ipsam sapiente distinctio at vero aliquam enim quaerat dolore reiciendis maiores porro tempora quibusdam.", "Esse libero laudantium id, sed cupiditate."]
+    "title": "Get the Google My Business Mobile App",
+    "description": [
+      "Business owners can access their Google My Business (GMB) accounts on the go using the Google My Business app for iOS and Android. Now you can easily track, manage, and edit your business information on Google. With the GMB app, you get real-time notifications about reviews, messages and updates. Additionally, you can create and publish content by using the Google Posts feature. Read Google’s documentation on the GMB app here:"
+    ],
+    "button": {
+      "link": "https://support.google.com/business/answer/4601325?hl=en",
+      "text": "Read more"
+    }
   },
   "jld": {
     "title": "[title]",
     "link": "#",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!", "Doloribus debitis corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!"]
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!",
+      "Doloribus debitis corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!"
+    ]
   }
 }

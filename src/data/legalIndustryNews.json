@@ -1,19 +1,39 @@
 {
   "articles": [
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+      "title": "Study Finds Male Partners Make an Average of 53 Percent More Than Female Partners at Top Law Firms",
+      "link": "http://www.abajournal.com/news/article/study_finds_53_percent_gap_in_pay_between_male_and_female_partners",
+      "description": "A study published by a major legal recruiting firm reflects that for partners at large law firms, a staggering 53 percent gap in pay exists between men and women. The survey, which was based on responses from almost 1,400 partners nationwide, demonstrates the high value that major firms continue to place on originations and hourly rates, which on average were much higher for male partners."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+      "title": "Supreme Court Suggests Forcing Lawyers to Pay Bar Association Dues Violates Their Free Speech",
+      "link": "https://www.latimes.com/politics/la-na-pol-court-bar-dues-20181203-story.html",
+      "description": "The US Supreme Court has overturned a 2017 ruling by the 8th Circuit Court of Appeals upholding mandatory bar dues in North Carolina in light of the high court’s 2018 opinion in Janus v. AFSCME, which held that requiring public employees to pay union dues violated the free speech rights of those who did not wish to support the union. Though the case at issue is more focused on lawyers who are compelled to pay dues to private bar associations, it could have implications for states such as California that make it hard for dues-paying attorneys to opt out of supporting activities such as lobbying."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+      "title": "Law Firms are Having the Best Financial-Growth Year in a Decade, Two Reports Conclude",
+      "link": "http://www.abajournal.com/news/article/law_firms_are_having_the_best_financial_growth_year_in_about_a_decade_two_r",
+      "description": "Higher billing rates and a greater demand for legal services have contributed to 2018 being the best year for law firm financial growth in about 10 years, with revenue growth estimated to be between 6 and 7 percent. However,  collection cycles have increased, as have law firm costs for professional staff and technology updates."
+    },
+    {
+      "title": "Computer Forensics: What Lawyers Need to Know",
+      "link": "https://www.lawtechnologytoday.org/2018/12/computer-forensics-what-lawyers-need-to-know/",
+      "description": "Running a successful legal practice in today’s world requires a good understanding of basic computer forensics, or knowing where and how to look for case-related information on computers, smartphones, and other devices. Some of the places you need to check, as well as the precautions you need to take while reviewing data, are counter-intuitive. Working with a good computer forensic expert, and making sure that your expert has a good understanding of the case, can help you effectively obtain and preserve any available digital evidence in the legal matters you are working on."
+    },
+    {
+      "title": "Law School Enrollment is Up, According to New ABA Data",
+      "link": "http://www.abajournal.com/news/article/slight_increase_for_law_school_enrollment_according_to_new_509_report_data",
+      "description": "Law school data reporting to the ABA shows a 2.9 percent increase in enrollment at ABA-accredited law schools between 2017 and 2018. Enrollment in non-JD programs, such as for LLMs and certificates, increased by 8.2 percent over the same period. Some refer to the increase in law school enrollment as the “Trump Bump,” or an increase that has occurred because more people are motivated to go to law school since Trump was elected."
+    },
+    {
+      "title": "California Supreme Court Waiting for Study Results Before Revisiting Bar Exam Cut Score",
+      "link": "http://www.abajournal.com/news/article/california_supreme_court_wont_reconsider_bar_cut_score_until_ongoing_studie",
+      "description": "After receiving a request from the Assembly Committee on Judiciary and a call in an opinion piece by several California law school deans to revisit the bar exam cut score for the July 2018 test, the California Supreme Court has indicated that it will hold off on a decision until it receives the results of two studies. One study will evaluate California law school students, and the other will look at skills needed by contemporary lawyers. The July 2018 exam had an historically low pass rate of 40.7 percent."
+    },
+    {
+      "title": "ABA Teams UP with J.K. Rowling Foundation to Provide Social Workers to Immigrant Children",
+      "link": "http://www.abajournal.com/news/article/aba_partners_with_foundation_created_by_j.k._rowling_to_provide_social_work",
+      "description": "The ABA has announced a partnership with the Lumos Foundation, an organization started by author J.K. Rowling, to hire two social workers who will provide support services to immigrant children and families following separation and detention. The social workers will assess the needs of the children, find resources to support them, and help them and their families adjust after suffering the trauma of separation."
     }
   ]
 }
