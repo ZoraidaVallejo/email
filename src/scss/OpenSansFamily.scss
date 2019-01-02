@@ -1,0 +1,18 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// S P E C I A L   F O N T   F A M I L I E S
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+
+@import 'maple-sass';
+
+@import
+  'modules/functions',
+  'modules/settings',
+  'modules/mixins';
+
+// ----------------------------------------------------------------------------------------------------------
+
+@include font-face('OpenSans', 'OpenSans-Regular', 400, normal, $path: 'https://justatic.com/v/1/shared/fonts/');
+@include font-face('OpenSans', 'OpenSans-Bold', 700, normal, $path: 'https://justatic.com/v/1/shared/fonts/');
