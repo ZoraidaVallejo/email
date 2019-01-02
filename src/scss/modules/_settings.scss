@@ -28,3 +28,5 @@ $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
 // -------------------
 $sans-serif-font-family: Arial, sans-serif;
 $serif-font-family: TimesNewRoman, 'Times New Roman', Times, serif;
+
+$images--directory: '../img/';

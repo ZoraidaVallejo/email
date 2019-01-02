@@ -3,22 +3,45 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$welcome-image--dimensions: 600px 169px;
+$welcome-image-clients--dimensions: 600px 462px;
+$welcome-image-jld--dimensions: 600px 608px;
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-welcome {
-  background-color: plt('bright-blue');
+  background-color: #031e49;
+
+  p {
+    color: plt('white');
+  }
 
   .head-img {
-    width: nth($welcome-image--dimensions, 1);
-    height: nth($welcome-image--dimensions, 2);
-    background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
+    @include size($welcome-image-clients--dimensions...);
+    padding: 0;
+    background: image-url('welcome-01-bg.gif');
     background-repeat: no-repeat;
+    background-position: center top;
+    vertical-align: top;
+  }
+
+  &.-jld .head-img {
+    @include size($welcome-image-jld--dimensions...);
+  }
+
+  &--2019 {
+    padding: 81px $padding 0;
+    text-align: center;
+
+    img {
+      @include size(430px, 136px);
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
   }
 
   &--title {
-    padding: 0 $padding;
+    padding: 75px $padding 0;
 
     h1 {
       color: plt('white');
@@ -27,10 +50,10 @@ $welcome-image--dimensions: 600px 169px;
   }
 
   &--message {
-    padding: 20px $padding 45px;
+    padding: 13px $padding 0;
+  }
 
-    p {
-      color: plt('white');
-    }
+  &--message--last {
+    padding: 13px $padding 35px;
   }
 }

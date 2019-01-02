@@ -181,7 +181,7 @@ body {
 }
 
 .justia-footer-v1 .logo-social .social table {
-  width: 176px !important;
+  width: 140px !important;
 }
 
 .justia-footer-v1 .logo-social .social table td {
@@ -260,6 +260,7 @@ body {
   padding: 20px 30px;
   border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
+  background-color: #ffffff;
 }
 
 .justia-footer-v2 .logo-footernav table {
@@ -287,19 +288,12 @@ body {
 .justia-footer-v2 .logo-footernav .footernav span,
 .justia-footer-v2 .logo-footernav .footernav a {
   color: #06357a;
+  font: 14px/1.38 Arial, sans-serif !important;
+  white-space: nowrap;
 }
 
 .justia-footer-v2 .logo-footernav .footernav .vline {
   margin: 0 10px;
-}
-
-.justia-footer-v2 .disclaimer p,
-.justia-footer-v2 .address p,
-.justia-footer-v2 .footernav p,
-.justia-footer-v2 span,
-.justia-footer-v2 a {
-  font: 14px/1.38 Arial, sans-serif !important;
-  white-space: nowrap;
 }
 
 .justia-footer-v2 .social {
@@ -310,7 +304,7 @@ body {
 }
 
 .justia-footer-v2 .social table {
-  width: 176px;
+  width: 140px;
   margin: 0 auto;
 }
 
@@ -340,6 +334,10 @@ body {
   text-align: center;
 }
 
+.justia-footer-v2 .disclaimer p {
+  font: 14px/1.38 Arial, sans-serif !important;
+}
+
 .justia-footer-v2 .address {
   padding: 0 30px 120px;
   text-align: center;
@@ -349,6 +347,7 @@ body {
 .justia-footer-v2 .address span,
 .justia-footer-v2 .address a {
   color: #000000;
+  font: 400 14px/1.38 Arial, sans-serif !important;
 }
 
 .justia-footer-v2 .address .justia-inline {
@@ -375,24 +374,25 @@ body {
 .ui-real-text-button {
   width: 125px;
   height: 30px;
-  border-radius: 3px;
   border: 1px solid #00b3e3;
-  border-collapse: separate !important;
+  border-radius: 3px;
   text-align: left;
+  border-collapse: separate !important;
 }
 
 .ui-real-text-button a {
   display: block;
   padding: 7px 0;
   color: #00b3e3;
-  text-align: center;
   line-height: 1;
+  text-align: center;
+  text-decoration: none !important;
 }
 
 .ui-real-text-button .wrapper {
   color: #00b3e3;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .-white .ui-real-text-button {
@@ -560,18 +560,43 @@ body {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #031e49;
+}
+
+.w-welcome p {
+  color: #ffffff;
 }
 
 .w-welcome .head-img {
   width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
+  height: 462px;
+  padding: 0;
+  background: url("../img/welcome-01-bg.gif");
   background-repeat: no-repeat;
+  background-position: center top;
+  vertical-align: top;
+}
+
+.w-welcome.-jld .head-img {
+  width: 600px;
+  height: 608px;
+}
+
+.w-welcome--2019 {
+  padding: 81px 30px 0;
+  text-align: center;
+}
+
+.w-welcome--2019 img {
+  width: 430px;
+  height: 136px;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .w-welcome--title {
-  padding: 0 30px;
+  padding: 75px 30px 0;
 }
 
 .w-welcome--title h1 {
@@ -580,11 +605,11 @@ body {
 }
 
 .w-welcome--message {
-  padding: 20px 30px 45px;
+  padding: 13px 30px 0;
 }
 
-.w-welcome--message p {
-  color: #ffffff;
+.w-welcome--message--last {
+  padding: 13px 30px 35px;
 }
 
 .w-stories-list {
@@ -1077,7 +1102,6 @@ body {
 
 .w-internet-stats {
   background-color: #fafafa;
-  /* stylelint-disable selector-no-qualifying-type */
 }
 
 .w-internet-stats .stats-title {
