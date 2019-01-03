@@ -1172,11 +1172,12 @@ body {
 
 .w-jld-ad-02 .title-bg {
   width: 600px;
-  height: 497px;
+  height: 530px;
   padding: 0;
   background: url("../img/new-year-res-02.png");
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 601px auto;
   vertical-align: top;
 }
 
