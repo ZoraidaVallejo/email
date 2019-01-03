@@ -52,7 +52,34 @@
         <!-- tip-list-table -->
         <table border="0" cellpadding="0" cellspacing="0" class="tip-list-table">
           <tr>
-            <td>list</td>
+            {{#each tipMonth.jld.list }}
+              {{#unless @first }}
+                {{#ifEven @index }}
+                  <!-- OPEN UNLESS IS FIRST -->
+                  <tr>
+                {{/ifEven}}
+              {{/unless}}
+
+              <!-- item-{{ @index }} -->
+              <td class="item-{{ @index }}"><p>{{{ this }}}</p></td>
+
+              {{#ifEven @index }}
+                {{#if @last }}
+
+                  {{#ifEven @index }}
+                    <!-- EMPTY IF LAST AND ODD -->
+                    <td>&nbsp;</td>
+                  {{/ifEven}}
+                {{/if}}
+              {{/ifEven}}
+
+              {{#ifOdd @index }}
+                {{#unless @last }}
+                  </tr>
+                  <!-- CLOSE UNLESS IS LAST -->
+                {{/unless}}
+              {{/ifOdd}}
+            {{/each}}
           </tr>
         </table>
       </td>
