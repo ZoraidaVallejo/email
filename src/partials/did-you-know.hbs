@@ -8,20 +8,50 @@
     <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
       <!-- widget-type-name -->
       <h4 class="widget-type-name">DID YOU KNOW?</h4>
-      {{#if didYouKnow.title }}
-        <!-- widget-main-title -->
-        {{!-- <h2 class="widget-main-title"><a href="{{ didYouKnow.link }}" target="_blank">{{{ didYouKnow.title }}}</a></h2> --}}
-        <h2 class="widget-main-title">{{{ didYouKnow.title }}}</h2>
+      {{#if clientsNewsletter }}
+        {{#if didYouKnow.clients.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title">{{{ didYouKnow.clients.title }}}</h2>
+        {{/if}}
+      {{/if}}
+
+      {{#if jldNewsletter }}
+        {{#if didYouKnow.jld.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title">
+            {{#if didYouKnow.jld.link }}<a href="{{ didYouKnow.jld.link }}" target="_blank">{{/if}}
+              {{{ didYouKnow.jld.title }}}
+            {{#if didYouKnow.jld.link }}</a>{{/if}}
+          </h2>
+        {{/if}}
       {{/if}}
     </td>
   </tr>
 
-  {{#each didYouKnow.description }}
+  {{#if clientsNewsletter }}
+    {{#each didYouKnow.clients.description }}
+      <tr>
+        <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+        <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <p>{{{ this }}}</p>
+        </td>
+      </tr>
+    {{/each}}
+  {{/if}}
+
+  {{#if jldNewsletter }}
+    {{#each didYouKnow.jld.description }}
+      <tr>
+        <!-- dyk-desc -->
+        <td class="dyk-desc" responsive="mobile-padding-horizontal-sides"><p>{{{ this }}}</p></td>
+      </tr>
+    {{/each}}
+
     <tr>
-      <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
-      <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ this }}}</p>
+      <!-- dyk-desc dyk-desc--last -->
+      <td class="dyk-desc dyk-desc--last -white" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonLink=didYouKnow.jld.button.link buttonText=didYouKnow.jld.button.text }}
       </td>
     </tr>
-  {{/each}}
+  {{/if}}
 </table>
