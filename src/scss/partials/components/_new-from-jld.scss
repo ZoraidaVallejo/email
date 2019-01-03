@@ -1,0 +1,35 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// N E W   F R O M   J U S T I A   L A W Y E R   D I R E C T O R Y
+// ----------------------------------------------------------------------------------------------------------
+
+.w-new-from-jld {
+  background-color: plt('white');
+
+  .nfjld {
+
+    &-title {
+      padding: 45px $padding 20px;
+
+      a {
+        color: plt('black');
+      }
+    }
+
+    &-desc {
+      padding: 0 $padding 15px;
+
+      &--last {
+        padding: 0 $padding 45px;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+  }
+}

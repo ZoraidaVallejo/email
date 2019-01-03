@@ -1316,6 +1316,34 @@ body {
   padding: 18px 0 40px;
 }
 
+.w-new-from-jld {
+  background-color: #ffffff;
+}
+
+.w-new-from-jld .nfjld-title {
+  padding: 45px 30px 20px;
+}
+
+.w-new-from-jld .nfjld-title a {
+  color: #000000;
+}
+
+.w-new-from-jld .nfjld-desc {
+  padding: 0 30px 15px;
+}
+
+.w-new-from-jld .nfjld-desc--last {
+  padding: 0 30px 45px;
+}
+
+.w-new-from-jld a {
+  text-decoration: none;
+}
+
+.w-new-from-jld p {
+  margin: 0;
+}
+
 .align-center {
   text-align: center;
 }
@@ -1359,6 +1387,7 @@ body {
 
 .jld-newsletter .w-tech-news,
 .jld-newsletter .w-social-media-news,
-.jld-newsletter .w-meet-our-team {
+.jld-newsletter .w-meet-our-team,
+.jld-newsletter .w-jurispro {
   border-bottom: 1px solid #e7e8e8;
 }
