@@ -3,6 +3,10 @@
 // T I P   O F   T H E   M O N T H   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
+$tip-image--width: 150px;
+
+// ----------------------------------------------------------------------------------------------------------
+
 .w-tip-month {
   background-color: plt('bright-green');
 
@@ -27,7 +31,7 @@
       padding: 0 $padding 15px;
 
       &--last {
-        padding: 0 $padding 45px;
+        padding: 5px $padding 45px;
       }
     }
 
@@ -36,6 +40,25 @@
 
       &-table {
         table-layout: fixed;
+      }
+    }
+  }
+
+  .tip-wrap {
+
+    .tip-item {
+      width: ($inner-max-width - $tip-image--width - $padding);
+    }
+
+    .tip-image {
+      width: ($tip-image--width + $padding);
+      padding: 0 $padding 45px 0;
+      text-align: right;
+      vertical-align: top;
+
+      img {
+        width: $tip-image--width;
+        max-width: ceil(percentage($tip-image--width / ($tip-image--width + $padding)));
       }
     }
   }

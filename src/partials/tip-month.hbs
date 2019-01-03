@@ -23,18 +23,42 @@
   </tr>
 
   {{#if clientsNewsletter }}
-    {{#each tipMonth.clients.description }}
-      <tr>
-        <!-- tip-desc -->
-        <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
-        </td>
-      </tr>
-    {{/each}}
     <tr>
-      <!-- tip-desc tip-desc--last -->
-      <td class="tip-desc tip-desc--last -white" responsive="mobile-padding-horizontal-sides">
-        {{> ui-real-text-button buttonLink=tipMonth.clients.button.link buttonText=tipMonth.clients.button.text }}
+      <!-- tip-wrap -->
+      <td class="tip-wrap">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- tip-item -->
+            <td class="tip-item">
+              <table align="center" border="0" cellpadding="0" cellspacing="0">
+                {{#each tipMonth.clients.description }}
+                  <tr>
+                    <!-- tip-desc -->
+                    <td class="tip-desc" responsive="mobile-padding-horizontal-sides">
+                      <p>{{{ this }}}</p>
+                    </td>
+                  </tr>
+                {{/each}}
+                <tr>
+                  <!-- tip-desc tip-desc--last -->
+                  <td class="tip-desc tip-desc--last -white" responsive="mobile-padding-horizontal-sides">
+                    {{> ui-real-text-button buttonLink=tipMonth.clients.button.link buttonText=tipMonth.clients.button.text }}
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- tip-image -->
+            <td class="tip-image" responsive="mobile-hide">
+              {{#if tipMonth.clients.image }}
+                {{#if tipMonth.clients.link }}<a href="{{{ tipMonth.clients.link }}}" target="_blank">{{/if}}
+                  <img src="{{ default.imageDirSrc }}/{{ tipMonth.clients.image }}" alt="{{ tipMonth.clients.title }}" border="0" />
+                {{#if tipMonth.clients.link }}</a>{{/if}}
+              {{else}}
+                &nbsp;
+              {{/if}}
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   {{/if}}
