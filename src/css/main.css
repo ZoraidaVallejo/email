@@ -829,11 +829,11 @@ body {
 }
 
 .w-tip-month .tip-desc {
-  padding: 0 30px 15px;
+  padding: 0 0 15px 30px;
 }
 
 .w-tip-month .tip-desc--last {
-  padding: 5px 30px 45px;
+  padding: 5px 0 45px 30px;
 }
 
 .w-tip-month .tip-list {
@@ -1435,11 +1435,11 @@ body {
 }
 
 .w-new-from-jld .nfjld-desc {
-  padding: 0 30px 15px;
+  padding: 0 0 15px 30px;
 }
 
 .w-new-from-jld .nfjld-desc--last {
-  padding: 0 30px 45px;
+  padding: 0 0 45px 30px;
 }
 
 .w-new-from-jld .newjld-wrap .newjld-item {

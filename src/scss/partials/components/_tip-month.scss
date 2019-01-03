@@ -28,10 +28,10 @@ $tip-image--width: 150px;
     }
 
     &-desc {
-      padding: 0 $padding 15px;
+      padding: 0 0 15px $padding;
 
       &--last {
-        padding: 5px $padding 45px;
+        padding: 5px 0 45px $padding;
       }
     }
 
