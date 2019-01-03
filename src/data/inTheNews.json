@@ -1,14 +1,24 @@
 {
   "news": [
     {
-      "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+      "logoName": "globest.com",
+      "link": "https://www.globest.com/2018/12/28/epa-proposes-rollback-of-wetlands-protections/",
+      "description": "Clark Morrison of Cox, Castle & Nicholson LLP was quoted by Globe St. about EPA’s new rule on wetlands and other water features under the Clean Water Act"
     },
     {
-      "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+      "logoName": "finance.yahoo.com",
+      "link": "https://finance.yahoo.com/news/5-lawyers-won-big-2018-103531227.html",
+      "description": "Michael Burrell of Adelman Hirsch & Connors was mentioned on Yahoo! Finance’s “5 Lawyers Who Won Big in 2018”"
+    },
+    {
+      "logoName": "Bloomberg BNA",
+      "link": "https://www.bna.com/judges-appear-skeptical-n57982094703/",
+      "description": "Pillsbury Winthrop Shaw Pittman was mentioned in this BNA article among the firms that discuss clients having the right to choose their counsel in Howrey Trustee case."
+    },
+    {
+      "logoName": "prnewswire.com",
+      "link": "https://www.prnewswire.com/news-releases/record-setting-85-million-verdict-for-new-york-pedestrian-run-over-by-double-decker-sightseeing-tour-bus-obtained-by-howard-hershenhorn-and-diana-m-a-carnemolla-300761862.html",
+      "description": "Howard Hershenhorn and Diana M. A. Carnemolla from Gair, Gair, Conason, Rubinowitz, Bloom, Hershenhorn, Steigman & Mackauf obtain record setting $85 million verdict for New York pedestrian run over by double decker."
     }
   ]
 }

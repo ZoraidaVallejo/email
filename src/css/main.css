@@ -836,6 +836,14 @@ body {
   padding: 0 30px 45px;
 }
 
+.w-tip-month .tip-list {
+  padding: 0 30px 15px;
+}
+
+.w-tip-month .tip-list-table {
+  table-layout: fixed;
+}
+
 .w-in-the-news {
   background-color: #ffffff;
 }

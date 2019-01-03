@@ -30,5 +30,13 @@
         padding: 0 $padding 45px;
       }
     }
+
+    &-list {
+      padding: 0 $padding 15px;
+
+      &-table {
+        table-layout: fixed;
+      }
+    }
   }
 }

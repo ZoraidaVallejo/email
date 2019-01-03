@@ -1,30 +1,36 @@
 {
   "sites": [
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Serafini, Michalowski, Derkacz & Associates, P.C.",
+      "location": "Sterling Heights, MI",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.smdalaw.com/",
+        "simple": "smdalaw.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Smith & White",
+      "location": "Tacoma, WA",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.smithandwhite.com/",
+        "simple": "smithandwhite.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Jamal Injury Law",
+      "location": "Long Beach, CA",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.jamalpersonalinjury.com/",
+        "simple": "jamalpersonalinjury.com"
+      }
+    },
+    {
+      "clientName": "Corsiglia McMahon & Allard",
+      "location": "San Jose, CA",
+      "domain": {
+        "long": "https://www.cmalaw.net/",
+        "simple": "cmalaw.net"
       }
     }
   ]
