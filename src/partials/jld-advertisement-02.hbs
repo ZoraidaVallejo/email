@@ -3,23 +3,67 @@
 
 <!-- w-advertisement w-jld-ad-02 -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-jld-ad-02 set-max-width">
-  <tr>
-    <!-- ad-image -->
-    <td class="ad-image">
-      <a href="{{{ advertisements.jld.ad2.link }}}" target="_blank">
-        <img src="{{ default.imageDirSrc }}/{{ advertisements.jld.ad2.image }}" alt="{{ advertisements.jld.ad2.alt }}" border="0" />
-      </a>
-    </td>
-  </tr>
-
-  {{#if advertisements.jld.ad2.description }}
-    {{#each advertisements.jld.ad2.description }}
+  {{> ui-background
+    classes="title-bg"
+    image="new-year-res-02.png"
+    bgColor="#06357a"
+    dimensions="width:600px;height:497px;"
+    bgStart=true
+    content=true
+    responsiveClasses="mobile-reset-height"
+  }}
+    <table align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-        <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
+        <!-- justia-logo-image -->
+        <td class="justia-logo-image" responsive='mobile-padding-horizontal-sides'>
+          <a href="{{{ advertisements.jld.ad2.link }}}" target="_blank">
+            <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
+          </a>
         </td>
       </tr>
-    {{/each}}
-  {{/if}}
+
+      <tr>
+        <!-- ad-title -->
+        <td class="ad-title">
+          <a href="{{{ advertisements.jld.ad2.link }}}" target="_blank" responsive="mobile-fz-20">
+            <b>{{{ advertisements.jld.ad2.title }}}</b>
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- ad-image -->
+        <td class="ad-image">
+          <a href="{{{ advertisements.jld.ad2.link }}}" target="_blank">
+            <img src="{{ default.imageDirSrc }}/{{ advertisements.jld.ad2.image }}" alt="{{ advertisements.jld.ad2.alt }}" border="0" />
+          </a>
+        </td>
+      </tr>
+    </table>
+  {{> ui-background bgEnd=true }}
+
+  {{#each advertisements.jld.ad2.description }}
+    <tr>
+      <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} -->
+      <td class="ad-desc {{#if @first }}ad-desc--first{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
+
+  <tr>
+      <!-- ad-desc ad-desc--button -->
+      <td class="ad-desc ad-desc--button -red -large" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonLink=advertisements.jld.ad2.button.link buttonText=advertisements.jld.ad2.button.text }}
+      </td>
+    </tr>
+
+  {{#each advertisements.jld.ad2.descriptionCont }}
+    <tr>
+      <!-- ad-desc {{#if @last }}ad-desc--last{{/if}} -->
+      <td class="ad-desc {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-uneven-bottom mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
 </table>

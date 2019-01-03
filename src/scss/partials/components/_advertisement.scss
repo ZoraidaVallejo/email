@@ -21,9 +21,12 @@
     max-width: 100%;
   }
 
+  td {
+    text-align: center;
+  }
+
   .justia-logo-image {
     padding: 45px $padding 35px;
-    background-color: plt('white');
     text-align: center;
 
     img {
@@ -32,11 +35,17 @@
     }
   }
 
-  td {
-    text-align: center;
+  .ad-title {
+    padding: 0 0 20px;
+
+    a {
+      color: plt('justia-blue');
+      font: 26px/1.38 $sans-serif-font-family;
+    }
   }
 
   .ad-image {
+    text-align: center;
 
     a {
       display: block;
@@ -89,21 +98,43 @@
 
 .w-client-ad-01 {
 
-  .ad-title {
-    padding: 0 0 20px;
+  .justia-logo-image {
     background-color: plt('white');
+  }
 
-    a {
-      color: plt('justia-blue');
-      font: 26px/1.38 $sans-serif-font-family;
-    }
+  .ad-title {
+    background-color: plt('white');
   }
 }
 
-.w-jld-ad-01 {
-  background-color: plt('justia-blue');
-}
+// .w-jld-ad-01 {
+// }
 
 .w-jld-ad-02 {
-  background-color: plt('silver');
+
+  .title-bg {
+    @include size(600px, 497px);
+    padding: 0;
+    background: image-url('new-year-res-02.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    vertical-align: top;
+  }
+
+  .ad-title {
+    padding: 0 0 15px;
+
+    a {
+      font: 30px/1.2 $sans-serif-font-family;
+    }
+  }
+
+  .ad-image img {
+    width: 473px;
+    margin: 0 auto;
+  }
+
+  .ui-real-text-button {
+    @include size(298px, 44px);
+  }
 }

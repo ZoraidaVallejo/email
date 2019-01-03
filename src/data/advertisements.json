@@ -35,10 +35,20 @@
       ]
     },
     "ad2": {
-      "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "title": "New Year’s Resolution:<br>Become a JLD Premium Member",
+      "image": "new-year-res-01.png",
+      "alt": "New Year’s Resolution: Become a JLD Premium Member",
+      "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=banner-premium-memberships-v17",
+      "description": [
+        "It’s not too late to have a New Year’s Resolution. Add one more onto your list and become a premium member on the Justia Lawyer Directory to enhance your visibility and generate more leads."
+      ],
+      "button": {
+        "link": "https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=banner-premium-memberships-v17",
+        "text": "BECOME A PREMIUM MEMBER"
+      },
+      "descriptionCont": [
+        "<b>Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+      ]
     }
   }
 }

@@ -1071,9 +1071,12 @@ body {
   max-width: 100%;
 }
 
+.w-advertisement td {
+  text-align: center;
+}
+
 .w-advertisement .justia-logo-image {
   padding: 45px 30px 35px;
-  background-color: #ffffff;
   text-align: center;
 }
 
@@ -1082,7 +1085,16 @@ body {
   margin: 0 auto;
 }
 
-.w-advertisement td {
+.w-advertisement .ad-title {
+  padding: 0 0 20px;
+}
+
+.w-advertisement .ad-title a {
+  color: #06357a;
+  font: 26px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement .ad-image {
   text-align: center;
 }
 
@@ -1134,22 +1146,40 @@ body {
   font: 18px/1.38 Arial, sans-serif;
 }
 
-.w-client-ad-01 .ad-title {
-  padding: 0 0 20px;
+.w-client-ad-01 .justia-logo-image {
   background-color: #ffffff;
 }
 
-.w-client-ad-01 .ad-title a {
-  color: #06357a;
-  font: 26px/1.38 Arial, sans-serif;
+.w-client-ad-01 .ad-title {
+  background-color: #ffffff;
 }
 
-.w-jld-ad-01 {
-  background-color: #06357a;
+.w-jld-ad-02 .title-bg {
+  width: 600px;
+  height: 497px;
+  padding: 0;
+  background: url("../img/new-year-res-02.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  vertical-align: top;
 }
 
-.w-jld-ad-02 {
-  background-color: #c0c0c0;
+.w-jld-ad-02 .ad-title {
+  padding: 0 0 15px;
+}
+
+.w-jld-ad-02 .ad-title a {
+  font: 30px/1.2 Arial, sans-serif;
+}
+
+.w-jld-ad-02 .ad-image img {
+  width: 473px;
+  margin: 0 auto;
+}
+
+.w-jld-ad-02 .ui-real-text-button {
+  width: 298px;
+  height: 44px;
 }
 
 .w-internet-stats {
@@ -1427,6 +1457,10 @@ body {
 
 .no-margin {
   margin: 0;
+}
+
+.client-newsletter .w-social-media-news {
+  border-bottom: 1px solid #e7e8e8;
 }
 
 .jld-newsletter .w-tech-news,
