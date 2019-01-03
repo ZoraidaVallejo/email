@@ -1,10 +1,20 @@
 {
   "clients": {
     "ad1": {
-      "image": "adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "title": "Get Rated on the Justia Lawyer Directory",
+      "image": "get-rated-01.gif",
+      "alt": "Get Rated on the Justia Lawyer Directory",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=client-newsletter&utm_campaign=2019-01&utm_content=banner-directory-reviews-and-ratings-v1",
+      "description": [
+        "Get rated on the Justia Lawyer Directory and recive a Justia Lawyer Rating badge on your profile that you can add to your website to showcase your reputation. To review an attorney, the reviewer must have a claimed profile in the Justia Lawyer Directory and be personally familiar with the attorney's work."
+      ],
+      "button": {
+        "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=client-newsletter&utm_campaign=2019-01&utm_content=banner-directory-reviews-and-ratings-v1",
+        "text": "GET YOUR BADGE TODAY"
+      },
+      "descriptionCont": [
+        "<b>Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+      ]
     }
   },
 

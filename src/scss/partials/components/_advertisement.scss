@@ -20,6 +20,17 @@
     max-width: 100%;
   }
 
+  .justia-logo-image {
+    padding: 45px $padding 35px;
+    background-color: plt('white');
+    text-align: center;
+
+    img {
+      width: 320px;
+      margin: 0 auto;
+    }
+  }
+
   td {
     text-align: center;
   }
@@ -54,7 +65,39 @@
 }
 
 .w-client-ad-01 {
-  background-color: plt('silver');
+  background-color: plt('justia-blue');
+
+  .ad-title {
+    padding: 0 0 20px;
+    background-color: plt('white');
+
+    p {
+      color: plt('justia-blue');
+      font: 26px/1.38 $sans-serif-font-family;
+    }
+  }
+
+  .ad-desc--first {
+    padding: 29px $padding 34px;
+  }
+
+  .ad-desc--button {
+    padding: 0 $padding $padding;
+    text-align: center;
+  }
+
+  .ui-real-text-button {
+    @include size(250px, 44px);
+    text-align: center;
+  }
+
+  .ad-desc--last {
+    padding: 0 $padding 45px;
+
+    p {
+      font: 18px/1.38 $sans-serif-font-family;
+    }
+  }
 }
 
 .w-jld-ad-01 {

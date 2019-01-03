@@ -4,6 +4,20 @@
 <!-- w-advertisement w-client-ad-01 -->
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-client-ad-01 set-max-width">
   <tr>
+    <!-- justia-logo-image -->
+    <td class="justia-logo-image" responsive='mobile-padding-horizontal-sides'>
+      <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
+    </td>
+  </tr>
+
+  <tr>
+    <!-- ad-title -->
+    <td class="ad-title">
+      <p responsive="mobile-fz-20"><b>{{{ advertisements.clients.ad1.title }}}</b></p>
+    </td>
+  </tr>
+
+  <tr>
     <!-- ad-image -->
     <td class="ad-image">
       <a href="{{{ advertisements.clients.ad1.link }}}" target="_blank">
@@ -12,14 +26,28 @@
     </td>
   </tr>
 
-  {{#if advertisements.clients.ad1.description }}
-    {{#each advertisements.clients.ad1.description }}
-      <tr>
-        <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-        <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
-        </td>
-      </tr>
-    {{/each}}
-  {{/if}}
+  {{#each advertisements.clients.ad1.description }}
+    <tr>
+      <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} -->
+      <td class="ad-desc {{#if @first }}ad-desc--first{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
+
+  <tr>
+      <!-- ad-desc ad-desc--button -->
+      <td class="ad-desc ad-desc--button -red -large" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonLink=advertisements.clients.ad1.button.link buttonText=advertisements.clients.ad1.button.text }}
+      </td>
+    </tr>
+
+  {{#each advertisements.clients.ad1.descriptionCont }}
+    <tr>
+      <!-- ad-desc {{#if @last }}ad-desc--last{{/if}} -->
+      <td class="ad-desc {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-uneven-bottom mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
 </table>
