@@ -3,17 +3,32 @@
 // N E W   F R O M   J U S T I A   L A W Y E R   D I R E C T O R Y
 // ----------------------------------------------------------------------------------------------------------
 
+$lawyer-directory-image--width: 150px;
+
+// ----------------------------------------------------------------------------------------------------------
+
 .w-new-from-jld {
-  background-color: plt('white');
+  background-color: plt('justia-blue');
+
+  .widget-type-name,
+  .widget-main-title,
+  p,
+  a {
+    color: plt('white');
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+  }
 
   .nfjld {
 
     &-title {
       padding: 45px $padding 20px;
-
-      a {
-        color: plt('black');
-      }
     }
 
     &-desc {
@@ -25,11 +40,41 @@
     }
   }
 
-  a {
-    text-decoration: none;
+  .newjld-wrap {
+
+    .newjld-item {
+      width: ($inner-max-width - $lawyer-directory-image--width - $padding);
+    }
+
+    .newjld-image {
+      width: ($lawyer-directory-image--width + $padding);
+      padding: 0 $padding 45px 0;
+      text-align: right;
+      vertical-align: top;
+
+      img {
+        width: $lawyer-directory-image--width;
+        max-width: ceil(percentage($lawyer-directory-image--width / ($lawyer-directory-image--width + $padding)));
+      }
+    }
   }
 
-  p {
-    margin: 0;
+  .ui-real-text-button {
+    border: 1px solid #ffc700;
+    background-color: #ffc700;
+
+    a {
+      color: plt('black');
+
+      span {
+        color: plt('black');
+        font-weight: normal;
+      }
+    }
+
+    .wrapper {
+      color: plt('black');
+      font-weight: tp('weight', 'normal');
+    }
   }
 }

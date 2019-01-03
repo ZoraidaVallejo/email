@@ -1406,16 +1406,31 @@ body {
   padding: 18px 0 40px;
 }
 
+.w-law-events .event-2 .inner-text {
+  height: 130px;
+}
+
 .w-new-from-jld {
-  background-color: #ffffff;
+  background-color: #06357a;
+}
+
+.w-new-from-jld .widget-type-name,
+.w-new-from-jld .widget-main-title,
+.w-new-from-jld p,
+.w-new-from-jld a {
+  color: #ffffff;
+}
+
+.w-new-from-jld a {
+  text-decoration: none;
+}
+
+.w-new-from-jld p {
+  margin: 0;
 }
 
 .w-new-from-jld .nfjld-title {
   padding: 45px 30px 20px;
-}
-
-.w-new-from-jld .nfjld-title a {
-  color: #000000;
 }
 
 .w-new-from-jld .nfjld-desc {
@@ -1426,12 +1441,39 @@ body {
   padding: 0 30px 45px;
 }
 
-.w-new-from-jld a {
-  text-decoration: none;
+.w-new-from-jld .newjld-wrap .newjld-item {
+  width: 360px;
 }
 
-.w-new-from-jld p {
-  margin: 0;
+.w-new-from-jld .newjld-wrap .newjld-image {
+  width: 180px;
+  padding: 0 30px 45px 0;
+  text-align: right;
+  vertical-align: top;
+}
+
+.w-new-from-jld .newjld-wrap .newjld-image img {
+  width: 150px;
+  max-width: 84%;
+}
+
+.w-new-from-jld .ui-real-text-button {
+  border: 1px solid #ffc700;
+  background-color: #ffc700;
+}
+
+.w-new-from-jld .ui-real-text-button a {
+  color: #000000;
+}
+
+.w-new-from-jld .ui-real-text-button a span {
+  color: #000000;
+  font-weight: normal;
+}
+
+.w-new-from-jld .ui-real-text-button .wrapper {
+  color: #000000;
+  font-weight: 400;
 }
 
 .align-center {
@@ -1481,7 +1523,6 @@ body {
 
 .jld-newsletter .w-tech-news,
 .jld-newsletter .w-social-media-news,
-.jld-newsletter .w-meet-our-team,
-.jld-newsletter .w-jurispro {
+.jld-newsletter .w-meet-our-team {
   border-bottom: 1px solid #e7e8e8;
 }
