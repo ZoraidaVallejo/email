@@ -4,6 +4,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
+  background-color: plt('justia-blue');
 
   a {
     text-decoration: none;
@@ -62,20 +63,6 @@
       padding: 0 $padding 25px;
     }
   }
-}
-
-.w-client-ad-01 {
-  background-color: plt('justia-blue');
-
-  .ad-title {
-    padding: 0 0 20px;
-    background-color: plt('white');
-
-    p {
-      color: plt('justia-blue');
-      font: 26px/1.38 $sans-serif-font-family;
-    }
-  }
 
   .ad-desc--first {
     padding: 29px $padding 34px;
@@ -100,8 +87,21 @@
   }
 }
 
+.w-client-ad-01 {
+
+  .ad-title {
+    padding: 0 0 20px;
+    background-color: plt('white');
+
+    a {
+      color: plt('justia-blue');
+      font: 26px/1.38 $sans-serif-font-family;
+    }
+  }
+}
+
 .w-jld-ad-01 {
-  background-color: plt('silver');
+  background-color: plt('justia-blue');
 }
 
 .w-jld-ad-02 {

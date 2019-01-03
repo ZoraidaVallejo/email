@@ -1052,6 +1052,10 @@ body {
   margin: 0;
 }
 
+.w-advertisement {
+  background-color: #06357a;
+}
+
 .w-advertisement a {
   text-decoration: none;
 }
@@ -1107,8 +1111,27 @@ body {
   padding: 0 30px 25px;
 }
 
-.w-client-ad-01 {
-  background-color: #06357a;
+.w-advertisement .ad-desc--first {
+  padding: 29px 30px 34px;
+}
+
+.w-advertisement .ad-desc--button {
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.w-advertisement .ui-real-text-button {
+  width: 250px;
+  height: 44px;
+  text-align: center;
+}
+
+.w-advertisement .ad-desc--last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement .ad-desc--last p {
+  font: 18px/1.38 Arial, sans-serif;
 }
 
 .w-client-ad-01 .ad-title {
@@ -1116,36 +1139,13 @@ body {
   background-color: #ffffff;
 }
 
-.w-client-ad-01 .ad-title p {
+.w-client-ad-01 .ad-title a {
   color: #06357a;
   font: 26px/1.38 Arial, sans-serif;
 }
 
-.w-client-ad-01 .ad-desc--first {
-  padding: 29px 30px 34px;
-}
-
-.w-client-ad-01 .ad-desc--button {
-  padding: 0 30px 30px;
-  text-align: center;
-}
-
-.w-client-ad-01 .ui-real-text-button {
-  width: 250px;
-  height: 44px;
-  text-align: center;
-}
-
-.w-client-ad-01 .ad-desc--last {
-  padding: 0 30px 45px;
-}
-
-.w-client-ad-01 .ad-desc--last p {
-  font: 18px/1.38 Arial, sans-serif;
-}
-
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  background-color: #06357a;
 }
 
 .w-jld-ad-02 {

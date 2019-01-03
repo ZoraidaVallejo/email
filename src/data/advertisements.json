@@ -20,10 +20,19 @@
 
   "jld": {
     "ad1": {
-      "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
+      "image": "get-new-site-01.gif",
+      "alt": "New Year, New Website",
+      "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=banner-website-marketing-generic-v14",
+      "description": [
+        "Start the new year off right by getting a new website. Justia websites combine best marketing practices that allow firms to increase visibility and client leads."
+      ],
+      "button": {
+        "link": "https://www.justia.com/marketing/law-firm-websites/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=banner-website-marketing-generic-v14",
+        "text": "GET A NEW SITE TODAY"
+      },
+      "descriptionCont": [
+        "<b>Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+      ]
     },
     "ad2": {
       "image": "jld-adname-image-02.png",

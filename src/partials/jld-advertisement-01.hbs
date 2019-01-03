@@ -12,14 +12,28 @@
     </td>
   </tr>
 
-  {{#if advertisements.jld.ad1.description }}
-    {{#each advertisements.jld.ad1.description }}
-      <tr>
-        <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}} -->
-        <td class="ad-desc {{#if @first }}ad-desc--first{{/if}} {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{ this }}}</p>
-        </td>
-      </tr>
-    {{/each}}
-  {{/if}}
+  {{#each advertisements.jld.ad1.description }}
+    <tr>
+      <!-- ad-desc {{#if @first }}ad-desc--first{{/if}} -->
+      <td class="ad-desc {{#if @first }}ad-desc--first{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
+
+  <tr>
+      <!-- ad-desc ad-desc--button -->
+      <td class="ad-desc ad-desc--button -red -large" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonLink=advertisements.jld.ad1.button.link buttonText=advertisements.jld.ad1.button.text }}
+      </td>
+    </tr>
+
+  {{#each advertisements.jld.ad1.descriptionCont }}
+    <tr>
+      <!-- ad-desc {{#if @last }}ad-desc--last{{/if}} -->
+      <td class="ad-desc {{#if @last }}ad-desc--last{{/if}}" responsive="mobile-padding-uneven-bottom mobile-padding-horizontal-sides">
+        <p>{{{ this }}}</p>
+      </td>
+    </tr>
+  {{/each}}
 </table>
