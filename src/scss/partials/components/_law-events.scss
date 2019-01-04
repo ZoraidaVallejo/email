@@ -35,19 +35,19 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
   }
 
   .law-events-list {
-    padding: 0 $padding;
+    padding: 0 15px;
   }
 
   tr:last-child {
 
     .law-events-list {
-      padding: 0 $padding 15px;
+      padding: 0 15px 15px;
     }
   }
 
   .grid-column {
-    width: ($inner-max-width / 2);
-    max-width: ($inner-max-width / 2);
+    width: (($max-width - $padding) / 2);
+    max-width: (($max-width - $padding) / 2);
   }
 
   .grid-cell {

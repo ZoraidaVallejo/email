@@ -557,6 +557,7 @@ body {
 
 .ui-columns-grid .grid-cell {
   width: 300px;
+  text-align: center;
 }
 
 .w-welcome {
@@ -1373,16 +1374,16 @@ body {
 }
 
 .w-law-events .law-events-list {
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .w-law-events tr:last-child .law-events-list {
-  padding: 0 30px 15px;
+  padding: 0 15px 15px;
 }
 
 .w-law-events .grid-column {
-  width: 270px;
-  max-width: 270px;
+  width: 285px;
+  max-width: 285px;
 }
 
 .w-law-events .grid-cell {
