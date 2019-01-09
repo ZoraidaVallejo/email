@@ -24,6 +24,12 @@ $mail-color-palette: (
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
 
+$header-logo-v3-width: 295px;
+$header-logo-v3-height: 37px;
+
+$footernav-v3-bg-color: plt('justia-blue');
+$footernav-v3-text-color: plt('white');
+
 // T Y P O G R A P H Y
 // -------------------
 $sans-serif-font-family: Arial, sans-serif;
