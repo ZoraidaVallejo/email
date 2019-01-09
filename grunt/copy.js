@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 module.exports = (grunt, { conversionType, currentYear, currentMonth }) => ({
   public: {
     expand: true,

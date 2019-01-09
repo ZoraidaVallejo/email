@@ -1,7 +1,7 @@
-/* stylelint-disable selector-class-pattern */
+// stylelint-disable selector-class-pattern
 
 .preview-interface-view {
-  
+
   // Basic elements
   body {
     background: #ffffff;
@@ -103,7 +103,7 @@
     height: 40px;
     cursor: pointer;
   }
-  
+
   // Layout elemnts when mobile drawer is hidden
   .mobile-drawer-hidden {
 
@@ -141,7 +141,7 @@
       }
     }
   }
-  
+
   // Drawer close toggle (x)
   .toggle-drawer-close {
     z-index: 1;

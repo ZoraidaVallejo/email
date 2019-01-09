@@ -3,13 +3,11 @@
 // R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
 
-/* stylelint-disable */
-
 $use-breakpoint: false;
 
 @import
   'image-dimensions',
-  'frontend-helpers';
+  'maple-sass';
 
 @import
   'modules/functions',
@@ -17,6 +15,8 @@ $use-breakpoint: false;
   'modules/mixins';
 
 // ----------------------------------------------------------------------------------------------------------
+
+// stylelint-disable
 
 // CLIENT-SPECIFIC STYLES
 body,
@@ -42,8 +42,8 @@ img {
   max-width: 100%;
   border: 0;
   outline: none;
-  text-decoration: none;
   line-height: 100%;
+  text-decoration: none;
 }
 
 table {
@@ -60,11 +60,11 @@ body {
 // iOS BLUE LINKS
 a[x-apple-data-detectors] {
   color: inherit !important;
-  font-family: inherit !important;
-  font-size: inherit !important;
   font-weight: inherit !important;
-  text-decoration: none !important;
+  font-size: inherit !important;
   line-height: inherit !important;
+  font-family: inherit !important;
+  text-decoration: none !important;
 }
 
 .ios-links-black a {
@@ -178,7 +178,7 @@ div[style*='margin: 16px 0;'] {
       }
 
       &-uneven {
-        
+
         &-top {
           padding-top: 45px !important;
         }

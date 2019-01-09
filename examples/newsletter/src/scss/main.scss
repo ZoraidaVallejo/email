@@ -7,7 +7,7 @@ $use-breakpoint: false;
 
 @import
   'image-dimensions',
-  'frontend-helpers';
+  'maple-sass';
 
 @import
   'modules/functions',
@@ -24,6 +24,7 @@ $use-breakpoint: false;
   'justia-footer-v1',
   'justia-footer-v2',
   'ui-button',
+  'ui-real-text-button',
   'ui-label-divider',
   'ui-columns-grid';
 
