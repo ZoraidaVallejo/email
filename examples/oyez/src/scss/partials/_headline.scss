@@ -13,10 +13,10 @@
 
   p {
     color: plt('tundora');
-    font-family: $sans-serif-font-family;
-    font-size: 22px;
     font-weight: tp('weight', 'bold');
+    font-size: 22px;
     line-height: 24px;
+    font-family: $sans-serif-font-family;
   }
 }
 

@@ -43,16 +43,16 @@ body {
   &-type-name {
     padding: 0 0 5px;
     color: plt('mail', 'shuttle-gray');
-    font-size: 14px;
     font-weight: tp('weight', 'bold');
-    text-transform: uppercase;
+    font-size: 14px;
     line-height: 14px;
+    text-transform: uppercase;
   }
 
   &-main-title {
     color: plt('black');
-    font-size: 29px;
     font-weight: tp('weight', 'normal');
+    font-size: 29px;
     line-height: 37px;
   }
 }

@@ -1,48 +1,62 @@
 {
   "name": "mail-template-builder",
   "version": "2.0.2",
+  "private": true,
   "description": "Workflow to create email templates",
-  "main": "scripts/server.js",
-  "directories": {
-    "example": "examples"
-  },
-  "scripts": {
-    "start": "nps",
-    "test": "nps test"
+  "keywords": [
+    "builder",
+    "campaigns",
+    "grunt",
+    "mail",
+    "template"
+  ],
+  "homepage": "https://github.com/justia/mail-template-builder#readme",
+  "bugs": {
+    "url": "https://github.com/justia/mail-template-builder/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justia/mail-template-builder.git"
   },
-  "keywords": [
-    "mail",
-    "template",
-    "builder",
-    "grunt",
-    "campaigns"
-  ],
-  "author": "Diego Miguel <digznav@gmail.com> (https://github.com/Digznav)",
   "license": "UNLICENSED",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/justia/mail-template-builder/issues"
+  "author": "Diego Miguel <digznav@gmail.com> (https://github.com/Digznav)",
+  "main": "lib/server.js",
+  "directories": {
+    "example": "examples"
   },
-  "homepage": "https://github.com/justia/mail-template-builder#readme",
+  "scripts": {
+    "start": "nps --config .npmscripts.js",
+    "test": "nps --config .npmscripts.js test"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.16.4",
+    "eyeglass": "^1.6.0",
+    "load-grunt-config": "0.19.2",
+    "months": "^2.0.0",
+    "nps": "^5.9.3",
+    "nps-utils": "^1.7.0",
+    "time-grunt": "^1.4.0"
+  },
   "devDependencies": {
-    "@justia/frontend-helpers": "0.7.0",
-    "babel-eslint": "^8.0.1",
-    "ejs": "^2.5.5",
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.0.0",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.4.0",
+    "@justia/frontend-helpers": "^1.0.0",
+    "@justia/maple-sass": "^3.3.0",
+    "autoprefixer": "^9.4.4",
+    "babel-eslint": "^9.0.0",
+    "bilberry": "^0.3.0",
+    "ejs": "^2.6.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.3",
     "eyeglass-image-dimensions": "0.2.2",
-    "grunt": "^0.4.5",
+    "grunt": "^1.0.3",
     "grunt-assemble": "0.6.3",
     "grunt-assemble-contextual": "^0.1.0",
     "grunt-contrib-clean": "^1.0.0",
@@ -51,47 +65,31 @@
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-imagemin": "^2.0.1",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-express": "1.4.1",
     "grunt-juice-email": "0.1.4",
-    "grunt-open": "0.2.3",
     "grunt-parallel": "^0.5.1",
     "grunt-postcss": "^0.9.0",
     "grunt-replace": "^1.0.1",
-    "grunt-sass": "^2.0.0",
+    "grunt-sass": "^3.0.2",
     "grunt-sftp-deploy": "0.2.5",
     "grunt-stylelint": "^0.9.0",
-    "handlebars-helpers": "^0.9.8",
-    "imagemin-mozjpeg": "^6.0.0",
+    "handlebars-helpers": "^0.10.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "ip": "^1.1.5",
     "jit-grunt": "^0.10.0",
-    "prettier": "^1.7.4",
-    "replace-in-file": "^2.5.0",
-    "sassy-maps": "github:at-import/Sassy-Maps#v0.4.0",
-    "stylelint": "^8.2.0",
-    "stylelint-config-sass-guidelines": "^3.1.0"
+    "node-sass": "^4.11.0",
+    "opn": "^5.4.0",
+    "prettier": "^1.15.3",
+    "replace-in-file": "^3.4.2",
+    "stylelint": "^8.4.0",
+    "stylelint-config-idiomatic-sass": "^1.0.0"
   },
-  "dependencies": {
-    "autoprefixer": "^7.1.1",
-    "chalk": "^2.1.0",
-    "cheerio": "^0.22.0",
-    "express": "^4.15.3",
-    "eyeglass": "^1.2.1",
-    "figures": "^2.0.0",
-    "git-promise": "^0.3.1",
-    "inquirer": "^3.0.6",
-    "load-grunt-config": "0.19.2",
-    "months": "^2.0.0",
-    "nps": "^5.7.1",
-    "nps-utils": "^1.5.0",
-    "openurl": "^1.1.1",
-    "semver": "^5.3.0",
-    "time-grunt": "^1.4.0"
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
   },
   "browserslist": [
     "last 1 version"
-  ],
-  "engines": {
-    "node": ">=7",
-    "npm": ">=5"
-  }
+  ]
 }
