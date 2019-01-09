@@ -11,7 +11,7 @@ $welcome-image--dimensions: image-dimensions('/src/img/spruce-up-2019-bg-01.png'
   background-color: plt('white');
 
   .head-img {
-    @include size(600px, 518px);
+    @include size(600px, 528px);
     background: url('../img/spruce-up-2019-bg-01.png');
     background-repeat: no-repeat;
     background-position: center top;
