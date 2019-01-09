@@ -2,43 +2,13 @@
 body,
 table,
 td,
-p,
-a,
-li,
-blockquote {
-  font-family: Arial, Helvetica, Verdana, sans-serif;
-  -ms-text-size-adjust: 100%;
+a {
   -webkit-text-size-adjust: 100%;
-}
-
-.thread-item.expanded .thread-body .body,
-.msg-body {
-  display: block !important;
-  width: 100% !important;
-}
-
-.ReadMsgBody,
-.ExternalClass {
-  width: 100%;
-  background-color: #f4f4f4;
-}
-
-.ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-  line-height: 100%;
-}
-
-table {
-  border-spacing: 0;
+  -ms-text-size-adjust: 100%;
 }
 
 table,
 td {
-  border-collapse: collapse;
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
 }
@@ -47,54 +17,149 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-img,
-a img {
+img {
+  max-width: 100%;
   border: 0;
   outline: none;
   text-decoration: none;
+  line-height: 100%;
 }
 
-.yshortcuts a {
-  border-bottom: none !important;
+table {
+  border-collapse: collapse !important;
 }
 
-.dark-blue {
-  color: #002e65;
+body {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.section-title {
-  display: block;
-  padding-bottom: 20px;
-  color: #002e65;
-  font-size: 20px;
-  font-weight: bold;
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  text-decoration: none !important;
+  line-height: inherit !important;
 }
 
-.divider {
-  display: block;
-  width: 100%;
-  height: 2px;
-  margin: 60px 0 30px;
-  background-color: #063478;
-}
-
-a[href^=tel],
-.mobile_link,
-.mobile_link a {
-  color: #176ed0 !important;
+.ios-links-black a {
+  color: #000000 !important;
   text-decoration: none !important;
 }
 
-.ios-links {
-  color: #176ed0;
-}
-
-.footer-container a {
+.ios-links-white a {
   color: #ffffff !important;
+  text-decoration: none !important;
 }
 
-@media only screen and (min-width: 601px) {
-  .email-container, .footer-container {
-    width: 600px !important;
+a[href^=tel] {
+  color: currentColor !important;
+  text-decoration: none !important;
+}
+
+div[style*='margin: 16px 0;'] {
+  margin: 0 !important;
+}
+
+.ExternalClass {
+  width: 100%;
+  line-height: 100%;
+}
+
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+@media screen {
+  [style*='font'] {
+    font-family: 'OpenSans', Arial, sans-serif !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .collapse-one {
+    display: block !important;
+    width: 100% !important;
+  }
+  .mobile-reset-width {
+    width: auto !important;
+  }
+  .mobile-reset-height {
+    height: auto !important;
+  }
+  .mobile-reset-bg-image {
+    background-image: none !important;
+  }
+  .mobile-hide {
+    display: none !important;
+  }
+  .mobile-align-center {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+  .mobile-fz-20 {
+    font-size: 20px !important;
+  }
+  .mobile-padding-top {
+    padding-top: 10px !important;
+  }
+  .mobile-padding-right {
+    padding-right: 10px !important;
+  }
+  .mobile-padding-bottom {
+    padding-bottom: 10px !important;
+  }
+  .mobile-padding-left {
+    padding-left: 10px !important;
+  }
+  .mobile-padding-horizontal-sides {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .mobile-padding-vertical-sides {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .mobile-padding-full {
+    padding: 10px !important;
+  }
+  .mobile-padding-uneven-top {
+    padding-top: 45px !important;
+  }
+  .mobile-padding-uneven-bottom {
+    padding-bottom: 45px !important;
+  }
+  .mobile-padding-uneven-full {
+    padding: 45px 10px !important;
+  }
+  .mobile-no-padding-top {
+    padding-top: 0 !important;
+  }
+  .mobile-no-padding-bottom {
+    padding-bottom: 0 !important;
+  }
+  .mobile-no-padding-horizontal-sides {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .mobile-no-float {
+    float: none !important;
+  }
+  .mobile-no-border {
+    border: 0 !important;
+  }
+  .justia-footer-v1 .logo {
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #00b3e3;
+  }
+  .justia-footer-v1 .social {
+    padding-top: 20px !important;
   }
 }
