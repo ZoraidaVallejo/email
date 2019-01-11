@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
-const $ = require('../scripts/helpers');
+const log = require('bilberry/log');
 
 const LINKS = {
   replace(data) {
@@ -111,7 +110,7 @@ const HELPERS = {
     fs.writeFileSync(filePath, ''); // RESETS FILE
     fs.writeFileSync(filePath, values, 'utf8');
 
-    $.log.success(`File saved: ${filename}`);
+    log.success(`File saved: ${filename}`);
   },
 
   combineArrays(arr1, arr2) {
@@ -141,35 +140,39 @@ const HELPERS = {
 };
 
 module.exports = grunt => {
-  grunt.registerMultiTask('spreadsheet', 'Get images and links attributes from HTML documents.', function spreadsheet() {
-    const done = this.async();
-    const { liveImgPath } = this.data.options;
+  grunt.registerMultiTask(
+    'spreadsheet',
+    'Get images and links attributes from HTML documents.',
+    function spreadsheet() {
+      const done = this.async();
+      const { liveImgPath } = this.data.options;
 
-    this.filesSrc.forEach(file => {
-      const filename = path.basename(file).replace('.html', '.csv');
-      const data = fs.readFileSync(file, 'utf8');
+      this.filesSrc.forEach(file => {
+        const filename = path.basename(file).replace('.html', '.csv');
+        const data = fs.readFileSync(file, 'utf8');
 
-      // Find links and their hrefs
-      let hrefs = LINKS.replace(data);
-      hrefs = HELPERS.removeDuplicates(hrefs);
-      hrefs = LINKS.format(hrefs);
+        // Find links and their hrefs
+        let hrefs = LINKS.replace(data);
+        hrefs = HELPERS.removeDuplicates(hrefs);
+        hrefs = LINKS.format(hrefs);
 
-      // Find images and their src and alts
-      const imageTags = IMAGES.getImageTags(data);
-      const imageSrcs = IMAGES.getAttr(imageTags, 'src');
-      const imageAlts = IMAGES.getAttr(imageTags, 'alt');
+        // Find images and their src and alts
+        const imageTags = IMAGES.getImageTags(data);
+        const imageSrcs = IMAGES.getAttr(imageTags, 'src');
+        const imageAlts = IMAGES.getAttr(imageTags, 'alt');
 
-      let imageAttr = HELPERS.combineArrays(imageSrcs, imageAlts);
-      imageAttr = HELPERS.removeDuplicates(imageAttr);
-      imageAttr = IMAGES.format(imageAttr, liveImgPath);
+        let imageAttr = HELPERS.combineArrays(imageSrcs, imageAlts);
+        imageAttr = HELPERS.removeDuplicates(imageAttr);
+        imageAttr = IMAGES.format(imageAttr, liveImgPath);
 
-      // Write files
-      HELPERS.writeCSV(`links-${filename}`, hrefs);
-      HELPERS.writeCSV(`images-${filename}`, imageAttr);
-    });
+        // Write files
+        HELPERS.writeCSV(`links-${filename}`, hrefs);
+        HELPERS.writeCSV(`images-${filename}`, imageAttr);
+      });
 
-    done();
-  });
+      done();
+    }
+  );
 
   return {
     csv: {

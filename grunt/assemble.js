@@ -1,5 +1,6 @@
-const cwd = process.cwd();
 const path = require('path');
+
+const cwd = process.cwd();
 
 module.exports = {
   options: {
@@ -13,7 +14,7 @@ module.exports = {
     contextual: {
       dest: './temp/'
     },
-    helpers: ['./scripts/handlebars-helpers.js', './node_modules/handlebars-helpers/lib/**/*.js'],
+    helpers: ['./lib/handlebars-helpers.js', './node_modules/handlebars-helpers/lib/**/*.js'],
     data: ['<%= paths.src %>/data/*.{json,yml}', 'custom-config.json'],
     flatten: true
   },
