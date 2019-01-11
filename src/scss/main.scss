@@ -15,11 +15,11 @@ $use-breakpoint: false;
 
 @import
   'justia-header-v2',
-  'justia-footer-v2';
+  'justia-footer-v2',
+  'ui-real-text-button';
 
 @import
-  'partials/resolution',
-  'partials/template-2';
+  'partials/resolution';
 
 @import
   'partials/other';

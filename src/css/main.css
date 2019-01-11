@@ -140,6 +140,7 @@ body {
   padding: 20px 30px;
   border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
+  background-color: #ffffff;
 }
 
 .justia-footer-v2 .logo-footernav table {
@@ -167,19 +168,12 @@ body {
 .justia-footer-v2 .logo-footernav .footernav span,
 .justia-footer-v2 .logo-footernav .footernav a {
   color: #06357a;
+  font: 14px/1.38 Arial, sans-serif !important;
+  white-space: nowrap;
 }
 
 .justia-footer-v2 .logo-footernav .footernav .vline {
   margin: 0 10px;
-}
-
-.justia-footer-v2 .disclaimer p,
-.justia-footer-v2 .address p,
-.justia-footer-v2 .footernav p,
-.justia-footer-v2 span,
-.justia-footer-v2 a {
-  font: 14px/1.38 Arial, sans-serif !important;
-  white-space: nowrap;
 }
 
 .justia-footer-v2 .social {
@@ -190,7 +184,7 @@ body {
 }
 
 .justia-footer-v2 .social table {
-  width: 176px;
+  width: 140px;
   margin: 0 auto;
 }
 
@@ -220,6 +214,10 @@ body {
   text-align: center;
 }
 
+.justia-footer-v2 .disclaimer p {
+  font: 14px/1.38 Arial, sans-serif !important;
+}
+
 .justia-footer-v2 .address {
   padding: 0 30px 120px;
   text-align: center;
@@ -229,6 +227,7 @@ body {
 .justia-footer-v2 .address span,
 .justia-footer-v2 .address a {
   color: #000000;
+  font: 400 14px/1.38 Arial, sans-serif !important;
 }
 
 .justia-footer-v2 .address .justia-inline {
@@ -236,65 +235,62 @@ body {
   text-transform: uppercase;
 }
 
-.template-1 .description {
-  overflow: hidden;
-  width: 600px;
-  max-width: 600px !important;
-  background-color: #4c6b97;
-  border-collapse: collapse !important;
+.ui-real-text-button {
+  width: 125px;
+  height: 30px;
+  border: 1px solid #00b3e3;
+  border-radius: 3px;
+  text-align: left;
+  border-collapse: separate !important;
 }
 
-.template-1 .dvbg {
-  width: 600px;
-  height: 736px;
-  padding: 0;
-  background: url("../img/template1-background-01.png");
-  background-color: #4c6b97;
-  background-repeat: no-repeat !important;
-  background-size: 600px 736px;
-  vertical-align: top;
+.ui-real-text-button a {
+  display: block;
+  padding: 7px 0;
+  color: #00b3e3;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none !important;
 }
 
-.template-1 .inner-content {
-  width: 600px;
+.ui-real-text-button .wrapper {
+  color: #00b3e3;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.template-1 .inner-content p,
-.template-1 .inner-content a,
-.template-1 .inner-content strong {
+.-white .ui-real-text-button {
+  border: 1px solid #ffffff;
+}
+
+.-white .ui-real-text-button a {
   color: #ffffff;
 }
 
-.template-1 .inner-content td {
-  width: 100%;
-  text-align: center;
+.-white .ui-real-text-button .wrapper {
+  color: #ffffff;
 }
 
-.template-1 .block-1 {
-  padding: 50px 67px 295px;
+.-red .ui-real-text-button {
+  border: 1px solid #e2231a;
+  background-color: #e2231a;
 }
 
-.template-1 .block-1 .image {
-  width: 465.5px;
-  height: 164px;
-  margin: 0 auto;
-  Margin: 0 auto;
+.-red .ui-real-text-button a {
+  color: #ffffff;
+  font-weight: 700;
 }
 
-.template-1 .block-2 {
-  padding: 0 30px 20px;
-  text-align: left;
+.-red .ui-real-text-button .wrapper {
+  color: #ffffff;
+  font-weight: 700;
 }
 
-.template-1 .block-2 p {
-  text-align: left;
+.-large .ui-real-text-button {
+  width: 187.5px;
 }
 
-.template-1 .contactus .phone a {
-  color: #ffffff !important;
-}
-
-.template-2 .description {
+.resolution-blast .description {
   overflow: hidden;
   width: 600px;
   max-width: 600px !important;
@@ -302,30 +298,135 @@ body {
   border-collapse: collapse !important;
 }
 
-.template-2 .description td {
-  width: 100%;
-}
-
-.template-2 .description .image {
+.resolution-blast .dvbg {
   width: 600px;
-  height: 300px;
-  margin: 0 auto;
-  Margin: 0 auto;
+  height: 513px;
+  padding: 0;
+  background: url("../img/resolution-background-01.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat !important;
+  background-size: 600px 519px;
+  vertical-align: top;
 }
 
-.template-2 .block-2 {
-  padding: 25px 30px 40px;
+.resolution-blast .main-title {
+  padding: 31px 30px 0;
   text-align: center;
 }
 
-.template-2 .block-2 p {
-  font: 14px/1.5 Arial, sans-serif !important;
+.resolution-blast .main-title p {
+  color: #06357a;
+  font: 34px/1.2 'Open Sans' !important;
 }
 
-.template-2 .block-3,
-.template-2 .block-4,
-.template-2 .block-5 {
-  padding: 0 30px 25px;
+.resolution-blast .subtitle {
+  padding: 0 75px 45px;
+  text-align: center;
+}
+
+.resolution-blast .subtitle p {
+  color: #06357a;
+  font: 18px/1.45 Arial, sans-serif !important;
+}
+
+.resolution-blast .button {
+  padding: 40px 30px 33px;
+  text-align: center;
+}
+
+.resolution-blast .ui-real-text-button {
+  width: 280px;
+  height: 47px;
+  border: 1px solid #ff8313;
+  background-color: #ff8313;
+  text-align: center;
+}
+
+.resolution-blast .ui-real-text-button a {
+  padding: 14px 0;
+  color: #ffffff;
+}
+
+.resolution-blast .ui-real-text-button a span {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.resolution-blast .ui-real-text-button .wrapper {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.resolution-blast .contactus {
+  padding: 0 30px 34px;
+}
+
+.resolution-blast .contactus .phone a {
+  color: #06357a !important;
+}
+
+.resolution-blast .main-list {
+  padding: 0;
+  vertical-align: top;
+}
+
+.resolution-blast .main-list .wrapper {
+  padding: 0 30px;
+}
+
+.resolution-blast .main-list .thumb {
+  width: 150px;
+  padding: 50px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.resolution-blast .main-list .thumb img {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.resolution-blast .main-list .text {
+  width: 365px;
+  padding: 50px 0 50px 25px;
+  vertical-align: middle;
+}
+
+.resolution-blast .main-list .text .title {
+  padding: 0 0 6px;
+  color: #06357a;
+}
+
+.resolution-blast .main-list .text .title p {
+  font: 18px/1.38 Arial, sans-serif;
+}
+
+.resolution-blast .main-list > table {
+  width: 100%;
+}
+
+.resolution-blast .main-list > table:nth-child(odd) .wrapper {
+  background-color: #f6fcff;
+}
+
+.resolution-blast .main-list > table:nth-child(even) .text {
+  padding: 50px 25px 50px 0;
+}
+
+.resolution-blast .last-part {
+  padding: 25px 30px 35px;
+  border-top: 1px solid #dddddd;
+  background-color: #f4f4f4;
+}
+
+.resolution-blast .last-part p {
+  font: 14px/1.7 Arial, sans-serif !important;
+}
+
+.resolution-blast .last-part a {
+  color: #000000 !important;
 }
 
 .align-center {

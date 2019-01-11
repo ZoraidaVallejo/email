@@ -1,10 +1,9 @@
 
 // ----------------------------------------------------------------------------------------------------------
-// T E M P L A T E   1
+// R E S O L U T I O N   B L A S T
 // ----------------------------------------------------------------------------------------------------------
 
-$template1-background--dimensions: image-dimensions('/src/img/template1-background-01.png');
-$template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.png');
+$resolution-background--dimensions: image-dimensions('/src/img/resolution-background-01.png');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -14,64 +13,139 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
     overflow: hidden;
     width: $max-width;
     max-width: $max-width !important;
-    background-color: #4c6b97;
+    background-color: plt('white');
     border-collapse: collapse !important;
   }
 
   .dvbg {
-    width: nth($template1-background--dimensions, 1);
-    height: nth($template1-background--dimensions, 2);
+    width: 600px;
+    height: 513px;
     padding: 0;
-    background: url('../img/template1-background-01.png');
-    background-color: #4c6b97;
+    background: url('../img/resolution-background-01.png');
+    background-color: plt('white');
     background-repeat: no-repeat !important;
-    background-size: $template1-background--dimensions;
+    background-size: $resolution-background--dimensions;
     vertical-align: top;
   }
 
-  .inner-content {
-    width: $max-width;
-
-    p,
-    a,
-    strong {
-      color: plt('white');
-    }
-
-    td {
-      width: 100%;
-      text-align: center;
-    }
-  }
-
-  .block-1 {
-    padding: 50px 67px 295px;
-
-    .image {
-      width: nth($template1-image-01--dimensions, 1) / 2;
-      height: nth($template1-image-01--dimensions, 2) / 2;
-      margin: 0 auto;
-      // stylelint-disable-next-line declaration-block-no-duplicate-properties
-      Margin: 0 auto;
-    }
-  }
-
-  .block-2 {
-    padding: 0 $padding 20px;
-    text-align: left;
+  .main-title {
+    padding: 31px $padding 0;
+    text-align: center;
 
     p {
-      text-align: left;
+      color: plt('justia-blue');
+      font: 34px/1.2 'Open Sans' !important;
+    }
+  }
+
+  .subtitle {
+    padding: 0 75px 45px;
+    text-align: center;
+
+    p {
+      color: plt('justia-blue');
+      font: 18px/1.45 $sans-serif-font-family !important;
+    }
+  }
+
+  .button {
+    padding: 40px $padding 33px;
+    text-align: center;
+  }
+
+  .ui-real-text-button {
+    @include size(280px, 47px);
+    border: 1px solid #ff8313;
+    background-color: #ff8313;
+    text-align: center;
+
+    a {
+      padding: floor((47px - 18px) / 2) 0;
+      color: plt('white');
+
+      span {
+        color: plt('white');
+        font-weight: tp('weight', 'bold');
+      }
+    }
+
+    .wrapper {
+      color: plt('white');
+      font-weight: tp('weight', 'bold');
+      font-size: 18px;
     }
   }
 
   .contactus {
+    padding: 0 $padding 34px;
 
     .phone {
 
       a {
-        color: plt('white') !important;
+        color: plt('justia-blue') !important;
       }
+    }
+  }
+
+  .main-list {
+    padding: 0;
+    vertical-align: top;
+
+    .wrapper {
+      padding: 0 $padding;
+    }
+
+    .thumb {
+      width: 150px;
+      padding: 50px 0;
+      text-align: left;
+      vertical-align: top;
+
+      img {
+        @include size(150px);
+        display: block;
+      }
+    }
+
+    .text {
+      width: ($inner-max-width - 150px - 25px);
+      padding: 50px 0 50px 25px;
+      vertical-align: middle;
+
+      .title {
+        padding: 0 0 6px;
+        color: plt('justia-blue');
+
+        p {
+          font: 18px/1.38 $sans-serif-font-family;
+        }
+      }
+    }
+
+    > table {
+      width: 100%;
+
+      &:nth-child(odd) .wrapper {
+        background-color: #f6fcff;
+      }
+
+      &:nth-child(even) .text {
+        padding: 50px 25px 50px 0;
+      }
+    }
+  }
+
+  .last-part {
+    padding: 25px $padding 35px;
+    border-top: 1px solid #dddddd;
+    background-color: plt('wild-sand');
+
+    p {
+      font: 14px/1.7 $sans-serif-font-family !important;
+    }
+
+    a {
+      color: plt('black') !important;
     }
   }
 }
