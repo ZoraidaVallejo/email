@@ -3,8 +3,8 @@
 // J U S T I A   H E A D E R   V 1
 // ----------------------------------------------------------------------------------------------------------
 
-$header-log-v1-width: 235px;
-$header-logo-v1-height: 33px;
+$header-logo-v1-width: 235px !default;
+$header-logo-v1-height: 33px !default;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ $header-logo-v1-height: 33px;
   .logo {
 
     img {
-      width: $header-log-v1-width;
+      width: $header-logo-v1-width;
       max-width: 87%;
       margin: 0;
     }
