@@ -372,6 +372,60 @@ body {
   text-decoration: none;
 }
 
+.ui-real-text-button {
+  width: 125px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #00b3e3;
+  border-collapse: separate !important;
+  text-align: left;
+}
+
+.ui-real-text-button a {
+  display: block;
+  padding: 7px 0;
+  color: #00b3e3;
+  text-align: center;
+  line-height: 1;
+}
+
+.ui-real-text-button .wrapper {
+  color: #00b3e3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.-white .ui-real-text-button {
+  border: 1px solid #ffffff;
+}
+
+.-white .ui-real-text-button a {
+  color: #ffffff;
+}
+
+.-white .ui-real-text-button .wrapper {
+  color: #ffffff;
+}
+
+.-red .ui-real-text-button {
+  border: 1px solid #e2231a;
+  background-color: #e2231a;
+}
+
+.-red .ui-real-text-button a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.-red .ui-real-text-button .wrapper {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.-large .ui-real-text-button {
+  width: 187.5px;
+}
+
 .ui-label-divider {
   width: 100%;
   margin: 0 auto;
@@ -584,6 +638,10 @@ body {
 }
 
 .w-stories-list .main-story-list--last {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list .main-story-button {
   padding: 0 30px 45px;
 }
 

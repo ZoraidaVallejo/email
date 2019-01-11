@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #ffffff; }
 
-/* stylelint-disable selector-class-pattern */
 .preview-interface-view body {
   background: #ffffff;
   color: #333333;
@@ -164,6 +163,9 @@ body {
 .welcome-view p {
   padding: 0;
   margin: 0; }
+
+.welcome-view im {
+  color: plt("white"); }
 
 .welcome-view .wrapper {
   display: table;
