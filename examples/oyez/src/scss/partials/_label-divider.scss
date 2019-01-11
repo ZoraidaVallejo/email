@@ -12,9 +12,9 @@
 
   p {
     color: plt('black');
-    font-family: $sans-serif-font-family;
-    font-size: 22px;
     font-weight: tp('weight', 'bold');
+    font-size: 22px;
     line-height: 22px;
+    font-family: $sans-serif-font-family;
   }
 }

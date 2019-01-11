@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #ffffff; }
 
-/* stylelint-disable selector-class-pattern */
 .preview-interface-view body {
   background: #ffffff;
   color: #333333;
