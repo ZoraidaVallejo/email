@@ -15,9 +15,9 @@ body {
 .main-content {
   padding: 0 $padding;
   background-color: plt('white');
-  font-family: $serif-font-family;
   font-size: 12pt;
   line-height: 1.4;
+  font-family: $serif-font-family;
 
   &:last-child {
     padding-bottom: 50px;
@@ -95,8 +95,8 @@ table {
   th {
     padding: 7px 10px;
     border: 1px solid plt('mercury');
-    font-family: $serif-font-family;
     line-height: 1.1;
+    font-family: $serif-font-family;
     border-collapse: collapse;
   }
 
