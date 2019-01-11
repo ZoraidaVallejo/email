@@ -1,7 +1,7 @@
-/* stylelint-disable selector-class-pattern */
+// stylelint-disable selector-class-pattern
 
 .preview-interface-view {
-  
+
   // Basic elements
   body {
     background: #ffffff;
@@ -89,7 +89,7 @@
     width: 363px;
     height: 711px;
     margin: 20px auto 0;
-    background: transparent url('../src/img/phone.png') no-repeat 50% 0;
+    background: transparent url('../img/phone.png') no-repeat 50% 0;
     background-size: 363px 711px;
     text-align: left;
   }
@@ -103,7 +103,7 @@
     height: 40px;
     cursor: pointer;
   }
-  
+
   // Layout elemnts when mobile drawer is hidden
   .mobile-drawer-hidden {
 
@@ -125,7 +125,7 @@
   .toggle-drawer-open {
     z-index: -1;
     opacity: 0;
-    background: transparent url('../src/img/phone-icon.png') no-repeat 50% 50%;
+    background: transparent url('../img/phone-icon.png') no-repeat 50% 50%;
     background-size: 40px 40px;
     transition: all $drawer-animation-duration ease-in-out;
   }
@@ -141,7 +141,7 @@
       }
     }
   }
-  
+
   // Drawer close toggle (x)
   .toggle-drawer-close {
     z-index: 1;

@@ -4,11 +4,11 @@
   },
   "extends": [
     "airbnb",
-    "prettier",
     "plugin:node/recommended",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier", "node", "promise"],
+  "plugins": ["node", "promise", "prettier"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2017,
@@ -23,8 +23,23 @@
     "node": true
   },
   "rules": {
+    "indent": "off",
     "no-var": "off",
     "promise/avoid-new": "off",
-    "semi": ["error", "always"]
+    "semi": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "singleQuote": true,
+        "parser": "flow"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["Gruntfile.js", "grunt/*.js"]
+      }
+    ]
   }
 }
