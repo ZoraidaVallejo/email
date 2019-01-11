@@ -22,18 +22,18 @@ h1,
 h2,
 h4 {
   margin: 0;
-  font-family: $sans-serif-font-family;
   font-weight: tp('weight', 'normal');
+  font-family: $sans-serif-font-family;
 }
 
 p,
 ol,
 ul {
   margin: 0;
-  font-family: $sans-serif-font-family;
-  font-size: 16px;
   font-weight: tp('weight', 'normal');
+  font-size: 16px;
   line-height: 22px;
+  font-family: $sans-serif-font-family;
 }
 
 a {
