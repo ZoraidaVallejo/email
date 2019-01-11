@@ -1,0 +1,86 @@
+// ----------------------------------------------------------------------------------------------------------
+// J O B S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$jobs-location-pin-dimensions: 10px 16px;
+
+$button-jobs-listing-settings: (
+  'width': 109px,
+  'height': 35px,
+  'font-size': 12px
+);
+
+$button-jobs-listing-padding: floor((map-get($button-jobs-listing-settings, 'height') - map-get($button-jobs-listing-settings, 'font-size')) / 2);
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-jobs {
+  border-bottom: 1px solid plt('gallery');
+  background-color: plt('white');
+
+  .jobs-general-desc {
+    padding: 0 $padding 35px;
+  }
+}
+
+.jobs-listing {
+  padding: 0 $padding 40px;
+
+  .location-title {
+    padding: 0 0 14px;
+    border-bottom: 1px solid plt('justia-blue');
+    color: plt('justia-blue');
+    font: 18px/1 $sans-serif-font-family;
+
+    td {
+      vertical-align: top;
+    }
+
+    .pin {
+      width: 20px;
+      padding: 2px 0 0;
+
+      img {
+        @include size($jobs-location-pin-dimensions...);
+      }
+    }
+  }
+
+  .location-jobs {
+
+    tr {
+      border-bottom: 1px solid plt('alto');
+    }
+  }
+
+  .job-info {
+    width: $inner-max-width - map-get($button-jobs-listing-settings, 'width') - 10px;
+    padding: 25px 10px 25px 0;
+
+    .job-title {
+      color: plt('justia-blue');
+    }
+
+    .company {
+      color: plt('dove-gray');
+    }
+  }
+
+  .job-details-btn {
+    width: map-get($button-jobs-listing-settings, 'width') + 10px;
+    padding: 25px 0;
+  }
+
+  .ui-real-text-button {
+    width: map-get($button-jobs-listing-settings, 'width');
+    height: map-get($button-jobs-listing-settings, 'height');
+
+    a {
+      padding: $button-jobs-listing-padding 0;
+    }
+
+    .wrapper {
+      font-size: map-get($button-jobs-listing-settings, 'font-size');
+    }
+  }
+}
