@@ -316,7 +316,7 @@ body {
 
 .resolution-blast .main-title p {
   color: #06357a;
-  font: 34px/1.2 'Open Sans' !important;
+  font: 34px/1.2 Arial, sans-serif !important;
 }
 
 .resolution-blast .subtitle {
@@ -375,6 +375,10 @@ body {
   padding: 0 30px;
 }
 
+.resolution-blast .main-list .wrapper > a {
+  color: #000000;
+}
+
 .resolution-blast .main-list .thumb {
   width: 150px;
   padding: 50px 0;
@@ -400,7 +404,7 @@ body {
 }
 
 .resolution-blast .main-list .text .title p {
-  font: 18px/1.38 Arial, sans-serif;
+  font: 18px/1.38 Arial, sans-serif !important;
 }
 
 .resolution-blast .main-list > table {

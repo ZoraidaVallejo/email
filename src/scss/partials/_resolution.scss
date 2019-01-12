@@ -34,7 +34,7 @@ $resolution-background--dimensions: image-dimensions('/src/img/resolution-backgr
 
     p {
       color: plt('justia-blue');
-      font: 34px/1.2 'Open Sans' !important;
+      font: 34px/1.2 $sans-serif-font-family !important;
     }
   }
 
@@ -93,6 +93,10 @@ $resolution-background--dimensions: image-dimensions('/src/img/resolution-backgr
 
     .wrapper {
       padding: 0 $padding;
+
+      > a {
+        color: plt('black');
+      }
     }
 
     .thumb {
@@ -117,7 +121,7 @@ $resolution-background--dimensions: image-dimensions('/src/img/resolution-backgr
         color: plt('justia-blue');
 
         p {
-          font: 18px/1.38 $sans-serif-font-family;
+          font: 18px/1.38 $sans-serif-font-family !important;
         }
       }
     }
