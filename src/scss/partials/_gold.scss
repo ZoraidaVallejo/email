@@ -1,0 +1,42 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// G O L D   M E M B E R S H I P
+// ----------------------------------------------------------------------------------------------------------
+
+$gold-mainimage--dimensions: image-dimensions('/src/img/gold-main-image-01.png');
+
+// ----------------------------------------------------------------------------------------------------------
+
+.gold {
+
+  .main-image {
+    padding: 0;
+    border-top: 1px solid plt('gainsboro');
+
+    img {
+      width: nth($gold-mainimage--dimensions, 1) / 1.5;
+      height: nth($gold-mainimage--dimensions, 2) / 1.5;
+    }
+  }
+
+  .large-text {
+
+    p,
+    a {
+      font-size: 18px;;
+    }
+  }
+
+  .intro-text {
+    padding-top: 35px;
+    padding-bottom: 13px;
+
+    a {
+      color: plt('black');
+    }
+  }
+
+  .btn {
+    padding-top: 0;
+  }
+}

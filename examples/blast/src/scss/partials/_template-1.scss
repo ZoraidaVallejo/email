@@ -18,7 +18,7 @@ $template1-image-01--dimensions: image-dimensions('/src/img/template1-desc-01.pn
     border-collapse: collapse !important;
   }
 
-  .dvbg {
+  .main-content {
     width: nth($template1-background--dimensions, 1);
     height: nth($template1-background--dimensions, 2);
     padding: 0;
