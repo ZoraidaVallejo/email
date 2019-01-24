@@ -10,6 +10,9 @@ $use-breakpoint: false;
   'modules/mixins';
 
 @import
+  'ui-real-text-button';
+
+@import
   'partials/global',
   'partials/main-container';
 
@@ -19,7 +22,8 @@ $use-breakpoint: false;
 
 @import
   'partials/template-1',
-  'partials/template-2';
+  'partials/template-2',
+  'partials/template-3';
 
 @import
   'partials/other';
