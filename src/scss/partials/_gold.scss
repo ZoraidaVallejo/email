@@ -22,8 +22,9 @@ $gold-mainimage--dimensions: image-dimensions('/src/img/gold-main-image-01.png')
   .large-text {
 
     p,
-    a {
-      font-size: 18px;;
+    a,
+    strong {
+      font-size: 23px !important;
     }
   }
 

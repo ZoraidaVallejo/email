@@ -28,6 +28,12 @@ $platinum-button-padding: floor((map-get($platinum-button-settings, 'height') - 
     td {
       width: 100%;
     }
+
+    p,
+    strong,
+    a {
+      font-size: 21px !important;
+    }
   }
 
   .main-image {
@@ -145,7 +151,7 @@ $platinum-button-padding: floor((map-get($platinum-button-settings, 'height') - 
     text-align: left;
 
     p {
-      font-size: 14px !important;
+      font-size: 19px !important;
     }
 
     a {

@@ -304,6 +304,15 @@ body {
   width: 100%;
 }
 
+.platinum .description p,
+.platinum .description strong,
+.platinum .description a,
+.gold .description p,
+.gold .description strong,
+.gold .description a {
+  font-size: 21px !important;
+}
+
 .platinum .main-image,
 .gold .main-image {
   padding-bottom: 12px;
@@ -436,7 +445,7 @@ body {
 
 .platinum .learn-more p,
 .gold .learn-more p {
-  font-size: 14px !important;
+  font-size: 19px !important;
 }
 
 .platinum .learn-more a,
@@ -455,8 +464,9 @@ body {
 }
 
 .gold .large-text p,
-.gold .large-text a {
-  font-size: 18px;
+.gold .large-text a,
+.gold .large-text strong {
+  font-size: 23px !important;
 }
 
 .gold .intro-text {
