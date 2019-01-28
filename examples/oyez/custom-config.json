@@ -5,7 +5,6 @@
   "justaticVersion": "1",
   "currentYear": "0000",
   "currentMonth": "00",
-
   "paths": {
     "src": "src",
     "srcImg": "src/img",
@@ -15,6 +14,5 @@
     "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/oyez/newsletter/<%= currentYear %>/<%= currentMonth %>",
     "remoteImgPath": "/mnt/files/emails/images/oyez/newsletter/<%= currentYear %>/<%= currentMonth %>"
   },
-
   "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
 }

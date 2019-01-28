@@ -1,5 +1,7 @@
 {
-  "extends": ["stylelint-config-idiomatic-sass"],
+  "extends": [
+    "stylelint-config-idiomatic-sass"
+  ],
   "rules": {
     "max-nesting-depth": 5,
     "property-no-unknown": [
