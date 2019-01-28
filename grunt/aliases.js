@@ -1,13 +1,9 @@
 module.exports = (grunt, { conversionType }) => {
   // BLAST configuration
-  let buildAlias = [conversionType, 'replace:liveImages'];
-
-  if (conversionType !== 'proposal') {
-    buildAlias = buildAlias.concat(['spreadsheet']);
-  }
+  let buildAlias = [conversionType, 'replace:liveImages', 'spreadsheet'];
 
   // Newsletter configuration overwrite
-  if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
+  if (conversionType === 'newsletter') {
     buildAlias = buildAlias.concat(['replace:shortenClasses', 'htmlmin']);
   }
 
@@ -23,10 +19,6 @@ module.exports = (grunt, { conversionType }) => {
     newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
     blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
-
-    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:srcImages'],
-
-    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
 
     serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
 

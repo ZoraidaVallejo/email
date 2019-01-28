@@ -30,27 +30,20 @@ const linterTasks = workflowVersion === 2 ? npsSeries('json.format.data', 'sass.
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
 const stylelint = 'stylelint --syntax scss';
-const sassPatterns = [
-  'common/**/*.scss',
-  'src/scss/**/*.scss',
-  '!src/scss/preserve.scss'
-];
+const sassPatterns = ['common/**/*.scss', 'src/scss/**/*.scss', '!src/scss/preserve.scss'];
 
 module.exports = {
   scripts: {
+    default: 'grunt',
     test: 'node lib/test.js',
-
-    optim: 'imageoptim --verbose --directory ./src/img',
-
     js: {
-      format: `${prettier} --single-quote --print-width=140 --parser=flow "**/*.js"`,
+      format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {
         default: `${eslint} || true`,
         fix: `${eslint} --fix`,
         strict: eslint
       }
     },
-
     sass: {
       format: `${stylelint} "${sassPatterns.join('" "')}" --fix`,
       lint: {
@@ -58,17 +51,14 @@ module.exports = {
         strict: `${stylelint} "${sassPatterns[0]}"`
       }
     },
-
     json: {
       format: {
-        default: `${prettier} --parser=json "*.json" "!custom-config.json"`,
-        data: `${prettier} --parser=json --print-width=999999 "custom-config.json" "src/data/*.json"`
+        default: `${prettier} --parser=json-stringify "**/*.json"`,
+        data: `${prettier} --parser=json-stringify "custom-config.json" "src/**/*.json"`
       }
     },
-
     build: serialize(linterTasks, 'grunt build'),
     publish: serialize(linterTasks, 'grunt publish'),
-
     bump: serialize(npsSeries('js.lint.strict'), 'bilberry bump')
   }
 };

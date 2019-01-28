@@ -2,7 +2,6 @@
 
 const chalk = require('chalk');
 const log = require('bilberry/log');
-const timeGrunt = require('time-grunt');
 const loadGruntConfig = require('load-grunt-config');
 
 const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
@@ -29,14 +28,8 @@ if (monthNum < 1 || monthNum > 12) {
 }
 
 module.exports = grunt => {
-  // Time how long tasks take. Can help when optimizing build times
-  timeGrunt(grunt);
-
   loadGruntConfig(grunt, {
     data: configuration,
-
-    // Time how long tasks take. Can help when optimizing build times
-    timeGrunt: true,
 
     // Load only needed packages when a task is called.
     jitGrunt: {
