@@ -1,6 +1,5 @@
 {
   "imageDirSrc": "../src/img",
-
   "header": {
     "logo": {
       "v1": {
@@ -24,7 +23,6 @@
       }
     }
   },
-
   "footer": {
     "logo": {
       "v1": {
@@ -46,7 +44,6 @@
       }
     }
   },
-
   "viewInBrowserUrl": "#",
   "unsubscribeUrl": "*|UNSUB|*"
 }
