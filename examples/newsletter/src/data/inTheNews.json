@@ -2,13 +2,19 @@
   "news": [
     {
       "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo."
+      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo.",
+      "button": {
+        "text": "Read More",
+        "link": "#"
+      }
     },
     {
       "logoName": "[alt logo name]",
-      "link": "#",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!"
+      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!",
+      "button": {
+        "text": "Read More",
+        "link": "#"
+      }
     }
   ]
 }
