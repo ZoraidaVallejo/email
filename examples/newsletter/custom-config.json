@@ -7,9 +7,9 @@
   "currentMonth": "00",
   "paths": {
     "src": "src",
-    "srcImg": "src/img",
+    "srcImg": "src/images",
     "dist": "dist",
-    "distImg": "dist/img",
+    "distImg": "dist/images",
     "preview": "preview",
     "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>",
     "remoteImgPath": "/mnt/files/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>"
