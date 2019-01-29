@@ -3,26 +3,38 @@
     "dateTime": "[date / time]",
     "typeLocation": "[type / location]",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "link": "#featured-link"
+    "button": {
+      "link": "#featured-link",
+      "text": "Read More"
+    }
   },
   "events": [
     {
       "dateTime": "[date / time]",
       "typeLocation": "[type / location]",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link1"
+      "button": {
+        "link": "#link1",
+        "text": "Read More"
+      }
     },
     {
       "dateTime": "[date / time]",
       "typeLocation": "[type / location]",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link2"
+      "button": {
+        "link": "#link2",
+        "text": "Read More"
+      }
     },
     {
       "dateTime": "[date / time]",
       "typeLocation": "[type / location]",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "link": "#link3"
+      "button": {
+        "link": "#link3",
+        "text": "Read More"
+      }
     }
   ]
 }
