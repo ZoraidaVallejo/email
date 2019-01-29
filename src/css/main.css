@@ -355,22 +355,6 @@ body {
   text-transform: uppercase;
 }
 
-.ui-button {
-  display: inline-block;
-}
-
-.ui-button img,
-.ui-button a {
-  display: block;
-  width: 120px;
-  height: 32px;
-  margin: 0;
-}
-
-.ui-button a {
-  text-decoration: none;
-}
-
 .ui-real-text-button {
   width: 125px;
   height: 30px;
@@ -849,17 +833,17 @@ body {
   vertical-align: top;
 }
 
-.w-in-the-news .clients-list table {
+.w-in-the-news .clients-list .client-block {
   width: 100%;
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-in-the-news .clients-list table:last-child {
+.w-in-the-news .clients-list .client-block:last-child {
   border-bottom: 0;
 }
 
-.w-in-the-news .clients-list table:last-child .news-logo,
-.w-in-the-news .clients-list table:last-child .news-desc {
+.w-in-the-news .clients-list .client-block:last-child .news-logo,
+.w-in-the-news .clients-list .client-block:last-child .news-desc {
   padding: 30px 0 0;
 }
 

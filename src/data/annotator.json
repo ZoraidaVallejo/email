@@ -10,5 +10,8 @@
     }
   ],
   "description": "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law.",
-  "buttonLink": "http://law.justia.com/annotations/"
+  "button": {
+    "link": "http://law.justia.com/annotations/",
+    "text": "Read More"
+  }
 }
