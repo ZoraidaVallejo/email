@@ -107,7 +107,7 @@ npm install
     ├── css/
     ├── data/
     ├── emails/
-    ├── images/
+    ├── img/
     ├── partials/
     └── scss/
         ├── modules/
@@ -185,7 +185,7 @@ Folder name | Description
 ----------- | -----------
 `data/` | Contain **.json** data files that can be used in your templates [More info](#data).
 `emails/` | Place where your main template(s) will go.
-`images/` | [More Info](#images)
+`img/` | [More Info](#images)
 `partials/` | [More info](#ui-components).
 `scss/modules/` | [More info](#scss-modules).
 `scss/partials/` | [More info](#scss-partials).
