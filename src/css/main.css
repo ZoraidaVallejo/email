@@ -163,7 +163,7 @@ body {
 }
 
 .justia-footer-v1 .logo-social .social table {
-  width: 176px !important;
+  width: 140px !important;
 }
 
 .justia-footer-v1 .logo-social .social table td {
@@ -226,24 +226,25 @@ body {
 .ui-real-text-button {
   width: 125px;
   height: 30px;
-  border-radius: 3px;
   border: 1px solid #00b3e3;
-  border-collapse: separate !important;
+  border-radius: 3px;
   text-align: left;
+  border-collapse: separate !important;
 }
 
 .ui-real-text-button a {
   display: block;
   padding: 7px 0;
   color: #00b3e3;
-  text-align: center;
   line-height: 1;
+  text-align: center;
+  text-decoration: none !important;
 }
 
 .ui-real-text-button .wrapper {
   color: #00b3e3;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .-white .ui-real-text-button {
@@ -408,6 +409,7 @@ body {
 
 .ui-columns-grid .grid-cell {
   width: 300px;
+  text-align: center;
 }
 
 .w-welcome {
@@ -699,17 +701,17 @@ body {
   vertical-align: top;
 }
 
-.w-in-the-news .clients-list table {
+.w-in-the-news .clients-list .client-block {
   width: 100%;
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-in-the-news .clients-list table:last-child {
+.w-in-the-news .clients-list .client-block:last-child {
   border-bottom: 0;
 }
 
-.w-in-the-news .clients-list table:last-child .news-logo,
-.w-in-the-news .clients-list table:last-child .news-desc {
+.w-in-the-news .clients-list .client-block:last-child .news-logo,
+.w-in-the-news .clients-list .client-block:last-child .news-desc {
   padding: 30px 0 0;
 }
 
@@ -928,7 +930,6 @@ body {
 
 .w-internet-stats {
   background-color: #fafafa;
-  /* stylelint-disable selector-no-qualifying-type */
 }
 
 .w-internet-stats .stats-title {
