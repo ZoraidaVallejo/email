@@ -165,14 +165,12 @@ These are the available UI components:
 
 - Button: `ui-button`
 - Responsive columns grid: `ui-column-grid`
-- Static columns grid: `ui-fixed-column-grid`
 - Labaled dividers: `ui-label-divider`
 - Image backgrounds for IE (The styles should be defined on a case by case basis): `ui-background`
 
 This folder also includes some IE hack.
 
 - Responsive centered layout: `ui-layout-hack`
-- Static centered layout: `ui-fixed-layout-hack`
 
 And you can include them the same way as the [handlebar partials](#handlebar-partials).
 
