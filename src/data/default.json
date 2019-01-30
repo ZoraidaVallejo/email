@@ -15,9 +15,10 @@
   },
   "header": {
     "logo": {
-      "path": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-      "alt": "Justia Insights",
-      "link": "https://www.justia.com/marketing/"
+      "link": {
+        "clients": "https://lawyers.justia.com/premium-placement",
+        "jld": "https://www.justia.com/marketing/"
+      }
     }
   },
   "footer": {

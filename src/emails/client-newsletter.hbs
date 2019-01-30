@@ -11,16 +11,11 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-header
-        logoPath=default.header.logo.path
-        logoAlt=default.header.logo.alt
-        logoLink=default.header.logo.link
-
-        setUtmVars=true
-        utmMedium=default.utm.medium
-        utmCampaign=default.utm.campaign
-        utmSource=default.utm.source.clients
-        utmContent=default.utm.content.header
+      {{> main-header
+        logoPath=logos.justia.lawyerProfileEssentials.path.blue
+        logoAlt=logos.justia.lawyerProfileEssentials.alt
+        logoLink=default.header.logo.link.clients
+        setUtmVars=false
       }}
     </td>
   </tr>

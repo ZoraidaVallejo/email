@@ -77,41 +77,41 @@ body {
   font: 400 29px/1.27 Arial, sans-serif;
 }
 
-.justia-header {
+.main-header {
   background: #ffffff;
 }
 
-.justia-header .logo-img {
+.main-header .logo-img {
   width: 235px;
   max-width: 87%;
   margin: 0;
 }
 
-.justia-header.-logo-only .wrapper {
+.main-header.-logo-only .wrapper {
   width: 100%;
   padding: 20px 30px 15px;
   text-align: center;
 }
 
-.justia-header.-with-date .wrapper {
+.main-header.-with-date .wrapper {
   padding: 15px 30px;
   vertical-align: middle;
 }
 
-.justia-header.-with-date .wrapper > table {
+.main-header.-with-date .wrapper > table {
   table-layout: fixed;
 }
 
-.justia-header.-with-date .logo {
+.main-header.-with-date .logo {
   width: 65%;
 }
 
-.justia-header.-with-date .date {
+.main-header.-with-date .date {
   width: 35%;
   text-align: right;
 }
 
-.justia-header.-with-date .date span {
+.main-header.-with-date .date span {
   display: block;
   color: #000000;
   font: 16px/1.25 Arial, sans-serif;

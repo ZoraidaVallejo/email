@@ -14,7 +14,7 @@ $settings: set('mail-header', (
 
 // ----------------------------------------------------------------------------------------------------------
 
-.justia-header {
+.main-header {
   background: get('mail-header.background');
 
   .logo-img {
@@ -25,7 +25,7 @@ $settings: set('mail-header', (
   }
 }
 
-.justia-header.-logo-only {
+.main-header.-logo-only {
 
   .wrapper {
     width: 100%;
@@ -34,7 +34,7 @@ $settings: set('mail-header', (
   }
 }
 
-.justia-header.-with-date {
+.main-header.-with-date {
 
   .wrapper {
     padding: ($padding / 2) $padding;
