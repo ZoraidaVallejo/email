@@ -14,15 +14,7 @@
             </td>
             <!-- footernav -->
             <td class="footernav" responsive="collapse-one mobile-align-center">
-              <p>
-                <a href="https://www.justia.com/marketing/" target="_blank" responsive="collapse-one mobile-padding-vertical-sides">Contact Us</a>
-                <!-- vline -->
-                <span class="vline" responsive="mobile-hide">|</span>
-                <a href="https://www.justia.com/marketing/privacy-policy/" target="_blank" responsive="collapse-one mobile-padding-vertical-sides">Privacy Policy</a>
-                <!-- vline -->
-                <span class="vline" responsive="mobile-hide">|</span>
-                <a href="{{{ default.unsubscribeUrl }}}" responsive="collapse-one mobile-padding-vertical-sides">Unsubscribe</a>
-              </p>
+              {{> footernav navItems=default.footer.navigation.items }}
             </td>
           </tr>
         </table>

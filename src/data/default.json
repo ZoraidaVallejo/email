@@ -1,6 +1,5 @@
 {
   "imageDirSrc": "../src/images",
-  "unsubscribeUrl": "*|UNSUB|*",
   "header": {
     "logo": {
       "link": {
@@ -44,6 +43,24 @@
         "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
         "alt": "Justia"
       }
+    },
+    "navigation": {
+      "items": [
+        {
+          "text": "Contact Us",
+          "link": "https://www.justia.com/marketing/",
+          "target": "_blank"
+        },
+        {
+          "text": "Privacy Policy",
+          "link": "https://www.justia.com/marketing/privacy-policy/",
+          "target": "_blank"
+        },
+        {
+          "text": "Unsubscribe",
+          "link": "*|UNSUB|*"
+        }
+      ]
     }
   }
 }

@@ -1,5 +1,7 @@
 {{!-- Set variables for footer --}}
-{{ assign 'topStripeRespClassesSocialOnTop' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border' }}
+{{!-- v1 === Social On Top --}}
+{{!-- v2 === Social Below --}}
+{{ assign 'topStripeRespClassesV1' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border' }}
 
 {{> ui-layout-hack tableStart=true }}
   <!-- main-footer {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}} set-max-width -->
@@ -13,7 +15,16 @@
   >
     <tr>
       <!-- top-stripe -->
-      <td class="top-stripe" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesSocialOnTop}}{{else}}mobile-padding-horizontal-sides{{/if}}">
+      <td class="top-stripe" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesV1}}{{else}}mobile-padding-horizontal-sides{{/if}}">
+        {{#unless socialOnTop }}{{> ui-spacer-hack }}{{/unless}}
+        <table align="center" border="0" cellpadding="0" cellspacing="0" {{#unless socialOnTop }}class="set-max-width"{{/unless}}>
+          <tr>
+            <!-- logo -->
+            <td class="logo" responsive="collapse-one {{#if socialOnTop }}logo{{else}}mobile-padding-bottom{{/if}}">
+              {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars responsiveClasses='mobile-align-center' }}
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>

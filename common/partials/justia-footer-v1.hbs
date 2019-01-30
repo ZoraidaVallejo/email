@@ -41,20 +41,7 @@
       <!-- footernav -->
       <td class="footernav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{> ui-spacer-hack }}
-        <p responsive="mobile-align-center">
-          <a responsive="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/" target="_blank">Contact Us</a>
-          <!-- vline -->
-          <span class="vline" responsive="mobile-hide">|</span>
-          <a responsive="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/privacy-policy/" target="_blank">Privacy Policy</a>
-          <!-- vline -->
-          <span class="vline" responsive="mobile-hide">|</span>
-          <a responsive="collapse-one mobile-padding-vertical-sides" href="{{{ default.unsubscribeUrl }}}">Unsubscribe</a>
-          {{!--
-          <!-- vline -->
-          <span class="vline" responsive="mobile-hide">|</span>
-          <a responsive="collapse-one mobile-padding-vertical-sides" href="{{default.viewInBrowserUrl}}" target="_blank">View in Browser</a>
-           --}}
-        </p>
+        {{> footernav navItems=default.footer.navigation.items responsiveClasses='mobile-align-center' }}
       </td>
     </tr>
   </table>
