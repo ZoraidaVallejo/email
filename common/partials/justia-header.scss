@@ -18,6 +18,7 @@ $settings: set('mail-header', (
   background: get('mail-header.background');
 
   .logo-img {
+    // display: block;
     width: get('mail-header.logo.width');
     max-width: get('mail-header.logo.max-width');
     margin: 0;

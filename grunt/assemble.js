@@ -15,7 +15,7 @@ module.exports = {
       dest: './temp/'
     },
     helpers: ['./lib/handlebars-helpers.js', './node_modules/handlebars-helpers/lib/**/*.js'],
-    data: ['<%= paths.src %>/data/*.{json,yml}', 'custom-config.json'],
+    data: ['common/data/*.json', '<%= paths.src %>/data/*.json', 'custom-config.json'],
     flatten: true
   },
   pages: {
