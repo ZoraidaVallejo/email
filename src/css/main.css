@@ -82,7 +82,7 @@ body {
 }
 
 .main-header .logo-img {
-  width: 235px;
+  display: block;
   max-width: 87%;
   margin: 0;
 }
@@ -91,6 +91,10 @@ body {
   width: 100%;
   padding: 20px 30px 15px;
   text-align: center;
+}
+
+.main-header.-logo-only .logo-img {
+  width: 500px;
 }
 
 .main-header.-with-date .wrapper {
@@ -104,6 +108,10 @@ body {
 
 .main-header.-with-date .logo {
   width: 65%;
+}
+
+.main-header.-with-date .logo-img {
+  width: 235px;
 }
 
 .main-header.-with-date .date {

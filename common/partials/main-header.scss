@@ -3,12 +3,34 @@
 // J U S T I A   H E A D E R
 // ----------------------------------------------------------------------------------------------------------
 
+$settings: set('mail-logos', (
+  'insights': (
+    'width': 235px,
+    'height': 33px,
+    'dims': 235px 33px
+  ),
+  'lawyerProfileEssentials': (
+    'width': 500px,
+    'height': 35px,
+    'dims': 500px 35px
+  ),
+  'legalJobs': (
+    'width': 308px,
+    'height': 37px,
+    'dims': 308px 37px
+  ),
+  'lawyerDirectory': (
+    'width': 390px,
+    'height': 35px,
+    'dims': 390px 35px
+  )
+));
+
 $settings: set('mail-header', (
   'background': plt('white'),
   'logo': (
     'width': 235px,
-    'height': 33px,
-    'max-width': 87%
+    'height': 33px
   )
 ));
 
@@ -18,9 +40,8 @@ $settings: set('mail-header', (
   background: get('mail-header.background');
 
   .logo-img {
-    // display: block;
-    width: get('mail-header.logo.width');
-    max-width: get('mail-header.logo.max-width');
+    display: block;
+    max-width: 87%;
     margin: 0;
   }
 }
@@ -31,6 +52,10 @@ $settings: set('mail-header', (
     width: 100%;
     padding: 20px $padding 15px;
     text-align: center;
+  }
+
+  .logo-img {
+    width: 500px;
   }
 }
 
@@ -47,6 +72,10 @@ $settings: set('mail-header', (
 
   .logo {
     width: 65%;
+  }
+
+  .logo-img {
+    width: 235px;
   }
 
   .date {
