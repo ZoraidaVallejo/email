@@ -1,0 +1,65 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N   F O O T E R
+// ----------------------------------------------------------------------------------------------------------
+
+$settings: set('mail-footer', (
+  'background': plt('white'),
+  'logo': (
+    'width': 235px,
+    'height': 33px
+  ),
+  'social-icons': (
+    'size': 32px,
+    'gap': 4px,
+    'total': 4
+  )
+));
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-footer {
+
+  .social-icons {
+    $_total: get('mail-footer.social-icons.total');
+    width: ((get('mail-footer.social-icons.size') * $_total) + (get('mail-footer.social-icons.gap') * ($_total - 1)));
+
+    .icon {
+      width: (get('mail-footer.social-icons.size') + get('mail-footer.social-icons.gap'));
+      height: get('mail-footer.social-icons.size');
+      text-align: left;
+      vertical-align: top;
+
+      &:last-child {
+        width: get('mail-footer.social-icons.size');
+      }
+    }
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+
+      img {
+        width: get('mail-footer.social-icons.size');
+        height: get('mail-footer.social-icons.size');
+      }
+    }
+  }
+}
+
+// v1
+.main-footer.-social-on-top {
+
+  .social-icons {
+    text-align: right;
+  }
+}
+
+// v3
+.main-footer.-social-below {
+
+  .social-icons {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
