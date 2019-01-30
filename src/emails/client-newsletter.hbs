@@ -11,7 +11,17 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-header-v1 clientsNewsletter=true }}
+      {{> justia-header
+        logoPath=default.header.logo.path
+        logoAlt=default.header.logo.alt
+        logoLink=default.header.logo.link
+
+        utmVariables=true
+        utmMedium=default.header.logo.utm.medium
+        utmCampaign=default.header.logo.utm.campaign
+        utmSource=default.header.logo.utm.source.clients
+        utmContent=default.header.logo.utm.content
+      }}
     </td>
   </tr>
 
@@ -81,7 +91,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-footer-v1 clientsNewsletter=true }}
+      {{> justia-footer-v3 clientsNewsletter=true }}
     </td>
   </tr>
 

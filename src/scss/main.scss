@@ -19,8 +19,9 @@ $use-breakpoint: false;
   'partials/main-container';
 
 @import
-  'justia-header-v1',
+  'justia-header',
   'justia-footer-v1',
+  'justia-footer-v3',
   'ui-real-text-button',
   'ui-label-divider',
   'ui-columns-grid';
