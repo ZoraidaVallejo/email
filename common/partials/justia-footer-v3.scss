@@ -76,11 +76,12 @@ $footer-v3-address-weight: tp('weight', 'normal') !default;
     padding: 20px $padding 10px;
     text-align: center;
 
-    table {
+    .social-icons {
       width: (($social-icons-v3--size * 4) + ($social-icons-v3--gap * 3));
       margin: 0 auto;
+      text-align: center;
 
-      td {
+      .icon {
         width: ($social-icons-v3--size + $social-icons-v3--gap);
         height: $social-icons-v3--size;
         text-align: left;

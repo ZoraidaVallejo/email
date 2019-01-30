@@ -48,10 +48,11 @@ $social-icons-v1--gap: 4px !default;
     .social {
       overflow: hidden;
 
-      table {
+      .social-icons {
         width: (($social-icons-v1--size * 4) + ($social-icons-v1--gap * 3)) !important;
+        text-align: right;
 
-        td {
+        .icon {
           width: ($social-icons-v1--size + $social-icons-v1--gap);
           height: $social-icons-v1--size;
           text-align: left;

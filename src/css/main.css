@@ -165,18 +165,19 @@ body {
   overflow: hidden;
 }
 
-.justia-footer-v1 .logo-social .social table {
+.justia-footer-v1 .logo-social .social .social-icons {
   width: 140px !important;
+  text-align: right;
 }
 
-.justia-footer-v1 .logo-social .social table td {
+.justia-footer-v1 .logo-social .social .social-icons .icon {
   width: 36px;
   height: 32px;
   text-align: left;
   vertical-align: top;
 }
 
-.justia-footer-v1 .logo-social .social table td:last-child {
+.justia-footer-v1 .logo-social .social .social-icons .icon:last-child {
   width: 32px;
 }
 
@@ -286,19 +287,20 @@ body {
   text-align: center;
 }
 
-.justia-footer-v3 .social table {
+.justia-footer-v3 .social .social-icons {
   width: 140px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.justia-footer-v3 .social table td {
+.justia-footer-v3 .social .social-icons .icon {
   width: 36px;
   height: 32px;
   text-align: left;
   vertical-align: top;
 }
 
-.justia-footer-v3 .social table td:last-child {
+.justia-footer-v3 .social .social-icons .icon:last-child {
   width: 32px;
 }
 
