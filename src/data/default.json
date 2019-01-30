@@ -1,23 +1,27 @@
 {
   "imageDirSrc": "../src/images",
   "unsubscribeUrl": "*|UNSUB|*",
-  "utm": {
-    "medium": "email",
-    "campaign": "<%= currentYear %>-<%= currentMonth %>",
-    "source": {
-      "clients": "client-newsletter",
-      "jld": "directory-newsletter"
-    },
-    "content": {
-      "header": "image-header-logo-1",
-      "footer": "image-footer-logo-1"
-    }
-  },
   "header": {
     "logo": {
       "link": {
-        "clients": "https://lawyers.justia.com/premium-placement",
-        "jld": "https://www.justia.com/marketing/"
+        "clients": {
+          "url": "https://lawyers.justia.com/premium-placement",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "client-newsletter",
+            "content": "image-header-logo-1"
+          }
+        },
+        "jld": {
+          "url": "https://www.justia.com/marketing/",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "directory-newsletter",
+            "content": "image-header-logo-1"
+          }
+        }
       }
     }
   },

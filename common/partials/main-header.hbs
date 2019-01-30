@@ -11,14 +11,7 @@
           <tr>
             <!-- logo -->
             <td class="logo">
-              {{> main-logo
-                source=logoPath alt=logoAlt link=logoLink
-                utmVars=setUtmVars
-                utmMedium=utmMedium
-                utmCampaign=utmCampaign
-                utmSource=utmSource
-                utmContent=utmContent
-              }}
+              {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars }}
             </td>
             {{default title "A"}}
             <!-- date -->
@@ -28,14 +21,7 @@
           </tr>
         </table>
         {{else}}
-        {{> main-logo
-          source=logoPath alt=logoAlt link=logoLink
-          utmVars=setUtmVars
-          utmMedium=utmMedium
-          utmCampaign=utmCampaign
-          utmSource=utmSource
-          utmContent=utmContent
-        }}
+        {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars }}
         {{/if}}
       </td>
     </tr>
