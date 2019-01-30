@@ -8,19 +8,43 @@
     <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
       <!-- widget-type-name -->
       <h4 class="widget-type-name">DID YOU KNOW?</h4>
-      {{#if didYouKnow.title }}
-        <!-- widget-main-title -->
-        <h2 class="widget-main-title"><a href="{{ didYouKnow.link }}" target="_blank">{{{ didYouKnow.title }}}</a></h2>
+      {{#if jldNewsletter }}
+        {{#if didYouKnow.jld.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title"><a href="{{ didYouKnow.jld.link }}" target="_blank">{{{ didYouKnow.jld.title }}}</a></h2>
+        {{/if}}
+      {{/if}}
+      {{#if clientsNewsletter }}
+        {{#if didYouKnow.clients.title }}
+          <!-- widget-main-title -->
+          <h2 class="widget-main-title"><a href="{{ didYouKnow.clients.link }}" target="_blank">{{{ didYouKnow.clients.title }}}</a></h2>
+        {{/if}}
       {{/if}}
     </td>
   </tr>
-
-  {{#each didYouKnow.description }}
+  {{#if jldNewsletter }}
+    {{#each didYouKnow.jld.description }}
+      <tr>
+        <!-- dyk-desc -->
+        <td class="dyk-desc" responsive="mobile-padding-horizontal-sides">
+          <p>{{{ this }}}</p>
+        </td>
+      </tr>
+    {{/each}}
     <tr>
-      <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
-      <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p>{{{ this }}}</p>
+      <td class="dyk-desc dyk-desc--last -white" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonText=didYouKnow.jld.button.text buttonLink=didYouKnow.jld.link }}
       </td>
     </tr>
-  {{/each}}
+  {{/if}}
+  {{#if clientsNewsletter }}
+    {{#each didYouKnow.clients.description }}
+      <tr>
+        <!-- dyk-desc {{#if @last }}dyk-desc--last{{/if}} -->
+        <td class="dyk-desc {{#if @last }}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <p>{{{ this }}}</p>
+        </td>
+      </tr>
+    {{/each}}
+  {{/if}}
 </table>

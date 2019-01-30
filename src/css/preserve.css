@@ -103,8 +103,17 @@ div[style*='margin: 16px 0;'] {
     margin: 0 auto !important;
     text-align: center !important;
   }
+  .mobile-fz-16 {
+    font-size: 16px !important;
+  }
+  .mobile-fz-18 {
+    font-size: 18px !important;
+  }
   .mobile-fz-20 {
     font-size: 20px !important;
+  }
+  .mobile-fz-25 {
+    font-size: 25px !important;
   }
   .mobile-padding-top {
     padding-top: 10px !important;

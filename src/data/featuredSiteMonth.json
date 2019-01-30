@@ -2,7 +2,7 @@
   "sites": [
     {
       "clientName": "Munday & Nathan",
-      "location": "Illinois",
+      "location": "Chicago, IL",
       "possessiveAdjective": "their",
       "domain": {
         "long": "https://www.mundayandnathan.com/",
@@ -10,21 +10,30 @@
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "Tolar Harrigan & Morris",
+      "location": "New Orleans, LA",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.nolaipa.com/",
+        "simple": "nolaipa.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
+      "clientName": "Gossman Law Firm",
+      "location": "Birmingham, AL",
       "possessiveAdjective": "[adj]",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.gossmanlaw.com/",
+        "simple": "gossmanlaw.com"
+      }
+    },
+    {
+      "clientName": "Riquelme & Wilson",
+      "location": "Bend, OR",
+      "possessiveAdjective": "[adj]",
+      "domain": {
+        "long": "https://www.centraloregondefense.com/",
+        "simple": "centraloregondefense.com"
       }
     }
   ]

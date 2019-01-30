@@ -3,7 +3,8 @@
 // T I P   O F   T H E   M O N T H   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-tip-month {
+.w-tip-month,
+.w-jobs-newsletter {
   background-color: plt('bright-green');
 
   .widget-type-name,
@@ -17,7 +18,8 @@
     text-decoration: none;
   }
 
-  .tip {
+  .tip,
+  .jobs {
 
     &-title {
       padding: 45px $padding 20px;
@@ -30,5 +32,20 @@
         padding: 0 $padding 45px;
       }
     }
+  }
+}
+
+.w-jobs-newsletter {
+  border-bottom: 1px solid darken(plt('alabaster'), 10);
+  background-color: plt('alabaster');
+
+  .widget-main-title,
+  .widget-main-title a {
+    color: plt('justia-blue');
+    font-weight: tp('weight', 'bold');
+  }
+
+  p {
+    color: plt('black');
   }
 }

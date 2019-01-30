@@ -561,13 +561,14 @@ body {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #eaa7ac;
 }
 
 .w-welcome .head-img {
   width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
+  height: 241px;
+  padding-top: 194px;
+  background: url("../img/welcome-clients-01.png");
   background-repeat: no-repeat;
 }
 
@@ -576,16 +577,35 @@ body {
 }
 
 .w-welcome--title h1 {
-  color: #ffffff;
+  color: #000000;
   font: 400 22px/1.3 Arial, sans-serif;
 }
 
 .w-welcome--message {
-  padding: 20px 30px 45px;
+  padding: 8px 30px;
+}
+
+.w-welcome--message.-first {
+  padding-top: 10px;
+}
+
+.w-welcome--message.-last {
+  padding-bottom: 45px;
 }
 
 .w-welcome--message p {
-  color: #ffffff;
+  color: #000000;
+}
+
+.w-welcome.-jld .head-img {
+  width: 600px;
+  height: 341px;
+  padding-top: 234px;
+  background: url("../img/welcome-jld-01.png");
+}
+
+.w-welcome.-jld .w-welcome--message.-last {
+  padding-bottom: 65px;
 }
 
 .w-stories-list {
@@ -785,31 +805,61 @@ body {
   background-color: #00af41;
 }
 
-.w-tip-month {
+.w-tip-month,
+.w-jobs-newsletter {
   background-color: #00af41;
 }
 
 .w-tip-month .widget-type-name,
 .w-tip-month .widget-main-title,
 .w-tip-month p,
-.w-tip-month a {
+.w-tip-month a,
+.w-jobs-newsletter .widget-type-name,
+.w-jobs-newsletter .widget-main-title,
+.w-jobs-newsletter p,
+.w-jobs-newsletter a {
   color: #ffffff;
 }
 
-.w-tip-month a {
+.w-tip-month a,
+.w-jobs-newsletter a {
   text-decoration: none;
 }
 
-.w-tip-month .tip-title {
+.w-tip-month .tip-title,
+.w-tip-month .jobs-title,
+.w-jobs-newsletter .tip-title,
+.w-jobs-newsletter .jobs-title {
   padding: 45px 30px 20px;
 }
 
-.w-tip-month .tip-desc {
+.w-tip-month .tip-desc,
+.w-tip-month .jobs-desc,
+.w-jobs-newsletter .tip-desc,
+.w-jobs-newsletter .jobs-desc {
   padding: 0 30px 15px;
 }
 
-.w-tip-month .tip-desc--last {
+.w-tip-month .tip-desc--last,
+.w-tip-month .jobs-desc--last,
+.w-jobs-newsletter .tip-desc--last,
+.w-jobs-newsletter .jobs-desc--last {
   padding: 0 30px 45px;
+}
+
+.w-jobs-newsletter {
+  border-bottom: 1px solid #e1e0e0;
+  background-color: #fafafa;
+}
+
+.w-jobs-newsletter .widget-main-title,
+.w-jobs-newsletter .widget-main-title a {
+  color: #06357a;
+  font-weight: 700;
+}
+
+.w-jobs-newsletter p {
+  color: #000000;
 }
 
 .w-in-the-news {
@@ -1065,15 +1115,209 @@ body {
 }
 
 .w-client-ad-01 {
-  background-color: #c0c0c0;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.w-client-ad-01 .ad-image {
+  width: 226px;
+  padding: 27px 0 0 34px;
+}
+
+.w-client-ad-01 .ad-image img,
+.w-client-ad-01 .ad-image a {
+  display: block;
+  width: 226px;
+}
+
+.w-client-ad-01 .ad-content {
+  width: 275px;
+  padding: 27px 23px 35px;
+}
+
+.w-client-ad-01 .ad-logo {
+  width: 275px;
+  padding: 0 5px 31px;
+}
+
+.w-client-ad-01 .ad-title {
+  padding-bottom: 23px;
+  color: #06357a;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.w-client-ad-01 .ad-title a {
+  color: currentColor;
+}
+
+.w-client-ad-01 .ad-text {
+  padding-bottom: 35px;
+  color: #06357a;
+  font-size: 18px;
+  text-align: left;
+}
+
+.w-client-ad-01 .ad-text a,
+.w-client-ad-01 .ad-text p {
+  color: currentColor;
+}
+
+.w-client-ad-01 .ui-real-text-button {
+  width: 180px;
+  height: 50px;
+}
+
+.w-client-ad-01 .ui-real-text-button a {
+  padding: 17px 0;
+}
+
+.w-client-ad-01 .ui-real-text-button .wrapper {
+  font-size: 16px;
+}
+
+.w-jld-ad-01,
+.w-jld-ad-02 {
+  background-color: #ffffff;
+}
+
+.w-jld-ad-01 .ad-logo,
+.w-jld-ad-02 .ad-logo {
+  padding: 40px 141px;
+}
+
+.w-jld-ad-01 .ad-title,
+.w-jld-ad-02 .ad-title {
+  padding-bottom: 26px;
+  color: #06357a;
+  font-size: 22px;
+}
+
+.w-jld-ad-01 .ad-title a,
+.w-jld-ad-01 .ad-title strong,
+.w-jld-ad-02 .ad-title a,
+.w-jld-ad-02 .ad-title strong {
+  color: currentColor;
+}
+
+.w-jld-ad-01 .ad-title strong,
+.w-jld-ad-02 .ad-title strong {
+  display: block;
+  font-size: 1.636363636em;
+}
+
+.w-jld-ad-01 .second-half,
+.w-jld-ad-02 .second-half {
+  width: 600px;
+  height: 170px;
+  padding: 0 30px;
+  background: #00b3e3 url("../img/jld-adname-background-01.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.w-jld-ad-01 .ad-third-half,
+.w-jld-ad-02 .ad-third-half {
+  background-color: #00b3e3;
+}
+
+.w-jld-ad-01 .button,
+.w-jld-ad-02 .button {
+  padding-top: 35px;
+}
+
+.w-jld-ad-01 .ui-real-text-button,
+.w-jld-ad-02 .ui-real-text-button {
+  float: none;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  Margin: 0 auto;
+}
+
+.w-jld-ad-01 .ui-real-text-button a,
+.w-jld-ad-02 .ui-real-text-button a {
+  padding: 16px 0;
+}
+
+.w-jld-ad-01 .ui-real-text-button .wrapper,
+.w-jld-ad-02 .ui-real-text-button .wrapper {
+  font-size: 18px;
+}
+
+.w-jld-ad-01 .ad-image,
+.w-jld-ad-02 .ad-image {
+  width: 210px;
+  padding-bottom: 15px;
+}
+
+.w-jld-ad-01 .ad-text,
+.w-jld-ad-02 .ad-text {
+  padding: 105px 0 0 30px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+
+.w-jld-ad-01 .ad-text strong,
+.w-jld-ad-02 .ad-text strong {
+  color: #ffffff;
+}
+
+.w-jld-ad-01 .ad-contacts,
+.w-jld-ad-02 .ad-contacts {
+  padding-top: 27px;
+  padding-bottom: 38px;
+  color: #ffffff;
 }
 
 .w-jld-ad-01 {
-  background-color: #c0c0c0;
+  border-bottom: 1px solid #e7e7e7;
 }
 
-.w-jld-ad-02 {
-  background-color: #c0c0c0;
+.w-jld-ad-01 .ad-title {
+  font-size: 26px;
+}
+
+.w-jld-ad-01 .ad-title strong {
+  font-size: 1.076923077em;
+  text-transform: uppercase;
+}
+
+.w-jld-ad-01 .ad-image {
+  width: 600px;
+}
+
+.w-jld-ad-01 .ad-image img {
+  width: 600px;
+}
+
+.w-jld-ad-01 .ad-text {
+  padding: 3px 30px 0;
+  color: #000000;
+  text-align: center;
+}
+
+.w-jld-ad-01 .ad-text strong {
+  color: #06357a;
+}
+
+.w-jld-ad-01 .ad-text a {
+  color: currentColor;
+}
+
+.w-jld-ad-01 .ad-contacts {
+  color: #000000;
+}
+
+.w-jld-ad-01 .ad-contacts a {
+  color: #000000;
+}
+
+.w-jld-ad-01 .ad-contacts strong {
+  color: #06357a;
 }
 
 .w-internet-stats {

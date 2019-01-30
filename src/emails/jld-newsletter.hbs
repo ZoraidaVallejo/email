@@ -29,6 +29,9 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{> featured-news jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
+        {{> jobs-newsletter }}
+
+      {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> featured-site-month listSites=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
@@ -56,10 +59,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{> tip-month jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> did-you-know }}
-
-      {{> ui-layout-hack tableMiddleSeparator=true }}
-        {{> meet-our-team }}
+        {{> did-you-know jldNewsletter=true }}
 
       {{> ui-layout-hack tableMiddleSeparator=true }}
         {{> pugs-tale }}
