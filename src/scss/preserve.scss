@@ -147,8 +147,11 @@ div[style*='margin: 16px 0;'] {
       text-align: center !important;
     }
 
-    &-fz-20 {
-      font-size: 20px !important;
+    @each $fz in (20 24 30) {
+
+      &-fz-#{$fz} {
+        font-size: ($fz * 1px) !important;
+      }
     }
 
     // Padding Modifiers
