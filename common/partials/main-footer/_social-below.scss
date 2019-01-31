@@ -17,6 +17,13 @@
     }
   }
 
+  .footer-nav {
+
+    a {
+      white-space: nowrap;
+    }
+  }
+
   .footer-social {
     padding: 20px $padding 10px;
     text-align: center;
@@ -25,5 +32,15 @@
       margin: 0 auto;
       text-align: center;
     }
+  }
+
+  .footer-disclaimer {
+    padding: 0 $padding 5px;
+    text-align: center;
+  }
+
+  .footer-address {
+    padding: 0 $padding floor($padding * 4);
+    text-align: center;
   }
 }

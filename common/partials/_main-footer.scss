@@ -3,19 +3,26 @@
 // M A I N   F O O T E R
 // ----------------------------------------------------------------------------------------------------------
 
-$settings: set('footer-color-scheme', (
-  'v1': (
+$settings: set('footer-styles', (
+  'basic': (
+    'font-size': 14px,
+    'color': plt('black'),
     'background-color': plt('white'),
-    'footer-head': (
+    'head': (
       'background-color': plt('justia-blue'),
       'border-top': plt('justia-blue'),
       'border-bottom': plt('justia-blue')
+    ),
+    'address': (
+      'font-weight': 700
+    ),
+    'nav': (
+      'color': plt('white')
     )
   )
 ));
 
 $settings: set('mail-footer', (
-  'color-scheme': get('footer-color-scheme.v1'),
   'logo': (
     'size': (111px 29px)
   )
@@ -25,7 +32,6 @@ $settings: set('mail-footer', (
 
 .main-footer {
   clear: both;
-  background-color: get('mail-footer.color-scheme.background-color');
 
   a {
     text-decoration: none;
@@ -37,11 +43,7 @@ $settings: set('mail-footer', (
   }
 
   .footer-head {
-    $_footer-head: get('mail-footer.color-scheme.footer-head');
     padding: 20px $padding;
-    border-top: 1px solid get('border-top', $_footer-head);
-    border-bottom: 1px solid get('border-bottom', $_footer-head);
-    background-color: get('background-color', $_footer-head);
   }
 
   .fhead-wrapper {
@@ -64,10 +66,14 @@ $settings: set('mail-footer', (
     overflow: hidden;
   }
 
-  .footer-navigation {
+  .footer-nav {
 
     .pipe {
       margin: 0 10px;
     }
+  }
+
+  .footer-address {
+    vertical-align: top;
   }
 }

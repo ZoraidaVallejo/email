@@ -10,7 +10,13 @@
     border="0"
     cellpadding="0"
     cellspacing="0"
-    class="main-footer {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}} set-max-width"
+    class="
+      main-footer
+      {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}}
+      {{#if styleBasic }}-basic{{/if}}
+      {{#if styleLightBright }}-light-bright{{/if}}
+      set-max-width
+    "
     {{#if socialOnTop }}responsive="main-footer"{{/if}}
   >
     <tr>
@@ -40,8 +46,7 @@
       </td>
     </tr>
     {{#unless socialOnTop }}
-    <!-- footer-content -->
-    <tr class="footer-content">
+    <tr>
       <!-- footer-social -->
       <td class="footer-social" responsive="mobile-padding-horizontal-sides">
         {{> ui-spacer-hack }}
@@ -49,15 +54,13 @@
       </td>
     </tr>
     {{/unless}}
-    <!-- footer-content -->
-    <tr class="footer-content">
+    <tr>
       <!-- footer-disclaimer -->
       <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
-        <p {{#unless socialOnTop }}responsive="mobile-align-center"{{/unless}}>{{{ disclaimerText }}}</p>
+        <p {{#if socialOnTop }}responsive="mobile-align-center"{{/if}}>{{{ disclaimerText }}}</p>
       </td>
     </tr>
-    <!-- footer-content -->
-    <tr class="footer-content">
+    <tr>
       <!-- footer-address -->
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{#if socialOnTop }}
@@ -69,8 +72,7 @@
       </td>
     </tr>
     {{#if socialOnTop }}
-    <!-- footer-content -->
-    <tr class="footer-content">
+    <tr>
       <!-- footer-nav -->
       <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{> ui-spacer-hack }}

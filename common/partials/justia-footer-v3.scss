@@ -3,9 +3,6 @@
 // J U S T I A   F O O T E R   V 2
 // ----------------------------------------------------------------------------------------------------------
 
-$social-icons-v3--size: 32px !default;
-$social-icons-v3--gap: 4px !default;
-
 $footer-logo-v3-width: 111px !default;
 $footer-logo-v3-height: 29px !default;
 
@@ -20,42 +17,10 @@ $footer-v3-address-weight: tp('weight', 'normal') !default;
 
 .justia-footer-v3 {
 
-  .logo-navigation {
-
-    .navigation {
-
-      span,
-      a {
-        color: $navigation-v3-text-color;
-        font: #{$footer-v3-font-size}/1.38 $sans-serif-font-family;
-        white-space: nowrap;
-      }
-    }
-  }
-
-  .disclaimer {
-    padding: 0 $padding 5px;
-    text-align: center;
-
-    p {
-      font: #{$footer-v3-font-size}/1.38 $sans-serif-font-family;
-    }
-  }
-
   .address {
-    padding: 0 $padding floor($padding * 4);
-    text-align: center;
-    vertical-align: top;
-
-    span,
-    a {
-      color: plt('black');
-      font: $footer-v3-address-weight #{$footer-v3-font-size}/1.38 $sans-serif-font-family;
-    }
 
     .justia-inline {
       font: tp('weight', 'bold') 14px/1.38 $sans-serif-font-family;
-      text-transform: uppercase;
     }
   }
 }

@@ -50,7 +50,8 @@
     "disclaimer": {
       "clients": "You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
       "jld": "You are receiving this email because you are in the lawyer directory. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
-      "blast": "You are receiving this email because you are in the lawyer directory."
+      "blast": "You are receiving this email because you are in the lawyer directory.",
+      "jobs": "You are receiving this email because you subscribed to the Justia Legal Jobs newsletter."
     },
     "navigation": {
       "items": [
@@ -73,18 +74,18 @@
     "address": {
       "clients": {
         "justiaLink": {
-          "text": "Justia",
+          "text": "JUSTIA",
           "link": "https://www.justia.com/"
         },
-        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043",
-        "tel": "(888) 587-8421"
+        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
       },
       "jld": {
         "justiaLink": {
           "text": "Justia",
           "link": "https://www.justia.com/"
         },
-        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043",
+        "tel": "(888) 587-8421"
       }
     }
   }

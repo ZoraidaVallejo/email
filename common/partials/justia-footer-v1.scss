@@ -3,38 +3,9 @@
 // J U S T I A   F O O T E R   V 1
 // ----------------------------------------------------------------------------------------------------------
 
-$social-icons-v1--size: 32px !default;
-$social-icons-v1--gap: 4px !default;
-
-// ----------------------------------------------------------------------------------------------------------
-
 .justia-footer-v1 {
 
-  .disclaimer p,
-  .address p,
-  .navigation p,
-  span,
-  a {
-    font: 14px/1.38 $sans-serif-font-family;
-  }
-
-  .disclaimer {
-    padding: 40px $padding 20px;
-  }
-
-  .address {
-    padding: 0 $padding 10px;
-    vertical-align: top;
-
-    span,
-    a {
-      color: plt('black');
-    }
-  }
-
   .navigation {
-    padding: 0 $padding floor($padding * 3);
-    vertical-align: top;
 
     span,
     a {

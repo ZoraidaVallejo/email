@@ -16,4 +16,17 @@
       text-align: right;
     }
   }
+
+  .footer-disclaimer {
+    padding: 40px $padding 20px;
+  }
+
+  .footer-address {
+    padding: 0 $padding 10px;
+  }
+
+  .footer-nav {
+    padding: 0 $padding floor($padding * 3);
+    vertical-align: top;
+  }
 }
