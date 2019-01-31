@@ -1,9 +1,0 @@
-<p responsive="{{ responsiveClasses }}">
-  {{#each navItems }}
-  {{#unless @first }}
-  <!-- vline -->
-  <span class="vline" responsive="mobile-hide">|</span>
-  {{/unless}}
-  <a responsive="collapse-one mobile-padding-vertical-sides" href="{{ this.link }}" {{#if this.target}}target="_blank"{{/if}}>{{{ this.text }}}</a>
-  {{/each}}
-</p>

@@ -1,0 +1,6 @@
+<p responsive="{{ responsiveClasses }}">
+  {{#each navItems }}
+    {{#unless @first }}{{> pipe responsive=true }}{{/unless}}
+    <a responsive="collapse-one mobile-padding-vertical-sides" href="{{ this.link }}" {{#if this.target}}target="_blank"{{/if}}>{{{ this.text }}}</a>
+  {{/each}}
+</p>

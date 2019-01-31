@@ -11,8 +11,8 @@ $footer-logo-v3-height: 29px !default;
 
 $footer-v3-font-size: 14px !default;
 
-$footernav-v3-bg-color: plt('white') !default;
-$footernav-v3-text-color: plt('justia-blue') !default;
+$navigation-v3-bg-color: plt('white') !default;
+$navigation-v3-text-color: plt('justia-blue') !default;
 
 $footer-v3-address-weight: tp('weight', 'normal') !default;
 
@@ -31,11 +31,11 @@ $footer-v3-address-weight: tp('weight', 'normal') !default;
     max-width: none;
   }
 
-  .logo-footernav {
+  .logo-navigation {
     padding: 20px $padding;
     border-top: 1px solid plt('justia-blue');
     border-bottom: 1px solid plt('justia-blue');
-    background-color: $footernav-v3-bg-color;
+    background-color: $navigation-v3-bg-color;
 
     table {
       width: 100%;
@@ -53,19 +53,19 @@ $footer-v3-address-weight: tp('weight', 'normal') !default;
       }
     }
 
-    .footernav {
+    .navigation {
       width: 75%;
       text-align: right;
       vertical-align: middle;
 
       span,
       a {
-        color: $footernav-v3-text-color;
+        color: $navigation-v3-text-color;
         font: #{$footer-v3-font-size}/1.38 $sans-serif-font-family;
         white-space: nowrap;
       }
 
-      .vline {
+      .pipe {
         margin: 0 10px;
       }
     }

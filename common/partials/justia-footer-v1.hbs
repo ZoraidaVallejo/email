@@ -32,16 +32,14 @@
       <!-- address -->
       <td class="address" responsive="mobile-padding-horizontal-sides">
         {{> ui-spacer-hack }}
-        <p responsive="collapse-one mobile-align-center">
-          <a href="https://www.justia.com/">Justia</a> <!-- vline --><span class="vline">|</span> <span id="ios-links-black">1380 Pear Ave #2B, Mountain View, CA 94043 <!-- vline --><span class="vline">|</span> Tel: (888) 587-8421</span>
-        </p>
+        {{> address elements=default.footer.address.clients responsiveClasses='collapse-one mobile-align-center' }}
       </td>
     </tr>
     <tr>
-      <!-- footernav -->
-      <td class="footernav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+      <!-- navigation -->
+      <td class="navigation" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{> ui-spacer-hack }}
-        {{> footernav navItems=default.footer.navigation.items responsiveClasses='mobile-align-center' }}
+        {{> navigation navItems=default.footer.navigation.items responsiveClasses='mobile-align-center' }}
       </td>
     </tr>
   </table>

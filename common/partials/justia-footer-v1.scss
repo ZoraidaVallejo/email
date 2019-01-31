@@ -78,7 +78,7 @@ $social-icons-v1--gap: 4px !default;
 
   .disclaimer p,
   .address p,
-  .footernav p,
+  .navigation p,
   span,
   a {
     font: 14px/1.38 $sans-serif-font-family;
@@ -98,7 +98,7 @@ $social-icons-v1--gap: 4px !default;
     }
   }
 
-  .footernav {
+  .navigation {
     padding: 0 $padding floor($padding * 3);
     vertical-align: top;
 
@@ -107,7 +107,7 @@ $social-icons-v1--gap: 4px !default;
       color: plt('bright-blue');
     }
 
-    .vline {
+    .pipe {
       margin: 0 10px;
     }
   }

@@ -1,0 +1,14 @@
+<p responsive="{{ responsiveClasses }}">
+  {{#if elements.justiaLink }}
+    <!-- justia-inline -->
+    <a class="justia-inline" href="{{ elements.justiaLink.link }}">{{{ elements.justiaLink.text }}}</a>
+  {{/if}}
+  {{#if elements.direction }}
+    {{> pipe }}
+    <span id="ios-links-black">{{{ elements.direction }}}</span>
+  {{/if}}
+  {{#if elements.tel }}
+    {{> pipe }}
+    <span id="ios-links-black">Tel: {{{ elements.tel }}}</span>
+  {{/if}}
+</p>

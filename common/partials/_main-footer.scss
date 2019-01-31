@@ -20,6 +20,10 @@ $settings: set('mail-footer', (
 
 .main-footer {
 
+  .pipe {
+    margin: 0 10px;
+  }
+
   .social-icons {
     $_total: get('mail-footer.social-icons.total');
     width: ((get('mail-footer.social-icons.size') * $_total) + (get('mail-footer.social-icons.gap') * ($_total - 1)));

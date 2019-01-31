@@ -23,9 +23,47 @@
             <td class="logo" responsive="collapse-one {{#if socialOnTop }}logo{{else}}mobile-padding-bottom{{/if}}">
               {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars responsiveClasses='mobile-align-center' }}
             </td>
+            {{#if socialOnTop }}
+            <!-- social align-right -->
+            <td class="social align-right" responsive="social collapse-one">
+              {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
+            </td>
+            {{else}}
+            <!-- footernav -->
+            <td class="footernav" responsive="collapse-one mobile-align-center">
+              {{> footernav navItems=default.footer.navigation.items }}
+            </td>
+            {{/if}}
           </tr>
         </table>
       </td>
     </tr>
+    {{#unless socialOnTop }}
+    <tr>
+      <!-- social -->
+      <td class="social" responsive="mobile-padding-horizontal-sides">
+        {{> ui-spacer-hack }}
+        {{> social-icons classes='set-max-width' }}
+      </td>
+    </tr>
+    {{/unless}}
+    <tr>
+      <!-- disclaimer -->
+      <td class="disclaimer" responsive="mobile-padding-horizontal-sides">
+        <p {{#unless socialOnTop }}responsive="mobile-align-center"{{/unless}}>{{{ disclaimer }}}</p>
+      </td>
+    </tr>
+
+    {{!-- Address --}}
+
+    {{#if socialOnTop }}
+    <tr>
+      <!-- footernav -->
+      <td class="footernav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+        {{> ui-spacer-hack }}
+        {{> footernav navItems=default.footer.navigation.items responsiveClasses='mobile-align-center' }}
+      </td>
+    </tr>
+    {{/if}}
   </table>
 {{> ui-layout-hack tableEnd=true }}

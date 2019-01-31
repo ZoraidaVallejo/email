@@ -193,7 +193,7 @@ body {
 
 .justia-footer-v1 .disclaimer p,
 .justia-footer-v1 .address p,
-.justia-footer-v1 .footernav p,
+.justia-footer-v1 .navigation p,
 .justia-footer-v1 span,
 .justia-footer-v1 a {
   font: 14px/1.38 Arial, sans-serif;
@@ -213,17 +213,17 @@ body {
   color: #000000;
 }
 
-.justia-footer-v1 .footernav {
+.justia-footer-v1 .navigation {
   padding: 0 30px 90px;
   vertical-align: top;
 }
 
-.justia-footer-v1 .footernav span,
-.justia-footer-v1 .footernav a {
+.justia-footer-v1 .navigation span,
+.justia-footer-v1 .navigation a {
   color: #00b3e3;
 }
 
-.justia-footer-v1 .footernav .vline {
+.justia-footer-v1 .navigation .pipe {
   margin: 0 10px;
 }
 
@@ -241,43 +241,43 @@ body {
   max-width: none;
 }
 
-.justia-footer-v3 .logo-footernav {
+.justia-footer-v3 .logo-navigation {
   padding: 20px 30px;
   border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
   background-color: #ffffff;
 }
 
-.justia-footer-v3 .logo-footernav table {
+.justia-footer-v3 .logo-navigation table {
   width: 100%;
 }
 
-.justia-footer-v3 .logo-footernav .logo {
+.justia-footer-v3 .logo-navigation .logo {
   width: 25%;
   vertical-align: middle;
 }
 
-.justia-footer-v3 .logo-footernav .logo img {
+.justia-footer-v3 .logo-navigation .logo img {
   display: block;
   width: 111px;
   max-width: none;
   height: 29px;
 }
 
-.justia-footer-v3 .logo-footernav .footernav {
+.justia-footer-v3 .logo-navigation .navigation {
   width: 75%;
   text-align: right;
   vertical-align: middle;
 }
 
-.justia-footer-v3 .logo-footernav .footernav span,
-.justia-footer-v3 .logo-footernav .footernav a {
+.justia-footer-v3 .logo-navigation .navigation span,
+.justia-footer-v3 .logo-navigation .navigation a {
   color: #06357a;
   font: 14px/1.38 Arial, sans-serif;
   white-space: nowrap;
 }
 
-.justia-footer-v3 .logo-footernav .footernav .vline {
+.justia-footer-v3 .logo-navigation .navigation .pipe {
   margin: 0 10px;
 }
 
