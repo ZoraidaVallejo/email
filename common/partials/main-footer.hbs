@@ -14,24 +14,24 @@
     {{#if socialOnTop }}responsive="main-footer"{{/if}}
   >
     <tr>
-      <!-- top-stripe -->
-      <td class="top-stripe" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesV1}}{{else}}mobile-padding-horizontal-sides{{/if}}">
+      <!-- footer-head -->
+      <td class="footer-head" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesV1}}{{else}}mobile-padding-horizontal-sides{{/if}}">
         {{#unless socialOnTop }}{{> ui-spacer-hack }}{{/unless}}
-        <!-- top-wrapper {{#unless socialOnTop }}set-max-width{{/unless}} -->
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="top-wrapper {{#unless socialOnTop }}set-max-width{{/unless}}">
+        <!-- fhead-wrapper {{#unless socialOnTop }}set-max-width{{/unless}} -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="fhead-wrapper {{#unless socialOnTop }}set-max-width{{/unless}}">
           <tr>
-            <!-- top-sides -left footer-logo -->
-            <td class="top-sides -left footer-logo" responsive="collapse-one {{#if socialOnTop }}footer-logo{{else}}mobile-padding-bottom{{/if}}">
+            <!-- fhead-side -left footer-logo -->
+            <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop }}footer-logo{{else}}mobile-padding-bottom{{/if}}">
               {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars responsiveClasses='mobile-align-center' }}
             </td>
             {{#if socialOnTop }}
-            <!-- top-sides -right social-icons -->
-            <td class="top-sides -right social-icons" responsive="social-icons collapse-one">
+            <!-- fhead-side -right footer-social -->
+            <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
               {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
             </td>
             {{else}}
-            <!-- top-sides -right navigation -->
-            <td class="top-sides -right navigation" responsive="collapse-one mobile-align-center">
+            <!-- fhead-side -right footer-nav -->
+            <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
               {{> navigation elements=navigationElements }}
             </td>
             {{/if}}
@@ -40,23 +40,26 @@
       </td>
     </tr>
     {{#unless socialOnTop }}
-    <tr>
-      <!-- social-icons -->
-      <td class="social-icons" responsive="mobile-padding-horizontal-sides">
+    <!-- footer-content -->
+    <tr class="footer-content">
+      <!-- footer-social -->
+      <td class="footer-social" responsive="mobile-padding-horizontal-sides">
         {{> ui-spacer-hack }}
         {{> social-icons classes='set-max-width' }}
       </td>
     </tr>
     {{/unless}}
-    <tr>
-      <!-- disclaimer -->
-      <td class="disclaimer" responsive="mobile-padding-horizontal-sides">
+    <!-- footer-content -->
+    <tr class="footer-content">
+      <!-- footer-disclaimer -->
+      <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
         <p {{#unless socialOnTop }}responsive="mobile-align-center"{{/unless}}>{{{ disclaimerText }}}</p>
       </td>
     </tr>
-    <tr>
-      <!-- address -->
-      <td class="address" responsive="mobile-padding-horizontal-sides">
+    <!-- footer-content -->
+    <tr class="footer-content">
+      <!-- footer-address -->
+      <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{#if socialOnTop }}
         {{> ui-spacer-hack }}
         {{> address elements=addressElements responsiveClasses='collapse-one mobile-align-center' }}
@@ -66,9 +69,10 @@
       </td>
     </tr>
     {{#if socialOnTop }}
-    <tr>
-      <!-- navigation -->
-      <td class="navigation" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+    <!-- footer-content -->
+    <tr class="footer-content">
+      <!-- footer-nav -->
+      <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{> ui-spacer-hack }}
         {{> navigation elements=navigationElements responsiveClasses='mobile-align-center' }}
       </td>

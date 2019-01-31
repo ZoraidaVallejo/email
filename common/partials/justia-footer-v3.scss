@@ -19,87 +19,16 @@ $footer-v3-address-weight: tp('weight', 'normal') !default;
 // ----------------------------------------------------------------------------------------------------------
 
 .justia-footer-v3 {
-  clear: both;
-  background-color: plt('white');
-
-  a {
-    text-decoration: none;
-  }
-
-  img {
-    display: block;
-    max-width: none;
-  }
 
   .logo-navigation {
-    padding: 20px $padding;
-    border-top: 1px solid plt('justia-blue');
-    border-bottom: 1px solid plt('justia-blue');
-    background-color: $navigation-v3-bg-color;
-
-    table {
-      width: 100%;
-    }
-
-    .logo {
-      width: 25%;
-      vertical-align: middle;
-
-      img {
-        display: block;
-        width: $footer-logo-v3-width;
-        max-width: none;
-        height: $footer-logo-v3-height;
-      }
-    }
 
     .navigation {
-      width: 75%;
-      text-align: right;
-      vertical-align: middle;
 
       span,
       a {
         color: $navigation-v3-text-color;
         font: #{$footer-v3-font-size}/1.38 $sans-serif-font-family;
         white-space: nowrap;
-      }
-
-      .pipe {
-        margin: 0 10px;
-      }
-    }
-  }
-
-  .social {
-    overflow: hidden;
-    padding: 20px $padding 10px;
-    text-align: center;
-
-    .social-icons {
-      width: (($social-icons-v3--size * 4) + ($social-icons-v3--gap * 3));
-      margin: 0 auto;
-      text-align: center;
-
-      .icon {
-        width: ($social-icons-v3--size + $social-icons-v3--gap);
-        height: $social-icons-v3--size;
-        text-align: left;
-        vertical-align: top;
-
-        &:last-child {
-          width: $social-icons-v3--size;
-        }
-      }
-    }
-
-    a {
-      display: inline-block;
-      vertical-align: middle;
-
-      img {
-        width: $social-icons-v3--size;
-        height: $social-icons-v3--size;
       }
     }
   }
