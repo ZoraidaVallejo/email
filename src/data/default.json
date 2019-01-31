@@ -26,22 +26,25 @@
   },
   "footer": {
     "logo": {
-      "v1": {
-        "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "source": {
-            "clients": "&utm_source=client-newsletter",
-            "jld": "&utm_source=directory-newsletter"
-          },
-          "medium": "?utm_medium=email",
-          "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
-          "content": "&utm_content=image-footer-logo-1"
+      "link": {
+        "clients": {
+          "url": "https://lawyers.justia.com/premium-placement",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "client-newsletter",
+            "content": "image-footer-logo-1"
+          }
+        },
+        "jld": {
+          "url": "https://www.justia.com/marketing/",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "directory-newsletter",
+            "content": "image-footer-logo-1"
+          }
         }
-      },
-      "v3": {
-        "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
-        "alt": "Justia"
       }
     },
     "disclaimer": {

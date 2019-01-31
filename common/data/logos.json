@@ -1,5 +1,11 @@
 {
   "justia": {
+    "base": {
+      "path": {
+        "blue": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png"
+      },
+      "alt": "Justia"
+    },
     "insights": {
       "path": {
         "blue": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png"

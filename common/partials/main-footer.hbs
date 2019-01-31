@@ -1,6 +1,6 @@
-{{!-- Set variables for footer --}}
 {{!-- v1 === Social On Top --}}
 {{!-- v2 === Social Below --}}
+{{!-- Set variables for footer --}}
 {{ assign 'topStripeRespClassesV1' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border' }}
 
 {{> ui-layout-hack tableStart=true }}
@@ -17,21 +17,22 @@
       <!-- top-stripe -->
       <td class="top-stripe" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesV1}}{{else}}mobile-padding-horizontal-sides{{/if}}">
         {{#unless socialOnTop }}{{> ui-spacer-hack }}{{/unless}}
-        <table align="center" border="0" cellpadding="0" cellspacing="0" {{#unless socialOnTop }}class="set-max-width"{{/unless}}>
+        <!-- top-wrapper {{#unless socialOnTop }}set-max-width{{/unless}} -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="top-wrapper {{#unless socialOnTop }}set-max-width{{/unless}}">
           <tr>
-            <!-- logo -->
-            <td class="logo" responsive="collapse-one {{#if socialOnTop }}logo{{else}}mobile-padding-bottom{{/if}}">
-              {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars responsiveClasses='mobile-align-center' }}
+            <!-- top-sides -left footer-logo -->
+            <td class="top-sides -left footer-logo" responsive="collapse-one {{#if socialOnTop }}footer-logo{{else}}mobile-padding-bottom{{/if}}">
+              {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars responsiveClasses='mobile-align-center' }}
             </td>
             {{#if socialOnTop }}
-            <!-- social align-right -->
-            <td class="social align-right" responsive="social collapse-one">
+            <!-- top-sides -right social-icons -->
+            <td class="top-sides -right social-icons" responsive="social-icons collapse-one">
               {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
             </td>
             {{else}}
-            <!-- footernav -->
-            <td class="footernav" responsive="collapse-one mobile-align-center">
-              {{> footernav navItems=default.footer.navigation.items }}
+            <!-- top-sides -right navigation -->
+            <td class="top-sides -right navigation" responsive="collapse-one mobile-align-center">
+              {{> navigation elements=navigationElements }}
             </td>
             {{/if}}
           </tr>
@@ -40,8 +41,8 @@
     </tr>
     {{#unless socialOnTop }}
     <tr>
-      <!-- social -->
-      <td class="social" responsive="mobile-padding-horizontal-sides">
+      <!-- social-icons -->
+      <td class="social-icons" responsive="mobile-padding-horizontal-sides">
         {{> ui-spacer-hack }}
         {{> social-icons classes='set-max-width' }}
       </td>
@@ -50,18 +51,26 @@
     <tr>
       <!-- disclaimer -->
       <td class="disclaimer" responsive="mobile-padding-horizontal-sides">
-        <p {{#unless socialOnTop }}responsive="mobile-align-center"{{/unless}}>{{{ disclaimer }}}</p>
+        <p {{#unless socialOnTop }}responsive="mobile-align-center"{{/unless}}>{{{ disclaimerText }}}</p>
       </td>
     </tr>
-
-    {{!-- Address --}}
-
+    <tr>
+      <!-- address -->
+      <td class="address" responsive="mobile-padding-horizontal-sides">
+        {{#if socialOnTop }}
+        {{> ui-spacer-hack }}
+        {{> address elements=addressElements responsiveClasses='collapse-one mobile-align-center' }}
+        {{else}}
+        {{> address elements=addressElements }}
+        {{/if}}
+      </td>
+    </tr>
     {{#if socialOnTop }}
     <tr>
-      <!-- footernav -->
-      <td class="footernav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+      <!-- navigation -->
+      <td class="navigation" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{> ui-spacer-hack }}
-        {{> footernav navItems=default.footer.navigation.items responsiveClasses='mobile-align-center' }}
+        {{> navigation elements=navigationElements responsiveClasses='mobile-align-center' }}
       </td>
     </tr>
     {{/if}}

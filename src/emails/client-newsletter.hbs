@@ -85,7 +85,15 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-footer-v3 clientsNewsletter=true }}
+      {{!-- {{> justia-footer-v3 clientsNewsletter=true }} --}}
+
+      {{> main-footer
+        logoPath=logos.justia.base.path.blue
+        logoAlt=logos.justia.base.alt
+        navigationElements=default.footer.navigation.items
+        disclaimerText=default.footer.disclaimer.clients
+        addressElements=default.footer.address.clients
+      }}
     </td>
   </tr>
 

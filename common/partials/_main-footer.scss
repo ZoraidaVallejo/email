@@ -3,11 +3,21 @@
 // M A I N   F O O T E R
 // ----------------------------------------------------------------------------------------------------------
 
+$settings: set('footer-color-scheme', (
+  'v1': (
+    'background-color': plt('white'),
+    'top-stripe': (
+      'background-color': plt('justia-blue'),
+      'border-top': plt('justia-blue'),
+      'border-bottom': plt('justia-blue')
+    )
+  )
+));
+
 $settings: set('mail-footer', (
-  'background': plt('white'),
+  'color-scheme': get('footer-color-scheme.v1'),
   'logo': (
-    'width': 235px,
-    'height': 33px
+    'size': (111px 29px)
   ),
   'social-icons': (
     'size': 32px,
@@ -19,9 +29,47 @@ $settings: set('mail-footer', (
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer {
+  clear: both;
+  background-color: get('mail-footer.color-scheme.background-color');
 
-  .pipe {
-    margin: 0 10px;
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: none;
+  }
+
+  .top-stripe {
+    $_top-stripe: get('mail-footer.color-scheme.top-stripe');
+    padding: 20px $padding;
+    border-top: 1px solid get('border-top', $_top-stripe);
+    border-bottom: 1px solid get('border-bottom', $_top-stripe);
+    background-color: get('background-color', $_top-stripe);
+  }
+
+  .top-wrapper {
+    width: 100%;
+  }
+
+  .top-sides {
+    vertical-align: middle;
+
+    &.-right {
+      text-align: right;
+    }
+  }
+
+  .logo-img {
+    @include size(get('mail-footer.logo.size')...);
+  }
+
+  .navigation {
+
+    .pipe {
+      margin: 0 10px;
+    }
   }
 
   .social-icons {
@@ -51,16 +99,38 @@ $settings: set('mail-footer', (
   }
 }
 
-// v1
+// v1 (will be v2)
 .main-footer.-social-on-top {
+
+  .top-sides {
+    width: percentage(1 / 2);
+
+    &.-right {
+      overflow: hidden;
+    }
+  }
 
   .social-icons {
     text-align: right;
   }
 }
 
-// v3
+// v3 (will be v1)
 .main-footer.-social-below {
+
+  .top-sides {
+
+    &.-left {
+      width: 25%;
+    }
+
+    &.-right {
+      overflow: hidden;
+      width: 75%;
+      padding: 20px $padding 10px;
+      text-align: center;
+    }
+  }
 
   .social-icons {
     margin: 0 auto;
