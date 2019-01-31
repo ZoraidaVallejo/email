@@ -1,0 +1,40 @@
+
+@mixin set-footer-style($scheme) {
+  background-color: get('background-color', $scheme);
+
+  .footer-head {
+    border-top: 1px solid get('head.border-top', $scheme);
+    border-bottom: 1px solid get('head.border-bottom', $scheme);
+    background-color: get('head.background-color', $scheme);
+  }
+
+  .footer-nav,
+  .footer-disclaimer,
+  .footer-address {
+
+    p,
+    span,
+    a {
+      color: get('color', $scheme);
+      font: #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+    }
+  }
+
+  .footer-nav {
+
+    p,
+    span,
+    a {
+      color: get('nav.color', $scheme);
+    }
+  }
+
+  .footer-address {
+
+    p,
+    span,
+    a {
+      font: get('address.font-weight', $scheme) #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+    }
+  }
+}

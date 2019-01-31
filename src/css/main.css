@@ -206,6 +206,41 @@ body {
   font: 700 14px/1.38 Arial, sans-serif;
 }
 
+.main-footer.-light-bright {
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright .footer-head {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #00b3e3;
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright .footer-nav p,
+.main-footer.-light-bright .footer-nav span,
+.main-footer.-light-bright .footer-nav a,
+.main-footer.-light-bright .footer-disclaimer p,
+.main-footer.-light-bright .footer-disclaimer span,
+.main-footer.-light-bright .footer-disclaimer a,
+.main-footer.-light-bright .footer-address p,
+.main-footer.-light-bright .footer-address span,
+.main-footer.-light-bright .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-bright .footer-nav p,
+.main-footer.-light-bright .footer-nav span,
+.main-footer.-light-bright .footer-nav a {
+  color: #00b3e3;
+}
+
+.main-footer.-light-bright .footer-address p,
+.main-footer.-light-bright .footer-address span,
+.main-footer.-light-bright .footer-address a {
+  font: 400 14px/1.38 Arial, sans-serif;
+}
+
 .social-icons {
   width: 140px;
 }

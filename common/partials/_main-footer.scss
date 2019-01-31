@@ -3,6 +3,8 @@
 // M A I N   F O O T E R
 // ----------------------------------------------------------------------------------------------------------
 
+@import 'main-footer/set-footer-style';
+
 $settings: set('footer-styles', (
   'basic': (
     'font-size': 14px,
@@ -18,6 +20,22 @@ $settings: set('footer-styles', (
     ),
     'nav': (
       'color': plt('white')
+    )
+  ),
+  'light-bright': (
+    'font-size': 14px,
+    'color': plt('black'),
+    'background-color': plt('white'),
+    'head': (
+      'background-color': plt('white'),
+      'border-top': plt('white'),
+      'border-bottom': plt('bright-blue')
+    ),
+    'address': (
+      'font-weight': 400
+    ),
+    'nav': (
+      'color': plt('bright-blue')
     )
   )
 ));
@@ -75,5 +93,15 @@ $settings: set('mail-footer', (
 
   .footer-address {
     vertical-align: top;
+  }
+
+  // FOOTER STYLES
+  // -------------
+
+  @each $style-name, $scheme in get('footer-styles') {
+
+    &.-#{$style-name} {
+      @include set-footer-style($scheme);
+    }
   }
 }
