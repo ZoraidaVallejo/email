@@ -32,8 +32,8 @@
             </tr>
             <tr>
               <!-- button -->
-              <td class="button" responsive="mobile-padding-horizontal-sides">
-                {{> ui-button moreWhite=true buttonLink=lawEvents.featured.link }}
+              <td class="button -white" responsive="mobile-padding-horizontal-sides">
+                {{> ui-real-text-button buttonLink=lawEvents.featured.link buttonText="Read More" }}
               </td>
             </tr>
           </table>
@@ -70,7 +70,9 @@
       </tr>
       <tr>
         <!-- button -->
-        <td class="button">{{> ui-button moreWhite=true buttonLink=this.link }}</td>
+        <td class="button -white">
+          {{> ui-real-text-button buttonLink=this.link buttonText="Read More" }}
+        </td>
       </tr>
 
       {{#ifOdd index }}

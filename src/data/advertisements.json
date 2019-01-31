@@ -2,7 +2,7 @@
   "clients": {
     "ad1": {
       "image": "adname-image-01.png",
-      "alt": "[alt text]",
+      "alt": "Illustration of a hand holding a phone",
       "link": "#",
       "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
     }
@@ -11,13 +11,13 @@
   "jld": {
     "ad1": {
       "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
+      "alt": "Laptop with a web browser window",
       "link": "#",
       "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
     },
     "ad2": {
       "image": "jld-adname-image-02.png",
-      "alt": "[alt text]",
+      "alt": "Phone showing a JLD profile",
       "link": "#",
       "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
     }

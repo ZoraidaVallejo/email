@@ -22,10 +22,10 @@
             <a href="{{ this.link }}" target="_blank"><img src="{{ ../default.imageDirSrc }}/clients-news-logo-0{{ index }}.png" alt="{{ this.logoName }}" border="0" /></a>
           </td>
           <!-- news-desc -->
-          <td class="news-desc">
+          <td class="news-desc -blue">
             <p>{{{ this.description }}}</p>
             <br>
-            {{> ui-button moreBlue=true buttonLink=this.link }}
+            {{> ui-real-text-button buttonLink=this.link buttonText="Read More" }}
           </td>
         </tr>
       </table>

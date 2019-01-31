@@ -899,17 +899,17 @@ body {
   vertical-align: top;
 }
 
-.w-in-the-news .clients-list table {
+.w-in-the-news .clients-list table:not(.ui-real-text-button) {
   width: 100%;
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-in-the-news .clients-list table:last-child {
+.w-in-the-news .clients-list table:not(.ui-real-text-button):last-child {
   border-bottom: 0;
 }
 
-.w-in-the-news .clients-list table:last-child .news-logo,
-.w-in-the-news .clients-list table:last-child .news-desc {
+.w-in-the-news .clients-list table:not(.ui-real-text-button):last-child .news-logo,
+.w-in-the-news .clients-list table:not(.ui-real-text-button):last-child .news-desc {
   padding: 30px 0 0;
 }
 
