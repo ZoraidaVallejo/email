@@ -11,7 +11,7 @@
             <tr>
               <!-- logo -->
               <td class="logo">
-                {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars }}
+                {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars }}
               </td>
               <!-- date -->
               <td class="date">
@@ -20,7 +20,7 @@
             </tr>
           </table>
         {{else}}
-          {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=setUtmVars }}
+          {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars }}
         {{/if}}
       </td>
     </tr>
