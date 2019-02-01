@@ -1136,8 +1136,12 @@ body {
 }
 
 .w-client-ad-01 .ad-logo {
-  width: 275px;
+  width: 275px !important;
   padding: 0 5px 31px;
+}
+
+.w-client-ad-01 .ad-logo img {
+  width: 275px !important;
 }
 
 .w-client-ad-01 .ad-title {
@@ -1150,7 +1154,7 @@ body {
 }
 
 .w-client-ad-01 .ad-title a {
-  color: currentColor;
+  color: #06357a;
 }
 
 .w-client-ad-01 .ad-text {
@@ -1162,7 +1166,7 @@ body {
 
 .w-client-ad-01 .ad-text a,
 .w-client-ad-01 .ad-text p {
-  color: currentColor;
+  color: #06357a;
 }
 
 .w-client-ad-01 .ui-real-text-button {
@@ -1199,7 +1203,7 @@ body {
 .w-jld-ad-01 .ad-title strong,
 .w-jld-ad-02 .ad-title a,
 .w-jld-ad-02 .ad-title strong {
-  color: currentColor;
+  color: #06357a;
 }
 
 .w-jld-ad-01 .ad-title strong,
@@ -1262,7 +1266,9 @@ body {
 }
 
 .w-jld-ad-01 .ad-text strong,
-.w-jld-ad-02 .ad-text strong {
+.w-jld-ad-01 .ad-text a,
+.w-jld-ad-02 .ad-text strong,
+.w-jld-ad-02 .ad-text a {
   color: #ffffff;
 }
 
@@ -1271,6 +1277,7 @@ body {
   padding-top: 27px;
   padding-bottom: 38px;
   color: #ffffff;
+  font-size: 16px;
 }
 
 .w-jld-ad-01 {
@@ -1305,7 +1312,7 @@ body {
 }
 
 .w-jld-ad-01 .ad-text a {
-  color: currentColor;
+  color: #000000;
 }
 
 .w-jld-ad-01 .ad-contacts {
@@ -1322,6 +1329,10 @@ body {
 
 .w-internet-stats {
   background-color: #fafafa;
+}
+
+.w-internet-stats.-jld {
+  border-top: 1px solid #ededed;
 }
 
 .w-internet-stats .stats-title {

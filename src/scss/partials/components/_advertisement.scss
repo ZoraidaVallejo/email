@@ -97,8 +97,12 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
   }
 
   .ad-logo {
-    width: 275px;
+    width: 275px !important;
     padding: 0 5px 31px;
+
+    img {
+      width: 275px !important;
+    }
   }
 
   .ad-title {
@@ -110,7 +114,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
     text-align: left;
 
     a {
-      color: currentColor;
+      color: plt('justia-blue');
     }
   }
 
@@ -122,7 +126,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
 
     a,
     p {
-      color: currentColor;
+      color: plt('justia-blue');
     }
   }
 
@@ -155,7 +159,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
 
     a,
     strong {
-      color: currentColor;
+      color: plt('justia-blue');
     }
 
     strong {
@@ -186,6 +190,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
     width: get('ads.jld-ad-1.button.width');
     height: get('ads.jld-ad-1.button.height');
     margin: 0 auto;
+    // stylelint-disable-next-line declaration-block-no-duplicate-properties
     Margin: 0 auto;
 
     a {
@@ -208,7 +213,8 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
     font-size: 16px;
     text-align: left;
 
-    strong {
+    strong,
+    a {
       color: plt('white');
     }
   }
@@ -217,6 +223,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
     padding-top: 27px;
     padding-bottom: 38px;
     color: plt('white');
+    font-size: 16px;
   }
 }
 
@@ -250,7 +257,7 @@ $jld-1-ad-button-padding: floor((get('ads.jld-ad-1.button.height') - get('ads.jl
     }
 
     a {
-      color: currentColor;
+      color: plt('black');
     }
   }
 

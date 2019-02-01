@@ -13,7 +13,7 @@
         {{#if featuredNews.link }}
           <a href="{{{ concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.title }}}" target="_blank">
         {{/if}}
-          {{ featuredNews.title }}
+          {{{ featuredNews.title }}}
         {{#if featuredNews.link }}
           </a>
         {{/if}}
@@ -21,8 +21,8 @@
     </td>
   </tr>
   <tr>
-    <!-- main-story-desc {{#gt (length featuredNews.list) 1 }}-with-list{{/gt}} -->
-    <td class="main-story-desc {{#gt (length featuredNews.list) 1 }}-with-list{{/gt}}" responsive="mobile-padding-horizontal-sides">
+    <!-- main-story-desc -with-list -->
+    <td class="main-story-desc -with-list" responsive="mobile-padding-horizontal-sides">
       <table cellpadding="0" cellspacing="0" border="0">
         <tr>
           <!-- story-desc -->
@@ -34,7 +34,7 @@
              {{#if featuredNews.link }}
                <a href="{{{ concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign }}}{{#if clientsNewsletter }}{{{ featuredNews.utm.source.clients }}}{{/if}}{{#if jldNewsletter }}{{{ featuredNews.utm.source.jld }}}{{/if}}{{{ featuredNews.utm.content.image }}}" target="_blank">
              {{/if}}
-             <img src="{{ default.imageDirSrc }}/tech-news-01.png" alt="{{ featuredNews.title }}" border="0" />
+             <img src="{{ default.imageDirSrc }}/tech-news-01.png" alt="{{ featuredNews.alt }}" border="0" />
              {{#if featuredNews.link }}
                </a>
              {{/if}}

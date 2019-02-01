@@ -10,6 +10,10 @@ $internet-stats-chart--width: 540px;
 .w-internet-stats {
   background-color: plt('alabaster');
 
+  &.-jld {
+    border-top: 1px solid darken(plt('alabaster'), 5);
+  }
+
   .stats {
 
     &-title {
