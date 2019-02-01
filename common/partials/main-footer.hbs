@@ -10,14 +10,12 @@
     border="0"
     cellpadding="0"
     cellspacing="0"
-    class="
-      main-footer
+    class="main-footer
       {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}}
       {{#if styleBasic }}-basic{{/if}}
       {{#if styleLightBright }}-light-bright{{/if}}
       {{ customClasses }}
-      set-max-width
-    "
+      set-max-width"
     {{#if socialOnTop }}responsive="main-footer"{{/if}}
   >
     <tr>
@@ -32,28 +30,28 @@
               {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars responsiveClasses='mobile-align-center' }}
             </td>
             {{#if socialOnTop }}
-            <!-- fhead-side -right footer-social -->
-            <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
-              {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
-            </td>
+              <!-- fhead-side -right footer-social -->
+              <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
+                {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
+              </td>
             {{else}}
-            <!-- fhead-side -right footer-nav -->
-            <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
-              {{> navigation elements=navigationElements }}
-            </td>
+              <!-- fhead-side -right footer-nav -->
+              <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
+                {{> navigation elements=navigationElements }}
+              </td>
             {{/if}}
           </tr>
         </table>
       </td>
     </tr>
     {{#unless socialOnTop }}
-    <tr>
-      <!-- footer-social -->
-      <td class="footer-social" responsive="mobile-padding-horizontal-sides">
-        {{> ui-spacer-hack }}
-        {{> social-icons classes='set-max-width' }}
-      </td>
-    </tr>
+      <tr>
+        <!-- footer-social -->
+        <td class="footer-social" responsive="mobile-padding-horizontal-sides">
+          {{> ui-spacer-hack }}
+          {{> social-icons classes='set-max-width' }}
+        </td>
+      </tr>
     {{/unless}}
     <tr>
       <!-- footer-disclaimer -->
@@ -65,21 +63,21 @@
       <!-- footer-address -->
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{#if socialOnTop }}
-        {{> ui-spacer-hack }}
-        {{> address elements=addressElements responsiveClasses='collapse-one mobile-align-center' }}
+          {{> ui-spacer-hack }}
+          {{> address elements=addressElements responsiveClasses='collapse-one mobile-align-center' }}
         {{else}}
-        {{> address elements=addressElements }}
+          {{> address elements=addressElements }}
         {{/if}}
       </td>
     </tr>
     {{#if socialOnTop }}
-    <tr>
-      <!-- footer-nav -->
-      <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
-        {{> ui-spacer-hack }}
-        {{> navigation elements=navigationElements responsiveClasses='mobile-align-center' }}
-      </td>
-    </tr>
+      <tr>
+        <!-- footer-nav -->
+        <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+          {{> ui-spacer-hack }}
+          {{> navigation elements=navigationElements responsiveClasses='mobile-align-center' }}
+        </td>
+      </tr>
     {{/if}}
   </table>
 {{> ui-layout-hack tableEnd=true }}
