@@ -93,7 +93,23 @@ body {
   text-align: center;
 }
 
-.main-header.-logo-only .logo-img {
+.main-header.-logo-only.-justia-logo .logo-img {
+  width: 135px;
+}
+
+.main-header.-logo-only.-insights-logo .logo-img {
+  width: 250px;
+}
+
+.main-header.-logo-only.-lawyer-profile-essentials-logo .logo-img {
+  width: 470px;
+}
+
+.main-header.-logo-only.-legal-jobs-logo .logo-img {
+  width: 308px;
+}
+
+.main-header.-logo-only.-lawyer-directory-logo .logo-img {
   width: 500px;
 }
 
@@ -110,10 +126,6 @@ body {
   width: 65%;
 }
 
-.main-header.-with-date .logo-img {
-  width: 235px;
-}
-
 .main-header.-with-date .date {
   width: 35%;
   text-align: right;
@@ -123,6 +135,26 @@ body {
   display: block;
   color: #000000;
   font: 16px/1.25 Arial, sans-serif;
+}
+
+.main-header.-with-date.-justia-logo .logo-img {
+  width: 135px;
+}
+
+.main-header.-with-date.-insights-logo .logo-img {
+  width: 235px;
+}
+
+.main-header.-with-date.-lawyer-profile-essentials-logo .logo-img {
+  width: 270px;
+}
+
+.main-header.-with-date.-legal-jobs-logo .logo-img {
+  width: 277px;
+}
+
+.main-header.-with-date.-lawyer-directory-logo .logo-img {
+  width: 300px;
 }
 
 .main-footer {

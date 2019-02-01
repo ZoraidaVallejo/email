@@ -58,8 +58,8 @@
                 {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses='mobile-align-center'}}
               {{else if logoName}}
                 {{>main-logo
-                  source=(get (append logoName '.path.blue') logos)
-                  alt=(get (append logoName '.alt') logos)
+                  source=(get (append (camelcase logoName) '.path.blue') logos)
+                  alt=(get (append (camelcase logoName) '.alt') logos)
                   link=logoLink
                   utmVars=logoUtmVars
                   logoResponsiveClasses='mobile-align-center'

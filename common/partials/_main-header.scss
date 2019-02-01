@@ -37,8 +37,22 @@ $settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
   'background': plt('white'),
-  'logo': (
-    'scale-to': 235px
+  // Width of the scaled logos.
+  'logos': (
+    'logo-only': (
+      'justia': 135px,
+      'insights': 250px,
+      'lawyer-profile-essentials': 470px,
+      'legal-jobs': 308px,
+      'lawyer-directory': 500px
+    ),
+    'with-date': (
+      'justia': 135px,
+      'insights': 235px,
+      'lawyer-profile-essentials': 270px,
+      'legal-jobs': 277px,
+      'lawyer-directory': 300px
+    )
   )
 ));
 
@@ -62,8 +76,13 @@ $settings: set('mail-header', (
     text-align: center;
   }
 
-  .logo-img {
-    width: 500px;
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-header.logos.logo-only') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      width: $width;
+    }
   }
 }
 
@@ -82,10 +101,6 @@ $settings: set('mail-header', (
     width: 65%;
   }
 
-  .logo-img {
-    width: 235px;
-  }
-
   .date {
     width: 35%;
     text-align: right;
@@ -94,6 +109,15 @@ $settings: set('mail-header', (
       display: block;
       color: plt('black');
       font: 16px/1.25 $sans-serif-font-family;
+    }
+  }
+
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      width: $width;
     }
   }
 }
