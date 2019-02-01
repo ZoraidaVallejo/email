@@ -3,34 +3,42 @@
 // M A I N   H E A D E R
 // ----------------------------------------------------------------------------------------------------------
 
-$settings: set('mail-logos', (
+$logos-dimensions: (
+  'base': (
+    'dims': 879px 231px
+  ),
   'insights': (
-    'width': 235px,
-    'height': 33px,
-    'dims': 235px 33px
+    'dims': 1127px 158px
   ),
-  'lawyerProfileEssentials': (
-    'width': 500px,
-    'height': 35px,
-    'dims': 500px 35px
+  'lawyer-profile-essentials': (
+    'dims': 2248px 158px
   ),
-  'legalJobs': (
-    'width': 308px,
-    'height': 37px,
-    'dims': 308px 37px
+  'legal-jobs': (
+    'dims': 1328px 158px
   ),
-  'lawyerDirectory': (
-    'width': 390px,
-    'height': 35px,
-    'dims': 390px 35px
+  'lawyer-directory': (
+    'dims': 1762px 158px
   )
-));
+);
+
+$global-mail-logos: ();
+
+@each $name, $config in $logos-dimensions {
+  $global-mail-logos: map-extend($global-mail-logos, (
+    ($name): (
+      'width': nth(map-get($config, 'dims'), 1),
+      'height': nth(map-get($config, 'dims'), 2),
+      'dims': map-get($config, 'dims')
+    )
+  ));
+}
+
+$settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
   'background': plt('white'),
   'logo': (
-    'width': 235px,
-    'height': 33px
+    'scale-to': 235px
   )
 ));
 
