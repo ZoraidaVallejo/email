@@ -1,22 +1,22 @@
-{{!-- Variables for footer --}}
+{{!-- Variables for Footer --}}
 {{#if socialOnTop}}
-  {{assign 'socialOnTopClass' '-social-on-top'}}
+  {{assign 'footerLayoutClass' '-social-on-top'}}
   {{assign 'footerHeadRespClasses' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border'}}
 {{else}}
-  {{assign 'socialOnTopClass' '-social-below'}}
+  {{assign 'footerLayoutClass' '-social-below'}}
   {{assign 'footerHeadRespClasses' 'mobile-padding-horizontal-sides'}}
 {{/if}}
 
 {{#if lookAndFeel}}
-  {{assign 'lookAndFeelClass' (replace '-%s-style' '%s' lookAndFeel)}}
+  {{assign 'footerLookAndFeelClass' (replace '-%s-style' '%s' lookAndFeel)}}
 {{else}}
-  {{assign 'lookAndFeelClass' '-basic-style'}}
+  {{assign 'footerLookAndFeelClass' '-basic-style'}}
 {{/if}}
 
 {{#if logoName}}
-  {{assign 'logoNameClass' (replace '-%s-logo' '%s' logoName)}}
+  {{assign 'footerLogoNameClass' (replace '-%s-logo' '%s' logoName)}}
 {{else}}
-  {{assign 'logoNameClass' '-justia-logo'}}
+  {{assign 'footerLogoNameClass' '-justia-logo'}}
 {{/if}}
 
 {{!
@@ -36,13 +36,13 @@
  * @param {String}  mainFooterClasses
 }}
 {{>ui-layout-hack tableStart=true}}
-  <!-- main-footer {{@root.socialOnTopClass}} {{@root.lookAndFeelClass}} {{@root.logoNameClass}} {{mainFooterClasses}} set-max-width -->
+  <!-- main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width -->
   <table
     align="center"
     border="0"
     cellpadding="0"
     cellspacing="0"
-    class="main-footer {{@root.socialOnTopClass}} {{@root.lookAndFeelClass}} {{@root.logoNameClass}} {{mainFooterClasses}} set-max-width"
+    class="main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width"
     {{#if socialOnTop}}responsive="main-footer"{{/if}}
 >
     <tr>
@@ -63,7 +63,7 @@
                   link=logoLink
                   utmVars=logoUtmVars
                   logoResponsiveClasses='mobile-align-center'
-              }}
+                }}
               {{else}}
                 {{>main-logo link=logoLink utmVars=logoUtmVars logoResponsiveClasses='mobile-align-center'}}
               {{/if}}

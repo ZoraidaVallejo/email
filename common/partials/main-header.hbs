@@ -5,8 +5,8 @@
     <tr>
       <!-- wrapper -->
       <td class="wrapper" responsive="mobile-padding-horizontal-sides">
-        {{> ui-spacer-hack }}
-        {{#if withDate }}
+        {{>ui-spacer-hack}}
+        {{#if withDate}}
           <table align="center" border="0" cellpadding="0" cellspacing="0">
             <tr>
               <!-- logo -->
@@ -15,7 +15,7 @@
               </td>
               <!-- date -->
               <td class="date">
-                <span>{{getMonth custom-config.currentMonth }} {{ custom-config.currentYear }}</span>
+                <span>{{getMonth custom-config.currentMonth}} {{custom-config.currentYear}}</span>
               </td>
             </tr>
           </table>
@@ -25,4 +25,4 @@
       </td>
     </tr>
   </table>
-{{> ui-layout-hack tableEnd=true }}
+{{>ui-layout-hack tableEnd=true}}
