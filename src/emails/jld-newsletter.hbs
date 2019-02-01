@@ -90,12 +90,19 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   {{!-- FOOTER --}}
   <tr>
     <!-- align-center valign-top -->
-    <td height="100%" width="100%" class="align-center valign-top">
-      {{!-- {{> justia-footer-v1 jldNewsletter=true }} --}}
 
+    {{!--
+    justia
+    insights
+    lawyer-profileessentials
+    legal-jobs
+    lawyer-directory
+    --}}
+    <td height="100%" width="100%" class="align-center valign-top">
       {{> main-footer
         socialOnTop=true
-        styleLightBright=true
+        lookAndFeel='light-bright'
+        logoName='insights'
         logoLink=default.footer.logo.link.jld.url
         logoUtmVars=default.footer.logo.link.jld.utm
         navigationElements=default.footer.navigation.items

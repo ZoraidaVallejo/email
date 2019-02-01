@@ -154,11 +154,6 @@ body {
   text-align: right;
 }
 
-.main-footer .logo-img {
-  width: 111px;
-  height: 29px;
-}
-
 .main-footer .footer-social {
   overflow: hidden;
 }
@@ -239,6 +234,31 @@ body {
 .main-footer.-light-bright-style .footer-address span,
 .main-footer.-light-bright-style .footer-address a {
   font: 400 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-justia-logo .logo-img {
+  width: 111px;
+  height: 29px;
+}
+
+.main-footer.-insights-logo .logo-img {
+  width: 235px;
+  height: 33px;
+}
+
+.main-footer.-lawyer-profile-essentials-logo .logo-img {
+  width: 270px;
+  height: 19px;
+}
+
+.main-footer.-legal-jobs-logo .logo-img {
+  width: 235px;
+  height: 28px;
+}
+
+.main-footer.-lawyer-directory-logo .logo-img {
+  width: 235px;
+  height: 21px;
 }
 
 .social-icons {

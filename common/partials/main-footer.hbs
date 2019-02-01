@@ -1,85 +1,105 @@
-{{!-- v1 === Social On Top --}}
-{{!-- v2 === Social Below --}}
-{{!-- Set variables for footer --}}
-{{ assign 'topStripeRespClassesV1' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border' }}
+{{!-- Variables for footer --}}
+{{assign 'fHeadRespClassesSocialOnTop' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border'}}
+{{assign 'fLogoRespClasses' 'mobile-align-center'}}
 
-{{> ui-layout-hack tableStart=true }}
-  <!-- main-footer {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}} set-max-width -->
+{{!
+ * @param {Boolean} socialOnTop
+ * @param {String}  lookAndFeel
+ * @param {String}  logoName
+ * @param {String}  logoLink
+ * @param {Object}  logoUtmVars
+ *
+ * @param {String}  customLogoPath
+ * @param {String}  customLogoAlt
+ *
+ * @param {Array}   navigationElements
+ * @param {String}  disclaimerText
+ * @param {Object}  addressElements
+ *
+ * @param {String}  mainFooterClasses
+}}
+{{>ui-layout-hack tableStart=true}}
+  <!-- main-footer {{#if socialOnTop}}-social-on-top{{else}}-social-below{{/if}} {{#if lookAndFeel}}-{{lookAndFeel}}-style{{else}}-basic-style{{/if}} {{#if logoName}}-{{logoName}}-logo{{else}}-justia-logo{{/if}} {{mainFooterClasses}} set-max-width -->
   <table
     align="center"
     border="0"
     cellpadding="0"
     cellspacing="0"
-    class="main-footer
-      {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}}
-      {{!-- Styles modifier classes --}}
-      {{#if styleBasic }}-basic-style{{/if}}
-      {{#if styleLightBright }}-light-bright-style{{/if}}
-      {{!-- Custom Classes --}}
-      {{ customClasses }}
-      set-max-width"
-    {{#if socialOnTop }}responsive="main-footer"{{/if}}
-  >
+    class="main-footer {{#if socialOnTop}}-social-on-top{{else}}-social-below{{/if}} {{#if lookAndFeel}}-{{lookAndFeel}}-style{{else}}-basic-style{{/if}} {{#if logoName}}-{{logoName}}-logo{{else}}-justia-logo{{/if}} {{mainFooterClasses}} set-max-width"
+    {{#if socialOnTop}}responsive="main-footer"{{/if}}
+>
     <tr>
       <!-- footer-head -->
-      <td class="footer-head" responsive="{{#if socialOnTop }}{{@root.topStripeRespClassesV1}}{{else}}mobile-padding-horizontal-sides{{/if}}">
-        {{#unless socialOnTop }}{{> ui-spacer-hack }}{{/unless}}
-        <!-- fhead-wrapper {{#unless socialOnTop }}set-max-width{{/unless}} -->
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="fhead-wrapper {{#unless socialOnTop }}set-max-width{{/unless}}">
+      <td class="footer-head" responsive="{{#if socialOnTop}}{{@root.fHeadRespClassesSocialOnTop}}{{else}}mobile-padding-horizontal-sides{{/if}}">
+        {{#unless socialOnTop}}{{>ui-spacer-hack}}{{/unless}}
+        <!-- fhead-wrapper {{#unless socialOnTop}}set-max-width{{/unless}} -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="fhead-wrapper {{#unless socialOnTop}}set-max-width{{/unless}}">
           <tr>
             <!-- fhead-side -left footer-logo -->
-            <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop }}footer-logo{{else}}mobile-padding-bottom{{/if}}">
-              {{> main-logo source=logoPath alt=logoAlt link=logoLink utmVars=logoUtmVars responsiveClasses='mobile-align-center' }}
+            <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop}}footer-logo{{else}}mobile-padding-bottom{{/if}}">
+              {{#if customLogoPath}}
+                {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses=@root.fLogoRespClasses}}
+              {{else if logoName}}
+                {{>main-logo
+                  source=(get (append logoName '.path.blue') logos)
+                  alt=(get (append logoName '.alt') logos)
+                  link=logoLink
+                  utmVars=logoUtmVars
+                  logoResponsiveClasses=@root.fLogoRespClasses
+              }}
+              {{else}}
+                {{>main-logo link=logoLink utmVars=logoUtmVars logoResponsiveClasses=@root.fLogoRespClasses}}
+              {{/if}}
             </td>
-            {{#if socialOnTop }}
+            {{#if socialOnTop}}
               <!-- fhead-side -right footer-social -->
               <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
-                {{> social-icons responsiveClasses='mobile-align-center mobile-no-float' }}
+                {{>social-icons socialIconsResponsiveClasses='mobile-align-center mobile-no-float'}}
               </td>
             {{else}}
               <!-- fhead-side -right footer-nav -->
               <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
-                {{> navigation elements=navigationElements }}
+                {{>navigation elements=navigationElements}}
               </td>
             {{/if}}
           </tr>
         </table>
       </td>
     </tr>
-    {{#unless socialOnTop }}
+    {{#unless socialOnTop}}
       <tr>
         <!-- footer-social -->
         <td class="footer-social" responsive="mobile-padding-horizontal-sides">
-          {{> ui-spacer-hack }}
-          {{> social-icons classes='set-max-width' }}
+          {{>ui-spacer-hack}}
+          {{>social-icons socialIconsClasses='set-max-width'}}
         </td>
       </tr>
     {{/unless}}
     <tr>
       <!-- footer-disclaimer -->
       <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
-        <p {{#if socialOnTop }}responsive="mobile-align-center"{{/if}}>{{{ disclaimerText }}}</p>
+        <p {{#if socialOnTop}}responsive="mobile-align-center"{{/if}}>{{{disclaimerText}}}</p>
       </td>
     </tr>
     <tr>
       <!-- footer-address -->
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
-        {{#if socialOnTop }}
-          {{> ui-spacer-hack }}
-          {{> address elements=addressElements responsiveClasses='collapse-one mobile-align-center' }}
+        {{#if socialOnTop}}
+          {{>ui-spacer-hack}}
+          {{>address elements=addressElements addressResponsiveClasses='collapse-one mobile-align-center'}}
         {{else}}
-          {{> address elements=addressElements }}
+          {{>address elements=addressElements}}
         {{/if}}
       </td>
     </tr>
-    {{#if socialOnTop }}
+    {{#if socialOnTop}}
       <tr>
         <!-- footer-nav -->
         <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
-          {{> ui-spacer-hack }}
-          {{> navigation elements=navigationElements responsiveClasses='mobile-align-center' }}
+          {{>ui-spacer-hack}}
+          {{>navigation elements=navigationElements navResponsiveClasses='mobile-align-center'}}
         </td>
       </tr>
     {{/if}}
   </table>
-{{> ui-layout-hack tableEnd=true }}
+{{>ui-layout-hack tableEnd=true}}
