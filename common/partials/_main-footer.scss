@@ -37,6 +37,22 @@ $settings: set('footer-styles', (
     'nav': (
       'color': plt('bright-blue')
     )
+  ),
+  'light-blue': (
+    'font-size': 14px,
+    'color': plt('black'),
+    'background-color': plt('white'),
+    'head': (
+      'background-color': plt('white'),
+      'border-top': plt('justia-blue'),
+      'border-bottom': plt('justia-blue')
+    ),
+    'address': (
+      'font-weight': 700
+    ),
+    'nav': (
+      'color': plt('justia-blue')
+    )
   )
 ));
 
