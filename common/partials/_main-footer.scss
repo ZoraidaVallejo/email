@@ -59,11 +59,20 @@ $settings: set('footer-styles', (
 $settings: set('mail-footer', (
   // Width of the scaled logos.
   'logos': (
-    'justia': 111px,
-    'insights': 235px,
-    'lawyer-profile-essentials': 270px,
-    'legal-jobs': 235px,
-    'lawyer-directory': 235px
+    'social-below': (
+      'justia': 111px,
+      'insights': 190px,
+      'lawyer-profile-essentials': 190px,
+      'legal-jobs': 190px,
+      'lawyer-directory': 190px
+    ),
+    'social-on-top': (
+      'justia': 126px,
+      'insights': 235px,
+      'lawyer-profile-essentials': 300px,
+      'legal-jobs': 277px,
+      'lawyer-directory': 300px
+    )
   )
 ));
 
@@ -118,17 +127,6 @@ $settings: set('mail-footer', (
 
     &.-#{$style-name}-style {
       @include set-footer-style($scheme);
-    }
-  }
-
-  // LOGO SIZES
-  // ----------
-  @each $logo-name, $width in get('mail-footer.logos') {
-
-    &.-#{$logo-name}-logo .logo-img {
-      $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
-
-      @include size($width, $_scaled-height);
     }
   }
 }

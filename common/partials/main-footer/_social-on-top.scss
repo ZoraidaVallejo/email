@@ -7,7 +7,14 @@
 .main-footer.-social-on-top {
 
   .fhead-side {
-    width: percentage(1 / 2);
+
+    &.-left {
+      width: 65%;
+    }
+
+    &.-right {
+      width: 35%;
+    }
   }
 
   .footer-social {
@@ -28,5 +35,16 @@
   .footer-nav {
     padding: 0 $padding floor($padding * 3);
     vertical-align: top;
+  }
+
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-footer.logos.social-on-top') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
+
+      @include size($width, $_scaled-height);
+    }
   }
 }

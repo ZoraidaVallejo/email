@@ -9,11 +9,11 @@
   .fhead-side {
 
     &.-left {
-      width: 25%;
+      width: 40%;
     }
 
     &.-right {
-      width: 75%;
+      width: 60%;
     }
   }
 
@@ -42,5 +42,16 @@
   .footer-address {
     padding: 0 $padding floor($padding * 4);
     text-align: center;
+  }
+
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-footer.logos.social-below') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
+
+      @include size($width, $_scaled-height);
+    }
   }
 }
