@@ -12,8 +12,10 @@
     cellspacing="0"
     class="main-footer
       {{#if socialOnTop }}-social-on-top{{else}}-social-below{{/if}}
-      {{#if styleBasic }}-basic{{/if}}
-      {{#if styleLightBright }}-light-bright{{/if}}
+      {{!-- Styles modifier classes --}}
+      {{#if styleBasic }}-basic-style{{/if}}
+      {{#if styleLightBright }}-light-bright-style{{/if}}
+      {{!-- Custom Classes --}}
       {{ customClasses }}
       set-max-width"
     {{#if socialOnTop }}responsive="main-footer"{{/if}}

@@ -42,6 +42,7 @@ $settings: set('footer-styles', (
 
 $settings: set('mail-footer', (
   'logo': (
+    // Width of the scaled logo.
     'size': (111px 29px)
   )
 ));
@@ -100,7 +101,7 @@ $settings: set('mail-footer', (
 
   @each $style-name, $scheme in get('footer-styles') {
 
-    &.-#{$style-name} {
+    &.-#{$style-name}-style {
       @include set-footer-style($scheme);
     }
   }

@@ -171,73 +171,73 @@ body {
   vertical-align: top;
 }
 
-.main-footer.-basic {
+.main-footer.-basic-style {
   background-color: #ffffff;
 }
 
-.main-footer.-basic .footer-head {
+.main-footer.-basic-style .footer-head {
   border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
   background-color: #06357a;
 }
 
-.main-footer.-basic .footer-nav p,
-.main-footer.-basic .footer-nav span,
-.main-footer.-basic .footer-nav a,
-.main-footer.-basic .footer-disclaimer p,
-.main-footer.-basic .footer-disclaimer span,
-.main-footer.-basic .footer-disclaimer a,
-.main-footer.-basic .footer-address p,
-.main-footer.-basic .footer-address span,
-.main-footer.-basic .footer-address a {
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a,
+.main-footer.-basic-style .footer-disclaimer p,
+.main-footer.-basic-style .footer-disclaimer span,
+.main-footer.-basic-style .footer-disclaimer a,
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
   color: #000000;
   font: 14px/1.38 Arial, sans-serif;
 }
 
-.main-footer.-basic .footer-nav p,
-.main-footer.-basic .footer-nav span,
-.main-footer.-basic .footer-nav a {
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a {
   color: #ffffff;
 }
 
-.main-footer.-basic .footer-address p,
-.main-footer.-basic .footer-address span,
-.main-footer.-basic .footer-address a {
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
   font: 700 14px/1.38 Arial, sans-serif;
 }
 
-.main-footer.-light-bright {
+.main-footer.-light-bright-style {
   background-color: #ffffff;
 }
 
-.main-footer.-light-bright .footer-head {
+.main-footer.-light-bright-style .footer-head {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #00b3e3;
   background-color: #ffffff;
 }
 
-.main-footer.-light-bright .footer-nav p,
-.main-footer.-light-bright .footer-nav span,
-.main-footer.-light-bright .footer-nav a,
-.main-footer.-light-bright .footer-disclaimer p,
-.main-footer.-light-bright .footer-disclaimer span,
-.main-footer.-light-bright .footer-disclaimer a,
-.main-footer.-light-bright .footer-address p,
-.main-footer.-light-bright .footer-address span,
-.main-footer.-light-bright .footer-address a {
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a,
+.main-footer.-light-bright-style .footer-disclaimer p,
+.main-footer.-light-bright-style .footer-disclaimer span,
+.main-footer.-light-bright-style .footer-disclaimer a,
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
   color: #000000;
   font: 14px/1.38 Arial, sans-serif;
 }
 
-.main-footer.-light-bright .footer-nav p,
-.main-footer.-light-bright .footer-nav span,
-.main-footer.-light-bright .footer-nav a {
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a {
   color: #00b3e3;
 }
 
-.main-footer.-light-bright .footer-address p,
-.main-footer.-light-bright .footer-address span,
-.main-footer.-light-bright .footer-address a {
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
   font: 400 14px/1.38 Arial, sans-serif;
 }
 
