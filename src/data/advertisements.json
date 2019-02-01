@@ -10,14 +10,14 @@
 
   "jld": {
     "ad1": {
-      "image": "jld-adname-image-01.png",
-      "alt": "Laptop with a web browser window",
+      "image": "jld-adname-image-01.gif",
+      "alt": "Phone showing a JLD profile",
       "link": "#",
       "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
     },
     "ad2": {
-      "image": "jld-adname-image-02.png",
-      "alt": "Phone showing a JLD profile",
+      "image": "jld-adname-image-02.gif",
+      "alt": "Laptop with a web browser window",
       "link": "#",
       "description": ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"]
     }

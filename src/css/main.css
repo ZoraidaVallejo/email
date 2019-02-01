@@ -1192,6 +1192,12 @@ body {
   padding: 40px 141px;
 }
 
+.w-jld-ad-01 .ad-logo img,
+.w-jld-ad-02 .ad-logo img {
+  width: 318px;
+  max-width: 100%;
+}
+
 .w-jld-ad-01 .ad-title,
 .w-jld-ad-02 .ad-title {
   padding-bottom: 26px;
@@ -1257,6 +1263,12 @@ body {
   padding-bottom: 15px;
 }
 
+.w-jld-ad-01 .ad-image img,
+.w-jld-ad-02 .ad-image img {
+  width: 210px;
+  max-width: 100%;
+}
+
 .w-jld-ad-01 .ad-text,
 .w-jld-ad-02 .ad-text {
   padding: 105px 0 0 30px;
@@ -1295,10 +1307,16 @@ body {
 
 .w-jld-ad-01 .ad-image {
   width: 600px;
+  height: 287px;
+  padding: 0 107px 30px 66px;
+  background: url("../img/jld-adname-image-02-bg.png");
+  background-repeat: no-repeat;
 }
 
 .w-jld-ad-01 .ad-image img {
-  width: 600px;
+  width: 428px;
+  max-width: 100%;
+  height: 251px;
 }
 
 .w-jld-ad-01 .ad-text {
@@ -1325,6 +1343,19 @@ body {
 
 .w-jld-ad-01 .ad-contacts strong {
   color: #06357a;
+}
+
+.w-jld-ad-01 .ui-real-text-button {
+  width: 350px;
+  height: 50px;
+}
+
+.w-jld-ad-01 .ui-real-text-button a {
+  padding: 16px 0;
+}
+
+.w-jld-ad-01 .ui-real-text-button .wrapper {
+  font-size: 18px;
 }
 
 .w-internet-stats {
