@@ -1,0 +1,91 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N   H E A D E R
+// ----------------------------------------------------------------------------------------------------------
+
+$settings: set('mail-logos', (
+  'insights': (
+    'width': 235px,
+    'height': 33px,
+    'dims': 235px 33px
+  ),
+  'lawyerProfileEssentials': (
+    'width': 500px,
+    'height': 35px,
+    'dims': 500px 35px
+  ),
+  'legalJobs': (
+    'width': 308px,
+    'height': 37px,
+    'dims': 308px 37px
+  ),
+  'lawyerDirectory': (
+    'width': 390px,
+    'height': 35px,
+    'dims': 390px 35px
+  )
+));
+
+$settings: set('mail-header', (
+  'background': plt('white'),
+  'logo': (
+    'width': 235px,
+    'height': 33px
+  )
+));
+
+// ----------------------------------------------------------------------------------------------------------
+
+.main-header {
+  background: get('mail-header.background');
+
+  .logo-img {
+    display: block;
+    max-width: 87%;
+    margin: 0;
+  }
+}
+
+.main-header.-logo-only {
+
+  .wrapper {
+    width: 100%;
+    padding: 20px $padding 15px;
+    text-align: center;
+  }
+
+  .logo-img {
+    width: 500px;
+  }
+}
+
+.main-header.-with-date {
+
+  .wrapper {
+    padding: ($padding / 2) $padding;
+    vertical-align: middle;
+
+    > table {
+      table-layout: fixed;
+    }
+  }
+
+  .logo {
+    width: 65%;
+  }
+
+  .logo-img {
+    width: 235px;
+  }
+
+  .date {
+    width: 35%;
+    text-align: right;
+
+    span {
+      display: block;
+      color: plt('black');
+      font: 16px/1.25 $sans-serif-font-family;
+    }
+  }
+}

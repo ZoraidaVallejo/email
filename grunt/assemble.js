@@ -6,7 +6,7 @@ module.exports = {
   options: {
     layouts: [path.join(cwd, '/common/layouts/*.hbs'), '<%= paths.src %>/layouts/*.hbs'],
     partials: [
-      path.join(cwd, '/common/partials/*.hbs'),
+      path.join(cwd, '/common/partials/**/*.hbs'),
       path.join(cwd, '/common/ui-components/*.hbs'),
       '<%= paths.src %>/partials/**/*.hbs'
     ],
@@ -15,7 +15,7 @@ module.exports = {
       dest: './temp/'
     },
     helpers: ['./lib/handlebars-helpers.js', './node_modules/handlebars-helpers/lib/**/*.js'],
-    data: ['<%= paths.src %>/data/*.{json,yml}', 'custom-config.json'],
+    data: ['common/data/*.json', '<%= paths.src %>/data/*.json', 'custom-config.json'],
     flatten: true
   },
   pages: {

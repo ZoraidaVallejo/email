@@ -48,8 +48,8 @@
 
   {{#forEach featuredNews.list }}
     <tr>
-      <!-- main-story-list {{#if featuredNews.button }}{{ else }}main-story-list--last{{/if}} -->
-      <td class="main-story-list {{#if featuredNews.button }}{{ else }}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <!-- main-story-list {{#if featuredNews.button }}{{else}}main-story-list--last{{/if}} -->
+      <td class="main-story-list {{#if featuredNews.button }}{{else}}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <p><a href="{{ this.link }}" target="_blank">{{{ this.title }}}</a></p>
         {{#if this.description }}<p>{{{ this.description }}}</p>{{/if}}
       </td>

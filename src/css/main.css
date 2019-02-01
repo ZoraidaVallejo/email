@@ -77,46 +77,49 @@ body {
   font: 400 29px/1.27 Arial, sans-serif;
 }
 
-.justia-header-v1 {
+.main-header {
   background: #ffffff;
 }
 
-.justia-header-v1 .view-in-browser {
-  padding: 5px 30px;
-  border-bottom: 1px solid #e7e8e8;
-  vertical-align: top;
-}
-
-.justia-header-v1 .view-in-browser a {
+.main-header .logo-img {
   display: block;
-  width: 100%;
-  text-decoration: none;
-}
-
-.justia-header-v1 .logo-date {
-  padding: 15px 30px;
-  vertical-align: middle;
-}
-
-.justia-header-v1 .logo-date table {
-  table-layout: fixed;
-}
-
-.justia-header-v1 .logo {
-  width: 65%;
-}
-
-.justia-header-v1 .date {
-  width: 35%;
-}
-
-.justia-header-v1 .logo img {
-  width: 235px;
   max-width: 87%;
   margin: 0;
 }
 
-.justia-header-v1 .date span {
+.main-header.-logo-only .wrapper {
+  width: 100%;
+  padding: 20px 30px 15px;
+  text-align: center;
+}
+
+.main-header.-logo-only .logo-img {
+  width: 500px;
+}
+
+.main-header.-with-date .wrapper {
+  padding: 15px 30px;
+  vertical-align: middle;
+}
+
+.main-header.-with-date .wrapper > table {
+  table-layout: fixed;
+}
+
+.main-header.-with-date .logo {
+  width: 65%;
+}
+
+.main-header.-with-date .logo-img {
+  width: 235px;
+}
+
+.main-header.-with-date .date {
+  width: 35%;
+  text-align: right;
+}
+
+.main-header.-with-date .date span {
   display: block;
   color: #000000;
   font: 16px/1.25 Arial, sans-serif;
@@ -221,6 +224,118 @@ body {
 
 .justia-footer-v1 .footernav .vline {
   margin: 0 10px;
+}
+
+.justia-footer-v3 {
+  clear: both;
+  background-color: #ffffff;
+}
+
+.justia-footer-v3 a {
+  text-decoration: none;
+}
+
+.justia-footer-v3 img {
+  display: block;
+  max-width: none;
+}
+
+.justia-footer-v3 .logo-footernav {
+  padding: 20px 30px;
+  border-top: 1px solid #06357a;
+  border-bottom: 1px solid #06357a;
+  background-color: #ffffff;
+}
+
+.justia-footer-v3 .logo-footernav table {
+  width: 100%;
+}
+
+.justia-footer-v3 .logo-footernav .logo {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.justia-footer-v3 .logo-footernav .logo img {
+  display: block;
+  width: 111px;
+  max-width: none;
+  height: 29px;
+}
+
+.justia-footer-v3 .logo-footernav .footernav {
+  width: 75%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.justia-footer-v3 .logo-footernav .footernav span,
+.justia-footer-v3 .logo-footernav .footernav a {
+  color: #06357a;
+  font: 14px/1.38 Arial, sans-serif;
+  white-space: nowrap;
+}
+
+.justia-footer-v3 .logo-footernav .footernav .vline {
+  margin: 0 10px;
+}
+
+.justia-footer-v3 .social {
+  overflow: hidden;
+  padding: 20px 30px 10px;
+  text-align: center;
+}
+
+.justia-footer-v3 .social table {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.justia-footer-v3 .social table td {
+  width: 36px;
+  height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.justia-footer-v3 .social table td:last-child {
+  width: 32px;
+}
+
+.justia-footer-v3 .social a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.justia-footer-v3 .social a img {
+  width: 32px;
+  height: 32px;
+}
+
+.justia-footer-v3 .disclaimer {
+  padding: 0 30px 5px;
+  text-align: center;
+}
+
+.justia-footer-v3 .disclaimer p {
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.justia-footer-v3 .address {
+  padding: 0 30px 120px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.justia-footer-v3 .address span,
+.justia-footer-v3 .address a {
+  color: #000000;
+  font: 400 14px/1.38 Arial, sans-serif;
+}
+
+.justia-footer-v3 .address .justia-inline {
+  font: 700 14px/1.38 Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .ui-real-text-button {

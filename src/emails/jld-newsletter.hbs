@@ -11,7 +11,11 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-header-v1 jldNewsletter=true }}
+      {{> main-header
+        withDate=true
+        logoLink=default.header.logo.link.jld.url
+        logoUtmVars=default.header.logo.link.jld.utm
+      }}
     </td>
   </tr>
 
