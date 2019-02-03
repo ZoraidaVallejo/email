@@ -1,4 +1,8 @@
 
+/// Set different color schemes for the footer.
+///
+/// @param {map} $scheme - Color scheme.
+///
 @mixin set-footer-style($scheme) {
   background-color: get('background-color', $scheme);
 
