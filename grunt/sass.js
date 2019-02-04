@@ -10,12 +10,7 @@ module.exports = (grunt, { version, paths }) => ({
     options: Eyeglass({
       implementation: sass,
       outputStyle: 'expanded',
-      includePaths: [
-        path.join(cwd, '/common/partials/'),
-        path.join(cwd, '/common/ui-components/'),
-        // Kept it due to legacy support.
-        path.join(cwd, '/node_modules/sassy-maps/sass/')
-      ]
+      includePaths: [path.join(cwd, '/common/partials/')]
     }),
     files: [
       {
