@@ -2,11 +2,11 @@ const path = require('path');
 
 const cwd = process.cwd();
 
-module.exports = (grunt, { version, paths }) => ({
+module.exports = (grunt, { paths }) => ({
   options: {
     configFile: path.join(cwd, '.stylelintrc.json'),
     failOnError: false,
     syntax: 'scss'
   },
-  src: `${paths.src}${!version ? '/css' : ''}/scss/**/*.scss`
+  src: path.join(paths.src, 'scss/**/*.scss')
 });
