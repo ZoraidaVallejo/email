@@ -122,18 +122,4 @@ function triggerEvent(element, type) {
     },
     false
   );
-
-  // function mobilePreviewDrawer() {
-  //   const toggleBtns = document.querySelectorAll('.js-drawer-toggle');
-  //   const drawerHiddenClass = 'mobile-drawer-hidden';
-  //   const toggleListener = () => {
-  //     document.body.classList.toggle(drawerHiddenClass);
-  //   };
-
-  //   toggleBtns.forEach(btn => {
-  //     btn.addEventListener('click', toggleListener, false);
-  //   });
-  // }
-
-  // mobilePreviewDrawer();
 })();
