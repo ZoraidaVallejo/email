@@ -3,34 +3,56 @@
 // M A I N   H E A D E R
 // ----------------------------------------------------------------------------------------------------------
 
-$settings: set('mail-logos', (
+$logos-dimensions: (
+  'justia': (
+    'dims': 879px 231px
+  ),
   'insights': (
-    'width': 235px,
-    'height': 33px,
-    'dims': 235px 33px
+    'dims': 1127px 158px
   ),
-  'lawyerProfileEssentials': (
-    'width': 500px,
-    'height': 35px,
-    'dims': 500px 35px
+  'lawyer-profile-essentials': (
+    'dims': 2248px 158px
   ),
-  'legalJobs': (
-    'width': 308px,
-    'height': 37px,
-    'dims': 308px 37px
+  'legal-jobs': (
+    'dims': 1328px 158px
   ),
-  'lawyerDirectory': (
-    'width': 390px,
-    'height': 35px,
-    'dims': 390px 35px
+  'lawyer-directory': (
+    'dims': 1762px 158px
   )
-));
+);
+
+$global-mail-logos: ();
+
+@each $name, $config in $logos-dimensions {
+  $global-mail-logos: map-extend($global-mail-logos, (
+    ($name): (
+      'width': nth(map-get($config, 'dims'), 1),
+      'height': nth(map-get($config, 'dims'), 2),
+      'dims': map-get($config, 'dims')
+    )
+  ));
+}
+
+$settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
   'background': plt('white'),
-  'logo': (
-    'width': 235px,
-    'height': 33px
+  // Width of the scaled logos.
+  'logos': (
+    'logo-only': (
+      'justia': 135px,
+      'insights': 250px,
+      'lawyer-profile-essentials': 470px,
+      'legal-jobs': 308px,
+      'lawyer-directory': 500px
+    ),
+    'with-date': (
+      'justia': 135px,
+      'insights': 235px,
+      'lawyer-profile-essentials': 270px,
+      'legal-jobs': 277px,
+      'lawyer-directory': 300px
+    )
   )
 ));
 
@@ -54,8 +76,13 @@ $settings: set('mail-header', (
     text-align: center;
   }
 
-  .logo-img {
-    width: 500px;
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-header.logos.logo-only') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      width: $width;
+    }
   }
 }
 
@@ -74,10 +101,6 @@ $settings: set('mail-header', (
     width: 65%;
   }
 
-  .logo-img {
-    width: 235px;
-  }
-
   .date {
     width: 35%;
     text-align: right;
@@ -86,6 +109,15 @@ $settings: set('mail-header', (
       display: block;
       color: plt('black');
       font: 16px/1.25 $sans-serif-font-family;
+    }
+  }
+
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      width: $width;
     }
   }
 }

@@ -93,7 +93,23 @@ body {
   text-align: center;
 }
 
-.main-header.-logo-only .logo-img {
+.main-header.-logo-only.-justia-logo .logo-img {
+  width: 135px;
+}
+
+.main-header.-logo-only.-insights-logo .logo-img {
+  width: 250px;
+}
+
+.main-header.-logo-only.-lawyer-profile-essentials-logo .logo-img {
+  width: 470px;
+}
+
+.main-header.-logo-only.-legal-jobs-logo .logo-img {
+  width: 308px;
+}
+
+.main-header.-logo-only.-lawyer-directory-logo .logo-img {
   width: 500px;
 }
 
@@ -110,10 +126,6 @@ body {
   width: 65%;
 }
 
-.main-header.-with-date .logo-img {
-  width: 235px;
-}
-
 .main-header.-with-date .date {
   width: 35%;
   text-align: right;
@@ -125,217 +137,302 @@ body {
   font: 16px/1.25 Arial, sans-serif;
 }
 
-.justia-footer-v1 {
-  clear: both;
-  background-color: #ffffff;
+.main-header.-with-date.-justia-logo .logo-img {
+  width: 135px;
 }
 
-.justia-footer-v1 a {
+.main-header.-with-date.-insights-logo .logo-img {
+  width: 235px;
+}
+
+.main-header.-with-date.-lawyer-profile-essentials-logo .logo-img {
+  width: 270px;
+}
+
+.main-header.-with-date.-legal-jobs-logo .logo-img {
+  width: 277px;
+}
+
+.main-header.-with-date.-lawyer-directory-logo .logo-img {
+  width: 300px;
+}
+
+.main-footer {
+  clear: both;
+}
+
+.main-footer a {
   text-decoration: none;
 }
 
-.justia-footer-v1 img {
+.main-footer img {
   display: block;
   max-width: none;
 }
 
-.justia-footer-v1 .logo-social {
+.main-footer .footer-head {
   padding: 20px 30px;
-  border-bottom: 1px solid #00b3e3;
 }
 
-.justia-footer-v1 .logo-social table {
+.main-footer .fhead-wrapper {
   width: 100%;
 }
 
-.justia-footer-v1 .logo-social .logo,
-.justia-footer-v1 .logo-social .social {
-  width: 50%;
+.main-footer .fhead-side {
   vertical-align: middle;
 }
 
-.justia-footer-v1 .logo-social .logo img {
-  display: block;
-  width: 235px;
-  max-width: none;
-  height: 33px;
+.main-footer .fhead-side.-right {
+  text-align: right;
 }
 
-.justia-footer-v1 .logo-social .social {
+.main-footer .footer-social {
   overflow: hidden;
 }
 
-.justia-footer-v1 .logo-social .social table {
-  width: 140px !important;
-}
-
-.justia-footer-v1 .logo-social .social table td {
-  width: 36px;
-  height: 32px;
-  text-align: left;
-  vertical-align: top;
-}
-
-.justia-footer-v1 .logo-social .social table td:last-child {
-  width: 32px;
-}
-
-.justia-footer-v1 .logo-social .social a {
-  display: inline-block !important;
-  vertical-align: middle;
-}
-
-.justia-footer-v1 .logo-social .social a img {
-  width: 32px;
-  height: 32px;
-}
-
-.justia-footer-v1 .disclaimer p,
-.justia-footer-v1 .address p,
-.justia-footer-v1 .footernav p,
-.justia-footer-v1 span,
-.justia-footer-v1 a {
-  font: 14px/1.38 Arial, sans-serif;
-}
-
-.justia-footer-v1 .disclaimer {
-  padding: 40px 30px 20px;
-}
-
-.justia-footer-v1 .address {
-  padding: 0 30px 10px;
-  vertical-align: top;
-}
-
-.justia-footer-v1 .address span,
-.justia-footer-v1 .address a {
-  color: #000000;
-}
-
-.justia-footer-v1 .footernav {
-  padding: 0 30px 90px;
-  vertical-align: top;
-}
-
-.justia-footer-v1 .footernav span,
-.justia-footer-v1 .footernav a {
-  color: #00b3e3;
-}
-
-.justia-footer-v1 .footernav .vline {
+.main-footer .footer-nav .pipe {
   margin: 0 10px;
 }
 
-.justia-footer-v3 {
-  clear: both;
+.main-footer .footer-address {
+  vertical-align: top;
+}
+
+.main-footer.-basic-style {
   background-color: #ffffff;
 }
 
-.justia-footer-v3 a {
-  text-decoration: none;
+.main-footer.-basic-style .footer-head {
+  border-top: 1px solid #06357a;
+  border-bottom: 1px solid #06357a;
+  background-color: #06357a;
 }
 
-.justia-footer-v3 img {
-  display: block;
-  max-width: none;
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a,
+.main-footer.-basic-style .footer-disclaimer p,
+.main-footer.-basic-style .footer-disclaimer span,
+.main-footer.-basic-style .footer-disclaimer a,
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
 }
 
-.justia-footer-v3 .logo-footernav {
-  padding: 20px 30px;
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a {
+  color: #ffffff;
+}
+
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
+  font: 700 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-bright-style {
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright-style .footer-head {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #00b3e3;
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a,
+.main-footer.-light-bright-style .footer-disclaimer p,
+.main-footer.-light-bright-style .footer-disclaimer span,
+.main-footer.-light-bright-style .footer-disclaimer a,
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a {
+  color: #00b3e3;
+}
+
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
+  font: 400 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-blue-style {
+  background-color: #ffffff;
+}
+
+.main-footer.-light-blue-style .footer-head {
   border-top: 1px solid #06357a;
   border-bottom: 1px solid #06357a;
   background-color: #ffffff;
 }
 
-.justia-footer-v3 .logo-footernav table {
-  width: 100%;
-}
-
-.justia-footer-v3 .logo-footernav .logo {
-  width: 25%;
-  vertical-align: middle;
-}
-
-.justia-footer-v3 .logo-footernav .logo img {
-  display: block;
-  width: 111px;
-  max-width: none;
-  height: 29px;
-}
-
-.justia-footer-v3 .logo-footernav .footernav {
-  width: 75%;
-  text-align: right;
-  vertical-align: middle;
-}
-
-.justia-footer-v3 .logo-footernav .footernav span,
-.justia-footer-v3 .logo-footernav .footernav a {
-  color: #06357a;
+.main-footer.-light-blue-style .footer-nav p,
+.main-footer.-light-blue-style .footer-nav span,
+.main-footer.-light-blue-style .footer-nav a,
+.main-footer.-light-blue-style .footer-disclaimer p,
+.main-footer.-light-blue-style .footer-disclaimer span,
+.main-footer.-light-blue-style .footer-disclaimer a,
+.main-footer.-light-blue-style .footer-address p,
+.main-footer.-light-blue-style .footer-address span,
+.main-footer.-light-blue-style .footer-address a {
+  color: #000000;
   font: 14px/1.38 Arial, sans-serif;
-  white-space: nowrap;
 }
 
-.justia-footer-v3 .logo-footernav .footernav .vline {
-  margin: 0 10px;
+.main-footer.-light-blue-style .footer-nav p,
+.main-footer.-light-blue-style .footer-nav span,
+.main-footer.-light-blue-style .footer-nav a {
+  color: #06357a;
 }
 
-.justia-footer-v3 .social {
-  overflow: hidden;
-  padding: 20px 30px 10px;
-  text-align: center;
+.main-footer.-light-blue-style .footer-address p,
+.main-footer.-light-blue-style .footer-address span,
+.main-footer.-light-blue-style .footer-address a {
+  font: 700 14px/1.38 Arial, sans-serif;
 }
 
-.justia-footer-v3 .social table {
+.social-icons {
   width: 140px;
-  margin: 0 auto;
 }
 
-.justia-footer-v3 .social table td {
+.social-icons .icon {
   width: 36px;
   height: 32px;
   text-align: left;
   vertical-align: top;
 }
 
-.justia-footer-v3 .social table td:last-child {
+.social-icons .icon:last-child {
   width: 32px;
 }
 
-.justia-footer-v3 .social a {
+.social-icons a {
   display: inline-block;
   vertical-align: middle;
 }
 
-.justia-footer-v3 .social a img {
+.social-icons a img {
   width: 32px;
   height: 32px;
 }
 
-.justia-footer-v3 .disclaimer {
+.main-footer.-social-below .fhead-side.-left {
+  width: 40%;
+}
+
+.main-footer.-social-below .fhead-side.-right {
+  width: 60%;
+}
+
+.main-footer.-social-below .footer-nav a {
+  white-space: nowrap;
+}
+
+.main-footer.-social-below .footer-social {
+  padding: 20px 30px 10px;
+  text-align: center;
+}
+
+.main-footer.-social-below .footer-social .social-icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-footer.-social-below .footer-disclaimer {
   padding: 0 30px 5px;
   text-align: center;
 }
 
-.justia-footer-v3 .disclaimer p {
-  font: 14px/1.38 Arial, sans-serif;
-}
-
-.justia-footer-v3 .address {
+.main-footer.-social-below .footer-address {
   padding: 0 30px 120px;
   text-align: center;
+}
+
+.main-footer.-social-below.-justia-logo .logo-img {
+  width: 111px;
+  height: 29px;
+}
+
+.main-footer.-social-below.-insights-logo .logo-img {
+  width: 190px;
+  height: 27px;
+}
+
+.main-footer.-social-below.-lawyer-profile-essentials-logo .logo-img {
+  width: 190px;
+  height: 13px;
+}
+
+.main-footer.-social-below.-legal-jobs-logo .logo-img {
+  width: 190px;
+  height: 23px;
+}
+
+.main-footer.-social-below.-lawyer-directory-logo .logo-img {
+  width: 190px;
+  height: 17px;
+}
+
+.main-footer.-social-on-top .fhead-side.-left {
+  width: 65%;
+}
+
+.main-footer.-social-on-top .fhead-side.-right {
+  width: 35%;
+}
+
+.main-footer.-social-on-top .footer-social .social-icons {
+  text-align: right;
+}
+
+.main-footer.-social-on-top .footer-disclaimer {
+  padding: 40px 30px 20px;
+}
+
+.main-footer.-social-on-top .footer-address {
+  padding: 0 30px 10px;
+}
+
+.main-footer.-social-on-top .footer-nav {
+  padding: 0 30px 90px;
   vertical-align: top;
 }
 
-.justia-footer-v3 .address span,
-.justia-footer-v3 .address a {
-  color: #000000;
-  font: 400 14px/1.38 Arial, sans-serif;
+.main-footer.-social-on-top.-justia-logo .logo-img {
+  width: 126px;
+  height: 33px;
 }
 
-.justia-footer-v3 .address .justia-inline {
-  font: 700 14px/1.38 Arial, sans-serif;
-  text-transform: uppercase;
+.main-footer.-social-on-top.-insights-logo .logo-img {
+  width: 235px;
+  height: 33px;
+}
+
+.main-footer.-social-on-top.-lawyer-profile-essentials-logo .logo-img {
+  width: 300px;
+  height: 21px;
+}
+
+.main-footer.-social-on-top.-legal-jobs-logo .logo-img {
+  width: 277px;
+  height: 33px;
+}
+
+.main-footer.-social-on-top.-lawyer-directory-logo .logo-img {
+  width: 300px;
+  height: 27px;
 }
 
 .ui-real-text-button {

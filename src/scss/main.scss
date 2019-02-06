@@ -20,8 +20,10 @@ $use-breakpoint: false;
 
 @import
   'main-header',
-  'justia-footer-v1',
-  'justia-footer-v3',
+  'main-footer',
+  'main-footer/social-icons',
+  'main-footer/social-below',
+  'main-footer/social-on-top',
   'ui-real-text-button',
   'ui-label-divider',
   'ui-columns-grid';

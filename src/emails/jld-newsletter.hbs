@@ -13,6 +13,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
     <td height="100%" width="100%" class="align-center valign-top">
       {{> main-header
         withDate=true
+        logoName='insights'
         logoLink=default.header.logo.link.jld.url
         logoUtmVars=default.header.logo.link.jld.utm
       }}
@@ -91,7 +92,16 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <!-- align-center valign-top -->
     <td height="100%" width="100%" class="align-center valign-top">
-      {{> justia-footer-v1 jldNewsletter=true }}
+      {{> main-footer
+        socialOnTop=true
+        lookAndFeel='light-bright'
+        logoName='insights'
+        logoLink=default.footer.logo.link.jld.url
+        logoUtmVars=default.footer.logo.link.jld.utm
+        navigationElements=default.footer.navigation.items
+        disclaimerText=default.footer.disclaimer.jld
+        addressElements=default.footer.address.jld
+      }}
     </td>
   </tr>
 

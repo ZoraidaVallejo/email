@@ -1,0 +1,10 @@
+{{!
+ * @param {Object} elements                 `link` and `text` keys are required. `target` is optional.
+ * @param {String} navResponsiveClasses
+}}
+<p responsive="{{navResponsiveClasses}}">
+  {{#each elements}}
+    {{#unless @first}}{{>pipe pipeResponsiveClasses='mobile-hide'}}{{/unless}}
+    <a responsive="collapse-one mobile-padding-vertical-sides" href="{{this.link}}" {{#if this.target}}target="{{this.target}}"{{/if}}>{{{this.text}}}</a>
+  {{/each}}
+</p>

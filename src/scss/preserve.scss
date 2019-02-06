@@ -147,8 +147,11 @@ div[style*='margin: 16px 0;'] {
       text-align: center !important;
     }
 
-    &-fz-20 {
-      font-size: 20px !important;
+    @each $fz in (20 24 30) {
+
+      &-fz-#{$fz} {
+        font-size: ($fz * 1px) !important;
+      }
     }
 
     // Padding Modifiers
@@ -231,14 +234,14 @@ div[style*='margin: 16px 0;'] {
 
   // C U S T O M
   // -----------
-  .justia-footer-v1 {
+  .main-footer {
 
-    .logo {
+    .footer-logo {
       padding-bottom: 20px !important;
       border-bottom: 1px solid plt('bright-blue');
     }
 
-    .social {
+    .footer-social {
       padding-top: 20px !important;
     }
   }

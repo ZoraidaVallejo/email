@@ -106,6 +106,12 @@ div[style*='margin: 16px 0;'] {
   .mobile-fz-20 {
     font-size: 20px !important;
   }
+  .mobile-fz-24 {
+    font-size: 24px !important;
+  }
+  .mobile-fz-30 {
+    font-size: 30px !important;
+  }
   .mobile-padding-top {
     padding-top: 10px !important;
   }
@@ -154,11 +160,11 @@ div[style*='margin: 16px 0;'] {
   .mobile-no-border {
     border: 0 !important;
   }
-  .justia-footer-v1 .logo {
+  .main-footer .footer-logo {
     padding-bottom: 20px !important;
     border-bottom: 1px solid #00b3e3;
   }
-  .justia-footer-v1 .social {
+  .main-footer .footer-social {
     padding-top: 20px !important;
   }
 }

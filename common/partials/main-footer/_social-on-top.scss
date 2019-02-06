@@ -1,0 +1,49 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// M A I N   F O O T E R :   S O C I A L   P L A C E D   I N   T O P   B A R
+// ----------------------------------------------------------------------------------------------------------
+
+.main-footer.-social-on-top {
+
+  .fhead-side {
+
+    &.-left {
+      width: 65%;
+    }
+
+    &.-right {
+      width: 35%;
+    }
+  }
+
+  .footer-social {
+
+    .social-icons {
+      text-align: right;
+    }
+  }
+
+  .footer-disclaimer {
+    padding: 40px $padding 20px;
+  }
+
+  .footer-address {
+    padding: 0 $padding 10px;
+  }
+
+  .footer-nav {
+    padding: 0 $padding floor($padding * 3);
+    vertical-align: top;
+  }
+
+  // LOGO SIZES
+  // ----------
+  @each $logo-name, $width in get('mail-footer.logos.social-on-top') {
+
+    &.-#{$logo-name}-logo .logo-img {
+      $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
+
+      @include size($width, $_scaled-height);
+    }
+  }
+}

@@ -1,6 +1,5 @@
 {
   "imageDirSrc": "../src/images",
-  "unsubscribeUrl": "*|UNSUB|*",
   "header": {
     "logo": {
       "link": {
@@ -27,22 +26,66 @@
   },
   "footer": {
     "logo": {
-      "v1": {
-        "source": "https://justatic.com/v/20160219c/branding/logos/emails/justia-insights-blue.png",
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "source": {
-            "clients": "&utm_source=client-newsletter",
-            "jld": "&utm_source=directory-newsletter"
-          },
-          "medium": "?utm_medium=email",
-          "campaign": "&utm_campaign=<%= currentYear %>-<%= currentMonth %>",
-          "content": "&utm_content=image-footer-logo-1"
+      "link": {
+        "clients": {
+          "url": "https://lawyers.justia.com/premium-placement",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "client-newsletter",
+            "content": "image-footer-logo-1"
+          }
+        },
+        "jld": {
+          "url": "https://www.justia.com/marketing/",
+          "utm": {
+            "medium": "email",
+            "campaign": "<%= currentYear %>-<%= currentMonth %>",
+            "source": "directory-newsletter",
+            "content": "image-footer-logo-1"
+          }
         }
+      }
+    },
+    "disclaimer": {
+      "clients": "You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
+      "jld": "You are receiving this email because you are in the lawyer directory. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
+      "blast": "You are receiving this email because you are in the lawyer directory.",
+      "jobs": "You are receiving this email because you subscribed to the Justia Legal Jobs newsletter."
+    },
+    "navigation": {
+      "items": [
+        {
+          "text": "Contact Us",
+          "link": "https://www.justia.com/marketing/",
+          "target": "_blank"
+        },
+        {
+          "text": "Privacy Policy",
+          "link": "https://www.justia.com/marketing/privacy-policy/",
+          "target": "_blank"
+        },
+        {
+          "text": "Unsubscribe",
+          "link": "*|UNSUB|*"
+        }
+      ]
+    },
+    "address": {
+      "clients": {
+        "justiaLink": {
+          "text": "JUSTIA",
+          "link": "https://www.justia.com/"
+        },
+        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
       },
-      "v2": {
-        "url": "https://justatic.com/v/20160815a/shared/images/logos/justia-blue.png",
-        "alt": "Justia"
+      "jld": {
+        "justiaLink": {
+          "text": "Justia",
+          "link": "https://www.justia.com/"
+        },
+        "direction": "1380 Pear Ave #2B, Mountain View, CA 94043",
+        "tel": "(888) 587-8421"
       }
     }
   }

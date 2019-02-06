@@ -1,6 +1,7 @@
 module.exports = (grunt, { version, conversionType, paths }) => ({
   emails: {
     files: [
+      `common/**/*`,
       `${paths.src}/emails/*`,
       `${paths.src}/layouts/*`,
       `${paths.src}/data/*`,
