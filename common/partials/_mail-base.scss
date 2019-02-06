@@ -28,7 +28,8 @@ h4 {
 
 p {
   margin: 0;
-  font: 16px/1.38 $sans-serif-font-family;
+
+  @include mail-font();
 }
 
 a {

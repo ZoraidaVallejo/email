@@ -29,3 +29,7 @@ $mail-color-palette: (
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
+
+$mail-global-font-size: 16px !default;
+$mail-global-line-height: 1.38 !default;
+$mail-global-font-family: $sans-serif-font-family !default;

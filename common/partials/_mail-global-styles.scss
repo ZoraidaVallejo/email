@@ -1,9 +1,10 @@
 
 @import
   'mail-settings',
-  'mail-base';
+  'mail-mixins';
 
 @import
+  'mail-base',
   'components/main-header',
   'components/main-footer',
   'components/main-footer/social-icons',
