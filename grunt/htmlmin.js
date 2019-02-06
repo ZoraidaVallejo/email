@@ -3,7 +3,6 @@ module.exports = {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      // TODO: Check if class needs to be removed if empty.
       removeEmptyAttributes: attrName => attrName === 'style'
     },
     files: [
