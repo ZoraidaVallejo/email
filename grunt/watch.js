@@ -1,14 +1,16 @@
-module.exports = (grunt, { version, conversionType, paths }) => ({
+const path = require('path');
+
+module.exports = (grunt, { paths }) => ({
   emails: {
     files: [
-      `common/**/*`,
-      `${paths.src}/emails/*`,
-      `${paths.src}/layouts/*`,
-      `${paths.src}/data/*`,
-      `${paths.src}${!version ? '/css' : ''}/scss/**/*`,
-      `${paths.src}/partials/**/*`
+      'common/**/*',
+      path.join(paths.src, 'emails/*'),
+      path.join(paths.src, 'layouts/*'),
+      path.join(paths.src, 'data/*'),
+      path.join(paths.src, 'scss/**/*'),
+      path.join(paths.src, 'partials/**/*')
     ],
-    tasks: !version ? conversionType : [conversionType, 'stylelint']
+    tasks: ['devel', 'stylelint']
   },
 
   dist: {

@@ -1,4 +1,3 @@
-
 /// Set different color schemes for the footer.
 ///
 /// @param {map} $scheme - Color scheme.
@@ -41,4 +40,14 @@
       font: get('address.font-weight', $scheme) #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
     }
   }
+}
+
+/// Set font size, weight, family and line-height in a single property.
+///
+/// @param {string} $size [$mail-global-font-size] - `font-size`.
+/// @param {string} $line-height [$mail-global-line-height] - `line-height`.
+/// @param {string} $weight [''] - `font-weight`.
+///
+@mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '') {
+  font: #{unquote(if($weight != '', $weight, ''))} #{$size}/#{$line-height} $mail-global-font-family;
 }

@@ -5,24 +5,19 @@ const Eyeglass = require('eyeglass');
 const cwd = process.cwd();
 
 // Takes your SCSS files and compiles them to CSS
-module.exports = (grunt, { version, paths }) => ({
+module.exports = (grunt, { paths }) => ({
   dist: {
     options: Eyeglass({
       implementation: sass,
       outputStyle: 'expanded',
-      includePaths: [
-        path.join(cwd, '/common/partials/'),
-        path.join(cwd, '/common/ui-components/'),
-        // Kept it due to legacy support.
-        path.join(cwd, '/node_modules/sassy-maps/sass/')
-      ]
+      includePaths: [path.join(cwd, '/common/partials/')]
     }),
     files: [
       {
         expand: true,
-        cwd: `${paths.src}${!version ? '/css' : ''}/scss`,
+        cwd: path.join(paths.src, 'scss'),
         src: ['*.scss'],
-        dest: `${paths.src}/css`,
+        dest: path.join(paths.src, 'css'),
         ext: '.css'
       }
     ]

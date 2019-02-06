@@ -7,26 +7,11 @@ $use-breakpoint: false;
 
 @import
   'image-dimensions',
-  'maple-sass';
+  'maple-sass',
+  'mail-global-styles';
 
 @import
-  'modules/functions',
-  'modules/settings',
-  'modules/mixins';
-
-@import
-  'partials/global',
   'partials/main-container';
-
-@import
-  'main-header',
-  'main-footer',
-  'main-footer/social-icons',
-  'main-footer/social-below',
-  'main-footer/social-on-top',
-  'ui-real-text-button',
-  'ui-label-divider',
-  'ui-columns-grid';
 
 @import
   'partials/components/welcome',

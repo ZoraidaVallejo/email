@@ -1,51 +1,43 @@
-
 // ----------------------------------------------------------------------------------------------------------
-// M A I N   F O O T E R :   S O C I A L   P L A C E D   I N   C O N T E N T
+// M A I N   F O O T E R :   S O C I A L   P L A C E D   I N   T O P   B A R
 // ----------------------------------------------------------------------------------------------------------
 
-.main-footer.-social-below {
+.main-footer.-social-on-top {
 
   .fhead-side {
 
     &.-left {
-      width: 40%;
+      width: 65%;
     }
 
     &.-right {
-      width: 60%;
-    }
-  }
-
-  .footer-nav {
-
-    a {
-      white-space: nowrap;
+      width: 35%;
     }
   }
 
   .footer-social {
-    padding: 20px $padding 10px;
-    text-align: center;
 
     .social-icons {
-      margin: 0 auto;
-      text-align: center;
+      text-align: right;
     }
   }
 
   .footer-disclaimer {
-    padding: 0 $padding 5px;
-    text-align: center;
+    padding: 40px $padding 20px;
   }
 
   .footer-address {
-    padding: 0 $padding floor($padding * 4);
-    text-align: center;
+    padding: 0 $padding 10px;
   }
 
-  // LOGO SIZES
-  // ----------
-  @each $logo-name, $width in get('mail-footer.logos.social-below') {
+  .footer-nav {
+    padding: 0 $padding floor($padding * 3);
+    vertical-align: top;
+  }
+
+  // L O G O   S I Z E S
+  // -------------------
+  @each $logo-name, $width in get('mail-footer.logos.social-on-top') {
 
     &.-#{$logo-name}-logo .logo-img {
       $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));

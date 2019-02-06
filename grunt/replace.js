@@ -25,6 +25,8 @@ const cssClasses = [
   'mobile-hide',
   'mobile-align-center',
   'mobile-fz-20',
+  'mobile-fz-24',
+  'mobile-fz-30',
   'mobile-padding-top',
   'mobile-padding-right',
   'mobile-padding-bottom',

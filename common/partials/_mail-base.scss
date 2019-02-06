@@ -1,6 +1,5 @@
-
 // ----------------------------------------------------------------------------------------------------------
-// G L O B A L   R E S E T S
+// G L O B A L   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
 
 body {
@@ -8,6 +7,7 @@ body {
   height: 100% !important;
   padding: 0;
   margin: 0;
+  background-color: plt('mail', 'black-haze');
   font-family: $sans-serif-font-family;
   -webkit-font-smoothing: antialiased;
 }
@@ -28,11 +28,12 @@ h4 {
 
 p {
   margin: 0;
-  font: 16px/1.38 $sans-serif-font-family;
+
+  @include mail-font();
 }
 
 a {
-  color: plt('bright-blue');
+  color: $accent-color;
 }
 
 .set-max-width {

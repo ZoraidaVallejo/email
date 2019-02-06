@@ -1,37 +1,42 @@
-module.exports = (grunt, { conversionType }) => {
-  // BLAST configuration
-  let buildAlias = [conversionType, 'replace:liveImages', 'spreadsheet'];
+module.exports = {
+  default: ['serve'],
 
-  // Newsletter configuration overwrite
-  if (conversionType === 'newsletter') {
-    buildAlias = buildAlias.concat(['replace:shortenClasses', 'htmlmin']);
-  }
+  devel: [
+    // Group 1
+    'clean:dist',
+    'sass:dist',
+    // Group 2
+    'assemble',
+    'juice',
+    'imagemin',
+    // Group 3
+    'replace:importantStyle',
+    'replace:removeClasses',
+    'replace:fixResponsive',
+    'replace:srcImages',
+    // Group 4
+    'replace:removeDupStyles'
+  ],
 
-  const commonTasks = {
-    group1: ['clean:dist', 'sass:dist'],
-    group2: ['assemble', 'juice', 'imagemin'],
-    group3: ['replace:importantStyle', 'replace:removeClasses', 'replace:fixResponsive', 'replace:srcImages']
-  };
+  serve: ['devel', 'buildPreview', 'express', 'open', 'watch'],
 
-  return {
-    default: ['serve'],
+  report: ['spreadsheet'],
 
-    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
+  upload: ['imagemin', 'sftp-deploy'],
 
-    blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
+  build: [
+    // Base
+    'devel',
+    'replace:liveImages',
+    'spreadsheet',
+    // Responsive
+    'replace:shortenClasses',
+    'htmlmin'
+  ],
 
-    serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
+  buildPreview: ['sass:preview', 'postcss:preview'],
 
-    report: ['spreadsheet'],
+  publish: ['build', 'copy', 'compress', 'clean:all'],
 
-    upload: ['imagemin', 'sftp-deploy'],
-
-    build: buildAlias,
-
-    buildPreview: ['sass:preview', 'postcss:preview'],
-
-    publish: ['build', 'copy', 'compress', 'clean:all'],
-
-    test: ['sass']
-  };
+  test: ['sass']
 };
