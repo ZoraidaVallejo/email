@@ -11,9 +11,9 @@
     </td>
   </tr>
 
-  {{#if lawEvents.featured }}
+  {{#if lawEvents.featured}}
 
-    {{#isEmpty lawEvents.featured }}
+    {{#isEmpty lawEvents.featured}}
       {{!-- DO NOTHING --}}
 
     {{else}}
@@ -25,15 +25,15 @@
               <!-- event-desc -->
               <td class="event-desc" responsive="mobile-padding-horizontal-sides">
                 <!-- date -->
-                <p class="date">{{{ lawEvents.featured.dateTime }}}</p>
+                <p class="date">{{{lawEvents.featured.dateTime}}}</p>
                 <!-- desc -->
-                <p class="desc"><strong>{{{ lawEvents.featured.typeLocation }}}</strong><br> {{{ lawEvents.featured.description }}}</p>
+                <p class="desc"><strong>{{{lawEvents.featured.typeLocation}}}</strong><br> {{{lawEvents.featured.description}}}</p>
               </td>
             </tr>
             <tr>
               <!-- button -->
               <td class="button -white" responsive="mobile-padding-horizontal-sides">
-                {{> ui-real-text-button
+                {{>ui-real-text-button
                   buttonText=lawEvents.featured.button.text
                   buttonLink=lawEvents.featured.button.link
                 }}
@@ -47,44 +47,44 @@
 
   <!-- OPEN FIRST ROW -->
   <tr>
-    {{> ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+    {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
 
-    {{#forEach lawEvents.events }}
+    {{#forEach lawEvents.events}}
 
-      {{#unless isFirst }}
+      {{#unless isFirst}}
 
-        {{#ifOdd index }}
+        {{#ifOdd index}}
           <!-- OPEN UNLESS IS FIRST -->
           <tr>
-            {{> ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event" }}
+            {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
         {{/ifOdd}}
       {{/unless}}
 
       <!-- CONTENT -->
-      <!-- event-{{ index }} -->
-      <tr class="event-{{ index }}">
+      <!-- event-{{index}} -->
+      <tr class="event-{{index}}">
         <!-- inner-text -->
         <td class="inner-text" responsive="mobile-reset-height">
           <!-- date -->
-          <p class="date">{{{ this.dateTime }}}</p>
+          <p class="date">{{{this.dateTime}}}</p>
           <!-- desc -->
-          <p class="desc"><strong>{{{ this.typeLocation }}}</strong><br> {{{ this.description }}}</p>
+          <p class="desc"><strong>{{{this.typeLocation}}}</strong><br> {{{this.description}}}</p>
         </td>
       </tr>
       <tr>
         <!-- button -->
         <td class="button -white">
-          {{> ui-real-text-button buttonText=this.button.text buttonLink=this.button.link }}
+          {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
         </td>
       </tr>
 
-      {{#ifOdd index }}
+      {{#ifOdd index}}
         <!-- MIDDLE DIVIDER -->
-        {{> ui-columns-grid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-" }}
+        {{>ui-columns-grid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
 
-        {{#if isLast }}
+        {{#if isLast}}
 
-          {{#ifOdd index }}
+          {{#ifOdd index}}
             <!-- EMPTY IF LAST AND ODD -->
             <tr>
               <td>&nbsp;</td>
@@ -93,17 +93,17 @@
         {{/if}}
       {{/ifOdd}}
 
-      {{#ifEven index }}
+      {{#ifEven index}}
 
-        {{#unless isLast }}
-            {{> ui-columns-grid columnEnd=true }}
+        {{#unless isLast}}
+            {{>ui-columns-grid columnEnd=true}}
           </tr>
           <!-- CLOSE UNLESS IS LAST -->
         {{/unless}}
       {{/ifEven}}
     {{/forEach}}
 
-    {{> ui-columns-grid columnEnd=true }}
+    {{>ui-columns-grid columnEnd=true}}
   </tr>
   <!-- CLOSE LAST ROW -->
 </table>
