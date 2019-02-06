@@ -21,25 +21,25 @@
           <td>
             <!-- people-table -->
             <table border="0" cellpadding="0" cellspacing="0" class="people-table">
-              {{#forEach answersLeaderboard.people }}
+              {{#forEach answersLeaderboard.people}}
                 <tr>
                   <!-- people-photo -->
                   <td class="people-photo" responsive="mobile-padding-left">
-                    <a href="{{{ this.photoLink }}}" target="_blank"><img src="{{ ../default.imageDirSrc }}/leaderboard-photo-0{{ index }}.png" alt="{{ this.name }}" border="0" /></a>
+                    <a href="{{{this.photoLink}}}" target="_blank"><img src="{{../default.imageDirSr}}/leaderboard-photo-0{{index}}.png" alt="{{this.name}}" border="0" /></a>
                   </td>
                   <!-- people-info -->
                   <td class="people-info" responsive="mobile-padding-horizontal-sides">
                     <!-- -name -->
-                    <p class="-name" responsive="mobile-fz-20"><a href="{{{ this.nameLink }}}" target="_blank">{{{ this.name }}}</a></p>
+                    <p class="-name" responsive="mobile-fz-20"><a href="{{{this.nameLink}}}" target="_blank">{{{this.name}}}</a></p>
                     <!-- -location -->
-                    <p class="-location"><b>{{#uppercase}}{{ this.location }}{{/uppercase}}</b></p>
+                    <p class="-location"><b>{{#uppercase}}{{this.location}}{{/uppercase}}</b></p>
                   </td>
                   <!-- people-ranking -->
                   <td class="people-ranking" responsive="mobile-padding-right">
-                    {{#if isFirst }}
-                    <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{ index }}-green.png" alt="{{ index }}" border="0" />
+                    {{#if isFirst}}
+                    <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{inde}}-green.png" alt="{{index}}" border="0" />
                     {{else}}
-                    <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{ index }}.png" alt="{{ index }}" border="0" />
+                    <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{inde}}.png" alt="{{index}}" border="0" />
                     {{/if}}
                   </td>
                 </tr>
@@ -53,9 +53,9 @@
   <tr>
     <!-- list-desc -->
     <td class="list-desc" responsive="mobile-padding-horizontal-sides">
-      <p>{{{ answersLeaderboard.description }}}</p>
+      <p>{{{answersLeaderboard.description}}}</p>
       <br>
-      {{> ui-real-text-button buttonText=answersLeaderboard.button.text buttonLink=answersLeaderboard.button.link }}
+      {{>ui-real-text-button buttonText=answersLeaderboard.button.text buttonLink=answersLeaderboard.button.link}}
     </td>
   </tr>
 </table>

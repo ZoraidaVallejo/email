@@ -23,7 +23,7 @@
           </td>
           <!-- featured-image -->
           <td class="featured-image" responsive="mobile-hide collapse-one">
-            <a href="https://www.jurispro.com/" target="_blank"><img src="{{ default.imageDirSrc }}/jurispro-01.png" alt="JurisPro Expert Witness Directory" border="0" /></a>
+            <a href="https://www.jurispro.com/" target="_blank"><img src="{{default.imageDirSrc}}/jurispro-01.png" alt="JurisPro Expert Witness Directory" border="0" /></a>
           </td>
         </tr>
         <tr>
@@ -31,10 +31,10 @@
           <td colspan="2" class="story-extra" responsive="collapse-one">
             <p><strong>Recent cases involving expert witness testimony:</strong></p>
             <br>
-            {{#forEach jurispro.cases }}
-              <p><strong><a href="{{ this.link }}" target="_blank">{{ this.title }}</a></strong></p>
-              <p>{{{ description }}}</p>
-              {{#unless isLast }}<br>{{/unless}}
+            {{#forEach jurispro.cases}}
+              <p><strong><a href="{{this.link}}" target="_blank">{{this.title}}</a></strong></p>
+              <p>{{{description}}}</p>
+              {{#unless isLast}}<br>{{/unless}}
             {{/forEach}}
           </td>
         </tr>
