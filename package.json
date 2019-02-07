@@ -36,7 +36,8 @@
     "load-grunt-config": "^1.0.1",
     "months": "^2.0.0",
     "nps": "^5.9.3",
-    "nps-utils": "^1.7.0"
+    "nps-utils": "^1.7.0",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@justia/frontend-helpers": "^1.0.0",
