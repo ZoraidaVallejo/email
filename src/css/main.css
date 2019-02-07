@@ -395,6 +395,11 @@ a {
   height: 27px;
 }
 
+.ui-background.-cell {
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
 .ui-real-text-button {
   width: 125px;
   height: 30px;
@@ -497,13 +502,6 @@ a {
 
 .w-welcome {
   background-color: #00b3e3;
-}
-
-.w-welcome .head-img {
-  width: 600px;
-  height: 169px;
-  background: url("https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png");
-  background-repeat: no-repeat;
 }
 
 .w-welcome--title {

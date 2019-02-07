@@ -1,10 +1,28 @@
-{{#if bgStart}}
-  <!-- {{classes}} -->
-  <td class="{{classes}}" responsive="{{responsiveClasses}}" background="{{resolveFilePath image}}">
-    <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{dimensions}}border:0;outline:0;"><v:fill type="tile" src="{{resolveFilePath image}}" color="{{bgColor}}" /><v:textbox inset="0,0,0,0"><![endif]-->
-    {{#unless content}}&nbsp;{{/unless}}
+{{!-- backgroundBehavior='cell' --}}
+{{#if backgroundStart}}
+  <!-- ui-background -cell {{backgroundClasses}} -->
+  <td
+    class="ui-background -cell {{backgroundClasses}}"
+    responsive="{{backgroundResponsiveClasses}}"
+    background="{{resolveFilePath bgImage}}"
+    style="background:url('{{resolveFilePath bgImage}}');"
+    {{#if bgColor}}bgcolor="#7bceeb"{{/if}}
+    width="{{toInt bgWidth}}"
+    {{#if bgHeight}}height="{{toInt bgHeight}}"{{/if}}
+  >
+    <!--[if gte mso 9]>
+    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:{{toInt bgWidth}}px;{{#if bgHeight}}height:{{toInt bgHeight}}px;{{/if}}border:0;outline:0;">
+      <v:fill type="tile" src="{{resolveFilePath bgImage}}" color="{{bgColor}}" />
+      <v:textbox inset="0,0,0,0">
+    <![endif]-->
+    <div>
+    {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
 {{/if}}
-{{#if bgEnd}}
-    <!--[if mso]></v:textbox></v:rect><![endif]-->
+{{#if backgroundEnd}}
+    </div>
+    <!--[if gte mso 9]>
+      </v:textbox>
+    </v:rect>
+    <![endif]-->
   </td>
 {{/if}}

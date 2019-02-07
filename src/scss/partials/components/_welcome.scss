@@ -3,19 +3,8 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$welcome-image--dimensions: 600px 169px;
-
-// ----------------------------------------------------------------------------------------------------------
-
 .w-welcome {
   background-color: plt('bright-blue');
-
-  .head-img {
-    width: nth($welcome-image--dimensions, 1);
-    height: nth($welcome-image--dimensions, 2);
-    background: url('https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png');
-    background-repeat: no-repeat;
-  }
 
   &--title {
     padding: 0 $padding;
