@@ -34,14 +34,7 @@
 }}
 {{>ui-layout-hack tableStart=true}}
   <!-- main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width -->
-  <table
-    align="center"
-    border="0"
-    cellpadding="0"
-    cellspacing="0"
-    class="main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width"
-    {{#if socialOnTop}}responsive="main-footer"{{/if}}
->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width" {{#if socialOnTop}}responsive="main-footer"{{/if}}>
     <tr>
       <!-- footer-head -->
       <td class="footer-head" responsive="{{@root.footerHeadRespClasses}}">
