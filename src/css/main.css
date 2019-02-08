@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-table {
+table:not(.ignore-default-table-styles) {
   width: 100%;
 }
 
