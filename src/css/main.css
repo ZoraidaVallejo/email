@@ -400,6 +400,11 @@ a {
   vertical-align: top;
 }
 
+.ui-background.-table .bg-wrapper {
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
 .ui-real-text-button {
   width: 125px;
   height: 30px;

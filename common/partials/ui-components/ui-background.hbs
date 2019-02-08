@@ -1,22 +1,58 @@
+{{#eq (getUnit bgWidth) '%'}}
+  {{assign 'bgWidthVal' bgWidth}}
+{{else}}
+  {{assign 'bgWidthVal' (toInt bgWidth)}}
+{{/eq}}
+
+{{#eq (getUnit bgHeight) '%'}}
+  {{assign 'bgHeightVal' null}}
+{{else}}
+  {{assign 'bgHeightVal' (toInt bgHeight)}}
+{{/eq}}
+
 {{#eq backgroundBehavior 'cell'}}
   {{#if backgroundStart}}
-    <!-- ui-background -cell {{backgroundClasses}} -->
-    <td
-      class="ui-background -cell {{backgroundClasses}}"
-      responsive="{{backgroundResponsiveClasses}}"
-      background="{{resolveFilePath bgImage}}"
-      style="background:url('{{resolveFilePath bgImage}}');"
-      {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
-      width="{{toInt bgWidth}}"
-      {{#if bgHeight}}height="{{toInt bgHeight}}"{{/if}}
+    <!-- ui-background -cell {{bgCellClasses}} -->
+    <td class="ui-background -cell {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
+      width="{{@root.bgWidthVal}}"
+      {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}
     >
-      {{>v-rect hackStart=true hackWidth=bgWidth hackHeight=bgHeight hackImage=bgImage hackColor=bgColor}}
+      {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
       <div>
-      {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
+        {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
   {{/if}}
   {{#if backgroundEnd}}
       </div>
       {{>v-rect hackEnd=true}}
     </td>
+  {{/if}}
+{{/eq}}
+
+{{#eq backgroundBehavior 'table'}}
+  {{#if backgroundStart}}
+    <!-- ui-background -table {{bgTableClasses}} -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="ui-background -table {{bgTableClasses}}" responsive="{{bgTableResponsiveClasses}}"
+      width="{{@root.bgWidthVal}}"
+      {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}
+    >
+      <tr>
+        <!-- bg-wrapper {{bgCellClasses}} -->
+        <td
+          class="bg-wrapper {{bgCellClasses}}"
+          responsive="{{bgCellResponsiveClasses}}"
+          background="{{resolveFilePath bgImage}}"
+          style="background:url('{{resolveFilePath bgImage}}');"
+          {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
+        >
+          {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
+          <div>
+            {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
+  {{/if}}
+  {{#if backgroundEnd}}
+          </div>
+          {{>v-rect hackEnd=true}}
+        </td>
+      </tr>
+    </table>
   {{/if}}
 {{/eq}}
