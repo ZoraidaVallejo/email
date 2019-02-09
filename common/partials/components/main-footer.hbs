@@ -1,10 +1,14 @@
 {{!-- Variables for Footer --}}
 {{#if socialOnTop}}
   {{assign 'footerLayoutClass' '-social-on-top'}}
+  {{assign 'footerRespClasses' 'main-footer'}}
   {{assign 'footerHeadRespClasses' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border'}}
+  {{assign 'footerHeadWrapperClasses' 'fhead-wrapper'}}
 {{else}}
   {{assign 'footerLayoutClass' '-social-below'}}
+  {{assign 'footerRespClasses' ''}}
   {{assign 'footerHeadRespClasses' 'mobile-padding-horizontal-sides'}}
+  {{assign 'footerHeadWrapperClasses' 'fhead-wrapper set-max-width'}}
 {{/if}}
 
 {{#if lookAndFeel}}
@@ -18,6 +22,8 @@
 {{else}}
   {{assign 'footerLogoNameClass' '-justia-logo'}}
 {{/if}}
+
+{{assign 'footerClasses' (concat 'main-footer' @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses 'set-max-width' separator=' ')}}
 
 {{!
  * @param {Boolean} socialOnTop
@@ -33,14 +39,14 @@
  * @param {String}  mainFooterClasses
 }}
 {{>ui-layout-hack tableStart=true}}
-  <!-- main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width -->
-  <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width" {{#if socialOnTop}}responsive="main-footer"{{/if}}>
+  <!-- {{@root.footerClasses}} -->
+  {{#table class=@root.footerClasses responsive=@root.footerRespClasses}}
     <tr>
       <!-- footer-head -->
       <td class="footer-head" responsive="{{@root.footerHeadRespClasses}}">
         {{#unless socialOnTop}}{{>ui-spacer-hack}}{{/unless}}
-        <!-- fhead-wrapper {{#unless socialOnTop}}set-max-width{{/unless}} -->
-        <table align="center" border="0" cellpadding="0" cellspacing="0" class="fhead-wrapper {{#unless socialOnTop}}set-max-width{{/unless}}">
+        <!-- {{@root.footerHeadWrapperClasses}} -->
+        {{#table class=@root.footerHeadWrapperClasses}}
           <tr>
             <!-- fhead-side -left footer-logo -->
             <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop}}footer-logo{{else}}mobile-padding-bottom{{/if}}">
@@ -70,7 +76,7 @@
               </td>
             {{/if}}
           </tr>
-        </table>
+        {{/table}}
       </td>
     </tr>
     {{#unless socialOnTop}}
@@ -108,5 +114,6 @@
         </td>
       </tr>
     {{/if}}
-  </table>
+  {{/table}}
+
 {{>ui-layout-hack tableEnd=true}}
