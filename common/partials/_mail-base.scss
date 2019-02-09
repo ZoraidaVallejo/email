@@ -14,10 +14,6 @@ body {
 
 table {
 
-  &:not(.ignore-default-table-styles) {
-    width: 100%;
-  }
-
   td {
     text-align: left;
   }
