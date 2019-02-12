@@ -1,3 +1,17 @@
+{{!
+ * @param {String}  backgroundBehavior
+ * @param {Boolean} backgroundStart
+ * @param {Boolean} backgroundEnd
+ * @param {String}  bgTableClasses
+ * @param {String}  bgTableResponsiveClasses
+ * @param {String}  bgCellClasses
+ * @param {String}  bgCellResponsiveClasses
+ * @param {String}  bgImage
+ * @param {String}  bgColor
+ * @param {String}  bgWidth
+ * @param {String}  bgHeight
+}}
+
 {{#eq (getUnit bgWidth) '%'}}
   {{assign 'bgWidthVal' bgWidth}}
 {{else}}

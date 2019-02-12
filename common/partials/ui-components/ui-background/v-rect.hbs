@@ -1,3 +1,10 @@
+{{!
+ * @param {Boolean} hackStart
+ * @param {Boolean} hackEnd
+ * @param {String} hackWidth
+ * @param {String} hackHeight
+}}
+
 {{#eq hackWidth '100%'}}
   {{assign 'hackWidthProp' 'mso-width-percent:1000;'}}
 {{else}}
@@ -10,13 +17,6 @@
   {{assign 'hackHeightProp' ''}}
 {{/if}}
 
-{{!
- * @param {Boolean} hackStart
- * @param {Boolean} hackEnd
- *
- * @param {String} hackWidth
- * @param {String} hackHeight
-}}
 {{#if hackStart}}
   <!--[if gte mso 9]>
   <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{{@root.hackWidthProp}}}{{{@root.hackHeightProp}}}border:0;outline:0;">

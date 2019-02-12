@@ -1,3 +1,12 @@
+{{!
+ * @param {Boolean} withDate
+ * @param {String} logoName
+ * @param {String} logoLink
+ * @param {Object} logoUtmVars
+ * @param {String}  customLogoPath
+ * @param {String}  customLogoAlt
+}}
+
 {{!-- Variables for Header --}}
 {{#if withDate}}
   {{assign 'headerLayoutClass' '-with-date'}}
@@ -22,14 +31,6 @@
   {{assign 'headerLogoNameClass' '-justia-logo'}}
 {{/if}}
 
-{{!
- * @param {Boolean} withDate
- * @param {String} logoName
- * @param {String} logoLink
- * @param {Object} logoUtmVars
- * @param {String}  customLogoPath
- * @param {String}  customLogoAlt
-}}
 {{>ui-layout-hack tableStart=true}}
   <!-- main-header {{@root.headerLayoutClass}} {{@root.headerLogoNameClass}} set-max-width -->
   <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-header {{@root.headerLayoutClass}} {{@root.headerLogoNameClass}} set-max-width">

@@ -3,7 +3,6 @@
     "stylelint-config-idiomatic-sass"
   ],
   "rules": {
-    "selector-no-qualifying-type": null,
     "max-nesting-depth": 5,
     "property-no-unknown": [
       true,
