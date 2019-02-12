@@ -1,0 +1,22 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+  border-bottom: 1px solid plt('gallery');
+  background-color: #cde2e8;
+
+  .ad-image {
+    text-align: left;
+    vertical-align: top;
+
+    a {
+      color: #cde2e8;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

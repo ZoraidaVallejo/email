@@ -1,0 +1,66 @@
+
+<!-- CONTENT -->
+
+<!-- w-jobs -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-jobs set-max-width">
+  <tr>
+    <!-- widget-main-title -->
+    <td class="widget-main-title" responsive="mobile-padding-horizontal-sides">
+      <h4>Latest Opportunities</h4>
+    </td>
+  </tr>
+  <tr>
+    <!-- jobs-general-desc -->
+    <td class="jobs-general-desc" responsive="mobile-padding-horizontal-sides">
+      <p>More than 25 jobs in this issue!</p>
+    </td>
+  </tr>
+  {{#forEach jobsListing.places }}
+    <tr>
+      <!-- jobs-listing -->
+      <td class="jobs-listing" responsive="mobile-padding-horizontal-sides">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="set-max-width">
+          <tr>
+            <!-- location-title -->
+            <td class="location-title">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="set-max-width">
+                <tr>
+                  <td class="pin">
+                    <img src="https://justatic.com/emails/images/legal-jobs-newsletters/common/jobs-location-01.png" alt="Location Pin">
+                  </td>
+                  <td class="area">
+                    <strong>{{{ this.area }}}</strong>
+                  </td>
+                </tr>
+            </td>
+          </tr>
+          {{#forEach this.jobs }}
+            <tr>
+              <!-- location-jobs -->
+              <td class="location-jobs">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="set-max-width">
+                  <tr>
+                    <!-- job-info -->
+                    <td class="job-info" responsive="collapse-one mobile-padding-bottom mobile-no-padding-horizontal-sides">
+                      <p>
+                        <!-- job-title -->
+                        <a class="job-title" href="{{ this.link }}" target="_blank">{{{ this.title }}}</a><br/>
+                        <!-- company -->
+                        <a class="company" href="{{ this.link }}" target="_blank">{{{ this.company }}}</a>
+                      </p>
+                    </td>
+                    <!-- job-details-btn -->
+                    <td class="job-details-btn" responsive="collapse-one mobile-no-padding-top">
+                      {{> ui-real-text-button buttonLink=this.link buttonText="VIEW DETAILS" responsiveClasses="mobile-no-float" }}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          {{/forEach}}
+        </table>
+      </td>
+    </tr>
+  {{/forEach}}
+</table>
