@@ -1,3 +1,17 @@
+{{!
+ * @param {Boolean} socialOnTop
+ * @param {String}  lookAndFeel
+ * @param {String}  logoName
+ * @param {String}  logoLink
+ * @param {Object}  logoUtmVars
+ * @param {String}  customLogoPath
+ * @param {String}  customLogoAlt
+ * @param {Array}   navigationElements
+ * @param {String}  disclaimerText
+ * @param {Object}  addressElements
+ * @param {String}  mainFooterClasses
+}}
+
 {{!-- Variables for Footer --}}
 {{#if socialOnTop}}
   {{assign 'footerLayoutClass' '-social-on-top'}}
@@ -19,19 +33,6 @@
   {{assign 'footerLogoNameClass' '-justia-logo'}}
 {{/if}}
 
-{{!
- * @param {Boolean} socialOnTop
- * @param {String}  lookAndFeel
- * @param {String}  logoName
- * @param {String}  logoLink
- * @param {Object}  logoUtmVars
- * @param {String}  customLogoPath
- * @param {String}  customLogoAlt
- * @param {Array}   navigationElements
- * @param {String}  disclaimerText
- * @param {Object}  addressElements
- * @param {String}  mainFooterClasses
-}}
 {{>ui-layout-hack tableStart=true}}
   <!-- main-footer {{@root.footerLayoutClass}} {{@root.footerLookAndFeelClass}} {{@root.footerLogoNameClass}} {{mainFooterClasses}} set-max-width -->
   <table
