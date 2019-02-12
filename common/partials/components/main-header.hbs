@@ -31,15 +31,17 @@
   {{assign 'headerLogoNameClass' '-justia-logo'}}
 {{/if}}
 
+{{assign 'headerAllClasses' (concat 'main-header' @root.headerLayoutClass @root.headerLogoNameClass 'set-max-width' separator=' ')}}
+
 {{>ui-layout-hack tableStart=true}}
-  <!-- main-header {{@root.headerLayoutClass}} {{@root.headerLogoNameClass}} set-max-width -->
-  <table align="center" border="0" cellpadding="0" cellspacing="0" class="main-header {{@root.headerLayoutClass}} {{@root.headerLogoNameClass}} set-max-width">
+  <!-- {{@root.headerAllClasses}} -->
+  {{#table class=@root.headerAllClasses}}
     <tr>
       <!-- wrapper -->
       <td class="wrapper" responsive="mobile-padding-horizontal-sides">
         {{>ui-spacer-hack}}
         {{#if withDate}}
-          <table align="center" border="0" cellpadding="0" cellspacing="0">
+          {{#table}}
             <tr>
               <!-- logo -->
               <td class="logo">
@@ -50,11 +52,11 @@
                 <span>{{getMonth custom-config.currentMonth}} {{custom-config.currentYear}}</span>
               </td>
             </tr>
-          </table>
+          {{/table}}
         {{else}}
           {{>main-logo source=@root.headerLogoSrc alt=@root.headerLogoAlt link=logoLink utmVars=logoUtmVars}}
         {{/if}}
       </td>
     </tr>
-  </table>
+  {{/table}}
 {{>ui-layout-hack tableEnd=true}}
