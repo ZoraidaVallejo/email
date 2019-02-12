@@ -47,7 +47,7 @@
 
   <!-- OPEN FIRST ROW -->
   <tr>
-    {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
+    {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
 
     {{#forEach lawEvents.events}}
 
@@ -56,7 +56,7 @@
         {{#ifOdd index}}
           <!-- OPEN UNLESS IS FIRST -->
           <tr>
-            {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
+            {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
         {{/ifOdd}}
       {{/unless}}
 
@@ -80,7 +80,7 @@
 
       {{#ifOdd index}}
         <!-- MIDDLE DIVIDER -->
-        {{>ui-columns-grid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
+        {{>ui-columns-grid columnGridSeparator=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
 
         {{#if isLast}}
 
@@ -96,14 +96,14 @@
       {{#ifEven index}}
 
         {{#unless isLast}}
-            {{>ui-columns-grid columnEnd=true}}
+            {{>ui-columns-grid columnGridEnd=true}}
           </tr>
           <!-- CLOSE UNLESS IS LAST -->
         {{/unless}}
       {{/ifEven}}
     {{/forEach}}
 
-    {{>ui-columns-grid columnEnd=true}}
+    {{>ui-columns-grid columnGridEnd=true}}
   </tr>
   <!-- CLOSE LAST ROW -->
 </table>
