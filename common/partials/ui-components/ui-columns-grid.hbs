@@ -1,9 +1,20 @@
+{{!
+ * @param {Boolean} columStart
+ * @param {Boolean} columnEnd
+ * @param {Boolean} columnDiv
+ * @param {String}  rowClasses
+ * @param {String}  colClasses
+ * @param {String}  cellClasses
+ * @param {String}  fullWidth
+ * @param {String}  cellWidth
+}}
+
 {{#if columStart}}
   <!-- grid-row {{rowClasses}} -->
   <td class="grid-row {{rowClasses}}" responsive="mobile-padding-horizontal-sides">
     <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="{{fullWidth}}"><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-      <!-- grid-column {{colClass}} -->
-      <div class="grid-column {{colClass}}">
+      <!-- grid-column {{colClasses}} -->
+      <div class="grid-column {{colClasses}}">
         <!-- grid-cell {{cellClasses}} -->
         <table cellpadding="0" cellspacing="0" border="0" align="{{cellAlignment}}" class="grid-cell {{cellClasses}}" responsive="mobile-align-center mobile-no-float">
 {{/if}}
@@ -11,8 +22,8 @@
       </table>
     </div>
   <!--[if (gte mso 9)|(IE)]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-    <!-- grid-column {{colClass}} -->
-    <div class="grid-column {{colClass}}">
+    <!-- grid-column {{colClasses}} -->
+    <div class="grid-column {{colClasses}}">
       <!-- grid-cell {{cellClasses}} -->
       <table cellpadding="0" cellspacing="0" border="0" align="{{cellAlignment}}" class="grid-cell {{cellClasses}}" responsive="mobile-align-center mobile-no-float">
 {{/if}}
