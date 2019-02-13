@@ -1,19 +1,83 @@
-{{#if bgStart}}
-  {{#if absolutePath}}
-    <!-- {{classes}} -->
-    <td class="{{classes}}" responsive="{{responsiveClasses}}" background="{{image}}">
-      <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{dimensions}}border:0;outline:0;"><v:fill type="tile" src="{{image}}" color="{{bgColor}}" /><v:textbox inset="0,0,0,0"><![endif]-->
+{{!
+ * @param {String}  backgroundBehavior
+ * @param {Boolean} backgroundStart
+ * @param {Boolean} backgroundEnd
+ * @param {String}  bgTableClasses
+ * @param {String}  bgTableResponsiveClasses
+ * @param {String}  bgCellClasses
+ * @param {String}  bgCellResponsiveClasses
+ * @param {String}  bgImage
+ * @param {String}  bgColor
+ * @param {String}  bgWidth
+ * @param {String}  bgHeight
+}}
+
+{{#eq (getUnit bgWidth) '%'}}
+  {{assign 'bgWidthVal' bgWidth}}
+{{else}}
+  {{assign 'bgWidthVal' (toInt bgWidth)}}
+{{/eq}}
+
+{{#eq (getUnit bgHeight) '%'}}
+  {{assign 'bgHeightVal' null}}
+{{else}}
+  {{assign 'bgHeightVal' (toInt bgHeight)}}
+{{/eq}}
+
+{{#eq backgroundBehavior 'cell'}}
+  {{#if backgroundStart}}
+    <!-- ui-background -cell {{bgCellClasses}} -->
+    <td
+      class="ui-background -cell {{bgCellClasses}}"
+      responsive="{{bgCellResponsiveClasses}}"
+      background="{{resolveFilePath bgImage}}"
+      style="background:url('{{resolveFilePath bgImage}}');"
+      {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
+      width="{{@root.bgWidthVal}}"
+      {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}
+    >
+      {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
+      <div>
+        {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
   {{/if}}
-  {{#unless absolutePath}}
-    <!-- {{classes}} -->
-    <td class="{{classes}}" responsive="{{responsiveClasses}}" background="{{default.imageDirSrc}}/{{image}}">
-      <!--[if mso]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{dimensions}}border:0;outline:0;"><v:fill type="tile" src="{{default.imageDirSrc}}/{{image}}" color="{{bgColor}}" /><v:textbox inset="0,0,0,0"><![endif]-->
-  {{/unless}}
-  {{#unless content}}
-    &nbsp;
-  {{/unless}}
-{{/if}}
-{{#if bgEnd}}
-    <!--[if mso]></v:textbox></v:rect><![endif]-->
-  </td>
-{{/if}}
+  {{#if backgroundEnd}}
+      </div>
+      {{>v-rect hackEnd=true}}
+    </td>
+  {{/if}}
+{{/eq}}
+
+{{#eq backgroundBehavior 'table'}}
+  {{#if backgroundStart}}
+    <!-- ui-background -table {{bgTableClasses}} -->
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      class="ui-background -table ignore-default-table-styles {{bgTableClasses}}"
+      responsive="{{bgTableResponsiveClasses}}"
+      width="{{@root.bgWidthVal}}"
+      {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}
+    >
+      <tr>
+        <!-- bg-wrapper {{bgCellClasses}} -->
+        <td
+          class="bg-wrapper {{bgCellClasses}}"
+          responsive="{{bgCellResponsiveClasses}}"
+          background="{{resolveFilePath bgImage}}"
+          style="background:url('{{resolveFilePath bgImage}}');"
+          {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
+        >
+          {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
+          <div>
+            {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
+  {{/if}}
+  {{#if backgroundEnd}}
+          </div>
+          {{>v-rect hackEnd=true}}
+        </td>
+      </tr>
+    </table>
+  {{/if}}
+{{/eq}}

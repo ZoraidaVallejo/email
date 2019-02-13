@@ -58,7 +58,7 @@ $settings: set('mail-header', (
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header {
-  background: get('mail-header.background');
+  background-color: get('mail-header.background');
 
   .logo-img {
     display: block;
