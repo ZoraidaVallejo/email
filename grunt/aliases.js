@@ -15,7 +15,9 @@ module.exports = {
     'replace:fixResponsive',
     'replace:srcImages',
     // Group 4
-    'replace:removeDupStyles'
+    'replace:removeDupStyles',
+    // Group 5
+    'prettier:devel'
   ],
 
   serve: ['devel', 'buildPreview', 'express', 'open', 'watch'],
