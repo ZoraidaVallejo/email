@@ -50,16 +50,16 @@
               <a href="{{this.domain.long}}" target="_blank"><img src="{{../default.imageDirSrc}}/featured-site-0{{index}}-thumb.jpg" alt="{{this.clientName}}" border="0" /></a>
             </td>
             <!-- ft-list-desc -->
-            <td class="ft-list-desc" responsive="collapse-one {{#unless isFirst}}mobile-padding-top{{/unless}} {{#unless isLast}}mobile-padding-bottom{{/unless}}">
+            <td class="ft-list-desc" responsive="collapse-one{{#unless isFirst}} mobile-padding-top{{/unless}}{{#unless isLast}} mobile-padding-bottom{{/unless}}">
               <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{this.clientName}}}</strong></p></td>
                 </tr>
                 <tr>
-                  <td class="no-padding-top" responsive="mobile-align-center mobile-no-padding-top"><p>in {{this.location}}</p></td>
+                  <td responsive="mobile-align-center"><p>in {{this.location}}</p></td>
                 </tr>
                 <tr>
-                  <td responsive="mobile-align-center mobile-no-padding-top {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a></p></td>
+                  <td responsive="mobile-align-center {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a></p></td>
                 </tr>
               </table>
             </td>

@@ -86,7 +86,7 @@ $featured-thumb-list--gap: 35px;
           }
         }
 
-        tr:not(:first-child) {
+        tr:last-child {
 
           td {
             padding: 10px 0 0;
