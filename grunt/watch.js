@@ -10,7 +10,7 @@ module.exports = (grunt, { paths }) => ({
       path.join(paths.src, 'scss/**/*'),
       path.join(paths.src, 'partials/**/*')
     ],
-    tasks: ['devel', 'stylelint']
+    tasks: ['devel']
   },
 
   dist: {

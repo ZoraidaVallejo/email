@@ -485,9 +485,9 @@ a {
   display: block;
   opacity: 0;
   width: 540px;
-  height: 1px !important;
+  height: 1px;
   margin: 0;
-  font-size: 0 !important;
+  font-size: 0;
 }
 
 .widget-type-name {
@@ -1127,7 +1127,7 @@ a {
   font: 18px/1.38 Arial, sans-serif;
 }
 
-.w-feaured-site-month .ft-list .ft-list-desc tr:not(:first-child) td {
+.w-feaured-site-month .ft-list .ft-list-desc tr:last-child td {
   padding: 10px 0 0;
 }
 
@@ -1247,12 +1247,8 @@ a {
   margin-bottom: 0;
 }
 
-.no-padding-top {
-  padding-top: 0 !important;
-}
-
-.no-padding-bottom {
-  padding-bottom: 0 !important;
+.no-padding {
+  padding: 0;
 }
 
 .no-margin {

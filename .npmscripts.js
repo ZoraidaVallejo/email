@@ -25,7 +25,7 @@ if (customConfig && !customConfig.version) {
   workflowVersion = 1;
 }
 
-const linterTasks = workflowVersion === 2 ? npsSeries('json.format.data', 'sass.lint.strict') : '';
+const linterTasks = workflowVersion >= 2 ? npsSeries('json.format.data', 'sass.lint.strict') : '';
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
