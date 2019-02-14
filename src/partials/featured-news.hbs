@@ -1,6 +1,26 @@
 
 <!-- TECH NEWS -->
 
+{{#if featuredNews.link}}
+  {{#if clientsNewsletter}}
+    {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.title)}}
+    {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.image)}}
+  {{/if}}
+  {{#if jldNewsletter}}
+    {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.title)}}
+    {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.image)}}
+  {{/if}}
+{{/if}}
+
+{{#if featuredNews.button}}
+  {{#if clientsNewsletter}}
+    {{assign 'featuredNewsButtonVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.button)}}
+  {{/if}}
+  {{#if jldNewsletter}}
+    {{assign 'featuredNewsButtonVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.button)}}
+  {{/if}}
+{{/if}}
+
 <!-- w-stories-list -->
 {{#table class='w-stories-list w-featured-news set-max-width'}}
   <tr>
@@ -10,37 +30,27 @@
       <h4 class="widget-type-name">FEATURED NEWS</h4>
       <!-- widget-main-title -->
       <h2 class="widget-main-title">
-        {{#if featuredNews.link}}
-          <a href="{{{concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign}}}{{#if clientsNewsletter}}{{{featuredNews.utm.source.clients}}}{{/if}}{{#if jldNewsletter}}{{{featuredNews.utm.source.jld}}}{{/if}}{{{featuredNews.utm.content.title}}}" target="_blank">
-        {{/if}}
+        {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsMainTitleVars}}}" target="_blank">{{/if}}
           {{featuredNews.title}}
-        {{#if featuredNews.link}}
-          </a>
-        {{/if}}
+        {{#if featuredNews.link}}</a>{{/if}}
       </h2>
     </td>
   </tr>
   <tr>
-    <!-- main-story-desc {{#gt (length featuredNews.list) 1}}-with-list{{/gt}} -->
-    <td class="main-story-desc {{#gt (length featuredNews.list) 1}}-with-list{{/gt}}" responsive="mobile-padding-horizontal-sides">
+    <!-- main-story-desc{{#gt (length featuredNews.list) 1}} -with-list{{/gt}} -->
+    <td class="main-story-desc{{#gt (length featuredNews.list) 1}} -with-list{{/gt}}" responsive="mobile-padding-horizontal-sides">
       {{#table align=''}}
         <tr>
           <!-- story-desc -->
           <td class="story-desc" responsive="collapse-one">
             <p>{{{featuredNews.description}}}</p>
-            {{!-- <br>
-            {{>ui-button moreBlue=true buttonLink=featuredNews.link}} --}}
           </td>
           <!-- featured-image -->
           <td class="featured-image" responsive="mobile-hide collapse-one">
-             {{#if featuredNews.link}}
-               <a href="{{{concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign}}}{{#if clientsNewsletter}}{{{featuredNews.utm.source.clients}}}{{/if}}{{#if jldNewsletter}}{{{featuredNews.utm.source.jld}}}{{/if}}{{{featuredNews.utm.content.image}}}" target="_blank">
-             {{/if}}
-             <img src="{{default.imageDirSrc}}/tech-news-01.png" alt="{{featuredNews.title}}" border="0" />
-             {{#if featuredNews.link}}
-               </a>
-             {{/if}}
-           </td>
+            {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsImageVars}}}" target="_blank">{{/if}}
+              <img src="{{resolveFilePath 'tech-news-01.png'}}" alt="{{featuredNews.title}}" border="0" />
+            {{#if featuredNews.link}}</a>{{/if}}
+          </td>
         </tr>
       {{/table}}
     </td>
@@ -48,10 +58,14 @@
 
   {{#forEach featuredNews.list}}
     <tr>
-      <!-- main-story-list {{#if featuredNews.button}}{{else}}main-story-list--last{{/if}} -->
-      <td class="main-story-list {{#if featuredNews.button}}{{else}}main-story-list--last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p><a href="{{this.link}}" target="_blank">{{{this.title}}}</a></p>
-        {{#if this.description}}<p>{{{this.description}}}</p>{{/if}}
+      <!-- main-story-list{{#unless featuredNews.button}} main-story-list--last{{/unless}} -->
+      <td class="main-story-list{{#unless featuredNews.button}} main-story-list--last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+        <p>
+          <a href="{{this.link}}" target="_blank">{{{this.title}}}</a>
+        </p>
+        {{#if this.description}}
+          <p>{{{this.description}}}</p>
+        {{/if}}
       </td>
     </tr>
   {{/forEach}}
@@ -59,12 +73,7 @@
   {{#if featuredNews.button}}
     <tr>
       <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        {{#if clientsNewsletter}}
-          {{>ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign featuredNews.utm.source.clients featuredNews.utm.content.button)}}
-        {{/if}}
-        {{#if jldNewsletter}}
-          {{>ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign featuredNews.utm.source.jld featuredNews.utm.content.button)}}
-        {{/if}}
+        {{>ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link @root.featuredNewsButtonVars)}}
       </td>
     </tr>
   {{/if}}
