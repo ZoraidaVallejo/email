@@ -1,4 +1,3 @@
-
 <!-- FEATURED SITE OF THE MONTH -->
 
 <!-- w-feaured-site-month -->
@@ -36,41 +35,50 @@
   {{/if}}
 
   {{#if listSites}}
-  <tr>
-    <td class="ft-list-description" responsive="mobile-padding-horizontal-sides"><p>The following clients recently launched their sites with Justia.</p></td>
-  </tr>
-  <tr>
-    <!-- ft-list -->
-    <td class="ft-list" responsive="mobile-padding-horizontal-sides">
-
-      {{#forEach featuredSiteMonth.sites}}
-        <!-- ft-list-item-{{index}} -->
-        {{#table align='' class=(concat 'ft-list-item-' index)}}
-          <tr>
-            <!-- ft-list-img -->
-            <td class="ft-list-img" responsive="mobile-hide collapse-one">
-              <a href="{{this.domain.long}}" target="_blank">
-                <img src="{{resolveFilePath (concat 'featured-site-0' index '-thumb.jpg')}}" alt="{{this.clientName}}" border="0" />
-              </a>
-            </td>
-            <!-- ft-list-desc -->
-            <td class="ft-list-desc" responsive="collapse-one{{#unless isFirst}} mobile-padding-top{{/unless}}{{#unless isLast}} mobile-padding-bottom{{/unless}}">
-              {{#table align=''}}
-                <tr>
-                  <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{this.clientName}}}</strong></p></td>
-                </tr>
-                <tr>
-                  <td responsive="mobile-align-center"><p>in {{this.location}}</p></td>
-                </tr>
-                <tr>
-                  <td responsive="mobile-align-center {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a></p></td>
-                </tr>
-              {{/table}}
-            </td>
-          </tr>
-        {{/table}}
-      {{/forEach}}
-    </td>
-  </tr>
+    <tr>
+      <td class="ft-list-description" responsive="mobile-padding-horizontal-sides">
+        <p>The following clients recently launched their sites with Justia.</p>
+      </td>
+    </tr>
+    <tr>
+      <!-- ft-list -->
+      <td class="ft-list" responsive="mobile-padding-horizontal-sides">
+        {{#forEach featuredSiteMonth.sites}}
+          <!-- ft-list-item-{{index}} -->
+          {{#table align='' class=(concat 'ft-list-item-' index)}}
+            <tr>
+              <!-- ft-list-img -->
+              <td class="ft-list-img" responsive="mobile-hide collapse-one">
+                <a href="{{this.domain.long}}" target="_blank">
+                  <img src="{{resolveFilePath (concat 'featured-site-0' index '-thumb.jpg')}}" alt="{{this.clientName}}" border="0" />
+                </a>
+              </td>
+              <!-- ft-list-desc -->
+              <td class="ft-list-desc" responsive="collapse-one{{#unless isFirst}} mobile-padding-top{{/unless}}{{#unless isLast}} mobile-padding-bottom{{/unless}}">
+                {{#table align=''}}
+                  <tr>
+                    <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}">
+                      <p><strong>{{{this.clientName}}}</strong></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td responsive="mobile-align-center">
+                      <p>in {{this.location}}</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td responsive="mobile-align-center {{#unless isLast}}mobile-padding-bottom{{/unless}}">
+                      <p>
+                        <a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a>
+                      </p>
+                    </td>
+                  </tr>
+                {{/table}}
+              </td>
+            </tr>
+          {{/table}}
+        {{/forEach}}
+      </td>
+    </tr>
   {{/if}}
 {{/table}}

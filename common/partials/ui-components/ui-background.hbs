@@ -27,15 +27,7 @@
 {{#eq backgroundBehavior 'cell'}}
   {{#if backgroundStart}}
     <!-- ui-background -cell {{bgCellClasses}} -->
-    <td
-      class="ui-background -cell {{bgCellClasses}}"
-      responsive="{{bgCellResponsiveClasses}}"
-      background="{{resolveFilePath bgImage}}"
-      style="background:url('{{resolveFilePath bgImage}}');"
-      {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
-      width="{{@root.bgWidthVal}}"
-      {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}
-    >
+    <td class="ui-background -cell {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}} width="{{@root.bgWidthVal}}" {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}>
       {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
       <div>
         {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
@@ -55,13 +47,7 @@
     <table {{{tableAttr class=@root.bgTableAllClasses responsive=bgTableResponsiveClasses width=@root.bgWidthVal height=@root.bgHeightVal}}}>
       <tr>
         <!-- bg-wrapper {{bgCellClasses}} -->
-        <td
-          class="bg-wrapper {{bgCellClasses}}"
-          responsive="{{bgCellResponsiveClasses}}"
-          background="{{resolveFilePath bgImage}}"
-          style="background:url('{{resolveFilePath bgImage}}');"
-          {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}
-        >
+        <td class="bg-wrapper {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}>
           {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
           <div>
             {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}

@@ -4,12 +4,6 @@
  * @param {Boolean}  tableMiddleSeparator
 }}
 
-{{#if tableStart}}
-  <!--[if (gte mso 9)|(IE)]><table {{{tableAttr width='600'}}}><tr><td align="center" valign="top" width="600"><![endif]-->
-{{/if}}
-{{#if tableEnd}}
-  <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
-{{/if}}
-{{#if tableMiddleSeparator}}
-  <!--[if (gte mso 9)|(IE)]></td></tr></table></td></tr><tr><td align="center" height="100%" width="100%" valign="top"><table {{{tableAttr width='600'}}}><tr><td align="center" valign="top" width="600"><![endif]-->
-{{/if}}
+{{#if tableStart}}<!--[if (gte mso 9)|(IE)]><table {{{tableAttr width='600'}}}><tr><td align="center" valign="top" width="600"><![endif]-->{{/if}}
+{{#if tableEnd}}<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->{{/if}}
+{{#if tableMiddleSeparator}}<!--[if (gte mso 9)|(IE)]></td></tr></table></td></tr><tr><td align="center" height="100%" width="100%" valign="top"><table {{{tableAttr width='600'}}}><tr><td align="center" valign="top" width="600"><![endif]-->{{/if}}

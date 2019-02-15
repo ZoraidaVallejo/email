@@ -1,4 +1,3 @@
-
 <!-- INTERNET STATS -->
 
 <!-- w-internet-stats -->
@@ -25,12 +24,13 @@
       {{#if internetStats.link}}</a>{{/if}}
     </td>
   </tr>
-  {{#is internetStats.description ""}}{{else}}
-  <tr>
-    <!-- stats-desc -->
-    <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
-      <p>{{{internetStats.description}}}</p>
-    </td>
-  </tr>
-  {{/is}}
+
+  {{#isnt internetStats.description ''}}
+    <tr>
+      <!-- stats-desc -->
+      <td class="stats-desc" responsive="mobile-padding-horizontal-sides">
+        <p>{{{internetStats.description}}}</p>
+      </td>
+    </tr>
+  {{/isnt}}
 {{/table}}

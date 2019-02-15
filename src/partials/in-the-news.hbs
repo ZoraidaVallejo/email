@@ -1,4 +1,3 @@
-
 <!-- CLIENTS IN THE NEWS -->
 
 <!-- w-in-the-news -->
@@ -14,23 +13,23 @@
     <!-- clients-list -->
     <td class="clients-list" responsive="mobile-padding-horizontal-sides">
       {{#forEach inTheNews.news}}
-      <!-- client-block client-{{index}} -->
-      {{#table align='' class=(concat 'client-block client-' index)}}
-        <tr>
-          <!-- news-logo -->
-          <td class="news-logo">
-            <a href="{{this.button.link}}" target="_blank">
-              <img src="{{resolveFilePath (concat 'clients-news-logo-0' index '.png')}}" alt="{{this.logoName}}" border="0" />
-            </a>
-          </td>
-          <!-- news-desc -->
-          <td class="news-desc">
-            <p>{{{this.description}}}</p>
-            <br>
-            {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
-          </td>
-        </tr>
-      {{/table}}
+        <!-- client-block client-{{index}} -->
+        {{#table align='' class=(concat 'client-block client-' index)}}
+          <tr>
+            <!-- news-logo -->
+            <td class="news-logo">
+              <a href="{{this.button.link}}" target="_blank">
+                <img src="{{resolveFilePath (concat 'clients-news-logo-0' index '.png')}}" alt="{{this.logoName}}" border="0" />
+              </a>
+            </td>
+            <!-- news-desc -->
+            <td class="news-desc">
+              <p>{{{this.description}}}</p>
+              <br>
+              {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
+            </td>
+          </tr>
+        {{/table}}
       {{/forEach}}
     </td>
   </tr>

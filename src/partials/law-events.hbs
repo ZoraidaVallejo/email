@@ -1,4 +1,3 @@
-
 <!-- LAW EVENTS -->
 
 <!-- w-law-events ui-columns-grid -->
@@ -12,10 +11,8 @@
   </tr>
 
   {{#if lawEvents.featured}}
-
     {{#isEmpty lawEvents.featured}}
       {{!-- DO NOTHING --}}
-
     {{else}}
       <tr>
         <!-- law-events-featured -->
@@ -33,10 +30,7 @@
             <tr>
               <!-- button -->
               <td class="button -white" responsive="mobile-padding-horizontal-sides">
-                {{>ui-real-text-button
-                  buttonText=lawEvents.featured.button.text
-                  buttonLink=lawEvents.featured.button.link
-                }}
+                {{>ui-real-text-button buttonText=lawEvents.featured.button.text buttonLink=lawEvents.featured.button.link}}
               </td>
             </tr>
           {{/table}}
@@ -47,16 +41,13 @@
 
   <!-- OPEN FIRST ROW -->
   <tr>
-    {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
-
+    {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left' cellClasses='event'}}
     {{#forEach lawEvents.events}}
-
       {{#unless isFirst}}
-
         {{#ifOdd index}}
           <!-- OPEN UNLESS IS FIRST -->
           <tr>
-            {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
+            {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left' cellClasses='event'}}
         {{/ifOdd}}
       {{/unless}}
 
@@ -80,10 +71,9 @@
 
       {{#ifOdd index}}
         <!-- MIDDLE DIVIDER -->
-        {{>ui-columns-grid columnGridSeparator=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
+        {{>ui-columns-grid columnGridSeparator=true cellWidth='270' cellAlignment='right' cellClasses='event event-'}}
 
         {{#if isLast}}
-
           {{#ifOdd index}}
             <!-- EMPTY IF LAST AND ODD -->
             <tr>
@@ -94,7 +84,6 @@
       {{/ifOdd}}
 
       {{#ifEven index}}
-
         {{#unless isLast}}
             {{>ui-columns-grid columnGridEnd=true}}
           </tr>
