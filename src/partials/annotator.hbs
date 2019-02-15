@@ -25,7 +25,9 @@
                 <tr>
                   <!-- people-photo -->
                   <td class="people-photo" responsive="mobile-padding-left">
-                    <a href="{{{this.photoLink}}}" target="_blank"><img src="{{../default.imageDirSrc}}/annotator-photo-0{{index}}.png" alt="{{this.name}}" border="0" /></a>
+                    <a href="{{{this.photoLink}}}" target="_blank">
+                      <img src="{{resolveFilePath (concat 'annotator-photo-0' index '.png')}}" alt="{{this.name}}" border="0" />
+                    </a>
                   </td>
                   <!-- people-info -->
                   <td class="people-info" responsive="mobile-padding-horizontal-sides">
