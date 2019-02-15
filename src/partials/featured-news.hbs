@@ -28,18 +28,12 @@
           <!-- story-desc -->
           <td class="story-desc" responsive="collapse-one">
             <p>{{{featuredNews.description}}}</p>
-            {{!-- <br>
-            {{>ui-button moreBlue=true buttonLink=featuredNews.link}} --}}
           </td>
           <!-- featured-image -->
           <td class="featured-image" responsive="mobile-hide collapse-one">
-             {{#if featuredNews.link}}
-               <a href="{{{concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign}}}{{#if clientsNewsletter}}{{{featuredNews.utm.source.clients}}}{{/if}}{{#if jldNewsletter}}{{{featuredNews.utm.source.jld}}}{{/if}}{{{featuredNews.utm.content.image}}}" target="_blank">
-             {{/if}}
-             <img src="{{default.imageDirSrc}}/tech-news-01.png" alt="{{featuredNews.title}}" border="0" />
-             {{#if featuredNews.link}}
-               </a>
-             {{/if}}
+            {{#if featuredNews.link}}<a href="{{{concat featuredNews.link featuredNews.utm.medium featuredNews.utm.campaign}}}{{#if clientsNewsletter}}{{{featuredNews.utm.source.clients}}}{{/if}}{{#if jldNewsletter}}{{{featuredNews.utm.source.jld}}}{{/if}}{{{featuredNews.utm.content.image}}}" target="_blank">{{/if}}
+              <img src="{{resolveFilePath 'tech-news-01.png'}}" alt="{{featuredNews.title}}" border="0" />
+            {{#if featuredNews.link}}</a>{{/if}}
            </td>
         </tr>
       {{/table}}

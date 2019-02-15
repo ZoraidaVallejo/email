@@ -19,7 +19,9 @@
         <tr>
           <!-- news-logo -->
           <td class="news-logo">
-            <a href="{{this.button.link}}" target="_blank"><img src="{{../default.imageDirSrc}}/clients-news-logo-0{{index}}.png" alt="{{this.logoName}}" border="0" /></a>
+            <a href="{{this.button.link}}" target="_blank">
+              <img src="{{resolveFilePath (concat 'clients-news-logo-0' index '.png')}}" alt="{{this.logoName}}" border="0" />
+            </a>
           </td>
           <!-- news-desc -->
           <td class="news-desc">
