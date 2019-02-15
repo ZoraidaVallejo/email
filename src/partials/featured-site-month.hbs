@@ -2,7 +2,7 @@
 <!-- FEATURED SITE OF THE MONTH -->
 
 <!-- w-feaured-site-month -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-feaured-site-month set-max-width">
+{{#table class='w-feaured-site-month set-max-width'}}
   <tr>
     <!-- featured-site-title -->
     <td class="featured-site-title" responsive="mobile-padding-horizontal-sides">
@@ -28,7 +28,9 @@
     <tr>
       <!-- ft-single-img -->
       <td class="ft-single-img" responsive="mobile-padding-horizontal-sides">
-        <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank"><img src="{{default.imageDirSrc}}/featured-site-01.jpg" alt="{{featuredSiteMonth.sites.0.clientName}}" border="0" /></a>
+        <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
+          <img src="{{resolveFilePath 'featured-site-01.jpg'}}" alt="{{featuredSiteMonth.sites.0.clientName}}" border="0" />
+        </a>
       </td>
     </tr>
   {{/if}}
@@ -43,15 +45,17 @@
 
       {{#forEach featuredSiteMonth.sites}}
         <!-- ft-list-item-{{index}} -->
-        <table cellpadding="0" cellspacing="0" border="0" class="ft-list-item-{{index}}">
+        {{#table align='' class=(concat 'ft-list-item-' index)}}
           <tr>
             <!-- ft-list-img -->
             <td class="ft-list-img" responsive="mobile-hide collapse-one">
-              <a href="{{this.domain.long}}" target="_blank"><img src="{{../default.imageDirSrc}}/featured-site-0{{index}}-thumb.jpg" alt="{{this.clientName}}" border="0" /></a>
+              <a href="{{this.domain.long}}" target="_blank">
+                <img src="{{resolveFilePath (concat 'featured-site-0' index '-thumb.jpg')}}" alt="{{this.clientName}}" border="0" />
+              </a>
             </td>
             <!-- ft-list-desc -->
             <td class="ft-list-desc" responsive="collapse-one{{#unless isFirst}} mobile-padding-top{{/unless}}{{#unless isLast}} mobile-padding-bottom{{/unless}}">
-              <table cellpadding="0" cellspacing="0" border="0">
+              {{#table align=''}}
                 <tr>
                   <td responsive="mobile-align-center {{#unless isFirst}}mobile-padding-top{{/unless}}"><p><strong>{{{this.clientName}}}</strong></p></td>
                 </tr>
@@ -61,12 +65,12 @@
                 <tr>
                   <td responsive="mobile-align-center {{#unless isLast}}mobile-padding-bottom{{/unless}}"><p><a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a></p></td>
                 </tr>
-              </table>
+              {{/table}}
             </td>
           </tr>
-        </table>
+        {{/table}}
       {{/forEach}}
     </td>
   </tr>
   {{/if}}
-</table>
+{{/table}}

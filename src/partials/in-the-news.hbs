@@ -2,7 +2,7 @@
 <!-- CLIENTS IN THE NEWS -->
 
 <!-- w-in-the-news -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-in-the-news set-max-width">
+{{#table class='w-in-the-news set-max-width'}}
   <tr>
     <!-- clients-title -->
     <td class="clients-title" responsive="mobile-padding-horizontal-sides">
@@ -15,11 +15,13 @@
     <td class="clients-list" responsive="mobile-padding-horizontal-sides">
       {{#forEach inTheNews.news}}
       <!-- client-block client-{{index}} -->
-      <table border="0" cellpadding="0" cellspacing="0" class="client-block client-{{index}}">
+      {{#table align='' class=(concat 'client-block client-' index)}}
         <tr>
           <!-- news-logo -->
           <td class="news-logo">
-            <a href="{{this.button.link}}" target="_blank"><img src="{{../default.imageDirSrc}}/clients-news-logo-0{{index}}.png" alt="{{this.logoName}}" border="0" /></a>
+            <a href="{{this.button.link}}" target="_blank">
+              <img src="{{resolveFilePath (concat 'clients-news-logo-0' index '.png')}}" alt="{{this.logoName}}" border="0" />
+            </a>
           </td>
           <!-- news-desc -->
           <td class="news-desc">
@@ -28,7 +30,7 @@
             {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
           </td>
         </tr>
-      </table>
+      {{/table}}
       {{/forEach}}
     </td>
   </tr>
@@ -39,4 +41,4 @@
       <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
     </td>
   </tr>
-</table>
+{{/table}}

@@ -8,10 +8,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-table:not(.ignore-default-table-styles) {
-  width: 100%;
-}
-
 table td {
   text-align: left;
 }

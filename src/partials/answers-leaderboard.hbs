@@ -2,12 +2,12 @@
 <!-- ASK A LAWYER LEADERBOARD -->
 
 <!-- w-people-list w-answers-leaderboard -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-people-list w-answers-leaderboard set-max-width">
+{{#table class='w-people-list w-answers-leaderboard set-max-width'}}
   <tr>
     <!-- list-table -->
     <td class="list-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
 
-      <table border="0" cellpadding="0" cellspacing="0">
+      {{#table align=''}}
         <tr>
           <!-- list-table-title -->
           <td class="list-table-title" responsive="mobile-padding-horizontal-sides">
@@ -20,12 +20,14 @@
         <tr>
           <td>
             <!-- people-table -->
-            <table border="0" cellpadding="0" cellspacing="0" class="people-table">
+            {{#table align='' class='people-table'}}
               {{#forEach answersLeaderboard.people}}
                 <tr>
                   <!-- people-photo -->
                   <td class="people-photo" responsive="mobile-padding-left">
-                    <a href="{{{this.photoLink}}}" target="_blank"><img src="{{../default.imageDirSrc}}/leaderboard-photo-0{{index}}.png" alt="{{this.name}}" border="0" /></a>
+                    <a href="{{{this.photoLink}}}" target="_blank">
+                      <img src="{{resolveFilePath (concat 'leaderboard-photo-0' index '.png')}}" alt="{{this.name}}" border="0" />
+                    </a>
                   </td>
                   <!-- people-info -->
                   <td class="people-info" responsive="mobile-padding-horizontal-sides">
@@ -44,10 +46,10 @@
                   </td>
                 </tr>
               {{/forEach}}
-            </table>
+            {{/table}}
           </td>
         </tr>
-      </table>
+      {{/table}}
     </td>
   </tr>
   <tr>
@@ -58,4 +60,4 @@
       {{>ui-real-text-button buttonText=answersLeaderboard.button.text buttonLink=answersLeaderboard.button.link}}
     </td>
   </tr>
-</table>
+{{/table}}

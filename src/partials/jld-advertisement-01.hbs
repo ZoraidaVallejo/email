@@ -2,12 +2,12 @@
 <!-- JLD ADVERTISEMENT -->
 
 <!-- w-advertisement w-jld-ad-01 -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-advertisement w-jld-ad-01 set-max-width">
+{{#table class='w-advertisement w-jld-ad-01 set-max-width'}}
   <tr>
     <!-- ad-image -->
     <td class="ad-image">
       <a href="{{{advertisements.jld.ad1.link}}}" target="_blank">
-        <img src="{{default.imageDirSrc}}/{{advertisements.jld.ad1.image}}" alt="{{advertisements.jld.ad1.alt}}" border="0" />
+        <img src="{{resolveFilePath advertisements.jld.ad1.image}}" alt="{{advertisements.jld.ad1.alt}}" border="0" />
       </a>
     </td>
   </tr>
@@ -22,4 +22,4 @@
       </tr>
     {{/each}}
   {{/if}}
-</table>
+{{/table}}

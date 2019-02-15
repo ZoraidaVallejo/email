@@ -2,7 +2,7 @@
 <!-- LAW EVENTS -->
 
 <!-- w-law-events ui-columns-grid -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-law-events ui-columns-grid set-max-width">
+{{#table class='w-law-events ui-columns-grid set-max-width'}}
   <tr>
     <!-- law-events-title align-center -->
     <td class="law-events-title align-center" responsive="mobile-padding-horizontal-sides">
@@ -20,7 +20,7 @@
       <tr>
         <!-- law-events-featured -->
         <td class="law-events-featured" responsive="mobile-padding-horizontal-sides">
-          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          {{#table align=''}}
             <tr>
               <!-- event-desc -->
               <td class="event-desc" responsive="mobile-padding-horizontal-sides">
@@ -39,7 +39,7 @@
                 }}
               </td>
             </tr>
-          </table>
+          {{/table}}
         </td>
       </tr>
     {{/isEmpty}}
@@ -47,7 +47,7 @@
 
   <!-- OPEN FIRST ROW -->
   <tr>
-    {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
+    {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
 
     {{#forEach lawEvents.events}}
 
@@ -56,7 +56,7 @@
         {{#ifOdd index}}
           <!-- OPEN UNLESS IS FIRST -->
           <tr>
-            {{>ui-columns-grid rowClasses="law-events-list" columStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
+            {{>ui-columns-grid rowClasses="law-events-list" columnGridStart=true fullWidth="540" cellWidth="270" cellAlignment="left" cellClasses="event"}}
         {{/ifOdd}}
       {{/unless}}
 
@@ -80,7 +80,7 @@
 
       {{#ifOdd index}}
         <!-- MIDDLE DIVIDER -->
-        {{>ui-columns-grid columnDiv=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
+        {{>ui-columns-grid columnGridSeparator=true cellWidth="270" cellAlignment="right" cellClasses="event event-"}}
 
         {{#if isLast}}
 
@@ -96,14 +96,14 @@
       {{#ifEven index}}
 
         {{#unless isLast}}
-            {{>ui-columns-grid columnEnd=true}}
+            {{>ui-columns-grid columnGridEnd=true}}
           </tr>
           <!-- CLOSE UNLESS IS LAST -->
         {{/unless}}
       {{/ifEven}}
     {{/forEach}}
 
-    {{>ui-columns-grid columnEnd=true}}
+    {{>ui-columns-grid columnGridEnd=true}}
   </tr>
   <!-- CLOSE LAST ROW -->
-</table>
+{{/table}}

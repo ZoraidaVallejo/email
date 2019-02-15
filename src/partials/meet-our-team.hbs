@@ -1,8 +1,14 @@
 
 <!-- MEET OUR TEAM -->
 
-<!-- w-text-image w-meet-our-team -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="w-text-image w-meet-our-team set-max-width {{#gt (length meetOurTeam.blocks) 1}}multiple{{/gt}}">
+{{#gt (length meetOurTeam.blocks) 1}}
+  {{assign 'meetOurTeamAllClasses' (concat 'w-text-image' 'w-meet-our-team' 'set-max-width' 'multiple' separator=' ')}}
+{{else}}
+  {{assign 'meetOurTeamAllClasses' (concat 'w-text-image' 'w-meet-our-team' 'set-max-width' separator=' ')}}
+{{/gt}}
+
+<!-- {{@root.meetOurTeamAllClasses}} -->
+{{#table class=@root.meetOurTeamAllClasses}}
 
   {{#gt (length meetOurTeam.blocks) 1}}
     <tr>
@@ -19,7 +25,7 @@
     <td class="item-list" responsive="mobile-padding-horizontal-sides">
       {{#forEach meetOurTeam.blocks}}
         <!-- item-{{index}} -->
-        <table cellpadding="0" cellspacing="0" border="0" class="item-{{index}}">
+        {{#table align='' class=(concat 'item-' index)}}
           <tr>
             <!-- item-desc -->
             <td class="item-desc" responsive="collapse-one">
@@ -36,14 +42,14 @@
             <!-- item-image -->
             <td class="item-image" responsive="mobile-hide collapse-one">
               {{#if this.image}}
-                <img src="{{../default.imageDirSrc}}/{{this.image}}" alt="{{this.title}}" border="0" />
+                <img src="{{resolveFilePath this.image}}" alt="{{this.title}}" border="0" />
               {{else}}
                 &nbsp;
               {{/if}}
             </td>
           </tr>
-        </table>
+        {{/table}}
       {{/forEach}}
     </td>
   </tr>
-</table>
+{{/table}}
