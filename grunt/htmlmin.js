@@ -1,5 +1,5 @@
 module.exports = {
-  prod: {
+  dist: {
     options: {
       removeComments: true,
       collapseWhitespace: true,
