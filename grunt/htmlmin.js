@@ -1,14 +1,5 @@
-const files = [
-  {
-    expand: true,
-    flatten: true,
-    src: '<%= paths.dist %>/*.html',
-    dest: '<%= paths.dist %>'
-  }
-];
-
 module.exports = {
-  compressed: {
+  dist: {
     options: {
       removeComments: true,
       collapseWhitespace: true,
@@ -27,14 +18,13 @@ module.exports = {
         }
       }
     },
-    files
-  },
-  dist: {
-    options: {
-      removeComments: true,
-      collapseWhitespace: true,
-      removeEmptyAttributes: attrName => attrName === 'style'
-    },
-    files
+    files: [
+      {
+        expand: true,
+        flatten: true,
+        src: '<%= paths.dist %>/*.html',
+        dest: '<%= paths.dist %>'
+      }
+    ]
   }
 };

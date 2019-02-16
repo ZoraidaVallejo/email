@@ -24,7 +24,7 @@ module.exports = {
     'spreadsheet',
     // Responsive
     'replace:shortenClasses',
-    'htmlmin:compressed',
+    'htmlmin',
     'prettier'
   ],
 
