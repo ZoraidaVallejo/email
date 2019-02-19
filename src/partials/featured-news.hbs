@@ -69,12 +69,19 @@
     </tr>
     <tr>
       <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        <div>
-          <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://google.com" style="height:30px;v-text-anchor:middle;width:123px;" arcsize="10%" strokecolor="#00b3e3" fillcolor="transparent"><w:anchorlock/><center style="color:#00b3e3;font-family:sans-serif;font-size:16px;">Learn More</center></v:roundrect><![endif]-->
-          <a href="http://google.com" style="background-color:transparent;border:1px solid #00b3e3;border-radius:3px;color:#00b3e3;display:inline-block;font-family:sans-serif;font-size:16px;line-height:30px;text-align:center;text-decoration:none;width:123px;-webkit-text-size-adjust:none;mso-hide:all;" target="_blank">
-            Learn More
-          </a>
-        </div>
+        {{#button
+          href='http://google.com'
+          width='123px'
+          height='30px'
+          backgroundColor='transparent'
+          fontColor='#00b3e3'
+          fontSize='16px'
+          fontWeight='normal'
+          borderColor='#00b3e3'
+          borderRadius='3px'
+        }}
+          Learn More
+        {{/button}}
       </td>
     </tr>
   {{/if}}
