@@ -34,20 +34,16 @@
 {{assign 'headerAllClasses' (concat 'main-header' @root.headerLayoutClass @root.headerLogoNameClass 'set-max-width' separator=' ')}}
 
 {{>ui-layout-hack tableStart=true}}
-  <!-- {{@root.headerAllClasses}} -->
   {{#table class=@root.headerAllClasses}}
     <tr>
-      <!-- wrapper -->
       <td class="wrapper" responsive="mobile-padding-horizontal-sides">
         {{>ui-spacer-hack}}
         {{#if withDate}}
           {{#table}}
             <tr>
-              <!-- logo -->
               <td class="logo">
                 {{>main-logo source=@root.headerLogoSrc alt=@root.headerLogoAlt link=logoLink utmVars=logoUtmVars}}
               </td>
-              <!-- date -->
               <td class="date">
                 <span>{{getMonth custom-config.currentMonth}} {{custom-config.currentYear}}</span>
               </td>
