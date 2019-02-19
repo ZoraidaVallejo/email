@@ -501,6 +501,18 @@ a {
   font: 400 29px/1.27 Arial, sans-serif;
 }
 
+.ui-background.photo-profile .bg-wrapper {
+  vertical-align: bottom;
+}
+
+.ui-background.photo-profile .profile-label td {
+  font:  18px/1 Arial, sans-serif;
+  height: 35px;
+  background-color: #edaa00;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
 .w-welcome {
   background-color: #00b3e3;
 }
