@@ -1,9 +1,7 @@
 <!-- ADVERTISEMENT -->
 
-<!-- w-advertisement w-client-ad-01 -->
 {{#table class='w-advertisement w-client-ad-01 set-max-width'}}
   <tr>
-    <!-- ad-image -->
     <td class="ad-image">
       <a href="{{{advertisements.clients.ad1.link}}}" target="_blank">
         <img src="{{resolveFilePath advertisements.clients.ad1.image}}" alt="{{advertisements.clients.ad1.alt}}" border="0" />
@@ -14,7 +12,6 @@
   {{#if advertisements.clients.ad1.description}}
     {{#each advertisements.clients.ad1.description}}
       <tr>
-        <!-- ad-desc {{#if @first}}ad-desc--first{{/if}} {{#if @last}}ad-desc--last{{/if}} -->
         <td class="ad-desc {{#if @first}}ad-desc--first{{/if}} {{#if @last}}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
           <p>{{{this}}}</p>
         </td>

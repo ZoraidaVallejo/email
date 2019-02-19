@@ -1,17 +1,13 @@
 <!-- SEO NEWS -->
 
-<!-- w-stories-list w-seo-news -->
 {{#table class='w-stories-list w-seo-news set-max-width'}}
   <tr>
-    <!-- stories-title -->
     <td class="stories-title" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-main-title -->
       <h2 class="widget-main-title">SEO News</h2>
     </td>
   </tr>
   {{#forEach seoNews.articles}}
     <tr>
-      <!-- story-item -->
       <td class="story-item" responsive="mobile-padding-horizontal-sides">
         <p><strong><a href="{{this.link}}" target="_blank">{{{this.title}}}</a></strong></p>
         <p>{{{this.description}}}</p>

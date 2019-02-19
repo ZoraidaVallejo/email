@@ -16,21 +16,16 @@
 {{assign 'cellAllAttributes' (tableAttr align=cellAlignment class=@root.cellAllClasses responsive='mobile-align-center mobile-no-float')}}
 
 {{#if columnGridStart}}
-  <!-- {{@root.rowAllClasses}} -->
   <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
     <!--[if (gte mso 9)|(IE)]><table {{{tableAttr width=fullWidth}}}><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-    <!-- {{@root.columnAllClasses}} -->
     <div class="{{@root.columnAllClasses}}">
-      <!-- {{@root.cellAllClasses}} -->
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridSeparator}}
       </table>
     </div>
     <!--[if (gte mso 9)|(IE)]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-    <!-- {{@root.columnAllClasses}} -->
     <div class="{{@root.columnAllClasses}}">
-      <!-- {{@root.cellAllClasses}} -->
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridEnd}}

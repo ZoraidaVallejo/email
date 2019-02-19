@@ -40,16 +40,12 @@
 {{assign 'footerClasses' (concat 'main-footer' @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses 'set-max-width' separator=' ')}}
 
 {{>ui-layout-hack tableStart=true}}
-  <!-- {{@root.footerClasses}} -->
   {{#table class=@root.footerClasses responsive=@root.footerRespClasses}}
     <tr>
-      <!-- footer-head -->
       <td class="footer-head" responsive="{{@root.footerHeadRespClasses}}">
         {{#unless socialOnTop}}{{>ui-spacer-hack}}{{/unless}}
-        <!-- {{@root.footerHeadWrapperClasses}} -->
         {{#table class=@root.footerHeadWrapperClasses}}
           <tr>
-            <!-- fhead-side -left footer-logo -->
             <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop}}footer-logo{{else}}mobile-padding-bottom{{/if}}">
               {{#if customLogoPath}}
                 {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses='mobile-align-center'}}
@@ -66,12 +62,10 @@
               {{/if}}
             </td>
             {{#if socialOnTop}}
-              <!-- fhead-side -right footer-social -->
               <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
                 {{>social-icons socialIconsResponsiveClasses='mobile-align-center mobile-no-float'}}
               </td>
             {{else}}
-              <!-- fhead-side -right footer-nav -->
               <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
                 {{>navigation elements=navigationElements}}
               </td>
@@ -82,7 +76,6 @@
     </tr>
     {{#unless socialOnTop}}
       <tr>
-        <!-- footer-social -->
         <td class="footer-social" responsive="mobile-padding-horizontal-sides">
           {{>ui-spacer-hack}}
           {{>social-icons socialIconsClasses='set-max-width'}}
@@ -90,13 +83,11 @@
       </tr>
     {{/unless}}
     <tr>
-      <!-- footer-disclaimer -->
       <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
         <p {{#if socialOnTop}}responsive="mobile-align-center"{{/if}}>{{{disclaimerText}}}</p>
       </td>
     </tr>
     <tr>
-      <!-- footer-address -->
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{#if socialOnTop}}
           {{>ui-spacer-hack}}
@@ -108,7 +99,6 @@
     </tr>
     {{#if socialOnTop}}
       <tr>
-        <!-- footer-nav -->
         <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
           {{>ui-spacer-hack}}
           {{>navigation elements=navigationElements navResponsiveClasses='mobile-align-center'}}

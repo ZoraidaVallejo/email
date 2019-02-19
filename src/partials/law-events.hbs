@@ -1,11 +1,8 @@
 <!-- LAW EVENTS -->
 
-<!-- w-law-events ui-columns-grid -->
 {{#table class='w-law-events ui-columns-grid set-max-width'}}
   <tr>
-    <!-- law-events-title align-center -->
     <td class="law-events-title align-center" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-main-title -->
       <h2 class="widget-main-title">Law Events</h2>
     </td>
   </tr>
@@ -15,20 +12,15 @@
       {{!-- DO NOTHING --}}
     {{else}}
       <tr>
-        <!-- law-events-featured -->
         <td class="law-events-featured" responsive="mobile-padding-horizontal-sides">
           {{#table align=''}}
             <tr>
-              <!-- event-desc -->
               <td class="event-desc" responsive="mobile-padding-horizontal-sides">
-                <!-- date -->
                 <p class="date">{{{lawEvents.featured.dateTime}}}</p>
-                <!-- desc -->
                 <p class="desc"><strong>{{{lawEvents.featured.typeLocation}}}</strong><br> {{{lawEvents.featured.description}}}</p>
               </td>
             </tr>
             <tr>
-              <!-- button -->
               <td class="button -white" responsive="mobile-padding-horizontal-sides">
                 {{>ui-real-text-button buttonText=lawEvents.featured.button.text buttonLink=lawEvents.featured.button.link}}
               </td>
@@ -52,18 +44,13 @@
       {{/unless}}
 
       <!-- CONTENT -->
-      <!-- event-{{index}} -->
       <tr class="event-{{index}}">
-        <!-- inner-text -->
         <td class="inner-text" responsive="mobile-reset-height">
-          <!-- date -->
           <p class="date">{{{this.dateTime}}}</p>
-          <!-- desc -->
           <p class="desc"><strong>{{{this.typeLocation}}}</strong><br> {{{this.description}}}</p>
         </td>
       </tr>
       <tr>
-        <!-- button -->
         <td class="button -white">
           {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
         </td>
