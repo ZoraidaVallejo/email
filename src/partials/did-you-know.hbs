@@ -1,14 +1,10 @@
 <!-- DID YOU KNOW? -->
 
-<!-- w-did-you-know -->
 {{#table class='w-did-you-know set-max-width'}}
   <tr>
-    <!-- dyk-title -->
     <td class="dyk-title" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-type-name -->
       <h4 class="widget-type-name">DID YOU KNOW?</h4>
       {{#if didYouKnow.title}}
-        <!-- widget-main-title -->
         <h2 class="widget-main-title">
           <a href="{{didYouKnow.link}}" target="_blank">{{{didYouKnow.title}}}</a>
         </h2>
@@ -18,7 +14,6 @@
 
   {{#each didYouKnow.description}}
     <tr>
-      <!-- dyk-desc {{#if @last}}dyk-desc--last{{/if}} -->
       <td class="dyk-desc {{#if @last}}dyk-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <p>{{{this}}}</p>
       </td>

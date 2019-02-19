@@ -1,9 +1,7 @@
 <!-- JLD ADVERTISEMENT -->
 
-<!-- w-advertisement w-jld-ad-02 -->
 {{#table class='w-advertisement w-jld-ad-02 set-max-width'}}
   <tr>
-    <!-- ad-image -->
     <td class="ad-image">
       <a href="{{{advertisements.jld.ad2.link}}}" target="_blank">
         <img src="{{resolveFilePath advertisements.jld.ad2.image}}" alt="{{advertisements.jld.ad2.alt}}" border="0" />
@@ -14,7 +12,6 @@
   {{#if advertisements.jld.ad2.description}}
     {{#each advertisements.jld.ad2.description}}
       <tr>
-        <!-- ad-desc {{#if @first}}ad-desc--first{{/if}} {{#if @last}}ad-desc--last{{/if}} -->
         <td class="ad-desc {{#if @first}}ad-desc--first{{/if}} {{#if @last}}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
           <p>{{{this}}}</p>
         </td>

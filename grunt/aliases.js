@@ -1,24 +1,15 @@
+const develTasks = {
+  1: ['clean:dist'],
+  2: ['assemble', 'juice', 'imagemin', 'replace:importantStyle'],
+  3: ['replace:fixResponsive', 'replace:srcImages', 'replace:removeDupStyles']
+};
+
 module.exports = {
   default: ['serve'],
 
-  devel: [
-    // Group 1
-    'clean:dist',
-    'sass:dist',
-    // Group 2
-    'assemble',
-    'juice',
-    'imagemin',
-    // Group 3
-    'replace:importantStyle',
-    'replace:removeClasses',
-    'replace:fixResponsive',
-    'replace:srcImages',
-    // Group 4
-    'replace:removeDupStyles',
-    // Group 5
-    'prettier:devel'
-  ],
+  devel: [...develTasks[1], 'sass:devel', ...develTasks[2], 'replace:classesToData', ...develTasks[3], 'prettier'],
+
+  dist: [...develTasks[1], 'sass:dist', ...develTasks[2], 'replace:removeClasses', ...develTasks[3]],
 
   serve: ['devel', 'buildPreview', 'express', 'open', 'watch'],
 
@@ -28,12 +19,13 @@ module.exports = {
 
   build: [
     // Base
-    'devel',
+    'dist',
     'replace:liveImages',
     'spreadsheet',
     // Responsive
     'replace:shortenClasses',
-    'htmlmin'
+    'htmlmin',
+    'prettier'
   ],
 
   buildPreview: ['sass:preview', 'postcss:preview'],

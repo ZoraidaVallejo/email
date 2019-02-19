@@ -118,6 +118,19 @@ module.exports = {
     files: allTemplates
   },
 
+  classesToData: {
+    options: {
+      usePrefix: false,
+      patterns: [
+        {
+          match: 'class=',
+          replacement: 'data-class='
+        }
+      ]
+    },
+    files: allTemplates
+  },
+
   removeDupStyles: {
     options: {
       usePrefix: false,

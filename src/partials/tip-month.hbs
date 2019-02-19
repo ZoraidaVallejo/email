@@ -1,13 +1,9 @@
 <!-- TIP OF THE MONTH -->
 
-<!-- w-tip-month -->
 {{#table class='w-tip-month set-max-width'}}
   <tr>
-    <!-- tip-title -->
     <td class="tip-title" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-type-name -->
       <h4 class="widget-type-name">TIP OF THE MONTH</h4>
-      <!-- widget-main-title -->
       <h2 class="widget-main-title">
         {{#if clientsNewsletter}}
           {{{tipMonth.clients.title}}}
@@ -24,7 +20,6 @@
   {{#if clientsNewsletter}}
     {{#each tipMonth.clients.description}}
       <tr>
-        <!-- tip-desc {{#if @last}}tip-desc--last{{/if}} -->
         <td class="tip-desc {{#if @last}}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
           <p>{{{this}}}</p>
         </td>
@@ -35,7 +30,6 @@
   {{#if jldNewsletter}}
     {{#each tipMonth.jld.description}}
       <tr>
-        <!-- tip-desc {{#if @last}}tip-desc--last{{/if}} -->
         <td class="tip-desc {{#if @last}}tip-desc--last{{/if}}" responsive="mobile-padding-horizontal-sides">
           <p>{{{this}}}</p>
         </td>

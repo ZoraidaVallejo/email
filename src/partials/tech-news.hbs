@@ -1,17 +1,13 @@
 <!-- TECH NEWS -->
 
-<!-- w-stories-list w-tech-news -->
 {{#table class='w-stories-list w-tech-news set-max-width'}}
   <tr>
-    <!-- stories-title -->
     <td class="stories-title" responsive="mobile-padding-horizontal-sides">
-      <!-- widget-main-title -->
       <h2 class="widget-main-title">Tech News</h2>
     </td>
   </tr>
   {{#forEach techNews.articles}}
     <tr>
-      <!-- story-item -->
       <td class="story-item" responsive="mobile-padding-horizontal-sides">
         <p><strong><a href="{{this.link}}" target="_blank">{{{this.title}}}</a></strong></p>
         <p>{{{this.description}}}</p>
