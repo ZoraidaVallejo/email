@@ -72,10 +72,25 @@
         {{#button href=(concat featuredNews.link @root.featuredNewsButtonVars)}}{{featuredNews.button.text}}{{/button}}
       </td>
     </tr>
-    {{!-- <tr>
-      <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        {{#button href=(concat featuredNews.link @root.featuredNewsButtonVars) height='50px'}}{{featuredNews.button.text}}{{/button}}
+    <tr>
+      <td class="main-story-button align-right" responsive="mobile-padding-horizontal-sides">
+        {{#button width='110px' height='40px' fontSize='12px'}}VIEW DETAILS{{/button}}
       </td>
-    </tr> --}}
+    </tr>
+    <tr>
+      <td class="main-story-button align-center" responsive="mobile-padding-horizontal-sides">
+        {{#button presetStyle='white'}}{{featuredNews.button.text}}{{/button}}
+      </td>
+    </tr>
+    <tr>
+      <td class="main-story-button align-center" responsive="mobile-padding-horizontal-sides">
+        {{#button presetStyle='red' height='45px' width='250px'}}GET YOUR BADGE TODAY{{/button}}
+      </td>
+    </tr>
+    <tr>
+      <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
+        {{#button presetStyle='yellow'}}{{featuredNews.button.text}}{{/button}}
+      </td>
+    </tr>
   {{/if}}
 {{/table}}
