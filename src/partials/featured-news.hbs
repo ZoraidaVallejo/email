@@ -69,18 +69,7 @@
     </tr>
     <tr>
       <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        {{#button
-          href='http://google.com'
-          width='123px'
-          height='30px'
-          backgroundColor='transparent'
-          fontColor='#00b3e3'
-          fontSize='16px'
-          borderColor='#00b3e3'
-          borderRadius='3px'
-        }}
-          Learn More
-        {{/button}}
+        {{#button href=(concat featuredNews.link @root.featuredNewsButtonVars)}}{{featuredNews.button.text}}{{/button}}
       </td>
     </tr>
   {{/if}}
