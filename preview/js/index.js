@@ -4,11 +4,11 @@
  * Borrowed from https://github.com/zenorocha/delegate/blob/master/src/delegate.js
  * Modified it to use closest as prototype function of Element. Polyfill is already added in shared.
  *
- * @param {Element} element
- * @param {String} selector
- * @param {String} type
- * @param {Function} callback
- * @return {Function}
+ * @param   {Element}   element
+ * @param   {String}    selector
+ * @param   {String}    type
+ * @param   {Function}  callback
+ * @returns {Function}
  */
 function listener(element, selector, type, callback) {
   return function listen(e) {
@@ -25,12 +25,12 @@ function listener(element, selector, type, callback) {
  *
  * Borrowed from https://github.com/zenorocha/delegate/blob/master/src/delegate.js
  *
- * @param {Element} element
- * @param {String} selector
- * @param {String} type
- * @param {Function} callback
- * @param {Boolean} useCapture
- * @return {Object}
+ * @param   {Element}   element
+ * @param   {String}    selector
+ * @param   {String}    type
+ * @param   {Function}  callback
+ * @param   {Boolean}   useCapture
+ * @returns {Object}
  */
 function delegate(element, selector, type, callback, useCapture) {
   const listenerFn = listener.apply(this, arguments); // eslint-disable-line prefer-rest-params
@@ -48,7 +48,7 @@ function delegate(element, selector, type, callback, useCapture) {
  * Manually an event.
  *
  * @param {Element} element
- * @param {String} type
+ * @param {String}  type
  */
 function triggerEvent(element, type) {
   if ('createEvent' in document) {
