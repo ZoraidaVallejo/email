@@ -21,8 +21,10 @@
               </td>
             </tr>
             <tr>
-              <td class="button -white" responsive="mobile-padding-horizontal-sides">
-                {{>ui-real-text-button buttonText=lawEvents.featured.button.text buttonLink=lawEvents.featured.button.link}}
+              <td class="button" responsive="mobile-padding-horizontal-sides">
+                {{#button presetStyle='white' href=lawEvents.featured.button.link}}
+                  {{lawEvents.featured.button.text}}
+                {{/button}}
               </td>
             </tr>
           {{/table}}
@@ -51,8 +53,10 @@
         </td>
       </tr>
       <tr>
-        <td class="button -white">
-          {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
+        <td class="button">
+          {{#button presetStyle='white' href=this.button.link}}
+            {{this.button.text}}
+          {{/button}}
         </td>
       </tr>
 

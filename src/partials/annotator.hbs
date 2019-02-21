@@ -37,7 +37,9 @@
     <td class="list-desc" responsive="mobile-padding-horizontal-sides">
       <p>{{{annotator.description}}}</p>
       <br>
-      {{>ui-real-text-button buttonText=annotator.button.text buttonLink=annotator.button.link}}
+      {{#button href=annotator.button.link}}
+        {{annotator.button.text}}
+      {{/button}}
     </td>
   </tr>
 {{/table}}

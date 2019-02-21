@@ -19,7 +19,9 @@
             <td class="news-desc">
               <p>{{{this.description}}}</p>
               <br>
-              {{>ui-real-text-button buttonText=this.button.text buttonLink=this.button.link}}
+              {{#button href=this.button.link}}
+                {{this.button.text}}
+              {{/button}}
             </td>
           </tr>
         {{/table}}
