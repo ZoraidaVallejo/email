@@ -29,6 +29,7 @@
     "test": "nps --config .npmscripts.js test"
   },
   "dependencies": {
+    "bilberry": "^0.3.0",
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.2",
     "css-font": "^1.2.0",
@@ -39,6 +40,7 @@
     "kebab-case": "^1.0.0",
     "load-grunt-config": "^1.0.1",
     "months": "^2.0.0",
+    "node-notifier": "^5.4.0",
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
     "valid-url": "^1.0.9"
@@ -48,7 +50,6 @@
     "@justia/maple-sass": "^3.4.0",
     "autoprefixer": "^9.4.6",
     "babel-eslint": "^10.0.1",
-    "bilberry": "^0.3.0",
     "ejs": "^2.6.1",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",

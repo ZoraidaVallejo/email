@@ -64,9 +64,8 @@
   {{#if featuredNews.button}}
     <tr>
       <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton href=(concat featuredNews.link @root.featuredNewsButtonVars) width='310px' height='50' fontSize='18' borderRadius='5px' responsive='ui-button'}}
-          {{!-- {{featuredNews.button.text}} --}}
-          Lorem ipsum dolor sit amet conse
+        {{#uiButton href=(concat featuredNews.link @root.featuredNewsButtonVars)}}
+          {{featuredNews.button.text}}
         {{/uiButton}}
       </td>
     </tr>
