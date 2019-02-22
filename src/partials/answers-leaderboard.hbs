@@ -40,7 +40,9 @@
     <td class="list-desc" responsive="mobile-padding-horizontal-sides">
       <p>{{{answersLeaderboard.description}}}</p>
       <br>
-      {{>ui-real-text-button buttonText=answersLeaderboard.button.text buttonLink=answersLeaderboard.button.link}}
+      {{#uiButton href=answersLeaderboard.button.link}}
+        {{answersLeaderboard.button.text}}
+      {{/uiButton}}
     </td>
   </tr>
 {{/table}}

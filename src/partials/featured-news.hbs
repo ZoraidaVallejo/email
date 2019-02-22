@@ -64,7 +64,9 @@
   {{#if featuredNews.button}}
     <tr>
       <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
-        {{>ui-real-text-button buttonText=featuredNews.button.text buttonLink=(concat featuredNews.link @root.featuredNewsButtonVars)}}
+        {{#uiButton href=(concat featuredNews.link @root.featuredNewsButtonVars)}}
+          {{featuredNews.button.text}}
+        {{/uiButton}}
       </td>
     </tr>
   {{/if}}

@@ -401,61 +401,6 @@ a {
   vertical-align: top;
 }
 
-.ui-real-text-button {
-  width: 125px;
-  height: 30px;
-  border: 1px solid #00b3e3;
-  border-radius: 3px;
-  text-align: left;
-  border-collapse: separate !important;
-}
-
-.ui-real-text-button a {
-  display: block;
-  padding: 7px 0;
-  color: #00b3e3;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none !important;
-}
-
-.ui-real-text-button .wrapper {
-  color: #00b3e3;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.-white .ui-real-text-button {
-  border: 1px solid #ffffff;
-}
-
-.-white .ui-real-text-button a {
-  color: #ffffff;
-}
-
-.-white .ui-real-text-button .wrapper {
-  color: #ffffff;
-}
-
-.-red .ui-real-text-button {
-  border: 1px solid #e2231a;
-  background-color: #e2231a;
-}
-
-.-red .ui-real-text-button a {
-  color: #ffffff;
-  font-weight: 700;
-}
-
-.-red .ui-real-text-button .wrapper {
-  color: #ffffff;
-  font-weight: 700;
-}
-
-.-large .ui-real-text-button {
-  width: 187.5px;
-}
-
 .ui-columns-grid .grid-row {
   padding: 0;
   font-size: 0;
