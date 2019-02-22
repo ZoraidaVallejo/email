@@ -3,21 +3,6 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.ui-background.photo-profile {
-
-  .bg-wrapper {
-    vertical-align: bottom;
-  }
-
-  .profile-label td {
-    @include mail-font($size: 18px, $line-height: 1);
-    height: 35px;
-    background-color: plt('metallics', 'gold');
-    text-align: center;
-    letter-spacing: 3px;
-  }
-}
-
 .w-welcome {
   background-color: plt('bright-blue');
 
