@@ -20,7 +20,7 @@ h4 {
 
 p {
   margin: 0;
-  font: 16px/1.38 "Arial", sans-serif;
+  font: 16px/1.38 Arial,sans-serif;
 }
 
 a {
@@ -90,7 +90,7 @@ a {
 .main-header.-with-date .date span {
   display: block;
   color: #000000;
-  font: 16px/1.25 "Arial", sans-serif;
+  font: 16px/1.25 Arial,sans-serif;
 }
 
 .main-header.-with-date.-justia-logo .logo-img {
@@ -438,12 +438,12 @@ a {
 .widget-type-name {
   padding: 0 0 5px;
   color: #7b7d7d;
-  font: 700 14px/1.1 "Arial", sans-serif;
+  font: 700 14px/1.1 Arial,sans-serif;
 }
 
 .widget-main-title {
   color: #000000;
-  font: 400 29px/1.27 "Arial", sans-serif;
+  font: 400 29px/1.27 Arial,sans-serif;
 }
 
 .w-welcome {

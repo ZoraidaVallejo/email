@@ -29,14 +29,22 @@ module.exports = (grunt, { paths }) => {
         lineHeight: fontMap.getValue(5).getValue()
       };
 
-      const famHolder = fontMap.getValue(6);
-      const family = [];
+      const familySassValue = fontMap.getValue(6);
+      const familyArray = [];
 
-      for (let idx = 0; idx < famHolder.getLength(); idx += 1) {
-        family.push(famHolder.getValue(idx).getValue());
+      for (let idx = 0; idx < familySassValue.getLength(); idx += 1) {
+        familyArray.push(familySassValue.getValue(idx).getValue());
       }
 
-      config.family = family;
+      config.family = familyArray
+        .map(val => {
+          if (/\s/.test(val)) {
+            return `"${val}"`;
+          }
+
+          return val;
+        })
+        .join(',');
 
       return sass.types.String(font.stringify(config));
     }
