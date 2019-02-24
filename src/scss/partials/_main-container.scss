@@ -7,11 +7,13 @@
   &-type-name {
     padding: 0 0 5px;
     color: plt('mail', 'sirocco');
-    font: tp('weight', 'bold') 14px/1.1 $sans-serif-font-family;
+
+    @include mail-font(14px, 1.1, tp('weight', 'bold'));
   }
 
   &-main-title {
     color: plt('black');
-    font: tp('weight', 'normal') 29px/1.27 $sans-serif-font-family;
+
+    @include mail-font(29px, 1.27, tp('weight', 'normal'));
   }
 }
