@@ -17,7 +17,6 @@ module.exports = (grunt, { paths }) => {
       ext: '.css'
     }
   ];
-  // 'shorthand-font($style, $variant, $weight, $stretch, $size, $lineHeight, $family)': (style, variant, weight, stretch, size, lineHeight, family) => {
   const customFunctions = {
     'shorthand-font($fontMap)': fontMap => {
       const config = {
