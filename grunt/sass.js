@@ -24,9 +24,13 @@ module.exports = (grunt, { paths }) => {
         variant: fontMap.getValue(1).getValue(),
         weight: fontMap.getValue(2).getValue(),
         stretch: fontMap.getValue(3).getValue(),
-        size: fontMap.getValue(4).getValue(),
-        lineHeight: fontMap.getValue(5).getValue()
+        size: `${fontMap.getValue(4).getValue()}${fontMap.getValue(4).getUnit()}`,
+        lineHeight: `${fontMap.getValue(5).getValue()}${fontMap.getValue(5).getUnit()}`
       };
+
+      if (config.lineHeight === '1') {
+        config.lineHeight = config.size;
+      }
 
       const familySassValue = fontMap.getValue(6);
       const familyArray = [];
