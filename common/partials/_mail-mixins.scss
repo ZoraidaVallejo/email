@@ -45,13 +45,13 @@
 
 /// Sets the shorthand `font` property.
 ///
-/// @param {number} $size [$mail-global-font-size] - Font-size value.
+/// @param {number} $size [$mail-global-font-size] - Size value.
 /// @param {number} $line-height [$mail-global-line-height] - Line-height value.
-/// @param {number|string} $weight [''] - Font-weight value.
-/// @param {string} $style [''] - Font-style value.
-/// @param {string} $variant [''] - Font-variant value, one of `normal` or `small-caps`.
-/// @param {string} $stretch [''] - Font-stretch value.
-/// @param {string|list} $family [$mail-global-font-family] - Font-family, string or a list with strings.
+/// @param {number|string} $weight [''] - Weight value.
+/// @param {string} $style [''] - Style value.
+/// @param {string} $variant [''] - Variant value, one of `normal` or `small-caps`.
+/// @param {string} $stretch [''] - Stretch value.
+/// @param {string|list} $family [$mail-global-font-family] - Family, string or a list with strings.
 ///
 @mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
   $config: (
