@@ -19,7 +19,8 @@
     span,
     a {
       color: get('color', $scheme);
-      font: #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+
+      @include mail-font(get('font-size', $scheme));
     }
   }
 
@@ -37,7 +38,7 @@
     p,
     span,
     a {
-      font: get('address.font-weight', $scheme) #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+      @include mail-font(get('font-size', $scheme), $weight: get('address.font-weight', $scheme));
     }
   }
 }

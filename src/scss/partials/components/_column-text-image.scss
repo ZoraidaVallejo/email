@@ -26,7 +26,8 @@ $pugs-image--width: 210px;
 
       .widget-main-title {
         padding: 0 0 10px;
-        font: 22px/1.45 $sans-serif-font-family;
+
+        @include mail-font(22px, 1.45);
       }
     }
 

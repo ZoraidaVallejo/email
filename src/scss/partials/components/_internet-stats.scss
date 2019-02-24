@@ -21,7 +21,7 @@ $internet-stats-chart--width: 540px;
       padding: 0 $padding 30px;
 
       .line1 {
-        font: 20px/1.3 $sans-serif-font-family;
+        @include mail-font(20px, 1.3);
       }
     }
 
@@ -46,7 +46,7 @@ $internet-stats-chart--width: 540px;
       }
 
       .source {
-        font: 14px/1.3 $sans-serif-font-family;
+        @include mail-font(14px, 1.3);
       }
     }
   }

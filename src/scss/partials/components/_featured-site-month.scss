@@ -30,7 +30,7 @@ $featured-thumb-list--gap: 35px;
         text-align: center;
 
         p {
-          font: 22px/1.38 $sans-serif-font-family;
+          @include mail-font(22px);
         }
 
         a {
@@ -82,7 +82,7 @@ $featured-thumb-list--gap: 35px;
         tr:first-child {
 
           p {
-            font: 18px/1.38 $sans-serif-font-family;
+            @include mail-font(18px);
           }
         }
 

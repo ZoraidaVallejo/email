@@ -122,7 +122,7 @@ $tech-news-image--width: 150px;
   &.w-jurispro {
 
     sup {
-      font: 16px/1 $sans-serif-font-family;
+      @include mail-font($line-height: 1);
     }
 
     .story-desc,
@@ -135,7 +135,7 @@ $tech-news-image--width: 150px;
     .story-desc {
 
       p {
-        font: 20px/1.38 $sans-serif-font-family;
+        @include mail-font(20px);
       }
     }
   }

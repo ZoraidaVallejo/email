@@ -72,11 +72,11 @@ $ranking-number--dimensions: 25px 56px;
       }
 
       .-name {
-        font: 25px/1.1 $sans-serif-font-family;
+        @include mail-font(25px, 1.1);
       }
 
       .-location {
-        font: 12px/1.1 $sans-serif-font-family;
+        @include mail-font(12px, 1.1);
       }
     }
 
