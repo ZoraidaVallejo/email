@@ -44,7 +44,7 @@ module.exports = (grunt, { paths }) => {
 
           return val;
         })
-        .join(',');
+        .join(', ');
 
       return sass.types.String(font.stringify(config));
     }
