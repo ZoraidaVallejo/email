@@ -8,6 +8,8 @@ $max-width: 600px !default;
 $inner-max-width: $max-width - ($padding * 2) !default;
 $responsive-max-width: $max-width + 40 !default;
 
+$use-special-font: true !default;
+
 $accent-color: plt('bright-blue') !default;
 
 $sans-serif-font-family: Arial, sans-serif !default;
