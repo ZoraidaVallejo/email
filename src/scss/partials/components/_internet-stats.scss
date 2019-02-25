@@ -39,11 +39,6 @@ $internet-stats-chart--width: 540px;
       padding: 0 $padding 20px;
       text-align: center;
 
-
-      a {
-        text-decoration: none;
-      }
-
       .source {
         @include mail-font(14px, 1.3);
       }

@@ -25,6 +25,7 @@ p {
 
 a {
   color: #00b3e3;
+  text-decoration: none;
 }
 
 .set-max-width {
@@ -578,14 +579,6 @@ a {
   background-color: #fafafa;
 }
 
-.w-people-list .list-table {
-  padding: 50px 30px 30px;
-}
-
-.w-people-list .list-desc {
-  padding: 0 30px 45px;
-}
-
 .w-people-list .widget-type-name,
 .w-people-list .widget-main-title {
   color: #ffffff;
@@ -596,71 +589,77 @@ a {
   color: #ffffff;
 }
 
-.w-people-list a {
-  text-decoration: none;
+.w-people-list .list-table {
+  padding: 50px 30px 30px;
 }
 
-.w-people-list .list-table-title {
+.w-people-list .list-table .main-title {
   padding: 20px 30px 15px;
 }
 
-.w-people-list .people-table {
+.w-people-list .list-desc {
+  padding: 0 30px 45px;
+}
+
+.w-people-list .people-rows {
   background-color: #ffffff;
   table-layout: fixed;
 }
 
-.w-people-list .people-table tr:not(:last-child) td {
+.w-people-list .people-rows tr:not(:last-child) td {
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-people-list .people-photo {
+.w-people-list .people-rows img {
+  display: block;
+}
+
+.w-people-list .people-rows .photo {
   width: 70px;
   padding: 10px 0 10px 30px;
   text-align: right;
   vertical-align: middle;
 }
 
-.w-people-list .people-photo img {
-  display: block;
+.w-people-list .people-rows .photo img {
   width: 70px;
   max-width: 100%;
 }
 
-.w-people-list .people-info {
+.w-people-list .people-rows .info {
   padding: 10px 25px;
   vertical-align: middle;
 }
 
-.w-people-list .people-info a {
+.w-people-list .people-rows .info a {
   color: #000000;
 }
 
-.w-people-list .people-info .-name {
+.w-people-list .people-rows .info .name {
   font: 25px/1.1 Arial, sans-serif;
 }
 
-.w-people-list .people-info .-location {
+.w-people-list .people-rows .info .location {
   font: 12px/1.1 Arial, sans-serif;
 }
 
-.w-people-list .people-ranking {
+.w-people-list .people-rows .ranking {
   width: 25px;
   padding: 10px 30px 10px 0;
   text-align: left;
   vertical-align: middle;
 }
 
-.w-people-list .people-ranking img {
-  display: block;
+.w-people-list .people-rows .ranking img {
   width: 25px;
   height: 56px;
 }
 
-.w-annotator .list-table-title {
+.w-people-list.-annotator .list-table .main-title {
   background-color: #ff6b00;
 }
 
-.w-answers-leaderboard .list-table-title {
+.w-people-list.-answers-leaderboard .list-table .main-title {
   background-color: #00af41;
 }
 
@@ -673,10 +672,6 @@ a {
 .w-tip-month p,
 .w-tip-month a {
   color: #ffffff;
-}
-
-.w-tip-month a {
-  text-decoration: none;
 }
 
 .w-tip-month .tip-title {
@@ -693,10 +688,6 @@ a {
 
 .w-in-the-news {
   background-color: #ffffff;
-}
-
-.w-in-the-news a {
-  text-decoration: none;
 }
 
 .w-in-the-news .clients-title {
@@ -749,10 +740,6 @@ a {
 
 .w-text-image {
   background-color: #fafafa;
-}
-
-.w-text-image a {
-  text-decoration: none;
 }
 
 .w-text-image .item-list {
@@ -879,28 +866,12 @@ a {
 .w-did-you-know .widget-type-name,
 .w-did-you-know .widget-main-title,
 .w-did-you-know p,
-.w-did-you-know blockquote,
-.w-did-you-know q,
 .w-did-you-know a {
   color: #ffffff;
 }
 
-.w-did-you-know blockquote {
-  padding: 0 30px;
-  margin: 0;
-  font: italic 16px/1.38 Arial, sans-serif;
-}
-
-.w-did-you-know a {
-  text-decoration: none;
-}
-
 .w-did-you-know p {
   margin: 0;
-}
-
-.w-advertisement a {
-  text-decoration: none;
 }
 
 .w-advertisement p,
@@ -943,15 +914,15 @@ a {
   padding: 0 30px 25px;
 }
 
-.w-client-ad-01 {
+.w-advertisement.-client-ad-01 {
   background-color: #c0c0c0;
 }
 
-.w-jld-ad-01 {
+.w-advertisement.-jld-ad-01 {
   background-color: #c0c0c0;
 }
 
-.w-jld-ad-02 {
+.w-advertisement.-jld-ad-02 {
   background-color: #c0c0c0;
 }
 
@@ -988,10 +959,6 @@ a {
   text-align: center;
 }
 
-.w-internet-stats .stats-desc a {
-  text-decoration: none;
-}
-
 .w-internet-stats .stats-desc .source {
   font: 14px/1.3 Arial, sans-serif;
 }
@@ -1002,10 +969,6 @@ a {
 
 .w-feaured-site-month {
   background-color: #fafafa;
-}
-
-.w-feaured-site-month a {
-  text-decoration: none;
 }
 
 .w-feaured-site-month .featured-site-title {

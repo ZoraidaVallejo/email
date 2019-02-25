@@ -23,21 +23,8 @@
   .widget-type-name,
   .widget-main-title,
   p,
-  blockquote,
-  q,
   a {
     color: plt('white');
-  }
-
-  blockquote {
-    padding: 0 $padding;
-    margin: 0;
-
-    @include mail-font($style: italic);
-  }
-
-  a {
-    text-decoration: none;
   }
 
   p {

@@ -2,8 +2,8 @@
 
 {{#gt (length insideJustia.blocks) 1}}
   {{assign 'insideJustiaAllClasses' (concat 'w-text-image' 'w-inside-justia' 'set-max-width' 'multiple' separator=' ')}}
-  {{else}}
-    {{assign 'insideJustiaAllClasses' (concat 'w-text-image' 'w-inside-justia' 'set-max-width' separator=' ')}}
+{{else}}
+  {{assign 'insideJustiaAllClasses' (concat 'w-text-image' 'w-inside-justia' 'set-max-width' separator=' ')}}
 {{/gt}}
 
 {{#table class=@root.insideJustiaAllClasses}}

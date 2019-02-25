@@ -2,18 +2,27 @@
 // M A I N
 // ----------------------------------------------------------------------------------------------------------
 
-.widget {
+.widget-type-name {
+  padding: 0 0 5px;
+  color: plt('mail', 'sirocco');
 
-  &-type-name {
-    padding: 0 0 5px;
-    color: plt('mail', 'sirocco');
+  @include mail-font(14px, 1.1, tp('weight', 'bold'));
+}
 
-    @include mail-font(14px, 1.1, tp('weight', 'bold'));
-  }
+.widget-main-title {
+  color: plt('black');
 
-  &-main-title {
-    color: plt('black');
+  @include mail-font(29px, 1.27, tp('weight', 'normal'));
+}
 
-    @include mail-font(29px, 1.27, tp('weight', 'normal'));
+@mixin change-widget-title-color($color) {
+
+  .widget-type-name,
+  .widget-main-title {
+    color: $color;
+
+    a {
+      color: $color;
+    }
   }
 }

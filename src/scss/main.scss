@@ -16,8 +16,14 @@ $use-breakpoint: false;
 
 @import
   'partials/components/welcome',
-  'partials/components/stories-list',
+  'partials/components/stories-list';
+
+@import
   'partials/components/people-list',
+  'partials/components/people-list/rows',
+  'partials/components/people-list/widgets';
+
+@import
   'partials/components/tip-month',
   'partials/components/in-the-news',
   'partials/components/column-text-image',

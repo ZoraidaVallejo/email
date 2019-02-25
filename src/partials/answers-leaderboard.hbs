@@ -1,31 +1,30 @@
 <!-- ASK A LAWYER LEADERBOARD -->
 
-{{#table class='w-people-list w-answers-leaderboard set-max-width'}}
+{{#table class='w-people-list -answers-leaderboard set-max-width'}}
   <tr>
     <td class="list-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
-
       {{#table align=''}}
         <tr>
-          <td class="list-table-title" responsive="mobile-padding-horizontal-sides">
+          <td class="main-title" responsive="mobile-padding-horizontal-sides">
             <h4 class="widget-type-name">ASK A LAWYER</h4>
             <h2 class="widget-main-title"><a href="https://answers.justia.com/about-legal-answers#faq-atty" target="_blank">Participating Lawyers</a></h2>
           </td>
         </tr>
         <tr>
           <td>
-            {{#table align='' class='people-table'}}
+            {{#table align='' class='people-rows'}}
               {{#forEach answersLeaderboard.people}}
                 <tr>
-                  <td class="people-photo" responsive="mobile-padding-left">
+                  <td class="photo" responsive="mobile-padding-left">
                     <a href="{{{this.photoLink}}}" target="_blank">
                       <img src="{{resolveFilePath (concat 'leaderboard-photo-0' index '.png')}}" alt="{{this.name}}" border="0" />
                     </a>
                   </td>
-                  <td class="people-info" responsive="mobile-padding-horizontal-sides">
-                    <p class="-name" responsive="mobile-fz-20"><a href="{{{this.nameLink}}}" target="_blank">{{{this.name}}}</a></p>
-                    <p class="-location"><b>{{#uppercase}}{{this.location}}{{/uppercase}}</b></p>
+                  <td class="info" responsive="mobile-padding-horizontal-sides">
+                    <p class="name" responsive="mobile-fz-20"><a href="{{{this.nameLink}}}" target="_blank">{{{this.name}}}</a></p>
+                    <p class="location"><b>{{#uppercase}}{{this.location}}{{/uppercase}}</b></p>
                   </td>
-                  <td class="people-ranking" responsive="mobile-padding-right">
+                  <td class="ranking" responsive="mobile-padding-right">
                     <img src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{index}}{{#if isFirst}}-green{{/if}}.png" alt="{{index}}" border="0" />
                   </td>
                 </tr>
