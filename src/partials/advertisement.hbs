@@ -12,7 +12,7 @@
   {{#if advertisements.clients.ad1.description}}
     {{#each advertisements.clients.ad1.description}}
       <tr>
-        <td class="ad-desc {{#if @first}}ad-desc--first{{/if}} {{#if @last}}ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
+        <td class="ad-desc{{#if @first}} ad-desc--first{{/if}}{{#if @last}} ad-desc--last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
           <p>{{{this}}}</p>
         </td>
       </tr>
