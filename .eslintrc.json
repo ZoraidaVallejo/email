@@ -29,15 +29,6 @@
   "rules": {
     "no-var": "off",
     "promise/avoid-new": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "Gruntfile.js",
-          "grunt/*.js"
-        ]
-      }
-    ],
     "prettier/prettier": [
       "error",
       {
