@@ -1,0 +1,36 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// S P E C I A L   F O N T   F A M I L I E S
+// ----------------------------------------------------------------------------------------------------------
+
+$special-font-remote-path: 'https://justatic.com/v/1/shared/fonts/';
+// ----------------------------------------------------------------------------------------------------------
+
+@if $use-special-font {
+  @font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'OpenSans';
+    src:
+      url('#{$special-font-remote-path}/OpenSans-Regular.woff2') format('woff2'),
+      url('#{$special-font-remote-path}/OpenSans-Regular.woff') format('woff'),
+      url('#{$special-font-remote-path}/OpenSans-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'OpenSans';
+    src:
+      url('#{$special-font-remote-path}/OpenSans-Bold.woff2') format('woff2'),
+      url('#{$special-font-remote-path}/OpenSans-Bold.woff') format('woff'),
+      url('#{$special-font-remote-path}/OpenSans-Bold.ttf') format('truetype');
+  }
+
+  @media screen {
+
+    [style*='font'] {
+      font-family: 'OpenSans', Arial, sans-serif !important;
+    }
+  }
+}

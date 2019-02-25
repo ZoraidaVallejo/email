@@ -52,6 +52,7 @@
     "@justia/maple-sass": "^3.4.0",
     "autoprefixer": "^9.4.6",
     "babel-eslint": "^10.0.1",
+    "css-mqpacker": "^7.0.0",
     "ejs": "^2.6.1",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
