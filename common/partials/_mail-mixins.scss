@@ -54,15 +54,5 @@
 /// @param {string|list} $family [$mail-global-font-family] - Family, string or a list with strings.
 ///
 @mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
-  $config: (
-    'style': $style,
-    'variant': $variant,
-    'weight': $weight,
-    'stretch': $stretch,
-    'size': $size,
-    'lineHeight': $line-height,
-    'family': $family
-  );
-
-  font: shorthand-font($config);
+  font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
 }

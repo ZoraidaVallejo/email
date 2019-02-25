@@ -1,7 +1,7 @@
 const path = require('path');
-const font = require('css-font');
 const sass = require('node-sass');
 const Eyeglass = require('eyeglass');
+const customFunctions = require('../lib/sass-functions');
 
 const cwd = process.cwd();
 
@@ -17,41 +17,6 @@ module.exports = (grunt, { paths }) => {
       ext: '.css'
     }
   ];
-  const customFunctions = {
-    'shorthand-font($fontMap)': fontMap => {
-      const config = {
-        style: fontMap.getValue(0).getValue(),
-        variant: fontMap.getValue(1).getValue(),
-        weight: fontMap.getValue(2).getValue(),
-        stretch: fontMap.getValue(3).getValue(),
-        size: `${fontMap.getValue(4).getValue()}${fontMap.getValue(4).getUnit()}`,
-        lineHeight: `${fontMap.getValue(5).getValue()}${fontMap.getValue(5).getUnit()}`
-      };
-
-      if (config.lineHeight === '1') {
-        config.lineHeight = config.size;
-      }
-
-      const familySassValue = fontMap.getValue(6);
-      const familyArray = [];
-
-      for (let idx = 0; idx < familySassValue.getLength(); idx += 1) {
-        familyArray.push(familySassValue.getValue(idx).getValue());
-      }
-
-      config.family = familyArray
-        .map(val => {
-          if (/\s/.test(val)) {
-            return `"${val}"`;
-          }
-
-          return val;
-        })
-        .join(', ');
-
-      return sass.types.String(font.stringify(config));
-    }
-  };
 
   return {
     dist: {

@@ -42,6 +42,7 @@
     "load-grunt-config": "^1.0.1",
     "months": "^2.0.0",
     "node-notifier": "^5.4.0",
+    "node-sass": "^4.11.0",
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
     "valid-url": "^1.0.9"
@@ -80,7 +81,6 @@
     "handlebars-helpers": "^0.10.0",
     "ip": "^1.1.5",
     "jit-grunt": "^0.10.0",
-    "node-sass": "^4.11.0",
     "opn": "^5.4.0",
     "prettier": "^1.16.1",
     "replace-in-file": "^3.4.2",
