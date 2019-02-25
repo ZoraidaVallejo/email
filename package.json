@@ -49,6 +49,8 @@
     "nps": "^5.9.3",
     "nps-utils": "^1.7.0",
     "opn": "^5.4.0",
+    "pretty-bytes": "^5.1.0",
+    "url-parse": "^1.4.4",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
