@@ -1,12 +1,4 @@
-function leftPad(number, targetLength = 2) {
-  let output = String(number);
-
-  while (output.length < targetLength) {
-    output = `0${output}`;
-  }
-
-  return output;
-}
+const { leftPad } = require('../lib/helpers');
 
 const allTemplates = [
   {

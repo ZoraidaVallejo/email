@@ -42,8 +42,8 @@
     text-align: center;
   }
 
-  // LOGO SIZES
-  // ----------
+  // L O G O   S I Z E S
+  // -------------------
   @each $logo-name, $width in get('mail-footer.logos.social-below') {
 
     &.-#{$logo-name}-logo .logo-img {

@@ -30,7 +30,12 @@ const linterTasks = workflowVersion >= 2 ? npsSeries('json.format.data', 'sass.l
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
 const stylelint = 'stylelint --syntax scss';
-const sassPatterns = ['common/**/*.scss', 'preview/scss/*.scss', 'src/scss/**/*.scss', '!common/partials/_mail-resets.scss'];
+const sassPatterns = [
+  'common/**/*.scss',
+  'preview/scss/*.scss',
+  'src/scss/**/*.scss',
+  '!common/partials/_mail-resets.scss'
+];
 
 module.exports = {
   scripts: {
