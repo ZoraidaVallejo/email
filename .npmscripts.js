@@ -40,7 +40,6 @@ const sassPatterns = [
 module.exports = {
   scripts: {
     default: 'grunt',
-    test: 'node lib/test.js',
     js: {
       format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {
