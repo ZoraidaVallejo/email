@@ -11,7 +11,9 @@ $use-breakpoint: false;
   'maple-sass',
   'mail-settings';
 
-@import 'mail-resets';
+@import
+  'mail-resets',
+  'mail-special-font';
 
 @import
   'preserve/responsive',
