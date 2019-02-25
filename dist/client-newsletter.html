@@ -83,12 +83,6 @@
         line-height: 100%;
       }
 
-      @media screen {
-        [style*="font"] {
-          font-family: "OpenSans", Arial, sans-serif !important;
-        }
-      }
-
       @media only screen and (max-width: 640px) {
         .collapse-one {
           display: block !important;
@@ -190,6 +184,12 @@
         font-weight: 700;
         font-family: "OpenSans";
         src: url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts/OpenSans-Bold.ttf") format("truetype");
+      }
+
+      @media screen {
+        [style*="font"] {
+          font-family: "OpenSans", Arial, sans-serif !important;
+        }
       }
     </style>
   </head>

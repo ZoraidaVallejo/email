@@ -76,12 +76,6 @@ div[style*='margin: 16px 0;'] {
   line-height: 100%;
 }
 
-@media screen {
-  [style*='font'] {
-    font-family: 'OpenSans', Arial, sans-serif !important;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   .collapse-one {
     display: block !important;
