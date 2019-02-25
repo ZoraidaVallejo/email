@@ -1,0 +1,125 @@
+// ----------------------------------------------------------------------------------------------------------
+// M O B I L E   F R I E N D L Y   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+@media only screen and (max-width: $responsive-max-width) {
+
+  // Distribution
+  .collapse-one {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  // Mobile classes
+  .mobile {
+
+    &-reset {
+
+      &-width {
+        width: auto !important;
+      }
+
+      &-height {
+        height: auto !important;
+      }
+
+      &-bg-image {
+        background-image: none !important;
+      }
+    }
+
+    // Visual Modifiers
+    &-hide {
+      display: none !important;
+    }
+
+    // Align Modfiers
+    &-align-center {
+      margin: 0 auto !important;
+      text-align: center !important;
+    }
+
+    @each $fz in (20 24 30) {
+
+      &-fz-#{$fz} {
+        font-size: ($fz * 1px) !important;
+      }
+    }
+
+    // Padding Modifiers
+    &-padding {
+
+      &-top {
+        padding-top: 10px !important;
+      }
+
+      &-right {
+        padding-right: 10px !important;
+      }
+
+      &-bottom {
+        padding-bottom: 10px !important;
+      }
+
+      &-left {
+        padding-left: 10px !important;
+      }
+
+      &-horizontal-sides {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+      }
+
+      &-vertical-sides {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+
+      &-full {
+        padding: 10px !important;
+      }
+
+      &-uneven {
+
+        &-top {
+          padding-top: 45px !important;
+        }
+
+        &-bottom {
+          padding-bottom: 45px !important;
+        }
+
+        &-full {
+          padding: 45px 10px !important;
+        }
+      }
+    }
+
+    &-no {
+
+      &-padding {
+
+        &-top {
+          padding-top: 0 !important;
+        }
+
+        &-bottom {
+          padding-bottom: 0 !important;
+        }
+
+        &-horizontal-sides {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+      }
+
+      &-float {
+        float: none !important;
+      }
+
+      &-border {
+        border: 0 !important;
+      }
+    }
+  }
+}
