@@ -1,4 +1,3 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
@@ -14,17 +13,17 @@
     color: plt('white');
   }
 
-  img {
-    display: block;
-    width: $max-width;
-    max-width: 100%;
-  }
-
   td {
     text-align: center;
   }
 
   .ad-image {
+
+    img {
+      display: block;
+      width: $max-width;
+      max-width: 100%;
+    }
 
     a {
       display: block;
@@ -39,7 +38,7 @@
       @include mail-font(14px);
     }
 
-    &--first {
+    &.-first {
       padding: 25px $padding 12px;
 
       p {
@@ -47,7 +46,7 @@
       }
     }
 
-    &--last {
+    &.-last {
       padding: 0 $padding 25px;
     }
   }

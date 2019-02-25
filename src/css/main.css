@@ -908,14 +908,14 @@ a {
   color: #ffffff;
 }
 
-.w-advertisement img {
+.w-advertisement td {
+  text-align: center;
+}
+
+.w-advertisement .ad-image img {
   display: block;
   width: 600px;
   max-width: 100%;
-}
-
-.w-advertisement td {
-  text-align: center;
 }
 
 .w-advertisement .ad-image a {
@@ -931,15 +931,15 @@ a {
   font: 14px/1.38 Arial, sans-serif;
 }
 
-.w-advertisement .ad-desc--first {
+.w-advertisement .ad-desc.-first {
   padding: 25px 30px 12px;
 }
 
-.w-advertisement .ad-desc--first p {
+.w-advertisement .ad-desc.-first p {
   font: 16px/1.5 Arial, sans-serif;
 }
 
-.w-advertisement .ad-desc--last {
+.w-advertisement .ad-desc.-last {
   padding: 0 30px 25px;
 }
 
