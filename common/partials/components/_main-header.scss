@@ -107,7 +107,8 @@ $settings: set('mail-header', (
     span {
       display: block;
       color: plt('black');
-      font: 16px/1.25 $sans-serif-font-family;
+
+      @include mail-font($line-height: 1.25);
     }
   }
 

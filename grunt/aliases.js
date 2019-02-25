@@ -1,6 +1,6 @@
 const develTasks = {
   1: ['clean:dist'],
-  2: ['assemble', 'juice', 'imagemin', 'replace:importantStyle'],
+  2: ['postcss:source', 'assemble', 'juice', 'imagemin', 'replace:importantStyle'],
   3: ['replace:fixResponsive', 'replace:srcImages', 'replace:removeDupStyles']
 };
 

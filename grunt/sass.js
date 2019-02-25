@@ -1,6 +1,7 @@
 const path = require('path');
 const sass = require('node-sass');
 const Eyeglass = require('eyeglass');
+const customFunctions = require('../lib/sass-functions');
 
 const cwd = process.cwd();
 
@@ -22,7 +23,8 @@ module.exports = (grunt, { paths }) => {
       options: Eyeglass({
         implementation: sass,
         outputStyle: 'compressed',
-        includePaths
+        includePaths,
+        functions: customFunctions
       }),
       files
     },
@@ -31,7 +33,8 @@ module.exports = (grunt, { paths }) => {
       options: Eyeglass({
         implementation: sass,
         outputStyle: 'expanded',
-        includePaths
+        includePaths,
+        functions: customFunctions
       }),
       files
     },

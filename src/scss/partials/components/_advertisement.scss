@@ -36,14 +36,14 @@
     text-align: center;
 
     p {
-      font: 14px/1.38 $sans-serif-font-family;
+      @include mail-font(14px);
     }
 
     &--first {
       padding: 25px $padding 12px;
 
       p {
-        font: 16px/1.5 $sans-serif-font-family;
+        @include mail-font($line-height: 1.5);
       }
     }
 

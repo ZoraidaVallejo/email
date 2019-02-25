@@ -33,7 +33,8 @@
   blockquote {
     padding: 0 $padding;
     margin: 0;
-    font-style: italic;
+
+    @include mail-font($style: italic);
   }
 
   a {

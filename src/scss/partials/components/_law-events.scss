@@ -61,7 +61,8 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
 
   .date {
     color: plt('white');
-    font: tp('weight', 'bold') 20px/1 $sans-serif-font-family;
+
+    @include mail-font(20px, 1, tp('weight', 'bold'));
   }
 
   .desc {

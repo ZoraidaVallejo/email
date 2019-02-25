@@ -19,7 +19,8 @@
     span,
     a {
       color: get('color', $scheme);
-      font: #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+
+      @include mail-font(get('font-size', $scheme));
     }
   }
 
@@ -37,17 +38,21 @@
     p,
     span,
     a {
-      font: get('address.font-weight', $scheme) #{get('font-size', $scheme)}/1.38 $sans-serif-font-family;
+      @include mail-font(get('font-size', $scheme), $weight: get('address.font-weight', $scheme));
     }
   }
 }
 
-/// Set font size, weight, family and line-height in a single property.
+/// Sets the shorthand `font` property.
 ///
-/// @param {string} $size [$mail-global-font-size] - `font-size`.
-/// @param {string} $line-height [$mail-global-line-height] - `line-height`.
-/// @param {string} $weight [''] - `font-weight`.
+/// @param {number} $size [$mail-global-font-size] - Size value.
+/// @param {number} $line-height [$mail-global-line-height] - Line-height value.
+/// @param {number|string} $weight [''] - Weight value.
+/// @param {string} $style [''] - Style value.
+/// @param {string} $variant [''] - Variant value, one of `normal` or `small-caps`.
+/// @param {string} $stretch [''] - Stretch value.
+/// @param {string|list} $family [$mail-global-font-family] - Family, string or a list with strings.
 ///
-@mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '') {
-  font: #{unquote(if($weight != '', $weight, ''))} #{$size}/#{$line-height} $mail-global-font-family;
+@mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
+  font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
 }
