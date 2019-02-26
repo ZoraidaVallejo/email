@@ -851,27 +851,30 @@ a {
   background-color: #ff6b00;
 }
 
-.w-did-you-know .dyk-title {
-  padding: 45px 30px 20px;
-}
-
-.w-did-you-know .dyk-desc {
-  padding: 0 30px 15px;
-}
-
-.w-did-you-know .dyk-desc--last {
-  padding: 0 30px 45px;
-}
-
 .w-did-you-know .widget-type-name,
-.w-did-you-know .widget-main-title,
-.w-did-you-know p,
-.w-did-you-know a {
+.w-did-you-know .widget-main-title {
   color: #ffffff;
 }
 
-.w-did-you-know p {
-  margin: 0;
+.w-did-you-know .widget-type-name a,
+.w-did-you-know .widget-main-title a {
+  color: #ffffff;
+}
+
+.w-did-you-know .main-title {
+  padding: 45px 30px 20px;
+}
+
+.w-did-you-know .desc-text {
+  padding: 0 30px 15px;
+}
+
+.w-did-you-know .desc-text p {
+  color: #ffffff;
+}
+
+.w-did-you-know .desc-text.-last {
+  padding: 0 30px 45px;
 }
 
 .w-advertisement p,

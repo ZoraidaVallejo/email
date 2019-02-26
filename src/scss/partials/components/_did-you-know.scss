@@ -5,29 +5,21 @@
 .w-did-you-know {
   background-color: plt('orange');
 
-  .dyk {
+  @include change-widget-title-color(plt('white'));
 
-    &-title {
-      padding: 45px $padding 20px;
-    }
-
-    &-desc {
-      padding: 0 $padding 15px;
-
-      &--last {
-        padding: 0 $padding 45px;
-      }
-    }
+  .main-title {
+    padding: 45px $padding 20px;
   }
 
-  .widget-type-name,
-  .widget-main-title,
-  p,
-  a {
-    color: plt('white');
-  }
+  .desc-text {
+    padding: 0 $padding 15px;
 
-  p {
-    margin: 0;
+    p {
+      color: plt('white');
+    }
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
   }
 }
