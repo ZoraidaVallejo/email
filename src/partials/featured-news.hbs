@@ -9,6 +9,8 @@
     {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.title)}}
     {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.image)}}
   {{/if}}
+
+  {{assign 'featuredNewsMainTitleFullLink' (concat featuredNews.link @root.featuredNewsMainTitleVars)}}
 {{/if}}
 
 {{#if featuredNews.button}}
@@ -23,12 +25,7 @@
 {{#table class='w-stories-list w-featured-news set-max-width'}}
   <tr>
     <td class="main-story-title" responsive="mobile-padding-horizontal-sides">
-      <h4 class="widget-type-name">FEATURED NEWS</h4>
-      <h2 class="widget-main-title">
-        {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsMainTitleVars}}}" target="_blank">{{/if}}
-          {{featuredNews.title}}
-        {{#if featuredNews.link}}</a>{{/if}}
-      </h2>
+      {{>widget-title type='Featured News' title=featuredNews.title link=@root.featuredNewsMainTitleFullLink}}
     </td>
   </tr>
   <tr>

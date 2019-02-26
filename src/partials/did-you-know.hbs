@@ -3,12 +3,7 @@
 {{#table class='w-did-you-know set-max-width'}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      <h4 class="widget-type-name">DID YOU KNOW?</h4>
-      {{#if didYouKnow.title}}
-        <h2 class="widget-main-title">
-          <a href="{{didYouKnow.link}}" target="_blank">{{{didYouKnow.title}}}</a>
-        </h2>
-      {{/if}}
+      {{>widget-title type='Did You Know?' title=didYouKnow.title link=didYouKnow.link}}
     </td>
   </tr>
 
