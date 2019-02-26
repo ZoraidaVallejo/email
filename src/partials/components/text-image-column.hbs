@@ -1,0 +1,50 @@
+{{!
+widgetType
+widgetClass
+widgetRows
+}}
+
+{{#gt (length widgetRows) 1}}
+  {{assign 'textImageAllClasses' (concat 'w-text-image' widgetClass '-multiple' 'set-max-width' separator=' ')}}
+{{else}}
+  {{assign 'textImageAllClasses' (concat 'w-text-image' widgetClass 'set-max-width' separator=' ')}}
+{{/gt}}
+
+{{#table class=@root.textImageAllClasses}}
+
+  {{#gt (length widgetRows) 1}}
+    <tr>
+      <td class="main-title" responsive="mobile-padding-horizontal-sides">
+        {{>widget-title type=widgetType title=false}}
+      </td>
+    </tr>
+  {{/gt}}
+
+  <tr>
+    <td class="rows-items" responsive="mobile-padding-horizontal-sides">
+      {{#forEach widgetRows}}
+        {{#table align='' class=(concat 'row-item -itm-' index)}}
+          <tr>
+            <td class="desc-column" responsive="collapse-one">
+              {{#eq (length ../widgetRows) 1}}
+                {{>widget-title type=../widgetType title=false}}
+              {{/eq}}
+
+              <p class="title">{{{this.title}}}</p>
+              <p class="text">{{{this.description}}}</p>
+            </td>
+            <td class="image-column" responsive="mobile-hide collapse-one">
+              {{#if this.image.src}}
+                {{#if this.image.link}}<a href="{{{this.image.link}}}" target="_blank">{{/if}}
+                  <img src="{{resolveFilePath this.image.src}}" alt="{{this.title}}" border="0" />
+                {{#if this.image.link}}</a>{{/if}}
+              {{else}}
+                &nbsp;
+              {{/if}}
+            </td>
+          </tr>
+        {{/table}}
+      {{/forEach}}
+    </td>
+  </tr>
+{{/table}}

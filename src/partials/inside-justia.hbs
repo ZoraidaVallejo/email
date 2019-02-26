@@ -1,45 +1,7 @@
 <!-- INSIDE JUSTIA -->
 
-{{#gt (length insideJustia.blocks) 1}}
-  {{assign 'insideJustiaAllClasses' (concat 'w-text-image' 'w-inside-justia' 'set-max-width' 'multiple' separator=' ')}}
-{{else}}
-  {{assign 'insideJustiaAllClasses' (concat 'w-text-image' 'w-inside-justia' 'set-max-width' separator=' ')}}
-{{/gt}}
-
-{{#table class=@root.insideJustiaAllClasses}}
-
-  {{#gt (length insideJustia.blocks) 1}}
-    <tr>
-      <td class="items-main-title" responsive="mobile-padding-horizontal-sides">
-        <h4 class="widget-type-name">INSIDE JUSTIA</h4>
-      </td>
-    </tr>
-  {{/gt}}
-
-  <tr>
-    <td class="item-list" responsive="mobile-padding-horizontal-sides">
-      {{#forEach insideJustia.blocks}}
-        {{#table align='' class=(concat 'item-' index)}}
-          <tr>
-            <td class="item-desc" responsive="collapse-one">
-
-              {{#eq (length ../insideJustia.blocks) 1}}
-                <h4 class="widget-type-name">INSIDE JUSTIA</h4>
-              {{/eq}}
-
-              <h2 class="widget-main-title">{{{this.title}}}</h2>
-              <p>{{{this.description}}}</p>
-            </td>
-            <td class="item-image" responsive="mobile-hide collapse-one">
-              {{#if this.image}}
-                <img src="{{resolveFilePath this.image}}" alt="{{this.title}}" border="0" />
-              {{else}}
-                &nbsp;
-              {{/if}}
-            </td>
-          </tr>
-        {{/table}}
-      {{/forEach}}
-    </td>
-  </tr>
-{{/table}}
+{{>text-image-column
+  widgetType='Inside Justia'
+  widgetClass='-inside-justia'
+  widgetRows=insideJustia.blocks
+}}

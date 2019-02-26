@@ -5,15 +5,16 @@
 .w-in-the-news {
   background-color: plt('white');
 
-  .clients-title {
-    padding: 45px $padding 0;
+  .main-title {
+    padding: 45px $padding $padding;
+    text-align: center;
   }
 
-  .clients-list {
-    padding: 0 $padding;
+  .news-list {
+    padding: 0 $padding $padding;
     vertical-align: top;
 
-    .news-logo {
+    .logo {
       width: (150px + $padding);
       padding: $padding 0;
       text-align: left;
@@ -27,29 +28,36 @@
       }
     }
 
-    .news-desc {
+    .desc {
       width: ($inner-max-width - (150px + $padding));
       padding: $padding 0;
       vertical-align: top;
     }
+  }
 
-    .client-block {
-      width: 100%;
-      border-bottom: 1px solid plt('mail', 'black-haze');
+  .news-item {
+    border-bottom: 1px solid plt('mail', 'black-haze');
 
-      &:last-child {
-        border-bottom: 0;
+    &:first-child {
 
-        .news-logo,
-        .news-desc {
-          padding: $padding 0 0;
-        }
+      .logo,
+      .desc {
+        padding: 0 0 $padding;
+      }
+    }
+
+    &:last-child {
+      border-bottom: 0;
+
+      .logo,
+      .desc {
+        padding: $padding 0 0;
       }
     }
   }
 
-  .clients-desc {
-    padding: $padding $padding 45px;
+  .extra-info {
+    padding: 0 $padding 45px;
     text-align: center;
   }
 }
