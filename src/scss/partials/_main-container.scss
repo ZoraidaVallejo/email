@@ -13,16 +13,25 @@
   color: plt('black');
 
   @include mail-font(29px, 1.27, tp('weight', 'normal'));
+
+  a {
+    color: plt('black');
+  }
 }
 
-@mixin change-widget-title-color($color) {
+@mixin change-widget-title-color($title, $type: $title) {
+  @if type-of($type) == 'color' {
 
-  .widget-type-name,
+    .widget-type-name {
+      color: $type;
+    }
+  }
+
   .widget-main-title {
-    color: $color;
+    color: $title;
 
     a {
-      color: $color;
+      color: $title;
     }
   }
 }

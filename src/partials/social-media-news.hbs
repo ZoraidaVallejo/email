@@ -1,14 +1,14 @@
 <!-- SOCIAL MEDIA NEWS -->
 
-{{#table class='w-stories-list w-social-media-news set-max-width'}}
+{{#table class='w-stories-list -social-media-news set-max-width'}}
   <tr>
-    <td class="stories-title" responsive="mobile-padding-horizontal-sides">
-      <h2 class="widget-main-title">Social Media News</h2>
+    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
+      {{>widget-title title='Social Media News'}}
     </td>
   </tr>
   {{#forEach socialMediaNews.articles}}
     <tr>
-      <td class="story-item" responsive="mobile-padding-horizontal-sides">
+      <td class="story-link{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <p><strong><a href="{{this.link}}" target="_blank">{{{this.title}}}</a></strong></p>
         <p>{{{this.description}}}</p>
       </td>

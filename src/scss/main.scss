@@ -16,7 +16,8 @@ $use-breakpoint: false;
 
 @import
   'partials/components/welcome',
-  'partials/components/stories-list';
+  'partials/components/stories-list',
+  'partials/components/stories-list/widgets';
 
 @import
   'partials/components/people-list',

@@ -447,6 +447,10 @@ a {
   font: 400 29px/1.27 Arial, sans-serif;
 }
 
+.widget-main-title a {
+  color: #000000;
+}
+
 .w-welcome {
   background-color: #00b3e3;
 }
@@ -472,105 +476,119 @@ a {
   background-color: #ffffff;
 }
 
-.w-stories-list a {
-  text-decoration: none;
-}
-
-.w-stories-list .main-story-title {
+.w-stories-list .main-title {
   padding: 45px 30px 20px;
 }
 
-.w-stories-list .main-story-title .widget-main-title a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.w-stories-list .main-story-desc {
-  padding: 0 30px 45px;
-}
-
-.w-stories-list .main-story-desc.-with-list {
+.w-stories-list .featured-story {
   padding: 0 30px 20px;
 }
 
-.w-stories-list .main-story-desc .story-desc {
+.w-stories-list .featured-story .desc {
   width: 360px;
   text-align: left;
   vertical-align: top;
 }
 
-.w-stories-list .main-story-desc .featured-image {
+.w-stories-list .featured-story .image {
   width: 180px;
   text-align: right;
   vertical-align: top;
 }
 
-.w-stories-list .main-story-desc .featured-image img {
+.w-stories-list .featured-story .image img {
+  display: block;
   width: 150px;
-  max-width: 83%;
 }
 
-.w-stories-list .main-story-desc .story-extra {
-  padding: 30px 0 0;
-}
-
-.w-stories-list .main-story-list {
-  padding: 0 30px 14px;
-}
-
-.w-stories-list .main-story-list--last {
+.w-stories-list .story-button {
   padding: 0 30px 45px;
 }
 
-.w-stories-list .main-story-button {
-  padding: 0 30px 45px;
+.w-stories-list .story-links-title {
+  padding: 0 30px 30px;
 }
 
-.w-stories-list .stories-title {
-  padding: 45px 30px 20px;
-  text-align: center;
-}
-
-.w-stories-list .story-item {
+.w-stories-list .story-link {
   padding: 0 30px 20px;
 }
 
-.w-stories-list tr:last-child .story-item {
+.w-stories-list .story-link.-last {
   padding: 0 30px 45px;
 }
 
-.w-stories-list.w-tech-news .story-item a,
-.w-stories-list.w-tech-news .widget-main-title {
+.w-stories-list .extra-info {
+  padding: 10px 30px 30px;
+}
+
+.w-stories-list .extra-info.-last {
+  padding: 10px 30px 45px;
+}
+
+.w-stories-list.-tech-news .widget-main-title {
   color: #00af41;
 }
 
-.w-stories-list.w-seo-news .story-item a,
-.w-stories-list.w-seo-news .widget-main-title {
+.w-stories-list.-tech-news .widget-main-title a {
+  color: #00af41;
+}
+
+.w-stories-list.-tech-news a {
+  color: #00af41;
+}
+
+.w-stories-list.-seo-news .widget-main-title {
   color: #00b3e3;
 }
 
-.w-stories-list.w-social-media-news .story-item a,
-.w-stories-list.w-social-media-news .widget-main-title {
+.w-stories-list.-seo-news .widget-main-title a {
+  color: #00b3e3;
+}
+
+.w-stories-list.-seo-news a {
+  color: #00b3e3;
+}
+
+.w-stories-list.-social-media-news .widget-main-title {
   color: #ff6b00;
 }
 
-.w-stories-list.w-legal-industry-news .story-item a,
-.w-stories-list.w-legal-industry-news .widget-main-title {
+.w-stories-list.-social-media-news .widget-main-title a {
+  color: #ff6b00;
+}
+
+.w-stories-list.-social-media-news a {
+  color: #ff6b00;
+}
+
+.w-stories-list.-legal-industry-news .widget-main-title {
   color: #3fd4ad;
 }
 
-.w-stories-list.w-jurispro sup {
+.w-stories-list.-legal-industry-news .widget-main-title a {
+  color: #3fd4ad;
+}
+
+.w-stories-list.-legal-industry-news a {
+  color: #3fd4ad;
+}
+
+.w-stories-list.-jurispro sup {
   font: 16px/16px Arial, sans-serif;
 }
 
-.w-stories-list.w-jurispro .story-desc,
-.w-stories-list.w-jurispro .featured-image {
-  padding: 0 0 30px;
+.w-stories-list.-jurispro .featured-story {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list.-jurispro .featured-story .desc,
+.w-stories-list.-jurispro .featured-story .image {
+  padding: 0 0 45px;
   border-bottom: 1px solid #e7e8e8;
   vertical-align: middle;
 }
 
-.w-stories-list.w-jurispro .story-desc p {
+.w-stories-list.-jurispro .featured-story .desc p {
   font: 20px/1.38 Arial, sans-serif;
 }
 
@@ -579,12 +597,14 @@ a {
   background-color: #fafafa;
 }
 
-.w-people-list .widget-type-name,
+.w-people-list .widget-type-name {
+  color: #ffffff;
+}
+
 .w-people-list .widget-main-title {
   color: #ffffff;
 }
 
-.w-people-list .widget-type-name a,
 .w-people-list .widget-main-title a {
   color: #ffffff;
 }
@@ -851,12 +871,14 @@ a {
   background-color: #ff6b00;
 }
 
-.w-did-you-know .widget-type-name,
+.w-did-you-know .widget-type-name {
+  color: #ffffff;
+}
+
 .w-did-you-know .widget-main-title {
   color: #ffffff;
 }
 
-.w-did-you-know .widget-type-name a,
 .w-did-you-know .widget-main-title a {
   color: #ffffff;
 }
@@ -1166,8 +1188,8 @@ a {
   margin: 0;
 }
 
-.jld-newsletter .w-tech-news,
-.jld-newsletter .w-social-media-news,
+.jld-newsletter .w-stories-list.-tech-news,
+.jld-newsletter .w-stories-list.-social-media-news,
 .jld-newsletter .w-meet-our-team {
   border-bottom: 1px solid #e7e8e8;
 }
