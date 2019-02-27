@@ -455,21 +455,30 @@ a {
   background-color: #00b3e3;
 }
 
-.w-welcome .newsletter-title {
-  padding: 0 30px;
+.w-welcome .banner-title {
+  padding: 0 30px 20px;
 }
 
-.w-welcome .newsletter-title h1 {
+.w-welcome .banner-title h1 {
   color: #ffffff;
   font: 400 22px/1.3 Arial, sans-serif;
 }
 
-.w-welcome .newsletter-message {
-  padding: 20px 30px 45px;
+.w-welcome .banner-message {
+  padding: 0 30px 15px;
 }
 
-.w-welcome .newsletter-message p {
+.w-welcome .banner-message p,
+.w-welcome .banner-message a {
   color: #ffffff;
+}
+
+.w-welcome .banner-message.-last {
+  padding: 0 30px 45px;
+}
+
+.w-welcome .banner-button {
+  padding: 5px 30px 45px;
 }
 
 .w-stories-list {
@@ -1136,6 +1145,10 @@ a {
 
 .w-tip-month .tip-desc.-last {
   padding: 0 30px 45px;
+}
+
+.w-tip-month .tip-button {
+  padding: 5px 30px 45px;
 }
 
 .align-center {

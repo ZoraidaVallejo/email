@@ -13,9 +13,19 @@
 
   {{#each tipMonthConfig.description}}
     <tr>
-      <td class="tip-desc{{#if @last}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <td class="tip-desc{{#if @last}}{{#not ../tipMonthConfig.button}} -last{{/not}}{{/if}}" responsive="mobile-padding-horizontal-sides">
         <p>{{{this}}}</p>
       </td>
     </tr>
   {{/each}}
+
+  {{#if tipMonthConfig.button}}
+    <tr>
+      <td class="tip-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle='white' href=tipMonthConfig.button.link}}
+          {{tipMonthConfig.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
 {{/table}}

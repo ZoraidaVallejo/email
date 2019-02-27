@@ -1,19 +1,29 @@
 {
   "articles": [
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non repellat consequatur sint eveniet accusamus totam quia iste asperiores, fugiat expedita."
+      "title": "Report: Voice Assistants in Use to Triple to 8 Billion by 2023",
+      "link": "https://techcrunch.com/2019/02/12/report-voice-assistants-in-use-to-triple-to-8-billion-by-2023/",
+      "description": "Analysts at the UK-based Juniper Research firm recently predicted that the use of voice assistants will triple by 2023, from a current 2.5 billion in use in 2018 to an estimated 8 billion. The vast majority of voice assistants are available on smartphones in the form of Google Assistant for Android users and Siri on iOS. According to Juniper’s predictions, the fastest growing category for voice assistants in the coming years will be smart TVs, with an anticipated growth of over 120 percent."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, provident! Est neque accusamus ab veniam consequuntur esse reiciendis aliquam praesentium?"
+      "title": "Paid Search Spend Grows 10% Globally Year-Over-Year",
+      "link": "https://www.searchenginejournal.com/paid-search-spend-grows-10-globally-year-over-year/",
+      "description": "Marin Software’s Q4 2018 Digital Advertising Benchmark Report indicates a 10% year-over-year increase in paid search spend. The financial services and retail sectors reflect the highest spending growth, at an increase of 25% and 12%, respectively. In addition to this data, the report also includes statistics on eCommerce ads and paid social monthly spending."
     },
     {
-      "title": "[title]",
-      "link": "#",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit vero architecto cum iure neque labore at, quasi alias quod nihil."
+      "title": "Are Dedicated Location Pages the Best SEO Option for SMEs?",
+      "link": "https://www.searchenginejournal.com/dedicated-location-pages-seo/292747/",
+      "description": "The \"Ask an SEO\" column in Search Engine Journal recently addressed a question on how SMEs (small and medium enterprises) should attract customers from outside their home location. The SEO expert offered two schools of thought. One viewpoint encourages SMEs to create city-specific location pages for any areas they might want to target, even if they don’t have a physical office in those areas. The other strategy involves obtaining local links in areas in which an SME wants to generate business by interacting with and becoming members of  the targeted community."
+    },
+    {
+      "title": "Google: Syndicated Content May Outrank the Original Source",
+      "link": "https://www.searchenginejournal.com/google-syndicated-content-may-outrank-the-original-source/",
+      "description": "This February, John Mueller, Webmaster Trends Analyst at Google, advised website owners that there is a trade-off when deciding to syndicate their content elsewhere on the web: the syndicated content may end up outranking its original source. According to Mueller, there are a number of factors at play in determining which version of a website’s content is most relevant for searchers, such as a canonical tag or other useful information on the site where the syndicated content is found. Moreover, Mueller notes, there is no way of guaranteeing original source content will rank above content that is syndicated."
+    },
+    {
+      "title": "How Google Ads is Fighting Click Fraud",
+      "link": "https://searchenginewatch.com/2019/02/14/how-google-ads-fighting-click-fraud/",
+      "description": "Click fraud involves illegitimate actions, such as unintentional clicks or clicks that result from malicious software. Alternately referred to as ‘invalid clicks’ by Google, click fraud is a widely discussed issue because it affects advertisers on Google and other Pay-Per-Click (PPC) platforms. Since over $7 billion was lost to click fraud from 2016 to 2018, Google has devised various methods to combat it, including employing manual reviewers, the use of automated filters, and other targeted actions."
     }
   ]
 }

@@ -17,13 +17,26 @@
     }}
   </tr>
   <tr>
-    <td class="newsletter-title" responsive="mobile-padding-horizontal-sides">
+    <td class="banner-title" responsive="mobile-padding-horizontal-sides">
       <h1><span>{{{welcomeConfig.title.line1}}}</span>&nbsp;<br responsive="mobile-hide">{{{welcomeConfig.title.line2}}}</h1>
     </td>
   </tr>
-  <tr>
-    <td class="newsletter-message" responsive="mobile-padding-horizontal-sides">
-      <p>{{{welcomeConfig.message}}}</p>
-    </td>
-  </tr>
+
+  {{#each welcomeConfig.message}}
+    <tr>
+      <td class="banner-message{{#if @last}}{{#not ../welcomeConfig.button}} -last{{/not}}{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <p>{{{this}}}</p>
+      </td>
+    </tr>
+  {{/each}}
+
+  {{#if welcomeConfig.button}}
+    <tr>
+      <td class="banner-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle='white' href=welcomeConfig.button.link}}
+          {{welcomeConfig.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
 {{/table}}

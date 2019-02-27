@@ -5,8 +5,8 @@
 .w-welcome {
   background-color: plt('bright-blue');
 
-  .newsletter-title {
-    padding: 0 $padding;
+  .banner-title {
+    padding: 0 $padding 20px;
 
     h1 {
       color: plt('white');
@@ -15,11 +15,20 @@
     }
   }
 
-  .newsletter-message {
-    padding: 20px $padding 45px;
+  .banner-message {
+    padding: 0 $padding 15px;
 
-    p {
+    p,
+    a {
       color: plt('white');
     }
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+  }
+
+  .banner-button {
+    padding: 5px $padding 45px;
   }
 }
