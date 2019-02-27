@@ -12,8 +12,8 @@
     "distImg": "dist/images",
     "preview": "preview",
     "tags": "tags",
-    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters/test",
-    "remoteImgPath": "/mnt/files/emails/images/newsletters/test"
+    "liveImg": "https://justatic.com/v/<%= justaticVersion %>/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>",
+    "remoteImgPath": "/mnt/files/emails/images/newsletters/<%= currentYear %>/<%= currentMonth %>"
   },
   "compressedFileName": "<%= conversionType %>-<%= currentYear %>-<%= currentMonth %>"
 }
