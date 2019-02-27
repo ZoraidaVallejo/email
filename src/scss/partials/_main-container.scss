@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-type-name {
-  padding: 0 0 5px;
+  margin: 0 0 5px;
   color: plt('mail', 'sirocco');
 
   @include mail-font(14px, 1.1, tp('weight', 'bold'));
