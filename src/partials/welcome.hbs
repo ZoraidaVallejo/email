@@ -1,40 +1,29 @@
 <!-- WELCOME MESSAGE -->
 
+{{!
+ * @param {Object} welcomeConfig
+}}
+
 {{#table class='w-welcome set-max-width'}}
   <tr>
     {{>ui-background
       backgroundBehavior='cell'
       backgroundStart=true
       backgroundEnd=true
-      bgCellClasses='head-img'
       bgImage='https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png'
       bgColor='#00b3e3'
       bgWidth='600'
       bgHeight='169'
     }}
   </tr>
-  {{#if clientsNewsletter}}
-    <tr>
-      <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-        <h1><span>{{{welcome.clients.title.line1}}}</span>&nbsp;<br responsive="mobile-hide">{{{welcome.clients.title.line2}}}</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-        <p>{{{welcome.clients.message}}}</p>
-      </td>
-    </tr>
-  {{/if}}
-  {{#if jldNewsletter}}
-    <tr>
-      <td class="w-welcome--title" responsive="mobile-padding-horizontal-sides">
-        <h1><span>{{{welcome.jld.title.line1}}}</span>&nbsp;<br responsive="mobile-hide">{{{welcome.jld.title.line2}}}</h1>
-      </td>
-    </tr>
-    <tr>
-      <td class="w-welcome--message" responsive="mobile-padding-horizontal-sides">
-        <p>{{{welcome.jld.message}}}</p>
-      </td>
-    </tr>
-  {{/if}}
+  <tr>
+    <td class="newsletter-title" responsive="mobile-padding-horizontal-sides">
+      <h1><span>{{{welcomeConfig.title.line1}}}</span>&nbsp;<br responsive="mobile-hide">{{{welcomeConfig.title.line2}}}</h1>
+    </td>
+  </tr>
+  <tr>
+    <td class="newsletter-message" responsive="mobile-padding-horizontal-sides">
+      <p>{{{welcomeConfig.message}}}</p>
+    </td>
+  </tr>
 {{/table}}

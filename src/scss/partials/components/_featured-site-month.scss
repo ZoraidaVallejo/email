@@ -8,7 +8,7 @@ $featured-thumb-list--gap: 35px;
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-feaured-site-month {
+.w-featured-site-month {
   background-color: plt('alabaster');
 
   .main-title {
@@ -67,7 +67,6 @@ $featured-thumb-list--gap: 35px;
       img {
         display: block;
         width: $featured-thumb--width;
-        // max-width: ceil(percentage($featured-thumb--width / ($featured-thumb--width + $padding)));
       }
     }
 

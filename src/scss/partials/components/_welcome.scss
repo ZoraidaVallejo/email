@@ -5,7 +5,7 @@
 .w-welcome {
   background-color: plt('bright-blue');
 
-  &--title {
+  .newsletter-title {
     padding: 0 $padding;
 
     h1 {
@@ -15,7 +15,7 @@
     }
   }
 
-  &--message {
+  .newsletter-message {
     padding: 20px $padding 45px;
 
     p {

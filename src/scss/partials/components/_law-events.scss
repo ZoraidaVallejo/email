@@ -2,82 +2,23 @@
 // L A W   E V E N T S
 // ----------------------------------------------------------------------------------------------------------
 
-$event-table-width: (($inner-max-width / 2) - ($padding / 2));
-
-// ----------------------------------------------------------------------------------------------------------
-
 .w-law-events {
   background-color: plt('bright-green');
 
-  .widget-main-title {
-    color: plt('white');
-  }
+  @include change-widget-title-color(plt('white'));
 
-  .law-events-title {
+  .main-title {
     padding: 45px $padding $padding;
+    text-align: center;
   }
 
-  .law-events-featured {
-    padding: 0 $padding 40px;
-
-    table {
-      border: 1px solid plt('white');
-    }
-
-    .event-desc {
-      padding: 25px 24px 0;
-    }
-
-    .button {
-      padding: 18px 24px;
-    }
-  }
-
-  .law-events-list {
-    padding: 0 $padding;
-  }
-
-  tr:last-child {
-
-    .law-events-list {
-      padding: 0 $padding 15px;
-    }
-  }
-
-  .grid-column {
-    width: ($inner-max-width / 2);
-    max-width: ($inner-max-width / 2);
-  }
-
-  .grid-cell {
-    width: $event-table-width;
-
-    td {
-      text-align: left;
-      vertical-align: top;
-    }
-  }
-
-  .date {
+  .event-date {
     color: plt('white');
 
     @include mail-font(20px, 1, tp('weight', 'bold'));
   }
 
-  .desc {
+  .event-desc {
     color: plt('white');
   }
-
-  .button {
-    padding: 18px 0 40px;
-  }
-
-  // Add/change the height based on the preview. There is no way to change it dynamically.
-  // .event-1,
-  // .event-2 {
-
-  //     .inner-text {
-  //         height: 108px;
-  //     }
-  // }
 }

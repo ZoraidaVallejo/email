@@ -2,8 +2,8 @@
 
 {{#table class='w-law-events ui-columns-grid set-max-width'}}
   <tr>
-    <td class="law-events-title align-center" responsive="mobile-padding-horizontal-sides">
-      <h2 class="widget-main-title">Law Events</h2>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-title title='Law Events'}}
     </td>
   </tr>
 
@@ -12,12 +12,12 @@
       {{!-- DO NOTHING --}}
     {{else}}
       <tr>
-        <td class="law-events-featured" responsive="mobile-padding-horizontal-sides">
-          {{#table align=''}}
+        <td class="featured-event" responsive="mobile-padding-horizontal-sides">
+          {{#table align='' class='wrapper'}}
             <tr>
-              <td class="event-desc" responsive="mobile-padding-horizontal-sides">
-                <p class="date">{{{lawEvents.featured.dateTime}}}</p>
-                <p class="desc"><strong>{{{lawEvents.featured.typeLocation}}}</strong><br> {{{lawEvents.featured.description}}}</p>
+              <td class="event-info" responsive="mobile-padding-horizontal-sides">
+                <p class="event-date">{{{lawEvents.featured.dateTime}}}</p>
+                <p class="event-desc"><strong>{{{lawEvents.featured.typeLocation}}}</strong><br> {{{lawEvents.featured.description}}}</p>
               </td>
             </tr>
             <tr>
@@ -35,21 +35,21 @@
 
   <!-- OPEN FIRST ROW -->
   <tr>
-    {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left' cellClasses='event'}}
+    {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left'}}
     {{#forEach lawEvents.events}}
       {{#unless isFirst}}
         {{#ifOdd index}}
           <!-- OPEN UNLESS IS FIRST -->
-          <tr>
-            {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left' cellClasses='event'}}
+          <tr class="{{#if isLast}}last-event-row{{/if}}">
+            {{>ui-columns-grid rowClasses='law-events-list' columnGridStart=true fullWidth='540' cellWidth='270' cellAlignment='left'}}
         {{/ifOdd}}
       {{/unless}}
 
       <!-- CONTENT -->
       <tr class="event-{{index}}">
-        <td class="inner-text" responsive="mobile-reset-height">
-          <p class="date">{{{this.dateTime}}}</p>
-          <p class="desc"><strong>{{{this.typeLocation}}}</strong><br> {{{this.description}}}</p>
+        <td class="event-info" responsive="mobile-reset-height">
+          <p class="event-date">{{{this.dateTime}}}</p>
+          <p class="event-desc"><strong>{{{this.typeLocation}}}</strong><br> {{{this.description}}}</p>
         </td>
       </tr>
       <tr>
@@ -62,7 +62,7 @@
 
       {{#ifOdd index}}
         <!-- MIDDLE DIVIDER -->
-        {{>ui-columns-grid columnGridSeparator=true cellWidth='270' cellAlignment='right' cellClasses='event event-'}}
+        {{>ui-columns-grid columnGridSeparator=true cellWidth='270' cellAlignment='right'}}
 
         {{#if isLast}}
           {{#ifOdd index}}

@@ -1,0 +1,52 @@
+// ----------------------------------------------------------------------------------------------------------
+// C O L U M N   T E X T - I M A G E
+// ----------------------------------------------------------------------------------------------------------
+
+.w-text-image {
+
+  &.-multiple {
+
+    .main-title {
+      padding: 45px $padding 10px;
+    }
+
+    .rows-wrapper {
+      padding: 0 $padding 45px;
+
+      .desc-column {
+        padding: $padding 0;
+      }
+
+      .image-column {
+        padding: ($padding + 5px) 0 $padding;
+      }
+    }
+
+    .row-item {
+      border-bottom: 1px solid plt('mail', 'black-haze');
+
+      &:first-child {
+
+        .desc-column {
+          padding: 0 0 $padding;
+        }
+
+        .image-column {
+          padding: 5px 0 $padding;
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+
+        .desc-column {
+          padding: $padding 0 0;
+        }
+
+        .image-column {
+          padding: ($padding + 5px) 0 0;
+        }
+      }
+    }
+  }
+}

@@ -16,25 +16,24 @@ $use-breakpoint: false;
 
 @import
   'partials/components/welcome',
-
   'partials/components/stories-list',
   'partials/components/stories-list/widgets',
-
   'partials/components/people-list',
   'partials/components/people-list/rows',
   'partials/components/people-list/widgets',
-
-  'partials/components/tip-month',
-  'partials/components/in-the-news',
-
   'partials/components/column-text-image',
+  'partials/components/column-text-image/multiple-rows',
   'partials/components/column-text-image/widgets',
-
+  'partials/components/law-events',
+  'partials/components/law-events/featured-event',
+  'partials/components/law-events/event-list',
+  'partials/components/law-events/custom',
+  'partials/components/in-the-news',
   'partials/components/did-you-know',
   'partials/components/advertisement',
-  'partials/components/internet-stats',
   'partials/components/featured-site-month',
-  'partials/components/law-events';
+  'partials/components/internet-stats',
+  'partials/components/tip-month';
 
 @import
   'partials/other';

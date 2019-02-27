@@ -9,46 +9,40 @@ $internet-stats-chart--width: 540px;
 .w-internet-stats {
   background-color: plt('alabaster');
 
-  .stats {
+  .main-title {
+    padding: 45px $padding $padding;
+    text-align: center;
+  }
 
-    &-title {
-      padding: 45px $padding $padding;
-      text-align: center;
-    }
+  .stats-subtitle {
+    padding: 0 $padding 30px;
 
-    &-subtitle {
-      padding: 0 $padding 30px;
-
-      .line1 {
-        @include mail-font(20px, 1.3);
-      }
-    }
-
-    &-chart {
-      padding: 0 $padding $padding;
-      text-align: center;
-
-      img {
-        display: block;
-        width: $internet-stats-chart--width;
-        margin: 0 auto;
-      }
-    }
-
-    &-desc {
-      padding: 0 $padding 20px;
-      text-align: center;
-
-      .source {
-        @include mail-font(14px, 1.3);
-      }
+    .line1 {
+      @include mail-font(20px, 1.3);
     }
   }
 
-  // stylelint-disable selector-no-qualifying-type
-  tr:last-child {
+  .stats-chart {
+    padding: 0 $padding $padding;
+    text-align: center;
 
-    td[class] {
+    img {
+      display: block;
+      width: $internet-stats-chart--width;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+  }
+
+  .stats-desc {
+    padding: 0 $padding 20px;
+    text-align: center;
+
+    &.-last {
       padding: 0 $padding 45px;
     }
   }

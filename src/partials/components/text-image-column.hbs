@@ -1,7 +1,7 @@
 {{!
-widgetType
-widgetClass
-widgetRows
+ * @param {String} widgetType
+ * @param {String} widgetClass
+ * @param {String} widgetRows
 }}
 
 {{#gt (length widgetRows) 1}}
@@ -21,7 +21,7 @@ widgetRows
   {{/gt}}
 
   <tr>
-    <td class="rows-items" responsive="mobile-padding-horizontal-sides">
+    <td class="rows-wrapper" responsive="mobile-padding-horizontal-sides">
       {{#forEach widgetRows}}
         {{#table align='' class=(concat 'row-item -itm-' index)}}
           <tr>
