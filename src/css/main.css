@@ -1,1 +1,1275 @@
-body{width:100% !important;height:100% !important;padding:0;margin:0;background-color:#e7e8e8;font-family:Arial,sans-serif;-webkit-font-smoothing:antialiased}table td{text-align:left}h1,h2,h4{margin:0}p{margin:0 0 16px;font:16px/1.38 Arial, sans-serif}p:last-child{margin:0}a{color:#00b3e3;text-decoration:none}.set-max-width{width:100%;max-width:600px;margin:0 auto}.main-header{background-color:#fff}.main-header .logo-img{display:block;max-width:87%;margin:0}.main-header.-logo-only .wrapper{width:100%;padding:20px 30px 15px;text-align:center}.main-header.-logo-only.-justia-logo .logo-img{width:135px}.main-header.-logo-only.-insights-logo .logo-img{width:250px}.main-header.-logo-only.-lawyer-profile-essentials-logo .logo-img{width:470px}.main-header.-logo-only.-legal-jobs-logo .logo-img{width:308px}.main-header.-logo-only.-lawyer-directory-logo .logo-img{width:500px}.main-header.-with-date .wrapper{padding:15px 30px;vertical-align:middle}.main-header.-with-date .wrapper>table{table-layout:fixed}.main-header.-with-date .logo{width:65%}.main-header.-with-date .date{width:35%;text-align:right}.main-header.-with-date .date span{display:block;color:#000;font:16px/1.25 Arial, sans-serif}.main-header.-with-date.-justia-logo .logo-img{width:135px}.main-header.-with-date.-insights-logo .logo-img{width:235px}.main-header.-with-date.-lawyer-profile-essentials-logo .logo-img{width:270px}.main-header.-with-date.-legal-jobs-logo .logo-img{width:277px}.main-header.-with-date.-lawyer-directory-logo .logo-img{width:300px}.main-footer{clear:both}.main-footer a{text-decoration:none}.main-footer img{display:block;max-width:none}.main-footer .footer-head{padding:20px 30px}.main-footer .fhead-wrapper{width:100%}.main-footer .fhead-side{vertical-align:middle}.main-footer .fhead-side.-right{text-align:right}.main-footer .footer-social{overflow:hidden}.main-footer .footer-nav .pipe{margin:0 10px}.main-footer .footer-address{vertical-align:top}.main-footer.-basic-style{background-color:#fff}.main-footer.-basic-style .footer-head{border-top:1px solid #06357a;border-bottom:1px solid #06357a;background-color:#06357a}.main-footer.-basic-style .footer-nav p,.main-footer.-basic-style .footer-nav span,.main-footer.-basic-style .footer-nav a,.main-footer.-basic-style .footer-disclaimer p,.main-footer.-basic-style .footer-disclaimer span,.main-footer.-basic-style .footer-disclaimer a,.main-footer.-basic-style .footer-address p,.main-footer.-basic-style .footer-address span,.main-footer.-basic-style .footer-address a{color:#000;font:14px/1.38 Arial, sans-serif}.main-footer.-basic-style .footer-nav p,.main-footer.-basic-style .footer-nav span,.main-footer.-basic-style .footer-nav a{color:#fff}.main-footer.-basic-style .footer-address p,.main-footer.-basic-style .footer-address span,.main-footer.-basic-style .footer-address a{font:700 14px/1.38 Arial, sans-serif}.main-footer.-light-bright-style{background-color:#fff}.main-footer.-light-bright-style .footer-head{border-top:1px solid #fff;border-bottom:1px solid #00b3e3;background-color:#fff}.main-footer.-light-bright-style .footer-nav p,.main-footer.-light-bright-style .footer-nav span,.main-footer.-light-bright-style .footer-nav a,.main-footer.-light-bright-style .footer-disclaimer p,.main-footer.-light-bright-style .footer-disclaimer span,.main-footer.-light-bright-style .footer-disclaimer a,.main-footer.-light-bright-style .footer-address p,.main-footer.-light-bright-style .footer-address span,.main-footer.-light-bright-style .footer-address a{color:#000;font:14px/1.38 Arial, sans-serif}.main-footer.-light-bright-style .footer-nav p,.main-footer.-light-bright-style .footer-nav span,.main-footer.-light-bright-style .footer-nav a{color:#00b3e3}.main-footer.-light-bright-style .footer-address p,.main-footer.-light-bright-style .footer-address span,.main-footer.-light-bright-style .footer-address a{font:400 14px/1.38 Arial, sans-serif}.main-footer.-light-blue-style{background-color:#fff}.main-footer.-light-blue-style .footer-head{border-top:1px solid #06357a;border-bottom:1px solid #06357a;background-color:#fff}.main-footer.-light-blue-style .footer-nav p,.main-footer.-light-blue-style .footer-nav span,.main-footer.-light-blue-style .footer-nav a,.main-footer.-light-blue-style .footer-disclaimer p,.main-footer.-light-blue-style .footer-disclaimer span,.main-footer.-light-blue-style .footer-disclaimer a,.main-footer.-light-blue-style .footer-address p,.main-footer.-light-blue-style .footer-address span,.main-footer.-light-blue-style .footer-address a{color:#000;font:14px/1.38 Arial, sans-serif}.main-footer.-light-blue-style .footer-nav p,.main-footer.-light-blue-style .footer-nav span,.main-footer.-light-blue-style .footer-nav a{color:#06357a}.main-footer.-light-blue-style .footer-address p,.main-footer.-light-blue-style .footer-address span,.main-footer.-light-blue-style .footer-address a{font:700 14px/1.38 Arial, sans-serif}.social-icons{width:140px}.social-icons .icon{width:36px;height:32px;text-align:left;vertical-align:top}.social-icons .icon:last-child{width:32px}.social-icons a{display:inline-block;vertical-align:middle}.social-icons a img{width:32px;height:32px}.main-footer.-social-below .fhead-side.-left{width:40%}.main-footer.-social-below .fhead-side.-right{width:60%}.main-footer.-social-below .footer-nav a{white-space:nowrap}.main-footer.-social-below .footer-social{padding:20px 30px 10px;text-align:center}.main-footer.-social-below .footer-social .social-icons{margin:0 auto;text-align:center}.main-footer.-social-below .footer-disclaimer{padding:0 30px 5px;text-align:center}.main-footer.-social-below .footer-address{padding:0 30px 120px;text-align:center}.main-footer.-social-below.-justia-logo .logo-img{width:111px;height:29px}.main-footer.-social-below.-insights-logo .logo-img{width:190px;height:27px}.main-footer.-social-below.-lawyer-profile-essentials-logo .logo-img{width:190px;height:13px}.main-footer.-social-below.-legal-jobs-logo .logo-img{width:190px;height:23px}.main-footer.-social-below.-lawyer-directory-logo .logo-img{width:190px;height:17px}.main-footer.-social-on-top .fhead-side.-left{width:65%}.main-footer.-social-on-top .fhead-side.-right{width:35%}.main-footer.-social-on-top .footer-social .social-icons{text-align:right}.main-footer.-social-on-top .footer-disclaimer{padding:40px 30px 20px}.main-footer.-social-on-top .footer-address{padding:0 30px 10px}.main-footer.-social-on-top .footer-nav{padding:0 30px 90px;vertical-align:top}.main-footer.-social-on-top.-justia-logo .logo-img{width:126px;height:33px}.main-footer.-social-on-top.-insights-logo .logo-img{width:235px;height:33px}.main-footer.-social-on-top.-lawyer-profile-essentials-logo .logo-img{width:300px;height:21px}.main-footer.-social-on-top.-legal-jobs-logo .logo-img{width:277px;height:33px}.main-footer.-social-on-top.-lawyer-directory-logo .logo-img{width:300px;height:27px}.ui-background.-cell{vertical-align:top}.ui-background.-table .bg-wrapper{vertical-align:top}.ui-columns-grid .grid-row{padding:0;font-size:0;text-align:center;vertical-align:top}.ui-columns-grid .grid-column{display:inline-block;width:300px;max-width:300px;vertical-align:top}.ui-columns-grid .single-grid-cell{width:600px;text-align:left;vertical-align:top}.ui-columns-grid .grid-cell{width:300px;text-align:center}.ui-spacer-hack{display:block;opacity:0;width:540px;height:1px;margin:0;font-size:0}.widget-type-name{color:#7b7d7d;font:700 14px/1.1 Arial, sans-serif}.widget-main-title{margin:5px 0 0;color:#000;font:400 29px/1.27 Arial, sans-serif}.widget-main-title a{color:#000}.w-welcome{background-color:#00b3e3}.w-welcome .banner-title{padding:0 30px 20px}.w-welcome .banner-title h1{color:#fff;font:400 22px/1.3 Arial, sans-serif}.w-welcome .banner-message{padding:0 30px 15px}.w-welcome .banner-message p,.w-welcome .banner-message a{color:#fff}.w-welcome .banner-message.-no-button{padding:0 30px 45px}.w-welcome .banner-button{padding:5px 30px 45px}.w-stories-list{background-color:#fff}.w-stories-list .main-title{padding:45px 30px 20px}.w-stories-list .featured-story{padding:0 30px 20px}.w-stories-list .featured-story .desc{width:360px;text-align:left;vertical-align:top}.w-stories-list .featured-story .image{width:180px;text-align:right;vertical-align:top}.w-stories-list .featured-story .image img{display:block;width:150px}.w-stories-list .story-button{padding:0 30px 45px}.w-stories-list .story-links-title{padding:0 30px 30px}.w-stories-list .story-link{padding:0 30px 20px}.w-stories-list .story-link p{margin:0}.w-stories-list .story-link.-last{padding:0 30px 45px}.w-stories-list .extra-info{padding:10px 30px 30px}.w-stories-list .extra-info.-last{padding:10px 30px 45px}.w-stories-list.-tech-news .widget-main-title{color:#00af41}.w-stories-list.-tech-news .widget-main-title a{color:#00af41}.w-stories-list.-tech-news a{color:#00af41}.w-stories-list.-seo-news .widget-main-title{color:#00b3e3}.w-stories-list.-seo-news .widget-main-title a{color:#00b3e3}.w-stories-list.-seo-news a{color:#00b3e3}.w-stories-list.-social-media-news .widget-main-title{color:#ff6b00}.w-stories-list.-social-media-news .widget-main-title a{color:#ff6b00}.w-stories-list.-social-media-news a{color:#ff6b00}.w-stories-list.-legal-industry-news .widget-main-title{color:#3fd4ad}.w-stories-list.-legal-industry-news .widget-main-title a{color:#3fd4ad}.w-stories-list.-legal-industry-news a{color:#3fd4ad}.w-stories-list.-jurispro sup{font:16px/16px Arial, sans-serif}.w-stories-list.-jurispro .featured-story{padding:0 30px 45px}.w-stories-list.-jurispro .featured-story .desc,.w-stories-list.-jurispro .featured-story .image{padding:0 0 45px;border-bottom:1px solid #e7e8e8;vertical-align:middle}.w-stories-list.-jurispro .featured-story .desc p{font:20px/1.38 Arial, sans-serif}.w-people-list{border-bottom:1px solid #fafafa;background-color:#fafafa}.w-people-list .widget-type-name{color:#fff}.w-people-list .widget-main-title{color:#fff}.w-people-list .widget-main-title a{color:#fff}.w-people-list .list-table{padding:50px 30px 30px}.w-people-list .list-table .main-title{padding:20px 30px 15px}.w-people-list .list-desc{padding:0 30px 45px}.w-people-list .people-rows{background-color:#fff;table-layout:fixed}.w-people-list .people-rows tr:not(:last-child) td{border-bottom:1px solid #e7e8e8}.w-people-list .people-rows img{display:block}.w-people-list .people-rows .photo{width:70px;padding:10px 0 10px 30px;text-align:right;vertical-align:middle}.w-people-list .people-rows .photo img{width:70px;max-width:100%}.w-people-list .people-rows .info{padding:10px 25px;vertical-align:middle}.w-people-list .people-rows .info a{color:#000}.w-people-list .people-rows .info p{margin:0}.w-people-list .people-rows .info .name{font:25px/1.1 Arial, sans-serif}.w-people-list .people-rows .info .location{font:12px/1.1 Arial, sans-serif}.w-people-list .people-rows .ranking{width:25px;padding:10px 30px 10px 0;text-align:left;vertical-align:middle}.w-people-list .people-rows .ranking img{width:25px;height:56px}.w-people-list.-annotator .list-table .main-title{background-color:#ff6b00}.w-people-list.-answers-leaderboard .list-table .main-title{background-color:#00af41}.w-text-image{background-color:#fafafa}.w-text-image .rows-wrapper{padding:45px 30px}.w-text-image .rows-wrapper .desc-column{width:300px;padding:0;text-align:left;vertical-align:top}.w-text-image .rows-wrapper .desc-column .title{margin:5px 0 10px;font:22px/1.45 Arial, sans-serif}.w-text-image .rows-wrapper .image-column{width:240px;padding:20px 0 0;text-align:right;vertical-align:top}.w-text-image .rows-wrapper .image-column img{display:block;width:210px}.w-text-image.-multiple .main-title{padding:45px 30px 15px}.w-text-image.-multiple .rows-wrapper{padding:0 30px 45px}.w-text-image.-multiple .rows-wrapper .desc-column{padding:30px 0}.w-text-image.-multiple .rows-wrapper .desc-column .title{margin:0 0 10px}.w-text-image.-multiple .rows-wrapper .image-column{padding:35px 0 30px}.w-text-image.-multiple .row-item{border-bottom:1px solid #e7e8e8}.w-text-image.-multiple .row-item:first-child .desc-column{padding:0 0 30px}.w-text-image.-multiple .row-item:first-child .image-column{padding:5px 0 30px}.w-text-image.-multiple .row-item:last-child{border-bottom:0}.w-text-image.-multiple .row-item:last-child .desc-column{padding:30px 0 0}.w-text-image.-multiple .row-item:last-child .image-column{padding:35px 0 0}.w-law-events{background-color:#00af41}.w-law-events .widget-type-name{color:#fff}.w-law-events .widget-main-title{color:#fff}.w-law-events .widget-main-title a{color:#fff}.w-law-events .main-title{padding:45px 30px 30px;text-align:center}.w-law-events .event-date{margin:0;color:#fff;font:700 20px/20px Arial, sans-serif}.w-law-events .event-desc{margin:0;color:#fff}.w-law-events .featured-event{padding:0 30px 40px}.w-law-events .featured-event .wrapper{border:1px solid #fff}.w-law-events .featured-event .event-info{padding:25px 24px 18px}.w-law-events .featured-event .button{padding:0 24px 25px}.w-law-events .law-events-list{padding:0 30px}.w-law-events .law-events-list .button{padding:20px 0 40px}.w-law-events .last-event-row .law-events-list .button{padding:20px 0 45px}.w-law-events .grid-column{width:270px;max-width:270px}.w-law-events .grid-cell{width:255px}.w-law-events .grid-cell td{text-align:left;vertical-align:top}.w-law-events .event-1 .event-info,.w-law-events .event-2 .event-info,.w-law-events .event-3 .event-info,.w-law-events .event-4 .event-info{height:130px}.w-law-events .event-5 .event-info,.w-law-events .event-6 .event-info{height:108px}.w-in-the-news{background-color:#fff}.w-in-the-news .main-title{padding:45px 30px 30px;text-align:center}.w-in-the-news .news-list{padding:0 30px 30px;vertical-align:top}.w-in-the-news .news-list .logo{width:180px;padding:30px 0;text-align:left;vertical-align:top}.w-in-the-news .news-list .logo img{display:block;width:150px;max-width:83%;height:auto}.w-in-the-news .news-list .desc{width:360px;padding:30px 0;vertical-align:top}.w-in-the-news .news-item{border-bottom:1px solid #e7e8e8}.w-in-the-news .news-item:first-child .logo,.w-in-the-news .news-item:first-child .desc{padding:0 0 30px}.w-in-the-news .news-item:last-child{border-bottom:0}.w-in-the-news .news-item:last-child .logo,.w-in-the-news .news-item:last-child .desc{padding:30px 0 0}.w-in-the-news .extra-info{padding:0 30px 45px;text-align:center}.w-did-you-know{background-color:#ff6b00}.w-did-you-know .widget-type-name{color:#fff}.w-did-you-know .widget-main-title{color:#fff}.w-did-you-know .widget-main-title a{color:#fff}.w-did-you-know .main-title{padding:45px 30px 20px}.w-did-you-know .desc-text{padding:0 30px 15px}.w-did-you-know .desc-text p,.w-did-you-know .desc-text a{color:#fff}.w-did-you-know .desc-text.-no-button{padding:0 30px 45px}.w-did-you-know .button{padding:5px 30px 45px}.w-advertisement td{text-align:center}.w-advertisement .justia-logo-image{padding:45px 30px 40px;text-align:center}.w-advertisement .justia-logo-image img{width:320px;margin:0 auto}.w-advertisement .ad-title{padding:0 30px}.w-advertisement .ad-title a{font:30px/1.38 Arial, sans-serif;color:#06357a}.w-advertisement .ad-image{padding:0 21px 20px}.w-advertisement .ad-image img{display:block;width:100%}.w-advertisement .ad-desc{padding:20px 30px 30px}.w-advertisement .ad-desc.-last{padding:0 30px 45px}.w-advertisement .ad-button{padding:0 30px 15px}.w-advertisement.-jld-ad-01{background-color:#06357a}.w-advertisement.-jld-ad-01 p,.w-advertisement.-jld-ad-01 a{color:#fff}.w-advertisement.-jld-ad-02{background-color:#dcf0fe}.w-advertisement.-jld-ad-02 .justia-logo-image{padding:45px 30px 22px}.w-advertisement.-jld-ad-02 .ad-title{padding:0 30px 28px}.w-advertisement.-jld-ad-02 .ad-title a{font:40px/1.1 Arial, sans-serif}.w-advertisement.-jld-ad-02 .ad-image{padding:0 30px}.w-advertisement.-jld-ad-02 .ad-desc{padding:53px 30px 30px}.w-advertisement.-jld-ad-02 .ad-desc.-last{padding:0 30px 45px}.w-advertisement.-jld-ad-02 .ad-desc.-phone p,.w-advertisement.-jld-ad-02 .ad-desc.-phone a{color:#06357a}.w-featured-site-month{background-color:#fafafa}.w-featured-site-month p{margin:0}.w-featured-site-month .main-title{padding:45px 30px 20px;text-align:center}.w-featured-site-month .featured-site .client-info{padding:0 30px 30px;text-align:center}.w-featured-site-month .featured-site .client-info .name{font:22px/1.38 Arial, sans-serif;margin:0 0 10px}.w-featured-site-month .featured-site .client-info .name a{color:#000}.w-featured-site-month .featured-site .devices{padding:0 30px 45px;text-align:center}.w-featured-site-month .featured-site .devices img{display:block;width:540px;margin:0 auto}.w-featured-site-month .sites-list-description{padding:10px 30px 30px;text-align:center}.w-featured-site-month .sites-list{padding:0 30px 45px}.w-featured-site-month .sites-list .devices{width:270px;padding:35px 0}.w-featured-site-month .sites-list .devices img{display:block;width:240px}.w-featured-site-month .sites-list .client-info{width:270px;padding:35px 0;text-align:left;vertical-align:top}.w-featured-site-month .sites-list .client-info .name{font:18px/1.38 Arial, sans-serif}.w-featured-site-month .sites-list .client-info .link{margin:10px 0 0}.w-featured-site-month .sites-list .site-item{border-bottom:1px solid #e7e8e8}.w-featured-site-month .sites-list .site-item:first-child .devices,.w-featured-site-month .sites-list .site-item:first-child .client-info{padding:0 0 35px}.w-featured-site-month .sites-list .site-item:last-child{border-bottom:0}.w-featured-site-month .sites-list .site-item:last-child .devices,.w-featured-site-month .sites-list .site-item:last-child .client-info{padding:35px 0 0}.w-internet-stats{background-color:#fafafa}.w-internet-stats .main-title{padding:45px 30px 30px;text-align:center}.w-internet-stats .stats-subtitle{padding:0 30px 30px}.w-internet-stats .stats-subtitle .line1{font:20px/1.3 Arial, sans-serif}.w-internet-stats .stats-chart{padding:0 30px 30px;text-align:center}.w-internet-stats .stats-chart img{display:block;width:540px;max-width:100%;margin:0 auto}.w-internet-stats .stats-chart.-last{padding:0 30px 45px}.w-internet-stats .stats-desc{padding:0 30px 20px;text-align:center}.w-internet-stats .stats-desc.-last{padding:0 30px 45px}.w-simple-text .main-title{padding:45px 30px 20px}.w-simple-text .desc{padding:0 30px 15px}.w-simple-text .desc.-last{padding:0 30px 45px}.w-simple-text .button{padding:5px 30px 45px}.w-simple-text.-tip-month{background-color:#00af41}.w-simple-text.-tip-month .widget-type-name{color:#fff}.w-simple-text.-tip-month .widget-main-title{color:#fff}.w-simple-text.-tip-month .widget-main-title a{color:#fff}.w-simple-text.-tip-month .desc p,.w-simple-text.-tip-month .desc a{color:#fff}.w-simple-text.-jobs-newsletter{border-bottom:1px solid #e1e0e0;background-color:#fafafa}.w-simple-text.-jobs-newsletter .widget-type-name{color:#06357a}.w-simple-text.-jobs-newsletter .widget-main-title{color:#06357a;font:700 29px/1.27 Arial, sans-serif}.w-simple-text.-jobs-newsletter .widget-main-title a{color:#06357a}.align-center{text-align:center}.align-right{text-align:right}.align-left{text-align:left}.valign-top{vertical-align:top}.valign-middle{vertical-align:middle}.valign-bottom{vertical-align:bottom}.last{padding-bottom:0;margin-bottom:0}.no-padding{padding:0}.no-margin{margin:0}.jld-newsletter .w-stories-list.-tech-news,.jld-newsletter .w-stories-list.-social-media-news,.jld-newsletter .w-text-image.-meet-our-team{border-bottom:1px solid #e7e8e8}
+body {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  background-color: #e7e8e8;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+table td {
+  text-align: left;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 16px;
+  font: 16px/1.38 Arial, sans-serif;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+a {
+  color: #00b3e3;
+  text-decoration: none;
+}
+
+.set-max-width {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #ffffff;
+}
+
+.main-header .logo-img {
+  display: block;
+  max-width: 87%;
+  margin: 0;
+}
+
+.main-header.-logo-only .wrapper {
+  width: 100%;
+  padding: 20px 30px 15px;
+  text-align: center;
+}
+
+.main-header.-logo-only.-justia-logo .logo-img {
+  width: 135px;
+}
+
+.main-header.-logo-only.-insights-logo .logo-img {
+  width: 250px;
+}
+
+.main-header.-logo-only.-lawyer-profile-essentials-logo .logo-img {
+  width: 470px;
+}
+
+.main-header.-logo-only.-legal-jobs-logo .logo-img {
+  width: 308px;
+}
+
+.main-header.-logo-only.-lawyer-directory-logo .logo-img {
+  width: 500px;
+}
+
+.main-header.-with-date .wrapper {
+  padding: 15px 30px;
+  vertical-align: middle;
+}
+
+.main-header.-with-date .wrapper > table {
+  table-layout: fixed;
+}
+
+.main-header.-with-date .logo {
+  width: 65%;
+}
+
+.main-header.-with-date .date {
+  width: 35%;
+  text-align: right;
+}
+
+.main-header.-with-date .date span {
+  display: block;
+  color: #000000;
+  font: 16px/1.25 Arial, sans-serif;
+}
+
+.main-header.-with-date.-justia-logo .logo-img {
+  width: 135px;
+}
+
+.main-header.-with-date.-insights-logo .logo-img {
+  width: 235px;
+}
+
+.main-header.-with-date.-lawyer-profile-essentials-logo .logo-img {
+  width: 270px;
+}
+
+.main-header.-with-date.-legal-jobs-logo .logo-img {
+  width: 277px;
+}
+
+.main-header.-with-date.-lawyer-directory-logo .logo-img {
+  width: 300px;
+}
+
+.main-footer {
+  clear: both;
+}
+
+.main-footer a {
+  text-decoration: none;
+}
+
+.main-footer img {
+  display: block;
+  max-width: none;
+}
+
+.main-footer .footer-head {
+  padding: 20px 30px;
+}
+
+.main-footer .fhead-wrapper {
+  width: 100%;
+}
+
+.main-footer .fhead-side {
+  vertical-align: middle;
+}
+
+.main-footer .fhead-side.-right {
+  text-align: right;
+}
+
+.main-footer .footer-social {
+  overflow: hidden;
+}
+
+.main-footer .footer-nav .pipe {
+  margin: 0 10px;
+}
+
+.main-footer .footer-address {
+  vertical-align: top;
+}
+
+.main-footer.-basic-style {
+  background-color: #ffffff;
+}
+
+.main-footer.-basic-style .footer-head {
+  border-top: 1px solid #06357a;
+  border-bottom: 1px solid #06357a;
+  background-color: #06357a;
+}
+
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a,
+.main-footer.-basic-style .footer-disclaimer p,
+.main-footer.-basic-style .footer-disclaimer span,
+.main-footer.-basic-style .footer-disclaimer a,
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-basic-style .footer-nav p,
+.main-footer.-basic-style .footer-nav span,
+.main-footer.-basic-style .footer-nav a {
+  color: #ffffff;
+}
+
+.main-footer.-basic-style .footer-address p,
+.main-footer.-basic-style .footer-address span,
+.main-footer.-basic-style .footer-address a {
+  font: 700 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-bright-style {
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright-style .footer-head {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #00b3e3;
+  background-color: #ffffff;
+}
+
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a,
+.main-footer.-light-bright-style .footer-disclaimer p,
+.main-footer.-light-bright-style .footer-disclaimer span,
+.main-footer.-light-bright-style .footer-disclaimer a,
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-bright-style .footer-nav p,
+.main-footer.-light-bright-style .footer-nav span,
+.main-footer.-light-bright-style .footer-nav a {
+  color: #00b3e3;
+}
+
+.main-footer.-light-bright-style .footer-address p,
+.main-footer.-light-bright-style .footer-address span,
+.main-footer.-light-bright-style .footer-address a {
+  font: 400 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-blue-style {
+  background-color: #ffffff;
+}
+
+.main-footer.-light-blue-style .footer-head {
+  border-top: 1px solid #06357a;
+  border-bottom: 1px solid #06357a;
+  background-color: #ffffff;
+}
+
+.main-footer.-light-blue-style .footer-nav p,
+.main-footer.-light-blue-style .footer-nav span,
+.main-footer.-light-blue-style .footer-nav a,
+.main-footer.-light-blue-style .footer-disclaimer p,
+.main-footer.-light-blue-style .footer-disclaimer span,
+.main-footer.-light-blue-style .footer-disclaimer a,
+.main-footer.-light-blue-style .footer-address p,
+.main-footer.-light-blue-style .footer-address span,
+.main-footer.-light-blue-style .footer-address a {
+  color: #000000;
+  font: 14px/1.38 Arial, sans-serif;
+}
+
+.main-footer.-light-blue-style .footer-nav p,
+.main-footer.-light-blue-style .footer-nav span,
+.main-footer.-light-blue-style .footer-nav a {
+  color: #06357a;
+}
+
+.main-footer.-light-blue-style .footer-address p,
+.main-footer.-light-blue-style .footer-address span,
+.main-footer.-light-blue-style .footer-address a {
+  font: 700 14px/1.38 Arial, sans-serif;
+}
+
+.social-icons {
+  width: 140px;
+}
+
+.social-icons .icon {
+  width: 36px;
+  height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.social-icons .icon:last-child {
+  width: 32px;
+}
+
+.social-icons a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+}
+
+.main-footer.-social-below .fhead-side.-left {
+  width: 40%;
+}
+
+.main-footer.-social-below .fhead-side.-right {
+  width: 60%;
+}
+
+.main-footer.-social-below .footer-nav a {
+  white-space: nowrap;
+}
+
+.main-footer.-social-below .footer-social {
+  padding: 20px 30px 10px;
+  text-align: center;
+}
+
+.main-footer.-social-below .footer-social .social-icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-footer.-social-below .footer-disclaimer {
+  padding: 0 30px 5px;
+  text-align: center;
+}
+
+.main-footer.-social-below .footer-address {
+  padding: 0 30px 120px;
+  text-align: center;
+}
+
+.main-footer.-social-below.-justia-logo .logo-img {
+  width: 111px;
+  height: 29px;
+}
+
+.main-footer.-social-below.-insights-logo .logo-img {
+  width: 190px;
+  height: 27px;
+}
+
+.main-footer.-social-below.-lawyer-profile-essentials-logo .logo-img {
+  width: 190px;
+  height: 13px;
+}
+
+.main-footer.-social-below.-legal-jobs-logo .logo-img {
+  width: 190px;
+  height: 23px;
+}
+
+.main-footer.-social-below.-lawyer-directory-logo .logo-img {
+  width: 190px;
+  height: 17px;
+}
+
+.main-footer.-social-on-top .fhead-side.-left {
+  width: 65%;
+}
+
+.main-footer.-social-on-top .fhead-side.-right {
+  width: 35%;
+}
+
+.main-footer.-social-on-top .footer-social .social-icons {
+  text-align: right;
+}
+
+.main-footer.-social-on-top .footer-disclaimer {
+  padding: 40px 30px 20px;
+}
+
+.main-footer.-social-on-top .footer-address {
+  padding: 0 30px 10px;
+}
+
+.main-footer.-social-on-top .footer-nav {
+  padding: 0 30px 90px;
+  vertical-align: top;
+}
+
+.main-footer.-social-on-top.-justia-logo .logo-img {
+  width: 126px;
+  height: 33px;
+}
+
+.main-footer.-social-on-top.-insights-logo .logo-img {
+  width: 235px;
+  height: 33px;
+}
+
+.main-footer.-social-on-top.-lawyer-profile-essentials-logo .logo-img {
+  width: 300px;
+  height: 21px;
+}
+
+.main-footer.-social-on-top.-legal-jobs-logo .logo-img {
+  width: 277px;
+  height: 33px;
+}
+
+.main-footer.-social-on-top.-lawyer-directory-logo .logo-img {
+  width: 300px;
+  height: 27px;
+}
+
+.ui-background.-cell {
+  vertical-align: top;
+}
+
+.ui-background.-table .bg-wrapper {
+  vertical-align: top;
+}
+
+.ui-columns-grid .grid-row {
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.ui-columns-grid .grid-column {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+.ui-columns-grid .single-grid-cell {
+  width: 600px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ui-columns-grid .grid-cell {
+  width: 300px;
+  text-align: center;
+}
+
+.ui-spacer-hack {
+  display: block;
+  opacity: 0;
+  width: 540px;
+  height: 1px;
+  margin: 0;
+  font-size: 0;
+}
+
+.widget-type-name {
+  color: #7b7d7d;
+  font: 700 14px/1.1 Arial, sans-serif;
+}
+
+.widget-main-title {
+  margin: 5px 0 0;
+  color: #000000;
+  font: 400 29px/1.27 Arial, sans-serif;
+}
+
+.widget-main-title a {
+  color: #000000;
+}
+
+.w-welcome {
+  background-color: #00b3e3;
+}
+
+.w-welcome .banner-title {
+  padding: 0 30px 20px;
+}
+
+.w-welcome .banner-title h1 {
+  color: #ffffff;
+  font: 400 22px/1.3 Arial, sans-serif;
+}
+
+.w-welcome .banner-message {
+  padding: 0 30px 15px;
+}
+
+.w-welcome .banner-message p,
+.w-welcome .banner-message a {
+  color: #ffffff;
+}
+
+.w-welcome .banner-message.-no-button {
+  padding: 0 30px 45px;
+}
+
+.w-welcome .banner-button {
+  padding: 5px 30px 45px;
+}
+
+.w-stories-list {
+  background-color: #ffffff;
+}
+
+.w-stories-list .main-title {
+  padding: 45px 30px 20px;
+}
+
+.w-stories-list .featured-story {
+  padding: 0 30px 20px;
+}
+
+.w-stories-list .featured-story .desc {
+  width: 360px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-stories-list .featured-story .image {
+  width: 180px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.w-stories-list .featured-story .image img {
+  display: block;
+  width: 150px;
+}
+
+.w-stories-list .story-button {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list .story-links-title {
+  padding: 0 30px 30px;
+}
+
+.w-stories-list .story-link {
+  padding: 0 30px 20px;
+}
+
+.w-stories-list .story-link p {
+  margin: 0;
+}
+
+.w-stories-list .story-link.-last {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list .extra-info {
+  padding: 10px 30px 30px;
+}
+
+.w-stories-list .extra-info.-last {
+  padding: 10px 30px 45px;
+}
+
+.w-stories-list.-tech-news .widget-main-title {
+  color: #00af41;
+}
+
+.w-stories-list.-tech-news .widget-main-title a {
+  color: #00af41;
+}
+
+.w-stories-list.-tech-news a {
+  color: #00af41;
+}
+
+.w-stories-list.-seo-news .widget-main-title {
+  color: #00b3e3;
+}
+
+.w-stories-list.-seo-news .widget-main-title a {
+  color: #00b3e3;
+}
+
+.w-stories-list.-seo-news a {
+  color: #00b3e3;
+}
+
+.w-stories-list.-social-media-news .widget-main-title {
+  color: #ff6b00;
+}
+
+.w-stories-list.-social-media-news .widget-main-title a {
+  color: #ff6b00;
+}
+
+.w-stories-list.-social-media-news a {
+  color: #ff6b00;
+}
+
+.w-stories-list.-legal-industry-news .widget-main-title {
+  color: #3fd4ad;
+}
+
+.w-stories-list.-legal-industry-news .widget-main-title a {
+  color: #3fd4ad;
+}
+
+.w-stories-list.-legal-industry-news a {
+  color: #3fd4ad;
+}
+
+.w-stories-list.-jurispro sup {
+  font: 16px/16px Arial, sans-serif;
+}
+
+.w-stories-list.-jurispro .featured-story {
+  padding: 0 30px 45px;
+}
+
+.w-stories-list.-jurispro .featured-story .desc,
+.w-stories-list.-jurispro .featured-story .image {
+  padding: 0 0 45px;
+  border-bottom: 1px solid #e7e8e8;
+  vertical-align: middle;
+}
+
+.w-stories-list.-jurispro .featured-story .desc p {
+  font: 20px/1.38 Arial, sans-serif;
+}
+
+.w-people-list {
+  border-bottom: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+
+.w-people-list .widget-type-name {
+  color: #ffffff;
+}
+
+.w-people-list .widget-main-title {
+  color: #ffffff;
+}
+
+.w-people-list .widget-main-title a {
+  color: #ffffff;
+}
+
+.w-people-list .list-table {
+  padding: 50px 30px 30px;
+}
+
+.w-people-list .list-table .main-title {
+  padding: 20px 30px 15px;
+}
+
+.w-people-list .list-desc {
+  padding: 0 30px 45px;
+}
+
+.w-people-list .people-rows {
+  background-color: #ffffff;
+  table-layout: fixed;
+}
+
+.w-people-list .people-rows tr:not(:last-child) td {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-people-list .people-rows img {
+  display: block;
+}
+
+.w-people-list .people-rows .photo {
+  width: 70px;
+  padding: 10px 0 10px 30px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.w-people-list .people-rows .photo img {
+  width: 70px;
+  max-width: 100%;
+}
+
+.w-people-list .people-rows .info {
+  padding: 10px 25px;
+  vertical-align: middle;
+}
+
+.w-people-list .people-rows .info a {
+  color: #000000;
+}
+
+.w-people-list .people-rows .info p {
+  margin: 0;
+}
+
+.w-people-list .people-rows .info .name {
+  font: 25px/1.1 Arial, sans-serif;
+}
+
+.w-people-list .people-rows .info .location {
+  font: 12px/1.1 Arial, sans-serif;
+}
+
+.w-people-list .people-rows .ranking {
+  width: 25px;
+  padding: 10px 30px 10px 0;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.w-people-list .people-rows .ranking img {
+  width: 25px;
+  height: 56px;
+}
+
+.w-people-list.-annotator .list-table .main-title {
+  background-color: #ff6b00;
+}
+
+.w-people-list.-answers-leaderboard .list-table .main-title {
+  background-color: #00af41;
+}
+
+.w-text-image {
+  background-color: #fafafa;
+}
+
+.w-text-image .rows-wrapper {
+  padding: 45px 30px;
+}
+
+.w-text-image .rows-wrapper .desc-column {
+  width: 300px;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-text-image .rows-wrapper .desc-column .title {
+  margin: 5px 0 10px;
+  font: 22px/1.45 Arial, sans-serif;
+}
+
+.w-text-image .rows-wrapper .image-column {
+  width: 240px;
+  padding: 20px 0 0;
+  text-align: right;
+  vertical-align: top;
+}
+
+.w-text-image .rows-wrapper .image-column img {
+  display: block;
+  width: 210px;
+}
+
+.w-text-image.-multiple .main-title {
+  padding: 45px 30px 15px;
+}
+
+.w-text-image.-multiple .rows-wrapper {
+  padding: 0 30px 45px;
+}
+
+.w-text-image.-multiple .rows-wrapper .desc-column {
+  padding: 30px 0;
+}
+
+.w-text-image.-multiple .rows-wrapper .desc-column .title {
+  margin: 0 0 10px;
+}
+
+.w-text-image.-multiple .rows-wrapper .image-column {
+  padding: 35px 0 30px;
+}
+
+.w-text-image.-multiple .row-item {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-text-image.-multiple .row-item:first-child .desc-column {
+  padding: 0 0 30px;
+}
+
+.w-text-image.-multiple .row-item:first-child .image-column {
+  padding: 5px 0 30px;
+}
+
+.w-text-image.-multiple .row-item:last-child {
+  border-bottom: 0;
+}
+
+.w-text-image.-multiple .row-item:last-child .desc-column {
+  padding: 30px 0 0;
+}
+
+.w-text-image.-multiple .row-item:last-child .image-column {
+  padding: 35px 0 0;
+}
+
+.w-law-events {
+  background-color: #00af41;
+}
+
+.w-law-events .widget-type-name {
+  color: #ffffff;
+}
+
+.w-law-events .widget-main-title {
+  color: #ffffff;
+}
+
+.w-law-events .widget-main-title a {
+  color: #ffffff;
+}
+
+.w-law-events .main-title {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-law-events .event-date {
+  margin: 0;
+  color: #ffffff;
+  font: 700 20px/20px Arial, sans-serif;
+}
+
+.w-law-events .event-desc {
+  margin: 0;
+  color: #ffffff;
+}
+
+.w-law-events .featured-event {
+  padding: 0 30px 40px;
+}
+
+.w-law-events .featured-event .wrapper {
+  border: 1px solid #ffffff;
+}
+
+.w-law-events .featured-event .event-info {
+  padding: 25px 24px 18px;
+}
+
+.w-law-events .featured-event .button {
+  padding: 0 24px 25px;
+}
+
+.w-law-events .law-events-list {
+  padding: 0 30px;
+}
+
+.w-law-events .law-events-list .button {
+  padding: 20px 0 40px;
+}
+
+.w-law-events .last-event-row .law-events-list .button {
+  padding: 20px 0 45px;
+}
+
+.w-law-events .grid-column {
+  width: 270px;
+  max-width: 270px;
+}
+
+.w-law-events .grid-cell {
+  width: 255px;
+}
+
+.w-law-events .grid-cell td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-law-events .event-1 .event-info,
+.w-law-events .event-2 .event-info,
+.w-law-events .event-3 .event-info,
+.w-law-events .event-4 .event-info {
+  height: 130px;
+}
+
+.w-law-events .event-5 .event-info,
+.w-law-events .event-6 .event-info {
+  height: 108px;
+}
+
+.w-in-the-news {
+  background-color: #ffffff;
+}
+
+.w-in-the-news .main-title {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-in-the-news .news-list {
+  padding: 0 30px 30px;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-list .logo {
+  width: 180px;
+  padding: 30px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-list .logo img {
+  display: block;
+  width: 150px;
+  max-width: 83%;
+  height: auto;
+}
+
+.w-in-the-news .news-list .desc {
+  width: 360px;
+  padding: 30px 0;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-item {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-in-the-news .news-item:first-child .logo,
+.w-in-the-news .news-item:first-child .desc {
+  padding: 0 0 30px;
+}
+
+.w-in-the-news .news-item:last-child {
+  border-bottom: 0;
+}
+
+.w-in-the-news .news-item:last-child .logo,
+.w-in-the-news .news-item:last-child .desc {
+  padding: 30px 0 0;
+}
+
+.w-in-the-news .extra-info {
+  padding: 0 30px 45px;
+  text-align: center;
+}
+
+.w-did-you-know {
+  background-color: #ff6b00;
+}
+
+.w-did-you-know .widget-type-name {
+  color: #ffffff;
+}
+
+.w-did-you-know .widget-main-title {
+  color: #ffffff;
+}
+
+.w-did-you-know .widget-main-title a {
+  color: #ffffff;
+}
+
+.w-did-you-know .main-title {
+  padding: 45px 30px 20px;
+}
+
+.w-did-you-know .desc-text {
+  padding: 0 30px 15px;
+}
+
+.w-did-you-know .desc-text p,
+.w-did-you-know .desc-text a {
+  color: #ffffff;
+}
+
+.w-did-you-know .desc-text.-no-button {
+  padding: 0 30px 45px;
+}
+
+.w-did-you-know .button {
+  padding: 5px 30px 45px;
+}
+
+.w-advertisement td {
+  text-align: center;
+}
+
+.w-advertisement .justia-logo-image {
+  padding: 45px 30px 40px;
+  text-align: center;
+}
+
+.w-advertisement .justia-logo-image img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-advertisement .ad-title {
+  padding: 0 30px;
+}
+
+.w-advertisement .ad-title a {
+  font: 30px/1.38 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-advertisement .ad-image {
+  padding: 0 21px 20px;
+}
+
+.w-advertisement .ad-image img {
+  display: block;
+  width: 100%;
+}
+
+.w-advertisement .ad-desc {
+  padding: 20px 30px 30px;
+}
+
+.w-advertisement .ad-desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement .ad-button {
+  padding: 0 30px 15px;
+}
+
+.w-advertisement.-jld-ad-01 {
+  background-color: #06357a;
+}
+
+.w-advertisement.-jld-ad-01 p,
+.w-advertisement.-jld-ad-01 a {
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 {
+  background-color: #dcf0fe;
+}
+
+.w-advertisement.-jld-ad-02 .justia-logo-image {
+  padding: 45px 30px 22px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-title {
+  padding: 0 30px 28px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-title a {
+  font: 40px/1.1 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-02 .ad-image {
+  padding: 0 30px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc {
+  padding: 53px 30px 30px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc.-phone p,
+.w-advertisement.-jld-ad-02 .ad-desc.-phone a {
+  color: #06357a;
+}
+
+.w-featured-site-month {
+  background-color: #fafafa;
+}
+
+.w-featured-site-month p {
+  margin: 0;
+}
+
+.w-featured-site-month .main-title {
+  padding: 45px 30px 20px;
+  text-align: center;
+}
+
+.w-featured-site-month .featured-site .client-info {
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.w-featured-site-month .featured-site .client-info .name {
+  font: 22px/1.38 Arial, sans-serif;
+  margin: 0 0 10px;
+}
+
+.w-featured-site-month .featured-site .client-info .name a {
+  color: #000000;
+}
+
+.w-featured-site-month .featured-site .devices {
+  padding: 0 30px 45px;
+  text-align: center;
+}
+
+.w-featured-site-month .featured-site .devices img {
+  display: block;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.w-featured-site-month .sites-list-description {
+  padding: 10px 30px 30px;
+  text-align: center;
+}
+
+.w-featured-site-month .sites-list {
+  padding: 0 30px 45px;
+}
+
+.w-featured-site-month .sites-list .devices {
+  width: 270px;
+  padding: 35px 0;
+}
+
+.w-featured-site-month .sites-list .devices img {
+  display: block;
+  width: 240px;
+}
+
+.w-featured-site-month .sites-list .client-info {
+  width: 270px;
+  padding: 35px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-featured-site-month .sites-list .client-info .name {
+  font: 18px/1.38 Arial, sans-serif;
+}
+
+.w-featured-site-month .sites-list .client-info .link {
+  margin: 10px 0 0;
+}
+
+.w-featured-site-month .sites-list .site-item {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-featured-site-month .sites-list .site-item:first-child .devices,
+.w-featured-site-month .sites-list .site-item:first-child .client-info {
+  padding: 0 0 35px;
+}
+
+.w-featured-site-month .sites-list .site-item:last-child {
+  border-bottom: 0;
+}
+
+.w-featured-site-month .sites-list .site-item:last-child .devices,
+.w-featured-site-month .sites-list .site-item:last-child .client-info {
+  padding: 35px 0 0;
+}
+
+.w-internet-stats {
+  background-color: #fafafa;
+}
+
+.w-internet-stats .main-title {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-internet-stats .stats-subtitle {
+  padding: 0 30px 30px;
+}
+
+.w-internet-stats .stats-subtitle .line1 {
+  font: 20px/1.3 Arial, sans-serif;
+}
+
+.w-internet-stats .stats-chart {
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.w-internet-stats .stats-chart img {
+  display: block;
+  width: 540px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.w-internet-stats .stats-chart.-last {
+  padding: 0 30px 45px;
+}
+
+.w-internet-stats .stats-desc {
+  padding: 0 30px 20px;
+  text-align: center;
+}
+
+.w-internet-stats .stats-desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-simple-text .main-title {
+  padding: 45px 30px 20px;
+}
+
+.w-simple-text .desc {
+  padding: 0 30px 15px;
+}
+
+.w-simple-text .desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-simple-text .button {
+  padding: 5px 30px 45px;
+}
+
+.w-simple-text.-tip-month {
+  background-color: #00af41;
+}
+
+.w-simple-text.-tip-month .widget-type-name {
+  color: #ffffff;
+}
+
+.w-simple-text.-tip-month .widget-main-title {
+  color: #ffffff;
+}
+
+.w-simple-text.-tip-month .widget-main-title a {
+  color: #ffffff;
+}
+
+.w-simple-text.-tip-month .desc p,
+.w-simple-text.-tip-month .desc a {
+  color: #ffffff;
+}
+
+.w-simple-text.-jobs-newsletter {
+  border-bottom: 1px solid #e1e0e0;
+  background-color: #fafafa;
+}
+
+.w-simple-text.-jobs-newsletter .widget-type-name {
+  color: #06357a;
+}
+
+.w-simple-text.-jobs-newsletter .widget-main-title {
+  color: #06357a;
+  font: 700 29px/1.27 Arial, sans-serif;
+}
+
+.w-simple-text.-jobs-newsletter .widget-main-title a {
+  color: #06357a;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
+.last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.jld-newsletter .w-stories-list.-tech-news,
+.jld-newsletter .w-stories-list.-social-media-news,
+.jld-newsletter .w-text-image.-meet-our-team {
+  border-bottom: 1px solid #e7e8e8;
+}
