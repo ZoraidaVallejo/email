@@ -12,48 +12,54 @@
   td {
     text-align: center;
   }
+}
+
+// .w-advertisement.-client-ad-01 {
+//   background-color: plt('silver');
+// }
+
+.w-advertisement.-jld-ad-01 {
+  background-color: plt('justia-blue');
+
+  .justia-logo-image {
+    padding: 45px $padding 40px;
+    text-align: center;
+
+    img {
+      width: 320px;
+      margin: 0 auto;
+    }
+  }
+
+  .ad-title {
+    padding: 0 $padding;
+
+    a {
+      @include mail-font(30px);
+      color: plt('justia-blue');
+    }
+  }
 
   .ad-image {
+    padding: 0 21px 20px;
 
     img {
       display: block;
-      width: $max-width;
-      max-width: 100%;
-    }
-
-    a {
-      display: block;
+      width: 100%;
     }
   }
 
   .ad-desc {
-    padding: 0 $padding 12px;
-    text-align: center;
-
-    p {
-      @include mail-font(14px);
-    }
-
-    &.-first {
-      padding: 25px $padding 12px;
-
-      p {
-        @include mail-font($line-height: 1.5);
-      }
-    }
+    padding: 20px $padding $padding;
 
     &.-last {
-      padding: 0 $padding 25px;
+      padding: 0 $padding 45px;
     }
   }
-}
 
-.w-advertisement.-client-ad-01 {
-  background-color: plt('silver');
-}
-
-.w-advertisement.-jld-ad-01 {
-  background-color: plt('silver');
+  .ad-button {
+    padding: 0 $padding 15px;
+  }
 }
 
 .w-advertisement.-jld-ad-02 {

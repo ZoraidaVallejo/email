@@ -12,13 +12,17 @@
   },
   "jld": {
     "ad1": {
-      "image": "jld-adname-image-01.png",
-      "alt": "[alt text]",
-      "link": "#",
-      "description": [
-        "Lorem ipsum dolor sit amet.",
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
-      ]
+      "title": "Does Your Site Have The Best SEO?",
+      "image": "bets-seo-image-01.png",
+      "alt": "Does Your Site Have The Best SEO?",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v19"
+      },
+      "description": "Our SEO experts have extensive experience in law firm marketing. We take an analytical approach that focuses on building high-quality sites that search engines find relevant."
     },
     "ad2": {
       "image": "jld-adname-image-02.png",

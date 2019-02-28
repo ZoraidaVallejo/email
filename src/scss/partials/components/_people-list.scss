@@ -10,7 +10,7 @@ $ranking-number--dimensions: 25px 56px;
   border-bottom: 1px solid plt('alabaster');
   background-color: plt('alabaster');
 
-  @include change-widget-title-color(plt('white'));
+  @include change-widget-title-style(plt('white'));
 
   .list-table {
     padding: 50px $padding 30px;

@@ -5,7 +5,7 @@
 .w-stories-list {
 
   &.-tech-news {
-    @include change-widget-title-color(plt('bright-green'), false);
+    @include change-widget-title-style(plt('bright-green'), false);
 
     a {
       color: plt('bright-green');
@@ -13,7 +13,7 @@
   }
 
   &.-seo-news {
-    @include change-widget-title-color(plt('bright-blue'), false);
+    @include change-widget-title-style(plt('bright-blue'), false);
 
     a {
       color: plt('bright-blue');
@@ -21,7 +21,7 @@
   }
 
   &.-social-media-news {
-    @include change-widget-title-color(plt('orange'), false);
+    @include change-widget-title-style(plt('orange'), false);
 
     a {
       color: plt('orange');
@@ -29,7 +29,7 @@
   }
 
   &.-legal-industry-news {
-    @include change-widget-title-color(plt('mail', 'shamrock'), false);
+    @include change-widget-title-style(plt('mail', 'shamrock'), false);
 
     a {
       color: plt('mail', 'shamrock');

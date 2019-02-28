@@ -19,7 +19,7 @@
   }
 }
 
-@mixin change-widget-title-color($title, $type: $title) {
+@mixin change-widget-title-style($title, $type: $title, $titleFontWeight: false) {
   @if type-of($type) == 'color' {
 
     .widget-type-name {
@@ -29,6 +29,10 @@
 
   .widget-main-title {
     color: $title;
+
+    @if $titleFontWeight {
+      @include mail-font(29px, 1.27, $titleFontWeight);
+    }
 
     a {
       color: $title;

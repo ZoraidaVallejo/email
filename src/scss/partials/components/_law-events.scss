@@ -5,7 +5,7 @@
 .w-law-events {
   background-color: plt('bright-green');
 
-  @include change-widget-title-color(plt('white'));
+  @include change-widget-title-style(plt('white'));
 
   .main-title {
     padding: 45px $padding $padding;

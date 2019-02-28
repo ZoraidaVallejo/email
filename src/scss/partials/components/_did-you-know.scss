@@ -5,7 +5,7 @@
 .w-did-you-know {
   background-color: plt('orange');
 
-  @include change-widget-title-color(plt('white'));
+  @include change-widget-title-style(plt('white'));
 
   .main-title {
     padding: 45px $padding 20px;

@@ -3,9 +3,6 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-simple-text {
-  background-color: plt('bright-green');
-
-  @include change-widget-title-color(plt('white'));
 
   .main-title {
     padding: 45px $padding 20px;
@@ -14,11 +11,6 @@
   .desc {
     padding: 0 $padding 15px;
 
-    p,
-    a {
-      color: plt('white');
-    }
-
     &.-last {
       padding: 0 $padding 45px;
     }
@@ -26,5 +18,29 @@
 
   .button {
     padding: 5px $padding 45px;
+  }
+}
+
+.w-simple-text {
+
+  &.-tip-month {
+    background-color: plt('bright-green');
+
+    @include change-widget-title-style(plt('white'));
+
+    .desc {
+
+      p,
+      a {
+        color: plt('white');
+      }
+    }
+  }
+
+  &.-jobs-newsletter {
+    border-bottom: 1px solid darken(plt('alabaster'), 10);
+    background-color: plt('alabaster');
+
+    @include change-widget-title-style(plt('justia-blue'), $titleFontWeight: tp('weight', 'bold'));
   }
 }
