@@ -441,12 +441,12 @@ a {
 }
 
 .widget-type-name {
-  margin: 0 0 5px;
   color: #7b7d7d;
   font: 700 14px/1.1 Arial, sans-serif;
 }
 
 .widget-main-title {
+  margin: 5px 0 0;
   color: #000000;
   font: 400 29px/1.27 Arial, sans-serif;
 }
@@ -477,7 +477,7 @@ a {
   color: #ffffff;
 }
 
-.w-welcome .banner-message.-last {
+.w-welcome .banner-message.-no-button {
   padding: 0 30px 45px;
 }
 
@@ -524,6 +524,10 @@ a {
 
 .w-stories-list .story-link {
   padding: 0 30px 20px;
+}
+
+.w-stories-list .story-link p {
+  margin: 0;
 }
 
 .w-stories-list .story-link.-last {
@@ -712,7 +716,7 @@ a {
 }
 
 .w-text-image .rows-wrapper .desc-column .title {
-  padding: 0 0 10px;
+  margin: 5px 0 10px;
   font: 22px/1.45 Arial, sans-serif;
 }
 
@@ -729,7 +733,7 @@ a {
 }
 
 .w-text-image.-multiple .main-title {
-  padding: 45px 30px 10px;
+  padding: 45px 30px 15px;
 }
 
 .w-text-image.-multiple .rows-wrapper {
@@ -738,6 +742,10 @@ a {
 
 .w-text-image.-multiple .rows-wrapper .desc-column {
   padding: 30px 0;
+}
+
+.w-text-image.-multiple .rows-wrapper .desc-column .title {
+  margin: 0 0 10px;
 }
 
 .w-text-image.-multiple .rows-wrapper .image-column {
@@ -790,11 +798,13 @@ a {
 }
 
 .w-law-events .event-date {
+  margin: 0;
   color: #ffffff;
   font: 700 20px/20px Arial, sans-serif;
 }
 
 .w-law-events .event-desc {
+  margin: 0;
   color: #ffffff;
 }
 
@@ -841,8 +851,15 @@ a {
 }
 
 .w-law-events .event-1 .event-info,
-.w-law-events .event-2 .event-info {
-  height: 86px;
+.w-law-events .event-2 .event-info,
+.w-law-events .event-3 .event-info,
+.w-law-events .event-4 .event-info {
+  height: 130px;
+}
+
+.w-law-events .event-5 .event-info,
+.w-law-events .event-6 .event-info {
+  height: 108px;
 }
 
 .w-in-the-news {
@@ -926,12 +943,17 @@ a {
   padding: 0 30px 15px;
 }
 
-.w-did-you-know .desc-text p {
+.w-did-you-know .desc-text p,
+.w-did-you-know .desc-text a {
   color: #ffffff;
 }
 
-.w-did-you-know .desc-text.-last {
+.w-did-you-know .desc-text.-no-button {
   padding: 0 30px 45px;
+}
+
+.w-did-you-know .button {
+  padding: 5px 30px 45px;
 }
 
 .w-advertisement p,
@@ -990,31 +1012,31 @@ a {
   background-color: #fafafa;
 }
 
+.w-featured-site-month p {
+  margin: 0;
+}
+
 .w-featured-site-month .main-title {
   padding: 45px 30px 20px;
   text-align: center;
 }
 
-.w-featured-site-month .featured-site .client-name {
-  padding: 0 30px 10px;
+.w-featured-site-month .featured-site .client-info {
+  padding: 0 30px 30px;
   text-align: center;
 }
 
-.w-featured-site-month .featured-site .client-name p {
+.w-featured-site-month .featured-site .client-info .name {
   font: 22px/1.38 Arial, sans-serif;
+  margin: 0 0 10px;
 }
 
-.w-featured-site-month .featured-site .client-name a {
+.w-featured-site-month .featured-site .client-info .name a {
   color: #000000;
 }
 
-.w-featured-site-month .featured-site .client-info {
-  padding: 0 30px;
-  text-align: center;
-}
-
 .w-featured-site-month .featured-site .devices {
-  padding: 30px 30px 45px;
+  padding: 0 30px 45px;
   text-align: center;
 }
 
@@ -1055,7 +1077,7 @@ a {
 }
 
 .w-featured-site-month .sites-list .client-info .link {
-  padding: 10px 0 0;
+  margin: 10px 0 0;
 }
 
 .w-featured-site-month .sites-list .site-item {

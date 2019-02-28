@@ -3,13 +3,13 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-type-name {
-  margin: 0 0 5px;
   color: plt('mail', 'sirocco');
 
   @include mail-font(14px, 1.1, tp('weight', 'bold'));
 }
 
 .widget-main-title {
+  margin: 5px 0 0;
   color: plt('black');
 
   @include mail-font(29px, 1.27, tp('weight', 'normal'));

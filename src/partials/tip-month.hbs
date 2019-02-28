@@ -11,13 +11,13 @@
     </td>
   </tr>
 
-  {{#each tipMonthConfig.description}}
-    <tr>
-      <td class="tip-desc{{#if @last}}{{#not ../tipMonthConfig.button}} -last{{/not}}{{/if}}" responsive="mobile-padding-horizontal-sides">
+  <tr>
+    <td class="tip-desc{{#unless tipMonthConfig.button}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each tipMonthConfig.description}}
         <p>{{{this}}}</p>
-      </td>
-    </tr>
-  {{/each}}
+      {{/each}}
+    </td>
+  </tr>
 
   {{#if tipMonthConfig.button}}
     <tr>

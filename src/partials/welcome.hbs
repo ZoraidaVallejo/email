@@ -22,13 +22,13 @@
     </td>
   </tr>
 
-  {{#each welcomeConfig.message}}
-    <tr>
-      <td class="banner-message{{#if @last}}{{#not ../welcomeConfig.button}} -last{{/not}}{{/if}}" responsive="mobile-padding-horizontal-sides">
+  <tr>
+    <td class="banner-message{{#unless welcomeConfig.button}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each welcomeConfig.message}}
         <p>{{{this}}}</p>
-      </td>
-    </tr>
-  {{/each}}
+      {{/each}}
+    </td>
+  </tr>
 
   {{#if welcomeConfig.button}}
     <tr>

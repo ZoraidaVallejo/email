@@ -10,29 +10,56 @@
   },
   "events": [
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "dateTime": "March 5 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Proving Driver Fatigue in Trucking and Commercial Vehicle Accidents: Federal and State Laws, Evidentiary Concerns",
       "button": {
-        "link": "#link1",
+        "link": "https://www.straffordpub.com/products/proving-driver-fatigue-in-trucking-and-commercial-vehicle-accidents-federal-and-state-laws-evidentiary-concerns-2019-03-05",
         "text": "Read More"
       }
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet",
+      "dateTime": "March 6 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "HIPAA Compliance During Litigation and Discovery",
       "button": {
-        "link": "#link2",
+        "link": "https://www.straffordpub.com/products/hipaa-compliance-during-litigation-and-discovery-2019-03-06",
         "text": "Read More"
       }
     },
     {
-      "dateTime": "[date / time]",
-      "typeLocation": "[type / location]",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "dateTime": "March 11 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Cybersecurity for Lawyers: How to Anticipate, Investigate, and Litigate a Data Breach ",
       "button": {
-        "link": "#link3",
+        "link": "https://www.americanbar.org/events-cle/mtg/web/343213828/",
+        "text": "Read More"
+      }
+    },
+    {
+      "dateTime": "March 13 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Employment Law and the Gig Economy: Worker Classification, Recent Developments, and Practical Considerations",
+      "button": {
+        "link": "https://www.straffordpub.com/products/employment-law-and-the-gig-economy-worker-classification-recent-developments-and-practical-considerations-2019-03-13",
+        "text": "Read More"
+      }
+    },
+    {
+      "dateTime": "March 14 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Electronic Spying and Tracking Spouses in Divorce Cases: What’s Legal in the Digital World?",
+      "button": {
+        "link": "https://www.straffordpub.com/products/electronic-spying-and-tracking-spouses-in-divorce-cases-whats-legal-in-the-digital-world-2019-03-14 ",
+        "text": "Read More"
+      }
+    },
+    {
+      "dateTime": "March 27 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Lawyer Well-Being: What’s It Got to Do With Me? ",
+      "button": {
+        "link": "https://www.americanbar.org/events-cle/mtg/web/357336782/ ",
         "text": "Read More"
       }
     }

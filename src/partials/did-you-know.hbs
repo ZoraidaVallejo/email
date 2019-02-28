@@ -3,15 +3,24 @@
 {{#table class='w-did-you-know set-max-width'}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-title type='Did You Know?' title=didYouKnow.title link=didYouKnow.link}}
+      {{>widget-title type='Did You Know?' title=didYouKnowConfig.title link=didYouKnowConfig.link}}
+    </td>
+  </tr>
+  <tr>
+    <td class="desc-text{{#unless didYouKnowConfig.button}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each didYouKnowConfig.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
     </td>
   </tr>
 
-  {{#each didYouKnow.description}}
+  {{#if didYouKnowConfig.button}}
     <tr>
-      <td class="desc-text{{#if @last}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p>{{{this}}}</p>
+      <td class="button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle='white' href=didYouKnowConfig.button.link}}
+          {{didYouKnowConfig.button.text}}
+        {{/uiButton}}
       </td>
     </tr>
-  {{/each}}
+  {{/if}}
 {{/table}}

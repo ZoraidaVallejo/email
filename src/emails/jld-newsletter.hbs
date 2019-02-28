@@ -20,31 +20,31 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
-      {{>ui-layout-hack tableStart=true}}
+      {{>ui-layout-hack tableStart=true}}           {{!-- Added --}}
         {{>welcome welcomeConfig=welcome.jld}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>featured-news jldNewsletter=true}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>featured-site-month listSites=true}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>jld-advertisement-01}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>tech-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>seo-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>answers-leaderboard}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>social-media-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>legal-industry-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
@@ -53,25 +53,25 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>tip-month tipMonthConfig=tipMonth.jld}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>did-you-know}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
+        {{>did-you-know didYouKnowConfig=didYouKnow.jld}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>meet-our-team}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>pugs-tale}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>jld-advertisement-02}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>internet-stats}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>jurispro}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>law-events}}
 
       {{>ui-layout-hack tableEnd=true}}

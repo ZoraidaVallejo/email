@@ -45,6 +45,10 @@ $featured-image--width: 150px;
   .story-link {
     padding: 0 $padding 20px;
 
+    p {
+      margin: 0;
+    }
+
     &.-last {
       padding: 0 $padding 45px;
     }

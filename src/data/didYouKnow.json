@@ -1,8 +1,22 @@
 {
-  "title": "[title]",
-  "link": "#",
-  "description": [
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!",
-    "<b>Doloribus debitis</b> corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!"
-  ]
+  "clients": {
+    "title": "AMP Can Lead to Increase in Organic Search Traffic",
+    "link": "https://www.searchenginejournal.com/study-shows-amp-can-lead-to-increase-in-organic-search-traffic/293971/",
+    "description": [
+      "A recent study done by Stone Temple showed most sites (22 out of 26) saw gains in organic searches on mobile devices.",
+      "Across all 26 sites in the study, AMP resulted in:",
+      "27.1% increase in organic traffic<br>33.8% increase in SERP impressions<br>15.3% higher SERP click-through rates",
+      "If you have a Justia site, we've already enabled AMP to improve your firm's visibility online."
+    ]
+  },
+  "jld": {
+    "description": [
+      "At Justia, we build law firm websites that are responsive, mobile-friendly, and AMP enabled. Our commitment to high-quality, relevant websites will help you attract clients in the practice areas and locations most important to your firm. We also offer Premium Membership on the Justia & LII Lawyer directories.",
+      "If you're interested in our website and SEO services, Premium membership opportunities, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
+    ],
+    "button": {
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More"
+    }
+  }
 }

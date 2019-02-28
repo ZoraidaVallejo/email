@@ -6,7 +6,7 @@
 
 {{#if type}}<h4 class="widget-type-name">{{uppercase type}}</h4>{{/if}}
 {{#if title}}
-  <h2 class="widget-main-title">
+  <h2 class="widget-main-title{{#unless type}} no-margin{{/unless}}">
     {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}{{{title}}}{{#if link}}</a>{{/if}}
   </h2>
 {{/if}}

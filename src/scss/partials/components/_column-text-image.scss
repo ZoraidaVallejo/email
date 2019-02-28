@@ -19,7 +19,7 @@ $text-image--image-width: 210px;
       vertical-align: top;
 
       .title {
-        padding: 0 0 10px;
+        margin: 5px 0 10px;
 
         @include mail-font(22px, 1.45);
       }

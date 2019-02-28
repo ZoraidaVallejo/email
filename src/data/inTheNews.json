@@ -2,18 +2,18 @@
   "news": [
     {
       "logoName": "[alt logo name]",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Error deserunt magnam in accusamus amet unde qui, atque distinctio hic quo.",
+      "description": "Gerry Filippatos of <strong>Phillips & Associates</strong> was quoted by Bloomberg Law regarding doctor sexual assault claims",
       "button": {
         "text": "Read More",
-        "link": "#"
+        "link": "https://news.bloomberglaw.com/health-law-and-business/clergy-sex-abuse-cases-supply-model-for-doctor-assault-claims"
       }
     },
     {
       "logoName": "[alt logo name]",
-      "description": "<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. A cumque repellat cum optio aspernatur reiciendis dicta, animi asperiores culpa mollitia!",
+      "description": "Retired Justice Barry Kramer Joins <strong>McNamee Lochner P.C.</strong>",
       "button": {
         "text": "Read More",
-        "link": "#"
+        "link": "https://www.law.com/newyorklawjournal/2019/01/04/retired-justice-barry-kramer-joins-mcnamee-lochner/"
       }
     }
   ]

@@ -13,12 +13,14 @@
   }
 
   .event-date {
+    margin: 0;
     color: plt('white');
 
     @include mail-font(20px, 1, tp('weight', 'bold'));
   }
 
   .event-desc {
+    margin: 0;
     color: plt('white');
   }
 }

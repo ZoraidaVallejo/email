@@ -149,6 +149,12 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-full {
     padding: 10px !important;
   }
+  .mobile-padding-medium-top {
+    padding-top: 20px !important;
+  }
+  .mobile-padding-medium-bottom {
+    padding-bottom: 20px !important;
+  }
   .mobile-padding-uneven-top {
     padding-top: 45px !important;
   }

@@ -1,30 +1,30 @@
 {
   "sites": [
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Dietrich Law Firm P.C.",
+      "location": "Buffalo, NY",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.calljed.com/",
+        "simple": "calljed.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "The Law Offices of Peter N. Munsing, P.C.",
+      "location": "Wyomissing, PA",
+      "possessiveAdjective": "his",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.munsing.com/",
+        "simple": "munsing.com"
       }
     },
     {
-      "clientName": "[name]",
-      "location": "[location]",
-      "possessiveAdjective": "[adj]",
+      "clientName": "Byron Pugh Legal",
+      "location": "Nashville, TN",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "#",
-        "simple": "website.com"
+        "long": "https://www.byronpughlegal.com/",
+        "simple": "byronpughlegal.com"
       }
     }
   ]

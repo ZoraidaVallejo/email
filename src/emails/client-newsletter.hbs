@@ -19,52 +19,52 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
-      {{>ui-layout-hack tableStart=true}}
+      {{>ui-layout-hack tableStart=true}}           {{!-- Added --}}
         {{>welcome welcomeConfig=welcome.clients}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>featured-news clientsNewsletter=true}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>tip-month tipMonthConfig=tipMonth.clients}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>tech-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>internet-stats}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>seo-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>featured-site-month singleSite=true}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>in-the-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>inside-justia}}
+      {{!-- {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>inside-justia}} --}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>did-you-know}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
+        {{>did-you-know didYouKnowConfig=didYouKnow.clients}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>meet-our-team}}
+      {{!-- {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>meet-our-team}} --}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>social-media-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>advertisement}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>pugs-tale}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>legal-industry-news}}
 
-      {{>ui-layout-hack tableMiddleSeparator=true}}
+      {{>ui-layout-hack tableMiddleSeparator=true}} {{!-- Added --}}
         {{>law-events}}
 
       {{>ui-layout-hack tableEnd=true}}
