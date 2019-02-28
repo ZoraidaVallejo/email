@@ -4,22 +4,9 @@
 
 .w-advertisement {
 
-  p,
-  a {
-    color: plt('white');
-  }
-
   td {
     text-align: center;
   }
-}
-
-// .w-advertisement.-client-ad-01 {
-//   background-color: plt('silver');
-// }
-
-.w-advertisement.-jld-ad-01 {
-  background-color: plt('justia-blue');
 
   .justia-logo-image {
     padding: 45px $padding 40px;
@@ -62,6 +49,47 @@
   }
 }
 
+.w-advertisement.-jld-ad-01 {
+  background-color: plt('justia-blue');
+
+  p,
+  a {
+    color: plt('white');
+  }
+}
+
 .w-advertisement.-jld-ad-02 {
-  background-color: plt('silver');
+  background-color: #dcf0fe;
+
+  .justia-logo-image {
+    padding: 45px $padding 22px;
+  }
+
+  .ad-title {
+    padding: 0 $padding 28px;
+
+    a {
+      @include mail-font(40px, 1.1);
+    }
+  }
+
+  .ad-image {
+    padding: 0 $padding;
+  }
+
+  .ad-desc {
+    padding: 53px $padding $padding;
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+
+    &.-phone {
+
+      p,
+      a {
+        color: plt('justia-blue');
+      }
+    }
+  }
 }

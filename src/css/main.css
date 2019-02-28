@@ -958,61 +958,90 @@ a {
   padding: 5px 30px 45px;
 }
 
-.w-advertisement p,
-.w-advertisement a {
-  color: #ffffff;
-}
-
 .w-advertisement td {
   text-align: center;
+}
+
+.w-advertisement .justia-logo-image {
+  padding: 45px 30px 40px;
+  text-align: center;
+}
+
+.w-advertisement .justia-logo-image img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-advertisement .ad-title {
+  padding: 0 30px;
+}
+
+.w-advertisement .ad-title a {
+  font: 30px/1.38 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-advertisement .ad-image {
+  padding: 0 21px 20px;
+}
+
+.w-advertisement .ad-image img {
+  display: block;
+  width: 100%;
+}
+
+.w-advertisement .ad-desc {
+  padding: 20px 30px 30px;
+}
+
+.w-advertisement .ad-desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement .ad-button {
+  padding: 0 30px 15px;
 }
 
 .w-advertisement.-jld-ad-01 {
   background-color: #06357a;
 }
 
-.w-advertisement.-jld-ad-01 .justia-logo-image {
-  padding: 45px 30px 40px;
-  text-align: center;
-}
-
-.w-advertisement.-jld-ad-01 .justia-logo-image img {
-  width: 320px;
-  margin: 0 auto;
-}
-
-.w-advertisement.-jld-ad-01 .ad-title {
-  padding: 0 30px;
-}
-
-.w-advertisement.-jld-ad-01 .ad-title a {
-  font: 30px/1.38 Arial, sans-serif;
-  color: #06357a;
-}
-
-.w-advertisement.-jld-ad-01 .ad-image {
-  padding: 0 21px 20px;
-}
-
-.w-advertisement.-jld-ad-01 .ad-image img {
-  display: block;
-  width: 100%;
-}
-
-.w-advertisement.-jld-ad-01 .ad-desc {
-  padding: 20px 30px 30px;
-}
-
-.w-advertisement.-jld-ad-01 .ad-desc.-last {
-  padding: 0 30px 45px;
-}
-
-.w-advertisement.-jld-ad-01 .ad-button {
-  padding: 0 30px 15px;
+.w-advertisement.-jld-ad-01 p,
+.w-advertisement.-jld-ad-01 a {
+  color: #ffffff;
 }
 
 .w-advertisement.-jld-ad-02 {
-  background-color: #c0c0c0;
+  background-color: #dcf0fe;
+}
+
+.w-advertisement.-jld-ad-02 .justia-logo-image {
+  padding: 45px 30px 22px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-title {
+  padding: 0 30px 28px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-title a {
+  font: 40px/1.1 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-02 .ad-image {
+  padding: 0 30px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc {
+  padding: 53px 30px 30px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc.-last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement.-jld-ad-02 .ad-desc.-phone p,
+.w-advertisement.-jld-ad-02 .ad-desc.-phone a {
+  color: #06357a;
 }
 
 .w-featured-site-month {

@@ -1,21 +1,56 @@
 <!-- JLD ADVERTISEMENT -->
 
+{{assign 'jldAd1FullLink' (concat advertisements.jld.ad2.link (utmVariables advertisements.jld.ad2.utm))}}
+
 {{#table class='w-advertisement -jld-ad-02 set-max-width'}}
   <tr>
-    <td class="ad-image">
-      <a href="{{{advertisements.jld.ad2.link}}}" target="_blank">
-        <img src="{{resolveFilePath advertisements.jld.ad2.image}}" alt="{{advertisements.jld.ad2.alt}}" border="0" />
-      </a>
+    {{> ui-background
+      backgroundBehavior='cell'
+      backgroundStart=true
+      bgImage='higher-visibility-background-01.png'
+      bgColor='#0d497a'
+      bgWidth='600'
+    }}
+      {{#table}}
+        <tr>
+          <td class="justia-logo-image" responsive="mobile-padding-horizontal-sides">
+            <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
+              <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="ad-title" responsive="mobile-padding-horizontal-sides">
+            <a href="{{{@root.jldAd1FullLink}}}" target="_blank" responsive="mobile-fz-24">
+              <strong>{{{advertisements.jld.ad2.title}}}</strong>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="ad-image" responsive="mobile-padding-horizontal-sides">
+            <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
+              <img src="{{resolveFilePath advertisements.jld.ad2.image}}" alt="{{advertisements.jld.ad2.alt}}" border="0" />
+            </a>
+          </td>
+        </tr>
+      {{/table}}
+    {{>ui-background backgroundBehavior='cell' backgroundEnd=true}}
+  </tr>
+  <tr>
+    <td class="ad-desc" responsive="mobile-padding-horizontal-sides">
+      <p>{{{advertisements.jld.ad2.description}}}</p>
     </td>
   </tr>
-
-  {{#if advertisements.jld.ad2.description}}
-    {{#each advertisements.jld.ad2.description}}
-      <tr>
-        <td class="ad-desc{{#if @first}} -first{{/if}}{{#if @last}} -last{{/if}}" responsive="mobile-padding-top mobile-padding-horizontal-sides">
-          <p>{{{this}}}</p>
-        </td>
-      </tr>
-    {{/each}}
-  {{/if}}
+  <tr>
+    <td class="ad-button" responsive="mobile-padding-horizontal-sides">
+      {{#uiButton presetStyle='red' href=@root.jldAd1FullLink width='290' height='50' fontSize='18'}}
+        Become a Premium Member
+      {{/uiButton}}
+    </td>
+  </tr>
+  <tr>
+    <td class="ad-desc -last -phone" responsive="mobile-padding-horizontal-sides">
+      <p>Or call us at <strong><a href="tel:8885878421" target="_blank">(888) 587-8421</a></strong></p>
+    </td>
+  </tr>
 {{/table}}
