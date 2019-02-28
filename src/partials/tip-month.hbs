@@ -4,7 +4,7 @@
  * @param {Object} tipMonthConfig
 }}
 
-{{#table class='w-tip-month set-max-width'}}
+{{#table class='w-simple-text -tip-month set-max-width'}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
       {{>widget-title type='Tip of the Month' title=tipMonthConfig.title link=tipMonthConfig.link}}
@@ -12,7 +12,7 @@
   </tr>
 
   <tr>
-    <td class="tip-desc{{#unless tipMonthConfig.button}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+    <td class="desc{{#unless tipMonthConfig.button}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#each tipMonthConfig.description}}
         <p>{{{this}}}</p>
       {{/each}}
@@ -21,7 +21,7 @@
 
   {{#if tipMonthConfig.button}}
     <tr>
-      <td class="tip-button" responsive="mobile-padding-horizontal-sides">
+      <td class="button" responsive="mobile-padding-horizontal-sides">
         {{#uiButton presetStyle='white' href=tipMonthConfig.button.link}}
           {{tipMonthConfig.button.text}}
         {{/uiButton}}

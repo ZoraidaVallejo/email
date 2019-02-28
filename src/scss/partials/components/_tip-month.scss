@@ -2,7 +2,7 @@
 // T I P   O F   T H E   M O N T H   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-tip-month {
+.w-simple-text {
   background-color: plt('bright-green');
 
   @include change-widget-title-color(plt('white'));
@@ -11,7 +11,7 @@
     padding: 45px $padding 20px;
   }
 
-  .tip-desc {
+  .desc {
     padding: 0 $padding 15px;
 
     p,
@@ -24,7 +24,7 @@
     }
   }
 
-  .tip-button {
+  .button {
     padding: 5px $padding 45px;
   }
 }

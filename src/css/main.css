@@ -1144,40 +1144,40 @@ a {
   padding: 0 30px 45px;
 }
 
-.w-tip-month {
+.w-simple-text {
   background-color: #00af41;
 }
 
-.w-tip-month .widget-type-name {
+.w-simple-text .widget-type-name {
   color: #ffffff;
 }
 
-.w-tip-month .widget-main-title {
+.w-simple-text .widget-main-title {
   color: #ffffff;
 }
 
-.w-tip-month .widget-main-title a {
+.w-simple-text .widget-main-title a {
   color: #ffffff;
 }
 
-.w-tip-month .main-title {
+.w-simple-text .main-title {
   padding: 45px 30px 20px;
 }
 
-.w-tip-month .tip-desc {
+.w-simple-text .desc {
   padding: 0 30px 15px;
 }
 
-.w-tip-month .tip-desc p,
-.w-tip-month .tip-desc a {
+.w-simple-text .desc p,
+.w-simple-text .desc a {
   color: #ffffff;
 }
 
-.w-tip-month .tip-desc.-last {
+.w-simple-text .desc.-last {
   padding: 0 30px 45px;
 }
 
-.w-tip-month .tip-button {
+.w-simple-text .button {
   padding: 5px 30px 45px;
 }
 
