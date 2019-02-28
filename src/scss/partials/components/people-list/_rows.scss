@@ -39,6 +39,10 @@
         color: plt('black');
       }
 
+      p {
+        margin: 0;
+      }
+
       .name {
         @include mail-font(25px, 1.1);
       }

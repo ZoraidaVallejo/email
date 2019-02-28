@@ -1,13 +1,4 @@
 {
-  "featured": {
-    "dateTime": "[date / time]",
-    "typeLocation": "[type / location]",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "button": {
-      "link": "#featured-link",
-      "text": "Read More"
-    }
-  },
   "events": [
     {
       "dateTime": "March 5 1PM ET",

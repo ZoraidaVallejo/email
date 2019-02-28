@@ -672,6 +672,10 @@ a {
   color: #000000;
 }
 
+.w-people-list .people-rows .info p {
+  margin: 0;
+}
+
 .w-people-list .people-rows .info .name {
   font: 25px/1.1 Arial, sans-serif;
 }
