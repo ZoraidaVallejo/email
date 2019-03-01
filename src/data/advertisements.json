@@ -13,27 +13,27 @@
   "jld": {
     "ad1": {
       "title": "Does Your Site Have The Best SEO?",
-      "image": "bets-seo-image-01.png",
+      "image": "bets-seo-image-01.gif",
       "alt": "Does Your Site Have The Best SEO?",
-      "link": "https://www.justia.com/marketing/lawyer-directory/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
-        "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v19"
-      },
-      "description": "Our SEO experts have extensive experience in law firm marketing. We take an analytical approach that focuses on building high-quality sites that search engines find relevant."
-    },
-    "ad2": {
-      "title": "Want Higher Visibility?",
-      "image": "higher-visibility-image-01.png",
-      "alt": "Want Higher Visibility?",
       "link": "https://www.justia.com/marketing/law-firm-websites/",
       "utm": {
         "medium": "email",
         "campaign": "<%= currentYear %>-<%= currentMonth %>",
         "source": "directory-newsletter",
         "content": "banner-website-marketing-generic-v16"
+      },
+      "description": "Our SEO experts have extensive experience in law firm marketing. We take an analytical approach that focuses on building high-quality sites that search engines find relevant."
+    },
+    "ad2": {
+      "title": "Want Higher Visibility?",
+      "image": "higher-visibility-image-01.gif",
+      "alt": "Want Higher Visibility?",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v19"
       },
       "description": "Premium listings on the Justia Lawyer Directory increase your visibility with higher placement. In addition, premium members receive an upgraded profile with a contact form and they have the ability to view traffic stats for their profiles."
     }

@@ -4,40 +4,28 @@
 
 {{#table class='w-advertisement -jld-ad-02 set-max-width'}}
   <tr>
-    {{> ui-background
-      backgroundBehavior='cell'
-      backgroundStart=true
-      bgImage='higher-visibility-background-01.png'
-      bgColor='#0d497a'
-      bgWidth='600'
-    }}
-      {{#table}}
-        <tr>
-          <td class="justia-logo-image" responsive="mobile-padding-horizontal-sides">
-            <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
-              <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td class="ad-title" responsive="mobile-padding-horizontal-sides">
-            <a href="{{{@root.jldAd1FullLink}}}" target="_blank" responsive="mobile-fz-24">
-              <strong>{{{advertisements.jld.ad2.title}}}</strong>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td class="ad-image" responsive="mobile-padding-horizontal-sides">
-            <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
-              <img src="{{resolveFilePath advertisements.jld.ad2.image}}" alt="{{advertisements.jld.ad2.alt}}" border="0" />
-            </a>
-          </td>
-        </tr>
-      {{/table}}
-    {{>ui-background backgroundBehavior='cell' backgroundEnd=true}}
+    <td class="justia-logo-image" responsive="mobile-padding-horizontal-sides">
+      <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
+        <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
+      </a>
+    </td>
   </tr>
   <tr>
-    <td class="ad-desc" responsive="mobile-padding-horizontal-sides">
+    <td class="ad-title" responsive="mobile-padding-horizontal-sides">
+      <a href="{{{@root.jldAd1FullLink}}}" target="_blank" responsive="mobile-fz-24">
+        <strong>{{{advertisements.jld.ad2.title}}}</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="ad-image">
+      <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
+        <img src="{{resolveFilePath advertisements.jld.ad2.image}}" alt="{{advertisements.jld.ad2.alt}}" border="0" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="ad-desc" responsive="mobile-padding-medium-top mobile-padding-horizontal-sides">
       <p>{{{advertisements.jld.ad2.description}}}</p>
     </td>
   </tr>

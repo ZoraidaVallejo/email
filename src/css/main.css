@@ -963,7 +963,7 @@ a {
 }
 
 .w-advertisement .justia-logo-image {
-  padding: 45px 30px 40px;
+  padding: 45px 30px 30px;
   text-align: center;
 }
 
@@ -982,7 +982,7 @@ a {
 }
 
 .w-advertisement .ad-image {
-  padding: 0 21px 20px;
+  padding: 0;
 }
 
 .w-advertisement .ad-image img {
@@ -991,7 +991,7 @@ a {
 }
 
 .w-advertisement .ad-desc {
-  padding: 20px 30px 30px;
+  padding: 0 30px 30px;
 }
 
 .w-advertisement .ad-desc.-last {
@@ -1006,9 +1006,13 @@ a {
   background-color: #06357a;
 }
 
-.w-advertisement.-jld-ad-01 p,
-.w-advertisement.-jld-ad-01 a {
+.w-advertisement.-jld-ad-01 .ad-desc p,
+.w-advertisement.-jld-ad-01 .ad-desc a {
   color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .justia-logo-image a {
+  color: #06357a;
 }
 
 .w-advertisement.-jld-ad-02 {
@@ -1017,10 +1021,12 @@ a {
 
 .w-advertisement.-jld-ad-02 .justia-logo-image {
   padding: 45px 30px 22px;
+  background-color: #ffffff;
 }
 
 .w-advertisement.-jld-ad-02 .ad-title {
   padding: 0 30px 28px;
+  background-color: #ffffff;
 }
 
 .w-advertisement.-jld-ad-02 .ad-title a {
@@ -1028,11 +1034,11 @@ a {
 }
 
 .w-advertisement.-jld-ad-02 .ad-image {
-  padding: 0 30px;
+  background-color: #ffffff;
 }
 
 .w-advertisement.-jld-ad-02 .ad-desc {
-  padding: 53px 30px 30px;
+  padding: 35px 30px 30px;
 }
 
 .w-advertisement.-jld-ad-02 .ad-desc.-last {

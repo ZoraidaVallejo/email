@@ -9,7 +9,7 @@
   }
 
   .justia-logo-image {
-    padding: 45px $padding 40px;
+    padding: 45px $padding 30px;
     text-align: center;
 
     img {
@@ -28,7 +28,7 @@
   }
 
   .ad-image {
-    padding: 0 21px 20px;
+    padding: 0;
 
     img {
       display: block;
@@ -37,7 +37,7 @@
   }
 
   .ad-desc {
-    padding: 20px $padding $padding;
+    padding: 0 $padding $padding;
 
     &.-last {
       padding: 0 $padding 45px;
@@ -52,9 +52,18 @@
 .w-advertisement.-jld-ad-01 {
   background-color: plt('justia-blue');
 
-  p,
-  a {
-    color: plt('white');
+  .ad-desc {
+    p,
+    a {
+      color: plt('white');
+    }
+  }
+
+  .justia-logo-image {
+
+    a {
+      color: plt('justia-blue');
+    }
   }
 }
 
@@ -63,10 +72,12 @@
 
   .justia-logo-image {
     padding: 45px $padding 22px;
+    background-color: plt('white');
   }
 
   .ad-title {
     padding: 0 $padding 28px;
+    background-color: plt('white');
 
     a {
       @include mail-font(40px, 1.1);
@@ -74,11 +85,11 @@
   }
 
   .ad-image {
-    padding: 0 $padding;
+    background-color: plt('white');
   }
 
   .ad-desc {
-    padding: 53px $padding $padding;
+    padding: 35px $padding $padding;
 
     &.-last {
       padding: 0 $padding 45px;
