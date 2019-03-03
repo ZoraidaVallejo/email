@@ -2,7 +2,7 @@
 // M A I N
 // ----------------------------------------------------------------------------------------------------------
 
-.widget-type-name {
+.widget-section-name {
   color: plt('mail', 'sirocco');
 
   @include mail-font(14px, 1.1, tp('weight', 'bold'));
@@ -22,7 +22,7 @@
 @mixin change-widget-title-style($title, $type: $title, $titleFontWeight: false) {
   @if type-of($type) == 'color' {
 
-    .widget-type-name {
+    .widget-section-name {
       color: $type;
     }
   }

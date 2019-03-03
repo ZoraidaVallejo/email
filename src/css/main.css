@@ -438,7 +438,7 @@ a {
   font-size: 0;
 }
 
-.widget-type-name {
+.widget-section-name {
   color: #7b7d7d;
   font: 700 14px/1.1 Arial, sans-serif;
 }
@@ -612,7 +612,7 @@ a {
   background-color: #fafafa;
 }
 
-.w-people-list .widget-type-name {
+.w-people-list .widget-section-name {
   color: #ffffff;
 }
 
@@ -782,7 +782,7 @@ a {
   background-color: #00af41;
 }
 
-.w-law-events .widget-type-name {
+.w-law-events .widget-section-name {
   color: #ffffff;
 }
 
@@ -925,7 +925,7 @@ a {
   background-color: #ff6b00;
 }
 
-.w-did-you-know .widget-type-name {
+.w-did-you-know .widget-section-name {
   color: #ffffff;
 }
 
@@ -1202,7 +1202,7 @@ a {
   background-color: #00af41;
 }
 
-.w-simple-text.-tip-month .widget-type-name {
+.w-simple-text.-tip-month .widget-section-name {
   color: #ffffff;
 }
 
@@ -1224,7 +1224,7 @@ a {
   background-color: #fafafa;
 }
 
-.w-simple-text.-jobs-newsletter .widget-type-name {
+.w-simple-text.-jobs-newsletter .widget-section-name {
   color: #06357a;
 }
 

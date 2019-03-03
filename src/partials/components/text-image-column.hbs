@@ -15,7 +15,7 @@
   {{#gt (length widgetRows) 1}}
     <tr>
       <td class="main-title" responsive="mobile-padding-horizontal-sides">
-        {{>widget-title type=widgetType title=false}}
+        {{>widget-title section=widgetType title=false}}
       </td>
     </tr>
   {{/gt}}
@@ -27,7 +27,7 @@
           <tr>
             <td class="desc-column" responsive="collapse-one">
               {{#eq (length ../widgetRows) 1}}
-                {{>widget-title type=../widgetType title=false}}
+                {{>widget-title section=../widgetType title=false}}
               {{/eq}}
 
               <p class="title">{{{this.title}}}</p>
