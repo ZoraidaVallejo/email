@@ -5,13 +5,13 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 
 {{>preheader text="News and developments from Justia and the tech world ----- "}}
 
-{{#table class='jld-newsletter' align=''}}
+{{#table class="jld-newsletter" align=""}}
 
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
       {{>main-header
         withDate=true
-        logoName='insights'
+        logoName="insights"
         logoLink=default.header.logo.link.jld.url
         logoUtmVars=default.header.logo.link.jld.utm
       }}
@@ -22,63 +22,6 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
     <td height="100%" width="100%" class="align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
         {{>welcome welcomeConfig=welcome.jld}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>featured-news jldNewsletter=true}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>featured-site-month listSites=true}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>jld-advertisement-01}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>tech-news}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>seo-news}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>did-you-know didYouKnowConfig=didYouKnow.jld}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        <!-- ASK A LAWYER LEADERBOARD -->
-        {{>people-list widgetClasses='-answers-leaderboard' peopleListConfig=answersLeaderboard }}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>social-media-news}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>legal-industry-news}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        <!-- FEATURED ANNOTATOR -->
-        {{>people-list widgetClasses='-annotator' peopleListConfig=annotator }}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>tip-month tipMonthConfig=tipMonth.jld}}
-
-      {{!-- {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>meet-our-team}} --}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>jobs-newsletter}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>pugs-tale}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>internet-stats}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>jld-advertisement-02}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>jurispro}}
-
-      {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>law-events}}
-
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
@@ -87,8 +30,8 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
     <td height="100%" width="100%" class="align-center valign-top">
       {{>main-footer
         socialOnTop=true
-        lookAndFeel='light-bright'
-        logoName='insights'
+        lookAndFeel="light-bright"
+        logoName="insights"
         logoLink=default.footer.logo.link.jld.url
         logoUtmVars=default.footer.logo.link.jld.utm
         navigationElements=default.footer.navigation.items
