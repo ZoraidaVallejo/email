@@ -1245,6 +1245,11 @@ a {
   color: #06357a;
 }
 
+.full-size {
+  width: 100%;
+  height: 100%;
+}
+
 .align-center {
   text-align: center;
 }

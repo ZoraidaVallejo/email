@@ -6,9 +6,8 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 {{>preheader text="News and developments from Justia and the tech world ----- "}}
 
 {{#table class="jld-newsletter" align=""}}
-
   <tr>
-    <td height="100%" width="100%" class="align-center valign-top">
+    <td class="full-size align-center valign-top">
       {{>main-header
         withDate=true
         logoName="insights"
@@ -17,17 +16,19 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
       }}
     </td>
   </tr>
-
   <tr>
-    <td height="100%" width="100%" class="align-center valign-top">
+    <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
         {{>welcome widgetConfig=welcome.jld}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>featured-news jldNewsletter=true}}
+
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
-
   <tr>
-    <td height="100%" width="100%" class="align-center valign-top">
+    <td class="full-size align-center valign-top">
       {{>main-footer
         socialOnTop=true
         lookAndFeel="light-bright"
@@ -40,5 +41,4 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
       }}
     </td>
   </tr>
-
 {{/table}}
