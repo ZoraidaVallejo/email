@@ -1,4 +1,9 @@
 {
+  "widget": {
+    "section": "Ask a Lawyer",
+    "title": "Participating Lawyers",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
   "people": [
     {
       "id": "000000",
@@ -41,6 +46,8 @@
       "photoLink": "https://lawyers.justia.com/"
     }
   ],
+  "photoImagePrefix": "leaderboard-photo-",
+  "showRanking": true,
   "description": "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month.",
   "button": {
     "link": "https://answers.justia.com/about-legal-answers",

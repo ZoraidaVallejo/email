@@ -7,7 +7,6 @@ $ranking-number--dimensions: 25px 56px;
 // ----------------------------------------------------------------------------------------------------------
 
 .w-people-list {
-  border-bottom: 1px solid plt('alabaster');
   background-color: plt('alabaster');
 
   @include change-widget-title-style(plt('white'));
@@ -21,6 +20,14 @@ $ranking-number--dimensions: 25px 56px;
   }
 
   .list-desc {
-    padding: 0 $padding 45px;
+    padding: 0 $padding 15px;
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+  }
+
+  .list-button {
+    padding: 5px $padding 45px;
   }
 }

@@ -608,7 +608,6 @@ a {
 }
 
 .w-people-list {
-  border-bottom: 1px solid #fafafa;
   background-color: #fafafa;
 }
 
@@ -633,7 +632,15 @@ a {
 }
 
 .w-people-list .list-desc {
+  padding: 0 30px 15px;
+}
+
+.w-people-list .list-desc.-last {
   padding: 0 30px 45px;
+}
+
+.w-people-list .list-button {
+  padding: 5px 30px 45px;
 }
 
 .w-people-list .people-rows {
@@ -658,6 +665,7 @@ a {
 
 .w-people-list .people-rows .photo img {
   width: 70px;
+  height: 70px;
   max-width: 100%;
 }
 

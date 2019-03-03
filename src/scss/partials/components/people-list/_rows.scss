@@ -8,11 +8,8 @@
     background-color: plt('white');
     table-layout: fixed;
 
-    tr:not(:last-child) {
-
-      td {
-        border-bottom: 1px solid plt('mail', 'black-haze');
-      }
+    tr:not(:last-child) td {
+      border-bottom: 1px solid plt('mail', 'black-haze');
     }
 
     img {
@@ -26,7 +23,7 @@
       vertical-align: middle;
 
       img {
-        width: 70px;
+        @include size(70px);
         max-width: 100%;
       }
     }

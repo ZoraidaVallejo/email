@@ -1,33 +1,54 @@
 {{!
- * @param {String} peopleListWidgetClass
- * @param {String} widgetType
- * @param {String} widgetTitle
- * @param {String} widgetTitleLink
+ * @param {String} widgetClasses
+ * @param {Object} peopleListConfig
 }}
 
-{{#table class=(concat 'w-people-list' peopleListWidgetClass 'set-max-width' separator=' ')}}
+{{#and peopleListConfig.button (compare peopleListConfig.button.link "!==" "")}}
+  {{assign 'peopleListWidgetButton' true}}
+{{/and}}
+
+{{#table class=(concat "w-people-list" widgetClasses "set-max-width" separator=" ")}}
   <tr>
     <td class="list-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
-      {{#table align=''}}
+      {{#table align=""}}
         <tr>
           <td class="main-title" responsive="mobile-padding-horizontal-sides">
-            {{>widget-header section=widgetType title=widgetTitle link=widgetTitleLink}}
+            {{>widget-header
+              section=peopleListConfig.widget.section
+              title=peopleListConfig.widget.title
+              link=peopleListConfig.widget.link
+            }}
           </td>
         </tr>
         <tr>
           <td>
-            {{#table align='' class='people-rows'}}
-              {{#forEach annotator.people}}
+            {{#table align="" class="people-rows"}}
+              {{#forEach peopleListConfig.people}}
                 <tr>
                   <td class="photo" responsive="mobile-padding-left">
-                    <a href="{{{this.photoLink}}}" target="_blank">
-                      <img src="{{resolveFilePath (concat 'annotator-photo-0' index '.png')}}" alt="{{this.name}}" border="0" />
-                    </a>
+                    {{#if this.photoLink}}<a href="{{{this.photoLink}}}" target="_blank">{{/if}}
+                      <img
+                        src="{{resolveFilePath (concat ../peopleListConfig.photoImagePrefix '0' index '.png')}}"
+                        alt="{{this.name}}"
+                        border="0" />
+                    {{#if this.photoLink}}</a>{{/if}}
                   </td>
                   <td class="info" responsive="mobile-padding-horizontal-sides">
-                    <p class="name" responsive="mobile-fz-20"><a href="{{{this.nameLink}}}" target="_blank">{{{this.name}}}</a></p>
-                    <p class="location"><b>{{#uppercase}}{{this.location}}{{/uppercase}}</b></p>
+                    <p class="name" responsive="mobile-fz-20">
+                      {{#if this.nameLink}}<a href="{{{this.nameLink}}}" target="_blank">{{/if}}{{{this.name}}}{{#if this.nameLink}}</a>{{/if}}
+                    </p>
+                    <p class="location">
+                      <b>{{#uppercase}}{{this.location}}{{/uppercase}}</b>
+                    </p>
                   </td>
+                  {{#if ../peopleListConfig.showRanking}}
+                    <td class="ranking" responsive="mobile-padding-right">
+                      <img
+                        src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{index}}{{#if isFirst}}-green{{/if}}.png"
+                        alt="{{index}}"
+                        border="0" />
+                    </td>
+                  {{/if}}
                 </tr>
               {{/forEach}}
             {{/table}}
@@ -37,12 +58,17 @@
     </td>
   </tr>
   <tr>
-    <td class="list-desc" responsive="mobile-padding-horizontal-sides">
-      <p>{{{annotator.description}}}</p>
-      <br>
-      {{#uiButton href=annotator.button.link}}
-        {{annotator.button.text}}
-      {{/uiButton}}
+    <td class="list-desc{{#unless @root.peopleListWidgetButton}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <p>{{{peopleListConfig.description}}}</p>
     </td>
   </tr>
+  {{#if @root.peopleListWidgetButton}}
+    <tr>
+      <td class="list-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton href=peopleListConfig.button.link}}
+          {{peopleListConfig.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
 {{/table}}
