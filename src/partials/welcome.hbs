@@ -1,40 +1,43 @@
 <!-- WELCOME MESSAGE -->
 
 {{!
- * @param {Object} welcomeConfig
+ * @param {Object} widgetConfig
 }}
 
-{{#table class='w-welcome set-max-width'}}
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "welcomeWidgetMainButton" true}}
+{{/and}}
+
+{{#table class="w-welcome set-max-width"}}
   <tr>
     {{>ui-background
-      backgroundBehavior='cell'
+      backgroundBehavior="cell"
       backgroundStart=true
       backgroundEnd=true
-      bgImage='https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png'
-      bgColor='#00b3e3'
-      bgWidth='600'
-      bgHeight='169'
+      bgImage="https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png"
+      bgColor="#00b3e3"
+      bgWidth="600"
+      bgHeight="169"
     }}
   </tr>
   <tr>
-    <td class="banner-title" responsive="mobile-padding-horizontal-sides">
-      <h1><span>{{{welcomeConfig.title.line1}}}</span>&nbsp;<br responsive="mobile-hide">{{{welcomeConfig.title.line2}}}</h1>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      <h1><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
     </td>
   </tr>
-
   <tr>
-    <td class="banner-message{{#unless welcomeConfig.button}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#each welcomeConfig.message}}
+    <td class="description{{#unless @root.welcomeWidgetMainButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each widgetConfig.message}}
         <p>{{{this}}}</p>
       {{/each}}
     </td>
   </tr>
 
-  {{#if welcomeConfig.button}}
+  {{#if @root.welcomeWidgetMainButton}}
     <tr>
-      <td class="banner-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle='white' href=welcomeConfig.button.link}}
-          {{welcomeConfig.button.text}}
+      <td class="button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
+          {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>
     </tr>

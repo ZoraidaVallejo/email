@@ -5,7 +5,7 @@
 .w-welcome {
   background-color: plt('bright-blue');
 
-  .banner-title {
+  .main-title {
     padding: 0 $padding 20px;
 
     h1 {
@@ -15,7 +15,7 @@
     }
   }
 
-  .banner-message {
+  .description {
     padding: 0 $padding 15px;
 
     p,
@@ -28,7 +28,7 @@
     }
   }
 
-  .banner-button {
+  .button {
     padding: 5px $padding 45px;
   }
 }

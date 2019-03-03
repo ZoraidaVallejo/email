@@ -457,29 +457,29 @@ a {
   background-color: #00b3e3;
 }
 
-.w-welcome .banner-title {
+.w-welcome .main-title {
   padding: 0 30px 20px;
 }
 
-.w-welcome .banner-title h1 {
+.w-welcome .main-title h1 {
   color: #ffffff;
   font: 400 22px/1.3 Arial, sans-serif;
 }
 
-.w-welcome .banner-message {
+.w-welcome .description {
   padding: 0 30px 15px;
 }
 
-.w-welcome .banner-message p,
-.w-welcome .banner-message a {
+.w-welcome .description p,
+.w-welcome .description a {
   color: #ffffff;
 }
 
-.w-welcome .banner-message.-no-button {
+.w-welcome .description.-no-button {
   padding: 0 30px 45px;
 }
 
-.w-welcome .banner-button {
+.w-welcome .button {
   padding: 5px 30px 45px;
 }
 
