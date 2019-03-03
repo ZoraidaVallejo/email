@@ -12,34 +12,35 @@ $use-breakpoint: false;
   'mail-template-builder';
 
 @import
-  'partials/main-container';
+  'mixins',
+  'main/widgets',
+  'main/widgets/welcome';
 
 @import
-  'partials/components/welcome',
-  'partials/components/stories-list',
-  'partials/components/stories-list/widgets',
-  'partials/components/people-list',
-  'partials/components/people-list/rows',
-  'partials/components/people-list/widgets',
-  'partials/components/column-text-image',
-  'partials/components/column-text-image/multiple-rows',
-  'partials/components/column-text-image/widgets',
-  'partials/components/law-events',
-  'partials/components/law-events/featured-event',
-  'partials/components/law-events/event-list',
-  'partials/components/law-events/custom',
-  'partials/components/in-the-news',
-  'partials/components/did-you-know',
-  'partials/components/advertisement',
-  'partials/components/featured-site-month',
-  'partials/components/featured-site-month/featured-site',
-  'partials/components/featured-site-month/sites-list',
-  'partials/components/internet-stats',
-  'partials/components/tip-month';
+  'main/components/stories-list',
+  'main/components/stories-list/widgets',
+  'main/components/people-list',
+  'main/components/people-list/rows',
+  'main/components/people-list/widgets',
+  'main/components/column-text-image',
+  'main/components/column-text-image/multiple-rows',
+  'main/components/column-text-image/widgets',
+  'main/components/law-events',
+  'main/components/law-events/featured-event',
+  'main/components/law-events/event-list',
+  'main/components/law-events/custom',
+  'main/components/in-the-news',
+  'main/components/did-you-know',
+  'main/components/advertisement',
+  'main/components/featured-site-month',
+  'main/components/featured-site-month/featured-site',
+  'main/components/featured-site-month/sites-list',
+  'main/components/internet-stats',
+  'main/components/tip-month';
 
 @import
-  'partials/other';
+  'main/utilities';
 
 @import
-  'partials/components/client-specific',
-  'partials/components/jld-specific';
+  'main/components/client-specific',
+  'main/components/jld-specific';
