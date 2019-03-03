@@ -492,13 +492,17 @@ a {
 }
 
 .w-stories-list .featured-story {
-  padding: 0 30px 20px;
+  padding: 0 30px 45px;
 }
 
-.w-stories-list .featured-story .desc {
+.w-stories-list .featured-story .description {
   width: 360px;
   text-align: left;
   vertical-align: top;
+}
+
+.w-stories-list .featured-story .description.-with-button p:last-of-type {
+  margin: 0 0 20px;
 }
 
 .w-stories-list .featured-story .image {
@@ -510,10 +514,6 @@ a {
 .w-stories-list .featured-story .image img {
   display: block;
   width: 150px;
-}
-
-.w-stories-list .story-button {
-  padding: 0 30px 45px;
 }
 
 .w-stories-list .story-links-title {

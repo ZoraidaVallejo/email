@@ -22,7 +22,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{>welcome widgetConfig=welcome.jld}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>featured-news jldNewsletter=true}}
+        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

@@ -1,21 +1,36 @@
 {
-  "title": "6 Fast Ways to Boost the ROI of Your Client Development Campaigns",
-  "link": "https://onward.justia.com/2019/02/27/6-fast-ways-to-boost-the-roi-of-your-client-development-campaigns/",
+  "sectionName": "Featured News",
+  "title": "[featured article title]",
+  "link": "https://onward.justia.com/",
+  "image": "tech-news-01.png",
   "utm": {
-    "medium": "email",
-    "campaign": "<%= currentYear %>-<%= currentMonth %>",
-    "source": {
-      "clients": "client-newsletter",
-      "jld": "directory-newsletter"
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= currentYear %>-<%= currentMonth %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
     },
-    "content": {
-      "title": "text-onward-post-title-1",
-      "image": "image-onward-post-1",
-      "button": "button-learn-more-1"
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= currentYear %>-<%= currentMonth %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
     }
   },
-  "description": "Many law firms underestimate the importance of prompt and consistent communications with clients and prospective clients. Our team describes six simple changes you can make to the way you communicate with clients to minimize your missed opportunities and get more out of your marketing campaigns.",
+  "description": [
+    "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi. Molestiae eaque amet, fugit excepturi praesentium culpa, quae perferendis delectus ea corporis quia hic recusandae dolore, suscipit cumque?]",
+    "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde similique sint, animi.]"
+  ],
   "button": {
+    "style": "light-blue",
     "text": "Learn More"
   }
 }

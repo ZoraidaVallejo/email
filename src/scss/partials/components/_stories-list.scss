@@ -14,12 +14,16 @@ $featured-image--width: 150px;
   }
 
   .featured-story {
-    padding: 0 $padding 20px;
+    padding: 0 $padding 45px;
 
-    .desc {
+    .description {
       width: ($inner-max-width - $featured-image--width - $padding);
       text-align: left;
       vertical-align: top;
+
+      &.-with-button p:last-of-type {
+        margin: 0 0 20px;
+      }
     }
 
     .image {
@@ -32,10 +36,6 @@ $featured-image--width: 150px;
         width: $featured-image--width;
       }
     }
-  }
-
-  .story-button {
-    padding: 0 $padding 45px;
   }
 
   .story-links-title {

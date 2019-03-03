@@ -1,55 +1,40 @@
 <!-- TECH NEWS -->
 
-{{#if featuredNews.link}}
-  {{#if clientsNewsletter}}
-    {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.title)}}
-    {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.image)}}
+{{#and featuredNews.link (compare featuredNews.link "!==" "")}}
+  {{assign "featuredNewsTitleLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsImageLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+  {{#if featuredNews.button}}
+    {{assign "featuredNewsButtonLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
   {{/if}}
-  {{#if jldNewsletter}}
-    {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.title)}}
-    {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.image)}}
-  {{/if}}
-  {{assign 'featuredNewsMainTitleFullLink' (concat featuredNews.link @root.featuredNewsMainTitleVars)}}
-{{/if}}
-{{#if featuredNews.button}}
-  {{#if clientsNewsletter}}
-    {{assign 'featuredNewsButtonVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.button)}}
-  {{/if}}
-  {{#if jldNewsletter}}
-    {{assign 'featuredNewsButtonVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.button)}}
-  {{/if}}
-{{/if}}
+{{/and}}
 
-{{#table class='w-stories-list -featured-news set-max-width'}}
+{{#table class="w-stories-list -featured-news set-max-width"}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header section='Featured News' title=featuredNews.title link=@root.featuredNewsMainTitleFullLink}}
+      {{>widget-header section=featuredNews.sectionName title=featuredNews.title link=@root.featuredNewsTitleLink}}
     </td>
   </tr>
   <tr>
     <td class="featured-story" responsive="mobile-padding-horizontal-sides">
-      {{#table align=''}}
+      {{#table align=""}}
         <tr>
-          <td class="desc" responsive="collapse-one mobile-no-padding-horizontal-sides">
-            <p>{{{featuredNews.description}}}</p>
+          <td class="description{{#if @root.featuredNewsButtonLink}} -with-button{{/if}}" responsive="collapse-one mobile-no-padding-horizontal-sides">
+            {{#each featuredNews.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+            {{#if @root.featuredNewsButtonLink}}
+              {{#uiButton presetStyle=featuredNews.button.style href=@root.featuredNewsButtonLink}}
+                {{featuredNews.button.text}}
+              {{/uiButton}}
+            {{/if}}
           </td>
           <td class="image" responsive="mobile-hide">
-            {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsImageVars}}}" target="_blank">{{/if}}
-              <img src="{{resolveFilePath 'tech-news-01.png'}}" alt="{{featuredNews.title}}" border="0" />
-            {{#if featuredNews.link}}</a>{{/if}}
+            {{#if @root.featuredNewsImageLink}}<a href="{{{@root.featuredNewsImageLink}}}" target="_blank">{{/if}}
+              <img src="{{resolveFilePath featuredNews.image}}" alt="{{featuredNews.title}}" border="0" />
+            {{#if @root.featuredNewsImageLink}}</a>{{/if}}
           </td>
         </tr>
       {{/table}}
     </td>
   </tr>
-
-  {{#if featuredNews.button}}
-    <tr>
-      <td class="story-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton href=(concat featuredNews.link @root.featuredNewsButtonVars)}}
-          {{featuredNews.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
 {{/table}}
