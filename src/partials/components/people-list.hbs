@@ -1,0 +1,48 @@
+{{!
+ * @param {String} peopleListWidgetClass
+ * @param {String} widgetType
+ * @param {String} widgetTitle
+ * @param {String} widgetTitleLink
+}}
+
+{{#table class=(concat 'w-people-list' peopleListWidgetClass 'set-max-width' separator=' ')}}
+  <tr>
+    <td class="list-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
+      {{#table align=''}}
+        <tr>
+          <td class="main-title" responsive="mobile-padding-horizontal-sides">
+            {{>widget-title type=widgetType title=widgetTitle link=widgetTitleLink}}
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {{#table align='' class='people-rows'}}
+              {{#forEach annotator.people}}
+                <tr>
+                  <td class="photo" responsive="mobile-padding-left">
+                    <a href="{{{this.photoLink}}}" target="_blank">
+                      <img src="{{resolveFilePath (concat 'annotator-photo-0' index '.png')}}" alt="{{this.name}}" border="0" />
+                    </a>
+                  </td>
+                  <td class="info" responsive="mobile-padding-horizontal-sides">
+                    <p class="name" responsive="mobile-fz-20"><a href="{{{this.nameLink}}}" target="_blank">{{{this.name}}}</a></p>
+                    <p class="location"><b>{{#uppercase}}{{this.location}}{{/uppercase}}</b></p>
+                  </td>
+                </tr>
+              {{/forEach}}
+            {{/table}}
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="list-desc" responsive="mobile-padding-horizontal-sides">
+      <p>{{{annotator.description}}}</p>
+      <br>
+      {{#uiButton href=annotator.button.link}}
+        {{annotator.button.text}}
+      {{/uiButton}}
+    </td>
+  </tr>
+{{/table}}
