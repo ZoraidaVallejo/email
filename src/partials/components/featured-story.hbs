@@ -1,0 +1,27 @@
+{{!
+ * @param {Object} widgetConfig
+}}
+
+<tr>
+  <td class="featured-story" responsive="mobile-padding-horizontal-sides">
+    {{#table align=""}}
+      <tr>
+        <td class="description{{#if widgetConfig.buttonLink}} -with-button{{/if}}" responsive="collapse-one mobile-no-padding-horizontal-sides">
+          {{#each widgetConfig.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+          {{#if widgetConfig.buttonLink}}
+            {{#uiButton presetStyle=widgetConfig.buttonStyle href=widgetConfig.buttonLink}}
+              {{widgetConfig.buttonText}}
+            {{/uiButton}}
+          {{/if}}
+        </td>
+        <td class="image" responsive="mobile-hide">
+          {{#if widgetConfig.imageLink}}<a href="{{{widgetConfig.imageLink}}}" target="_blank">{{/if}}
+            <img src="{{resolveFilePath widgetConfig.imageName}}" alt="{{widgetConfig.imageAlt}}" border="0" />
+          {{#if widgetConfig.imageLink}}</a>{{/if}}
+        </td>
+      </tr>
+    {{/table}}
+  </td>
+</tr>

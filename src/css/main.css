@@ -27,6 +27,10 @@ p:last-child {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 a {
   color: #00b3e3;
   text-decoration: none;
@@ -484,6 +488,7 @@ a {
 }
 
 .w-stories-list {
+  border-bottom: 1px solid #e2231a;
   background-color: #ffffff;
 }
 
@@ -512,23 +517,30 @@ a {
 }
 
 .w-stories-list .featured-story .image img {
-  display: block;
   width: 150px;
 }
 
-.w-stories-list .story-links-title {
+.w-stories-list .stories-links-title {
   padding: 0 30px 30px;
 }
 
-.w-stories-list .story-link {
+.w-stories-list .stories-links {
   padding: 0 30px 20px;
 }
 
-.w-stories-list .story-link p {
+.w-stories-list .stories-links .title {
   margin: 0;
 }
 
-.w-stories-list .story-link.-last {
+.w-stories-list .stories-links .description {
+  margin: 0 0 20px;
+}
+
+.w-stories-list .stories-links .description.-last {
+  margin: 0;
+}
+
+.w-stories-list .stories-links.-last {
   padding: 0 30px 45px;
 }
 
@@ -596,14 +608,14 @@ a {
   padding: 0 30px 45px;
 }
 
-.w-stories-list.-jurispro .featured-story .desc,
+.w-stories-list.-jurispro .featured-story .description,
 .w-stories-list.-jurispro .featured-story .image {
   padding: 0 0 45px;
   border-bottom: 1px solid #e7e8e8;
   vertical-align: middle;
 }
 
-.w-stories-list.-jurispro .featured-story .desc p {
+.w-stories-list.-jurispro .featured-story .description p {
   font: 20px/1.38 Arial, sans-serif;
 }
 
@@ -1272,11 +1284,6 @@ a {
 
 .valign-bottom {
   vertical-align: bottom;
-}
-
-.last {
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 
 .no-padding {

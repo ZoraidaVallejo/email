@@ -24,6 +24,18 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>tech-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>seo-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>social-media-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>legal-industry-news}}
+
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>

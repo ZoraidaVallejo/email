@@ -1,0 +1,27 @@
+<!-- JURISPRO -->
+
+{{#table class="w-stories-list -jurispro set-max-width"}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header section=jurispro.sectionName title=jurispro.title link=jurispro.link}}
+    </td>
+  </tr>
+
+  {{>featured-story
+    widgetConfig=(toObject description=jurispro.description imageLink=jurispro.link imageName=jurispro.image imageAlt=(sanitize jurispro.title))
+  }}
+
+  <tr>
+    <td class="stories-links-title" responsive="mobile-padding-horizontal-sides">
+      <p><b>Recent cases involving expert witness testimony:</b></p>
+    </td>
+  </tr>
+
+  {{>stories-list widgetConfig=(toObject isLast=false list=jurispro.cases)}}
+
+  <tr>
+    <td class="extra-info -last" responsive="mobile-padding-horizontal-sides">
+      <p>Learn how to research experts here: <a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></p>
+    </td>
+  </tr>
+{{/table}}

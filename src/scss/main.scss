@@ -14,11 +14,14 @@ $use-breakpoint: false;
 @import
   'mixins',
   'main/widgets',
-  'main/widgets/welcome';
+  'main/widgets/welcome',
+
+  'main/widgets/stories-list',
+  'main/widgets/stories-list/featured',
+  'main/widgets/stories-list/list',
+  'main/widgets/stories-list/custom';
 
 @import
-  'main/components/stories-list',
-  'main/components/stories-list/widgets',
   'main/components/people-list',
   'main/components/people-list/rows',
   'main/components/people-list/widgets',
