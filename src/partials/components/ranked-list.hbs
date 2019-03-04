@@ -4,7 +4,7 @@
 }}
 
 {{#and peopleListConfig.button (compare peopleListConfig.button.link "!==" "")}}
-  {{assign 'peopleListWidgetButton' true}}
+  {{assign "peopleListWidgetButton" true}}
 {{/and}}
 
 {{#table class=(concat "w-people-list" widgetClasses "set-max-width" separator=" ")}}
@@ -28,7 +28,7 @@
                   <td class="photo" responsive="mobile-padding-left">
                     {{#if this.photoLink}}<a href="{{{this.photoLink}}}" target="_blank">{{/if}}
                       <img
-                        src="{{resolveFilePath (concat ../peopleListConfig.photoImagePrefix '0' index '.png')}}"
+                        src="{{resolveFilePath (concat ../peopleListConfig.photoImagePrefix "0" index ".png")}}"
                         alt="{{this.name}}"
                         border="0" />
                     {{#if this.photoLink}}</a>{{/if}}

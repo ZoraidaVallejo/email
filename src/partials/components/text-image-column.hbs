@@ -5,9 +5,9 @@
 }}
 
 {{#gt (length widgetRows) 1}}
-  {{assign 'textImageAllClasses' (concat 'w-text-image' widgetClass '-multiple' 'set-max-width' separator=' ')}}
+  {{assign "textImageAllClasses" (concat "w-text-image" widgetClass "-multiple" "set-max-width" separator=" ")}}
 {{else}}
-  {{assign 'textImageAllClasses' (concat 'w-text-image' widgetClass 'set-max-width' separator=' ')}}
+  {{assign "textImageAllClasses" (concat "w-text-image" widgetClass "set-max-width" separator=" ")}}
 {{/gt}}
 
 {{#table class=@root.textImageAllClasses}}
@@ -23,7 +23,7 @@
   <tr>
     <td class="rows-wrapper" responsive="mobile-padding-horizontal-sides">
       {{#forEach widgetRows}}
-        {{#table align='' class=(concat 'row-item -itm-' index)}}
+        {{#table align="" class=(concat "row-item -itm-" index)}}
           <tr>
             <td class="desc-column" responsive="collapse-one">
               {{#eq (length ../widgetRows) 1}}

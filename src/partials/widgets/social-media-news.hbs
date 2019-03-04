@@ -1,17 +1,11 @@
 <!-- SOCIAL MEDIA NEWS -->
 
-{{#table class='w-stories-list -social-media-news set-max-width'}}
+{{#table class="w-stories-list -social-media-news set-max-width"}}
   <tr>
     <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title='Social Media News'}}
+      {{>widget-header title="Social Media News"}}
     </td>
   </tr>
-  {{#forEach socialMediaNews.articles}}
-    <tr>
-      <td class="story-link{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-        <p><strong><a href="{{this.link}}" target="_blank">{{{this.title}}}</a></strong></p>
-        <p>{{{this.description}}}</p>
-      </td>
-    </tr>
-  {{/forEach}}
+
+  {{>stories-list widgetConfig=(toObject isLast=true list=socialMediaNews.articles)}}
 {{/table}}
