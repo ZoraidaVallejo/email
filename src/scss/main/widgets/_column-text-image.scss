@@ -12,7 +12,7 @@ $text-image--image-width: 210px;
   .rows-wrapper {
     padding: 45px $padding;
 
-    .desc-column {
+    .description {
       width: ($inner-max-width - $text-image--image-width - $padding);
       padding: 0;
       text-align: left;
@@ -25,14 +25,13 @@ $text-image--image-width: 210px;
       }
     }
 
-    .image-column {
+    .image {
       width: ($text-image--image-width + $padding);
       padding: 20px 0 0;
       text-align: right;
       vertical-align: top;
 
       img {
-        display: block;
         width: $text-image--image-width;
       }
     }

@@ -1,10 +1,9 @@
 {{!
- * @param {String} widgetType
  * @param {String} widgetClass
- * @param {String} widgetRows
+ * @param {Object} widgetConfig
 }}
 
-{{#gt (length widgetRows) 1}}
+{{#gt (length widgetConfig.blocks) 1}}
   {{assign "textImageAllClasses" (concat "w-text-image" widgetClass "-multiple" "set-max-width" separator=" ")}}
 {{else}}
   {{assign "textImageAllClasses" (concat "w-text-image" widgetClass "set-max-width" separator=" ")}}
@@ -12,28 +11,30 @@
 
 {{#table class=@root.textImageAllClasses}}
 
-  {{#gt (length widgetRows) 1}}
+  {{#gt (length widgetConfig.blocks) 1}}
     <tr>
       <td class="main-title" responsive="mobile-padding-horizontal-sides">
-        {{>widget-header section=widgetType title=false}}
+        {{>widget-header section=widgetConfig.sectionName title=false}}
       </td>
     </tr>
   {{/gt}}
 
   <tr>
     <td class="rows-wrapper" responsive="mobile-padding-horizontal-sides">
-      {{#forEach widgetRows}}
+      {{#forEach widgetConfig.blocks}}
         {{#table align="" class=(concat "row-item -itm-" index)}}
           <tr>
-            <td class="desc-column" responsive="collapse-one">
-              {{#eq (length ../widgetRows) 1}}
-                {{>widget-header section=../widgetType title=false}}
+            <td class="description" responsive="collapse-one">
+              {{#eq (length ../widgetConfig.blocks) 1}}
+                {{>widget-header section=../widgetConfig.sectionName title=false}}
               {{/eq}}
 
               <p class="title">{{{this.title}}}</p>
-              <p class="text">{{{this.description}}}</p>
+              {{#each this.description}}
+                <p>{{{this}}}</p>
+              {{/each}}
             </td>
-            <td class="image-column" responsive="mobile-hide collapse-one">
+            <td class="image" responsive="mobile-hide">
               {{#if this.image.src}}
                 {{#if this.image.link}}<a href="{{{this.image.link}}}" target="_blank">{{/if}}
                   <img src="{{resolveFilePath this.image.src}}" alt="{{this.title}}" border="0" />

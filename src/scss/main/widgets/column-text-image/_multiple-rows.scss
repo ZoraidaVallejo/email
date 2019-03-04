@@ -13,7 +13,7 @@
     .rows-wrapper {
       padding: 0 $padding 45px;
 
-      .desc-column {
+      .description {
         padding: $padding 0;
 
         .title {
@@ -21,7 +21,7 @@
         }
       }
 
-      .image-column {
+      .image {
         padding: ($padding + 5px) 0 $padding;
       }
     }
@@ -31,11 +31,11 @@
 
       &:first-child {
 
-        .desc-column {
+        .description {
           padding: 0 0 $padding;
         }
 
-        .image-column {
+        .image {
           padding: 5px 0 $padding;
         }
       }
@@ -43,11 +43,11 @@
       &:last-child {
         border-bottom: 0;
 
-        .desc-column {
+        .description {
           padding: $padding 0 0;
         }
 
-        .image-column {
+        .image {
           padding: ($padding + 5px) 0 0;
         }
       }
