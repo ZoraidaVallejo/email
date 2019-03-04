@@ -1,0 +1,31 @@
+<!-- INTERNET STATS -->
+
+{{#table class="w-internet-stats set-max-width"}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title="Internet Stats"}}
+    </td>
+  </tr>
+  <tr>
+    <td class="subtitle" responsive="mobile-padding-horizontal-sides">
+      <p>{{{widgetConfig.subtitle}}}</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="chart{{#unless widgetConfig.description}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#if widgetConfig.link}}<a href="{{widgetConfig.link}}" target="_blank">{{/if}}
+        <img src="{{resolveFilePath widgetConfig.image}}" alt="{{sanitize widgetConfig.subtitle}}" />
+      {{#if widgetConfig.link}}</a>{{/if}}
+    </td>
+  </tr>
+
+  {{#if widgetConfig.description}}
+    <tr>
+      <td class="description -last" responsive="mobile-padding-horizontal-sides">
+        {{#each widgetConfig.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

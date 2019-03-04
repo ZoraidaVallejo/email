@@ -690,6 +690,47 @@ a {
   color: #06357a;
 }
 
+.w-internet-stats {
+  background-color: #fafafa;
+}
+
+.w-internet-stats .main-title {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-internet-stats .subtitle {
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.w-internet-stats .subtitle p {
+  font: 20px/1.3 Arial, sans-serif;
+}
+
+.w-internet-stats .chart {
+  padding: 0 30px 30px;
+  text-align: center;
+}
+
+.w-internet-stats .chart img {
+  width: 540px;
+  max-width: 100%;
+}
+
+.w-internet-stats .chart.-last {
+  padding: 0 30px 45px;
+}
+
+.w-internet-stats .description {
+  padding: 0 30px 20px;
+  text-align: center;
+}
+
+.w-internet-stats .description.-last {
+  padding: 0 30px 45px;
+}
+
 .w-people-list {
   background-color: #fafafa;
 }
@@ -1192,48 +1233,6 @@ a {
 .w-featured-site-month .sites-list .site-item:last-child .devices,
 .w-featured-site-month .sites-list .site-item:last-child .client-info {
   padding: 35px 0 0;
-}
-
-.w-internet-stats {
-  background-color: #fafafa;
-}
-
-.w-internet-stats .main-title {
-  padding: 45px 30px 30px;
-  text-align: center;
-}
-
-.w-internet-stats .stats-subtitle {
-  padding: 0 30px 30px;
-}
-
-.w-internet-stats .stats-subtitle .line1 {
-  font: 20px/1.3 Arial, sans-serif;
-}
-
-.w-internet-stats .stats-chart {
-  padding: 0 30px 30px;
-  text-align: center;
-}
-
-.w-internet-stats .stats-chart img {
-  display: block;
-  width: 540px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.w-internet-stats .stats-chart.-last {
-  padding: 0 30px 45px;
-}
-
-.w-internet-stats .stats-desc {
-  padding: 0 30px 20px;
-  text-align: center;
-}
-
-.w-internet-stats .stats-desc.-last {
-  padding: 0 30px 45px;
 }
 
 .full-size {

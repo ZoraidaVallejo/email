@@ -15,16 +15,15 @@ $use-breakpoint: false;
   'mixins',
   'main/widgets',
   'main/widgets/welcome',
-
   'main/widgets/stories-list',
   'main/widgets/stories-list/featured',
   'main/widgets/stories-list/list',
   'main/widgets/stories-list/custom',
-
   'main/widgets/simple-text',
-  'main/widgets/simple-text/custom';
+  'main/widgets/simple-text/custom',
 
-@import
+  'main/widgets/internet-stats',
+
   'main/components/people-list',
   'main/components/people-list/rows',
   'main/components/people-list/widgets',
@@ -40,9 +39,7 @@ $use-breakpoint: false;
   'main/components/featured-site-month',
   'main/components/featured-site-month/featured-site',
   'main/components/featured-site-month/sites-list',
-  'main/components/internet-stats';
 
-@import
   'main/utilities';
 
 @import
