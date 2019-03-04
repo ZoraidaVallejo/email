@@ -1,25 +1,6 @@
 // ----------------------------------------------------------------------------------------------------------
-// T I P   O F   T H E   M O N T H   W I D G E T
+// S I M P L E   T E X T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
-
-.w-simple-text {
-
-  .main-title {
-    padding: 45px $padding 20px;
-  }
-
-  .desc {
-    padding: 0 $padding 15px;
-
-    &.-last {
-      padding: 0 $padding 45px;
-    }
-  }
-
-  .button {
-    padding: 5px $padding 45px;
-  }
-}
 
 .w-simple-text {
 
@@ -42,5 +23,32 @@
     background-color: plt('alabaster');
 
     @include change-widget-title-style(plt('justia-blue'), $titleFontWeight: tp('weight', 'bold'));
+  }
+}
+
+.w-did-you-know {
+  background-color: plt('orange');
+
+  @include change-widget-title-style(plt('white'));
+
+  .main-title {
+    padding: 45px $padding 20px;
+  }
+
+  .desc-text {
+    padding: 0 $padding 15px;
+
+    p,
+    a {
+      color: plt('white');
+    }
+
+    &.-no-button {
+      padding: 0 $padding 45px;
+    }
+  }
+
+  .button {
+    padding: 5px $padding 45px;
   }
 }

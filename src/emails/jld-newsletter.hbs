@@ -31,10 +31,19 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{>seo-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>did-you-know didYouKnowConfig=didYouKnow.jld}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>social-media-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>legal-industry-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>tip-month tipMonthConfig=tipMonth.jld}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>jobs-newsletter}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>jurispro}}

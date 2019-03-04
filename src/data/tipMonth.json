@@ -1,21 +1,23 @@
 {
   "clients": {
-    "title": "Use Only Offices with On-site Staff in Your GMB Listings",
+    "title": "[title]",
     "description": [
-      "Google recently clarified guidelines on <strong><a href=\"https://support.google.com/business/answer/3038177\" target=\"_blank\">virtual offices</a></strong>. If you have a virtual office with an answering service, that will not count as an official representative of your business to qualify for a GMB page. You must have your own staff on-site."
+      "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus expedita, ipsam sapiente distinctio at vero aliquam enim quaerat dolore reiciendis maiores porro tempora quibusdam.]",
+      "[Esse libero laudantium id, sed cupiditate.]"
     ],
     "button": {
-      "link": "https://support.google.com/business/answer/3038177",
+      "link": "#",
       "text": "Read More"
     }
   },
   "jld": {
-    "title": "Increase Your Exposure to Prospective Clients With Justia Ask a Lawyer",
+    "title": "[title]",
     "description": [
-      "Justia Ask A Lawyer provides a platform for non-lawyers to post basic legal questions online and get free responses from attorneys. Answering questions allows you to earn points and get noticed in our legal practice area forums. In turn, point leaders appear on highlighted leaderboards across our site. Sign up to receive an email in real time when a question is submitted in your practice area and locality, allowing you to be the first to answer a question and earn more points!"
+      "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!]",
+      "[Doloribus debitis corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!]"
     ],
     "button": {
-      "link": "https://answers.justia.com/",
+      "link": "#",
       "text": "Learn More"
     }
   }

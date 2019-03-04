@@ -19,7 +19,10 @@ $use-breakpoint: false;
   'main/widgets/stories-list',
   'main/widgets/stories-list/featured',
   'main/widgets/stories-list/list',
-  'main/widgets/stories-list/custom';
+  'main/widgets/stories-list/custom',
+
+  'main/widgets/simple-text',
+  'main/widgets/simple-text/custom';
 
 @import
   'main/components/people-list',
@@ -33,17 +36,15 @@ $use-breakpoint: false;
   'main/components/law-events/event-list',
   'main/components/law-events/custom',
   'main/components/in-the-news',
-  'main/components/did-you-know',
   'main/components/advertisement',
   'main/components/featured-site-month',
   'main/components/featured-site-month/featured-site',
   'main/components/featured-site-month/sites-list',
-  'main/components/internet-stats',
-  'main/components/tip-month';
+  'main/components/internet-stats';
 
 @import
   'main/utilities';
 
 @import
-  'main/components/client-specific',
-  'main/components/jld-specific';
+  'main/client-specific',
+  'main/jld-specific';
