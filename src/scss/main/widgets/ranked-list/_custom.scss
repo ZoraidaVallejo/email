@@ -2,18 +2,18 @@
 // P E O P L E   L I S T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-people-list {
+.w-ranked-list {
 
   &.-annotator {
 
-    .list-table .main-title {
+    .ranking-table .main-title {
       background-color: plt('orange');
     }
   }
 
   &.-answers-leaderboard {
 
-    .list-table .main-title {
+    .ranking-table .main-title {
       background-color: plt('bright-green');
     }
   }

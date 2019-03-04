@@ -6,12 +6,12 @@ $ranking-number--dimensions: 25px 56px;
 
 // ----------------------------------------------------------------------------------------------------------
 
-.w-people-list {
+.w-ranked-list {
   background-color: plt('alabaster');
 
   @include change-widget-title-style(plt('white'));
 
-  .list-table {
+  .ranking-table {
     padding: 50px $padding 30px;
 
     .main-title {
@@ -19,15 +19,15 @@ $ranking-number--dimensions: 25px 56px;
     }
   }
 
-  .list-desc {
+  .description {
     padding: 0 $padding 15px;
 
-    &.-last {
+    &.-no-buttom {
       padding: 0 $padding 45px;
     }
   }
 
-  .list-button {
+  .button {
     padding: 5px $padding 45px;
   }
 }

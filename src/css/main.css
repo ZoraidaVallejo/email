@@ -954,106 +954,102 @@ a {
   padding: 35px 0 0;
 }
 
-.w-people-list {
+.w-ranked-list {
   background-color: #fafafa;
 }
 
-.w-people-list .widget-section-name {
+.w-ranked-list .widget-section-name {
   color: #ffffff;
 }
 
-.w-people-list .widget-main-title {
+.w-ranked-list .widget-main-title {
   color: #ffffff;
 }
 
-.w-people-list .widget-main-title a {
+.w-ranked-list .widget-main-title a {
   color: #ffffff;
 }
 
-.w-people-list .list-table {
+.w-ranked-list .ranking-table {
   padding: 50px 30px 30px;
 }
 
-.w-people-list .list-table .main-title {
+.w-ranked-list .ranking-table .main-title {
   padding: 20px 30px 15px;
 }
 
-.w-people-list .list-desc {
+.w-ranked-list .description {
   padding: 0 30px 15px;
 }
 
-.w-people-list .list-desc.-last {
+.w-ranked-list .description.-no-buttom {
   padding: 0 30px 45px;
 }
 
-.w-people-list .list-button {
+.w-ranked-list .button {
   padding: 5px 30px 45px;
 }
 
-.w-people-list .people-rows {
+.w-ranked-list .position-row {
   background-color: #ffffff;
   table-layout: fixed;
 }
 
-.w-people-list .people-rows tr:not(:last-child) td {
+.w-ranked-list .position-row tr:not(:last-child) td {
   border-bottom: 1px solid #e7e8e8;
 }
 
-.w-people-list .people-rows img {
-  display: block;
-}
-
-.w-people-list .people-rows .photo {
+.w-ranked-list .position-row .photo {
   width: 70px;
   padding: 10px 0 10px 30px;
   text-align: right;
   vertical-align: middle;
 }
 
-.w-people-list .people-rows .photo img {
+.w-ranked-list .position-row .photo img {
   width: 70px;
   height: 70px;
   max-width: 100%;
 }
 
-.w-people-list .people-rows .info {
+.w-ranked-list .position-row .info {
   padding: 10px 25px;
   vertical-align: middle;
 }
 
-.w-people-list .people-rows .info a {
+.w-ranked-list .position-row .info a {
   color: #000000;
 }
 
-.w-people-list .people-rows .info p {
+.w-ranked-list .position-row .info p {
   margin: 0;
 }
 
-.w-people-list .people-rows .info .name {
+.w-ranked-list .position-row .info .name {
   font: 25px/1.1 Arial, sans-serif;
 }
 
-.w-people-list .people-rows .info .location {
+.w-ranked-list .position-row .info .location {
   font: 12px/1.1 Arial, sans-serif;
 }
 
-.w-people-list .people-rows .ranking {
+.w-ranked-list .position-row .ranking {
   width: 25px;
   padding: 10px 30px 10px 0;
   text-align: left;
   vertical-align: middle;
 }
 
-.w-people-list .people-rows .ranking img {
+.w-ranked-list .position-row .ranking img {
   width: 25px;
   height: 56px;
 }
 
-.w-people-list.-annotator .list-table .main-title {
+.w-ranked-list.-annotator .ranking-table .main-title {
   background-color: #ff6b00;
 }
 
-.w-people-list.-answers-leaderboard .list-table .main-title {
+.w-ranked-list.-answers-leaderboard .ranking-table .main-title {
   background-color: #00af41;
 }
 

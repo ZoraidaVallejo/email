@@ -37,10 +37,16 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{>did-you-know widgetConfig=didYouKnow.jld}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>answers-leaderboard}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>social-media-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>legal-industry-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>annotator}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>tip-month widgetConfig=tipMonth.jld}}

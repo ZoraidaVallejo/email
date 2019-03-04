@@ -1,37 +1,33 @@
 {{!
- * @param {String} widgetClasses
- * @param {Object} peopleListConfig
+ * @param {String} widgetClass
+ * @param {Object} widgetConfig
 }}
 
-{{#and peopleListConfig.button (compare peopleListConfig.button.link "!==" "")}}
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
   {{assign "peopleListWidgetButton" true}}
 {{else}}
   {{assign "peopleListWidgetButton" false}}
 {{/and}}
 
-{{#table class=(concat "w-people-list" widgetClasses "set-max-width" separator=" ")}}
+{{#table class=(concat "w-ranked-list" widgetClass "set-max-width" separator=" ")}}
   <tr>
-    <td class="list-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
+    <td class="ranking-table" responsive="mobile-no-padding-top mobile-no-padding-horizontal-sides">
       {{#table align=""}}
         <tr>
           <td class="main-title" responsive="mobile-padding-horizontal-sides">
-            {{>widget-header
-              section=peopleListConfig.widget.section
-              title=peopleListConfig.widget.title
-              link=peopleListConfig.widget.link
-            }}
+            {{>widget-header section=widgetConfig.section title=widgetConfig.title link=widgetConfig.link}}
           </td>
         </tr>
         <tr>
           <td>
-            {{#table align="" class="people-rows"}}
-              {{#forEach peopleListConfig.people}}
+            {{#table align="" class="position-row"}}
+              {{#forEach widgetConfig.list}}
                 <tr>
                   <td class="photo" responsive="mobile-padding-left">
                     {{#if this.photoLink}}<a href="{{{this.photoLink}}}" target="_blank">{{/if}}
                       <img
-                        src="{{resolveFilePath (concat ../peopleListConfig.photoImagePrefix "0" index ".png")}}"
-                        alt="{{this.name}}"
+                        src="{{resolveFilePath (concat ../widgetConfig.photoImagePrefix "0" index ".png")}}"
+                        alt="{{sanitize this.name}}"
                         border="0" />
                     {{#if this.photoLink}}</a>{{/if}}
                   </td>
@@ -43,7 +39,7 @@
                       <b>{{#uppercase}}{{this.location}}{{/uppercase}}</b>
                     </p>
                   </td>
-                  {{#if ../peopleListConfig.showRanking}}
+                  {{#if ../widgetConfig.showRanking}}
                     <td class="ranking" responsive="mobile-padding-right">
                       <img
                         src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{index}}{{#if isFirst}}-green{{/if}}.png"
@@ -60,15 +56,17 @@
     </td>
   </tr>
   <tr>
-    <td class="list-desc{{#unless @root.peopleListWidgetButton}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <p>{{{peopleListConfig.description}}}</p>
+    <td class="description{{#unless @root.peopleListWidgetButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each widgetConfig.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
     </td>
   </tr>
   {{#if @root.peopleListWidgetButton}}
     <tr>
-      <td class="list-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton href=peopleListConfig.button.link}}
-          {{peopleListConfig.button.text}}
+      <td class="button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
+          {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>
     </tr>

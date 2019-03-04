@@ -2,18 +2,14 @@
 // P E O P L E   L I S T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-people-list {
+.w-ranked-list {
 
-  .people-rows {
+  .position-row {
     background-color: plt('white');
     table-layout: fixed;
 
     tr:not(:last-child) td {
       border-bottom: 1px solid plt('mail', 'black-haze');
-    }
-
-    img {
-      display: block;
     }
 
     .photo {
