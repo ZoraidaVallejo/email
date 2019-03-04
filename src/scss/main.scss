@@ -24,6 +24,10 @@ $use-breakpoint: false;
 
   'main/widgets/internet-stats',
 
+  'main/widgets/featured-site-month',
+  'main/widgets/featured-site-month/featured-site',
+  'main/widgets/featured-site-month/sites-list',
+
   'main/components/people-list',
   'main/components/people-list/rows',
   'main/components/people-list/widgets',
@@ -36,9 +40,6 @@ $use-breakpoint: false;
   'main/components/law-events/custom',
   'main/components/in-the-news',
   'main/components/advertisement',
-  'main/components/featured-site-month',
-  'main/components/featured-site-month/featured-site',
-  'main/components/featured-site-month/sites-list',
 
   'main/utilities';
 
