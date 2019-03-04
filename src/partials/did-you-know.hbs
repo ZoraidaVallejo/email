@@ -1,26 +1,3 @@
 <!-- DID YOU KNOW? -->
 
-{{#table class='w-did-you-know set-max-width'}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header section='Did You Know?' title=didYouKnowConfig.title link=didYouKnowConfig.link}}
-    </td>
-  </tr>
-  <tr>
-    <td class="desc-text{{#unless didYouKnowConfig.button}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#each didYouKnowConfig.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
-    </td>
-  </tr>
-
-  {{#if didYouKnowConfig.button}}
-    <tr>
-      <td class="button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle='white' href=didYouKnowConfig.button.link}}
-          {{didYouKnowConfig.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
-{{/table}}
+{{>simple-text widgetClass="-did-you-know"}}

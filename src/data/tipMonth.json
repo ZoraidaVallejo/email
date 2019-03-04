@@ -1,23 +1,27 @@
 {
   "clients": {
+    "sectionName": "Tip of the Month",
     "title": "[title]",
     "description": [
       "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus expedita, ipsam sapiente distinctio at vero aliquam enim quaerat dolore reiciendis maiores porro tempora quibusdam.]",
       "[Esse libero laudantium id, sed cupiditate.]"
     ],
     "button": {
-      "link": "#",
+      "style": "white",
+      "link": "https://www.justia.com/",
       "text": "Read More"
     }
   },
   "jld": {
+    "sectionName": "Tip of the Month",
     "title": "[title]",
     "description": [
       "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!]",
       "[Doloribus debitis corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!]"
     ],
     "button": {
-      "link": "#",
+      "style": "white",
+      "link": "https://www.justia.com/",
       "text": "Learn More"
     }
   }

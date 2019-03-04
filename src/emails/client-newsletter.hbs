@@ -25,7 +25,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>tip-month tipMonthConfig=tipMonth.clients}}
+        {{>tip-month widgetConfig=tipMonth.clients}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>tech-news}}
@@ -34,7 +34,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
         {{>seo-news}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>did-you-know didYouKnowConfig=didYouKnow.clients}}
+        {{>did-you-know widgetConfig=didYouKnow.clients}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>social-media-news}}

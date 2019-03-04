@@ -1,5 +1,6 @@
 {
   "clients": {
+    "sectionName": "Did You Know?",
     "title": "[title]",
     "link": "https://www.justia.com/",
     "description": [
@@ -8,11 +9,13 @@
     ]
   },
   "jld": {
+    "sectionName": "Did You Know?",
     "description": [
       "[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error harum perspiciatis vel, cupiditate recusandae odio, repellat sint!]",
       "[<b>Doloribus debitis</b> corporis illo culpa officiis qui, tempore harum suscipit id possimus maiores!]"
     ],
     "button": {
+      "style": "white",
       "link": "https://www.justia.com/",
       "text": "Learn More"
     }

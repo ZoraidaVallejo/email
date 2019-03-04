@@ -1,31 +1,3 @@
 <!-- TIP OF THE MONTH -->
 
-{{!
- * @param {Object} tipMonthConfig
-}}
-
-{{#table class='w-simple-text -tip-month set-max-width'}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header section='Tip of the Month' title=tipMonthConfig.title link=tipMonthConfig.link}}
-    </td>
-  </tr>
-
-  <tr>
-    <td class="desc{{#unless tipMonthConfig.button}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#each tipMonthConfig.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
-    </td>
-  </tr>
-
-  {{#if tipMonthConfig.button}}
-    <tr>
-      <td class="button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle='white' href=tipMonthConfig.button.link}}
-          {{tipMonthConfig.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
-{{/table}}
+{{>simple-text widgetClass="-tip-month"}}

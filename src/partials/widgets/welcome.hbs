@@ -6,6 +6,8 @@
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
   {{assign "welcomeWidgetMainButton" true}}
+{{else}}
+  {{assign "welcomeWidgetMainButton" false}}
 {{/and}}
 
 {{#table class="w-welcome set-max-width"}}

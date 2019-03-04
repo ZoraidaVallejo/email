@@ -5,6 +5,8 @@
 
 {{#and peopleListConfig.button (compare peopleListConfig.button.link "!==" "")}}
   {{assign "peopleListWidgetButton" true}}
+{{else}}
+  {{assign "peopleListWidgetButton" false}}
 {{/and}}
 
 {{#table class=(concat "w-people-list" widgetClasses "set-max-width" separator=" ")}}

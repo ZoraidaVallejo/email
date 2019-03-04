@@ -622,16 +622,22 @@ a {
   padding: 45px 30px 20px;
 }
 
-.w-simple-text .desc {
+.w-simple-text .description {
   padding: 0 30px 15px;
 }
 
-.w-simple-text .desc.-last {
+.w-simple-text .description.-no-button {
   padding: 0 30px 45px;
 }
 
 .w-simple-text .button {
   padding: 5px 30px 45px;
+}
+
+.w-simple-text.-tip-month .description p,
+.w-simple-text.-tip-month .description a, .w-simple-text.-did-you-know .description p,
+.w-simple-text.-did-you-know .description a {
+  color: #ffffff;
 }
 
 .w-simple-text.-tip-month {
@@ -650,8 +656,19 @@ a {
   color: #ffffff;
 }
 
-.w-simple-text.-tip-month .desc p,
-.w-simple-text.-tip-month .desc a {
+.w-simple-text.-did-you-know {
+  background-color: #ff6b00;
+}
+
+.w-simple-text.-did-you-know .widget-section-name {
+  color: #ffffff;
+}
+
+.w-simple-text.-did-you-know .widget-main-title {
+  color: #ffffff;
+}
+
+.w-simple-text.-did-you-know .widget-main-title a {
   color: #ffffff;
 }
 
@@ -671,43 +688,6 @@ a {
 
 .w-simple-text.-jobs-newsletter .widget-main-title a {
   color: #06357a;
-}
-
-.w-did-you-know {
-  background-color: #ff6b00;
-}
-
-.w-did-you-know .widget-section-name {
-  color: #ffffff;
-}
-
-.w-did-you-know .widget-main-title {
-  color: #ffffff;
-}
-
-.w-did-you-know .widget-main-title a {
-  color: #ffffff;
-}
-
-.w-did-you-know .main-title {
-  padding: 45px 30px 20px;
-}
-
-.w-did-you-know .desc-text {
-  padding: 0 30px 15px;
-}
-
-.w-did-you-know .desc-text p,
-.w-did-you-know .desc-text a {
-  color: #ffffff;
-}
-
-.w-did-you-know .desc-text.-no-button {
-  padding: 0 30px 45px;
-}
-
-.w-did-you-know .button {
-  padding: 5px 30px 45px;
 }
 
 .w-people-list {

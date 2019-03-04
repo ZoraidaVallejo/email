@@ -8,7 +8,12 @@
   </tr>
 
   {{>featured-story
-    widgetConfig=(toObject description=jurispro.description imageLink=jurispro.link imageName=jurispro.image imageAlt=(sanitize jurispro.title))
+    widgetConfig=(toObject
+      description=jurispro.description
+      imageLink=jurispro.link
+      imageName=jurispro.image
+      imageAlt=(sanitize jurispro.title)
+    )
   }}
 
   <tr>
