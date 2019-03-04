@@ -18,7 +18,7 @@
         </td>
         <td class="image" responsive="mobile-hide">
           {{#if widgetConfig.imageLink}}<a href="{{{widgetConfig.imageLink}}}" target="_blank">{{/if}}
-            <img src="{{resolveFilePath widgetConfig.imageName}}" alt="{{widgetConfig.imageAlt}}" border="0" />
+            <img src="{{resolveFilePath widgetConfig.imageName}}" alt="{{sanitize widgetConfig.imageAlt}}" border="0" />
           {{#if widgetConfig.imageLink}}</a>{{/if}}
         </td>
       </tr>

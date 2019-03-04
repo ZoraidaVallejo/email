@@ -3,9 +3,9 @@
 {{#and featuredNews.link (compare featuredNews.link "!==" "")}}
   {{assign "featuredNewsTitleLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
   {{assign "featuredNewsImageLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
-  {{#if featuredNews.button}}
-    {{assign "featuredNewsButtonLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
-  {{/if}}
+{{/and}}
+{{#and featuredNews.button (compare featuredNews.button.link "!==" "")}}
+  {{assign "featuredNewsButtonLink" (concat featuredNews.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
 {{/and}}
 
 {{assign "featuredNewsWidgetConfig" (toObject

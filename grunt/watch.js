@@ -4,7 +4,7 @@ module.exports = {
       'common/**/*',
       '<%= paths.src %>/emails/*',
       '<%= paths.src %>/layouts/*',
-      '<%= paths.src %>/data/*',
+      '<%= paths.src %>/data/**/*',
       '<%= paths.src %>/scss/**/*',
       '<%= paths.src %>/partials/**/*'
     ],
