@@ -6,12 +6,12 @@
   },
   "people": [
     {
-      "id": "000000",
+      "id": "0000000",
       "rank": 1,
       "name": "[name]",
       "location": "[location]",
-      "nameLink": "http://law.justia.com/",
-      "photoLink": "https://lawyers.justia.com/"
+      "nameLink": "",
+      "photoLink": ""
     }
   ],
   "photoImagePrefix": "annotator-photo-",
