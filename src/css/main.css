@@ -819,6 +819,66 @@ a {
   padding: 35px 0 0;
 }
 
+.w-in-the-news {
+  background-color: #ffffff;
+}
+
+.w-in-the-news .main-title {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-in-the-news .news-list {
+  padding: 0 30px 30px;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-list .logo {
+  width: 180px;
+  padding: 30px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-list .logo img {
+  width: 150px;
+  max-width: 83%;
+  height: auto;
+}
+
+.w-in-the-news .news-list .description {
+  width: 360px;
+  padding: 30px 0;
+  vertical-align: top;
+}
+
+.w-in-the-news .news-list .description p:last-of-type {
+  margin: 0 0 20px;
+}
+
+.w-in-the-news .news-item {
+  border-bottom: 1px solid #e7e8e8;
+}
+
+.w-in-the-news .news-item:first-child .logo,
+.w-in-the-news .news-item:first-child .description {
+  padding: 0 0 30px;
+}
+
+.w-in-the-news .news-item:last-child {
+  border-bottom: 0;
+}
+
+.w-in-the-news .news-item:last-child .logo,
+.w-in-the-news .news-item:last-child .description {
+  padding: 30px 0 0;
+}
+
+.w-in-the-news .extra-info {
+  padding: 0 30px 45px;
+  text-align: center;
+}
+
 .w-people-list {
   background-color: #fafafa;
 }
@@ -1082,63 +1142,6 @@ a {
 .w-law-events .event-5 .event-info,
 .w-law-events .event-6 .event-info {
   height: 108px;
-}
-
-.w-in-the-news {
-  background-color: #ffffff;
-}
-
-.w-in-the-news .main-title {
-  padding: 45px 30px 30px;
-  text-align: center;
-}
-
-.w-in-the-news .news-list {
-  padding: 0 30px 30px;
-  vertical-align: top;
-}
-
-.w-in-the-news .news-list .logo {
-  width: 180px;
-  padding: 30px 0;
-  text-align: left;
-  vertical-align: top;
-}
-
-.w-in-the-news .news-list .logo img {
-  display: block;
-  width: 150px;
-  max-width: 83%;
-  height: auto;
-}
-
-.w-in-the-news .news-list .desc {
-  width: 360px;
-  padding: 30px 0;
-  vertical-align: top;
-}
-
-.w-in-the-news .news-item {
-  border-bottom: 1px solid #e7e8e8;
-}
-
-.w-in-the-news .news-item:first-child .logo,
-.w-in-the-news .news-item:first-child .desc {
-  padding: 0 0 30px;
-}
-
-.w-in-the-news .news-item:last-child {
-  border-bottom: 0;
-}
-
-.w-in-the-news .news-item:last-child .logo,
-.w-in-the-news .news-item:last-child .desc {
-  padding: 30px 0 0;
-}
-
-.w-in-the-news .extra-info {
-  padding: 0 30px 45px;
-  text-align: center;
 }
 
 .w-advertisement td {
