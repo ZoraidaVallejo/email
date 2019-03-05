@@ -11,14 +11,14 @@ $event-table-width: (($inner-max-width / 2) - ($padding / 2));
   .law-events-list {
     padding: 0 $padding;
 
-    .button {
+    .event-button {
       padding: 20px 0 40px;
     }
   }
 
   .last-event-row {
 
-    .law-events-list .button {
+    .law-events-list .event-button {
       padding: 20px 0 45px;
     }
   }

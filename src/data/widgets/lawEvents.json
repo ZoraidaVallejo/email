@@ -1,0 +1,44 @@
+{
+  "featured": {
+    "dateTime": "[Month 00 00PM ET]",
+    "typeLocation": "[Webinar]",
+    "description": "[Lorem Lorem elit non eiusmod laborum aute cupidatat excepteur reprehenderit aliquip ut velit.]",
+    "button": {
+      "style": "white",
+      "link": "#featured-link",
+      "text": "Read More"
+    }
+  },
+  "events": [
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Consectetur magna velit voluptate ipsum ea laboris.]",
+      "button": {
+        "style": "white",
+        "link": "https://www.justia.com/",
+        "text": "Read More"
+      }
+    },
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Tempor irure et consequat velit.]",
+      "button": {
+        "style": "white",
+        "link": "https://www.justia.com/",
+        "text": "Read More"
+      }
+    },
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Aliquip magna nostrud nisi voluptate magna nisi do nisi sint labore excepteur dolor magna aute.]",
+      "button": {
+        "style": "white",
+        "link": "https://www.justia.com/",
+        "text": "Read More"
+      }
+    }
+  ]
+}

@@ -1074,15 +1074,13 @@ a {
   text-align: center;
 }
 
-.w-law-events .event-date {
+.w-law-events .event-info p {
   margin: 0;
   color: #ffffff;
-  font: 700 20px/20px Arial, sans-serif;
 }
 
-.w-law-events .event-desc {
-  margin: 0;
-  color: #ffffff;
+.w-law-events .event-info .date {
+  font: 700 20px/20px Arial, sans-serif;
 }
 
 .w-law-events .featured-event {
@@ -1094,10 +1092,10 @@ a {
 }
 
 .w-law-events .featured-event .event-info {
-  padding: 25px 24px 18px;
+  padding: 25px 24px 20px;
 }
 
-.w-law-events .featured-event .button {
+.w-law-events .featured-event .event-button {
   padding: 0 24px 25px;
 }
 
@@ -1105,11 +1103,11 @@ a {
   padding: 0 30px;
 }
 
-.w-law-events .law-events-list .button {
+.w-law-events .law-events-list .event-button {
   padding: 20px 0 40px;
 }
 
-.w-law-events .last-event-row .law-events-list .button {
+.w-law-events .last-event-row .law-events-list .event-button {
   padding: 20px 0 45px;
 }
 
@@ -1125,18 +1123,6 @@ a {
 .w-law-events .grid-cell td {
   text-align: left;
   vertical-align: top;
-}
-
-.w-law-events .event-1 .event-info,
-.w-law-events .event-2 .event-info,
-.w-law-events .event-3 .event-info,
-.w-law-events .event-4 .event-info {
-  height: 130px;
-}
-
-.w-law-events .event-5 .event-info,
-.w-law-events .event-6 .event-info {
-  height: 108px;
 }
 
 .w-advertisement td {
