@@ -187,4 +187,9 @@ div[style*='margin: 16px 0;'] {
   .main-footer .footer-social {
     padding-top: 20px !important;
   }
+  .responsive-button {
+    width: auto !important;
+    padding: 6px 20px !important;
+    line-height: 1.2 !important;
+  }
 }

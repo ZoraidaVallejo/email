@@ -3,23 +3,25 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
+  background-color: plt('gray');
 
   td {
     text-align: center;
   }
 
-  .justia-logo-image {
+  .justia-logo {
     padding: 45px $padding 30px;
     text-align: center;
 
     img {
       width: 320px;
+      max-width: 100%;
       margin: 0 auto;
     }
   }
 
-  .ad-title {
-    padding: 0 $padding;
+  .title {
+    padding: 0 $padding 15px;
 
     a {
       @include mail-font(30px);
@@ -27,81 +29,83 @@
     }
   }
 
-  .ad-image {
+  .image {
     padding: 0;
 
     img {
-      display: block;
       width: 100%;
     }
   }
 
-  .ad-desc {
+  .content {
     padding: 0 $padding $padding;
 
+    &.-first {
+      padding: $padding;
+    }
+
     &.-last {
       padding: 0 $padding 45px;
     }
   }
-
-  .ad-button {
-    padding: 0 $padding 15px;
-  }
 }
 
-.w-advertisement.-jld-ad-01 {
-  background-color: plt('justia-blue');
 
-  .ad-desc {
 
-    p,
-    a {
-      color: plt('white');
-    }
-  }
 
-  .justia-logo-image {
 
-    a {
-      color: plt('justia-blue');
-    }
-  }
-}
+// .w-advertisement.-jld-ad-01 {
 
-.w-advertisement.-jld-ad-02 {
-  background-color: #dcf0fe;
+//   .ad-desc {
 
-  .justia-logo-image {
-    padding: 45px $padding 22px;
-    background-color: plt('white');
-  }
+//     p,
+//     a {
+//       color: plt('white');
+//     }
+//   }
 
-  .ad-title {
-    padding: 0 $padding 28px;
-    background-color: plt('white');
+//   .justia-logo {
 
-    a {
-      @include mail-font(40px, 1.1);
-    }
-  }
+//     a {
+//       color: plt('justia-blue');
+//     }
+//   }
+// }
 
-  .ad-image {
-    background-color: plt('white');
-  }
+// .w-advertisement.-jld-ad-02 {
+//   background-color: #dcf0fe;
 
-  .ad-desc {
-    padding: 35px $padding $padding;
+//   .justia-logo {
+//     padding: 45px $padding 22px;
+//     background-color: plt('white');
+//   }
 
-    &.-last {
-      padding: 0 $padding 45px;
-    }
+//   .ad-title {
+//     padding: 0 $padding 28px;
+//     background-color: plt('white');
 
-    &.-phone {
+//     a {
+//       @include mail-font(40px, 1.1);
+//     }
+//   }
 
-      p,
-      a {
-        color: plt('justia-blue');
-      }
-    }
-  }
-}
+//   .ad-image {
+//     background-color: plt('white');
+//   }
+
+//   .ad-desc {
+//     padding: 35px $padding $padding;
+
+//     &.-last {
+//       padding: 0 $padding 45px;
+//     }
+
+//     &.-phone {
+
+//       p,
+//       a {
+//         color: plt('justia-blue');
+//       }
+//     }
+//   }
+// }

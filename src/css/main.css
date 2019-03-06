@@ -1125,96 +1125,52 @@ a {
   vertical-align: top;
 }
 
+.w-advertisement {
+  background-color: #b1b3b3;
+}
+
 .w-advertisement td {
   text-align: center;
 }
 
-.w-advertisement .justia-logo-image {
+.w-advertisement .justia-logo {
   padding: 45px 30px 30px;
   text-align: center;
 }
 
-.w-advertisement .justia-logo-image img {
+.w-advertisement .justia-logo img {
   width: 320px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-.w-advertisement .ad-title {
-  padding: 0 30px;
+.w-advertisement .title {
+  padding: 0 30px 15px;
 }
 
-.w-advertisement .ad-title a {
+.w-advertisement .title a {
   font: 30px/1.38 Arial, sans-serif;
   color: #06357a;
 }
 
-.w-advertisement .ad-image {
+.w-advertisement .image {
   padding: 0;
 }
 
-.w-advertisement .ad-image img {
-  display: block;
+.w-advertisement .image img {
   width: 100%;
 }
 
-.w-advertisement .ad-desc {
+.w-advertisement .content {
   padding: 0 30px 30px;
 }
 
-.w-advertisement .ad-desc.-last {
+.w-advertisement .content.-first {
+  padding: 30px;
+}
+
+.w-advertisement .content.-last {
   padding: 0 30px 45px;
-}
-
-.w-advertisement .ad-button {
-  padding: 0 30px 15px;
-}
-
-.w-advertisement.-jld-ad-01 {
-  background-color: #06357a;
-}
-
-.w-advertisement.-jld-ad-01 .ad-desc p,
-.w-advertisement.-jld-ad-01 .ad-desc a {
-  color: #ffffff;
-}
-
-.w-advertisement.-jld-ad-01 .justia-logo-image a {
-  color: #06357a;
-}
-
-.w-advertisement.-jld-ad-02 {
-  background-color: #dcf0fe;
-}
-
-.w-advertisement.-jld-ad-02 .justia-logo-image {
-  padding: 45px 30px 22px;
-  background-color: #ffffff;
-}
-
-.w-advertisement.-jld-ad-02 .ad-title {
-  padding: 0 30px 28px;
-  background-color: #ffffff;
-}
-
-.w-advertisement.-jld-ad-02 .ad-title a {
-  font: 40px/1.1 Arial, sans-serif;
-}
-
-.w-advertisement.-jld-ad-02 .ad-image {
-  background-color: #ffffff;
-}
-
-.w-advertisement.-jld-ad-02 .ad-desc {
-  padding: 35px 30px 30px;
-}
-
-.w-advertisement.-jld-ad-02 .ad-desc.-last {
-  padding: 0 30px 45px;
-}
-
-.w-advertisement.-jld-ad-02 .ad-desc.-phone p,
-.w-advertisement.-jld-ad-02 .ad-desc.-phone a {
-  color: #06357a;
 }
 
 .full-size {

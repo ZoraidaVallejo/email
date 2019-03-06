@@ -1,21 +1,21 @@
 <!-- JLD ADVERTISEMENT -->
 
-{{assign 'jldAd1FullLink' (concat advertisements.jld.ad1.link (utmVariables advertisements.jld.ad1.utm))}}
+{{assign "jldAd1FullLink" (concat advertisements.jld.ad1.link (utmVariables advertisements.jld.ad1.utm))}}
 
-{{#table class='w-advertisement -jld-ad-01 set-max-width'}}
+{{#table class="w-advertisement -jld-ad-01 set-max-width"}}
   <tr>
     {{> ui-background
-      backgroundBehavior='cell'
+      backgroundBehavior="cell"
       backgroundStart=true
-      bgImage='best-seo-background-01.png'
-      bgColor='#0d497a'
-      bgWidth='600'
+      bgImage="adname-background-01.jpg"
+      bgColor="#cccccc"
+      bgWidth="600"
     }}
       {{#table}}
         <tr>
-          <td class="justia-logo-image" responsive="mobile-padding-horizontal-sides">
+          <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
             <a href="{{{@root.jldAd1FullLink}}}" target="_blank">
-              <img src="http://justatic.com/v/20180731/branding/logos/emails/justia-marketing-blue.png" alt="Justia Marketing" border="0" />
+              <img src="{{logos.marketing.path.blue}}" alt="{{logos.marketing.alt}}" border="0" />
             </a>
           </td>
         </tr>
@@ -34,7 +34,7 @@
           </td>
         </tr>
       {{/table}}
-    {{>ui-background backgroundBehavior='cell' backgroundEnd=true}}
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
   </tr>
   <tr>
     <td class="ad-desc" responsive="mobile-padding-medium-top mobile-padding-horizontal-sides">
@@ -43,7 +43,7 @@
   </tr>
   <tr>
     <td class="ad-button" responsive="mobile-padding-horizontal-sides">
-      {{#uiButton presetStyle='red' href=@root.jldAd1FullLink width='350' height='50' fontSize='18' responsive='jld-ad-button'}}
+      {{#uiButton presetStyle="red" href=@root.jldAd1FullLink width="350" height="50" fontSize="18" responsive="jld-ad-button"}}
         Contact Us For Help With Your SEO
       {{/uiButton}}
     </td>
