@@ -9,8 +9,10 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
       {{>main-header
-        logoName='lawyer-directory'
+        withDate=true
+        logoName='insights'
         logoLink=default.header.logo.link.clients.url
+        logoUtmVars=default.header.logo.link.clients.utm
       }}
     </td>
   </tr>
@@ -18,13 +20,13 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
-        {{>welcome clientsNewsletter=true}}
+        {{>welcome welcomeConfig=welcome.clients}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>featured-news clientsNewsletter=true}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
-        {{>tip-month clientsNewsletter=true}}
+        {{>tip-month tipMonthConfig=tipMonth.clients}}
 
       {{>ui-layout-hack tableMiddleSeparator=true}}
         {{>tech-news}}
@@ -72,9 +74,14 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   <tr>
     <td height="100%" width="100%" class="align-center valign-top">
       {{>main-footer
+        socialOnTop=true
+        lookAndFeel='light-bright'
+        logoName='insights'
+        logoLink=default.footer.logo.link.clients.url
+        logoUtmVars=default.footer.logo.link.clients.utm
         navigationElements=default.footer.navigation.items
         disclaimerText=default.footer.disclaimer.clients
-        addressElements=default.footer.address.clients
+        addressElements=default.footer.address
       }}
     </td>
   </tr>

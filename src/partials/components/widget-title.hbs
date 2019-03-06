@@ -1,0 +1,12 @@
+{{!
+ * @param {String} type
+ * @param {String} title
+ * @param {String} link
+}}
+
+{{#if type}}<h4 class="widget-type-name">{{uppercase type}}</h4>{{/if}}
+{{#if title}}
+  <h2 class="widget-main-title">
+    {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}{{{title}}}{{#if link}}</a>{{/if}}
+  </h2>
+{{/if}}

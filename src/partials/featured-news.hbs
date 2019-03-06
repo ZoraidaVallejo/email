@@ -9,8 +9,8 @@
     {{assign 'featuredNewsMainTitleVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.title)}}
     {{assign 'featuredNewsImageVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.jld content=featuredNews.utm.content.image)}}
   {{/if}}
+  {{assign 'featuredNewsMainTitleFullLink' (concat featuredNews.link @root.featuredNewsMainTitleVars)}}
 {{/if}}
-
 {{#if featuredNews.button}}
   {{#if clientsNewsletter}}
     {{assign 'featuredNewsButtonVars' (utmVariables featuredNews.utm source=featuredNews.utm.source.clients content=featuredNews.utm.content.button)}}
@@ -20,25 +20,20 @@
   {{/if}}
 {{/if}}
 
-{{#table class='w-stories-list w-featured-news set-max-width'}}
+{{#table class='w-stories-list -featured-news set-max-width'}}
   <tr>
-    <td class="main-story-title" responsive="mobile-padding-horizontal-sides">
-      <h4 class="widget-type-name">FEATURED NEWS</h4>
-      <h2 class="widget-main-title">
-        {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsMainTitleVars}}}" target="_blank">{{/if}}
-          {{featuredNews.title}}
-        {{#if featuredNews.link}}</a>{{/if}}
-      </h2>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-title type='Featured News' title=featuredNews.title link=@root.featuredNewsMainTitleFullLink}}
     </td>
   </tr>
   <tr>
-    <td class="main-story-desc{{#gt (length featuredNews.list) 1}} -with-list{{/gt}}" responsive="mobile-padding-horizontal-sides">
+    <td class="featured-story" responsive="mobile-padding-horizontal-sides">
       {{#table align=''}}
         <tr>
-          <td class="story-desc" responsive="collapse-one">
+          <td class="desc" responsive="collapse-one mobile-no-padding-horizontal-sides">
             <p>{{{featuredNews.description}}}</p>
           </td>
-          <td class="featured-image" responsive="mobile-hide collapse-one">
+          <td class="image" responsive="mobile-hide">
             {{#if featuredNews.link}}<a href="{{{featuredNews.link}}}{{{@root.featuredNewsImageVars}}}" target="_blank">{{/if}}
               <img src="{{resolveFilePath 'tech-news-01.png'}}" alt="{{featuredNews.title}}" border="0" />
             {{#if featuredNews.link}}</a>{{/if}}
@@ -48,22 +43,9 @@
     </td>
   </tr>
 
-  {{#forEach featuredNews.list}}
-    <tr>
-      <td class="main-story-list{{#unless featuredNews.button}} main-story-list--last{{/unless}}" responsive="mobile-padding-horizontal-sides">
-        <p>
-          <a href="{{this.link}}" target="_blank">{{{this.title}}}</a>
-        </p>
-        {{#if this.description}}
-          <p>{{{this.description}}}</p>
-        {{/if}}
-      </td>
-    </tr>
-  {{/forEach}}
-
   {{#if featuredNews.button}}
     <tr>
-      <td class="main-story-button" responsive="mobile-padding-horizontal-sides">
+      <td class="story-button" responsive="mobile-padding-horizontal-sides">
         {{#uiButton href=(concat featuredNews.link @root.featuredNewsButtonVars)}}
           {{featuredNews.button.text}}
         {{/uiButton}}

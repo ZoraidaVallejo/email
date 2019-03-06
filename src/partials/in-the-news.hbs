@@ -2,21 +2,21 @@
 
 {{#table class='w-in-the-news set-max-width'}}
   <tr>
-    <td class="clients-title" responsive="mobile-padding-horizontal-sides">
-      <h2 class="widget-main-title align-center">Clients in the News</h2>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-title title='Clients in the News'}}
     </td>
   </tr>
   <tr>
-    <td class="clients-list" responsive="mobile-padding-horizontal-sides">
+    <td class="news-list" responsive="mobile-padding-horizontal-sides">
       {{#forEach inTheNews.news}}
-        {{#table align='' class=(concat 'client-block client-' index)}}
+        {{#table align='' class=(concat 'news-item -itm-' index)}}
           <tr>
-            <td class="news-logo">
+            <td class="logo">
               <a href="{{this.button.link}}" target="_blank">
                 <img src="{{resolveFilePath (concat 'clients-news-logo-0' index '.png')}}" alt="{{this.logoName}}" border="0" />
               </a>
             </td>
-            <td class="news-desc">
+            <td class="desc">
               <p>{{{this.description}}}</p>
               <br>
               {{#uiButton href=this.button.link}}
@@ -29,7 +29,7 @@
     </td>
   </tr>
   <tr>
-    <td class="clients-desc" responsive="mobile-padding-horizontal-sides">
+    <td class="extra-info" responsive="mobile-padding-horizontal-sides">
       <p>Have you or your firm been mentioned in the news recently?</p>
       <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
     </td>

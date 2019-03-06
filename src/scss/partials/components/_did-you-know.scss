@@ -1,4 +1,3 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // D I D   Y O U   K N O W ?
 // ----------------------------------------------------------------------------------------------------------
@@ -6,42 +5,21 @@
 .w-did-you-know {
   background-color: plt('orange');
 
-  .dyk {
+  @include change-widget-title-color(plt('white'));
 
-    &-title {
-      padding: 45px $padding 20px;
+  .main-title {
+    padding: 45px $padding 20px;
+  }
+
+  .desc-text {
+    padding: 0 $padding 15px;
+
+    p {
+      color: plt('white');
     }
 
-    &-desc {
-      padding: 0 $padding 15px;
-
-      &--last {
-        padding: 0 $padding 45px;
-      }
+    &.-last {
+      padding: 0 $padding 45px;
     }
-  }
-
-  .widget-type-name,
-  .widget-main-title,
-  p,
-  blockquote,
-  q,
-  a {
-    color: plt('white');
-  }
-
-  blockquote {
-    padding: 0 $padding;
-    margin: 0;
-
-    @include mail-font($style: italic);
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  p {
-    margin: 0;
   }
 }

@@ -1,14 +1,12 @@
-const path = require('path');
-
-module.exports = (grunt, { paths }) => ({
+module.exports = {
   emails: {
     files: [
       'common/**/*',
-      path.join(paths.src, 'emails/*'),
-      path.join(paths.src, 'layouts/*'),
-      path.join(paths.src, 'data/*'),
-      path.join(paths.src, 'scss/**/*'),
-      path.join(paths.src, 'partials/**/*')
+      '<%= paths.src %>/emails/*',
+      '<%= paths.src %>/layouts/*',
+      '<%= paths.src %>/data/*',
+      '<%= paths.src %>/scss/**/*',
+      '<%= paths.src %>/partials/**/*'
     ],
     tasks: ['devel']
   },
@@ -20,4 +18,4 @@ module.exports = (grunt, { paths }) => ({
       livereload: true
     }
   }
-});
+};

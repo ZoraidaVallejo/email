@@ -1,46 +1,7 @@
 <!-- PUG'S TALE -->
 
-{{#gt (length pugsTale.blocks) 1}}
-  {{assign 'pugsTaleAllClasses' (concat 'w-text-image' 'w-pugs-tale' 'set-max-width' 'multiple' separator=' ')}}
-{{else}}
-  {{assign 'pugsTaleAllClasses' (concat 'w-text-image' 'w-pugs-tale' 'set-max-width' separator=' ')}}
-{{/gt}}
-
-{{#table class=@root.pugsTaleAllClasses}}
-  {{#gt (length pugsTale.blocks) 1}}
-    <tr>
-      <td class="items-main-title" responsive="mobile-padding-horizontal-sides">
-        <h4 class="widget-type-name">A PUG'S TALE</h4>
-      </td>
-    </tr>
-  {{/gt}}
-
-  <tr>
-    <td class="item-list" responsive="mobile-padding-horizontal-sides">
-      {{#forEach pugsTale.blocks}}
-        {{#table align='' class=(concat 'item-' index)}}
-          <tr>
-            <td class="item-desc" responsive="collapse-one">
-
-              {{#eq (length ../pugsTale.blocks) 1}}
-                <h4 class="widget-type-name">A PUG'S TALE</h4>
-              {{/eq}}
-
-              <h2 class="widget-main-title">{{{this.title}}}</h2>
-              <p>{{{this.description}}}</p>
-            </td>
-            <td class="item-image" responsive="mobile-hide collapse-one">
-              {{#if this.image}}
-                <a href="https://www.facebook.com/Hug.Pugs/" target="_blank">
-                  <img src="{{resolveFilePath this.image}}" alt="{{this.title}}" border="0" />
-                </a>
-              {{else}}
-                &nbsp;
-              {{/if}}
-            </td>
-          </tr>
-        {{/table}}
-      {{/forEach}}
-    </td>
-  </tr>
-{{/table}}
+{{>text-image-column
+  widgetType="A Pug's Tale"
+  widgetClass='-pugs-tale'
+  widgetRows=pugsTale.blocks
+}}

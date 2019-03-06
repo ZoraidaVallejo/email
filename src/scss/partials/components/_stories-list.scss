@@ -1,142 +1,60 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // T E C H   N E W S   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$tech-news-image--width: 150px;
+$featured-image--width: 150px;
 
 // ----------------------------------------------------------------------------------------------------------
 
 .w-stories-list {
   background-color: plt('white');
 
-  a {
-    text-decoration: none;
-  }
-
-  .main-story {
-
-    &-title {
-      padding: 45px $padding 20px;
-
-      .widget-main-title {
-
-        a {
-          color: plt('black');
-          text-decoration: none;
-        }
-      }
-    }
-
-    &-desc {
-      padding: 0 $padding 45px;
-
-      &.-with-list {
-        padding: 0 $padding 20px;
-      }
-
-      .story-desc {
-        width: ($inner-max-width - $tech-news-image--width - $padding);
-        text-align: left;
-        vertical-align: top;
-      }
-
-      .featured-image {
-        width: ($tech-news-image--width + $padding);
-        text-align: right;
-        vertical-align: top;
-
-        img {
-          width: $tech-news-image--width;
-          max-width: floor(percentage($tech-news-image--width / ($tech-news-image--width + $padding)));
-        }
-      }
-
-      .story-extra {
-        padding: 30px 0 0;
-      }
-    }
-
-    &-list {
-      padding: 0 $padding 14px;
-
-      &--last {
-        padding: 0 $padding 45px;
-      }
-    }
-
-    &-button {
-      padding: 0 $padding 45px;
-    }
-  }
-
-  .stories-title {
+  .main-title {
     padding: 45px $padding 20px;
-    text-align: center;
   }
 
-  .story-item {
+  .featured-story {
     padding: 0 $padding 20px;
+
+    .desc {
+      width: ($inner-max-width - $featured-image--width - $padding);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .image {
+      width: ($featured-image--width + $padding);
+      text-align: right;
+      vertical-align: top;
+
+      img {
+        display: block;
+        width: $featured-image--width;
+      }
+    }
   }
 
-  tr:last-child {
+  .story-button {
+    padding: 0 $padding 45px;
+  }
 
-    .story-item {
+  .story-links-title {
+    padding: 0 $padding 30px;
+  }
+
+  .story-link {
+    padding: 0 $padding 20px;
+
+    &.-last {
       padding: 0 $padding 45px;
     }
   }
 
+  .extra-info {
+    padding: 10px $padding 30px;
 
-  &.w-tech-news {
-
-    .story-item a,
-    .widget-main-title {
-      color: plt('bright-green');
-    }
-  }
-
-  &.w-seo-news {
-
-    .story-item a,
-    .widget-main-title {
-      color: plt('bright-blue');
-    }
-  }
-
-  &.w-social-media-news {
-
-    .story-item a,
-    .widget-main-title {
-      color: plt('orange');
-    }
-  }
-
-  &.w-legal-industry-news {
-
-    .story-item a,
-    .widget-main-title {
-      color: plt('mail', 'shamrock');
-    }
-  }
-
-  &.w-jurispro {
-
-    sup {
-      @include mail-font($line-height: 1);
-    }
-
-    .story-desc,
-    .featured-image {
-      padding: 0 0 30px;
-      border-bottom: 1px solid plt('mail', 'black-haze');
-      vertical-align: middle;
-    }
-
-    .story-desc {
-
-      p {
-        @include mail-font(20px);
-      }
+    &.-last {
+      padding: 10px $padding 45px;
     }
   }
 }

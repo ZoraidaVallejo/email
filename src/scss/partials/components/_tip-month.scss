@@ -1,4 +1,3 @@
-
 // ----------------------------------------------------------------------------------------------------------
 // T I P   O F   T H E   M O N T H   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
@@ -6,29 +5,22 @@
 .w-tip-month {
   background-color: plt('bright-green');
 
-  .widget-type-name,
-  .widget-main-title,
-  p,
-  a {
-    color: plt('white');
+  @include change-widget-title-color(plt('white'));
+
+  .main-title {
+    padding: 45px $padding 20px;
   }
 
-  a {
-    text-decoration: none;
-  }
+  .tip-desc {
+    padding: 0 $padding 15px;
 
-  .tip {
-
-    &-title {
-      padding: 45px $padding 20px;
+    p,
+    a {
+      color: plt('white');
     }
 
-    &-desc {
-      padding: 0 $padding 15px;
-
-      &--last {
-        padding: 0 $padding 45px;
-      }
+    &.-last {
+      padding: 0 $padding 45px;
     }
   }
 }
