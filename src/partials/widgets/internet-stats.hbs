@@ -14,7 +14,7 @@
   <tr>
     <td class="chart{{#unless internetStats.description}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#if internetStats.link}}<a href="{{internetStats.link}}" target="_blank">{{/if}}
-        <img src="{{resolveFilePath internetStats.image}}" alt="{{sanitize internetStats.subtitle}}" />
+        <img src="{{resolveFilePath internetStats.image}}" alt="{{sanitize internetStats.subtitle}}" border="0" />
       {{#if internetStats.link}}</a>{{/if}}
     </td>
   </tr>
