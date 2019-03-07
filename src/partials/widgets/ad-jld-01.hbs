@@ -1,7 +1,9 @@
 <!-- JLD ADVERTISEMENT -->
 
-{{assign "jldAd1FullLink" (concat advertisements.jld.ad1.link (utmVariables advertisements.jld.ad1.utm))}}
+{{>ad-type-01 widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
+{{!-- {{assign "jldAd1FullLink" (concat advertisements.jld.ad1.link (utmVariables advertisements.jld.ad1.utm))}} --}}
+{{!--
 {{#table class="w-advertisement -jld-ad-01 set-max-width"}}
   <tr>
     {{> ui-background
@@ -53,4 +55,4 @@
       <p>Or call us at <strong><a href="tel:8885878421" target="_blank">(888) 587-8421</a></strong></p>
     </td>
   </tr>
-{{/table}}
+{{/table}} --}}

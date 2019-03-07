@@ -36,9 +36,8 @@ $use-breakpoint: false;
   'main/widgets/law-events/featured-event',
   'main/widgets/law-events/event-list',
   'main/widgets/law-events/custom',
-
-  'main/components/advertisement',
-
+  'main/widgets/advertisement',
+  'main/widgets/advertisement/custom',
   'main/utilities';
 
 @import

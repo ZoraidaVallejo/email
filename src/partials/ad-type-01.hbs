@@ -1,8 +1,11 @@
-<!-- ADVERTISEMENT -->
+{{!
+ * @param {String} widgetClass
+ * @param {Object} widgetConfig
+}}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
 
-{{#table class=(concat "w-advertisement" widgetClass "set-max-width" separator=" ")}}
+{{#table class=(concat "w-advertisement" "-type-01" widgetClass "set-max-width" separator=" ")}}
   {{#if widgetConfig.logo}}
     <tr>
       <td class="justia-logo" responsive="mobile-padding-horizontal-sides">

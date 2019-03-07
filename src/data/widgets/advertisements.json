@@ -1,20 +1,20 @@
 {
   "clients": {
     "ad1": {
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "source": "client-newsletter",
+        "content": "[client-ad-example-type-1]"
+      },
       "logo": {
         "name": "marketing",
         "color": "blue"
       },
       "title": "<b>[Do ex ipsum nulla in mollit ea et ea reprehenderit.]</b>",
       "titleResponsiveSize": 30,
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
-        "source": "client-newsletter",
-        "content": "[utm-content]"
-      },
-      "image": "adname-image-01.png",
+      "image": "client-ad-image-01.png",
       "contentOrder": [
         {
           "type": "description",
@@ -42,18 +42,19 @@
           ]
         }
       ]
-    },
-    "ad2": {
+    }
+  },
+  "jld": {
+    "ad1": {
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
         "campaign": "<%= currentYear %>-<%= currentMonth %>",
-        "source": "client-newsletter",
-        "content": "[utm-content]"
+        "source": "directory-newsletter",
+        "content": "[directory-ad-example-type-1]"
       },
-      "image": "adname-image-01.png",
+      "image": "client-ad-image-01.png",
       "imageAlt": "[Aute ea voluptate qui aliqua veniam.]",
-      "background": "adname-background-01.jpg",
       "contentOrder": [
         {
           "type": "description",
@@ -72,24 +73,8 @@
           }
         }
       ]
-    }
-  },
-  "jld": {
-    "ad1": {
-      "title": "[Laboris incididunt deserunt voluptate quis mollit ipsum.]",
-      "image": "bets-seo-image-01.gif",
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
-        "source": "directory-newsletter",
-        "content": "[utm-content]"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
     },
     "ad2": {
-      "title": "[Aute ea pariatur sint fugiat reprehenderit ex est.]",
-      "image": "higher-visibility-image-01.gif",
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
@@ -97,7 +82,28 @@
         "source": "directory-newsletter",
         "content": "[utm-content]"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quas, eius mollitia cupiditate eveniet?"
+      "title": "<b>[Cillum nulla irure pariatur cillum ipsum eu sit reprehenderit sunt ipsum.]</b>",
+      "titleResponsiveSize": 30,
+      "image": "jld-ad-image-02.png",
+      "background": "jld-ad-background-02.jpg",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "[Elit reprehenderit deserunt reprehenderit ullamco commodo labore irure velit.]"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "[Tempor culpa.]",
+            "width": 200,
+            "height": 50,
+            "fontSize": 18
+          }
+        }
+      ]
     }
   }
 }
