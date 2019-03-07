@@ -1,0 +1,11 @@
+<!-- TECH NEWS -->
+
+{{#table class="w-stories-list -tech-news set-max-width"}}
+  <tr>
+    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title="Tech News"}}
+    </td>
+  </tr>
+
+  {{>stories-list widgetConfig=(toObject isLast=true list=techNews.articles)}}
+{{/table}}

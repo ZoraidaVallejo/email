@@ -17,20 +17,20 @@
 
 {{#if columnGridStart}}
   <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
-    <!--[if (gte mso 9)|(IE)]><table {{{tableAttr width=fullWidth}}}><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
+    <!--[if gte mso 9]><table {{{tableAttr width=fullWidth}}}><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
     <div class="{{@root.columnAllClasses}}">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridSeparator}}
       </table>
     </div>
-    <!--[if (gte mso 9)|(IE)]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
+    <!--[if gte mso 9]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
     <div class="{{@root.columnAllClasses}}">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridEnd}}
       </table>
     </div>
-    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+    <!--[if gte mso 9]></td></tr></table><![endif]-->
   </td>
 {{/if}}

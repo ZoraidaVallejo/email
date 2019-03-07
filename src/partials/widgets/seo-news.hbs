@@ -1,0 +1,11 @@
+<!-- SEO NEWS -->
+
+{{#table class="w-stories-list -seo-news set-max-width"}}
+  <tr>
+    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title="SEO News"}}
+    </td>
+  </tr>
+
+  {{>stories-list widgetConfig=(toObject isLast=true list=seoNews.articles)}}
+{{/table}}

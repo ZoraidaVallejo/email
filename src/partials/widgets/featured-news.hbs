@@ -1,0 +1,29 @@
+<!-- TECH NEWS -->
+
+{{#and featuredNews.link (compare featuredNews.link "!==" "")}}
+  {{assign "featuredNewsTitleLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsImageLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+{{#and featuredNews.button (compare featuredNews.button.link "!==" "")}}
+  {{assign "featuredNewsButtonLink" (concat featuredNews.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{/and}}
+
+{{assign "featuredNewsWidgetConfig" (toObject
+  description=featuredNews.description
+  buttonStyle=featuredNews.button.style
+  buttonLink=@root.featuredNewsButtonLink
+  buttonText=featuredNews.button.text
+  imageLink=@root.featuredNewsImageLink
+  imageName=featuredNews.image
+  imageAlt=featuredNews.title
+)}}
+
+{{#table class="w-stories-list -featured-news set-max-width"}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header section=featuredNews.sectionName title=featuredNews.title link=@root.featuredNewsTitleLink}}
+    </td>
+  </tr>
+
+  {{>featured-story widgetConfig=@root.featuredNewsWidgetConfig}}
+{{/table}}

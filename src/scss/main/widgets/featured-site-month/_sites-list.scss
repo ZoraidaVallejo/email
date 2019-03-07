@@ -1,0 +1,60 @@
+// ----------------------------------------------------------------------------------------------------------
+// F E A T U R E D   S I T E   O F   T H E   M O N T H
+// ----------------------------------------------------------------------------------------------------------
+
+.w-featured-site-month {
+
+  .sites-list-description {
+    padding: 10px $padding $padding;
+    text-align: center;
+  }
+
+  .sites-list {
+    padding: 0 $padding 45px;
+
+    .devices {
+      width: ($featured-thumb--width + $padding);
+      padding: $featured-thumb-list--gap 0;
+
+      img {
+        width: $featured-thumb--width;
+      }
+    }
+
+    .client-info {
+      width: ($inner-max-width - $featured-thumb--width - $padding);
+      padding: $featured-thumb-list--gap 0;
+      text-align: left;
+      vertical-align: top;
+
+      .name {
+        @include mail-font(18px);
+      }
+
+      .link {
+        margin: 10px 0 0;
+      }
+    }
+
+    .site-item {
+      border-bottom: 1px solid plt('mail', 'black-haze');
+
+      &:first-child {
+
+        .devices,
+        .client-info {
+          padding: 0 0 $featured-thumb-list--gap;
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+
+        .devices,
+        .client-info {
+          padding: $featured-thumb-list--gap 0 0;
+        }
+      }
+    }
+  }
+}

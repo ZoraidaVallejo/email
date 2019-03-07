@@ -1,0 +1,51 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+  background-color: plt('gray');
+
+  td {
+    text-align: center;
+  }
+
+  .justia-logo {
+    padding: 45px $padding 30px;
+    text-align: center;
+
+    img {
+      width: 320px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .title {
+    padding: 0 $padding 15px;
+
+    a {
+      @include mail-font(30px);
+      color: plt('justia-blue');
+    }
+  }
+
+  .image {
+    padding: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    padding: 0 $padding $padding;
+
+    &.-first {
+      padding: $padding;
+    }
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+  }
+}

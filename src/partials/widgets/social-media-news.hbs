@@ -1,0 +1,11 @@
+<!-- SOCIAL MEDIA NEWS -->
+
+{{#table class="w-stories-list -social-media-news set-max-width"}}
+  <tr>
+    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title="Social Media News"}}
+    </td>
+  </tr>
+
+  {{>stories-list widgetConfig=(toObject isLast=true list=socialMediaNews.articles)}}
+{{/table}}

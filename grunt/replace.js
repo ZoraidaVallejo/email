@@ -26,6 +26,8 @@ const cssClasses = [
   'mobile-padding-horizontal-sides',
   'mobile-padding-vertical-sides',
   'mobile-padding-full',
+  'mobile-padding-medium-top',
+  'mobile-padding-medium-bottom',
   'mobile-padding-uneven-top',
   'mobile-padding-uneven-bottom',
   'mobile-padding-uneven-full',

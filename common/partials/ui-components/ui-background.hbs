@@ -10,6 +10,7 @@
  * @param {String}  bgColor
  * @param {String}  bgWidth
  * @param {String}  bgHeight
+ * @param {String}  bgSize
 }}
 
 {{#eq (getUnit bgWidth) '%'}}
@@ -26,7 +27,7 @@
 
 {{#eq backgroundBehavior 'cell'}}
   {{#if backgroundStart}}
-    <td class="ui-background -cell {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}} width="{{@root.bgWidthVal}}" {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}>
+    <td class="ui-background -cell {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');background-repeat:no-repeat{{#if bgSize}};background-size:{{bgSize}}{{/if}}" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}} width="{{@root.bgWidthVal}}" {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}>
       {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
       <div>
         {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
@@ -44,7 +45,7 @@
 
     <table {{{tableAttr class=@root.bgTableAllClasses responsive=bgTableResponsiveClasses width=@root.bgWidthVal height=@root.bgHeightVal}}}>
       <tr>
-        <td class="bg-wrapper {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}>
+        <td class="bg-wrapper {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');background-repeat:no-repeat;background-size:100%" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}}>
           {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
           <div>
             {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}

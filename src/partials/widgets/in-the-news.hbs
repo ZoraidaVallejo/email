@@ -1,0 +1,43 @@
+<!-- CLIENTS IN THE NEWS -->
+
+{{#table class="w-in-the-news set-max-width"}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title=inTheNews.title}}
+    </td>
+  </tr>
+  <tr>
+    <td class="news-list" responsive="mobile-padding-horizontal-sides">
+      {{#forEach inTheNews.news}}
+        {{#table align="" class=(concat "news-item -itm-" index)}}
+          <tr>
+            <td class="logo">
+              {{#and this.button (compare this.button.link "!==" "")}}<a href="{{{this.button.link}}}" target="_blank">{{/and}}
+                <img
+                  src="{{resolveFilePath (concat ../inTheNews.imagePefix "0" index ".png")}}"
+                  alt="{{sanitize this.logoName}}"
+                  border="0" />
+              {{#and this.button (compare this.button.link "!==" "")}}</a>{{/and}}
+            </td>
+            <td class="description">
+              {{#each this.description}}
+                <p>{{{this}}}</p>
+              {{/each}}
+              {{#and this.button (compare this.button.link "!==" "")}}
+                {{#uiButton presetStyle=this.button.style href=this.button.link}}
+                  {{this.button.text}}
+                {{/uiButton}}
+              {{/and}}
+            </td>
+          </tr>
+        {{/table}}
+      {{/forEach}}
+    </td>
+  </tr>
+  <tr>
+    <td class="extra-info" responsive="mobile-padding-horizontal-sides">
+      <p class="no-margin">Have you or your firm been mentioned in the news recently?</p>
+      <p><a href="mailto:newsletter-support@justia.com">Send us your stories!</a></p>
+    </td>
+  </tr>
+{{/table}}

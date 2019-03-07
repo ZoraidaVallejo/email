@@ -1,0 +1,57 @@
+{
+  "section": "Ask a Lawyer",
+  "title": "Participating Lawyers",
+  "link": "https://answers.justia.com/about-legal-answers#faq-atty",
+  "list": [
+    {
+      "id": "0000000",
+      "rank": 1,
+      "name": "[Consectetur eu exercitation]",
+      "location": "[Anytown, CA]",
+      "nameLink": "https://www.justia.com/",
+      "photoLink": "https://www.justia.com/"
+    },
+    {
+      "id": "0000000",
+      "rank": 2,
+      "name": "[Ipsum adipisicing quis]",
+      "location": "[Anytown, CA]",
+      "nameLink": "https://www.justia.com/",
+      "photoLink": "https://www.justia.com/"
+    },
+    {
+      "id": "0000000",
+      "rank": 3,
+      "name": "[Adipisicing tempor]",
+      "location": "[Anytown, CA]",
+      "nameLink": "https://www.justia.com/",
+      "photoLink": "https://www.justia.com/"
+    },
+    {
+      "id": "0000000",
+      "rank": 4,
+      "name": "[Exercitation voluptate]",
+      "location": "[Anytown, CA]",
+      "nameLink": "https://www.justia.com/",
+      "photoLink": "https://www.justia.com/"
+    },
+    {
+      "id": "0000000",
+      "rank": 5,
+      "name": "[Cillum cupidatat]",
+      "location": "[Anytown, CA]",
+      "nameLink": "https://www.justia.com/",
+      "photoLink": "https://www.justia.com/"
+    }
+  ],
+  "photoImagePrefix": "leaderboard-photo-",
+  "showRanking": true,
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}
