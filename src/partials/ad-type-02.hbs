@@ -9,9 +9,10 @@
   <tr>
     {{> ui-background backgroundBehavior="cell" backgroundStart=true
       bgImage=widgetConfig.background.image
-      bgColor=widgetConfig.background.color
+      bgColor=widgetConfig.background.bgColor
       bgWidth=widgetConfig.background.width
       bgHeight=widgetConfig.background.height
+      bgSize=widgetConfig.background.cssSize
     }}
       {{#table}}
         {{#if widgetConfig.logo}}
