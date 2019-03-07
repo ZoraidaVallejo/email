@@ -37,8 +37,8 @@
         {
           "type": "description",
           "config": [
-            "[Lorem veniam pariatur in qui mollit labore nisi.]",
-            "<b>Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "[Adipisicing eiusmod tempor labore dolor laborum nulla velit enim velit.]",
+            "[Lorem veniam pariatur in qui mollit labore nisi.]"
           ]
         }
       ]
@@ -82,15 +82,23 @@
         "source": "directory-newsletter",
         "content": "[utm-content]"
       },
-      "title": "<b>[Cillum nulla irure pariatur cillum ipsum eu sit reprehenderit sunt ipsum.]</b>",
+      "logo": {
+        "name": "marketing",
+        "color": "blue"
+      },
+      "title": "<b>[Cillum nulla irure.]</b>",
       "titleResponsiveSize": 30,
       "image": "jld-ad-image-02.png",
-      "background": "jld-ad-background-02.jpg",
+      "background": {
+        "image": "jld-ad-background-02.jpg",
+        "color": "#cccccc",
+        "width": 600
+      },
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "[Elit reprehenderit deserunt reprehenderit ullamco commodo labore irure velit.]"
+            "[Duis officia mollit dolore est esse. Sit proident et anim consequat laboris officia quis. Excepteur labore occaecat ex elit Lorem exercitation nostrud pariatur ullamco qui aliqua est elit reprehenderit.]"
           ]
         },
         {
@@ -102,6 +110,12 @@
             "height": 50,
             "fontSize": 18
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "[<b>Tempor id cillum tempor magna labore eiusmod consectetur proident aliqua minim deserunt.</b>]"
+          ]
         }
       ]
     }
