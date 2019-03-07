@@ -13,19 +13,19 @@
  * @param {String}  bgSize
 }}
 
-{{#eq (getUnit bgWidth) '%'}}
-  {{assign 'bgWidthVal' bgWidth}}
+{{#eq (getUnit bgWidth) "%"}}
+  {{assign "bgWidthVal" bgWidth}}
 {{else}}
-  {{assign 'bgWidthVal' (toInt bgWidth)}}
+  {{assign "bgWidthVal" (toInt bgWidth)}}
 {{/eq}}
 
-{{#eq (getUnit bgHeight) '%'}}
-  {{assign 'bgHeightVal' null}}
+{{#eq (getUnit bgHeight) "%"}}
+  {{assign "bgHeightVal" null}}
 {{else}}
-  {{assign 'bgHeightVal' (toInt bgHeight)}}
+  {{assign "bgHeightVal" (toInt bgHeight)}}
 {{/eq}}
 
-{{#eq backgroundBehavior 'cell'}}
+{{#eq backgroundBehavior "cell"}}
   {{#if backgroundStart}}
     <td class="ui-background -cell {{bgCellClasses}}" responsive="{{bgCellResponsiveClasses}}" background="{{resolveFilePath bgImage}}" style="background:url('{{resolveFilePath bgImage}}');background-repeat:no-repeat{{#if bgSize}};background-size:{{bgSize}}{{/if}}" {{#if bgColor}}bgcolor="{{bgColor}}"{{/if}} width="{{@root.bgWidthVal}}" {{#if @root.bgHeightVal}}height="{{@root.bgHeightVal}}"{{/if}}>
       {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
@@ -39,9 +39,9 @@
   {{/if}}
 {{/eq}}
 
-{{#eq backgroundBehavior 'table'}}
+{{#eq backgroundBehavior "table"}}
   {{#if backgroundStart}}
-    {{assign 'bgTableAllClasses' (concat 'ui-background' '-table' bgTableClasses separator=' ')}}
+    {{assign "bgTableAllClasses" (concat "ui-background" "-table" bgTableClasses separator=" ")}}
 
     <table {{{tableAttr class=@root.bgTableAllClasses responsive=bgTableResponsiveClasses width=@root.bgWidthVal height=@root.bgHeightVal}}}>
       <tr>

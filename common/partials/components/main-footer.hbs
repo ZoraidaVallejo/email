@@ -14,30 +14,30 @@
 
 {{!-- Variables for Footer --}}
 {{#if socialOnTop}}
-  {{assign 'footerLayoutClass' '-social-on-top'}}
-  {{assign 'footerRespClasses' 'main-footer'}}
-  {{assign 'footerHeadRespClasses' 'mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border'}}
-  {{assign 'footerHeadWrapperClasses' 'fhead-wrapper'}}
+  {{assign "footerLayoutClass" "-social-on-top"}}
+  {{assign "footerRespClasses" "main-footer"}}
+  {{assign "footerHeadRespClasses" "mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border"}}
+  {{assign "footerHeadWrapperClasses" "fhead-wrapper"}}
 {{else}}
-  {{assign 'footerLayoutClass' '-social-below'}}
-  {{assign 'footerRespClasses' ''}}
-  {{assign 'footerHeadRespClasses' 'mobile-padding-horizontal-sides'}}
-  {{assign 'footerHeadWrapperClasses' 'fhead-wrapper set-max-width'}}
+  {{assign "footerLayoutClass" "-social-below"}}
+  {{assign "footerRespClasses" ""}}
+  {{assign "footerHeadRespClasses" "mobile-padding-horizontal-sides"}}
+  {{assign "footerHeadWrapperClasses" "fhead-wrapper set-max-width"}}
 {{/if}}
 
 {{#if lookAndFeel}}
-  {{assign 'footerLookAndFeelClass' (replace '-%s-style' '%s' lookAndFeel)}}
+  {{assign "footerLookAndFeelClass" (replace "-%s-style" "%s" lookAndFeel)}}
 {{else}}
-  {{assign 'footerLookAndFeelClass' '-basic-style'}}
+  {{assign "footerLookAndFeelClass" "-basic-style"}}
 {{/if}}
 
 {{#if logoName}}
-  {{assign 'footerLogoNameClass' (replace '-%s-logo' '%s' logoName)}}
+  {{assign "footerLogoNameClass" (replace "-%s-logo" "%s" logoName)}}
 {{else}}
-  {{assign 'footerLogoNameClass' '-justia-logo'}}
+  {{assign "footerLogoNameClass" "-justia-logo"}}
 {{/if}}
 
-{{assign 'footerClasses' (concat 'main-footer' @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses 'set-max-width' separator=' ')}}
+{{assign "footerClasses" (concat "main-footer" @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses "set-max-width" separator=" ")}}
 
 {{>ui-layout-hack tableStart=true}}
   {{#table class=@root.footerClasses responsive=@root.footerRespClasses}}
@@ -48,22 +48,22 @@
           <tr>
             <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop}}footer-logo{{else}}mobile-padding-bottom{{/if}}">
               {{#if customLogoPath}}
-                {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses='mobile-align-center'}}
+                {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses="mobile-align-center"}}
               {{else if logoName}}
                 {{>main-logo
-                  source=(get (append (camelcase logoName) '.path.blue') logos)
-                  alt=(get (append (camelcase logoName) '.alt') logos)
+                  source=(get (append (camelcase logoName) ".path.blue") logos)
+                  alt=(get (append (camelcase logoName) ".alt") logos)
                   link=logoLink
                   utmVars=logoUtmVars
-                  logoResponsiveClasses='mobile-align-center'
+                  logoResponsiveClasses="mobile-align-center"
                 }}
               {{else}}
-                {{>main-logo link=logoLink utmVars=logoUtmVars logoResponsiveClasses='mobile-align-center'}}
+                {{>main-logo link=logoLink utmVars=logoUtmVars logoResponsiveClasses="mobile-align-center"}}
               {{/if}}
             </td>
             {{#if socialOnTop}}
               <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
-                {{>social-icons socialIconsResponsiveClasses='mobile-align-center mobile-no-float'}}
+                {{>social-icons socialIconsResponsiveClasses="mobile-align-center mobile-no-float"}}
               </td>
             {{else}}
               <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
@@ -78,7 +78,7 @@
       <tr>
         <td class="footer-social" responsive="mobile-padding-horizontal-sides">
           {{>ui-spacer-hack}}
-          {{>social-icons socialIconsClasses='set-max-width'}}
+          {{>social-icons socialIconsClasses="set-max-width"}}
         </td>
       </tr>
     {{/unless}}
@@ -91,7 +91,7 @@
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{#if socialOnTop}}
           {{>ui-spacer-hack}}
-          {{>address elements=addressElements addressResponsiveClasses='collapse-one mobile-align-center'}}
+          {{>address elements=addressElements addressResponsiveClasses="collapse-one mobile-align-center"}}
         {{else}}
           {{>address elements=addressElements}}
         {{/if}}
@@ -101,7 +101,7 @@
       <tr>
         <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
           {{>ui-spacer-hack}}
-          {{>navigation elements=navigationElements navResponsiveClasses='mobile-align-center'}}
+          {{>navigation elements=navigationElements navResponsiveClasses="mobile-align-center"}}
         </td>
       </tr>
     {{/if}}
