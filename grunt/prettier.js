@@ -1,7 +1,7 @@
 module.exports = {
   options: {
     parser: 'html',
-    printWidth: 500,
+    printWidth: 5000,
     progress: false
   },
   files: {

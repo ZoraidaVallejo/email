@@ -32,7 +32,10 @@
     <tr class="featured-site">
       <td class="devices" responsive="mobile-padding-horizontal-sides">
         <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
-          <img src="{{resolveFilePath featuredSiteMonth.sites.0.screenshots}}" alt="{{sanitize featuredSiteMonth.sites.0.clientName}}" border="0" />
+          <img
+            src="{{resolveFilePath featuredSiteMonth.sites.0.screenshots}}"
+            alt="{{replace (sanitize featuredSiteMonth.sites.0.clientName) "," ""}}"
+            border="0" />
         </a>
       </td>
     </tr>
