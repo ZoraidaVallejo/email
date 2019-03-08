@@ -4,16 +4,11 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 ---
 
 {{>preheader text="News and developments from Justia and the tech world ----- "}}
-{{!--
+
 {{#table class="jld-newsletter" align=""}}
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-header
-        withDate=true
-        logoName="insights"
-        logoLink=default.header.logo.link.jld.url
-        logoUtmVars=default.header.logo.link.jld.utm
-      }}
+      {{>main-header widgetConfig=header.jld}}
     </td>
   </tr>
   <tr>
@@ -80,16 +75,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   </tr>
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-footer
-        socialOnTop=true
-        lookAndFeel="light-bright"
-        logoName="insights"
-        logoLink=default.footer.logo.link.jld.url
-        logoUtmVars=default.footer.logo.link.jld.utm
-        navigationElements=default.footer.navigation.items
-        disclaimerText=default.footer.disclaimer.jld
-        addressElements=default.footer.address
-      }}
+      {{>main-footer widgetConfig=footer.jld}}
     </td>
   </tr>
-{{/table}} --}}
+{{/table}}
