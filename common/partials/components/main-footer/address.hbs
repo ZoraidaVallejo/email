@@ -1,18 +1,23 @@
 {{!
- * @param {Object} elements                 `justiaLink`, `direction` and `tel` keys are required.
- * @param {String} addressResponsiveClasses
+ * @param {String} widgetResponsive
+ * @param {Object} widgetConfig
+ * @param {Object} widgetConfig.justiaLink
+ * @param {String} widgetConfig.justiaLink.link
+ * @param {String} widgetConfig.justiaLink.text
+ * @param {String} widgetConfig.direction
+ * @param {String} widgetConfig.tel
 }}
 
-<p responsive="{{addressResponsiveClasses}}">
-  {{#if elements.justiaLink}}
-    <a class="justia-inline" href="{{elements.justiaLink.link}}" target="_blank">{{{elements.justiaLink.text}}}</a>
+<p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
+  {{#if widgetConfig.justiaLink}}
+    <a class="justia-inline" href="{{widgetConfig.justiaLink.link}}" target="_blank">{{{widgetConfig.justiaLink.text}}}</a>
   {{/if}}
-  {{#if elements.direction}}
+  {{#if widgetConfig.direction}}
     {{>pipe}}
-    <span id="ios-links-black">{{{elements.direction}}}</span>
+    <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
   {{/if}}
-  {{#if elements.tel}}
+  {{#if widgetConfig.tel}}
     {{>pipe}}
-    <span id="ios-links-black">Tel: {{{elements.tel}}}</span>
+    <span id="ios-links-black">Tel: {{{widgetConfig.tel}}}</span>
   {{/if}}
 </p>
