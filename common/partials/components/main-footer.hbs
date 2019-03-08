@@ -1,94 +1,49 @@
 {{!
- * @param {Boolean} socialOnTop
- * @param {String}  lookAndFeel
- * @param {String}  logoName
- * @param {String}  logoLink
- * @param {Object}  logoUtmVars
- * @param {String}  customLogoPath
- * @param {String}  customLogoAlt
- * @param {Array}   navigationElements
- * @param {String}  disclaimerText
- * @param {Object}  addressElements
- * @param {String}  mainFooterClasses
+ * @param {String} widgetClass
+ * @param {Object} widgetConfig
+ * @param {String} widgetConfig.layout
+ * @param {String} widgetConfig.style
+ * @param {Object} widgetConfig.logo
+ * @param {String} widgetConfig.logo.name
+ * @param {Object} widgetConfig.logo.link
+ * @param {String} widgetConfig.logo.link.url
+ * @param {Object} widgetConfig.logo.link.utm
+ * @param {String} widgetConfig.logo.path
+ * @param {String} widgetConfig.logo.alt
+ * @param {Array}  widgetConfig.navigation
+ * @param {String} widgetConfig.disclaimer
+ * @param {Object} widgetConfig.address
 }}
 
-{{!-- Variables for Footer --}}
-{{assign "footerLayoutClass" (ternary socialOnTop "-social-on-top" "-social-below")}}
-{{assign "footerRespClasses" (ternary socialOnTop "main-footer" "")}}
-{{assign "footerHeadRespClasses" (ternary socialOnTop "mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border" "mobile-padding-horizontal-sides")}}
-{{assign "footerHeadWrapperClasses" (ternary socialOnTop "fhead-wrapper" "fhead-wrapper set-max-width")}}
+{{#if widgetConfig.logo.path}}
+  {{assign "footerLogoSrc" widgetConfig.logo.path}}
+  {{assign "footerLogoAlt" widgetConfig.logo.alt}}
+{{else if widgetConfig.logo.name}}
+  {{assign "footerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
+  {{assign "footerLogoAlt" (get (concat (camelcase widgetConfig.logo.name) ".alt") logos)}}
+{{else}}
+  {{assign "footerLogoSrc" null}}
+  {{assign "footerLogoAlt" null}}
+{{/if}}
 
-{{assign "footerLookAndFeelClass" (ternary lookAndFeel (concat "-" lookAndFeel "-style") "-basic-style")}}
+{{assign "footerStyleClass" (concat "-" widgetConfig.style "-style")}}
+{{assign "footerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
+{{assign "footerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
+{{assign "footerLogoConfig" (toObject
+  src=@root.footerLogoSrc
+  alt=@root.footerLogoAlt
+  link=@root.footerLogoLink
+  responsive="mobile-align-center"
+)}}
 
-{{assign "footerLogoNameClass" (ternary logoName (concat "-" logoName "-logo") "-justia-logo")}}
-
-{{assign "footerClasses" (concat "main-footer" @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses "set-max-width" separator=" ")}}
+{{assign "footerClasses" (concat @root.footerStyleClass @root.footerLogoModifierClass widgetClass separator=" ")}}
 
 {{>ui-layout-hack tableStart=true}}
-  {{#table class=@root.footerClasses responsive=@root.footerRespClasses}}
-    <tr>
-      <td class="footer-head" responsive="{{@root.footerHeadRespClasses}}">
-        {{#unless socialOnTop}}{{>ui-spacer-hack}}{{/unless}}
-        {{#table class=@root.footerHeadWrapperClasses}}
-          <tr>
-            <td class="fhead-side -left footer-logo" responsive="collapse-one {{#if socialOnTop}}footer-logo{{else}}mobile-padding-bottom{{/if}}">
-              {{#if customLogoPath}}
-                {{>main-logo source=customLogoPath alt=customLogoAlt link=logoLink utmVars=logoUtmVars logoResponsiveClasses="mobile-align-center"}}
-              {{else if logoName}}
-                {{>main-logo
-                  source=(get (append (camelcase logoName) ".path.blue") logos)
-                  alt=(get (append (camelcase logoName) ".alt") logos)
-                  link=logoLink
-                  utmVars=logoUtmVars
-                  logoResponsiveClasses="mobile-align-center"
-                }}
-              {{else}}
-                {{>main-logo link=logoLink utmVars=logoUtmVars logoResponsiveClasses="mobile-align-center"}}
-              {{/if}}
-            </td>
-            {{#if socialOnTop}}
-              <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
-                {{>social-icons socialIconsResponsiveClasses="mobile-align-center mobile-no-float"}}
-              </td>
-            {{else}}
-              <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
-                {{>navigation elements=navigationElements}}
-              </td>
-            {{/if}}
-          </tr>
-        {{/table}}
-      </td>
-    </tr>
-    {{#unless socialOnTop}}
-      <tr>
-        <td class="footer-social" responsive="mobile-padding-horizontal-sides">
-          {{>ui-spacer-hack}}
-          {{>social-icons socialIconsClasses="set-max-width"}}
-        </td>
-      </tr>
-    {{/unless}}
-    <tr>
-      <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
-        <p {{#if socialOnTop}}responsive="mobile-align-center"{{/if}}>{{{disclaimerText}}}</p>
-      </td>
-    </tr>
-    <tr>
-      <td class="footer-address" responsive="mobile-padding-horizontal-sides">
-        {{#if socialOnTop}}
-          {{>ui-spacer-hack}}
-          {{>address elements=addressElements addressResponsiveClasses="collapse-one mobile-align-center"}}
-        {{else}}
-          {{>address elements=addressElements}}
-        {{/if}}
-      </td>
-    </tr>
-    {{#if socialOnTop}}
-      <tr>
-        <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
-          {{>ui-spacer-hack}}
-          {{>navigation elements=navigationElements navResponsiveClasses="mobile-align-center"}}
-        </td>
-      </tr>
-    {{/if}}
-  {{/table}}
+  {{#compare widgetConfig.layout "===" "social-on-top"}}
+    {{>social-on-top widgetClass=@root.footerClasses logoConfig=@root.footerLogoConfig}}
+  {{/compare}}
+
+  {{#compare widgetConfig.layout "===" "social-below"}}
+    {{>social-below widgetClass=@root.footerClasses logoConfig=@root.footerLogoConfig}}
+  {{/compare}}
 {{>ui-layout-hack tableEnd=true}}

@@ -66,16 +66,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
   </tr>
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-footer
-        socialOnTop=true
-        lookAndFeel="light-bright"
-        logoName="insights"
-        logoLink=default.footer.logo.link.clients.url
-        logoUtmVars=default.footer.logo.link.clients.utm
-        navigationElements=default.footer.navigation.items
-        disclaimerText=default.footer.disclaimer.clients
-        addressElements=default.footer.address
-      }}
+      {{>main-footer widgetClass="" widgetConfig=footer.clients}}
     </td>
   </tr>
 {{/table}}

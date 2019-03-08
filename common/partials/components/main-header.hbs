@@ -11,8 +11,6 @@
  * @param {String} widgetConfig.logo.alt
 }}
 
-{{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
-
 {{#if widgetConfig.logo.path}}
   {{assign "headerLogoSrc" widgetConfig.logo.path}}
   {{assign "headerLogoAlt" widgetConfig.logo.alt}}
@@ -24,6 +22,7 @@
   {{assign "headerLogoAlt" null}}
 {{/if}}
 
+{{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
 {{assign "headerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
 {{assign "headerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
 

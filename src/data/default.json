@@ -2,15 +2,6 @@
   "header": {
     "logo": {
       "link": {
-        "clients": {
-          "url": "https://www.justia.com/marketing/",
-          "utm": {
-            "medium": "email",
-            "campaign": "<%= currentYear %>-<%= currentMonth %>",
-            "source": "client-newsletter",
-            "content": "image-header-logo-1"
-          }
-        },
         "jld": {
           "url": "https://www.justia.com/marketing/",
           "utm": {
@@ -26,15 +17,6 @@
   "footer": {
     "logo": {
       "link": {
-        "clients": {
-          "url": "https://www.justia.com/marketing/",
-          "utm": {
-            "medium": "email",
-            "campaign": "<%= currentYear %>-<%= currentMonth %>",
-            "source": "client-newsletter",
-            "content": "image-footer-logo-1"
-          }
-        },
         "jld": {
           "url": "https://www.justia.com/marketing/",
           "utm": {
@@ -47,32 +29,7 @@
       }
     },
     "disclaimer": {
-      "clients": "You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
       "jld": "You are receiving this email because you are in the lawyer directory. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email."
-    },
-    "navigation": {
-      "items": [
-        {
-          "text": "Contact Us",
-          "link": "https://www.justia.com/marketing/"
-        },
-        {
-          "text": "Privacy Policy",
-          "link": "https://www.justia.com/marketing/privacy-policy/"
-        },
-        {
-          "text": "Unsubscribe",
-          "link": "*|UNSUB|*"
-        }
-      ]
-    },
-    "address": {
-      "justiaLink": {
-        "text": "Justia",
-        "link": "https://www.justia.com/"
-      },
-      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043",
-      "tel": "(888) 587-8421"
     }
   }
 }

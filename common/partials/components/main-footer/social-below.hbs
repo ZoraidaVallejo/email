@@ -1,0 +1,38 @@
+{{#table class=(concat "main-footer" "-social-below" widgetClass "set-max-width" separator=" ")}}
+  <tr>
+    <td class="footer-head" responsive="mobile-padding-horizontal-sides">
+      {{>ui-spacer-hack}}
+      {{#table class="fhead-wrapper set-max-width"}}
+        <tr>
+          <td class="fhead-side -left footer-logo" responsive="collapse-one mobile-padding-bottom">
+            {{>main-logo
+              source=logoConfig.src
+              alt=logoConfig.alt
+              link=logoConfig.link
+              logoResponsiveClasses=logoConfig.responsive
+            }}
+          </td>
+          <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
+            {{>navigation elements=widgetConfig.navigation}}
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="footer-social" responsive="mobile-padding-horizontal-sides">
+      {{>ui-spacer-hack}}
+      {{>social-icons socialIconsClasses="set-max-width"}}
+    </td>
+  </tr>
+  <tr>
+    <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
+      <p>{{{widgetConfig.disclaimer}}}</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="footer-address" responsive="mobile-padding-horizontal-sides">
+      {{>address elements=widgetConfig.address}}
+    </td>
+  </tr>
+{{/table}}
