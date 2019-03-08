@@ -13,17 +13,8 @@
  * @param {String}  bgSize
 }}
 
-{{#eq (getUnit bgWidth) "%"}}
-  {{assign "bgWidthVal" bgWidth}}
-{{else}}
-  {{assign "bgWidthVal" (toInt bgWidth)}}
-{{/eq}}
-
-{{#eq (getUnit bgHeight) "%"}}
-  {{assign "bgHeightVal" null}}
-{{else}}
-  {{assign "bgHeightVal" (toInt bgHeight)}}
-{{/eq}}
+{{assign "bgWidthVal" (ternary (eq (getUnit bgWidth) "%") bgWidth (toInt bgWidth))}}
+{{assign "bgHeightVal" (ternary (eq (getUnit bgHeight) "%") null (toInt bgHeight))}}
 
 {{#eq backgroundBehavior "cell"}}
   {{#if backgroundStart}}

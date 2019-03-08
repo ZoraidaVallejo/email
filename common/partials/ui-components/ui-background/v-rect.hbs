@@ -5,17 +5,8 @@
  * @param {String}  hackHeight
 }}
 
-{{#eq hackWidth "100%"}}
-  {{assign "hackWidthProp" "mso-width-percent:1000;"}}
-{{else}}
-  {{assign "hackWidthProp" (concat "width:" (toInt hackWidth) "px;")}}
-{{/eq}}
+{{assign "rectWidth" (ternary (compare hackWidth "===" "100%") "mso-width-percent:1000;" (concat "width:" (toInt hackWidth) "px;"))}}
+{{assign "rectHeight" (ternary hackHeight (concat "height:" (toInt hackHeight) "px;") "")}}
 
-{{#if hackHeight}}
-  {{assign "hackHeightProp" (concat "height:" (toInt hackHeight) "px;")}}
-{{else}}
-  {{assign "hackHeightProp" ""}}
-{{/if}}
-
-{{#if hackStart}}<!--[if gte mso 9]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{{@root.hackWidthProp}}}{{{@root.hackHeightProp}}}border:0;outline:0;"><v:fill type="tile" src="{{resolveFilePath hackImage}}" color="{{hackColor}}" /><v:textbox{{#unless hackHeight}} style="mso-fit-shape-to-text:true"{{/unless}} inset="0,0,0,0"><![endif]-->{{/if}}
+{{#if hackStart}}<!--[if gte mso 9]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{{@root.rectWidth}}}{{{@root.rectHeight}}}border:0;outline:0;"><v:fill type="tile" src="{{resolveFilePath hackImage}}" color="{{hackColor}}" /><v:textbox{{#unless hackHeight}} style="mso-fit-shape-to-text:true"{{/unless}} inset="0,0,0,0"><![endif]-->{{/if}}
 {{#if hackEnd}}<!--[if gte mso 9]></v:textbox></v:rect><![endif]-->{{/if}}
