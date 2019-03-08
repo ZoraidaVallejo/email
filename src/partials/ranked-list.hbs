@@ -42,7 +42,7 @@
                   {{#if ../widgetConfig.showRanking}}
                     <td class="ranking" responsive="mobile-padding-right">
                       <img
-                        src="https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0{{index}}{{#if isFirst}}-green{{/if}}.png"
+                        src="{{concat "https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0" index (ternary isFirst "-green" "") ".png"}}"
                         alt="{{index}}"
                         border="0" />
                     </td>

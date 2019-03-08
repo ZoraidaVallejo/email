@@ -1,15 +1,9 @@
 <!-- FEATURED SITE OF THE MONTH -->
 
-{{#if listSites}}
-  {{assign "featuredSiteMainTitle" "Featured Sites of the Month"}}
-{{else}}
-  {{assign "featuredSiteMainTitle" "Featured Site of the Month"}}
-{{/if}}
-
 {{#table class="w-featured-site-month set-max-width"}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title=@root.featuredSiteMainTitle}}
+      {{>widget-header title=(concat "Featured " (ternary listSites "Sites" "Site") " of the Month")}}
     </td>
   </tr>
 

@@ -13,29 +13,14 @@
 }}
 
 {{!-- Variables for Footer --}}
-{{#if socialOnTop}}
-  {{assign "footerLayoutClass" "-social-on-top"}}
-  {{assign "footerRespClasses" "main-footer"}}
-  {{assign "footerHeadRespClasses" "mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border"}}
-  {{assign "footerHeadWrapperClasses" "fhead-wrapper"}}
-{{else}}
-  {{assign "footerLayoutClass" "-social-below"}}
-  {{assign "footerRespClasses" ""}}
-  {{assign "footerHeadRespClasses" "mobile-padding-horizontal-sides"}}
-  {{assign "footerHeadWrapperClasses" "fhead-wrapper set-max-width"}}
-{{/if}}
+{{assign "footerLayoutClass" (ternary socialOnTop "-social-on-top" "-social-below")}}
+{{assign "footerRespClasses" (ternary socialOnTop "main-footer" "")}}
+{{assign "footerHeadRespClasses" (ternary socialOnTop "mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border" "mobile-padding-horizontal-sides")}}
+{{assign "footerHeadWrapperClasses" (ternary socialOnTop "fhead-wrapper" "fhead-wrapper set-max-width")}}
 
-{{#if lookAndFeel}}
-  {{assign "footerLookAndFeelClass" (replace "-%s-style" "%s" lookAndFeel)}}
-{{else}}
-  {{assign "footerLookAndFeelClass" "-basic-style"}}
-{{/if}}
+{{assign "footerLookAndFeelClass" (ternary lookAndFeel (concat "-" lookAndFeel "-style") "-basic-style")}}
 
-{{#if logoName}}
-  {{assign "footerLogoNameClass" (replace "-%s-logo" "%s" logoName)}}
-{{else}}
-  {{assign "footerLogoNameClass" "-justia-logo"}}
-{{/if}}
+{{assign "footerLogoNameClass" (ternary logoName (concat "-" logoName "-logo") "-justia-logo")}}
 
 {{assign "footerClasses" (concat "main-footer" @root.footerLayoutClass @root.footerLookAndFeelClass @root.footerLogoNameClass mainFooterClasses "set-max-width" separator=" ")}}
 

@@ -8,28 +8,20 @@
 }}
 
 {{!-- Variables for Header --}}
-{{#if withDate}}
-  {{assign "headerLayoutClass" "-with-date"}}
-{{else}}
-  {{assign "headerLayoutClass" "-logo-only"}}
-{{/if}}
+{{assign "headerLayoutClass" (ternary withDate "-with-date" "-logo-only")}}
 
 {{#if customLogoPath}}
   {{assign "headerLogoSrc" customLogoPath}}
   {{assign "headerLogoAlt" customLogoAlt}}
 {{else if logoName}}
-  {{assign "headerLogoSrc" (get (append (camelcase logoName) ".path.blue") logos)}}
-  {{assign "headerLogoAlt" (get (append (camelcase logoName) ".alt") logos)}}
+  {{assign "headerLogoSrc" (get (concat (camelcase logoName) ".path.blue") logos)}}
+  {{assign "headerLogoAlt" (get (concat (camelcase logoName) ".alt") logos)}}
 {{else}}
   {{assign "headerLogoSrc" null}}
   {{assign "headerLogoAlt" null}}
 {{/if}}
 
-{{#if logoName}}
-  {{assign "headerLogoNameClass" (replace "-%s-logo" "%s" logoName)}}
-{{else}}
-  {{assign "headerLogoNameClass" "-justia-logo"}}
-{{/if}}
+{{assign "headerLogoNameClass" (ternary logoName (concat "-" logoName "-logo") "-justia-logo")}}
 
 {{assign "headerAllClasses" (concat "main-header" @root.headerLayoutClass @root.headerLogoNameClass "set-max-width" separator=" ")}}
 
