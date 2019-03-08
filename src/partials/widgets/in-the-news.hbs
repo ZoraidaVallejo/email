@@ -13,10 +13,10 @@
           <tr>
             <td class="logo">
               {{#and this.button (compare this.button.link "!==" "")}}<a href="{{{this.button.link}}}" target="_blank">{{/and}}
-                <img
-                  src="{{resolveFilePath (concat ../inTheNews.imagePefix "0" index ".png")}}"
-                  alt="{{sanitize this.logoName}}"
-                  border="0" />
+                {{>img
+                  imgSrc=(concat ../inTheNews.imagePefix "0" index ".png")
+                  imgAlt=this.logoName
+                }}
               {{#and this.button (compare this.button.link "!==" "")}}</a>{{/and}}
             </td>
             <td class="description">

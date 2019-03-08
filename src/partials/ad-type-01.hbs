@@ -10,10 +10,10 @@
     <tr>
       <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
         <a href="{{{@root.adLink}}}" target="_blank">
-          <img
-            src="{{get (concat (camelcase widgetConfig.logo.name) "path" widgetConfig.logo.color separator=".") logos}}"
-            alt="{{get (concat (camelcase widgetConfig.logo.name) "alt" separator=".") logos}}"
-            border="0" />
+          {{>img
+            imgSrc=(get (concat (camelcase widgetConfig.logo.name) "path" widgetConfig.logo.color separator=".") logos)
+            imgAlt=(get (concat (camelcase widgetConfig.logo.name) "alt" separator=".") logos)
+          }}
         </a>
       </td>
     </tr>
@@ -32,10 +32,10 @@
   <tr>
     <td class="image">
       <a href="{{{@root.adLink}}}" target="_blank">
-        <img
-          src="{{resolveFilePath widgetConfig.image}}"
-          alt="{{{sanitize (default widgetConfig.title widgetConfig.imageAlt)}}}"
-          border="0" />
+        {{>img
+          imgSrc=widgetConfig.image
+          imgAlt=(default widgetConfig.title widgetConfig.imageAlt)
+        }}
       </a>
     </td>
   </tr>

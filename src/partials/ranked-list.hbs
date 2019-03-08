@@ -25,10 +25,10 @@
                 <tr>
                   <td class="photo" responsive="mobile-padding-left">
                     {{#if this.photoLink}}<a href="{{{this.photoLink}}}" target="_blank">{{/if}}
-                      <img
-                        src="{{resolveFilePath (concat ../widgetConfig.photoImagePrefix "0" index ".png")}}"
-                        alt="{{sanitize this.name}}"
-                        border="0" />
+                      {{>img
+                        imgSrc=(concat ../widgetConfig.photoImagePrefix "0" index ".png")
+                        imgAlt=this.name
+                      }}
                     {{#if this.photoLink}}</a>{{/if}}
                   </td>
                   <td class="info" responsive="mobile-padding-horizontal-sides">
@@ -41,10 +41,10 @@
                   </td>
                   {{#if ../widgetConfig.showRanking}}
                     <td class="ranking" responsive="mobile-padding-right">
-                      <img
-                        src="{{concat "https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0" index (ternary isFirst "-green" "") ".png"}}"
-                        alt="{{index}}"
-                        border="0" />
+                      {{>img
+                        imgSrc=(concat "https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0" index (ternary isFirst "-green" "") ".png")
+                        imgAlt=(ordinalize index)
+                      }}
                     </td>
                   {{/if}}
                 </tr>

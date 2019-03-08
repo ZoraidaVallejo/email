@@ -26,10 +26,10 @@
     <tr class="featured-site">
       <td class="devices" responsive="mobile-padding-horizontal-sides">
         <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
-          <img
-            src="{{resolveFilePath featuredSiteMonth.sites.0.screenshots}}"
-            alt="{{replace (sanitize featuredSiteMonth.sites.0.clientName) "," ""}}"
-            border="0" />
+          {{>img
+            imgSrc=featuredSiteMonth.sites.0.screenshots
+            imgAlt=featuredSiteMonth.sites.0.clientName
+          }}
         </a>
       </td>
     </tr>
@@ -48,7 +48,10 @@
             <tr>
               <td class="devices" responsive="mobile-hide collapse-one">
                 <a href="{{this.domain.long}}" target="_blank">
-                  <img src="{{resolveFilePath this.thumbnail}}" alt="{{sanitize this.clientName}}" border="0" />
+                  {{>img
+                    imgSrc=this.thumbnail
+                    imgAlt=this.clientName
+                  }}
                 </a>
               </td>
               <td class="client-info" responsive="collapse-one mobile-align-center{{#unless isFirst}} mobile-padding-medium-top{{/unless}}{{#unless isLast}} mobile-padding-medium-bottom{{/unless}}">

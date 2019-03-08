@@ -37,7 +37,10 @@
             <td class="image" responsive="mobile-hide">
               {{#if this.image.src}}
                 {{#if this.image.link}}<a href="{{{this.image.link}}}" target="_blank">{{/if}}
-                  <img src="{{resolveFilePath this.image.src}}" alt="{{sanitize this.title}}" border="0" />
+                  {{>img
+                    imgSrc=this.image.src
+                    imgAlt=this.title
+                  }}
                 {{#if this.image.link}}</a>{{/if}}
               {{else}}
                 &nbsp;
