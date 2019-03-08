@@ -1,49 +1,62 @@
 {{!
- * @param {Boolean} withDate
- * @param {String}  logoName
- * @param {String}  logoLink
- * @param {Object}  logoUtmVars
- * @param {String}  customLogoPath
- * @param {String}  customLogoAlt
+ * @param {String} widgetClass
+ * @param {Object} widgetConfig
+ * @param {String} widgetConfig.layout
+ * @param {Object} widgetConfig.logo
+ * @param {String} widgetConfig.logo.name
+ * @param {Object} widgetConfig.logo.link
+ * @param {String} widgetConfig.logo.link.url
+ * @param {Object} widgetConfig.logo.link.utm
+ * @param {String} widgetConfig.logo.path
+ * @param {String} widgetConfig.logo.alt
 }}
 
-{{!-- Variables for Header --}}
-{{assign "headerLayoutClass" (ternary withDate "-with-date" "-logo-only")}}
+{{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
 
-{{#if customLogoPath}}
-  {{assign "headerLogoSrc" customLogoPath}}
-  {{assign "headerLogoAlt" customLogoAlt}}
-{{else if logoName}}
-  {{assign "headerLogoSrc" (get (concat (camelcase logoName) ".path.blue") logos)}}
-  {{assign "headerLogoAlt" (get (concat (camelcase logoName) ".alt") logos)}}
+{{#if widgetConfig.logo.path}}
+  {{assign "headerLogoSrc" widgetConfig.logo.path}}
+  {{assign "headerLogoAlt" widgetConfig.logo.alt}}
+{{else if widgetConfig.logo.name}}
+  {{assign "headerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
+  {{assign "headerLogoAlt" (get (concat (camelcase widgetConfig.logo.name) ".alt") logos)}}
 {{else}}
   {{assign "headerLogoSrc" null}}
   {{assign "headerLogoAlt" null}}
 {{/if}}
 
-{{assign "headerLogoNameClass" (ternary logoName (concat "-" logoName "-logo") "-justia-logo")}}
-
-{{assign "headerAllClasses" (concat "main-header" @root.headerLayoutClass @root.headerLogoNameClass "set-max-width" separator=" ")}}
+{{assign "headerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
+{{assign "headerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
 
 {{>ui-layout-hack tableStart=true}}
-  {{#table class=@root.headerAllClasses}}
+  {{#table class=(concat "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width" separator=" ")}}
     <tr>
       <td class="wrapper" responsive="mobile-padding-horizontal-sides">
         {{>ui-spacer-hack}}
-        {{#if withDate}}
+
+        {{#compare widgetConfig.layout "===" "logo-only"}}
+          {{>main-logo
+            source=@root.headerLogoSrc
+            alt=@root.headerLogoAlt
+            link=@root.headerLogoLink
+          }}
+        {{/compare}}
+
+        {{#compare widgetConfig.layout "===" "with-date"}}
           {{#table}}
             <tr>
               <td class="logo">
-                {{>main-logo source=@root.headerLogoSrc alt=@root.headerLogoAlt link=logoLink utmVars=logoUtmVars}}
+                {{>main-logo
+                  source=@root.headerLogoSrc
+                  alt=@root.headerLogoAlt
+                  link=@root.headerLogoLink
+                }}
               </td>
               <td class="date">
                 <span>{{getMonth custom-config.currentMonth}} {{custom-config.currentYear}}</span>
               </td>
             </tr>
           {{/table}}
-        {{else}}
-          {{>main-logo source=@root.headerLogoSrc alt=@root.headerLogoAlt link=logoLink utmVars=logoUtmVars}}
-        {{/if}}
+        {{/compare}}
       </td>
     </tr>
   {{/table}}

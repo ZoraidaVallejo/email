@@ -8,12 +8,7 @@ subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclu
 {{#table class="client-newsletter" align=""}}
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-header
-        withDate=true
-        logoName="insights"
-        logoLink=default.header.logo.link.clients.url
-        logoUtmVars=default.header.logo.link.clients.utm
-      }}
+      {{>main-header widgetConfig=header.clients}}
     </td>
   </tr>
   <tr>
