@@ -1,5 +1,5 @@
 {{!
- * @param {String} pipeResponsiveClasses
+ * @param {String} widgetResponsive
 }}
 
-<span class="pipe" responsive="{{pipeResponsiveClasses}}">|</span>
+<span class="pipe" {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>|</span>

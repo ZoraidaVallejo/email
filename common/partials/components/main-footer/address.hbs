@@ -13,11 +13,11 @@
     <a class="justia-inline" href="{{widgetConfig.justiaLink.link}}" target="_blank">{{{widgetConfig.justiaLink.text}}}</a>
   {{/if}}
   {{#if widgetConfig.direction}}
-    {{>pipe}}
+    {{>pipe widgetResponsive=false}}
     <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
   {{/if}}
   {{#if widgetConfig.tel}}
-    {{>pipe}}
+    {{>pipe widgetResponsive=false}}
     <span id="ios-links-black">Tel: {{{widgetConfig.tel}}}</span>
   {{/if}}
 </p>
