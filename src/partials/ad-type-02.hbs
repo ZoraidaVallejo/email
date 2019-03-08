@@ -20,8 +20,8 @@
             <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
               <a href="{{{@root.adLink}}}" target="_blank">
                 {{>img
-                  imgSrc=(get (concat (camelcase widgetConfig.logo.name) "path" widgetConfig.logo.color separator=".") logos)
-                  imgAlt=(get (concat (camelcase widgetConfig.logo.name) "alt" separator=".") logos)
+                  src=(get (concat (camelcase widgetConfig.logo.name) "path" widgetConfig.logo.color separator=".") logos)
+                  alt=(get (concat (camelcase widgetConfig.logo.name) "alt" separator=".") logos)
                 }}
               </a>
             </td>
@@ -42,8 +42,8 @@
           <td class="image">
             <a href="{{{@root.adLink}}}" target="_blank">
               {{>img
-                imgSrc=widgetConfig.image
-                imgAlt=(default widgetConfig.title widgetConfig.imageAlt)
+                src=widgetConfig.image
+                alt=(default widgetConfig.title widgetConfig.imageAlt)
               }}
             </a>
           </td>

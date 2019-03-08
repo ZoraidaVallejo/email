@@ -1,13 +1,13 @@
 {{!
- * @param {String} imgSrc
- * @param {String} imgAlt
- * @param {String} imgClass
- * @param {String} imgResponsive
+ * @param {String} src
+ * @param {String} alt
+ * @param {String} class
+ * @param {String} responsive
 }}
 
 <img
-  src="{{resolveFilePath imgSrc}}"
-  alt="{{replace (sanitize imgAlt) "," ""}}"
-  {{#if imgClass}}class="{{imgClass}}"{{/if}}
-  {{#if imgResponsive}}responsive="{{imgResponsive}}"{{/if}}
+  src="{{resolveFilePath src}}"
+  alt="{{replace (sanitize alt) "," ""}}"
+  {{#if class}}class="{{class}}"{{/if}}
+  {{#if responsive}}responsive="{{responsive}}"{{/if}}
   border="0" />

@@ -14,8 +14,8 @@
             <td class="logo">
               {{#and this.button (compare this.button.link "!==" "")}}<a href="{{{this.button.link}}}" target="_blank">{{/and}}
                 {{>img
-                  imgSrc=(concat ../inTheNews.imagePefix "0" index ".png")
-                  imgAlt=this.logoName
+                  src=(concat ../inTheNews.imagePefix "0" index ".png")
+                  alt=this.logoName
                 }}
               {{#and this.button (compare this.button.link "!==" "")}}</a>{{/and}}
             </td>

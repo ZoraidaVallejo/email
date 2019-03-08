@@ -9,9 +9,9 @@
 
 {{#if link}}<a href="{{{link}}}{{#if utmVars}}{{{utmVariables utmVars}}}{{/if}}" target="_blank">{{/if}}
   {{>img
-    imgSrc=(default source logos.justia.path.blue)
-    imgAlt=(default alt logos.justia.alt)
-    imgClass=(concat "logo-img" logoClasses separator=" ")
-    imgResponsive=logoResponsiveClasses
+    src=(default source logos.justia.path.blue)
+    alt=(default alt logos.justia.alt)
+    class=(concat "logo-img" logoClasses separator=" ")
+    responsive=logoResponsiveClasses
   }}
 {{#if link}}</a>{{/if}}

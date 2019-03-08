@@ -26,8 +26,8 @@
                   <td class="photo" responsive="mobile-padding-left">
                     {{#if this.photoLink}}<a href="{{{this.photoLink}}}" target="_blank">{{/if}}
                       {{>img
-                        imgSrc=(concat ../widgetConfig.photoImagePrefix "0" index ".png")
-                        imgAlt=this.name
+                        src=(concat ../widgetConfig.photoImagePrefix "0" index ".png")
+                        alt=this.name
                       }}
                     {{#if this.photoLink}}</a>{{/if}}
                   </td>
@@ -42,8 +42,8 @@
                   {{#if ../widgetConfig.showRanking}}
                     <td class="ranking" responsive="mobile-padding-right">
                       {{>img
-                        imgSrc=(concat "https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0" index (ternary isFirst "-green" "") ".png")
-                        imgAlt=(ordinalize index)
+                        src=(concat "https://justatic.com/v/1/emails/images/newsletters/common/number-ranking-0" index (ternary isFirst "-green" "") ".png")
+                        alt=(ordinalize index)
                       }}
                     </td>
                   {{/if}}

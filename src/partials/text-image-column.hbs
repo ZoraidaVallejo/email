@@ -38,8 +38,8 @@
               {{#if this.image.src}}
                 {{#if this.image.link}}<a href="{{{this.image.link}}}" target="_blank">{{/if}}
                   {{>img
-                    imgSrc=this.image.src
-                    imgAlt=this.title
+                    src=this.image.src
+                    alt=this.title
                   }}
                 {{#if this.image.link}}</a>{{/if}}
               {{else}}
