@@ -5,12 +5,7 @@
         {{#table class="fhead-wrapper"}}
           <tr>
             <td class="fhead-side -left footer-logo" responsive="collapse-one footer-logo">
-              {{>main-logo
-                source=logoConfig.src
-                alt=logoConfig.alt
-                link=logoConfig.link
-                logoResponsiveClasses=logoConfig.responsive
-              }}
+              {{>main-logo widgetConfig=logoConfig}}
             </td>
             <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
               {{>social-icons socialIconsResponsiveClasses="mobile-align-center mobile-no-float"}}

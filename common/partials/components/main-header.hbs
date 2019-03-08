@@ -24,7 +24,11 @@
 
 {{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
 {{assign "headerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
-{{assign "headerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
+{{assign "headerLogoConfig" (toObject
+  src=@root.headerLogoSrc
+  alt=@root.headerLogoAlt
+  link=(concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))
+)}}
 
 {{>ui-layout-hack tableStart=true}}
   {{#table class=(concat "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width" separator=" ")}}
@@ -33,22 +37,14 @@
         {{>ui-spacer-hack}}
 
         {{#compare widgetConfig.layout "===" "logo-only"}}
-          {{>main-logo
-            source=@root.headerLogoSrc
-            alt=@root.headerLogoAlt
-            link=@root.headerLogoLink
-          }}
+          {{>main-logo widgetConfig=@root.headerLogoConfig}}
         {{/compare}}
 
         {{#compare widgetConfig.layout "===" "with-date"}}
           {{#table}}
             <tr>
               <td class="logo">
-                {{>main-logo
-                  source=@root.headerLogoSrc
-                  alt=@root.headerLogoAlt
-                  link=@root.headerLogoLink
-                }}
+                {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
               <td class="date">
                 <span>{{getMonth custom-config.currentMonth}} {{custom-config.currentYear}}</span>
