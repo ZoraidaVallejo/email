@@ -1,5 +1,12 @@
 {{!
  * @param {Object} widgetConfig
+ * @param {Array}  widgetConfig.description
+ * @param {String} widgetConfig.imageSrc
+ * @param {String} widgetConfig.imageAlt
+ * @param {String} widgetConfig.imageLink
+ * @param {String} widgetConfig.buttonStyle
+ * @param {String} widgetConfig.buttonText
+ * @param {String} widgetConfig.buttonLink
 }}
 
 <tr>
@@ -19,7 +26,7 @@
         <td class="image" responsive="mobile-hide">
           {{#if widgetConfig.imageLink}}<a href="{{{widgetConfig.imageLink}}}" target="_blank">{{/if}}
             {{>img
-              src=widgetConfig.imageName
+              src=widgetConfig.imageSrc
               alt=widgetConfig.imageAlt
             }}
           {{#if widgetConfig.imageLink}}</a>{{/if}}

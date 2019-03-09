@@ -1,6 +1,18 @@
 {{!
- * @param {String} widgetClass
- * @param {Object} widgetConfig
+ * @param {String}       widgetClass
+ * @param {Object}       widgetConfig
+ * @param {String}       widgetConfig.link
+ * @param {Object}       widgetConfig.utm
+ * @param {Object}       widgetConfig.logo
+ * @param {String}       widgetConfig.logo.name
+ * @param {String}       widgetConfig.logo.color
+ * @param {String}       widgetConfig.title
+ * @param {Number}       widgetConfig.titleResponsiveSize
+ * @param {String}       widgetConfig.image
+ * @param {String}       widgetConfig.imageAlt
+ * @param {Object[]}     widgetConfig.contentOrder
+ * @param {String}       widgetConfig.contentOrder[].type
+ * @param {Array|Object} widgetConfig.contentOrder[].config
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
