@@ -1,0 +1,39 @@
+---
+layout: responsive.hbs
+subject: <%= currentMonthString %> <%= currentYear %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="client-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{>welcome}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>content}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>jobs-listing}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>advertisement}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>ending}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer}}
+    </td>
+  </tr>
+{{/table}}
