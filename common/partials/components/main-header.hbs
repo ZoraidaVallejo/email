@@ -24,10 +24,11 @@
 
 {{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
 {{assign "headerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
+{{assign "headerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
 {{assign "headerLogoConfig" (toObject
   src=@root.headerLogoSrc
   alt=@root.headerLogoAlt
-  link=(concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))
+  link=@root.headerLogoLink
 )}}
 
 {{>ui-layout-hack tableStart=true}}

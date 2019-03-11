@@ -16,6 +16,8 @@ const cssClasses = [
   'mobile-reset-bg-image',
   'mobile-hide',
   'mobile-align-center',
+  'mobile-align-right',
+  'mobile-align-left',
   'mobile-fz-20',
   'mobile-fz-24',
   'mobile-fz-30',
