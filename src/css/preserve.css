@@ -117,6 +117,12 @@ div[style*='margin: 16px 0;'] {
     margin: 0 auto !important;
     text-align: center !important;
   }
+  .mobile-align-right {
+    text-align: right !important;
+  }
+  .mobile-align-left {
+    text-align: left !important;
+  }
   .mobile-fz-20 {
     font-size: 20px !important;
   }

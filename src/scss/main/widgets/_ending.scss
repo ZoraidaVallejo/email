@@ -1,7 +1,19 @@
 // ----------------------------------------------------------------------------------------------------------
-// C O L U M N   T E X T - I M A G E
+// E N D I N G   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-// .w-text-image {
-//   // Styles here.
-// }
+.w-ending {
+  background-color: plt('white');
+
+  .ending-text {
+    padding: 25px $padding;
+
+    a {
+      color: plt('black');
+    }
+
+    p {
+      @include mail-font(14px, 1.7);
+    }
+  }
+}

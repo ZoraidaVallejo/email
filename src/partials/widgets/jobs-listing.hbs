@@ -26,6 +26,7 @@
                     <b>{{{this.area}}}</b>
                   </td>
                 </tr>
+              {{/table}}
             </td>
           </tr>
           {{#forEach this.jobs}}
@@ -39,18 +40,18 @@
                         <a class="company" href="{{this.link}}" target="_blank">{{{this.company}}}</a>
                       </p>
                     </td>
-                    <td class="job-details-btn" responsive="collapse-one mobile-no-padding-top">
+                    <td class="job-details-btn" responsive="collapse-one mobile-no-padding-top mobile-align-left">
                       {{#uiButton href=this.link width="110" height="40" fontSize="12"}}
                         VIEW DETAILS
                       {{/uiButton}}
                     </td>
                   </tr>
-                </table>
+                {{/table}}
               </td>
             </tr>
           {{/forEach}}
-        </table>
+        {{/table}}
       </td>
     </tr>
   {{/forEach}}
-</table>
+{{/table}}

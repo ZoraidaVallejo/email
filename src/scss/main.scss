@@ -14,32 +14,12 @@ $use-breakpoint: false;
 @import
   'mixins',
   'main/widgets',
-  'main/widgets/welcome',
-  'main/widgets/stories-list',
-  'main/widgets/stories-list/featured',
-  'main/widgets/stories-list/list',
-  'main/widgets/stories-list/custom',
-  'main/widgets/simple-text',
-  'main/widgets/simple-text/custom',
-  'main/widgets/internet-stats',
-  'main/widgets/featured-site-month',
-  'main/widgets/featured-site-month/featured-site',
-  'main/widgets/featured-site-month/sites-list',
-  'main/widgets/in-the-news',
-  'main/widgets/column-text-image',
-  'main/widgets/column-text-image/multiple-rows',
-  'main/widgets/column-text-image/custom',
-  'main/widgets/ranked-list',
-  'main/widgets/ranked-list/rows',
-  'main/widgets/ranked-list/custom',
-  'main/widgets/law-events',
-  'main/widgets/law-events/featured-event',
-  'main/widgets/law-events/event-list',
-  'main/widgets/law-events/custom',
-  'main/widgets/advertisement',
-  'main/widgets/advertisement/custom',
-  'main/utilities';
 
-@import
-  'main/client-specific',
-  'main/jld-specific';
+  'main/widgets/welcome',
+  'main/widgets/content',
+  'main/widgets/jobs-listing',
+  'main/widgets/advertisement',
+
+  'main/widgets/ending',
+
+  'main/utilities';
