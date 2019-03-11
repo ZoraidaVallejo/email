@@ -1,7 +1,13 @@
 <!-- WELCOME MESSAGE -->
 
 {{!
- * @param {Object} widgetConfig
+ * @param {Object}   widgetConfig
+ * @param {String[]} widgetConfig.title
+ * @param {String[]} widgetConfig.message
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
