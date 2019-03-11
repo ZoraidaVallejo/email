@@ -1,10 +1,21 @@
 <!-- ADVERTISEMENT -->
 
+{{assign "ad-link" "https://www.justia.com/marketing/lawyer-directory/"}}
+{{assign "ad-utm-vars" (utmVariables
+  medium="email"
+  source="legal-jobs-newsletter"
+  campaign=(concat custom-config.currentYear custom-config.currentMonth custom-config.currentDay separator="-")
+  content="banner-want-to-view-your-traffic-stats-v1"
+)}}
+
 {{#table class="w-advertisement set-max-width"}}
   <tr>
     <td class="ad-image">
-      <a href="https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=legal-jobs-newsletter&utm_campaign=2018-11-14&utm_content=banner-want-to-view-your-traffic-stats-v1" target="_blank">
-        <img alt="Want to view your traffic stats? Become a Premium Member Now!" src="https://justatic.com/emails/images/legal-jobs-newsletters/common/jobs-premium-01.png" tabindex="0" border="0">
+      <a href="{{{@root.ad-link}}}{{{@root.ad-utm-vars}}}" target="_blank">
+        {{>img
+          src="https://justatic.com/emails/images/legal-jobs-newsletters/common/jobs-premium-01.png"
+          alt="Want to view your traffic stats? Become a Premium Member Now!"
+        }}
       </a>
     </td>
   </tr>
