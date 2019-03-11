@@ -1,31 +1,39 @@
 {
-  "places": [{
+  "places": [
+    {
       "area": "Chicago, IL; Washington, DC; New York, NY; San Francisco, CA; or Los Angeles, CA",
-      "jobs": [{
-        "title": "Attorney, Nature Program",
-        "company": "Natural Resources Defense Council",
-        "link": "https://careers-nrdc.icims.com/jobs/4154/attorney%2c-nature-program/job"
-      }]
+      "jobs": [
+        {
+          "title": "Attorney, Nature Program",
+          "company": "Natural Resources Defense Council",
+          "link": "https://careers-nrdc.icims.com/jobs/4154/attorney%2c-nature-program/job"
+        }
+      ]
     },
     {
       "area": "Portland, OR or San Francisco, CA",
-      "jobs": [{
-        "title": "Staff Attorney",
-        "company": "Center for Food Safety",
-        "link": "http://www.centerforfoodsafety.org/jobs/5525/staff-attorney"
-      }]
+      "jobs": [
+        {
+          "title": "Staff Attorney",
+          "company": "Center for Food Safety",
+          "link": "http://www.centerforfoodsafety.org/jobs/5525/staff-attorney"
+        }
+      ]
     },
     {
       "area": "California - Sacramento, Oakland, Los Angeles, or San Diego",
-      "jobs": [{
-        "title": "Legal Advocacy Unit Director",
-        "company": "Disability Rights California",
-        "link": "https://jobs.lever.co/disabilityrightsca/e33816c0-1473-47b0-a07c-970c74184660"
-      }]
+      "jobs": [
+        {
+          "title": "Legal Advocacy Unit Director",
+          "company": "Disability Rights California",
+          "link": "https://jobs.lever.co/disabilityrightsca/e33816c0-1473-47b0-a07c-970c74184660"
+        }
+      ]
     },
     {
       "area": "California - Los Angeles Metro Area",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Appellate Attorney",
           "company": "Federal Public Defender, Central District of California (deadline 3/18)",
           "link": "https://www.uscourts.gov/careers/current-job-openings/104053"
@@ -49,7 +57,8 @@
     },
     {
       "area": "California - Sacramento Metro Area",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Deputy Attorney General, Fraud & Special Prosecutions Section",
           "company": "State of California Department of Justice (deadline 3/15)",
           "link": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=145986"
@@ -68,7 +77,8 @@
     },
     {
       "area": "California - San Francisco Bay Area",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Associate General Counsel -- Corporate",
           "company": "Williams Sonoma",
           "link": "https://careers.williams-sonomainc.com/williams-sonoma-inc/job/San-Francisco-Associate-General-Counsel-CA-94101/533226500/"
@@ -102,7 +112,8 @@
     },
     {
       "area": "DC - Washington Metro Area",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Assistant General Counsel",
           "company": "Administrative Office of the United States Courts",
           "link": "https://www.usajobs.gov/GetJob/ViewDetails/521346800"
@@ -141,7 +152,8 @@
     },
     {
       "area": "Illinois - Chicago",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Attorney",
           "company": "Chicago Coalition for the Homeless",
           "link": "https://www.chicagohomeless.org/attorney/"
@@ -175,7 +187,8 @@
     },
     {
       "area": "Massachusetts - Boston Metro Area",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Associate General Counsel",
           "company": "Boston Children’s Hospital",
           "link": "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=368&siteid=5205#jobDetails=2807512_5205"
@@ -194,7 +207,8 @@
     },
     {
       "area": "New York - New York City",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Assistant Attorney General (Bankruptcy Litigator)",
           "company": "New York State Office of the Attorney General ",
           "link": "https://ag.ny.gov/sites/default/files/job-postings/litigation_bureau_bankruptcy_3194_int.pdf"
@@ -233,7 +247,8 @@
     },
     {
       "area": "Texas - Austin",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Department Director - Client-Attorney Assistance Program",
           "company": "State Bar of Texas (deadline 3/15)",
           "link": "https://careers-texasbar.icims.com/jobs/1353/department-director---client-attorney-assistance-program/job"
@@ -247,7 +262,8 @@
     },
     {
       "area": "Washington - Seattle",
-      "jobs": [{
+      "jobs": [
+        {
           "title": "Assistant Attorney General - Counsel for Environmental Protection",
           "company": "Washington State Office of the Attorney General (deadline 3/21)",
           "link": "https://www.governmentjobs.com/careers/washington/jobs/2369054/assistant-attorney-general-counsel-for-environmental-protection"
