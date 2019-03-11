@@ -5,7 +5,7 @@ const log = require('bilberry/log');
 const loadGruntConfig = require('load-grunt-config');
 
 const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
-const getMonths = require('./lib/handlebars-helpers/get-month');
+const getMonth = require('./lib/handlebars-helpers/get-month');
 
 if (!customConfig.version) {
   customConfig.currentYear = customConfig.current_year;
@@ -20,7 +20,7 @@ if (!customConfig.version) {
 
 const monthNum = parseInt(customConfig.currentMonth, 10);
 const configuration = Object.assign({}, customConfig, {
-  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonths(monthNum)
+  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonth(monthNum)
 });
 
 if (monthNum < 1 || monthNum > 12) {
