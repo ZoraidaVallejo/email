@@ -1,11 +1,9 @@
 {{!
- * @param {String} socialIconsClasses
- * @param {String} socialIconsResponsiveClasses
+ * @param {String} widgetClass
+ * @param {String} widgetResponsive
 }}
 
-{{assign "socialIconsAllClasses" (concat "social-icons" socialIconsClasses separator=" ")}}
-
-{{#table class=@root.socialIconsAllClasses responsive=socialIconsResponsiveClasses}}
+{{#table class=(concat "social-icons" widgetClass separator=" ") responsive=widgetResponsive}}
   <tr>
     <td class="icon">
       <a href="https://www.facebook.com/justia" target="_blank">

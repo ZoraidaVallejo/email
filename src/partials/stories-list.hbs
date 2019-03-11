@@ -1,10 +1,15 @@
 {{!
- * @param {Array} widgetConfig
+ * @param {Object[]} widgetConfig
+ * @param {Object[]} widgetConfig.stories
+ * @param {String}   widgetConfig.stories[].title
+ * @param {String}   widgetConfig.stories[].link
+ * @param {String}   widgetConfig.stories[].description
+ * @param {Boolean}  widgetConfig.isLast
 }}
 
 <tr>
   <td class="stories-links{{#if widgetConfig.isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-    {{#forEach widgetConfig.list}}
+    {{#forEach widgetConfig.stories}}
       <p class="title">
         {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
           <b>{{{this.title}}}</b>

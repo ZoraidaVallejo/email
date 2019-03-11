@@ -1,3 +1,17 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {Object[]} widgetConfig.navigation
+ * @param {String}   widgetConfig.navigation[].text
+ * @param {String}   widgetConfig.navigation[].link
+ * @param {String}   widgetConfig.disclaimer
+ * @param {Object}   widgetConfig.address
+ * @param {Object}   logoConfig
+ * @param {String}   logoConfig.src
+ * @param {String}   logoConfig.alt
+ * @param {String}   logoConfig.link
+ * @param {String}   logoConfig.responsive
+}}
 
 {{#table class=(concat "main-footer" "-social-on-top" widgetClass "set-max-width" separator=" ") responsive="main-footer"}}
     <tr>
@@ -8,7 +22,7 @@
               {{>main-logo widgetConfig=logoConfig}}
             </td>
             <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
-              {{>social-icons socialIconsResponsiveClasses="mobile-align-center mobile-no-float"}}
+              {{>social-icons widgetClass=false widgetResponsive="mobile-align-center mobile-no-float"}}
             </td>
           </tr>
         {{/table}}
@@ -22,13 +36,13 @@
     <tr>
       <td class="footer-address" responsive="mobile-padding-horizontal-sides">
         {{>ui-spacer-hack}}
-        {{>address elements=widgetConfig.address addressResponsiveClasses="collapse-one mobile-align-center"}}
+        {{>address widgetConfig=widgetConfig.address widgetResponsive="collapse-one mobile-align-center"}}
       </td>
     </tr>
     <tr>
       <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
         {{>ui-spacer-hack}}
-        {{>navigation elements=widgetConfig.navigation navResponsiveClasses="mobile-align-center"}}
+        {{>navigation widgetConfig=widgetConfig.navigation widgetResponsive="mobile-align-center"}}
       </td>
     </tr>
   {{/table}}

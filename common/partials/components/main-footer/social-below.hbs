@@ -1,3 +1,18 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {Object[]} widgetConfig.navigation
+ * @param {String}   widgetConfig.navigation[].text
+ * @param {String}   widgetConfig.navigation[].link
+ * @param {String}   widgetConfig.disclaimer
+ * @param {Object}   widgetConfig.address
+ * @param {Object}   logoConfig
+ * @param {String}   logoConfig.src
+ * @param {String}   logoConfig.alt
+ * @param {String}   logoConfig.link
+ * @param {String}   logoConfig.responsive
+}}
+
 {{#table class=(concat "main-footer" "-social-below" widgetClass "set-max-width" separator=" ")}}
   <tr>
     <td class="footer-head" responsive="mobile-padding-horizontal-sides">
@@ -8,7 +23,7 @@
             {{>main-logo widgetConfig=logoConfig}}
           </td>
           <td class="fhead-side -right footer-nav" responsive="collapse-one mobile-align-center">
-            {{>navigation elements=widgetConfig.navigation}}
+            {{>navigation widgetConfig=widgetConfig.navigation}}
           </td>
         </tr>
       {{/table}}
@@ -17,7 +32,7 @@
   <tr>
     <td class="footer-social" responsive="mobile-padding-horizontal-sides">
       {{>ui-spacer-hack}}
-      {{>social-icons socialIconsClasses="set-max-width"}}
+      {{>social-icons widgetClass="set-max-width"}}
     </td>
   </tr>
   <tr>
@@ -27,7 +42,7 @@
   </tr>
   <tr>
     <td class="footer-address" responsive="mobile-padding-horizontal-sides">
-      {{>address elements=widgetConfig.address}}
+      {{>address widgetConfig=widgetConfig.address}}
     </td>
   </tr>
 {{/table}}

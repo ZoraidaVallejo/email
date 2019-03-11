@@ -11,7 +11,7 @@
     widgetConfig=(toObject
       description=jurispro.description
       imageLink=jurispro.link
-      imageName=jurispro.image
+      imageSrc=jurispro.image
       imageAlt=(sanitize jurispro.title)
     )
   }}
@@ -22,7 +22,7 @@
     </td>
   </tr>
 
-  {{>stories-list widgetConfig=(toObject isLast=false list=jurispro.cases)}}
+  {{>stories-list widgetConfig=(toObject stories=jurispro.cases isLast=false)}}
 
   <tr>
     <td class="extra-info -last" responsive="mobile-padding-horizontal-sides">

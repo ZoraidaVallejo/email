@@ -1,18 +1,20 @@
 {{!
- * @param {String} widgetClass
- * @param {Object} widgetConfig
- * @param {String} widgetConfig.layout
- * @param {String} widgetConfig.style
- * @param {Object} widgetConfig.logo
- * @param {String} widgetConfig.logo.name
- * @param {Object} widgetConfig.logo.link
- * @param {String} widgetConfig.logo.link.url
- * @param {Object} widgetConfig.logo.link.utm
- * @param {String} widgetConfig.logo.path
- * @param {String} widgetConfig.logo.alt
- * @param {Array}  widgetConfig.navigation
- * @param {String} widgetConfig.disclaimer
- * @param {Object} widgetConfig.address
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {String}   widgetConfig.layout
+ * @param {String}   widgetConfig.style
+ * @param {Object}   widgetConfig.logo
+ * @param {String}   widgetConfig.logo.name
+ * @param {Object}   widgetConfig.logo.link
+ * @param {String}   widgetConfig.logo.link.url
+ * @param {Object}   widgetConfig.logo.link.utm
+ * @param {String}   widgetConfig.logo.path
+ * @param {String}   widgetConfig.logo.alt
+ * @param {Object[]} widgetConfig.navigation
+ * @param {String}   widgetConfig.navigation[].text
+ * @param {String}   widgetConfig.navigation[].link
+ * @param {String}   widgetConfig.disclaimer
+ * @param {Object}   widgetConfig.address
 }}
 
 {{#if widgetConfig.logo.path}}
