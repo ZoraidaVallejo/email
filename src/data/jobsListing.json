@@ -1,232 +1,266 @@
 {
-  "places": [
-    {
-      "area": "Southern U.S. / Location Flexible",
-      "jobs": [
-        {
-          "title": "Education Special Counsel (School Desegregation)",
-          "company": "NAACP Legal Defense & Educational Fund",
-          "link": "https://www.naacpldf.org/about-us/careers/education-special-counsel-remote/"
-        }
-      ]
+  "places": [{
+      "area": "Chicago, IL; Washington, DC; New York, NY; San Francisco, CA; or Los Angeles, CA",
+      "jobs": [{
+        "title": "Attorney, Nature Program",
+        "company": "Natural Resources Defense Council",
+        "link": "https://careers-nrdc.icims.com/jobs/4154/attorney%2c-nature-program/job"
+      }]
     },
     {
-      "area": "New York City, San Francisco, or Washington DC",
-      "jobs": [
-        {
-          "title": "General Counsel",
-          "company": "Wikimedia Foundation",
-          "link": "http://jobs.omidyar.com/jobdetail.php?jobid=1093133"
-        }
-      ]
+      "area": "Portland, OR or San Francisco, CA",
+      "jobs": [{
+        "title": "Staff Attorney",
+        "company": "Center for Food Safety",
+        "link": "http://www.centerforfoodsafety.org/jobs/5525/staff-attorney"
+      }]
     },
     {
-      "area": "New York City or San Francisco Bay Area",
-      "jobs": [
-        {
-          "title": "Counsel, M&A and Strategic Investments",
-          "company": "Visa",
-          "link": "https://usa.visa.com/careers/job-details.jobid.743999683372861.deptid.1146657.html"
-        }
-      ]
-    },
-    {
-      "area": "Boston, MA or Westlake, TX",
-      "jobs": [
-        {
-          "title": "Senior Corporate Attorney",
-          "company": "Fidelity",
-          "link": "https://jobs.fidelity.com/ShowJob/Id/456275/Senior-Corporate-Attorney-Boston,-MA-or-Westlake,-TX/"
-        }
-      ]
+      "area": "California - Sacramento, Oakland, Los Angeles, or San Diego",
+      "jobs": [{
+        "title": "Legal Advocacy Unit Director",
+        "company": "Disability Rights California",
+        "link": "https://jobs.lever.co/disabilityrightsca/e33816c0-1473-47b0-a07c-970c74184660"
+      }]
     },
     {
       "area": "California - Los Angeles Metro Area",
-      "jobs": [
-        {
-          "title": "Counsel, Business and Legal Affairs",
-          "company": "LA Clippers",
-          "link": "https://www.teamworkonline.com/basketball-jobs/nbateamjobs/los-angeles-clippers/legal/counsel-business-and-legal-affairs-1950920"
+      "jobs": [{
+          "title": "Appellate Attorney",
+          "company": "Federal Public Defender, Central District of California (deadline 3/18)",
+          "link": "https://www.uscourts.gov/careers/current-job-openings/104053"
         },
         {
-          "title": "Staff Attorney, Homeless Veterans Project",
-          "company": "Inner City Law Center",
-          "link": "http://www.innercitylaw.org/wp-content/uploads/2019/02/ICLC_Homeless_Veterans_Project_Staff_Attorney.pdf"
+          "title": "General Counsel",
+          "company": "Hyperloop One",
+          "link": "https://boards.greenhouse.io/hyperlooptechnologies/jobs/1565057"
+        },
+        {
+          "title": "Director, Legal & Business Affairs",
+          "company": "IMAX",
+          "link": "https://imax-openhire.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&jobid=1402"
+        },
+        {
+          "title": "Managing Attorney – Housing and Communities Workgroup",
+          "company": "Legal Aid Foundation of Los Angeles",
+          "link": "http://lafla.org/about-us/employment-and-fellowships/managing-attorney-hoco/"
         }
       ]
     },
     {
       "area": "California - Sacramento Metro Area",
-      "jobs": [
-        {
-          "title": "Attorney",
-          "company": "State Water Resources Control Board",
-          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=140008"
+      "jobs": [{
+          "title": "Deputy Attorney General, Fraud & Special Prosecutions Section",
+          "company": "State of California Department of Justice (deadline 3/15)",
+          "link": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=145986"
         },
         {
-          "title": "Deputy Legislative Counsel",
-          "company": "Office of Legislative Counsel, State of California",
-          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=141760"
+          "title": "Legislative Policy Analyst",
+          "company": "League of California Cities",
+          "link": "http://www.cacities.org/Resources-Documents/About-Us/Careers/Legislative-Policy-Analyst-I_Job-Announcement.aspx"
+        },
+        {
+          "title": "Pro Se Law Clerk (part-time)",
+          "company": "U.S. District Court – Eastern District of California",
+          "link": "http://www.caed.uscourts.gov/caednew/assets/File/2019-05%20Sac%20Temp%20PSLC.pdf"
         }
       ]
     },
     {
       "area": "California - San Francisco Bay Area",
-      "jobs": [
-        {
-          "title": "Commercial Counsel",
-          "company": "Omada Health",
-          "link": "https://boards.greenhouse.io/omadahealth/jobs/1522997"
+      "jobs": [{
+          "title": "Associate General Counsel -- Corporate",
+          "company": "Williams Sonoma",
+          "link": "https://careers.williams-sonomainc.com/williams-sonoma-inc/job/San-Francisco-Associate-General-Counsel-CA-94101/533226500/"
         },
         {
-          "title": "Director of Human Rights (Legal)",
+          "title": "Counsel, Healthcare",
+          "company": "Lyft",
+          "link": "https://boards.greenhouse.io/lyft/jobs/4132487002"
+        },
+        {
+          "title": "Employment Counsel",
+          "company": "Chan Zuckerberg Initiative",
+          "link": "https://boards.greenhouse.io/chanzuckerberginitiative/jobs/1372362"
+        },
+        {
+          "title": "Fellow, Constitutional Law Center",
+          "company": "Stanford Law School",
+          "link": "https://careersearch.stanford.edu/jobs/fellow-constitutional-law-center-stanford-law-school-5695"
+        },
+        {
+          "title": "Head of Corporate and Securities Law",
           "company": "Twitter",
-          "link": "https://careers.twitter.com/en/work-for-twitter/201811/director-of-human-rights-legal-.html"
+          "link": "https://careers.twitter.com/en/work-for-twitter/201902/head-of-corporate-and-securities-law.html"
         },
         {
-          "title": "Senior Legal Counsel - Intellectual Property",
-          "company": "Dropbox",
-          "link": "https://www.dropbox.com/jobs/listing/1455912"
-        },
-        {
-          "title": "Staff Attorney",
-          "company": "Ninth Circuit Court of Appeals",
-          "link": "https://ca9-employment.breezy.hr/p/f10f778791c3"
-        },
-        {
-          "title": "Senior Legal Counsel, Product & Commercial",
-          "company": "Sunrun",
-          "link": "https://careers-sunrun.icims.com/jobs/13222/principal-legal-counsel/job"
+          "title": "Senior Regulatory & Product Counsel",
+          "company": "Fitbit",
+          "link": "https://www.fitbit.com/careers/search#jobs/1262359"
         }
       ]
     },
     {
       "area": "DC - Washington Metro Area",
-      "jobs": [
-        {
-          "title": "Associate Director",
-          "company": "Mayor's Office of Legal Counsel",
-          "link": "https://mota.applytojob.com/apply/LLl5a1v094/Associate-Director-Mayors-Office-Of-Legal-Counsel-MOLC"
+      "jobs": [{
+          "title": "Assistant General Counsel",
+          "company": "Administrative Office of the United States Courts",
+          "link": "https://www.usajobs.gov/GetJob/ViewDetails/521346800"
         },
         {
-          "title": "Director - Stop Hate Project",
+          "title": "Attorney Advisor",
+          "company": "DC Office of Deputy Mayor for Planning and Economic Development",
+          "link": "https://dmped.dc.gov/release/recruitment-notice-attorney-advisor"
+        },
+        {
+          "title": "Counsel (Temporary)",
+          "company": "SpaceX",
+          "link": "https://boards.greenhouse.io/spacex/jobs/4215967002"
+        },
+        {
+          "title": "Counsel, Economic Justice",
           "company": "Lawyers’ Committee for Civil Rights Under Law",
-          "link": "https://lawyerscommittee.org/wp-content/uploads/2019/01/Director-for-the-Stop-Hate-Project.pdf"
+          "link": "https://lawyerscommittee.org/wp-content/uploads/2019/03/Economic-Justice-Project-Counsel-3.2019.pdf"
         },
         {
-          "title": "Impact Litigation Attorney - Economic Justice and Aging",
-          "company": "AARP Foundation",
-          "link": "https://careers.aarp.org/ShowJob/Id/1915319/Impact-Litigation-Attorney-%E2%80%93-Economic-Justice-and-Aging/"
+          "title": "Director of Health Equity",
+          "company": "National Women’s Law Center",
+          "link": "https://nwlc.org/job/director-of-health-equity/"
         },
         {
-          "title": "Principal Standards Legal Counsel",
-          "company": "Apple",
-          "link": "https://jobs.apple.com/en-us/details/200032452/principal-standards-legal-counsel"
+          "title": "Legislative Associate or Legislative Director",
+          "company": "Southern Environmental Law Center",
+          "link": "https://www.southernenvironment.org/about-selc/careers/open-positions/legislative-associate-or-legislative-director"
         },
         {
-          "title": "Staff Attorney",
-          "company": "Campaign for Tobacco-Free Kids",
-          "link": "https://www.tobaccofreekids.org/about/careers/2019_01_staff-attorney"
+          "title": "Senior Legal Counsel Manager - Public Sector",
+          "company": "Adobe",
+          "link": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/McLean/Senior-Legal-Counsel-Manager---Public-Sector_71353"
         }
       ]
     },
     {
       "area": "Illinois - Chicago",
-      "jobs": [
-        {
-          "title": "Corporate Counsel",
-          "company": "Dyson",
-          "link": "https://careers.dyson.com/en-gb/job-description/corporate-counsel/22864"
+      "jobs": [{
+          "title": "Attorney",
+          "company": "Chicago Coalition for the Homeless",
+          "link": "https://www.chicagohomeless.org/attorney/"
         },
         {
-          "title": "Housing Litigation Attorney",
-          "company": "Lawyers’ Committee for Better Housing",
-          "link": "https://lcbh.org/sites/default/files/attachments/LCBH-Litigator-Job-Posting.pdf"
+          "title": "Chief Assistant Corporation Counsel (Finance) ",
+          "company": "City of Chicago Department of Law (deadline 3/19)",
+          "link": "https://chicago.taleo.net/careersection/100/jobdetail.ftl?job=1652-DOL-2019"
         },
         {
-          "title": "Staff Attorney, Veterans Legal Support Center & Clinic",
-          "company": "John Marshall Law School",
-          "link": "https://hr.jmls.edu/job/staff-attorney-veterans-legal-support-center-clinic/"
+          "title": "Director of Diversity and Inclusion",
+          "company": "University of Chicago Law School",
+          "link": "https://uchicago.wd5.myworkdayjobs.com/en-US/External/job/Hyde-Park-Campus/Director-of-Diversity-and-Inclusion_JR03665"
+        },
+        {
+          "title": "Salisbury Clinical Fellowship in Child and Family Law",
+          "company": "Loyola University Chicago School of Law",
+          "link": "https://www.careers.luc.edu/postings/10197"
+        },
+        {
+          "title": "Staff Attorney, Community Justice",
+          "company": "Sargent Shriver National Center on Poverty Law",
+          "link": "https://povertylaw.org/files/jobs/Staff%20Attorney%2C%20Community%20Justice.pdf"
+        },
+        {
+          "title": "VP, Corporate Counsel",
+          "company": "Prudential",
+          "link": "http://jobs.prudential.com/job-description.php?jobReqNo=PRI0006S"
         }
       ]
     },
     {
       "area": "Massachusetts - Boston Metro Area",
-      "jobs": [
-        {
-          "title": "Assistant General Counsel",
-          "company": "Massachusetts Department of Public Utilities",
-          "link": "https://massanf.taleo.net/careersection/ex/jobdetail.ftl?job=190000SG"
+      "jobs": [{
+          "title": "Associate General Counsel",
+          "company": "Boston Children’s Hospital",
+          "link": "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=368&siteid=5205#jobDetails=2807512_5205"
         },
         {
-          "title": "Clinical Instructor, Food Law and Policy Clinic",
-          "company": "Harvard Law School",
-          "link": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25240&siteid=5341&jobid=1433945#jobDetails=1433945_5341"
+          "title": "Director of Litigation",
+          "company": "Disability Law Center",
+          "link": "https://www.dlc-ma.org/director-of-litigation/"
+        },
+        {
+          "title": "Lecturer and Clinical Instructor (Compliance Policy Clinic)",
+          "company": "Boston University School of Law",
+          "link": "https://bu.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&jobid=303432&company_id=15509"
         }
       ]
     },
     {
       "area": "New York - New York City",
-      "jobs": [
-        {
-          "title": "Assistant Corporate Counsel - Contracts",
-          "company": "Natural Resources Defense Council",
-          "link": "https://careers-nrdc.icims.com/jobs/4141/assistant-corporate-counsel-–-contracts/job"
+      "jobs": [{
+          "title": "Assistant Attorney General (Bankruptcy Litigator)",
+          "company": "New York State Office of the Attorney General ",
+          "link": "https://ag.ny.gov/sites/default/files/job-postings/litigation_bureau_bankruptcy_3194_int.pdf"
         },
         {
-          "title": "Assistant Secretary & Deputy General Counsel",
-          "company": "Ford Foundation",
-          "link": "https://fordfoundation.wd1.myworkdayjobs.com/en-US/FordFoundationCareerPage/job/New-York-USA/Assistant-Secretary---Deputy-General-Counsel_R582"
+          "title": "Associate Attorney, Sustainable Food and Farming Program",
+          "company": "Earthjustice",
+          "link": "https://earthjustice.org/about/jobs/37685/associate-attorney-sustainable-food-and-farming"
         },
         {
-          "title": "Associate Counsel - Player Health",
-          "company": "NBA",
-          "link": "https://nbacareers.nba.com/job/New-York-Associate-Counsel-Player-Health-New-10022/513273801/"
+          "title": "Counsel",
+          "company": "Marvel Entertainment",
+          "link": "https://jobs.disneycareers.com/job/new-york/counsel/391/10889869"
         },
         {
-          "title": "Staff Attorney, Civil Rights and Impact Litigation",
-          "company": "Children’s Rights",
-          "link": "https://www.childrensrights.org/about-us/employment/staff-attorney-2019/"
+          "title": "Counsel - Bank Supervision and Markets Division",
+          "company": "Federal Reserve Bank of New York",
+          "link": "https://frb.taleo.net/careersection/jobdetail.ftl?job=259032"
         },
         {
-          "title": "VP, Associate General Counsel & Compliance Counsel, Digital",
-          "company": "Sotheby’s",
-          "link": "https://careers-sothebys.icims.com/jobs/2962/vp%2c-associate-general-counsel-%26-compliance-counsel%2c-digital/job"
+          "title": "Legal Counsel",
+          "company": "Spotify",
+          "link": "https://www.spotifyjobs.com/job/legal-counsel-oon78fwa/"
+        },
+        {
+          "title": "Staff Attorney",
+          "company": "U.S. Court of Appeals for the Second Circuit",
+          "link": "http://www.ca2.uscourts.gov/docs/Jobs/FY19%20Staff%20Attorney.pdf"
+        },
+        {
+          "title": "VP of Legal",
+          "company": "BARK",
+          "link": "https://bark.co/jobs/1430929"
         }
       ]
     },
     {
-      "area": "Oregon - Beaverton",
-      "jobs": [
+      "area": "Texas - Austin",
+      "jobs": [{
+          "title": "Department Director - Client-Attorney Assistance Program",
+          "company": "State Bar of Texas (deadline 3/15)",
+          "link": "https://careers-texasbar.icims.com/jobs/1353/department-director---client-attorney-assistance-program/job"
+        },
         {
-          "title": "Assistant General Counsel, Brand Marketing & Nike Digital",
-          "company": "Nike",
-          "link": "https://jobs.nike.com/job/beaverton/assistant-general-counsel-brand-marketing-and-nike-digital/824/10735544"
-        }
-      ]
-    },
-    {
-      "area": "Texas - Dallas",
-      "jobs": [
-        {
-          "title": "General Counsel and Corporate Secretary",
-          "company": "The Susan G. Komen Breast Cancer Foundation, Inc.",
-          "link": "https://ww5.komen.org/JobDetails.aspx?id=30064776040"
+          "title": "Real Estate Counsel",
+          "company": "Whole Foods Market",
+          "link": "https://careers.wholefoodsmarket.com/corporate/global/en/job/WHFOGLOBALREQ20190202875/Real-Estate-Counsel"
         }
       ]
     },
     {
       "area": "Washington - Seattle",
-      "jobs": [
-        {
-          "title": "Corporate Counsel (Litigation)",
-          "company": "Expedia Group",
-          "link": "https://expedia.wd5.myworkdayjobs.com/en-US/search/job/USA---Washington---Bellevue/Corporate-Counsel_R-39877"
+      "jobs": [{
+          "title": "Assistant Attorney General - Counsel for Environmental Protection",
+          "company": "Washington State Office of the Attorney General (deadline 3/21)",
+          "link": "https://www.governmentjobs.com/careers/washington/jobs/2369054/assistant-attorney-general-counsel-for-environmental-protection"
         },
         {
-          "title": "Trademark Counsel",
-          "company": "Amazon",
-          "link": "https://amazon.jobs/en/jobs/789823/trademark-counsel"
+          "title": "Assistant City Attorney - Torts Section",
+          "company": "Seattle City Attorney",
+          "link": "https://www.governmentjobs.com/careers/seattle/jobs/2369882/assistant-city-attorney-torts-section"
+        },
+        {
+          "title": "Corporate Counsel",
+          "company": "Zillow Group",
+          "link": "https://careers.zillowgroup.com/ShowJob/JobId/175996/Corporate-Counsel"
         }
       ]
     }
