@@ -34,9 +34,20 @@
     }
 
     // Align Modfiers
-    &-align-center {
-      margin: 0 auto !important;
-      text-align: center !important;
+    &-align {
+
+      &-center {
+        margin: 0 auto !important;
+        text-align: center !important;
+      }
+
+       &-right {
+        text-align: right !important;
+      }
+
+       &-left {
+        text-align: left !important;
+      }
     }
 
     @each $fz in (20 24 30) {
