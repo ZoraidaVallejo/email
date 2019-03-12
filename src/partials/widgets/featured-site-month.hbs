@@ -46,7 +46,7 @@
         {{#forEach featuredSiteMonth.sites}}
           {{#table align="" class=(concat "site-item -site-" index)}}
             <tr>
-              <td class="devices" responsive="mobile-hide collapse-one">
+              <td class="devices" responsive="mobile-hide">
                 <a href="{{this.domain.long}}" target="_blank">
                   {{>img
                     src=this.thumbnail

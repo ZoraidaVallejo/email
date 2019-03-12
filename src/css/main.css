@@ -29,6 +29,7 @@ p:last-child {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -715,7 +716,6 @@ a {
 
 .w-internet-stats .chart img {
   width: 540px;
-  max-width: 100%;
 }
 
 .w-internet-stats .chart.-last {
@@ -1009,7 +1009,6 @@ a {
 .w-ranked-list .position-row .photo img {
   width: 70px;
   height: 70px;
-  max-width: 100%;
 }
 
 .w-ranked-list .position-row .info {
@@ -1140,7 +1139,6 @@ a {
 
 .w-advertisement .justia-logo img {
   width: 320px;
-  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -1158,7 +1156,7 @@ a {
 }
 
 .w-advertisement .image img {
-  width: 100%;
+  width: 600px;
 }
 
 .w-advertisement .content {
