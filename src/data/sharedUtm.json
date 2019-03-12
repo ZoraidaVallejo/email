@@ -1,5 +1,0 @@
-{
-  "medium": "email",
-  "campaign": "<%= currentYear %>-<%= currentMonth %>-<%= currentDay %>",
-  "source": "legal-jobs-newsletter"
-}
