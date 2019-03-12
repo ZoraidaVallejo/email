@@ -444,11 +444,11 @@ a {
 }
 
 .widget-main-title {
-  padding: 35px 30px 10px;
+  padding: 35px 30px 25px;
 }
 
 .widget-main-title h4 {
-  margin: 0;
+  margin: 0 0 10px;
   color: #000000;
   font: 700 18px/1.45 Arial, sans-serif;
 }
@@ -473,30 +473,38 @@ a {
   background-color: #fafafa;
 }
 
-.w-content .main-content-text {
+.w-content p {
+  margin: 0 0 25px;
+}
+
+.w-content p:last-child {
+  margin: 0;
+}
+
+.w-content .description {
   padding: 0 30px 25px;
 }
 
-.w-content .main-content-text.-last {
+.w-content .description.-last {
   padding: 0 30px 35px;
 }
 
-.w-content .main-content-list {
+.w-content .bullet-list {
   padding: 0 30px;
 }
 
-.w-content .main-content-list .list-item-bullet {
+.w-content .bullet-list .bullet {
   width: 25px;
   padding: 3px 0 25px;
   vertical-align: top;
 }
 
-.w-content .main-content-list .list-item-bullet img {
+.w-content .bullet-list .bullet img {
   width: 16px;
   height: 16px;
 }
 
-.w-content .main-content-list .list-item-text {
+.w-content .bullet-list .text {
   padding: 0 0 25px;
 }
 
@@ -505,53 +513,60 @@ a {
   background-color: #ffffff;
 }
 
-.w-jobs .jobs-general-desc {
-  padding: 0 30px 35px;
-}
-
 .jobs-listing {
   padding: 0 30px 40px;
 }
 
-.jobs-listing .location-title {
+.jobs-listing.-first {
+  padding: 10px 30px 40px;
+}
+
+.jobs-listing .location-name {
   padding: 0 0 14px;
   border-bottom: 1px solid #06357a;
   color: #06357a;
-  font: 18px/1 Arial, sans-serif;
 }
 
-.jobs-listing .location-title td {
+.jobs-listing .location-name td {
   vertical-align: top;
 }
 
-.jobs-listing .location-title .pin {
+.jobs-listing .location-name .pin {
   width: 20px;
-  padding: 2px 0 0;
+  padding: 3px 0 0;
 }
 
-.jobs-listing .location-title .pin img {
+.jobs-listing .location-name .pin img {
   width: 10px;
   height: 16px;
 }
 
-.jobs-listing .location-jobs tr {
+.jobs-listing .location-name .name p {
+  font: 18px/1.2 Arial, sans-serif;
+}
+
+.jobs-listing .available-jobs tr {
   border-bottom: 1px solid #dbdbdb;
 }
 
-.jobs-listing .job-info {
+.jobs-listing .available-jobs td {
+  vertical-align: top;
+}
+
+.jobs-listing .available-jobs .description {
   width: 420px;
   padding: 25px 10px 25px 0;
 }
 
-.jobs-listing .job-info .job-title {
+.jobs-listing .available-jobs .description .position {
   color: #06357a;
 }
 
-.jobs-listing .job-info .company {
+.jobs-listing .available-jobs .description .company {
   color: #6c6c6c;
 }
 
-.jobs-listing .job-details-btn {
+.jobs-listing .available-jobs .details-button {
   width: 120px;
   padding: 25px 0;
   text-align: right;
@@ -560,11 +575,6 @@ a {
 .w-advertisement {
   border-bottom: 1px solid #efefef;
   background-color: #cde2e8;
-}
-
-.w-advertisement .image {
-  text-align: left;
-  vertical-align: top;
 }
 
 .w-advertisement .image a {

@@ -6,7 +6,15 @@
   border-bottom: 1px solid plt('gallery');
   background-color: plt('alabaster');
 
-  .main-content-text {
+  p {
+    margin: 0 0 25px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  .description {
     padding: 0 $padding 25px;
 
     &.-last {
@@ -14,10 +22,10 @@
     }
   }
 
-  .main-content-list {
+  .bullet-list {
     padding: 0 $padding;
 
-    .list-item-bullet {
+    .bullet {
       width: 25px;
       padding: 3px 0 25px;
       vertical-align: top;
@@ -27,7 +35,7 @@
       }
     }
 
-    .list-item-text {
+    .text {
       padding: 0 0 25px;
     }
   }

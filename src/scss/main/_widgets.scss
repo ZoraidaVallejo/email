@@ -3,10 +3,10 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-main-title {
-  padding: 35px $padding 10px;
+  padding: 35px $padding 25px;
 
   h4 {
-    margin: 0;
+    margin: 0 0 10px;
     color: plt('black');
 
     @include mail-font(18px, 1.45, tp('weight', 'bold'));
