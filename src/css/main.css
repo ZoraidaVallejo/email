@@ -29,6 +29,7 @@ p:last-child {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 a {
@@ -456,14 +457,10 @@ a {
   background-color: #06357a;
 }
 
-.w-welcome .head-img {
-  text-align: center;
-  vertical-align: middle;
-}
-
 .w-welcome .main-title {
   padding: 0 30px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .w-welcome .main-title h1 {
@@ -575,7 +572,7 @@ a {
 }
 
 .w-advertisement .image img {
-  width: 100%;
+  width: 600px;
 }
 
 .w-ending {
