@@ -17,7 +17,7 @@
   {{assign "simpleTextWidgetButton" false}}
 {{/and}}
 
-{{#table class=(concat "w-simple-text" widgetClass "set-max-width" separator=" ")}}
+{{#table class=(classList "w-simple-text" widgetClass "set-max-width")}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
       {{>widget-header section=widgetConfig.sectionName title=widgetConfig.title link=widgetConfig.link}}
