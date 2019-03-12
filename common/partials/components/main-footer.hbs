@@ -38,7 +38,7 @@
   responsive="mobile-align-center"
 )}}
 
-{{assign "footerClasses" (concat @root.footerStyleClass @root.footerLogoModifierClass widgetClass separator=" ")}}
+{{assign "footerClasses" (classList @root.footerStyleClass @root.footerLogoModifierClass widgetClass)}}
 
 {{>ui-layout-hack tableStart=true}}
   {{#compare widgetConfig.layout "===" "social-on-top"}}

@@ -23,7 +23,7 @@
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
 
-{{#table class=(concat "w-advertisement" "-type-02" widgetClass "set-max-width" separator=" ")}}
+{{#table class=(classList "w-advertisement" "-type-02" widgetClass "set-max-width")}}
   <tr>
     {{> ui-background backgroundBehavior="cell" backgroundStart=true
       bgImage=widgetConfig.background.image
@@ -38,8 +38,8 @@
             <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
               <a href="{{{@root.adLink}}}" target="_blank">
                 {{>img
-                  src=(get (concat (camelcase widgetConfig.logo.name) "path" widgetConfig.logo.color separator=".") logos)
-                  alt=(get (concat (camelcase widgetConfig.logo.name) "alt" separator=".") logos)
+                  src=(get (concat (camelcase widgetConfig.logo.name) ".path." widgetConfig.logo.color) logos)
+                  alt=(get (concat (camelcase widgetConfig.logo.name) ".alt") logos)
                 }}
               </a>
             </td>

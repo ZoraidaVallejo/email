@@ -10,7 +10,8 @@
  * @param {String}   widgetConfig.blocks[].image.link
 }}
 
-{{assign "textImageAllClasses" (concat "w-text-image" widgetClass (ternary (gt (length widgetConfig.blocks) 1) "-multiple" "") "set-max-width" separator=" ")}}
+{{assign "textImageMultipleClass" (ternary (gt (length widgetConfig.blocks) 1) "-multiple" "")}}
+{{assign "textImageAllClasses" (classList "w-text-image" widgetClass @root.textImageMultipleClass "set-max-width")}}
 
 {{#table class=@root.textImageAllClasses}}
 

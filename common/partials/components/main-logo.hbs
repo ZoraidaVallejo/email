@@ -11,7 +11,7 @@
   {{>img
     src=(default widgetConfig.src logos.justia.path.blue)
     alt=(default widgetConfig.alt logos.justia.alt)
-    class=(concat "logo-img" widgetConfig.class separator=" ")
+    class=(classList "logo-img" widgetConfig.class)
     responsive=widgetConfig.responsive
   }}
 {{#if widgetConfig.link}}</a>{{/if}}
