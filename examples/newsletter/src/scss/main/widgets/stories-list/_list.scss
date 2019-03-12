@@ -1,0 +1,38 @@
+// ----------------------------------------------------------------------------------------------------------
+// T E C H   N E W S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-stories-list {
+
+  .stories-links-title {
+    padding: 0 $padding 30px;
+  }
+
+  .stories-links {
+    padding: 0 $padding 20px;
+
+    .title {
+      margin: 0;
+    }
+
+    .description {
+      margin: 0 0 20px;
+
+      &.-last {
+        margin: 0;
+      }
+    }
+
+    &.-last {
+      padding: 0 $padding 45px;
+    }
+  }
+
+  .extra-info {
+    padding: 10px $padding 30px;
+
+    &.-last {
+      padding: 10px $padding 45px;
+    }
+  }
+}

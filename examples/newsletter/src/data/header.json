@@ -1,0 +1,36 @@
+{
+  "clients": {
+    "layout": "with-date",
+    "logo": {
+      "name": "insights",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= currentYear %>-<%= currentMonth %>",
+          "source": "client-newsletter",
+          "content": "image-header-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "jld": {
+    "layout": "with-date",
+    "logo": {
+      "name": "insights",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= currentYear %>-<%= currentMonth %>",
+          "source": "directory-newsletter",
+          "content": "image-header-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  }
+}

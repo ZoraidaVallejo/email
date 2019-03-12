@@ -1,0 +1,20 @@
+// ----------------------------------------------------------------------------------------------------------
+// P E O P L E   L I S T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-ranked-list {
+
+  &.-annotator {
+
+    .ranking-table .main-title {
+      background-color: plt('orange');
+    }
+  }
+
+  &.-answers-leaderboard {
+
+    .ranking-table .main-title {
+      background-color: plt('bright-green');
+    }
+  }
+}

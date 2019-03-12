@@ -32,7 +32,7 @@
 )}}
 
 {{>ui-layout-hack tableStart=true}}
-  {{#table class=(concat "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width" separator=" ")}}
+  {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
     <tr>
       <td class="wrapper" responsive="mobile-padding-horizontal-sides">
         {{>ui-spacer-hack}}
