@@ -1,0 +1,26 @@
+/// Change widget title style.
+///
+/// @param {color} $titleColor - Color of the widget title.
+/// @param {color} $sectionColor [$titleColor] - Color of the section name.
+/// @param {boolean|string|number} $titleFontWeight [false] - Font weight of the widget title.
+///
+@mixin change-widget-title-style($titleColor, $sectionColor: $titleColor, $titleFontWeight: false) {
+  @if type-of($sectionColor) == 'color' {
+
+    .widget-section-name {
+      color: $sectionColor;
+    }
+  }
+
+  .widget-main-title {
+    color: $titleColor;
+
+    @if $titleFontWeight {
+      @include mail-font(29px, 1.27, $titleFontWeight);
+    }
+
+    a {
+      color: $titleColor;
+    }
+  }
+}

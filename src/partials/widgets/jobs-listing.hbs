@@ -1,0 +1,57 @@
+<!-- CONTENT -->
+
+{{#table class="w-jobs set-max-width"}}
+  <tr>
+    <td class="widget-main-title" responsive="mobile-padding-horizontal-sides">
+      <h4>Latest Opportunities</h4>
+    </td>
+  </tr>
+  <tr>
+    <td class="jobs-general-desc" responsive="mobile-padding-horizontal-sides">
+      <p>More than 40 jobs in this issue!</p>
+    </td>
+  </tr>
+  {{#forEach jobsListing.places}}
+    <tr>
+      <td class="jobs-listing" responsive="mobile-padding-horizontal-sides">
+        {{#table class="set-max-width"}}
+          <tr>
+            <td class="location-title">
+              {{#table class="set-max-width"}}
+                <tr>
+                  <td class="pin">
+                    {{>img src="https://justatic.com/emails/images/legal-jobs-newsletters/common/jobs-location-01.png" alt="Location Pin"}}
+                  </td>
+                  <td class="area">
+                    <b>{{{this.area}}}</b>
+                  </td>
+                </tr>
+              {{/table}}
+            </td>
+          </tr>
+          {{#forEach this.jobs}}
+            <tr>
+              <td class="location-jobs">
+                {{#table class="set-max-width"}}
+                  <tr>
+                    <td class="job-info" responsive="collapse-one mobile-padding-bottom mobile-no-padding-horizontal-sides">
+                      <p>
+                        <a class="job-title" href="{{this.link}}" target="_blank">{{{this.title}}}</a><br>
+                        <a class="company" href="{{this.link}}" target="_blank">{{{this.company}}}</a>
+                      </p>
+                    </td>
+                    <td class="job-details-btn" responsive="collapse-one mobile-no-padding-top mobile-align-left">
+                      {{#uiButton href=this.link width="110" height="40" fontSize="12"}}
+                        VIEW DETAILS
+                      {{/uiButton}}
+                    </td>
+                  </tr>
+                {{/table}}
+              </td>
+            </tr>
+          {{/forEach}}
+        {{/table}}
+      </td>
+    </tr>
+  {{/forEach}}
+{{/table}}
