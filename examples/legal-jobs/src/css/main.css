@@ -573,16 +573,59 @@ a {
 }
 
 .w-advertisement {
-  border-bottom: 1px solid #efefef;
-  background-color: #cde2e8;
+  background-color: #b1b3b3;
 }
 
-.w-advertisement .image a {
-  color: #cde2e8;
+.w-advertisement td {
+  text-align: center;
+}
+
+.w-advertisement .justia-logo {
+  padding: 45px 30px 30px;
+  text-align: center;
+}
+
+.w-advertisement .justia-logo img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-advertisement .title {
+  padding: 0 30px 15px;
+}
+
+.w-advertisement .title a {
+  font: 30px/1.38 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-advertisement .image {
+  padding: 0;
 }
 
 .w-advertisement .image img {
   width: 600px;
+}
+
+.w-advertisement .content {
+  padding: 0 30px 30px;
+}
+
+.w-advertisement .content.-first {
+  padding: 30px;
+}
+
+.w-advertisement .content.-last {
+  padding: 0 30px 45px;
+}
+
+.w-advertisement.-jobs-ad {
+  border-bottom: 1px solid #efefef;
+  background-color: #cde2e8;
+}
+
+.w-advertisement.-jobs-ad .image a {
+  color: #cde2e8;
 }
 
 .w-ending {

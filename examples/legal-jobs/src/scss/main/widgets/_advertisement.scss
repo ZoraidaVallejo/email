@@ -3,17 +3,48 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-  border-bottom: 1px solid plt('gallery');
-  background-color: #cde2e8;
+  background-color: plt('gray');
 
-  .image {
+  td {
+    text-align: center;
+  }
+
+  .justia-logo {
+    padding: 45px $padding 30px;
+    text-align: center;
+
+    img {
+      width: 320px;
+      margin: 0 auto;
+    }
+  }
+
+  .title {
+    padding: 0 $padding 15px;
 
     a {
-      color: #cde2e8;
+      @include mail-font(30px);
+      color: plt('justia-blue');
     }
+  }
+
+  .image {
+    padding: 0;
 
     img {
       width: $max-width;
+    }
+  }
+
+  .content {
+    padding: 0 $padding $padding;
+
+    &.-first {
+      padding: $padding;
+    }
+
+    &.-last {
+      padding: 0 $padding 45px;
     }
   }
 }
