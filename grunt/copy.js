@@ -3,7 +3,7 @@ module.exports = {
     expand: true,
     cwd: 'dist/',
     src: ['*.html'],
-    dest: 'public/<%= conversionType %>/<%= currentYear %>/<%= currentMonth %>/',
+    dest: 'public/<%= projectName %>/<%= currentYear %>/<%= currentMonth %>/',
     filter: 'isFile'
   }
 };
