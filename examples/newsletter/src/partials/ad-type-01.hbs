@@ -41,43 +41,47 @@
     </tr>
   {{/if}}
 
-  <tr>
-    <td class="image">
-      <a href="{{{@root.adLink}}}" target="_blank">
-        {{>img
-          src=widgetConfig.image
-          alt=(default widgetConfig.title widgetConfig.imageAlt)
-        }}
-      </a>
-    </td>
-  </tr>
-
-  {{#forEach widgetConfig.contentOrder}}
-    {{#compare this.type "===" "description"}}
-      <tr>
-        <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-          {{#each this.config}}
-            <p>{{{this}}}</p>
-          {{/each}}
-        </td>
-      </tr>
-    {{/compare}}
-
-    {{#compare this.type "===" "button"}}
-      <tr>
-        <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-          {{#uiButton
-            presetStyle=this.config.style
-            href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
-            width=this.config.width
-            height=this.config.height
-            fontSize=this.config.fontSize
-            responsive=this.config.responsive
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
           }}
-            {{{this.config.text}}}
-          {{/uiButton}}
-        </td>
-      </tr>
-    {{/compare}}
-  {{/forEach}}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "description"}}
+        <tr>
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "button"}}
+        <tr>
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#uiButton
+              presetStyle=this.config.style
+              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+              width=this.config.width
+              height=this.config.height
+              fontSize=this.config.fontSize
+              responsive=this.config.responsive
+            }}
+              {{{this.config.text}}}
+            {{/uiButton}}
+          </td>
+        </tr>
+      {{/compare}}
+    {{/forEach}}
+  {{/if}}
 {{/table}}
