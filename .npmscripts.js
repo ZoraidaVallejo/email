@@ -16,16 +16,7 @@ const npsSeries = (...scriptNames) =>
       .map(scriptName => `nps -c .npmscripts.js ${quoteScript(scriptName)}`)
   );
 
-// eslint-disable-next-line import/no-unresolved, node/no-missing-require
-const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null;
-
-let workflowVersion = 2;
-
-if (customConfig && !customConfig.version) {
-  workflowVersion = 1;
-}
-
-const linterTasks = workflowVersion >= 2 ? npsSeries('json.format.data', 'sass.lint.strict') : '';
+const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';

@@ -7,20 +7,9 @@ const loadGruntConfig = require('load-grunt-config');
 const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
 const getMonth = require('./lib/handlebars-helpers/get-month');
 
-if (!customConfig.version) {
-  customConfig.currentYear = customConfig.current_year;
-  customConfig.currentMonth = customConfig.current_month;
-  customConfig.compressedFileName = customConfig.compressed_file_name;
-
-  customConfig.paths.srcImg = customConfig.paths.src_img;
-  customConfig.paths.distImg = customConfig.paths.dist_img;
-  customConfig.paths.liveImg = customConfig.paths.live_img;
-  customConfig.paths.remoteImgPath = customConfig.paths.remote_img_path;
-}
-
 const monthNum = parseInt(customConfig.currentMonth, 10);
 const configuration = Object.assign({}, customConfig, {
-  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonth(monthNum)
+  currentMonthString: getMonth(monthNum)
 });
 
 if (monthNum < 1 || monthNum > 12) {
