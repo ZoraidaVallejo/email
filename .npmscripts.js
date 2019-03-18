@@ -17,6 +17,7 @@ const npsSeries = (...scriptNames) =>
   );
 
 const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
+const baseCustomConfig = 'PROJECT_BASE_PATH="./"';
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
@@ -30,7 +31,7 @@ const sassPatterns = [
 
 module.exports = {
   scripts: {
-    default: 'CUSTOM_CONFIG="./custom-config.json" grunt',
+    default: `${baseCustomConfig} grunt`,
     js: {
       format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {
@@ -49,11 +50,14 @@ module.exports = {
     json: {
       format: {
         default: `${prettier} --parser=json-stringify "**/*.json"`,
-        data: `${prettier} --parser=json-stringify "custom-config.json" "src/**/*.json"`
+        data: `${prettier} --parser=json-stringify "customConfig.json" "src/**/*.json"`
       }
     },
-    build: serialize(linterTasks, 'grunt build'),
-    publish: serialize(linterTasks, 'grunt publish'),
+    build: {
+      default: serialize(linterTasks, `${baseCustomConfig} grunt build`),
+      devel: `${baseCustomConfig} grunt devel`
+    },
+    publish: serialize(linterTasks, `${baseCustomConfig} grunt publish`),
     bump: serialize(npsSeries('js.lint.strict'), 'bilberry bump')
   }
 };

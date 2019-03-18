@@ -12,7 +12,7 @@ module.exports = {
         })
       ]
     },
-    src: '<%= paths.preview %>/css/preview.css'
+    src: '<%= previewUI %>/css/preview.css'
   },
   source: {
     options: {

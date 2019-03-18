@@ -1,12 +1,12 @@
 // const log = require('bilberry/log');
 const path = require('path');
 const loadGruntConfig = require('load-grunt-config');
-const commonConfig = require('./common/data/config');
+const baseConfig = require('./common/data/config');
 const getMonth = require('./lib/handlebars-helpers/get-month');
 // eslint-disable-next-line global-require, import/no-dynamic-require
-const customConfig = require(process.env.CUSTOM_CONFIG);
+const projectConfig = require(path.join(process.env.PROJECT_BASE_PATH, 'customConfig.json'));
 
-const configuration = Object.assign({}, commonConfig, customConfig);
+const configuration = Object.assign({}, baseConfig, projectConfig);
 
 configuration.liveImgPath = path.join(
   'https://justatic.com/v/<%= justaticVersion %>/emails/images',
@@ -14,8 +14,8 @@ configuration.liveImgPath = path.join(
 );
 configuration.remoteImgPath = path.join('/mnt/files/emails/images', configuration.remoteImages);
 configuration.currentMonthString = getMonth(configuration.currentMonth);
-
-console.log(configuration);
+configuration.headerDate = `${configuration.currentMonthString} ${configuration.currentYear}`;
+configuration.previewUI = './preview';
 
 module.exports = grunt => {
   loadGruntConfig(grunt, {

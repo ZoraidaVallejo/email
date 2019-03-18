@@ -42,7 +42,7 @@ module.exports = {
       implementation: sass
     },
     files: {
-      '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
+      '<%= previewUI %>/css/preview.css': '<%= previewUI %>/scss/preview.scss'
     }
   }
 };
