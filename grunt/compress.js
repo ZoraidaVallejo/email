@@ -5,11 +5,6 @@ module.exports = {
     },
     files: [
       {
-        src: ['customConfig.json'],
-        dest: '/',
-        filter: 'isFile'
-      },
-      {
         expand: true,
         cwd: '<%= paths.dist %>/',
         src: ['*.html'],

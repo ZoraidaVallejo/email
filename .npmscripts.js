@@ -50,7 +50,7 @@ module.exports = {
     json: {
       format: {
         default: `${prettier} --parser=json-stringify "**/*.json"`,
-        data: `${prettier} --parser=json-stringify "customConfig.json" "src/**/*.json"`
+        data: `${prettier} --parser=json-stringify "src/**/*.json"`
       }
     },
     build: {

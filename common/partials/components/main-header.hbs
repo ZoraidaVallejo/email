@@ -48,7 +48,7 @@
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
               <td class="date">
-                <span>{{"<%= headerDate %>"}}</span>
+                <span>{{getMonth conversionConfig.currentMonth}} {{conversionConfig.currentYear}}</span>
               </td>
             </tr>
           {{/table}}
