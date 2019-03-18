@@ -1,0 +1,13 @@
+{
+  "port": 4000,
+  "paths": {
+    "src": "src",
+    "srcImg": "src/images",
+    "dist": "dist",
+    "distImg": "dist/images",
+    "preview": "preview",
+    "tags": "tags"
+  },
+  "remoteImages": "newsletters/test",
+  "currentMonth": "00"
+}

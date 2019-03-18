@@ -30,7 +30,7 @@ const sassPatterns = [
 
 module.exports = {
   scripts: {
-    default: 'grunt',
+    default: 'CUSTOM_CONFIG="./custom-config.json" grunt',
     js: {
       format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {

@@ -176,11 +176,11 @@ module.exports = {
       patterns: [
         {
           match: /(<(?:img|v|td)[^>]+?(?:src|background)=["'])(\.\.\/dist\/images\/)/gi,
-          replacement: '$1<%= paths.liveImg %>/'
+          replacement: '$1<%= liveImgPath %>/'
         },
         {
           match: /(url\(*[^)])(\.\.\/dist\/images\/)/gi,
-          replacement: '$1<%= paths.liveImg %>/'
+          replacement: '$1<%= liveImgPath %>/'
         }
       ]
     },

@@ -1,20 +1,21 @@
-/* eslint-disable no-console */
-
-const chalk = require('chalk');
-const log = require('bilberry/log');
+// const log = require('bilberry/log');
+const path = require('path');
 const loadGruntConfig = require('load-grunt-config');
-
-const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
+const commonConfig = require('./common/data/config');
 const getMonth = require('./lib/handlebars-helpers/get-month');
+// eslint-disable-next-line global-require, import/no-dynamic-require
+const customConfig = require(process.env.CUSTOM_CONFIG);
 
-const monthNum = parseInt(customConfig.currentMonth, 10);
-const configuration = Object.assign({}, customConfig, {
-  currentMonthString: getMonth(monthNum)
-});
+const configuration = Object.assign({}, commonConfig, customConfig);
 
-if (monthNum < 1 || monthNum > 12) {
-  log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
-}
+configuration.liveImgPath = path.join(
+  'https://justatic.com/v/<%= justaticVersion %>/emails/images',
+  configuration.remoteImages
+);
+configuration.remoteImgPath = path.join('/mnt/files/emails/images', configuration.remoteImages);
+configuration.currentMonthString = getMonth(configuration.currentMonth);
+
+console.log(configuration);
 
 module.exports = grunt => {
   loadGruntConfig(grunt, {

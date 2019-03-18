@@ -46,7 +46,7 @@ module.exports = grunt => {
       options: {
         tagsPath: '<%= paths.tags %>',
         localImagesPath: '<%= paths.distImg %>',
-        liveImagesPath: '<%= paths.liveImg %>'
+        liveImagesPath: '<%= liveImgPath %>'
       }
     }
   };
