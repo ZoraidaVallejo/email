@@ -34,63 +34,6 @@
   - [Useful links](#useful-links)
 
 
-## Requirements
-
-- **nvm**
-- **Node v8.10**
-- **npm5**
-- **Grunt**
-
-
-## Installation
-
-### nvm
-
-Use the [nvm documentation](https://github.com/creationix/nvm#install-script) to install it.
-
-### Node v8.10
-
-Using `nvm`, install node v8.10:
-
-```shell
-nvm install 8.10
-```
-
-**I highly recommend you** to set this new version of Node as **default** to be used in any new shell:
-
-```shell
-nvm alias default 8.10
-```
-
-You can do it manually too:
-
-```shell
-nvm use 8.10
-```
-
-### npm5
-
-Install it globally with the following command:
-
-```shell
-npm install -g npm
-```
-
-### Packages
-
-First of all, install the Grunt Command Line Inteface globally:
-
-```shell
-npm install grunt-cli -g
-```
-
-Then, install the workflow packges in your local folder:
-
-```
-npm install
-```
-
-
 ## Folder structure
 
 ```
@@ -114,49 +57,6 @@ npm install
         └── partials/
 ```
 
-### Static folders
-
-This folders contain the workflow functionality and other files for it to work properly.
-
-Folder name | Description
------------ | -----------
-`changelog/` | Store all the log files that document the changes of each version.
-`common/` | Contain common [layouts](#handlebar-layouts), [partials](#handlebar-partials) and [ui-components](#handlebar-ui-components) for the email templates.
-`dist/` | Place where the compiled HTML with inlined CSS file and optimized images will be saved each time you build them.
-`examples/` | Mail template starters: it includes Blast, Newsletter, Oyez and Proposal (pdf).
-`grunt/` | Contain all the Grunt modules. **DO NOT TOUCH IT unless you know what you are doing**.
-`lib/` | Script files related to the workflow. **DO NOT TOUCH THEM unless you know what you are doing**.
-`preview/` | All files related to the preview window where you see a _preview_ of your work.
-`public/` | Folder where the final HTML files are stored.
-
-
-#### Common
-
-##### Handlebar Layouts
-
-This folder contains the standard HTML wrapper markup for different types of templates:
-
-- Blast
-- Newsletter (Open Sans font)
-- Newsletter (Arial font)
-- PDF print
-
-##### Handlebar Partials
-
-Contain all the partials of the email template. To include them use the following snippet:
-
-```handlebars
-{{> custom-partial }}
-```
-
-Depending on the partial it may accept attributes to customize the result:
-
-```handlebars
-{{> custom-partial booleanAttribute=true stringAttribute="lorem" variableAttribute=customPartial.value }}
-```
-
->**Note**: You can use single -or- double quotes for attributes.
-
 ##### Handlebar UI Components
 
 Contain optional handlebar components that can help generate your markup.
@@ -175,20 +75,6 @@ This folder also includes some IE hack.
 And you can include them the same way as the [handlebar partials](#handlebar-partials).
 
 For more detailed information about the component's configuration, [continue reading here](https://github.com/justia/mail-template-builder/tree/develop/common/ui-components#ui-components).
-
-
-### Editable folders: `src`
-
-The `src/` folder contains the source files (styles, custom handlebars, data, etc) of the email templates.
-
-Folder name | Description
------------ | -----------
-`data/` | Contain **.json** data files that can be used in your templates [More info](#data).
-`emails/` | Place where your main template(s) will go.
-`images/` | [More Info](#images)
-`partials/` | [More info](#ui-components).
-`scss/modules/` | [More info](#scss-modules).
-`scss/partials/` | [More info](#scss-partials).
 
 
 #### SCSS
@@ -277,26 +163,6 @@ There are some cases that you will need different content for the same block, sp
 
 ## How to use
 
-
-### Workflow configuration
-
-Before you start, check/modify the **custom-config.json** file and make sure it has the correct configuration:
-
-- **`version`**: Workflow version which the current conversion is compatible with. If this value is not defined, the workflow will assume the conversion is compiled with a workflow version 1.
-- **`conversionType`**: Type of conversion: `blast`, `newsletter`, `oyez` and `proposal`.
-- **`port`**: The port on which the webserver will respond. The task will fail if the specified port is already in use.
-- **`justaticVersion`**: Version of Justatic to use in all absolute URL's.
-- **`currentYear`**: Current year. Very important to set it up correctly because it will help to categorize the images in the remote server.
-- **`currentMonth`**: Current month. The same as the previous one.
-- **`compressedFileName`**: Name of the file where a copy of the **custom-config.json** file, `dist/` and `src/` folder are compressed.
-- **`path`**: Object with relative and remote paths.
-  - **`src`**: Folder where all development files are stored.
-  - **`srcImg`**: Place where all unoptimized images are. (They will be optimized with Grunt, so don't worry)
-  - **`dist`**: Folder where the distribution-ready files will be placed.
-  - **`distImg`**: Optimized images go here.
-  - **`preview`**: Folder for the source files of the preview mode.
-  - **`liveImg`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
-  - **`remoteImgPath`**: Remote folder to upload all images.
 
 
 ### Commands
