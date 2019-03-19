@@ -3,7 +3,7 @@ module.exports = {
     options: {
       port: '<%= port %>',
       hostname: '*',
-      bases: ['<%= paths.dist %>', '<%= previewUI %>', '<%= paths.src %>'],
+      bases: ['<%= relativeFolders.dist %>', '<%= previewUI %>', '<%= relativeFolders.src %>'],
       server: './lib/server.js',
       livereload: true
     }

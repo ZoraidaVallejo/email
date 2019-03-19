@@ -1,4 +1,4 @@
 module.exports = {
-  dist: ['dist/'],
-  all: ['dist/', 'src/', 'tags/']
+  dist: ['<%= relativeFolders.dist %>/'],
+  all: ['<%= relativeFolders.dist %>/', '<%= relativeFolders.src %>/', '<%= relativeFolders.tags %>/']
 };

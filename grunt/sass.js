@@ -6,9 +6,9 @@ const includePaths = ['common/partials/'];
 const files = [
   {
     expand: true,
-    cwd: '<%= paths.src %>/scss',
+    cwd: '<%= relativeFolders.src %>/scss',
     src: ['*.scss'],
-    dest: '<%= paths.src %>/css',
+    dest: '<%= relativeFolders.src %>/css',
     ext: '.css'
   }
 ];

@@ -1,4 +1,3 @@
-const fs = require('fs');
 const npsUtils = require('nps-utils');
 
 const serialize = npsUtils.series;
@@ -17,7 +16,7 @@ const npsSeries = (...scriptNames) =>
   );
 
 const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
-const baseCustomConfig = 'PROJECT_BASE_PATH="./"';
+const projectPath = (p = '') => `PROJECT_BASE_PATH="./${p}"`;
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
@@ -31,7 +30,7 @@ const sassPatterns = [
 
 module.exports = {
   scripts: {
-    default: `${baseCustomConfig} grunt`,
+    default: `${projectPath()} grunt`,
     js: {
       format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {
@@ -54,10 +53,14 @@ module.exports = {
       }
     },
     build: {
-      default: serialize(linterTasks, `${baseCustomConfig} grunt build`),
-      devel: `${baseCustomConfig} grunt devel`
+      default: serialize(linterTasks, `${projectPath()} grunt build`),
+      devel: `${projectPath()} grunt devel`,
+      examples: serialize(
+        `${projectPath('examples/newsletter')} grunt devel`,
+        `${projectPath('examples/legal-jobs')} grunt devel`
+      )
     },
-    publish: serialize(linterTasks, `${baseCustomConfig} grunt publish`),
+    publish: serialize(linterTasks, `${projectPath()} grunt publish`),
     bump: serialize(npsSeries('js.lint.strict'), 'bilberry bump')
   }
 };

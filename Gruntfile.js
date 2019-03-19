@@ -1,15 +1,15 @@
-// const log = require('bilberry/log');
 const path = require('path');
 const loadGruntConfig = require('load-grunt-config');
 const baseConfig = require('./common/data/config');
 const getMonth = require('./lib/handlebars-helpers/get-month');
 
-Object.keys(baseConfig.paths).forEach(folder => {
-  baseConfig.paths[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.paths[folder]);
-  console.log(baseConfig.paths[folder]);
+baseConfig.relativeFolders = {};
+
+Object.keys(baseConfig.folders).forEach(folder => {
+  baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
-const projectConfigPath = path.join(baseConfig.paths.src, 'data/conversionConfig.json');
+const projectConfigPath = path.join(baseConfig.relativeFolders.src, 'data/conversionConfig.json');
 
 // eslint-disable-next-line global-require, import/no-dynamic-require
 const projectConfig = require(`./${projectConfigPath}`);

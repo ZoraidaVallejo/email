@@ -23,6 +23,6 @@ module.exports = {
         })
       ]
     },
-    src: '<%= paths.src %>/css/*.css'
+    src: '<%= relativeFolders.src %>/css/*.css'
   }
 };

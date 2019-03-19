@@ -1,6 +1,6 @@
 {
   "port": 4000,
-  "paths": {
+  "folders": {
     "src": "src",
     "srcImg": "src/images",
     "dist": "dist",

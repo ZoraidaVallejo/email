@@ -4,14 +4,14 @@ module.exports = {
       host: 'justatic.justiapro.com',
       authKey: 'key1'
     },
-    src: '<%= paths.distImg %>',
+    src: '<%= relativeFolders.distImg %>',
     dest: '<%= remoteImgPath %>',
     exclusions: [
-      '<%= paths.distImg %>/**/.DS_Store',
-      '<%= paths.distImg %>/**/Thumbs.db',
-      '<%= paths.distImg %>/**/.desktop.ini',
-      '<%= paths.distImg %>/**/*.sublime-*',
-      '<%= paths.distImg %>/**/.sftp-*.*'
+      '<%= relativeFolders.distImg %>/**/.DS_Store',
+      '<%= relativeFolders.distImg %>/**/Thumbs.db',
+      '<%= relativeFolders.distImg %>/**/.desktop.ini',
+      '<%= relativeFolders.distImg %>/**/*.sublime-*',
+      '<%= relativeFolders.distImg %>/**/.sftp-*.*'
     ],
     progress: true
   }

@@ -42,10 +42,10 @@ module.exports = grunt => {
 
   return {
     csv: {
-      src: 'dist/*.html',
+      src: '<%= relativeFolders.dist %>/*.html',
       options: {
-        tagsPath: '<%= paths.tags %>',
-        localImagesPath: '<%= paths.distImg %>',
+        tagsPath: '<%= relativeFolders.tags %>',
+        localImagesPath: '<%= relativeFolders.distImg %>',
         liveImagesPath: '<%= liveImgPath %>'
       }
     }
