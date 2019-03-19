@@ -15,7 +15,6 @@ const projectConfigPath = path.join(baseConfig.relativeFolders.src, 'data/conver
 
 // L O A D   C O N V E R S I O N   C O N F I G
 // -------------------------------------------
-
 // eslint-disable-next-line global-require, import/no-dynamic-require
 const projectConfig = require(`./${projectConfigPath}`);
 
@@ -25,7 +24,6 @@ const data = Object.assign({}, baseConfig, projectConfig);
 
 // A D D   M O R E   C O N F I G U R A T I O N
 // -------------------------------------------
-
 // Validate given release date.
 const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
 
