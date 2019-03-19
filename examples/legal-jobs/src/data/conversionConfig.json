@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "projectName": "legal-jobs",
+  "justaticVersion": "1",
+  "currentYear": "0000",
+  "currentMonth": "00",
+  "currentDay": "00",
+  "remoteImages": "legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>",
+  "compressedFileName": "<%= projectName %>-<%= currentYear %>-<%= currentMonth %>"
+}

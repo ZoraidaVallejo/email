@@ -22,8 +22,8 @@ module.exports = {
       {
         expand: true,
         flatten: true,
-        src: '<%= paths.dist %>/*.html',
-        dest: '<%= paths.dist %>'
+        src: '<%= relativeFolders.dist %>/*.html',
+        dest: '<%= relativeFolders.dist %>'
       }
     ]
   }

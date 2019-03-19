@@ -6,9 +6,9 @@ const includePaths = ['common/partials/'];
 const files = [
   {
     expand: true,
-    cwd: '<%= paths.src %>/scss',
+    cwd: '<%= relativeFolders.src %>/scss',
     src: ['*.scss'],
-    dest: '<%= paths.src %>/css',
+    dest: '<%= relativeFolders.src %>/css',
     ext: '.css'
   }
 ];
@@ -42,7 +42,7 @@ module.exports = {
       implementation: sass
     },
     files: {
-      '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
+      '<%= previewUI %>/css/preview.css': '<%= previewUI %>/scss/preview.scss'
     }
   }
 };

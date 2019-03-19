@@ -5,6 +5,6 @@ module.exports = {
     progress: false
   },
   files: {
-    src: ['<%= paths.dist %>/*.html']
+    src: ['<%= relativeFolders.dist %>/*.html']
   }
 };

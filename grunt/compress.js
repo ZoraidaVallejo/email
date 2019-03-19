@@ -5,21 +5,16 @@ module.exports = {
     },
     files: [
       {
-        src: ['custom-config.json'],
-        dest: '/',
-        filter: 'isFile'
-      },
-      {
         expand: true,
-        cwd: '<%= paths.dist %>/',
+        cwd: '<%= relativeFolders.dist %>/',
         src: ['*.html'],
-        dest: '<%= paths.dist %>/'
+        dest: '<%= relativeFolders.dist %>/'
       },
       {
         expand: true,
-        cwd: '<%= paths.src %>/',
+        cwd: '<%= relativeFolders.src %>/',
         src: ['**/*'],
-        dest: '<%= paths.src %>/'
+        dest: '<%= relativeFolders.src %>/'
       }
     ]
   }

@@ -2,17 +2,17 @@ module.exports = {
   emails: {
     files: [
       'common/**/*',
-      '<%= paths.src %>/emails/*',
-      '<%= paths.src %>/layouts/*',
-      '<%= paths.src %>/data/**/*',
-      '<%= paths.src %>/scss/**/*',
-      '<%= paths.src %>/partials/**/*'
+      '<%= relativeFolders.src %>/emails/*',
+      '<%= relativeFolders.src %>/layouts/*',
+      '<%= relativeFolders.src %>/data/**/*',
+      '<%= relativeFolders.src %>/scss/**/*',
+      '<%= relativeFolders.src %>/partials/**/*'
     ],
     tasks: ['devel']
   },
 
   dist: {
-    files: ['./dist/*'],
+    files: ['<%= relativeFolders.dist %>/*'],
     tasks: [],
     options: {
       livereload: true
