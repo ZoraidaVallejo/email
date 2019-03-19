@@ -295,7 +295,7 @@ Before you start, check/modify the **custom-config.json** file and make sure it 
   - **`dist`**: Folder where the distribution-ready files will be placed.
   - **`distImg`**: Optimized images go here.
   - **`preview`**: Folder for the source files of the preview mode.
-  - **`liveImgPath`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
+  - **`liveImg`**: Absolute URL for all images. Used by `grunt build` and `grunt send` commands.
   - **`remoteImgPath`**: Remote folder to upload all images.
 
 
