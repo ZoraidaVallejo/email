@@ -4,7 +4,7 @@
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
         "content": "[client-ad-example-type-1]"
       },
@@ -47,7 +47,7 @@
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
         "content": "[client-ad-example-type-1]"
       },
@@ -60,7 +60,7 @@
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
         "content": "[directory-ad-example-type-1]"
       },
@@ -89,7 +89,7 @@
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
-        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
         "content": "[directory-ad-example-type-2]"
       },

@@ -5,6 +5,14 @@
   "currentYear": "0000",
   "currentMonth": "00",
   "currentDay": "00",
-  "remoteImages": "legal-jobs-newsletters/<%= currentYear %>/<%= currentMonth %>",
-  "compressedFileName": "<%= projectName %>-<%= currentYear %>-<%= currentMonth %>"
+  "releaseDate": "0000-00-00",
+  "dateFormat": {
+    "string": "MMMM YYYY",
+    "stringFull": "MMMM DD, YYYY",
+    "slash": "YYYY/MM",
+    "dash": "YYYY-MM",
+    "dashFull": "YYYY-MM-DD"
+  },
+  "remoteImages": "legal-jobs-newsletters/<%= dateFormat.slash %>",
+  "compressedFileName": ""
 }

@@ -6,7 +6,7 @@
   "utm": {
     "clients": {
       "medium": "email",
-      "campaign": "<%= currentYear %>-<%= currentMonth %>",
+      "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
       "content": {
         "title": "text-onward-post-title-1",
@@ -16,7 +16,7 @@
     },
     "jld": {
       "medium": "email",
-      "campaign": "<%= currentYear %>-<%= currentMonth %>",
+      "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
       "content": {
         "title": "text-onward-post-title-1",

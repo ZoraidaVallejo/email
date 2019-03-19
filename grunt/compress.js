@@ -1,21 +1,25 @@
-module.exports = {
-  target: {
-    options: {
-      archive: '<%= compressedFileName %>.zip'
-    },
-    files: [
-      {
-        expand: true,
-        cwd: '<%= relativeFolders.dist %>/',
-        src: ['*.html'],
-        dest: '<%= relativeFolders.dist %>/'
+module.exports = (grunt, { compressedFileName }) => {
+  const zipName = compressedFileName !== '' ? compressedFileName : '<%= projectName %>-<%= dateFormat.dash %>.zip';
+
+  return {
+    target: {
+      options: {
+        archive: zipName
       },
-      {
-        expand: true,
-        cwd: '<%= relativeFolders.src %>/',
-        src: ['**/*'],
-        dest: '<%= relativeFolders.src %>/'
-      }
-    ]
-  }
+      files: [
+        {
+          expand: true,
+          cwd: '<%= relativeFolders.dist %>/',
+          src: ['*.html'],
+          dest: '<%= relativeFolders.dist %>/'
+        },
+        {
+          expand: true,
+          cwd: '<%= relativeFolders.src %>/',
+          src: ['**/*'],
+          dest: '<%= relativeFolders.src %>/'
+        }
+      ]
+    }
+  };
 };

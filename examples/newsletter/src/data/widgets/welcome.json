@@ -1,7 +1,7 @@
 {
   "clients": {
     "title": [
-      "Welcome to the <%= currentMonthString %> <%= currentYear %> edition of",
+      "Welcome to the <%= dateFormat.string %> edition of",
       "the Justia client newsletter!"
     ],
     "message": [
@@ -10,7 +10,7 @@
   },
   "jld": {
     "title": [
-      "Welcome to the <%= currentMonthString %> <%= currentYear %> edition of",
+      "Welcome to the <%= dateFormat.string %> edition of",
       "the Justia monthly newsletter!"
     ],
     "message": [
