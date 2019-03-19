@@ -22,7 +22,6 @@ configuration.liveImgPath = path.join(
 );
 configuration.remoteImgPath = path.join('/mnt/files/emails/images', configuration.remoteImages);
 configuration.currentMonthString = getMonth(configuration.currentMonth);
-configuration.previewUI = './preview';
 
 module.exports = grunt => {
   loadGruntConfig(grunt, {
