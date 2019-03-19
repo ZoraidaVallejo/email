@@ -3,7 +3,7 @@ module.exports = {
     expand: true,
     cwd: '<%= relativeFolders.dist %>/',
     src: ['*.html'],
-    dest: 'public/<%= projectName %>/<%= currentYear %>/<%= currentMonth %>/',
+    dest: 'public/<%= projectName %>/<%= dateFormat.slash %>/',
     filter: 'isFile'
   }
 };

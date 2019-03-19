@@ -8,7 +8,7 @@
         "url": "https://www.justia.com/marketing/",
         "utm": {
           "medium": "email",
-          "campaign": "<%= currentYear %>-<%= currentMonth %>",
+          "campaign": "<%= dateFormat.dash %>",
           "source": "client-newsletter",
           "content": "image-footer-logo-1"
         }
@@ -49,7 +49,7 @@
         "url": "https://www.justia.com/marketing/",
         "utm": {
           "medium": "email",
-          "campaign": "<%= currentYear %>-<%= currentMonth %>",
+          "campaign": "<%= dateFormat.dash %>",
           "source": "directory-newsletter",
           "content": "image-footer-logo-1"
         }

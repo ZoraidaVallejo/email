@@ -1,5 +1,5 @@
 {
   "medium": "email",
-  "campaign": "<%= currentYear %>-<%= currentMonth %>-<%= currentDay %>",
+  "campaign": "<%= dateFormat.dashFull %>",
   "source": "legal-jobs-newsletter"
 }

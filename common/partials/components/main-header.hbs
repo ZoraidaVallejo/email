@@ -31,6 +31,8 @@
   link=@root.headerLogoLink
 )}}
 
+{{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
+
 {{>ui-layout-hack tableStart=true}}
   {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
     <tr>
@@ -48,7 +50,7 @@
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
               <td class="date">
-                <span>{{getMonth conversionConfig.currentMonth}} {{conversionConfig.currentYear}}</span>
+                <span>{{@root.headerDate}}</span>
               </td>
             </tr>
           {{/table}}
