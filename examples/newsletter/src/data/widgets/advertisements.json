@@ -42,6 +42,17 @@
           ]
         }
       ]
+    },
+    "ad2": {
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= currentYear %>-<%= currentMonth %>",
+        "source": "client-newsletter",
+        "content": "[client-ad-example-type-1]"
+      },
+      "image": "client-ad-image-02.png",
+      "imageAlt": "[Exercitation veniam laborum cillum est cillum ullamco tempor magna deserunt.]"
     }
   },
   "jld": {
@@ -80,7 +91,7 @@
         "medium": "email",
         "campaign": "<%= currentYear %>-<%= currentMonth %>",
         "source": "directory-newsletter",
-        "content": "[utm-content]"
+        "content": "[directory-ad-example-type-2]"
       },
       "logo": {
         "name": "marketing",

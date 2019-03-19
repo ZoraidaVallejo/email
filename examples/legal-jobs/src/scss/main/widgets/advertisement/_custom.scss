@@ -1,14 +1,18 @@
 // ----------------------------------------------------------------------------------------------------------
-// L A W   E V E N T S
+// A D V E R T I S E M E N T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-law-events {
+.w-advertisement {
 
-  // .event-1,
-  // .event-2 {
+  &.-jobs-ad {
+    border-bottom: 1px solid plt('gallery');
+    background-color: #cde2e8;
 
-  //   .event-info {
-  //     height: 130px;
-  //   }
-  // }
+    .image {
+
+      a {
+        color: #cde2e8;
+      }
+    }
+  }
 }

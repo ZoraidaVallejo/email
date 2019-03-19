@@ -1,9 +1,9 @@
 module.exports = {
   public: {
     expand: true,
-    cwd: 'dist/',
+    cwd: '<%= relativeFolders.dist %>/',
     src: ['*.html'],
-    dest: 'public/<%= conversionType %>/<%= currentYear %>/<%= currentMonth %>/',
+    dest: 'public/<%= projectName %>/<%= currentYear %>/<%= currentMonth %>/',
     filter: 'isFile'
   }
 };

@@ -1,31 +1,27 @@
-/* eslint-disable no-console */
-
-const chalk = require('chalk');
-const log = require('bilberry/log');
+const path = require('path');
 const loadGruntConfig = require('load-grunt-config');
-
-const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
+const baseConfig = require('./common/data/config');
 const getMonth = require('./lib/handlebars-helpers/get-month');
 
-if (!customConfig.version) {
-  customConfig.currentYear = customConfig.current_year;
-  customConfig.currentMonth = customConfig.current_month;
-  customConfig.compressedFileName = customConfig.compressed_file_name;
+baseConfig.relativeFolders = {};
 
-  customConfig.paths.srcImg = customConfig.paths.src_img;
-  customConfig.paths.distImg = customConfig.paths.dist_img;
-  customConfig.paths.liveImg = customConfig.paths.live_img;
-  customConfig.paths.remoteImgPath = customConfig.paths.remote_img_path;
-}
-
-const monthNum = parseInt(customConfig.currentMonth, 10);
-const configuration = Object.assign({}, customConfig, {
-  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonth(monthNum)
+Object.keys(baseConfig.folders).forEach(folder => {
+  baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
-if (monthNum < 1 || monthNum > 12) {
-  log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
-}
+const projectConfigPath = path.join(baseConfig.relativeFolders.src, 'data/conversionConfig.json');
+
+// eslint-disable-next-line global-require, import/no-dynamic-require
+const projectConfig = require(`./${projectConfigPath}`);
+
+const configuration = Object.assign({}, baseConfig, projectConfig);
+
+configuration.liveImgPath = path.join(
+  'https://justatic.com/v/<%= justaticVersion %>/emails/images',
+  configuration.remoteImages
+);
+configuration.remoteImgPath = path.join('/mnt/files/emails/images', configuration.remoteImages);
+configuration.currentMonthString = getMonth(configuration.currentMonth);
 
 module.exports = grunt => {
   loadGruntConfig(grunt, {
