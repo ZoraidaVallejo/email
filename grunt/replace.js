@@ -189,12 +189,12 @@ module.exports = (grunt, { folders }) => {
           {
             // Use original dist folder path.
             match: imageRegexes.live.tags,
-            replacement: '$1<%= liveImgPath %>/'
+            replacement: '$1<%= liveImgPath %>'
           },
           {
             // Use original dist folder path.
             match: imageRegexes.live.css,
-            replacement: '$1<%= liveImgPath %>/'
+            replacement: '$1<%= liveImgPath %>'
           }
         ]
       },
