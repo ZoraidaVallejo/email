@@ -58,8 +58,11 @@ module.exports = {
       examples: serialize(
         `${projectPath('examples/newsletter')} grunt devel`,
         `${projectPath('examples/legal-jobs')} grunt devel`
-      )
+      ),
+      preview: `${projectPath()} grunt buildPreview`
     },
+    report: `${projectPath()} grunt report`,
+    upload: `${projectPath()} grunt upload`,
     publish: serialize(linterTasks, `${projectPath()} grunt publish`),
     bump: serialize(npsSeries('js.lint.strict'), 'bilberry bump')
   }

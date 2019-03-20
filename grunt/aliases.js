@@ -4,33 +4,36 @@ const develTasks = {
   3: ['replace:fixResponsive', 'replace:srcImages', 'replace:removeDupStyles']
 };
 
-module.exports = {
-  default: ['serve'],
+module.exports = () => {
+  const standAloneTasks = {
+    // npm start build.preview
+    buildPreview: ['sass:preview', 'postcss:preview']
+  };
 
-  devel: [...develTasks[1], 'sass:devel', ...develTasks[2], 'replace:classesToData', ...develTasks[3], 'prettier'],
+  const conversionTasks = {
+    // npm start
+    default: ['devel', 'buildPreview', 'express', 'open', 'watch'],
 
-  dist: [...develTasks[1], 'sass:dist', ...develTasks[2], 'replace:removeClasses', ...develTasks[3]],
+    // npm start build.devel
+    devel: [...develTasks[1], 'sass:devel', ...develTasks[2], 'replace:classesToData', ...develTasks[3], 'prettier'],
 
-  serve: ['devel', 'buildPreview', 'express', 'open', 'watch'],
+    dist: [...develTasks[1], 'sass:dist', ...develTasks[2], 'replace:removeClasses', ...develTasks[3]],
 
-  report: ['spreadsheet'],
+    report: ['spreadsheet'],
 
-  upload: ['imagemin', 'sftp-deploy'],
+    // npm start upload
+    upload: ['imagemin', 'sftp-deploy'],
 
-  build: [
-    // Base
-    'dist',
-    'replace:liveImages',
-    'spreadsheet',
-    // Responsive
-    'replace:shortenClasses',
-    'htmlmin',
-    'prettier'
-  ],
+    // npm start build
+    build: ['dist', 'replace:liveImages', 'spreadsheet', 'replace:shortenClasses', 'htmlmin', 'prettier'],
 
-  buildPreview: ['sass:preview', 'postcss:preview'],
+    // npm start publish
+    publish: ['build', 'copy', 'compress', 'clean:all'],
+  };
 
-  publish: ['build', 'copy', 'compress', 'clean:all'],
+  if (process.env.CONVERSION_CONFIG === 'true') {
+    return Object.assign({}, conversionTasks, standAloneTasks);
+  }
 
-  test: ['sass']
+  return standAloneTasks;
 };
