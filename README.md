@@ -34,29 +34,6 @@
   - [Useful links](#useful-links)
 
 
-## Folder structure
-
-```
-/
-├── changelog/
-├── common/
-├── dist/
-├── examples/
-├── grunt/
-├── lib/
-├── preview/
-├── public/
-└── src/
-    ├── css/
-    ├── data/
-    ├── emails/
-    ├── images/
-    ├── partials/
-    └── scss/
-        ├── modules/
-        └── partials/
-```
-
 ##### Handlebar UI Components
 
 Contain optional handlebar components that can help generate your markup.
@@ -75,93 +52,6 @@ This folder also includes some IE hack.
 And you can include them the same way as the [handlebar partials](#handlebar-partials).
 
 For more detailed information about the component's configuration, [continue reading here](https://github.com/justia/mail-template-builder/tree/develop/common/ui-components#ui-components).
-
-
-#### SCSS
-
-This project uses [SASS](http://sass-lang.com/).
-
-Media queries and responsive styles are in a separate stylesheet [preserve.scss](https://github.com/justia/justatic/blob/develop/newsletters/src/scss/preserve.scss) so that they don't get inlined. Go to [Responsive behavior](#responsive-behavior) to know how to set and use the responsive classes.
-
-> **Note**: Only a few email clients support media queries. Litmus has done his homework and created this article for us: _**["Understanding Media Queries in HTML Email"](https://litmus.com/blog/understanding-media-queries-in-html-email)**_. Please read it :D (seriously, read it `୧( ಠ Д ಠ )୨` ).
-
-##### SCSS Modules
-
-Directory reserved for SASS code that doesn't cause SASS to actually output CSS. Things like mixin declarations, functions, and variables. Most of the time you won't need to modify any of these files.
-
-Since this project uses the [frontend helpers](https://github.com/justia/frontend-helpers) module, the following folders only contain custom code:
-
-- `functions/`: Custom/hardcoded functions specific for the current conversion.
-- `mixins/`: Custom/hardcoded mixins specific for the current conversion.
-- `settings/`: Custom/hardcoded variables specific for the current conversion.
-
-##### SCSS Partials
-
-Directory where the meat of the CSS is constructed.
-
-The following directories contain basic styles and some helper classes. So, don't modify any of the files unless you really need to:
-
-- `layout/`: Main styles of header and footer sections, and base styles of the main content.
-- `misc/`: Reset styles and some helpers for development use.
-- `ui-components/`: These files style some of the handlebars compoments: buttons, dividers, columns, etc.
-
-Now, this one is important:
-
-- `components/`: Styles for all the *handlebar components* of the template. *Add/modify/delete* any file if you need to.
-
-> **Note**:
-> Some handlebar *UI components* or *components* will require a SASS partial. Name the new files like the handlebar component. For instance: **ui-columns-grid.hbs** → **ui-columns-grid.scss**
-> Notice that the hbs file name is in camelCase and the SASS file uses dashes as separators. The reason is because you will posibly include the hbs component more than once (in my opinion, if use the dash format it becomes a little anoying to select/change/add it).
-
-#### Images
-
-The name of the folder says it all: place where all your source images will be stored.
-
-You maybe asking yourself, "Oh, Great Master, How the heck should I name the new images I create?". The answer is simple my little padawan, follow this convetion: ***[projectName]-[section]-[description]-[counter]***
-
-For instance: **welcome-connect-clients-button-01.png**
-
-- [projectName] → **Welcome Series** → *welcome*
-- [section] → **Connect with Clients** → *connect-clients*
-- [description] → **According to the mockup, it's a button** → *button* `ᕕ( ՞ ᗜ ՞ )ᕗ`
-- [counter] → **This is the first button of many more** → *01*
-
-Avoid using any of the following names, **they will be ignore when uploading to the server**:
-
-- welcome-background-01-a.png
-- button-mailus-01.png
-- button-mailus-02.png
-- button-more-01.png
-- button-more-02.png
-
-#### Data
-
-Contain JSON files where the main information is stored. These files are used along with the handlebar components and shared the same name but separated by underscores.
-
-For instance: The information showed in `custom-component.hbs` component is feeded by `customComponent.json` file.
-
-To access the data saved on these files, use the following syntax:
-
-```handlebars
-{{{ customComponent.path.to.data }}}
-```
-
-
-There are some cases that you will need different content for the same block, specially for the newsletters (Clients and JLD). In that case you can define two main objects in the JSON file:
-
-```json
-{
-  "clients": {
-    "data": "Specific to the client's newsletter"
-  },
-  "jld": {
-    "data": "Specific to the JLD's newsletter"
-  }
-}
-```
-
-
-## How to use
 
 
 
