@@ -1,3 +1,4 @@
+const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 const loadGruntConfig = require('load-grunt-config');
@@ -11,12 +12,13 @@ Object.keys(baseConfig.folders).forEach(folder => {
   baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
-const projectConfigPath = path.join(baseConfig.relativeFolders.src, 'data/conversionConfig.json');
-
 // L O A D   C O N V E R S I O N   C O N F I G
 // -------------------------------------------
+const projectConfigPath = './'.concat(path.join(baseConfig.relativeFolders.src, 'data/conversionConfig.json'));
+process.env.CONVERSION_CONFIG = fs.existsSync(projectConfigPath);
+
 // eslint-disable-next-line global-require, import/no-dynamic-require
-const projectConfig = require(`./${projectConfigPath}`);
+const projectConfig = process.env.CONVERSION_CONFIG === 'true' ? require(projectConfigPath) : {};
 
 // M E R G E   O B J E C T S
 // -------------------------
@@ -24,13 +26,15 @@ const data = Object.assign({}, baseConfig, projectConfig);
 
 // A D D   M O R E   C O N F I G U R A T I O N
 // -------------------------------------------
-// Validate given release date.
-const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
+if (data.releaseDate) {
+  // Validate given release date.
+  const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
 
-// Set date formats.
-Object.keys(data.dateFormat).forEach(name => {
-  data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
-});
+  // Set date formats.
+  Object.keys(data.dateFormat).forEach(name => {
+    data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
+  });
+}
 
 // Public URL.
 data.liveImgPath = path.join('https://justatic.com/v', data.justaticVersion, 'emails/images', data.remoteImages);
