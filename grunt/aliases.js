@@ -19,6 +19,7 @@ module.exports = () => {
 
     dist: [...develTasks[1], 'sass:dist', ...develTasks[2], 'replace:removeClasses', ...develTasks[3]],
 
+    // npm start report
     report: ['spreadsheet'],
 
     // npm start upload

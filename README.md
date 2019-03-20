@@ -55,38 +55,6 @@ For more detailed information about the component's configuration, [continue rea
 
 
 
-### Commands
-
-- **Grunt**:
-  - **`grunt`**: Clean the `dist/` folder and build the HTML (expanded version). The compilation process will be slightly different base on the type of conversion you chose.
-  - **`grunt serve`**: Run the default command (`grunt`), open a local server and keep watching your changes until you stop the proccess.
-  - **`grunt report`**: Get CSV files with the links and image tags from the dist files. You can find the generated files within the `tags/` folder. Once done, create a spreadsheet on the [Newsletters & Blast Reports](https://drive.google.com/drive/folders/0B7PrUnUkDf7UX3p5d1ZlN2FKTzQ) folder.
-  - **`grunt upload`**: Upload all the images to the remote server.
-- **Node (nps)**:
-  - **`npm start build`**: This command does the following:
-    - Reformat all json files realted to the current conversion, including the `custom-config.json` and all the files within the `data/` folder.
-    - Run **stylelint** and check all the SASS files realated to this conversion. The process will stop if there are errors.
-    - Build the files (`grunt build`) and prepare them for distribution. The report will also be created during the process.
-  - **`npm start publish`**: This command is similar to the previous one but with more steps:
-    - After the distribution files are ready, all the HTML files located in the `dist/` folder are copied to the `public/` folder and categorized by type, year and month. For instance, it will copy the HTML files of a newsletter conversion to `public/newsletter/2017/05/`.
-    - Compress the **custom-config.json** file, `src/` and `dist/` folders.
-    - Delete all the folders and files that were zipped and the `tags/` folder.
-
-For the `grunt upload` command, you will need to create a `.ftppass` file where your user name is:
-
-```json
-{
-  "key1": {
-    "username": "username"
-  }
-}
-```
-
-#### Caveats
-
-- You will have to backup the zip file on S3 manually after runninf the `grunt publish` command.
-- The `grunt upload` command will fail if the parent folder of the direct parent folder doesn't exists remotely. For instance, if you are trying to upload all the images to `/emails/images/lawyer-directory/2018/01` but `2018/` doesn't exist, it will fail.
-
 
 ### Responsive behavior
 
