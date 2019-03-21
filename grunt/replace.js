@@ -1,5 +1,3 @@
-const { leftPad } = require('../lib/helpers');
-
 const allTemplates = [
   {
     expand: true,
@@ -7,37 +5,6 @@ const allTemplates = [
     src: ['<%= relativeFolders.dist %>/*.html'],
     dest: '<%= relativeFolders.dist %>'
   }
-];
-
-const cssClasses = [
-  'collapse-one',
-  'mobile-reset-width',
-  'mobile-reset-height',
-  'mobile-reset-bg-image',
-  'mobile-hide',
-  'mobile-align-center',
-  'mobile-align-right',
-  'mobile-align-left',
-  'mobile-fz-20',
-  'mobile-fz-24',
-  'mobile-fz-30',
-  'mobile-padding-top',
-  'mobile-padding-right',
-  'mobile-padding-bottom',
-  'mobile-padding-left',
-  'mobile-padding-horizontal-sides',
-  'mobile-padding-vertical-sides',
-  'mobile-padding-full',
-  'mobile-padding-medium-top',
-  'mobile-padding-medium-bottom',
-  'mobile-padding-uneven-top',
-  'mobile-padding-uneven-bottom',
-  'mobile-padding-uneven-full',
-  'mobile-no-padding-top',
-  'mobile-no-padding-bottom',
-  'mobile-no-padding-horizontal-sides',
-  'mobile-no-float',
-  'mobile-no-border'
 ];
 
 const htmlOptim = {
@@ -51,12 +18,6 @@ const htmlOptim = {
 // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
 // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
 const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
-
-// Set configuration to shorten classes
-const classesToReplace = cssClasses.map((clss, idx) => ({
-  match: new RegExp(clss, 'g'),
-  replacement: `justia${leftPad(idx + 1)}`
-}));
 
 // Set configuration to remove duplicated styles
 const styleToRemove = Object.keys(htmlOptim)
@@ -114,14 +75,6 @@ module.exports = (grunt, { folders }) => {
             replacement: '$1'
           }
         ]
-      },
-      files: allTemplates
-    },
-
-    shortenClasses: {
-      options: {
-        usePrefix: false,
-        patterns: classesToReplace
       },
       files: allTemplates
     },

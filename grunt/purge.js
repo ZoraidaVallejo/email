@@ -1,6 +1,6 @@
-
 const cheerio = require('cheerio');
 const log = require('bilberry/log');
+const { leftPad } = require('../lib/helpers');
 
 module.exports = grunt => {
   grunt.registerMultiTask('purge', 'Clean unused responsive classes.', function purge() {
@@ -35,8 +35,14 @@ module.exports = grunt => {
 
       let purgedEmail = originalEmail;
 
+      // Purge unused classes.
       reponsiveClassesToRemove.forEach(classString => {
         purgedEmail = purgedEmail.replace(new RegExp(`(${classString}{[^}]+})`), '');
+      });
+
+      // Shorten remaining classes.
+      htmlClasses.forEach((classString, idx) => {
+        purgedEmail = purgedEmail.replace(new RegExp(classString, 'g'), `justia${leftPad(idx + 1)}`);
       });
 
       grunt.file.write(filepath, purgedEmail);
