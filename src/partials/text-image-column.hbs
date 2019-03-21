@@ -1,0 +1,58 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {String}   widgetConfig.sectionName
+ * @param {Object[]} widgetConfig.blocks
+ * @param {String}   widgetConfig.blocks[].title
+ * @param {String[]} widgetConfig.blocks[].description
+ * @param {Object}   widgetConfig.blocks[].image
+ * @param {String}   widgetConfig.blocks[].image.src
+ * @param {String}   widgetConfig.blocks[].image.link
+}}
+
+{{assign "textImageMultipleClass" (ternary (gt (length widgetConfig.blocks) 1) "-multiple" "")}}
+{{assign "textImageAllClasses" (classList "w-text-image" widgetClass @root.textImageMultipleClass "set-max-width")}}
+
+{{#table class=@root.textImageAllClasses}}
+
+  {{#gt (length widgetConfig.blocks) 1}}
+    <tr>
+      <td class="main-title" responsive="mobile-padding-horizontal-sides">
+        {{>widget-header section=widgetConfig.sectionName title=false}}
+      </td>
+    </tr>
+  {{/gt}}
+
+  <tr>
+    <td class="rows-wrapper" responsive="mobile-padding-horizontal-sides">
+      {{#forEach widgetConfig.blocks}}
+        {{#table align="" class=(concat "row-item -itm-" index)}}
+          <tr>
+            <td class="description" responsive="collapse-one">
+              {{#eq (length ../widgetConfig.blocks) 1}}
+                {{>widget-header section=../widgetConfig.sectionName title=false}}
+              {{/eq}}
+
+              <p class="title">{{{this.title}}}</p>
+              {{#each this.description}}
+                <p>{{{this}}}</p>
+              {{/each}}
+            </td>
+            <td class="image" responsive="mobile-hide">
+              {{#if this.image.src}}
+                {{#if this.image.link}}<a href="{{{this.image.link}}}" target="_blank">{{/if}}
+                  {{>img
+                    src=this.image.src
+                    alt=this.title
+                  }}
+                {{#if this.image.link}}</a>{{/if}}
+              {{else}}
+                &nbsp;
+              {{/if}}
+            </td>
+          </tr>
+        {{/table}}
+      {{/forEach}}
+    </td>
+  </tr>
+{{/table}}

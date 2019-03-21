@@ -1,0 +1,75 @@
+---
+layout: responsive.hbs
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="client-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.clients}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{>welcome widgetConfig=welcome.clients}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>tip-month widgetConfig=tipMonth.clients}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>tech-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>internet-stats}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>seo-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>featured-site-month singleSite=true}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>in-the-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>inside-justia}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>did-you-know widgetConfig=didYouKnow.clients}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>meet-our-team}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>social-media-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>ad-client-01}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>pugs-tale}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>legal-industry-news}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>ad-client-02}}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>law-events}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.clients}}
+    </td>
+  </tr>
+{{/table}}

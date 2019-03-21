@@ -1,0 +1,25 @@
+{
+  "clients": {
+    "title": [
+      "Welcome to the <%= dateFormat.string %> edition of",
+      "the Justia client newsletter!"
+    ],
+    "message": [
+      "Get an inside look at new developments in online marketing, keep up with the latest social media trends, and hear about what’s happening at JUSTIA."
+    ]
+  },
+  "jld": {
+    "title": [
+      "Welcome to the <%= dateFormat.string %> edition of",
+      "the Justia monthly newsletter!"
+    ],
+    "message": [
+      "Get an inside look at new developments in the online marketing world, keep up with the latest social media trends, and hear about what’s happening at the JUSTIA offices."
+    ],
+    "button": {
+      "style": "white",
+      "link": "https://www.justia.com/",
+      "text": "Learn More"
+    }
+  }
+}
