@@ -26,15 +26,7 @@ module.exports = () => {
     upload: ['imagemin', 'sftp-deploy'],
 
     // npm start build
-    build: [
-      'dist',
-      'replace:liveImages',
-      'spreadsheet',
-      // 'replace:shortenClasses'
-      'htmlmin',
-      'purge',
-      'prettier'
-    ],
+    build: ['dist', 'replace:liveImages', 'spreadsheet', 'htmlmin', 'purge', 'prettier'],
 
     // npm start publish
     publish: ['build', 'copy', 'compress', 'clean:all']
