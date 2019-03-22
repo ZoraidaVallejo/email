@@ -37,7 +37,7 @@ if (data.releaseDate) {
 }
 
 // Public URL.
-data.liveImgPath = path.join('https://justatic.com/v', data.justaticVersion, 'emails/images', data.remoteImages);
+data.liveImgPath = `https://${path.join('justatic.com/v', data.justaticVersion, 'emails/images', data.remoteImages)}`;
 
 // Server path.
 data.remoteImgPath = path.join('/mnt/files/emails/images', data.remoteImages);

@@ -26,10 +26,10 @@ module.exports = () => {
     upload: ['imagemin', 'sftp-deploy'],
 
     // npm start build
-    build: ['dist', 'replace:liveImages', 'spreadsheet', 'replace:shortenClasses', 'htmlmin', 'prettier'],
+    build: ['dist', 'replace:liveImages', 'spreadsheet', 'htmlmin', 'purge', 'prettier'],
 
     // npm start publish
-    publish: ['build', 'copy', 'compress', 'clean:all'],
+    publish: ['build', 'copy', 'compress', 'clean:all']
   };
 
   if (process.env.CONVERSION_CONFIG === 'true') {

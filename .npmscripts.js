@@ -54,12 +54,19 @@ module.exports = {
     },
     build: {
       default: serialize(linterTasks, `${projectPath()} grunt build`),
-      devel: `${projectPath()} grunt devel`,
       examples: serialize(
-        `${projectPath('examples/newsletter')} grunt devel`,
-        `${projectPath('examples/legal-jobs')} grunt devel`
+        `${projectPath('examples/newsletter')} grunt build`,
+        `${projectPath('examples/legal-jobs')} grunt build`
       ),
-      preview: `${projectPath()} grunt buildPreview`
+      preview: `${projectPath()} grunt buildPreview`,
+
+      devel: {
+        default: `${projectPath()} grunt devel`,
+        examples: serialize(
+          `${projectPath('examples/newsletter')} grunt devel`,
+          `${projectPath('examples/legal-jobs')} grunt devel`
+        )
+      }
     },
     report: `${projectPath()} grunt report`,
     upload: `${projectPath()} grunt upload`,
