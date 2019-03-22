@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------------------------------------------------
-// M O B I L E   F R I E N D L Y   S T Y L E S
+// M A I L   R E S P O N S I V E
 // ----------------------------------------------------------------------------------------------------------
 
 @media only screen and (max-width: $responsive-max-width) {
@@ -50,7 +50,7 @@
       }
     }
 
-    @each $fz in (20 24 30) {
+    @for $fz from 5 to 50 {
 
       &-fz-#{$fz} {
         font-size: ($fz * 1px) !important;
@@ -98,6 +98,10 @@
 
         &-bottom {
           padding-bottom: 20px !important;
+        }
+
+        &-full {
+          padding: 20px 10px !important;
         }
       }
 

@@ -123,14 +123,140 @@ div[style*='margin: 16px 0;'] {
   .mobile-align-left {
     text-align: left !important;
   }
+  .mobile-fz-5 {
+    font-size: 5px !important;
+  }
+  .mobile-fz-6 {
+    font-size: 6px !important;
+  }
+  .mobile-fz-7 {
+    font-size: 7px !important;
+  }
+  .mobile-fz-8 {
+    font-size: 8px !important;
+  }
+  .mobile-fz-9 {
+    font-size: 9px !important;
+  }
+  .mobile-fz-10 {
+    font-size: 10px !important;
+  }
+  .mobile-fz-11 {
+    font-size: 11px !important;
+  }
+  .mobile-fz-12 {
+    font-size: 12px !important;
+  }
+  .mobile-fz-13 {
+    font-size: 13px !important;
+  }
+  .mobile-fz-14 {
+    font-size: 14px !important;
+  }
+  .mobile-fz-15 {
+    font-size: 15px !important;
+  }
+  .mobile-fz-16 {
+    font-size: 16px !important;
+  }
+  .mobile-fz-17 {
+    font-size: 17px !important;
+  }
+  .mobile-fz-18 {
+    font-size: 18px !important;
+  }
+  .mobile-fz-19 {
+    font-size: 19px !important;
+  }
   .mobile-fz-20 {
     font-size: 20px !important;
+  }
+  .mobile-fz-21 {
+    font-size: 21px !important;
+  }
+  .mobile-fz-22 {
+    font-size: 22px !important;
+  }
+  .mobile-fz-23 {
+    font-size: 23px !important;
   }
   .mobile-fz-24 {
     font-size: 24px !important;
   }
+  .mobile-fz-25 {
+    font-size: 25px !important;
+  }
+  .mobile-fz-26 {
+    font-size: 26px !important;
+  }
+  .mobile-fz-27 {
+    font-size: 27px !important;
+  }
+  .mobile-fz-28 {
+    font-size: 28px !important;
+  }
+  .mobile-fz-29 {
+    font-size: 29px !important;
+  }
   .mobile-fz-30 {
     font-size: 30px !important;
+  }
+  .mobile-fz-31 {
+    font-size: 31px !important;
+  }
+  .mobile-fz-32 {
+    font-size: 32px !important;
+  }
+  .mobile-fz-33 {
+    font-size: 33px !important;
+  }
+  .mobile-fz-34 {
+    font-size: 34px !important;
+  }
+  .mobile-fz-35 {
+    font-size: 35px !important;
+  }
+  .mobile-fz-36 {
+    font-size: 36px !important;
+  }
+  .mobile-fz-37 {
+    font-size: 37px !important;
+  }
+  .mobile-fz-38 {
+    font-size: 38px !important;
+  }
+  .mobile-fz-39 {
+    font-size: 39px !important;
+  }
+  .mobile-fz-40 {
+    font-size: 40px !important;
+  }
+  .mobile-fz-41 {
+    font-size: 41px !important;
+  }
+  .mobile-fz-42 {
+    font-size: 42px !important;
+  }
+  .mobile-fz-43 {
+    font-size: 43px !important;
+  }
+  .mobile-fz-44 {
+    font-size: 44px !important;
+  }
+  .mobile-fz-45 {
+    font-size: 45px !important;
+  }
+  .mobile-fz-46 {
+    font-size: 46px !important;
+  }
+  .mobile-fz-47 {
+    font-size: 47px !important;
+  }
+  .mobile-fz-48 {
+    font-size: 48px !important;
+  }
+  .mobile-fz-49 {
+    font-size: 49px !important;
   }
   .mobile-padding-top {
     padding-top: 10px !important;
@@ -161,6 +287,9 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-medium-bottom {
     padding-bottom: 20px !important;
   }
+  .mobile-padding-medium-full {
+    padding: 20px 10px !important;
+  }
   .mobile-padding-uneven-top {
     padding-top: 45px !important;
   }
@@ -185,5 +314,17 @@ div[style*='margin: 16px 0;'] {
   }
   .mobile-no-border {
     border: 0 !important;
+  }
+  .main-footer .footer-logo {
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #00b3e3;
+  }
+  .main-footer .footer-social {
+    padding-top: 20px !important;
+  }
+  .responsive-button {
+    width: auto !important;
+    padding: 6px 20px !important;
+    line-height: 1.2 !important;
   }
 }
