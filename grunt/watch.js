@@ -3,7 +3,6 @@ module.exports = {
     files: [
       'common/**/*',
       '<%= relativeFolders.src %>/emails/*',
-      '<%= relativeFolders.src %>/layouts/*',
       '<%= relativeFolders.src %>/data/**/*',
       '<%= relativeFolders.src %>/scss/**/*',
       '<%= relativeFolders.src %>/partials/**/*'

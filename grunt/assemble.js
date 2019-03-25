@@ -1,6 +1,6 @@
 module.exports = {
   options: {
-    layouts: ['common/layouts/*.hbs', '<%= relativeFolders.src %>/layouts/*.hbs'],
+    layout: 'common/layouts/responsive.hbs',
     partials: ['common/partials/**/*.hbs', '<%= relativeFolders.src %>/partials/**/*.hbs'],
     plugins: 'grunt-assemble-contextual',
     contextual: {
