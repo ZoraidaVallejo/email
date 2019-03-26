@@ -40,6 +40,10 @@
   .footer-address {
     padding: 0 $padding floor($padding * 4);
     text-align: center;
+
+    .justia-inline {
+      text-transform: uppercase;
+    }
   }
 
   // L O G O   S I Z E S

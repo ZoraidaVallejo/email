@@ -326,6 +326,10 @@ a {
   text-align: center;
 }
 
+.main-footer.-social-below .footer-address .justia-inline {
+  text-transform: uppercase;
+}
+
 .main-footer.-social-below.-justia-logo .logo-img {
   width: 111px;
   height: 29px;

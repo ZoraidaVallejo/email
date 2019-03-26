@@ -2,15 +2,13 @@
  * @param {String} widgetResponsive
  * @param {Object} widgetConfig
  * @param {Object} widgetConfig.justiaLink
- * @param {String} widgetConfig.justiaLink.link
- * @param {String} widgetConfig.justiaLink.text
  * @param {String} widgetConfig.direction
  * @param {String} widgetConfig.tel
 }}
 
 <p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.justiaLink}}
-    <a class="justia-inline" href="{{widgetConfig.justiaLink.link}}" target="_blank">{{{widgetConfig.justiaLink.text}}}</a>
+    <a class="justia-inline" href="{{widgetConfig.justiaLink}}" target="_blank">Justia</a>
   {{/if}}
   {{#if widgetConfig.direction}}
     {{>pipe widgetResponsive=false}}
