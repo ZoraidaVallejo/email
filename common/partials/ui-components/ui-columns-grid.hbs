@@ -2,18 +2,18 @@
  * @param {Boolean} columnGridStart
  * @param {Boolean} columnGridEnd
  * @param {Boolean} columnGridSeparator
+ * @param {String}  fullWidth
+ * @param {String}  cellWidth
+ * @param {String}  cellAlignment
  * @param {String}  rowClasses
  * @param {String}  columnClasses
  * @param {String}  cellClasses
- * @param {String}  cellAlignment
- * @param {String}  fullWidth
- * @param {String}  cellWidth
 }}
 
 {{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
 {{assign "columnAllClasses" (classList "grid-column" columnClasses)}}
 {{assign "cellAllClasses" (classList "grid-cell" cellClasses)}}
-{{assign "cellAllAttributes" (tableAttr align=cellAlignment class=@root.cellAllClasses responsive="mobile-align-center mobile-no-float")}}
+{{assign "cellAllAttributes" (tableAttr align=(default cellAlignment "left") class=@root.cellAllClasses responsive="mobile-align-center mobile-no-float")}}
 
 {{#if columnGridStart}}
   <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
