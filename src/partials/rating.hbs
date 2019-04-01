@@ -59,14 +59,14 @@
       {{#uiButton
         href="https://www.justia.com/"
         presetStyle="light-blue"
-        width=(ternary premium "350" "280")
+        width=(ternary premium "280" "350")
         height="50"
         backgroundColor="#00b3e3"
         fontColor="#ffffff"
         fontWeight="700"
-        responsive=(ternary premium "responsive-button" null)
+        responsive=(ternary premium null "responsive-button")
       }}
-        {{#if premium}}Learn More about Justia Lawyer Rating{{else}}Read All Reviews{{/if}}
+        {{#if premium}}Read All Reviews{{else}}Learn More about Justia Lawyer Rating{{/if}}
       {{/uiButton}}
     </td>
   </tr>

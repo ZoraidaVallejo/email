@@ -1,38 +1,43 @@
-
 <!-- YOUR CONTACT INFORMATION -->
 
-<!-- widget w-contact-info -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-contact-info">
+{{#table class="widget w-contact-info"}}
   <tr>
-    <!-- widget-title -->
     <td class="widget-title" responsive="mobile-padding-horizontal-sides mobile-fz-24">
       Your Contact Information
     </td>
   </tr>
   <tr>
-    <!-- widget-desc -->
     <td class="widget-desc" responsive="mobile-padding-horizontal-sides">
       <p>Without your correct information client prospects can’t find you. Please ensure that the following information is correct and up to date.</p>
     </td>
   </tr>
   <tr>
-    <!-- contact-list-desc -->
     <td class="contact-list-desc" responsive="mobile-padding-horizontal-sides">
       <p><strong>We currently have the following information: </strong></p>
     </td>
   </tr>
   <tr>
-    <!-- contact-list -->
     <td class="contact-list" responsive="mobile-padding-horizontal-sides">
       <p>
         123 Any Street ABC <br>Anytown, CA 12345 <br><strong>Phone:</strong> (555) 555-5555 <br> <strong>Fax:</strong> (555) 555-5555
       </p>
+      <p>and 1 other location.</p>
     </td>
   </tr>
   <tr>
-    <!-- widget-button custom-button -center -->
-    <td class="widget-button custom-button -center" responsive="mobile-padding-horizontal-sides">
-      {{> ui-real-text-button buttonText='Update Your Information' buttonLink='#' }}
+    <td class="widget-button align-center" responsive="mobile-padding-horizontal-sides">
+      {{#uiButton
+        href="https://www.justia.com/"
+        presetStyle="light-blue"
+        width=(ternary premium "280" "350")
+        height="50"
+        backgroundColor="#00b3e3"
+        fontColor="#ffffff"
+        fontWeight="700"
+        responsive=(ternary premium null "responsive-button")
+      }}
+        {{#if premium}}Update Your Information{{else}}Claim and Update Your Information{{/if}}
+      {{/uiButton}}
     </td>
   </tr>
-</table>
+{{/table}}

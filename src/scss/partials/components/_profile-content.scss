@@ -32,7 +32,6 @@ $chart-image-size: 163px 163px;
 
       img {
         @include size($chart-image-size...);
-        display: block;
         margin: 0 auto;
       }
     }
@@ -46,7 +45,6 @@ $chart-image-size: 163px 163px;
     text-align: center;
 
     img {
-      display: block;
       width: 100%;
       margin: 0;
     }
@@ -69,6 +67,7 @@ $chart-image-size: 163px 163px;
     .img-col {
       width: 190px;
       padding: 0 40px 0 0;
+      vertical-align: middle;
     }
 
     .numbers-col {
@@ -113,7 +112,6 @@ $chart-image-size: 163px 163px;
 
       img {
         @include size(110px);
-        display: block;
         margin: 0 auto;
       }
     }

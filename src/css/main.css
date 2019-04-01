@@ -574,7 +574,6 @@ a {
 .iconed-list .list-item.-icon img {
   width: 30px;
   height: 30px;
-  display: block;
   margin: 0;
 }
 
@@ -703,7 +702,6 @@ a {
 .w-welcome .atty-data .column.-views img {
   width: 20px;
   height: 25px;
-  display: block;
   margin: 0 auto;
 }
 
@@ -738,7 +736,6 @@ a {
 .w-profile-info .profile-chart .chart-img img {
   width: 163px;
   height: 163px;
-  display: block;
   margin: 0 auto;
 }
 
@@ -748,7 +745,6 @@ a {
 }
 
 .w-profile-stats .profile-graph img {
-  display: block;
   width: 100%;
   margin: 0;
 }
@@ -768,6 +764,7 @@ a {
 .w-profile-stats .premium-stats .img-col {
   width: 190px;
   padding: 0 40px 0 0;
+  vertical-align: middle;
 }
 
 .w-profile-stats .premium-stats .numbers-col {
@@ -810,7 +807,6 @@ a {
 .w-rating .profile-badge .badge-img img {
   width: 110px;
   height: 110px;
-  display: block;
   margin: 0 auto;
 }
 
@@ -843,7 +839,6 @@ a {
 .w-ad .ad-image img {
   width: 50px;
   height: 116px;
-  display: block;
   margin: 0 auto;
 }
 

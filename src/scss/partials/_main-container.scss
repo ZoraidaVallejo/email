@@ -139,7 +139,6 @@ $fade-background-size: image-dimensions('/src/images/fade-background-01.png');
 
       img {
         @include size(30px);
-        display: block;
         margin: 0;
       }
     }
