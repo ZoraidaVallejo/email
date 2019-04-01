@@ -45,12 +45,12 @@ $chart-image-size: 163px 163px;
     text-align: center;
 
     img {
-      width: 100%;
+      width: image-width('/src/images/no-stats-01.png') / 2;
       margin: 0;
     }
 
     .no-stats-img {
-      max-width: image-width('/src/images/no-stats-01.png') / 2;
+      max-width: 100%;
     }
   }
 
@@ -61,7 +61,8 @@ $chart-image-size: 163px 163px;
     }
 
     .stats-img {
-      max-width: 190px;
+      width: 190px;
+      max-width: 100%;
     }
 
     .img-col {
