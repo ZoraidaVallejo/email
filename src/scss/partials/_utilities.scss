@@ -1,6 +1,10 @@
 // ----------------------------------------------------------------------------------------------------------
-// O T H E R   S T Y L E S   T H A T   M I G H T   B E   U S E F U L
+// U T I L I T Y   C L A S S E S
 // ----------------------------------------------------------------------------------------------------------
+
+.full-size {
+  @include size(100%);
+}
 
 .align {
 
@@ -32,22 +36,10 @@
   }
 }
 
-.last {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
 .no {
 
   &-padding {
-
-    &-top {
-      padding-top: 0 !important;
-    }
-
-    &-bottom {
-      padding-bottom: 0 !important;
-    }
+    padding: 0;
   }
 
   &-margin {

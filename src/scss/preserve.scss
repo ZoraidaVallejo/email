@@ -9,226 +9,15 @@ $use-breakpoint: false;
   'maple-sass',
   'mail-settings';
 
+@import
+  'mail-resets',
+  'mail-special-font',
+  'mail-responsive';
+
 // ----------------------------------------------------------------------------------------------------------
 
-// stylelint-disable
+@media only screen and (max-width: $responsive-max-width) {
 
-// CLIENT-SPECIFIC STYLES
-body,
-table,
-td,
-a {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-table,
-td {
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt;
-}
-
-img {
-  -ms-interpolation-mode: bicubic;
-}
-
-// RESET STYLES
-img {
-  max-width: 100%;
-  border: 0;
-  outline: none;
-  line-height: 100%;
-  text-decoration: none;
-}
-
-table {
-  border-collapse: collapse !important;
-}
-
-body {
-  width: 100% !important;
-  height: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-// iOS BLUE LINKS
-a[x-apple-data-detectors] {
-  color: inherit !important;
-  font-weight: inherit !important;
-  font-size: inherit !important;
-  line-height: inherit !important;
-  font-family: inherit !important;
-  text-decoration: none !important;
-}
-
-.ios-links-black a {
-  color: #000000 !important;
-  text-decoration: none !important;
-}
-
-.ios-links-white a {
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
-
-a[href^=tel] {
-  color: currentColor !important;
-  text-decoration: none !important;
-}
-
-// ANDROID CENTER FIX
-div[style*='margin: 16px 0;'] {
-  margin: 0 !important;
-}
-
-// EXTERNAL CLASS FIX FOR Outlook.com
-.ExternalClass {
-  width: 100%;
-  line-height: 100%;
-}
-
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-  line-height: 100%;
-}
-
-@media screen {
-
-  [style*='font'] {
-    font-family: 'OpenSans', Arial, sans-serif !important;
-  }
-}
-
-
-
-@media only screen and (max-width: ($max-width + 40)) {
-
-  // Distribution
-  .collapse-one {
-    display: block !important;
-    width: 100% !important;
-  }
-
-  // Mobile classes
-  .mobile {
-
-    &-reset {
-
-      &-width {
-        width: auto !important;
-      }
-
-      &-height {
-        height: auto !important;
-      }
-
-      &-bg-image {
-        background-image: none !important;
-      }
-    }
-
-    // Visual Modifiers
-    &-hide {
-      display: none !important;
-    }
-
-    // Align Modfiers
-    &-align-center {
-      margin: 0 auto !important;
-      text-align: center !important;
-    }
-
-    @each $fz in (20 24 30) {
-
-      &-fz-#{$fz} {
-        font-size: ($fz * 1px) !important;
-      }
-    }
-
-    // Padding Modifiers
-    &-padding {
-
-      &-top {
-        padding-top: 10px !important;
-      }
-
-      &-right {
-        padding-right: 10px !important;
-      }
-
-      &-bottom {
-        padding-bottom: 10px !important;
-      }
-
-      &-left {
-        padding-left: 10px !important;
-      }
-
-      &-horizontal-sides {
-        padding-right: 10px !important;
-        padding-left: 10px !important;
-      }
-
-      &-vertical-sides {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-      }
-
-      &-full {
-        padding: 10px !important;
-      }
-
-      &-uneven {
-
-        &-top {
-          padding-top: 45px !important;
-        }
-
-        &-bottom {
-          padding-bottom: 45px !important;
-        }
-
-        &-full {
-          padding: 45px 10px !important;
-        }
-      }
-    }
-
-    &-no {
-
-      &-padding {
-
-        &-top {
-          padding-top: 0 !important;
-        }
-
-        &-bottom {
-          padding-bottom: 0 !important;
-        }
-
-        &-horizontal-sides {
-          padding-right: 0 !important;
-          padding-left: 0 !important;
-        }
-      }
-
-      &-float {
-        float: none !important;
-      }
-
-      &-border {
-        border: 0 !important;
-      }
-    }
-  }
-
-
-  // C U S T O M
-  // -----------
   .main-footer {
 
     .footer-logo {
@@ -239,5 +28,11 @@ div[style*='margin: 16px 0;'] {
     .footer-social {
       padding-top: 20px !important;
     }
+  }
+
+  .responsive-button {
+    width: auto !important;
+    padding: 6px 20px !important;
+    line-height: 1.2 !important;
   }
 }

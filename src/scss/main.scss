@@ -8,13 +8,11 @@ $mail-global-line-height: 1.5;
 @import
   'image-dimensions',
   'maple-sass',
-  'mail-global-styles';
+  'mail-template-builder';
 
 @import
   'partials/main-container',
   'partials/components/welcome',
   'partials/components/profile-content',
-  'partials/components/ad';
-
-@import
-  'partials/other';
+  'partials/components/ad',
+  'partials/utilities';
