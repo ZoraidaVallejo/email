@@ -1,0 +1,95 @@
+
+<!-- WELCOME -->
+
+<!-- widget w-welcome -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-welcome">
+  <tr>
+    <!-- main-title -line-1 -->
+    <td class="main-title -line-1" responsive="mobile-padding-horizontal-sides mobile-fz-20">
+      Welcome To Your
+    </td>
+  </tr>
+  <tr>
+    <!-- main-title -line-2 -->
+    <td class="main-title -line-2" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      <strong>Monthly Report</strong>
+    </td>
+  </tr>
+  <tr>
+    <!-- atty-picture -->
+    <td class="atty-picture">
+      <!-- picture -->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" class="picture">
+        <tr>
+          {{>ui-background
+            classes="yaw"
+            image="attorney-picture.jpg"
+            bgColor="#dbdbdb"
+            dimensions="width:150px;height:150px;"
+            bgStart=true
+            bgEnd=(isFalsey premium)
+            content=(isTruthy premium)
+          }}
+          {{#if premium}}
+              <!-- premium-label -->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" class="premium-label">
+                <tr><td>P R E M I U M</td></tr>
+              </table>
+            {{>ui-background bgEnd=true}}
+          {{/if}}
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <!-- atty-name -->
+    <td class="atty-name" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      <strong>John Doe</strong>
+    </td>
+  </tr>
+  <tr>
+    <!-- atty-info -->
+    <td class="atty-info" responsive="mobile-padding-horizontal-sides">
+      <p>
+        Senior Attorney at ABC Law Firm <br><em>Last Update: 8 months ago</em>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <!-- small-divider -->
+    <td class="small-divider" responsive="mobile-padding-horizontal-sides">
+      <table align="center" border="0" cellpadding="0" cellspacing="0"><tr><td>&nbsp;</td></tr></table>
+    </td>
+  </tr>
+  <tr>
+    <!-- atty-data -->
+    <td class="atty-data" responsive="mobile-padding-horizontal-sides">
+      <table align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- column -views -top -->
+          <td class="column -views -top">
+            {{#if premium}}
+              <strong>600K+</strong>
+            {{else}}
+              <img src="{{default.imageDirSrc}}/lock-icon.png" alt="Lock icon" border="0" />
+            {{/if}}
+          </td>
+          <!-- column -reviews -top -->
+          <td class="column -reviews -top">
+            <strong>125</strong>
+          </td>
+        </tr>
+        <tr>
+          <!-- column -views -desc -->
+          <td class="column -views -desc">
+            Profile Views
+          </td>
+          <!-- column -reviews -desc -->
+          <td class="column -reviews -desc">
+            Reviews
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

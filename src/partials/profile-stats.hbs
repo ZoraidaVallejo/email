@@ -1,0 +1,87 @@
+
+<!-- YOUR PROFILE STATS -->
+
+<!-- widget w-profile-stats -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-profile-stats">
+  <tr>
+    <!-- widget-title -->
+    <td class="widget-title" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      Your Profile Stats
+    </td>
+  </tr>
+  <tr>
+    <!-- widget-desc -->
+    <td class="widget-desc" responsive="mobile-padding-horizontal-sides">
+      {{#if premium}}
+        <p>Ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+      {{else}}
+        <p>As a premium member, you can get exclusive access to your profile stats. Use this information to gain key insights into how to get your profile even more viewers. This information can help you decide how to invest your resources to maximize your online marketing efforts.</p>
+      {{/if}}
+    </td>
+  </tr>
+  <tr>
+    <!-- profile-graph -->
+    <td class="profile-graph" responsive="mobile-padding-horizontal-sides">
+      {{#if premium}}
+        <!-- premium-stats -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="premium-stats">
+          <tr>
+            <!-- img-col -->
+            <td class="img-col" responsive="mobile-hide">
+              <!-- stats-img -->
+              <img src="{{default.imageDirSrc}}/premium-stats-01.png" alt="Premium Placement Stats" class="stats-img" border="0" />
+            </td>
+            <!-- numbers-col -->
+            <td class="numbers-col" responsive="collapse-one mobile-no-padding-top">
+              <!-- number -->
+              <p class="number"><strong>65,496</strong></p>
+              <!-- text -->
+              <p class="text">Profile views in the last 30 days</p>
+            </td>
+          </tr>
+        </table>
+      {{else}}
+        <!-- no-stats-img -->
+        <img src="{{default.imageDirSrc}}/no-stats-01.png" alt="Premium Placement Stats" class="no-stats-img" border="0" />
+      {{/if}}
+    </td>
+  </tr>
+  {{#if premium}}
+    <tr>
+      <!-- iconed-list-desc -->
+      <td class="iconed-list-desc" responsive="mobile-padding-horizontal-sides">
+        <p><strong>Want more views to your profile?</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <!-- iconed-list -->
+      <td class="iconed-list" responsive="mobile-padding-horizontal-sides">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <!-- list-item -icon -last -->
+            <td class="list-item -icon -last">
+              <img src="{{default.imageDirSrc}}/profile-icon-05.png" alt="icon 4" border="0" />
+            </td>
+            <!-- list-item -desc -last -->
+            <td class="list-item -desc -last">
+              <p>Participate in <strong><a href="#" target="_blank">Ask a Lawyer</a></strong> to gain exposure.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <!-- widget-button custom-button -center -->
+      <td class="widget-button custom-button -center" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonText='View Your Stats' buttonLink='#' }}
+      </td>
+    </tr>
+  {{else}}
+    <tr>
+      <!-- widget-button custom-button -center -->
+      <td class="widget-button custom-button -center" responsive="mobile-padding-horizontal-sides">
+        {{> ui-real-text-button buttonText='Become a Premium Member' buttonLink='#' }}
+      </td>
+    </tr>
+  {{/if}}
+</table>

@@ -1,0 +1,43 @@
+{
+  "imageDirSrc": "../src/images",
+  "header": {
+    "logo": {
+      "name": "lawyer-directory",
+      "link": {
+        "url": "https://www.justia.com/lawyers",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= currentYear %>-<%= currentMonth %>",
+          "source": "client-newsletter",
+          "content": "image-header-logo-1"
+        }
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "You are receiving this email because you are in the lawyer directory.",
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/",
+        "target": "_blank"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/",
+        "target": "_blank"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      }
+    ],
+    "address": {
+      "justiaLink": {
+        "text": "JUSTIA",
+        "link": "https://www.justia.com/"
+      },
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  }
+}
