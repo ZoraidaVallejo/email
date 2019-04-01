@@ -1,15 +1,13 @@
-
 <!-- AD -->
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="widget w-ad">
+{{#table class="widget w-ad"}}
   <tr>
     <td class="ad-wrapper" responsive="mobile-padding-horizontal-sides">
-
-      <table align="center" border="0" cellpadding="0" cellspacing="0">
+      {{#table}}
         <tr>
           <td class="ad-content" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-uneven-bottom">
 
-            <table align="center" border="0" cellpadding="0" cellspacing="0">
+            {{#table}}
               <tr>
                 <td class="text">
                   <p class="title"><strong>Boost new costumer growth by up to 30%</strong></p>
@@ -17,19 +15,21 @@
                 </td>
               </tr>
               <tr>
-                <td class="custom-button -red -fz-16">
-                  {{>ui-real-text-button buttonText="I WANT TO GROW MY BUSINESS" buttonLink="#"}}
+                <td class="button">
+                  {{#uiButton href="https://www.justia.com/" presetStyle="red" width="280" height="50"}}
+                    I WANT TO GROW MY BUSINESS
+                  {{/uiButton}}
                 </td>
               </tr>
-            </table>
+            {{/table}}
 
           </td>
           <td class="ad-image" responsive="collapse-one">
-            <img src="{{default.imageDirSrc}}/boost-costumers.png" alt="Boost" border="0" />
+            {{>img src="boost-costumers.png" alt="Boost"}}
           </td>
         </tr>
-      </table>
+      {{/table}}
 
     </td>
   </tr>
-</table>
+{{/table}}

@@ -67,8 +67,20 @@ $atty-picture-size: image-dimensions('/src/images/attorney-picture.jpg');
     padding: 0 $padding 40px;
     text-align: center;
 
-    em {
+    p {
+      margin: 0;
+    }
+
+    .mod-time {
       color: plt('gray');
+    }
+
+    .claim-link {
+      color: plt('red');
+
+      a {
+        color: plt('red');
+      }
     }
   }
 
