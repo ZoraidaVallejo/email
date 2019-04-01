@@ -95,26 +95,24 @@ $chart-image-size: 163px 163px;
     padding: 0 $padding 45px;
 
     .badge-text {
-      width: 320px;
+      width: 340px;
       padding: 0 0 0 20px;
       vertical-align: middle;
 
       .title {
-        padding: 0 0 5px;
+        margin: 0 0 5px;
 
-        p {
-          @include mail-font($size: 18px, $weight: '700');
-        }
+        @include mail-font($size: 18px, $weight: '700');
       }
     }
 
     .badge-img {
-      width: 140px;
+      width: 120px;
       text-align: center;
       vertical-align: middle;
 
       img {
-        @include size(101px, 110px);
+        @include size(110px);
         display: block;
         margin: 0 auto;
       }

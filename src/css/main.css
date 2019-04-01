@@ -791,27 +791,24 @@ a {
 }
 
 .w-rating .profile-badge .badge-text {
-  width: 320px;
+  width: 340px;
   padding: 0 0 0 20px;
   vertical-align: middle;
 }
 
 .w-rating .profile-badge .badge-text .title {
-  padding: 0 0 5px;
-}
-
-.w-rating .profile-badge .badge-text .title p {
+  margin: 0 0 5px;
   font: 700 18px/1.5 Arial, sans-serif;
 }
 
 .w-rating .profile-badge .badge-img {
-  width: 140px;
+  width: 120px;
   text-align: center;
   vertical-align: middle;
 }
 
 .w-rating .profile-badge .badge-img img {
-  width: 101px;
+  width: 110px;
   height: 110px;
   display: block;
   margin: 0 auto;
