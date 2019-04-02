@@ -1,0 +1,43 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {String}   widgetConfig.sectionName
+ * @param {String}   widgetConfig.title
+ * @param {String}   widgetConfig.link
+ * @param {String[]} widgetConfig.description
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+}}
+
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "simpleTextWidgetButton" true}}
+{{else}}
+  {{assign "simpleTextWidgetButton" false}}
+{{/and}}
+
+{{#table class=(classList "w-simple-text" widgetClass "set-max-width")}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header section=widgetConfig.sectionName title=widgetConfig.title link=widgetConfig.link}}
+    </td>
+  </tr>
+  <tr>
+    <td class="description{{#unless @root.simpleTextWidgetButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each widgetConfig.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{#if @root.simpleTextWidgetButton}}
+    <tr>
+      <td class="button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
+          {{widgetConfig.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}
