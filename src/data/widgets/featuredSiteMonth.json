@@ -1,35 +1,45 @@
 {
   "sites": [
     {
-      "clientName": "[Law Offices of Smith & Jones]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Daly Law, P.C.",
+      "location": "Springfield, MA",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "http://gallery-01.justia.net/",
-        "simple": "[gallery-01.justia.com]"
+        "long": "https://www.dandalylaw.com/",
+        "simple": "dandalylaw.com"
       },
       "screenshots": "featured-site-01.jpg",
       "thumbnail": "featured-site-01-thumb.jpg"
     },
     {
-      "clientName": "[Smith Law Firm]",
-      "location": "[Anytown, CA]",
+      "clientName": "Law Office of Jim Davis",
+      "location": "Gulfport, MS",
       "possessiveAdjective": "[his]",
       "domain": {
-        "long": "http://gallery-02.justia.net/",
-        "simple": "[gallery-02.justia.com]"
+        "long": "https://www.jimdavislawyer.com/",
+        "simple": "jimdavislawyer.com"
       },
       "thumbnail": "featured-site-02-thumb.jpg"
     },
     {
-      "clientName": "[Law Offices]",
-      "location": "[Anytown, CA]",
+      "clientName": " Law Offices of Jonathan F. Marshall",
+      "location": "Freehold, NJ",
       "possessiveAdjective": "[her]",
       "domain": {
-        "long": "http://gallery-03.justia.net/",
-        "simple": "[gallery-03.justia.com]"
+        "long": "https://www.newjerseyworkerscompensationlaw.com/",
+        "simple": "newjerseyworkerscompensationlaw.com"
       },
       "thumbnail": "featured-site-03-thumb.jpg"
+    },
+    {
+      "clientName": "Law Office of John W. Noonan",
+      "location": "Dublin, CA",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "https://www.noonanlawoffices.com/",
+        "simple": "noonanlawoffices.com"
+      },
+      "thumbnail": "featured-site-04-thumb.jpg"
     }
   ]
 }

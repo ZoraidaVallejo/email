@@ -6,7 +6,36 @@
 
   // &.-client-ad-01 {}
 
-  // &.-jld-ad-01 {}
+  &.-jld-ad-01 {
+    background-color: plt('white');
 
-  // &.-jld-ad-02 {}
+    .justia-logo {
+      padding: 35px $padding;
+    }
+
+    .content {
+      background-color: #eceff4;
+
+      &.-idx-3 {
+
+        p,
+        a {
+          color: plt('justia-blue');
+        }
+      }
+    }
+  }
+
+  &.-jld-ad-02 {
+    background-color: #ebf1f6;
+
+    .content {
+      background-color: plt('justia-blue');
+
+      p,
+      a {
+        color: plt('white');
+      }
+    }
+  }
 }

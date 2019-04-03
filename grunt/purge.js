@@ -19,7 +19,7 @@ module.exports = grunt => {
                 .split(' ')
             )
             .get()
-            .filter(val => val !== 'preheader' && val !== 'ios-links-black')
+            .filter(val => val !== 'preheader' && val !== 'ios-links-black' && val !== '')
         )
       ];
 

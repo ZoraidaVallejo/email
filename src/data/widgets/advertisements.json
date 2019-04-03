@@ -57,68 +57,38 @@
   },
   "jld": {
     "ad1": {
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[directory-ad-example-type-1]"
-      },
-      "image": "client-ad-image-01.png",
-      "imageAlt": "[Aute ea voluptate qui aliqua veniam.]",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "[Elit reprehenderit deserunt reprehenderit ullamco commodo labore irure velit.]"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "[Tempor culpa.]",
-            "width": 200,
-            "height": 50,
-            "fontSize": 18
-          }
-        }
-      ]
-    },
-    "ad2": {
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "[directory-ad-example-type-2]"
+        "content": "banner-premium-memberships-v20"
       },
       "logo": {
         "name": "marketing",
         "color": "blue"
       },
-      "title": "<b>[Cillum nulla irure.]</b>",
-      "titleResponsiveSize": 30,
-      "image": "jld-ad-image-02.png",
+      "title": "<b>Get Ahead of the Game<br>With Premium Placements</b>",
+      "titleResponsiveSize": "22",
+      "image": "get-ahead-image-01.png",
       "background": {
-        "image": "jld-ad-background-02.jpg",
+        "image": "get-ahead-bg-01.gif",
         "width": 600,
-        "bgColor": "#cccccc",
-        "cssSize": "100% auto"
+        "bgColor": "#eceff4"
       },
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "[Duis officia mollit dolore est esse. Sit proident et anim consequat laboris officia quis. Excepteur labore occaecat ex elit Lorem exercitation nostrud pariatur ullamco qui aliqua est elit reprehenderit.]"
+            "Premium placements on the Justia Lawyer Directory increase your visibility. So what are you waiting for? Get ahead of the game now!"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Tempor culpa.]",
-            "width": 200,
+            "text": "Get Premium Now",
+            "width": 210,
             "height": 50,
             "fontSize": 18
           }
@@ -126,7 +96,47 @@
         {
           "type": "description",
           "config": [
-            "[<b>Tempor id cillum tempor magna labore eiusmod consectetur proident aliqua minim deserunt.</b>]"
+            "Or call us at <b><a href=\"tel:8885878421\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "link": "https://www.justia.com/marketing/law-firm-websites/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-website-marketing-generic-v17"
+      },
+      "logo": {
+        "name": "marketing",
+        "color": "blue"
+      },
+      "title": "<b>Hit The Bull’s Eye<br>With Your Marketing</b>",
+      "titleResponsiveSize": "22",
+      "image": "bulls-eye-image-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Tired of not getting the results you want from your marketing? Let Justia create a website for you that will hit the mark and improve your visibility. Start getting the right results!"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Started Today",
+            "width": 210,
+            "height": 50,
+            "fontSize": 18
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\">(888) 587-8421</a></b>"
           ]
         }
       ]

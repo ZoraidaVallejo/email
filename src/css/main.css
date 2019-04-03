@@ -1128,6 +1128,21 @@ a {
   vertical-align: top;
 }
 
+.w-law-events .event-1 .event-info,
+.w-law-events .event-2 .event-info {
+  height: 108px;
+}
+
+.w-law-events .event-3 .event-info,
+.w-law-events .event-4 .event-info {
+  height: 130px;
+}
+
+.w-law-events .event-5 .event-info,
+.w-law-events .event-6 .event-info {
+  height: 130px;
+}
+
 .w-advertisement {
   background-color: #b1b3b3;
 }
@@ -1151,7 +1166,7 @@ a {
 }
 
 .w-advertisement .title a {
-  font: 30px/1.38 Arial, sans-serif;
+  font: 34px/1.15 Arial, sans-serif;
   color: #06357a;
 }
 
@@ -1164,15 +1179,45 @@ a {
 }
 
 .w-advertisement .content {
-  padding: 0 30px 30px;
+  padding: 0 30px 25px;
 }
 
 .w-advertisement .content.-first {
-  padding: 30px;
+  padding: 20px 30px 25px;
 }
 
-.w-advertisement .content.-last {
-  padding: 0 30px 45px;
+.w-advertisement .content.-button {
+  padding: 0 30px 20px;
+}
+
+.w-advertisement.-jld-ad-01 {
+  background-color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .justia-logo {
+  padding: 35px 30px;
+}
+
+.w-advertisement.-jld-ad-01 .content {
+  background-color: #eceff4;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-3 p,
+.w-advertisement.-jld-ad-01 .content.-idx-3 a {
+  color: #06357a;
+}
+
+.w-advertisement.-jld-ad-02 {
+  background-color: #ebf1f6;
+}
+
+.w-advertisement.-jld-ad-02 .content {
+  background-color: #06357a;
+}
+
+.w-advertisement.-jld-ad-02 .content p,
+.w-advertisement.-jld-ad-02 .content a {
+  color: #ffffff;
 }
 
 .full-size {
@@ -1214,6 +1259,11 @@ a {
 
 .jld-newsletter .w-stories-list.-tech-news,
 .jld-newsletter .w-stories-list.-social-media-news,
-.jld-newsletter .w-text-image.-meet-our-team {
+.jld-newsletter .w-text-image.-meet-our-team,
+.jld-newsletter .w-text-image.-pugs-tale {
   border-bottom: 1px solid #e7e8e8;
+}
+
+.jld-newsletter .w-featured-site-month .site-item.-site-3 .link {
+  font: 14px/1.38 Arial, sans-serif;
 }
