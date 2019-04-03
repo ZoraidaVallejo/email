@@ -628,15 +628,27 @@ a {
 }
 
 .w-simple-text .description {
-  padding: 0 30px 15px;
-}
-
-.w-simple-text .description.-no-button {
   padding: 0 30px 45px;
 }
 
-.w-simple-text .button {
-  padding: 5px 30px 45px;
+.w-simple-text .description.-with-button p:last-of-type {
+  margin: 0 0 20px;
+}
+
+.w-simple-text.-with-image .description {
+  width: 360px;
+  padding: 0 0 45px 30px;
+}
+
+.w-simple-text.-with-image .image {
+  width: 180px;
+  padding: 0 30px 45px 0;
+  text-align: right;
+  vertical-align: top;
+}
+
+.w-simple-text.-with-image .image img {
+  width: 150px;
 }
 
 .w-simple-text.-tip-month .description p,
@@ -956,6 +968,14 @@ a {
 
 .w-text-image.-multiple .row-item:last-child .image {
   padding: 35px 0 0;
+}
+
+.w-text-image.-meet-our-team .description, .w-text-image.-pugs-tale .description {
+  vertical-align: middle;
+}
+
+.w-text-image.-meet-our-team .image, .w-text-image.-pugs-tale .image {
+  padding: 0;
 }
 
 .w-ranked-list {

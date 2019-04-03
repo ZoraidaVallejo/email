@@ -2,6 +2,17 @@
 // C O L U M N   T E X T - I M A G E
 // ----------------------------------------------------------------------------------------------------------
 
-// .w-text-image {
-//   // Styles here.
-// }
+.w-text-image {
+
+  &.-meet-our-team,
+  &.-pugs-tale {
+
+    .description {
+      vertical-align: middle;
+    }
+
+    .image {
+      padding: 0;
+    }
+  }
+}
