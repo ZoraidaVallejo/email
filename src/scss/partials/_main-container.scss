@@ -70,54 +70,8 @@ $fade-background-size: image-dimensions('/src/images/fade-background-01.png');
   padding: 0 $padding 50px;
 }
 
-// TODO: Add this to the UI Real Text Button component.
 .custom-button {
-  text-align: left;
-
-  .ui-real-text-button {
-    width: 280px;
-    height: 50px;
-    border: 0;
-    background-color: plt('bright-blue');
-    text-align: left;
-
-    a {
-      $button-padding: floor((50px - 17px) / 2);
-
-      padding: $button-padding 0;
-      color: plt('white');
-    }
-
-    .wrapper {
-      color: plt('white');
-      // TODO: Use mail-font mixin.
-      font-weight: tp('weight', 'bold');
-      font-size: 17px;
-    }
-  }
-
-  &.-center {
-    text-align: center;
-
-    .ui-real-text-button {
-      text-align: center;
-    }
-  }
-
-  &.-red .ui-real-text-button {
-    background-color: plt('red');
-  }
-
-  &.-fz-16 .ui-real-text-button {
-
-    a {
-      $button-padding: floor((50px - 16px) / 2);
-    }
-
-    .wrapper {
-      font-size: 16px;
-    }
-  }
+  padding: 13px 0;
 }
 
 .contact-list-desc,
