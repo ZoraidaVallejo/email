@@ -1,0 +1,45 @@
+{
+  "sites": [
+    {
+      "clientName": "Daly Law, P.C.",
+      "location": "Springfield, MA",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.dandalylaw.com/",
+        "simple": "dandalylaw.com"
+      },
+      "screenshots": "featured-site-01.jpg",
+      "thumbnail": "featured-site-01-thumb.jpg"
+    },
+    {
+      "clientName": "Law Office of Jim Davis",
+      "location": "Gulfport, MS",
+      "possessiveAdjective": "[his]",
+      "domain": {
+        "long": "https://www.jimdavislawyer.com/",
+        "simple": "jimdavislawyer.com"
+      },
+      "thumbnail": "featured-site-02-thumb.jpg"
+    },
+    {
+      "clientName": "Law Offices of Jonathan F. Marshall",
+      "location": "Freehold, NJ",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "https://www.newjerseyworkerscompensationlaw.com/",
+        "simple": "newjerseyworkerscompensationlaw.com"
+      },
+      "thumbnail": "featured-site-03-thumb.jpg"
+    },
+    {
+      "clientName": "Law Office of John W. Noonan",
+      "location": "Dublin, CA",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "https://www.noonanlawoffices.com/",
+        "simple": "noonanlawoffices.com"
+      },
+      "thumbnail": "featured-site-04-thumb.jpg"
+    }
+  ]
+}

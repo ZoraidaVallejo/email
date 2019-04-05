@@ -1,0 +1,57 @@
+{
+  "sectionName": "Ask a Lawyer",
+  "title": "Participating Lawyers",
+  "link": "https://answers.justia.com/about-legal-answers#faq-atty",
+  "list": [
+    {
+      "id": "1558360",
+      "rank": 1,
+      "name": "Kyle Persaud",
+      "location": "Bartlesville, OK",
+      "nameLink": "https://answers.justia.com/lawyer/1558360/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1558360?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "274925",
+      "rank": 2,
+      "name": "Ahaji Kirk Amos",
+      "location": "Raleigh, NC",
+      "nameLink": "https://answers.justia.com/lawyer/274925/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/274925?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1505267",
+      "rank": 3,
+      "name": "Marc David Pelta",
+      "location": "San Francisco, CA",
+      "nameLink": "https://answers.justia.com/lawyer/1505267/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1505267?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "1558459",
+      "rank": 4,
+      "name": "Carrie T. Schilling",
+      "location": "Southlake, TX",
+      "nameLink": "https://answers.justia.com/lawyer/1558459/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/1558459?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "1558305",
+      "rank": 5,
+      "name": "Matthew J. Olszewski",
+      "location": "Orlando, FL",
+      "nameLink": "https://answers.justia.com/lawyer/1558305/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/1558305?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "photoPrefix": "leaderboard-photo-",
+  "showRanking": true,
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}
