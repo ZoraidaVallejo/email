@@ -24,7 +24,7 @@
         <tr>
           <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#each this.config}}
-              <p>
+              <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
                 {{#if ../linkText}}<a href="{{{../../widgetConfig.link}}}" target="_blank">{{/if}}
                   {{{this}}}
                 {{#if ../linkText}}</a>{{/if}}

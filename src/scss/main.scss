@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $use-breakpoint: false;
-$use-special-font: false;
+// $use-special-font: false;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -19,5 +19,6 @@ $accent-color: plt('justia-blue');
 @import
   'mixins',
   'main/widgets',
+  'main/widgets/custom',
   'main/widgets/about-justia',
   'main/utilities';

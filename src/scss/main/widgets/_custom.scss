@@ -1,0 +1,36 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.view-stats.-v1 {
+
+  .blast-content .content.-first {
+    text-align: left;
+
+    a {
+      color: plt('black');
+    }
+  }
+}
+
+.view-stats.-v2 {
+
+  .blast-content {
+
+    .main-title {
+      padding: $padding;
+
+      p {
+        @include mail-font(48px, 1.13);
+      }
+    }
+
+    .content.-first {
+      padding: 25px $padding 20px;
+
+      p {
+        @include mail-font(30px, 1.2);
+      }
+    }
+  }
+}

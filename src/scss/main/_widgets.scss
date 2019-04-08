@@ -9,7 +9,7 @@
   }
 
   .main-title {
-    padding: 35px $padding 30px;
+    padding: 35px $padding $padding;
     border-top: 1px solid plt('alto');
     background-color: #f8fcff;
     text-align: center;
@@ -48,17 +48,6 @@
       p:last-child {
         color: plt('justia-blue');
       }
-    }
-  }
-}
-
-.view-stats.-v1 {
-
-  .blast-content .content.-first {
-    text-align: left;
-
-    a {
-      color: plt('black');
     }
   }
 }

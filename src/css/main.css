@@ -502,6 +502,22 @@ a {
   color: #000000;
 }
 
+.view-stats.-v2 .blast-content .main-title {
+  padding: 30px;
+}
+
+.view-stats.-v2 .blast-content .main-title p {
+  font: 48px/1.13 Arial, sans-serif;
+}
+
+.view-stats.-v2 .blast-content .content.-first {
+  padding: 25px 30px 20px;
+}
+
+.view-stats.-v2 .blast-content .content.-first p {
+  font: 30px/1.2 Arial, sans-serif;
+}
+
 .about-justia {
   border-top: 1px solid #dbdbdb;
   background-color: #f4f4f4;

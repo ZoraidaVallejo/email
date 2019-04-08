@@ -83,6 +83,26 @@
         line-height: 100%;
       }
 
+      @font-face {
+        font-style: normal;
+        font-weight: 400;
+        font-family: "OpenSans";
+        src: url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-style: normal;
+        font-weight: 700;
+        font-family: "OpenSans";
+        src: url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.ttf") format("truetype");
+      }
+
+      @media screen {
+        [style*="font"] {
+          font-family: "OpenSans", Arial, sans-serif !important;
+        }
+      }
+
       @media only screen and (max-width: 640px) {
         .collapse-one {
           display: block !important;
@@ -321,8 +341,8 @@
 
           <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="blast-content set-max-width" style=" max-width: 600px; margin: 0 auto;">
             <tr>
-              <td data-class="main-title" class="mobile-padding-horizontal-sides" style="  padding: 35px 30px 30px; border-top: 1px solid #dbdbdb;" align="center" bgcolor="#f8fcff">
-                <p class="mobile-fz-22" style="margin: 0; font: 35px/1.2 Arial, sans-serif; color: #06357a;">
+              <td data-class="main-title" class="mobile-padding-horizontal-sides" style="  border-top: 1px solid #dbdbdb; padding: 30px;" align="center" bgcolor="#f8fcff">
+                <p class="mobile-fz-30" style="margin: 0; color: #06357a; font: 48px/1.13 Arial, sans-serif;">
                   <a href="https://www.justia.com/" target="_blank" style="color: #06357a; text-decoration: none;">
                     <b>For 24 Hours Only,<br />View Your Stats</b>
                   </a>
@@ -338,8 +358,8 @@
             </tr>
 
             <tr>
-              <td data-class="content -description -idx-1 -first" class="mobile-padding-horizontal-sides" style="  padding: 40px 30px 25px;" align="center" bgcolor="#ffffff">
-                <p style="font: 16px/1.38 Arial, sans-serif; margin: 0;">
+              <td data-class="content -description -idx-1 -first" class="mobile-padding-horizontal-sides" style="  padding: 25px 30px 20px;" align="center" bgcolor="#ffffff">
+                <p class="mobile-fz-18" style="margin: 0; font: 30px/1.2 Arial, sans-serif;">
                   <a href="https://www.justia.com/" target="_blank" style="color: #06357a; text-decoration: none;"> Become a premium member now <br />and view your stats every day. </a>
                 </p>
               </td>
