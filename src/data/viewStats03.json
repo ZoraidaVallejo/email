@@ -1,0 +1,38 @@
+{
+  "link": "https://www.justia.com/",
+  "title": "<b>Don't Miss Out On This Chance To View Your Stats!</b>",
+  "titleResponsiveSize": 22,
+  "image": "unlock-stats.gif",
+  "background": {
+    "image": "fade-to-white.png",
+    "bgColor": "#ffffff",
+    "width": 600
+  },
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "responsiveText": [18],
+      "config": [
+        "For 24 hours only, view your stats. Become a premium member now and view your stats every day."
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "VIEW YOUR STATS",
+        "width": 205,
+        "height": 50,
+        "fontSize": 18
+      }
+    },
+    {
+      "type": "description",
+      "config": [
+        "Justia Lawyer Directory Team",
+        "<b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+      ]
+    }
+  ]
+}

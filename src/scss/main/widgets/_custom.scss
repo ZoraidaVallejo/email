@@ -35,10 +35,37 @@
   }
 }
 
+.view-stats.-v3 {
+
+  .blast-content {
+
+    .main-title {
+      // padding: $padding $padding 10px;
+      background-color: plt('white');
+    }
+
+    .main-image {
+      background-color: #ebf7ff;
+    }
+
+    .content {
+      background-color: transparent;
+    }
+
+    .content.-first {
+      padding: 35px 25px 20px;
+
+      p {
+        @include mail-font(22px);
+      }
+    }
+  }
+}
+
+
 .view-stats.-v4 {
 
   .blast-content {
-    background-color: plt('white');
 
     .main-title {
       padding: $padding $padding 10px;
@@ -58,7 +85,7 @@
     }
 
     .content.-first {
-      padding: 35px $padding 20px;
+      padding: 35px $padding 25px;
 
       p {
         @include mail-font(30px, 1.2);
