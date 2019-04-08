@@ -12,7 +12,9 @@
     {
       "type": "description",
       "linkText": true,
-      "responsiveText": [18],
+      "responsiveText": [
+        18
+      ],
       "config": [
         "Become a premium member now <br>and view your stats every day."
       ]

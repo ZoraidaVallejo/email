@@ -7,7 +7,9 @@
     {
       "type": "description",
       "linkText": true,
-      "responsiveText": [24],
+      "responsiveText": [
+        24
+      ],
       "config": [
         "Become a premium member now <br responsive=\"mobile-hide\">and view your stats every day."
       ]
