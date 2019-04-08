@@ -31,10 +31,10 @@
 
   .content {
     padding: 40px $padding 25px;
+    text-align: center;
 
     &.-button {
       padding: 0 $padding 25px;
-      text-align: center;
     }
 
     &.-last {
@@ -54,7 +54,11 @@
 
 .view-stats.-v1 {
 
-  .blast-content .content.-first a {
-    color: plt('black');
+  .blast-content .content.-first {
+    text-align: left;
+
+    a {
+      color: plt('black');
+    }
   }
 }

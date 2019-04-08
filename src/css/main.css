@@ -474,11 +474,11 @@ a {
 
 .blast-content .content {
   padding: 40px 30px 25px;
+  text-align: center;
 }
 
 .blast-content .content.-button {
   padding: 0 30px 25px;
-  text-align: center;
 }
 
 .blast-content .content.-last {
@@ -492,6 +492,10 @@ a {
 
 .blast-content .content.-last p:last-child {
   color: #06357a;
+}
+
+.view-stats.-v1 .blast-content .content.-first {
+  text-align: left;
 }
 
 .view-stats.-v1 .blast-content .content.-first a {
