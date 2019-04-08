@@ -34,3 +34,35 @@
     }
   }
 }
+
+.view-stats.-v4 {
+
+  .blast-content {
+    background-color: plt('white');
+
+    .main-title {
+      padding: $padding $padding 10px;
+      background-color: plt('white');
+
+      p {
+        @include mail-font(48px, 1.13);
+      }
+    }
+
+    .main-image {
+      background-color: #ebf7ff;
+    }
+
+    .content {
+      background-color: transparent;
+    }
+
+    .content.-first {
+      padding: 35px $padding 20px;
+
+      p {
+        @include mail-font(30px, 1.2);
+      }
+    }
+  }
+}

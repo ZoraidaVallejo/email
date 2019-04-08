@@ -18,6 +18,18 @@
     </td>
   </tr>
 
+  {{#if widgetConfig.background}}
+    <tr>
+      {{>ui-background
+        backgroundBehavior="cell"
+        backgroundStart=true
+        bgImage=widgetConfig.background.image
+        bgColor=widgetConfig.background.bgColor
+        bgWidth=widgetConfig.background.width
+      }}
+        <table {{{tableAttr}}}>
+  {{/if}}
+
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "description"}}
@@ -52,4 +64,11 @@
       {{/compare}}
     {{/forEach}}
   {{/if}}
+
+  {{#if widgetConfig.background}}
+        </table>
+      {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+    </tr>
+  {{/if}}
+
 {{/table}}

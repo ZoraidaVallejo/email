@@ -2,14 +2,19 @@
   "link": "https://www.justia.com/",
   "title": "<b>For 24 Hours Only,<br>View Your Stats</b>",
   "titleResponsiveSize": 30,
-  "image": "view-stats.gif",
+  "image": "unlock-stats.gif",
+  "background": {
+    "image": "fade-to-white.png",
+    "bgColor": "#ffffff",
+    "width": 600
+  },
   "contentOrder": [
     {
       "type": "description",
       "linkText": true,
-      "responsiveText": [24],
+      "responsiveText": [18],
       "config": [
-        "Become a premium member now <br responsive=\"mobile-hide\">and view your stats every day."
+        "Become a premium member now <br>and view your stats every day."
       ]
     },
     {
