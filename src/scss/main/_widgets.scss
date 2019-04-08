@@ -2,19 +2,45 @@
 // W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.widget-section-name {
-  color: plt('mail', 'sirocco');
+.blast-content {
 
-  @include mail-font(14px, 1.1, tp('weight', 'bold'));
-}
+  .main-title {
+    padding: 35px $padding 30px;
+    border-top: 1px solid plt('alto');
+    background-color: #f8fcff;
+    text-align: center;
 
-.widget-main-title {
-  margin: 5px 0 0;
-  color: plt('black');
+    p {
+      @include mail-font(35px, 1.2);
+      color: plt('justia-blue');
+    }
+  }
 
-  @include mail-font(29px, 1.27, tp('weight', 'normal'));
+  .main-image {
+    background-color: #f8fcff;
 
-  a {
-    color: plt('black');
+    img {
+      width: 600px;
+      max-width: 100%;
+    }
+  }
+
+  .description {
+    padding: 40px $padding 25px;
+    background-color: plt('white');
+
+    &.-last {
+      padding: 0 $padding 35px;
+      text-align: center;
+    }
+  }
+
+  .button {
+    padding: 0 $padding 25px;
+    background-color: plt('white');
+  }
+
+  .phone-link {
+    color: plt('justia-blue');
   }
 }

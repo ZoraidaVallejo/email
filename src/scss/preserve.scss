@@ -3,12 +3,17 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $use-breakpoint: false;
+$use-special-font: false;
 
 // ----------------------------------------------------------------------------------------------------------
 
 @import
   'image-dimensions',
-  'maple-sass',
+  'maple-sass';
+
+$accent-color: plt('justia-blue');
+
+@import
   'mail-settings';
 
 @import

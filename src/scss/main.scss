@@ -3,19 +3,21 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $use-breakpoint: false;
+$use-special-font: false;
 
 // ----------------------------------------------------------------------------------------------------------
 
 @import
   'image-dimensions',
-  'maple-sass',
+  'maple-sass';
+
+$accent-color: plt('justia-blue');
+
+@import
   'mail-template-builder';
 
 @import
   'mixins',
   'main/widgets',
+  'main/widgets/about-justia',
   'main/utilities';
-
-@import
-  'main/client-specific',
-  'main/jld-specific';
