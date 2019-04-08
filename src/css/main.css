@@ -447,6 +447,10 @@ a {
   font-size: 0;
 }
 
+.blast-content td {
+  background-color: #ffffff;
+}
+
 .blast-content .main-title {
   padding: 35px 30px 30px;
   border-top: 1px solid #dbdbdb;
@@ -468,23 +472,30 @@ a {
   max-width: 100%;
 }
 
-.blast-content .description {
+.blast-content .content {
   padding: 40px 30px 25px;
-  background-color: #ffffff;
 }
 
-.blast-content .description.-last {
+.blast-content .content.-button {
+  padding: 0 30px 25px;
+  text-align: center;
+}
+
+.blast-content .content.-last {
   padding: 0 30px 35px;
   text-align: center;
 }
 
-.blast-content .button {
-  padding: 0 30px 25px;
-  background-color: #ffffff;
+.blast-content .content.-last p {
+  margin: 0;
 }
 
-.blast-content .phone-link {
+.blast-content .content.-last p:last-child {
   color: #06357a;
+}
+
+.view-stats.-v1 .blast-content .content.-first a {
+  color: #000000;
 }
 
 .about-justia {

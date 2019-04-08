@@ -3,30 +3,53 @@
 {{#table class="blast-content set-max-width"}}
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      <p responsive="mobile-fz-22"><b>Don't Miss Out On This Chance To View Your Stats!</b></p>
+      <p responsive="mobile-fz-{{widgetConfig.titleResponsiveSize}}">
+        <a href="{{{widgetConfig.link}}}" target="_blank">
+          {{{widgetConfig.title}}}
+        </a>
+      </p>
     </td>
   </tr>
   <tr>
     <td class="main-image">
-      {{>img src="view-stats.gif" alt="Don't Miss Out On This Chance To View Your Stats!"}}
+      <a href="{{{widgetConfig.link}}}" target="_blank">
+        {{>img src=widgetConfig.image alt=widgetConfig.title}}
+      </a>
     </td>
   </tr>
-  <tr>
-    <td class="description" responsive="mobile-padding-horizontal-sides">
-      <p><b>For 24 hours only, view your stats for free.</b> Premium members receive access to their profile statistics in the Justia Lawyer Directory and across the Justia portal properties. Become a premium member and view your stats anytime.</p>
-    </td>
-  </tr>
-  <tr>
-    <td class="button align-center" responsive="mobile-padding-horizontal-sides">
-      {{#uiButton href="https://www.justia.com/" presetStyle="red" width="205" height="50" fontSize="18"}}
-        VIEW YOUR STATS
-      {{/uiButton}}
-    </td>
-  </tr>
-  <tr>
-    <td class="description -last" responsive="mobile-padding-horizontal-sides">
-      <p class="no-margin">Justia Lawyer Directory Team</p>
-      <p class="phone-link"><b><a href="tel:8885878421" target="_blank">(888) 587-8421</a></b></p>
-    </td>
-  </tr>
+
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "description"}}
+        <tr>
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <p>
+                {{#if ../linkText}}<a href="{{{../../widgetConfig.link}}}" target="_blank">{{/if}}
+                  {{{this}}}
+                {{#if ../linkText}}</a>{{/if}}
+              </p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "button"}}
+        <tr>
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#uiButton
+              presetStyle=this.config.style
+              href=../widgetConfig.link
+              width=this.config.width
+              height=this.config.height
+              fontSize=this.config.fontSize
+              responsive=this.config.responsive
+            }}
+              {{{this.config.text}}}
+            {{/uiButton}}
+          </td>
+        </tr>
+      {{/compare}}
+    {{/forEach}}
+  {{/if}}
 {{/table}}

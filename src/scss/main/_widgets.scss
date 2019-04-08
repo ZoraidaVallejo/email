@@ -4,6 +4,10 @@
 
 .blast-content {
 
+  td {
+    background-color: plt('white');
+  }
+
   .main-title {
     padding: 35px $padding 30px;
     border-top: 1px solid plt('alto');
@@ -25,22 +29,32 @@
     }
   }
 
-  .description {
+  .content {
     padding: 40px $padding 25px;
-    background-color: plt('white');
+
+    &.-button {
+      padding: 0 $padding 25px;
+      text-align: center;
+    }
 
     &.-last {
       padding: 0 $padding 35px;
       text-align: center;
+
+      p {
+        margin: 0;
+      }
+
+      p:last-child {
+        color: plt('justia-blue');
+      }
     }
   }
+}
 
-  .button {
-    padding: 0 $padding 25px;
-    background-color: plt('white');
-  }
+.view-stats.-v1 {
 
-  .phone-link {
-    color: plt('justia-blue');
+  .blast-content .content.-first a {
+    color: plt('black');
   }
 }
