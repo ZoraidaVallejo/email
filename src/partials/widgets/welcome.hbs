@@ -1,0 +1,53 @@
+<!-- WELCOME MESSAGE -->
+
+{{!
+ * @param {Object}   widgetConfig
+ * @param {String[]} widgetConfig.title
+ * @param {String[]} widgetConfig.message
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+}}
+
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "welcomeWidgetMainButton" true}}
+{{else}}
+  {{assign "welcomeWidgetMainButton" false}}
+{{/and}}
+
+{{#table class="w-welcome set-max-width"}}
+  <tr>
+    {{>ui-background
+      backgroundBehavior="cell"
+      backgroundStart=true
+      backgroundEnd=true
+      bgImage="https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png"
+      bgColor="#00b3e3"
+      bgWidth="600"
+      bgHeight="169"
+    }}
+  </tr>
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      <h1><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+    </td>
+  </tr>
+  <tr>
+    <td class="description{{#unless @root.welcomeWidgetMainButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each widgetConfig.message}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{#if @root.welcomeWidgetMainButton}}
+    <tr>
+      <td class="button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
+          {{widgetConfig.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}
