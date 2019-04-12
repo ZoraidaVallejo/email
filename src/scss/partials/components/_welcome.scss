@@ -34,6 +34,7 @@ $atty-picture-size: image-dimensions('/src/images/attorney-picture.jpg');
       background-color: plt('metallics', 'gold');
       color: plt('black');
       text-align: center;
+      white-space: nowrap;
       vertical-align: middle;
     }
   }
