@@ -2,7 +2,7 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-$atty-picture-size: image-dimensions('/src/images/attorney-picture.jpg');
+$atty-picture-width: image-width('/src/images/attorney-picture.jpg');
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -26,16 +26,14 @@ $atty-picture-size: image-dimensions('/src/images/attorney-picture.jpg');
   }
 
   .premium-label {
-    width: 100%;
+    background-color: plt('metallics', 'gold');
+    text-align: center;
+    vertical-align: middle;
 
-    td {
-      @include size(100%, 28px);
-      @include mail-font($size: 14px, $line-height: 1);
-      background-color: plt('metallics', 'gold');
+    p {
+      @include mail-font($size: 14px, $line-height: 28px);
       color: plt('black');
-      text-align: center;
       white-space: nowrap;
-      vertical-align: middle;
     }
   }
 
@@ -43,15 +41,18 @@ $atty-picture-size: image-dimensions('/src/images/attorney-picture.jpg');
     text-align: center;
 
     .picture {
-      width: nth($atty-picture-size, 1);
+      width: $atty-picture-width;
       text-align: center;
 
-      .yaw {
-        @include size($atty-picture-size...);
-        background: image-url('attorney-picture.jpg');
-        background-repeat: no-repeat;
-        background-size: $atty-picture-size;
-        vertical-align: bottom;
+      td {
+        width: $atty-picture-width;
+        text-align: center;
+      }
+
+      img {
+        width: $atty-picture-width;
+        max-width: none;
+        margin: 0;
       }
     }
   }

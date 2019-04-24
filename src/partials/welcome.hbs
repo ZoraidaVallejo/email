@@ -13,25 +13,23 @@
   </tr>
   <tr>
     <td class="atty-picture">
-      {{>ui-background
-        backgroundBehavior="table"
-        backgroundStart=true
-        backgroundEnd=(isFalsey premium)
-        bgImage="attorney-picture.jpg"
-        bgColor="#dbdbdb"
-        bgWidth="150"
-        bgHeight="150"
-        bgTableClasses="picture"
-        bgCellClasses="yaw"
-      }}
-      {{#if premium}}
-          {{#table class="premium-label"}}
-            <tr>
-              <td>P R E M I U M</td>
-            </tr>
-          {{/table}}
-        {{>ui-background backgroundBehavior="table" backgroundEnd=true}}
-      {{/if}}
+      {{#table class="picture"}}
+        <tr>
+          <td>
+            {{>img src="attorney-picture.jpg" alt="Attorney name"}}
+          </td>
+        </tr>
+        {{#if premium}}
+          <tr>
+            <td class="premium-label">
+              <p>
+                P R E M I U M
+              </p>
+            </td>
+          </tr>
+        {{/if}}
+      {{/table}}
+
     </td>
   </tr>
   <tr>

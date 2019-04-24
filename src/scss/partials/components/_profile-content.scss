@@ -31,7 +31,7 @@ $chart-image-size: 163px 163px;
       vertical-align: middle;
 
       img {
-        @include size($chart-image-size...);
+        width: nth($chart-image-size, 1);
         margin: 0 auto;
       }
     }
@@ -112,7 +112,7 @@ $chart-image-size: 163px 163px;
       vertical-align: middle;
 
       img {
-        @include size(110px);
+        width: 110px;
         margin: 0 auto;
       }
     }
