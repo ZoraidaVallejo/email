@@ -26,6 +26,7 @@ $atty-picture-width: image-width('/src/images/attorney-picture.jpg');
   }
 
   .premium-label {
+    padding: 0 20px;
     background-color: plt('metallics', 'gold');
     text-align: center;
     vertical-align: middle;
@@ -50,8 +51,9 @@ $atty-picture-width: image-width('/src/images/attorney-picture.jpg');
       }
 
       img {
-        width: $atty-picture-width;
-        max-width: none;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         margin: 0;
       }
     }
