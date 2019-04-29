@@ -1,0 +1,62 @@
+// ----------------------------------------------------------------------------------------------------------
+// C O M M O N   M A I L   M I X I N S
+// ----------------------------------------------------------------------------------------------------------
+
+/// Set different color schemes for the footer.
+///
+/// @param {map} $scheme - Color scheme.
+///
+@mixin set-footer-style($scheme) {
+  background-color: get('background-color', $scheme);
+
+  .footer-head {
+    border-top: 1px solid get('head.border-top', $scheme);
+    border-bottom: 1px solid get('head.border-bottom', $scheme);
+    background-color: get('head.background-color', $scheme);
+  }
+
+  .footer-nav,
+  .footer-disclaimer,
+  .footer-address {
+
+    p,
+    span,
+    a {
+      color: get('color', $scheme);
+
+      @include mail-font(get('font-size', $scheme));
+    }
+  }
+
+  .footer-nav {
+
+    p,
+    span,
+    a {
+      color: get('nav.color', $scheme);
+    }
+  }
+
+  .footer-address {
+
+    p,
+    span,
+    a {
+      @include mail-font(get('font-size', $scheme), $weight: get('address.font-weight', $scheme));
+    }
+  }
+}
+
+/// Sets the shorthand `font` property.
+///
+/// @param {number} $size [$mail-global-font-size] - Size value.
+/// @param {number} $line-height [$mail-global-line-height] - Line-height value.
+/// @param {number|string} $weight [''] - Weight value.
+/// @param {string} $style [''] - Style value.
+/// @param {string} $variant [''] - Variant value, one of `normal` or `small-caps`.
+/// @param {string} $stretch [''] - Stretch value.
+/// @param {string|list} $family [$mail-global-font-family] - Family, string or a list with strings.
+///
+@mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
+  font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
+}

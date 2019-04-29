@@ -1,0 +1,13 @@
+{
+  "port": 4000,
+  "justaticVersion": "1",
+  "folders": {
+    "src": "src",
+    "srcImg": "src/images",
+    "dist": "dist",
+    "distImg": "dist/images",
+    "tags": "tags"
+  },
+  "remoteImages": "newsletters/test",
+  "previewUI": "./preview"
+}

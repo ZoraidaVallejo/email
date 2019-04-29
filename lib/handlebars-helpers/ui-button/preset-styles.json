@@ -1,0 +1,26 @@
+{
+  "lightBlue": {
+    "backgroundColor": "transparent",
+    "fontColor": "#00b3e3",
+    "fontWeight": "",
+    "borderColor": "#00b3e3"
+  },
+  "white": {
+    "backgroundColor": "transparent",
+    "fontColor": "#ffffff",
+    "fontWeight": "",
+    "borderColor": "#ffffff"
+  },
+  "red": {
+    "backgroundColor": "#e2231a",
+    "fontColor": "#ffffff",
+    "fontWeight": "bold",
+    "borderColor": "#e2231a"
+  },
+  "yellow": {
+    "backgroundColor": "#ffc700",
+    "fontColor": "#000000",
+    "fontWeight": "",
+    "borderColor": "#ffc700"
+  }
+}

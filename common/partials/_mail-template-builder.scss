@@ -1,0 +1,20 @@
+// ----------------------------------------------------------------------------------------------------------
+// C O M M O N   M A I L   T E M P L A T E   B U I L D E R   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+  'mail-settings',
+  'mail-mixins';
+
+@import
+  'mail-base',
+  'components/main-header',
+  'components/main-footer',
+  'components/main-footer/social-icons',
+  'components/main-footer/social-below',
+  'components/main-footer/social-on-top';
+
+@import
+  'ui-components/ui-background',
+  'ui-components/ui-columns-grid',
+  'ui-components/ui-spacer-hack';

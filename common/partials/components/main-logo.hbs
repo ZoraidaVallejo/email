@@ -1,0 +1,17 @@
+{{!
+ * @param {Object} widgetConfig
+ * @param {String} widgetConfig.src
+ * @param {String} widgetConfig.alt
+ * @param {String} widgetConfig.link
+ * @param {String} widgetConfig.class
+ * @param {String} widgetConfig.responsive
+}}
+
+{{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
+  {{>img
+    src=(default widgetConfig.src logos.justia.path.blue)
+    alt=(default widgetConfig.alt logos.justia.alt)
+    class=(classList "logo-img" widgetConfig.class)
+    responsive=widgetConfig.responsive
+  }}
+{{#if widgetConfig.link}}</a>{{/if}}

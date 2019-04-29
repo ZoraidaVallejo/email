@@ -1,4 +1,3 @@
-const fs = require('fs');
 const npsUtils = require('nps-utils');
 
 const serialize = npsUtils.series;
@@ -16,41 +15,30 @@ const npsSeries = (...scriptNames) =>
       .map(scriptName => `nps -c .npmscripts.js ${quoteScript(scriptName)}`)
   );
 
-// eslint-disable-next-line import/no-unresolved, node/no-missing-require
-const customConfig = fs.existsSync('./custom-config.json') ? require('./custom-config.json') : null;
-
-let workflowVersion = 2;
-
-if (customConfig && !customConfig.version) {
-  workflowVersion = 1;
-}
-
-const linterTasks = workflowVersion === 2 ? npsSeries('json.format.data', 'sass.lint.strict') : '';
+const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
+const projectPath = (p = '') => `PROJECT_BASE_PATH="./${p}"`;
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';
 const stylelint = 'stylelint --syntax scss';
 const sassPatterns = [
   'common/**/*.scss',
+  'preview/scss/*.scss',
   'src/scss/**/*.scss',
-  '!src/scss/preserve.scss'
+  '!common/partials/_mail-resets.scss'
 ];
 
 module.exports = {
   scripts: {
-    test: 'node lib/test.js',
-
-    optim: 'imageoptim --verbose --directory ./src/img',
-
+    default: `${projectPath()} grunt`,
     js: {
-      format: `${prettier} --single-quote --print-width=140 --parser=flow "**/*.js"`,
+      format: `${prettier} --single-quote --print-width=120 --parser=babel "**/*.js"`,
       lint: {
         default: `${eslint} || true`,
         fix: `${eslint} --fix`,
         strict: eslint
       }
     },
-
     sass: {
       format: `${stylelint} "${sassPatterns.join('" "')}" --fix`,
       lint: {
@@ -58,17 +46,31 @@ module.exports = {
         strict: `${stylelint} "${sassPatterns[0]}"`
       }
     },
-
     json: {
       format: {
-        default: `${prettier} --parser=json "*.json" "!custom-config.json"`,
-        data: `${prettier} --parser=json --print-width=999999 "custom-config.json" "src/data/*.json"`
+        default: `${prettier} --parser=json-stringify "**/*.json"`,
+        data: `${prettier} --parser=json-stringify "src/**/*.json"`
       }
     },
+    build: {
+      default: serialize(linterTasks, `${projectPath()} grunt build`),
+      examples: serialize(
+        `${projectPath('examples/newsletter')} grunt build`,
+        `${projectPath('examples/legal-jobs')} grunt build`
+      ),
+      preview: `${projectPath()} grunt buildPreview`,
 
-    build: serialize(linterTasks, 'grunt build'),
-    publish: serialize(linterTasks, 'grunt publish'),
-
+      devel: {
+        default: `${projectPath()} grunt devel`,
+        examples: serialize(
+          `${projectPath('examples/newsletter')} grunt devel`,
+          `${projectPath('examples/legal-jobs')} grunt devel`
+        )
+      }
+    },
+    report: `${projectPath()} grunt report`,
+    upload: `${projectPath()} grunt upload`,
+    publish: serialize(linterTasks, `${projectPath()} grunt publish`),
     bump: serialize(npsSeries('js.lint.strict'), 'bilberry bump')
   }
 };

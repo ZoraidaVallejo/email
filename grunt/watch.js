@@ -1,20 +1,20 @@
-module.exports = (grunt, { version, conversionType, paths }) => ({
+module.exports = {
   emails: {
     files: [
-      `${paths.src}/emails/*`,
-      `${paths.src}/layouts/*`,
-      `${paths.src}/data/*`,
-      `${paths.src}${!version ? '/css' : ''}/scss/**/*`,
-      `${paths.src}/partials/**/*`
+      'common/**/*',
+      '<%= relativeFolders.src %>/emails/*',
+      '<%= relativeFolders.src %>/data/**/*',
+      '<%= relativeFolders.src %>/scss/**/*',
+      '<%= relativeFolders.src %>/partials/**/*'
     ],
-    tasks: !version ? conversionType : [conversionType, 'stylelint']
+    tasks: ['devel']
   },
 
   dist: {
-    files: ['./dist/*'],
+    files: ['<%= relativeFolders.dist %>/*'],
     tasks: [],
     options: {
       livereload: true
     }
   }
-});
+};

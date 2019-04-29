@@ -1,13 +1,17 @@
-// stylelint-disable selector-class-pattern
+
+$header-strip-size: 50px;
+$header-size: ($header-strip-size * 2);
+
+// Basic elements
+#mail-template-builder {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  color: #333333;
+  font: normal 14px/1.4 Helvetica, Arial, sans-serif;
+}
 
 .preview-interface-view {
-
-  // Basic elements
-  body {
-    background: #ffffff;
-    color: #333333;
-    font: normal 14px/1.4 Helvetica, Arial, sans-serif;
-  }
 
   a {
     color: #000000;
@@ -20,176 +24,142 @@
 
   iframe {
     width: 100%;
-    border: 0;
+    height: 100%;
+    border: 1px solid rgba($justia-blue, 0);
+    transition: border-color 200ms ease-out;
   }
 
   // Header
-  .header {
-    position: relative;
+  .preview-header {
+    position: absolute;
     z-index: 2;
-    display: table;
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: $header-size;
+    background-color: #fafafa;
     box-shadow: 0 0 5px rgba(#000000, 0.4);
 
-    > div {
-      display: table-cell;
-      padding: 8px 20px;
-      vertical-align: middle;
+    > .head,
+    > .view-buttons {
+      display: flex;
+      height: $header-strip-size;
+      padding: 0 20px;
+      justify-content: space-between;
+      align-items: center;
     }
-  }
 
-  .header--brand {
-    font-size: 22px;
-  }
+    > .head {
 
-  .header--select {
-    text-align: right;
-  }
+      > .brand {
+        font-size: 22px;
+      }
 
-  // Preview Screens
-  .preview-ui--full,
-  .preview-ui--mobile,
-  .preview-ui--mobile__container {
-    transition-property: margin, padding, width, opacity;
-    transition-duration: $drawer-animation-duration;
-    transition-timing-function: linear;
+      > .select {
+        text-align: right;
+      }
+    }
+
+    > .view-buttons {
+      position: relative;
+      border-top: 1px solid #bdbdbd;
+      justify-content: center;
+
+      > .button {
+        z-index: 1;
+        display: block;
+        padding: 0 20px;
+        border: 1px solid #bdbdbd;
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: 700;
+        line-height: 36px;
+        transition-property: background-color, border-color;
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+
+        &:not(:first-child) {
+          margin-left: -1px;
+        }
+
+        &:first-child {
+          border-radius: 2px 0 0 2px;
+        }
+
+        &:last-child {
+          border-radius: 0 2px 2px 0;
+        }
+
+        &:hover {
+          background-color: rgba($light-blue, 0.1);
+        }
+
+        &.-active {
+          z-index: 2;
+          border-color: $justia-blue;
+          background-color: rgba($light-blue, 0.2);
+        }
+      }
+    }
   }
 
   .preview-ui {
     position: relative;
     z-index: 1;
-    overflow: hidden;
-  }
+    top: $header-size - 3px;
+    display: flex;
+    width: calc(100% + 6px);
+    height: calc(100vh - #{$header-size - 6px});
+    margin: 0 -3px -3px;
+    background-color: #ffffff;
 
-  .preview-ui--full {
-    float: left;
+    > .wrapper {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .viewer-phone-mask {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      border: 2px solid rgba($justia-blue, 0);
+      transition-property: width, height, border-radius, border-color, padding;
+      transition-duration: 200ms;
+      transition-timing-function: ease-out;
+    }
+  }
+}
+
+.set-view-desktop {
+
+  .preview-ui .viewer-phone-mask {
     width: 100%;
-    padding-right: 500px;
-  }
-
-  .preview-ui--mobile {
-    position: relative;
-    float: right;
-    width: 500px;
-    margin-left: -500px;
-    background: #333333;
-    text-align: center;
+    height: 100%;
+    padding: 0;
+    border-color: rgba($justia-blue, 0);
+    border-radius: 0;
 
     iframe {
-      width: 320px;
-      height: 461px;
-      border-top: 1px solid #efefef;
-      border-bottom: 1px solid #efefef;
-      margin: 129px 0 0 23px;
+      border-color: rgba($justia-blue, 0);
     }
   }
+}
 
-  .preview-ui--mobile__container {
-    opacity: 1;
-    width: 363px;
-    height: 711px;
-    margin: 20px auto 0;
-    background: transparent url('../img/phone.png') no-repeat 50% 0;
-    background-size: 363px 711px;
-    text-align: left;
-  }
+.set-view-mobile {
 
-  .preview-ui--mobile__toggle {
-    position: absolute;
-    z-index: 10;
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
+  .preview-ui .viewer-phone-mask {
+    width: 350px;
+    height: 620px;
+    padding: 54px 12px 76px;
+    border-color: rgba($justia-blue, 1);
+    border-radius: 35px;
 
-  // Layout elemnts when mobile drawer is hidden
-  .mobile-drawer-hidden {
-
-    .preview-ui--full {
-      padding-right: 60px;
-    }
-
-    .preview-ui--mobile {
-      width: 60px;
-      margin-left: -60px;
-    }
-
-    .preview-ui--mobile__container {
-      opacity: 0;
-    }
-  }
-
-  // Drawer open toggle (phone)
-  .toggle-drawer-open {
-    z-index: -1;
-    opacity: 0;
-    background: transparent url('../img/phone-icon.png') no-repeat 50% 50%;
-    background-size: 40px 40px;
-    transition: all $drawer-animation-duration ease-in-out;
-  }
-
-  .mobile-drawer-hidden {
-
-    .toggle-drawer-open {
-      z-index: 2;
-      opacity: 1;
-
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
-
-  // Drawer close toggle (x)
-  .toggle-drawer-close {
-    z-index: 1;
-
-    &:hover {
-      opacity: 0.8;
-    }
-
-    &::before,
-    &::after {
-      position: absolute;
-      display: block;
-      width: 4px;
-      height: 40px;
-      background: #ffffff;
-      transition: all $drawer-animation-duration ease-in-out;
-      content: '';
-    }
-
-    &::before {
-      left: 18px;
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      right: 18px;
-      transform: rotate(-45deg);
-    }
-  }
-
-  .mobile-drawer-hidden {
-
-    .toggle-drawer-close {
-
-      &::before,
-      &::after {
-        opacity: 0;
-        width: 1px;
-        transform: rotate(0deg);
-      }
-
-      &::before {
-        left: 0;
-      }
-
-      &::after {
-        right: 0;
-      }
+    iframe {
+      border-color: rgba($justia-blue, 1);
     }
   }
 }

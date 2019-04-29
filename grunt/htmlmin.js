@@ -1,16 +1,29 @@
 module.exports = {
-  prod: {
+  dist: {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      removeEmptyAttributes: attrName => attrName === 'style'
+      removeEmptyAttributes: attrName => attrName === 'style' || attrName === 'responsive',
+      minifyCSS: {
+        compatibility: {
+          properties: {
+            zeroUnits: false
+          }
+        },
+        level: {
+          1: {
+            removeQuotes: false,
+            optimizeOutline: false
+          }
+        }
+      }
     },
     files: [
       {
         expand: true,
         flatten: true,
-        src: '<%= paths.dist %>/*.html',
-        dest: '<%= paths.dist %>'
+        src: '<%= relativeFolders.dist %>/*.html',
+        dest: '<%= relativeFolders.dist %>'
       }
     ]
   }

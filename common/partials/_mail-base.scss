@@ -1,0 +1,52 @@
+// ----------------------------------------------------------------------------------------------------------
+// C O M M O N   M A I L   B A S E   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+  background-color: plt('mail', 'black-haze');
+  font-family: $sans-serif-font-family;
+  -webkit-font-smoothing: antialiased;
+}
+
+table {
+
+  td {
+    text-align: left;
+  }
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 16px;
+
+  @include mail-font();
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+.set-max-width {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+}

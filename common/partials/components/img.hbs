@@ -1,0 +1,13 @@
+{{!
+ * @param {String} src
+ * @param {String} alt
+ * @param {String} class
+ * @param {String} responsive
+}}
+
+<img
+  src="{{resolveFilePath src}}"
+  alt="{{replace (sanitize alt) "," ""}}"
+  {{#if class}}class="{{class}}"{{/if}}
+  {{#if responsive}}responsive="{{responsive}}"{{/if}}
+  border="0" />

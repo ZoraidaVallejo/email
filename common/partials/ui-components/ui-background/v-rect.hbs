@@ -1,0 +1,12 @@
+{{!
+ * @param {Boolean} hackStart
+ * @param {Boolean} hackEnd
+ * @param {String}  hackWidth
+ * @param {String}  hackHeight
+}}
+
+{{assign "rectWidth" (ternary (compare hackWidth "===" "100%") "mso-width-percent:1000;" (concat "width:" (toInt hackWidth) "px;"))}}
+{{assign "rectHeight" (ternary hackHeight (concat "height:" (toInt hackHeight) "px;") "")}}
+
+{{#if hackStart}}<!--[if gte mso 9]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="{{{@root.rectWidth}}}{{{@root.rectHeight}}}border:0;outline:0;"><v:fill type="tile" src="{{resolveFilePath hackImage}}" color="{{hackColor}}" /><v:textbox{{#unless hackHeight}} style="mso-fit-shape-to-text:true"{{/unless}} inset="0,0,0,0"><![endif]-->{{/if}}
+{{#if hackEnd}}<!--[if gte mso 9]></v:textbox></v:rect><![endif]-->{{/if}}

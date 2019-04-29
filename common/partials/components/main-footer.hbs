@@ -1,0 +1,51 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {String}   widgetConfig.layout
+ * @param {String}   widgetConfig.style
+ * @param {Object}   widgetConfig.logo
+ * @param {String}   widgetConfig.logo.name
+ * @param {Object}   widgetConfig.logo.link
+ * @param {String}   widgetConfig.logo.link.url
+ * @param {Object}   widgetConfig.logo.link.utm
+ * @param {String}   widgetConfig.logo.path
+ * @param {String}   widgetConfig.logo.alt
+ * @param {Object[]} widgetConfig.navigation
+ * @param {String}   widgetConfig.navigation[].text
+ * @param {String}   widgetConfig.navigation[].link
+ * @param {String}   widgetConfig.disclaimer
+ * @param {Object}   widgetConfig.address
+}}
+
+{{#if widgetConfig.logo.path}}
+  {{assign "footerLogoSrc" widgetConfig.logo.path}}
+  {{assign "footerLogoAlt" widgetConfig.logo.alt}}
+{{else if widgetConfig.logo.name}}
+  {{assign "footerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
+  {{assign "footerLogoAlt" (get (concat (camelcase widgetConfig.logo.name) ".alt") logos)}}
+{{else}}
+  {{assign "footerLogoSrc" null}}
+  {{assign "footerLogoAlt" null}}
+{{/if}}
+
+{{assign "footerStyleClass" (concat "-" widgetConfig.style "-style")}}
+{{assign "footerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
+{{assign "footerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
+{{assign "footerLogoConfig" (toObject
+  src=@root.footerLogoSrc
+  alt=@root.footerLogoAlt
+  link=@root.footerLogoLink
+  responsive="mobile-align-center"
+)}}
+
+{{assign "footerClasses" (classList @root.footerStyleClass @root.footerLogoModifierClass widgetClass)}}
+
+{{>ui-layout-hack tableStart=true}}
+  {{#compare widgetConfig.layout "===" "social-on-top"}}
+    {{>social-on-top widgetClass=@root.footerClasses logoConfig=@root.footerLogoConfig}}
+  {{/compare}}
+
+  {{#compare widgetConfig.layout "===" "social-below"}}
+    {{>social-below widgetClass=@root.footerClasses logoConfig=@root.footerLogoConfig}}
+  {{/compare}}
+{{>ui-layout-hack tableEnd=true}}

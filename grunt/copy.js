@@ -1,9 +1,9 @@
-module.exports = (grunt, { conversionType, currentYear, currentMonth }) => ({
+module.exports = {
   public: {
     expand: true,
-    cwd: 'dist/',
+    cwd: '<%= relativeFolders.dist %>/',
     src: ['*.html'],
-    dest: `public/${conversionType}/${currentYear}/${currentMonth}/`,
+    dest: 'public/<%= projectName %>/<%= dateFormat.slash %>/',
     filter: 'isFile'
   }
-});
+};

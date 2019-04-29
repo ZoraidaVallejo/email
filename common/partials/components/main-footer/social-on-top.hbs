@@ -1,0 +1,48 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {Object[]} widgetConfig.navigation
+ * @param {String}   widgetConfig.navigation[].text
+ * @param {String}   widgetConfig.navigation[].link
+ * @param {String}   widgetConfig.disclaimer
+ * @param {Object}   widgetConfig.address
+ * @param {Object}   logoConfig
+ * @param {String}   logoConfig.src
+ * @param {String}   logoConfig.alt
+ * @param {String}   logoConfig.link
+ * @param {String}   logoConfig.responsive
+}}
+
+{{#table class=(classList "main-footer" "-social-on-top" widgetClass "set-max-width") responsive="main-footer"}}
+    <tr>
+      <td class="footer-head" responsive="mobile-no-padding-horizontal-sides mobile-no-padding-bottom mobile-no-border">
+        {{#table class="fhead-wrapper"}}
+          <tr>
+            <td class="fhead-side -left footer-logo" responsive="collapse-one footer-logo">
+              {{>main-logo widgetConfig=logoConfig}}
+            </td>
+            <td class="fhead-side -right footer-social" responsive="footer-social collapse-one">
+              {{>social-icons widgetClass=false widgetResponsive="mobile-align-center mobile-no-float"}}
+            </td>
+          </tr>
+        {{/table}}
+      </td>
+    </tr>
+    <tr>
+      <td class="footer-disclaimer" responsive="mobile-padding-horizontal-sides">
+        <p responsive="mobile-align-center">{{{widgetConfig.disclaimer}}}</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="footer-address" responsive="mobile-padding-horizontal-sides">
+        {{>ui-spacer-hack}}
+        {{>address widgetConfig=widgetConfig.address widgetResponsive="collapse-one mobile-align-center"}}
+      </td>
+    </tr>
+    <tr>
+      <td class="footer-nav" responsive="mobile-padding-horizontal-sides mobile-padding-uneven-bottom">
+        {{>ui-spacer-hack}}
+        {{>navigation widgetConfig=widgetConfig.navigation widgetResponsive="mobile-align-center"}}
+      </td>
+    </tr>
+  {{/table}}

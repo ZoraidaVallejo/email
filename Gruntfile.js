@@ -1,42 +1,52 @@
-/* eslint-disable no-console */
-
-const chalk = require('chalk');
-const log = require('bilberry/log');
-const timeGrunt = require('time-grunt');
+const fs = require('fs');
+const path = require('path');
+const moment = require('moment');
 const loadGruntConfig = require('load-grunt-config');
+const baseConfig = require('./common/data/config');
 
-const customConfig = require('./custom-config.json'); // eslint-disable-line import/no-unresolved, node/no-missing-require
-const getMonths = require('./lib/handlebars-helpers/getMonth');
+// S E T   R E L A T I V E   P A T H S
+// -----------------------------------
+baseConfig.relativeFolders = {};
 
-if (!customConfig.version) {
-  customConfig.currentYear = customConfig.current_year;
-  customConfig.currentMonth = customConfig.current_month;
-  customConfig.compressedFileName = customConfig.compressed_file_name;
-
-  customConfig.paths.srcImg = customConfig.paths.src_img;
-  customConfig.paths.distImg = customConfig.paths.dist_img;
-  customConfig.paths.liveImg = customConfig.paths.live_img;
-  customConfig.paths.remoteImgPath = customConfig.paths.remote_img_path;
-}
-
-const monthNum = parseInt(customConfig.currentMonth, 10);
-const configuration = Object.assign({}, customConfig, {
-  [!customConfig.version ? 'current_month_string' : 'currentMonthString']: getMonths(monthNum)
+Object.keys(baseConfig.folders).forEach(folder => {
+  baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
-if (monthNum < 1 || monthNum > 12) {
-  log.info(`Please set the month number between 01 to 12 in the ${chalk.underline('custom-config.json')} file.\n`);
+// L O A D   C O N V E R S I O N   C O N F I G
+// -------------------------------------------
+const projectConfigPath = './'.concat(path.join(baseConfig.relativeFolders.src, 'data/conversionConfig.json'));
+process.env.CONVERSION_CONFIG = fs.existsSync(projectConfigPath);
+
+// eslint-disable-next-line global-require, import/no-dynamic-require
+const projectConfig = process.env.CONVERSION_CONFIG === 'true' ? require(projectConfigPath) : {};
+
+// M E R G E   O B J E C T S
+// -------------------------
+const data = Object.assign({}, baseConfig, projectConfig);
+
+// A D D   M O R E   C O N F I G U R A T I O N
+// -------------------------------------------
+if (data.releaseDate) {
+  // Validate given release date.
+  const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
+
+  // Set date formats.
+  Object.keys(data.dateFormat).forEach(name => {
+    data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
+  });
 }
 
+// Public URL.
+data.liveImgPath = `https://${path.join('justatic.com/v', data.justaticVersion, 'emails/images', data.remoteImages)}`;
+
+// Server path.
+data.remoteImgPath = path.join('/mnt/files/emails/images', data.remoteImages);
+
+// I N I T I A L I Z E   G R U N T
+// -------------------------------
 module.exports = grunt => {
-  // Time how long tasks take. Can help when optimizing build times
-  timeGrunt(grunt);
-
   loadGruntConfig(grunt, {
-    data: configuration,
-
-    // Time how long tasks take. Can help when optimizing build times
-    timeGrunt: true,
+    data,
 
     // Load only needed packages when a task is called.
     jitGrunt: {
