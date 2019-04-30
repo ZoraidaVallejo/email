@@ -1,42 +1,32 @@
 {
-  "featured": {
-    "dateTime": "[Month 00 00PM ET]",
-    "typeLocation": "[Webinar]",
-    "description": "[Lorem Lorem elit non eiusmod laborum aute cupidatat excepteur reprehenderit aliquip ut velit.]",
-    "button": {
-      "style": "white",
-      "link": "https://www.justia.com/",
-      "text": "Read More"
-    }
-  },
   "events": [
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Consectetur magna velit voluptate ipsum ea laboris.]",
+      "dateTime": "May 9 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "Data Analytics: Fastcase and Docket Alarm",
       "button": {
         "style": "white",
-        "link": "https://www.justia.com/",
+        "link": "https://register.gotowebinar.com/register/1071798832450936835",
         "text": "Read More"
       }
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Tempor irure et consequat velit.]",
+      "dateTime": "May 20 1PM ET",
+      "typeLocation": "Webinar",
+      "description": "What You Should Know: Legal Ethics Pitfalls and Hot Issues Attorneys Encounter",
       "button": {
         "style": "white",
-        "link": "https://www.justia.com/",
+        "link": "https://www.americanbar.org/events-cle/mtg/web/358969031/",
         "text": "Read More"
       }
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Aliquip magna nostrud nisi voluptate magna nisi do nisi sint labore excepteur dolor magna aute.]",
+      "dateTime": "May 23 10AM PT",
+      "typeLocation": "Webinar",
+      "description": "Ethics and Legal Research",
       "button": {
         "style": "white",
-        "link": "https://www.justia.com/",
+        "link": "https://register.gotowebinar.com/register/199892708709256450",
         "text": "Read More"
       }
     }

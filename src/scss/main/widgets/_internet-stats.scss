@@ -21,6 +21,15 @@ $internet-stats-chart--width: 540px;
     p {
       @include mail-font(20px, 1.3);
     }
+
+    &.-with-top-desc {
+      padding: 0 $padding;
+    }
+  }
+
+  .top-description {
+    padding: 5px $padding 30px;
+    text-align: center;
   }
 
   .chart {

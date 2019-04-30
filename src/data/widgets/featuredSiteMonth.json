@@ -1,35 +1,45 @@
 {
   "sites": [
     {
-      "clientName": "[Law Offices of Smith & Jones]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Stoltmann Law Offices",
+      "location": "Illinois",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "http://gallery-01.justia.net/",
-        "simple": "[gallery-01.justia.com]"
+        "long": "https://www.stoltmannlaw.com/",
+        "simple": "stoltmannlaw.com"
       },
       "screenshots": "featured-site-01.jpg",
       "thumbnail": "featured-site-01-thumb.jpg"
     },
     {
-      "clientName": "[Smith Law Firm]",
-      "location": "[Anytown, CA]",
+      "clientName": "Law Offices of Deron Smallcomb",
+      "location": "California & New York",
       "possessiveAdjective": "[his]",
       "domain": {
-        "long": "http://gallery-02.justia.net/",
-        "simple": "[gallery-02.justia.com]"
+        "long": "https://www.lawofficeimmigration.com/",
+        "simple": "lawofficeimmigration.com"
       },
       "thumbnail": "featured-site-02-thumb.jpg"
     },
     {
-      "clientName": "[Law Offices]",
-      "location": "[Anytown, CA]",
+      "clientName": "Hewette Guyton Gareis LLC",
+      "location": "Georgia",
       "possessiveAdjective": "[her]",
       "domain": {
-        "long": "http://gallery-03.justia.net/",
-        "simple": "[gallery-03.justia.com]"
+        "long": "https://www.parsonslawgroup.com/",
+        "simple": "parsonslawgroup.com"
       },
       "thumbnail": "featured-site-03-thumb.jpg"
+    },
+    {
+      "clientName": "Hewette Guyton Gareis LLC",
+      "location": "New Jersey",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "https://www.hgglegal.com/",
+        "simple": "hgglegal.com"
+      },
+      "thumbnail": "featured-site-04-thumb.jpg"
     }
   ]
 }

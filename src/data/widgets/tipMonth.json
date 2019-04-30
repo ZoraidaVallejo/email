@@ -1,7 +1,7 @@
 {
   "clients": {
     "sectionName": "Tip of the Month",
-    "title": "<b>Make Use of the Q&A Section on Your GMB</b>",
+    "title": "Make Use of the Q&A Section on Your GMB",
     "description": [
       "Do not leave questions unanswered in the Q&A section of your Google My Business listing. Consumers who ask questions expect immediate responses. Those who read the Q&A section of your listing expect their commonly asked questions to be answered. Answers should be thoughtful and direct. This will also provide accurate information about your business and your services. More importantly, if you do not provide the answer, then someone else will!"
     ],
@@ -13,15 +13,15 @@
   },
   "jld": {
     "sectionName": "Tip of the Month",
-    "title": "[Dolor culpa anim voluptate incididunt laborum velit labore.]",
+    "title": "Get more out of your free Justia Lawyer Directory profile by making it more complete!",
     "description": [
-      "[Veniam sunt deserunt sunt nulla cillum elit. Veniam ad aliquip sunt Lorem amet anim labore eu eiusmod anim. Laboris quis sit velit qui pariatur ex do. Adipisicing dolor commodo culpa nostrud occaecat minim laborum minim labore proident ex.]",
-      "[Nostrud laboris sunt in exercitation ea ut laborum. Duis anim reprehenderit non amet adipisicing labore ad occaecat. Non mollit officia occaecat sunt cillum aliqua sunt reprehenderit tempor. Ullamco occaecat proident consequat deserunt do voluptate ad esse duis elit velit magna.]"
+      "Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads. Adding your office location will help you appear in local lawyer directory searches, and listing an updated email address will make it easier for clients to get in touch today!"
     ],
     "button": {
       "style": "white",
       "link": "https://www.justia.com/",
-      "text": "Learn More"
+      "text": "Update Photo Now",
+      "width": 180
     }
   }
 }
