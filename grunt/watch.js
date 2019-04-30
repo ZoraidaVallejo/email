@@ -8,13 +8,5 @@ module.exports = {
       '<%= relativeFolders.src %>/partials/**/*'
     ],
     tasks: ['devel']
-  },
-
-  dist: {
-    files: ['<%= relativeFolders.dist %>/*'],
-    tasks: [],
-    options: {
-      livereload: true
-    }
   }
 };
