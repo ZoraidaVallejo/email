@@ -57,31 +57,42 @@
   },
   "jld": {
     "ad1": {
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "[directory-ad-example-type-1]"
+        "source": "client-newsletter",
+        "content": "banner-premium-memberships-v20"
       },
-      "image": "jld-ad-image-01.png",
-      "imageAlt": "[Aute ea voluptate qui aliqua veniam.]",
+      "logo": {
+        "name": "marketing",
+        "color": "blue"
+      },
+      "title": "<b>Take Advantage of Premium Placements</b>",
+      "titleResponsiveSize": 25,
+      "image": "advantage-premium-01.gif",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "[Elit reprehenderit deserunt reprehenderit ullamco commodo labore irure velit.]"
+            "Do you want to get more out of your profile on Justia? Sign up for premium placements and take advantage of the benefits such as access to profile stats and more."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Tempor culpa.]",
-            "width": 200,
+            "text": "Learn More",
+            "width": 150,
             "height": 50,
             "fontSize": 18
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
         }
       ]
     },

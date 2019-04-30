@@ -6,7 +6,30 @@
 
   // &.-client-ad-01 {}
 
-  // &.-jld-ad-01 {}
+  &.-jld-ad-01 {
+    background-color: #ebf2f7;
+
+    .title {
+      padding: 0 70px 15px;
+
+      a {
+        @include mail-font(34px);
+      }
+    }
+
+    .content {
+      background-color: plt('justia-blue');
+      color: plt('white');
+
+      &.-button {
+        padding: 0 $padding 20px;
+      }
+
+      &.-idx-3 {
+        padding: 0 $padding $padding;
+      }
+    }
+  }
 
   // &.-jld-ad-02 {}
 }

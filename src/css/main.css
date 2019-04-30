@@ -1201,6 +1201,31 @@ a {
   padding: 0 30px 45px;
 }
 
+.w-advertisement.-jld-ad-01 {
+  background-color: #ebf2f7;
+}
+
+.w-advertisement.-jld-ad-01 .title {
+  padding: 0 70px 15px;
+}
+
+.w-advertisement.-jld-ad-01 .title a {
+  font: 34px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-01 .content {
+  background-color: #06357a;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .content.-button {
+  padding: 0 30px 20px;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-3 {
+  padding: 0 30px 30px;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
