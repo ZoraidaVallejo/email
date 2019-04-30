@@ -34,7 +34,14 @@
         <p>{{{this}}}</p>
       {{/each}}
       {{#if @root.simpleTextWidgetButton}}
-        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}{{widgetConfig.button.text}}{{/uiButton}}
+        {{#uiButton
+          presetStyle=widgetConfig.button.style
+          href=widgetConfig.button.link
+          width=(default widgetConfig.button.width null)
+          debug=(default widgetConfig.button.debug false)
+        }}
+          {{widgetConfig.button.text}}
+        {{/uiButton}}
       {{/if}}
     </td>
 
