@@ -1,19 +1,14 @@
 {
-  "news": [
-    {
-      "title": "[Aute fugiat cillum amet minim nostrud consequat excepteur id veniam.]",
-      "link": "https://www.justia.com/",
-      "description": "[Occaecat ea culpa eiusmod veniam ea id dolor cupidatat. Ullamco exercitation esse laborum commodo. Sunt quis nisi incididunt proident est veniam excepteur dolore elit enim. Reprehenderit eu irure consequat magna minim exercitation excepteur anim proident. Culpa qui amet ex et Lorem occaecat anim ex excepteur excepteur sit consequat. Nulla eiusmod eiusmod officia deserunt excepteur magna amet et sit cupidatat esse sit.]"
+  "news": [{
+      "title": "Google Starts Rolling Out Better AMP URLs",
+      "link": "https://techcrunch.com/2019/04/16/google-starts-rolling-out-better-amp-urls/",
+      "description": "In a much anticipated move, Google is changing the way its Accelerated Mobile Pages (AMP) display URLs. Rather than display an “http://google.com/amp” URL, as the search engine has done for AMP pages since their inception, it will now show the URL of the publisher of the page (the same behavior as regular website pages)."
     },
+
     {
-      "title": "[Voluptate qui laboris officia proident Lorem.]",
-      "link": "https://www.justia.com/",
-      "description": "[Ipsum ad ea ex ex ipsum sunt sit consectetur minim quis excepteur. Non nisi aute eiusmod sunt nisi dolor ipsum est. Laborum cupidatat ipsum amet fugiat ullamco laboris. Aliqua cillum elit ipsum sit enim et ea voluptate veniam. Labore ea elit velit amet cillum elit anim non. Pariatur non voluptate sunt exercitation deserunt excepteur aliquip enim eiusmod non commodo.]"
-    },
-    {
-      "title": "[Do in adipisicing officia minim duis.]",
-      "link": "https://www.justia.com/",
-      "description": "[Sunt magna velit dolor et. Proident amet qui laborum sit et. Veniam mollit anim mollit et nulla do occaecat esse cupidatat proident. Est minim in nisi adipisicing anim commodo.]"
+      "title": "Google My Business Lets Users Create Custom Short URLs",
+      "link": "https://www.searchenginejournal.com/google-my-business-lets-users-create-custom-short-urls/",
+      "description": "Google is rolling out a change for users of Google My Business that will allow them to create custom short URLs for their listings. Once a user has set this up, they can direct visitors to their profile page using a URL like “g.page/[yourcustomname]”."
     }
   ]
 }

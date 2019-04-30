@@ -1,19 +1,20 @@
 {
-  "news": [
-    {
-      "title": "[Deserunt fugiat pariatur irure est minim nisi aliquip magna in.]",
-      "link": "https://www.justia.com/",
-      "description": "[Ex exercitation magna eiusmod duis velit nisi. Ad velit nostrud magna consectetur fugiat sint eiusmod quis ex. Aliqua proident proident aliquip ipsum commodo magna laboris excepteur est nisi eu minim Lorem aliquip. Reprehenderit velit aute eu amet sit cillum ullamco excepteur reprehenderit magna aute non. Est exercitation eu nostrud laborum excepteur adipisicing anim sit irure enim.]"
+  "news": [{
+      "title": "Twitter to Launch a “Hide Replies” Feature, Plus Other Changes to Its Reporting Process",
+      "link": "https://techcrunch.com/2019/04/16/twitter-to-launch-a-hide-replies-feature-plus-other-changes-to-its-reporting-process/",
+      "description": "As part of a host of new measures intended to counter abuse on its platform, Twitter announced that it is experimenting with a new “hide replies” feature that will allow users to have more control over the comments that appear along with their tweets. Rather than simply blocking, muting, or reporting the commenter, users can hide those replies, though others can still click through an additional menu to view the hidden content."
     },
+
     {
-      "title": "[Nulla nisi consectetur deserunt ut reprehenderit veniam voluptate veniam magna consectetur nisi velit nulla.]",
-      "link": "https://www.justia.com/",
-      "description": "[Ipsum consequat cupidatat aliquip officia mollit. Exercitation do nisi enim irure dolor in aute pariatur tempor. Veniam do ipsum adipisicing id eiusmod.]"
+      "title": "Researchers Unearth 74 Facebook Cybercrime Groups With 385,000 Members",
+      "link": "https://arstechnica.com/information-technology/2019/04/facebook-is-a-popular-venue-for-selling-all-manner-of-cybercrime-services/",
+      "description": "A Cisco security group has conducted research revealing dozens of Facebook groups dedicated to facilitating illegal activity, and whose membership numbers are in the hundreds of thousands. Facebook’s abuse-reporting systems were only marginally effective in removing the groups, and once some are removed, others appear in their places."
     },
+
     {
-      "title": "[Dolore do dolor et mollit voluptate culpa eiusmod minim laboris.]",
-      "link": "https://www.justia.com/",
-      "description": "[Commodo dolore velit ullamco elit mollit ut excepteur qui qui ad excepteur Lorem sunt. Reprehenderit nisi irure quis laborum non proident occaecat amet tempor laboris. Elit nisi ea id exercitation ea in in mollit irure commodo non do.]"
+      "title": "Jack Dorsey Says It’s Time to Rethink the Fundamental Dynamics of Twitter",
+      "link": "https://techcrunch.com/2019/04/16/jack-dorsey-ted/",
+      "description": "At a recent TED event, Twitter CEO Jack Dorsey fielded questions regarding the company’s failure to consistently ban hate groups and other harmful content. He suggested that moving forward, it may be best to de-emphasize the importance of followers and likes, and restructure the platform to cater more to users’ interests, regardless of who posts the relevant content."
     }
   ]
 }
