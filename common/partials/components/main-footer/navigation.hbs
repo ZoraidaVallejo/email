@@ -1,0 +1,13 @@
+{{!
+ * @param {String}   widgetResponsive
+ * @param {Object[]} widgetConfig
+ * @param {String}   widgetConfig.[].link
+ * @param {String}   widgetConfig.[].text
+}}
+
+<p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
+  {{#each widgetConfig}}
+    {{#unless @first}}{{>pipe widgetResponsive="mobile-hide"}}{{/unless}}
+    <a responsive="collapse-one mobile-padding-vertical-sides" href="{{{this.link}}}" target="_blank">{{{this.text}}}</a>
+  {{/each}}
+</p>

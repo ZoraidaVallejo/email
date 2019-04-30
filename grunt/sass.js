@@ -1,31 +1,37 @@
-const path = require('path');
 const sass = require('node-sass');
 const Eyeglass = require('eyeglass');
+const customFunctions = require('../lib/sass-functions');
 
-const cwd = process.cwd();
+const includePaths = ['common/partials/'];
+const files = [
+  {
+    expand: true,
+    cwd: '<%= relativeFolders.src %>/scss',
+    src: ['*.scss'],
+    dest: '<%= relativeFolders.src %>/css',
+    ext: '.css'
+  }
+];
 
-// Takes your SCSS files and compiles them to CSS
-module.exports = (grunt, { version, paths }) => ({
+module.exports = {
   dist: {
     options: Eyeglass({
       implementation: sass,
-      outputStyle: 'expanded',
-      includePaths: [
-        path.join(cwd, '/common/partials/'),
-        path.join(cwd, '/common/ui-components/'),
-        // Kept it due to legacy support.
-        path.join(cwd, '/node_modules/sassy-maps/sass/')
-      ]
+      outputStyle: 'compressed',
+      includePaths,
+      functions: customFunctions
     }),
-    files: [
-      {
-        expand: true,
-        cwd: `${paths.src}${!version ? '/css' : ''}/scss`,
-        src: ['*.scss'],
-        dest: `${paths.src}/css`,
-        ext: '.css'
-      }
-    ]
+    files
+  },
+
+  devel: {
+    options: Eyeglass({
+      implementation: sass,
+      outputStyle: 'expanded',
+      includePaths,
+      functions: customFunctions
+    }),
+    files
   },
 
   // This task compiles Sass for the browser-baed preview UI.
@@ -36,7 +42,7 @@ module.exports = (grunt, { version, paths }) => ({
       implementation: sass
     },
     files: {
-      '<%= paths.preview %>/css/preview.css': '<%= paths.preview %>/scss/preview.scss'
+      '<%= previewUI %>/css/preview.css': '<%= previewUI %>/scss/preview.scss'
     }
   }
-});
+};

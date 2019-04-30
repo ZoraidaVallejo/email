@@ -1,0 +1,23 @@
+{
+  "clients": {
+    "sectionName": "Did You Know?",
+    "title": "[Lorem qui consectetur do aliquip aliqua.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Aliquip dolore mollit duis sit non ut. Sit consequat do cupidatat in anim nulla sunt ullamco ex ullamco aliquip. Incididunt consequat fugiat occaecat qui non. Officia aliquip nostrud dolore ea esse exercitation eu cillum cillum ad eu irure deserunt. Proident aute adipisicing incididunt commodo irure laboris amet deserunt. Qui deserunt eiusmod fugiat eu minim ut exercitation officia aliqua sint voluptate pariatur ex.]",
+      "[<b>Consectetur in excepteur amet culpa consequat et in</b>. Voluptate ea consequat ad reprehenderit in commodo. Consectetur eiusmod fugiat commodo sunt aliqua duis minim incididunt.]"
+    ]
+  },
+  "jld": {
+    "sectionName": "Did You Know?",
+    "description": [
+      "[Incididunt ea deserunt fugiat eu consectetur elit ipsum <b>adipisicing sunt commodo</b> veniam. Aliquip ipsum ad ad esse et. Occaecat esse magna ea irure pariatur velit aute. Non aliqua eu ipsum ad incididunt pariatur commodo id.]",
+      "[Sit voluptate enim dolor mollit culpa veniam consectetur dolore <b>adipisicing do exercitation</b> nisi do labore. Nulla occaecat elit pariatur nisi est aliqua est mollit adipisicing est. Ut aliquip est id et esse qui enim nostrud aute culpa proident minim id voluptate. Laborum do proident consequat velit ea occaecat aliquip laborum culpa laborum elit proident ullamco sint.]"
+    ],
+    "button": {
+      "style": "white",
+      "link": "https://www.justia.com/",
+      "text": "Learn More"
+    }
+  }
+}

@@ -9,8 +9,10 @@ body {
   margin: 0;
   background: #ffffff; }
 
-.preview-interface-view body {
-  background: #ffffff;
+#mail-template-builder {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
   color: #333333;
   font: normal 14px/1.4 Helvetica, Arial, sans-serif; }
 
@@ -22,129 +24,101 @@ body {
 
 .preview-interface-view iframe {
   width: 100%;
-  border: 0; }
+  height: 100%;
+  border: 1px solid rgba(6, 53, 122, 0);
+  transition: border-color 200ms ease-out; }
 
-.preview-interface-view .header {
-  position: relative;
+.preview-interface-view .preview-header {
+  position: absolute;
   z-index: 2;
-  display: table;
-  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: #fafafa;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
-  .preview-interface-view .header > div {
-    display: table-cell;
-    padding: 8px 20px;
-    vertical-align: middle; }
-
-.preview-interface-view .header--brand {
-  font-size: 22px; }
-
-.preview-interface-view .header--select {
-  text-align: right; }
-
-.preview-interface-view .preview-ui--full,
-.preview-interface-view .preview-ui--mobile,
-.preview-interface-view .preview-ui--mobile__container {
-  transition-property: margin, padding, width, opacity;
-  transition-duration: 0.3s;
-  transition-timing-function: linear; }
+  .preview-interface-view .preview-header > .head,
+  .preview-interface-view .preview-header > .view-buttons {
+    display: flex;
+    height: 50px;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center; }
+  .preview-interface-view .preview-header > .head > .brand {
+    font-size: 22px; }
+  .preview-interface-view .preview-header > .head > .select {
+    text-align: right; }
+  .preview-interface-view .preview-header > .view-buttons {
+    position: relative;
+    border-top: 1px solid #bdbdbd;
+    justify-content: center; }
+    .preview-interface-view .preview-header > .view-buttons > .button {
+      z-index: 1;
+      display: block;
+      padding: 0 20px;
+      border: 1px solid #bdbdbd;
+      background-color: #ffffff;
+      color: #000000;
+      font-weight: 700;
+      line-height: 36px;
+      transition-property: background-color, border-color;
+      transition-duration: 200ms;
+      transition-timing-function: linear; }
+      .preview-interface-view .preview-header > .view-buttons > .button:not(:first-child) {
+        margin-left: -1px; }
+      .preview-interface-view .preview-header > .view-buttons > .button:first-child {
+        border-radius: 2px 0 0 2px; }
+      .preview-interface-view .preview-header > .view-buttons > .button:last-child {
+        border-radius: 0 2px 2px 0; }
+      .preview-interface-view .preview-header > .view-buttons > .button:hover {
+        background-color: rgba(0, 179, 227, 0.1); }
+      .preview-interface-view .preview-header > .view-buttons > .button.-active {
+        z-index: 2;
+        border-color: #06357a;
+        background-color: rgba(0, 179, 227, 0.2); }
 
 .preview-interface-view .preview-ui {
   position: relative;
   z-index: 1;
-  overflow: hidden; }
+  top: 97px;
+  display: flex;
+  width: calc(100% + 6px);
+  height: calc(100vh - 94px);
+  margin: 0 -3px -3px;
+  background-color: #ffffff; }
+  .preview-interface-view .preview-ui > .wrapper {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center; }
+  .preview-interface-view .preview-ui .viewer-phone-mask {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(6, 53, 122, 0);
+    transition-property: width, height, border-radius, border-color, padding;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out; }
 
-.preview-interface-view .preview-ui--full {
-  float: left;
+.set-view-desktop .preview-ui .viewer-phone-mask {
   width: 100%;
-  padding-right: 500px; }
+  height: 100%;
+  padding: 0;
+  border-color: rgba(6, 53, 122, 0);
+  border-radius: 0; }
+  .set-view-desktop .preview-ui .viewer-phone-mask iframe {
+    border-color: rgba(6, 53, 122, 0); }
 
-.preview-interface-view .preview-ui--mobile {
-  position: relative;
-  float: right;
-  width: 500px;
-  margin-left: -500px;
-  background: #333333;
-  text-align: center; }
-  .preview-interface-view .preview-ui--mobile iframe {
-    width: 320px;
-    height: 461px;
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
-    margin: 129px 0 0 23px; }
-
-.preview-interface-view .preview-ui--mobile__container {
-  opacity: 1;
-  width: 363px;
-  height: 711px;
-  margin: 20px auto 0;
-  background: transparent url("../img/phone.png") no-repeat 50% 0;
-  background-size: 363px 711px;
-  text-align: left; }
-
-.preview-interface-view .preview-ui--mobile__toggle {
-  position: absolute;
-  z-index: 10;
-  top: 10px;
-  left: 10px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer; }
-
-.preview-interface-view .mobile-drawer-hidden .preview-ui--full {
-  padding-right: 60px; }
-
-.preview-interface-view .mobile-drawer-hidden .preview-ui--mobile {
-  width: 60px;
-  margin-left: -60px; }
-
-.preview-interface-view .mobile-drawer-hidden .preview-ui--mobile__container {
-  opacity: 0; }
-
-.preview-interface-view .toggle-drawer-open {
-  z-index: -1;
-  opacity: 0;
-  background: transparent url("../img/phone-icon.png") no-repeat 50% 50%;
-  background-size: 40px 40px;
-  transition: all 0.3s ease-in-out; }
-
-.preview-interface-view .mobile-drawer-hidden .toggle-drawer-open {
-  z-index: 2;
-  opacity: 1; }
-  .preview-interface-view .mobile-drawer-hidden .toggle-drawer-open:hover {
-    opacity: 0.8; }
-
-.preview-interface-view .toggle-drawer-close {
-  z-index: 1; }
-  .preview-interface-view .toggle-drawer-close:hover {
-    opacity: 0.8; }
-  .preview-interface-view .toggle-drawer-close::before, .preview-interface-view .toggle-drawer-close::after {
-    position: absolute;
-    display: block;
-    width: 4px;
-    height: 40px;
-    background: #ffffff;
-    transition: all 0.3s ease-in-out;
-    content: ''; }
-  .preview-interface-view .toggle-drawer-close::before {
-    left: 18px;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
-  .preview-interface-view .toggle-drawer-close::after {
-    right: 18px;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
-
-.preview-interface-view .mobile-drawer-hidden .toggle-drawer-close::before, .preview-interface-view .mobile-drawer-hidden .toggle-drawer-close::after {
-  opacity: 0;
-  width: 1px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg); }
-
-.preview-interface-view .mobile-drawer-hidden .toggle-drawer-close::before {
-  left: 0; }
-
-.preview-interface-view .mobile-drawer-hidden .toggle-drawer-close::after {
-  right: 0; }
+.set-view-mobile .preview-ui .viewer-phone-mask {
+  width: 350px;
+  height: 620px;
+  padding: 54px 12px 76px;
+  border-color: #06357a;
+  border-radius: 35px; }
+  .set-view-mobile .preview-ui .viewer-phone-mask iframe {
+    border-color: #06357a; }
 
 .welcome-view,
 .welcome-view body {
@@ -215,14 +189,14 @@ body {
     background: rgba(52, 142, 218, 0);
     -webkit-transform: scale(0.2);
             transform: scale(0.2);
+    -webkit-animation-name: wilkomen;
+            animation-name: wilkomen;
     -webkit-animation-duration: 1.8s;
             animation-duration: 1.8s;
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-name: wilkomen;
-            animation-name: wilkomen; }
+            animation-iteration-count: infinite; }
   .welcome-view .animation--icon + .animation--icon span {
     -webkit-animation-delay: 0.9s;
             animation-delay: 0.9s; }
@@ -235,9 +209,9 @@ body {
     background: transparent;
     box-shadow: inset 0 0 2px #348eda; }
   100% {
+    box-shadow: inset 0 0 2px rgba(52, 142, 218, 0);
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-    box-shadow: inset 0 0 2px rgba(52, 142, 218, 0); } }
+            transform: scale(1, 1); } }
 
 @keyframes wilkomen {
   0% { }
@@ -247,6 +221,6 @@ body {
     background: transparent;
     box-shadow: inset 0 0 2px #348eda; }
   100% {
+    box-shadow: inset 0 0 2px rgba(52, 142, 218, 0);
     -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-    box-shadow: inset 0 0 2px rgba(52, 142, 218, 0); } }
+            transform: scale(1, 1); } }

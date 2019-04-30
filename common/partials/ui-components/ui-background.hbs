@@ -1,0 +1,82 @@
+{{!
+ * @param {String}  backgroundBehavior
+ * @param {Boolean} backgroundStart
+ * @param {Boolean} backgroundEnd
+ * @param {String}  bgImage
+ * @param {String}  bgColor
+ * @param {String}  bgWidth
+ * @param {String}  bgHeight
+ * @param {String}  bgSize
+ * @param {String}  bgTableClasses
+ * @param {String}  bgTableResponsiveClasses
+ * @param {String}  bgCellClasses
+ * @param {String}  bgCellResponsiveClasses
+}}
+
+{{assign "bgWidthVal" (ternary (eq (getUnit bgWidth) "%") bgWidth (toInt bgWidth))}}
+{{assign "bgHeightVal" (ternary (eq (getUnit bgHeight) "%") null (toInt bgHeight))}}
+
+{{#if backgroundStart}}
+  {{assign "bgInlineStyles" (styles
+    background=(concat "url('" (resolveFilePath bgImage) "')")
+    backgroundRepeat="no-repeat"
+    backgroundSize=(ternary bgSize bgSize null)
+  )}}
+{{else}}
+  {{assign "bgInlineStyles" null}}
+{{/if}}
+
+{{#eq backgroundBehavior "cell"}}
+  {{#if backgroundStart}}
+    <td
+      {{{htmlAttr
+        class=(classList "ui-background" "-cell" bgCellClasses)
+        responsive=bgCellResponsiveClasses
+        background=(resolveFilePath bgImage)
+        style=@root.bgInlineStyles
+        bgcolor=bgColor
+        width=@root.bgWidthVal
+        height=@root.bgHeightVal
+      }}}
+    >
+      {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
+      <div>
+        {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
+  {{/if}}
+  {{#if backgroundEnd}}
+      </div>
+      {{>v-rect hackEnd=true}}
+    </td>
+  {{/if}}
+{{/eq}}
+
+{{#eq backgroundBehavior "table"}}
+  {{#if backgroundStart}}
+    <table {{{tableAttr
+      class=(classList "ui-background" "-table" bgTableClasses)
+      responsive=bgTableResponsiveClasses
+      width=@root.bgWidthVal
+      height=@root.bgHeightVal
+    }}}>
+      <tr>
+        <td
+          {{{htmlAttr
+            class=(classList "bg-wrapper" bgCellClasses)
+            responsive=bgCellResponsiveClasses
+            background=(resolveFilePath bgImage)
+            style=@root.bgInlineStyles
+            bgcolor=bgColor
+          }}}
+        >
+          {{>v-rect hackStart=true hackWidth=@root.bgWidthVal hackHeight=@root.bgHeightVal hackImage=bgImage hackColor=bgColor}}
+          <div>
+            {{#and backgroundStart backgroundEnd}}&nbsp;{{/and}}
+  {{/if}}
+  {{#if backgroundEnd}}
+          </div>
+          {{>v-rect hackEnd=true}}
+        </td>
+      </tr>
+    </table>
+  {{/if}}
+{{/eq}}

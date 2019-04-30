@@ -1,0 +1,36 @@
+{{!
+ * @param {Boolean} columnGridStart
+ * @param {Boolean} columnGridEnd
+ * @param {Boolean} columnGridSeparator
+ * @param {String}  fullWidth
+ * @param {String}  cellWidth
+ * @param {String}  cellAlignment
+ * @param {String}  rowClasses
+ * @param {String}  columnClasses
+ * @param {String}  cellClasses
+}}
+
+{{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
+{{assign "columnAllClasses" (classList "grid-column" columnClasses)}}
+{{assign "cellAllClasses" (classList "grid-cell" cellClasses)}}
+{{assign "cellAllAttributes" (tableAttr align=(default cellAlignment "left") class=@root.cellAllClasses responsive="mobile-align-center mobile-no-float")}}
+
+{{#if columnGridStart}}
+  <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
+    <!--[if gte mso 9]><table {{{tableAttr width=fullWidth}}}><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
+    <div class="{{@root.columnAllClasses}}">
+      <table {{{@root.cellAllAttributes}}}>
+{{/if}}
+{{#if columnGridSeparator}}
+      </table>
+    </div>
+    <!--[if gte mso 9]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
+    <div class="{{@root.columnAllClasses}}">
+      <table {{{@root.cellAllAttributes}}}>
+{{/if}}
+{{#if columnGridEnd}}
+      </table>
+    </div>
+    <!--[if gte mso 9]></td></tr></table><![endif]-->
+  </td>
+{{/if}}

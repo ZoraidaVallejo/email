@@ -1,0 +1,43 @@
+
+// ----------------------------------------------------------------------------------------------------------
+// C O M M O N   M A I L   S E T T I N G S
+// ----------------------------------------------------------------------------------------------------------
+
+$padding: 30px !default;
+$max-width: 600px !default;
+$inner-max-width: $max-width - ($padding * 2) !default;
+$responsive-max-width: $max-width + 40 !default;
+
+
+// T Y P O G R A P H Y
+// -------------------
+
+$sans-serif-font-family: Arial, sans-serif !default;
+
+$mail-global-font-size: 16px !default;
+$mail-global-line-height: 1.38 !default;
+$mail-global-font-family: $sans-serif-font-family !default;
+
+$use-special-font: true !default;
+
+
+// S P E C I A L   C O L O R S   F O R   M A I L S
+// -----------------------------------------------
+$accent-color: plt('bright-blue') !default;
+
+$mail-color-palette: (
+  'shamrock': #3fd4ad,
+  'sirocco': #7b7d7d,
+  'black-haze': #e7e8e8,
+  'green': #008000,
+  'curious-blue': #3498db,
+  'flush-orange': #ff7f00,
+  'purple-heart': #8635c2,
+  'pelorous': #35b9ba,
+  'shuttle-gray': #5f646e,
+  'picton-blue': #398ff2,
+  'cape-cod': #3d4041,
+  'jade': #01b463
+);
+
+$color-palette: map-set($color-palette, 'mail', $mail-color-palette);

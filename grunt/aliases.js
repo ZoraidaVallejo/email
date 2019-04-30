@@ -1,45 +1,40 @@
-module.exports = (grunt, { conversionType }) => {
-  // BLAST configuration
-  let buildAlias = [conversionType, 'replace:liveImages'];
+const develTasks = {
+  1: ['clean:dist'],
+  2: ['postcss:source', 'assemble', 'juice', 'imagemin', 'replace:importantStyle'],
+  3: ['replace:fixResponsive', 'replace:srcImages', 'replace:removeDupStyles']
+};
 
-  if (conversionType !== 'proposal') {
-    buildAlias = buildAlias.concat(['spreadsheet']);
-  }
-
-  // Newsletter configuration overwrite
-  if (conversionType === 'newsletter' || conversionType === 'proposal' || conversionType === 'oyez') {
-    buildAlias = buildAlias.concat(['replace:shortenClasses', 'htmlmin']);
-  }
-
-  const commonTasks = {
-    group1: ['clean:dist', 'sass:dist'],
-    group2: ['assemble', 'juice', 'imagemin'],
-    group3: ['replace:importantStyle', 'replace:removeClasses', 'replace:fixResponsive', 'replace:srcImages']
+module.exports = () => {
+  const standAloneTasks = {
+    // npm start build.preview
+    buildPreview: ['sass:preview', 'postcss:preview']
   };
 
-  return {
-    default: ['serve'],
+  const conversionTasks = {
+    // npm start
+    default: ['devel', 'buildPreview', 'express', 'open', 'watch'],
 
-    newsletter: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
+    // npm start build.devel
+    devel: [...develTasks[1], 'sass:devel', ...develTasks[2], 'replace:classesToData', ...develTasks[3], 'prettier'],
 
-    blast: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3],
+    dist: [...develTasks[1], 'sass:dist', ...develTasks[2], 'replace:removeClasses', ...develTasks[3]],
 
-    proposal: [...commonTasks.group1, 'cssmin', ...commonTasks.group2, 'replace:srcImages'],
-
-    oyez: [...commonTasks.group1, ...commonTasks.group2, ...commonTasks.group3, 'replace:removeDupStyles'],
-
-    serve: [conversionType, 'buildPreview', 'express', 'open', 'watch'],
-
+    // npm start report
     report: ['spreadsheet'],
 
+    // npm start upload
     upload: ['imagemin', 'sftp-deploy'],
 
-    build: buildAlias,
+    // npm start build
+    build: ['dist', 'replace:liveImages', 'spreadsheet', 'htmlmin', 'purge', 'prettier'],
 
-    buildPreview: ['sass:preview', 'postcss:preview'],
-
-    publish: ['build', 'copy', 'compress', 'clean:all'],
-
-    test: ['sass']
+    // npm start publish
+    publish: ['build', 'copy', 'compress', 'clean:all']
   };
+
+  if (process.env.CONVERSION_CONFIG === 'true') {
+    return Object.assign({}, conversionTasks, standAloneTasks);
+  }
+
+  return standAloneTasks;
 };
