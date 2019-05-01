@@ -70,12 +70,12 @@
               </a>
             </td>
 
-            <td class="desc-wrapper" responsive="collapse-one mobile-align-center">
+            <td class="desc-wrapper" responsive="collapse-one mobile-align-center mobile-padding-uneven-bottom">
               {{#table class="yaw"}}
                 {{#forEach widgetConfig.contentOrder}}
                   {{#compare this.type "===" "description"}}
                     <tr>
-                      <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                      <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-align-center">
                         {{#each this.config}}
                           <p>{{{this}}}</p>
                         {{/each}}
@@ -85,7 +85,7 @@
 
                   {{#compare this.type "===" "button"}}
                     <tr>
-                      <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                      <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-align-center">
                         {{#uiButton
                           presetStyle=this.config.style
                           href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))

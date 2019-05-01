@@ -1228,6 +1228,49 @@ a {
 
 .w-advertisement.-jld-ad-02 {
   background-color: #2f97ae;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .justia-logo {
+  padding: 40px 30px 30px;
+}
+
+.w-advertisement.-jld-ad-02 .title {
+  padding: 0 30px 18px;
+}
+
+.w-advertisement.-jld-ad-02 .title a {
+  font: 32px/1.38 Arial, sans-serif;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .holder .image {
+  width: 291px;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.w-advertisement.-jld-ad-02 .holder .image img {
+  width: 291px;
+}
+
+.w-advertisement.-jld-ad-02 .holder .desc-wrapper {
+  width: 309px;
+  padding: 15px 0 0;
+  vertical-align: top;
+}
+
+.w-advertisement.-jld-ad-02 .holder .content {
+  padding: 0 30px 20px 0;
+  text-align: right;
+}
+
+.w-advertisement.-jld-ad-02 .holder .content p {
+  font: 18px/1.38 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-02 .holder .content.-last {
+  padding: 0 30px 0 0;
 }
 
 .full-size {
