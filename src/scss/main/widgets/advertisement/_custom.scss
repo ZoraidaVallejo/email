@@ -48,35 +48,32 @@
       }
     }
 
-    .holder {
+    .image {
+      width: 291px;
+      padding: 0;
+      vertical-align: bottom;
 
-      .image {
+      img {
         width: 291px;
-        padding: 0;
-        vertical-align: bottom;
+      }
+    }
 
-        img {
-          width: 291px;
-        }
+    .desc-wrapper {
+      width: 309px;
+      padding: 15px 0 0;
+      vertical-align: top;
+    }
+
+    .content {
+      padding: 0 $padding 20px 0;
+      text-align: right;
+
+      p {
+        @include mail-font(18px);
       }
 
-      .desc-wrapper {
-        width: 309px;
-        padding: 15px 0 0;
-        vertical-align: top;
-      }
-
-      .content {
-        padding: 0 $padding 20px 0;
-        text-align: right;
-
-        p {
-          @include mail-font(18px);
-        }
-
-        &.-last {
-          padding: 0 $padding 0 0;
-        }
+      &.-last {
+        padding: 0 $padding 0 0;
       }
     }
   }
