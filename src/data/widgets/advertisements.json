@@ -106,30 +106,29 @@
       },
       "logo": {
         "name": "marketing",
-        "color": "blue"
+        "color": "white"
       },
-      "title": "<b>[Cillum nulla irure.]</b>",
-      "titleResponsiveSize": 30,
-      "image": "jld-ad-image-02.png",
+      "title": "<b>Take Charge of Your Marketing</b>",
+      "titleResponsiveSize": 25,
+      "image": "charge-of-image-01.png",
       "background": {
-        "image": "jld-ad-background-02.jpg",
+        "image": "charge-of-color-01.png",
         "width": 600,
-        "bgColor": "#cccccc",
-        "cssSize": "100% auto"
+        "bgColor": "#cccccc"
       },
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "[Duis officia mollit dolore est esse. Sit proident et anim consequat laboris officia quis. Excepteur labore occaecat ex elit Lorem exercitation nostrud pariatur ullamco qui aliqua est elit reprehenderit.]"
+            "Don’t just sit back and watch things happen (or not happen). Take charge of your marketing and let Justia build a high-quality website for you."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Tempor culpa.]",
-            "width": 200,
+            "text": "Learn More",
+            "width": 150,
             "height": 50,
             "fontSize": 18
           }
@@ -137,7 +136,7 @@
         {
           "type": "description",
           "config": [
-            "[<b>Tempor id cillum tempor magna labore eiusmod consectetur proident aliqua minim deserunt.</b>]"
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
           ]
         }
       ]
