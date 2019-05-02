@@ -61,7 +61,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "client-newsletter",
+        "source": "directory-newsletter",
         "content": "banner-premium-memberships-v20"
       },
       "logo": {
