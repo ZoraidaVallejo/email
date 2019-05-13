@@ -3,7 +3,10 @@ module.exports = {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      removeEmptyAttributes: attrName => attrName === 'style' || attrName === 'responsive',
+      removeEmptyAttributes(attrName) {
+        console.log(typeof attrName, attrName);
+        return attrName == 'style' || attrName == 'responsive';
+      },
       minifyCSS: {
         compatibility: {
           properties: {

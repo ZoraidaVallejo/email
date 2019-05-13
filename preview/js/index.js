@@ -64,7 +64,7 @@ function triggerEvent(element, type) {
   }
 }
 
-(() => {
+(function iife() {
   // Reusables
   const templateSelect = document.getElementById('template-select');
   const { hash } = document.location;
@@ -72,7 +72,7 @@ function triggerEvent(element, type) {
   // On change, reload template
   templateSelect.addEventListener(
     'change',
-    event => {
+    function reloadTemplate(event) {
       const element = event.target;
       const { value } = element;
       const ms = new Date().getTime(); // We'll timestamp each iframe load for cache-busting
@@ -81,7 +81,7 @@ function triggerEvent(element, type) {
         return;
       }
 
-      document.querySelectorAll('iframe').forEach(frame => {
+      document.querySelectorAll('iframe').forEach(function setIframeSrc(frame) {
         // eslint-disable-next-line no-param-reassign
         frame.src = `${value}?t=${ms}`;
       });
@@ -107,11 +107,11 @@ function triggerEvent(element, type) {
     document.body,
     '.view-buttons .button',
     'click',
-    event => {
+    function viewClickButton(event) {
       event.preventDefault();
       const button = event.delegateTarget;
 
-      buttons.forEach(btn => {
+      buttons.forEach(function switchClasses(btn) {
         btn.classList.remove('-active');
         document.body.classList.remove(`set-view-${btn.dataset.viewType}`);
       });

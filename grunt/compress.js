@@ -1,5 +1,5 @@
-module.exports = (grunt, { compressedFileName }) => {
-  const zipName = compressedFileName !== '' ? compressedFileName : '<%= projectName %>-<%= dateFormat.dash %>.zip';
+module.exports = function grtunCompress(grunt, { compressedFileName }) {
+  var zipName = !compressedFileName ? compressedFileName : '<%= projectName %>-<%= dateFormat.dash %>.zip';
 
   return {
     target: {

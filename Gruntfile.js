@@ -8,6 +8,7 @@ const baseConfig = require('./common/data/config');
 // -----------------------------------
 baseConfig.relativeFolders = {};
 
+// TODO: Function expression.
 Object.keys(baseConfig.folders).forEach(folder => {
   baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
@@ -18,7 +19,7 @@ const projectConfigPath = './'.concat(path.join(baseConfig.relativeFolders.src, 
 process.env.CONVERSION_CONFIG = fs.existsSync(projectConfigPath);
 
 // eslint-disable-next-line global-require, import/no-dynamic-require
-const projectConfig = process.env.CONVERSION_CONFIG === 'true' ? require(projectConfigPath) : {};
+const projectConfig = process.env.CONVERSION_CONFIG == 'true' ? require(projectConfigPath) : {};
 
 // M E R G E   O B J E C T S
 // -------------------------
@@ -31,6 +32,7 @@ if (data.releaseDate) {
   const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
 
   // Set date formats.
+  // TODO: Function expression.
   Object.keys(data.dateFormat).forEach(name => {
     data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
   });
@@ -44,7 +46,7 @@ data.remoteImgPath = path.join('/mnt/files/emails/images', data.remoteImages);
 
 // I N I T I A L I Z E   G R U N T
 // -------------------------------
-module.exports = grunt => {
+module.exports = function initGrunt(grunt) {
   loadGruntConfig(grunt, {
     data,
 

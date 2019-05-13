@@ -3,5 +3,8 @@ const opn = require('opn');
 
 const localIp = ip.address();
 
-module.exports = (grunt, opts) =>
-  grunt.registerTask('open', 'Open IP.', () => opn(`http://${localIp}:${opts.port}`, { wait: false }));
+module.exports = function gruntOpen(grunt, opts) {
+  return grunt.registerTask('open', 'Open IP.', function setOpenTask() {
+    return opn(`http://${localIp}:${opts.port}`, { wait: false });
+  });
+};

@@ -3,20 +3,23 @@ const path = require('path');
 const cheerio = require('cheerio');
 const Csv = require('../lib/csv');
 
-module.exports = grunt => {
+module.exports = function gruntSpreadsheet(grunt) {
   grunt.registerMultiTask(
     'spreadsheet',
     'Get images and links attributes from HTML documents.',
     function spreadsheet() {
       const done = this.async();
 
+      // TODO: Function expression.
       this.filesSrc.forEach(file => {
         const filename = path.basename(file).replace('.html', '.csv');
         const data = fs.readFileSync(file, 'utf8');
         const $ = cheerio.load(data);
 
         const linksHolder = $('a')
-          .map((idx, elem) => $(elem).attr('href'))
+          .map(function getHref(idx, elem) {
+            return $(elem).attr('href');
+          })
           .get();
 
         const allLinks = new Csv(linksHolder, this.data.options);
@@ -26,6 +29,7 @@ module.exports = grunt => {
           .write(`links-${filename}`);
 
         const imagesHolder = $('img')
+          // TODO: Function expression.
           .map((idx, elem) => [[$(elem).attr('src'), $(elem).attr('alt')]])
           .get();
 

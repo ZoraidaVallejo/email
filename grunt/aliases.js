@@ -4,7 +4,7 @@ const develTasks = {
   3: ['replace:fixResponsive', 'replace:srcImages', 'replace:removeDupStyles']
 };
 
-module.exports = () => {
+module.exports = function gruntAliases() {
   const standAloneTasks = {
     // npm start build.preview
     buildPreview: ['sass:preview', 'postcss:preview']
@@ -32,7 +32,7 @@ module.exports = () => {
     publish: ['build', 'copy', 'compress', 'clean:all']
   };
 
-  if (process.env.CONVERSION_CONFIG === 'true') {
+  if (process.env.CONVERSION_CONFIG == 'true') {
     return Object.assign({}, conversionTasks, standAloneTasks);
   }
 

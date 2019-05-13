@@ -21,7 +21,9 @@ const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
 
 // Set configuration to remove duplicated styles
 const styleToRemove = Object.keys(htmlOptim)
+  // TODO: Function expression.
   .map(element =>
+    // TODO: Function expression.
     htmlOptim[element].map(cssStyle => {
       const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
 
@@ -31,9 +33,11 @@ const styleToRemove = Object.keys(htmlOptim)
       };
     })
   )
-  .reduce((a, b) => a.concat(b), []);
+  .reduce(function flatArray(a, b) {
+    return a.concat(b);
+  }, []);
 
-module.exports = (grunt, { folders }) => {
+module.exports = function gruntReplace(grunt, { folders }) {
   const imageRegexes = {
     devel: {
       // Matches <img * src="../src/images, <img * src='../src/images', <v * src='../src/images or <td * background='../src/images
