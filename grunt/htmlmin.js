@@ -4,7 +4,6 @@ module.exports = {
       removeComments: true,
       collapseWhitespace: true,
       removeEmptyAttributes(attrName) {
-        console.log(typeof attrName, attrName);
         return attrName == 'style' || attrName == 'responsive';
       },
       minifyCSS: {
