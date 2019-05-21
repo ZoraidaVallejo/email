@@ -2,46 +2,50 @@ const cheerio = require('cheerio');
 const log = require('bilberry/log');
 const { leftPad } = require('../lib/helpers');
 
-module.exports = grunt => {
+module.exports = function gruntPurge(grunt) {
   grunt.registerMultiTask('purge', 'Clean unused responsive classes.', function purge() {
     const done = this.async();
 
-    this.filesSrc.forEach(filepath => {
+    this.filesSrc.forEach(function eachPath(filepath) {
       const originalEmail = grunt.file.read(filepath);
       const $ = cheerio.load(originalEmail);
 
-      const htmlClasses = [
+      var htmlClasses = [
         ...new Set(
           $('[class]')
-            .map((idx, element) =>
-              $(element)
+            .map(function getClasses(idx, element) {
+              return $(element)
                 .attr('class')
-                .split(' ')
-            )
+                .split(' ');
+            })
             .get()
-            .filter(val => val !== 'preheader' && val !== 'ios-links-black' && val !== '')
+            .filter(function filterClasses(val) {
+              return val != 'preheader' && val != 'ios-links-black' && val != '';
+            })
         )
       ];
 
-      const reponsiveClassesToRemove = $('style')
+      var reponsiveClassesToRemove = $('style')
         .html()
         .match(/@media only screen and \(max-width:640px\)\{(.*)\}$/)[1]
         .match(/\.[\w-\s.]+\{/g)
-        .map(val => val.replace('{', '').trim())
-        .filter(val => {
+        .map(function cleanStyles(val) {
+          return val.replace('{', '').trim();
+        })
+        .filter(function checkClasses(val) {
           var holder = val.split('.');
           return !htmlClasses.includes(holder[holder.length - 1]);
         });
 
-      let purgedEmail = originalEmail;
+      var purgedEmail = originalEmail;
 
       // Purge unused classes.
-      reponsiveClassesToRemove.forEach(classString => {
+      reponsiveClassesToRemove.forEach(function eachClassToPurge(classString) {
         purgedEmail = purgedEmail.replace(new RegExp(`(${classString}{[^}]+})`), '');
       });
 
       // Shorten remaining classes.
-      htmlClasses.forEach((classString, idx) => {
+      htmlClasses.forEach(function eachClassToShorten(classString, idx) {
         purgedEmail = purgedEmail.replace(new RegExp(classString, 'g'), `justia${leftPad(idx + 1)}`);
       });
 

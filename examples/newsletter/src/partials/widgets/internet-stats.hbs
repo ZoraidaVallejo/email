@@ -7,10 +7,17 @@
     </td>
   </tr>
   <tr>
-    <td class="subtitle" responsive="mobile-padding-horizontal-sides">
+    <td class="subtitle{{#if internetStats.topDescription}} -with-top-desc{{/if}}" responsive="mobile-padding-horizontal-sides">
       <p>{{{internetStats.subtitle}}}</p>
     </td>
   </tr>
+  {{#if internetStats.topDescription}}
+    <tr>
+      <td class="top-description" responsive="mobile-padding-horizontal-sides">
+        <p>{{{internetStats.topDescription}}}</p>
+      </td>
+    </tr>
+  {{/if}}
   <tr>
     <td class="chart{{#unless internetStats.description}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#if internetStats.link}}<a href="{{internetStats.link}}" target="_blank">{{/if}}
