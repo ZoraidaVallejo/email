@@ -1,22 +1,5 @@
-const npsUtils = require('nps-utils');
-
-const serialize = npsUtils.series;
-const quoteScript = (script, escaped) => {
-  const quote = escaped ? '\\"' : '"';
-  const shouldQuote = script.indexOf(' ') !== -1;
-  return shouldQuote ? `${quote}${script}${quote}` : script;
-};
-const npsSeries = (...scriptNames) =>
-  serialize(
-    ...scriptNames
-      .filter(Boolean)
-      .map(scriptName => scriptName.trim())
-      .filter(Boolean)
-      .map(scriptName => `nps -c .npmscripts.js ${quoteScript(scriptName)}`)
-  );
-
+const { serialize, npsSeries, projectPath } = require('./lib/nps');
 const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
-const projectPath = (p = '') => `PROJECT_BASE_PATH="./${p}"`;
 
 const eslint = 'eslint "**/*.js"';
 const prettier = 'prettier --write';

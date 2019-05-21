@@ -28,6 +28,8 @@
   },
   "rules": {
     "no-var": "off",
+    "eqeqeq": "off",
+    "vars-on-top": "off",
     "promise/avoid-new": "off",
     "prettier/prettier": [
       "error",

@@ -3,7 +3,9 @@ module.exports = {
     options: {
       removeComments: true,
       collapseWhitespace: true,
-      removeEmptyAttributes: attrName => attrName === 'style' || attrName === 'responsive',
+      removeEmptyAttributes(attrName) {
+        return attrName == 'style' || attrName == 'responsive';
+      },
       minifyCSS: {
         compatibility: {
           properties: {
