@@ -10,7 +10,7 @@ module.exports = function gruntSpreadsheet(grunt) {
     function spreadsheet() {
       const done = this.async();
 
-      this.filesSrc.forEach(function eachFile(file) {
+      this.filesSrc.forEach(file => {
         const filename = path.basename(file).replace('.html', '.csv');
         const data = fs.readFileSync(file, 'utf8');
         const $ = cheerio.load(data);
