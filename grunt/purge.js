@@ -6,49 +6,46 @@ module.exports = function gruntPurge(grunt) {
   grunt.registerMultiTask('purge', 'Clean unused responsive classes.', function purge() {
     const done = this.async();
 
-    // TODO: Function expression.
-    this.filesSrc.forEach(filepath => {
+    this.filesSrc.forEach(function eachPath(filepath) {
       const originalEmail = grunt.file.read(filepath);
       const $ = cheerio.load(originalEmail);
 
-      const htmlClasses = [
+      var htmlClasses = [
         ...new Set(
           $('[class]')
-            // TODO: Function expression.
-            .map((idx, element) =>
-              $(element)
+            .map(function getClasses(idx, element) {
+              return $(element)
                 .attr('class')
-                .split(' ')
-            )
+                .split(' ');
+            })
             .get()
-            // TODO: Function expression.
-            .filter(val => val !== 'preheader' && val !== 'ios-links-black' && val !== '')
+            .filter(function filterClasses(val) {
+              return val != 'preheader' && val != 'ios-links-black' && val != '';
+            })
         )
       ];
 
-      const reponsiveClassesToRemove = $('style')
+      var reponsiveClassesToRemove = $('style')
         .html()
         .match(/@media only screen and \(max-width:640px\)\{(.*)\}$/)[1]
         .match(/\.[\w-\s.]+\{/g)
-        // TODO: Function expression.
-        .map(val => val.replace('{', '').trim())
-        // TODO: Function expression.
-        .filter(val => {
+        .map(function cleanStyles(val) {
+          return val.replace('{', '').trim();
+        })
+        .filter(function checkClasses(val) {
           var holder = val.split('.');
           return !htmlClasses.includes(holder[holder.length - 1]);
         });
 
-      let purgedEmail = originalEmail;
+      var purgedEmail = originalEmail;
 
       // Purge unused classes.
-      // TODO: Function expression.
-      reponsiveClassesToRemove.forEach(classString => {
+      reponsiveClassesToRemove.forEach(function eachClassToPurge(classString) {
         purgedEmail = purgedEmail.replace(new RegExp(`(${classString}{[^}]+})`), '');
       });
 
       // Shorten remaining classes.
-      // TODO: Function expression.
-      htmlClasses.forEach((classString, idx) => {
+      htmlClasses.forEach(function eachClassToShorten(classString, idx) {
         purgedEmail = purgedEmail.replace(new RegExp(classString, 'g'), `justia${leftPad(idx + 1)}`);
       });
 

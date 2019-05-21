@@ -8,8 +8,7 @@ const baseConfig = require('./common/data/config');
 // -----------------------------------
 baseConfig.relativeFolders = {};
 
-// TODO: Function expression.
-Object.keys(baseConfig.folders).forEach(folder => {
+Object.keys(baseConfig.folders).forEach(function eachFolder(folder) {
   baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
@@ -32,8 +31,7 @@ if (data.releaseDate) {
   const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
 
   // Set date formats.
-  // TODO: Function expression.
-  Object.keys(data.dateFormat).forEach(name => {
+  Object.keys(data.dateFormat).forEach(function eachName(name) {
     data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
   });
 }

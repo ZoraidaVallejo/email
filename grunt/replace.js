@@ -17,24 +17,23 @@ const htmlOptim = {
 // (<td[^>]+?)(background-color[ ]*:[ ]*[^;]+;)
 // (<table[^>]+?)((?<!(?:max|min)-)width[ ]*:[ ]*[^;]+;) --> Sadly, JS doesn't support negative look behinds in regex :(
 // (<td[^>]+?(?:"|\s|;))(background-color[ ]*:[ ]*[^;]+;) --> Selected
-const rgxOptim = '(<{{element}}[^>]+?(?:"|\\s|;))({{style}}[ ]*:[ ]*[^;]+;)';
+const rgxOptim = '(<{element}[^>]+?(?:"|\\s|;))({style}[ ]*:[ ]*[^;]+;)';
 
 // Set configuration to remove duplicated styles
 const styleToRemove = Object.keys(htmlOptim)
-  // TODO: Function expression.
-  .map(element =>
-    // TODO: Function expression.
-    htmlOptim[element].map(cssStyle => {
-      const htmlRegex = rgxOptim.replace('{{element}}', element).replace('{{style}}', cssStyle);
+  .map(function eachHtmlElment(element) {
+    return htmlOptim[element].map(function setConfig(cssStyle) {
+      var htmlRegex = rgxOptim.replace('{element}', element).replace('{style}', cssStyle);
 
       return {
         match: new RegExp(htmlRegex, 'g'),
         replacement: '$1'
       };
-    })
-  )
+    });
+  })
   .reduce(function flatArray(a, b) {
-    return a.concat(b);
+    a.push(...b);
+    return a;
   }, []);
 
 module.exports = function gruntReplace(grunt, { folders }) {

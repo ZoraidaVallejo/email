@@ -10,8 +10,7 @@ module.exports = function gruntSpreadsheet(grunt) {
     function spreadsheet() {
       const done = this.async();
 
-      // TODO: Function expression.
-      this.filesSrc.forEach(file => {
+      this.filesSrc.forEach(function eachFile(file) {
         const filename = path.basename(file).replace('.html', '.csv');
         const data = fs.readFileSync(file, 'utf8');
         const $ = cheerio.load(data);
@@ -29,8 +28,9 @@ module.exports = function gruntSpreadsheet(grunt) {
           .write(`links-${filename}`);
 
         const imagesHolder = $('img')
-          // TODO: Function expression.
-          .map((idx, elem) => [[$(elem).attr('src'), $(elem).attr('alt')]])
+          .map(function getSrcAlt(idx, elem) {
+            return [[$(elem).attr('src'), $(elem).attr('alt')]];
+          })
           .get();
 
         const allImages = new Csv(imagesHolder, this.data.options);
