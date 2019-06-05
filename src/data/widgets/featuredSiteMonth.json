@@ -1,0 +1,35 @@
+{
+  "sites": [
+    {
+      "clientName": "The Law Offices of Jonathan F. Marshall",
+      "location": "New Jersey",
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.mercercountycriminallawyer.com/",
+        "simple": "mercercountycriminallawyer.com"
+      },
+      "screenshots": "featured-site-01.jpg",
+      "thumbnail": "featured-site-01-thumb.jpg"
+    },
+    {
+      "clientName": "[Smith Law Firm]",
+      "location": "[Anytown, CA]",
+      "possessiveAdjective": "[his]",
+      "domain": {
+        "long": "http://gallery-02.justia.net/",
+        "simple": "[gallery-02.justia.com]"
+      },
+      "thumbnail": "featured-site-02-thumb.jpg"
+    },
+    {
+      "clientName": "[Law Offices]",
+      "location": "[Anytown, CA]",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "http://gallery-03.justia.net/",
+        "simple": "[gallery-03.justia.com]"
+      },
+      "thumbnail": "featured-site-03-thumb.jpg"
+    }
+  ]
+}

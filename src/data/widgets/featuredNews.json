@@ -1,0 +1,36 @@
+{
+  "sectionName": "Featured News",
+  "title": "Thoughts from Google I/O 2019",
+  "link": "https://onward.justia.com/2019/05/30/thoughts-from-google-i-o-2019/",
+  "image": "tech-news-01.png",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "description": [
+    "As he does every year, Justia Engineer Nick Moline attended the Google I/O conference in Mountain View. As usual, he liveblogged the sessions he attended, and this post summarizes some of the key takeaways from this year's conference."
+  ],
+  "button": {
+    "style": "light-blue",
+    "link": "https://onward.justia.com/2019/05/30/thoughts-from-google-i-o-2019/",
+    "text": "Read More"
+  }
+}
