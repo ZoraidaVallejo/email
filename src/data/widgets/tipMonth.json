@@ -4,7 +4,13 @@
     "title": "Get Found on the Justia Lawyer Directory",
     "description": [
       "People searching for a lawyer on the Justia Lawyer Directory may filter their search results based on a number of parameters to find a lawyer who best fits their needs. If you don't yet have a Justia Lawyer Rating, you risk getting filtered out by users looking only for highly ranked lawyers. Don't get lost in the shuffle; ask colleagues familiar with your work to write you a review!"
-    ]
+    ],
+    "button": {
+      "style": "white",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews",
+      "text": "Learn More",
+      "width": 125
+    }
   },
   "jld": {
     "sectionName": "Tip of the Month",
