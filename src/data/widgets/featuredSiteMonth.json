@@ -12,22 +12,22 @@
       "thumbnail": "featured-site-01-thumb.jpg"
     },
     {
-      "clientName": "[Smith Law Firm]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[his]",
+      "clientName": "Thornton Esquire Law Group",
+      "location": "Texas",
+      "possessiveAdjective": "her",
       "domain": {
-        "long": "http://gallery-02.justia.net/",
-        "simple": "[gallery-02.justia.com]"
+        "long": "https://www.thorntonesquirelawgroup.com/",
+        "simple": "thorntonesquirelawgroup.com"
       },
       "thumbnail": "featured-site-02-thumb.jpg"
     },
     {
-      "clientName": "[Law Offices]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[her]",
+      "clientName": "The Law Office of Julie Ann Baldwin, APC",
+      "location": "California",
+      "possessiveAdjective": "her",
       "domain": {
-        "long": "http://gallery-03.justia.net/",
-        "simple": "[gallery-03.justia.com]"
+        "long": "https://www.attorneyjulieannbaldwin.com/",
+        "simple": "attorneyjulieannbaldwin.com"
       },
       "thumbnail": "featured-site-03-thumb.jpg"
     }
