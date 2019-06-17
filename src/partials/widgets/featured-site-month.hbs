@@ -1,0 +1,72 @@
+<!-- FEATURED SITE OF THE MONTH -->
+
+{{#table class="w-featured-site-month set-max-width"}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides">
+      {{>widget-header title=(concat "Featured " (ternary listSites "Sites" "Site") " of the Month")}}
+    </td>
+  </tr>
+
+  {{#if singleSite}}
+    <tr class="featured-site">
+      <td class="client-info" responsive="mobile-padding-horizontal-sides">
+        <p class="name">
+          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a>
+        </p>
+        <p>
+          in {{featuredSiteMonth.sites.0.location}}&nbsp;
+          <br responsive="mobile-hide">
+          recently launched {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
+        </p>
+        <p>
+          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a>
+        </p>
+      </td>
+    </tr>
+    <tr class="featured-site">
+      <td class="devices" responsive="mobile-padding-horizontal-sides">
+        <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
+          {{>img
+            src=featuredSiteMonth.sites.0.screenshots
+            alt=featuredSiteMonth.sites.0.clientName
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if listSites}}
+    <tr>
+      <td class="sites-list-description" responsive="mobile-padding-horizontal-sides">
+        <p>The following clients recently launched their sites with Justia.</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="sites-list" responsive="mobile-padding-horizontal-sides">
+        {{#forEach featuredSiteMonth.sites}}
+          {{#table align="" class=(concat "site-item -site-" index)}}
+            <tr>
+              <td class="devices" responsive="mobile-hide">
+                <a href="{{this.domain.long}}" target="_blank">
+                  {{>img
+                    src=this.thumbnail
+                    alt=this.clientName
+                  }}
+                </a>
+              </td>
+              <td class="client-info" responsive="collapse-one mobile-align-center{{#unless isFirst}} mobile-padding-medium-top{{/unless}}{{#unless isLast}} mobile-padding-medium-bottom{{/unless}}">
+                <p class="name">
+                  <b>{{{this.clientName}}}</b>
+                </p>
+                <p class="loc">in {{this.location}}</p>
+                <p class="link">
+                  <a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a>
+                </p>
+              </td>
+            </tr>
+          {{/table}}
+        {{/forEach}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

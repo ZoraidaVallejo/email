@@ -1,0 +1,58 @@
+// ----------------------------------------------------------------------------------------------------------
+// P E O P L E   L I S T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-ranked-list {
+
+  .position-row {
+    background-color: plt('white');
+    table-layout: fixed;
+
+    tr:not(:last-child) td {
+      border-bottom: 1px solid plt('mail', 'black-haze');
+    }
+
+    .photo {
+      width: 70px;
+      padding: 10px 0 10px $padding;
+      text-align: right;
+      vertical-align: middle;
+
+      img {
+        @include size(70px);
+      }
+    }
+
+    .info {
+      padding: 10px 25px;
+      vertical-align: middle;
+
+      a {
+        color: plt('black');
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .name {
+        @include mail-font(25px, 1.1);
+      }
+
+      .location {
+        @include mail-font(12px, 1.1);
+      }
+    }
+
+    .ranking {
+      width: nth($ranking-number--dimensions, 1);
+      padding: 10px $padding 10px 0;
+      text-align: left;
+      vertical-align: middle;
+
+      img {
+        @include size($ranking-number--dimensions...);
+      }
+    }
+  }
+}
