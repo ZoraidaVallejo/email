@@ -24,7 +24,7 @@
     a {
       color: get('color', $scheme);
 
-      @include mail-font(get('font-size', $scheme));
+      @include mail-font(get('font-size', $scheme), 1.45);
     }
   }
 

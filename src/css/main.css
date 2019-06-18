@@ -137,7 +137,7 @@ a {
 }
 
 .main-footer .footer-head {
-  padding: 20px 30px;
+  padding: 14px 30px;
 }
 
 .main-footer .fhead-wrapper {
@@ -184,7 +184,7 @@ a {
 .main-footer.-basic-style .footer-address span,
 .main-footer.-basic-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-basic-style .footer-nav p,
@@ -219,7 +219,7 @@ a {
 .main-footer.-light-bright-style .footer-address span,
 .main-footer.-light-bright-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-light-bright-style .footer-nav p,
@@ -254,7 +254,7 @@ a {
 .main-footer.-light-blue-style .footer-address span,
 .main-footer.-light-blue-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-light-blue-style .footer-nav p,
@@ -307,7 +307,7 @@ a {
 }
 
 .main-footer.-social-below .footer-social {
-  padding: 20px 30px 10px;
+  padding: 28px 30px 15px;
   text-align: center;
 }
 
@@ -317,17 +317,13 @@ a {
 }
 
 .main-footer.-social-below .footer-disclaimer {
-  padding: 0 30px 5px;
+  padding: 0 30px 8px;
   text-align: center;
 }
 
 .main-footer.-social-below .footer-address {
   padding: 0 30px 120px;
   text-align: center;
-}
-
-.main-footer.-social-below .footer-address .justia-inline {
-  text-transform: uppercase;
 }
 
 .main-footer.-social-below.-justia-logo .logo-img {

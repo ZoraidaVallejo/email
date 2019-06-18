@@ -23,7 +23,7 @@
   }
 
   .footer-social {
-    padding: 20px $padding 10px;
+    padding: 28px $padding 15px;
     text-align: center;
 
     .social-icons {
@@ -33,17 +33,13 @@
   }
 
   .footer-disclaimer {
-    padding: 0 $padding 5px;
+    padding: 0 $padding 8px;
     text-align: center;
   }
 
   .footer-address {
     padding: 0 $padding floor($padding * 4);
     text-align: center;
-
-    .justia-inline {
-      text-transform: uppercase;
-    }
   }
 
   // L O G O   S I Z E S
