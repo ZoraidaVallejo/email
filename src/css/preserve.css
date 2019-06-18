@@ -260,6 +260,10 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-medium-bottom {
     padding-bottom: 20px !important;
   }
+  .mobile-padding-medium-vertical-sides {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
   .mobile-padding-medium-full {
     padding: 20px 10px !important;
   }

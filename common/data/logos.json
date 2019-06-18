@@ -7,7 +7,9 @@
   },
   "insights": {
     "path": {
-      "blue": "https://justatic.com/v/20190306/branding/logos/emails/justia-insights-blue.png"
+      "blue": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-insights-blue.png",
+      "white": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-insights-transparent.png",
+      "blue-white": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-insights-blue-white.png"
     },
     "alt": "Justia Insights"
   },
@@ -31,9 +33,9 @@
   },
   "marketing": {
     "path": {
-      "blue": "https://justatic.com/v/20190306/branding/logos/emails/justia-marketing-blue.png",
-      "white": "https://justatic.com/v/20190306/branding/logos/emails/justia-marketing-transparent.png",
-      "blue-white": "https://justatic.com/v/20190306/branding/logos/emails/justia-marketing-blue-white.png"
+      "blue": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-marketing-blue.png",
+      "white": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-marketing-transparent.png",
+      "blue-white": "http://emails.diego.udev.justatic.com/v/1/branding/logos/emails/justia-marketing-blue-white.png"
     },
     "alt": "Justia Marketing"
   }

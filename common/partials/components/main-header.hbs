@@ -29,14 +29,16 @@
   src=@root.headerLogoSrc
   alt=@root.headerLogoAlt
   link=@root.headerLogoLink
+  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
 )}}
+{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-medium-vertical-sides" "")}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
 
 {{>ui-layout-hack tableStart=true}}
   {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
     <tr>
-      <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+      <td class="wrapper" responsive="mobile-padding-horizontal-sides {{@root.headerWrapperResponsive}}">
         {{>ui-spacer-hack}}
 
         {{#compare widgetConfig.layout "===" "logo-only"}}
@@ -46,11 +48,11 @@
         {{#compare widgetConfig.layout "===" "with-date"}}
           {{#table}}
             <tr>
-              <td class="logo">
+              <td class="logo" responsive="collapse-one mobile-padding-bottom">
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
-              <td class="date">
-                <span>{{@root.headerDate}}</span>
+              <td class="date" responsive="collapse-one mobile-align-center">
+                <span responsive="mobile-fz-18 mobile-align-center">{{@root.headerDate}}</span>
               </td>
             </tr>
           {{/table}}
