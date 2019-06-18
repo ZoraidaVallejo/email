@@ -10,6 +10,6 @@
     "dash": "YYYY-MM",
     "dashFull": "YYYY-MM-DD"
   },
-  "remoteImages": "newsletters/<%= dateFormat.slash %>",
+  "remoteImages": "newsletters/test",
   "compressedFileName": ""
 }
