@@ -42,12 +42,12 @@
     }
 
     &.-no-button {
-      padding: 0 $padding grid-unit();
+      padding: 0 $padding $widget-gap;
     }
   }
 
   .button {
-    padding: 5px $padding grid-unit();
+    padding: 5px $padding $widget-gap;
     text-align: center;
   }
 }

@@ -2,19 +2,39 @@
 // W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.widget-section-name {
-  color: plt('mail', 'sirocco');
+// .widget {
+// }
 
-  @include mail-font(14px, 1.1, tp('weight', 'bold'));
-}
+.widget-header {
 
-.widget-main-title {
-  margin: 5px 0 0;
-  color: plt('black');
+  .icon {
+    width: 55px;
+    vertical-align: top;
 
-  @include mail-font(29px, 1.27, tp('weight', 'normal'));
+    img {
+      width: 55px;
+    }
+  }
 
-  a {
-    color: plt('black');
+  .text {
+    vertical-align: top;
+  }
+
+  .section-name {
+    color: plt('justia-blue');
+
+    @include mail-font(16px, 1, tp('weight', 'normal'));
+  }
+
+  .title {
+    color: plt('justia-blue');
+
+    @include mail-font(32px, 1.2, tp('weight', 'bold'));
+
+    a {
+      color: plt('justia-blue');
+    }
   }
 }
+
+

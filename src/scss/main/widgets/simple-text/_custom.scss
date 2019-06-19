@@ -19,19 +19,19 @@
   &.-tip-month {
     background-color: plt('bright-green');
 
-    @include change-widget-title-style(plt('white'));
+    // @include change-widget-title-style(plt('white'));
   }
 
   &.-did-you-know {
     background-color: plt('orange');
 
-    @include change-widget-title-style(plt('white'));
+    // @include change-widget-title-style(plt('white'));
   }
 
   &.-jobs-newsletter {
     border-bottom: 1px solid darken(plt('alabaster'), 10);
     background-color: plt('alabaster');
 
-    @include change-widget-title-style(plt('justia-blue'), $titleFontWeight: tp('weight', 'bold'));
+    // @include change-widget-title-style(plt('justia-blue'), $titleFontWeight: tp('weight', 'bold'));
   }
 }

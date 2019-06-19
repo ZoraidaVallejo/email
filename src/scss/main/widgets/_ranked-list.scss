@@ -9,7 +9,7 @@ $ranking-number--dimensions: 25px 56px;
 .w-ranked-list {
   background-color: plt('alabaster');
 
-  @include change-widget-title-style(plt('white'));
+  // @include change-widget-title-style(plt('white'));
 
   .ranking-table {
     padding: 50px $padding 30px;

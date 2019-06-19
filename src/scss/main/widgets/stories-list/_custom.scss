@@ -15,7 +15,7 @@ $news-widgets: (
   @each $widget-class, $color in $news-widgets {
 
     &.-#{$widget-class} {
-      @include change-widget-title-style($color, false);
+      // @include change-widget-title-style($color, false);
 
       a {
         color: $color;

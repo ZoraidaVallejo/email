@@ -451,19 +451,31 @@ a {
   font-size: 0;
 }
 
-.widget-section-name {
-  color: #7b7d7d;
-  font: 700 14px/1.1 Arial, sans-serif;
+.widget-header .icon {
+  width: 55px;
+  vertical-align: top;
 }
 
-.widget-main-title {
-  margin: 5px 0 0;
-  color: #000000;
-  font: 400 29px/1.27 Arial, sans-serif;
+.widget-header .icon img {
+  width: 55px;
 }
 
-.widget-main-title a {
-  color: #000000;
+.widget-header .text {
+  vertical-align: top;
+}
+
+.widget-header .section-name {
+  color: #06357a;
+  font: 400 16px/16px Arial, sans-serif;
+}
+
+.widget-header .title {
+  color: #06357a;
+  font: 700 32px/1.2 Arial, sans-serif;
+}
+
+.widget-header .title a {
+  color: #06357a;
 }
 
 .w-welcome {
@@ -579,48 +591,16 @@ a {
   padding: 10px 30px 45px;
 }
 
-.w-stories-list.-tech-news .widget-main-title {
-  color: #00af41;
-}
-
-.w-stories-list.-tech-news .widget-main-title a {
-  color: #00af41;
-}
-
 .w-stories-list.-tech-news a {
   color: #00af41;
-}
-
-.w-stories-list.-seo-news .widget-main-title {
-  color: #00b3e3;
-}
-
-.w-stories-list.-seo-news .widget-main-title a {
-  color: #00b3e3;
 }
 
 .w-stories-list.-seo-news a {
   color: #00b3e3;
 }
 
-.w-stories-list.-social-media-news .widget-main-title {
-  color: #ff6b00;
-}
-
-.w-stories-list.-social-media-news .widget-main-title a {
-  color: #ff6b00;
-}
-
 .w-stories-list.-social-media-news a {
   color: #ff6b00;
-}
-
-.w-stories-list.-legal-industry-news .widget-main-title {
-  color: #3fd4ad;
-}
-
-.w-stories-list.-legal-industry-news .widget-main-title a {
-  color: #3fd4ad;
 }
 
 .w-stories-list.-legal-industry-news a {
@@ -684,50 +664,13 @@ a {
   background-color: #00af41;
 }
 
-.w-simple-text.-tip-month .widget-section-name {
-  color: #ffffff;
-}
-
-.w-simple-text.-tip-month .widget-main-title {
-  color: #ffffff;
-}
-
-.w-simple-text.-tip-month .widget-main-title a {
-  color: #ffffff;
-}
-
 .w-simple-text.-did-you-know {
   background-color: #ff6b00;
-}
-
-.w-simple-text.-did-you-know .widget-section-name {
-  color: #ffffff;
-}
-
-.w-simple-text.-did-you-know .widget-main-title {
-  color: #ffffff;
-}
-
-.w-simple-text.-did-you-know .widget-main-title a {
-  color: #ffffff;
 }
 
 .w-simple-text.-jobs-newsletter {
   border-bottom: 1px solid #e1e0e0;
   background-color: #fafafa;
-}
-
-.w-simple-text.-jobs-newsletter .widget-section-name {
-  color: #06357a;
-}
-
-.w-simple-text.-jobs-newsletter .widget-main-title {
-  color: #06357a;
-  font: 700 29px/1.27 Arial, sans-serif;
-}
-
-.w-simple-text.-jobs-newsletter .widget-main-title a {
-  color: #06357a;
 }
 
 .w-internet-stats {
@@ -1006,18 +949,6 @@ a {
   background-color: #fafafa;
 }
 
-.w-ranked-list .widget-section-name {
-  color: #ffffff;
-}
-
-.w-ranked-list .widget-main-title {
-  color: #ffffff;
-}
-
-.w-ranked-list .widget-main-title a {
-  color: #ffffff;
-}
-
 .w-ranked-list .ranking-table {
   padding: 50px 30px 30px;
 }
@@ -1102,18 +1033,6 @@ a {
 
 .w-law-events {
   background-color: #00af41;
-}
-
-.w-law-events .widget-section-name {
-  color: #ffffff;
-}
-
-.w-law-events .widget-main-title {
-  color: #ffffff;
-}
-
-.w-law-events .widget-main-title a {
-  color: #ffffff;
 }
 
 .w-law-events .main-title {
