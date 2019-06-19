@@ -17,7 +17,7 @@
 {{/and}}
 
 {{#table class="w-welcome set-max-width"}}
-  <tr>
+  {{!-- <tr>
     {{>ui-background
       backgroundBehavior="cell"
       backgroundStart=true
@@ -27,6 +27,11 @@
       bgWidth="600"
       bgHeight="169"
     }}
+  </tr> --}}
+  <tr>
+    <td class="main-banner" responsive="mobile-padding-horizontal-sides">
+      {{>img src="welcome-graphic-01.png" alt="Welcome"}}
+    </td>
   </tr>
   <tr>
     <td class="main-title" responsive="mobile-padding-horizontal-sides">

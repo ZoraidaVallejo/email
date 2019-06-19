@@ -20,7 +20,7 @@ h4 {
 
 p {
   margin: 0 0 16px;
-  font: 16px/1.38 Arial, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
 }
 
 p:last-child {
@@ -204,7 +204,7 @@ a {
 .main-footer.-basic-style .footer-address p,
 .main-footer.-basic-style .footer-address span,
 .main-footer.-basic-style .footer-address a {
-  font: 700 14px/1.38 Arial, sans-serif;
+  font: 700 14px/1.5 Arial, sans-serif;
 }
 
 .main-footer.-light-bright-style {
@@ -239,7 +239,7 @@ a {
 .main-footer.-light-bright-style .footer-address p,
 .main-footer.-light-bright-style .footer-address span,
 .main-footer.-light-bright-style .footer-address a {
-  font: 400 14px/1.38 Arial, sans-serif;
+  font: 400 14px/1.5 Arial, sans-serif;
 }
 
 .main-footer.-light-blue-style {
@@ -274,7 +274,7 @@ a {
 .main-footer.-light-blue-style .footer-address p,
 .main-footer.-light-blue-style .footer-address span,
 .main-footer.-light-blue-style .footer-address a {
-  font: 700 14px/1.38 Arial, sans-serif;
+  font: 700 14px/1.5 Arial, sans-serif;
 }
 
 .social-icons {
@@ -467,33 +467,52 @@ a {
 }
 
 .w-welcome {
-  background-color: #00b3e3;
+  background-color: #edf2f7;
+}
+
+.w-welcome .main-banner {
+  padding: 30px 30px 25px;
+}
+
+.w-welcome .main-banner img {
+  width: 540px;
 }
 
 .w-welcome .main-title {
-  padding: 0 30px 20px;
+  padding: 0 30px 25px;
+  text-align: center;
 }
 
 .w-welcome .main-title h1 {
-  color: #ffffff;
-  font: 400 22px/1.3 Arial, sans-serif;
+  color: #06357a;
+  font: 700 26px/1.1 Arial, sans-serif;
 }
 
 .w-welcome .description {
-  padding: 0 30px 15px;
+  padding: 0 30px 19px;
+  text-align: center;
 }
 
 .w-welcome .description p,
 .w-welcome .description a {
-  color: #ffffff;
+  color: #06357a;
+}
+
+.w-welcome .description p {
+  margin: 0 0 25px;
+}
+
+.w-welcome .description p:last-child {
+  margin: 0;
 }
 
 .w-welcome .description.-no-button {
-  padding: 0 30px 45px;
+  padding: 0 30px 50px;
 }
 
 .w-welcome .button {
-  padding: 5px 30px 45px;
+  padding: 5px 30px 50px;
+  text-align: center;
 }
 
 .w-stories-list {
@@ -624,7 +643,7 @@ a {
 }
 
 .w-stories-list.-jurispro .featured-story .description p {
-  font: 20px/1.38 Arial, sans-serif;
+  font: 20px/1.5 Arial, sans-serif;
 }
 
 .w-simple-text .main-title {
@@ -779,7 +798,7 @@ a {
 }
 
 .w-featured-site-month .featured-site .client-info .name {
-  font: 22px/1.38 Arial, sans-serif;
+  font: 22px/1.5 Arial, sans-serif;
   margin: 0 0 10px;
 }
 
@@ -823,7 +842,7 @@ a {
 }
 
 .w-featured-site-month .sites-list .client-info .name {
-  font: 18px/1.38 Arial, sans-serif;
+  font: 18px/1.5 Arial, sans-serif;
 }
 
 .w-featured-site-month .sites-list .client-info .link {
@@ -1176,7 +1195,7 @@ a {
 }
 
 .w-advertisement .title a {
-  font: 30px/1.38 Arial, sans-serif;
+  font: 30px/1.5 Arial, sans-serif;
   color: #06357a;
 }
 

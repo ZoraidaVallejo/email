@@ -15,7 +15,7 @@ $responsive-max-width: $max-width + 40 !default;
 $sans-serif-font-family: Arial, sans-serif !default;
 
 $mail-global-font-size: 16px !default;
-$mail-global-line-height: 1.38 !default;
+$mail-global-line-height: 1.5 !default;
 $mail-global-font-family: $sans-serif-font-family !default;
 
 $use-special-font: true !default;
@@ -37,7 +37,9 @@ $mail-color-palette: (
   'shuttle-gray': #5f646e,
   'picton-blue': #398ff2,
   'cape-cod': #3d4041,
-  'jade': #01b463
+  'jade': #01b463,
+  // Redesign
+  'catskill-white': #edf2f7
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
