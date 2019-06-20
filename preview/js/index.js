@@ -11,6 +11,7 @@ window.domready(function ready() {
   const mockupPosChanger = document.querySelector('.mockup-position .position');
   const mockupOpacityChanger = document.querySelector('.mockup-position .opacity');
   var scrollOffset = {};
+  var initialMockupOpacity = Number(localStorage.getItem('mockupOpacity')) || 0;
 
   // TODO:
   // - Change values to dynamic.
@@ -28,7 +29,13 @@ window.domready(function ready() {
     });
   }
 
+  function changeMockupOpacity(value) {
+    mockupWrapper.style.opacity = value;
+    localStorage.setItem('mockupOpacity', value);
+  }
+
   resetMockupsPosition();
+  changeMockupOpacity(initialMockupOpacity);
 
   previewWindow.addEventListener('load', function setMockupClasses() {
     var innerDoc = previewWindow.contentDocument;
@@ -52,11 +59,8 @@ window.domready(function ready() {
     scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
   });
 
-  mockupOpacityChanger.addEventListener('input', function alphaMockup(event) {
-    // TODO:
-    // Change localStorage values.
-    mockupWrapper.style.opacity = event.target.value;
-  });
+  mockupOpacityChanger.value = initialMockupOpacity;
+  mockupOpacityChanger.addEventListener('input', event => changeMockupOpacity(event.target.value));
 
   // On change, reload template
   templateSelect.addEventListener(

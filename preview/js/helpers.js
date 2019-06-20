@@ -90,6 +90,5 @@ function scrollMockup(element, value) {
   return element;
 }
 
-
 // eslint-disable-next-line node/no-unsupported-features/es-syntax
 export { delegate, triggerEvent, getMockupsNames, scrollMockup };
