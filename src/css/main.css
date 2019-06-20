@@ -593,9 +593,3 @@ a {
 .no-margin {
   margin: 0;
 }
-
-.jld-newsletter .w-stories-list.-tech-news,
-.jld-newsletter .w-stories-list.-social-media-news,
-.jld-newsletter .w-text-image.-meet-our-team {
-  border-bottom: 1px solid #e7e8e8;
-}
