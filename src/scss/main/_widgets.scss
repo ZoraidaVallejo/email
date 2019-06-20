@@ -5,9 +5,10 @@
 // .widget {
 // }
 
-.widget-header {
+.widget-title {
+  padding: $widget-gap $padding $padding;
 
-  .icon {
+  .title-icon {
     width: 55px;
     vertical-align: top;
 
@@ -16,11 +17,12 @@
     }
   }
 
-  .text {
+  .title-text {
+    padding: 0 0 0 15px;
     vertical-align: top;
   }
 
-  .section-name {
+  .type {
     color: plt('justia-blue');
 
     @include mail-font(16px, 1, tp('weight', 'normal'));
@@ -36,5 +38,3 @@
     }
   }
 }
-
-

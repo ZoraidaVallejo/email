@@ -8,7 +8,7 @@
   {{assign "featuredNewsButtonLink" (concat featuredNews.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
 {{/and}}
 
-{{assign "featuredNewsWidgetConfig" (toObject
+{{!-- {{assign "featuredNewsWidgetConfig" (toObject
   description=featuredNews.description
   buttonStyle=featuredNews.button.style
   buttonLink=@root.featuredNewsButtonLink
@@ -16,14 +16,49 @@
   imageLink=@root.featuredNewsImageLink
   imageSrc=featuredNews.image
   imageAlt=featuredNews.title
-)}}
+)}} --}}
 
-{{#table class="widget w-stories-list -featured-news set-max-width"}}
+{{#table class="widget w-featured-news set-max-width"}}
+  {{>widget-title
+    type=featuredNews.widget.type
+    icon=featuredNews.widget.icon
+    title=featuredNews.widget.title
+    link=@root.featuredNewsTitleLink
+  }}
+
   <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header section=featuredNews.sectionName title=featuredNews.title link=@root.featuredNewsTitleLink}}
+    <td class="banner">
+      {{>img src=featuredNews.banner alt=featuredNews.title}}
     </td>
   </tr>
 
-  {{>featured-story widgetConfig=@root.featuredNewsWidgetConfig}}
+  {{!-- <tr>
+    <td class="featured-story" responsive="mobile-padding-horizontal-sides">
+      {{#table align=""}}
+        <tr>
+          <td class="description{{#if widgetConfig.buttonLink}} -with-button{{/if}}" responsive="collapse-one mobile-no-padding-horizontal-sides">
+            {{#each widgetConfig.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+            {{#if widgetConfig.buttonLink}}
+              {{#uiButton presetStyle=widgetConfig.buttonStyle href=widgetConfig.buttonLink}}
+                {{widgetConfig.buttonText}}
+              {{/uiButton}}
+            {{/if}}
+          </td>
+          <td class="image" responsive="mobile-hide">
+            {{#if widgetConfig.imageLink}}<a href="{{{widgetConfig.imageLink}}}" target="_blank">{{/if}}
+              {{>img
+                src=widgetConfig.imageSrc
+                alt=widgetConfig.imageAlt
+              }}
+            {{#if widgetConfig.imageLink}}</a>{{/if}}
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr> --}}
+
+
+  {{!-- {{>featured-story widgetConfig=@root.featuredNewsWidgetConfig}} --}}
 {{/table}}
