@@ -8,9 +8,12 @@ window.domready(function ready() {
   const previewWindow = document.querySelector('iframe');
   const mockupWrapper = document.querySelector('.mockup-mask');
   const mockupImg = mockupWrapper.querySelector('img');
+  const mockupPosChanger = document.querySelector('.mockup-position input');
   var scrollOffset = {};
 
-  // TODO: Change values to dynamic.
+  // TODO:
+  // - Change values to dynamic.
+  // - Get from local storage.
   var moveMockup = {
     'client-newsletter': 9,
     'jld-newsletter': 5
@@ -35,10 +38,17 @@ window.domready(function ready() {
     resetMockupsPosition();
     scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
 
-    innerDoc.addEventListener('scroll', event => {
+    innerDoc.addEventListener('scroll', function scollMockup(event) {
       scrollOffset[mockupName] = event.target.childNodes[1].scrollTop;
       scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
     });
+  });
+
+  mockupPosChanger.addEventListener('input', function repositionMockup(event) {
+    var mockupName = templateSelect.value.replace('.html', '');
+    moveMockup[mockupName] = Number(event.target.value);
+
+    scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
   });
 
   // On change, reload template
@@ -52,6 +62,12 @@ window.domready(function ready() {
       if (!value) {
         return;
       }
+
+      var mockupName = templateSelect.value.replace('.html', '');
+
+      // TODO:
+      // Change localStorage values.
+      mockupPosChanger.value = moveMockup[mockupName]; // Set slider to actual position.
 
       resetMockupsPosition();
 
