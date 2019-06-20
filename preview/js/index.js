@@ -1,6 +1,19 @@
 // eslint-disable-next-line node/no-unsupported-features/es-syntax, import/extensions
 import { delegate, triggerEvent } from './helpers.js';
 
+function scrollMockup(element, value) {
+  // eslint-disable-next-line no-param-reassign
+  element.style.transform = `translateY(${value}px)`;
+}
+
+function getMockupsNames(select) {
+  var options = Array.from(select).slice(1);
+  return options.reduce(function getFromData(acc, itm) {
+      acc.push(itm.dataset.mockupName);
+      return acc;
+    }, []);
+}
+
 window.domready(function ready() {
   // Reusables
   const templateSelect = document.getElementById('template-select');
@@ -8,22 +21,36 @@ window.domready(function ready() {
   const previewWindow = document.querySelector('iframe');
   const mockupWrapper = document.querySelector('.mockup-mask');
   const mockupImg = mockupWrapper.querySelector('img');
-  var scrollOffset = 0;
-  var moveMockup = 8;
+  var scrollOffset = {};
 
-  function setTransform() {
-    mockupImg.style.transform = `translateY(${moveMockup - scrollOffset}px)`;
+  // TODO: Change values to dynamic.
+  var moveMockup = {
+    'client-newsletter': 9,
+    'jld-newsletter': 5
+  };
+
+  var allMockups = getMockupsNames(templateSelect);
+
+  function resetMockupsPosition() {
+    allMockups.forEach(function each(value) {
+      scrollOffset[value] = 0;
+    });
   }
+
+  resetMockupsPosition();
 
   previewWindow.addEventListener('load', function setMockupClasses() {
     var innerDoc = previewWindow.contentDocument;
+    var mockupName = templateSelect.value.replace('.html', '');
 
-    mockupImg.src = `/images/${templateSelect.value.replace('.html', '')}-mockup.jpg`;
-    setTransform();
+    mockupImg.src = `/images/${mockupName}-mockup.jpg`;
+
+    resetMockupsPosition();
+    scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
 
     innerDoc.addEventListener('scroll', event => {
-      scrollOffset = event.target.childNodes[1].scrollTop;
-      setTransform();
+      scrollOffset[mockupName] = event.target.childNodes[1].scrollTop;
+      scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
     });
   });
 
@@ -38,6 +65,8 @@ window.domready(function ready() {
       if (!value) {
         return;
       }
+
+      resetMockupsPosition();
 
       previewWindow.src = `${value}?t=${ms}`;
       document.location.hash = `template:${value}`;
