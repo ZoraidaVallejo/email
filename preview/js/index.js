@@ -8,15 +8,16 @@ window.domready(function ready() {
   const previewWindow = document.querySelector('iframe');
   const mockupWrapper = document.querySelector('.mockup-mask');
   const mockupImg = mockupWrapper.querySelector('img');
-  const mockupPosChanger = document.querySelector('.mockup-position input');
+  const mockupPosChanger = document.querySelector('.mockup-position .position');
+  const mockupOpacityChanger = document.querySelector('.mockup-position .opacity');
   var scrollOffset = {};
 
   // TODO:
   // - Change values to dynamic.
   // - Get from local storage.
   var moveMockup = {
-    'client-newsletter': 9,
-    'jld-newsletter': 5
+    'client-newsletter': 0,
+    'jld-newsletter': 0
   };
 
   var allMockups = getMockupsNames(templateSelect);
@@ -49,6 +50,10 @@ window.domready(function ready() {
     moveMockup[mockupName] = Number(event.target.value);
 
     scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
+  });
+
+  mockupOpacityChanger.addEventListener('input', function alphaMockup(event) {
+    mockupWrapper.style.opacity = event.target.value;
   });
 
   // On change, reload template
