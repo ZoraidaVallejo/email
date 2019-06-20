@@ -4,10 +4,10 @@
  * Borrowed from https://github.com/zenorocha/delegate/blob/master/src/delegate.js
  * Modified it to use closest as prototype function of Element. Polyfill is already added in shared.
  *
- * @param   {Element}   element
- * @param   {String}    selector
- * @param   {String}    type
- * @param   {Function}  callback
+ * @param {Element} element
+ * @param {string} selector
+ * @param {string} type
+ * @param {Function} callback
  * @returns {Function}
  */
 function listener(element, selector, type, callback) {
@@ -25,11 +25,11 @@ function listener(element, selector, type, callback) {
  *
  * Borrowed from https://github.com/zenorocha/delegate/blob/master/src/delegate.js
  *
- * @param   {Element}   element
- * @param   {String}    selector
- * @param   {String}    type
- * @param   {Function}  callback
- * @param   {Boolean}   useCapture
+ * @param {Element} element
+ * @param {string} selector
+ * @param {string} type
+ * @param {Function} callback
+ * @param {Boolean} useCapture
  * @returns {Object}
  */
 function delegate(element, selector, type, callback, useCapture) {
@@ -48,7 +48,7 @@ function delegate(element, selector, type, callback, useCapture) {
  * Manually an event.
  *
  * @param {Element} element
- * @param {String}  type
+ * @param {string} type
  */
 function triggerEvent(element, type) {
   if ('createEvent' in document) {
@@ -64,10 +64,31 @@ function triggerEvent(element, type) {
   }
 }
 
-(function iife() {
+window.domready(function ready() {
   // Reusables
   const templateSelect = document.getElementById('template-select');
   const { hash } = document.location;
+  const previewWindow = document.querySelector('iframe');
+  const mockupWrapper = document.querySelector('.mockup-mask');
+  const mockupImg = mockupWrapper.querySelector('img');
+  var scrollOffset = 0;
+  var moveMockup = 8;
+
+  function setTransform() {
+    mockupImg.style.transform = `translateY(${moveMockup - scrollOffset}px)`;
+  }
+
+  previewWindow.addEventListener('load', function setMockupClasses() {
+    var innerDoc = previewWindow.contentDocument;
+
+    mockupImg.src = `/images/${templateSelect.value.replace('.html', '')}-mockup.jpg`;
+    setTransform();
+
+    innerDoc.addEventListener('scroll', event => {
+      scrollOffset = event.target.childNodes[1].scrollTop;
+      setTransform();
+    });
+  });
 
   // On change, reload template
   templateSelect.addEventListener(
@@ -81,11 +102,7 @@ function triggerEvent(element, type) {
         return;
       }
 
-      document.querySelectorAll('iframe').forEach(function setIframeSrc(frame) {
-        // eslint-disable-next-line no-param-reassign
-        frame.src = `${value}?t=${ms}`;
-      });
-
+      previewWindow.src = `${value}?t=${ms}`;
       document.location.hash = `template:${value}`;
     },
     false
@@ -111,6 +128,12 @@ function triggerEvent(element, type) {
       event.preventDefault();
       const button = event.delegateTarget;
 
+      if (button.classList.contains('-mobile')) {
+        mockupWrapper.classList.add('-hide');
+      } else {
+        mockupWrapper.classList.remove('-hide');
+      }
+
       buttons.forEach(function switchClasses(btn) {
         btn.classList.remove('-active');
         document.body.classList.remove(`set-view-${btn.dataset.viewType}`);
@@ -122,4 +145,4 @@ function triggerEvent(element, type) {
     },
     false
   );
-})();
+});

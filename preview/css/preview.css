@@ -30,7 +30,7 @@ body {
 
 .preview-interface-view .preview-header {
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   top: 0;
   left: 0;
   width: 100vw;
@@ -224,3 +224,23 @@ body {
     box-shadow: inset 0 0 2px rgba(52, 142, 218, 0);
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); } }
+
+.mockup-mask {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 0;
+  opacity: 0.3;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  transition: opacity 200ms linear;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none; }
+  .mockup-mask.-hide {
+    opacity: 0; }
+  .mockup-mask img {
+    display: block;
+    margin: 0 auto; }
