@@ -64,5 +64,32 @@ function triggerEvent(element, type) {
   }
 }
 
+/**
+ * Gets all the mockups names from the preview select element.
+ * @param {HTMLSelectElement} select - Select with all available previews.
+ * @returns {string[]} List of all the mockups names.
+ */
+function getMockupsNames(select) {
+  var options = Array.from(select).slice(1);
+  return options.reduce(function getFromData(acc, itm) {
+    acc.push(itm.dataset.mockupName);
+    return acc;
+  }, []);
+}
+
+/**
+ * Moves the current mockup to match the scroll movement of current preview.
+ * @param {Element} element - DOM image.
+ * @param {number} value - Scroll offset.
+ * @returns {Element} Same element.
+ */
+function scrollMockup(element, value) {
+  // eslint-disable-next-line no-param-reassign
+  element.style.transform = `translateY(${value}px)`;
+
+  return element;
+}
+
+
 // eslint-disable-next-line node/no-unsupported-features/es-syntax
-export { delegate, triggerEvent };
+export { delegate, triggerEvent, getMockupsNames, scrollMockup };

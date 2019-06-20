@@ -1,18 +1,5 @@
 // eslint-disable-next-line node/no-unsupported-features/es-syntax, import/extensions
-import { delegate, triggerEvent } from './helpers.js';
-
-function scrollMockup(element, value) {
-  // eslint-disable-next-line no-param-reassign
-  element.style.transform = `translateY(${value}px)`;
-}
-
-function getMockupsNames(select) {
-  var options = Array.from(select).slice(1);
-  return options.reduce(function getFromData(acc, itm) {
-      acc.push(itm.dataset.mockupName);
-      return acc;
-    }, []);
-}
+import { delegate, triggerEvent, getMockupsNames, scrollMockup } from './helpers.js';
 
 window.domready(function ready() {
   // Reusables
