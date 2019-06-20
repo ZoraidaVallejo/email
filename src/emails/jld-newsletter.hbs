@@ -17,7 +17,10 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
-        {{!-- {{>featured-site-month listSites=true}}
+        {{>tip-month widgetConfig=tipMonth.jld}}
+
+        {{!--
+        {{>featured-site-month listSites=true}}
 
         {{>ad-jld-01}}
 
@@ -34,8 +37,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>legal-industry-news}}
 
         {{>annotator}}
-
-        {{>tip-month widgetConfig=tipMonth.jld}}
 
         {{>meet-our-team}}
 
