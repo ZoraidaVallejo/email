@@ -11,33 +11,30 @@
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
-  {{assign "welcomeWidgetMainButton" true}}
+  {{assign "widgetWithButton" true}}
 {{else}}
-  {{assign "welcomeWidgetMainButton" false}}
+  {{assign "widgetWithButton" false}}
 {{/and}}
 
 {{#table class="widget w-welcome set-max-width"}}
+  {{>widget-banner
+    imgSrc="https://justatic.com/v/1/emails/images/newsletters/common/redesign/welcome-graphic-01.png"
+    imgAlt="Welcome"
+  }}
+
   <tr>
-    <td class="main-banner" responsive="mobile-padding-horizontal-sides">
-      {{>img src="https://justatic.com/v/1/emails/images/newsletters/common/redesign/welcome-graphic-01.png" alt="Welcome"}}
-    </td>
-  </tr>
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      <h1><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
-    </td>
-  </tr>
-  <tr>
-    <td class="description{{#unless @root.welcomeWidgetMainButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+
       {{#each widgetConfig.message}}
         <p>{{{this}}}</p>
       {{/each}}
     </td>
   </tr>
 
-  {{#if @root.welcomeWidgetMainButton}}
+  {{#if @root.widgetWithButton}}
     <tr>
-      <td class="button" responsive="mobile-padding-horizontal-sides">
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
         {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
           {{widgetConfig.button.text}}
         {{/uiButton}}

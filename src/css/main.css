@@ -451,84 +451,104 @@ a {
   font-size: 0;
 }
 
-.widget-title {
+.widget {
+  border-bottom: 1px solid #efefef;
+}
+
+.widget:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.widget-header {
   padding: 50px 30px 30px;
 }
 
-.widget-title .title-icon {
+.widget-header .header-icon-column {
   width: 55px;
   vertical-align: top;
 }
 
-.widget-title .title-icon img {
+.widget-header .header-icon-column img {
   width: 55px;
 }
 
-.widget-title .title-text {
+.widget-header .header-text-column {
   padding: 0 0 0 15px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
-.widget-title .type {
+.widget-header .type {
   color: #06357a;
   font: 400 16px/16px Arial, sans-serif;
 }
 
-.widget-title .title {
+.widget-header .header {
   color: #06357a;
   font: 700 32px/1.2 Arial, sans-serif;
 }
 
-.widget-title .title a {
+.widget-header .header a {
   color: #06357a;
+}
+
+.widget-banner {
+  padding: 0 30px 35px;
+}
+
+.widget-banner img {
+  width: 540px;
+}
+
+.widget-description {
+  padding: 0 30px 25px;
+}
+
+.widget-description .content-title {
+  font: 700 22px/1.2 Arial, sans-serif;
+  margin: 0 0 10px;
+  color: #000000;
+}
+
+.widget-description.-no-button {
+  padding: 0 30px 50px;
+}
+
+.widget-button {
+  padding: 0 30px 50px;
 }
 
 .w-welcome {
   background-color: #edf2f7;
 }
 
-.w-welcome .main-banner {
+.w-welcome .widget-banner {
   padding: 30px 30px 25px;
 }
 
-.w-welcome .main-banner img {
-  width: 540px;
-}
-
-.w-welcome .main-title {
-  padding: 0 30px 25px;
+.w-welcome .widget-description {
   text-align: center;
 }
 
-.w-welcome .main-title h1 {
+.w-welcome .widget-description .content-title {
+  margin: 0 0 25px;
   color: #06357a;
   font: 700 26px/1.1 Arial, sans-serif;
 }
 
-.w-welcome .description {
-  padding: 0 30px 19px;
-  text-align: center;
-}
-
-.w-welcome .description p,
-.w-welcome .description a {
+.w-welcome .widget-description p,
+.w-welcome .widget-description a {
   color: #06357a;
 }
 
-.w-welcome .description p {
+.w-welcome .widget-description p {
   margin: 0 0 25px;
 }
 
-.w-welcome .description p:last-child {
+.w-welcome .widget-description p:last-child {
   margin: 0;
 }
 
-.w-welcome .description.-no-button {
-  padding: 0 30px 50px;
-}
-
-.w-welcome .button {
-  padding: 5px 30px 50px;
+.w-welcome .widget-button {
   text-align: center;
 }
 

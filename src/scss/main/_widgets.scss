@@ -2,13 +2,18 @@
 // W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-// .widget {
-// }
+.widget {
+  border-bottom: 1px solid plt('gallery');
 
-.widget-title {
+  &:nth-child(odd) {
+    background-color: plt('wild-sand');
+  }
+}
+
+.widget-header {
   padding: $widget-gap $padding $padding;
 
-  .title-icon {
+  .header-icon-column {
     width: 55px;
     vertical-align: top;
 
@@ -17,9 +22,9 @@
     }
   }
 
-  .title-text {
+  .header-text-column {
     padding: 0 0 0 15px;
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   .type {
@@ -28,7 +33,7 @@
     @include mail-font(16px, 1, tp('weight', 'normal'));
   }
 
-  .title {
+  .header {
     color: plt('justia-blue');
 
     @include mail-font(32px, 1.2, tp('weight', 'bold'));
@@ -37,4 +42,30 @@
       color: plt('justia-blue');
     }
   }
+}
+
+.widget-banner {
+  padding: 0 $padding 35px;
+
+  img {
+    width: $inner-max-width;
+  }
+}
+
+.widget-description {
+  padding: 0 $padding 25px;
+
+  .content-title {
+    @include mail-font(22px, 1.2, tp('weight', 'bold'));
+    margin: 0 0 10px;
+    color: plt('black');
+  }
+
+  &.-no-button {
+    padding: 0 $padding $widget-gap;
+  }
+}
+
+.widget-button {
+  padding: 0 $padding $widget-gap;
 }

@@ -5,28 +5,19 @@
 .w-welcome {
   background-color: plt('mail', 'catskill-white');
 
-  .main-banner {
+  .widget-banner {
     padding: $padding $padding grid-unit(0.5);
-
-    img {
-      width: $inner-max-width;
-    }
   }
 
-  .main-title {
-    padding: 0 $padding grid-unit(0.5);
+  .widget-description {
     text-align: center;
 
-    h1 {
+    .content-title {
+      margin: 0 0 grid-unit(0.5);
       color: plt('justia-blue');
 
       @include mail-font(26px, 1.1, tp('weight', 'bold'));
     }
-  }
-
-  .description {
-    padding: 0 $padding 19px;
-    text-align: center;
 
     p,
     a {
@@ -40,14 +31,9 @@
         margin: 0;
       }
     }
-
-    &.-no-button {
-      padding: 0 $padding $widget-gap;
-    }
   }
 
-  .button {
-    padding: 5px $padding $widget-gap;
+  .widget-button {
     text-align: center;
   }
 }

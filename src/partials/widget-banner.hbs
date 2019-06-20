@@ -1,0 +1,14 @@
+{{!
+ * @param {string} imgSrc - Image path (relative or absolute).
+ * @param {string} imgAlt - Image alternative text.
+ * @param {string} [link] - Optional link for the banner.
+ * @param {string} [className] - Optional extra CSS classes.
+}}
+
+<tr>
+  <td class="{{classList "widget-banner" className}}" responsive="mobile-padding-horizontal-sides">
+    {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}
+      {{>img src=imgSrc alt=imgAlt}}
+    {{#if link}}</a>{{/if}}
+  </td>
+</tr>

@@ -1,8 +1,7 @@
 {
   "widget": {
     "icon": "featured-news",
-    "type": "Type",
-    "title": "Featured News"
+    "header": "Featured News"
   },
   "link": "https://onward.justia.com/",
   "utm": {
@@ -28,10 +27,9 @@
     }
   },
   "banner": "featured-news-01.png",
-  "title": "[Commodo ipsum labore culpa irure tempor veniam mollit.]",
+  "title": "[Commodo ipsum labore culpa irure.]",
   "description": [
-    "[Deserunt Lorem do et sit do exercitation. Labore ut amet do ea. Deserunt laborum laborum ipsum reprehenderit veniam ullamco officia. Dolore fugiat consequat magna nisi excepteur anim fugiat ex officia culpa. Ad amet consectetur ipsum minim do velit officia laborum culpa ex mollit non. Qui commodo adipisicing aute velit adipisicing incididunt nisi.]",
-    "[Eiusmod incididunt laboris ut aliquip est mollit culpa do. Esse elit cillum culpa cillum. Officia labore non velit eu mollit et anim irure ipsum tempor sunt eu tempor nostrud. Cillum nisi ex do proident voluptate Lorem enim.]"
+    "[Deserunt Lorem do et sit do exercitation. Labore ut amet do ea. Deserunt laborum laborum ipsum reprehenderit veniam ullamco officia. Dolore fugiat consequat magna"
   ],
   "button": {
     "style": "light-blue",
