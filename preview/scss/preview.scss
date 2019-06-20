@@ -8,27 +8,7 @@ $light-blue: #00b3e3;
 // Preivew User Interface
 @import 'ui';
 
+@import 'mockup';
+
 // Preview "Welcome (default) Screen"
 @import 'welcome';
-
-.mockup-mask {
-  position: absolute;
-  z-index: 10;
-  top: $header-size;
-  left: 0;
-  opacity: 0.3;
-  width: 100vw;
-  height: calc(100vh - #{$header-size});
-  transition: opacity $transition-duration linear;
-  user-select: none;
-  pointer-events: none;
-
-  &.-hide {
-    opacity: 0;
-  }
-
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-}
