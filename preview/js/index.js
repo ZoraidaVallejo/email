@@ -16,8 +16,8 @@ window.domready(function ready() {
   // - Change values to dynamic.
   // - Get from local storage.
   var moveMockup = {
-    'client-newsletter': 0,
-    'jld-newsletter': 0
+    'client-newsletter': 9,
+    'jld-newsletter': 5
   };
 
   var allMockups = getMockupsNames(templateSelect);
@@ -53,6 +53,8 @@ window.domready(function ready() {
   });
 
   mockupOpacityChanger.addEventListener('input', function alphaMockup(event) {
+    // TODO:
+    // Change localStorage values.
     mockupWrapper.style.opacity = event.target.value;
   });
 

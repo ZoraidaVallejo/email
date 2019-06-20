@@ -2,7 +2,8 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-welcome {
+.widget.w-welcome {
+  border-bottom: 0;
   background-color: plt('mail', 'catskill-white');
 
   .widget-banner {

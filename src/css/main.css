@@ -517,38 +517,39 @@ a {
   padding: 0 30px 50px;
 }
 
-.w-welcome {
+.widget.w-welcome {
+  border-bottom: 0;
   background-color: #edf2f7;
 }
 
-.w-welcome .widget-banner {
+.widget.w-welcome .widget-banner {
   padding: 30px 30px 25px;
 }
 
-.w-welcome .widget-description {
+.widget.w-welcome .widget-description {
   text-align: center;
 }
 
-.w-welcome .widget-description .content-title {
+.widget.w-welcome .widget-description .content-title {
   margin: 0 0 25px;
   color: #06357a;
   font: 700 26px/1.1 Arial, sans-serif;
 }
 
-.w-welcome .widget-description p,
-.w-welcome .widget-description a {
+.widget.w-welcome .widget-description p,
+.widget.w-welcome .widget-description a {
   color: #06357a;
 }
 
-.w-welcome .widget-description p {
+.widget.w-welcome .widget-description p {
   margin: 0 0 25px;
 }
 
-.w-welcome .widget-description p:last-child {
+.widget.w-welcome .widget-description p:last-child {
   margin: 0;
 }
 
-.w-welcome .widget-button {
+.widget.w-welcome .widget-button {
   text-align: center;
 }
 
