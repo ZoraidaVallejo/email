@@ -453,6 +453,7 @@ a {
 
 .widget {
   border-bottom: 1px solid #efefef;
+  background-color: #ffffff;
 }
 
 .widget:nth-child(odd) {
@@ -509,6 +510,10 @@ a {
   color: #000000;
 }
 
+.widget-description .content-title a {
+  color: #000000;
+}
+
 .widget-description.-no-button {
   padding: 0 30px 50px;
 }
@@ -551,10 +556,6 @@ a {
 
 .widget.w-welcome .widget-button {
   text-align: center;
-}
-
-.w-featured-news {
-  background-color: #ffffff;
 }
 
 .full-size {

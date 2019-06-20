@@ -4,6 +4,7 @@
 
 .widget {
   border-bottom: 1px solid plt('gallery');
+  background-color: plt('white');
 
   &:nth-child(odd) {
     background-color: plt('wild-sand');
@@ -59,6 +60,10 @@
     @include mail-font(22px, 1.2, tp('weight', 'bold'));
     margin: 0 0 10px;
     color: plt('black');
+
+    a {
+      color: plt('black');
+    }
   }
 
   &.-no-button {

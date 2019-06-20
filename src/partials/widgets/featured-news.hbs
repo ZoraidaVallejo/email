@@ -33,6 +33,10 @@
     link=@root.featuredNewsImageLink
   }}
 
+  {{!--
+  // TODO:
+  // Maybe move title and description to a component.
+  --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <h3 class="content-title">{{{featuredNews.title}}}</h3>
@@ -43,11 +47,11 @@
     </td>
   </tr>
 
+  {{!
+  // TODO:
+  // Move to `widget-button` component.
+  }}
   {{#if @root.widgetWithButton}}
-    {{!
-      // TODO:
-      // Move to `widget-button` component.
-    }}
     <tr>
       <td class="widget-button" responsive="mobile-padding-horizontal-sides">
         {{#uiButton presetStyle=featuredNews.button.style href=featuredNews.button.link}}
