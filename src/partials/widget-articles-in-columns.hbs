@@ -1,0 +1,45 @@
+{{!
+ * @param {Object[]} widgetConfig
+ * @param {Object[]} widgetConfig.stories
+ * @param {string} widgetConfig.stories[].title
+ * @param {string} widgetConfig.stories[].link
+ * @param {string} widgetConfig.stories[].description
+ * @param {boolean} widgetConfig.isLast
+}}
+
+<!-- OPEN FIRST ROW -->
+<tr class="ui-columns-grid">
+  {{!-- {{>ui-columns-grid columnGridStart=true fullWidth="540" cellWidth="250" cellAlignment="left"}}
+
+    <td>
+      asdad
+    </td>
+
+  {{>ui-columns-grid columnGridEnd=true}} --}}
+
+  {{>ui-columns-grid columnGridStart=true fullWidth=600 totalColumns=3 columnsGap=30}}
+    <tr>
+      <td>Cell 1</td>
+    </tr>
+  {{>ui-columns-grid columnGridSeparator=true cellAlignment="center"}}
+    <tr>
+      <td>Cell 2</td>
+    </tr>
+  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
+    <tr>
+      <td>Cell 3</td>
+    </tr>
+  {{>ui-columns-grid columnGridEnd=true}}
+</tr>
+
+<tr class="ui-columns-grid">
+  {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
+    <tr>
+      <td>Cell 1</td>
+    </tr>
+  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
+    <tr>
+      <td>Cell 2</td>
+    </tr>
+  {{>ui-columns-grid columnGridEnd=true}}
+</tr>

@@ -1,11 +1,7 @@
 <!-- TECH NEWS -->
 
-{{!-- {{#table class="widget w-stories-list -tech-news set-max-width"}}
-  <tr>
-    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title="Tech News"}}
-    </td>
-  </tr>
+{{#table class="widget w-tech-news stories-list set-max-width"}}
+  {{>widget-header header="Tech News" icon="tech-news"}}
 
-  {{>stories-list widgetConfig=(toObject stories=techNews.news isLast=true)}}
-{{/table}} --}}
+  {{>widget-articles-in-columns widgetConfig=techNews.news}}
+{{/table}}

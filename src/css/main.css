@@ -426,20 +426,12 @@ a {
 
 .ui-columns-grid .grid-column {
   display: inline-block;
-  width: 300px;
-  max-width: 300px;
-  vertical-align: top;
-}
-
-.ui-columns-grid .single-grid-cell {
-  width: 600px;
-  text-align: left;
   vertical-align: top;
 }
 
 .ui-columns-grid .grid-cell {
-  width: 300px;
-  text-align: center;
+  background-color: gray;
+  font: 16px/1.5 Arial, sans-serif;
 }
 
 .ui-spacer-hack {

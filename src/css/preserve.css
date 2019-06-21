@@ -104,6 +104,9 @@ div[style*='margin: 16px 0;'] {
   .mobile-reset-width {
     width: auto !important;
   }
+  .mobile-reset-max-width {
+    max-width: none !important;
+  }
   .mobile-reset-height {
     height: auto !important;
   }

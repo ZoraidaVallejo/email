@@ -13,19 +13,23 @@
 
   .grid-column {
     display: inline-block;
-    width: ($max-width / 2);
-    max-width: ($max-width / 2);
+    // width: ($max-width / 2);
+    // max-width: ($max-width / 2);
     vertical-align: top;
   }
 
-  .single-grid-cell {
-    width: $max-width;
-    text-align: left;
-    vertical-align: top;
-  }
+  // .single-grid-cell {
+  //   width: $max-width;
+  //   text-align: left;
+  //   vertical-align: top;
+  // }
 
   .grid-cell {
-    width: ($max-width / 2);
-    text-align: center;
+    // width: ($max-width / 2);
+    // text-align: center;
+    background-color: gray;
+
+    @include mail-font();
   }
 }
+

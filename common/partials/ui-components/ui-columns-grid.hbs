@@ -2,30 +2,81 @@
  * @param {Boolean} columnGridStart
  * @param {Boolean} columnGridEnd
  * @param {Boolean} columnGridSeparator
- * @param {String}  fullWidth
- * @param {String}  cellWidth
- * @param {String}  cellAlignment
- * @param {String}  rowClasses
- * @param {String}  columnClasses
- * @param {String}  cellClasses
+ * @param {number} fullWidth
+ * @param {number} totalColumns
+ * @param {number} columnsGap
+
+ * @param {string} cellAlignment
+ * @param {string} rowClasses
+ * @param {string} columnClasses
+ * @param {string} cellClasses
 }}
+
+{{!
+// TODO:
+// Update documentation.
+// It's getting too complicated to understand, maybe move this to JS as a custom function that do all the math.
+}}
+
+{{!-- {{#unless @root.countCells}}
+  {{assign "countCells" 1}}
+{{else}}
+  {{assign "countCells" (add @root.countCells 1)}}
+{{/unless}} --}}
+
+{{assign "fullWidth" (default fullWidth @root.fullWidth)}}
+{{assign "totalColumns" (default totalColumns @root.totalColumns)}}
+{{assign "cellWidth" (divide @root.fullWidth @root.totalColumns)}}
+{{assign "columnsGap" (default columnsGap @root.columnsGap)}}
+
+{{!
+// Formula for cellWidthMinusGap;
+// ($parent - ($gap * ($columns - 1))) / $columns
+}}
+{{assign
+  "cellWidthMinusGap"
+  (floor
+    (divide
+      (minus
+        @root.fullWidth
+        (multiply
+          @root.columnsGap
+          (minus @root.totalColumns 1)
+        )
+      )
+      @root.totalColumns
+    )
+  )}}
+
+{{!-- {{assign "isFirstCell" true}}
+{{assign "isLastCell" false}} --}}
 
 {{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
 {{assign "columnAllClasses" (classList "grid-column" columnClasses)}}
+{{assign "columnStyles" (styles width=(toPx @root.cellWidth) maxWidth=(toPx @root.cellWidth))}}
 {{assign "cellAllClasses" (classList "grid-cell" cellClasses)}}
-{{assign "cellAllAttributes" (tableAttr align=(default cellAlignment "left") class=@root.cellAllClasses responsive="mobile-align-center mobile-no-float")}}
+{{assign
+  "cellAllAttributes"
+  (tableAttr
+    align=(default cellAlignment "left")
+    width=@root.cellWidthMinusGap
+    class=@root.cellAllClasses
+    responsive="mobile-align-center mobile-no-float collapse-one"
+  )
+}}
 
 {{#if columnGridStart}}
   <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
-    <!--[if gte mso 9]><table {{{tableAttr width=fullWidth}}}><tr><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}">
+    <!--[if gte mso 9]><table {{{tableAttr width=@root.fullWidth}}}><tr><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
+    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="mobile-reset-width mobile-reset-max-width">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
+
 {{#if columnGridSeparator}}
       </table>
     </div>
-    <!--[if gte mso 9]></td><td align="center" valign="top" width="{{cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}">
+    <!--[if gte mso 9]></td><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
+    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="mobile-reset-width mobile-reset-max-width">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridEnd}}
@@ -33,4 +84,10 @@
     </div>
     <!--[if gte mso 9]></td></tr></table><![endif]-->
   </td>
+
+
+  {{!-- Reset variables --}}
+  {{assign "cellWidth" null}}
+  {{assign "fullWidth" null}}
+  {{!-- {{assign "countCells" null}} --}}
 {{/if}}
