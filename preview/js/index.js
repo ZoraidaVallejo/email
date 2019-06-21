@@ -1,5 +1,7 @@
-// eslint-disable-next-line node/no-unsupported-features/es-syntax, import/extensions
-import { delegate, triggerEvent, getMockupsNames, scrollMockup } from './helpers.js';
+/* eslint-disable node/no-unsupported-features/es-syntax, import/extensions */
+import { triggerEvent, getMockupsNames, scrollMockup } from './helpers.js';
+import initButtons from './init-buttons.js';
+import initOpacitySlider from './init-opacity-slider.js';
 
 window.domready(function ready() {
   // Reusables
@@ -8,18 +10,16 @@ window.domready(function ready() {
   const previewWindow = document.querySelector('iframe');
   const mockupWrapper = document.querySelector('.mockup-mask');
   const mockupImg = mockupWrapper.querySelector('img');
-  const mockupPosChanger = document.querySelector('.mockup-position .position');
-  const mockupOpacityChanger = document.querySelector('.mockup-position .opacity');
+  // const mockupPosChanger = document.querySelector('.mockup-position .position');
   var scrollOffset = {};
-  var initialMockupOpacity = Number(localStorage.getItem('mockupOpacity')) || 0;
 
   // TODO:
   // - Change values to dynamic.
   // - Get from local storage.
-  var moveMockup = {
-    'client-newsletter': 9,
-    'jld-newsletter': 5
-  };
+  // var moveMockup = {
+  //   'client-newsletter': 22,
+  //   'jld-newsletter': 5
+  // };
 
   var allMockups = getMockupsNames(templateSelect);
 
@@ -29,13 +29,7 @@ window.domready(function ready() {
     });
   }
 
-  function changeMockupOpacity(value) {
-    mockupWrapper.style.opacity = value;
-    localStorage.setItem('mockupOpacity', value);
-  }
-
   resetMockupsPosition();
-  changeMockupOpacity(initialMockupOpacity);
 
   previewWindow.addEventListener('load', function setMockupClasses() {
     var innerDoc = previewWindow.contentDocument;
@@ -44,23 +38,20 @@ window.domready(function ready() {
     mockupImg.src = `/images/${mockupName}-mockup.jpg`;
 
     resetMockupsPosition();
-    scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
+    scrollMockup(mockupImg, scrollOffset[mockupName] * -1);
 
     innerDoc.addEventListener('scroll', function scollMockup(event) {
       scrollOffset[mockupName] = event.target.childNodes[1].scrollTop;
-      scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
+      scrollMockup(mockupImg, scrollOffset[mockupName] * -1);
     });
   });
 
-  mockupPosChanger.addEventListener('input', function repositionMockup(event) {
-    var mockupName = templateSelect.value.replace('.html', '');
-    moveMockup[mockupName] = Number(event.target.value);
+  // mockupPosChanger.addEventListener('input', function repositionMockup(event) {
+  //   var mockupName = templateSelect.value.replace('.html', '');
+  //   moveMockup[mockupName] = Number(event.target.value);
 
-    scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
-  });
-
-  mockupOpacityChanger.value = initialMockupOpacity;
-  mockupOpacityChanger.addEventListener('input', event => changeMockupOpacity(event.target.value));
+  //   scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
+  // });
 
   // On change, reload template
   templateSelect.addEventListener(
@@ -74,11 +65,11 @@ window.domready(function ready() {
         return;
       }
 
-      var mockupName = templateSelect.value.replace('.html', '');
+      // var mockupName = templateSelect.value.replace('.html', '');
 
       // TODO:
       // Change localStorage values.
-      mockupPosChanger.value = moveMockup[mockupName]; // Set slider to actual position.
+      // mockupPosChanger.value = moveMockup[mockupName]; // Set slider to actual position.
 
       resetMockupsPosition();
 
@@ -88,6 +79,15 @@ window.domready(function ready() {
     false
   );
 
+  const mockupOpacityChanger = document.querySelector('.mockup-position .opacity');
+
+  initOpacitySlider(mockupImg, mockupOpacityChanger);
+
+  const buttonsWrapper = document.querySelector('.view-buttons');
+  const buttons = buttonsWrapper.querySelectorAll('.button');
+
+  initButtons(buttonsWrapper, buttons, mockupWrapper);
+
   // Preload selected template from hashed template:
   if (hash && hash.indexOf('template:') !== -1) {
     const tpl = hash.split(':')[1];
@@ -95,34 +95,4 @@ window.domready(function ready() {
 
     triggerEvent(templateSelect, 'change');
   }
-
-  const buttonsWrapper = document.querySelector('.view-buttons');
-  const buttons = buttonsWrapper.querySelectorAll('.button');
-
-  // Mobile Preview Drawer
-  delegate(
-    document.body,
-    '.view-buttons .button',
-    'click',
-    function viewClickButton(event) {
-      event.preventDefault();
-      const button = event.delegateTarget;
-
-      if (button.classList.contains('-mobile')) {
-        mockupWrapper.classList.add('-hide');
-      } else {
-        mockupWrapper.classList.remove('-hide');
-      }
-
-      buttons.forEach(function switchClasses(btn) {
-        btn.classList.remove('-active');
-        document.body.classList.remove(`set-view-${btn.dataset.viewType}`);
-      });
-
-      button.classList.add('-active');
-
-      document.body.classList.add(`set-view-${button.dataset.viewType}`);
-    },
-    false
-  );
 });

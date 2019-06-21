@@ -1,3 +1,5 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
+
 /**
  * Finds closest match and invokes callback.
  *
@@ -90,5 +92,4 @@ function scrollMockup(element, value) {
   return element;
 }
 
-// eslint-disable-next-line node/no-unsupported-features/es-syntax
 export { delegate, triggerEvent, getMockupsNames, scrollMockup };
