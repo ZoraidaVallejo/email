@@ -1,22 +1,53 @@
 {{!
  * @param {Object[]} widgetConfig
- * @param {Object[]} widgetConfig.stories
- * @param {string} widgetConfig.stories[].title
- * @param {string} widgetConfig.stories[].link
- * @param {string} widgetConfig.stories[].description
- * @param {boolean} widgetConfig.isLast
+ * @param {string} widgetConfig[].title
+ * @param {string} widgetConfig[].link
+ * @param {string} widgetConfig[].description
 }}
 
-<!-- OPEN FIRST ROW -->
-<tr class="ui-columns-grid">
-  {{!-- {{>ui-columns-grid columnGridStart=true fullWidth="540" cellWidth="250" cellAlignment="left"}}
+{{assign "columnStructure" (toColumnStructure widgetConfig 2)}}
 
-    <td>
-      asdad
-    </td>
+<tr class="widget-articles-in-columns ui-columns-grid">
+  <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+    {{#table}}
+      {{#each @root.columnStructure}}
+        <tr>
+          {{>ui-columns-grid rowClasses=(ternary @last "last-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
+            {{#each this}}
+              <tr>
+                <td class="article" {{#unless @last}}responsive="mobile-padding-medium-bottom"{{/unless}}>
+                  {{#if this.title}}
+                    <p class="title">
+                      {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
+                        <b>{{{this.title}}}</b>
+                      {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                    </p>
+                    <p class="description">
+                      {{{this.description}}}
+                    </p>
+                  {{else}}
+                    &nbsp;
+                  {{/if}}
+                </td>
+              </tr>
 
-  {{>ui-columns-grid columnGridEnd=true}} --}}
+              {{#unless @last}}
+                {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
+              {{/unless}}
+            {{/each}}
+          {{>ui-columns-grid columnGridEnd=true}}
+        </tr>
+      {{/each}}
+    {{/table}}
+  </td>
+</tr>
 
+{{!
+// TODO:
+// Use as an example in the documentation.
+}}
+
+{{!-- <tr class="ui-columns-grid">
   {{>ui-columns-grid columnGridStart=true fullWidth=600 totalColumns=3 columnsGap=30}}
     <tr>
       <td>Cell 1</td>
@@ -30,16 +61,4 @@
       <td>Cell 3</td>
     </tr>
   {{>ui-columns-grid columnGridEnd=true}}
-</tr>
-
-<tr class="ui-columns-grid">
-  {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
-    <tr>
-      <td>Cell 1</td>
-    </tr>
-  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
-    <tr>
-      <td>Cell 2</td>
-    </tr>
-  {{>ui-columns-grid columnGridEnd=true}}
-</tr>
+</tr> --}}

@@ -430,7 +430,6 @@ a {
 }
 
 .ui-columns-grid .grid-cell {
-  background-color: gray;
   font: 16px/1.5 Arial, sans-serif;
 }
 
@@ -512,6 +511,27 @@ a {
 
 .widget-button {
   padding: 0 30px 50px;
+}
+
+.widget-articles-in-columns > .wrapper {
+  padding: 0 30px 50px;
+}
+
+.widget-articles-in-columns .grid-cell td {
+  padding: 0 0 25px;
+}
+
+.widget-articles-in-columns .article a,
+.widget-articles-in-columns .article p {
+  color: #000000;
+}
+
+.widget-articles-in-columns .article .title {
+  margin: 0 0 8px;
+}
+
+.widget-articles-in-columns .last-row .grid-cell td {
+  padding: 0;
 }
 
 .widget.w-welcome {

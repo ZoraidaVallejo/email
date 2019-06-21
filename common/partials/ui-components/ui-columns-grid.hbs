@@ -18,12 +18,6 @@
 // It's getting too complicated to understand, maybe move this to JS as a custom function that do all the math.
 }}
 
-{{!-- {{#unless @root.countCells}}
-  {{assign "countCells" 1}}
-{{else}}
-  {{assign "countCells" (add @root.countCells 1)}}
-{{/unless}} --}}
-
 {{assign "fullWidth" (default fullWidth @root.fullWidth)}}
 {{assign "totalColumns" (default totalColumns @root.totalColumns)}}
 {{assign "cellWidth" (divide @root.fullWidth @root.totalColumns)}}
@@ -46,10 +40,8 @@
       )
       @root.totalColumns
     )
-  )}}
-
-{{!-- {{assign "isFirstCell" true}}
-{{assign "isLastCell" false}} --}}
+  )
+}}
 
 {{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
 {{assign "columnAllClasses" (classList "grid-column" columnClasses)}}
@@ -66,9 +58,9 @@
 }}
 
 {{#if columnGridStart}}
-  <td class="{{@root.rowAllClasses}}" responsive="mobile-padding-horizontal-sides">
+  <td class="{{@root.rowAllClasses}}">
     <!--[if gte mso 9]><table {{{tableAttr width=@root.fullWidth}}}><tr><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="mobile-reset-width mobile-reset-max-width">
+    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="collapse-one mobile-reset-max-width">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 
@@ -76,7 +68,7 @@
       </table>
     </div>
     <!--[if gte mso 9]></td><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="mobile-reset-width mobile-reset-max-width">
+    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="collapse-one mobile-reset-max-width">
       <table {{{@root.cellAllAttributes}}}>
 {{/if}}
 {{#if columnGridEnd}}
@@ -89,5 +81,4 @@
   {{!-- Reset variables --}}
   {{assign "cellWidth" null}}
   {{assign "fullWidth" null}}
-  {{!-- {{assign "countCells" null}} --}}
 {{/if}}
