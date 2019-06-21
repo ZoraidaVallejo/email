@@ -1,5 +1,5 @@
 /* eslint-disable node/no-unsupported-features/es-syntax, import/extensions */
-import { triggerEvent, getMockupsNames, scrollMockup } from './helpers.js';
+import { triggerEvent, getMockupsNames } from './helpers.js';
 import initButtons from './init-buttons.js';
 import initOpacitySlider from './init-opacity-slider.js';
 
@@ -10,48 +10,46 @@ window.domready(function ready() {
   const previewWindow = document.querySelector('iframe');
   const mockupWrapper = document.querySelector('.mockup-mask');
   const mockupImg = mockupWrapper.querySelector('img');
-  // const mockupPosChanger = document.querySelector('.mockup-position .position');
-  var scrollOffset = {};
 
-  // TODO:
-  // - Change values to dynamic.
-  // - Get from local storage.
-  // var moveMockup = {
-  //   'client-newsletter': 22,
-  //   'jld-newsletter': 5
-  // };
+  var currentMockup = templateSelect.value.replace('.html', '');
+  // var allMockups = getMockupsNames(templateSelect);
 
-  var allMockups = getMockupsNames(templateSelect);
-
-  function resetMockupsPosition() {
-    allMockups.forEach(function each(value) {
-      scrollOffset[value] = 0;
-    });
-  }
-
-  resetMockupsPosition();
+  // resetMockupsPosition();
 
   previewWindow.addEventListener('load', function setMockupClasses() {
     var innerDoc = previewWindow.contentDocument;
-    var mockupName = templateSelect.value.replace('.html', '');
+    currentMockup = templateSelect.value.replace('.html', '');
 
-    mockupImg.src = `/images/${mockupName}-mockup.jpg`;
+    if (currentMockup == '_blank') {
+      mockupWrapper.style.display = 'none';
+      return;
+    }
 
-    resetMockupsPosition();
-    scrollMockup(mockupImg, scrollOffset[mockupName] * -1);
+    mockupWrapper.style.display = 'block';
 
-    innerDoc.addEventListener('scroll', function scollMockup(event) {
-      scrollOffset[mockupName] = event.target.childNodes[1].scrollTop;
-      scrollMockup(mockupImg, scrollOffset[mockupName] * -1);
+    mockupImg.src = `/images/${currentMockup}-mockup.jpg`;
+    mockupWrapper.style.transform = 'translateY(0)';
+
+    innerDoc.addEventListener('scroll', function scrollMockup(event) {
+      mockupWrapper.style.transform = `translateY(${event.target.childNodes[1].scrollTop * -1}px)`;
     });
   });
 
-  // mockupPosChanger.addEventListener('input', function repositionMockup(event) {
-  //   var mockupName = templateSelect.value.replace('.html', '');
-  //   moveMockup[mockupName] = Number(event.target.value);
+  const mockupPosChanger = document.querySelector('.mockup-position .position');
+  // TODO:
+  // - Change values to dynamic.
+  // - Get from local storage.
+  var adjustMockup = {
+    'client-newsletter': 22,
+    'jld-newsletter': 5
+  };
 
-  //   scrollMockup(mockupImg, moveMockup[mockupName] - scrollOffset[mockupName]);
-  // });
+  mockupPosChanger.addEventListener('input', function repositionMockup(event) {
+    currentMockup = templateSelect.value.replace('.html', '');
+    adjustMockup[currentMockup] = Number(event.target.value);
+
+    mockupImg.style.transform = `translateY(${adjustMockup[currentMockup]}px)`;
+  });
 
   // On change, reload template
   templateSelect.addEventListener(
@@ -65,13 +63,13 @@ window.domready(function ready() {
         return;
       }
 
-      // var mockupName = templateSelect.value.replace('.html', '');
+      // currentMockup = templateSelect.value.replace('.html', '');
 
       // TODO:
       // Change localStorage values.
-      // mockupPosChanger.value = moveMockup[mockupName]; // Set slider to actual position.
+      // mockupPosChanger.value = adjustMockup[currentMockup]; // Set slider to actual position.
 
-      resetMockupsPosition();
+      // resetMockupsPosition();
 
       previewWindow.src = `${value}?t=${ms}`;
       document.location.hash = `template:${value}`;

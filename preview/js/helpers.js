@@ -79,17 +79,4 @@ function getMockupsNames(select) {
   }, []);
 }
 
-/**
- * Moves the current mockup to match the scroll movement of current preview.
- * @param {Element} element - DOM image.
- * @param {number} value - Scroll offset.
- * @returns {Element} Same element.
- */
-function scrollMockup(element, value) {
-  // eslint-disable-next-line no-param-reassign
-  element.style.transform = `translateY(${value}px)`;
-
-  return element;
-}
-
-export { delegate, triggerEvent, getMockupsNames, scrollMockup };
+export { delegate, triggerEvent, getMockupsNames };
