@@ -1,0 +1,45 @@
+{{! ================================================================================================================= }}
+{{! C L I E N T S   I N   T H E   N E W S                                                                             }}
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-in-the-news set-max-width"}}
+  {{>widget-header
+    header=inTheNews.widget.header
+    icon=inTheNews.widget.icon
+  }}
+
+  {{!-- <tr class="widget-articles-in-columns ui-columns-grid">
+    <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        {{#each @root.columnStructure}}
+          <tr>
+            {{>ui-columns-grid rowClasses=(ternary @last "last-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
+              {{#each this}}
+                <tr>
+                  <td class="article" {{#unless @last}}responsive="mobile-padding-medium-bottom"{{/unless}}>
+                    {{#if this.title}}
+                      <p class="title">
+                        {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
+                          <b>{{{this.title}}}</b>
+                        {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                      </p>
+                      <p class="description">
+                        {{{this.description}}}
+                      </p>
+                    {{else}}
+                      &nbsp;
+                    {{/if}}
+                  </td>
+                </tr>
+
+                {{#unless @last}}
+                  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
+                {{/unless}}
+              {{/each}}
+            {{>ui-columns-grid columnGridEnd=true}}
+          </tr>
+        {{/each}}
+      {{/table}}
+    </td>
+  </tr> --}}
+{{/table}}

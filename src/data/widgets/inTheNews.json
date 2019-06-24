@@ -1,0 +1,31 @@
+
+{
+  "widget": {
+    "icon": "client-in-the-news",
+    "header": "Client in the News"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "[Voluptate commodo proident elit velit ipsum.]"
+      },
+      "description": [
+        "[Do esse eu enim enim magna in pariatur irure dolor ullamco consequat anim aliquip. Velit tempor dolor nisi adipisicing.]",
+        "[Duis sint mollit proident veniam mollit do incididunt duis.]"
+      ],
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "image": {
+        "src": "clients-news-logo-02.png",
+        "alt": "[Nostrud minim duis.]"
+      },
+      "description": [
+        "[Nulla anim aliquip culpa fugiat tempor ullamco et eu aute id quis duis ea. Laborum dolor sit excepteur ea.]",
+        "[Culpa quis ad amet eu ut commodo. Laboris sunt consequat magna Lorem laborum enim.]"
+      ],
+      "readMore": "https://www.justia.com/"
+    }
+  ]
+}

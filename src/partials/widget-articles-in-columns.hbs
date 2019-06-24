@@ -9,14 +9,14 @@
  * @param {string} widgetConfig[].description
 }}
 
-{{assign "columnStructure" (toColumnStructure widgetConfig 2)}}
+{{assign "articlesColumnStructure" (toColumnStructure widgetConfig 2)}}
 
 {{! ================================================================================================================= }}
 
 <tr class="widget-articles-in-columns ui-columns-grid">
   <td class="wrapper" responsive="mobile-padding-horizontal-sides">
     {{#table}}
-      {{#each @root.columnStructure}}
+      {{#each @root.articlesColumnStructure}}
         <tr>
           {{>ui-columns-grid rowClasses=(ternary @last "last-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
             {{#each this}}

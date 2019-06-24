@@ -4,8 +4,8 @@
 
 {{!
  * @param {string} header - Main header text of the widget.
- * @param {string} type - Defines the type of the content.
  * @param {string} icon - Name of the icon.
+ * @param {string} [type] - Defines the type of the content.
  * @param {string} [link] - Optional link for the header text.
  * @param {string} [className] - Optional extra CSS classes.
 }}
@@ -23,11 +23,9 @@
         </td>
         <td class="header-text-column">
           {{#if type}}<h4 class="type">{{type}}</h4>{{/if}}
-          {{#if header}}
-            <h2 class="header" responsive="mobile-fz-24">
-              {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}{{{header}}}{{#if link}}</a>{{/if}}
-            </h2>
-          {{/if}}
+          <h2 class="header" responsive="mobile-fz-24">
+            {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}{{{header}}}{{#if link}}</a>{{/if}}
+          </h2>
         </td>
       </tr>
     {{/table}}

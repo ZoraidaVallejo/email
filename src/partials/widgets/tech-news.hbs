@@ -3,7 +3,10 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-tech-news set-max-width"}}
-  {{>widget-header header="Tech News" icon="tech-news"}}
+  {{>widget-header
+    header=techNews.widget.header
+    icon=techNews.widget.icon
+  }}
 
   {{>widget-articles-in-columns widgetConfig=techNews.news}}
 {{/table}}

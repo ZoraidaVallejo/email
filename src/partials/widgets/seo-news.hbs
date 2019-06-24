@@ -3,7 +3,10 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-seo-news set-max-width"}}
-  {{>widget-header header="SEO News" icon="seo-news"}}
+  {{>widget-header
+    header=seoNews.widget.header
+    icon=seoNews.widget.icon
+  }}
 
   {{>widget-articles-in-columns widgetConfig=seoNews.news}}
 {{/table}}
