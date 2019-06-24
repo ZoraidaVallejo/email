@@ -46,7 +46,7 @@
         {{#forEach featuredSiteMonth.sites}}
           {{#table align="" class=(concat "site-item -site-" index)}}
             <tr>
-              <td class="devices" responsive="mobile-hide">
+              <td class="devices{{#if isLast}} -last{{/if}}" responsive="mobile-hide">
                 <a href="{{this.domain.long}}" target="_blank">
                   {{>img
                     src=this.thumbnail
@@ -54,12 +54,12 @@
                   }}
                 </a>
               </td>
-              <td class="client-info" responsive="collapse-one mobile-align-center{{#unless isFirst}} mobile-padding-medium-top{{/unless}}{{#unless isLast}} mobile-padding-medium-bottom{{/unless}}">
-                <p class="name">
+              <td class="client-info{{#if isLast}} -last{{/if}}" responsive="collapse-one mobile-align-center {{#unless isLast}} mobile-padding-medium-bottom{{else}} mobile-no-padding-bottom{{/unless}}">
+                <p class="name" responsive="mobile-fz-18">
                   <b>{{{this.clientName}}}</b>
                 </p>
-                <p class="loc">in {{this.location}}</p>
-                <p class="link">
+                <p class="location">in {{this.location}}</p>
+                <p class="website">
                   <a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a>
                 </p>
               </td>

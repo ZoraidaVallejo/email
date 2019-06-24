@@ -597,6 +597,47 @@ a {
   width: 540px;
 }
 
+.w-featured-site-month .sites-list-description {
+  padding: 0 30px 25px;
+  text-align: center;
+}
+
+.w-featured-site-month .sites-list {
+  padding: 0 30px 50px;
+}
+
+.w-featured-site-month .sites-list .devices {
+  width: 230px;
+  padding: 0 30px 30px 20px;
+}
+
+.w-featured-site-month .sites-list .devices.-last {
+  padding: 0 30px 0 20px;
+}
+
+.w-featured-site-month .sites-list .devices img {
+  width: 230px;
+}
+
+.w-featured-site-month .sites-list .client-info {
+  padding: 0 0 50px;
+  vertical-align: middle;
+}
+
+.w-featured-site-month .sites-list .client-info.-last {
+  padding: 0 0 20px;
+}
+
+.w-featured-site-month .sites-list .client-info .name {
+  font: 22px/1.15 Arial, sans-serif;
+  margin: 0 0 10px;
+}
+
+.w-featured-site-month .sites-list .client-info .location,
+.w-featured-site-month .sites-list .client-info .website {
+  margin: 0;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
