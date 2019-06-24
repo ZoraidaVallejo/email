@@ -13,6 +13,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
   <tr>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
+
         {{>welcome widgetConfig=welcome.jld}}
 
         {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
@@ -21,37 +22,31 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-site-month listSites=true}}
 
+        {{!-- {{>ad-jld-01}} --}}
+
         {{>tech-news}}
 
         {{>did-you-know widgetConfig=didYouKnow.jld}}
 
         {{>seo-news}}
 
+        {{!-- {{>answers-leaderboard}} --}}
+
         {{>legal-industry-news}}
 
-        {{>jobs-subscribe}}
+        {{!-- {{>annotator}} --}}
 
-        {{!--
+        {{!-- {{>jobs-subscribe}} --}}
 
-        {{>ad-jld-01}}
-
-        {{>answers-leaderboard}}
-
-        {{>annotator}}
-
-        {{>meet-our-team}}
-
-        {{>pugs-tale}}
+        {{!-- {{>inside-justia}} --}}
 
         {{>internet-stats}}
 
-        {{>ad-jld-02}}
+        {{!-- {{>ad-jld-02}} --}}
 
-        {{>jurispro}}
+        {{!-- {{>jurispro}} --}}
 
-        {{>law-events}}
-
-        --}}
+        {{!-- {{>law-events}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

@@ -13,6 +13,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
   <tr>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
+
         {{>welcome widgetConfig=welcome.clients}}
 
         {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
@@ -25,29 +26,17 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{>seo-news}}
 
+        {{>internet-stats}}
+
+        {{!-- {{>in-the-news}} --}}
+
         {{>did-you-know widgetConfig=didYouKnow.clients}}
+
+        {{!-- {{>inside-justia}} --}}
 
         {{>legal-industry-news}}
 
-        {{!--
-
-        {{>internet-stats}}
-
-        {{>in-the-news}}
-
-        {{>inside-justia}}
-
-        {{>meet-our-team}}
-
-        {{>ad-client-01}}
-
-        {{>pugs-tale}}
-
-        {{>ad-client-02}}
-
-        {{>law-events}}
-
-        --}}
+        {{!-- {{>law-events}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
