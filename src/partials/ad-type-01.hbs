@@ -1,3 +1,5 @@
+{{! ================================================================================================================= }}
+
 {{!
  * @param {String}          widgetClass
  * @param {Object}          widgetConfig
@@ -16,6 +18,8 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+
+{{! ================================================================================================================= }}
 
 {{#table class=(classList "w-advertisement" "-type-01" widgetClass "set-max-width")}}
   {{#if widgetConfig.logo}}

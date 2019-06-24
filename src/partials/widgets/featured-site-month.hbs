@@ -1,11 +1,12 @@
+{{! ================================================================================================================= }}
 <!-- FEATURED SITE OF THE MONTH -->
+{{! ================================================================================================================= }}
 
-{{!-- {{#table class="w-featured-site-month set-max-width"}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title=(concat "Featured " (ternary listSites "Sites" "Site") " of the Month")}}
-    </td>
-  </tr>
+{{#table class="widget w-featured-site-month set-max-width"}}
+  {{>widget-header
+    header=(concat "Featured " (ternary listSites "Sites" "Site") " of the Month")
+    icon="featured-site-of-the-month"
+  }}
 
   {{#if singleSite}}
     <tr class="featured-site">
@@ -69,4 +70,4 @@
       </td>
     </tr>
   {{/if}}
-{{/table}} --}}
+{{/table}}

@@ -1,10 +1,14 @@
+{{! ================================================================================================================= }}
 <!-- DID YOU KNOW? -->
+{{! ================================================================================================================= }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
 {{/and}}
+
+{{! ================================================================================================================= }}
 
 {{#table class="widget w-did-you-know set-max-width"}}
   {{>widget-header header=widgetConfig.widget.header icon=widgetConfig.widget.icon}}

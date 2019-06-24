@@ -1,4 +1,6 @@
+{{! ================================================================================================================= }}
 <!-- TIP OF THE MONTH -->
+{{! ================================================================================================================= }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
   {{assign "widgetWithButton" true}}
@@ -6,8 +8,13 @@
   {{assign "widgetWithButton" false}}
 {{/and}}
 
+{{! ================================================================================================================= }}
+
 {{#table class="widget w-tip-month set-max-width"}}
-  {{>widget-header header=widgetConfig.widget.header icon=widgetConfig.widget.icon}}
+  {{>widget-header
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
+  }}
 
   {{!--
   // TODO:
