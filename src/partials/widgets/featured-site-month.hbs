@@ -12,15 +12,14 @@
     <tr class="featured-site">
       <td class="client-info" responsive="mobile-padding-horizontal-sides">
         <p class="name">
-          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a>
+          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a></b>
         </p>
-        <p>
-          in {{featuredSiteMonth.sites.0.location}}&nbsp;
-          <br responsive="mobile-hide">
-          recently launched {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
+        <p class="location">
+          in {{featuredSiteMonth.sites.0.location}}, recently launched&nbsp;<br responsive="mobile-hide">
+          {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
         </p>
-        <p>
-          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a>
+        <p class="website">
+          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
         </p>
       </td>
     </tr>
