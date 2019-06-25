@@ -1,0 +1,32 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.remove-competitors {
+
+  .main-title {
+    padding-bottom: 0;
+
+    p {
+      @include mail-font(32px);
+    }
+  }
+
+  .content {
+
+    &:not(.-button):not(.-last) {
+      text-align: left;
+    }
+
+    a {
+      color: plt('black');
+    }
+  }
+
+  .main-footer.-social-below {
+
+    .justia-inline {
+      text-transform: none;
+    }
+  }
+}

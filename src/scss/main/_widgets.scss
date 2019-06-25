@@ -1,0 +1,54 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.blast-content {
+  background-color: plt('white');
+
+  td {
+    background-color: plt('white');
+  }
+
+  .main-title {
+    padding: 35px $padding $padding;
+    border-top: 1px solid plt('alto');
+    background-color: #f8fcff;
+    text-align: center;
+
+    p {
+      @include mail-font(35px, 1.2);
+      color: plt('justia-blue');
+    }
+  }
+
+  .main-image {
+    background-color: #f8fcff;
+
+    img {
+      width: 600px;
+      max-width: 100%;
+    }
+  }
+
+  .content {
+    padding: 40px $padding 25px;
+    text-align: center;
+
+    &.-button {
+      padding: 0 $padding 25px;
+    }
+
+    &.-last {
+      padding: 0 $padding 35px;
+      text-align: center;
+
+      p {
+        margin: 0;
+      }
+
+      p:last-child {
+        color: plt('justia-blue');
+      }
+    }
+  }
+}
