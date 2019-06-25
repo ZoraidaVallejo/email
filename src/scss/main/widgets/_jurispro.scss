@@ -1,0 +1,34 @@
+// ----------------------------------------------------------------------------------------------------------
+// J U R I S   P R O   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-jurispro {
+
+  .custom-description {
+    padding: 0 $padding 25px;
+
+    &.-last {
+      padding: 10px $padding $widget-gap;
+    }
+
+    .text {
+      padding: 0 35px $padding 0;
+      border-bottom: 1px solid plt('justia-blue', 0.1);
+
+      p {
+        @include mail-font(18px);
+      }
+    }
+
+    .thumb {
+      width: 210px;
+      padding: 0 0 $padding;
+      border-bottom: 1px solid plt('justia-blue', 0.1);
+      text-align: center;
+
+      img {
+        width: 150px;
+      }
+    }
+  }
+}

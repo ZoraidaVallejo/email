@@ -35,14 +35,14 @@
     color: plt('white');
 
     .justia-logo {
-      padding: 40px $padding $padding;
+      padding: 40px $padding 35px;
     }
 
     .title {
       padding: 0 $padding 18px;
 
       a {
-        @include mail-font(32px);
+        @include mail-font(32px, 1.15);
         color: plt('white');
       }
     }
@@ -64,11 +64,11 @@
     }
 
     .content {
-      padding: 0 $padding 20px 0;
+      padding: 0 $padding 25px 0;
       text-align: right;
 
       p {
-        @include mail-font(18px);
+        @include mail-font(18px, 1.35);
       }
 
       &.-last {

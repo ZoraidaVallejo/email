@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "Juris Pro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "description": [
+    "JurisPro provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "Lorem Ipsum Dolor Sit Amet Consectur",
+      "link": "https://www.justia.com/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac urna lorem. Maecenas non..."
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Done seran",
+      "link": "https://www.justia.com/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac urna lorem. Maecenas non..."
+    },
+    {
+      "title": "Lorem Ipsum Dolor Sit Amet Consectur",
+      "link": "https://www.justia.com/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac urna lorem. Maecenas non..."
+    },
+    {
+      "title": "Lorem Ipsum Dolor Sit Amet Consectur",
+      "link": "https://www.justia.com/",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac urna lorem. Maecenas non..."
+    }
+  ]
+}

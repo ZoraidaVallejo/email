@@ -797,7 +797,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-02 .justia-logo {
-  padding: 40px 30px 30px;
+  padding: 40px 30px 35px;
 }
 
 .w-advertisement.-jld-ad-02 .title {
@@ -805,7 +805,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-02 .title a {
-  font: 32px/1.5 Arial, sans-serif;
+  font: 32px/1.15 Arial, sans-serif;
   color: #ffffff;
 }
 
@@ -826,12 +826,12 @@ a {
 }
 
 .w-advertisement.-jld-ad-02 .content {
-  padding: 0 30px 20px 0;
+  padding: 0 30px 25px 0;
   text-align: right;
 }
 
 .w-advertisement.-jld-ad-02 .content p {
-  font: 18px/1.5 Arial, sans-serif;
+  font: 18px/1.35 Arial, sans-serif;
 }
 
 .w-advertisement.-jld-ad-02 .content.-last {
@@ -860,7 +860,7 @@ a {
 
 .w-answers-leaderboard .ranking-list .cell {
   padding: 20px 0;
-  border-bottom: 1px solid #dce1e8;
+  border-bottom: 1px solid rgba(6, 53, 122, 0.1);
 }
 
 .w-answers-leaderboard .ranking-list .photo {
@@ -913,6 +913,34 @@ a {
 
 .w-annotator .annotator-info .location {
   font: 12px/12px Arial, sans-serif;
+}
+
+.w-jurispro .custom-description {
+  padding: 0 30px 25px;
+}
+
+.w-jurispro .custom-description.-last {
+  padding: 10px 30px 50px;
+}
+
+.w-jurispro .custom-description .text {
+  padding: 0 35px 30px 0;
+  border-bottom: 1px solid rgba(6, 53, 122, 0.1);
+}
+
+.w-jurispro .custom-description .text p {
+  font: 18px/1.5 Arial, sans-serif;
+}
+
+.w-jurispro .custom-description .thumb {
+  width: 210px;
+  padding: 0 0 30px;
+  border-bottom: 1px solid rgba(6, 53, 122, 0.1);
+  text-align: center;
+}
+
+.w-jurispro .custom-description .thumb img {
+  width: 150px;
 }
 
 .full-size {
