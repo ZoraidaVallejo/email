@@ -5,15 +5,21 @@
   },
   "events": [
     {
-      "dateTime": "February 26 1PM ET",
-      "typeLocation": "Webinar",
-      "description": "Discover Hidden and Undocumented Google Secrets",
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Id sunt eiusmod consectetur aliquip qui consequat proident proident officia ea amet sit officia anim.]",
       "readMore": "https://www.justia.com/"
     },
     {
-      "dateTime": "February 28 1PM ET",
+      "dateTime": "[Month 00 00PM ET]",
       "typeLocation": "[Webinar]",
-      "description": "Advanced Google Search for Lawyers",
+      "description": "[Veniam in nulla Lorem eu ex minim proident.]",
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Aute aliqua culpa non laborum sint consequat ex nulla proident mollit dolor.]",
       "readMore": "https://www.justia.com/"
     }
   ]
