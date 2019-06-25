@@ -23,7 +23,7 @@
         "long": "http://gallery-02.justia.net/",
         "simple": "[gallery-02.justia.com]"
       },
-      "thumbnail": "featured-site-02-thumb.jpg"
+      "thumbnail": "featured-site-01-thumb.jpg"
     },
     {
       "clientName": "[Law Offices]",
@@ -33,7 +33,17 @@
         "long": "http://gallery-03.justia.net/",
         "simple": "[gallery-03.justia.com]"
       },
-      "thumbnail": "featured-site-03-thumb.jpg"
+      "thumbnail": "featured-site-01-thumb.jpg"
+    },
+    {
+      "clientName": "[Law Offices]",
+      "location": "[Anytown, CA]",
+      "possessiveAdjective": "[her]",
+      "domain": {
+        "long": "http://gallery-04.justia.net/",
+        "simple": "[gallery-04.justia.com]"
+      },
+      "thumbnail": "featured-site-01-thumb.jpg"
     }
   ]
 }

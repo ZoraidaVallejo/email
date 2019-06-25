@@ -1,0 +1,83 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   -   C U S T O M   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+
+  // &.-client-ad-01 {}
+
+  &.-jld-ad-01 {
+    background-color: #ebf2f7;
+
+    .title {
+      padding: 0 70px 20px;
+
+      a {
+        @include mail-font(34px, 1.15);
+      }
+    }
+
+    .content {
+      background-color: plt('justia-blue');
+      color: plt('white');
+
+      &.-idx-3 {
+
+        a {
+          color: plt('white');
+        }
+      }
+    }
+  }
+
+  &.-jld-ad-02 {
+    background-color: #2f97ae;
+    color: plt('white');
+
+    .justia-logo {
+      padding: 40px $padding $padding;
+    }
+
+    .title {
+      padding: 0 $padding 18px;
+
+      a {
+        @include mail-font(32px);
+        color: plt('white');
+      }
+    }
+
+    .image {
+      width: 291px;
+      padding: 0;
+      vertical-align: bottom;
+
+      img {
+        width: 291px;
+      }
+    }
+
+    .desc-wrapper {
+      width: 309px;
+      padding: 15px 0 0;
+      vertical-align: top;
+    }
+
+    .content {
+      padding: 0 $padding 20px 0;
+      text-align: right;
+
+      p {
+        @include mail-font(18px);
+      }
+
+      &.-last {
+        padding: 0 $padding 0 0;
+
+        a {
+          color: plt('white');
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,12 @@
     "link": "https://www.justia.com/",
     "description": [
       "For the first time, Google has announced that they are raising the G Suite subscription prices. G Suite Basic will increase by $1user/month and G Suite Business will increase by $2 per user/month, for users in the US. G Suite Enterprise pricing will remain the same. The new pricing will go into effect on April 2nd, and those on annual plans will pay the new price when their contract renews after that date."
-    ]
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More"
+    }
   },
   "jld": {
     "widget": {
@@ -19,11 +24,6 @@
     "link": "https://www.justia.com/",
     "description": [
       "For the first time, Google has announced that they are raising the G Suite subscription prices. G Suite Basic will increase by $1user/month and G Suite Business will increase by $2 per user/month, for users in the US. G Suite Enterprise pricing will remain the same. The new pricing will go into effect on April 2nd, and those on annual plans will pay the new price when their contract renews after that date."
-    ],
-    "button": {
-      "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn More"
-    }
+    ]
   }
 }
