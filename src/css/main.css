@@ -842,6 +842,56 @@ a {
   color: #ffffff;
 }
 
+.w-answers-leaderboard .ranking-list {
+  padding: 0 30px 25px;
+}
+
+.w-answers-leaderboard .ranking-list .first-row .cell {
+  padding: 0 0 20px;
+}
+
+.w-answers-leaderboard .ranking-list .first-row .info {
+  padding: 0 40px 20px;
+}
+
+.w-answers-leaderboard .ranking-list .first-row .ranking p {
+  color: #4dab4f;
+}
+
+.w-answers-leaderboard .ranking-list .cell {
+  padding: 20px 0;
+  border-bottom: 1px solid #dce1e8;
+}
+
+.w-answers-leaderboard .ranking-list .photo {
+  width: 70px;
+}
+
+.w-answers-leaderboard .ranking-list .info {
+  padding: 20px 40px;
+}
+
+.w-answers-leaderboard .ranking-list .info a {
+  color: #000000;
+}
+
+.w-answers-leaderboard .ranking-list .info .name {
+  font: 22px/22px Arial, sans-serif;
+  margin: 0 0 7px;
+}
+
+.w-answers-leaderboard .ranking-list .info .location {
+  font: 12px/12px Arial, sans-serif;
+}
+
+.w-answers-leaderboard .ranking-list .ranking {
+  width: 70px;
+}
+
+.w-answers-leaderboard .ranking-list .ranking p {
+  font: 700 36px/36px Arial, sans-serif;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
