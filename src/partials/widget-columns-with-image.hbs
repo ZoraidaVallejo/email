@@ -1,15 +1,20 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   C O L U M N S   W I T H   I M A G E                                                             }}
+{{! ================================================================================================================= }}
 
 {{assign "columnStructure" (toColumnStructure widgetConfig 2)}}
 
-<tr class="widget-columns-with-image ui-columns-grid">
+{{! ================================================================================================================= }}
+
+<tr class="widget-columns -with-image ui-columns-grid">
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
         <tr>
           {{>ui-columns-grid rowClasses=(ternary @first "first-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
             {{#each this}}
-              {{#if this.image}}
-                <tr>
+              <tr>
+                {{#if this.image}}
                   <td class="block" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-medium-top{{/and}}">
                     {{>img src=this.image.src alt=this.image.src class="block-image"}}
 
@@ -30,10 +35,10 @@
                       </p>
                     {{/each}}
                   </td>
-                </tr>
-              {{else}}
-                <td responsive="mobile-hide">&nbsp;</td>
-              {{/if}}
+                {{else}}
+                  <td responsive="mobile-hide">&nbsp;</td>
+                {{/if}}
+              </tr>
 
               {{#unless @last}}
                 {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}

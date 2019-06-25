@@ -1,0 +1,26 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Consectetur magna velit voluptate ipsum ea laboris.]",
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Tempor irure et consequat velit.]",
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "dateTime": "[Month 00 00PM ET]",
+      "typeLocation": "[Webinar]",
+      "description": "[Aliquip magna nostrud nisi voluptate magna nisi do nisi sint labore excepteur dolor magna aute.]",
+      "readMore": "https://www.justia.com/"
+    }
+  ]
+}

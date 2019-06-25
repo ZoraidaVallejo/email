@@ -7,14 +7,15 @@
  * @param {string} widgetConfig[].title
  * @param {string} widgetConfig[].link
  * @param {string} widgetConfig[].description
+ * @param {boolean} [isLast]
 }}
 
 {{assign "columnStructure" (toColumnStructure widgetConfig 2)}}
 
 {{! ================================================================================================================= }}
 
-<tr class="widget-articles-in-columns ui-columns-grid">
-  <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+<tr class="widget-columns -articles ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
         <tr>

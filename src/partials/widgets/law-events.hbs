@@ -1,0 +1,51 @@
+{{! ================================================================================================================= }}
+{{! L A W   E V E N T S                                                                                               }}
+{{! ================================================================================================================= }}
+
+{{assign "columnStructure" (toColumnStructure lawEvents.events 2)}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-law-events set-max-width"}}
+  {{>widget-header
+    header=lawEvents.widget.header
+    icon=lawEvents.widget.icon
+  }}
+
+  <tr class="widget-columns ui-columns-grid">
+    <td class="wrapper -last" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        {{#each @root.columnStructure}}
+          <tr>
+            {{>ui-columns-grid rowClasses=(ternary @first "first-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
+              {{#each this}}
+                <tr>
+                  {{#if this.dateTime}}
+                    <td class="event" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-medium-top{{/and}}">
+                      <p class="date">{{{this.dateTime}}}</p>
+                      <p class="type"><b>{{{this.typeLocation}}}</b></p>
+                      <p class="description">{{{this.description}}}</p>
+
+                      {{#and this.readMore (compare this.readMore "!==" "")}}
+                        <p class="read-more">
+                          <b><a href="{{{this.readMore}}}" target="_blank">Read More ›</a></b>
+                        </p>
+                      {{/and}}
+                    </td>
+                  {{else}}
+                    <td responsive="mobile-hide">&nbsp;</td>
+                  {{/if}}
+                </tr>
+
+                {{#unless @last}}
+                  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
+                {{/unless}}
+              {{/each}}
+            {{>ui-columns-grid columnGridEnd=true}}
+          </tr>
+        {{/each}}
+      {{/table}}
+    </td>
+  </tr>
+
+{{/table}}
