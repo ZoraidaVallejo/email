@@ -9,20 +9,20 @@
  * @param {string} widgetConfig[].description
 }}
 
-{{assign "articlesColumnStructure" (toColumnStructure widgetConfig 2)}}
+{{assign "columnStructure" (toColumnStructure widgetConfig 2)}}
 
 {{! ================================================================================================================= }}
 
 <tr class="widget-articles-in-columns ui-columns-grid">
   <td class="wrapper" responsive="mobile-padding-horizontal-sides">
     {{#table}}
-      {{#each @root.articlesColumnStructure}}
+      {{#each @root.columnStructure}}
         <tr>
-          {{>ui-columns-grid rowClasses=(ternary @last "last-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
+          {{>ui-columns-grid rowClasses=(ternary @first "first-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
             {{#each this}}
               <tr>
-                <td class="article" {{#unless @last}}responsive="mobile-padding-medium-bottom"{{/unless}}>
-                  {{#if this.title}}
+                {{#if this.title}}
+                  <td class="article" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-medium-top{{/and}}">
                     <p class="title">
                       {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
                         <b>{{{this.title}}}</b>
@@ -31,10 +31,10 @@
                     <p class="description">
                       {{{this.description}}}
                     </p>
-                  {{else}}
-                    &nbsp;
-                  {{/if}}
-                </td>
+                  </td>
+                {{else}}
+                  <td responsive="mobile-hide">&nbsp;</td>
+                {{/if}}
               </tr>
 
               {{#unless @last}}

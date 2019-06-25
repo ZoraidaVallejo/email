@@ -2,7 +2,7 @@
 {
   "widget": {
     "icon": "client-in-the-news",
-    "header": "Client in the News"
+    "header": "Clients in the News"
   },
   "columns": [
     {
@@ -11,8 +11,7 @@
         "alt": "[Voluptate commodo proident elit velit ipsum.]"
       },
       "description": [
-        "[Do esse eu enim enim magna in pariatur irure dolor ullamco consequat anim aliquip. Velit tempor dolor nisi adipisicing.]",
-        "[Duis sint mollit proident veniam mollit do incididunt duis.]"
+        "<b>Washington Family Law Group</b> attorney Laurie Robertson was quoted by Fox News regarding the high profile divorce of Amazon CEO Jeff Bezos and wife MacKenzie."
       ],
       "readMore": "https://www.justia.com/"
     },
@@ -22,8 +21,20 @@
         "alt": "[Nostrud minim duis.]"
       },
       "description": [
-        "[Nulla anim aliquip culpa fugiat tempor ullamco et eu aute id quis duis ea. Laborum dolor sit excepteur ea.]",
-        "[Culpa quis ad amet eu ut commodo. Laboris sunt consequat magna Lorem laborum enim.]"
+        "Maryland Board of Public Works approved deal to share money recovered from opioid industry with <b>Silverman Thompson Slutkin & White</b> and 2 other firms."
+      ],
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "image": {
+        "src": "clients-news-logo-03.png",
+        "alt": "[Nostrud minim duis.]"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Lizeth Rios</b> - Web Designer",
+      "description": [
+        "[Nulla anim aliquip culpa fugiat tempor ullamco et eu aute id.]",
+        "[Culpa quis ad amet eu ut commodo.]"
       ],
       "readMore": "https://www.justia.com/"
     }

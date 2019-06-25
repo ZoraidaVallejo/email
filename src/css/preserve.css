@@ -279,6 +279,9 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-uneven-full {
     padding: 45px 10px !important;
   }
+  .mobile-no-padding {
+    padding: 0 !important;
+  }
   .mobile-no-padding-top {
     padding-top: 0 !important;
   }
