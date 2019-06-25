@@ -867,7 +867,8 @@ a {
   border-bottom: 1px solid rgba(6, 53, 122, 0.1);
 }
 
-.w-answers-leaderboard .ranking-list .photo {
+.w-answers-leaderboard .ranking-list .photo,
+.w-answers-leaderboard .ranking-list .photo img {
   width: 70px;
 }
 
