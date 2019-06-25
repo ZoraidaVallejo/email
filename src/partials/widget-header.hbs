@@ -7,7 +7,7 @@
  * @param {string} icon - Name of the icon.
  * @param {string} [type] - Defines the type of the content.
  * @param {string} [link] - Optional link for the header text.
- * @param {string} [className] - Optional extra CSS classes.
+ * @param {string} [widgetClass] - Optional extra CSS classes.
 }}
 
 {{assign "widgetHeaderIcon" (concat "https://justatic.com/v/1/emails/images/newsletters/common/redesign/icons/" icon ".png")}}
@@ -15,7 +15,7 @@
 {{! ================================================================================================================= }}
 
 <tr>
-  <td class="{{classList "widget-header" className}}" responsive="mobile-padding-horizontal-sides">
+  <td class="{{classList "widget-header" widgetClass}}" responsive="mobile-padding-horizontal-sides">
     {{#table class="wrapper"}}
       <tr>
         <td class="header-icon-column">
