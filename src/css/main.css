@@ -892,6 +892,29 @@ a {
   font: 700 36px/36px Arial, sans-serif;
 }
 
+.w-annotator .annotator-info {
+  padding: 0 30px 20px;
+  text-align: center;
+}
+
+.w-annotator .annotator-info a {
+  color: #000000;
+}
+
+.w-annotator .annotator-info .photo {
+  width: 125px;
+  margin: 0 auto;
+}
+
+.w-annotator .annotator-info .name {
+  font: 20px/1.1 Arial, sans-serif;
+  margin: 12px 0 6px;
+}
+
+.w-annotator .annotator-info .location {
+  font: 12px/12px Arial, sans-serif;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
