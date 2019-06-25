@@ -15,7 +15,7 @@
             {{#each this}}
               <tr>
                 {{#if this.image}}
-                  <td class="block" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-medium-top{{/and}}">
+                  <td class="block" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-30-top{{/and}}">
                     {{>img src=this.image.src alt=this.image.src class="block-image"}}
 
                     {{#if this.blockTitle}}

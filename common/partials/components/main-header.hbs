@@ -31,7 +31,7 @@
   link=@root.headerLogoLink
   responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
 )}}
-{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-medium-vertical-sides" "")}}
+{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-20-vertical-sides" "")}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
 

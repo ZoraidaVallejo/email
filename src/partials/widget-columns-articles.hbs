@@ -23,7 +23,7 @@
             {{#each this}}
               <tr>
                 {{#if this.title}}
-                  <td class="article" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-medium-top{{/and}}">
+                  <td class="article" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-30-top{{/and}}">
                     <p class="title">
                       {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
                         <b>{{{this.title}}}</b>

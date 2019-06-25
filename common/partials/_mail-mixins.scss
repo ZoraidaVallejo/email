@@ -60,3 +60,36 @@
 @mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
   font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
 }
+
+
+@mixin set-responsive-reseters($property, $value, $horizontal: true, $vertical: true, $full: true) {
+  @each $side in 'top', 'right', 'bottom', 'left' {
+
+    &-#{$side} {
+      #{$property}-#{$side}: $value !important;
+    }
+  }
+
+  @if $horizontal {
+
+    &-horizontal-sides {
+      #{$property}-right: $value !important;
+      #{$property}-left: $value !important;
+    }
+  }
+
+  @if $vertical {
+
+    &-vertical-sides {
+      #{$property}-top: $value !important;
+      #{$property}-bottom: $value !important;
+    }
+  }
+
+  @if $full {
+
+    &-full {
+      #{$property}: $value !important;
+    }
+  }
+}

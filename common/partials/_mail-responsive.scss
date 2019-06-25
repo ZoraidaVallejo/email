@@ -61,72 +61,23 @@
       }
     }
 
+    // TODO:
+    // Modify documentation.
+
     // Padding Modifiers
     &-padding {
+      @include set-responsive-reseters('padding', 10px);
 
-      &-top {
-        padding-top: 10px !important;
+      &-20 {
+        @include set-responsive-reseters('padding', 20px);
       }
 
-      &-right {
-        padding-right: 10px !important;
+      &-30 {
+        @include set-responsive-reseters('padding', 30px);
       }
 
-      &-bottom {
-        padding-bottom: 10px !important;
-      }
-
-      &-left {
-        padding-left: 10px !important;
-      }
-
-      &-horizontal-sides {
-        padding-right: 10px !important;
-        padding-left: 10px !important;
-      }
-
-      &-vertical-sides {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-      }
-
-      &-full {
-        padding: 10px !important;
-      }
-
-      &-medium {
-
-        &-top {
-          padding-top: 20px !important;
-        }
-
-        &-bottom {
-          padding-bottom: 20px !important;
-        }
-
-        &-vertical-sides {
-          padding-top: 20px !important;
-          padding-bottom: 20px !important;
-        }
-
-        &-full {
-          padding: 20px 10px !important;
-        }
-      }
-
-      &-uneven {
-
-        &-top {
-          padding-top: 45px !important;
-        }
-
-        &-bottom {
-          padding-bottom: 45px !important;
-        }
-
-        &-full {
-          padding: 45px 10px !important;
-        }
+      &-50 {
+        @include set-responsive-reseters('padding', 50px, false, false, false);
       }
     }
 
