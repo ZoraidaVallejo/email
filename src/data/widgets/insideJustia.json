@@ -1,0 +1,31 @@
+
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Lizeth Rios</b> - Web Designer"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Lizeth Rios</b> - Web Designer",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet ut turpis vel malesuada. In arcu libero, ultrices eget fermentum lorem."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "<b>Rainy Day Pugs</b>"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Rainy Day Pugs</b>",
+      "description": [
+        "It's been raining cats & dogs here at Justia headquarters, but Little Sheba the Hug Pug is enjoying her walks sporting her new raincoat!"
+      ]
+    }
+  ]
+}
