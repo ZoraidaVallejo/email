@@ -32,7 +32,6 @@
 
   &.-jld-ad-02 {
     background-color: #2f97ae;
-    color: plt('white');
 
     .justia-logo {
       padding: 40px $padding 35px;
@@ -69,6 +68,7 @@
 
       p {
         @include mail-font(18px, 1.35);
+        color: plt('white');
       }
 
       &.-last {
