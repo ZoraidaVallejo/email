@@ -23,32 +23,26 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        <tr>
-          {{>ui-columns-grid rowClasses=(ternary @first "first-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
-            {{#each this}}
-              <tr>
-                {{#if this.title}}
-                  <td class="article" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-30-top{{/and}}">
-                    <p class="title">
-                      {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
-                        <b>{{{this.title}}}</b>
-                      {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
-                    </p>
-                    <p class="description">
-                      {{{this.description}}}
-                    </p>
-                  </td>
-                {{else}}
-                  <td responsive="mobile-hide">&nbsp;</td>
-                {{/if}}
-              </tr>
+        {{>ui-columns-grid cellClasses="article" columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40 rowsGap=25 firstRow=@first}}
+          {{#each this}}
+            {{#unless @first}}
+              {{>ui-columns-grid cellClasses="article" columnGridSeparator=true cellIsEmpty=(isFalsey this.title) firstRow=@../first}}
+            {{/unless}}
 
-              {{#unless @last}}
-                {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
-              {{/unless}}
-            {{/each}}
-          {{>ui-columns-grid columnGridEnd=true}}
-        </tr>
+            {{#if this.title}}
+              <p class="title">
+                {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
+                  <b>{{{this.title}}}</b>
+                {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+              </p>
+              <p class="description">
+                {{{this.description}}}
+              </p>
+            {{else}}
+              &nbsp;
+            {{/if}}
+          {{/each}}
+        {{>ui-columns-grid columnGridEnd=true}}
       {{/each}}
     {{/table}}
   </td>
@@ -59,18 +53,24 @@
 // Use as an example in the documentation.
 }}
 
-{{!-- <tr class="ui-columns-grid">
-  {{>ui-columns-grid columnGridStart=true fullWidth=600 totalColumns=3 columnsGap=30}}
-    <tr>
-      <td>Cell 1</td>
-    </tr>
-  {{>ui-columns-grid columnGridSeparator=true cellAlignment="center"}}
-    <tr>
-      <td>Cell 2</td>
-    </tr>
-  {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
-    <tr>
-      <td>Cell 3</td>
-    </tr>
-  {{>ui-columns-grid columnGridEnd=true}}
+{{!-- <tr class="widget-columns ui-columns-grid">
+  <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+    {{#table}}
+      {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=3 columnsGap=30 rowsGap=25 firstRow=true}}
+        <p>Cell 1</p>
+      {{>ui-columns-grid columnGridSeparator=true firstRow=true}}
+        <p>Cell 2</p>
+      {{>ui-columns-grid columnGridSeparator=true firstRow=true}}
+        <p>Cell 3</p>
+      {{>ui-columns-grid columnGridEnd=true}}
+
+      {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=3 columnsGap=30 rowsGap=25}}
+        <p>Cell 4</p>
+      {{>ui-columns-grid columnGridSeparator=true}}
+        <p>Cell 5</p>
+      {{>ui-columns-grid columnGridSeparator=true cellIsEmpty=true}}
+        <p>&nbsp;</p>
+      {{>ui-columns-grid columnGridEnd=true}}
+    {{/table}}
+  </td>
 </tr> --}}

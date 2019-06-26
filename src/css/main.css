@@ -417,22 +417,6 @@ a {
   vertical-align: top;
 }
 
-.ui-columns-grid .grid-row {
-  padding: 0;
-  font-size: 0;
-  text-align: center;
-  vertical-align: top;
-}
-
-.ui-columns-grid .grid-column {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.ui-columns-grid .grid-cell {
-  font: 16px/1.5 Arial, sans-serif;
-}
-
 .ui-spacer-hack {
   display: block;
   opacity: 0;
@@ -519,14 +503,6 @@ a {
 
 .widget-columns > .wrapper.-last {
   padding: 0 30px 50px;
-}
-
-.widget-columns .grid-cell td {
-  padding: 25px 0 0;
-}
-
-.widget-columns .first-row .grid-cell td {
-  padding: 0;
 }
 
 .widget-columns.-articles .article a,

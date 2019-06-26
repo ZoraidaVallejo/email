@@ -5,6 +5,7 @@
  * @param {number} fullWidth
  * @param {number} totalColumns
  * @param {number} columnsGap
+ * @param {number} rowsGap
 
  * @param {string} cellAlignment
  * @param {string} rowClasses
@@ -22,6 +23,9 @@
 {{assign "totalColumns" (default totalColumns @root.totalColumns)}}
 {{assign "cellWidth" (divide @root.fullWidth @root.totalColumns)}}
 {{assign "columnsGap" (default columnsGap @root.columnsGap)}}
+{{assign "rowsGap" (default rowsGap @root.rowsGap)}}
+
+{{assign "cellCounter" (ternary @root.cellCounter (add @root.cellCounter 1) 1)}}
 
 {{!
 // Formula for cellWidthMinusGap;
@@ -29,56 +33,58 @@
 }}
 {{assign
   "cellWidthMinusGap"
-  (floor
-    (divide
-      (minus
-        @root.fullWidth
-        (multiply
-          @root.columnsGap
-          (minus @root.totalColumns 1)
-        )
-      )
-      @root.totalColumns
-    )
-  )
+  (floor (divide (minus @root.fullWidth (multiply @root.columnsGap (minus @root.totalColumns 1))) @root.totalColumns))
 }}
 
 {{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
-{{assign "columnAllClasses" (classList "grid-column" columnClasses)}}
-{{assign "columnStyles" (styles width=(toPx @root.cellWidth) maxWidth=(toPx @root.cellWidth))}}
 {{assign "cellAllClasses" (classList "grid-cell" cellClasses)}}
+
+{{assign "cellPadding" (concat "padding:" (toPx @root.rowsGap) (toPx @root.columnsGap) "0" "0" separator=" ")}}
+{{assign "lastCellPadding" (concat "padding:" (toPx @root.rowsGap) "0" "0" separator=" ")}}
+
+{{#if firstRow}}
+  {{assign "cellPadding" (concat "padding:" "0" (toPx @root.columnsGap) "0" "0" separator=" ")}}
+  {{assign "lastCellPadding" "padding:0"}}
+{{/if}}
+
+{{#if (and firstRow (compare @root.cellCounter "==" 1))}}
+  {{assign "cellResponsiveClasses" "collapse-one mobile-no-padding"}}
+{{else}}
+  {{assign "cellResponsiveClasses" "collapse-one mobile-no-padding-horizontal-sides mobile-padding-30-top"}}
+{{/if}}
+
+{{#if cellIsEmpty}}
+  {{assign "cellResponsiveClasses" "mobile-hide"}}
+{{/if}}
+
 {{assign
   "cellAllAttributes"
-  (tableAttr
+  (htmlAttr
     align=(default cellAlignment "left")
     width=@root.cellWidthMinusGap
     class=@root.cellAllClasses
-    responsive="mobile-align-center mobile-no-float collapse-one"
+    style=(ternary (compare @root.totalColumns "==" @root.cellCounter) @root.lastCellPadding @root.cellPadding)
+    responsive=@root.cellResponsiveClasses
+    dataCounter=@root.cellCounter
   )
 }}
 
 {{#if columnGridStart}}
-  <td class="{{@root.rowAllClasses}}">
-    <!--[if gte mso 9]><table {{{tableAttr width=@root.fullWidth}}}><tr><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="collapse-one mobile-reset-max-width">
-      <table {{{@root.cellAllAttributes}}}>
+  <tr class="{{@root.rowAllClasses}}">
+    <td {{{@root.cellAllAttributes}}} valign="top">
 {{/if}}
 
 {{#if columnGridSeparator}}
-      </table>
-    </div>
-    <!--[if gte mso 9]></td><td align="center" valign="top" width="{{@root.cellWidth}}"><![endif]-->
-    <div class="{{@root.columnAllClasses}}" style="{{{@root.columnStyles}}}" responsive="collapse-one mobile-reset-max-width">
-      <table {{{@root.cellAllAttributes}}}>
+    </td>
+    <td {{{@root.cellAllAttributes}}} valign="top">
 {{/if}}
-{{#if columnGridEnd}}
-      </table>
-    </div>
-    <!--[if gte mso 9]></td></tr></table><![endif]-->
-  </td>
 
+{{#if columnGridEnd}}
+    </td>
+  </tr>
 
   {{!-- Reset variables --}}
-  {{assign "cellWidth" null}}
-  {{assign "fullWidth" null}}
+  {{assign "cellWidth" undefined}}
+  {{assign "fullWidth" undefined}}
+  {{assign "cellCounter" undefined}}
 {{/if}}

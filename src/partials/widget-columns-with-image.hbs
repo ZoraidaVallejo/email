@@ -15,42 +15,36 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        <tr>
-          {{>ui-columns-grid rowClasses=(ternary @first "first-row" "") columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40}}
-            {{#each this}}
-              <tr>
-                {{#if this.image}}
-                  <td class="block" responsive="{{#and @first @../first}}mobile-no-padding{{else}}mobile-padding-30-top{{/and}}">
-                    {{>img src=this.image.src alt=this.image.src class="block-image"}}
+        {{>ui-columns-grid cellClasses="block" columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40 rowsGap=25 firstRow=@first}}
+          {{#each this}}
+            {{#unless @first}}
+              {{>ui-columns-grid cellClasses="block" columnGridSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
+            {{/unless}}
 
-                    {{#if this.blockTitle}}
-                      <h3 class="block-title">{{{this.blockTitle}}}</h3>
-                    {{/if}}
+            {{#if this.image}}
+              {{>img src=this.image.src alt=this.image.src class="block-image"}}
 
-                    {{#if this.blockSubtitle}}
-                      <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
-                    {{/if}}
+              {{#if this.blockTitle}}
+                <h3 class="block-title">{{{this.blockTitle}}}</h3>
+              {{/if}}
 
-                    {{#each this.description}}
-                      <p class="block-description">
-                        {{{this}}}
-                        {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
-                          <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
-                        {{/and}}
-                      </p>
-                    {{/each}}
-                  </td>
-                {{else}}
-                  <td responsive="mobile-hide">&nbsp;</td>
-                {{/if}}
-              </tr>
+              {{#if this.blockSubtitle}}
+                <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
+              {{/if}}
 
-              {{#unless @last}}
-                {{>ui-columns-grid columnGridSeparator=true cellAlignment="right"}}
-              {{/unless}}
-            {{/each}}
-          {{>ui-columns-grid columnGridEnd=true}}
-        </tr>
+              {{#each this.description}}
+                <p class="block-description">
+                  {{{this}}}
+                  {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+                    <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
+                  {{/and}}
+                </p>
+              {{/each}}
+            {{else}}
+              &nbsp;
+            {{/if}}
+          {{/each}}
+        {{>ui-columns-grid columnGridEnd=true}}
       {{/each}}
     {{/table}}
   </td>
