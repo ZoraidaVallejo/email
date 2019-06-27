@@ -3,28 +3,30 @@
 {{! ================================================================================================================= }}
 
 {{!
- * @param {boolean} columnGridStart - Defines the start of the row.
- * @param {boolean} columnGridSeparator - Defines the separators between each cell.
- * @param {boolean} columnGridEnd - Defines the end of the row.
- * @param {number} fullWidth - Sets the full width of the row. Only required when initializing the row.
- * @param {number} totalColumns - Sets how many columns exists on a row. Only required when initializing the row.
- * @param {number} columnsGap - Sets the horizontal gap between each column. Only required when initializing the row.
- * @param {number} rowsGap - Sets the vertical gap between each row. Only required when initializing the row.
- * @param {boolean} [firstRow] - Defines the current row as the first row.
+ * Defines a grid structure to acommodate the content.
+ *
+ * @param {boolean} rowStart - Defines the opening tags of the row.
+ * @param {boolean} cellSeparator - Sets the proper HTML to close the previous cell and open the next one.
+ * @param {boolean} rowEnd - Defines the closing tags of the last cell in the row.
+ * @param {number} fullWidth - Defines the total width of all the cells in a row (including gaps if applicable). Only required when initializing the row.
+ * @param {number} totalCells - Defines how many cells exists in a row. Only required when initializing the row.
+ * @param {number} cellsGap - Defines the horizontal gap between each cell. Only required when initializing the row.
+ * @param {number} rowsGap - Defines the vertical gap between each row. Only required when initializing the row.
  * @param {boolean} [cellIsEmpty] - Defines if the current cell has no content in it.
- * @param {string} [rowClasses] - Extra classes to add to the current row.
+ * @param {boolean} [firstRow] - Defines the current row as the first row.
  * @param {string} [cellClasses] - Extra classes to add to the current cell.
+ * @param {string} [rowClasses] - Extra classes to add to the current row.
 }}
 
 {{assign "fullWidth" (default fullWidth @root.fullWidth)}}
-{{assign "totalColumns" (default totalColumns @root.totalColumns)}}
-{{assign "columnsGap" (default columnsGap @root.columnsGap)}}
+{{assign "totalCells" (default totalCells @root.totalCells)}}
+{{assign "cellsGap" (default cellsGap @root.cellsGap)}}
 {{assign "rowsGap" (default rowsGap @root.rowsGap)}}
 
 {{! Formula for cellWidthMinusGap: ($parent - ($gap * ($columns - 1))) / $columns }}
 {{assign
   "cellWidthMinusGap"
-  (floor (divide (minus @root.fullWidth (multiply @root.columnsGap (minus @root.totalColumns 1))) @root.totalColumns))
+  (floor (divide (minus @root.fullWidth (multiply @root.cellsGap (minus @root.totalCells 1))) @root.totalCells))
 }}
 
 {{assign "rowClasses" (classList "grid-row" rowClasses)}}
@@ -33,11 +35,11 @@
 {{! ================================================================================================================= }}
 
 {{assign "cellCounter" (ternary @root.cellCounter (add @root.cellCounter 1) 1)}}
-{{assign "cellPadding" (concat "padding:" (toPx @root.rowsGap) (toPx @root.columnsGap) "0" "0" separator=" ")}}
+{{assign "cellPadding" (concat "padding:" (toPx @root.rowsGap) (toPx @root.cellsGap) "0" "0" separator=" ")}}
 {{assign "lastCellPadding" (concat "padding:" (toPx @root.rowsGap) "0" "0" separator=" ")}}
 
 {{#if firstRow}}
-  {{assign "cellPadding" (concat "padding:" "0" (toPx @root.columnsGap) "0" "0" separator=" ")}}
+  {{assign "cellPadding" (concat "padding:" "0" (toPx @root.cellsGap) "0" "0" separator=" ")}}
   {{assign "lastCellPadding" "padding:0"}}
 {{/if}}
 
@@ -56,24 +58,24 @@
   (htmlAttr
     class=@root.cellClasses
     width=@root.cellWidthMinusGap
-    style=(ternary (compare @root.totalColumns "==" @root.cellCounter) @root.lastCellPadding @root.cellPadding)
+    style=(ternary (compare @root.totalCells "==" @root.cellCounter) @root.lastCellPadding @root.cellPadding)
     responsive=@root.cellResponsiveClasses
   )
 }}
 
 {{! ================================================================================================================= }}
 
-{{#if columnGridStart}}
+{{#if rowStart}}
   <tr class="{{@root.rowClasses}}">
     <td {{{@root.cellAllAttributes}}} valign="top">
 {{/if}}
 
-{{#if columnGridSeparator}}
+{{#if cellSeparator}}
     </td>
     <td {{{@root.cellAllAttributes}}} valign="top">
 {{/if}}
 
-{{#if columnGridEnd}}
+{{#if rowEnd}}
     </td>
   </tr>
 

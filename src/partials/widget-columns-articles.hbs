@@ -23,10 +23,10 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        {{>ui-columns-grid cellClasses="article" columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40 rowsGap=25 firstRow=@first}}
+        {{>ui-columns-grid cellClasses="article" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
           {{#each this}}
             {{#unless @first}}
-              {{>ui-columns-grid cellClasses="article" columnGridSeparator=true cellIsEmpty=(isFalsey this.title) firstRow=@../first}}
+              {{>ui-columns-grid cellClasses="article" cellSeparator=true cellIsEmpty=(isFalsey this.title) firstRow=@../first}}
             {{/unless}}
 
             {{#if this.title}}
@@ -42,35 +42,8 @@
               &nbsp;
             {{/if}}
           {{/each}}
-        {{>ui-columns-grid columnGridEnd=true}}
+        {{>ui-columns-grid rowEnd=true}}
       {{/each}}
     {{/table}}
   </td>
 </tr>
-
-{{!
-// TODO:
-// Use as an example in the documentation.
-}}
-
-{{!-- <tr class="widget-columns ui-columns-grid">
-  <td class="wrapper" responsive="mobile-padding-horizontal-sides">
-    {{#table}}
-      {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=3 columnsGap=30 rowsGap=25 firstRow=true}}
-        <p>Cell 1</p>
-      {{>ui-columns-grid columnGridSeparator=true firstRow=true}}
-        <p>Cell 2</p>
-      {{>ui-columns-grid columnGridSeparator=true firstRow=true}}
-        <p>Cell 3</p>
-      {{>ui-columns-grid columnGridEnd=true}}
-
-      {{>ui-columns-grid columnGridStart=true fullWidth=540 totalColumns=3 columnsGap=30 rowsGap=25}}
-        <p>Cell 4</p>
-      {{>ui-columns-grid columnGridSeparator=true}}
-        <p>Cell 5</p>
-      {{>ui-columns-grid columnGridSeparator=true cellIsEmpty=true}}
-        <p>&nbsp;</p>
-      {{>ui-columns-grid columnGridEnd=true}}
-    {{/table}}
-  </td>
-</tr> --}}

@@ -15,10 +15,10 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        {{>ui-columns-grid cellClasses="block" columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40 rowsGap=25 firstRow=@first}}
+        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
           {{#each this}}
             {{#unless @first}}
-              {{>ui-columns-grid cellClasses="block" columnGridSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
+              {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
             {{/unless}}
 
             {{#if this.image}}
@@ -44,7 +44,7 @@
               &nbsp;
             {{/if}}
           {{/each}}
-        {{>ui-columns-grid columnGridEnd=true}}
+        {{>ui-columns-grid rowEnd=true}}
       {{/each}}
     {{/table}}
   </td>

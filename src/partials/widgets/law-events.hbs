@@ -21,10 +21,10 @@
     <td class="wrapper -last" responsive="mobile-padding-horizontal-sides">
       {{#table}}
         {{#each @root.columnStructure}}
-          {{>ui-columns-grid cellClasses="event" columnGridStart=true fullWidth=540 totalColumns=2 columnsGap=40 rowsGap=25 firstRow=@first}}
+          {{>ui-columns-grid cellClasses="event" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
             {{#each this}}
               {{#unless @first}}
-                {{>ui-columns-grid cellClasses="event" columnGridSeparator=true cellIsEmpty=(isFalsey this.dateTime) firstRow=@../first}}
+                {{>ui-columns-grid cellClasses="event" cellSeparator=true cellIsEmpty=(isFalsey this.dateTime) firstRow=@../first}}
               {{/unless}}
 
               {{#if this.dateTime}}
@@ -41,7 +41,7 @@
                 &nbsp;
               {{/if}}
             {{/each}}
-          {{>ui-columns-grid columnGridEnd=true}}
+          {{>ui-columns-grid rowEnd=true}}
         {{/each}}
       {{/table}}
     </td>
