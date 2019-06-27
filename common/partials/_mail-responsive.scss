@@ -61,9 +61,6 @@
       }
     }
 
-    // TODO:
-    // Modify documentation.
-
     // Padding Modifiers
     &-padding {
       @include set-responsive-reseters('padding', 10px);
@@ -77,14 +74,12 @@
       }
 
       &-50 {
-        @include set-responsive-reseters('padding', 50px, false, false, false);
+        @include set-responsive-reseters('padding', 50px, false, false);
       }
     }
 
     &-no {
 
-      // TODO:
-      // Add to documentation.
       &-padding {
         padding: 0 !important;
 

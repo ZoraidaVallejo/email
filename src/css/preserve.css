@@ -254,9 +254,6 @@ div[style*='margin: 16px 0;'] {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
-  .mobile-padding-full {
-    padding: 10px !important;
-  }
   .mobile-padding-20-top {
     padding-top: 20px !important;
   }
@@ -277,9 +274,6 @@ div[style*='margin: 16px 0;'] {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
   }
-  .mobile-padding-20-full {
-    padding: 20px !important;
-  }
   .mobile-padding-30-top {
     padding-top: 30px !important;
   }
@@ -299,9 +293,6 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-30-vertical-sides {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
-  }
-  .mobile-padding-30-full {
-    padding: 30px !important;
   }
   .mobile-padding-50-top {
     padding-top: 50px !important;

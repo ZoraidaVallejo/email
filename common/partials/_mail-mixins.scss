@@ -61,8 +61,14 @@
   font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
 }
 
-
-@mixin set-responsive-reseters($property, $value, $horizontal: true, $vertical: true, $full: true) {
+/// Sets the responsive classes of an specific box-model property.
+///
+/// @param {string} $property - CSS box-model property.
+/// @param {number} $value - CSS value.
+/// @param {boolean} $horizontal [true] - Whether or not to include classes to modify left and right values.
+/// @param {boolean} $vertical [true] - Whether or not to include classes to modify top and bottom values.
+///
+@mixin set-responsive-reseters($property, $value, $horizontal: true, $vertical: true) {
   @each $side in 'top', 'right', 'bottom', 'left' {
 
     &-#{$side} {
@@ -83,13 +89,6 @@
     &-vertical-sides {
       #{$property}-top: $value !important;
       #{$property}-bottom: $value !important;
-    }
-  }
-
-  @if $full {
-
-    &-full {
-      #{$property}: $value !important;
     }
   }
 }

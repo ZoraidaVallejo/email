@@ -1,44 +1,38 @@
-{{!
- * @param {Boolean} columnGridStart
- * @param {Boolean} columnGridEnd
- * @param {Boolean} columnGridSeparator
- * @param {number} fullWidth
- * @param {number} totalColumns
- * @param {number} columnsGap
- * @param {number} rowsGap
-
- * @param {string} cellAlignment
- * @param {string} rowClasses
- * @param {string} columnClasses
- * @param {string} cellClasses
-}}
+{{! ================================================================================================================= }}
+{{! U I   C O L U M N S   G R I D                                                                                     }}
+{{! ================================================================================================================= }}
 
 {{!
-// TODO:
-// Update documentation.
-// It's getting too complicated to understand, maybe move this to JS as a custom function that do all the math.
+ * @param {boolean} columnGridStart - Defines the start of the row.
+ * @param {boolean} columnGridSeparator - Defines the separators between each cell.
+ * @param {boolean} columnGridEnd - Defines the end of the row.
+ * @param {number} fullWidth - Sets the full width of the row. Only required when initializing the row.
+ * @param {number} totalColumns - Sets how many columns exists on a row. Only required when initializing the row.
+ * @param {number} columnsGap - Sets the horizontal gap between each column. Only required when initializing the row.
+ * @param {number} rowsGap - Sets the vertical gap between each row. Only required when initializing the row.
+ * @param {boolean} [firstRow] - Defines the current row as the first row.
+ * @param {boolean} [cellIsEmpty] - Defines if the current cell has no content in it.
+ * @param {string} [rowClasses] - Extra classes to add to the current row.
+ * @param {string} [cellClasses] - Extra classes to add to the current cell.
 }}
 
 {{assign "fullWidth" (default fullWidth @root.fullWidth)}}
 {{assign "totalColumns" (default totalColumns @root.totalColumns)}}
-{{assign "cellWidth" (divide @root.fullWidth @root.totalColumns)}}
 {{assign "columnsGap" (default columnsGap @root.columnsGap)}}
 {{assign "rowsGap" (default rowsGap @root.rowsGap)}}
 
-{{assign "cellCounter" (ternary @root.cellCounter (add @root.cellCounter 1) 1)}}
-
-{{!
-// Formula for cellWidthMinusGap;
-// ($parent - ($gap * ($columns - 1))) / $columns
-}}
+{{! Formula for cellWidthMinusGap: ($parent - ($gap * ($columns - 1))) / $columns }}
 {{assign
   "cellWidthMinusGap"
   (floor (divide (minus @root.fullWidth (multiply @root.columnsGap (minus @root.totalColumns 1))) @root.totalColumns))
 }}
 
-{{assign "rowAllClasses" (classList "grid-row" rowClasses)}}
-{{assign "cellAllClasses" (classList "grid-cell" cellClasses)}}
+{{assign "rowClasses" (classList "grid-row" rowClasses)}}
+{{assign "cellClasses" (classList "grid-cell" cellClasses)}}
 
+{{! ================================================================================================================= }}
+
+{{assign "cellCounter" (ternary @root.cellCounter (add @root.cellCounter 1) 1)}}
 {{assign "cellPadding" (concat "padding:" (toPx @root.rowsGap) (toPx @root.columnsGap) "0" "0" separator=" ")}}
 {{assign "lastCellPadding" (concat "padding:" (toPx @root.rowsGap) "0" "0" separator=" ")}}
 
@@ -60,17 +54,17 @@
 {{assign
   "cellAllAttributes"
   (htmlAttr
-    align=(default cellAlignment "left")
+    class=@root.cellClasses
     width=@root.cellWidthMinusGap
-    class=@root.cellAllClasses
     style=(ternary (compare @root.totalColumns "==" @root.cellCounter) @root.lastCellPadding @root.cellPadding)
     responsive=@root.cellResponsiveClasses
-    dataCounter=@root.cellCounter
   )
 }}
 
+{{! ================================================================================================================= }}
+
 {{#if columnGridStart}}
-  <tr class="{{@root.rowAllClasses}}">
+  <tr class="{{@root.rowClasses}}">
     <td {{{@root.cellAllAttributes}}} valign="top">
 {{/if}}
 
@@ -84,7 +78,6 @@
   </tr>
 
   {{!-- Reset variables --}}
-  {{assign "cellWidth" undefined}}
   {{assign "fullWidth" undefined}}
   {{assign "cellCounter" undefined}}
 {{/if}}
