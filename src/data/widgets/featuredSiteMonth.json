@@ -1,7 +1,10 @@
 {
   "widget": {
     "icon": "featured-site-of-the-month",
-    "header": "Featured Site of the Month"
+    "header": {
+      "singular": "Featured Site of the Month",
+      "plural": "Featured Sites of the Month"
+    }
   },
   "sites": [
     {

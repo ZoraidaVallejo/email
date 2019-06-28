@@ -9,7 +9,7 @@
 
 {{#table class="widget w-featured-site-month set-max-width"}}
   {{>widget-header
-    header=featuredSiteMonth.widget.header
+    header=(ternary listSites featuredSiteMonth.widget.header.plural featuredSiteMonth.widget.header.singular)
     icon=featuredSiteMonth.widget.icon
   }}
 
