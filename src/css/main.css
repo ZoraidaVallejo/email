@@ -441,7 +441,7 @@ a {
 
 .widget-header .header-icon-column {
   width: 55px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .widget-header .header-icon-column img {
@@ -566,11 +566,11 @@ a {
 }
 
 .widget.w-welcome .widget-description p {
-  margin: 0 0 25px;
+  margin: 0 15px 25px;
 }
 
 .widget.w-welcome .widget-description p:last-child {
-  margin: 0;
+  margin: 0 15px;
 }
 
 .widget.w-welcome .widget-button {
@@ -701,6 +701,14 @@ a {
 
 .w-law-events .event a {
   color: #000000;
+}
+
+.w-law-events .event.-event-2 .read-more {
+  margin: 31px 0 0;
+}
+
+.w-law-events .event.-event-3 .read-more {
+  margin: 79px 0 0;
 }
 
 .w-advertisement td {
@@ -894,6 +902,10 @@ a {
 
 .w-annotator .annotator-info .location {
   font: 12px/12px Arial, sans-serif;
+}
+
+.w-jurispro .widget-header .header {
+  font: 700 27px/1.2 Arial, sans-serif;
 }
 
 .w-jurispro .custom-description {

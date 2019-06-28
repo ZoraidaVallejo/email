@@ -306,6 +306,9 @@ div[style*='margin: 16px 0;'] {
   .mobile-padding-50-left {
     padding-left: 50px !important;
   }
+  .mobile-no-margin {
+    margin: 0 !important;
+  }
   .mobile-no-padding {
     padding: 0 !important;
   }

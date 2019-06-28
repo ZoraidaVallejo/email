@@ -26,10 +26,10 @@
     }
 
     p {
-      margin: 0 0 grid-unit(0.5);
+      margin: 0 15px grid-unit(0.5);
 
       &:last-child {
-        margin: 0;
+        margin: 0 15px;
       }
     }
   }
