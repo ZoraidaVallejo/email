@@ -1,14 +1,20 @@
+{{! ================================================================================================================= }}
+{{! M A I N   H E A D E R                                                                                             }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {String} widgetClass
+ * Header for the email with the Justia logo and current date (optional).
+ *
+ * @param {string} widgetClass
  * @param {Object} widgetConfig
- * @param {String} widgetConfig.layout
+ * @param {string} widgetConfig.layout
  * @param {Object} widgetConfig.logo
- * @param {String} widgetConfig.logo.name
+ * @param {string} widgetConfig.logo.name
  * @param {Object} widgetConfig.logo.link
- * @param {String} widgetConfig.logo.link.url
+ * @param {string} widgetConfig.logo.link.url
  * @param {Object} widgetConfig.logo.link.utm
- * @param {String} widgetConfig.logo.path
- * @param {String} widgetConfig.logo.alt
+ * @param {string} widgetConfig.logo.path
+ * @param {string} widgetConfig.logo.alt
 }}
 
 {{#if widgetConfig.logo.path}}
@@ -34,6 +40,8 @@
 {{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-20-vertical-sides" "")}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
+
+{{! ================================================================================================================= }}
 
 {{>ui-layout-hack tableStart=true}}
   {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
