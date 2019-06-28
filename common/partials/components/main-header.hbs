@@ -5,16 +5,16 @@
 {{!
  * Header for the email with the Justia logo and current date (optional).
  *
- * @param {string} widgetClass
- * @param {Object} widgetConfig
- * @param {string} widgetConfig.layout
- * @param {Object} widgetConfig.logo
- * @param {string} widgetConfig.logo.name
- * @param {Object} widgetConfig.logo.link
- * @param {string} widgetConfig.logo.link.url
- * @param {Object} widgetConfig.logo.link.utm
- * @param {string} widgetConfig.logo.path
- * @param {string} widgetConfig.logo.alt
+ * @param {Object} widgetConfig                 - Configuration for the widget.
+ * @param {string} widgetConfig.layout          - Defines the layout arrangement of the header.
+ * @param {Object} widgetConfig.logo            - Configuration object to customize the logo image.
+ * @param {string} [widgetConfig.logo.name]     - Logo name in kebab-case format that defines the source path and the alt text.
+ * @param {string} [widgetConfig.logo.path]     - Custom logo source path for the logo image.
+ * @param {string} [widgetConfig.logo.alt]      - Custom logo alt text for the logo image.
+ * @param {Object} widgetConfig.logo.link       - Defines the URL and UTM variables values.
+ * @param {string} [widgetConfig.logo.link.url] - URL where the logo image will link to.
+ * @param {Object} [widgetConfig.logo.link.utm] - Configuration object for the existing UTM variables.
+ * @param {string} [widgetClass]                - CSS classes to add to the footer.
 }}
 
 {{#if widgetConfig.logo.path}}
