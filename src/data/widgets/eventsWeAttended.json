@@ -1,0 +1,30 @@
+{
+  "widget": {
+    "icon": "events-we-attended",
+    "header": "Events we Attended"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "events-attended-01.jpg",
+        "alt": "CALIcon 2019"
+      },
+      "blockTitle": "CALIcon 2019",
+      "description": [
+        "Justia sponsored and attended CALIcon19, held at the University of South Carolina School of Law. The conference brought together leading academics, educators, institutional leaders, and technology professionals to share ideas, innovations, experiences and best practices in legal education and technology."
+      ],
+      "readMore": ""
+    },
+    {
+      "image": {
+        "src": "events-attended-02.jpg",
+        "alt": "Cornell LII’s Tom Bruce Retirement Celebration"
+      },
+      "blockTitle": "Cornell LII’s Tom Bruce Retirement Celebration",
+      "description": [
+        "One of Justia’s closest friends and allies, Tom Bruce, celebrated his retirement at the Fastcase offices in Washington, D.C. The co-founder and director of the Legal Information Institute of Cornell Law School, Tom has been at the helm of the LII since its inception in 1992, and he has been instrumental in the free law movement. A number of Justia folks attended his retirement party and gave him a warm send-off into the next chapter of his life."
+      ],
+      "readMore": ""
+    }
+  ]
+}
