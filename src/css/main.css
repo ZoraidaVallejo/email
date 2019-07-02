@@ -514,16 +514,18 @@ a {
   margin: 0 0 8px;
 }
 
-.widget-columns.-with-image .block-image {
-  width: 250px;
-}
-
-.widget-columns.-with-image .block-image + .block-description {
+.widget-columns.-with-image .block-image + .block-description,
+.widget-columns.-with-image .block-image-link + .block-description {
   margin: 25px 0 16px;
 }
 
-.widget-columns.-with-image .block-image + .block-description:last-child {
+.widget-columns.-with-image .block-image + .block-description:last-child,
+.widget-columns.-with-image .block-image-link + .block-description:last-child {
   margin: 25px 0 0;
+}
+
+.widget-columns.-with-image .block-image {
+  width: 250px;
 }
 
 .widget-columns.-with-image .block-title {

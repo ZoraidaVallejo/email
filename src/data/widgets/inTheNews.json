@@ -7,33 +7,22 @@
     {
       "image": {
         "src": "clients-news-logo-01.png",
-        "alt": "[Id commodo deserunt aute veniam non cupidatat.]"
+        "alt": "Daily News"
       },
       "description": [
-        "[<b>Dolor labore do id tempor</b> aliquip dolor qui tempor et cillum nisi fugiat. Culpa enim nostrud ad veniam dolore fugiat nostrud occaecat.]"
+        "Matthew Weinick of <b>Famighetti & Weinick, PLLC</b> was quoted by NY Daily News regarding his clients, former NYPD officers, suing the city."
       ],
-      "readMore": "https://www.justia.com/"
+      "readMore": "https://www.nydailynews.com/new-york/ny-scandal-scapegoat-cops-sue-mayor-commissioner-20190513-y3baz34mdva6vl37ld4xdx6eq4-story.html"
     },
     {
       "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Exercitation aute laborum amet exercitation veniam.]"
+        "src": "clients-news-logo-02.png",
+        "alt": "The Daily Business Review"
       },
       "description": [
-        "[Eiusmod incididunt velit nostrud <b>elit anim ex exercitation</b> ipsum velit mollit labore aliqua.]"
+        "The Daily Business Review reports on how Miami construction lawyer Stuart Sobel of <b>Siegfried Rivera</b> accidentally built a trial empire."
       ],
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Sit minim sit est sint adipisicing.]"
-      },
-      "description": [
-        "[Sunt labore exercitation elit ipsum nisi cillum labore do.]",
-        "[Excepteur commodo <b>aliquip ad in dolore mollit</b> enim ex elit veniam do Lorem.]"
-      ],
-      "readMore": "https://www.justia.com/"
+      "readMore": "https://www.law.com/dailybusinessreview/2019/06/28/how-miami-construction-lawyer-stuart-sobel-accidentally-built-a-trial-empire/ "
     }
   ]
 }
