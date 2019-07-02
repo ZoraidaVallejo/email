@@ -8,33 +8,41 @@
   },
   "sites": [
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Clark, Clark & Noonan, LLC",
+      "location": "New Jersey",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.jerseyshoredefenselawyer.com/",
+        "simple": "jerseyshoredefenselawyer.com"
       },
       "screenshots": "featured-site-01.jpg",
       "thumbnail": "featured-site-01-thumb.jpg"
     },
+
     {
-      "clientName": "[ABC Lawyer]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Weltz Law",
+      "location": "New York",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.brokersfraud.com/",
+        "simple": "brokersfraud.com"
       },
       "thumbnail": "featured-site-01-thumb.jpg"
     },
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Allegheny Immigration Group",
+      "location": "Pennsylvania",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.alleghenyimmigration.com/",
+        "simple": "alleghenyimmigration.com"
+      },
+      "thumbnail": "featured-site-01-thumb.jpg"
+    },
+    {
+      "clientName": "Weisberg Consumer Law Group",
+      "location": "Florida",
+      "domain": {
+        "long": "https://www.carlemon.com/",
+        "simple": "carlemon.com"
       },
       "thumbnail": "featured-site-01-thumb.jpg"
     }
