@@ -974,3 +974,11 @@ a {
 .no-margin {
   margin: 0;
 }
+
+.jld-newsletter .widget.w-jurispro {
+  background-color: #ffffff;
+}
+
+.jld-newsletter .widget.w-law-events {
+  background-color: #f4f4f4;
+}
