@@ -39,15 +39,15 @@
     padding: 0 $padding 25px;
 
     &.-first {
-      padding: 25px $padding;
+      padding: 35px $padding 20px;
     }
 
     &.-button {
-      padding: 0 $padding 15px;
+      padding: 0 $padding 18px;
     }
 
     &.-last {
-      padding: 0 $padding $widget-gap;
+      padding: 0 $padding 40px;
     }
   }
 }

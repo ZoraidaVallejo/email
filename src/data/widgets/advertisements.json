@@ -61,7 +61,7 @@
         "image": "web-traffic-gradient.png",
         "width": 600,
         "bgColor": "#ebf1f6",
-        "cssSize": "100% auto"
+        "cssSize": "600px 483px"
       },
       "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
@@ -75,14 +75,16 @@
         "color": "blue-white"
       },
       "title": "<b>Increase Your Web Traffic</b>",
-      "titleResponsiveSize": 25,
-      "image": "web-traffic-graphic.png",
+      "titleResponsiveSize": 23,
       "contentOrder": [
         {
-          "type": "description",
-          "config": [
-            "Increase your visibility and increase the traffic to your site with a  site done by Justia. Our SEO experts take an analytical approach that focuses on building high-quality sites that search engines find relevant."
-          ]
+          "type": "image-description",
+          "config": {
+            "image": "web-traffic-graphic.png",
+            "description": [
+              "Increase your visibility and increase the traffic to your site with a  site done by Justia. Our SEO experts take an analytical approach that focuses on building high-quality sites that search engines find relevant."
+            ]
+          }
         },
         {
           "type": "button",
@@ -113,29 +115,24 @@
       },
       "logo": {
         "name": "marketing",
-        "color": "white"
+        "color": "blue"
       },
-      "title": "<b>Take Charge of Your Marketing</b>",
+      "title": "<b> Get More Contacts With <br>A More Complete Profile</b>",
       "titleResponsiveSize": 25,
-      "image": "charge-of-image-01.png",
-      "background": {
-        "image": "charge-of-color-01.png",
-        "width": 600,
-        "bgColor": "#cccccc"
-      },
+      "image": "more-contacts-graphic.gif",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Don’t just sit back and watch things happen (or not happen). Take charge of your marketing and let Justia build a high-quality website for you."
+            "Did you know that lawyers with a complete profile get more contacts? Be sure to update your profile with accurate contact information, professional expertise, and more."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Learn More",
-            "width": 150,
+            "text": "Update My Profile Now",
+            "width": 250,
             "height": 50,
             "fontSize": 18
           }
@@ -143,7 +140,7 @@
         {
           "type": "description",
           "config": [
-            "Call Us Now at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "If you are interested in increased visibilty in the Justia Lawyer Directory, please feel free to contact one of our marketing specialists today. <br><a href=\"#\" targt=\"_blank\"><b>Learn More ››</b></a>"
           ]
         }
       ]

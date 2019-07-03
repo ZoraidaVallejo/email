@@ -7,8 +7,6 @@
 // Replace ads before moving to examples.
 }}
 
-{{!-- {{>ad-type-01 widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}} --}}
-
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
 
 {{! ================================================================================================================= }}
@@ -61,6 +59,26 @@
 
         {{#if widgetConfig.contentOrder}}
           {{#forEach widgetConfig.contentOrder}}
+            {{#compare this.type "===" "image-description"}}
+              <tr>
+                <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+                  <div class="image" responsive="mobile-hide">
+                    <a href="{{{../widgetConfig.link}}}{{{ utmVariables ../widgetConfig.utm}}}" target="_blank">
+                      {{>img
+                        src=this.config.image
+                        alt=(default ../widgetConfig.title ../widgetConfig.imageAlt)
+                      }}
+                    </a>
+                  </div>
+                  <div class="description" responsive="collapse-one mobile-no-padding">
+                    {{#each this.config.description}}
+                      <p>{{{this}}}</p>
+                    {{/each}}
+                  </div>
+                </td>
+              </tr>
+            {{/compare}}
+
             {{#compare this.type "===" "description"}}
               <tr>
                 <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">

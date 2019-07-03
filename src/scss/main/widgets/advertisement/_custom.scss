@@ -22,74 +22,78 @@
       }
     }
 
-    .image {
+    .content.-image-description {
+      padding: 0 $padding 37px;
+      text-align: left;
 
-      img {
+      .image {
+        float: left;
         width: 266px;
+
+        img {
+          width: 266px;
+        }
+      }
+
+      .description {
+        float: right;
+        width: 260px;
+        padding: 26px 0;
+
+        p {
+          @include mail-font(18px, 1.35);
+          color: plt('white');
+        }
       }
     }
 
-    // .content {
-    //   background-color: plt('justia-blue');
-    //   color: plt('white');
+    .content.-button {
+      padding: 0 $padding 20px;
+    }
 
-    //   &.-idx-3 {
+    .content.-last {
+      padding: 0 $padding 35px;
 
-    //     a {
-    //       color: plt('white');
-    //     }
-    //   }
-    // }
+      p,
+      a {
+        color: plt('justia-blue');
+      }
+    }
   }
 
-  // &.-jld-ad-02 {
-  //   background-color: #2f97ae;
+  &.-jld-ad-02 {
+    background-color: #ebf1f6;
 
-  //   .justia-logo {
-  //     padding: 40px $padding 35px;
-  //   }
+    .justia-logo {
+      padding: 40px $padding 27px;
+    }
 
-  //   .title {
-  //     padding: 0 $padding 18px;
+    .title {
+      padding: 0 $padding 25px;
 
-  //     a {
-  //       @include mail-font(32px, 1.15);
-  //       color: plt('white');
-  //     }
-  //   }
+      a {
+        @include mail-font(34px, 1.15);
+      }
+    }
 
-  //   .image {
-  //     width: 291px;
-  //     padding: 0;
-  //     vertical-align: bottom;
+    .image {
+      padding: 0 $padding 29px;
 
-  //     img {
-  //       width: 291px;
-  //     }
-  //   }
+      img {
+        width: image-width('src/images/more-contacts-graphic.gif');
+      }
+    }
 
-  //   .desc-wrapper {
-  //     width: 309px;
-  //     padding: 15px 0 0;
-  //     vertical-align: top;
-  //   }
+    .content {
+      background-color: plt('justia-blue');
 
-  //   .content {
-  //     padding: 0 $padding 25px 0;
-  //     text-align: right;
+      &.-description {
 
-  //     p {
-  //       @include mail-font(18px, 1.35);
-  //       color: plt('white');
-  //     }
-
-  //     &.-last {
-  //       padding: 0 $padding 0 0;
-
-  //       a {
-  //         color: plt('white');
-  //       }
-  //     }
-  //   }
-  // }
+        p,
+        a {
+          color: plt('white');
+        }
+      }
+    }
+  }
 }
