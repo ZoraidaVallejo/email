@@ -57,6 +57,12 @@
   },
   "jld": {
     "ad1": {
+      "background": {
+        "image": "web-traffic-gradient.png",
+        "width": 600,
+        "bgColor": "#ebf1f6",
+        "cssSize": "100% auto"
+      },
       "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
@@ -66,26 +72,27 @@
       },
       "logo": {
         "name": "marketing",
-        "color": "blue"
+        "color": "blue-white"
       },
-      "title": "<b>Take Advantage of Premium Placements</b>",
+      "title": "<b>Increase Your Web Traffic</b>",
       "titleResponsiveSize": 25,
-      "image": "advantage-premium-01.gif",
+      "image": "web-traffic-graphic.png",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Do you want to get more out of your profile on Justia? Sign up for premium placements and take advantage of the benefits such as access to profile stats and more."
+            "Increase your visibility and increase the traffic to your site with a  site done by Justia. Our SEO experts take an analytical approach that focuses on building high-quality sites that search engines find relevant."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Learn More",
-            "width": 150,
+            "text": "Contact Us For Help With Your SEO",
+            "width": 332,
             "height": 50,
-            "fontSize": 18
+            "fontSize": 18,
+            "responsive": "responsive-button"
           }
         },
         {
