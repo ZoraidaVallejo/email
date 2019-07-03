@@ -42,7 +42,9 @@
 
   <tr>
     <td class="annotator-info" responsive="mobile-padding-horizontal-sides">
-      {{>img src="annotator-photo-01.jpg" alt=annotator.featured.name class="photo"}}
+      {{#if annotator.featured.photoLink}}<a href="{{{annotator.featured.photoLink}}}" target="_blank">{{/if}}
+        {{>img src="annotator-photo-01.jpg" alt=annotator.featured.name class="photo"}}
+      {{#if annotator.featured.photoLink}}</a>{{/if}}
 
       <p class="name">
         {{#if annotator.featured.nameLink}}<a href="{{{annotator.featured.nameLink}}}" target="_blank">{{/if}}

@@ -7,7 +7,13 @@
     ],
     "message": [
       "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing."
-    ]
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
   },
   "jld": {
     "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
@@ -21,8 +27,14 @@
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn More"
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
     }
   }
 }
