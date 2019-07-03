@@ -63,12 +63,12 @@
         "bgColor": "#ebf1f6",
         "cssSize": "600px 483px"
       },
-      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "link": "https://www.justia.com/marketing/law-firm-websites/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v20"
+        "content": "banner-website-marketing-generic-v19"
       },
       "logo": {
         "name": "marketing",
@@ -111,7 +111,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[directory-ad-example-type-2]"
+        "content": "banner-complete-your-profile-v2"
       },
       "logo": {
         "name": "marketing",
@@ -131,6 +131,7 @@
           "type": "button",
           "config": {
             "style": "red",
+            "href": "https://accounts.justia.com/signin/fast?uid=*%7CUSER_ID%7C*&code=*%7CSIGN_CODE%7C*&destination=https://lawyers.justia.com/profile/*%7CPROFILE_ID%7C*/edit/overview?utm_medium=email&utm_source=directory-newletter&utm_campaign=2019-07&utm_content=button-update-profile-now-v2",
             "text": "Update My Profile Now",
             "width": 250,
             "height": 50,
@@ -140,7 +141,7 @@
         {
           "type": "description",
           "config": [
-            "If you are interested in increased visibilty in the Justia Lawyer Directory, please feel free to contact one of our marketing specialists today. <br><a href=\"#\" targt=\"_blank\"><b>Learn More ››</b></a>"
+            "If you are interested in increased visibilty in the Justia Lawyer Directory, please feel free to contact one of our marketing specialists today. <br><a href=\"https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_source=directory-newletter&utm_campaign=2019-07&utm_content=button-learn-more-v2\" targt=\"_blank\"><b>Learn More ››</b></a>"
           ]
         }
       ]
