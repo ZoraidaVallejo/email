@@ -934,6 +934,10 @@ a {
   padding: 10px 30px 50px;
 }
 
+.w-jurispro .custom-description.-last p {
+  font: 15px/1.5 Arial, sans-serif;
+}
+
 .w-jurispro .custom-description .text {
   padding: 0 35px 30px 0;
   border-bottom: 1px solid rgba(6, 53, 122, 0.1);

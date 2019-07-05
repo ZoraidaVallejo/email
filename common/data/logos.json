@@ -29,7 +29,9 @@
   },
   "lawyerDirectory": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-lawyer-directory-blue.png"
+      "blue": "http://logo.diego.udev.justatic.com/v/1/branding/logos/emails/justia-lawyer-directory-blue.png",
+      "white": "http://logo.diego.udev.justatic.com/v/1/branding/logos/emails/justia-lawyer-directory-transparent.png",
+      "blue-white": "http://logo.diego.udev.justatic.com/v/1/branding/logos/emails/justia-lawyer-directory-blue-white.png"
     },
     "alt": "Justia Lawyer Directory"
   },

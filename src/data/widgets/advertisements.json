@@ -106,15 +106,10 @@
       ]
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/law-firm-websites/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "banner-complete-your-profile-v2"
-      },
+      "link": "https://accounts.justia.com/signin/fast?uid=*%7CUSER_ID%7C*&code=*%7CSIGN_CODE%7C*&destination=https://lawyers.justia.com/profile/*%7CPROFILE_ID%7C*/edit/overview?utm_medium=email&utm_source=directory-newletter&utm_campaign=2019-07&utm_content=button-update-profile-now-v2",
+      "utm": {},
       "logo": {
-        "name": "marketing",
+        "name": "lawyer-directory",
         "color": "blue"
       },
       "title": "<b> Get More Contacts With <br>A More Complete Profile</b>",
