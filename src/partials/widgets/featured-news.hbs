@@ -32,7 +32,6 @@
   {{>widget-header
     header=featuredNews.widget.header
     icon=featuredNews.widget.icon
-    link=@root.featuredNewsTitleLink
   }}
 
   {{>widget-banner
@@ -47,7 +46,11 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">{{{featuredNews.title}}}</h3>
+      <h3 class="content-title">
+        <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
+          {{{featuredNews.title}}}
+        </a>
+      </h3>
 
       {{#each featuredNews.description}}
         <p>{{{this}}}</p>
