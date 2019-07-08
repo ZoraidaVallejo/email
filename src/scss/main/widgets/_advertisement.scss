@@ -19,7 +19,7 @@
   }
 
   .title {
-    padding: 0 $padding 15px;
+    padding: 0 $padding 35px;
 
     a {
       @include mail-font(30px, 1.15);
@@ -38,20 +38,19 @@
   .content {
     padding: 0 $padding 25px;
 
-    &.-image-description {
+    .content-side {
+      width: 260px;
 
-      .side-image {
-        float: left;
+      img {
         width: 260px;
-
-        img {
-          width: 260px;
-        }
       }
 
-      .side-text {
+      &:first-child {
+        float: left;
+      }
+
+      &:last-child {
         float: right;
-        width: 260px;
       }
     }
 

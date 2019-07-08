@@ -728,7 +728,7 @@ a {
 }
 
 .w-advertisement .title {
-  padding: 0 30px 15px;
+  padding: 0 30px 35px;
 }
 
 .w-advertisement .title a {
@@ -748,18 +748,20 @@ a {
   padding: 0 30px 25px;
 }
 
-.w-advertisement .content.-image-description .side-image {
+.w-advertisement .content .content-side {
+  width: 260px;
+}
+
+.w-advertisement .content .content-side img {
+  width: 260px;
+}
+
+.w-advertisement .content .content-side:first-child {
   float: left;
-  width: 260px;
 }
 
-.w-advertisement .content.-image-description .side-image img {
-  width: 260px;
-}
-
-.w-advertisement .content.-image-description .side-text {
+.w-advertisement .content .content-side:last-child {
   float: right;
-  width: 260px;
 }
 
 .w-advertisement .content.-first {

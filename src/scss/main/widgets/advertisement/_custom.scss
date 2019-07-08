@@ -6,61 +6,6 @@
 
   // &.-client-ad-01 {}
 
-  &.-custom-01 {
-    background-color: #ebf1f6;
-
-    .justia-logo {
-      padding: 40px $padding;
-    }
-
-    .title {
-      padding: 0 $padding $padding;
-
-      a {
-        @include mail-font(34px, 1.15);
-        color: plt('white');
-      }
-    }
-
-    .content.-image-description {
-      padding: 0 $padding 37px;
-      text-align: left;
-
-      .image {
-        float: left;
-        width: 266px;
-
-        img {
-          width: 266px;
-        }
-      }
-
-      .description {
-        float: right;
-        width: 260px;
-        padding: 26px 0;
-
-        p {
-          @include mail-font(18px, 1.35);
-          color: plt('white');
-        }
-      }
-    }
-
-    .content.-button {
-      padding: 0 $padding 20px;
-    }
-
-    .content.-last {
-      padding: 0 $padding 35px;
-
-      p,
-      a {
-        color: plt('justia-blue');
-      }
-    }
-  }
-
   // &.-jld-ad-01 {}
 
   // &.-jld-ad-02 {}

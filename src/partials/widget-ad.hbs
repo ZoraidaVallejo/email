@@ -90,19 +90,27 @@
       {{#compare this.type "===" "image-description"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-            <div class="side-image" responsive="mobile-hide">
-              <a href="{{{../widgetConfig.link}}}{{{ utmVariables ../widgetConfig.utm}}}" target="_blank">
-                {{>img
-                  src=this.config.image
-                  alt=(default ../widgetConfig.title ../widgetConfig.imageAlt)
-                }}
-              </a>
-            </div>
-            <div class="side-text" responsive="collapse-one mobile-no-padding">
-              {{#each this.config.description}}
-                <p>{{{this}}}</p>
-              {{/each}}
-            </div>
+            {{#forIn this.config}}
+              {{#compare @key "===" "image"}}
+                <div class="content-side -image" responsive="mobile-hide">
+                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                    {{>img
+                      src=../config.image
+                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                    }}
+                  </a>
+                </div>
+              {{/compare}}
+
+              {{#compare @key "===" "description"}}
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                  {{#each ../config.description}}
+                    <p>{{{this}}}</p>
+                  {{/each}}
+                </div>
+              {{/compare}}
+            {{/forIn}}
+
           </td>
         </tr>
       {{/compare}}
