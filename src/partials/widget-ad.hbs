@@ -1,5 +1,5 @@
 {{! ================================================================================================================= }}
-{{! A D V E R T I S E M E N T   T E M P L A T E                                                                       }}
+{{! W I D G E T   -   A D V E R T I S E M E N T                                                                       }}
 {{! ================================================================================================================= }}
 
 {{!
@@ -19,16 +19,36 @@
  * @param {Number}          widgetConfig.titleResponsiveSize
  * @param {String}          widgetConfig.image
  * @param {String}          widgetConfig.imageAlt
+ * @param {Object}          widgetConfig.background
+ * @param {String}          widgetConfig.background.image
+ * @param {String}          widgetConfig.background.bgColor
+ * @param {Number}          widgetConfig.background.width
+ * @param {Number}          widgetConfig.background.height
+ * @param {String}          widgetConfig.background.cssSize
  * @param {Object[]}        widgetConfig.contentOrder
  * @param {String}          widgetConfig.contentOrder[].type
  * @param {String[]|Object} widgetConfig.contentOrder[].config
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "adClasses" (classList "widget" "w-advertisement" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-advertisement" "-type-01" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-advertisement" widgetClass "set-max-width")}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+    <tr>
+      {{>ui-background backgroundBehavior="cell" backgroundStart=true
+        bgImage=widgetConfig.background.image
+        bgColor=widgetConfig.background.bgColor
+        bgWidth=widgetConfig.background.width
+        bgHeight=widgetConfig.background.height
+        bgSize=widgetConfig.background.cssSize
+      }}
+        <table {{{tableAttr}}}>
+  {{/and}}
+
   {{#if widgetConfig.logo}}
     <tr>
       <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
@@ -70,7 +90,7 @@
       {{#compare this.type "===" "image-description"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-            <div class="image" responsive="mobile-hide">
+            <div class="side-image" responsive="mobile-hide">
               <a href="{{{../widgetConfig.link}}}{{{ utmVariables ../widgetConfig.utm}}}" target="_blank">
                 {{>img
                   src=this.config.image
@@ -78,7 +98,7 @@
                 }}
               </a>
             </div>
-            <div class="description" responsive="collapse-one mobile-no-padding">
+            <div class="side-text" responsive="collapse-one mobile-no-padding">
               {{#each this.config.description}}
                 <p>{{{this}}}</p>
               {{/each}}
@@ -115,4 +135,10 @@
       {{/compare}}
     {{/forEach}}
   {{/if}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+      </table>
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
+  {{/and}}
 {{/table}}

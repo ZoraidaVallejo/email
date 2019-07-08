@@ -58,10 +58,10 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "",
-        "width": 0,
-        "bgColor": "",
-        "cssSize": ""
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
       },
       "link": "https://www.justia.com/",
       "utm": {
@@ -74,7 +74,7 @@
         "name": "marketing",
         "color": "blue"
       },
-      "title": "[<b>Sunt officia irure adipisicing sit sit consectetur velit.</b>]",
+      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
       "titleResponsiveSize": 23,
       "image": "ad-graphic-01.gif",
       "contentOrder": [
@@ -86,6 +86,13 @@
               "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua. In sint nisi veniam irure nulla aliqua irure in. Ipsum labore aute magna dolore id ea anim anim nisi.]"
             ]
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
+            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
+          ]
         },
         {
           "type": "button",
@@ -113,15 +120,15 @@
         "bgColor": "",
         "cssSize": ""
       },
-      "link": "https://accounts.justia.com/signin/fast?uid=*%7CUSER_ID%7C*&code=*%7CSIGN_CODE%7C*&destination=https://lawyers.justia.com/profile/*%7CPROFILE_ID%7C*/edit/overview?utm_medium=email&utm_source=directory-newletter&utm_campaign=2019-07&utm_content=button-update-profile-now-v2",
+      "link": "<%= editingInterfaceLink %>",
       "utm": {},
       "logo": {
         "name": "lawyer-directory",
         "color": "blue"
       },
       "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
-      "titleResponsiveSize": 25,
-      "image": "jld-ad-01-graphic-01.gif",
+      "titleResponsiveSize": 23,
+      "image": "ad-graphic-01.gif",
       "contentOrder": [
         {
           "type": "description",
@@ -133,11 +140,11 @@
           "type": "button",
           "config": {
             "style": "red",
-            "href": "",
-            "text": "Update My Profile Now",
-            "width": 250,
+            "text": "[Magna est pariatur dolor]",
+            "width": 400,
             "height": 50,
-            "fontSize": 18
+            "fontSize": 18,
+            "responsive": ""
           }
         },
         {

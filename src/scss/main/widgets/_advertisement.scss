@@ -22,21 +22,38 @@
     padding: 0 $padding 15px;
 
     a {
-      @include mail-font(30px);
+      @include mail-font(30px, 1.15);
       color: plt('justia-blue');
     }
   }
 
   .image {
-    padding: 0;
+    padding: 0 $padding;
 
     img {
-      width: $max-width;
+      width: $inner-max-width;
     }
   }
 
   .content {
     padding: 0 $padding 25px;
+
+    &.-image-description {
+
+      .side-image {
+        float: left;
+        width: 260px;
+
+        img {
+          width: 260px;
+        }
+      }
+
+      .side-text {
+        float: right;
+        width: 260px;
+      }
+    }
 
     &.-first {
       padding: 35px $padding 20px;

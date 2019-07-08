@@ -61,43 +61,7 @@
     }
   }
 
-  &.-jld-ad-02 {
-    background-color: #ebf1f6;
+  // &.-jld-ad-01 {}
 
-    .justia-logo {
-      padding: 40px $padding 27px;
-
-      img {
-        width: 429px;
-      }
-    }
-
-    .title {
-      padding: 0 $padding 25px;
-
-      a {
-        @include mail-font(34px, 1.15);
-      }
-    }
-
-    .image {
-      padding: 0 $padding 29px;
-
-      img {
-        width: 346px;
-      }
-    }
-
-    .content {
-      background-color: plt('justia-blue');
-
-      &.-description {
-
-        p,
-        a {
-          color: plt('white');
-        }
-      }
-    }
-  }
+  // &.-jld-ad-02 {}
 }
