@@ -78,7 +78,7 @@
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#uiButton
               presetStyle=this.config.style
-              href=this.config.href
+              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
               width=this.config.width
               height=this.config.height
               fontSize=this.config.fontSize

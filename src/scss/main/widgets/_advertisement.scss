@@ -47,7 +47,7 @@
     }
 
     &.-last {
-      padding: 0 $padding 40px;
+      padding: 0 $padding $widget-gap;
     }
   }
 }
