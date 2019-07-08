@@ -6,7 +6,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
-        "content": "[client-ad-example-type-1]"
+        "content": "[client-ad-01-example]"
       },
       "logo": {
         "name": "marketing",
@@ -49,7 +49,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
-        "content": "[client-ad-example-type-1]"
+        "content": "[client-ad-02-example]"
       },
       "image": "client-ad-image-02.png",
       "imageAlt": "[Exercitation veniam laborum cillum est cillum ullamco tempor magna deserunt.]"
@@ -58,31 +58,32 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "web-traffic-gradient.png",
-        "width": 600,
-        "bgColor": "#ebf1f6",
-        "cssSize": "600px 483px"
+        "image": "",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
       },
-      "link": "https://www.justia.com/marketing/law-firm-websites/",
+      "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-website-marketing-generic-v19"
+        "content": "[jld-ad-01-example]"
       },
       "logo": {
         "name": "marketing",
-        "color": "blue-white"
+        "color": "blue"
       },
-      "title": "<b>Increase Your Web Traffic</b>",
+      "title": "[<b>Sunt officia irure adipisicing sit sit consectetur velit.</b>]",
       "titleResponsiveSize": 23,
+      "image": "ad-graphic-01.gif",
       "contentOrder": [
         {
           "type": "image-description",
           "config": {
-            "image": "web-traffic-graphic.png",
+            "image": "ad-graphic-02.png",
             "description": [
-              "Increase your visibility and increase the traffic to your site with a  site done by Justia. Our SEO experts take an analytical approach that focuses on building high-quality sites that search engines find relevant."
+              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua. In sint nisi veniam irure nulla aliqua irure in. Ipsum labore aute magna dolore id ea anim anim nisi.]"
             ]
           }
         },
@@ -90,11 +91,11 @@
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Contact Us For Help With Your SEO",
-            "width": 332,
+            "text": "[Non est nulla velit incididunt]",
+            "width": 340,
             "height": 50,
             "fontSize": 18,
-            "responsive": "responsive-button"
+            "responsive": ""
           }
         },
         {
@@ -112,7 +113,7 @@
         "name": "lawyer-directory",
         "color": "blue"
       },
-      "title": "<b> Get More Contacts With <br>A More Complete Profile</b>",
+      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
       "titleResponsiveSize": 25,
       "image": "more-contacts-graphic.gif",
       "contentOrder": [
