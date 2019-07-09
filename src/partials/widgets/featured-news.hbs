@@ -3,15 +3,13 @@
 {{! ================================================================================================================= }}
 
 {{!
-// TODO:
-// Chat with Pris and Haydee about the naming convention for the config variables.
+// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
 // In this case it uses featuredNews because both Newsletters shared the same info,
 // but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
 }}
 
 {{!
-// TODO:
-// Fix anotations.
+// TODO: Fix anotations.
 }}
 
 {{#and featuredNews.link (compare featuredNews.link "!==" "")}}
@@ -41,8 +39,7 @@
   }}
 
   {{!--
-  // TODO:
-  // Maybe move title and description to a component.
+  // TODO: Maybe move title and description to a component.
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
@@ -59,8 +56,7 @@
   </tr>
 
   {{!
-  // TODO:
-  // Move to `widget-button` component.
+  // TODO: Move to `widget-button` component.
   }}
   {{#if @root.widgetWithButton}}
     <tr>
