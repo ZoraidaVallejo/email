@@ -21,7 +21,6 @@
     {
       "clientName": "[ABC Lawyer]",
       "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
       "domain": {
         "long": "https://www.justia.com/",
         "simple": "[website.com]"
@@ -31,7 +30,6 @@
     {
       "clientName": "[Law Offices of ABC Lawyers]",
       "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
       "domain": {
         "long": "https://www.justia.com/",
         "simple": "[website.com]"

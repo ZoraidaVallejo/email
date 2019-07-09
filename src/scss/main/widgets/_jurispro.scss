@@ -16,6 +16,10 @@
 
     &.-last {
       padding: 10px $padding $widget-gap;
+
+      p {
+        @include mail-font(15px);
+      }
     }
 
     .text {

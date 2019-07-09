@@ -41,7 +41,12 @@
           <p>{{{this}}}</p>
         {{/each}}
         {{#if internetStats.source}}
-          <p class="source">Source: <b>{{{internetStats.source}}}</b></p>
+          <p class="source">
+            Source:
+            {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
+              <b>{{{internetStats.source}}}</b>
+            {{#if internetStats.sourceLink}}</a>{{/if}}
+          </p>
         {{/if}}
       </td>
     </tr>

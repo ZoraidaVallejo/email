@@ -1,41 +1,43 @@
 {
   "justia": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/shared/images/logos/justia-blue.png"
+      "blue": "https://justatic.com/v/20190705/shared/images/logos/justia-blue.png"
     },
     "alt": "Justia"
   },
   "insights": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-insights-blue.png",
-      "white": "https://justatic.com/v/20190628/branding/logos/emails/justia-insights-transparent.png",
-      "blue-white": "https://justatic.com/v/20190628/branding/logos/emails/justia-insights-blue-white.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-blue.png",
+      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-transparent.png",
+      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-blue-white.png"
     },
     "alt": "Justia Insights"
   },
   "marketing": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-marketing-blue.png",
-      "white": "https://justatic.com/v/20190628/branding/logos/emails/justia-marketing-transparent.png",
-      "blue-white": "https://justatic.com/v/20190628/branding/logos/emails/justia-marketing-blue-white.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-blue.png",
+      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-transparent.png",
+      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-blue-white.png"
     },
     "alt": "Justia Marketing"
   },
   "legalJobs": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-legal-jobs-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-legal-jobs-blue.png"
     },
     "alt": "Justia Legal Jobs"
   },
   "lawyerDirectory": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-lawyer-directory-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-blue.png",
+      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-transparent.png",
+      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-blue-white.png"
     },
     "alt": "Justia Lawyer Directory"
   },
   "lawyerProfileEssentials": {
     "path": {
-      "blue": "https://justatic.com/v/20190628/branding/logos/emails/justia-lawyer-profile-essentials-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-profile-essentials-blue.png"
     },
     "alt": "Justia Lawyer Profile Essentials"
   }

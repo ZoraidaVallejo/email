@@ -112,8 +112,8 @@
 
   &.-with-image {
 
-    .block-image {
-      width: 250px;
+    .block-image,
+    .block-image-link {
 
       + .block-description {
         margin: 25px 0 16px;
@@ -122,6 +122,10 @@
           margin: 25px 0 0;
         }
       }
+    }
+
+    .block-image {
+      width: 250px;
     }
 
     .block-title {

@@ -24,7 +24,7 @@
 
 {{#if backgroundStart}}
   {{assign "bgInlineStyles" (styles
-    background=(concat "url('" (resolveFilePath bgImage) "')")
+    background=(concat bgColor " url('" (resolveFilePath bgImage) "')")
     backgroundRepeat="no-repeat"
     backgroundSize=(ternary bgSize bgSize null)
   )}}
