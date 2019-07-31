@@ -12,24 +12,33 @@
     icon=insideJustia.widget.icon
   }}
 
-  {{>widget-banner
-    imgSrc=justiaAnniversary.banner
-    imgAlt=justiaAnniversary.widget.header
-  }}
+  {{#if insideJustia.singleColumn}}
 
-  {{!--
-  // TODO: Maybe move title and description to a component.
-  --}}
-  <tr>
-    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">
-        {{{justiaAnniversary.title}}}
-      </h3>
-      {{#each justiaAnniversary.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
-    </td>
-  </tr>
+    {{#each insideJustia.columns}}
 
-  {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
+      {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt}}
+
+      {{!--
+      // TODO: Maybe move title and description to a component.
+      --}}
+      <tr>
+        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+          <h3 class="content-title">
+            {{{this.blockTitle}}}
+          </h3>
+          {{#if this.blockSubtitle}}
+            <p class="content-subtitle">
+              {{{this.blockSubtitle}}}
+            </p>
+          {{/if}}
+          {{#each this.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </td>
+      </tr>
+    {{/each}}
+
+  {{else}}
+    {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
+  {{/if}}
 {{/table}}
