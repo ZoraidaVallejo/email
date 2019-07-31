@@ -794,6 +794,75 @@ a {
   padding: 0 30px 50px;
 }
 
+.w-advertisement.-jld-ad-01 .justia-logo {
+  padding: 40px 30px 43px;
+}
+
+.w-advertisement.-jld-ad-01 .title {
+  padding: 0 50px 63px;
+}
+
+.w-advertisement.-jld-ad-01 .title a {
+  font: 34px/1.15 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-01 .image {
+  padding: 0;
+}
+
+.w-advertisement.-jld-ad-01 .image img {
+  width: 600px;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 {
+  padding: 50px 30px 35px;
+  text-align: left;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 p {
+  font: 18px/1.35 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-01 .content.-description p,
+.w-advertisement.-jld-ad-01 .content.-description a {
+  color: #06357a;
+}
+
+.w-advertisement.-jld-ad-02 .justia-logo {
+  padding: 30px 30px 18px;
+}
+
+.w-advertisement.-jld-ad-02 .title {
+  padding: 0 85px 13px;
+}
+
+.w-advertisement.-jld-ad-02 .title a {
+  font: 34px/1.15 Arial, sans-serif;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .image {
+  padding: 0;
+}
+
+.w-advertisement.-jld-ad-02 .image img {
+  width: 600px;
+}
+
+.w-advertisement.-jld-ad-02 .content {
+  background-color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .content.-idx-1 {
+  padding: 12px 30px 20px;
+  text-align: left;
+}
+
+.w-advertisement.-jld-ad-02 .content.-description p,
+.w-advertisement.-jld-ad-02 .content.-description a {
+  color: #06357a;
+}
+
 .w-answers-leaderboard .ranking-list {
   padding: 0 30px 25px;
 }
