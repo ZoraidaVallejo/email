@@ -690,27 +690,32 @@ a {
 
 .w-law-events .event .date {
   font: 700 18px/1.1 Arial, sans-serif;
-  margin: 0 0 3px;
+  margin: 0;
 }
 
 .w-law-events .event .type {
   font: 700 16px/1.1 Arial, sans-serif;
+  margin: 3px 0 0;
 }
 
 .w-law-events .event .description {
-  margin: 0 0 7px;
+  margin: 16px 0 0;
+}
+
+.w-law-events .event .read-more {
+  margin: 7px 0 0;
 }
 
 .w-law-events .event a {
   color: #000000;
 }
 
-.w-law-events .event.-event-2 .read-more {
-  margin: 31px 0 0;
+.w-law-events .event.-event-4 .read-more {
+  margin: 27px 0 0;
 }
 
-.w-law-events .event.-event-3 .read-more {
-  margin: 79px 0 0;
+.w-law-events .event.-event-7 .read-more {
+  margin: 31px 0 0;
 }
 
 .w-advertisement td {
@@ -825,6 +830,10 @@ a {
 
 .w-answers-leaderboard .ranking-list .ranking p {
   font: 700 36px/36px Arial, sans-serif;
+}
+
+.w-inside-justia .content-title {
+  color: #06357a;
 }
 
 .w-annotator .annotator-info {

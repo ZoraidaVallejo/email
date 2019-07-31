@@ -30,8 +30,11 @@
               {{/unless}}
 
               {{#if this.dateTime}}
-                <p class="date">{{{this.dateTime}}}</p>
-                <p class="type">{{{this.typeLocation}}}</p>
+                {{!--
+                // TODO: Send this change live.
+                --}}
+                {{#if this.dateTime}}<p class="date">{{{this.dateTime}}}</p>{{/if}}
+                {{#if this.typeLocation}}<p class="type">{{{this.typeLocation}}}</p>{{/if}}
                 <p class="description">{{{this.description}}}</p>
 
                 {{#and this.readMore (compare this.readMore "!==" "")}}

@@ -8,33 +8,33 @@
   },
   "sites": [
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
-      "location": "[Anytown, CA]",
-      "possessiveAdjective": "[their]",
+      "clientName": "Law Office of Michael F. Pezzulli",
+      "location": "Dallas, TX",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.courtroom.com/",
+        "simple": "courtroom.com"
       },
-      "screenshots": "featured-site-01.jpg",
-      "thumbnail": "featured-site-01-thumb.jpg"
+      "screenshots": "featured-site-01.png",
+      "thumbnail": "featured-site-01-thumb.png"
     },
     {
-      "clientName": "[ABC Lawyer]",
-      "location": "[Anytown, CA]",
+      "clientName": "Law Office of Jennifer L. Hennessey",
+      "location": "Sacramento, CA",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.hennessey-law.com/",
+        "simple": "hennessey-law.com"
       },
-      "thumbnail": "featured-site-01-thumb.jpg"
+      "thumbnail": "featured-site-02-thumb.png"
     },
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
-      "location": "[Anytown, CA]",
+      "clientName": "Fred Mark Dry Attorney & Counselor at Law",
+      "location": "Northfield, IL",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.freddry.com/",
+        "simple": "freddry.com"
       },
-      "thumbnail": "featured-site-01-thumb.jpg"
+      "thumbnail": "featured-site-03-thumb.png"
     }
   ]
 }

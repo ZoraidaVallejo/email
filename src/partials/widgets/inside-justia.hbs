@@ -12,5 +12,24 @@
     icon=insideJustia.widget.icon
   }}
 
+  {{>widget-banner
+    imgSrc=justiaAnniversary.banner
+    imgAlt=justiaAnniversary.widget.header
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <h3 class="content-title">
+        {{{justiaAnniversary.title}}}
+      </h3>
+      {{#each justiaAnniversary.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
   {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
 {{/table}}

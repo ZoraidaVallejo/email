@@ -8,15 +8,20 @@
 
     .date {
       @include mail-font(18px, 1.1, tp('weight', 'bold'));
-      margin: 0 0 3px;
+      margin: 0;
     }
 
     .type {
       @include mail-font(16px, 1.1, tp('weight', 'bold'));
+      margin: 3px 0 0;
     }
 
     .description {
-      margin: 0 0 7px;
+      margin: 16px 0 0;
+    }
+
+    .read-more {
+      margin: 7px 0 0;
     }
 
     a {
