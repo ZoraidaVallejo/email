@@ -27,7 +27,7 @@
     "button": {
       "style": "red-ghost",
       "link": "<%= editingInterfaceLink %>",
-      "text": "Update photo now",
+      "text": "Update Photo Now",
       "width": 180
     }
   }
