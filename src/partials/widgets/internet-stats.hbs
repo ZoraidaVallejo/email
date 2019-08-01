@@ -33,21 +33,25 @@
     </td>
   </tr>
 
-  {{#if internetStats.description}}
-    <tr>
-      <td class="description" responsive="mobile-padding-horizontal-sides">
+  <tr>
+    <td class="description" responsive="mobile-padding-horizontal-sides">
+      {{#if internetStats.description}}
         {{#each internetStats.description}}
           <p>{{{this}}}</p>
         {{/each}}
-        {{#if internetStats.source}}
-          <p class="source">
-            Source:
-            {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
-              <b>{{{internetStats.source}}}</b>
-            {{#if internetStats.sourceLink}}</a>{{/if}}
-          </p>
-        {{/if}}
-      </td>
-    </tr>
-  {{/if}}
+      {{/if}}
+
+      {{#if internetStats.source}}
+        <p class="source">
+          Source:
+          {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
+            {{!--
+            // TODO: Send this change live.
+              --}}
+            {{{internetStats.source}}}
+          {{#if internetStats.sourceLink}}</a>{{/if}}
+        </p>
+      {{/if}}
+    </td>
+  </tr>
 {{/table}}
