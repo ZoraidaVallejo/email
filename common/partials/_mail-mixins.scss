@@ -24,7 +24,7 @@
     a {
       color: get('color', $scheme);
 
-      @include mail-font(get('font-size', $scheme));
+      @include mail-font(get('font-size', $scheme), 1.45);
     }
   }
 
@@ -59,4 +59,36 @@
 ///
 @mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
   font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
+}
+
+/// Sets the responsive classes of an specific box-model property.
+///
+/// @param {string} $property - CSS box-model property.
+/// @param {number} $value - CSS value.
+/// @param {boolean} $horizontal [true] - Whether or not to include classes to modify left and right values.
+/// @param {boolean} $vertical [true] - Whether or not to include classes to modify top and bottom values.
+///
+@mixin set-responsive-reseters($property, $value, $horizontal: true, $vertical: true) {
+  @each $side in 'top', 'right', 'bottom', 'left' {
+
+    &-#{$side} {
+      #{$property}-#{$side}: $value !important;
+    }
+  }
+
+  @if $horizontal {
+
+    &-horizontal-sides {
+      #{$property}-right: $value !important;
+      #{$property}-left: $value !important;
+    }
+  }
+
+  @if $vertical {
+
+    &-vertical-sides {
+      #{$property}-top: $value !important;
+      #{$property}-bottom: $value !important;
+    }
+  }
 }

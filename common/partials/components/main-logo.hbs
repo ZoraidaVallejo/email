@@ -1,11 +1,19 @@
+{{! ================================================================================================================= }}
+{{! M A I N   L O G O                                                                                                 }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {Object} widgetConfig
- * @param {String} widgetConfig.src
- * @param {String} widgetConfig.alt
- * @param {String} widgetConfig.link
- * @param {String} widgetConfig.class
- * @param {String} widgetConfig.responsive
+ * Defines the logo image path and the alt text if the image does not load.
+ *
+ * @param {Object} widgetConfig - Configuration for the widget.
+ * @param {string} [widgetConfig.src] - Defines the URL (absolute or relative) of the logo.
+ * @param {string} [widgetConfig.alt] - Defines an alternative text for the logo.
+ * @param {string} [widgetConfig.link] - Contains a URL or a URL fragment that the hyperlink of the logo points to.
+ * @param {string} [widgetConfig.class] - CSS classes to add to the current logo.
+ * @param {string} [widgetConfig.responsive] - CSS classes to define responsive behavior for the logo.
 }}
+
+{{! ================================================================================================================= }}
 
 {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
   {{>img

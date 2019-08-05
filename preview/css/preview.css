@@ -30,7 +30,7 @@ body {
 
 .preview-interface-view .preview-header {
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   top: 0;
   left: 0;
   width: 100vw;
@@ -119,6 +119,26 @@ body {
   border-radius: 35px; }
   .set-view-mobile .preview-ui .viewer-phone-mask iframe {
     border-color: #06357a; }
+
+.mockup-mask {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 0;
+  opacity: 1;
+  overflow: hidden;
+  width: 100vw;
+  transition: opacity 200ms linear;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none; }
+  .mockup-mask.-hide {
+    opacity: 0; }
+  .mockup-mask img {
+    display: block;
+    margin: 0 auto; }
 
 .welcome-view,
 .welcome-view body {

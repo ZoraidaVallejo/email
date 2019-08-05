@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Email Template Builder :: (Preview)</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   <link rel="stylesheet" href="/css/preview.css">
 </head>
 <body id="mail-template-builder" class="set-view-desktop">
@@ -16,7 +17,13 @@
         <select id="template-select">
           <option value="_blank.html">Select a Template</option>
           <% templates.forEach(function(template) { %>
-            <option value="<%= template.filename %>" data-subject="<%= template.subject %>"><%= template.filename %></option>
+            <option
+              value="<%= template.filename %>"
+              data-mockup-name="<%= template.filename.replace('.html', '') %>"
+              data-subject="<%= template.subject %>"
+            >
+              <%= template.filename %>
+            </option>
           <% }); %>
         </select>
       </div>
@@ -24,7 +31,14 @@
     <div class="view-buttons">
       <a href="#" class="button -desktop -active" data-view-type="desktop">Desktop</a>
       <a href="#" class="button -mobile" data-view-type="mobile">Mobile</a>
+      <div class="mockup-position">
+        <input class="position" type="range" min="-100" max="100" step="1" value="0" style="width:400px;" />
+        <input class="opacity" type="range" min="0" max="1" step="0.1" value="0.3" />
+      </div>
     </div>
+  </div>
+  <div class="mockup-mask">
+    <img src="/images/placeholder.png">
   </div>
   <section class="preview-ui">
     <article class="wrapper">
@@ -33,7 +47,8 @@
       </div>
     </article>
   </section>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="/js/index.js"></script>
+  <script src="/js/vendor/domready.1.0.8.js"></script>
+  <script src="/js/vendor/jquery.3.4.1.min.js"></script>
+  <script type="module" src="/js/index.js"></script>
 </body>
 </html>

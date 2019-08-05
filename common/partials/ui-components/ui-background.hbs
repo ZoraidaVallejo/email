@@ -1,24 +1,30 @@
+{{! ================================================================================================================= }}
+{{! U I   B A C K G R O U N D                                                                                         }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {String}  backgroundBehavior
- * @param {Boolean} backgroundStart
- * @param {Boolean} backgroundEnd
- * @param {String}  bgImage
- * @param {String}  bgColor
- * @param {String}  bgWidth
- * @param {String}  bgHeight
- * @param {String}  bgSize
- * @param {String}  bgTableClasses
- * @param {String}  bgTableResponsiveClasses
- * @param {String}  bgCellClasses
- * @param {String}  bgCellResponsiveClasses
+ * @param {string} backgroundBehavior - Changes how the background is set.
+ * @param {boolean} backgroundStart - Sets the first part of the widget before the custom content starts.
+ * @param {boolean} backgroundEnd - Sets all the closing tags of the widget after the custom content ends.
+ * @param {string} bgImage - Defines the URL (absolute or relative) of the image.
+ * @param {string} bgColor - Defines the background color of the widget.
+ * @param {string} bgWidth - Defines the width of the widget. The width may be defined by pixels or a percentage value.
+ * @param {string} [bgHeight] - This attribute is used to define a recommended height of the widget.
+ * @param {string} [bgSize] - Sets the size of the widget's background image.
+ * @param {string} [bgCellClasses] - Extra CSS classes to add to the `td` element (content wrapper).
+ * @param {string} [bgCellResponsiveClasses] - CSS classes to define responsive behavior for the `td` element.
+ * @param {string} [bgTableClasses] - Extra CSS classes to add to the `table` container.
+ * @param {string} [bgTableResponsiveClasses] - CSS classes to define responsive behavior for the `table` container.
 }}
 
 {{assign "bgWidthVal" (ternary (eq (getUnit bgWidth) "%") bgWidth (toInt bgWidth))}}
 {{assign "bgHeightVal" (ternary (eq (getUnit bgHeight) "%") null (toInt bgHeight))}}
 
+{{! ================================================================================================================= }}
+
 {{#if backgroundStart}}
   {{assign "bgInlineStyles" (styles
-    background=(concat "url('" (resolveFilePath bgImage) "')")
+    background=(concat bgColor " url('" (resolveFilePath bgImage) "')")
     backgroundRepeat="no-repeat"
     backgroundSize=(ternary bgSize bgSize null)
   )}}

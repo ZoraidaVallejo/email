@@ -1,26 +1,52 @@
 {
-  "lightBlue": {
+  "justiaBlueGhost": {
+    "backgroundColor": "transparent",
+    "fontColor": "#06357a",
+    "borderColor": "#06357a"
+  },
+  "justiaBlue": {
+    "backgroundColor": "#06357a",
+    "fontColor": "#ffffff",
+    "borderColor": "#06357a"
+  },
+  "lightBlueGhost": {
     "backgroundColor": "transparent",
     "fontColor": "#00b3e3",
-    "fontWeight": "",
     "borderColor": "#00b3e3"
   },
-  "white": {
+  "lightBlue": {
+    "backgroundColor": "#00b3e3",
+    "fontColor": "#ffffff",
+    "borderColor": "#00b3e3"
+  },
+  "whiteGhost": {
     "backgroundColor": "transparent",
     "fontColor": "#ffffff",
-    "fontWeight": "",
     "borderColor": "#ffffff"
+  },
+  "white": {
+    "backgroundColor": "#ffffff",
+    "fontColor": "#06357a",
+    "borderColor": "#ffffff"
+  },
+  "redGhost": {
+    "backgroundColor": "transparent",
+    "fontColor": "#e2231a",
+    "borderColor": "#e2231a"
   },
   "red": {
     "backgroundColor": "#e2231a",
     "fontColor": "#ffffff",
-    "fontWeight": "bold",
     "borderColor": "#e2231a"
+  },
+  "yellowGhost": {
+    "backgroundColor": "transparent",
+    "fontColor": "#ffc700",
+    "borderColor": "#ffc700"
   },
   "yellow": {
     "backgroundColor": "#ffc700",
-    "fontColor": "#000000",
-    "fontWeight": "",
+    "fontColor": "#06357a",
     "borderColor": "#ffc700"
   }
 }

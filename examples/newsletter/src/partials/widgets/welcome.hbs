@@ -1,4 +1,10 @@
-<!-- WELCOME MESSAGE -->
+{{! ================================================================================================================= }}
+{{! W E L C O M E   M E S S A G E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
 
 {{!
  * @param {Object}   widgetConfig
@@ -11,40 +17,40 @@
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
-  {{assign "welcomeWidgetMainButton" true}}
+  {{assign "widgetWithButton" true}}
 {{else}}
-  {{assign "welcomeWidgetMainButton" false}}
+  {{assign "widgetWithButton" false}}
 {{/and}}
 
-{{#table class="w-welcome set-max-width"}}
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-welcome set-max-width"}}
+  {{>widget-banner
+    imgSrc=widgetConfig.banner
+    imgAlt="Welcome"
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  // In this case, check if it is posible to customize the H tag.
+  --}}
   <tr>
-    {{>ui-background
-      backgroundBehavior="cell"
-      backgroundStart=true
-      backgroundEnd=true
-      bgImage="https://justatic.com/v/1/emails/images/newsletters/common/welcome-background-01-b.png"
-      bgColor="#00b3e3"
-      bgWidth="600"
-      bgHeight="169"
-    }}
-  </tr>
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      <h1><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
-    </td>
-  </tr>
-  <tr>
-    <td class="description{{#unless @root.welcomeWidgetMainButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+
       {{#each widgetConfig.message}}
         <p>{{{this}}}</p>
       {{/each}}
     </td>
   </tr>
 
-  {{#if @root.welcomeWidgetMainButton}}
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
     <tr>
-      <td class="button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
           {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>

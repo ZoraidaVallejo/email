@@ -2,33 +2,39 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-welcome {
-  background-color: plt('bright-blue');
+.widget.w-welcome {
+  border-bottom: 0;
+  background-color: plt('mail', 'catskill-white');
 
-  .main-title {
-    padding: 0 $padding 20px;
-
-    h1 {
-      color: plt('white');
-
-      @include mail-font(22px, 1.3, tp('weight', 'normal'));
-    }
+  .widget-banner {
+    padding: $padding $padding grid-unit(0.5);
   }
 
-  .description {
-    padding: 0 $padding 15px;
+  .widget-description {
+    text-align: center;
+
+    .content-title {
+      margin: 0 0 grid-unit(0.5);
+      color: plt('justia-blue');
+
+      @include mail-font(26px, 1.1, tp('weight', 'bold'));
+    }
 
     p,
     a {
-      color: plt('white');
+      color: plt('justia-blue');
     }
 
-    &.-no-button {
-      padding: 0 $padding 45px;
+    p {
+      margin: 0 15px grid-unit(0.5);
+
+      &:last-child {
+        margin: 0 15px;
+      }
     }
   }
 
-  .button {
-    padding: 5px $padding 45px;
+  .widget-button {
+    text-align: center;
   }
 }

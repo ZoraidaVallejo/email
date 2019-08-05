@@ -1,0 +1,22 @@
+
+.mockup-mask {
+  position: absolute;
+  z-index: 10;
+  top: $header-size;
+  left: 0;
+  opacity: 1;
+  overflow: hidden;
+  width: 100vw;
+  transition: opacity $transition-duration linear;
+  user-select: none;
+  pointer-events: none;
+
+  &.-hide {
+    opacity: 0;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

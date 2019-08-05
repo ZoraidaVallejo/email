@@ -7,7 +7,7 @@ $logos-dimensions: (
     'dims': 879px 231px
   ),
   'insights': (
-    'dims': 1127px 158px
+    'dims': 1120px 196px
   ),
   'lawyer-profile-essentials': (
     'dims': 2248px 158px
@@ -17,6 +17,9 @@ $logos-dimensions: (
   ),
   'lawyer-directory': (
     'dims': 1762px 158px
+  ),
+  'marketing': (
+    'dims': 1240px 196px
   )
 );
 
@@ -40,17 +43,19 @@ $settings: set('mail-header', (
   'logos': (
     'logo-only': (
       'justia': 135px,
-      'insights': 250px,
+      'insights': 267px,
       'lawyer-profile-essentials': 470px,
       'legal-jobs': 308px,
-      'lawyer-directory': 500px
+      'lawyer-directory': 500px,
+      'marketing': 297px
     ),
     'with-date': (
       'justia': 135px,
-      'insights': 235px,
+      'insights': 267px,
       'lawyer-profile-essentials': 270px,
       'legal-jobs': 277px,
-      'lawyer-directory': 300px
+      'lawyer-directory': 300px,
+      'marketing': 297px
     )
   )
 ));
@@ -71,7 +76,7 @@ $settings: set('mail-header', (
 
   .wrapper {
     width: 100%;
-    padding: 20px $padding 15px;
+    padding: 20px $padding;
     text-align: center;
   }
 
@@ -88,7 +93,7 @@ $settings: set('mail-header', (
 .main-header.-with-date {
 
   .wrapper {
-    padding: ($padding / 2) $padding;
+    padding: $padding;
     vertical-align: middle;
 
     > table {
@@ -97,18 +102,18 @@ $settings: set('mail-header', (
   }
 
   .logo {
-    width: 65%;
+    width: 60%;
   }
 
   .date {
-    width: 35%;
+    width: 40%;
     text-align: right;
 
     span {
       display: block;
-      color: plt('black');
+      color: plt('justia-blue');
 
-      @include mail-font($line-height: 1.25);
+      @include mail-font(22px, 1.25);
     }
   }
 

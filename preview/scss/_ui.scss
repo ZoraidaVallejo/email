@@ -1,6 +1,7 @@
 
 $header-strip-size: 50px;
 $header-size: ($header-strip-size * 2);
+$transition-duration: 200ms;
 
 // Basic elements
 #mail-template-builder {
@@ -26,13 +27,13 @@ $header-size: ($header-strip-size * 2);
     width: 100%;
     height: 100%;
     border: 1px solid rgba($justia-blue, 0);
-    transition: border-color 200ms ease-out;
+    transition: border-color $transition-duration ease-out;
   }
 
   // Header
   .preview-header {
     position: absolute;
-    z-index: 2;
+    z-index: 20;
     top: 0;
     left: 0;
     width: 100vw;
@@ -75,7 +76,7 @@ $header-size: ($header-strip-size * 2);
         font-weight: 700;
         line-height: 36px;
         transition-property: background-color, border-color;
-        transition-duration: 200ms;
+        transition-duration: $transition-duration;
         transition-timing-function: linear;
 
         &:not(:first-child) {
@@ -128,7 +129,7 @@ $header-size: ($header-strip-size * 2);
       height: 100%;
       border: 2px solid rgba($justia-blue, 0);
       transition-property: width, height, border-radius, border-color, padding;
-      transition-duration: 200ms;
+      transition-duration: $transition-duration;
       transition-timing-function: ease-out;
     }
   }

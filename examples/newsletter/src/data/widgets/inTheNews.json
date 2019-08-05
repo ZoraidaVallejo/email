@@ -1,30 +1,39 @@
 {
-  "title": "Clients in the News",
-  "imagePefix": "clients-news-logo-",
-  "news": [
+  "widget": {
+    "icon": "client-in-the-news",
+    "header": "Clients in the News"
+  },
+  "columns": [
     {
-      "logoName": "[Voluptate commodo proident elit velit ipsum.]",
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "[Id commodo deserunt aute veniam non cupidatat.]"
+      },
       "description": [
-        "[Do esse eu enim enim magna in pariatur irure dolor ullamco consequat anim aliquip. Velit tempor dolor nisi adipisicing.]",
-        "[Duis sint mollit proident veniam mollit do incididunt duis.]"
+        "[<b>Dolor labore do id tempor</b> aliquip dolor qui tempor et cillum nisi fugiat. Culpa enim nostrud ad veniam dolore fugiat nostrud occaecat.]"
       ],
-      "button": {
-        "style": "light-blue",
-        "text": "Read More",
-        "link": "https://www.justia.com/"
-      }
+      "readMore": "https://www.justia.com/"
     },
     {
-      "logoName": "[Nostrud minim duis.]",
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "[Exercitation aute laborum amet exercitation veniam.]"
+      },
       "description": [
-        "[Nulla anim aliquip culpa fugiat tempor ullamco et eu aute id quis duis ea. Laborum dolor sit excepteur ea.]",
-        "[Culpa quis ad amet eu ut commodo. Laboris sunt consequat magna Lorem laborum enim.]"
+        "[Eiusmod incididunt velit nostrud <b>elit anim ex exercitation</b> ipsum velit mollit.]"
       ],
-      "button": {
-        "style": "light-blue",
-        "text": "Read More",
-        "link": "https://www.justia.com/"
-      }
+      "readMore": "https://www.justia.com/"
+    },
+    {
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "[Sit minim sit est sint adipisicing.]"
+      },
+      "description": [
+        "[Sunt labore exercitation elit ipsum nisi cillum labore do.]",
+        "[Excepteur commodo <b>aliquip ad in dolore mollit</b> enim ex elit veniam Lorem.]"
+      ],
+      "readMore": "https://www.justia.com/"
     }
   ]
 }
