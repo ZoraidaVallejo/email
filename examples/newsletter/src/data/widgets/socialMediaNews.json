@@ -1,19 +1,28 @@
 {
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
   "news": [
     {
-      "title": "[Deserunt fugiat pariatur irure est minim nisi aliquip magna in.]",
+      "title": "[Nulla dolor ad nostrud incididunt.]",
       "link": "https://www.justia.com/",
-      "description": "[Ex exercitation magna eiusmod duis velit nisi. Ad velit nostrud magna consectetur fugiat sint eiusmod quis ex. Aliqua proident proident aliquip ipsum commodo magna laboris excepteur est nisi eu minim Lorem aliquip. Reprehenderit velit aute eu amet sit cillum ullamco excepteur reprehenderit magna aute non. Est exercitation eu nostrud laborum excepteur adipisicing anim sit irure enim.]"
+      "description": "[Dolore ipsum tempor aliqua sit deserunt. In aliqua dolor consequat ullamco ex eu amet aliquip...]"
     },
     {
-      "title": "[Nulla nisi consectetur deserunt ut reprehenderit veniam voluptate veniam magna consectetur nisi velit nulla.]",
+      "title": "[Laborum cillum id ipsum amet mollit sit aute officia.]",
       "link": "https://www.justia.com/",
-      "description": "[Ipsum consequat cupidatat aliquip officia mollit. Exercitation do nisi enim irure dolor in aute pariatur tempor. Veniam do ipsum adipisicing id eiusmod.]"
+      "description": "[Cillum elit labore amet pariatur aute labore quis ex pariatur ex. Occaecat voluptate qui fugiat...]"
     },
     {
-      "title": "[Dolore do dolor et mollit voluptate culpa eiusmod minim laboris.]",
+      "title": "[Do laboris tempor nulla.]",
       "link": "https://www.justia.com/",
-      "description": "[Commodo dolore velit ullamco elit mollit ut excepteur qui qui ad excepteur Lorem sunt. Reprehenderit nisi irure quis laborum non proident occaecat amet tempor laboris. Elit nisi ea id exercitation ea in in mollit irure commodo non do.]"
+      "description": "[Magna cillum velit laboris et voluptate. Nisi sint incididunt irure nulla exercitation. Ex adipisicing anim...]"
+    },
+    {
+      "title": "[Aliquip nulla quis pariatur ad elit magna excepteur fugiat fugiat.]",
+      "link": "https://www.justia.com/",
+      "description": "[Ea magna fugiat cupidatat cillum culpa sunt do mollit. Ad est esse eiusmod nisi nisi...]"
     }
   ]
 }

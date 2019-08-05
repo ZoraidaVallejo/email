@@ -1,3 +1,47 @@
-<!-- JUSTIA LEGAL JOBS NEWSLETTER -->
+{{! ================================================================================================================= }}
+{{! J U S T I A   L E G A L   J O B S   N E W S L E T T E R                                                           }}
+{{! ================================================================================================================= }}
 
-{{>simple-text widgetClass="-jobs-newsletter" widgetConfig=jobsSubscribe}}
+{{!
+// TODO: Add anotations.
+}}
+
+{{#and jobsSubscribe.button (compare jobsSubscribe.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-jobs-newsletter set-max-width"}}
+  {{>widget-header
+    header=jobsSubscribe.widget.header
+    icon=jobsSubscribe.widget.icon
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each jobsSubscribe.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=jobsSubscribe.button.style href=jobsSubscribe.button.link}}
+          {{jobsSubscribe.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}
+

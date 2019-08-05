@@ -1,23 +1,27 @@
-<!-- INTERNET STATS -->
+{{! ================================================================================================================= }}
+{{! I N T E R N E T   S T A T S                                                                                       }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-internet-stats set-max-width"}}
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-internet-stats set-max-width"}}
+  {{>widget-header
+    header=internetStats.widget.header
+    icon=internetStats.widget.icon
+  }}
+
   <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title="Internet Stats"}}
+    <td class="subtitle" responsive="mobile-padding-horizontal-sides">
+      <p><b>{{{internetStats.subtitle}}}</b></p>
+
+      {{#if internetStats.topDescription}}
+        <p class="top-description">{{{internetStats.topDescription}}}</p>
+      {{/if}}
     </td>
   </tr>
-  <tr>
-    <td class="subtitle{{#if internetStats.topDescription}} -with-top-desc{{/if}}" responsive="mobile-padding-horizontal-sides">
-      <p>{{{internetStats.subtitle}}}</p>
-    </td>
-  </tr>
-  {{#if internetStats.topDescription}}
-    <tr>
-      <td class="top-description" responsive="mobile-padding-horizontal-sides">
-        <p>{{{internetStats.topDescription}}}</p>
-      </td>
-    </tr>
-  {{/if}}
+
   <tr>
     <td class="chart{{#unless internetStats.description}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#if internetStats.link}}<a href="{{internetStats.link}}" target="_blank">{{/if}}
@@ -29,13 +33,22 @@
     </td>
   </tr>
 
-  {{#if internetStats.description}}
-    <tr>
-      <td class="description -last" responsive="mobile-padding-horizontal-sides">
+  <tr>
+    <td class="description" responsive="mobile-padding-horizontal-sides">
+      {{#if internetStats.description}}
         {{#each internetStats.description}}
           <p>{{{this}}}</p>
         {{/each}}
-      </td>
-    </tr>
-  {{/if}}
+      {{/if}}
+
+      {{#if internetStats.source}}
+        <p class="source">
+          Source:
+          {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
+            {{{internetStats.source}}}
+          {{#if internetStats.sourceLink}}</a>{{/if}}
+        </p>
+      {{/if}}
+    </td>
+  </tr>
 {{/table}}

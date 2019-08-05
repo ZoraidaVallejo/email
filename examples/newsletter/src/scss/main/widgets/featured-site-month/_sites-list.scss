@@ -5,55 +5,42 @@
 .w-featured-site-month {
 
   .sites-list-description {
-    padding: 10px $padding $padding;
+    padding: 0 $padding 25px;
     text-align: center;
   }
 
   .sites-list {
-    padding: 0 $padding 45px;
+    padding: 0 $padding $widget-gap;
 
     .devices {
-      width: ($featured-thumb--width + $padding);
-      padding: $featured-thumb-list--gap 0;
+      width: 230px;
+      padding: 0 $padding $padding 20px;
+
+      &.-last {
+        padding: 0 $padding 0 20px;
+      }
 
       img {
-        width: $featured-thumb--width;
+        width: 230px;
       }
     }
 
     .client-info {
-      width: ($inner-max-width - $featured-thumb--width - $padding);
-      padding: $featured-thumb-list--gap 0;
-      text-align: left;
-      vertical-align: top;
+      padding: 0 0 ($padding + 20px);
+      vertical-align: middle;
+
+      &.-last {
+        padding: 0 0 20px;
+      }
 
       .name {
-        @include mail-font(18px);
+        @include mail-font(22px, 1.15);
+        margin: 0 0 10px;
       }
 
-      .link {
-        margin: 10px 0 0;
-      }
-    }
-
-    .site-item {
-      border-bottom: 1px solid plt('mail', 'black-haze');
-
-      &:first-child {
-
-        .devices,
-        .client-info {
-          padding: 0 0 $featured-thumb-list--gap;
-        }
-      }
-
-      &:last-child {
-        border-bottom: 0;
-
-        .devices,
-        .client-info {
-          padding: $featured-thumb-list--gap 0 0;
-        }
+      .location,
+      .website {
+        margin: 0;
       }
     }
   }

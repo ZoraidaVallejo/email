@@ -1,32 +1,42 @@
-<!-- JURISPRO -->
+{{! ================================================================================================================= }}
+{{! J U R I S   P R O                                                                                                 }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-stories-list -jurispro set-max-width"}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header section=jurispro.sectionName title=jurispro.title link=jurispro.link}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
 
-  {{>featured-story
-    widgetConfig=(toObject
-      description=jurispro.description
-      imageLink=jurispro.link
-      imageSrc=jurispro.image
-      imageAlt=(sanitize jurispro.title)
-    )
+{{#table class="widget w-jurispro set-max-width"}}
+  {{>widget-header
+    header=jurispro.widget.header
+    icon=jurispro.widget.icon
   }}
 
   <tr>
-    <td class="stories-links-title" responsive="mobile-padding-horizontal-sides">
-      <p><b>Recent cases involving expert witness testimony:</b></p>
+    <td class="custom-description" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="text" responsive="mobile-no-padding-horizontal-sides">
+            <p>JurisPro provides a free directory of expert witnesses in over 10,000 areas of expertise.</p>
+          </td>
+          <td class="thumb" responsive="mobile-hide">
+            {{>img
+              src="https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png"
+              alt=jurispro.widget.header
+            }}
+          </td>
+        </tr>
+      {{/table}}
     </td>
   </tr>
 
-  {{>stories-list widgetConfig=(toObject stories=jurispro.cases isLast=false)}}
+  {{>widget-columns-articles widgetConfig=jurispro.cases}}
 
   <tr>
-    <td class="extra-info -last" responsive="mobile-padding-horizontal-sides">
-      <p>Learn how to research experts here: <a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></p>
+    <td class="custom-description -last" responsive="mobile-padding-horizontal-sides">
+      <p>
+        Learn how to research experts here: <b><a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></b>
+      </p>
     </td>
   </tr>
 {{/table}}

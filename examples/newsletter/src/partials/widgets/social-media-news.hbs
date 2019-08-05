@@ -1,11 +1,16 @@
-<!-- SOCIAL MEDIA NEWS -->
+{{! ================================================================================================================= }}
+{{! S O C I A L   M E D I A   N E W S                                                                                 }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-stories-list -social-media-news set-max-width"}}
-  <tr>
-    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title="Social Media News"}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
 
-  {{>stories-list widgetConfig=(toObject stories=socialMediaNews.news isLast=true)}}
+{{#table class="widget w-social-media-news set-max-width"}}
+  {{>widget-header
+    header=socialMediaNews.widget.header
+    icon=socialMediaNews.widget.icon
+  }}
+
+  {{>widget-columns-articles widgetConfig=socialMediaNews.news isLast=true}}
 {{/table}}

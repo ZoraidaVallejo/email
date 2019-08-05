@@ -1,19 +1,23 @@
 {
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
   "news": [
     {
-      "title": "[Ea non excepteur cillum tempor exercitation nulla velit veniam dolor elit adipisicing eu Lorem id.]",
+      "title": "[Fugiat Lorem consectetur aute nulla sit.]",
       "link": "https://www.justia.com/",
-      "description": "[Consequat eu dolore aliqua do ea Lorem veniam ullamco Lorem elit proident. Sunt ullamco ullamco pariatur pariatur. Commodo qui quis sunt elit id enim.]"
+      "description": "[Laboris officia est dolore aute. Reprehenderit quis occaecat ex aute. Occaecat consequat deserunt proident elit...]"
     },
     {
-      "title": "[Proident qui magna esse consectetur officia deserunt ex sunt cillum nostrud sint duis exercitation.]",
+      "title": "[Aute ad ea ipsum culpa magna laborum irure ullamco officia eiusmod cillum eu qui excepteur.]",
       "link": "https://www.justia.com/",
-      "description": "[Reprehenderit eu consequat sint culpa laborum exercitation enim. Exercitation amet aliqua pariatur nisi cupidatat mollit. Ullamco pariatur id nisi laborum excepteur minim consequat aute occaecat nisi laboris ad sint id. Fugiat ea ullamco proident do dolore aliqua deserunt adipisicing enim aute aliquip anim aliqua amet. Proident commodo ipsum ea exercitation id voluptate tempor ut adipisicing in reprehenderit veniam aute. Ullamco culpa laborum deserunt sint tempor in fugiat cupidatat nostrud eiusmod do ut. Ipsum mollit ea excepteur commodo nostrud laboris non.]"
+      "description": "[Irure nostrud pariatur ipsum culpa sint laborum id irure in deserunt. Cillum ullamco in excepteur...]"
     },
     {
-      "title": "[Est ex irure ullamco culpa tempor dolor amet.]",
+      "title": "[Duis dolore duis fugiat quis qui amet id fugiat nulla.]",
       "link": "https://www.justia.com/",
-      "description": "[Magna veniam velit consequat minim velit do laborum occaecat sit est sit. Irure adipisicing sit elit consequat mollit mollit in et commodo proident. Lorem qui amet ea est.]"
+      "description": "[Occaecat laborum sit reprehenderit labore ex. Incididunt in occaecat mollit dolor amet aute tempor velit...]"
     }
   ]
 }

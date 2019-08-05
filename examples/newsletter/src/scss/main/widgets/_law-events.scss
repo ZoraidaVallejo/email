@@ -1,26 +1,31 @@
 // ----------------------------------------------------------------------------------------------------------
-// L A W   E V E N T S
+// L A W   E V E N T S   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
 .w-law-events {
-  background-color: plt('bright-green');
 
-  @include change-widget-title-style(plt('white'));
-
-  .main-title {
-    padding: 45px $padding $padding;
-    text-align: center;
-  }
-
-  .event-info {
-
-    p {
-      margin: 0;
-      color: plt('white');
-    }
+  .event {
 
     .date {
-      @include mail-font(20px, 1, tp('weight', 'bold'));
+      @include mail-font(18px, 1.1, tp('weight', 'bold'));
+      margin: 0;
+    }
+
+    .type {
+      @include mail-font(16px, 1.1, tp('weight', 'bold'));
+      margin: 3px 0 0;
+    }
+
+    .description {
+      margin: 16px 0 0;
+    }
+
+    .read-more {
+      margin: 7px 0 0;
+    }
+
+    a {
+      color: plt('black');
     }
   }
 }

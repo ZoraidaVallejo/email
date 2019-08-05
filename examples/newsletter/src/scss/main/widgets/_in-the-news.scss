@@ -3,64 +3,9 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-in-the-news {
-  background-color: plt('white');
-
-  .main-title {
-    padding: 45px $padding $padding;
-    text-align: center;
-  }
-
-  .news-list {
-    padding: 0 $padding $padding;
-    vertical-align: top;
-
-    .logo {
-      width: (150px + $padding);
-      padding: $padding 0;
-      text-align: left;
-      vertical-align: top;
-
-      img {
-        width: 150px;
-        max-width: floor(percentage(150px / (150px + $padding)));
-        height: auto;
-      }
-    }
-
-    .description {
-      width: ($inner-max-width - (150px + $padding));
-      padding: $padding 0;
-      vertical-align: top;
-
-      p:last-of-type {
-        margin: 0 0 20px;
-      }
-    }
-  }
-
-  .news-item {
-    border-bottom: 1px solid plt('mail', 'black-haze');
-
-    &:first-child {
-
-      .logo,
-      .description {
-        padding: 0 0 $padding;
-      }
-    }
-
-    &:last-child {
-      border-bottom: 0;
-
-      .logo,
-      .description {
-        padding: $padding 0 0;
-      }
-    }
-  }
 
   .extra-info {
-    padding: 0 $padding 45px;
+    padding: 0 $padding $widget-gap;
     text-align: center;
   }
 }
