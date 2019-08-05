@@ -37,6 +37,10 @@
 
     .source {
       margin: 25px 0 0;
+
+      &:last-child {
+        margin: 0;
+      }
     }
   }
 }

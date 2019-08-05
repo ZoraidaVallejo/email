@@ -11,7 +11,8 @@
     "button": {
       "style": "red-ghost",
       "link": "",
-      "text": "Learn How"
+      "text": "Learn How",
+      "width": 150
     }
   },
   "jld": {
@@ -27,7 +28,8 @@
     "button": {
       "style": "red-ghost",
       "link": "https://www.justia.com/",
-      "text": "Learn How"
+      "text": "Learn How",
+      "width": 150
     }
   }
 }
