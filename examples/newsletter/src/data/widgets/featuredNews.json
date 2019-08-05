@@ -1,8 +1,9 @@
 {
-  "sectionName": "Featured News",
-  "title": "[Commodo ipsum labore culpa irure tempor veniam mollit.]",
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
   "link": "https://onward.justia.com/",
-  "image": "tech-news-01.png",
   "utm": {
     "clients": {
       "medium": "email",
@@ -25,12 +26,14 @@
       }
     }
   },
+  "banner": "featured-news-01.png",
+  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
   "description": [
-    "[Deserunt Lorem do et sit do exercitation. Labore ut amet do ea. Deserunt laborum laborum ipsum reprehenderit veniam ullamco officia. Dolore fugiat consequat magna nisi excepteur anim fugiat ex officia culpa. Ad amet consectetur ipsum minim do velit officia laborum culpa ex mollit non. Qui commodo adipisicing aute velit adipisicing incididunt nisi.]",
-    "[Eiusmod incididunt laboris ut aliquip est mollit culpa do. Esse elit cillum culpa cillum. Officia labore non velit eu mollit et anim irure ipsum tempor sunt eu tempor nostrud. Cillum nisi ex do proident voluptate Lorem enim.]"
+    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
+    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
   ],
   "button": {
-    "style": "light-blue",
+    "style": "light-blue-ghost",
     "link": "https://onward.justia.com/",
     "text": "Read More"
   }

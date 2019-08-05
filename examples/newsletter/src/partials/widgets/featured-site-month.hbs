@@ -1,25 +1,29 @@
-<!-- FEATURED SITE OF THE MONTH -->
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   S I T E   O F   T H E   M O N T H                                                               }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-featured-site-month set-max-width"}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title=(concat "Featured " (ternary listSites "Sites" "Site") " of the Month")}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-featured-site-month set-max-width"}}
+  {{>widget-header
+    header=(ternary listSites featuredSiteMonth.widget.header.plural featuredSiteMonth.widget.header.singular)
+    icon=featuredSiteMonth.widget.icon
+  }}
 
   {{#if singleSite}}
     <tr class="featured-site">
       <td class="client-info" responsive="mobile-padding-horizontal-sides">
         <p class="name">
-          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a>
+          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a></b>
         </p>
-        <p>
-          in {{featuredSiteMonth.sites.0.location}}&nbsp;
-          <br responsive="mobile-hide">
-          recently launched {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
+        <p class="location">
+          in {{featuredSiteMonth.sites.0.location}}, recently launched&nbsp;<br responsive="mobile-hide">
+          {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
         </p>
-        <p>
-          <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a>
+        <p class="website">
+          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
         </p>
       </td>
     </tr>
@@ -46,7 +50,7 @@
         {{#forEach featuredSiteMonth.sites}}
           {{#table align="" class=(concat "site-item -site-" index)}}
             <tr>
-              <td class="devices" responsive="mobile-hide">
+              <td class="devices{{#if isLast}} -last{{/if}}" responsive="mobile-hide">
                 <a href="{{this.domain.long}}" target="_blank">
                   {{>img
                     src=this.thumbnail
@@ -54,12 +58,12 @@
                   }}
                 </a>
               </td>
-              <td class="client-info" responsive="collapse-one mobile-align-center{{#unless isFirst}} mobile-padding-medium-top{{/unless}}{{#unless isLast}} mobile-padding-medium-bottom{{/unless}}">
-                <p class="name">
+              <td class="client-info{{#if isLast}} -last{{/if}}" responsive="collapse-one mobile-align-center {{#unless isLast}} mobile-padding-30-bottom{{else}} mobile-no-padding-bottom{{/unless}}">
+                <p class="name" responsive="mobile-fz-18">
                   <b>{{{this.clientName}}}</b>
                 </p>
-                <p class="loc">in {{this.location}}</p>
-                <p class="link">
+                <p class="location">in {{this.location}}</p>
+                <p class="website">
                   <a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a>
                 </p>
               </td>

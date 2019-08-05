@@ -1,8 +1,14 @@
+{{! ================================================================================================================= }}
+{{! U I   L A Y O U T   H A C K                                                                                       }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {Boolean}  tableStart
- * @param {Boolean}  tableEnd
- * @param {Boolean}  tableMiddleSeparator
+ * @param {boolean} tableStart - Sets the starting part of the layout IE hack for the first email stripe.
+ * @param {boolean} tableEnd - Defines the ending part of the layout IE hack for the last email stripe.
+ * @param {boolean} tableMiddleSeparator - Defines the closing part for the current email stripe and the opening part for the next stripe.
 }}
+
+{{! ================================================================================================================= }}
 
 {{#if tableStart}}<!--[if gte mso 9]><table {{{tableAttr width="600"}}}><tr><td align="center" valign="top" width="600"><![endif]-->{{/if}}
 {{#if tableEnd}}<!--[if gte mso 9]></td></tr></table><![endif]-->{{/if}}

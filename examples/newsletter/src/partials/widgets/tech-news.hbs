@@ -1,11 +1,16 @@
-<!-- TECH NEWS -->
+{{! ================================================================================================================= }}
+{{! T E C H   N E W S                                                                                                 }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-stories-list -tech-news set-max-width"}}
-  <tr>
-    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title="Tech News"}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
 
-  {{>stories-list widgetConfig=(toObject stories=techNews.news isLast=true)}}
+{{#table class="widget w-tech-news set-max-width"}}
+  {{>widget-header
+    header=techNews.widget.header
+    icon=techNews.widget.icon
+  }}
+
+  {{>widget-columns-articles widgetConfig=techNews.news isLast=true}}
 {{/table}}
