@@ -1,11 +1,16 @@
-<!-- LEGAL INDUSTRY NEWS -->
+{{! ================================================================================================================= }}
+{{! L E G A L   I N D U S T R Y   N E W S                                                                             }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-stories-list -legal-industry-news set-max-width"}}
-  <tr>
-    <td class="main-title align-center" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title="Legal Industry News"}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
 
-  {{>stories-list widgetConfig=(toObject stories=legalIndustryNews.news isLast=true)}}
+{{#table class="widget w-legal-industry-news set-max-width"}}
+  {{>widget-header
+    header=legalIndustryNews.widget.header
+    icon=legalIndustryNews.widget.icon
+  }}
+
+  {{>widget-columns-articles widgetConfig=legalIndustryNews.news isLast=true}}
 {{/table}}

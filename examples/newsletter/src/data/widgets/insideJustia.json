@@ -1,24 +1,32 @@
 {
-  "sectionName": "Inside Justia",
-  "blocks": [
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
     {
-      "title": "[Duis ipsum anim dolor dolor.]",
-      "description": [
-        "[Anim culpa laborum magna pariatur ea laboris. Deserunt non nostrud aliquip irure non pariatur ipsum id. Et aute sit excepteur magna. Sunt anim veniam pariatur adipisicing.]"
-      ],
       "image": {
-        "src": "inside-justia-01.jpg"
-      }
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Elit ipsum</b> esse amet culpa."
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "[<b>Elit ipsum</b> esse amet culpa.]",
+      "description": [
+        "[Enim ipsum quis cillum consequat. Proident amet minim sint laborum qui fugiat velit nulla cupidatat irure esse culpa. Non eiusmod dolore sit qui.]"
+      ]
     },
     {
-      "title": "[Lorem aute ad laborum ad laborum sint sunt labore aliqua quis consequat sunt.]",
-      "description": [
-        "[Nisi consectetur velit quis eu anim nisi aliquip cillum. Sit elit mollit exercitation nisi mollit aliquip labore excepteur. Minim deserunt ad minim excepteur consectetur excepteur sint exercitation commodo sint incididunt eiusmod.]",
-        "[Duis duis minim anim occaecat tempor occaecat. Ut non id anim incididunt quis voluptate commodo esse proident labore ad anim labore est. Nisi consequat anim exercitation elit dolore veniam laboris.]"
-      ],
       "image": {
-        "src": "inside-justia-02.jpg"
-      }
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Id amet ex est nulla laboris.</b>"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "[<b>Id amet ex est nulla laboris.</b>]",
+      "description": [
+        "[Sint et mollit quis qui occaecat esse ex sint Lorem. Anim et aliquip ipsum in anim.]",
+        "[Eu commodo nostrud reprehenderit minim ullamco nulla sunt aliqua reprehenderit.]"
+      ]
     }
   ]
 }

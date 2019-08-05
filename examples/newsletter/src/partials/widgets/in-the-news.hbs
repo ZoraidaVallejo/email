@@ -1,43 +1,23 @@
-<!-- CLIENTS IN THE NEWS -->
+{{! ================================================================================================================= }}
+{{! C L I E N T S   I N   T H E   N E W S                                                                             }}
+{{! ================================================================================================================= }}
 
-{{#table class="w-in-the-news set-max-width"}}
-  <tr>
-    <td class="main-title" responsive="mobile-padding-horizontal-sides">
-      {{>widget-header title=inTheNews.title}}
-    </td>
-  </tr>
-  <tr>
-    <td class="news-list" responsive="mobile-padding-horizontal-sides">
-      {{#forEach inTheNews.news}}
-        {{#table align="" class=(concat "news-item -itm-" index)}}
-          <tr>
-            <td class="logo">
-              {{#and this.button (compare this.button.link "!==" "")}}<a href="{{{this.button.link}}}" target="_blank">{{/and}}
-                {{>img
-                  src=(concat ../inTheNews.imagePefix "0" index ".png")
-                  alt=this.logoName
-                }}
-              {{#and this.button (compare this.button.link "!==" "")}}</a>{{/and}}
-            </td>
-            <td class="description">
-              {{#each this.description}}
-                <p>{{{this}}}</p>
-              {{/each}}
-              {{#and this.button (compare this.button.link "!==" "")}}
-                {{#uiButton presetStyle=this.button.style href=this.button.link}}
-                  {{this.button.text}}
-                {{/uiButton}}
-              {{/and}}
-            </td>
-          </tr>
-        {{/table}}
-      {{/forEach}}
-    </td>
-  </tr>
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-in-the-news set-max-width"}}
+  {{>widget-header
+    header=inTheNews.widget.header
+    icon=inTheNews.widget.icon
+  }}
+
+  {{>widget-columns-with-image widgetConfig=inTheNews.columns}}
+
   <tr>
     <td class="extra-info" responsive="mobile-padding-horizontal-sides">
       <p class="no-margin">Have you or your firm been mentioned in the news recently?</p>
-      <p><a href="mailto:newsletter-support@justia.com" target="_blank">Send us your stories!</a></p>
+      <p><b><a href="mailto:newsletter-support@justia.com" target="_blank">Send us your stories!</a></b></p>
     </td>
   </tr>
 {{/table}}

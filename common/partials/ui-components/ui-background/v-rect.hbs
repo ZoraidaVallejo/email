@@ -1,9 +1,15 @@
+{{! ================================================================================================================= }}
+{{! U I   B A C K G R O U N D   -   V : R E C T   H A C K                                                             }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {Boolean} hackStart
- * @param {Boolean} hackEnd
- * @param {String}  hackWidth
- * @param {String}  hackHeight
+ * @param {boolean} hackStart - Sets the opening tags of the hack.
+ * @param {boolean} hackEnd - Sets the closing tags of th hack.
+ * @param {string} hackWidth - Sets the width of the hack container.
+ * @param {string} hackHeight - Sets the height of the hack container.
 }}
+
+{{! ================================================================================================================= }}
 
 {{assign "rectWidth" (ternary (compare hackWidth "===" "100%") "mso-width-percent:1000;" (concat "width:" (toInt hackWidth) "px;"))}}
 {{assign "rectHeight" (ternary hackHeight (concat "height:" (toInt hackHeight) "px;") "")}}

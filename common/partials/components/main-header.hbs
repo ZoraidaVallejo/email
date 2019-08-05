@@ -1,14 +1,20 @@
+{{! ================================================================================================================= }}
+{{! M A I N   H E A D E R                                                                                             }}
+{{! ================================================================================================================= }}
+
 {{!
- * @param {String} widgetClass
- * @param {Object} widgetConfig
- * @param {String} widgetConfig.layout
- * @param {Object} widgetConfig.logo
- * @param {String} widgetConfig.logo.name
- * @param {Object} widgetConfig.logo.link
- * @param {String} widgetConfig.logo.link.url
- * @param {Object} widgetConfig.logo.link.utm
- * @param {String} widgetConfig.logo.path
- * @param {String} widgetConfig.logo.alt
+ * Header for the email with the Justia logo and current date (optional).
+ *
+ * @param {Object} widgetConfig                 - Configuration for the widget.
+ * @param {string} widgetConfig.layout          - Defines the layout arrangement of the header.
+ * @param {Object} widgetConfig.logo            - Configuration object to customize the logo image.
+ * @param {string} [widgetConfig.logo.name]     - Logo name in kebab-case format that defines the source path and the alt text.
+ * @param {string} [widgetConfig.logo.path]     - Custom logo source path for the logo image.
+ * @param {string} [widgetConfig.logo.alt]      - Custom logo alt text for the logo image.
+ * @param {Object} widgetConfig.logo.link       - Defines the URL and UTM variables values.
+ * @param {string} [widgetConfig.logo.link.url] - URL where the logo image will link to.
+ * @param {Object} [widgetConfig.logo.link.utm] - Configuration object for the existing UTM variables.
+ * @param {string} [widgetClass]                - CSS classes to add to the footer.
 }}
 
 {{#if widgetConfig.logo.path}}
@@ -29,14 +35,18 @@
   src=@root.headerLogoSrc
   alt=@root.headerLogoAlt
   link=@root.headerLogoLink
+  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
 )}}
+{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-20-vertical-sides" "")}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
+
+{{! ================================================================================================================= }}
 
 {{>ui-layout-hack tableStart=true}}
   {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
     <tr>
-      <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+      <td class="wrapper" responsive="mobile-padding-horizontal-sides {{@root.headerWrapperResponsive}}">
         {{>ui-spacer-hack}}
 
         {{#compare widgetConfig.layout "===" "logo-only"}}
@@ -46,11 +56,11 @@
         {{#compare widgetConfig.layout "===" "with-date"}}
           {{#table}}
             <tr>
-              <td class="logo">
+              <td class="logo" responsive="collapse-one mobile-padding-bottom">
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
-              <td class="date">
-                <span>{{@root.headerDate}}</span>
+              <td class="date" responsive="collapse-one mobile-align-center">
+                <span responsive="mobile-fz-18 mobile-align-center">{{@root.headerDate}}</span>
               </td>
             </tr>
           {{/table}}

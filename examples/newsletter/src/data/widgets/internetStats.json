@@ -1,10 +1,16 @@
 {
-  "subtitle": "[Aliquip voluptate exercitation magna sint excepteur incididunt labore commodo labore anim ullamco et.]",
-  "topDescription": "[Nostrud minim quis consequat proident qui excepteur laboris.]",
+  "widget": {
+    "icon": "internet-stats",
+    "header": "Internet Stats"
+  },
+  "subtitle": "[Ullamco cillum consequat sint Lorem veniam.]",
+  "topDescription": "[Est commodo labore adipisicing do dolor non laborum.]",
   "link": "https://www.justia.com/",
   "image": "internet-stats-01.png",
   "description": [
-    "[Culpa Lorem do ad in labore nostrud irure Lorem duis eu laborum. Duis sit quis mollit nostrud consectetur adipisicing mollit reprehenderit labore. Irure exercitation ad tempor ut proident amet quis enim ea.]",
-    "<em>Source: [Aliquip consectetur excepteur.]</em>"
-  ]
+    "[Non fugiat voluptate dolor Lorem est. Mollit cillum cillum nulla Lorem esse incididunt. Dolore amet aliqua ut dolor Lorem incididunt labore ad. Irure cupidatat in sunt nostrud id ullamco.]",
+    "[Id voluptate irure excepteur duis sit aliqua consequat elit anim ullamco ea minim excepteur. Sit aliqua anim et tempor.]"
+  ],
+  "source": "[Qui ea occaecat id minim.]",
+  "sourceLink": "https://www.justia.com/"
 }
