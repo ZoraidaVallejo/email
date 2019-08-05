@@ -4,9 +4,9 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "Strategically Include Links in Your FAQs",
+    "title": "[Esse est velit ea officia sunt consectetur exercitation veniam Lorem veniam ad nisi enim.]",
     "description": [
-      "You may have noticed that Google will give instant Q&A in the search results. Try searching “estate planning FAQs,” for example. While many people click to view an answer to a question, they may not be directed to your website if you do not include an internal link in the first paragraph. We recommend doing so on any FAQ pages that you post so that users may click through to your firm’s site from these results."
+      "[Adipisicing quis incididunt qui excepteur. Magna ad enim commodo excepteur magna. Aute qui cillum officia veniam culpa laborum velit.]"
     ],
     "button": {
       "style": "red-ghost",
@@ -20,15 +20,16 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "Increase Your Exposure to Prospective Clients With a Professional Photo",
+    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
     "description": [
-      "Presenting a professional photo builds trust in a lawyer and confidence in the credentials presented in the profile. As an added benefit, your photo is also included in the geographical and practice area listings of the directory, and can help distinguish your profile from those of your peers who have not yet added a photo."
+      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
+      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
     ],
     "button": {
       "style": "red-ghost",
-      "link": "<%= editingInterfaceLink %>",
-      "text": "Update Photo Now",
-      "width": 180
+      "link": "https://www.justia.com/",
+      "text": "Learn How",
+      "width": 150
     }
   }
 }

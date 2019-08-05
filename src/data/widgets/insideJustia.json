@@ -3,28 +3,29 @@
     "icon": "inside-justia",
     "header": "Inside Justia"
   },
-  "singleColumn": true,
+  "singleColumn": false,
   "columns": [
     {
       "image": {
         "src": "inside-justia-01.jpg",
-        "alt": "We are proud to be celebrating 10 years with Justia Mexico!"
+        "alt": "<b>Elit ipsum</b> esse amet culpa."
       },
-      "blockTitle": "Justia Mexico 10 Year Anniversary",
-      "blockSubtitle": "<b>We are proud to be celebrating 10 years with Justia Mexico!</b>",
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "[<b>Elit ipsum</b> esse amet culpa.]",
       "description": [
-        "The Justia Mexico team has grown over the past decade and our team members moved into a new office space to celebrate the 10th anniversary. CEO Tim Stanley was there for the ribbon-cutting official opening!"
+        "[Enim ipsum quis cillum consequat. Proident amet minim sint laborum qui fugiat velit nulla cupidatat irure esse culpa. Non eiusmod dolore sit qui.]"
       ]
     },
     {
       "image": {
-        "src": "inside-justia-02.jpg",
-        "alt": "Big Boss's Birthday"
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Id amet ex est nulla laboris.</b>"
       },
-      "blockTitle": "Meet Our Team",
-      "blockSubtitle": "<b>Big Boss's Birthday</b>",
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "[<b>Id amet ex est nulla laboris.</b>]",
       "description": [
-        "Our CEO celebrated his birthday last month and while visiting our Mexico office, he enjoyed a fun birthday tradition there... Ana did the honors of his cake in the face!"
+        "[Sint et mollit quis qui occaecat esse ex sint Lorem. Anim et aliquip ipsum in anim.]",
+        "[Eu commodo nostrud reprehenderit minim ullamco nulla sunt aliqua reprehenderit.]"
       ]
     }
   ]

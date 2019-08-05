@@ -6,41 +6,51 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "premium-gradient.png",
+        "image": "ad-gradient.png",
         "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 844px"
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
       },
-      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v22"
+        "content": "[jld-ad-01-example]"
       },
       "logo": {
         "name": "marketing",
         "color": "blue"
       },
-      "title": "<b>Get More Contacts with a Premium Membership</b>",
+      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
       "titleResponsiveSize": 23,
-      "image": "premium-graphic-01.gif",
+      "image": "ad-graphic-01.gif",
       "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ad-graphic-02.png",
+            "description": [
+              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
+            ]
+          }
+        },
         {
           "type": "description",
           "config": [
-            "Premium members on the Justia Lawyer Directory receive an upgraded profile with added benefits such as a contact form and access to traffic stats. Premium profiles increase visibility with higher placement, giving you more exposure and contacts."
+            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
+            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Become a Premium Member Today",
-            "width": 350,
+            "text": "[Non velit incididunt]",
+            "width": 280,
             "height": 50,
             "fontSize": 18,
-            "responsive": "responsive-button"
+            "responsive": ""
           }
         },
         {
@@ -53,48 +63,49 @@
     },
     "ad2": {
       "background": {
-        "image": "website-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 469px"
+        "image": "",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
       },
-      "link": "https://www.justia.com/marketing/law-firm-websites/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "banner-website-marketing-generic-v20"
-      },
+      "link": "<%= editingInterfaceLink %>",
+      "utm": {},
       "logo": {
-        "name": "marketing",
-        "color": "blue-white"
+        "name": "lawyer-directory",
+        "color": "blue"
       },
-      "title": "<b>Make Your Dream of a New Website a Reality</b>",
+      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
       "titleResponsiveSize": 23,
-      "image": "website-graphic-01.png",
+      "image": "ad-graphic-01.gif",
       "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "description": [
+              "[Esse in ad elit.]",
+              "[Anim laboris laborum veniam laboris sunt aute anim incididunt ad dolor amet id reprehenderit ut.]"
+            ],
+            "image": "ad-graphic-02.png"
+          }
+        },
         {
           "type": "description",
           "config": [
-            "Stop dreaming of a new website and turn it into a reality by letting Justia build <b>the best website for you</b>. Justia websites combine best marketing practices that allow firms to increase visibility and client leads."
+            "Dolor ipsum exercitation pariatur sint. Sint commodo aute culpa irure minim cillum sit labore ex qui tempor consequat anim.",
+            "Mollit voluptate ullamco duis commodo elit ullamco non consectetur qui eiusmod dolore eu consectetur irure.",
+            "Veniam sint non id esse duis dolor id id reprehenderit Lorem quis."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Get a New Site Today",
-            "width": 250,
+            "text": "[Magna pariatur]",
+            "width": 300,
             "height": 50,
             "fontSize": 18,
             "responsive": ""
           }
-        },
-        {
-          "type": "description",
-          "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
-          ]
         }
       ]
     }
