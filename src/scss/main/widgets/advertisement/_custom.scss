@@ -2,88 +2,11 @@
 // A D V E R T I S E M E N T   -   C U S T O M   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
 
-.w-advertisement {
+// .w-advertisement {
 
-  // &.-client-ad-01 {}
+//   // &.-client-ad-01 {}
 
-  &.-jld-ad-01 {
+//   // &.-jld-ad-01 {}
 
-    .justia-logo {
-      padding: 40px $padding 43px;
-    }
-
-    .title {
-      padding: 0 50px 63px;
-
-      a {
-        @include mail-font(34px, 1.15);
-      }
-    }
-
-    .image {
-      padding: 0;
-
-      img {
-        width: $max-width;
-      }
-    }
-
-    .content.-idx-1 {
-      padding: 50px $padding 35px;
-      text-align: left;
-
-      p {
-        @include mail-font(18px, 1.35);
-      }
-    }
-
-    .content.-description {
-
-      p,
-      a {
-        color: plt('justia-blue');
-      }
-    }
-  }
-
-  &.-jld-ad-02 {
-
-    .justia-logo {
-      padding: 30px $padding 18px;
-    }
-
-    .title {
-      padding: 0 85px 13px;
-
-      a {
-        @include mail-font(34px, 1.15);
-        color: plt('white');
-      }
-    }
-
-    .image {
-      padding: 0;
-
-      img {
-        width: $max-width;
-      }
-    }
-
-    .content {
-      background-color: plt('white');
-
-      &.-idx-1 {
-        padding: 12px $padding 20px;
-        text-align: left;
-      }
-
-      &.-description {
-
-        p,
-        a {
-          color: plt('justia-blue');
-        }
-      }
-    }
-  }
-}
+//   // &.-jld-ad-02 {}
+// }
