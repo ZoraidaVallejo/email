@@ -1,0 +1,96 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.unclaimed.-v1 {
+
+  .main-image {
+    .image {
+      width: 195px;
+      padding: 22px 20px 43px 20px;
+
+      img {
+        width: 195px;
+        height: 215px;
+      }
+    }
+  }
+
+  .main-title {
+    padding: 80px 16px 106px 0;
+
+    p {
+      @include mail-font(28px, $weight: 'bold');
+      font-weight: bold;
+
+      .huge {
+        @include mail-font(70px, 1.1, $weight: 'bold');
+      }
+    }
+
+    a {
+      color: plt('white');
+    }
+  }
+
+  .content {
+
+    &.-idx-3 {
+      border-top: 1px solid #dddddd;
+      border-bottom: 1px solid #dddddd;
+      background-color: #f4f4f4;
+      padding-bottom: 0;
+
+      > p {
+        @include mail-font(20px, $weight: 'bold');
+
+        a {
+          color: plt('justia-blue');
+        }
+      }
+
+      .text {
+        width: 270px;
+        padding-top: 19px;
+      }
+
+      .image {
+        width: 270px;
+        padding-left: 13px;
+        vertical-align: top;
+
+        img {
+          width: 257px;
+          height: 219px;
+        }
+      }
+
+      .-button {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 49px;
+      }
+    }
+
+    &.-idx-4 {
+      padding-top: 28px;
+      padding-bottom: 28px;
+    }
+
+    &:not(.-button):not(.-last) {
+      text-align: left;
+    }
+
+    a {
+      color: plt('black');
+    }
+  }
+
+  .main-footer.-social-below {
+
+    .justia-inline {
+      text-transform: none;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+---
+subject: "JUSTIA Lawyer Directory"
+---
+
+{{>preheader text="Get 24x More Calls With a Completed Profile"}}
+
+{{#table class="unclaimed -v1" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{>blast-content widgetConfig=unclaimedV2 }}
+
+      {{>ui-layout-hack tableMiddleSeparator=true}}
+        {{>about-justia}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer}}
+    </td>
+  </tr>
+{{/table}}

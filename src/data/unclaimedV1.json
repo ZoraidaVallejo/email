@@ -1,0 +1,72 @@
+{
+  "link": "#",
+  "title": "<b>Get <span class=\"huge\" responsive=\"mobile-fz-25\">24x</span> More Calls With a Completed Profile</b>",
+  "titlePosition": "right",
+  "titleResponsiveSize": 20,
+  "image": "unclaimed-v1--animation.gif",
+  "mainImageBackground": {
+    "image": "unclaimed-v1--bg.png",
+    "bgColor": "#06357a",
+    "width": 600
+  },
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Hi [name],"
+        },
+        {
+          "link": "#",
+          "text": "Did you know that having a more completed profile can get you <b>24x more calls?</b> We encourage you to take a moment to review your free profile today."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "Complete My Profile",
+        "width": 228,
+        "height": 47,
+        "fontSize": 18
+      }
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Increase your Exposure with a Premium Membership"
+        },
+        {
+          "link": "#",
+          "text": "Take your lawyer profile to the next level with a premium membership to enhance your visibility and gain more potential clients.",
+          "image": "unclaimed-v1--premium-placements.png",
+          "alt": "Justia Lawyer Directory",
+          "button": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 150,
+            "height": 47,
+            "fontSize": 18
+          }
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "config": [
+        {
+          "text": "Justia Lawyer Directory Team"
+        },
+        {
+          "text": "<b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+        }
+      ]
+    }
+  ]
+}
