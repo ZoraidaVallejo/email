@@ -1,6 +1,6 @@
 {
   "link": "#",
-  "title": "<b>Get <span class=\"huge\" responsive=\"mobile-fz-25\">24x</span> More Calls With a Completed Profile</b>",
+  "title": "<b>Get <span class=\"huge\" responsive=\"mobile-fz-25 mobile-reset-line-height\">24x</span> More Calls With a Completed Profile</b>",
   "titlePosition": "right",
   "titleResponsiveSize": 20,
   "image": "unclaimed-v1--animation.gif",
@@ -45,7 +45,7 @@
         {
           "link": "#",
           "text": "Take your lawyer profile to the next level with a premium membership to enhance your visibility and gain more potential clients.",
-          "image": "unclaimed-v1--premium-placements.png",
+          "image": "unclaimed--premium-placements.png",
           "alt": "Justia Lawyer Directory",
           "button": {
             "style": "red",
@@ -65,6 +65,9 @@
         },
         {
           "text": "<b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+        },
+        {
+          "text": "<b><a href=\"mailto:directorysupport@justia.com\" target=\"_blank\">directorysupport@justia.com</a></b>"
         }
       ]
     }

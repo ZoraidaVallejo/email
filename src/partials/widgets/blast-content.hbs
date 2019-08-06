@@ -1,17 +1,6 @@
 <!-- CONTENT -->
 
 {{#table class="blast-content set-max-width"}}
-  {{#compare widgetConfig.titlePosition "===" "top"}}
-    <tr>
-      <td class="main-title" responsive="mobile-padding-horizontal-sides">
-        <p responsive="mobile-fz-{{widgetConfig.titleResponsiveSize}}">
-          <a href="{{{widgetConfig.link}}}" target="_blank">
-            {{{widgetConfig.title}}}
-          </a>
-        </p>
-      </td>
-    </tr>
-  {{/compare}}
   <tr>
   {{#if widgetConfig.mainImageBackground}}
     {{>ui-background
@@ -25,16 +14,25 @@
         <tr>
   {{/if}}
     <td class="main-image">
-      {{#compare widgetConfig.titlePosition "===" "right"}}
-        <table {{{tableAttr}}}>
+      <table {{{tableAttr}}}>
+        {{#compare widgetConfig.titlePosition "===" "top"}}
           <tr>
-            <td class="image" responsive="mobile-hide">
-      {{/compare}}
-        <a href="{{{widgetConfig.link}}}" target="_blank">
-          {{>img src=widgetConfig.image alt=widgetConfig.title}}
-        </a>
-      {{#compare widgetConfig.titlePosition "===" "right"}}
+            <td class="main-title" responsive="mobile-padding-horizontal-sides">
+              <p responsive="mobile-fz-{{widgetConfig.titleResponsiveSize}}">
+                <a href="{{{widgetConfig.link}}}" target="_blank">
+                  {{{widgetConfig.title}}}
+                </a>
+              </p>
+            </td>
+          </tr>
+        {{/compare}}
+        <tr>
+          <td class="image" responsive="mobile-hide">
+            <a href="{{{widgetConfig.link}}}" target="_blank">
+              {{>img src=widgetConfig.image alt=widgetConfig.title}}
+            </a>
           </td>
+          {{#compare widgetConfig.titlePosition "===" "right"}}
           <td class="main-title" responsive="mobile-reset-width mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
             <p responsive="mobile-fz-{{widgetConfig.titleResponsiveSize}}">
               <a href="{{{widgetConfig.link}}}" target="_blank">
@@ -42,9 +40,9 @@
               </a>
             </p>
           </td>
-          </tr>
-        </table>
-      {{/compare}}
+          {{/compare}}
+        </tr>
+      </table>
     </td>
   {{#if widgetConfig.mainImageBackground}}
         </tr>
@@ -102,8 +100,8 @@
 
               {{#if this.image}}
                     </td>
-                    <td class="image" responsive="collapse-one">
-                      {{>img src=this.image alt=this.alt}}
+                    <td class="image" responsive="collapse-one mobile-no-padding">
+                      {{>img src=this.image alt=this.alt responsive="mobile-align-center"}}
                     </td>
                   </tr>
                 </table>

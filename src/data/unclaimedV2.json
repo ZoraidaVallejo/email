@@ -1,20 +1,26 @@
 {
-  "link": "https://www.justia.com/marketing/lawyer-directory/",
-  "title": "<b>Want to Remove Competitors from Your Lawyer Profile?</b>",
-  "titleResponsiveSize": 22,
-  "image": "remove-competitors.gif",
+  "link": "#",
+  "title": "<b>A Profile Picture Can Get You <br responsive=\"mobile-hide\"><span class=\"huge\" responsive=\"mobile-fz-25 mobile-reset-line-height\">5x</span> <span class=\"row\">More Contacts</span></b>",
+  "titlePosition": "top",
+  "titleResponsiveSize": 20,
+  "image": "unclaimed-v2--animation.gif",
+  "mainImageBackground": {
+    "image": "unclaimed-v2--bg.png",
+    "bgColor": "#0071be",
+    "width": 600
+  },
   "contentOrder": [
     {
       "type": "description",
       "linkText": true,
       "config": [
         {
-          "link": "https://www.justia.com/marketing/lawyer-directory/",
-          "text": "Become a <b>Premium Member</b> now to remove other attorney ads. Premium Members also receive an upgraded profile with a prominent contact form to make it easier to connect with potential clients."
+          "link": "#",
+          "text": "Hi [name],"
         },
         {
-          "link": "https://www.justia.com/marketing/contact/platinum/?utm_medium=web&utm_source=marketing&utm_content=text-learn-more-1&utm_campaign=web-stripe-lawyer-directory-platinum-subscriptions",
-          "text": "Be sure to find out about <b>Exclusive Top Placements</b> as well. You can be featured at the top of listing pages."
+          "link": "#",
+          "text": "Claimed profiles that have a <b>profile picture</b> can get up to <b>5x more contacts</b> compared to unclaimed profiles without pictures. We encourage you to take a moment to review your free profile and add a profile picture today."
         }
       ]
     },
@@ -22,11 +28,34 @@
       "type": "button",
       "config": {
         "style": "red",
-        "text": "CONTACT US NOW",
-        "width": 205,
-        "height": 50,
+        "text": "Review My Profile",
+        "width": 228,
+        "height": 47,
         "fontSize": 18
       }
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Increase your Exposure with a Premium Membership"
+        },
+        {
+          "link": "#",
+          "text": "Take your lawyer profile to the next level with a premium membership to enhance your visibility and gain more potential clients.",
+          "image": "unclaimed--premium-placements.png",
+          "alt": "Justia Lawyer Directory",
+          "button": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 150,
+            "height": 47,
+            "fontSize": 18
+          }
+        }
+      ]
     },
     {
       "type": "description",
@@ -36,6 +65,9 @@
         },
         {
           "text": "<b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+        },
+        {
+          "text": "<b><a href=\"mailto:directorysupport@justia.com\" target=\"_blank\">directorysupport@justia.com</a></b>"
         }
       ]
     }
