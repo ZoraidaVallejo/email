@@ -1,0 +1,192 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.blast {
+  a[href^=tel] b {
+    font-size: 18px !important;
+  }
+
+  .about-justia p {
+    font-size: 14px !important;
+    line-height: 1.8;
+    font-family: Helvetica, Arial, sans-serif !important;
+  }
+}
+
+.rating {
+  .main-title {
+    @include mail-font(35px);
+    padding-top: 35px;
+    padding-bottom: 18px;
+  }
+
+  .main-image {
+    .image {
+      padding: 0 123px 24px 124px;
+    }
+  }
+
+  .content {
+    &.-idx-1 {
+      text-align: left;
+    }
+
+    &.-description p {
+      font-family: Helvetica, Arial, sans-serif !important;
+      color: plt('black');
+
+      a {
+        color: currentColor;
+      }
+    }
+  }
+}
+
+.phone {
+  .main-title {
+    @include mail-font(35px);
+    padding-top: 39px;
+    padding-bottom: 13px;
+
+    p,
+    a {
+      color: plt('white');
+    }
+  }
+
+  .main-image {
+    .image {
+      width: 280px;
+      padding: 0 20px 45px 45px;
+
+      img {
+        width: 280px - 42px - 45px;
+      }
+    }
+
+    .button {
+      text-align: center;
+    }
+
+    .description {
+      max-width: 100%;
+      width: 320px;
+      color: plt('white');
+      padding-bottom: 46px;
+      padding-right: 52px;
+
+      p {
+        font-family: Helvetica, Arial, sans-serif !important;
+      }
+
+      a {
+        color: currentColor;
+      }
+
+      .large {
+        display: inline-block;
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .content {
+    &.-idx-1 {
+      padding-top: 22px;
+      padding-bottom: 26px;
+    }
+  }
+}
+
+.profile-picture {
+  .main-title {
+    @include mail-font(35px);
+    padding-bottom: 4px;
+  }
+
+  .main-image {
+    .image {
+      padding: 0 78px 6px;
+    }
+  }
+
+  .content {
+    &.-idx-1 {
+      padding-top: 12px;
+      text-align: left;
+
+      p {
+        font-family: Helvetica, Arial, sans-serif !important;
+      }
+
+      a {
+        color: currentColor !important;
+      }
+    }
+
+    &.-idx-3 {
+      p {
+        color: plt('black');
+      }
+
+      a {
+        color: currentColor;
+      }
+
+      b {
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+.higher-visibility {
+  .main-title {
+    @include mail-font(40px);
+    padding-top: 39px;
+
+    p {
+      color: plt('white');
+    }
+
+    a {
+      color: currentColor;
+    }
+  }
+
+  .main-image {
+    .image {
+      padding-right: 19px;
+      padding-left: 17px;
+    }
+  }
+
+  .content {
+    &.-idx-1 {
+      text-align: left;
+
+      p {
+        color: plt('black');
+      }
+
+      a {
+        color: currentColor;
+      }
+    }
+
+    &.-idx-3 {
+      p {
+        color: plt('black');
+      }
+
+      a {
+        color: currentColor;
+      }
+
+      b {
+        font-size: 18px;
+      }
+    }
+  }
+}
