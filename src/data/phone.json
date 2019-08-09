@@ -1,6 +1,6 @@
 {
   "link": "#",
-  "title": "<b>Get the Most Out <br responsive=\"mobile-hide\">of Your Profile</b>",
+  "title": "<b>Get the Most Out <br responsive=\"mobile-hide\"> of Your Profile</b>",
   "titlePosition": "top",
   "titleResponsiveSize": 30,
   "image": "phone--animation.gif",
@@ -11,7 +11,7 @@
   "descriptionPosition": "right",
   "descriptionResponsive": "mobile-padding-horizontal-sides mobile-no-padding-bottom",
   "mainImageBackground": {
-    "image": "phone--bg.png",
+    "image": "phone--bg.jpg",
     "bgColor": "#06357a",
     "width": 600
   },

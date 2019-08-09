@@ -3,14 +3,14 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .blast {
-  a[href^=tel] b {
+
+  a[href^=tel] {
     font-size: 18px !important;
   }
 
   .about-justia p {
     font-size: 14px !important;
     line-height: 1.8;
-    font-family: Helvetica, Arial, sans-serif !important;
   }
 }
 
@@ -32,12 +32,11 @@
       text-align: left;
     }
 
-    &.-description p {
-      font-family: Helvetica, Arial, sans-serif !important;
-      color: plt('black');
+    &.-description {
 
+      p,
       a {
-        color: currentColor;
+        color: plt('black');
       }
     }
   }
@@ -72,16 +71,12 @@
     .description {
       max-width: 100%;
       width: 320px;
-      color: plt('white');
       padding-bottom: 46px;
-      padding-right: 52px;
-
-      p {
-        font-family: Helvetica, Arial, sans-serif !important;
-      }
+      padding-right: 45px;
+      color: plt('white');
 
       a {
-        color: currentColor;
+        color: plt('white');
       }
 
       .large {
@@ -116,22 +111,16 @@
       padding-top: 12px;
       text-align: left;
 
-      p {
-        font-family: Helvetica, Arial, sans-serif !important;
-      }
-
+      p,
       a {
-        color: currentColor !important;
+        color: plt('black');
       }
     }
 
     &.-idx-3 {
-      p {
-        color: plt('black');
-      }
-
+      p,
       a {
-        color: currentColor;
+        color: plt('black');
       }
 
       b {
@@ -143,15 +132,17 @@
 
 .higher-visibility {
   .main-title {
-    @include mail-font(40px);
-    padding-top: 39px;
+    padding-top: 31px;
+    padding-bottom: 20px;
 
     p {
+      @include mail-font(40px);
       color: plt('white');
     }
 
+    p,
     a {
-      color: currentColor;
+      color: plt('white');
     }
   }
 
@@ -166,22 +157,16 @@
     &.-idx-1 {
       text-align: left;
 
+      a,
       p {
         color: plt('black');
-      }
-
-      a {
-        color: currentColor;
       }
     }
 
     &.-idx-3 {
+      a,
       p {
         color: plt('black');
-      }
-
-      a {
-        color: currentColor;
       }
 
       b {

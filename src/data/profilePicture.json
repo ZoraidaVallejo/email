@@ -2,7 +2,7 @@
   "link": "#",
   "title": "<b>Make a Good First Impression<br responsive=\"mobile-hide\" /> with a Profile Picture</b>",
   "titlePosition": "top",
-  "titleResponsiveSize": 22,
+  "titleResponsiveSize": 26,
   "image": "profile-picture--animation.gif",
   "imageResponsive": "mobile-padding-horizontal-sides",
   "mainImageBackground": {
@@ -38,7 +38,7 @@
     },
     {
       "type": "description",
-      "linkText": true,
+      "linkText": false,
       "config": [
         {
           "text": "Justia Lawyer Directory Team"
