@@ -57,7 +57,7 @@
         {{/if}}
         {{#if widgetConfig.subtitle}}
           <tr>
-            <td class="subtitle">
+            <td class="subtitle" responsive="mobile-padding-horizontal-sides">
               <p responsive="mobile-fz-{{widgetConfig.subtitleResponsiveSize}}">
                 <a href="{{{widgetConfig.link}}}" target="_blank">
                   {{{widgetConfig.subtitle}}}
@@ -110,7 +110,7 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "title"}}
         <tr>
-          <td class="content -title -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-bottom mobile-padding-30-top">
+          <td class="content -title -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-bottom mobile-padding-50-top">
             <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
               <strong class="title">
                 {{#if ../linkText}}<a href="{{{this.link}}}" target="_blank">{{/if}}
@@ -123,7 +123,7 @@
       {{/compare}}
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-top mobile-padding-20-bottom{{#if isLast}} mobile-padding-50-bottom{{/if}}">
             {{#each this.config}}
               {{#if this.image}}
                 <table {{{tableAttr}}}>
@@ -172,8 +172,8 @@
 
       {{#compare this.type "===" "unorderedList"}}
         <tr>
-          <td class="content -unordered-list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
-            <ul>
+          <td class="content -unordered-list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top mobile-padding-bottom">
+            <ul responsive="mobile-padding-left">
               {{#each this.config.items}}
                 <li><span class="dot">&middot;</span> <span class="text">{{{ this }}}</span></li>
               {{/each}}
@@ -194,13 +194,13 @@
       {{/compare}}
       {{#compare this.type "===" "imageText"}}
         <tr>
-            <td class="content -image-text -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
+            <td class="content -image-text -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-top">
               {{#table}}
                 <tr>
-                  <td class="image">
-                    {{>img src=this.config.image alt=this.config.alt}}
+                  <td class="image" responsive="collapse-one mobile-align-center">
+                    {{>img src=this.config.image alt=this.config.alt responsive="mobile-align-center"}}
                   </td>
-                  <td class="text">
+                  <td class="text" responsive="mobile-no-padding-horizontal-sides mobile-padding-top collapse-one">
                     <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
                       {{{this.config.text}}}
                     </p>

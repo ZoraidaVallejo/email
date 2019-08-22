@@ -1,9 +1,9 @@
 {
   "link": "#",
-  "title": "<b>Thank you for becoming a Justia <br responsive=\"mobile-hide\"/> & LII  Directory Featured Lawyer!</b>",
+  "title": "<b>Thank you for becoming a Justia&nbsp;<br responsive=\"mobile-hide\"/>& LII  Directory Featured Lawyer!</b>",
   "titlePosition": "top",
   "titleResponsiveSize": 22,
-  "subtitle": "You are now a <b>Premium Member</b> and your <br responsive=\"mobile-hide\"/> Platinum Placement(s) have been activated.",
+  "subtitle": "You are now a <b>Premium Member</b> and your<br responsive=\"mobile-hide\"/>&nbsp;Platinum Placement(s) have been activated.",
   "separator": true,
   "subtitleResponsiveSize": 18,
   "mainImageButton": {
@@ -53,7 +53,6 @@
       "alt": "Platinum profile with \"Visit Website\" link highlighted",
       "text": [
         "Additionally, your Platinum placement also includes the ability to <b>include a link to a custom URL</b>. The \"view website\" button on your premium placement advertisement will link to the website address in your profile.",
-
         "However, if you'd like to customize it to link to a particular URL, such as a practice area page on your site, please send us a link for each Platinum placement purchased and we’ll customize the \"view website\" button as instructed."
       ]
     }
@@ -81,9 +80,9 @@
       "type": "orderedList",
       "config": {
         "items": [
-        "Business Law in the San Jose Metro Area",
-        "Communications & Internet Law in the San Jose Metro Area",
-        "Intellectual Property in the San Jose Metro Area"
+          "Business Law in the San Jose Metro Area",
+          "Communications & Internet Law in the San Jose Metro Area",
+          "Intellectual Property in the San Jose Metro Area"
         ]
       }
     },
@@ -96,7 +95,7 @@
     {
       "type": "imageText",
       "config": {
-        "image": "platinum-closed-won-justia-badge-01.png",
+        "image": "http://justatic.com/v/1/emails/images/lawyer-directory/common/justia-badge-10.png",
         "alt": "Justia Badge",
         "text": "Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties! <br/> <a href=\"#\"><b>Learn more ›</b></a>"
       }

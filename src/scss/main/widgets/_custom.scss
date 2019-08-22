@@ -99,6 +99,7 @@
 
     &.-unordered-list {
       ul {
+        @include mail-font(16px);
         margin: 0;
         padding-left: $padding;
         list-style-type: none;
@@ -110,19 +111,24 @@
     }
 
     &.-ordered-list ol {
+      @include mail-font(16px);
       padding-left: 1em;
       margin-bottom: 0;
     }
 
     &.-image-text {
-      padding-top: 23px;
+      padding-top: 17px;
 
       .image {
         width: 100px;
       }
 
+      img {
+        max-width: 100px;
+      }
+
       .text {
-        width: 440px;
+        width: 415px;
         padding-left: 25px;
       }
     }
