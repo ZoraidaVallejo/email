@@ -3,8 +3,14 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .closed-won {
-  .content.-button {
-    text-transform: uppercase;
+
+  .title,
+  .content.-title {
+    p {
+      @include mail-font(20px, $weight: bold);
+      color: #555555;
+      text-transform: uppercase;
+    }
   }
 
   .main-image {
@@ -54,12 +60,6 @@
   .steps {
     padding: 42px $padding 48px;
 
-    .title p {
-      @include mail-font(20px, $weight: bold);
-      color: #555555;
-      text-transform: uppercase;
-    }
-
     .image {
       padding-top: 14px;
       padding-bottom: 26px;
@@ -73,6 +73,84 @@
 
       &:not(.-first) {
         padding-top: 67px;
+      }
+    }
+  }
+
+  .content {
+
+    &:not(.-button) {
+      text-align: left;
+    }
+
+    &.-button {
+      text-transform: uppercase;
+    }
+
+    &.-title {
+      padding-top: 48px;
+      padding-bottom: 0;
+    }
+
+    &.-ordered-list,
+    &.-unordered-list {
+      padding-top: 0;
+    }
+
+    &.-unordered-list {
+      ul {
+        margin: 0;
+        padding-left: $padding;
+        list-style-type: none;
+      }
+
+      .dot {
+        @include mail-font(20px, 1, $weight: 'bold');
+      }
+    }
+
+    &.-ordered-list ol {
+      padding-left: 1em;
+      margin-bottom: 0;
+    }
+
+    &.-image-text {
+      padding-top: 23px;
+
+      .image {
+        width: 100px;
+      }
+
+      .text {
+        width: 440px;
+        padding-left: 25px;
+      }
+    }
+  }
+
+  &.-platinum {
+
+    .content {
+
+      &.-idx-7 {
+        padding-top: 18px;
+        padding-bottom: 11px;
+      }
+
+      &.-idx-8 {
+        padding-bottom: 0;
+      }
+
+      &.-idx-9 {
+        padding-top: 15px;
+      }
+
+      &.-idx-10 {
+        padding-top: 0;
+      }
+
+      &.-idx-11 {
+        padding-bottom: 52px;
       }
     }
   }

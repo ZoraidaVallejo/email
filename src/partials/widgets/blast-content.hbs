@@ -108,6 +108,19 @@
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "title"}}
+        <tr>
+          <td class="content -title -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-bottom mobile-padding-30-top">
+            <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
+              <strong class="title">
+                {{#if ../linkText}}<a href="{{{this.link}}}" target="_blank">{{/if}}
+                  {{{this.config.text}}}
+                {{#if ../linkText}}</a>{{/if}}
+              </strong>
+            </p>
+          </td>
+        </tr>
+      {{/compare}}
       {{#compare this.type "===" "description"}}
         <tr>
           <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
@@ -118,9 +131,11 @@
                     <td class="text" responsive="collapse-one mobile-no-padding-top">
               {{/if}}
               <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
-                {{#if ../linkText}}<a href="{{{this.link}}}" target="_blank">{{/if}}
-                  {{{this.text}}}
-                {{#if ../linkText}}</a>{{/if}}
+                {{#if this.text}}
+                  {{#if ../linkText}}<a href="{{{this.link}}}" target="_blank">{{/if}}
+                    {{{this.text}}}
+                  {{#if ../linkText}}</a>{{/if}}
+                {{/if}}
               </p>
               {{#if this.button}}
                 <table {{{tableAttr}}}>
@@ -152,6 +167,47 @@
               {{/if}}
             {{/each}}
           </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "unorderedList"}}
+        <tr>
+          <td class="content -unordered-list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
+            <ul>
+              {{#each this.config.items}}
+                <li><span class="dot">&middot;</span> <span class="text">{{{ this }}}</span></li>
+              {{/each}}
+            </ul>
+          </td>
+        </tr>
+      {{/compare}}
+      {{#compare this.type "===" "orderedList"}}
+        <tr>
+          <td class="content -ordered-list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
+            <ol>
+              {{#each this.config.items}}
+                <li>{{{ this }}}</li>
+              {{/each}}
+            </ol>
+          </td>
+        </tr>
+      {{/compare}}
+      {{#compare this.type "===" "imageText"}}
+        <tr>
+            <td class="content -image-text -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
+              {{#table}}
+                <tr>
+                  <td class="image">
+                    {{>img src=this.config.image alt=this.config.alt}}
+                  </td>
+                  <td class="text">
+                    <p{{#if ../responsiveText}} responsive="mobile-fz-{{itemAt ../responsiveText @index}}"{{/if}}>
+                      {{{this.config.text}}}
+                    </p>
+                  </td>
+                </tr>
+              {{/table}}
+            </td>
         </tr>
       {{/compare}}
 

@@ -72,53 +72,61 @@
       }
     },
     {
-      "type": "description",
-      "config": [
-        {
-          "title": "[Name]'s current Platinum placements"
-        },
-        {
-          "ordered-list": [
-            "Business Law in the San Jose Metro Area",
-            "Communications & Internet Law in the San Jose Metro Area",
-            "Intellectual Property in the San Jose Metro Area"
-          ]
-        }
-      ]
+      "type": "title",
+      "config": {
+        "text": "[Name]'s current Platinum placements"
+      }
+    },
+    {
+      "type": "orderedList",
+      "config": {
+        "items": [
+        "Business Law in the San Jose Metro Area",
+        "Communications & Internet Law in the San Jose Metro Area",
+        "Intellectual Property in the San Jose Metro Area"
+        ]
+      }
+    },
+    {
+      "type": "title",
+      "config": {
+        "text": "Get your Justia rating badge now!"
+      }
+    },
+    {
+      "type": "imageText",
+      "config": {
+        "image": "platinum-closed-won-justia-badge-01.png",
+        "alt": "Justia Badge",
+        "text": "Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties! <br/> <a href=\"#\"><b>Learn more ›</b></a>"
+      }
+    },
+    {
+      "type": "title",
+      "config": {
+        "text": "Complete your profile"
+      }
     },
     {
       "type": "description",
       "config": [
-        {
-          "title": "Get your Justia rating badge now!"
-        },
-        {
-          "image-text": [
-            {
-              "path": "platinum-closed-won-justia-badge-01.png"
-            },
-            {
-              "text": "Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties! <br/> <a href=\"#\"><b>Learn more ›</b></a>"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "description",
-      "config": [
-        {
-          "title": "Complete your profile"
-        },
         {
           "text": "Your profile is 90% complete. Here are some ways to get to 100%:"
-        },
-        {
-          "unordered-list": [
-            "Add certifications",
-            "Include your speaking engagements"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "unorderedList",
+      "config": {
+        "items": [
+          "<a href=\"#\" target=\"_blank\"><b>Add certifications</b></a>",
+          "<a href=\"#\" target=\"_blank\"><b>Include your speaking engagements</b></a>"
+        ]
+      }
+    },
+    {
+      "type": "description",
+      "config": [
         {
           "text": "Our data shows that lawyers who complete their profiles in our directory receive 76 times more client contacts than those with incomplete profiles."
         }

@@ -468,7 +468,10 @@ a {
   color: #06357a;
 }
 
-.closed-won .content.-button {
+.closed-won .title p,
+.closed-won .content.-title p {
+  font: bold 20px/1.5 Arial, sans-serif;
+  color: #555555;
   text-transform: uppercase;
 }
 
@@ -520,12 +523,6 @@ a {
   padding: 42px 30px 48px;
 }
 
-.closed-won .steps .title p {
-  font: bold 20px/1.5 Arial, sans-serif;
-  color: #555555;
-  text-transform: uppercase;
-}
-
 .closed-won .steps .image {
   padding-top: 14px;
   padding-bottom: 26px;
@@ -537,6 +534,72 @@ a {
 
 .closed-won .steps .step:not(.-first) {
   padding-top: 67px;
+}
+
+.closed-won .content:not(.-button) {
+  text-align: left;
+}
+
+.closed-won .content.-button {
+  text-transform: uppercase;
+}
+
+.closed-won .content.-title {
+  padding-top: 48px;
+  padding-bottom: 0;
+}
+
+.closed-won .content.-ordered-list, .closed-won .content.-unordered-list {
+  padding-top: 0;
+}
+
+.closed-won .content.-unordered-list ul {
+  margin: 0;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.closed-won .content.-unordered-list .dot {
+  font: bold 20px/20px Arial, sans-serif;
+}
+
+.closed-won .content.-ordered-list ol {
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+
+.closed-won .content.-image-text {
+  padding-top: 23px;
+}
+
+.closed-won .content.-image-text .image {
+  width: 100px;
+}
+
+.closed-won .content.-image-text .text {
+  width: 440px;
+  padding-left: 25px;
+}
+
+.closed-won.-platinum .content.-idx-7 {
+  padding-top: 18px;
+  padding-bottom: 11px;
+}
+
+.closed-won.-platinum .content.-idx-8 {
+  padding-bottom: 0;
+}
+
+.closed-won.-platinum .content.-idx-9 {
+  padding-top: 15px;
+}
+
+.closed-won.-platinum .content.-idx-10 {
+  padding-top: 0;
+}
+
+.closed-won.-platinum .content.-idx-11 {
+  padding-bottom: 52px;
 }
 
 .about-justia {
