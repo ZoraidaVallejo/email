@@ -1,0 +1,35 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Make Your Attorney Profile Page More Robust",
+    "description": [
+      "Did you know the highest-trafficked page on your law firm site besides your home page is likely your attorney profile page? Many attorneys leave this page bare bones and neglect to include vital and compelling information that can build confidence with clients and prospective clients. Even if you lack years of legal experience, there are plenty of subjects to cover and ways to differentiate yourself. Read more about the importance of this page and what to include."
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://onward.justia.com/2018/02/26/write-compelling-attorney-profile-page/",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "description": [
+      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
+      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}

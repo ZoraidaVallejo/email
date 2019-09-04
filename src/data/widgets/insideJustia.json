@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Elit ipsum</b> esse amet culpa."
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Justia Family Visit</b>",
+      "description": [
+        "We had the pleasure of our CEO Tim's parents visiting this month! Here they are with David, Charles, and the hug pugs Rio & Sheba."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "<b>Id amet ex est nulla laboris.</b>"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>On the Road Again</b>",
+      "description": [
+        "The hug pugs soaked up some sun and took in the sunflowers on a recent trip with their peeps to UC Davis."
+      ]
+    }
+  ]
+}

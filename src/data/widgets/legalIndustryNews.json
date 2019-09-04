@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "legal-industry-news",
+    "header": "Legal Industry News"
+  },
+  "news": [
+    {
+      "title": "Jobs in Legal Services Sector Increase For Third Straight Month",
+      "link": "http://www.abajournal.com/news/article/jobs-in-legal-services-sector-increase-for-third-straight-month",
+      "description": "Continuing a general upward trend that began in December, the legal industry posted a slight gain in July that represented an increase of 2,400 jobs since a year ago at this time."
+    },
+    {
+      "title": "‘Caste System’ at Some Law Firms Won’t Survive, Consultant Says; Multidisciplinary Teams Will",
+      "link": "http://www.abajournal.com/news/article/the-caste-system-at-some-law-firms-minimizes-nonlawyer-contributions-hampers-problem-solving",
+      "description": "According to an industry insider, law firms may soon face economic pressure to employ multidisciplinary teams of lawyers and non-lawyers instead of a hierarchical mentality."
+    },
+    {
+      "title": "The Most Effective Tech Tools for Lawyers? New Survey Says They Ain’t What You Think",
+      "link": "https://www.lawsitesblog.com/2019/08/the-most-effective-tech-tools-for-lawyers-new-survey-says-they-aint-what-you-think.html",
+      "description": "Though Blockchain and AI have garnered much attention, new data show that the most important tech tools for lawyers relate to document management, billing, and time keeping."
+    },
+    {
+      "title": "ABA Has Seen Improvement in Key Areas After Launch of New Membership Model, Executive Director Says",
+      "link": "http://www.abajournal.com/news/article/aba-executive-director-jack-rives-updates-house-of-delegates-on-progress",
+      "description": "In the wake of changes such as introducing a new dues structure, a new CLE Marketplace, and an ABA Career Center, the organization reports strong performance in important areas."
+    }
+  ]
+}

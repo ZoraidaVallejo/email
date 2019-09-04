@@ -1,0 +1,36 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "We Recently Updated Our Brand Page",
+    "link": "https://www.justia.com/",
+    "description": [
+      "You may find the guidelines to use the Justia logo, icon, colors, typography, and the lawyer rating badge on our <a href=\"https://brand.justia.com/\" target=\"_blank\">brand page</a>. If you have obtained a Justia Lawyer Rating, login and go to “Your Justia Rating Badge” when editing your profile, to find usage details. Tips for utilizing the <a href=\"https://brand.justia.com/justia-badge/\" target=\"_blank\">badge</a> are linked from our brand page as well."
+    ]
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "[Quis reprehenderit aliquip laboris ex id ex adipisicing non cupidatat cillum adipisicing. Exercitation voluptate ex magna id dolore adipisicing commodo ex cupidatat officia veniam eu dolore. Labore quis ullamco ea magna id sit. Voluptate dolore id ad fugiat fugiat ipsum minim excepteur nisi laboris. Non ipsum ea ipsum laboris ullamco minim consectetur. Ullamco cupidatat ut magna do. Laboris et incididunt cillum voluptate voluptate sunt mollit pariatur irure non commodo commodo.]",
+      "[Nostrud velit occaecat excepteur deserunt laboris duis irure commodo irure ullamco magna occaecat in. Duis cupidatat enim aliqua est ut amet sunt. Aliquip duis nulla eu commodo dolore nostrud labore adipisicing duis culpa.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}

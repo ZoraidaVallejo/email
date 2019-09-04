@@ -1,0 +1,36 @@
+// ----------------------------------------------------------------------------------------------------------
+// F E A T U R E D   S I T E   O F   T H E   M O N T H
+// ----------------------------------------------------------------------------------------------------------
+
+.w-featured-site-month {
+
+  .featured-site {
+
+    .client-info {
+      padding: 0 $padding 25px;
+      text-align: center;
+
+      .name {
+        @include mail-font(22px, 1.15);
+        margin: 0 0 10px;
+
+        a {
+          color: plt('black');
+        }
+      }
+
+      .location {
+        margin: 0;
+      }
+    }
+
+    .devices {
+      padding: 0 $padding $widget-gap;
+      text-align: center;
+
+      img {
+        width: $inner-max-width;
+      }
+    }
+  }
+}
