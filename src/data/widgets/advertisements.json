@@ -6,51 +6,41 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "ad-gradient.png",
+        "image": "ad-bg-01.png",
         "width": 600,
-        "bgColor": "#f4f4f4",
-        "cssSize": "600px 350px"
+        "bgColor": "#ffffff",
+        "cssSize": "600px 867px"
       },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v23"
       },
       "logo": {
         "name": "marketing",
         "color": "blue"
       },
-      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
-      "titleResponsiveSize": 23,
+      "title": "<b responsive=\"mobile-fz-25\">Faster is Better</b><br><span class=\"subtitle\">Increase your website speed and improve your leads.</span>",
+      "titleResponsiveSize": 16,
       "image": "ad-graphic-01.gif",
       "contentOrder": [
         {
-          "type": "image-description",
-          "config": {
-            "image": "ad-graphic-02.png",
-            "description": [
-              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
-            ]
-          }
-        },
-        {
           "type": "description",
           "config": [
-            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
-            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
+            "Justia builds branded Accelerated Mobile Pages (AMP) that provide a faster user experience since they’re lightweight, optimized for mobile downloads and preloaded to a user’s mobile browser when they’re on a Google search result page."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Non velit incididunt]",
-            "width": 280,
+            "text": "Make Your Site More User Friendly",
+            "width": 350,
             "height": 50,
             "fontSize": 18,
-            "responsive": ""
+            "responsive": "mobile-reset-width mobile-padding-horizontal-sides mobile-fz-15"
           }
         },
         {
@@ -68,44 +58,44 @@
         "bgColor": "",
         "cssSize": ""
       },
-      "link": "<%= editingInterfaceLink %>",
-      "utm": {},
+      "link": "https://www.justia.com/marketing/law-firm-websites/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-website-marketing-generic-v21"
+      },
       "logo": {
-        "name": "lawyer-directory",
+        "name": "marketing",
         "color": "blue"
       },
-      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
-      "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
+      "title": "<b>Want Exclusive Placements?</b>",
+      "titleResponsiveSize": 25,
+      "image": "ad-graphic-02.gif",
       "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "description": [
-              "[Esse in ad elit.]",
-              "[Anim laboris laborum veniam laboris sunt aute anim incididunt ad dolor amet id reprehenderit ut.]"
-            ],
-            "image": "ad-graphic-02.png"
-          }
-        },
         {
           "type": "description",
           "config": [
-            "Dolor ipsum exercitation pariatur sint. Sint commodo aute culpa irure minim cillum sit labore ex qui tempor consequat anim.",
-            "Mollit voluptate ullamco duis commodo elit ullamco non consectetur qui eiusmod dolore eu consectetur irure.",
-            "Veniam sint non id esse duis dolor id id reprehenderit Lorem quis."
+            "Premium members with Platinum placements are eligible to have a customizable tagline, description, and website URL on their placements.",
+            "Platinum placements offer the highest visibility on the directory and have additional benefits as well."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Magna pariatur]",
-            "width": 300,
+            "text": "Get Your Exclusive Placement Today",
+            "width": 350,
             "height": 50,
             "fontSize": 18,
-            "responsive": ""
+            "responsive": "mobile-reset-width mobile-padding-horizontal-sides mobile-fz-14"
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
         }
       ]
     }

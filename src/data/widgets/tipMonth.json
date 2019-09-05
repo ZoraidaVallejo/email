@@ -20,15 +20,19 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "title": "Justia Lawyer Rating and Reviews",
     "description": [
-      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
-      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+      "The Justia Lawyer Directory features attorney reviews and ratings. Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!"
     ],
+    "image": {
+      "src": "https://justatic.com/v/1/emails/images/lawyer-directory/common/justia-badge-10-placeholder.png",
+      "alt": "Justia Badge",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-09&utm_content=section-tip-of-the-month-lawyer-rating-and-reviews-image-v1"
+    },
     "button": {
       "style": "red-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn How",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-09&utm_content=section-tip-of-the-month-lawyer-rating-and-reviews-button-v1",
+      "text": "Learn More",
       "width": 150
     }
   }

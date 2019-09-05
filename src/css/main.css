@@ -705,6 +705,10 @@ a {
   text-align: center;
 }
 
+.jld-newsletter .w-law-events.widget {
+  background-color: #f4f4f4;
+}
+
 .w-law-events .event .date {
   font: 700 18px/1.1 Arial, sans-serif;
   margin: 0;
@@ -732,7 +736,11 @@ a {
 }
 
 .w-law-events .event.-event-3 .read-more {
-  margin: 79px 0 0;
+  margin: 55px 0 0;
+}
+
+.w-law-events .event.-event-8 .read-more {
+  margin: 54px 0 0;
 }
 
 .w-advertisement td {
@@ -798,9 +806,46 @@ a {
   padding: 0 30px 50px;
 }
 
-.w-did-you-know a {
+.w-advertisement.-jld-ad-01 .title {
+  padding-bottom: 45px;
+  font-size: 20px;
+}
+
+.w-advertisement.-jld-ad-01 .title a,
+.w-advertisement.-jld-ad-01 .title .subtitle {
+  font-size: 18px;
+}
+
+.w-advertisement.-jld-ad-01 .title b {
+  font-size: 48px;
+}
+
+.w-advertisement.-jld-ad-01 .image {
+  padding-right: 77px;
+  padding-left: 102px;
+}
+
+.w-advertisement.-jld-ad-01 .-description p {
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .title a {
+  font-size: 34px;
+}
+
+.w-advertisement.-jld-ad-02 .content {
+  background-color: #e5f7fc;
+}
+
+.w-advertisement.-jld-ad-02 .content p,
+.w-advertisement.-jld-ad-02 .content a {
   color: #06357a;
-  font-weight: 700;
+}
+
+.w-advertisement.-jld-ad-02 .image {
+  padding-right: 83px;
+  padding-bottom: 35px;
+  padding-left: 83px;
 }
 
 .w-answers-leaderboard .ranking-list {
@@ -877,6 +922,10 @@ a {
   font: 12px/12px Arial, sans-serif;
 }
 
+.w-jurispro.widget {
+  background-color: #ffffff;
+}
+
 .w-jurispro .widget-header .header {
   font: 700 27px/1.2 Arial, sans-serif;
 }
@@ -911,6 +960,25 @@ a {
 
 .w-jurispro .custom-description .thumb img {
   width: 150px;
+}
+
+.w-did-you-know a {
+  color: #06357a;
+  font-weight: 700;
+}
+
+.w-tip-month .text-image-cols .content {
+  width: 375px;
+}
+
+.w-tip-month .text-image-cols .image {
+  padding-left: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+.w-tip-month .text-image-cols img {
+  max-width: 150px;
 }
 
 .full-size {
