@@ -25,12 +25,12 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">{{{widgetConfig.title}}}</h3>
 
       {{#if widgetConfig.image}}
         {{#table class="text-image-cols"}}
           <tr>
             <td class="content" responsive="mobile-reset-width collapse-one">
+              <h3 class="content-title">{{{widgetConfig.title}}}</h3>
               {{#each widgetConfig.description}}
                 <p>{{{this}}}</p>
               {{/each}}
@@ -41,6 +41,8 @@
           </tr>
         {{/table}}
       {{else}}
+        <h3 class="content-title">{{{widgetConfig.title}}}</h3>
+
           {{#each widgetConfig.description}}
             <p>{{{this}}}</p>
           {{/each}}

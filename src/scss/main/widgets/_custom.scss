@@ -12,17 +12,18 @@
 .w-tip-month {
   .text-image-cols {
     .content {
-      width: 375px;
+      width: 400px;
+      vertical-align: top;
     }
 
     .image {
       padding-left: 25px;
-      width: 150px;
+      width: 125px;
       text-align: center;
     }
 
     img {
-      max-width: 150px;
+      max-width: 125px;
     }
   }
 }

@@ -8,7 +8,7 @@
     {
       "image": {
         "src": "inside-justia-01.jpg",
-        "alt": "<b>Elit ipsum</b> esse amet culpa."
+        "alt": "Five people and a pug"
       },
       "blockTitle": "Meet Our Team",
       "blockSubtitle": "<b>Justia Family Visit</b>",
@@ -17,9 +17,10 @@
       ]
     },
     {
+      "link": "https://www.facebook.com/Hug.Pugs/",
       "image": {
         "src": "inside-justia-02.jpg",
-        "alt": "<b>Id amet ex est nulla laboris.</b>"
+        "alt": "Tim (Justia's CEO) and the Hug Pugs"
       },
       "blockTitle": "A Pug’s Tale",
       "blockSubtitle": "<b>On the Road Again</b>",
