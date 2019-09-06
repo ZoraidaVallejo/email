@@ -27,7 +27,8 @@
     }
 
     .-description {
-      p {
+      p,
+      a[href^=tel] {
         color: plt('white');
       }
     }
