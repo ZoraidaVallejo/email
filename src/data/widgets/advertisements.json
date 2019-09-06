@@ -11,12 +11,12 @@
         "bgColor": "#ffffff",
         "cssSize": "600px 867px"
       },
-      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "link": "https://www.justia.com/marketing/law-firm-websites/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v23"
+        "content": "banner-website-marketing-generic-v21"
       },
       "logo": {
         "name": "marketing",
@@ -58,12 +58,12 @@
         "bgColor": "",
         "cssSize": ""
       },
-      "link": "https://www.justia.com/marketing/law-firm-websites/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-website-marketing-generic-v21"
+        "content": "banner-premium-memberships-v23"
       },
       "logo": {
         "name": "marketing",

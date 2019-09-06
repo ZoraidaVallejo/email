@@ -15,7 +15,7 @@
   }
 
   .chart {
-    padding: 0 $padding grid-unit();
+    padding: 0 $padding $padding;
     text-align: center;
 
     img {
@@ -36,7 +36,7 @@
     }
 
     .source {
-      margin: 25px 0 0;
+      margin: 0 0 25px;
 
       &:last-child {
         margin: 0;
