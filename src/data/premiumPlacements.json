@@ -1,0 +1,58 @@
+{
+  "link": "#",
+  "title": "Hit The Bull’s Eye with<br responsive=\"mobile-hide\"> <b>Premium Placements</b>",
+  "titlePosition": "top",
+  "titleResponsiveSize": 22,
+  "image": "premium-placements--image.png",
+  "imageResponsive": "mobile-padding-horizontal-sides",
+  "mainImageBackground": {
+    "image": "premium-placements--bg.png",
+    "bgColor": "#4398cf",
+    "width": 600
+  },
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "<b>Tired of not getting the results you want<br responsive=\"mobile-hide\">from your marketing?</b>"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Sign up for <b>premium placements</b> on the Justia Lawyer Directory and hit the mark with added visibility and other additional benefits."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "Become a Premium Member Today",
+        "width": 350,
+        "height": 47,
+        "fontSize": 18,
+        "responsive": "responsive-button mobile-fz-16"
+      }
+    },
+    {
+      "type": "description",
+      "linkText": false,
+      "config": [
+        {
+          "text": "Justia Lawyer Directory Team"
+        },
+        {
+          "text": "<b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+        }
+      ]
+    }
+  ]
+}
