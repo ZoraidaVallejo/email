@@ -20,7 +20,7 @@ h4 {
 
 p {
   margin: 0 0 16px;
-  font: 16px/1.38 Arial, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
 }
 
 p:last-child {
@@ -55,7 +55,7 @@ a {
 
 .main-header.-logo-only .wrapper {
   width: 100%;
-  padding: 20px 30px 15px;
+  padding: 20px 30px;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ a {
 }
 
 .main-header.-logo-only.-insights-logo .logo-img {
-  width: 250px;
+  width: 267px;
 }
 
 .main-header.-logo-only.-lawyer-profile-essentials-logo .logo-img {
@@ -79,8 +79,12 @@ a {
   width: 500px;
 }
 
+.main-header.-logo-only.-marketing-logo .logo-img {
+  width: 297px;
+}
+
 .main-header.-with-date .wrapper {
-  padding: 15px 30px;
+  padding: 30px;
   vertical-align: middle;
 }
 
@@ -89,18 +93,18 @@ a {
 }
 
 .main-header.-with-date .logo {
-  width: 65%;
+  width: 60%;
 }
 
 .main-header.-with-date .date {
-  width: 35%;
+  width: 40%;
   text-align: right;
 }
 
 .main-header.-with-date .date span {
   display: block;
-  color: #000000;
-  font: 16px/1.25 Arial, sans-serif;
+  color: #06357a;
+  font: 22px/1.25 Arial, sans-serif;
 }
 
 .main-header.-with-date.-justia-logo .logo-img {
@@ -108,7 +112,7 @@ a {
 }
 
 .main-header.-with-date.-insights-logo .logo-img {
-  width: 235px;
+  width: 267px;
 }
 
 .main-header.-with-date.-lawyer-profile-essentials-logo .logo-img {
@@ -121,6 +125,10 @@ a {
 
 .main-header.-with-date.-lawyer-directory-logo .logo-img {
   width: 300px;
+}
+
+.main-header.-with-date.-marketing-logo .logo-img {
+  width: 297px;
 }
 
 .main-footer {
@@ -137,7 +145,7 @@ a {
 }
 
 .main-footer .footer-head {
-  padding: 20px 30px;
+  padding: 14px 30px;
 }
 
 .main-footer .fhead-wrapper {
@@ -184,7 +192,7 @@ a {
 .main-footer.-basic-style .footer-address span,
 .main-footer.-basic-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-basic-style .footer-nav p,
@@ -196,7 +204,7 @@ a {
 .main-footer.-basic-style .footer-address p,
 .main-footer.-basic-style .footer-address span,
 .main-footer.-basic-style .footer-address a {
-  font: 700 14px/1.38 Arial, sans-serif;
+  font: 700 14px/1.5 Arial, sans-serif;
 }
 
 .main-footer.-light-bright-style {
@@ -219,7 +227,7 @@ a {
 .main-footer.-light-bright-style .footer-address span,
 .main-footer.-light-bright-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-light-bright-style .footer-nav p,
@@ -231,7 +239,7 @@ a {
 .main-footer.-light-bright-style .footer-address p,
 .main-footer.-light-bright-style .footer-address span,
 .main-footer.-light-bright-style .footer-address a {
-  font: 400 14px/1.38 Arial, sans-serif;
+  font: 400 14px/1.5 Arial, sans-serif;
 }
 
 .main-footer.-light-blue-style {
@@ -254,7 +262,7 @@ a {
 .main-footer.-light-blue-style .footer-address span,
 .main-footer.-light-blue-style .footer-address a {
   color: #000000;
-  font: 14px/1.38 Arial, sans-serif;
+  font: 14px/1.45 Arial, sans-serif;
 }
 
 .main-footer.-light-blue-style .footer-nav p,
@@ -266,7 +274,7 @@ a {
 .main-footer.-light-blue-style .footer-address p,
 .main-footer.-light-blue-style .footer-address span,
 .main-footer.-light-blue-style .footer-address a {
-  font: 700 14px/1.38 Arial, sans-serif;
+  font: 700 14px/1.5 Arial, sans-serif;
 }
 
 .social-icons {
@@ -307,7 +315,7 @@ a {
 }
 
 .main-footer.-social-below .footer-social {
-  padding: 20px 30px 10px;
+  padding: 28px 30px 15px;
   text-align: center;
 }
 
@@ -317,17 +325,13 @@ a {
 }
 
 .main-footer.-social-below .footer-disclaimer {
-  padding: 0 30px 5px;
+  padding: 0 30px 8px;
   text-align: center;
 }
 
 .main-footer.-social-below .footer-address {
   padding: 0 30px 120px;
   text-align: center;
-}
-
-.main-footer.-social-below .footer-address .justia-inline {
-  text-transform: uppercase;
 }
 
 .main-footer.-social-below.-justia-logo .logo-img {
@@ -337,7 +341,7 @@ a {
 
 .main-footer.-social-below.-insights-logo .logo-img {
   width: 190px;
-  height: 27px;
+  height: 33px;
 }
 
 .main-footer.-social-below.-lawyer-profile-essentials-logo .logo-img {
@@ -387,7 +391,7 @@ a {
 
 .main-footer.-social-on-top.-insights-logo .logo-img {
   width: 235px;
-  height: 33px;
+  height: 41px;
 }
 
 .main-footer.-social-on-top.-lawyer-profile-essentials-logo .logo-img {
@@ -411,31 +415,6 @@ a {
 
 .ui-background.-table .bg-wrapper {
   vertical-align: top;
-}
-
-.ui-columns-grid .grid-row {
-  padding: 0;
-  font-size: 0;
-  text-align: center;
-  vertical-align: top;
-}
-
-.ui-columns-grid .grid-column {
-  display: inline-block;
-  width: 300px;
-  max-width: 300px;
-  vertical-align: top;
-}
-
-.ui-columns-grid .single-grid-cell {
-  width: 600px;
-  text-align: left;
-  vertical-align: top;
-}
-
-.ui-columns-grid .grid-cell {
-  width: 300px;
-  text-align: center;
 }
 
 .ui-spacer-hack {
@@ -599,7 +578,7 @@ a {
 }
 
 .w-advertisement .title a {
-  font: 30px/1.38 Arial, sans-serif;
+  font: 30px/1.5 Arial, sans-serif;
   color: #06357a;
 }
 
