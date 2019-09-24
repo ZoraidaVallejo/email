@@ -9,7 +9,7 @@
   "mainImageButton": {
     "style": "red",
     "text": "VIEW YOUR LAWYER PROFILE",
-    "width": 270,
+    "width": "auto",
     "height": 40,
     "fontSize": 15,
     "responsive": "responsive-button"
