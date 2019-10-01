@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "[Nulla dolor ad nostrud incididunt.]",
+      "link": "https://www.justia.com/",
+      "description": "[Dolore ipsum tempor aliqua sit deserunt. In aliqua dolor consequat ullamco ex eu amet aliquip...]"
+    },
+    {
+      "title": "[Laborum cillum id ipsum amet mollit sit aute officia.]",
+      "link": "https://www.justia.com/",
+      "description": "[Cillum elit labore amet pariatur aute labore quis ex pariatur ex. Occaecat voluptate qui fugiat...]"
+    },
+    {
+      "title": "[Do laboris tempor nulla.]",
+      "link": "https://www.justia.com/",
+      "description": "[Magna cillum velit laboris et voluptate. Nisi sint incididunt irure nulla exercitation. Ex adipisicing anim...]"
+    },
+    {
+      "title": "[Aliquip nulla quis pariatur ad elit magna excepteur fugiat fugiat.]",
+      "link": "https://www.justia.com/",
+      "description": "[Ea magna fugiat cupidatat cillum culpa sunt do mollit. Ad est esse eiusmod nisi nisi...]"
+    }
+  ]
+}
