@@ -727,12 +727,12 @@ a {
   color: #000000;
 }
 
-.w-law-events .event.-event-2 .read-more {
+.w-law-events .event.-event-3 .read-more {
   margin: 31px 0 0;
 }
 
-.w-law-events .event.-event-3 .read-more {
-  margin: 79px 0 0;
+.w-law-events .event.-event-7 .read-more {
+  margin: 31px 0 0;
 }
 
 .w-advertisement td {
@@ -796,6 +796,14 @@ a {
 
 .w-advertisement .content.-last {
   padding: 0 30px 50px;
+}
+
+.w-advertisement.-clients-ad .image {
+  padding: 0;
+}
+
+.w-advertisement.-clients-ad .image img {
+  width: 600px;
 }
 
 .w-answers-leaderboard .ranking-list {

@@ -1,6 +1,15 @@
 {
   "clients": {
-    "ad1": {},
+    "ad1": {
+      "link": "https://j.jamesreferrals.com/justia-book",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "client-newsletter",
+        "content": ""
+      },
+      "image": "obtain-referrals-book.png"
+    },
     "ad2": {}
   },
   "jld": {
