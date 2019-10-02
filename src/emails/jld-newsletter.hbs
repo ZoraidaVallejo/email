@@ -18,6 +18,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
+        {{>widget-ad widgetClass="-unicort" widgetConfig=advertisements.jld.unicort}}
+
         {{>tip-month widgetConfig=tipMonth.jld}}
 
         {{>featured-site-month listSites=true}}
@@ -42,7 +44,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>inside-justia}}
 
-        {{>events-we-attended}}
+        {{!-- {{>events-we-attended}} --}}
 
         {{>internet-stats}}
 

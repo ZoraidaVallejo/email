@@ -798,11 +798,11 @@ a {
   padding: 0 30px 50px;
 }
 
-.w-advertisement.-clients-ad .image {
+.w-advertisement.-clients-ad .image, .w-advertisement.-unicort .image {
   padding: 0;
 }
 
-.w-advertisement.-clients-ad .image img {
+.w-advertisement.-clients-ad .image img, .w-advertisement.-unicort .image img {
   width: 600px;
 }
 

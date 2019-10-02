@@ -20,16 +20,15 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "title": "Add a Narrative Bio to Your Free Justia Lawyer Directory Profile",
     "description": [
-      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
-      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+      "We recommend adding a well-written biography to your Justia Directory profile that highlights your practice and shows off your passion for the law. While you may discuss your educational and professional experience, this section is really targeted for weaving a narrative about your entire practice so that a potential client can understand you and your law firm in a way that mere biographical facts cannot communicate."
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn How",
-      "width": 150
+      "link": "<%= editingInterfaceLink %>",
+      "text": "Update Profile Now",
+      "width": 190
     }
   }
 }

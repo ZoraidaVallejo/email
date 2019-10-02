@@ -13,6 +13,16 @@
     "ad2": {}
   },
   "jld": {
+    "unicort": {
+      "link": "https://unicourt.com/pricing/justia",
+      "utm": {
+        "medium": "affiliate",
+        "campaign": "newsletter",
+        "source": "justia",
+        "content": ""
+      },
+      "image": "unicort-pricing.png"
+    },
     "ad1": {
       "background": {
         "image": "ad-gradient.png",
