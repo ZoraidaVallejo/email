@@ -29,7 +29,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v23"
+        "content": "banner-premium-memberships-v24"
       },
       "image": "premium-profile.gif",
       "imageAlt": "Don’t Get Tricked, Just Treat Yourself to Premium Placements",
@@ -68,8 +68,13 @@
         "bgColor": "#001d4b",
         "cssSize": "100% auto"
       },
-      "link": "<%= editingInterfaceLink %>",
-      "utm": {},
+      "link": "https://www.justia.com/marketing/law-firm-websites/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-website-marketing-generic-v22"
+      },
       "image": "boo-tiful-ghost.gif",
       "imageAlt": "Don’t Be Scared To Get a New Boo-tiful Website",
       "contentOrder": [
