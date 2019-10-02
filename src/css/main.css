@@ -806,6 +806,42 @@ a {
   width: 600px;
 }
 
+.w-advertisement.-jld-ad-01 {
+  background-color: #000000;
+}
+
+.w-advertisement.-jld-ad-01 .justia-logo {
+  padding: 40px 30px 0;
+}
+
+.w-advertisement.-jld-ad-01 .image {
+  padding: 0;
+}
+
+.w-advertisement.-jld-ad-01 .image img {
+  width: 600px;
+}
+
+.w-advertisement.-jld-ad-01 .content p {
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 {
+  padding: 22px 35px 16px;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 p {
+  margin: 0;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 p:last-child {
+  color: #fea93f;
+}
+
+.w-advertisement.-jld-ad-01 .content.-last {
+  padding: 0 30px 46px;
+}
+
 .w-answers-leaderboard .ranking-list {
   padding: 0 30px 25px;
 }

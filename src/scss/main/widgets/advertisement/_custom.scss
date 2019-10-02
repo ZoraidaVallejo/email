@@ -16,7 +16,41 @@
     }
   }
 
-  // &.-jld-ad-01 {}
+  &.-jld-ad-01 {
+    background-color: plt('black');
+
+    .justia-logo {
+      padding: 40px $padding 0;
+    }
+
+    .image {
+      padding: 0;
+
+      img {
+        width: $max-width;
+      }
+    }
+
+    .content p {
+      color: plt('white');
+    }
+
+    .content.-idx-1 {
+      padding: 22px 35px 16px;
+
+      p {
+        margin: 0;
+      }
+
+      p:last-child {
+        color: #fea93f;
+      }
+    }
+
+    .content.-last {
+      padding: 0 $padding 46px;
+    }
+  }
 
   // &.-jld-ad-02 {}
 }
