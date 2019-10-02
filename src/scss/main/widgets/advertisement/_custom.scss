@@ -5,7 +5,9 @@
 .w-advertisement {
 
   &.-clients-ad,
-  &.-unicort {
+  &.-unicort,
+  &.-jld-ad-01,
+  &.-jld-ad-02 {
 
     .image {
       padding: 0;
@@ -21,14 +23,6 @@
 
     .justia-logo {
       padding: 40px $padding 0;
-    }
-
-    .image {
-      padding: 0;
-
-      img {
-        width: $max-width;
-      }
     }
 
     .content p {
@@ -52,5 +46,18 @@
     }
   }
 
-  // &.-jld-ad-02 {}
+  &.-jld-ad-02 {
+
+    .content p {
+      color: plt('white');
+    }
+
+    .content.-idx-1 {
+      padding: 5px $padding 20px;
+
+      strong {
+        color: #fdd835;
+      }
+    }
+  }
 }

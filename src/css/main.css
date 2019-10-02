@@ -798,11 +798,11 @@ a {
   padding: 0 30px 50px;
 }
 
-.w-advertisement.-clients-ad .image, .w-advertisement.-unicort .image {
+.w-advertisement.-clients-ad .image, .w-advertisement.-unicort .image, .w-advertisement.-jld-ad-01 .image, .w-advertisement.-jld-ad-02 .image {
   padding: 0;
 }
 
-.w-advertisement.-clients-ad .image img, .w-advertisement.-unicort .image img {
+.w-advertisement.-clients-ad .image img, .w-advertisement.-unicort .image img, .w-advertisement.-jld-ad-01 .image img, .w-advertisement.-jld-ad-02 .image img {
   width: 600px;
 }
 
@@ -812,14 +812,6 @@ a {
 
 .w-advertisement.-jld-ad-01 .justia-logo {
   padding: 40px 30px 0;
-}
-
-.w-advertisement.-jld-ad-01 .image {
-  padding: 0;
-}
-
-.w-advertisement.-jld-ad-01 .image img {
-  width: 600px;
 }
 
 .w-advertisement.-jld-ad-01 .content p {
@@ -840,6 +832,18 @@ a {
 
 .w-advertisement.-jld-ad-01 .content.-last {
   padding: 0 30px 46px;
+}
+
+.w-advertisement.-jld-ad-02 .content p {
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-02 .content.-idx-1 {
+  padding: 5px 30px 20px;
+}
+
+.w-advertisement.-jld-ad-02 .content.-idx-1 strong {
+  color: #fdd835;
 }
 
 .w-answers-leaderboard .ranking-list {
