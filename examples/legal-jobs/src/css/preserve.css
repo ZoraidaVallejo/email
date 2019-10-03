@@ -104,6 +104,9 @@ div[style*='margin: 16px 0;'] {
   .mobile-reset-width {
     width: auto !important;
   }
+  .mobile-reset-max-width {
+    max-width: none !important;
+  }
   .mobile-reset-height {
     height: auto !important;
   }
@@ -251,26 +254,63 @@ div[style*='margin: 16px 0;'] {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
   }
-  .mobile-padding-full {
-    padding: 10px !important;
-  }
-  .mobile-padding-medium-top {
+  .mobile-padding-20-top {
     padding-top: 20px !important;
   }
-  .mobile-padding-medium-bottom {
+  .mobile-padding-20-right {
+    padding-right: 20px !important;
+  }
+  .mobile-padding-20-bottom {
     padding-bottom: 20px !important;
   }
-  .mobile-padding-medium-full {
-    padding: 20px 10px !important;
+  .mobile-padding-20-left {
+    padding-left: 20px !important;
   }
-  .mobile-padding-uneven-top {
-    padding-top: 45px !important;
+  .mobile-padding-20-horizontal-sides {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
   }
-  .mobile-padding-uneven-bottom {
-    padding-bottom: 45px !important;
+  .mobile-padding-20-vertical-sides {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
-  .mobile-padding-uneven-full {
-    padding: 45px 10px !important;
+  .mobile-padding-30-top {
+    padding-top: 30px !important;
+  }
+  .mobile-padding-30-right {
+    padding-right: 30px !important;
+  }
+  .mobile-padding-30-bottom {
+    padding-bottom: 30px !important;
+  }
+  .mobile-padding-30-left {
+    padding-left: 30px !important;
+  }
+  .mobile-padding-30-horizontal-sides {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+  .mobile-padding-30-vertical-sides {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .mobile-padding-50-top {
+    padding-top: 50px !important;
+  }
+  .mobile-padding-50-right {
+    padding-right: 50px !important;
+  }
+  .mobile-padding-50-bottom {
+    padding-bottom: 50px !important;
+  }
+  .mobile-padding-50-left {
+    padding-left: 50px !important;
+  }
+  .mobile-no-margin {
+    margin: 0 !important;
+  }
+  .mobile-no-padding {
+    padding: 0 !important;
   }
   .mobile-no-padding-top {
     padding-top: 0 !important;
