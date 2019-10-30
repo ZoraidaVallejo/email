@@ -13,13 +13,13 @@
  * @returns {Function}
  */
 function listener(element, selector, type, callback) {
-  return function listen(e) {
-    e.delegateTarget = e.target.closest(selector);
+    return function listen(e) {
+        e.delegateTarget = e.target.closest(selector);
 
-    if (e.delegateTarget) {
-      callback.call(element, e);
-    }
-  };
+        if (e.delegateTarget) {
+            callback.call(element, e);
+        }
+    };
 }
 
 /**
@@ -35,15 +35,15 @@ function listener(element, selector, type, callback) {
  * @returns {Object}
  */
 function delegate(element, selector, type, callback, useCapture) {
-  const listenerFn = listener.apply(this, arguments); // eslint-disable-line prefer-rest-params
+    const listenerFn = listener.apply(this, arguments); // eslint-disable-line prefer-rest-params
 
-  element.addEventListener(type, listenerFn, useCapture);
+    element.addEventListener(type, listenerFn, useCapture);
 
-  return {
-    destroy() {
-      element.removeEventListener(type, listenerFn, useCapture);
-    }
-  };
+    return {
+        destroy() {
+            element.removeEventListener(type, listenerFn, useCapture);
+        }
+    };
 }
 
 /**
@@ -53,17 +53,17 @@ function delegate(element, selector, type, callback, useCapture) {
  * @param {string} type
  */
 function triggerEvent(element, type) {
-  if ('createEvent' in document) {
-    // modern browsers, IE9+
-    const e = document.createEvent('HTMLEvents');
-    e.initEvent(type, false, true);
-    element.dispatchEvent(e);
-  } else {
-    // IE 8
-    const e = document.createEventObject();
-    e.eventType = type;
-    element.fireEvent(`on${e.eventType}`, e);
-  }
+    if ('createEvent' in document) {
+        // modern browsers, IE9+
+        const e = document.createEvent('HTMLEvents');
+        e.initEvent(type, false, true);
+        element.dispatchEvent(e);
+    } else {
+        // IE 8
+        const e = document.createEventObject();
+        e.eventType = type;
+        element.fireEvent(`on${e.eventType}`, e);
+    }
 }
 
 /**
@@ -72,11 +72,11 @@ function triggerEvent(element, type) {
  * @returns {string[]} List of all the mockups names.
  */
 function getMockupsNames(select) {
-  var options = Array.from(select).slice(1);
-  return options.reduce(function getFromData(acc, itm) {
-    acc.push(itm.dataset.mockupName);
-    return acc;
-  }, []);
+    var options = Array.from(select).slice(1);
+    return options.reduce(function getFromData(acc, itm) {
+        acc.push(itm.dataset.mockupName);
+        return acc;
+    }, []);
 }
 
 export { delegate, triggerEvent, getMockupsNames };

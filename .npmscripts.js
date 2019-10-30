@@ -1,7 +1,7 @@
 const { serialize, npsSeries, projectPath } = require('./lib/nps');
 const linterTasks = npsSeries('json.format.data', 'sass.lint.strict');
 
-const eslint = 'eslint "**/*.js"';
+const eslint = 'eslint .';
 const prettier = 'prettier --write';
 const stylelint = 'stylelint --syntax scss';
 const sassPatterns = [

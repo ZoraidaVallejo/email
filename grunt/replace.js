@@ -1,16 +1,16 @@
 const allTemplates = [
-  {
-    expand: true,
-    flatten: true,
-    src: ['<%= relativeFolders.dist %>/*.html'],
-    dest: '<%= relativeFolders.dist %>'
-  }
+    {
+        expand: true,
+        flatten: true,
+        src: ['<%= relativeFolders.dist %>/*.html'],
+        dest: '<%= relativeFolders.dist %>'
+    }
 ];
 
 const htmlOptim = {
-  td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
-  table: ['width', 'background-color'],
-  img: ['width', 'height']
+    td: ['width', 'height', 'text-align', 'vertical-align', 'background-color'],
+    table: ['width', 'background-color'],
+    img: ['width', 'height']
 };
 
 // Regex to match styles applied to specific tags
@@ -21,140 +21,140 @@ const rgxOptim = '(<{element}[^>]+?(?:"|\\s|;))({style}[ ]*:[ ]*[^;]+;)';
 
 // Set configuration to remove duplicated styles
 const styleToRemove = Object.keys(htmlOptim)
-  .map(function eachHtmlElment(element) {
-    return htmlOptim[element].map(function setConfig(cssStyle) {
-      var htmlRegex = rgxOptim.replace('{element}', element).replace('{style}', cssStyle);
+    .map(function eachHtmlElment(element) {
+        return htmlOptim[element].map(function setConfig(cssStyle) {
+            var htmlRegex = rgxOptim.replace('{element}', element).replace('{style}', cssStyle);
 
-      return {
-        match: new RegExp(htmlRegex, 'g'),
-        replacement: '$1'
-      };
-    });
-  })
-  .reduce(function flatArray(a, b) {
-    a.push(...b);
-    return a;
-  }, []);
+            return {
+                match: new RegExp(htmlRegex, 'g'),
+                replacement: '$1'
+            };
+        });
+    })
+    .reduce(function flatArray(a, b) {
+        a.push(...b);
+        return a;
+    }, []);
 
 module.exports = function gruntReplace(grunt, { folders }) {
-  const imageRegexes = {
-    devel: {
-      // Matches <img * src="../src/images, <img * src='../src/images', <v * src='../src/images or <td * background='../src/images
-      tags: new RegExp(`(<(?:img|v|td)[^>]+?(?:src|background)=["'])(../${folders.srcImg})`, 'gi'),
-      // Matches url('../src/images') or url(../src/images) and even url("../src/images")
-      css: new RegExp(`(url.[^)])(../${folders.srcImg})`, 'gi')
-    },
-    live: {
-      tags: new RegExp(`(<(?:img|v|td)[^>]+?(?:src|background)=["'])(../${folders.distImg})`, 'gi'),
-      css: new RegExp(`(url.[^)])(../${folders.distImg})`, 'gi')
-    }
-  };
+    const imageRegexes = {
+        devel: {
+            // Matches <img * src="../src/images, <img * src='../src/images', <v * src='../src/images or <td * background='../src/images
+            tags: new RegExp(`(<(?:img|v|td)[^>]+?(?:src|background)=["'])(../${folders.srcImg})`, 'gi'),
+            // Matches url('../src/images') or url(../src/images) and even url("../src/images")
+            css: new RegExp(`(url.[^)])(../${folders.srcImg})`, 'gi')
+        },
+        live: {
+            tags: new RegExp(`(<(?:img|v|td)[^>]+?(?:src|background)=["'])(../${folders.distImg})`, 'gi'),
+            css: new RegExp(`(url.[^)])(../${folders.distImg})`, 'gi')
+        }
+    };
 
-  return {
-    srcImages: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: imageRegexes.devel.tags,
-            replacement: '$1../<%= folders.distImg %>'
-          },
-          {
-            match: imageRegexes.devel.css,
-            replacement: '$1../<%= folders.distImg %>'
-          }
-        ]
-      },
-      files: allTemplates
-    },
+    return {
+        srcImages: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: imageRegexes.devel.tags,
+                        replacement: '$1../<%= folders.distImg %>'
+                    },
+                    {
+                        match: imageRegexes.devel.css,
+                        replacement: '$1../<%= folders.distImg %>'
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
-    // Replace width="176 !important" in table tag
-    importantStyle: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /(<(?:img|table|td)[^>]+?(?:width|height)=["']+?d+(?:%|px|))( !important)/gi,
-            replacement: '$1'
-          }
-        ]
-      },
-      files: allTemplates
-    },
+        // Replace width="176 !important" in table tag
+        importantStyle: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: /(<(?:img|table|td)[^>]+?(?:width|height)=["']+?d+(?:%|px|))( !important)/gi,
+                        replacement: '$1'
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
-    classesToData: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: 'class=',
-            replacement: 'data-class='
-          }
-        ]
-      },
-      files: allTemplates
-    },
+        classesToData: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: 'class=',
+                        replacement: 'data-class='
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
-    removeDupStyles: {
-      options: {
-        usePrefix: false,
-        patterns: styleToRemove,
-        preserveOrder: true
-      },
-      files: allTemplates
-    },
+        removeDupStyles: {
+            options: {
+                usePrefix: false,
+                patterns: styleToRemove,
+                preserveOrder: true
+            },
+            files: allTemplates
+        },
 
-    removeClasses: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
-            replacement: ''
-          }
-        ]
-      },
-      files: allTemplates
-    },
+        removeClasses: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: /class=["']?(?:.(?!["']?\s+(?:\S+)=|[>"']))+.["']?/g,
+                        replacement: ''
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
-    fixResponsive: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            match: /\s(?:data-id)=/g,
-            replacement: ' id='
-          },
-          {
-            match: /\s(?:responsive|id)=/g,
-            replacement: ' class='
-          },
-          {
-            match: /\s(?:responsive|id)=""/g,
-            replacement: ''
-          }
-        ]
-      },
-      files: allTemplates
-    },
+        fixResponsive: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        match: /\s(?:data-id)=/g,
+                        replacement: ' id='
+                    },
+                    {
+                        match: /\s(?:responsive|id)=/g,
+                        replacement: ' class='
+                    },
+                    {
+                        match: /\s(?:responsive|id)=""/g,
+                        replacement: ''
+                    }
+                ]
+            },
+            files: allTemplates
+        },
 
-    liveImages: {
-      options: {
-        usePrefix: false,
-        patterns: [
-          {
-            // Use original dist folder path.
-            match: imageRegexes.live.tags,
-            replacement: '$1<%= liveImgPath %>'
-          },
-          {
-            // Use original dist folder path.
-            match: imageRegexes.live.css,
-            replacement: '$1<%= liveImgPath %>'
-          }
-        ]
-      },
-      files: allTemplates
-    }
-  };
+        liveImages: {
+            options: {
+                usePrefix: false,
+                patterns: [
+                    {
+                        // Use original dist folder path.
+                        match: imageRegexes.live.tags,
+                        replacement: '$1<%= liveImgPath %>'
+                    },
+                    {
+                        // Use original dist folder path.
+                        match: imageRegexes.live.css,
+                        replacement: '$1<%= liveImgPath %>'
+                    }
+                ]
+            },
+            files: allTemplates
+        }
+    };
 };
