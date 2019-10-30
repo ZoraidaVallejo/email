@@ -2,6 +2,10 @@
 {{! F E A T U R E D   S I T E   O F   T H E   M O N T H                                                               }}
 {{! ================================================================================================================= }}
 
+{{assign "setDescription" (and featuredSiteMonth.description addDescription)}}
+
+{{! ================================================================================================================= }}
+
 {{!
 // TODO: Add anotations.
 }}
@@ -28,7 +32,7 @@
       </td>
     </tr>
     <tr class="featured-site">
-      <td class="devices" responsive="mobile-padding-horizontal-sides">
+      <td class="devices{{#unless @root.setDescription}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
         <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
           {{>img
             src=featuredSiteMonth.sites.0.screenshots
@@ -39,6 +43,9 @@
     </tr>
   {{/if}}
 
+  {{!
+  // TODO: Add checks for description and assign CSS classes accordingly.
+  }}
   {{#if listSites}}
     <tr>
       <td class="sites-list-description" responsive="mobile-padding-horizontal-sides">
@@ -70,6 +77,21 @@
             </tr>
           {{/table}}
         {{/forEach}}
+      </td>
+    </tr>
+  {{/if}}
+
+
+  {{#if @root.setDescription}}
+
+    {{!--
+    // TODO: Maybe move title and description to a component.
+    --}}
+    <tr>
+      <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+        {{#each featuredSiteMonth.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
       </td>
     </tr>
   {{/if}}

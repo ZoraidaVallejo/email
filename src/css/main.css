@@ -615,12 +615,16 @@ a {
 }
 
 .w-featured-site-month .featured-site .devices {
-  padding: 0 30px 50px;
+  padding: 0 30px 30px;
   text-align: center;
 }
 
 .w-featured-site-month .featured-site .devices img {
   width: 540px;
+}
+
+.w-featured-site-month .featured-site .devices.-last {
+  padding: 0 30px 50px;
 }
 
 .w-featured-site-month .sites-list-description {
