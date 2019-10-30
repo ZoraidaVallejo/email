@@ -9,7 +9,7 @@ const baseConfig = require('./common/data/config');
 baseConfig.relativeFolders = {};
 
 Object.keys(baseConfig.folders).forEach(function eachFolder(folder) {
-  baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
+    baseConfig.relativeFolders[folder] = path.join(process.env.PROJECT_BASE_PATH, baseConfig.folders[folder]);
 });
 
 // L O A D   C O N V E R S I O N   C O N F I G
@@ -18,22 +18,22 @@ const projectConfigPath = './'.concat(path.join(baseConfig.relativeFolders.src, 
 process.env.CONVERSION_CONFIG = fs.existsSync(projectConfigPath);
 
 // eslint-disable-next-line global-require, import/no-dynamic-require
-const projectConfig = process.env.CONVERSION_CONFIG == 'true' ? require(projectConfigPath) : {};
+const projectConfig = process.env.CONVERSION_CONFIG === 'true' ? require(projectConfigPath) : {};
 
 // M E R G E   O B J E C T S
 // -------------------------
-const data = Object.assign({}, baseConfig, projectConfig);
+const data = { ...baseConfig, ...projectConfig };
 
 // A D D   M O R E   C O N F I G U R A T I O N
 // -------------------------------------------
 if (data.releaseDate) {
-  // Validate given release date.
-  const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
+    // Validate given release date.
+    const conversionRelaseDate = moment(data.releaseDate).isValid() ? moment(data.releaseDate) : moment();
 
-  // Set date formats.
-  Object.keys(data.dateFormat).forEach(function eachName(name) {
-    data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
-  });
+    // Set date formats.
+    Object.keys(data.dateFormat).forEach(function eachName(name) {
+        data.dateFormat[name] = conversionRelaseDate.format(data.dateFormat[name]);
+    });
 }
 
 // Public URL.
@@ -45,14 +45,14 @@ data.remoteImgPath = path.join('/mnt/files/emails/images', data.remoteImages);
 // I N I T I A L I Z E   G R U N T
 // -------------------------------
 module.exports = function initGrunt(grunt) {
-  loadGruntConfig(grunt, {
-    data,
+    loadGruntConfig(grunt, {
+        data,
 
-    // Load only needed packages when a task is called.
-    jitGrunt: {
-      staticMappings: {
-        juice: 'grunt-juice-email'
-      }
-    }
-  });
+        // Load only needed packages when a task is called.
+        jitGrunt: {
+            staticMappings: {
+                juice: 'grunt-juice-email'
+            }
+        }
+    });
 };
