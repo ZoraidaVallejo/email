@@ -21,14 +21,14 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "title": "Make sure your profile is complete!",
     "description": [
-      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
-      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+      "Millions of users visit the Justia and Legal Information Institute (LII) Lawyer Directories each year to find legal representation. Lawyers who have completed their profiles can benefit directly from this high volume of visitors.",
+      "Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads."
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://www.justia.com/",
+      "link": "<%= editingInterfaceLink %>",
       "text": "Learn How",
       "width": 150
     }
