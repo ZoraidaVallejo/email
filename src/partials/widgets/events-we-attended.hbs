@@ -12,5 +12,37 @@
     icon=eventsWeAttended.widget.icon
   }}
 
-  {{>widget-columns-with-image widgetConfig=eventsWeAttended.columns isLast=true}}
+  {{!
+  // TODO: Add `singleColumn` to the config when `widget-columns-with-image` is used.
+  }}
+
+  {{#if eventsWeAttended.singleColumn}}
+
+    {{#each eventsWeAttended.columns}}
+
+      {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt}}
+
+      {{!--
+      // TODO: Maybe move title and description to a component.
+      --}}
+      <tr>
+        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+          <h3 class="content-title">
+            {{{this.blockTitle}}}
+          </h3>
+          {{#if this.blockSubtitle}}
+            <p class="content-subtitle">
+              {{{this.blockSubtitle}}}
+            </p>
+          {{/if}}
+          {{#each this.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </td>
+      </tr>
+    {{/each}}
+
+  {{else}}
+    {{>widget-columns-with-image widgetConfig=eventsWeAttended.columns isLast=true}}
+  {{/if}}
 {{/table}}

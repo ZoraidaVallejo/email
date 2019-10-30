@@ -3,29 +3,18 @@
     "icon": "events-we-attended",
     "header": "Events We Attended"
   },
+  "singleColumn": true,
   "columns": [
     {
       "image": {
         "src": "events-attended-01.jpg",
-        "alt": "[Do irure do commodo et veniam velit.]"
+        "alt": "Coahuila Engineering Week"
       },
-      "blockTitle": "[Do irure do commodo et veniam velit.]",
+      "blockTitle": "Coahuila Engineering Week",
       "description": [
-        "[Aliquip nisi amet et aliqua quis reprehenderit veniam proident eiusmod.]",
-        "[Commodo cillum nulla laborum velit ad proident excepteur officia irure.]"
+        "Geovanny of our engineering team presented at the State University of Coahuila for Engineering Week, on the topic of Web Scraping. He covered how we extract data from different sources and parse it for our Justia resources."
       ],
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "image": {
-        "src": "events-attended-01.jpg",
-        "alt": "[Culpa mollit aliquip voluptate Lorem non aliquip.]"
-      },
-      "blockTitle": "[Culpa mollit aliquip voluptate Lorem non aliquip.]",
-      "description": [
-        "[Voluptate culpa eu labore velit adipisicing voluptate. Amet ullamco ex in voluptate ex est. Occaecat sint proident proident ad sunt.]"
-      ],
-      "readMore": "https://www.justia.com/"
+      "readMore": ""
     }
   ]
 }

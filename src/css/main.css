@@ -556,6 +556,10 @@ a {
   color: #000000;
 }
 
+.w-events-we-attended .content-title {
+  color: #06357a;
+}
+
 .widget.w-welcome {
   border-bottom: 0;
   background-color: #edf2f7;
