@@ -849,6 +849,56 @@ a {
   font: 700 36px/36px Arial, sans-serif;
 }
 
+.w-featured-lawyer .lawyer-info {
+  padding: 0 30px 23px;
+  text-align: center;
+}
+
+.w-featured-lawyer .lawyer-info a {
+  color: #000000;
+}
+
+.w-featured-lawyer .lawyer-info .images-group {
+  width: 292px;
+  border-bottom: 1px solid #f4f4f4;
+  margin: 0 auto;
+}
+
+.w-featured-lawyer .lawyer-info .images-group .wrapper {
+  width: 50%;
+}
+
+.w-featured-lawyer .lawyer-info .images-group .wrapper.-photo {
+  padding: 0 10px 15px 0;
+  text-align: left;
+}
+
+.w-featured-lawyer .lawyer-info .images-group .wrapper.-badge {
+  padding: 0 0 15px 10px;
+  text-align: right;
+}
+
+.w-featured-lawyer .lawyer-info .photo {
+  width: 125px;
+}
+
+.w-featured-lawyer .lawyer-info .name {
+  font: 20px/1.1 Arial, sans-serif;
+  margin: 12px 0 6px;
+}
+
+.w-featured-lawyer .lawyer-info .location {
+  font: 12px/12px Arial, sans-serif;
+}
+
+.w-featured-lawyer .widget-description p {
+  margin: 0 0 24px;
+}
+
+.w-featured-lawyer .widget-description p:last-child {
+  margin: 0;
+}
+
 .w-annotator .annotator-info {
   padding: 0 30px 20px;
   text-align: center;
