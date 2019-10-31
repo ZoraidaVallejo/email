@@ -3,16 +3,16 @@
     "icon": "featured-lawyer",
     "header": "Featured Lawyer",
     "type": "Justia Lawyer Rating and Reviews",
-    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-10&utm_content=text-justia-lawyer-rating-and-reviews-featured-title-1"
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-11&utm_content=text-justia-lawyer-rating-and-reviews-featured-title-1"
   },
   "featured": {
-    "id": "0000000",
+    "id": "775058",
     "rank": 1,
-    "name": "[Nostrud officia duis]",
-    "location": "[Anytown, CA]",
-    "nameLink": "https://lawyers.justia.com",
-    "photoLink": "https://lawyers.justia.com"
-  },
+    "name": "Ronald Miller",
+    "location": "Baltimore, MD",
+    "nameLink": "https://lawyers.justia.com/lawyer/775058/lawyer-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-11&utm_content=name-justia-lawyer-rating-and-reviews-featured-1",
+    "photoLink": "https://lawyers.justia.com/lawyer/775058?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-11&utm_content=image-justia-lawyer-rating-and-reviews-featured-1"
+} ,
   "description": [
     "Justia Lawyer Rating and Reviews is a system designed for lawyers to provide valuable insight from peers and colleagues personally familiar with the lawyer’s work.",
     "Lawyers who have received reviews will have a badge on their profile showing their Justia Lawyer Rating, a numerical representation of the reviews they have received. Our research shows that the Rating Badge is the most used search filter in the Justia Lawyer Directory.",
@@ -20,7 +20,7 @@
   ],
   "button": {
     "style": "light-blue-ghost",
-    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-10&utm_content=button-justia-lawyer-rating-and-reviews-featured-1",
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-11&utm_content=button-justia-lawyer-rating-and-reviews-featured-read-more-1",
     "text": "Read More"
   }
 }
