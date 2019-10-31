@@ -802,12 +802,20 @@ a {
   padding: 0 30px 50px;
 }
 
-.w-advertisement.-book .image {
+.w-advertisement.-book .image, .w-advertisement.-jld-ad .image {
   padding: 0;
 }
 
-.w-advertisement.-book .image img {
+.w-advertisement.-book .image img, .w-advertisement.-jld-ad .image img {
   width: 600px;
+}
+
+.w-advertisement.-jld-ad .content p {
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad .content.-idx-1 {
+  padding: 6px 30px 29px;
 }
 
 .w-answers-leaderboard .ranking-list {

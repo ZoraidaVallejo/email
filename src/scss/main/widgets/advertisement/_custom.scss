@@ -4,7 +4,8 @@
 
 .w-advertisement {
 
-  &.-book {
+  &.-book,
+  &.-jld-ad {
 
     .image {
       padding: 0;
@@ -15,9 +16,17 @@
     }
   }
 
-  // &.-client-ad-01 {}
+  &.-jld-ad {
 
-  // &.-jld-ad-01 {}
+    .content {
 
-  // &.-jld-ad-02 {}
+      p {
+        color: plt('white');
+      }
+
+      &.-idx-1 {
+        padding: 6px $padding 29px;
+      }
+    }
+  }
 }
