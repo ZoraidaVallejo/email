@@ -4,6 +4,16 @@
     "ad2": {}
   },
   "jld": {
+    "book": {
+      "link": "https://j.jamesreferrals.com/justia-book",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "client-newsletter",
+        "content": ""
+      },
+      "image": "obtain-referrals-book.png"
+    },
     "ad1": {
       "background": {
         "image": "ad-gradient.png",

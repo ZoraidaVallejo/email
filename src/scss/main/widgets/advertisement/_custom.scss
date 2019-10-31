@@ -2,11 +2,22 @@
 // A D V E R T I S E M E N T   -   C U S T O M   S T Y L E S
 // ----------------------------------------------------------------------------------------------------------
 
-// .w-advertisement {
+.w-advertisement {
 
-//   // &.-client-ad-01 {}
+  &.-book {
 
-//   // &.-jld-ad-01 {}
+    .image {
+      padding: 0;
 
-//   // &.-jld-ad-02 {}
-// }
+      img {
+        width: $max-width;
+      }
+    }
+  }
+
+  // &.-client-ad-01 {}
+
+  // &.-jld-ad-01 {}
+
+  // &.-jld-ad-02 {}
+}

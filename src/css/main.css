@@ -802,6 +802,14 @@ a {
   padding: 0 30px 50px;
 }
 
+.w-advertisement.-book .image {
+  padding: 0;
+}
+
+.w-advertisement.-book .image img {
+  width: 600px;
+}
+
 .w-answers-leaderboard .ranking-list {
   padding: 0 30px 25px;
 }
