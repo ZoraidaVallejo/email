@@ -27,21 +27,20 @@ $use-special-font: true !default;
 $accent-color: plt('bright-blue') !default;
 
 $mail-color-palette: (
-  'shamrock': #3fd4ad,
-  'sirocco': #7b7d7d,
-  'black-haze': #e7e8e8,
-  'green': #008000,
-  'curious-blue': #3498db,
-  'flush-orange': #ff7f00,
-  'purple-heart': #8635c2,
-  'pelorous': #35b9ba,
-  'shuttle-gray': #5f646e,
-  'picton-blue': #398ff2,
-  'cape-cod': #3d4041,
-  'jade': #01b463,
-  // Redesign
-  'catskill-white': #edf2f7,
-  'fruit-salad': #4dab4f
+    'shamrock': #3fd4ad,
+    'sirocco': #7b7d7d,
+    'black-haze': #e7e8e8,
+    'green': #008000,
+    'curious-blue': #3498db,
+    'flush-orange': #ff7f00,
+    'purple-heart': #8635c2,
+    'pelorous': #35b9ba,
+    'shuttle-gray': #5f646e,
+    'picton-blue': #398ff2,
+    'cape-cod': #3d4041,
+    'jade': #01b463,
+    'catskill-white': #edf2f7,
+    'fruit-salad': #4dab4f
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);

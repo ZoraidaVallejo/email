@@ -3,127 +3,126 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $settings: set('footer-styles', (
-  'basic': (
-    'font-size': 14px,
-    'color': plt('black'),
-    'background-color': plt('white'),
-    'head': (
-      'background-color': plt('justia-blue'),
-      'border-top': plt('justia-blue'),
-      'border-bottom': plt('justia-blue')
+    'basic': (
+        'font-size': 14px,
+        'color': plt('black'),
+        'background-color': plt('white'),
+        'head': (
+            'background-color': plt('justia-blue'),
+            'border-top': plt('justia-blue'),
+            'border-bottom': plt('justia-blue')
+        ),
+        'address': (
+            'font-weight': 700
+        ),
+        'nav': (
+            'color': plt('white')
+        )
     ),
-    'address': (
-      'font-weight': 700
+    'light-bright': (
+        'font-size': 14px,
+        'color': plt('black'),
+        'background-color': plt('white'),
+        'head': (
+            'background-color': plt('white'),
+            'border-top': plt('white'),
+            'border-bottom': plt('bright-blue')
+        ),
+        'address': (
+            'font-weight': 400
+        ),
+        'nav': (
+            'color': plt('bright-blue')
+        )
     ),
-    'nav': (
-      'color': plt('white')
+    'light-blue': (
+        'font-size': 14px,
+        'color': plt('black'),
+        'background-color': plt('white'),
+        'head': (
+            'background-color': plt('white'),
+            'border-top': plt('justia-blue'),
+            'border-bottom': plt('justia-blue')
+        ),
+        'address': (
+            'font-weight': 700
+        ),
+        'nav': (
+            'color': plt('justia-blue')
+        )
     )
-  ),
-  'light-bright': (
-    'font-size': 14px,
-    'color': plt('black'),
-    'background-color': plt('white'),
-    'head': (
-      'background-color': plt('white'),
-      'border-top': plt('white'),
-      'border-bottom': plt('bright-blue')
-    ),
-    'address': (
-      'font-weight': 400
-    ),
-    'nav': (
-      'color': plt('bright-blue')
-    )
-  ),
-  'light-blue': (
-    'font-size': 14px,
-    'color': plt('black'),
-    'background-color': plt('white'),
-    'head': (
-      'background-color': plt('white'),
-      'border-top': plt('justia-blue'),
-      'border-bottom': plt('justia-blue')
-    ),
-    'address': (
-      'font-weight': 700
-    ),
-    'nav': (
-      'color': plt('justia-blue')
-    )
-  )
 ));
 
 $settings: set('mail-footer', (
-  // Width of the scaled logos.
-  'logos': (
-    'social-below': (
-      'justia': 111px,
-      'insights': 190px,
-      'lawyer-profile-essentials': 190px,
-      'legal-jobs': 190px,
-      'lawyer-directory': 190px
-    ),
-    'social-on-top': (
-      'justia': 126px,
-      'insights': 235px,
-      'lawyer-profile-essentials': 300px,
-      'legal-jobs': 277px,
-      'lawyer-directory': 300px
+    'logos': (
+        'social-below': (
+            'justia': 111px,
+            'insights': 190px,
+            'lawyer-profile-essentials': 190px,
+            'legal-jobs': 190px,
+            'lawyer-directory': 190px
+        ),
+        'social-on-top': (
+            'justia': 126px,
+            'insights': 235px,
+            'lawyer-profile-essentials': 300px,
+            'legal-jobs': 277px,
+            'lawyer-directory': 300px
+        )
     )
-  )
 ));
 
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer {
-  clear: both;
+    clear: both;
 
-  a {
-    text-decoration: none;
-  }
-
-  img {
-    display: block;
-    max-width: none;
-  }
-
-  .footer-head {
-    padding: 14px $padding;
-  }
-
-  .fhead-wrapper {
-    width: 100%;
-  }
-
-  .fhead-side {
-    vertical-align: middle;
-
-    &.-right {
-      text-align: right;
+    a {
+        text-decoration: none;
     }
-  }
 
-  .footer-social {
-    overflow: hidden;
-  }
-
-  .footer-nav {
-
-    .pipe {
-      margin: 0 10px;
+    img {
+        display: block;
+        max-width: none;
     }
-  }
 
-  .footer-address {
-    vertical-align: top;
-  }
-
-  // F O O T E R   S T Y L E S
-  // -------------------------
-  @each $style-name, $scheme in get('footer-styles') {
-
-    &.-#{$style-name}-style {
-      @include set-footer-style($scheme);
+    .footer-head {
+        padding: 14px $padding;
     }
-  }
+
+    .fhead-wrapper {
+        width: 100%;
+    }
+
+    .fhead-side {
+        vertical-align: middle;
+
+        &.-right {
+            text-align: right;
+        }
+    }
+
+    .footer-social {
+        overflow: hidden;
+    }
+
+    .footer-nav {
+
+        .pipe {
+            margin: 0 10px;
+        }
+    }
+
+    .footer-address {
+        vertical-align: top;
+    }
+
+    // F O O T E R   S T Y L E S
+    // -------------------------
+    @each $style-name, $scheme in get('footer-styles') {
+
+        &.-#{$style-name}-style {
+            @include set-footer-style($scheme);
+        }
+    }
 }

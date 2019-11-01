@@ -4,45 +4,45 @@
 
 .main-footer.-social-on-top {
 
-  .fhead-side {
+    .fhead-side {
 
-    &.-left {
-      width: 65%;
+        &.-left {
+            width: 65%;
+        }
+
+        &.-right {
+            width: 35%;
+        }
     }
 
-    &.-right {
-      width: 35%;
+    .footer-social {
+
+        .social-icons {
+            text-align: right;
+        }
     }
-  }
 
-  .footer-social {
-
-    .social-icons {
-      text-align: right;
+    .footer-disclaimer {
+        padding: 40px $padding 20px;
     }
-  }
 
-  .footer-disclaimer {
-    padding: 40px $padding 20px;
-  }
-
-  .footer-address {
-    padding: 0 $padding 10px;
-  }
-
-  .footer-nav {
-    padding: 0 $padding floor($padding * 3);
-    vertical-align: top;
-  }
-
-  // L O G O   S I Z E S
-  // -------------------
-  @each $logo-name, $width in get('mail-footer.logos.social-on-top') {
-
-    &.-#{$logo-name}-logo .logo-img {
-      $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
-
-      @include size($width, $_scaled-height);
+    .footer-address {
+        padding: 0 $padding 10px;
     }
-  }
+
+    .footer-nav {
+        padding: 0 $padding floor($padding * 3);
+        vertical-align: top;
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-footer.logos.social-on-top') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
+
+            @include size($width, $_scaled-height);
+        }
+    }
 }

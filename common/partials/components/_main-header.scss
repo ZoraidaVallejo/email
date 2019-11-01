@@ -3,126 +3,125 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $logos-dimensions: (
-  'justia': (
-    'dims': 879px 231px
-  ),
-  'insights': (
-    'dims': 1120px 196px
-  ),
-  'lawyer-profile-essentials': (
-    'dims': 2248px 158px
-  ),
-  'legal-jobs': (
-    'dims': 1328px 158px
-  ),
-  'lawyer-directory': (
-    'dims': 1762px 158px
-  ),
-  'marketing': (
-    'dims': 1240px 196px
-  )
+    'justia': (
+        'dims': 879px 231px
+    ),
+    'insights': (
+        'dims': 1120px 196px
+    ),
+    'lawyer-profile-essentials': (
+        'dims': 2248px 158px
+    ),
+    'legal-jobs': (
+        'dims': 1328px 158px
+    ),
+    'lawyer-directory': (
+        'dims': 1762px 158px
+    ),
+    'marketing': (
+        'dims': 1240px 196px
+    )
 );
 
 $global-mail-logos: ();
 
 @each $name, $config in $logos-dimensions {
-  $global-mail-logos: map-extend($global-mail-logos, (
-    ($name): (
-      'width': nth(map-get($config, 'dims'), 1),
-      'height': nth(map-get($config, 'dims'), 2),
-      'dims': map-get($config, 'dims')
-    )
-  ));
+    $global-mail-logos: map-extend($global-mail-logos, (
+        ($name): (
+            'width': nth(map-get($config, 'dims'), 1),
+            'height': nth(map-get($config, 'dims'), 2),
+            'dims': map-get($config, 'dims')
+        )
+    ));
 }
 
 $settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
-  'background': plt('white'),
-  // Width of the scaled logos.
-  'logos': (
-    'logo-only': (
-      'justia': 135px,
-      'insights': 267px,
-      'lawyer-profile-essentials': 470px,
-      'legal-jobs': 308px,
-      'lawyer-directory': 500px,
-      'marketing': 297px
-    ),
-    'with-date': (
-      'justia': 135px,
-      'insights': 267px,
-      'lawyer-profile-essentials': 270px,
-      'legal-jobs': 277px,
-      'lawyer-directory': 300px,
-      'marketing': 297px
+    'background': plt('white'),
+    'logos': (
+        'logo-only': (
+            'justia': 135px,
+            'insights': 267px,
+            'lawyer-profile-essentials': 470px,
+            'legal-jobs': 308px,
+            'lawyer-directory': 500px,
+            'marketing': 297px
+        ),
+        'with-date': (
+            'justia': 135px,
+            'insights': 267px,
+            'lawyer-profile-essentials': 270px,
+            'legal-jobs': 277px,
+            'lawyer-directory': 300px,
+            'marketing': 297px
+        )
     )
-  )
 ));
 
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header {
-  background-color: get('mail-header.background');
+    background-color: get('mail-header.background');
 
-  .logo-img {
-    display: block;
-    max-width: 87%;
-    margin: 0;
-  }
+    .logo-img {
+        display: block;
+        max-width: 87%;
+        margin: 0;
+    }
 }
 
 .main-header.-logo-only {
 
-  .wrapper {
-    width: 100%;
-    padding: 20px $padding;
-    text-align: center;
-  }
-
-  // L O G O   S I Z E S
-  // -------------------
-  @each $logo-name, $width in get('mail-header.logos.logo-only') {
-
-    &.-#{$logo-name}-logo .logo-img {
-      width: $width;
+    .wrapper {
+        width: 100%;
+        padding: 20px $padding;
+        text-align: center;
     }
-  }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.logo-only') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
 }
 
 .main-header.-with-date {
 
-  .wrapper {
-    padding: $padding;
-    vertical-align: middle;
+    .wrapper {
+        padding: $padding;
+        vertical-align: middle;
 
-    > table {
-      table-layout: fixed;
+        > table {
+            table-layout: fixed;
+        }
     }
-  }
 
-  .logo {
-    width: 60%;
-  }
-
-  .date {
-    width: 40%;
-    text-align: right;
-
-    span {
-      display: block;
-      color: plt('justia-blue');
-
-      @include mail-font(22px, 1.25);
+    .logo {
+        width: 60%;
     }
-  }
 
-  // L O G O   S I Z E S
-  // -------------------
-  @each $logo-name, $width in get('mail-header.logos.with-date') {
+    .date {
+        width: 40%;
+        text-align: right;
 
-    &.-#{$logo-name}-logo .logo-img {
-      width: $width;
+        span {
+            display: block;
+            color: plt('justia-blue');
+
+            @include mail-font(22px, 1.25);
+        }
     }
-  }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
 }
