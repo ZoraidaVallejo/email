@@ -25,11 +25,15 @@
         }
 
         .devices {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding $padding;
             text-align: center;
 
             img {
                 width: $inner-max-width;
+            }
+
+            &.-last {
+                padding: 0 $padding $widget-gap;
             }
         }
     }

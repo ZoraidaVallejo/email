@@ -10,7 +10,11 @@
     }
 
     .sites-list {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding $padding;
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
 
         .devices {
             width: 230px;
