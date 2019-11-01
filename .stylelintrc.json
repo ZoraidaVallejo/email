@@ -1,27 +1,7 @@
 {
-  "extends": [
-    "stylelint-config-idiomatic-sass"
-  ],
+  "extends": ["@justia/stylelint-config"],
   "rules": {
-    "max-nesting-depth": 5,
-    "property-no-unknown": [
-      true,
-      {
-        "ignoreProperties": [
-          "mso-table-lspace",
-          "mso-table-rspace",
-          "autosize",
-          "header",
-          "odd-header-name",
-          "even-header-name",
-          "footer",
-          "odd-footer-name",
-          "even-footer-name",
-          "background-image-resize",
-          "background-image-resolution"
-        ]
-      }
-    ],
-    "selector-max-compound-selectors": 5
+    "selector-max-compound-selectors": 5,
+    "order/order": null
   }
 }

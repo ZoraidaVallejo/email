@@ -55,6 +55,7 @@
   "devDependencies": {
     "@justia/eslint-config": "^1.3.1",
     "@justia/maple-sass": "^3.5.1",
+    "@justia/stylelint-config": "^1.0.7",
     "babel-eslint": "^10.0.3",
     "ejs": "^2.6.2",
     "eslint": "^6.6.0",
@@ -83,8 +84,7 @@
     "grunt-sftp-deploy": "0.2.5",
     "jit-grunt": "^0.10.0",
     "prettier": "^1.18.2",
-    "stylelint": "^9.10.1",
-    "stylelint-config-idiomatic-sass": "^1.0.0"
+    "stylelint": "^10.1.0"
   },
   "engines": {
     "node": ">=8.10",
