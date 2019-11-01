@@ -4,24 +4,24 @@
 
 @media only screen and (max-width: $responsive-max-width) {
 
-  // C U S T O M
-  // -----------
-  .main-footer {
+    // C U S T O M
+    // -----------
+    .main-footer {
 
-    .footer-logo {
-      padding-bottom: 20px !important;
-      border-bottom: 1px solid plt('bright-blue');
+        .footer-logo {
+            padding-bottom: 20px !important;
+            border-bottom: 1px solid plt('bright-blue');
+        }
+
+        .footer-social {
+            padding-top: 20px !important;
+        }
     }
 
-    .footer-social {
-      padding-top: 20px !important;
+    .responsive-button {
+        width: auto !important;
+        padding: 6px 20px !important;
+        line-height: 1.2 !important;
     }
-  }
-
-  .responsive-button {
-    width: auto !important;
-    padding: 6px 20px !important;
-    line-height: 1.2 !important;
-  }
 }
 

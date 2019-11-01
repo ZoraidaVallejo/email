@@ -7,15 +7,15 @@ $use-breakpoint: false;
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-  'image-dimensions',
-  'maple-sass',
-  'mail-settings',
-  'mail-mixins';
+    'image-dimensions',
+    'maple-sass',
+    'mail-settings',
+    'mail-mixins';
 
 @import
-  'mail-resets',
-  'mail-special-font',
-  'mail-responsive';
+    'mail-resets',
+    'mail-special-font',
+    'mail-responsive';
 
 @import
-  'preserve/custom';
+    'preserve/custom';

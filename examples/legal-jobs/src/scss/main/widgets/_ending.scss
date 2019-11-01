@@ -3,17 +3,17 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-ending {
-  background-color: plt('white');
+    background-color: plt('white');
 
-  .ending-text {
-    padding: 25px $padding;
+    .ending-text {
+        padding: 25px $padding;
 
-    a {
-      color: plt('black');
+        a {
+            color: plt('black');
+        }
+
+        p {
+            @include mail-font(14px, 1.7);
+        }
     }
-
-    p {
-      @include mail-font(14px, 1.7);
-    }
-  }
 }

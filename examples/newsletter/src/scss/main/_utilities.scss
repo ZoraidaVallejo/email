@@ -3,46 +3,46 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .full-size {
-  @include size(100%);
+    @include size(100%);
 }
 
 .align {
 
-  &-center {
-    text-align: center;
-  }
+    &-center {
+        text-align: center;
+    }
 
-  &-right {
-    text-align: right;
-  }
+    &-right {
+        text-align: right;
+    }
 
-  &-left {
-    text-align: left;
-  }
+    &-left {
+        text-align: left;
+    }
 }
 
 .valign {
 
-  &-top {
-    vertical-align: top;
-  }
+    &-top {
+        vertical-align: top;
+    }
 
-  &-middle {
-    vertical-align: middle;
-  }
+    &-middle {
+        vertical-align: middle;
+    }
 
-  &-bottom {
-    vertical-align: bottom;
-  }
+    &-bottom {
+        vertical-align: bottom;
+    }
 }
 
 .no {
 
-  &-padding {
-    padding: 0;
-  }
+    &-padding {
+        padding: 0;
+    }
 
-  &-margin {
-    margin: 0;
-  }
+    &-margin {
+        margin: 0;
+    }
 }

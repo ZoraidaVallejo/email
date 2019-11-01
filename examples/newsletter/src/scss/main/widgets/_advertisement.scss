@@ -4,66 +4,66 @@
 
 .w-advertisement {
 
-  td {
-    text-align: center;
-  }
-
-  .justia-logo {
-    padding: 40px $padding 30px;
-    text-align: center;
-
-    img {
-      width: 320px;
-      margin: 0 auto;
-    }
-  }
-
-  .title {
-    padding: 0 $padding 35px;
-
-    a {
-      @include mail-font(30px, 1.15);
-      color: plt('justia-blue');
-    }
-  }
-
-  .image {
-    padding: 0 $padding;
-
-    img {
-      width: $inner-max-width;
-    }
-  }
-
-  .content {
-    padding: 0 $padding 25px;
-
-    .content-side {
-      width: 260px;
-
-      img {
-        width: 260px;
-      }
-
-      &:first-child {
-        float: left;
-      }
-
-      &:last-child {
-        float: right;
-      }
+    td {
+        text-align: center;
     }
 
-    &.-first {
-      padding: 35px $padding 20px;
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
     }
 
-    &.-button {
-      padding: 0 $padding 18px;
+    .title {
+        padding: 0 $padding 35px;
+
+        a {
+            @include mail-font(30px, 1.15);
+            color: plt('justia-blue');
+        }
     }
 
-    &.-last {
-      padding: 0 $padding $widget-gap;
+    .image {
+        padding: 0 $padding;
+
+        img {
+            width: $inner-max-width;
+        }
     }
-  }
+
+    .content {
+        padding: 0 $padding 25px;
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 35px $padding 20px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
 }

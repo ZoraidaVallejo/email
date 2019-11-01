@@ -4,57 +4,57 @@
 
 .w-answers-leaderboard {
 
-  .ranking-list {
-    padding: 0 $padding 25px;
+    .ranking-list {
+        padding: 0 $padding 25px;
 
-    .first-row {
+        .first-row {
 
-      .cell {
-        padding: 0 0 20px;
-      }
+            .cell {
+                padding: 0 0 20px;
+            }
 
-      .info {
-        padding: 0 40px 20px;
-      }
+            .info {
+                padding: 0 40px 20px;
+            }
 
-      .ranking p {
-        color: plt('mail', 'fruit-salad');
-      }
+            .ranking p {
+                color: plt('mail', 'fruit-salad');
+            }
+        }
+
+        .cell {
+            padding: 20px 0;
+            border-bottom: 1px solid plt('justia-blue', 0.1);
+        }
+
+        .photo,
+        .photo img {
+            width: 70px;
+        }
+
+        .info {
+            padding: 20px 40px;
+
+            a {
+                color: plt('black');
+            }
+
+            .name {
+                @include mail-font(22px, 1);
+                margin: 0 0 7px;
+            }
+
+            .location {
+                @include mail-font(12px, 1);
+            }
+        }
+
+        .ranking {
+            width: 70px;
+
+            p {
+                @include mail-font(36px, 1, tp('weight', 'bold'));
+            }
+        }
     }
-
-    .cell {
-      padding: 20px 0;
-      border-bottom: 1px solid plt('justia-blue', 0.1);
-    }
-
-    .photo,
-    .photo img {
-      width: 70px;
-    }
-
-    .info {
-      padding: 20px 40px;
-
-      a {
-        color: plt('black');
-      }
-
-      .name {
-        @include mail-font(22px, 1);
-        margin: 0 0 7px;
-      }
-
-      .location {
-        @include mail-font(12px, 1);
-      }
-    }
-
-    .ranking {
-      width: 70px;
-
-      p {
-        @include mail-font(36px, 1, tp('weight', 'bold'));
-      }
-    }
-  }
 }

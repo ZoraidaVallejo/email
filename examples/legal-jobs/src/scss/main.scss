@@ -7,19 +7,19 @@ $use-breakpoint: false;
 // ----------------------------------------------------------------------------------------------------------
 
 @import
-  'image-dimensions',
-  'maple-sass',
-  'mail-template-builder';
+    'image-dimensions',
+    'maple-sass',
+    'mail-template-builder';
 
 @import
-  'main/widgets',
+    'main/widgets',
 
-  'main/widgets/welcome',
-  'main/widgets/content',
-  'main/widgets/jobs-listing',
-  'main/widgets/advertisement',
-  'main/widgets/advertisement/custom',
+    'main/widgets/welcome',
+    'main/widgets/content',
+    'main/widgets/jobs-listing',
+    'main/widgets/advertisement',
+    'main/widgets/advertisement/custom',
 
-  'main/widgets/ending',
+    'main/widgets/ending',
 
-  'main/utilities';
+    'main/utilities';
