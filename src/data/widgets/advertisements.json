@@ -21,7 +21,7 @@
         "bgColor": "#743719",
         "cssSize": "100% auto"
       },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
