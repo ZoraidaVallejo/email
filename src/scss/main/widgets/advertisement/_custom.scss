@@ -4,29 +4,29 @@
 
 .w-advertisement {
 
-  &.-book,
-  &.-jld-ad {
+    &.-book,
+    &.-jld-ad {
 
-    .image {
-      padding: 0;
+        .image {
+            padding: 0;
 
-      img {
-        width: $max-width;
-      }
+            img {
+                width: $max-width;
+            }
+        }
     }
-  }
 
-  &.-jld-ad {
+    &.-jld-ad {
 
-    .content {
+        .content {
 
-      p {
-        color: plt('white');
-      }
+            p {
+                color: plt('white');
+            }
 
-      &.-idx-1 {
-        padding: 6px $padding 29px;
-      }
+            &.-idx-1 {
+                padding: 6px $padding 29px;
+            }
+        }
     }
-  }
 }

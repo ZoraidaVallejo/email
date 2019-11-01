@@ -4,37 +4,37 @@
 
 .w-featured-site-month {
 
-  .featured-site {
+    .featured-site {
 
-    .client-info {
-      padding: 0 $padding 25px;
-      text-align: center;
+        .client-info {
+            padding: 0 $padding 25px;
+            text-align: center;
 
-      .name {
-        @include mail-font(22px, 1.15);
-        margin: 0 0 10px;
+            .name {
+                @include mail-font(22px, 1.15);
+                margin: 0 0 10px;
 
-        a {
-          color: plt('black');
+                a {
+                    color: plt('black');
+                }
+            }
+
+            .location {
+                margin: 0;
+            }
         }
-      }
 
-      .location {
-        margin: 0;
-      }
+        .devices {
+            padding: 0 $padding $padding;
+            text-align: center;
+
+            img {
+                width: $inner-max-width;
+            }
+
+            &.-last {
+                padding: 0 $padding $widget-gap;
+            }
+        }
     }
-
-    .devices {
-      padding: 0 $padding $padding;
-      text-align: center;
-
-      img {
-        width: $inner-max-width;
-      }
-
-      &.-last {
-        padding: 0 $padding $widget-gap;
-      }
-    }
-  }
 }
