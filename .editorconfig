@@ -18,6 +18,6 @@ insert_final_newline = false
 [{*.json,*.yml,*.lock,*.svg}]
 indent_size = 2
 
-# TODO: Remove this part when indentation is fixed in these files
-[{*.scss,*.hbs}]
+# TODO: Remove this part when indentation is fixed in all hbs files
+[{*.html,*.hbs}]
 indent_size = 2
