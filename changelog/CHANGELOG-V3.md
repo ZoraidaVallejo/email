@@ -6,6 +6,7 @@ All changes commited to this repository will be documented in this file. It adhe
 <details>
 <summary>List of tags released on the v3 range</summary>
 
+- [v3.3.1](#v331-2019-11-12)
 - [v3.3.0](#v330-2019-10-30)
 - [v3.2.0](#v320-2019-08-05)
 - [v3.1.0](#v310-2019-05-21)
@@ -13,6 +14,11 @@ All changes commited to this repository will be documented in this file. It adhe
 
 </details>
 
+
+
+## [v3.3.1](https://github.com/justia/mail-template-builder/tree/v3.3.1), 2019-11-12
+- [Release notes](https://github.com/justia/mail-template-builder/releases/tag/v3.3.1)
+- [Full changelog](https://github.com/justia/mail-template-builder/compare/v3.3.0...v3.3.1)
 
 
 ## [v3.3.0](https://github.com/justia/mail-template-builder/tree/v3.3.0), 2019-10-30
