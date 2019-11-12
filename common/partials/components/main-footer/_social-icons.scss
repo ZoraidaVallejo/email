@@ -3,35 +3,35 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $settings: set('social-icons', (
-  'size': 32px,
-  'gap': 4px,
-  'total': 4
+    'size': 32px,
+    'gap': 4px,
+    'total': 4
 ));
 
 // ----------------------------------------------------------------------------------------------------------
 
 .social-icons {
-  $_total: get('social-icons.total');
-  width: ((get('social-icons.size') * $_total) + (get('social-icons.gap') * ($_total - 1)));
+    $_total: get('social-icons.total');
+    width: ((get('social-icons.size') * $_total) + (get('social-icons.gap') * ($_total - 1)));
 
-  .icon {
-    width: (get('social-icons.size') + get('social-icons.gap'));
-    height: get('social-icons.size');
-    text-align: left;
-    vertical-align: top;
+    .icon {
+        width: (get('social-icons.size') + get('social-icons.gap'));
+        height: get('social-icons.size');
+        text-align: left;
+        vertical-align: top;
 
-    &:last-child {
-      width: get('social-icons.size');
+        &:last-child {
+            width: get('social-icons.size');
+        }
     }
-  }
 
-  a {
-    display: inline-block;
-    vertical-align: middle;
+    a {
+        display: inline-block;
+        vertical-align: middle;
 
-    img {
-      width: get('social-icons.size');
-      height: get('social-icons.size');
+        img {
+            width: get('social-icons.size');
+            height: get('social-icons.size');
+        }
     }
-  }
 }

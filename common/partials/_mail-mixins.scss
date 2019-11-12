@@ -7,44 +7,44 @@
 /// @param {map} $scheme - Color scheme.
 ///
 @mixin set-footer-style($scheme) {
-  background-color: get('background-color', $scheme);
+    background-color: get('background-color', $scheme);
 
-  .footer-head {
-    border-top: 1px solid get('head.border-top', $scheme);
-    border-bottom: 1px solid get('head.border-bottom', $scheme);
-    background-color: get('head.background-color', $scheme);
-  }
-
-  .footer-nav,
-  .footer-disclaimer,
-  .footer-address {
-
-    p,
-    span,
-    a {
-      color: get('color', $scheme);
-
-      @include mail-font(get('font-size', $scheme), 1.45);
+    .footer-head {
+        border-top: 1px solid get('head.border-top', $scheme);
+        border-bottom: 1px solid get('head.border-bottom', $scheme);
+        background-color: get('head.background-color', $scheme);
     }
-  }
 
-  .footer-nav {
+    .footer-nav,
+    .footer-disclaimer,
+    .footer-address {
 
-    p,
-    span,
-    a {
-      color: get('nav.color', $scheme);
+        p,
+        span,
+        a {
+            color: get('color', $scheme);
+
+            @include mail-font(get('font-size', $scheme), 1.45);
+        }
     }
-  }
 
-  .footer-address {
+    .footer-nav {
 
-    p,
-    span,
-    a {
-      @include mail-font(get('font-size', $scheme), $weight: get('address.font-weight', $scheme));
+        p,
+        span,
+        a {
+            color: get('nav.color', $scheme);
+        }
     }
-  }
+
+    .footer-address {
+
+        p,
+        span,
+        a {
+            @include mail-font(get('font-size', $scheme), $weight: get('address.font-weight', $scheme));
+        }
+    }
 }
 
 /// Sets the shorthand `font` property.
@@ -58,7 +58,7 @@
 /// @param {string|list} $family [$mail-global-font-family] - Family, string or a list with strings.
 ///
 @mixin mail-font($size: $mail-global-font-size, $line-height: $mail-global-line-height, $weight: '', $style: '', $variant: '', $stretch: '', $family: $mail-global-font-family) {
-  font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
+    font: shorthand-font($style, $variant, $weight, $stretch, $size, $line-height, $family);
 }
 
 /// Sets the responsive classes of an specific box-model property.
@@ -69,26 +69,26 @@
 /// @param {boolean} $vertical [true] - Whether or not to include classes to modify top and bottom values.
 ///
 @mixin set-responsive-reseters($property, $value, $horizontal: true, $vertical: true) {
-  @each $side in 'top', 'right', 'bottom', 'left' {
+    @each $side in 'top', 'right', 'bottom', 'left' {
 
-    &-#{$side} {
-      #{$property}-#{$side}: $value !important;
+        &-#{$side} {
+            #{$property}-#{$side}: $value !important;
+        }
     }
-  }
 
-  @if $horizontal {
+    @if $horizontal {
 
-    &-horizontal-sides {
-      #{$property}-right: $value !important;
-      #{$property}-left: $value !important;
+        &-horizontal-sides {
+            #{$property}-right: $value !important;
+            #{$property}-left: $value !important;
+        }
     }
-  }
 
-  @if $vertical {
+    @if $vertical {
 
-    &-vertical-sides {
-      #{$property}-top: $value !important;
-      #{$property}-bottom: $value !important;
+        &-vertical-sides {
+            #{$property}-top: $value !important;
+            #{$property}-bottom: $value !important;
+        }
     }
-  }
 }

@@ -4,43 +4,43 @@
 
 .w-internet-stats {
 
-  .subtitle {
-    padding: 0 $padding grid-unit();
-    text-align: center;
+    .subtitle {
+        padding: 0 $padding grid-unit();
+        text-align: center;
 
-    p {
-      @include mail-font(18px, 1.3);
-      margin: 0;
-    }
-  }
-
-  .chart {
-    padding: 0 $padding grid-unit();
-    text-align: center;
-
-    img {
-      width: 540px;
+        p {
+            @include mail-font(18px, 1.3);
+            margin: 0;
+        }
     }
 
-    &.-last {
-      padding: 0 $padding $widget-gap;
+    .chart {
+        padding: 0 $padding grid-unit();
+        text-align: center;
+
+        img {
+            width: 540px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
     }
-  }
 
-  .description {
-    padding: 0 $padding $widget-gap;
-    text-align: center;
+    .description {
+        padding: 0 $padding $widget-gap;
+        text-align: center;
 
-    p {
-      @include mail-font(18px, 1.3);
+        p {
+            @include mail-font(18px, 1.3);
+        }
+
+        .source {
+            margin: 25px 0 0;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
     }
-
-    .source {
-      margin: 25px 0 0;
-
-      &:last-child {
-        margin: 0;
-      }
-    }
-  }
 }

@@ -4,15 +4,15 @@
 
 .w-advertisement {
 
-  &.-jobs-ad {
-    border-bottom: 1px solid plt('gallery');
-    background-color: #cde2e8;
+    &.-jobs-ad {
+        border-bottom: 1px solid plt('gallery');
+        background-color: #cde2e8;
 
-    .image {
+        .image {
 
-      a {
-        color: #cde2e8;
-      }
+            a {
+                color: #cde2e8;
+            }
+        }
     }
-  }
 }

@@ -4,44 +4,48 @@
 
 .w-featured-site-month {
 
-  .sites-list-description {
-    padding: 0 $padding 25px;
-    text-align: center;
-  }
-
-  .sites-list {
-    padding: 0 $padding $widget-gap;
-
-    .devices {
-      width: 230px;
-      padding: 0 $padding $padding 20px;
-
-      &.-last {
-        padding: 0 $padding 0 20px;
-      }
-
-      img {
-        width: 230px;
-      }
+    .sites-list-description {
+        padding: 0 $padding 25px;
+        text-align: center;
     }
 
-    .client-info {
-      padding: 0 0 ($padding + 20px);
-      vertical-align: middle;
+    .sites-list {
+        padding: 0 $padding $padding;
 
-      &.-last {
-        padding: 0 0 20px;
-      }
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
 
-      .name {
-        @include mail-font(22px, 1.15);
-        margin: 0 0 10px;
-      }
+        .devices {
+            width: 230px;
+            padding: 0 $padding $padding 20px;
 
-      .location,
-      .website {
-        margin: 0;
-      }
+            &.-last {
+                padding: 0 $padding 0 20px;
+            }
+
+            img {
+                width: 230px;
+            }
+        }
+
+        .client-info {
+            padding: 0 0 ($padding + 20px);
+            vertical-align: middle;
+
+            &.-last {
+                padding: 0 0 20px;
+            }
+
+            .name {
+                @include mail-font(22px, 1.15);
+                margin: 0 0 10px;
+            }
+
+            .location,
+            .website {
+                margin: 0;
+            }
+        }
     }
-  }
 }

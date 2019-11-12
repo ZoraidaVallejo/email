@@ -4,42 +4,42 @@
 
 .w-jurispro {
 
-  .widget-header {
+    .widget-header {
 
-    .header {
-      @include mail-font(27px, 1.2, tp('weight', 'bold'));
-    }
-  }
-
-  .custom-description {
-    padding: 0 $padding 25px;
-
-    &.-last {
-      padding: 10px $padding $widget-gap;
-
-      p {
-        @include mail-font(15px);
-      }
+        .header {
+            @include mail-font(27px, 1.2, tp('weight', 'bold'));
+        }
     }
 
-    .text {
-      padding: 0 35px $padding 0;
-      border-bottom: 1px solid plt('justia-blue', 0.1);
+    .custom-description {
+        padding: 0 $padding 25px;
 
-      p {
-        @include mail-font(18px);
-      }
+        &.-last {
+            padding: 10px $padding $widget-gap;
+
+            p {
+                @include mail-font(15px);
+            }
+        }
+
+        .text {
+            padding: 0 35px $padding 0;
+            border-bottom: 1px solid plt('justia-blue', 0.1);
+
+            p {
+                @include mail-font(18px);
+            }
+        }
+
+        .thumb {
+            width: 210px;
+            padding: 0 0 $padding;
+            border-bottom: 1px solid plt('justia-blue', 0.1);
+            text-align: center;
+
+            img {
+                width: 150px;
+            }
+        }
     }
-
-    .thumb {
-      width: 210px;
-      padding: 0 0 $padding;
-      border-bottom: 1px solid plt('justia-blue', 0.1);
-      text-align: center;
-
-      img {
-        width: 150px;
-      }
-    }
-  }
 }
