@@ -1,0 +1,27 @@
+// ----------------------------------------------------------------------------------------------------------
+// R E S P O N S I V E   A N D   M O B I L E   F R I E N D L Y   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+$use-special-font: false;
+
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+  'image-dimensions',
+  'maple-sass';
+
+$accent-color: plt('justia-blue');
+
+@import
+  'mail-settings';
+
+@import
+  'mail-mixins',
+  'mail-resets',
+  'mail-special-font',
+  'mail-responsive';
+
+@import
+  'preserve/custom';
+ 

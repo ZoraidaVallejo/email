@@ -1,0 +1,145 @@
+---
+subject: "JUSTIA Lawyer Directory"
+---
+
+{{>preheader text="Justia Lawyer Directory"}}
+
+{{#table class="blast welcome welcome-6" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        <!-- CONTENT -->
+
+        {{#table class="blast-content set-max-width"}}
+        <tr>
+          <td class="main-title" responsive="mobile-padding-horizontal-sides">
+              <p>
+                <a href="#" target="_blank">
+                    Get your colleagues to do the talking<br>
+                    <span><span>6 of 7</span></span>
+                </a>
+              </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content -image-text -idx-1 -first" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
+            <table {{{tableAttr}}}>
+              <tr>
+                <td class="image" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-bottom">
+                  <a href="#">
+                      {{>img src="https://justatic.com/emails/images/lawyer-directory/common/justia-badge-10-placeholder.png" alt="Justia Placeholder Badge" responsive="mobile-align-center"}}
+                  </a>
+                </td>
+                <td class="text" responsive="collapse-one mobile-no-padding">
+                  <p responsive="mobile-fz-18">
+                    <a href="#">
+                      The Justia Lawyer Directory features attorney reviews and ratings!
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content -two-cols -idx-2">
+            <table {{{tableAttr}}}>
+              <tr>
+                <td class="col -col-1" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides collapse-one mobile-reset-width mobile-no-border">
+                  <a href="#">
+                    {{>img src="welcome-6-02.png" alt="" responsive="mobile-align-center"}}
+                  </a>
+                  <p>
+                    <a href="#">
+                      Any verified lawyer with a Justia account can write a review for another lawyer, provided that they are personally familiar with the attorney’s work.
+                    </a>
+                  </p>
+                </td>
+                <td class="col -col-2" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides collapse-one mobile-reset-width">
+                  <a href="#">
+                    {{>img src="welcome-6-03.png" alt="" responsive="mobile-align-center"}}
+                  </a>
+                  <p>
+                    <a href="#">
+                      The more reviews you receive, the greater your online reputation and your standing in the community. Showcase your badge with your Justia Lawyer Rating on your websites, blogs, and other properties.
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content -image-text -idx-3" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
+            <table {{{tableAttr}}}>
+              <tr>
+                <td class="full">
+                  <table {{{tableAttr}}}>
+                    <tr>
+                      <td class="image" responsive="collapse-one mobile-reset-width mobile-padding-bottom">
+                        <a href="#">
+                          {{>img src="welcome-6-04.png" alt="" responsive="mobile-align-center"}}
+                        </a>
+                      </td>
+                      <td class="text" responsive="collapse-one mobile-reset-width mobile-no-padding">
+                        <p>
+                          <strong>It’s easy to request peer reviews:</strong>
+                        </p>
+
+                        <ol>
+                          <li>Direct your colleague to the "Rate this Lawyer" button under your name on your <a href="#">profile page</a></li>
+                          <li>We'll notify you once you receive a review(s)</li>
+                        </ol>
+                        <p class="centered">
+                          <a href="#">
+                            <strong>Be the first lawyer in your area to get a perfect 10!</strong>
+                          </a>
+                        </p>
+                        {{#uiButton
+                          presetStyle="red"
+                          href="https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews"
+                          width="326px"
+                          height="41px"
+                          fontSize="14px"
+                          responsive="responsive-button"
+                        }}
+                          Learn more about the Justia Lawyer Rating
+                        {{/uiButton}}
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="full disclaimer">
+                    <p>Disclaimer: Justia is not a law firm and cannot provide legal advice. Be sure to check your state bar rules to confirm that asking for and posting peer reviews is ethically permissible in your jurisdiction.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content -idx-4 -last" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides">
+            <p>Your lawyer profile appears on the websites of <strong>JUSTIA</strong> and Cornell Law School’s Legal Information Institute where millions of users search for laws, legal resources and lawyers.</p>
+          </td>
+        </tr>
+        {{/table}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer}}
+    </td>
+  </tr>
+{{/table}}
