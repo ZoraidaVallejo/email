@@ -1,0 +1,114 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/2019/11/27/harvesting-the-rewards-of-the-optimization-youve-sown/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Harvesting the Rewards of the Optimization You’ve Sown",
+  "description": [
+    "You've toiled long and hard, sowing the seeds of your SEO efforts for months or even years. When it comes time to harvest your rewards, use these free tools from Google to measure your success."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "text": "Read More"
+  },
+  "columns": [
+    {
+      "link": "https://onward.justia.com/2019/11/15/google-posts-for-law-firms-make-the-most-of-this-google-my-business-feature/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-02.png",
+        "alt": "lorem ipsum"
+      },
+      "title": "Google Posts for Law Firms: Make the Most of This Google My Business Feature",
+      "description": [
+        "Google Posts have been fully integrated into the Google My Business platform, offering business owners the opportunity to influence Google's..."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    },
+    {
+      "link": "https://onward.justia.com/2019/11/26/10-things-to-consider-when-designing-a-millennial-friendly-website/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-03.png",
+        "alt": "lorem ipsum"
+      },
+      "title": "10 Things to Consider When Designing a Millennial-Friendly Website",
+      "description": [
+        "The age of your online visitors may affect their perceptions and expectations of your website. If your law firm targets millennial clients..."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    }
+  ]
+}

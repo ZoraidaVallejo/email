@@ -1,0 +1,60 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   -   C U S T O M   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+
+    .title {
+        padding-bottom: 6px;
+
+        b,
+        a {
+        @include mail-font(60px, 1.15, 'bold');
+        }
+    }
+
+    .image {
+        padding-left: 0;
+        padding-bottom: 8px;
+
+        img {
+            margin-right: auto;
+            margin-left: 0;
+        }
+    }
+
+    .content {
+        &.-idx-2 {
+            p,
+            a {
+                color: plt('justia-blue');
+            }
+        }
+
+        &.-idx-3 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: plt('justia-blue');
+            text-align: left;
+
+            p {
+                color: plt('white');
+            }
+        }
+    }
+
+    &.-jld-ad-01 {
+        .image {
+            padding-right: 0;
+            padding-left: 0;
+            padding-bottom: 8px;
+
+            img {
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+    }
+
+  // &.-jld-ad-02 {}
+}

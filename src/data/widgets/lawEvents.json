@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "dateTime": "December 3 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Office 365 Collaboration for Legal",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/389386144/"
+    },
+    {
+      "dateTime": "December 10 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "The ABA Speaks on the Ethics of Disaster Recovery and Data Breaches",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/389383474/"
+    },
+    {
+      "dateTime": "December 12 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Me Too: Sexism, Bias, and Sexual Misconduct in the Legal Profession",
+      "readMore": "https://cleseminars.ce21.com/item/me-sexism-bias-sexual-misconduct-legal-profession-235915"
+    },
+    {
+      "dateTime": "December 12 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "2019 Estate Planning Hot Topics",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/391933744/"
+    }
+  ]
+}

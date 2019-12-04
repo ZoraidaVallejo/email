@@ -1,0 +1,28 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Update Your GMB Holiday Hours",
+    "description": [
+      "Did you know you can update your Google My Business listing (GMB) office hours to include special holiday hours? With the upcoming holidays, make sure your customers have your up-to-date availabilities. If you have unconfirmed hours on your GMB listing, they may be labeled as \"hours may differ\" appearing in orange on Google. If you have set special hours and/or list holiday hours, they will be labeled in green on Google."
+    ]
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Get more out of your free Justia Lawyer Directory profile by making it more complete!",
+    "description": [
+      "Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads. Adding your office location will help you appear in local lawyer directory searches, and listing an updated email address will make it easier for clients to get in touch today! "
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://accounts.justia.com/signin",
+      "text": "Log In",
+      "width": 150
+    }
+  }
+}

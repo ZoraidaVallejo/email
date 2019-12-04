@@ -1,0 +1,25 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "FCC Sued By Dozens of Cities After Voting to Kill Local Fees and Rules",
+      "link": "https://arstechnica.com/tech-policy/2019/11/ajit-pais-endless-fight-against-local-regulation-faces-a-new-test-in-court/",
+      "description": "An FCC vote to preempt local fees and rules related to cable-broadband providers has been challenged in federal court by almost 50 cities seeking to undo the order."
+    }, {
+      "title": "US Violated Constitution By Searching Phones For No Good Reason, Judge Rules",
+      "link": "https://arstechnica.com/tech-policy/2019/11/us-cant-search-phones-at-borders-without-reasonable-suspicion-judge-rules/",
+      "description": "A federal court has concluded that ICE and border agents violated the 4th amendment when they searched the devices of 11 travelers without individualized suspicion."
+    }, {
+      "title": "Search Warrant Overrides 1M Users’ Choice Not to Share DNA With Cops",
+      "link": "https://arstechnica.com/tech-policy/2019/11/search-warrant-overrides-1m-users-choice-not-to-share-dna-with-cops/",
+      "description": "A Florida judge has approved a warrant that would disregard the preferences of over a million users of a consumer DNA database, allowing law enforcement to search all user data."
+    }, {
+      "title": "The Supreme Court Will Hear Google and Oracle’s Nearly Decade-Long Copyright Fight",
+      "link": "https://www.theverge.com/2019/11/15/20946398/oracle-google-java-copyright-lawsuit-trial-supreme-court-request",
+      "description": "The Court has confirmed that it will take up the years-long dispute between Google and Oracle regarding whether basic code elements can be copyrighted."
+    }
+  ]
+}

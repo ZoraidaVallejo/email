@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "legal-industry-news",
+    "header": "Legal Industry News"
+  },
+  "news": [
+    {
+      "title": "New California Bar Study Finds Racial Disparities in Lawyer Discipline",
+      "link": "http://www.abajournal.com/news/article/california-bar-study-finds-racial-disparities-in-lawyer-discipline",
+      "description": "The study revealed significant inequities in areas such as probationary discipline and disbarment, with the greatest disparities occurring between black and white male lawyers."
+    },
+    {
+      "title": "How Does a Lawyer Get Competent in Tech? I Asked Twitter and Got 100+ Answers",
+      "link": "https://www.lawsitesblog.com/2019/11/how-does-a-lawyer-get-competent-in-tech-i-asked-twitter-and-got-100-answers.html",
+      "description": "Advice to lawyers seeking a greater level of tech literacy included to begin exploring tech topics they are curious about, and to learn to communicate well with tech professionals."
+    },
+    {
+      "title": "Why Are Experienced Women Lawyers Leaving BigLaw? Survey Looks for Answers and Finds Big Disparities",
+      "link": "http://www.abajournal.com/news/article/why-are-women-lawyers-leaving-biglaw-survey-looks-for-an-answer-and-finds-big-disparities",
+      "description": "The data indicates stark differences in women lawyers’ access to specific opportunities that would lend themselves to career success, and an alarmingly high rate of sexual harassment."
+    },
+    {
+      "title": "The Insider’s View On LegalTech VC Funding",
+      "link": "https://abovethelaw.com/2019/11/the-insiders-view-on-legaltech-vc-funding/",
+      "description": "A legal tech business owner describes the current venture capital funding landscape, and offers their story as an example of how legal tech is becoming integral to the legal industry."
+    }
+  ]
+}

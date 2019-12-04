@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "What Ads Are Political? Twitter Struggles With a Definition",
+      "link": "https://www.nytimes.com/2019/11/15/technology/twitter-political-ad-policy.html",
+      "description": "After announcing that it will ban political ads on its platform, Twitter is facing challenges with regard to determining exactly how its new policy will be implemented."
+    },
+    {
+      "title": "Massive Facebook Document Leak Gives Ammunition to Investigators",
+      "link": "https://arstechnica.com/tech-policy/2019/11/facebook-sold-competition-quashing-as-a-privacy-move-leaked-documents-show/",
+      "description": "In connection with a lawsuit by the State of California, 7,000 pages of internal Facebook documents have gone public, and may inform antitrust investigations against the company."
+    },
+    {
+      "title": "YouTube Launches a Redesign of Its Desktop Home Page",
+      "link": "https://www.searchenginejournal.com/youtube-launches-a-redesign-of-its-desktop-homepage/",
+      "description": "YouTube has unveiled a new desktop and tablet app home page design that offers users the ability to customize their home feeds."
+    },
+    {
+      "title": "Facebook Unveils New Logo With Unique Branding for All of Its Products",
+      "link": "https://www.searchenginejournal.com/facebook-unveils-new-logo-with-unique-branding-for-all-of-its-products/",
+      "description": "The company’s new logo configurations contain specific color schemes for each of its major products, such as the Facebook app, Messenger, Instagram, and WhatsApp."
+    }
+  ]
+}
