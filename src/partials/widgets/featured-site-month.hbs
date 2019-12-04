@@ -4,6 +4,12 @@
 
 {{assign "setDescription" (and featuredSiteMonth.description addDescription)}}
 
+{{#and featuredSiteMonth.button (compare featuredSiteMonth.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
 {{! ================================================================================================================= }}
 
 {{!
@@ -84,11 +90,21 @@
     // TODO: Maybe move title and description to a component.
     --}}
     <tr>
-      <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+      <td class="widget-description {{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
         {{#each featuredSiteMonth.description}}
           <p>{{{this}}}</p>
         {{/each}}
       </td>
     </tr>
   {{/if}}
+
+  {{#and featuredSiteMonth.button setDescription}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=featuredSiteMonth.button.style href=(concat featuredSiteMonth.button.link (utmVariables featuredSiteMonth.button.utm))}}
+          {{featuredSiteMonth.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/and}}
 {{/table}}

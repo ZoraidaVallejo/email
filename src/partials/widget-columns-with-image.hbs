@@ -17,9 +17,18 @@
         {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
           {{#each this}}
             {{#and this.link (compare this.link "!==" "")}}
-              {{assign "titleLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.title))}}
-              {{assign "imageLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.image))}}
+              {{#if this.utm}}
+                {{assign "titleLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.title))}}
+                {{assign "imageLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.image))}}
+              {{else}}
+                {{assign "titleLink" this.link}}
+                {{assign "imageLink" this.link}}
+              {{/if}}
+            {{else}}
+              {{assign "titleLink" this.link}}
+              {{assign "imageLink" this.link}}
             {{/and}}
+            {{{imageLink}}}
 
             {{#if this.button }}
               {{assign "buttonLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.button))}}
@@ -31,7 +40,7 @@
             {{#if this.image}}
               {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
               {{#if @root.imageLink}}<a href="{{{@root.imageLink}}}" target="_blank" class="block-image-link">{{/if}}
-                {{>img src=this.image.src alt=this.image.src class="block-image"}}
+                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
               {{#if readMore}}</a>{{/if}}
               {{#if @root.imageLink}}</a>{{/if}}
 

@@ -12,7 +12,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v27"
       },
       "logo": {
         "name": "marketing",
@@ -67,7 +67,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v25"
+        "content": "banner-premium-memberships-v26"
       },
       "logo": {
         "name": "marketing",
