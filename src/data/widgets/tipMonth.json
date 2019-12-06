@@ -20,7 +20,7 @@
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://accounts.justia.com/signin",
+      "link": "https://accounts.justia.com/signin/fast?uid=*%7CUSER_ID%7C*&code=*%7CSIGN_CODE%7C*&destination=https://lawyers.justia.com/profile/*%7CPROFILE_ID%7C*/edit/overview?utm_medium=email&utm_source=directory-newletter&utm_campaign=2019-12&utm_content=button-update-profile-now-v2",
       "text": "Update Profile Now",
       "width": 200
     }

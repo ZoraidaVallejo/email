@@ -11,7 +11,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
+        "source": "client-newsletter",
         "content": "banner-premium-memberships-v27"
       },
       "logo": {
