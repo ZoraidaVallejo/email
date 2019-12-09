@@ -1,0 +1,45 @@
+{
+  "link": "#",
+  "title": "<b>Last Chance to <br responsive=\"mobile-hide\"/>Save on Taxes</b>",
+  "titlePosition": "top",
+  "titleResponsiveSize": 30,
+  "image": "save-taxes--image-02.png",
+  "imageResponsive": "mobile-padding-horizontal-sides",
+  "background": {
+    "image": "save-taxes--bg-02.png",
+    "bgColor": "#fff",
+    "width": 600
+  },
+  "contentOrder": [
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "Start Saving Now",
+        "width": 250,
+        "height": 51,
+        "fontSize": 18,
+        "responsive": "responsive-button mobile-fz-16"
+      }
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "tel:+1-888-587-8421",
+          "text": "Or call us at <b>(888) 587-8421</b>"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "linkText": false,
+      "config": [
+        {
+          "text": "Before the year ends, take advantage of this last chance to save on taxes by getting premium placements in the Justia Lawyer Directory. <br/>Premium placements provide higher visibility in the directory along with other benefits."
+        }
+      ]
+    }
+  ]
+}
