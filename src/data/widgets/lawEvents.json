@@ -1,0 +1,44 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "dateTime": "January 9 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Best of ABA TECHSHOW: Bitcoin and Blockchain for Lawyers",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/392725283/"
+    },
+    {
+      "dateTime": "January 9 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "The Vaping Injury Crisis: Products Liability & Insurance..",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/392379708/"
+    },
+    {
+      "dateTime": "January 10 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "The New Proposed 162(m) Regulations - What You Need to Know and Do!",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/393000633/"
+    },
+    {
+      "dateTime": "January 13 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Electronic Information in Criminal Investigations and Proceedings",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/392703873/"
+    },
+    {
+      "dateTime": "January 15 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Walk the Talk: Moving the Diversity and Inclusion Needle Forward",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/392770556/"
+    },
+    {
+      "dateTime": "January 24 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Career Choice Series: Cannabis Law",
+      "readMore": "https://www.americanbar.org/careercenter/career-choice-series/cannabis-law/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "Uber Agrees to Pay $4.4 Million to Settle EEOC Sexual Harassment and Retaliation Charge",
+      "link": "https://techcrunch.com/2019/12/18/uber-agrees-to-pay-4-4-million-to-settle-eeoc-sexual-harassment-and-retaliation-charge/",
+      "description": "Following a finding by the EEOC that Uber allowed a culture of sexual harassment and retaliation, the company will pay $4.4 million to victims and face three years of monitoring."
+    },
+    {
+      "title": "Trump Administration Says Employers Can Ban Organizing Via Company Email",
+      "link": "https://arstechnica.com/tech-policy/2019/12/trump-administration-says-employers-can-ban-organizing-via-company-email/",
+      "description": "The National Labor Relations Board has ruled that employees can be prohibited from using their work email for union organizing, overturning an Obama-era ruling stating the opposite."
+    },
+    {
+      "title": "Feds Reap Data From 1,500 Phones in Largest Reported Reverse-Location Warrant",
+      "link": "https://arstechnica.com/tech-policy/2019/12/feds-reap-data-from-1500-phones-in-largest-reported-reverse-location-warrant/",
+      "description": "In an effort to solve four Wisconsin arson cases, federal investigators secured search warrants allowing them access to location history data for about 1,500 smartphones."
+    },
+    {
+      "title": "Huawei Sues FCC to Stop Ban On Huawei Gear in US-Funded Networks",
+      "link": "https://arstechnica.com/tech-policy/2019/12/huawei-sues-fcc-to-stop-ban-on-huawei-gear-in-us-funded-networks/",
+      "description": "Seeking to overturn a decision that its equipment can’t be used in some government-funded telecom projects, Huawei has sued the FCC on due process and administrative law grounds."
+    }
+  ]
+}

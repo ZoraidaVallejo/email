@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Participating Lawyers",
+    "type": "Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "list": [
+    {
+      "id": "1500088",
+      "rank": 1,
+      "name": "Mike Darlington",
+      "location": "Redding, CA",
+      "nameLink": "https://answers.justia.com/lawyer/1500088/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1500088?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "1516392",
+      "rank": 2,
+      "name": "Lane Wood",
+      "location": "St. George, UT",
+      "nameLink": "https://answers.justia.com/lawyer/1516392/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/1516392?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1525667",
+      "rank": 3,
+      "name": "Troy Tyson",
+      "location": "Greenwood, IN",
+      "nameLink": "https://answers.justia.com/lawyer/1525667/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1525667?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "206120",
+      "rank": 4,
+      "name": "Laurel Deborah Scott",
+      "location": "Bedford, NH",
+      "nameLink": "https://answers.justia.com/lawyer/206120/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/206120?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "1586889",
+      "rank": 5,
+      "name": "Rhiannon Herbert",
+      "location": "Columbus, OH",
+      "nameLink": "https://answers.justia.com/lawyer/1586889/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/1586889?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-01&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}

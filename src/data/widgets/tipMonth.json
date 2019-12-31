@@ -1,0 +1,35 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Get Reviews on the Justia Lawyer Directory",
+    "description": [
+      "Did you know your Justia Lawyer Directory profile includes tools that let you request testimonials from your clients or other attorneys? When editing your profile, you may find both tools on the left hand menu - just look for \"Request Client Reviews\" and \"Request Lawyer Reviews\" to send your invites by email."
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "description": [
+      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
+      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}

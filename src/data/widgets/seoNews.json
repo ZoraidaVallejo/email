@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "The Local Algorithm: Relevance, Proximity, and Prominence",
+      "link": "https://moz.com/blog/local-algorithm-relevance-proximity-and-prominence",
+      "description": "This breakdown of Google's local pack outlines the three factors that have always driven the algorithm and therefore local rankings: relevance, proximity, and prominence."
+    },
+    {
+      "title": "Google Search Console Can More Accurately Report On Indexed Pages",
+      "link": "https://www.searchenginejournal.com/google-search-console-can-more-accurately-report-on-indexed-pages/340923/",
+      "description": "An update to Google Search Console has resulted in some pages that were previously categorized as crawled but not indexed being indexed from December 15 onward."
+    },
+    {
+      "title": "Google: We Ignore Links From Sites Where Links Are Unlikely To Be Natural",
+      "link": "https://www.seroundtable.com/google-ignores-unnatural-links-28614.html",
+      "description": "Google’s John Mueller has stated that there is no need to disavow links from spammy domains, as Google already disregards them because they are not likely to be natural."
+    },
+    {
+      "title": "How Does Website Security Affect Your SEO?",
+      "link": "https://www.searchenginejournal.com/website-security-seo/337439/",
+      "description": "It is more critical than ever for developers to shore up website security for SEO purposes by using an HTTPS domain distinction and preventing blacklisting through link spam."
+    }
+  ]
+}

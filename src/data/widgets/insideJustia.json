@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.png",
+        "alt": "<b>Elit ipsum</b> esse amet culpa."
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "Team Holiday Celebrations",
+      "description": [
+        "Our team enjoyed a luncheon to celebrate the holidays and end of year. We’re looking forward to making the most of 2020 together! Happy holidays from our offices to yours :)"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Id amet ex est nulla laboris.</b>"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "The Hug Pugs Celebrate a New Year!",
+      "description": [
+        "Sheba & Rio are looking forward to a great 2020 at Justia. They wish all our clients health and happiness in the months to come!"
+      ]
+    }
+  ]
+}

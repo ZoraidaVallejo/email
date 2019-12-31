@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "New YouTube Policy Tries to Ban ‘Implied’ Threats, ‘Malicious’ Insults",
+      "link": "https://arstechnica.com/tech-policy/2019/12/new-youtube-policy-tries-to-ban-implied-threats-malicious-insults/",
+      "description": "After unsuccessful efforts at policing hateful content on its platform, YouTube plans to take a more aggressive stance against content creators instigating campaigns of harassment."
+    },
+    {
+      "title": "Social Media Platforms Leave 95% of Reported Fake Accounts Up, Study Finds",
+      "link": "https://arstechnica.com/tech-policy/2019/12/social-media-platforms-leave-95-of-reported-fake-accounts-up-study-finds/",
+      "description": "A new study has demonstrated not only the colossal scope of inauthentic social media activity, but also that most fake accounts remain active for weeks after being reported."
+    },
+    {
+      "title": "Instagram to Start Warning Users Before They Post ‘Potentially Offensive’ Captions",
+      "link": "https://www.theverge.com/2019/12/16/21024051/instagram-captions-potentially-offensive-ai-moderation-bullying-edit",
+      "description": "Utilizing AI-powered tools, Instagram will begin warning users if they are about to post a caption to a photo or video in their main feed if it’s similar to captions that have been reported."
+    },
+    {
+      "title": "Facebook Has 4 Out of 5 of the Most Downloaded Apps of the Year",
+      "link": "https://www.searchenginejournal.com/facebook-has-4-out-of-5-of-the-most-downloaded-apps-of-the-year/340711/",
+      "description": "The top 5 most downloaded apps worldwide of 2019 include Facebook Messenger, Facebook, WhatsApp Messenger, and Instagram, counting only new net downloads."
+    }
+  ]
+}
