@@ -506,6 +506,10 @@ a {
   padding: 0 30px 50px;
 }
 
+.widget-description.-with-list {
+  padding: 0 30px 10px;
+}
+
 .widget-button {
   padding: 0 30px 50px;
 }
@@ -516,6 +520,14 @@ a {
 
 .widget-columns > .wrapper.-last {
   padding: 0 30px 50px;
+}
+
+.widget-columns.-with-button > .wrapper {
+  padding: 0 30px 25px;
+}
+
+.widget-columns.-list .item span {
+  font: 700 25px/25px Arial, sans-serif;
 }
 
 .widget-columns.-articles .article a,
@@ -669,7 +681,7 @@ a {
 }
 
 .w-internet-stats .subtitle {
-  padding: 0 30px 50px;
+  padding: 0 30px 25px;
   text-align: center;
 }
 
@@ -679,7 +691,7 @@ a {
 }
 
 .w-internet-stats .chart {
-  padding: 0 30px 50px;
+  padding: 0 30px 25px;
   text-align: center;
 }
 
@@ -800,6 +812,36 @@ a {
 
 .w-advertisement .content.-last {
   padding: 0 30px 50px;
+}
+
+.w-advertisement.-jld-ad-01 .title {
+  padding-top: 8px;
+}
+
+.w-advertisement.-jld-ad-01 .title a {
+  font: 45px/1.1 Arial, sans-serif;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .image {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.w-advertisement.-jld-ad-01 .image img {
+  width: 100%;
+}
+
+.w-advertisement.-jld-ad-01 .content {
+  background-color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 {
+  text-align: left;
+}
+
+.w-advertisement.-jld-ad-01 .content.-idx-1 b {
+  display: inline-block;
 }
 
 .w-answers-leaderboard .ranking-list {

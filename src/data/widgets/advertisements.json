@@ -8,46 +8,36 @@
       "background": {
         "image": "ad-gradient.png",
         "width": 600,
-        "bgColor": "#f4f4f4",
-        "cssSize": "600px 350px"
+        "bgColor": "#186bc0",
+        "cssSize": "600px 567px"
       },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v27"
       },
       "logo": {
         "name": "marketing",
-        "color": "blue"
+        "color": "blue-white"
       },
-      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
+      "title": "<b>Get Started on Your New Year’s Resolutions</b>",
       "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
+      "image": "ad-graphic-01.png",
       "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "image": "ad-graphic-02.png",
-            "description": [
-              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
-            ]
-          }
-        },
         {
           "type": "description",
           "config": [
-            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
-            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
+            "It’s the new year which means it’s time for New Year’s resolutions.<br responsive=\"mobile-hide\"/> Make becoming a Justia Lawyer Directory Premium Member your top resolution this year. Sign up to become a premium member to <b>enhance your visibility and generate more leads.</b>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Non velit incididunt]",
-            "width": 280,
+            "text": "Become a Premium Member",
+            "width": 300,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -55,7 +45,7 @@
             "fontStyle": "",
             "fontWeight": "",
             "fontSize": 18,
-            "responsive": ""
+            "responsive": "mobile-reset-width mobile-padding-horizontal-sides"
           }
         },
         {

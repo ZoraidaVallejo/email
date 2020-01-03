@@ -88,6 +88,10 @@
     &.-no-button {
         padding: 0 $padding $widget-gap;
     }
+
+    &.-with-list {
+        padding: 0 $padding 10px;
+    }
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -105,6 +109,19 @@
 
         &.-last {
             padding: 0 $padding $widget-gap;
+        }
+    }
+
+    &.-with-button {
+
+        > .wrapper {
+            padding: 0 $padding ($widget-gap / 2);
+        }
+    }
+
+    &.-list {
+        .item span {
+            @include mail-font(25px, 1, tp('weight', 'bold'));
         }
     }
 

@@ -8,7 +8,7 @@
     {
       "image": {
         "src": "inside-justia-01.png",
-        "alt": "<b>Elit ipsum</b> esse amet culpa."
+        "alt": "Justia team photos"
       },
       "blockTitle": "Meet Our Team",
       "blockSubtitle": "Team Holiday Celebrations",
@@ -18,9 +18,10 @@
     },
     {
       "image": {
-        "src": "inside-justia-01.jpg",
-        "alt": "<b>Id amet ex est nulla laboris.</b>"
+        "src": "inside-justia-02.png",
+        "alt": "2020"
       },
+      "link": "https://www.facebook.com/Hug.Pugs/",
       "blockTitle": "A Pug’s Tale",
       "blockSubtitle": "The Hug Pugs Celebrate a New Year!",
       "description": [
