@@ -3,7 +3,7 @@
     "icon": "featured-news",
     "header": "Featured News"
   },
-  "link": "https://onward.justia.com/",
+  "link": "https://onward.justia.com/2020/01/03/2019-changed-everything/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -26,15 +26,14 @@
       }
     }
   },
-  "banner": "featured-news-01.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "banner": "featured-news-01.jpg",
+  "title": "2019 Changed Everything",
   "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+    "2019 has come to a close, and as we’ve done the last few years, we wanted to take this opportunity to summarize how the landscape of the web has changed in the last year and take a look forward at things that are expected in 2020."
   ],
   "button": {
     "style": "light-blue-ghost",
-    "link": "https://onward.justia.com/",
+    "link": "https://onward.justia.com/2020/01/03/2019-changed-everything/",
     "text": "Read More"
   }
 }

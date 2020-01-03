@@ -35,12 +35,6 @@
 
   <tr>
     <td class="description" responsive="mobile-padding-horizontal-sides">
-      {{#if internetStats.description}}
-        {{#each internetStats.description}}
-          <p>{{{this}}}</p>
-        {{/each}}
-      {{/if}}
-
       {{#if internetStats.source}}
         <p class="source">
           Source:
@@ -48,6 +42,20 @@
             {{{internetStats.source}}}
           {{#if internetStats.sourceLink}}</a>{{/if}}
         </p>
+      {{/if}}
+
+      {{#if jld}}
+        {{#if internetStats.description.jld}}
+          {{#each internetStats.description.jld}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        {{/if}}
+      {{else}}
+        {{#if internetStats.description.clients}}
+          {{#each internetStats.description.clients}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        {{/if}}
       {{/if}}
     </td>
   </tr>
