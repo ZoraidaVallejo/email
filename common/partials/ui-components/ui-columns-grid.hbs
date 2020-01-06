@@ -46,21 +46,11 @@
 {{#if (and firstRow (compare @root.cellCounter "==" 1))}}
   {{assign "cellResponsiveClasses" "collapse-one mobile-no-padding"}}
 {{else}}
-  {{assign "cellResponsiveClasses" "collapse-one mobile-no-padding-horizontal-sides"}}
+  {{assign "cellResponsiveClasses" "collapse-one mobile-no-padding-horizontal-sides mobile-padding-30-top"}}
 {{/if}}
 
 {{#if cellIsEmpty}}
   {{assign "cellResponsiveClasses" "mobile-hide"}}
-{{/if}}
-
-{{#if smallGap}}
-{{assign "cellResponsiveClasses" (concat @root.cellResponsiveClasses " " "mobile-padding-top")}}
-{{else}}
-  {{assign "cellResponsiveClasses" (concat @root.cellResponsiveClasses " " "mobile-padding-30-top")}}
-{{/if}}
-
-{{#if cellResponsive}}
-  {{assign "cellResponsiveClasses" (concat @root.cellResponsiveClasses " " cellResponsive)}}
 {{/if}}
 
 {{assign
