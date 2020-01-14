@@ -1,0 +1,47 @@
+{
+  "link": "#",
+  "image": "start-decade--animation.gif",
+  "imageResponsive": "mobile-padding-horizontal-sides mobile-padding-20-bottom",
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Forget about the new year, <strong>start the new DECADE with Premium Placements!</strong> We offer Exclusive Placements within the Justia & LII Directories."
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "<strong>Get the top spot before someone else does!</strong><br>Here are some of the perks:"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "yellow",
+        "text": "I Want Exclusive Placements",
+        "width": 300,
+        "height": 45,
+        "fontSize": 18
+      }
+    },
+    {
+      "type": "description",
+      "responsive": "mobile-no-padding-top",
+      "linkText": false,
+      "config": [
+        {
+          "text": "Justia Lawyer Directory Team<br><strong>(888) 587-8421</strong>"
+        }
+      ]
+    }
+  ]
+}

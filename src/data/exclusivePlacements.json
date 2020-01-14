@@ -1,0 +1,40 @@
+{
+  "link": "#",
+  "title": "<strong responsive=\"mobile-fz-28\">Clearly See Your Marketing<br responsive=\"mobile-hide\"/> Dollars Spent the Right Way!</strong>",
+  "titlePosition": "top",
+  "titleResponsiveSize": 18,
+  "image": "marketing-dollars--animation.gif",
+  "imageResponsive": "mobile-padding-horizontal-sides mobile-padding-20-bottom",
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "<strong>Start off the new year on the right foot and become a premium member</strong> on the Justia Lawyer Directory and see what changes come your way. We offer top spots in your area as well."
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "Become a Premium Member",
+        "width": 300,
+        "height": 45,
+        "fontSize": 18
+      }
+    },
+    {
+      "type": "description",
+      "responsive": "mobile-no-padding-top",
+      "linkText": false,
+      "config": [
+        {
+          "text": "<em>Disclaimer: Platinum Placements are sold on a first-come, first-served basis. Platinum Placements may be sold out in your area. Our Marketing Specialists will be able to answer all your questions.</em>"
+        }
+      ]
+    }
+  ]
+}
