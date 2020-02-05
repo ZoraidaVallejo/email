@@ -5,19 +5,24 @@
   },
   "news": [
     {
-      "title": "[Fugiat Lorem consectetur aute nulla sit.]",
-      "link": "https://www.justia.com/",
-      "description": "[Laboris officia est dolore aute. Reprehenderit quis occaecat ex aute. Occaecat consequat deserunt proident elit...]"
+      "title": "Inside the Billion-Dollar Battle Over .Org",
+      "link": "https://www.nytimes.com/2020/01/07/technology/dot-org-private-equity-battle.html",
+      "description": "Ethos Capital, a private equity firm, announced its intent to buy the “.org” top-level domain, sparking backlash."
     },
     {
-      "title": "[Aute ad ea ipsum culpa magna laborum irure ullamco officia eiusmod cillum eu qui excepteur.]",
-      "link": "https://www.justia.com/",
-      "description": "[Irure nostrud pariatur ipsum culpa sint laborum id irure in deserunt. Cillum ullamco in excepteur...]"
+      "title": "In Flashpoint for the Rebellion Against Big Tech, Sonos Sues Google for Patent Infringement",
+      "link": "https://arstechnica.com/gadgets/2020/01/in-a-flashpoint-for-the-rebellion-against-big-tech-sonos-sues-google-for-patent-infringement/",
+      "description": "Smart audio company Sonos has filed a lawsuit against Google alleging infringement of patented technology Sonos had shared with Google in an attempt to collaborate."
     },
     {
-      "title": "[Duis dolore duis fugiat quis qui amet id fugiat nulla.]",
-      "link": "https://www.justia.com/",
-      "description": "[Occaecat laborum sit reprehenderit labore ex. Incididunt in occaecat mollit dolor amet aute tempor velit...]"
+      "title": "Two iPhones or the Privacy of Billions: Why Apple vs. the FBI Matters",
+      "link": "https://www.nbcnews.com/tech/security/two-iphones-or-privacy-billions-why-apple-vs-fbi-matters-n1118001",
+      "description": "Apple continues to refuse the FBI’s requests to unlock the iPhones of a deceased Saudi national accused of fatally shooting three people at a Florida naval base in December."
+    },
+    {
+      "title": "How the Police Use Facial Recognition, and Where It Falls Short",
+      "link": "https://www.nytimes.com/2020/01/12/technology/facial-recognition-police.html",
+      "description": "A facial-recognition system used by police in Florida exemplifies the potential risks and rewards of such technologies in law enforcement."
     }
   ]
 }

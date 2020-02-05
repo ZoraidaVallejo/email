@@ -7,33 +7,22 @@
     {
       "image": {
         "src": "clients-news-logo-01.png",
-        "alt": "[Id commodo deserunt aute veniam non cupidatat.]"
+        "alt": "Fox News"
       },
       "description": [
-        "[<b>Dolor labore do id tempor</b> aliquip dolor qui tempor et cillum nisi fugiat. Culpa enim nostrud ad veniam dolore fugiat nostrud occaecat.]"
+        "<b>Shawn Collins of The Collins Law Firm, P.C.</b> was featured on CBS This Morning representing five women in a lawsuit against Sterigenics"
       ],
-      "readMore": "https://www.justia.com/"
+      "readMore": "https://www.cbsnews.com/news/ethylene-oxide-emissions-from-an-illinois-sterilization-plant-gave-women-cancer-lawsuit-says/"
     },
     {
       "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Exercitation aute laborum amet exercitation veniam.]"
+        "src": "clients-news-logo-02.png",
+        "alt": "CBS This Morning"
       },
       "description": [
-        "[Eiusmod incididunt velit nostrud <b>elit anim ex exercitation</b> ipsum velit mollit.]"
+        "Dennis Brager of <b>Brager Tax Law Group</b> was quoted by Fox News on how Prince Harry and Meghan Markle's exit from their Royal Family duties will impact their taxes"
       ],
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Sit minim sit est sint adipisicing.]"
-      },
-      "description": [
-        "[Sunt labore exercitation elit ipsum nisi cillum labore do.]",
-        "[Excepteur commodo <b>aliquip ad in dolore mollit</b> enim ex elit veniam Lorem.]"
-      ],
-      "readMore": "https://www.justia.com/"
+      "readMore": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-taxes"
     }
   ]
 }
