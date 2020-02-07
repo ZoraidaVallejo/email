@@ -12,7 +12,12 @@
     },
     "ad2": {
       "link": "https://www.justia.com/marketing/lawyer-directory/",
-      "utm": {},
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v28"
+      },
       "image": "marketing-graphic-02.gif",
       "imageAlt": "Make Marketing a Priority",
       "contentOrder": [
