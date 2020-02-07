@@ -29,14 +29,16 @@
 
     .description {
         padding: 0 $padding $widget-gap;
-        text-align: center;
+        text-align: left;
 
-        p {
-            @include mail-font(18px, 1.3);
-        }
+        // p {
+        //     @include mail-font(16px, 1.3);
+        //     text-align: left;
+        // }
 
         .source {
-            margin: 25px 0 0;
+            margin: 0 0 25px;
+            text-align: center;
 
             &:last-child {
                 margin: 0;

@@ -8,22 +8,27 @@
   },
   "sites": [
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
+      "clientName": "Tobias, McCormick & Comer, LLC",
       "location": {
-        "detailed": "[Anytown, CA]",
-        "short": "[Anytown, CA]"
+        "detailed": "Mobile, AL",
+        "short": "Mobile, AL"
       },
-      "possessiveAdjective": "[their]",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.tmclawyers.com/",
+        "simple": "tmclawyers.com"
       },
-      "screenshots": "featured-site-01.jpg",
-      "thumbnail": "featured-site-01-thumb.jpg"
+      "screenshots": "featured-site-01.png",
+      "thumbnail": "featured-site-01-thumb.png"
     }
   ],
   "description": [
     "At Justia, we build law firm websites that are responsive, mobile-friendly, and AMP enabled. Our commitment to high-quality, relevant websites will help you attract clients in the practice areas and locations most important to your firm. We also offer Premium Membership on the Justia & LII Lawyer directories.",
     "If you're interested in our website and SEO services, Premium membership opportunities, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
-  ]
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newletter&utm_campaign=2020-02&utm_content=section-featured-site-of-the-month-learn-more-button-v1",
+    "text": "Learn More"
+  }
 }

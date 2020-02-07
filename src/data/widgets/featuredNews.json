@@ -3,38 +3,80 @@
     "icon": "featured-news",
     "header": "Featured News"
   },
-  "link": "https://onward.justia.com/",
-  "utm": {
-    "clients": {
-      "medium": "email",
-      "campaign": "<%= dateFormat.dash %>",
-      "source": "client-newsletter",
-      "content": {
-        "title": "text-onward-post-title-1",
-        "image": "image-onward-post-1",
-        "button": "button-learn-more-1"
+  "columns": [
+    {
+      "link": "https://onward.justia.com/2020/02/07/the-collaborative-law-firm-part-vii-video-conferencing/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-01.png",
+        "alt": "The Collaborative Law Firm: Part VII — Video Conferencing"
+      },
+      "title": "The Collaborative Law Firm: Part VII — Video Conferencing",
+      "description": [
+        "In this article in The Collaborative Law Firm series, we tackle video conferencing solutions to help you meet with your colleagues face to face even when you are far apart..."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
       }
     },
-    "jld": {
-      "medium": "email",
-      "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
-      "content": {
-        "title": "text-onward-post-title-1",
-        "image": "image-onward-post-1",
-        "button": "button-learn-more-1"
+    {
+      "link": "https://onward.justia.com/2020/02/07/how-to-optimize-your-website-images-for-search-engines/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-02.png",
+        "alt": "How to Optimize Your Website Images for Search Engines"
+      },
+      "title": "How to Optimize Your Website Images for Search Engines",
+      "description": [
+        "Well-optimized images boost your online visibility and are essential to get your message across in just a single glimpse. The internet is becoming increasingly visual and interactive..."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
       }
     }
-  },
-  "banner": "featured-news-01.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
-  "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
-  ],
-  "button": {
-    "style": "light-blue-ghost",
-    "link": "https://onward.justia.com/",
-    "text": "Read More"
-  }
+  ]
 }

@@ -5,11 +5,6 @@
   },
   "news": [
     {
-      "title": "Facebook is Banning Deepfake Videos",
-      "link": "https://www.vox.com/recode/2020/1/7/21055024/facebook-ban-deepfake-video",
-      "description": "Facebook announced this month that it would ban \"deepfakes\", which are AI-manipulated videos that distort reality, and other heavily manipulated media."
-    },
-    {
       "title": "Facebook Accused of Shutting Out Mobile Competitors in Lawsuit",
       "link": "https://www.theverge.com/2020/1/17/21070318/facebook-developers-data-lawsuit-competitors",
       "description": "Mobile app developers have filed a class-action lawsuit against Facebook alleging that the company revoked access to data in an attempt to stifle competition."
@@ -18,6 +13,11 @@
       "title": "LinkedIn Brings 3 New Features to LinkedIn Pages",
       "link": "https://www.searchenginejournal.com/linkedin-brings-3-new-features-to-linkedin-pages/",
       "description": "LinkedIn pages are gaining three new features: the ability to invite first-degree profile connections to follow, the ability to stream with LinkedIn Live, and the option to post as an individual or an organization."
+    },
+    {
+      "title": "Facebook is Banning Deepfake Videos",
+      "link": "https://www.vox.com/recode/2020/1/7/21055024/facebook-ban-deepfake-video",
+      "description": "Facebook announced this month that it would ban \"deepfakes\", which are AI-manipulated videos that distort reality, and other heavily manipulated media."
     },
     {
       "title": "Facebook is Preparing to Launch a Desktop Redesign to All Users",

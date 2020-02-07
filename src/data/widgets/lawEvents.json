@@ -5,46 +5,40 @@
   },
   "events": [
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Voluptate nulla ad magna duis culpa veniam fugiat laboris cillum deserunt nulla dolor.]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 11 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "The Internet and <br>ADA Compliance",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/392695878/"
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Culpa minim aute aute proident ex magna.]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 11 2pm ET",
+      "typeLocation": "Webinar",
+      "description": "The Class Differential in Privacy Law",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/teleconference/391960939/"
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Nostrud mollit pariatur aute do.]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 12 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "H-1B Visa Reforms for 2020 and Alternatives",
+      "readMore": "https://www.americanbar.org/groups/young_lawyers/resources/webinars/h1b-visa-reforms-and-alternatives/"
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Ad fugiat irure commodo deserunt laborum dolore proident ullamco commodo dolore occaecat..]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 13-15",
+      "typeLocation": "Carlsbad, CA",
+      "description": "2020 Corporate Counsel CLE Seminar",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/cds/379447109/ltcc20/"
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Velit sit tempor veniam eu laborum consectetur dolore eu et incididunt occaecat non.]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 26",
+      "typeLocation": "IIT Chicago-Kent College of Law",
+      "description": "2020 Women of Legal Tech Summit",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/inperson/385717308/"
     },
     {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Eu exercitation non aliquip ea adipisicing eu labore qui proident sit elit laboris.]",
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "dateTime": "[Month 00 00PM ET]",
-      "typeLocation": "[Webinar]",
-      "description": "[Quis anim nisi nulla duis fugiat et irure ad dolor nisi non.]",
-      "readMore": "https://www.justia.com/"
+      "dateTime": "February 26-29",
+      "typeLocation": "Chicago, Illinois",
+      "description": "ABA Tech Show",
+      "readMore": "https://www.techshow.com/"
     }
   ]
 }

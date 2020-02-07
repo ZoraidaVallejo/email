@@ -6,7 +6,8 @@
     },
     "title": "Keep Your Website ADA Compliant",
     "description": [
-      "You likely have seen the recent case concerning website accessibility for blind or visually impaired persons. We have worked hard here at Justia to make sure your site (either website or blog) is ADA compliant. While there is no official standard on which tools confirm your site is compliant, we have used two tools to check and make sure that your site is ADA compliant.","If you are going to be updating your website or blog content yourself, you need to be careful not to input any codes or other HTML that may cause your site to no longer comply with ADA. As always, you are welcome to send us any changes or content you'd like to add to your website and we will ensure that when added it meets ADA standards."
+      "You likely have seen the recent case concerning website accessibility for blind or visually impaired persons. We have worked hard here at Justia to make sure your site (either website or blog) is ADA compliant. While there is no official standard on which tools confirm your site is compliant, we have used two tools to check and make sure that your site is ADA compliant.",
+      "If you are going to be updating your website or blog content yourself, you need to be careful not to input any codes or other HTML that may cause your site to no longer comply with ADA. As always, you are welcome to send us any changes or content you'd like to add to your website and we will ensure that when added it meets ADA standards."
     ],
     "button": {
       "style": "red-ghost",
@@ -20,16 +21,16 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "title": "Make Sure Your Profile is Complete!",
     "description": [
-      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
-      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+      "Millions of users visit the Justia and Legal Information Institute (LII) Lawyer Directories each year to find legal representation. Lawyers who have completed their profiles can benefit directly from this high volume of visitors. Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads."
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn How",
-      "width": 150
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F*|PROFILE_ID|*%2Fedit%2Foverview%3Futm_medium%3Demail%26utm_source%3Ddirectory-newletter%26utm_campaign%3D2020-02%26utm_content%3Dsection-tip-of-the-month-profile-completeness-button-v1",
+      "text": "Update Profile Now",
+      "width": 190,
+      "responsive": "responsive-button"
     }
   }
 }

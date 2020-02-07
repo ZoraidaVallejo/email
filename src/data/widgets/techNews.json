@@ -5,11 +5,6 @@
   },
   "news": [
     {
-      "title": "Inside the Billion-Dollar Battle Over .Org",
-      "link": "https://www.nytimes.com/2020/01/07/technology/dot-org-private-equity-battle.html",
-      "description": "Ethos Capital, a private equity firm, announced its intent to buy the “.org” top-level domain, sparking backlash."
-    },
-    {
       "title": "In Flashpoint for the Rebellion Against Big Tech, Sonos Sues Google for Patent Infringement",
       "link": "https://arstechnica.com/gadgets/2020/01/in-a-flashpoint-for-the-rebellion-against-big-tech-sonos-sues-google-for-patent-infringement/",
       "description": "Smart audio company Sonos has filed a lawsuit against Google alleging infringement of patented technology Sonos had shared with Google in an attempt to collaborate."
@@ -18,6 +13,11 @@
       "title": "Two iPhones or the Privacy of Billions: Why Apple vs. the FBI Matters",
       "link": "https://www.nbcnews.com/tech/security/two-iphones-or-privacy-billions-why-apple-vs-fbi-matters-n1118001",
       "description": "Apple continues to refuse the FBI’s requests to unlock the iPhones of a deceased Saudi national accused of fatally shooting three people at a Florida naval base in December."
+    },
+    {
+      "title": "Inside the Billion-Dollar Battle Over .Org",
+      "link": "https://www.nytimes.com/2020/01/07/technology/dot-org-private-equity-battle.html",
+      "description": "Ethos Capital, a private equity firm, announced its intent to buy the “.org” top-level domain, sparking backlash."
     },
     {
       "title": "How the Police Use Facial Recognition, and Where It Falls Short",
