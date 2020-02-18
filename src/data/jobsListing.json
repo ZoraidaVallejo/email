@@ -1,16 +1,6 @@
 {
   "places": [
     {
-      "area": "Location Flexible / Remote",
-      "jobs": [
-        {
-          "title": "Senior Legal Counsel",
-          "company": "Wikimedia Foundation",
-          "link": "https://boards.greenhouse.io/wikimedia/jobs/2014532"
-        }
-      ]
-    },
-    {
       "area": "Multiple Locations (Seattle, WA; Bozeman, MT; Jackson, WY; Denver, CO; Santa Fe, NM)",
       "jobs": [
         {
@@ -71,6 +61,21 @@
       ]
     },
     {
+      "area": "California - Sacramento",
+      "jobs": [
+        {
+          "title": "Attorney",
+          "company": "State Water Resources Control Board",
+          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=190805"
+        },
+        {
+          "title": "Deputy Attorney General",
+          "company": "Corporate Fraud Section, California Department of Justice",
+          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=190821"
+        }
+      ]
+    },
+    {
       "area": "California - San Francisco Bay Area",
       "jobs": [
         {
@@ -111,21 +116,6 @@
       ]
     },
     {
-      "area": "California - Sacramento",
-      "jobs": [
-        {
-          "title": "Attorney",
-          "company": "State Water Resources Control Board",
-          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=190805"
-        },
-        {
-          "title": "Deputy Attorney General, ",
-          "company": "Corporate Fraud Section, California Department of Justice",
-          "link": "https://jobs.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=190821"
-        }
-      ]
-    },
-    {
       "area": "DC - Washington Metro Area",
       "jobs": [
         {
@@ -141,7 +131,7 @@
         {
           "title": "Managing Attorney (2 Positions)",
           "company": "Disability Rights DC at University Legal Services",
-          "link": "http://www.uls-dc.org/media/1187/managing-attorney-announcement.docx"
+          "link": "http://www.uls-dc.org/jobs/"
         },
         {
           "title": "Public Defense Counsel",
