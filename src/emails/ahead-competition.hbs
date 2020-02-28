@@ -1,0 +1,25 @@
+---
+subject: "JUSTIA Lawyer Directory"
+---
+
+{{>preheader text="Justia Lawyer Directory"}}
+
+{{#table class="blast luck-marketing" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{>blast-content widgetConfig=aheadCompetition
+      }}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer}}
+    </td>
+  </tr>
+{{/table}}

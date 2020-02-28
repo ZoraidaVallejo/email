@@ -1,0 +1,68 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.blast {
+
+  a[href^=tel] {
+    font-size: 18px !important;
+  }
+
+  .about-justia p {
+    font-size: 14px !important;
+    line-height: 1.8;
+  }
+}
+
+.luck-marketing {
+  .main-title {
+    @include mail-font(36px, $weight: '600');
+    padding-top: 35px;
+    padding-bottom: 18px;
+    color: plt('white');
+
+    a {
+      color: plt('white');
+    }
+  }
+
+  .content {
+    background-color: #3c009b;
+    text-align: center;
+    color: plt('white');
+
+    &.-description {
+
+      p,
+      em,
+      a {
+        color: plt('white');
+      }
+    }
+
+    &.-idx-1 {
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+
+    &.-button {
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 16px;
+    }
+  }
+
+  .content.-description.-idx-3 {
+    border-bottom: 1px solid plt('white');
+
+    p,
+    em,
+    a {
+      color: plt('white');
+
+      strong {
+        @include mail-font(18px, $weight: '900');
+      }
+    }
+  }
+}
