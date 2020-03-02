@@ -98,6 +98,16 @@
   {{/if}}
 
   {{#if widgetConfig.contentOrder}}
+    <tr>
+      {{>ui-background
+        backgroundBehavior="cell"
+        backgroundStart=true
+        bgImage=widgetConfig.contentBg
+        bgColor='#07466a'
+        bgWidth='600px'
+        bgSize='100% auto'
+      }}
+        <table {{{tableAttr}}}>
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "description"}}
         <tr>
@@ -164,6 +174,9 @@
         </tr>
       {{/compare}}
     {{/forEach}}
+        </table>
+        {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+    </tr>
   {{/if}}
 
   {{#if widgetConfig.background}}

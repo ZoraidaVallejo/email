@@ -26,8 +26,12 @@
     }
   }
 
+  .ui-background {
+    // background-size: 100% auto;
+  }
+
   .content {
-    background-color: #3c009b;
+    // background-color: #07466a;
     text-align: center;
     color: plt('white');
 
@@ -41,7 +45,7 @@
     }
 
     &.-idx-1 {
-      padding-top: 5px;
+      padding-top: 44px;
       padding-bottom: 10px;
     }
 
