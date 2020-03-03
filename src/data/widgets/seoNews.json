@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Google on Dealing With Manual Actions & Reconsideration Requests",
+      "link": "https://www.searchenginejournal.com/google-on-dealing-with-manual-actions-reconsideration-requests/349872/ ",
+      "description": "If your site has received a penalty and you’re unable to resolve the issue via reconsideration request, Google advises asking for input in the Google Webmasters Help forum."
+    },
+    {
+      "title": "Google Backtracks on Using (Relevant) Keywords in Your Google My Business Description",
+      "link": "https://searchengineland.com/google-use-relevant-keywords-in-your-google-my-business-description-329112",
+      "description": "Google issued and quickly rescinded guidance suggesting that local business owners incorporate relevant keywords in GMB descriptions after pushback from local SEO experts."
+    },
+    {
+      "title": "Google Search Console Adds Review Snippets Performance, Enhancement and Testing Reports",
+      "link": "https://searchengineland.com/google-search-console-adds-review-snippets-performance-enhancement-and-testing-reports-328925",
+      "description": "For sites with reviews on their pages, Google is now offering additional support in the form of various reports that can help webmasters understand how these pages are performing."
+    },
+    {
+      "title": "Google’s Mobile-First Indexing: Everything We Know (So Far)",
+      "link": "https://www.searchenginejournal.com/google-mobile-first-indexing/346170/",
+      "description": "This compilation of pointers on mobile-first indexing seeks to clarify certain aspects of the rollout, and also includes explanations of how it may impact specific categories of sites."
+    }
+  ]
+}

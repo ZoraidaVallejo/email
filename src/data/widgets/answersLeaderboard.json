@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Participating Lawyers",
+    "type": "Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "list": [
+    {
+      "id": "1587795",
+      "rank": 1,
+      "name": "Jean Richardson",
+      "location": "North Miami, FL",
+      "nameLink": "https://answers.justia.com/lawyer/1587795/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1587795?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "141194",
+      "rank": 2,
+      "name": "Tania Maria Williams",
+      "location": "West Palm Beach, FL",
+      "nameLink": "https://answers.justia.com/lawyer/141194/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/141194?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1587337",
+      "rank": 3,
+      "name": "Robyn T. Williams",
+      "location": "Wilmington, DE",
+      "nameLink": "https://answers.justia.com/lawyer/1587337/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1587337?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "1587512",
+      "rank": 4,
+      "name": "Cynthia Rote",
+      "location": "Rockton, IL",
+      "nameLink": "https://answers.justia.com/lawyer/1587512/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/1587512?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "543844",
+      "rank": 5,
+      "name": "Jeffrey H. Garland",
+      "location": "Fort Pierce, FL",
+      "nameLink": "https://answers.justia.com/lawyer/543844/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/543844?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-03&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}

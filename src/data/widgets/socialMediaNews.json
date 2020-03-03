@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "YouTube Is Testing a New Way for Creators to Make Money from Viewers",
+      "link": "https://www.searchenginejournal.com/youtube-is-testing-a-new-way-for-creators-to-make-money-from-viewers/349760/",
+      "description": "YouTube creators may soon be able to access a new means of raising funds directly from viewers with a feature that allows viewers to purchase “applause” on any video at any time."
+    },
+    {
+      "title": "New Instagram Feature Helps Users Clean Up Their Following List",
+      "link": "https://www.searchenginejournal.com/new-instagram-feature-helps-users-clean-up-their-following-list/347738/",
+      "description": "Instagram is rolling out a new feature that allows users to refine their feeds by grouping accounts they are following into categories such as seen most often or least interacted with."
+    },
+    {
+      "title": "Twitter Will Ban ‘Deceptive’ Faked Media That Could Cause ‘Serious Harm’",
+      "link": "https://www.theverge.com/2020/2/4/21122661/twitter-deepfake-manipulated-media-policy-rollout-date",
+      "description": "Twitter is banning fake pictures, video, and other potentially harmful content, and will also start labeling and giving more context to media that has been significantly “manipulated.” "
+    },
+    {
+      "title": "YouTube Is the Frontrunner in the Mobile Streaming Wars, and It’s Not Even Close",
+      "link": "https://www.theverge.com/2020/2/13/21136335/youtube-streaming-wars-mobile-android-tiktok-netflix-quibi",
+      "description": "New research shows that YouTube accounts for 70 percent of the total time users spend viewing content on their phones in the top five entertainment apps, which include Netflix."
+    }
+  ]
+}

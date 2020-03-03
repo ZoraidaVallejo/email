@@ -1,0 +1,207 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.widget {
+    border-bottom: 1px solid plt('gallery');
+    background-color: plt('white');
+
+    &:nth-child(odd) {
+        background-color: plt('wild-sand');
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.widget-header {
+    padding: $widget-gap $padding $padding;
+
+    .header-icon-column {
+        width: 55px;
+        vertical-align: middle;
+
+        img {
+            width: 55px;
+        }
+    }
+
+    .header-text-column {
+        padding: 0 0 0 15px;
+        vertical-align: middle;
+    }
+
+    .type {
+        color: plt('justia-blue');
+
+        @include mail-font(16px, 1, tp('weight', 'normal'));
+    }
+
+    .header {
+        color: plt('justia-blue');
+
+        @include mail-font(32px, 1.2, tp('weight', 'bold'));
+
+        a {
+            color: plt('justia-blue');
+        }
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.widget-banner {
+    padding: 0 $padding 35px;
+
+    img {
+        width: $inner-max-width;
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.widget-description {
+    padding: 0 $padding 25px;
+
+    .content-title {
+        @include mail-font(22px, 1.2, tp('weight', 'bold'));
+        margin: 0 0 10px;
+        color: plt('black');
+
+        a {
+            color: plt('black');
+        }
+
+        &.-blue {
+            color: plt('justia-blue');
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+    }
+
+    .content-subtitle {
+        @include mail-font(18px, 1.3);
+        margin: 0 0 15px;
+    }
+
+    &.-no-button {
+        padding: 0 $padding $widget-gap;
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.widget-button {
+    padding: 0 $padding $widget-gap;
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.widget-columns {
+
+    > .wrapper {
+        padding: 0 $padding 20px;
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
+
+    &.-articles {
+
+        .article {
+
+            a,
+            p {
+                color: plt('black');
+            }
+
+            .title {
+                margin: 0 0 8px;
+            }
+        }
+    }
+
+    &.-with-image {
+
+        .block-image,
+        .block-image-link {
+
+            + .block-description {
+                margin: 25px 0 16px;
+
+                &:last-child {
+                    margin: 25px 0 0;
+                }
+            }
+        }
+
+        .block-image {
+            width: 250px;
+        }
+
+        .block-title {
+            @include mail-font(22px, 1.1, tp('weight', 'bold'));
+            margin: 15px 0 10px;
+            color: plt('justia-blue');
+        }
+
+        .block-subtitle {
+            @include mail-font(18px, 1.3);
+            margin: 0 0 15px;
+        }
+
+        .block-description {
+
+            a {
+                color: plt('black');
+            }
+        }
+    }
+
+    &.-image-text {
+
+        .content {
+            padding: 0 0 25px;
+
+            .content-side {
+                width: 250px;
+
+                img {
+                    width: 250px;
+                }
+
+                &:first-child {
+                    float: left;
+                }
+
+                &:last-child {
+                    float: right;
+                }
+            }
+        }
+
+        .content-wrapper {
+
+            &.-first .content {
+                padding: 35px 0 20px;
+            }
+
+            &.-button .content {
+                padding: 0 0 18px;
+            }
+
+            &.-last .content {
+                padding: 0 0 $widget-gap;
+            }
+        }
+
+        .-description {
+
+            a {
+                color: plt('black');
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+// ----------------------------------------------------------------------------------------------------------
+// I N T E R N E T   S T A T S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-internet-stats {
+
+    .subtitle {
+        padding: 0 $padding grid-unit();
+        text-align: center;
+
+        p {
+            @include mail-font(18px, 1.3);
+            margin: 0;
+        }
+    }
+
+    .chart {
+        padding: 0 $padding grid-unit();
+        text-align: center;
+
+        img {
+            width: 540px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
+
+    .description {
+        padding: 0 $padding $widget-gap;
+        text-align: left;
+
+        // p {
+        //     @include mail-font(16px, 1.3);
+        //     text-align: left;
+        // }
+
+        .source {
+            margin: 0 0 25px;
+            text-align: center;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
