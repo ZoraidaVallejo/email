@@ -148,7 +148,7 @@
         }
 
         .block-subtitle {
-            @include mail-font(18px, 1.3);
+            @include mail-font(18px, 1.3, tp('weight', 'bold'));
             margin: 0 0 15px;
         }
 
