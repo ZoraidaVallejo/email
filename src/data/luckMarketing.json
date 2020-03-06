@@ -1,0 +1,60 @@
+{
+  "link": "#",
+  "image": "luck-marketing.gif",
+  "imageResponsive": "",
+  "contentBg": "luck-marketing-bg.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Justia is excited to announce its new paid ads management service."
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "For the next 30 days, take advantage of our introductory pricing.*"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "text": "Learn More",
+        "width": 200,
+        "height": 45,
+        "fontSize": 18
+      }
+    },
+    {
+      "type": "description",
+      "responsive": "mobile-no-padding-top",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "Or call us at <strong>(888) 587-8421</strong>"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "responsive": "mobile-no-padding-top",
+      "linkText": true,
+      "config": [
+        {
+          "link": "#",
+          "text": "The Justia Ads management service includes a landing page that converts, optimized keywords, and more. If you’ve ever wanted to take your branding and online visibility one step further, now’s the time.<br><br><i>* Offer ends MONTH DAY, YEAR.</i>"
+        }
+      ]
+    }
+  ]
+}

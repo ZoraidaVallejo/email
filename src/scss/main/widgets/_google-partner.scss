@@ -1,0 +1,26 @@
+// ----------------------------------------------------------------------------------------------------------
+// G O O G L E   P A R T N E R
+// ----------------------------------------------------------------------------------------------------------
+
+.google-partner {
+  border-top: 1px solid plt('alto');
+  background-color: plt('wild-sand');
+
+  td {
+    width: 325px;
+    padding: 20px 45px 20px 0;
+  }
+
+  .image {
+    width: 175px;
+    padding: 20px 0 20px 45px;
+  }
+
+  p {
+    @include mail-font(14px, 1.5);
+  }
+
+  a {
+    color: plt('black');
+  }
+}

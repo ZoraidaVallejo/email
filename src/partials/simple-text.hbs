@@ -1,0 +1,49 @@
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {String}   widgetConfig.sectionName
+ * @param {String}   widgetConfig.title
+ * @param {String}   widgetConfig.link
+ * @param {String[]} widgetConfig.description
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+}}
+
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "simpleTextWidgetButton" true}}
+{{else}}
+  {{assign "simpleTextWidgetButton" false}}
+{{/and}}
+
+{{assign "simpleTextWidgetWithImage" (and
+  (isTruthy widgetConfig.image)
+  (compare widgetConfig.image.src "!==" "")
+)}}
+
+{{#table class=(classList "w-simple-text" (ternary @root.simpleTextWidgetWithImage "-with-image" "") widgetClass "set-max-width")}}
+  <tr>
+    <td class="main-title" responsive="mobile-padding-horizontal-sides" {{#if @root.simpleTextWidgetWithImage}}colspan="2"{{/if}}>
+      {{>widget-header section=widgetConfig.sectionName title=widgetConfig.title link=widgetConfig.link}}
+    </td>
+  </tr>
+  <tr>
+    <td class="description{{#if @root.simpleTextWidgetButton}} -with-button{{/if}}" responsive="mobile-padding-horizontal-sides">
+      {{#each widgetConfig.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+      {{#if @root.simpleTextWidgetButton}}
+        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link}}{{widgetConfig.button.text}}{{/uiButton}}
+      {{/if}}
+    </td>
+
+    {{#if @root.simpleTextWidgetWithImage}}
+      <td class="image" responsive="mobile-hide">
+        {{#if widgetConfig.image.link}}<a href="{{{widgetConfig.image.link}}}" target="_blank">{{/if}}
+          {{>img src=widgetConfig.image.src alt=this.title}}
+        {{#if widgetConfig.image.link}}</a>{{/if}}
+      </td>
+    {{/if}}
+  </tr>
+{{/table}}
