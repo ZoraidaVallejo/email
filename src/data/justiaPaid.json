@@ -1,8 +1,8 @@
 {
   "link": "#",
-  "image": "luck-marketing.gif",
+  "image": "justia-paid.gif",
   "imageResponsive": "",
-  "contentBg": "luck-marketing-bg.png",
+  "contentBg": "justia-paid-bg.png",
   "contentOrder": [
     {
       "type": "description",
@@ -10,7 +10,7 @@
       "config": [
         {
           "link": "#",
-          "text": "Justia is excited to announce its new paid ads management service."
+          "text": "Justia is excited to announce its new<br>paid ads management service."
         }
       ]
     },
@@ -20,7 +20,7 @@
       "config": [
         {
           "link": "#",
-          "text": "For the next 30 days, take advantage of our introductory pricing.*"
+          "text": "For the next 30 days, take advantage<br>of our introductory pricing.*"
         }
       ]
     },
@@ -30,7 +30,7 @@
         "style": "red",
         "text": "Learn More",
         "width": 200,
-        "height": 45,
+        "height": 50,
         "fontSize": 18
       }
     },

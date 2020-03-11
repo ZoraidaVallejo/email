@@ -6,14 +6,17 @@
   border-top: 1px solid plt('alto');
   background-color: plt('wild-sand');
 
+  .wrapper {
+    padding: 20px 45px;
+  }
+
   td {
     width: 325px;
-    padding: 20px 45px 20px 0;
   }
 
   .image {
-    width: 175px;
-    padding: 20px 0 20px 45px;
+    width: 155px;
+    padding-right: 20px;
   }
 
   p {

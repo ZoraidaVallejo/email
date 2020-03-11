@@ -111,7 +111,7 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-vertical-sides {{this.responsive}}">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-vertical-sides {{this.responsive}}">
             {{#each this.config}}
               {{#if this.image}}
                 <table {{{tableAttr}}}>
