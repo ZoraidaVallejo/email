@@ -69,4 +69,15 @@
       }
     }
   }
+
+  .-idx-top.-description {
+    padding-top: 30px;
+    background-color: #ffc700;
+    color: #052d4d;
+    
+    p {
+      @include mail-font(20px, 1.2);
+      color: #052d4d;
+    }
+  }
 }
