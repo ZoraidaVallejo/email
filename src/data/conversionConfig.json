@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "projectName": "blast",
+  "justaticVersion": "1",
+  "releaseDate": "2020-03-18",
+  "dateFormat": {
+    "string": "MMMM YYYY",
+    "stringFull": "MMMM DD, YYYY",
+    "slash": "YYYY/MM",
+    "dash": "YYYY-MM",
+    "dashFull": "YYYY-MM-DD"
+  },
+  "remoteImages": "newsletters/<%= dateFormat.slash %>",
+  "compressedFileName": ""
+}

@@ -1,0 +1,47 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad2": {
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F*|PROFILE_ID|*%2Fedit%2Fvideo_chat%3Futm_medium%3Demail%26utm_source%3Dpromo-directory-editing%26utm_campaign%3Dcampaign-522-promo-212%26utm_content%3Dbutton-add-video-services-bottom-1",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<strong>Stay Safe</strong><br>We realize that these are challenging times for everyone everywhere. We encourage everyone to practice social distancing and shelter in place. This is what is needed, especially until there is widespread testing of COVID-19. Resources and updates about the Coronavirus can be found at the <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/\" target=\"_blank\" rel=\"nofollow\"><strong>CDC</strong></a>.",
+            "<strong>Video Chat & Conferencing Services</strong><br>When dealing with clients, we encourage everyone to transact their conversations by either phone or video chat. To help lawyers continue their practices, we are posting and sharing resources on video chats and conferencing. In particular, lawyers might want to offer the four major services used by individuals: Google Hangouts, Skype, Zoom, and Facetime. We will also list other services and options, such as WebEx and GoToMeeting, as well as legal vertical specific video chat services. We encourage all lawyers to learn how these services work and to use them in their practices.",
+            "<a href=\"#\"><strong>Our blog post</strong></a> provides further information to help you learn about different video chat and conferencing options, including free services.  <a href=\"#\"><strong>Learn More</strong></a>...",
+            "<strong>Video Chat Badge & Filter in the Lawyer Directory</strong><br>To help individuals and businesses find lawyers who do video conferencing, we have added a new \"Offers Video Chat\" filter to our Lawyer Directory search. There will also be a \"Video Chat & Conferencing\" badge on your profile and in the listing pages. This lets visitors easily find lawyers who offer video chat and conferencing services.",
+            "<strong>Add Video Chat Services Offered to Your Lawyer Profile</strong><br>We encourage every lawyer to update their profile and select the video services that they offer. If you do not currently offer video chat or conferencing services, you should learn how to use them from our posts and resources. For many clients, it will be increasingly important to communicate with their attorneys by video. Offering video chat and conferencing can make interactions more personal and provide a better client experience.",
+            "Please <a href=\"https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F*|PROFILE_ID|*%2Fedit%2Fvideo_chat%3Futm_medium%3Demail%26utm_source%3Dpromo-directory-editing%26utm_campaign%3Dcampaign-522-promo-212%26utm_content%3Dtext-add-the-video-chat-and-conferencing-1\"><strong>add the video chat and conferencing</strong></a> services that you provide on your profile to be included in the video services filter. You will receive a badge, and be included in the \"Offers Video Chat\" filtered search results."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Add Video Services",
+            "width": 220,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "on Your Lawyer Directory Profile"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team<br><a href=\"tel:8885878421\" target=\"_blank\"><strong>(888) 587-8421</strong></a>"
+          ]
+        }
+      ]
+    }
+  }
+}
