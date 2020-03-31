@@ -1,0 +1,38 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Google Temporarily Disables Reviews and Q&A",
+    "link": "https://www.searchenginejournal.com/google-my-business-temporarily-removes-features-due-to-covid-19/356300/",
+    "description": [
+      "Due to COVID-19, Google announced that they are temporarily disabling reviews and Q&A functionality on all Google listings. During this time, users will not be able to leave new reviews, business owners won't be able to reply to reviews and users will be temporarily unable to ask or answer questions via Google Q&A. Google is making this change in order to protect against misinformation in times like this.",
+      "Google’s prioritization of critical services will also extend to reviewing business information edits, so if your business does not provide a critical, health-related service, it may be some time before you see any edits go live on your GMB listing."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.searchenginejournal.com/google-my-business-temporarily-removes-features-due-to-covid-19/356300/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Google Temporarily Disables Reviews and Q&A",
+    "link": "https://www.searchenginejournal.com/google-my-business-temporarily-removes-features-due-to-covid-19/356300/",
+    "description": [
+      "Due to COVID-19, Google announced that they are temporarily disabling reviews and Q&A functionality on all Google listings. During this time, users will not be able to leave new reviews, business owners won't be able to reply to reviews and users will be temporarily unable to ask or answer questions via Google Q&A. Google is making this change in order to protect against misinformation in times like this.",
+      "Google’s prioritization of critical services will also extend to reviewing business information edits, so if your business does not provide a critical, health-related service, it may be some time before you see any edits go live on your GMB listing."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.searchenginejournal.com/google-my-business-temporarily-removes-features-due-to-covid-19/356300/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  }
+}

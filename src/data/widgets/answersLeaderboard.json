@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Participating Lawyers",
+    "type": "Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "list": [
+    {
+      "id": "1586939",
+      "rank": 1,
+      "name": "Gregory Byrnes",
+      "location": "New York, NY",
+      "nameLink": "https://answers.justia.com/lawyer/1586939/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1586939?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "63253",
+      "rank": 2,
+      "name": "John Francis Nicholson",
+      "location": "Woodland Hills, CA",
+      "nameLink": "https://answers.justia.com/lawyer/63253/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/63253?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1069327",
+      "rank": 3,
+      "name": "Ivan Raevski",
+      "location": "Metuchen, NJ",
+      "nameLink": "https://answers.justia.com/lawyer/1069327/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1069327?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "1490383",
+      "rank": 4,
+      "name": "Robert Shipley",
+      "location": "Chicago, IL",
+      "nameLink": "https://answers.justia.com/lawyer/1490383/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/1490383?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "1639579",
+      "rank": 5,
+      "name": "Mike Cunningham",
+      "location": "Brookville, IN",
+      "nameLink": "https://answers.justia.com/lawyer/1639579/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/1639579?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-04&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}

@@ -1,0 +1,84 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   C O L U M N S   W I T H   I M A G E                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{assign "columnStructure" (chunks widgetConfig 2 true)}}
+
+{{! ================================================================================================================= }}
+
+<tr class="widget-columns -with-image ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+    {{#table}}
+      {{#each @root.columnStructure}}
+        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=40 firstRow=@first}}
+          {{#each this}}
+            {{#and this.link (compare this.link "!==" "")}}
+              {{#if this.utm}}
+                {{assign "titleLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.title))}}
+                {{assign "imageLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.image))}}
+              {{else}}
+                {{assign "titleLink" this.link}}
+                {{assign "imageLink" this.link}}
+              {{/if}}
+            {{else}}
+              {{assign "titleLink" this.link}}
+              {{assign "imageLink" this.link}}
+            {{/and}}
+            {{{imageLink}}}
+
+            {{#if this.button }}
+              {{assign "buttonLink" (concat this.link (utmVariables @root.widgetUtmVars content=@root.widgetUtmVars.content.button))}}
+            {{/if}}
+            {{#unless @first}}
+              {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
+            {{/unless}}
+
+            {{#if this.image}}
+              {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+              {{#if @root.imageLink}}<a href="{{{@root.imageLink}}}" target="_blank" class="block-image-link">{{/if}}
+                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+              {{#if readMore}}</a>{{/if}}
+              {{#if @root.imageLink}}</a>{{/if}}
+
+              {{#if this.blockTitle}}
+                <h3 class="block-title">{{{this.blockTitle}}}</h3>
+              {{/if}}
+              {{#if this.title}}
+                <h3 class="block-title">
+                  <a href="{{{@root.titleLink}}}" target="_blank">
+                      {{{this.title}}}
+                  </a>
+                </h3>
+              {{/if}}
+
+              {{#if this.blockSubtitle}}
+                <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
+              {{/if}}
+
+              {{#each this.description}}
+                <p class="block-description" responsive="reset-margin-bottom">
+                  {{{this}}}
+                  {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+                    <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
+                  {{/and}}
+                </p>
+              {{/each}}
+
+              {{#if this.button}}
+                {{#uiButton presetStyle=this.button.style href=@root.buttonLink}}
+                  {{this.button.text}}
+                {{/uiButton}}
+              {{/if}}
+            {{else}}
+              &nbsp;
+            {{/if}}
+          {{/each}}
+        {{>ui-columns-grid rowEnd=true}}
+      {{/each}}
+    {{/table}}
+  </td>
+</tr>

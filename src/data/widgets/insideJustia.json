@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Meet Our Team"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "We're Here for You! Now Working from Home",
+      "description": [
+        "Our team has been following social distancing guidelines and has shifted to remote work without skipping a beat. Many of our team members worked hard this weekend to continue posting your COVID-19 updates!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "A Pug’s Tale"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "Sheba Shelters in Place",
+      "description": [
+        "Sheba misses her office peeps and puppy pals but she and her family are staying home to help flatten the curve. She can still do her favorite thing- nap!"
+      ]
+    }
+  ]
+}

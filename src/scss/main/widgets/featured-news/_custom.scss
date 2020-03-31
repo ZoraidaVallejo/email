@@ -1,0 +1,26 @@
+// ----------------------------------------------------------------------------------------------------------
+// F E A T U R E D   N E W S   -   C U S T O M   S T Y L E S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-featured-news {
+    .block-title {
+        color: plt('black');
+
+        a {
+            color: plt('black');
+        }
+    }
+
+    .grid-row img.block-image {
+        width: 100%;
+    }
+
+    .grid-row:first-child {
+        
+        .block:last-child {
+            p {
+                margin: 0 0 40px;
+            }
+        }
+    }
+}
