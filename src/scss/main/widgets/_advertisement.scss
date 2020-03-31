@@ -66,4 +66,21 @@
             padding: 0 $padding $widget-gap;
         }
     }
+
+    &.-jld-ad-01 {
+        background-color: #093e4d;
+        color: plt('white');
+
+        .image {
+            padding: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .-description {
+            padding: 0 58px 35px;
+        }
+    }
 }

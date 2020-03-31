@@ -819,6 +819,23 @@ a {
   padding: 0 30px 50px;
 }
 
+.w-advertisement.-jld-ad-01 {
+  background-color: #093e4d;
+  color: #ffffff;
+}
+
+.w-advertisement.-jld-ad-01 .image {
+  padding: 0;
+}
+
+.w-advertisement.-jld-ad-01 .image img {
+  width: 100%;
+}
+
+.w-advertisement.-jld-ad-01 .-description {
+  padding: 0 58px 35px;
+}
+
 .w-answers-leaderboard .ranking-list {
   padding: 0 30px 25px;
 }
