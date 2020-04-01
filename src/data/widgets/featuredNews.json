@@ -79,7 +79,7 @@
       }
     },
     {
-      "link": "https://onward.justia.com/2020/03/24/coronavirus-and-the-courts-technology-public-health-and-access-to-justice/",
+      "link": "",
       "utm": {
         "clients": {
           "medium": "email",
@@ -104,11 +104,85 @@
       },
       "image": {
         "src": "featured-news-03.jpg",
+        "alt": "Business Assistance for Lawyers and Law Firms During COVID-19"
+      },
+      "title": "Business Assistance for Lawyers and Law Firms During COVID-19",
+      "description": [
+        "We wanted to make lawyers and law firms aware of some small business assistance programs that have recently become available under the CARES Act and related initiatives."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    },
+    {
+      "link": "https://onward.justia.com/2020/03/24/coronavirus-and-the-courts-technology-public-health-and-access-to-justice/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-04.jpg",
         "alt": "Coronavirus and the Courts: Technology, Public Health, and Access to Justice"
       },
       "title": "Coronavirus and the Courts: Technology, Public Health, and Access to Justice",
       "description": [
         "Remote appearances during COVID-19 are a social distancing measure that courts must balance against constitutional interests, but they can ultimately increase access to justice."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    },
+    {
+      "link": "https://onward.justia.com/2020/03/30/remote-and-virtual-court-appearances-guidelines-and-considerations/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-05.jpg",
+        "alt": "Remote and Virtual Court Appearances: Guidelines and Considerations"
+      },
+      "title": "Remote and Virtual Court Appearances: Guidelines and Considerations",
+      "description": [
+        "With phone and video court appearances becoming more necessary due to COVID-19, lawyers will be expanding their use of remote communications for legal proceedings."
       ],
       "button": {
         "style": "light-blue-ghost",
@@ -140,7 +214,7 @@
         }
       },
       "image": {
-        "src": "featured-news-04.jpg",
+        "src": "featured-news-06.jpg",
         "alt": "Legal Ethics and Coronavirus: Tech Solutions for Health, Safety, and Efficiency"
       },
       "title": "Legal Ethics and Coronavirus: Tech Solutions for Health, Safety, and Efficiency",

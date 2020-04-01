@@ -71,6 +71,11 @@
         background-color: #093e4d;
         color: plt('white');
 
+        .ui-background {
+            background-position: bottom !important;
+            // background-position-y: 429px !important;
+        }
+
         .image {
             padding: 0;
 
@@ -79,8 +84,16 @@
             }
         }
 
+        .-button {
+            padding: 0 30px 25px;
+        }
+
         .-description {
-            padding: 0 58px 35px;
+            padding: 5px 58px 35px;
+        }
+
+        .-description.-last {
+            padding: 5px 58px 60px;
         }
     }
 }

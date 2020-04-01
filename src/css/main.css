@@ -824,6 +824,10 @@ a {
   color: #ffffff;
 }
 
+.w-advertisement.-jld-ad-01 .ui-background {
+  background-position: bottom !important;
+}
+
 .w-advertisement.-jld-ad-01 .image {
   padding: 0;
 }
@@ -832,8 +836,16 @@ a {
   width: 100%;
 }
 
+.w-advertisement.-jld-ad-01 .-button {
+  padding: 0 30px 25px;
+}
+
 .w-advertisement.-jld-ad-01 .-description {
-  padding: 0 58px 35px;
+  padding: 5px 58px 35px;
+}
+
+.w-advertisement.-jld-ad-01 .-description.-last {
+  padding: 5px 58px 60px;
 }
 
 .w-answers-leaderboard .ranking-list {

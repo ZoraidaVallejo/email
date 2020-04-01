@@ -5,6 +5,12 @@
   },
   "jld": {
     "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#0178aa",
+        "cssSize": "600px 350px"
+      },
       "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
@@ -13,7 +19,7 @@
         "content": "banner-premium-memberships-v29"
       },
       "image": "marketing-graphic-01.gif",
-      "imageAlt": "Find Your Pot of Gold With Marketing That Matters",
+      "imageAlt": "Freshen Up Your Marketing",
       "contentOrder": [
         {
           "type": "description",
