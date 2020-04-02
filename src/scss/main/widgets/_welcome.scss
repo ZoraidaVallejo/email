@@ -1,0 +1,50 @@
+// ----------------------------------------------------------------------------------------------------------
+// W E L C O M E   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.widget.w-welcome {
+    border-bottom: 0;
+    background-color: #a0ebff;
+
+    .widget-banner {
+        padding: 0 $padding;
+    }
+
+    .widget-description {
+        text-align: center;
+        padding: 44px $padding 5px;
+
+        .content-title {
+            margin: 0;
+            color: plt('justia-blue');
+
+            @include mail-font(30px, 1.1, tp('weight', 'bold'));
+        }
+
+        p,
+        a {
+            color: plt('justia-blue');
+        }
+
+        p {
+            margin: 0 15px grid-unit(0.5);
+
+            &:last-child {
+                margin: 0 15px;
+            }
+        }
+    }
+
+    .sub-title {
+        padding-bottom: 50px;
+
+        p {
+            @include mail-font(18px, 1.1, tp('weight', 'bold'));
+        }
+    }
+
+    .widget-button {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}

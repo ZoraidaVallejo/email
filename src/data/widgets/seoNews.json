@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "[Velit excepteur ex exercitation laboris eiusmod eu quis laborum labore sit aliquip dolore.]",
+      "link": "https://www.justia.com/",
+      "description": "[Minim cupidatat non exercitation tempor eiusmod reprehenderit nostrud nisi quis ullamco occaecat non. Voluptate...]"
+    },
+    {
+      "title": "[Lorem incididunt ullamco aute commodo proident laboris reprehenderit id nulla deserunt ullamco.]",
+      "link": "https://www.justia.com/",
+      "description": "[Proident elit officia exercitation tempor sunt. Eiusmod voluptate magna laboris nulla. Minim sit aliquip tempor...]"
+    },
+    {
+      "title": "[Mollit consectetur eiusmod adipisicing irure quis esse ut cillum esse quis adipisicing.]",
+      "link": "https://www.justia.com/",
+      "description": "[In voluptate eu irure adipisicing voluptate anim eu adipisicing ad irure quis pariatur sint. Ipsum...]"
+    },
+    {
+      "title": "[Ullamco anim ad elit ea nisi pariatur voluptate ipsum elit deserunt.]",
+      "link": "https://www.justia.com/",
+      "description": "[Elit do ad reprehenderit nulla elit aliquip. Qui nostrud adipisicing nulla esse consectetur est tempor...]"
+    }
+  ]
+}
