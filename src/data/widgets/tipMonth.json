@@ -1,36 +1,24 @@
 {
   "clients": {
     "widget": {
-      "icon": "tip-of-the-month",
-      "header": "Tip of the Month"
+      "icon": "new-1",
+      "header": "Justia Lawyer Directory Now Displays Video Chat & Office Availability"
     },
-    "title": "Let Clients Know You Offer Video Chat & Conferencing",
     "description": [
-      "To help individuals and businesses find lawyers who do video conferencing, we have added a new \"Offers Video Chat\" filter to our Lawyer Directory search. There will also be a \"Video Chat & Conferencing\" badge on your profile and in the listing pages. This lets visitors easily find lawyers who offer video chat and conferencing services.",
-      "Offering video chat and conferencing can make interactions more personal and provide a better client experience. We encourage every lawyer to update their profile and select the video services that they offer. If you do not currently offer video chat or conferencing services, you can start now! Please read our <a href=\"https://onward.justia.com/2020/03/18/free-and-low-cost-video-conferencing-solutions/\" target=\"_blank\">blog post</a> to learn how."
-    ],
-    "button": {
-      "style": "red-ghost",
-      "link": "https://lawyers.justia.com/profile/148043/edit/video_chat",
-      "text": "Update Profile Now",
-      "width": 200
-    }
+      "We are excited to announce that the Justia Lawyer Directory now displays video chat availability and more detailed office information on lawyer profiles. To help individuals easily find lawyers who offer video chat, they may now use the \"Offers Video Chat\" filter on their searches. Also, for each office listed on your profile, you may update the hours of availability, opening & closing times per day, whether you offer 24-hour support, and any special notices you would like to include, such as that you are conducting consultations by video chat due to the COVID-19 pandemic.",
+      "Be found when consumers use the video chat search filter, and make it easy for them to contact you by listing your office hours!",
+      "<a href=\"https://www.justia.com/lawyers/?utm_medium=email&utm_source=client-newletter&utm_campaign=2020-04&utm_content=text-update-your-availability-and-office-hours-now-1\" target=\"_blank\"><b>Update Your Availability & Office Hours Now</b></a>"
+    ]
   },
   "jld": {
     "widget": {
-      "icon": "tip-of-the-month",
-      "header": "Tip of the Month"
+      "icon": "new-1",
+      "header": "Justia Lawyer Directory Now Displays Video Chat & Office Availability"
     },
-    "title": "Let Clients Know You Offer Video Chat & Conferencing",
     "description": [
-      "To help individuals and businesses find lawyers who do video conferencing, we have added a new \"Offers Video Chat\" filter to our Lawyer Directory search. There will also be a \"Video Chat & Conferencing\" badge on your profile and in the listing pages. This lets visitors easily find lawyers who offer video chat and conferencing services.",
-      "Offering video chat and conferencing can make interactions more personal and provide a better client experience. We encourage every lawyer to update their profile and select the video services that they offer. If you do not currently offer video chat or conferencing services, you can start now! Please read our <a href=\"https://onward.justia.com/2020/03/18/free-and-low-cost-video-conferencing-solutions/\" target=\"_blank\">blog post</a> to learn how."
-    ],
-    "button": {
-      "style": "red-ghost",
-      "link": "https://lawyers.justia.com/profile/148043/edit/video_chat",
-      "text": "Update Profile Now",
-      "width": 200
-    }
+      "We are excited to announce that the Justia Lawyer Directory now displays video chat availability and more detailed office information on lawyer profiles. To help individuals easily find lawyers who offer video chat, they may now use the \"Offers Video Chat\" filter on their searches. Also, for each office listed on your profile, you may update the hours of availability, opening & closing times per day, whether you offer 24-hour support, and any special notices you would like to include, such as that you are conducting consultations by video chat due to the COVID-19 pandemic.",
+      "Be found when consumers use the video chat search filter, and make it easy for them to contact you by listing your office hours!",
+      "<a href=\"https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F*|PROFILE_ID|*%2Fedit%2Foverview%3Futm_medium%3Demail%26utm_source%3Ddirectory-newletter%26utm_campaign%3D2020-04%26utm_content%3Dtext-update-your-availability-and-office-hours-now-1\" target=\"_blank\"><b>Update Your Availability & Office Hours Now</b></a>"
+    ]
   }
 }
