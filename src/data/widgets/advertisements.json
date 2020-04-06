@@ -1,0 +1,56 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v28"
+      },
+      "image": "marketing-graphic-01.png",
+      "imageAlt": "Make Marketing a Priority",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<b>For a law firm, being online has never been as important as today</b>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "Given today’s reality, people are spending more time online than ever before. Now is the best time to focus on the right marketing channels to get your law firm in front of potential clients. <b>Premium placements are a cost-effective digital marketing solution for your law firm!</b>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 200,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": "responsive-button"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<i>* Monthly plan available only for Platinum Placements.</i>"
+          ]
+        }
+      ]
+    }
+  }
+}
