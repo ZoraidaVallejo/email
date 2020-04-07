@@ -66,4 +66,88 @@
             padding: 0 $padding $widget-gap;
         }
     }
+
+    &.-jld-ad-01 {
+        background-color: #0071b3;
+        color: plt('white');
+
+        .ui-background {
+            background-position: bottom !important;
+            // background-position-y: 429px !important;
+        }
+
+        .image {
+            padding: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .-button {
+            padding: 0 30px 25px;
+        }
+
+        .-description {
+            padding: 5px 33px 35px;
+        }
+
+        .-idx-1 {
+            padding: 45px 72px 8px;
+
+            p {
+                @include mail-font(20px);
+            }
+        }
+
+        .-idx-2,
+        .-idx-3 {
+            text-align: left;
+        }
+
+        .-idx-3 {
+            padding: 5px 33px 11px;
+        }
+
+        .widget-columns {
+            padding: 0 30px 25px;
+            
+            .grid-cell {
+                text-align: left;
+            }
+
+            ul {
+                padding-left: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                list-style-type: none;
+
+                span {
+                    margin-left: 0.3em;
+                    margin-right: 0.3em;
+                    color: #ffc700;
+                }
+            }
+        }
+    }
+
+    .about-justia {
+      border-top: 1px solid plt('alto');
+      background-color: plt('wild-sand');
+      text-align: left;
+
+      td {
+        padding: 18px 50px;
+      }
+
+      p {
+        @include mail-font(14px, 1.5);
+        color: plt('black');
+        text-align: left;
+      }
+
+      a {
+        color: plt('black');
+      }
+    }
 }

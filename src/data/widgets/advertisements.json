@@ -5,26 +5,53 @@
   },
   "jld": {
     "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#0071b3",
+        "cssSize": "600px 350px"
+      },
       "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v28"
+        "content": "banner-premium-memberships-v30"
       },
       "image": "marketing-graphic-01.png",
-      "imageAlt": "Make Marketing a Priority",
+      "imageAlt": "Save Money Now",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<b>For a law firm, being online has never been as important as today</b>"
+            "<p><b>For a law firm, being online has never been as important as today</b></p>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "Given today’s reality, people are spending more time online than ever before. Now is the best time to focus on the right marketing channels to get your law firm in front of potential clients. <b>Premium placements are a cost-effective digital marketing solution for your law firm!</b>"
+            "<p>Given today’s reality, people are spending more time online than ever before. Now is the best time to focus on the right marketing channels to get your law firm in front of potential clients. <b>Premium placements are a cost-effective digital marketing solution for your law firm!</b></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Advantages of Premium Placements:</b></p>"
+          ]
+        },
+        {
+          "type": "columns",
+          "columns": [
+            {
+              "description": [
+                "<li><span>●</span>Quick and easy setup</li><li><span>●</span>Flexible payment plan *</li>"
+              ]
+            },
+            {
+              "description": [
+                "<li><span>●</span>Target the right audience</li><li><span>●</span>Fully measurable</li>"
+              ]
+            }
           ]
         },
         {
@@ -41,13 +68,13 @@
         {
           "type": "description",
           "config": [
-            "Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "<p>Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b></p>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "<i>* Monthly plan available only for Platinum Placements.</i>"
+            "<p><i>* Monthly plan available only for Platinum Placements.</i></p>"
           ]
         }
       ]
