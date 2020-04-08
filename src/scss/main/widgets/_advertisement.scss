@@ -68,7 +68,7 @@
     }
 
     &.-jld-ad-01 {
-        background-color: #0071b3;
+        // background-color: #0071b3;
         color: plt('white');
 
         .ui-background {
@@ -85,15 +85,20 @@
         }
 
         .-button {
-            padding: 0 30px 25px;
+            padding: 0 30px 15px;
         }
 
         .-description {
             padding: 5px 33px 35px;
+
+            p {
+                color: plt('white');
+            }
         }
 
         .-idx-1 {
-            padding: 45px 72px 8px;
+            padding: 45px 111px 8px 33px;
+                text-align: left;
 
             p {
                 @include mail-font(20px);
@@ -105,12 +110,23 @@
             text-align: left;
         }
 
+        .-idx-2 {
+            padding: 5px 33px 20px;
+        }
+
         .-idx-3 {
             padding: 5px 33px 11px;
         }
 
+        .-idx-6 {
+            padding: 5px 33px 20px;
+        }
+
         .widget-columns {
-            padding: 0 30px 25px;
+
+            .wrapper {
+            padding: 0 30px 15px;
+            }
             
             .grid-cell {
                 text-align: left;
@@ -121,6 +137,12 @@
                 margin-top: 0;
                 margin-bottom: 0;
                 list-style-type: none;
+
+                li {
+                    @include mail-font(16px);
+                    color: plt('white');
+                    margin-bottom: 10px;
+                }
 
                 span {
                     margin-left: 0.3em;
