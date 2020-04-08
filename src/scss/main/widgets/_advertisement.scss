@@ -68,7 +68,7 @@
     }
 
     &.-jld-ad-01 {
-        background-color: #0071b3;
+        background-color: #0a0938;
         color: plt('white');
 
         .ui-background {
@@ -85,28 +85,25 @@
         }
 
         .-button {
-            padding: 0 30px 25px;
+            padding: 0 30px 15px;
         }
 
         .-description {
-            padding: 5px 33px 35px;
+            padding: 5px 33px 58px;
         }
 
         .-idx-1 {
-            padding: 45px 72px 8px;
+            padding: 20px 33px 20px;
+        }
 
-            p {
-                @include mail-font(20px);
+        .-idx-2 {
+            padding: 5px 85px 38px;
+        }
+
+        .-idx-4 {
+            a[href^=tel] span {
+                color: plt('white');
             }
-        }
-
-        .-idx-2,
-        .-idx-3 {
-            text-align: left;
-        }
-
-        .-idx-3 {
-            padding: 5px 33px 11px;
         }
 
         .widget-columns {

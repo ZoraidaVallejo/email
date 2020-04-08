@@ -121,14 +121,10 @@
         <tr>
           <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#each this.config}}
-              {{{this}}}
+              <p>{{{this}}}</p>
             {{/each}}
           </td>
         </tr>
-      {{/compare}}
-
-      {{#compare this.type "===" "columns"}}
-        {{>widget-columns-list widgetConfig=this.columns}}
       {{/compare}}
 
       {{#compare this.type "===" "button"}}
@@ -160,16 +156,4 @@
     {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
   </tr>
   {{/and}}
-
-    <tr>
-      <td class="box">
-        {{#table class="about-justia set-max-width"}}
-          <tr>
-            <td responsive="mobile-padding-horizontal-sides">
-              <p>Justia has an unparalleled track record of helping law firms grow. If you're interested in our website and SEO services, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today. <b><a href="https://www.justia.com/marketing/?utm_medium=email&utm_source=promo-marketing-premium-memberships&utm_campaign=campaign-396-promo-&utm_content=text-learn-more-1" target="_blank">Learn More »</a></b></p>
-            </td>
-          </tr>
-        {{/table}}
-      </td>
-    </tr>
 {{/table}}
