@@ -9,6 +9,6 @@
         margin: 0 0 10px;
         color: plt('black');
 
-        @include mail-font(18px, 1.45, tp('weight', 'bold'));
+        @include mail-font(18px, 1.45, tp('weight', 'normal'));
     }
 }
