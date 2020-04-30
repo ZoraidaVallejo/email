@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "client-in-the-news",
+    "header": "Clients in the News"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "clients-news-logo-01.jpg",
+        "alt": "ABC 10 News San Diego"
+      },
+      "description": [
+        "Attorney <b>Jacob Sapochnick</b> was interviewed by ABC 10 News San Diego regarding the impact coronavirus has had on citizenship applications"
+      ],
+      "readMore": "https://www.10news.com/news/coronavirus/coronavirus-stalls-citizenship-process-for-immigrants"
+    },
+    {
+      "image": {
+        "src": "clients-news-logo-02.jpg",
+        "alt": "Newsday"
+      },
+      "description": [
+        "Matthew Weinick of <b>Famighetti & Weinick, PLLC</b> is one of the Nassau County Bar Association members volunteering their time under the organization’s new COVID-19 community task force"
+      ],
+      "readMore": "https://www.newsday.com/news/health/coronavirus/bar-association-coronavirus-legal-advice-1.44261051"
+    }
+  ]
+}

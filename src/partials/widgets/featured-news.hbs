@@ -1,0 +1,42 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   N E W S                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
+// In this case it uses featuredNews because both Newsletters shared the same info,
+// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
+}}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{#and featuredNews.link (compare featuredNews.link "!==" "")}}
+  {{assign "featuredNewsTitleLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsImageLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+
+{{#if widgetUtmVars}}
+  {{assign "widgetUtmVars" widgetUtmVars}}
+{{/if}}
+
+{{#if featuredNews.button }}
+  {{assign "featuredNewsButtonLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/if}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-featured-news set-max-width"}}
+  {{>widget-header
+    header=featuredNews.widget.header
+    icon=featuredNews.widget.icon
+  }}
+
+  {{#if featuredNews.columns}}
+    {{>widget-columns-with-image widgetConfig=featuredNews.columns isLast=true}}
+  {{/if}}
+{{/table}}

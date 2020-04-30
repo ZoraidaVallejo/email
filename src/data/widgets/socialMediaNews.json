@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "Facebook Templates for Business Posts About COVID-19 Changes",
+      "link": "https://www.searchenginejournal.com/facebook-covid-19-templates/",
+      "description": "Business users can now take advantage of templates that will allow them to communicate information to their customers such as how to place orders despite a temporary closure."
+    },
+    {
+      "title": "Twitter Notifies Users That It’s Now Sharing More Data With Advertisers",
+      "link": "https://www.theverge.com/2020/4/8/21213593/twitter-data-sharing-pop-up-mobile-app-advertising-settings",
+      "description": "Twitter has removed most users’ ability to opt out of sharing information with advertisers related to things like ads they’ve seen or interacted with, and their device’s tracking identifier."
+    },
+    {
+      "title": "YouTube Viewership Is Up, But YouTubers Are Earning Less Money",
+      "link": "https://www.searchenginejournal.com/youtube-viewership-is-up-but-youtubers-are-earning-less-money/",
+      "description": "YouTube traffic has increased by 15% since the COVID-19 outbreak began, but content creators are making less money due to an almost 50% drop in YouTube advertising rates."
+    },
+    {
+      "title": "Facebook Ads Fails to Reject COVID-19 Misinformation",
+      "link": "https://www.searchenginejournal.com/facebook-ads-fails-to-reject-covid-19-misinformation/",
+      "description": "Facebook’s AI-driven ad screening process failed to identify several fake ads containing false coronavirus information created to test the reliability of the platform’s ad filtering system."
+    }
+  ]
+}

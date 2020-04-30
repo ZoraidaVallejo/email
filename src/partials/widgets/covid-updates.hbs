@@ -1,0 +1,70 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   N E W S                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
+// In this case it uses covidUpdates because both Newsletters shared the same info,
+// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
+}}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{#and covidUpdates.link (compare covidUpdates.link "!==" "")}}
+  {{assign "covidUpdatesTitleLink" (concat covidUpdates.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "covidUpdatesImageLink" (concat covidUpdates.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+
+{{#and covidUpdates.button (compare covidUpdates.button.link "!==" "")}}
+  {{assign "covidUpdatesButtonLink" (concat covidUpdates.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-covid-updates set-max-width"}}
+  {{>widget-header
+    header=covidUpdates.widget.header
+    icon=covidUpdates.widget.icon
+  }}
+
+  {{>widget-banner
+    imgSrc=covidUpdates.banner
+    imgAlt=covidUpdates.title
+    link=@root.covidUpdatesImageLink
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <h3 class="content-title">
+        <a href="{{{@root.covidUpdatesTitleLink}}}" target="_blank">
+          {{{covidUpdates.title}}}
+        </a>
+      </h3>
+
+      {{#each covidUpdates.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=covidUpdates.button.style href=@root.covidUpdatesButtonLink}}
+          {{covidUpdates.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

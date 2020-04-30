@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "Google Extends Free Access to Advanced Teleconferencing Features to September 30th",
+      "link": "https://www.theverge.com/2020/4/9/21215420/google-free-access-advanced-meet-features-extension-teleconference",
+      "description": "Google is making certain Google Meet features free until the end of September, allowing all G Suite users to host meetings for up to 250 and save recorded meetings to Google Drive."
+    },
+    {
+      "title": "Apple and Google Team Up to ‘Contact Trace’ the Coronavirus",
+      "link": "https://www.nytimes.com/2020/04/10/technology/apple-google-coronavirus-contact-tracing.html",
+      "description": "Tech rivals Apple and Google are collaborating to build software into smartphones that will allow users to determine if they have been in close proximity to someone with COVID-19."
+    },
+    {
+      "title": "SCOTUS Will Hear Arguments by Telephone Conference in Several Cases Because of COVID-19",
+      "link": "https://www.abajournal.com/news/article/us-supreme-court-to-hear-arguments-by-telephone-conference-in-several-cases",
+      "description": "Due to the coronavirus pandemic, the nation’s top court has announced that it will conduct oral arguments via telephone conference for several cases during the month of May."
+    },
+    {
+      "title": "French Regulator Says Google Must Pay News Sites to Send Them Traffic",
+      "link": "https://arstechnica.com/tech-policy/2020/04/french-regulator-says-google-must-pay-news-sites-to-send-them-traffic/",
+      "description": "Pursuant to recent EU copyright legislation, French authorities have determined that Google must pay to link articles on the country’s news sites, which Google has thus far refused to do."
+    },
+    {
+      "title": "Google Uses Location Data to Show Which Places Are Complying With Stay-At-Home Orders -- and Which Aren’t",
+      "link": "https://www.theverge.com/2020/4/3/21206318/google-location-data-mobility-reports-covid-19-privacy",
+      "description": "Data from users who have opted in to sharing their location history with Google are helping government officials assess which communities are heeding instructions to shelter in place."
+    },
+    {
+      "title": "‘Zoombombing’ Is a Federal Offense that Could Result in Imprisonment, Prosecutors Warn",
+      "link": "https://www.theverge.com/2020/4/3/21207260/zoombombing-crime-zoom-video-conference-hacking-pranks-doj-fbi",
+      "description": "Government officials have issued a warning that the increasingly popular trend of hacking into video conference calls can lead to arrest and criminal charges resulting in fines and jail time."
+    }
+  ]
+}

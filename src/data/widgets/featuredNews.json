@@ -1,0 +1,82 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "columns": [
+    {
+      "readMore": "https://onward.justia.com/2020/04/09/cares-act-federal-judiciary-funding-remote-proceedings-consent-and-state-court-needs/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-1",
+            "image": "image-onward-post-1",
+            "button": "button-learn-more-1"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-01.jpg",
+        "alt": "CARES Act Federal Judiciary Funding: Remote Proceedings, Consent, and State Court Needs "
+      },
+      "blockTitle": "CARES Act Federal Judiciary Funding: Remote Proceedings, Consent, and State Court Needs ",
+      "description": [
+        "Emergency aid and new rules will increase remote federal court hearings during COVID-19, but also raise questions about consent to such proceedings, as well as state court needs."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    },
+    {
+      "readMore": "https://onward.justia.com/2020/04/23/additional-federal-funds-available-soon-for-law-firms-impacted-by-covid-19/",
+      "utm": {
+        "clients": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        },
+        "jld": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "directory-newsletter",
+          "content": {
+            "title": "text-onward-post-title-2",
+            "image": "image-onward-post-2",
+            "button": "button-learn-more-2"
+          }
+        }
+      },
+      "image": {
+        "src": "featured-news-02.jpg",
+        "alt": "Additional Federal Funds Available Soon for Law Firms Impacted by COVID-19"
+      },
+      "blockTitle": "Additional Federal Funds Available Soon for Law Firms Impacted by COVID-19",
+      "description": [
+        "Congress has approved $380 billion in a second round of federal small business monetary aid that will augment the $349 billion previously allocated for loans and loan forgiveness."
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "text": "Read More"
+      }
+    }
+  ]
+}

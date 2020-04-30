@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "The White House Wants Us to Use Schema for COVID-19 Announcements",
+      "link": "https://searchengineland.com/the-white-house-is-encouraging-schema-adoption-for-covid-19-announcements-332954",
+      "description": "The federal government is encouraging private sector businesses and others to incorporate specific structured data tags to make coronavirus information more visible on search engines."
+    },
+    {
+      "title": "Google Reveals How Search Behavior Has Changed During COVID-19 Pandemic",
+      "link": "https://www.searchenginejournal.com/google-reveals-how-search-behavior-has-changed-during-covid-19-pandemic/361322/",
+      "description": "Search behaviors that have shifted since the coronavirus outbreak include categories such as assembling critical information, adjusting to changes in routines, and care of self and others."
+    },
+    {
+      "title": "Google’s New Video Builder Will Help Businesses Create Short YouTube Videos",
+      "link": "https://onward.justia.com/2020/04/15/googles-new-video-builder-will-help-businesses-create-short-youtube-videos/",
+      "description": "Google has launched a new YouTube Video Builder tool, which will assist businesses in creating short YouTube videos by using a set of predefined layouts and media resources."
+    },
+    {
+      "title": "How to Leverage Google Discover to Connect With Users: 4 Key Takeaways",
+      "link": "https://www.searchenginejournal.com/google-discover/361142/?ver=361142X3#close",
+      "description": "Content creators looking to succeed in their use of Google’s personalized content feed should post mobile-friendly content that is relevant to their most engaged users, among other things."
+    }
+  ]
+}
