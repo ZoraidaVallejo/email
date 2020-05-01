@@ -10,8 +10,8 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
       "content": {
-        "title": "text-covid-title-1",
-        "image": "image-covid-post-1",
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
         "button": "button-learn-more-1"
       }
     },
@@ -20,8 +20,8 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
       "content": {
-        "title": "text-covid-title-1",
-        "image": "image-covid-post-1",
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
         "button": "button-learn-more-1"
       }
     }

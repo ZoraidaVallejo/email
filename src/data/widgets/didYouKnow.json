@@ -13,7 +13,12 @@
       "style": "justia-blue-ghost",
       "link": "https://avanza.justia.com/",
       "text": "Learn More",
-      "utm": {}
+      "utm": {
+        "medium": "email",
+        "source": "clients-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
     }
   },
   "jld": {
