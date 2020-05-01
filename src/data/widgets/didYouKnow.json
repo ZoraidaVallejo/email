@@ -15,7 +15,7 @@
       "text": "Learn More",
       "utm": {
         "medium": "email",
-        "source": "clients-newsletter",
+        "source": "client-newsletter",
         "campaign": "<%= dateFormat.dash %>",
         "content": "section-did-you-know-learn-more-button-v1"
       }
