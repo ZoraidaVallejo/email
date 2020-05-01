@@ -212,6 +212,12 @@
             color: plt('black');
         }
     }
+
+    .block + .block {
+        .block-description + div {
+            margin-top: 40px;
+        }
+    }
 }
 
 .w-tip-month {
