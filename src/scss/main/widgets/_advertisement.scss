@@ -1,0 +1,91 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 $padding 35px;
+
+        a {
+            @include mail-font(39px, 1.15);
+            color: plt('black');
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: $max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+        background-color: #061b3a;
+
+        p {
+            color: plt('white');
+            text-align: left;
+
+            a {
+                color: plt('white');
+
+                span {
+                    color: plt('white');
+                }
+            }
+        }
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 35px $padding 20px;
+        }
+
+        &.-button {
+            padding: 16px $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+
+            p {
+                text-align: center;
+
+                b {
+                    @include mail-font(18px, 1.5, 700);
+                }
+            }
+        }
+    }
+}
