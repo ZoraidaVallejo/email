@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Here’s Why Optimizing Images In Google My Business Is Important",
+      "link": "https://searchengineland.com/smx-overtime-heres-why-optimizing-images-in-google-my-business-is-important-333293",
+      "description": "Uploading your own high-resolution, professional photos to your GMB listing instead of relying on user photos is one of the ways you can boost your listing’s effectiveness and appeal."
+    },
+    {
+      "title": "Google Launches New Podcast Promising Undocumented Information",
+      "link": "https://www.searchenginejournal.com/google-podcast-search-off-the-record/",
+      "description": "A new podcast will reportedly feature information regarding some of what goes on behind the scenes at Google, along with discussion regarding future projects that are in the works."
+    },
+    {
+      "title": "How YouTube Ranks Suggested Videos",
+      "link": "https://www.searchenginejournal.com/youtube-video-recommendations/",
+      "description": "A research paper from Google illuminates how deep learning regarding user behavior and video optimization by creators impact the way suggested videos are ranked in YouTube."
+    },
+    {
+      "title": "Google Ads Shortens Business Identity Verification Time",
+      "link": "https://www.searchenginejournal.com/google-ads-shortens-business-identity-verification-time/",
+      "description": "Google has amended the identity verification time frame for businesses running Google Ads, giving them 21 days to submit documentation before they receive a 7-day warning."
+    }
+  ]
+}

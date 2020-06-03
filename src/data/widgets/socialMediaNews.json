@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "Facebook & Instagram Let Businesses Sell Products Directly on Their Page",
+      "link": "https://www.searchenginejournal.com/facebook-instagram-shops/",
+      "description": "New features including Facebook Shops and Instagram Shop aim to make e-commerce more seamless by allowing users to purchase products from within their social media accounts."
+    },
+    {
+      "title": "Twitter Is Testing a Way to Let You Limit Replies to Your Tweets",
+      "link": "https://www.theverge.com/2020/5/20/21265090/twitter-testing-limited-replies-tweets-conversations",
+      "description": "Twitter is experimenting with giving users the ability to limit who can reply to their Tweets, which can include all users, only people they follow, or only people that they directly mention."
+    },
+    {
+      "title": "Facebook Says It Will Permanently Shift Tens of Thousands of Jobs to Remote Work",
+      "link": "https://www.theverge.com/facebook/2020/5/21/21265699/facebook-remote-work-shift-workforce-permanent-covid-19-mark-zuckerberg-interview",
+      "description": "Facebook CEO Mark Zuckerberg stated that over the next five to ten years, he envisions a large proportion of the company shifting to remote work, starting with current open positions."
+    },
+    {
+      "title": "LinkedIn Now Factors ‘Dwell Time’ Into Its Algorithm",
+      "link": "https://www.searchenginejournal.com/linkedin-now-factors-dwell-time-into-its-algorithm/",
+      "description": "In order to offer users the content that is most valuable to them, LinkedIn is now integrating how long a user spends with a piece into its algorithm, along with likes and other interactions."
+    }
+  ]
+}
