@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Important Updates Regarding COVID-19"
+  },
+  "link": "https://www.justia.com/covid-19/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-covid-01.jpg",
+  "title": "Laws and Legal Resources Related to Coronavirus",
+  "description": [
+    "Stay up to date on the latest legal developments arising from the COVID-19 pandemic, including changes associated with employment law, evictions and foreclosures, business assistance, taxes, immigration, debts & bankruptcy, criminal proceedings, family law, and personal injury cases. We have also assembled 50-state resources on coronavirus and the law regarding the topics including the following:",
+    "<b>&bull;</b> <a href=\"https://www.justia.com/covid-19/50-state-covid-19-resources/coronavirus-and-unemployment-benefits-50-state-resources/\" target=\"_blank\"><b>Coronavirus and Unemployment Benefits</b></a>",
+    "<b>&bull;</b> <a href=\"https://www.justia.com/covid-19/50-state-covid-19-resources/eviction-mortgage-foreclosure-relief-during-covid-19-50-state-resource/\" target=\"_blank\"><b>Eviction, Mortgage, & Foreclosure Relief During COVID-19</b></a>",
+    "<b>&bull;</b> <a href=\"https://www.justia.com/covid-19/50-state-covid-19-resources/stay-at-home-orders-50-state-resources/\" target=\"_blank\"><b>Stay At Home Orders and State Reopening Plans</b></a>",
+    "<b>&bull;</b> <a href=\"https://www.justia.com/covid-19/50-state-covid-19-resources/covid-19-taxes-50-state-resources/\" target=\"_blank\"><b>COVID-19 & Taxes</b></a>",
+    "<b>&bull;</b> <a href=\"https://www.justia.com/covid-19/50-state-covid-19-resources/elections-during-covid-19-50-state-resources/\" target=\"_blank\"><b>Elections During COVID-19</b></a>"
+  ]
+}

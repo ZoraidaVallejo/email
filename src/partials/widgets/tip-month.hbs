@@ -18,6 +18,7 @@
   {{>widget-header
     header=widgetConfig.widget.header
     icon=widgetConfig.widget.icon
+    link=widgetConfig.widget.link
   }}
 
   {{!--
@@ -25,11 +26,28 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">{{{widgetConfig.title}}}</h3>
 
-      {{#each widgetConfig.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
+      {{#if widgetConfig.image}}
+        {{#table class="text-image-cols"}}
+          <tr>
+            <td class="content" responsive="mobile-reset-width collapse-one">
+              <h3 class="content-title">{{{widgetConfig.title}}}</h3>
+              {{#each widgetConfig.description}}
+                <p>{{{this}}}</p>
+              {{/each}}
+            </td>
+            <td class="image" responsive="mobile-reset-width mobile-padding-top mobile-no-padding-horizontal-sides collapse-one">
+              <a href="{{{widgetConfig.button.link}}}" target="_blank">{{>img src=widgetConfig.image.src alt=widgetConfig.image.alt}}</a>
+            </td>
+          </tr>
+        {{/table}}
+      {{else}}
+        <h3 class="content-title">{{{widgetConfig.title}}}</h3>
+
+          {{#each widgetConfig.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+      {{/if}}
     </td>
   </tr>
 
@@ -39,7 +57,7 @@
   {{#if @root.widgetWithButton}}
     <tr>
       <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link width=widgetConfig.button.width}}
+        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm)) width=widgetConfig.button.width}}
           {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>

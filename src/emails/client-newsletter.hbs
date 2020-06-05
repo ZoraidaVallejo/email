@@ -16,9 +16,11 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{>welcome widgetConfig=welcome.clients}}
 
-        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
-
         {{>tip-month widgetConfig=tipMonth.clients}}
+
+        {{>covid-updates}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
         {{>tech-news}}
 
@@ -31,8 +33,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
         {{>in-the-news}}
 
         {{>did-you-know widgetConfig=didYouKnow.clients}}
-
-        {{>events-we-attended}}
 
         {{>social-media-news}}
 

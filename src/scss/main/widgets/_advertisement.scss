@@ -28,15 +28,31 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0;
 
         img {
-            width: $inner-max-width;
+            width: 600px;
         }
     }
 
+    // .ui-background {
+    //     background-position: bottom !important;
+    // }
+
     .content {
         padding: 0 $padding 25px;
+
+        p {
+            color: plt('white');
+
+            a {
+                color: plt('white');
+
+                b {
+                    color: plt('white')
+                }
+            }
+        }
 
         .content-side {
             width: 260px;
@@ -55,7 +71,8 @@
         }
 
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 30px 50px 26px;
+            text-align: left;
         }
 
         &.-button {
@@ -63,7 +80,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 43px;
         }
     }
 }
