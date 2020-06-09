@@ -6,24 +6,23 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "ad-gradient.png",
+        "image": "stats-gradient.png",
         "width": 600,
         "bgColor": "#ffffff",
         "cssSize": "600px 228px"
       },
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
-      },
-      "image": "ad-graphic-01.png",
+      "link": "#",
+      "image": "stats-graphic-01.png",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<b>Take Advantage of the Next 24 Hours to View Your Stats</b>",
+            "<b>Take Advantage of the Next 24 Hours to View Your Stats</b>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
             "Premium members have the ability to view their profile stats in the Justia Lawyer Directory. Become a premium member today to view your profile stats anytime."
           ]
         },
@@ -46,7 +45,7 @@
         {
           "type": "description",
           "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "Justia Lawyer Directory Team <br><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
         },
         {

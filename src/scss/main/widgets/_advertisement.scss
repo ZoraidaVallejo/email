@@ -28,7 +28,7 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 38px $padding 0;
 
         img {
             width: $inner-max-width;
@@ -37,6 +37,14 @@
 
     .content {
         padding: 0 $padding 25px;
+
+        p a {
+            color: plt('black');
+
+            b {
+                color: plt('black');
+            }
+        }
 
         .content-side {
             width: 260px;
@@ -64,6 +72,24 @@
 
         &.-last {
             padding: 0 $padding $widget-gap;
+        }
+
+        &.-idx-1 {
+            padding: 35px 102px 12px;
+
+            p b {
+                @include mail-font(20px, 1.15, 700);
+                color: plt('justia-blue');
+            }
+        }
+
+        &.-idx-2 {
+            padding: 0 50px 20px;
+
+            p b {
+                @include mail-font(20px, 1.15, 700);
+                color: plt('justia-blue');
+            }
         }
     }
 }
