@@ -1,0 +1,24 @@
+{
+  "widget": {
+    "icon": "justia-annotations",
+    "header": "Featured Annotator",
+    "type": "Justia Annotations",
+    "link": "https://law.justia.com/annotations/"
+  },
+  "featured": {
+    "id": "0000000",
+    "rank": 1,
+    "name": "[Laboris occaecat]",
+    "location": "[Anytown, CA]",
+    "nameLink": "https://law.justia.com/annotations/",
+    "photoLink": "https://www.justia.com/lawyers"
+  },
+  "description": [
+    "Justia Annotations is a platform for attorneys to write their own plain English explanations of case law to help consumers and other attorneys better understand the law."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://law.justia.com/annotations/",
+    "text": "Read More"
+  }
+}
