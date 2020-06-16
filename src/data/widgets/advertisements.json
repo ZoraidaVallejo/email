@@ -9,7 +9,8 @@
         "image": "ppc-gradient.png",
         "width": 600,
         "bgColor": "#ffffff",
-        "cssSize": "600px 228px"
+        "cssSize": "600px 228px",
+        "responsive": "mobile-padding-30-bottom"
       },
       "link": "#",
       "image": "ppc-graphic-01.png",
@@ -19,6 +20,42 @@
           "config": [
             "<b>JUSTIA PPC MANAGEMENT</b> helps lawyers seeking to expand their online marketing reach. Our PPC management services use compelling ad copy, proven conversion techniques and click fraud algorithms to optimize your investment."
           ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ppc-icon-01.png",
+            "description": [
+              "<b>Platforms:</b> We manage PPC campaigns for Google, Facebook and Bing."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ppc-icon-02.png",
+            "description": [
+              "<b>Campaign Optimization:</b> We optimize localities, bids, keywords, ad text and landing page conversions."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ppc-icon-03.png",
+            "description": [
+              "<b>Click Fraud Detection:</b> Advanced machine learning algorithms separate real clicks from fraudulent clicks."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ppc-icon-04.png",
+            "description": [
+              "<b>Conversions:</b> Customized landing pages are designed to increase conversions on desktop and mobile."
+            ]
+          }
         },
         {
           "type": "description",

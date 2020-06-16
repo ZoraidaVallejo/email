@@ -38,7 +38,7 @@ $padding: 50px;
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 $padding 50px;
 
         p a {
             color: plt('black');
@@ -49,10 +49,11 @@ $padding: 50px;
         }
 
         .content-side {
-            width: 260px;
+            width: 240px;
 
             img {
-                width: 260px;
+                width: 175px;
+                margin: 0 auto;
             }
 
             &:first-child {
@@ -64,8 +65,12 @@ $padding: 50px;
             }
         }
 
+        .-image {
+            width: 175px;
+        }
+
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 35px $padding 40px;
         }
 
         &.-button {
@@ -80,13 +85,99 @@ $padding: 50px;
             text-align: left;
         }
 
-        &.-idx-2 {
-            padding: 0 50px 20px;
+        // &.-idx-2 {
+        //     padding: 0 50px 20px;
 
-            p b {
-                @include mail-font(20px, 1.15, 700);
-                color: plt('justia-blue');
+        //     p b {
+        //         @include mail-font(20px, 1.15, 700);
+        //         color: plt('justia-blue');
+        //     }
+        // }
+
+        &.-image-description {
+            text-align: left;
+
+            > div {
+                height: 125px;
+                padding: 0 13px 0 25px;
+                background-color: #f4f4f4;
+                vertical-align: middle;
+                border-radius: 20px;
+
+                .-description {
+                    padding: 28px 0 0;
+                }
             }
+        }
+
+        &.-idx-2,
+        &.-idx-4 {
+            &.-image-description > div {
+                padding: 0 25px 0 13px;
+            }
+        }
+
+        &.-idx-3,
+        &.-idx-5 {
+            > div {
+                background-color: #e2f6ff !important;
+            }
+
+            .content-side {
+                &.-image {
+                    float: right;
+                }
+
+                &.-description {
+                    float: left;
+                }
+            }
+        }
+
+        &.-idx-2 {
+            .-image {
+                padding: 32px 0;
+            }
+        }
+
+        &.-idx-3 {
+            .-image {
+                margin-top: -17px;
+            }
+
+            .-description {
+                width: 280px;
+            }
+        }
+
+        &.-idx-4 {
+            .-image {
+                width: 166px;
+                margin-top: -18px;
+            }
+
+            .-description {
+                width: 267px;
+            }
+        }
+
+        &.-idx-5 {
+            .-image {
+                width: 187px;
+                margin-top: -8px;
+            }
+
+            .-description {
+                width: 270px;
+            }
+        }
+
+        &.-idx-6 {
+            padding: 0 $padding 30px;
+        }
+
+        &.-idx-7 {
+            padding: 0 $padding 24px;
         }
     }
 }

@@ -44,6 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -76,7 +77,7 @@
 
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-50-bottom">
+      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
         <a href="{{{@root.adLink}}}" target="_blank">
           {{>img
             src=widgetConfig.image
@@ -91,28 +92,27 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-            {{#forIn this.config}}
-              {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-hide">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+            <div responsive="mobile-reset-height mobile-padding-20-vertical-sides mobile-padding-20-horizontal-sides">
+              {{#forIn this.config}}
+                {{#compare @key "===" "image"}}
+                  <div class="content-side -image" responsive="collapse-one mobile-no-margin mobile-no-padding-top mobile-padding-20-bottom">
                     {{>img
                       src=../config.image
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
                     }}
-                  </a>
-                </div>
-              {{/compare}}
+                  </div>
+                {{/compare}}
 
-              {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
-                  {{#each ../config.description}}
-                    <p>{{{this}}}</p>
-                  {{/each}}
-                </div>
-              {{/compare}}
-            {{/forIn}}
-
+                {{#compare @key "===" "description"}}
+                  <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-no-float">
+                    {{#each ../config.description}}
+                      <p>{{{this}}}</p>
+                    {{/each}}
+                  </div>
+                {{/compare}}
+              {{/forIn}}
+            </div>
           </td>
         </tr>
       {{/compare}}
