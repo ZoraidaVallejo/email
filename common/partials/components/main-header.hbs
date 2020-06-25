@@ -37,7 +37,7 @@
   link=@root.headerLogoLink
   responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
 )}}
-{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-20-vertical-sides" "")}}
+{{assign "headerWrapperResponsive" (ternary (compare widgetConfig.layout "===" "with-date") "mobile-padding-20-vertical-sides" "") (ternary (compare widgetConfig.layout "===" "insider-date") "mobile-padding-20-top" "")}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
 
@@ -61,6 +61,21 @@
               </td>
               <td class="date" responsive="collapse-one mobile-align-center">
                 <span responsive="mobile-fz-18 mobile-align-center">{{@root.headerDate}}</span>
+              </td>
+            </tr>
+          {{/table}}
+        {{/compare}}
+
+        {{#compare widgetConfig.layout "===" "insider-date"}}
+          {{#table}}
+            <tr>
+              <td class="date" responsive="mobile-align-center mobile-padding-horizontal-sides">
+                <span responsive="mobile-fz-18 mobile-align-center">{{@root.headerDate}}</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="logo" responsive="mobile-padding-bottom mobile-padding-horizontal-sides">
+                {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
             </tr>
           {{/table}}

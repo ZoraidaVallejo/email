@@ -20,6 +20,9 @@ $logos-dimensions: (
     ),
     'marketing': (
         'dims': 1240px 196px
+    ),
+    'insider': (
+        'dims': 1240px 196px
     )
 );
 
@@ -55,6 +58,9 @@ $settings: set('mail-header', (
             'legal-jobs': 277px,
             'lawyer-directory': 300px,
             'marketing': 297px
+        ),
+        'insider-date': (
+            'insider': 57px
         )
     )
 ));
@@ -113,6 +119,56 @@ $settings: set('mail-header', (
             color: plt('justia-blue');
 
             @include mail-font(22px, 1.25);
+        }
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
+}
+
+
+.main-header.-insider-date {
+
+    .wrapper {
+        text-align: center;
+        vertical-align: middle;
+
+        > table {
+            table-layout: fixed;
+        }
+    }
+
+    @each $logo-name, $width in get('mail-header.logos.logo-only') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+            margin: 0 auto;
+        }
+    }
+
+    .logo {
+        padding: 25px $padding;
+        border-radius: 10px 10px 0 0;
+        background-color: get('mail-header.background');
+        text-align: center;
+    }
+
+    .date {
+        width: 100%;
+        padding: 15px $padding;
+        text-align: right;
+
+        span {
+            display: block;
+            color: #585858;
+
+            @include mail-font(16px, 1.25);
         }
     }
 
