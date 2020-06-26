@@ -49,7 +49,8 @@ $settings: set('mail-header', (
             'lawyer-profile-essentials': 470px,
             'legal-jobs': 308px,
             'lawyer-directory': 500px,
-            'marketing': 297px
+            'marketing': 297px,
+            'insider': 300px
         ),
         'with-date': (
             'justia': 135px,
@@ -60,7 +61,7 @@ $settings: set('mail-header', (
             'marketing': 297px
         ),
         'insider-date': (
-            'insider': 57px
+            'insider': 300px
         )
     )
 ));
@@ -134,6 +135,7 @@ $settings: set('mail-header', (
 
 
 .main-header.-insider-date {
+    background-color: plt('mail', 'insider-blue');
 
     .wrapper {
         text-align: center;
@@ -174,7 +176,7 @@ $settings: set('mail-header', (
 
     // L O G O   S I Z E S
     // -------------------
-    @each $logo-name, $width in get('mail-header.logos.with-date') {
+    @each $logo-name, $width in get('mail-header.logos.insider-date') {
 
         &.-#{$logo-name}-logo .logo-img {
             width: $width;
