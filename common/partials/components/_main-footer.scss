@@ -50,6 +50,22 @@ $settings: set('footer-styles', (
         'nav': (
             'color': plt('justia-blue')
         )
+    ),
+    'insider': (
+        'font-size': 16px,
+        'color': plt('black'),
+        'background-color': #f0f7ff,
+        'head': (
+            'background-color': #f0f7ff,
+            'border-top': #f0f7ff,
+            'border-bottom': #f0f7ff
+        ),
+        'address': (
+            'font-weight': 700
+        ),
+        'nav': (
+            'color': plt('white')
+        )
     )
 ));
 
@@ -109,6 +125,10 @@ $settings: set('mail-footer', (
         }
     }
 
+    .-center {
+        text-align: center;
+    }
+
     .footer-social {
         overflow: hidden;
     }
@@ -122,6 +142,17 @@ $settings: set('mail-footer', (
 
     .footer-address {
         vertical-align: top;
+    }
+
+    &.-insider-style {
+
+        .footer-head {
+            padding: 25px $padding;
+        }
+
+        img {
+            margin: 0 auto;
+        }       
     }
 
     // F O O T E R   S T Y L E S
