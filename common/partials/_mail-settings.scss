@@ -40,7 +40,8 @@ $mail-color-palette: (
     'cape-cod': #3d4041,
     'jade': #01b463,
     'catskill-white': #edf2f7,
-    'fruit-salad': #4dab4f
+    'fruit-salad': #4dab4f,
+    'insider-blue': #f0f7ff
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
