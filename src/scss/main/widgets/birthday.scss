@@ -1,0 +1,123 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-birthday {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 $padding 35px;
+
+        a {
+            @include mail-font(30px, 1.15);
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0 $padding;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+
+        .content-side {
+            width: 375px;
+
+            img {
+                width: 375px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        .-list {
+            text-align: left;
+            @include mail-font(18px, 1.8);
+
+            ul {
+                padding-left: 0;
+                margin: 1.1em 0 1.7em;
+            }
+
+            li {
+                display: block;
+
+                span {
+                    padding: 1px 35px 1px 0;
+                    background: image-url('fifth-anniversary-icon-01.png') no-repeat right;
+                }
+            }
+
+            b {
+                color: plt('justia-blue');
+            }
+
+            span {
+                color: #737373;
+                @include mail-font(18px, 1.8, 700);
+            }
+
+            div > strong {
+                padding: 15px 0 15px 65px;
+                color: plt('justia-blue');
+                @include mail-font(20px, 1.5, 700);
+            }
+
+            .birthdays-list {
+                > strong {
+                    background: image-url('birthday-icon-01.png') no-repeat;
+                }
+
+                ul {
+                    width: 215px;
+                    float: left;
+
+                    &:last-child {
+                    width: 160px;
+                        float: right;
+                    }
+                }
+            }
+
+            .anniversaries-list > strong {
+                background: image-url('anniversary-icon-01.png') no-repeat;
+            }
+        }
+
+        &.-first {
+            padding: 35px $padding 20px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "widget": {
+    "type": "REVIEWs & RECOMMENDATIONs",
+    "header": "The Last Dance"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "description": [
+          "<i>\"A fascinating and insightful look behind the scenes of the 90's Chicago Bulls. It is an interesting narrative about Michael Jordan, his traits and flaws and the dynamics with the rest of the team. I admire the level of determination and commitment that MJ strived for and the way he pulled and challenged his teammates to believe wholeheartedly to accomplish the common goal.\"</i>",
+          "- Miguel Berlanga"
+        ]
+      }
+    },
+    {
+      "type": "description",
+      "config": {
+        "description": [
+          "All episodes available to stream on:<br>Netflix | ESPN | Hulu | YouTube TV<br><a href=\"https://www.youtube.com/watch?v=N9Z9JtNcCWY\" target=\"_blank\"><b>Watch the trailer</b>"
+        ]
+      }
+    }
+  ]
+}

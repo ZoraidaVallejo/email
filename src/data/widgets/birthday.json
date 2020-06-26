@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "birthday-graphic-01.png",
+        "description-custom": [
+          "<div class=\"birthdays-list\"> <strong><span></span>Birthdays of the Month</strong> <ul responsive=\"collapse-one mobile-no-margin mobile-padding-30-top\"> <li><b>05</b> Chris Skelton</li> <li><b>05</b> Cosme Escobedo</li> <li><b>05</b> Damian Escobedo</li> <li><b>16</b> David Kemp</li> </ul> <ul responsive=\"collapse-one mobile-no-margin mobile-padding-30-bottom\"> <li><b>16</b> Laura Garcia</li> <li><b>26</b> Rene Peralta</li> <li><b>27</b> David Potts</li> <li><b>29</b> Samuel Yang</li> </ul> </div> <div class=\"anniversaries-list\"> <strong><span></span>Work Anniversaries</strong> <ul responsive=\"mobile-no-margin mobile-padding-30-top\"> <li>Erika Azuela - <b>9th</b></li> <li>Samuel Yang - <b>6th</b></li> <li>Diego Miguel - <b>6th</b></li> <li>Eduardo Garcia - <b>6th</b></li> <li>Haydee Garcia - <span>5th</span></li> <li>Gabriela Rodriguez - <span>5th</span></li> </ul> </div>"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="internal-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.internal}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome.internal}}
+        
+        {{>widget-milestones widgetConfig=milestones}}
+
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.internal.ad1}}
+        
+        {{>widget-birthday widgetConfig=birthday}}
+
+        {{>inside-justia}}
+
+        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.internal.ad2}}
+        
+        {{>widget-holidays widgetConfig=holidays}}
+
+        {{>widget-ad widgetClass="-jld-ad-03" widgetConfig=advertisements.internal.ad3}}
+        
+        {{>widget-reviews widgetConfig=reviews}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.internal}}
+    </td>
+  </tr>
+{{/table}}

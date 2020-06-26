@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "internal": {
+    "ad1": {
+      "image": "reminders-graphic-01.png"
+    },
+    "ad2": {
+      "image": "quote-graphic-01.png"
+    },
+    "ad3": {
+      "type": "TEAM ACTIVITY",
+      "title": "Home Workspaces",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Featured home workspaces from our latest Slack team activity"
+          ]
+        },
+        {
+          "type": "image-column",
+          "config": {
+            "image1": "team-graphic-01.png",
+            "image2": "team-graphic-02.png"
+          }
+        }
+      ]
+    }
+  }
+}
