@@ -1,25 +1,19 @@
 {
   "widget": {
-    "type": "REVIEWs & RECOMMENDATIONs",
-    "header": "The Last Dance"
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Meditations by Marcus Aurelius"
   },
   "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/gp/product/0140449337/",
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
         "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.amazon.com/gp/product/0140449337/\" target=\"_blank\"><b>Amazon</b></a>",
         "description": [
-          "<i>\"A fascinating and insightful look behind the scenes of the 90's Chicago Bulls. It is an interesting narrative about Michael Jordan, his traits and flaws and the dynamics with the rest of the team. I admire the level of determination and commitment that MJ strived for and the way he pulled and challenged his teammates to believe wholeheartedly to accomplish the common goal.\"</i>",
-          "- Miguel Berlanga"
-        ]
-      }
-    },
-    {
-      "type": "description",
-      "config": {
-        "description": [
-          "All episodes available to stream on:<br>Netflix | ESPN | Hulu | YouTube TV<br><a href=\"https://www.youtube.com/watch?v=N9Z9JtNcCWY\" target=\"_blank\"><b>Watch the trailer</b>"
+          "<i>\"I recommend it since it's a great book of the school of philosophy called \"Stoicism,\" which teaches us to focus on the things we can control (like how we respond to things that happen to us) and to not worry about things we can't control (like money, social status, fame, and what others think), so we can live a better life, giving our best to the things we do without having to worry about the outcome.\"</i>",
+          "- Emilio Delgado"
         ]
       }
     }

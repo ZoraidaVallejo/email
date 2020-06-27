@@ -5,27 +5,64 @@
   },
   "internal": {
     "ad1": {
-      "image": "reminders-graphic-01.png"
+      "background": {
+        "image": "reminders-bg-01.png",
+        "width": 500,
+        "bgColor": "#ffffff",
+        "cssSize": "500px 350px"
+      },
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "reminders-graphic-01.png",
+            "description": [
+              "<b class=\"side-title\">Reminders</b>",
+              "<b>Backups.</b>  Remember to back up your laptop regularly. If your external hard drive is not working, please report it immediately to your supervisor and IT department."
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<b>Video Conference.</b> Join meetings on time. If possible, join the meeting earlier than two minutes before start time. Do not forget to turn the camera on."
+          ]
+        }
+      ]
     },
     "ad2": {
       "image": "quote-graphic-01.png"
     },
     "ad3": {
-      "type": "TEAM ACTIVITY",
-      "title": "Home Workspaces",
+      "type": "TEAM ACTIVITIES",
+      "title": "Justia's First Virtual Cook Off",
       "titleResponsiveSize": 23,
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Featured home workspaces from our latest Slack team activity"
+            "The first virtual cook-off competition at Justia was a great success. Special thanks to all participants for sharing their cooking talents and tasty-looking photographs! We couldn't have done it without you. With over 20 delicious dishes entered into the competition, the battle for being named the best chef and winning the $50 Amazon gift card was fierce. Congratulations to the winner, Miguel Berlanga!"
+          ]
+        }
+      ],
+      "image": "team-graphic-01.png"
+    },
+    "ad4": {
+      "type": "BLAST FROM THE PAST",
+      "title": "Justia: Back in the Day<br>& Moving Forward",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "After its foundation and first operations in an apartment, Justia has steadily evolved and overseen exceptional achievements since its official launch in 2003. It’s been all about goals and success. The best is yet to come."
           ]
         },
         {
           "type": "image-column",
           "config": {
-            "image1": "team-graphic-01.png",
-            "image2": "team-graphic-02.png"
+            "image1": "past-graphic-01.png",
+            "image2": "past-graphic-02.png"
           }
         }
       ]

@@ -641,7 +641,7 @@ a {
 }
 
 .widget-header {
-  padding: 50px 50px 45px;
+  padding: 50px 50px 25px;
 }
 
 .widget-header .header-text-column {
@@ -983,7 +983,7 @@ a {
 }
 
 .w-advertisement .image {
-  padding: 0 25px;
+  padding: 0 25px 50px;
 }
 
 .w-advertisement .image img {
@@ -991,15 +991,16 @@ a {
 }
 
 .w-advertisement .content {
-  padding: 0 25px 25px;
+  padding: 0 50px 25px;
+  text-align: left;
 }
 
 .w-advertisement .content .content-side {
-  width: 260px;
+  width: 225px;
 }
 
 .w-advertisement .content .content-side img {
-  width: 260px;
+  width: 225px;
 }
 
 .w-advertisement .content .content-side:first-child {
@@ -1011,7 +1012,7 @@ a {
 }
 
 .w-advertisement .content.-first {
-  padding: 0 25px 35px;
+  padding: 0 50px 35px;
 }
 
 .w-advertisement .content.-button {
@@ -1019,19 +1020,72 @@ a {
 }
 
 .w-advertisement .content.-last {
-  padding: 0 25px 50px;
+  padding: 0 25px 45px;
 }
 
 .w-advertisement .-image-column .content-side {
-  width: 375px;
+  width: 225px;
 }
 
 .w-advertisement .-image-column .content-side img {
-  width: 375px;
+  width: 225px;
+  margin: 0 auto;
 }
 
 .w-advertisement.-jld-ad-01 .image, .w-advertisement.-jld-ad-02 .image {
   padding: 50px 0;
+}
+
+.w-advertisement.-jld-ad-01 .ui-background {
+  background-position: top center !important;
+}
+
+.w-advertisement.-jld-ad-01 .content {
+  padding: 0 25px 12px 50px;
+}
+
+.w-advertisement.-jld-ad-01 .content p {
+  color: #ffffff;
+  padding: 0 0 0 20px;
+  background: url("../images/list-icon-01.png") no-repeat top left;
+  background-position: 0px 6px;
+}
+
+.w-advertisement.-jld-ad-01 .content p .side-title {
+  font: 700 28px/1.2 Arial, sans-serif;
+}
+
+.w-advertisement.-jld-ad-01 .content.-last {
+  padding: 0 50px 25px;
+}
+
+.w-advertisement.-jld-ad-01 .content .-description {
+  padding: 50px 0 0;
+}
+
+.w-advertisement.-jld-ad-01 .content .-description p:first-child {
+  padding: 0;
+  background: none;
+}
+
+.w-advertisement.-jld-ad-01 .content-side {
+  width: 240px;
+}
+
+.w-advertisement.-jld-ad-01 .content-side.-image {
+  width: 225px;
+}
+
+.w-advertisement.-jld-ad-01 .content-side img {
+  width: 225px;
+}
+
+.w-advertisement.-jld-ad-01 .content-side:first-child {
+  float: right;
+}
+
+.w-advertisement.-jld-ad-01 .content-side:last-child {
+  float: left;
 }
 
 .w-advertisement.-jld-ad-03 .content.-last {
@@ -1322,7 +1376,7 @@ a {
 }
 
 .w-birthday .image {
-  padding: 0 25px;
+  padding: 0 25px 25px;
 }
 
 .w-birthday .image img {
@@ -1334,11 +1388,11 @@ a {
 }
 
 .w-birthday .content .content-side {
-  width: 375px;
+  width: 225px;
 }
 
 .w-birthday .content .content-side img {
-  width: 375px;
+  width: 225px;
 }
 
 .w-birthday .content .content-side:first-child {
@@ -1349,55 +1403,47 @@ a {
   float: right;
 }
 
-.w-birthday .content .-list {
+.w-birthday .content.-lists-description {
   text-align: left;
   font: 18px/1.8 Arial, sans-serif;
 }
 
-.w-birthday .content .-list ul {
+.w-birthday .content.-lists-description ul {
   padding-left: 0;
-  margin: 1.1em 0 1.7em;
+  margin: 8px 0 0;
 }
 
-.w-birthday .content .-list li {
+.w-birthday .content.-lists-description li {
   display: block;
 }
 
-.w-birthday .content .-list li span {
+.w-birthday .content.-lists-description li span {
   padding: 1px 35px 1px 0;
   background: url("../images/fifth-anniversary-icon-01.png") no-repeat right;
 }
 
-.w-birthday .content .-list b {
+.w-birthday .content.-lists-description b {
   color: #06357a;
 }
 
-.w-birthday .content .-list span {
+.w-birthday .content.-lists-description span {
   color: #737373;
   font: 700 18px/1.8 Arial, sans-serif;
 }
 
-.w-birthday .content .-list div > strong {
-  padding: 15px 0 15px 65px;
+.w-birthday .content.-lists-description div > strong {
+  display: block;
+  padding: 0 0 0 65px;
   color: #06357a;
-  font: 700 20px/1.5 Arial, sans-serif;
+  font: 700 18px/1.1 Arial, sans-serif;
 }
 
-.w-birthday .content .-list .birthdays-list > strong {
+.w-birthday .content.-lists-description .-birthdays > strong {
   background: url("../images/birthday-icon-01.png") no-repeat;
 }
 
-.w-birthday .content .-list .birthdays-list ul {
-  width: 215px;
-  float: left;
-}
-
-.w-birthday .content .-list .birthdays-list ul:last-child {
-  width: 160px;
-  float: right;
-}
-
-.w-birthday .content .-list .anniversaries-list > strong {
+.w-birthday .content.-lists-description .-anniversaries > strong {
+  padding: 10px 0 10px 65px;
   background: url("../images/anniversary-icon-01.png") no-repeat;
 }
 
@@ -1437,7 +1483,7 @@ a {
 }
 
 .w-holidays .image {
-  padding: 0 25px;
+  padding: 0 25px 20px;
 }
 
 .w-holidays .image img {
@@ -1445,7 +1491,7 @@ a {
 }
 
 .w-holidays .content {
-  padding: 0 25px 45px;
+  padding: 0 50px 45px;
 }
 
 .w-holidays .content a {
@@ -1459,6 +1505,10 @@ a {
 
 .w-holidays .content p b {
   color: #06357a;
+}
+
+.w-holidays .content p {
+  margin-bottom: 0;
 }
 
 .w-holidays .content .content-side {
@@ -1491,7 +1541,7 @@ a {
 }
 
 .w-holidays .content.-last {
-  padding: 0 25px 50px;
+  padding: 0 50px 50px;
 }
 
 .w-holidays .content.-idx-2 {
@@ -1541,6 +1591,10 @@ a {
   padding: 0 25px 25px;
 }
 
+.w-reviews .content p {
+  margin-bottom: 0;
+}
+
 .w-reviews .content p a {
   color: #06357a;
 }
@@ -1550,11 +1604,12 @@ a {
 }
 
 .w-reviews .content .content-side {
-  width: 375px;
+  width: 231px;
 }
 
 .w-reviews .content .content-side img {
-  width: 375px;
+  width: 225px;
+  margin-top: 5px;
 }
 
 .w-reviews .content .content-side:first-child {
@@ -1563,6 +1618,10 @@ a {
 
 .w-reviews .content .content-side:last-child {
   float: right;
+}
+
+.w-reviews .content .-image p {
+  margin-top: 30px;
 }
 
 .w-reviews .content .-list {
@@ -1580,6 +1639,121 @@ a {
 
 .w-reviews .content.-last {
   padding: 0 25px 50px;
+}
+
+.w-teammates td {
+  text-align: left;
+}
+
+.w-teammates .justia-logo {
+  padding: 40px 25px 30px;
+  text-align: center;
+}
+
+.w-teammates .justia-logo img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-teammates .title {
+  padding: 0 25px 35px;
+}
+
+.w-teammates .title a {
+  font: 30px/1.15 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-teammates .image {
+  padding: 0 25px 20px;
+}
+
+.w-teammates .image img {
+  width: 500px;
+}
+
+.w-teammates .content {
+  padding: 0 50px 45px;
+}
+
+.w-teammates .content a {
+  font: 700 18px/1.5 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-teammates .content a * {
+  color: #06357a;
+}
+
+.w-teammates .content p b {
+  color: #06357a;
+}
+
+.w-teammates .content p {
+  margin-bottom: 0;
+}
+
+.w-teammates .content .content-side {
+  width: 225px;
+}
+
+.w-teammates .content .content-side img {
+  width: 75px;
+}
+
+.w-teammates .content .content-side:nth-child(odd) {
+  float: left;
+}
+
+.w-teammates .content .content-side:nth-child(even) {
+  float: right;
+}
+
+.w-teammates .content .-description {
+  padding: 80px 0 0;
+}
+
+.w-teammates .content.-button {
+  padding: 0 25px 18px;
+}
+
+.w-teammates .content.-last {
+  padding: 0 50px 50px;
+  text-align: center;
+}
+
+.w-teammates .content .-image {
+  width: 75px;
+  padding: 12px 22px 12px 0;
+}
+
+.w-teammates .content .-face-name {
+  font: 700 16px/1.5 Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-teammates .content.-list {
+  padding: 0 25px 13px;
+  text-align: left;
+}
+
+.w-teammates .content.-list ul {
+  margin: 0;
+  background-color: #f6fdfc;
+  padding: 1em 25px 1em;
+  border-radius: 10px;
+}
+
+.w-teammates .content.-list ul li {
+  display: block;
+  padding: 0 0 0 22px;
+  margin-bottom: 15px;
+  background: url("../images/list-icon-01.png") no-repeat top left;
+  background-position: 0px 6px;
+}
+
+.w-teammates .content.-faces {
+  padding: 0 25px 30px;
 }
 
 .full-size {
@@ -1624,9 +1798,14 @@ body {
 }
 
 .w-milestones,
-.w-birthday,
-.-jld-ad-03 {
+.w-birthday {
   background: url("../images/odd-block-01.png") no-repeat #ffffff;
+  background-position: center;
+}
+
+.w-advertisement.-jld-ad-04 {
+  background: url("../images/odd-block-02.png") no-repeat #ffffff;
+  background-position: bottom;
 }
 
 @media screen {

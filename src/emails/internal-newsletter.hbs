@@ -14,21 +14,25 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{>welcome widgetConfig=welcome.internal}}
+        {{!-- {{>welcome widgetConfig=welcome.internal}}
         
-        {{>widget-milestones widgetConfig=milestones}}
+        {{>widget-milestones widgetConfig=milestones}} --}}
 
         {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.internal.ad1}}
         
         {{>widget-birthday widgetConfig=birthday}}
 
         {{>inside-justia}}
-
-        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.internal.ad2}}
         
         {{>widget-holidays widgetConfig=holidays}}
 
+        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.internal.ad2}}
+
         {{>widget-ad widgetClass="-jld-ad-03" widgetConfig=advertisements.internal.ad3}}
+        
+        {{>widget-teammates widgetConfig=teammates}}
+
+        {{>widget-ad widgetClass="-jld-ad-04" widgetConfig=advertisements.internal.ad4}}
         
         {{>widget-reviews widgetConfig=reviews}}
 

@@ -28,7 +28,7 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0 $padding $padding;
 
         img {
             width: $inner-max-width;
@@ -39,10 +39,10 @@
         padding: 0 $padding 25px;
 
         .content-side {
-            width: 375px;
+            width: 225px;
 
             img {
-                width: 375px;
+                width: 225px;
             }
 
             &:first-child {
@@ -54,13 +54,13 @@
             }
         }
 
-        .-list {
+        &.-lists-description {
             text-align: left;
             @include mail-font(18px, 1.8);
 
             ul {
                 padding-left: 0;
-                margin: 1.1em 0 1.7em;
+                margin: 8px 0 0;
             }
 
             li {
@@ -82,28 +82,18 @@
             }
 
             div > strong {
-                padding: 15px 0 15px 65px;
+                display: block;
+                padding: 0 0 0 65px;
                 color: plt('justia-blue');
-                @include mail-font(20px, 1.5, 700);
+                @include mail-font(18px, 1.1, 700);
             }
 
-            .birthdays-list {
-                > strong {
-                    background: image-url('birthday-icon-01.png') no-repeat;
-                }
-
-                ul {
-                    width: 215px;
-                    float: left;
-
-                    &:last-child {
-                    width: 160px;
-                        float: right;
-                    }
-                }
+            .-birthdays > strong {
+                background: image-url('birthday-icon-01.png') no-repeat;
             }
 
-            .anniversaries-list > strong {
+            .-anniversaries > strong {
+                padding: 10px 0 10px 65px;
                 background: image-url('anniversary-icon-01.png') no-repeat;
             }
         }

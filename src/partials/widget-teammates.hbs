@@ -30,11 +30,11 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
-{{assign "adClasses" (classList "widget" "w-holidays" widgetClass "set-max-width")}}
+{{assign "adClasses" (classList "widget" "w-teammates" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-holidays" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-teammates" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -66,40 +66,17 @@
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
-      {{#compare this.type "===" "image-description"}}
+      {{#compare this.type "===" "faces"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-reset-max-width">
-            {{#forIn this.config}}
-              {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-reset-max-width mobile-reset-width">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
-                    {{>img
-                      src=../config.image
-                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                    }}
-                  </a>
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-padding-30-top">
-                  {{#each ../config.description}}
-                    <p>{{{this}}}</p>
-                  {{/each}}
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description-list"}}
-                <div class="content-side -description -list" responsive="collapse-one mobile-no-padding">
-                  <ul>
-                    {{#each ../config.description-list}}
-                      <li>{{{this}}}</li>
-                    {{/each}}
-                  </ul>
-                </div>
-              {{/compare}}
-            {{/forIn}}
-
+          <td class="content -faces -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <div class="content-side" responsive="collapse-one">
+                {{>widget-face-name
+                  imgSrc=image
+                  mateName=name
+                }}
+              </div>
+            {{/each}}
           </td>
         </tr>
       {{/compare}}
@@ -110,6 +87,18 @@
             {{#each this.config}}
               <p>{{{this}}}</p>
             {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "list"}}
+        <tr>
+          <td class="content -list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            <ul responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <li>{{{this}}}</li>
+            {{/each}}
+          </ul>
           </td>
         </tr>
       {{/compare}}

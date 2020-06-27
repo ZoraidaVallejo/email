@@ -28,7 +28,7 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0 $padding 20px;
 
         img {
             width: $inner-max-width;
@@ -36,7 +36,7 @@
     }
 
     .content {
-        padding: 0 $padding 45px;
+        padding: 0 $padding-content 45px;
 
         a {
             @include mail-font(18px, 1.5, 700);
@@ -49,6 +49,10 @@
 
         p b {
             color: plt('justia-blue');
+        }
+
+        p {
+            margin-bottom: 0;
         }
 
         .content-side {
@@ -85,12 +89,12 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding-content $widget-gap;
         }
     }
 
     .content.-idx-2 {
-        padding: 0 50px $widget-gap;
+        padding: 0 $padding-content $widget-gap;
 
         p {
             @include mail-font(16px, 1.5);

@@ -33,7 +33,7 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0 $padding $widget-gap;
 
         img {
             width: $inner-max-width;
@@ -41,13 +41,14 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 $padding-content 25px;
+        text-align: left;
 
         .content-side {
-            width: 260px;
+            width: 225px;
 
             img {
-                width: 260px;
+                width: 225px;
             }
 
             &:first-child {
@@ -60,7 +61,7 @@
         }
 
         &.-first {
-            padding: 0 $padding 35px;
+            padding: 0 $padding-content 35px;
         }
 
         &.-button {
@@ -68,17 +69,18 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 45px;
         }
     }
 
     .-image-column {
 
         .content-side {
-            width: 375px;
+            width: 225px;
 
             img {
-                width: 375px;
+                width: 225px;
+                margin: 0 auto;
             }
         }
     }
@@ -87,6 +89,69 @@
     &.-jld-ad-02 {
         .image {
             padding: $widget-gap 0;
+        }
+    }
+
+    &.-jld-ad-01 {
+
+        .ui-background {
+            background-position: top center !important;
+        }
+
+        .content {
+            padding: 0 $padding 12px 50px;
+
+            p {
+                color: plt('white');
+                padding: 0 0 0 20px;
+                background: image-url('list-icon-01.png') no-repeat top left;
+                background-position: 0px 6px;
+
+                .side-title {
+                    @include mail-font(28px, 1.2, 700);
+                }
+            }
+
+            // &.-first {
+            //     padding: 0 $padding 35px;
+            // }
+
+            // &.-button {
+            //     padding: 0 $padding 18px;
+            // }
+
+            &.-last {
+                padding: 0 50px $padding;
+            }
+
+            .-description {
+                padding: $widget-gap 0 0;
+
+                p:first-child {
+                    padding: 0;
+                    background: none;
+                }
+            }
+        }
+
+        .content-side {
+            width: 240px;
+
+            &.-image {
+                width: 225px;
+            }
+
+            img {
+                width: 225px;
+            }
+
+            &:first-child {
+                float: right;
+            }
+
+            &:last-child {
+                float: left;
+            }
         }
     }
 

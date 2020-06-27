@@ -4,6 +4,7 @@
 
 $use-breakpoint: false;
 $padding: 25px !default;
+$padding-content: 50px !default;
 $max-width: 550px !default;
 $inner-max-width: $max-width - ($padding * 2) !default;
 $mail-global-font-size: 16px !default;
@@ -38,6 +39,7 @@ $use-special-font: false !default;
     'main/widgets/birthday',
     'main/widgets/holidays',
     'main/widgets/reviews',
+    'main/widgets/teammates',
     'main/utilities';
 
 // @import
@@ -49,7 +51,12 @@ body {
 }
 
 .w-milestones,
-.w-birthday,
-.-jld-ad-03 {
+.w-birthday {
     background: image-url('odd-block-01.png') no-repeat plt('white');
+    background-position: center;
+}
+
+.w-advertisement.-jld-ad-04 {
+    background: image-url('odd-block-02.png') no-repeat plt('white');
+    background-position: bottom;
 }

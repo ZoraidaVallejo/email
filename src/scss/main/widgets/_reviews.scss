@@ -39,19 +39,24 @@
     .content {
         padding: 0 $padding 25px;
 
-        p a {
-            color: plt('justia-blue');
+        p {
+            margin-bottom: 0;
 
-            * {
+            a {
                 color: plt('justia-blue');
+
+                * {
+                    color: plt('justia-blue');
+                }
             }
         }
 
         .content-side {
-            width: 375px;
+            width: 231px;
 
             img {
-                width: 375px;
+                width: 225px;
+                margin-top: 5px;
             }
 
             &:first-child {
@@ -60,6 +65,12 @@
 
             &:last-child {
                 float: right;
+            }
+        }
+
+        .-image {
+            p {
+                margin-top: 30px;
             }
         }
 

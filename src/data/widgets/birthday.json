@@ -4,13 +4,32 @@
     "header": "Congratulating Our Justia Members on Their Special Days"
   },
   "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
   "contentOrder": [
     {
-      "type": "image-description",
+      "type": "lists-description",
       "config": {
-        "image": "birthday-graphic-01.png",
-        "description-custom": [
-          "<div class=\"birthdays-list\"> <strong><span></span>Birthdays of the Month</strong> <ul responsive=\"collapse-one mobile-no-margin mobile-padding-30-top\"> <li><b>05</b> Chris Skelton</li> <li><b>05</b> Cosme Escobedo</li> <li><b>05</b> Damian Escobedo</li> <li><b>16</b> David Kemp</li> </ul> <ul responsive=\"collapse-one mobile-no-margin mobile-padding-30-bottom\"> <li><b>16</b> Laura Garcia</li> <li><b>26</b> Rene Peralta</li> <li><b>27</b> David Potts</li> <li><b>29</b> Samuel Yang</li> </ul> </div> <div class=\"anniversaries-list\"> <strong><span></span>Work Anniversaries</strong> <ul responsive=\"mobile-no-margin mobile-padding-30-top\"> <li>Erika Azuela - <b>9th</b></li> <li>Samuel Yang - <b>6th</b></li> <li>Diego Miguel - <b>6th</b></li> <li>Eduardo Garcia - <b>6th</b></li> <li>Haydee Garcia - <span>5th</span></li> <li>Gabriela Rodriguez - <span>5th</span></li> </ul> </div>"
+        "birthdays": [
+          "<b>01</b> Barbara Cooper",
+          "<b>01</b> Esteban Hinojosa",
+          "<b>06</b> Meghna Patel",
+          "<b>09</b> Lenin Angulo",
+          "<b>15</b> Tim Stanley",
+          "<b>19</b> Gabriela Fonseca",
+          "<b>21</b> Carlos Quintanilla",
+          "<b>26</b> Ana Hidalgo",
+          "<b>27</b> Gabriela Rodriguez",
+          "<b>30</b> Stacy Stern"
+        ],
+        "anniversaries": [
+          "Katherine Le - <b>1st</b>",
+          "Claudia Duque - <b>2nd</b>",
+          "Lizeth Rios - <b>3rd</b>",
+          "Ana Serna - <span>5th</span>",
+          "Rene Peralta - <b>8th</b>",
+          "Gabriela Fonseca - <b>8th</b>",
+          "Ismael Munoz - <b>9th</b>",
+          "Miguel Berlanga - <b>9th</b>"
         ]
       }
     }
