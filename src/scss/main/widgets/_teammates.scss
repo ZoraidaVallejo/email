@@ -55,6 +55,10 @@
             margin-bottom: 0;
         }
 
+        ul li {
+            @include mail-font(16px, 1.5);
+        }
+
         .content-side {
             width: 225px;
 

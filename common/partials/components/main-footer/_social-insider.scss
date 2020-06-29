@@ -49,7 +49,7 @@
 
     // L O G O   S I Z E S
     // -------------------
-    @each $logo-name, $width in get('mail-footer.logos.social-below') {
+    @each $logo-name, $width in get('mail-footer.logos.social-insider') {
 
         &.-#{$logo-name}-logo .logo-img {
             $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));

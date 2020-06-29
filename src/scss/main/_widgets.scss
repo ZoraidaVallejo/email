@@ -10,7 +10,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-header {
-    padding: $widget-gap $padding-content 25px;
+    padding: $widget-gap 47px 25px;
 
     // .header-icon-column {
     //     width: 55px;
@@ -30,6 +30,8 @@
     }
 
     .type {
+        letter-spacing: 1px;
+        display: block;
         margin-bottom: 2em;
         text-transform: uppercase;
         color: #848484;
