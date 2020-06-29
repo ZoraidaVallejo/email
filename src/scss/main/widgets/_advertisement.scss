@@ -95,7 +95,8 @@
     &.-jld-ad-01 {
 
         .ui-background {
-            background-position: top center !important;
+            background-position: center !important;
+            padding: 28px 0;
         }
 
         .content {
@@ -143,6 +144,65 @@
 
             img {
                 width: 225px;
+            }
+
+            &:first-child {
+                float: right;
+            }
+
+            &:last-child {
+                float: left;
+            }
+        }
+    }
+
+    &.-jld-ad-quote {
+
+        .ui-background {
+            background-position: center !important;
+            padding: 28px 0;
+        }
+
+        .content {
+            padding: 0 $padding 12px 50px;
+
+            p {
+                @include mail-font(26px, 1.3, 700);
+                color: plt('white');
+                margin: 0 0 8px;
+            }
+
+            // &.-first {
+            //     padding: 0 $padding 35px;
+            // }
+
+            // &.-button {
+            //     padding: 0 $padding 18px;
+            // }
+
+            .-description {
+                padding: $padding 0 0;
+
+                p:first-child {
+                    padding: 0;
+                    background: none;
+                }
+            }
+        }
+
+        .content-side {
+            width: 250px;
+
+            &.-image {
+                width: 212px;
+
+                img {
+                    width: 212px;
+                }
+            }
+
+            p img {
+                width: 66px;
             }
 
             &:first-child {

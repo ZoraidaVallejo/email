@@ -1,8 +1,8 @@
 ---
-subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+subject: "[Team] The Justia Insider - July 2020"
 ---
 
-{{>preheader text="News and developments from Justia and the tech world ----- "}}
+{{>preheader text="#"}}
 
 {{#table class="internal-newsletter" align=""}}
   <tr>
@@ -14,9 +14,9 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{!-- {{>welcome widgetConfig=welcome.internal}}
+        {{>welcome widgetConfig=welcome.internal}}
         
-        {{>widget-milestones widgetConfig=milestones}} --}}
+        {{>widget-milestones widgetConfig=milestones}}
 
         {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.internal.ad1}}
         
@@ -26,7 +26,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
         
         {{>widget-holidays widgetConfig=holidays}}
 
-        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.internal.ad2}}
+        {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.internal.quote}}
 
         {{>widget-ad widgetClass="-jld-ad-03" widgetConfig=advertisements.internal.ad3}}
         

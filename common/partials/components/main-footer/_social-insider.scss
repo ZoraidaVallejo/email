@@ -3,6 +3,11 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer.-social-insider {
+    color: #585858;
+
+    p {
+        color: #585858 !important;
+    }
 
     .fhead-side {
 
@@ -23,7 +28,7 @@
     }
 
     .footer-social {
-        padding: 28px 150px 15px;
+        padding: 28px 25px floor($padding * 4);
         text-align: center;
 
         .social-icons {
@@ -33,17 +38,12 @@
     }
 
     .footer-collaborators {
-        padding: 0 50px 15px;
+        padding: 0 25px 15px;
         text-align: center;
     }
 
     .footer-disclaimer {
-        padding: 0 50px 8px;
-        text-align: center;
-    }
-
-    .footer-address {
-        padding: 0 $padding floor($padding * 4);
+        padding: 0 25px 8px;
         text-align: center;
     }
 

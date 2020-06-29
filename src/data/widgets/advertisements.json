@@ -7,9 +7,10 @@
     "ad1": {
       "background": {
         "image": "reminders-bg-01.png",
-        "width": 500,
+        "width": 400,
         "bgColor": "#ffffff",
-        "cssSize": "500px 350px"
+        "cssSize": "550px 350px",
+        "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
       },
       "contentOrder": [
         {
@@ -30,8 +31,27 @@
         }
       ]
     },
-    "ad2": {
-      "image": "quote-graphic-01.png"
+    "quote": {
+      "background": {
+        "image": "quote-bg-01.png",
+        "width": 500,
+        "bgColor": "#ffffff",
+        "cssSize": "550px 388px",
+        "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
+      },
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "quote-graphic-01.png",
+            "description": [
+              "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"88\">",
+              "<i>Coming together is a beginning, staying together is progress, and working together is success.\"</i>",
+              "– Henry Ford"
+            ]
+          }
+        }
+      ]
     },
     "ad3": {
       "type": "TEAM ACTIVITIES",

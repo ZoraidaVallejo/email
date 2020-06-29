@@ -20,6 +20,8 @@
 
     .title {
         padding: 0 0 5px;
+        @include mail-font(18px, 1.15, 700);
+        color: plt('justia-blue');
 
         a {
             @include mail-font(18px, 1.15, 700);

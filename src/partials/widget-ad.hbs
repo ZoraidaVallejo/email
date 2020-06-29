@@ -44,6 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
+        responsive=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -98,7 +99,7 @@
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                   {{#each ../config.description}}
-                    <p>{{{this}}}</p>
+                    <p responsive="mobile-fz-16">{{{this}}}</p>
                   {{/each}}
                 </div>
               {{/compare}}
