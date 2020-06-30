@@ -60,14 +60,14 @@
 
             ul {
                 padding-left: 0;
-                margin: 8px 0 0;
+                margin: 0;
             }
 
             li {
                 display: block;
 
                 span {
-                    padding: 1px 35px 1px 0;
+                    padding: 1px 28px 1px 0;
                     background: image-url('fifth-anniversary-icon-01.png') no-repeat right;
                 }
             }
@@ -83,18 +83,20 @@
 
             div > strong {
                 display: block;
-                padding: 0 0 0 65px;
+                padding: 12px 0 12px 65px;
                 color: plt('justia-blue');
                 @include mail-font(18px, 1.1, 700);
             }
 
             .-birthdays > strong {
                 background: image-url('birthday-icon-01.png') no-repeat;
+                background-position: center left;
             }
 
             .-anniversaries > strong {
-                padding: 10px 0 10px 65px;
+                padding: 21px 0 22px 65px;
                 background: image-url('anniversary-icon-01.png') no-repeat;
+                background-position: center left;
             }
         }
 
