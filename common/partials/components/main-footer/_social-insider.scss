@@ -3,6 +3,11 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .main-footer.-social-insider {
+    color: #585858;
+
+    p {
+        color: #585858 !important;
+    }
 
     .fhead-side {
 
@@ -23,7 +28,7 @@
     }
 
     .footer-social {
-        padding: 28px 150px 15px;
+        padding: 28px 25px floor($padding * 3);
         text-align: center;
 
         .social-icons {
@@ -33,23 +38,18 @@
     }
 
     .footer-collaborators {
-        padding: 0 50px 15px;
+        padding: 0 25px 15px;
         text-align: center;
     }
 
     .footer-disclaimer {
-        padding: 0 50px 8px;
-        text-align: center;
-    }
-
-    .footer-address {
-        padding: 0 $padding floor($padding * 4);
+        padding: 0 25px 8px;
         text-align: center;
     }
 
     // L O G O   S I Z E S
     // -------------------
-    @each $logo-name, $width in get('mail-footer.logos.social-below') {
+    @each $logo-name, $width in get('mail-footer.logos.social-insider') {
 
         &.-#{$logo-name}-logo .logo-img {
             $_scaled-height: round(rule-of-three(get('mail-logos.#{$logo-name}.width'), get('mail-logos.#{$logo-name}.height'), $width));
