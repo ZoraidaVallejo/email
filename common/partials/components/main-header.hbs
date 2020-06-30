@@ -41,7 +41,7 @@
 {{#if (compare widgetConfig.layout "===" "with-date")}}
   {{assign "headerWrapperResponsive" "mobile-padding-20-vertical-sides"}}
 {{else if (compare widgetConfig.layout "===" "insider-date")}}
-  {{assign "headerWrapperResponsive" "mobile-padding-20-top"}}
+  {{assign "headerWrapperResponsive" "mobile-padding-20-top mobile-no-padding-horizontal-sides"}}
 {{else}}
   {{assign "headerWrapperResponsive" ""}}
 {{/if}}
