@@ -83,7 +83,7 @@
 
             div > strong {
                 display: block;
-                padding: 12px 0 12px 65px;
+                padding: 10px 0 14px 68px;
                 color: plt('justia-blue');
                 @include mail-font(18px, 1.1, 700);
             }
@@ -94,7 +94,6 @@
             }
 
             .-anniversaries > strong {
-                padding: 21px 0 22px 65px;
                 background: image-url('anniversary-icon-01.png') no-repeat;
                 background-position: center left;
             }
