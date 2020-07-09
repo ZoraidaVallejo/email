@@ -1,0 +1,43 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "dateTime": "July 13, 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Understanding the Complexities of Estate Planning: Top Ten Issues to Consider",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/399281827/"
+    },
+    {
+      "dateTime": "July 15, 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "CARE(S) to Elaborate? Employee Benefits and Executive Compensation in a COVID-19 World",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/401675850/"
+    },
+    {
+      "dateTime": "July 20, 1pm ET",
+      "typeLocation": "Webinar",
+      "description": "Fair Servicing in Wake<br>of COVID-19",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/401185380/"
+    },
+    {
+      "dateTime": "July 22, 2pm ET",
+      "typeLocation": "Webinar",
+      "description": "Video & Audio Content Crash Course for Lawyers - Content Marketing in 2020",
+      "readMore": "https://mailchi.mp/571eef50abdb/hwubj5s84e"
+    },
+    {
+      "dateTime": "July 23, 11am ET",
+      "typeLocation": "Webinar",
+      "description": "The New Normal: Employment and Immigration Issues for Foreign Workers After COVID-19",
+      "readMore": "https://www.americanbar.org/events-cle/mtg/web/401586961/"
+    },
+    {
+      "dateTime": "July 29 - August 4",
+      "description": "2020 ABA Virtual Annual Meeting",
+      "readMore": "https://www.americanbar.org/groups/departments_offices/meetings_travel_dept/annual-meeting/"
+    }
+  ]
+}

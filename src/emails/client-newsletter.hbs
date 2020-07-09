@@ -1,0 +1,51 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="client-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.clients}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome.clients}}
+
+        {{>covid-updates widgetUtmVars=covidUpdates.utm.jld}}
+
+        {{>tip-month widgetConfig=tipMonth.form}}
+
+        {{!-- {{>featured-news widgetUtmVars=featuredNews.utm.clients}} --}}
+
+        {{>tip-month widgetConfig=tipMonth.tip}}
+
+        {{>tech-news}}
+
+        {{>featured-site-month singleSite=true}}
+
+        {{>seo-news}}
+
+        {{>internet-stats}}
+
+        {{>social-media-news}}
+
+        {{>inside-justia}}
+
+        {{>legal-industry-news}}
+
+        {{>law-events}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.clients}}
+    </td>
+  </tr>
+{{/table}}

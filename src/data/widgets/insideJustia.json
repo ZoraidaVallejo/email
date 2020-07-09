@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Connecting Remotely"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Connecting Remotely</b>",
+      "description": [
+        "Our team continues to work remotely due to COVID-19 but we are able to connect for team meetings using Google Meet. Here are many of our team members in their Justia swag!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Friends of Hug Pugs"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Friends of Hug Pugs</b>",
+      "description": [
+        "Since our pugs are stuck at home sheltering in place, they wanted to introduce you to their work pal's pups! Meet Gus’s dog Kupper who is still just a puppy and not yet a year old :)"
+      ]
+    }
+  ]
+}

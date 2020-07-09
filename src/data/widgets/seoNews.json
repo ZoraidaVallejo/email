@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Google My Business Offers More Flexibility with Business Hours",
+      "link": "https://searchengineland.com/google-my-business-offers-more-flexibility-with-business-hours-335549",
+      "description": "As businesses adapt their operations to social distancing rules and other precautions related to COVID-19, they will now have more flexibility in displaying their hours in their GMB listings."
+    },
+    {
+      "title": "Google Explains Why it Rewrites Meta Descriptions",
+      "link": "https://www.searchenginejournal.com/why-google-rewrites-meta-descriptions/ ",
+      "description": "In a recent forum, Google's John Mueller explained that Google's algorithm may alter meta descriptions due to the relationship between a search query and the content of the page."
+    },
+    {
+      "title": "Google: Disavowing Links Would Rarely Help You Algorithmically",
+      "link": "https://www.seroundtable.com/google-disavowing-links-not-help-you-algorithmically-29573.html",
+      "description": "According to Google’s John Mueller, disavowing links will rarely lead to a site ranking better without a manual action, and that any resulting changes would likely be due to other factors."
+    },
+    {
+      "title": "Google Now Lets Businesses Clarify What Online Services They Offer During the Pandemic",
+      "link": "https://www.theverge.com/2020/5/27/21271258/google-merchants-business-listings-pandemic-attributes-restaurants",
+      "description": "New features are available in Google Search and Maps that will allow a wide variety of businesses to describe their available services more clearly during the coronavirus outbreak."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "marketing-gradient-01.png",
+        "width": 600,
+        "bgColor": "#1b66d3",
+        "cssSize": "600px 525px"
+      },
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v32"
+      },
+      "image": "marketing-graphic-01.png",
+      "imageAlt": "Refresh Your Marketing",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Are your current marketing efforts not paying off the way you want them to? It’s time to clean up your marketing and make some changes. <b>Premium placements on the Justia Lawyer Directory are an effective way to generate more business</b>. Expand your reach with benefits such as higher visibility, access to profile statistics, and more."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Become a Premium Member",
+            "width": 280,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": "responsive-button"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "or call us at <b><a href=\"tel:8885878421\" target=\"_blank\"><span>(888) 587-8421</span></a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}
