@@ -16,7 +16,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v32"
+        "content": "banner-premium-memberships-v33"
       },
       "image": "marketing-graphic-01.png",
       "imageAlt": "Refresh Your Marketing",
