@@ -1,18 +1,19 @@
 // ----------------------------------------------------------------------------------------------------------
-// A D V E R T I S E M E N T
+// E N D I N G   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.w-advertisement {
+.w-ending {
+    background-color: plt('white');
 
-    &.-jobs-ad {
-        border-bottom: 1px solid plt('gallery');
-        background-color: #cde2e8;
+    .ending-text {
+        padding: 25px $padding;
 
-        .image {
+        a {
+            color: plt('black');
+        }
 
-            a {
-                color: #cde2e8;
-            }
+        p {
+            @include mail-font(14px, 1.7);
         }
     }
 }
