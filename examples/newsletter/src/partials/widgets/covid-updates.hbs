@@ -3,14 +3,41 @@
 {{! ================================================================================================================= }}
 
 {{!
-// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
-// In this case it uses covidUpdates because both Newsletters shared the same info,
-// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
+ * @param {String}   covidUpdates.widget.header
+ * @param {String}   covidUpdates.widget.icon
+ * @param {String}   covidUpdates.link
+ * @param {Object[]} covidUpdates.utm
+ * @param {String}   covidUpdates.banner
+ * @param {String}   covidUpdates.title
+ * @param {String[]} covidUpdates.description
+ * @param {String}   widgetClass
+ * @param {Object}   annotator
+ * @param {Object}   annotator.button
+ * @param {String}   covidUpdates.link
+ * @param {Object[]} covidUpdates.list
+ * @param {String}   covidUpdates.list[].link
+ * @param {String}   covidUpdates.list[].utm
+ * @param {String}   covidUpdates.list[].text
+ * @param {Object}   covidUpdates.utm
+ * @param {Object}   covidUpdates.utm.clients
+ * @param {String}   covidUpdates.utm.clients.medium
+ * @param {String}   covidUpdates.utm.clients.campaign
+ * @param {String}   covidUpdates.utm.clients.source
+ * @param {Object}   covidUpdates.utm.clients.content
+ * @param {String}   covidUpdates.utm.clients.content.title
+ * @param {String}   covidUpdates.utm.clients.content.image
+ * @param {String}   covidUpdates.utm.clients.content.button
+ * @param {Object}   covidUpdates.utm.jld
+ * @param {String}   covidUpdates.utm.jld.medium
+ * @param {String}   covidUpdates.utm.jld.campaign
+ * @param {String}   covidUpdates.utm.jld.source
+ * @param {Object}   covidUpdates.utm.jld.content
+ * @param {String}   covidUpdates.utm.jld.content.title
+ * @param {String}   covidUpdates.utm.jld.content.image
+ * @param {String}   covidUpdates.utm.jld.content.button
 }}
 
-{{!
-// TODO: Fix anotations.
-}}
+
 
 {{#and covidUpdates.link (compare covidUpdates.link "!==" "")}}
   {{assign "covidUpdatesTitleLink" (concat covidUpdates.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
@@ -40,9 +67,6 @@
     link=@root.covidUpdatesImageLink
   }}
 
-  {{!--
-  // TODO: Maybe move title and description to a component.
-  --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <h3 class="content-title">
@@ -56,15 +80,11 @@
       {{/each}}
 
       {{#each covidUpdates.list}}
-        {{!-- <p><b>&bull;  <a href="{{{this.link}}}" target="_blank">{{{this.text}}}</a></b></p> --}}
         <p><b>&bull;  <a href="{{{this.link}}}{{{@root.covidUpdatesListLink}}}{{{this.utm}}}" target="_blank">{{{this.text}}}</a></b></p>
       {{/each}}
     </td>
   </tr>
 
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
   {{#if @root.widgetWithButton}}
     <tr>
       <td class="widget-button" responsive="mobile-padding-horizontal-sides">
