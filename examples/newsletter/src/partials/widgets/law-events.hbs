@@ -23,7 +23,7 @@
         {{#forEach lawEvents.events}}
           <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
             <td>
-              {{>widget-square
+              {{>widget-date-square
                 eventMonth=this.month
                 eventDay=this.day
               }}
