@@ -160,3 +160,14 @@
         }
     }
 }
+
+.widget-date-square {
+    display: block;
+    width: 70px;
+    padding: 7px 0;
+    border: 1px solid #dddddd;
+    margin: 0 20px 0 0;
+    text-align: center;
+    background-color: plt('white');
+    color: plt('justia-blue');
+}

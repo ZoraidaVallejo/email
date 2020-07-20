@@ -16,11 +16,13 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>welcome widgetConfig=welcome.jld}}
 
+        {{>covid-updates widgetUtmVars=covidUpdates.utm.jld}}
+
         {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
         {{>tip-month widgetConfig=tipMonth.jld}}
 
-        {{>featured-site-month singleSite=true addDescription=true}}
+        {{>featured-site-month singleSite=true addDescription=true hasButton=true}}
 
         {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
