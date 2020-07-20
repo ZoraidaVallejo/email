@@ -5,10 +5,10 @@
 .widget-main-title {
     padding: 35px $padding 25px;
 
-    h4 {
+    .first-line {
         margin: 0 0 10px;
         color: plt('black');
 
-        @include mail-font(18px, 1.45, tp('weight', 'bold'));
+        @include mail-font(16px, 1.45);
     }
 }

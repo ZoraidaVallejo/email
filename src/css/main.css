@@ -639,10 +639,10 @@ a {
   padding: 35px 30px 25px;
 }
 
-.widget-main-title h4 {
+.widget-main-title .first-line {
   margin: 0 0 10px;
   color: #000000;
-  font: 700 18px/1.45 Arial, sans-serif;
+  font: 16px/1.45 Arial, sans-serif;
 }
 
 .w-welcome {

@@ -59,24 +59,19 @@
       "area": "California - San Francisco Bay Area",
       "jobs": [
         {
+          "title": "Attorney (Contract-to-Hire)",
+          "company": "Eat Just, Inc.",
+          "link": "https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=32659&clientkey=1451649A4D41F8A3AE8E16B08CA0E6F1"
+        },
+        {
           "title": "Corporate Counsel",
           "company": "Fastly",
           "link": "https://www.fastly.com/about/jobs/apply?gh_jid=2234812"
         },
         {
-          "title": "Corporate Counsel",
-          "company": "GoFundMe",
-          "link": "https://boards.greenhouse.io/gofundme/jobs/2218068"
-        },
-        {
           "title": "Economic Justice Staff Attorney (Alameda County)",
           "company": "Bay Area Legal Aid",
           "link": "https://baylegal.org/staff-attorney-economic-justice-alameda-county/"
-        },
-        {
-          "title": "General Counsel",
-          "company": "Oversight Board (Facebook)",
-          "link": "https://oversightboard.bamboohr.com/jobs/view.php?id=59"
         },
         {
           "title": "General Counsel (deadline 7/24)",
@@ -92,6 +87,11 @@
           "title": "Mergers & Acquisitions Attorney",
           "company": "Applied Materials",
           "link": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/Santa-ClaraCA/Mergers---Acquisitions-Attorney_R2013344-1"
+        },
+        {
+          "title": "Senior Assistant City Attorney (Land Use)",
+          "company": "City of Mountain View",
+          "link": "https://www.calopps.org/mountain-view/job-20022043"
         },
         {
           "title": "Senior Corporate Counsel, Regulatory Compliance",
@@ -164,8 +164,8 @@
           "link": "https://boards.greenhouse.io/livongo/jobs/4784420002"
         },
         {
-          "title": "Staff Attorney (Migrant) - Immigrant & Workers’ Rights Practice Group",
-          "company": "Legal Aid Chicago",
+          "title": "Staff Attorney - Migrant",
+          "company": "Immigrant & Workers’ Rights Practice Group, Legal Aid Chicago",
           "link": "https://www.legalaidchicago.org/wp-content/uploads/2020/06/Staff-Attorney-Migrant-6.2020.pdf"
         }
       ]
