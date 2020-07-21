@@ -645,6 +645,12 @@ a {
   font: 16px/1.45 Arial, sans-serif;
 }
 
+.widget-main-title h4 {
+  margin: 0 0 10px;
+  color: #000000;
+  font: 700 18px/1.45 Arial, sans-serif;
+}
+
 .w-welcome {
   background-color: #06357a;
 }

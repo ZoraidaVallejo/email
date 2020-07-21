@@ -11,4 +11,11 @@
 
         @include mail-font(16px, 1.45);
     }
+
+    h4 {
+        margin: 0 0 10px;
+        color: plt('black');
+
+        @include mail-font(18px, 1.45, get('font.weight.bold'));
+    }
 }
