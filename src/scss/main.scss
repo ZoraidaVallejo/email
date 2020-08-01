@@ -1,0 +1,71 @@
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+$padding: 25px !default;
+$padding-content: 50px !default;
+$max-width: 550px !default;
+$inner-max-width: $max-width - ($padding * 2) !default;
+$mail-global-font-size: 16px !default;
+$widget-gap: grid-unit(3);
+$use-special-font: false !default;
+$mail-global-font-family: 'Roboto', Arial, sans-serif;
+
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+    'image-dimensions',
+    'maple-sass',
+    'mail-template-builder';
+
+@import
+    'mixins',
+    'main/mail-special-font',
+    'main/widgets',
+    'main/widgets/welcome',
+    'main/widgets/advertisement',
+    'main/widgets/advertisement/custom',
+    'main/widgets/milestones',
+    'main/widgets/birthday',
+    'main/widgets/holidays',
+    'main/widgets/reviews',
+    'main/widgets/teammates',
+    'main/widgets/team-activity',
+    'main/widgets/blast-past',
+    'main/utilities';
+
+// @import
+//     'main/client-specific',
+//     'main/jld-specific';
+
+body {
+    background-color: #f0f7ff;
+}
+
+.w-milestones {
+    background: image-url('odd-block-01.png') no-repeat plt('white');
+    background-position: top;
+}
+
+.w-birthday {
+    background: image-url('odd-block-02.png') no-repeat plt('white');
+    background-position: top;
+}
+
+.w-blast-past {
+    background: image-url('odd-block-02.png') no-repeat plt('white');
+    background-position: bottom;
+}
+
+.-insider-date .logo {
+    padding: 10px $padding;
+
+    .logo-img {
+        width: 330px;
+    }
+}
+
+.w-new-people .widget-header {
+    padding: $widget-gap 65px 25px;
+}

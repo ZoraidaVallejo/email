@@ -1,0 +1,45 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "description": [
+          "<a href=\"https://www.justia.com/law-schools/\" target=\"_blank\"><b>US Law Schools</b></a> We are happy to announce that we updated the US Law School Center. This center provides prospective law students and those already studying law, free information related to US law schools. The schools are classified by states and have information about school rankings, ABA accreditation, the admission process, and more."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "description": [
+          "<b>Newsletter</b> - Getting a hold of the best email marketing platform for Justia is compulsory. We are switching from Mailchimp to Active Campaign. Our new provider has more benefits, such as more customization options, a cool automation tool, improved uptime/support, and reliable failover. The way they handle subscribers/contacts for billing is more suitable."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "description": [
+          "A new <b>Conversion Starter</b> has been recently released. The long-term success of any Justia site on the web is our ultimate goal. Going forward, all Justia websites will benefit from the numerous improvements to perform better on the Google Core Web Vitals assessment. It is simple; we must focus on the metrics that matter the most."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "description": [
+          "We are thrilled to announce the launch of our brand new <a href=\"https://jobs.justia.com/\" target=\"_blank\"><b>Jobs website</b></a>. It is designed with a fresh new look and feel. Through the site, job seekers looking for legal jobs will be able to subscribe to our free monthly Justia legal jobs newsletter. The newsletter showcases opportunities for both new and experienced lawyers sorted by state, and it is free."
+        ]
+      }
+    }
+  ]
+}

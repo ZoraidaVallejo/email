@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Conquering Zoom"
+      },
+      "readMore": "https://onward.justia.com/2020/07/08/conquering-zoom/",
+      "blockTitle": "Conquering Zoom",
+      "description": [
+        "We’ve written a few times lately about video conferencing solutions, but we wanted to take this opportunity to really dig into one of the more popular video conferencing solutions out there: Zoom..."
+      ]
+    },
+    {
+      "readMore": "https://onward.justia.com/2020/07/10/setting-up-google-my-business-brand-new-listing/",
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Setting Up Google My Business – Brand New Listing"
+      },
+      "blockTitle": "Setting Up Google My Business – Brand New Listing",
+      "description": [
+        "First and foremost, What is Google My Business? As mentioned in our previous post, “Google My Business (GMB) is a free tool for businesses and organizations through..."
+      ]
+    }
+  ]
+}

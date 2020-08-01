@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "new-people-01.png",
+        "alt": "David Gonzalez"
+      },
+      "blockTitle": "David Gonzalez",
+      "blockSubtitle": "Engineering team",
+      "description": [
+        "Hey there, I'm David Gonzalez. I'm 25 years old; I'm a software engineer, a passionate geek, and gamer. I'm curious and introverted, and I like to help with anything. Also, if I don't know something, I consider it an opportunity to learn something new. I love to drink coffee even on hot days, and I love animals."
+      ]
+    },
+    {
+      "image": {
+        "src": "new-people-02.png",
+        "alt": "Alonso Zuñiga"
+      },
+      "blockTitle": "Alonso Zuñiga",
+      "blockSubtitle": "Engineering team",
+      "description": [
+        "Hi all, my name is Alonso Zuñiga, and I’m 25 years old. I’m a father, researcher, hacker, optimizer, and questioner. I’m a software developer based in Saltillo with eight years of experience in the software industry. My focus area has been front-end development with Angular and back-end development with Laravel or Django, but I’m also skilled in app development for Android and iOS."
+      ]
+    }
+  ]
+}

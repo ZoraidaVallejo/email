@@ -1,0 +1,17 @@
+{
+  "type": "TEAM ACTIVITY",
+  "title": "Where Will You Go When the Lockdown Ends?",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "team-graphic-01.png",
+        "description": [
+          "We are spending a lot of time dreaming about our next trip. <a href=\"https://docs.google.com/forms/d/1XoRY7LnVazeXifW0t4z8CNruRWhko1FjAe17NNs5gXg/\" target=\"_blank\"><b>Share here</b></a> your first trip to take after quarantine ends.",
+          "We will share the top five places on Slack tomorrow."
+        ]
+      }
+    }
+  ]
+}

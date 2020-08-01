@@ -1,0 +1,102 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "09",
+            "name": "Lavinia Fung"
+          },
+          {
+            "day": "10",
+            "name": "Nick Moline"
+          },
+          {
+            "day": "11",
+            "name": "Clayton Dodds"
+          },
+          {
+            "day": "14",
+            "name": "Lauren Moskie"
+          },
+          {
+            "day": "16",
+            "name": "Miguel Berlanga"
+          },
+          {
+            "day": "19",
+            "name": "Ismael Munoz"
+          },
+          {
+            "day": "24",
+            "name": "Samantha Wendland"
+          },
+          {
+            "day": "28",
+            "name": "Miguel Saldivar"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Cicely Wilson",
+            "years": "17th"
+          },
+          {
+            "name": "Lauren Moskie",
+            "years": "15th"
+          },
+          {
+            "name": "Dan Vu Quoc",
+            "years": "13th"
+          },
+          {
+            "name": "Hayden Pham",
+            "years": "12th"
+          },
+          {
+            "name": "Daniel Lopez",
+            "years": "12th"
+          },
+          {
+            "name": "Mayra Valdes",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Jessica Risso",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Cyndel Salas",
+            "years": "7th"
+          },
+          {
+            "name": "Meztli Vergara",
+            "years": "7th"
+          },
+          {
+            "name": "Amanda Newman",
+            "years": "6th"
+          },
+          {
+            "name": "Geovvany Suarez",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Alejandro Hernandez",
+            "years": "2nd"
+          }
+        ]
+      }
+    }
+  ]
+}

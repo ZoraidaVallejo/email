@@ -1,0 +1,73 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-team-activities {
+
+    td {
+        text-align: center;
+    }
+
+    .image {
+        padding: 0 $padding $widget-gap;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+        text-align: left;
+
+        .content-side {
+            width: 225px;
+
+            img {
+                width: 225px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 0 $padding 35px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding 45px;
+        }
+
+        &.-description {
+            padding: 0 $padding-content 25px;
+        }
+    }
+
+    .-description {
+        a {
+            color: plt('justia-blue');
+        }
+    }
+
+    .-image-column {
+
+        .content-side {
+            width: 225px;
+
+            img {
+                width: 225px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
