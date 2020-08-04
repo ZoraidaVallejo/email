@@ -1,0 +1,37 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "NEW - Google LSAs | Get the Top Spot on Google Search Result Pages",
+    "description": [
+      "Google Local Services Ads (LSAs) are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
+      "Bankruptcy, Business Law, Contract Law, Criminal Law, Disability Law, DUI, Estate Planning, Family Law, Immigration, Intellectual Property, Labor Law, Litigation, Malpractice, Personal Injury, Real Estate, Tax, and Traffic.",
+      "Be among the first to have an LSA. We can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/paid-ads/\" target=\"_blank\">Contact us today</a> to learn how Justia can help your firm get started with Google LSAs!"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "",
+      "text": "Contact Us Today",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "description": [
+      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
+      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}

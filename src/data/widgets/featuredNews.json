@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/2020/07/30/google-has-opened-up-local-services-ads-to-lawyers-nationwide/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.jpg",
+  "title": "Google Has Opened Up Local Services Ads to Lawyers Nationwide!",
+  "description": [
+    "Google has just made Local Services Ads available to lawyers across the country. It is brand new, and it will never be easier than it is right now to appear at the top of a Google search results page. Be among the first to have an LSA. Justia can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/paid-ads/\" target=\"_blank\">Contact us today</a> to learn more."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://www.justia.com/marketing/contact/paid-ads/",
+    "text": "Contact Us"
+  }
+}
