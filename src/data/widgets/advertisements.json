@@ -6,22 +6,19 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "premium-placements-01.gif",
-        "width": 600,
+        "image": "",
+        "width": 0,
         "bgColor": "#c0401f",
-        "cssSize": "600px 568px"
+        "cssSize": ""
       },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v34"
       },
-      "logo": {
-        "name": "marketing",
-        "color": "blue-white"
-      },
+      "image": "premium-placements-01.gif",
       "contentOrder": [
         {
           "type": "description",
@@ -32,15 +29,10 @@
         {
           "type": "button",
           "config": {
-            "style": "Yellow",
+            "style": "yellow",
             "text": "Learn More Now",
-            "width": 280,
+            "width": 200,
             "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
             "fontSize": 18,
             "responsive": ""
           }
@@ -48,56 +40,8 @@
         {
           "type": "description",
           "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
-        }
-      ]
-    },
-    "ad2": {
-      "background": {
-        "image": "",
-        "width": 0,
-        "bgColor": "",
-        "cssSize": ""
-      },
-      "link": "<%= editingInterfaceLink %>",
-      "utm": {},
-      "logo": {
-        "name": "lawyer-directory",
-        "color": "blue"
-      },
-      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
-      "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "description": [
-              "[Esse in ad elit.]",
-              "[Anim laboris laborum veniam laboris sunt aute anim incididunt ad dolor amet id reprehenderit ut.]"
-            ],
-            "image": "ad-graphic-02.png"
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "Dolor ipsum exercitation pariatur sint. Sint commodo aute culpa irure minim cillum sit labore ex qui tempor consequat anim.",
-            "Mollit voluptate ullamco duis commodo elit ullamco non consectetur qui eiusmod dolore eu consectetur irure.",
-            "Veniam sint non id esse duis dolor id id reprehenderit Lorem quis."
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "[Magna pariatur]",
-            "width": 300,
-            "height": 50,
-            "fontSize": 18,
-            "responsive": ""
-          }
         }
       ]
     }

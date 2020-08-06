@@ -5,7 +5,7 @@
 .w-internet-stats {
 
     .subtitle {
-        padding: 0 $padding grid-unit();
+        padding: 0;
         text-align: center;
 
         p {
@@ -23,7 +23,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 10px;
         }
     }
 

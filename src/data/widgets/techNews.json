@@ -5,19 +5,34 @@
   },
   "news": [
     {
-      "title": "[Fugiat Lorem consectetur aute nulla sit.]",
-      "link": "https://www.justia.com/",
-      "description": "[Laboris officia est dolore aute. Reprehenderit quis occaecat ex aute. Occaecat consequat deserunt proident elit...]"
+      "title": "Google Promises Privacy With Virus App But Can Still Collect Location Data",
+      "link": "https://www.nytimes.com/2020/07/20/technology/google-covid-tracker-app.html",
+      "description": "Though Google has stated its free virus tracking app doesn’t compile user location data, in order for the software to function on Android phones the location setting needs to be active."
     },
     {
-      "title": "[Aute ad ea ipsum culpa magna laborum irure ullamco officia eiusmod cillum eu qui excepteur.]",
-      "link": "https://www.justia.com/",
-      "description": "[Irure nostrud pariatur ipsum culpa sint laborum id irure in deserunt. Cillum ullamco in excepteur...]"
+      "title": "Supreme Court Strikes Down 2015 Law Allowing Robocalls By Debt Collectors",
+      "link": "https://arstechnica.com/tech-policy/2020/07/robocalls-by-debt-collectors-are-illegal-again-thanks-to-supreme-court/",
+      "description": "Finding that the law at issue violated the First Amendment by prioritizing debt collection ahead of free speech, the high court has barred debt collectors from placing robocalls to cell phones."
     },
     {
-      "title": "[Duis dolore duis fugiat quis qui amet id fugiat nulla.]",
-      "link": "https://www.justia.com/",
-      "description": "[Occaecat laborum sit reprehenderit labore ex. Incididunt in occaecat mollit dolor amet aute tempor velit...]"
+      "title": "Lawyers Demand Military Stop Violating Free Speech on Twitch",
+      "link": "https://www.nytimes.com/2020/07/22/style/army-gamers-war-crimes-first-amendment.html",
+      "description": "The US Army had been using Twitch to livestream video games as a recruitment tool, but has paused those efforts after it was criticized for banning users who asked about war crimes. "
+    },
+    {
+      "title": "Apple Wins Appeal Against EU’s $14.9 Billion Tax Bill",
+      "link": "https://www.theverge.com/2020/7/15/21325325/apple-eu-ireland-back-taxes-13-billion-overturned-appealed",
+      "description": "A 2016 ruling by an EU court mandating that Apple must pay billions in back taxes to the Irish government has been overturned after being appealed by Ireland and also refuted by Apple."
+    },
+    {
+      "title": "Google Is Reportedly Facing a New Antitrust Probe From California",
+      "link": "https://www.theverge.com/2020/7/13/21322370/google-antitrust-california-attorney-general-advertising-technology-search-acquisitions",
+      "description": "Joining almost every other US state, California has now initiated an antitrust investigation into Google’s business, at the same time that the company is facing federal inquiries as well."
+    },
+    {
+      "title": "Slack Files Competition Claim Against Microsoft in the EU",
+      "link": "https://www.theverge.com/2020/7/22/21333989/slack-microsoft-eu-competition-complaint-teams-office",
+      "description": "The anti-competition lawsuit Slack has filed with the European Commission alleges that Microsoft has tied the Microsoft Teams product to Office in violation of EU competition law."
     }
   ]
 }

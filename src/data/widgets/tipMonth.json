@@ -1,20 +1,20 @@
 {
   "clients": {
     "widget": {
-      "icon": "tip-of-the-month",
+      "icon": "new-1",
       "header": "Tip of the Month"
     },
-    "title": "NEW - Google LSAs | Get the Top Spot on Google Search Result Pages",
+    "title": "Google LSAs | Get the Top Spot on Google Search Result Pages",
     "description": [
       "Google Local Services Ads (LSAs) are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
       "Bankruptcy, Business Law, Contract Law, Criminal Law, Disability Law, DUI, Estate Planning, Family Law, Immigration, Intellectual Property, Labor Law, Litigation, Malpractice, Personal Injury, Real Estate, Tax, and Traffic.",
-      "Be among the first to have an LSA. We can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/paid-ads/\" target=\"_blank\">Contact us today</a> to learn how Justia can help your firm get started with Google LSAs!"
+      "Be among the first to have an LSA. We can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=client-newsletter&utm_content=section-tip-of-the-month-link-v1\" target=\"_blank\"><b>Contact us today</b></a> to learn how Justia can help your firm get started with Google LSAs!"
     ],
     "button": {
       "style": "red-ghost",
-      "link": "",
-      "text": "Contact Us Today",
-      "width": 150
+      "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=client-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Get Started Now",
+      "width": 170
     }
   },
   "jld": {
