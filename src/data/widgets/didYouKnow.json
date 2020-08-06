@@ -5,9 +5,11 @@
       "header": "Google LSAs"
     },
     "title": "Get the Top Spot on Google Search Result Pages",
-    "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+    "titleLink": "https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=client-newsletter&utm_content=section-did-you-know-title-v1",
+    "bannerLink": "https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=client-newsletter&utm_content=section-did-you-know-image-v1",
+    "banner": "google-ppc-01.png",
     "description": [
-      "Google Local Services Ads (LSAs) are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
+      "<b>Google Local Services Ads (LSAs)</b> are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
       "Bankruptcy, Business Law, Contract Law, Criminal Law, Disability Law, DUI, Estate Planning, Family Law, Immigration, Intellectual Property, Labor Law, Litigation, Malpractice, Personal Injury, Real Estate, Tax, and Traffic.",
       "Be among the first to have an LSA. We can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=client-newsletter&utm_content=section-did-you-know-link-v1\" target=\"_blank\"><b>Contact us today<b></a> to learn how Justia can help your firm get started with Google LSAs!"
     ],
@@ -29,10 +31,21 @@
       "icon": "new-1",
       "header": "Google LSAs"
     },
+    "utm": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "section-did-you-know-title-v1",
+        "image": "section-did-you-know-image-v1"
+      }
+    },
     "title": "Get the Top Spot on Google Search Result Pages",
-    "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+    "titleLink": "https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=directory-newsletter&utm_content=section-did-you-know-title-v1",
+    "bannerLink": "https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=directory-newsletter&utm_content=section-did-you-know-image-v1",
+    "banner": "google-ppc-01.png",
     "description": [
-      "Google Local Services Ads (LSAs) are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
+      "<b>Google Local Services Ads (LSAs)</b> are now available to law firms nationwide. Google LSAs are sponsored listings that appear at the very top of a search engine result page (SERP) - even above Google’s PPC ads. The ads display a green checkmark stating GOOGLE SCREENED, and include the law firm’s Google My Business (GMB) review rating. They are available for the following practice areas:",
       "Bankruptcy, Business Law, Contract Law, Criminal Law, Disability Law, DUI, Estate Planning, Family Law, Immigration, Intellectual Property, Labor Law, Litigation, Malpractice, Personal Injury, Real Estate, Tax, and Traffic.",
       "Be among the first to have an LSA. We can help you with the LSA verification process and your associated LSA and GMB profiles. <a href=\"https://www.justia.com/marketing/contact/google-ppc-lsa/?utm_medium=email&amp;utm_campaign=<%= dateFormat.dash %>&amp;utm_source=directory-newsletter&utm_content=section-did-you-know-link-v1\" target=\"_blank\"><b>Contact us today<b></a> to learn how Justia can help your firm get started with Google LSAs!"
     ],

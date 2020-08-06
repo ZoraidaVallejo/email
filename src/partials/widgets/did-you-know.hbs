@@ -20,6 +20,12 @@
     icon=widgetConfig.widget.icon
   }}
 
+  {{>widget-banner
+    imgSrc=widgetConfig.banner
+    imgAlt=widgetConfig.title
+    link=widgetConfig.bannerLink
+  }}
+
   {{!--
   // TODO: Maybe move title and description to a component.
   --}}
@@ -27,9 +33,9 @@
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#if widgetConfig.title}}
         <h3 class="content-title">
-          {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
+          {{#if widgetConfig.titleLink}}<a href="{{{widgetConfig.titleLink}}}" target="_blank">{{/if}}
             {{{widgetConfig.title}}}
-          {{#if widgetConfig.link}}</a>{{/if}}
+          {{#if widgetConfig.titleLink}}</a>{{/if}}
         </h3>
       {{/if}}
 
