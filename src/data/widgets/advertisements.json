@@ -1,0 +1,80 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad2": {
+      "background": {
+        "image": "",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "<%= editingInterfaceLink %>",
+      "utm": {},
+      "logo": {
+        "name": "lawyer-directory",
+        "color": "blue-white"
+      },
+      "titleResponsiveSize": 23,
+      "image": "spotlight-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Reach potential clients with lasting legal marketing solutions.<br>Premium Members have access to tools that gets them ahead of their competition. Remember: It is what you choose to do that defines you!",
+            "<b>Benefits of a Premium Membership</b>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "description": [
+              "<b>Lead the Way</b>",
+              "Get featured in two directories for the price of one. Higher visibility in both directories means more potential clients heading your way."
+            ],
+            "image": "row-01.png"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "description": [
+              "<b>Real Time Analysis</b>",
+              "Instant access to your traffic stats. The report tracks the number of profile impressions and page views that lawyers receive across the Justia and LII properties."
+            ],
+            "image": "row-02.png"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "description": [
+              "<b>Convenient Access</b>",
+              "Premium Members receive an upgraded profile with a contact form to make it easier to connect with potential clients. Competitor ads are also removed from the premium profile."
+            ],
+            "image": "row-03.png"
+          }
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More Now",
+            "width": 200,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}

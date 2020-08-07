@@ -1,0 +1,45 @@
+{{! ================================================================================================================= }}
+{{! L A W   E V E N T S                                                                                               }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{assign "columnStructure" (chunks lawEvents.events 2 true)}}
+{{assign "eventCounter" 0}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-law-events set-max-width"}}
+  {{>widget-header
+    header=lawEvents.widget.header
+    icon=lawEvents.widget.icon
+  }}
+
+  <tr class="">
+    <td class="wrapper -last" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        {{#forEach lawEvents.events}}
+          <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
+            <td>
+              {{>widget-date-square
+                eventMonth=this.month
+                eventDay=this.day
+              }}
+            </td>
+            <td>
+              {{#if this.link}}
+                <p class="title">
+                  <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
+                </p>
+              {{/if}}
+              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>{{/if}}
+            </td>
+          </tr>
+        {{/forEach}}
+      {{/table}}
+    </td>
+  </tr>
+
+{{/table}}
