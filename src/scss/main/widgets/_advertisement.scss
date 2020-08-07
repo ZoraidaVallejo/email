@@ -15,7 +15,7 @@
         text-align: center;
 
         img {
-            width: 320px;
+            width: 390px;
             margin: 0 auto;
         }
     }
@@ -62,8 +62,7 @@
             }
 
             &.-image {
-                padding: 0 25px 0 0;
-                vertical-align: middle;
+                padding: 20px 25px 20px 0;
             }
 
             img {
@@ -90,5 +89,35 @@
         &.-last {
             padding: 0 $padding $widget-gap;
         }
+
+        &.-idx-1.-description {
+
+            p b {
+                @include mail-font(22px, 1.5, 700);
+            }
+        }
+
+        &.-idx-3 {
+
+            .-image {
+                padding: 32px 25px 32px 0;
+            }
+        }
+
+        &.-idx-6 {
+
+            p b {
+                @include mail-font(18px, 1.5, 700);
+            }
+
+            a {
+                color: plt('black');
+
+                b {
+                    color: currentColor;
+                }
+            }
+        }
+
     }
 }

@@ -11,7 +11,7 @@
         "bgColor": "",
         "cssSize": ""
       },
-      "link": "<%= editingInterfaceLink %>",
+      "link": "#",
       "utm": {},
       "logo": {
         "name": "lawyer-directory",
@@ -71,7 +71,7 @@
         {
           "type": "description",
           "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "Justia Lawyer Directory Team<br><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
         }
       ]
