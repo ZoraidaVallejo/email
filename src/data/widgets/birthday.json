@@ -1,0 +1,85 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "07",
+            "name": "Jose Ramos"
+          },
+          {
+            "day": "07",
+            "name": "Priscila Martinez"
+          },
+          {
+            "day": "10",
+            "name": "Dan Vu Quoc"
+          },
+          {
+            "day": "13",
+            "name": "Edgar Cano"
+          },
+          {
+            "day": "13",
+            "name": "Carolina Leija"
+          },
+          {
+            "day": "14",
+            "name": "Paul Estala"
+          },
+          {
+            "day": "19",
+            "name": "Miguel Lopez"
+          },
+          {
+            "day": "20",
+            "name": "Hector Lugo"
+          },
+          {
+            "day": "22",
+            "name": "Ana Karen Espinoza"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Jesus Sanchez",
+            "years": "11th"
+          },
+          {
+            "name": "Luis Franco",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Dionicio Solano",
+            "years": "9th"
+          },
+          {
+            "name": "Miguel Lopez",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Pablo Fernandez",
+            "years": "2nd"
+          },
+          {
+            "name": "Eduardo Chaparro",
+            "years": "1st"
+          },
+          {
+            "name": "Carlos Silveira",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}

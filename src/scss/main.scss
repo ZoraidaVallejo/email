@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+$padding: 25px !default;
+$padding-content: 50px !default;
+$max-width: 550px !default;
+$inner-max-width: $max-width - ($padding * 2) !default;
+$mail-global-font-size: 16px !default;
+$widget-gap: grid-unit(3);
+$use-special-font: false !default;
+$mail-global-font-family: 'Roboto', Arial, sans-serif;
+
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+    'image-dimensions',
+    'maple-sass',
+    'mail-template-builder';
+
+@import
+    'mixins',
+    'main/mail-special-font',
+    'main/widgets',
+    'main/widgets/welcome',
+    'main/widgets/featured-site-month/featured-site',
+    'main/widgets/featured-site-month/sites-list',
+    'main/widgets/internet-stats',
+    'main/widgets/in-the-news',
+    'main/widgets/law-events',
+    'main/widgets/law-events/custom',
+    'main/widgets/advertisement',
+    'main/widgets/advertisement/custom',
+    'main/widgets/answers-leaderboard',
+    'main/widgets/featured-lawyer',
+    'main/widgets/annotator',
+    'main/widgets/jurispro',
+    'main/widgets/milestones',
+    'main/widgets/birthday',
+    'main/widgets/holidays',
+    'main/widgets/reviews',
+    'main/widgets/teammates',
+    'main/widgets/team-activity',
+    'main/widgets/blast-past',
+    'main/utilities';
+
+// @import
+//     'main/client-specific',
+//     'main/jld-specific';
+
+body {
+    background-color: #f0f7ff;
+}
+
+.w-milestones,
+.w-birthday {
+    background: image-url('odd-block-01.png') no-repeat plt('white');
+    background-position: center;
+}
+
+.w-advertisement.-jld-ad-04 {
+    background: image-url('odd-block-02.png') no-repeat plt('white');
+    background-position: bottom;
+}

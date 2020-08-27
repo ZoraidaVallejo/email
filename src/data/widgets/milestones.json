@@ -1,0 +1,47 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "link": "#",
+        "description": [
+          "<b>LSA Promotion Campaign.</b> We started and continue promoting our newly added product through multiple channels. This is an effort from different teams that highlights our coordination and responsiveness."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "#",
+        "description": [
+          "<b>Google My Business API Integration.</b> We released our integration with Google My Business API, and the first feature of it is to be able to schedule posts in advance. This will allow us to bring this service to even more clients."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "description": [
+          "<b>PPC Calculator.</b> We launched a tool that allows both sales and accounting teams to save time processing costs and preparing quotes for potential clients. At the same time, it lets us streamline our offer to clients."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "description": [
+          "<b>JMonitor migration.</b> You wouldn't notice this, but the system we use to monitor and detect service interruption in our systems was upgraded to a standalone environment. This improves our general availability and lets us address issues right away."
+        ]
+      }
+    }
+  ]
+}

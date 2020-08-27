@@ -1,0 +1,51 @@
+{
+  "reminders": {
+    "background": {
+      "image": "reminders-bg-01.png",
+      "width": 400,
+      "bgColor": "#ffffff",
+      "cssSize": "550px 350px",
+      "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
+    },
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "reminders-graphic-01.png",
+          "description": [
+            "<b class=\"side-title\">Reminders</b>",
+            "<b>Backups.</b>  Remember to back up your laptop regularly. If your external hard drive is not working, please report it immediately to your supervisor and IT department."
+          ]
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<b>Video Conferences.</b> Join meetings on time. If possible, join meetings earlier than two minutes before the start time. Do not forget to turn on the camera."
+        ]
+      }
+    ]
+  },
+  "quote": {
+    "background": {
+      "image": "quote-bg-01.png",
+      "width": 500,
+      "bgColor": "#ffffff",
+      "cssSize": "550px 325px",
+      "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
+    },
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "quote-graphic-01.png",
+          "description": [
+            "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"88\">",
+            "<i>f you saturate your mind with positive thoughts, it will sustain you in any situation.”\"</i>",
+            "– Henry Ford"
+          ]
+        }
+      }
+    ]
+  }
+}
