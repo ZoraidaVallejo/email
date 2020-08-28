@@ -181,7 +181,7 @@
             // }
 
             .-description {
-                padding: $padding 0 0;
+                padding: 0;
 
                 p:first-child {
                     padding: 0;
@@ -192,18 +192,19 @@
         }
 
         .content-side {
-            width: 250px;
+            width: 230px;
 
             &.-image {
-                width: 212px;
+                width: 245px;
+                padding: 18px 0;
 
                 img {
-                    width: 212px;
+                    width: 245px;
                 }
             }
 
             p img {
-                width: 66px;
+                width: 114px;
             }
 
             &:first-child {

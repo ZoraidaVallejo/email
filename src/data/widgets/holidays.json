@@ -3,15 +3,26 @@
     "type": "upcoming holidays",
     "header": "Dates to Remember"
   },
-  "link": "https://www.justia.com/",
-  "titleResponsiveSize": 23,
-  "image": "holidays-graphic-01.png",
-  "contentOrder": [
+  "singleColumn": false,
+  "columns": [
     {
-      "type": "description",
-      "config": [
-        "<b>[Month] [Day] - [Holiday]</b>",
-        "Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla."
+      "image": {
+        "src": "holidays-graphic-01.png",
+        "alt": "September 7th - U.S. Labor Day"
+      },
+      "blockTitle": "September 7th - U.S. Labor Day",
+      "description": [
+        "Traditionally observed on the first Monday in September, Labor Day (the “unofficial end of summer”) became a federal holiday in 1894. Peter J. McGuire, a carpenter and labor union leader, came up with the idea for Labor Day to pay tribute to American workers’ contributions and achievements."
+      ]
+    },
+    {
+      "image": {
+        "src": "holidays-graphic-02.png",
+        "alt": "September 16th - Mexico’s Independence Day."
+      },
+      "blockTitle": "September 16th - Mexico’s Independence Day.",
+      "description": [
+        "Often confused with Cinco de Mayo by people living in the United States, Mexico’s Independence Day is actually September 16th. The date marks the moment when Miguel Hidalgo y Costilla, a Catholic priest known as Father Hidalgo, made the first cry for independence."
       ]
     }
   ]

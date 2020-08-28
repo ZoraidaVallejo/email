@@ -1132,7 +1132,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content .-description {
-  padding: 25px 0 0;
+  padding: 0;
 }
 
 .w-advertisement.-jld-ad-quote .content .-description p:first-child {
@@ -1142,19 +1142,20 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content-side {
-  width: 250px;
+  width: 230px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image {
-  width: 212px;
+  width: 245px;
+  padding: 18px 0;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image img {
-  width: 212px;
+  width: 245px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side p img {
-  width: 66px;
+  width: 114px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side:first-child {
@@ -1890,11 +1891,11 @@ a {
 }
 
 .w-team-activities .content .content-side:first-child {
-  float: left;
+  float: right;
 }
 
 .w-team-activities .content .content-side:last-child {
-  float: right;
+  float: left;
 }
 
 .w-team-activities .content.-first {
