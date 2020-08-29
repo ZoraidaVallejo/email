@@ -2,8 +2,15 @@
   "widget": {
     "header": "Take a Pause"
   },
+  "image": "pause-graphic.png",
   "titleResponsiveSize": 23,
   "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "One minute relaxation activity that you can do whenever you are feeling stressed or worried."
+      ]
+    },
     {
       "type": "image-description",
       "config": {

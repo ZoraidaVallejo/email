@@ -84,22 +84,45 @@
       <td>
         {{#table}}
           <tr class="grid-row">
-            {{#each widgetConfig.columns}}
-              <td class="grid-cell block" responsive="collapse-one">
-                {{{this}}}
+            {{#forEach widgetConfig.columns}}
+              <td class="grid-cell block">
+                {{#table}}
+                  {{#each this}}
+                    <tr>
+                      <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                        {{!-- {{#forEach this.item}} --}}
+                        {{!-- <p>{{this.image}}</p> --}}
+                        {{!-- {{#forIn}}
+                          {{#compare @key "===" "image"}}
+                            <div class="content-side -image">
+                              {{>img
+                                src=../config.image
+                                alt=../config.image
+                              }}
+                            </div>
+                          {{/compare}}
+
+                          {{#compare @key "===" "description"}}
+                            <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                              {{#if ../config.title}}<h4 class="title">{{#if ../config.link}}<a href="{{{../config.link}}}" target="_blank">{{/if}}{{../config.title}}{{#if ../config.link}}</a>{{/if}}</h4>{{/if}}
+                              {{#each ../config.description}}
+                                <p>{{{this}}}</p>
+                              {{/each}}
+                            </div>
+                          {{/compare}}
+                        {{/forIn}} --}}
+                        {{!-- {{/forEach}} --}}
+                      </td>
+                    </tr>
+                  {{/each}}
+                {{/table}}
               </td>
-            {{/each}}
+            {{/forEach}}
           </tr>
         {{/table}}
       </td>
     </tr>
   {{/if}}
-
-  <tr>
-    <td class="content -description -idx-2" responsive="mobile-padding-horizontal-sides">
-      <p>Give them a try; they sure will help!</p>
-    </td>
-  </tr>
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>

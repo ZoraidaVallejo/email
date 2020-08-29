@@ -6,76 +6,14 @@
   "titleResponsiveSize": 23,
   "contentOrder": [
     {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-01.png",
-        "description": [
-          "Join an online yoga class."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-02.png",
-        "description": [
-          "Listen to new music."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-03.png",
-        "description": [
-          "Watch classic films."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-04.png",
-        "description": [
-          "Pick up an old hobby."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-05.png",
-        "description": [
-          "Test out a new recipe."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-06.png",
-        "description": [
-          "Unplug and read a book."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-07.png",
-        "description": [
-          "Try a meditation app."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-08.png",
-        "description": [
-          "Do some craftwork."
-        ]
-      }
+      "type": "description",
+      "config": [
+        "During these days of the pandemic that we are living, stress can easily get into our heads. To counter this, here is a list of activities that can ease your mind:"
+      ]
     }
+  ],
+  "columns": [
+    "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" width=\"100%\"> <tbody> <tr> <td class=\"content -image-description -idx-1\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-01.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Join an online yoga class</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-2\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-02.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Listen to new music</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-3\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-03.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Watch classic films</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-4\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-04.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Pick up an old hobby</p> </div> </td> </tr> </tbody> </table>",
+    "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" width=\"100%\"> <tbody> <tr> <td class=\"content -image-description -idx-1\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-05.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Test out a new recipe</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-2\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-06.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Unplug and read a book</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-3\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-07.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Try a meditation app</p> </div> </td> </tr> <tr> <td class=\"content -image-description -idx-4\" responsive=\"mobile-padding-horizontal-sides mobile-padding-10-bottom\"> <div class=\"content-side -image\"> <img src=\"../dist/images/number-graphic-08.png\" alt=\"\" border=\"0\" width=\"40\"> </div> <div class=\"content-side -description\" responsive=\"mobile-reset-width\"> <p>Do some craftwork</p> </div> </td> </tr> </tbody> </table>"
   ]
 }

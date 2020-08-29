@@ -49,11 +49,12 @@
         }
 
         .content-side {
-            width: 350px;
+            width: 180px;
+            vertical-align: middle;
 
             img,
             &.-image {
-                width: 80px;
+                width: 38px;
             }
 
             &:first-child {
@@ -61,7 +62,8 @@
             }
 
             &:last-child {
-                float: right;
+                padding: 7px 0 7px 7px;
+                float: left;
             }
         }
 
@@ -75,7 +77,7 @@
         }
 
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 0 $widget-gap 40px;
         }
 
         &.-button {
@@ -83,7 +85,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $widget-gap 34px;
         }
     }
 
@@ -91,19 +93,13 @@
         text-align: left;
     }
 
+    .-description.-idx-2 {
+        padding: 10px $widget-gap $widget-gap;
+        text-align: center;
+    }
+
     .-image-description {
-        padding: 0 50px 45px;
-
-        &.-first {
-            padding: 0 50px 45px;
-        }
-
-        &.-button {
-            padding: 0 50px 18px;
-        }
-
-        &.-last {
-            padding: 0 50px $widget-gap;
-        }
+        width: 225px;
+        padding: 0 $padding 30px;
     }
 }

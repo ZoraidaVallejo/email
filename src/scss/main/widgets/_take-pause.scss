@@ -3,6 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-take-pause {
+    border-radius: 0 0 10px 10px;
 
     td {
         text-align: center;
@@ -30,7 +31,7 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0 100px;
 
         img {
             width: $inner-max-width;
@@ -49,11 +50,19 @@
         }
 
         .content-side {
-            width: 350px;
+            width: 400px;
 
             img,
             &.-image {
-                width: 80px;
+                width: 40px;
+            }
+
+            &.-image {
+                margin: 3px 0 0;
+            }
+
+            p {
+                margin: 0;
             }
 
             &:first-child {
@@ -76,6 +85,7 @@
 
         &.-first {
             padding: 35px $padding 20px;
+            text-align: center;
         }
 
         &.-button {
@@ -87,12 +97,9 @@
         }
     }
 
-    .-description {
-        text-align: left;
-    }
-
     .-image-description {
         padding: 0 50px 45px;
+        text-align: left;
 
         &.-first {
             padding: 0 50px 45px;

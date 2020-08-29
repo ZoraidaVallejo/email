@@ -55,13 +55,22 @@ body {
     background-color: #f0f7ff;
 }
 
-.w-milestones,
-.w-birthday {
+.-insider-date .logo {
+    padding: 10px $padding;
+
+    .logo-img {
+        width: 330px;
+    }
+}
+
+.w-milestones {
     background: image-url('odd-block-01.png') no-repeat plt('white');
     background-position: center;
 }
 
-.w-advertisement.-jld-ad-04 {
+.w-advertisement.-jld-ad-04,
+.w-blast-past,
+.w-wellness {
     background: image-url('odd-block-02.png') no-repeat plt('white');
     background-position: bottom;
 }
