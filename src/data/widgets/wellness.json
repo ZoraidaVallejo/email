@@ -1,0 +1,81 @@
+{
+  "widget": {
+    "type": "WELLNESS",
+    "header": "Activities to Help Your Mind Relax"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-01.png",
+        "description": [
+          "Join an online yoga class."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-02.png",
+        "description": [
+          "Listen to new music."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-03.png",
+        "description": [
+          "Watch classic films."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-04.png",
+        "description": [
+          "Pick up an old hobby."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-05.png",
+        "description": [
+          "Test out a new recipe."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-06.png",
+        "description": [
+          "Unplug and read a book."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-07.png",
+        "description": [
+          "Try a meditation app."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "number-graphic-08.png",
+        "description": [
+          "Do some craftwork."
+        ]
+      }
+    }
+  ]
+}

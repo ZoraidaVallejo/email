@@ -2012,6 +2012,210 @@ a {
   padding: 50px 0;
 }
 
+.w-take-pause td {
+  text-align: center;
+}
+
+.w-take-pause .justia-logo {
+  padding: 40px 25px 30px;
+  text-align: center;
+}
+
+.w-take-pause .justia-logo img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-take-pause .title {
+  padding: 0 0 5px;
+  font: 700 18px/1.15 Roboto, Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-take-pause .title a {
+  font: 700 18px/1.15 Roboto, Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-take-pause .image {
+  padding: 0 25px;
+}
+
+.w-take-pause .image img {
+  width: 500px;
+}
+
+.w-take-pause .content {
+  padding: 0 25px 25px;
+}
+
+.w-take-pause .content a {
+  color: #06357a;
+}
+
+.w-take-pause .content a * {
+  color: #06357a;
+}
+
+.w-take-pause .content .content-side {
+  width: 350px;
+}
+
+.w-take-pause .content .content-side img, .w-take-pause .content .content-side.-image {
+  width: 80px;
+}
+
+.w-take-pause .content .content-side:first-child {
+  float: left;
+}
+
+.w-take-pause .content .content-side:last-child {
+  float: right;
+}
+
+.w-take-pause .content .-list {
+  color: #340081;
+  text-align: left;
+}
+
+.w-take-pause .content .-list ul {
+  margin: 0;
+}
+
+.w-take-pause .content.-first {
+  padding: 35px 25px 20px;
+}
+
+.w-take-pause .content.-button {
+  padding: 0 25px 18px;
+}
+
+.w-take-pause .content.-last {
+  padding: 0 25px 50px;
+}
+
+.w-take-pause .-description {
+  text-align: left;
+}
+
+.w-take-pause .-image-description {
+  padding: 0 50px 45px;
+}
+
+.w-take-pause .-image-description.-first {
+  padding: 0 50px 45px;
+}
+
+.w-take-pause .-image-description.-button {
+  padding: 0 50px 18px;
+}
+
+.w-take-pause .-image-description.-last {
+  padding: 0 50px 50px;
+}
+
+.w-wellness td {
+  text-align: center;
+}
+
+.w-wellness .justia-logo {
+  padding: 40px 25px 30px;
+  text-align: center;
+}
+
+.w-wellness .justia-logo img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-wellness .title {
+  padding: 0 0 5px;
+  font: 700 18px/1.15 Roboto, Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-wellness .title a {
+  font: 700 18px/1.15 Roboto, Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-wellness .image {
+  padding: 0 25px;
+}
+
+.w-wellness .image img {
+  width: 500px;
+}
+
+.w-wellness .content {
+  padding: 0 25px 25px;
+}
+
+.w-wellness .content a {
+  color: #06357a;
+}
+
+.w-wellness .content a * {
+  color: #06357a;
+}
+
+.w-wellness .content .content-side {
+  width: 350px;
+}
+
+.w-wellness .content .content-side img, .w-wellness .content .content-side.-image {
+  width: 80px;
+}
+
+.w-wellness .content .content-side:first-child {
+  float: left;
+}
+
+.w-wellness .content .content-side:last-child {
+  float: right;
+}
+
+.w-wellness .content .-list {
+  color: #340081;
+  text-align: left;
+}
+
+.w-wellness .content .-list ul {
+  margin: 0;
+}
+
+.w-wellness .content.-first {
+  padding: 35px 25px 20px;
+}
+
+.w-wellness .content.-button {
+  padding: 0 25px 18px;
+}
+
+.w-wellness .content.-last {
+  padding: 0 25px 50px;
+}
+
+.w-wellness .-description {
+  text-align: left;
+}
+
+.w-wellness .-image-description {
+  padding: 0 50px 45px;
+}
+
+.w-wellness .-image-description.-first {
+  padding: 0 50px 45px;
+}
+
+.w-wellness .-image-description.-button {
+  padding: 0 50px 18px;
+}
+
+.w-wellness .-image-description.-last {
+  padding: 0 50px 50px;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
