@@ -1,0 +1,118 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "[jld-ad-01-example]"
+      },
+      "logo": {
+        "name": "marketing",
+        "color": "blue"
+      },
+      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
+      "titleResponsiveSize": 23,
+      "image": "ad-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "ad-graphic-02.png",
+            "description": [
+              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
+            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "[Non velit incididunt]",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "background": {
+        "image": "",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "<%= editingInterfaceLink %>",
+      "utm": {},
+      "logo": {
+        "name": "lawyer-directory",
+        "color": "blue"
+      },
+      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
+      "titleResponsiveSize": 23,
+      "image": "ad-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "description": [
+              "[Esse in ad elit.]",
+              "[Anim laboris laborum veniam laboris sunt aute anim incididunt ad dolor amet id reprehenderit ut.]"
+            ],
+            "image": "ad-graphic-02.png"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Dolor ipsum exercitation pariatur sint. Sint commodo aute culpa irure minim cillum sit labore ex qui tempor consequat anim.",
+            "Mollit voluptate ullamco duis commodo elit ullamco non consectetur qui eiusmod dolore eu consectetur irure.",
+            "Veniam sint non id esse duis dolor id id reprehenderit Lorem quis."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "[Magna pariatur]",
+            "width": 300,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}

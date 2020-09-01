@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Elit ipsum</b> esse amet culpa."
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "Vasu Featured in the 2020 ‘Fastcase 50' Honorees",
+      "description": [
+        "Congratulations to Vasu on winning the <a href='https://www.fastcase.com/fastcase50/' target='_blank'>2020 Fastcase 50</a>. The Fastcase 50 award honors innovators, visionaries, and legal leaders. Vasu has been recognized for her innovation efforts, integral contributions, and significant initiatives to Justia and many other legal technology companies. We are so proud to have her on our team!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "<b>Id amet ex est nulla laboris.</b>"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "Friends of Hug Pugs",
+      "description": [
+        "Since our pugs are stuck at home sheltering in place, they wanted to introduce you to their work pal's furry friends! Meet Jessica's cat Lola, who loves catnip and cat naps :) "
+      ]
+    }
+  ]
+}

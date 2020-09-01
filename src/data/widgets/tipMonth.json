@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Check How Your Profile Stacks Up",
+    "description": [
+      "<p>Prospective clients can now compare and save attorney profiles while browsing the Justia Lawyer Directory. Be sure to make your directory profile as complete as possible by including your credentials, a high quality photo, peer & client reviews, payment options, contact information, and more, as prospective clients will use these new features to compare attorneys side-by-side.</p><br><p>Once a user has compared attorney profiles, they can save the ones they are most interested in. They can also see their recently viewed profiles so that they can return to them later to compare or save them. <a target='_blank' href='https://onward.justia.com/2020/06/05/new-features-to-help-new-clients-find-you-announcing-three-new-features-on-the-justia-lawyer-directory/'>Read more here</a> about how these features work, and complete your profile with high quality content about your practice and experience today!</p>"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Increase Your Exposure to Prospective Clients With Justia Ask a Lawyer",
+    "description": [
+      "Justia Ask A Lawyer provides a platform for non-lawyers to post basic legal questions online and get free responses from attorneys. Answering questions allows you to earn points and get noticed in our legal practice area forums. In turn, point leaders appear on highlighted leaderboards across our site. Sign up to receive an email in real time when a question is submitted in your practice area and locality, allowing you to be the first to answer a question and earn more points!"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://answers.justia.com/",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}

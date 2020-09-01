@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "Facebook CEO Mark Zuckerberg Stoked Washington’s Fears About TikTok",
+      "link": "https://www.marketwatch.com/story/facebooks-mark-zuckerberg-stoked-washingtons-fears-about-tiktok-2020-08-23",
+      "description": "Zuckerberg reportedly urged the White House to view the advent of Chinese internet companies as detrimental to US business, and discussed TikTok with multiple senators."
+    },
+    {
+      "title": "Instagram is Adding Suggested Posts to the Main Feed",
+      "link": "https://www.searchenginejournal.com/instagram-suggested-posts/",
+      "description": "Once you reach the “You’re All Caught Up” screen in your Instagram feed, you may begin seeing “Suggested Posts” from accounts you don’t follow based on content you interact with."
+    },
+    {
+      "title": "Twitter Facing FTC Investigation and Possible $250 Million Fine",
+      "link": "https://www.businessinsider.com/twitter-facing-ftc-investigation-and-possible-250-million-fine-2020-8",
+      "description": "In a recent regulatory filing, Twitter disclosed that it is under federal scrutiny for allegedly targeting users with ads based on information they provided for account security purposes."
+    },
+    {
+      "title": "Facebook Begins Merging Instagram and Messenger Chats in New Update",
+      "link": "https://www.theverge.com/2020/8/14/21369737/facebook-merging-instagram-messenger-chats-update",
+      "description": "As part of a broader plan to unify all of its messaging platforms, Facebook has started the process of allowing users to merge their chats in Instagram and Facebook Messenger."
+    }
+  ]
+}
