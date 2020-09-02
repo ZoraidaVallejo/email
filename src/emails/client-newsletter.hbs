@@ -16,31 +16,35 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{>welcome widgetConfig=welcome.clients}}
 
-        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
-
         {{>covid-updates widgetUtmVars=covidUpdates.utm.clients}}
 
-        {{>tech-news}}
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
         {{>tip-month widgetConfig=tipMonth.clients}}
 
+        {{>tech-news}}
+
+        {{>featured-site-month singleSite=true}}
+
         {{>seo-news}}
-
-        {{>did-you-know widgetConfig=didYouKnow.clients}}
-
-        {{>inside-justia}}
-
-        {{>social-media-news}}
 
         {{>internet-stats}}
 
-        {{>featured-site-month singleSite=true}}
+        {{!-- {{>in-the-news}} --}}
+
+        {{>did-you-know widgetConfig=didYouKnow.clients}}
+
+        {{!-- {{>events-we-attended}} --}}
+
+        {{>social-media-news}}
+
+        {{>inside-justia}}
 
         {{>legal-industry-news}}
 
         {{>law-events}}
 
-        {{>ui-layout-hack tableEnd=true}}
+      {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
   <tr>
