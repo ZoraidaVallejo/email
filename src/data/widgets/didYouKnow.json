@@ -29,13 +29,7 @@
     "button": {
       "style": "justia-blue-ghost",
       "link": "https://searchengineland.com/the-average-gmb-profile-has-73-reviews-45-photos-5-posts-and-a-star-rating-of-4-08-339849",
-      "text": "Read More",
-      "utm": {
-        "medium": "email",
-        "source": "directory-newsletter",
-        "campaign": "<%= dateFormat.dash %>",
-        "content": "section-did-you-know-learn-more-button-v1"
-      }
+      "text": "Read More"
     }
   }
 }
