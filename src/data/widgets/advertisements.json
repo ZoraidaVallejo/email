@@ -5,49 +5,33 @@
   },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#f4f4f4",
-        "cssSize": "600px 350px"
-      },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v35"
       },
       "logo": {
         "name": "marketing",
         "color": "blue"
       },
-      "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
+      "title": "Rise to the Top With<br><b>Premium Placements</b>",
       "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
+      "image": "premium-placements-graphic-01.png",
       "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "image": "ad-graphic-02.png",
-            "description": [
-              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
-            ]
-          }
-        },
         {
           "type": "description",
           "config": [
-            "Deserunt eiusmod non laborum exercitation officia consequat tempor anim ex minim ipsum amet.",
-            "Laboris nulla laboris magna nisi ad velit nostrud qui veniam."
+            "Have you been looking for higher visibility and more clients for your law firm? Well look no further because premium placements on the <b>Justia Lawyer Directory offer increased visibility along with access to profile stats, and other enhanced profile features.</b> Stop the search and see what a premium placement can do for you."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "[Non velit incididunt]",
-            "width": 280,
+            "text": "Learn More Now",
+            "width": 200,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -61,7 +45,7 @@
         {
           "type": "description",
           "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+            "Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
         }
       ]
