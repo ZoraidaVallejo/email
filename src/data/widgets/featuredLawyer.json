@@ -3,17 +3,15 @@
     "icon": "featured-lawyer",
     "header": "Featured Lawyer",
     "type": "Justia Lawyer Rating and Reviews",
-    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-10&utm_content=text-justia-lawyer-rating-and-reviews-featured-title-1"
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=text-justia-lawyer-rating-and-reviews-featured-title-1"
   },
   "featured": {
     "id": "1528499",
     "rank": 1,
     "name": "Homer Jordan",
     "location": "Atlanta, GA",
-    "name_link": "https://lawyers.justia.com/lawyer/1528499/lawyer-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=name-justia-lawyer-rating-and-reviews-featured-1",
-    "photo_link": "https://lawyers.justia.com/lawyer/1528499?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=image-justia-lawyer-rating-and-reviews-featured-1",
-    "read_more_link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=button-justia-lawyer-rating-and-reviews-featured-read-more-1",
-    "title_link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=text-justia-lawyer-rating-and-reviews-featured-title-1"
+    "nameLink": "https://lawyers.justia.com/lawyer/1528499/lawyer-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=name-justia-lawyer-rating-and-reviews-featured-1",
+    "photoLink": "https://lawyers.justia.com/lawyer/1528499?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=image-justia-lawyer-rating-and-reviews-featured-1"
   },
   "description": [
     "Justia Lawyer Rating and Reviews is a system designed for lawyers to provide valuable insight from peers and colleagues personally familiar with the lawyer’s work.",
@@ -22,7 +20,7 @@
   ],
   "button": {
     "style": "light-blue-ghost",
-    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2019-10&utm_content=button-justia-lawyer-rating-and-reviews-featured-1",
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-09&utm_content=button-justia-lawyer-rating-and-reviews-featured-read-more-1",
     "text": "Read More"
   }
 }
