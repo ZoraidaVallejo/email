@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "iconSrc": "megaphone-1.png",
+    "header": "Important News"
+  },
+  "link": "https://onward.justia.com/2020/08/28/lawyer-local-services-ads-now-rolling-out-nationwide/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "section-important-news-title-v1",
+        "image": "section-important-news-image-v1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "section-important-news-title-v1",
+        "image": "section-important-news-image-v1"
+      }
+    }
+  },
+  "title": "Lawyer Local Services Ads Now Rolling Out Nationwide!",
+  "banner": "lsa-graphic-01.png",
+  "description": [
+    "Google has started rolling out LSAs to a variety of legal practice areas. Check out this post for a list of practice areas currently available."
+  ]
+}

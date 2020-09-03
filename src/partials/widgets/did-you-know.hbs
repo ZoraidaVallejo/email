@@ -13,11 +13,11 @@
 {{/and}}
 
 {{! ================================================================================================================= }}
+{{#table class="widget w-did-you-know set-max-width "}}
 
-{{#table class="widget w-did-you-know set-max-width"}}
   {{>widget-header
     header=widgetConfig.widget.header
-    icon=widgetConfig.widget.icon
+    iconSrc=widgetConfig.widget.iconSrc
   }}
 
   {{!--
@@ -27,9 +27,9 @@
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#if widgetConfig.title}}
         <h3 class="content-title">
-          {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
+          {{#if widgetConfig.titleLink}}<a href="{{{widgetConfig.titleLink}}}" target="_blank">{{/if}}
             {{{widgetConfig.title}}}
-          {{#if widgetConfig.link}}</a>{{/if}}
+          {{#if widgetConfig.titleLink}}</a>{{/if}}
         </h3>
       {{/if}}
 
@@ -45,7 +45,7 @@
   {{#if @root.widgetWithButton}}
     <tr>
       <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm)) width=widgetConfig.button.width}}
           {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>
