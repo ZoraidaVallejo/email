@@ -4,18 +4,18 @@
 {{!
 // TODO: Add anotations.
 }}
-{{#and importantNews.hasButton}}
+{{#and importantNewsJLD.hasButton}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
 {{/and}}
 {{#table class="widget w-important-news set-max-width"}}
   {{>widget-header
-    header=importantNews.widget.header
-    iconSrc=importantNews.widget.iconSrc
+    header=importantNewsJLD.widget.header
+    iconSrc=importantNewsJLD.widget.iconSrc
   }}
-  {{#if importantNews.singleColumn}}
-    {{#each importantNews.columns}}
+  {{#if importantNewsJLD.singleColumn}}
+    {{#each importantNewsJLD.columns}}
       {{>widget-banner
         imgSrc=this.image.src
         imgAlt=this.image.alt
@@ -51,6 +51,6 @@
       {{/if}}
     {{/each}}
   {{else}}
-    {{>widget-columns-with-image widgetConfig=importantNews.columns isLast=true}}
+    {{>widget-columns-with-image widgetConfig=importantNewsJLD.columns isLast=true}}
   {{/if}}
 {{/table}}

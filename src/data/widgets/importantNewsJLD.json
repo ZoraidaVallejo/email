@@ -10,10 +10,10 @@
       "image": {
         "src": "lsa-graphic-01.png",
         "alt": "Lawyer Local Services Ads Now Rolling Out Nationwide!",
-        "link": "https://onward.justia.com/2020/08/28/lawyer-local-services-ads-now-rolling-out-nationwide/?utm_medium=email&utm_campaign=2020-09&utm_source=client-newsletter&utm_content=image-onward-post-1"
+        "link": "https://onward.justia.com/2020/08/28/lawyer-local-services-ads-now-rolling-out-nationwide/?utm_medium=email&utm_campaign=2020-09&utm_source=directory-newsletter&utm_content=image-onward-post-1"
       },
       "blockTitle": "Lawyer Local Services Ads Now Rolling Out Nationwide!",
-      "titleLink": "https://onward.justia.com/2020/08/28/lawyer-local-services-ads-now-rolling-out-nationwide/?utm_medium=email&utm_campaign=2020-09&utm_source=client-newsletter&utm_content=text-onward-post-title-1",
+      "titleLink": "https://onward.justia.com/2020/08/28/lawyer-local-services-ads-now-rolling-out-nationwide/?utm_medium=email&utm_campaign=2020-09&utm_source=directory-newsletter&utm_content=text-onward-post-title-1",
       "description": [
         "Google has started rolling out LSAs to a variety of legal practice areas. Check out this post for a list of practice areas currently available."
       ],
@@ -24,7 +24,7 @@
         "width": 170,
         "utm": {
           "medium": "email",
-          "source": "client-newsletter",
+          "source": "directory-newsletter",
           "campaign": "<%= dateFormat.dash %>",
           "content": "button-learn-more-1"
         }
@@ -34,10 +34,10 @@
       "image": {
         "src": "featured-news-01.png",
         "alt": "Seven Things Your Law Firm Needs to Know About Google's LSAs (Local Services Ads)",
-        "link": "https://onward.justia.com/2020/09/02/seven-things-your-law-firm-needs-to-know-about-googles-lsas-local-services-ads/?utm_medium=email&utm_campaign=2020-09&utm_source=client-newsletter&utm_content=image-onward-post-2"
+        "link": "https://onward.justia.com/2020/09/02/seven-things-your-law-firm-needs-to-know-about-googles-lsas-local-services-ads/?utm_medium=email&utm_campaign=2020-09&utm_source=directory-newsletter&utm_content=image-onward-post-2"
       },
       "blockTitle": "Seven Things Your Law Firm Needs to Know About Google's LSAs (Local Services Ads)",
-      "titleLink": "https://onward.justia.com/2020/09/02/seven-things-your-law-firm-needs-to-know-about-googles-lsas-local-services-ads/?utm_medium=email&utm_campaign=2020-09&utm_source=client-newsletter&utm_content=text-onward-post-title-2",
+      "titleLink": "https://onward.justia.com/2020/09/02/seven-things-your-law-firm-needs-to-know-about-googles-lsas-local-services-ads/?utm_medium=email&utm_campaign=2020-09&utm_source=directory-newsletter&utm_content=text-onward-post-title-2",
       "description": [
         "Participating in LSAs (Local Services Ads) is a no-brainer for law firms that want to maintain a competitive online presence. These ads offer visibility at the very top of Google searches and are now more affordable than ever."
       ],
@@ -48,7 +48,7 @@
         "width": 170,
         "utm": {
           "medium": "email",
-          "source": "client-newsletter",
+          "source": "directory-newsletter",
           "campaign": "<%= dateFormat.dash %>",
           "content": "button-learn-more-2"
         }
