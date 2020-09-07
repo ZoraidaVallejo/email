@@ -1,0 +1,60 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "",
+        "width": 600,
+        "bgColor": "#061f45",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "[jld-ad-01-example]"
+      },
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "ad-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<strong>Premium Membership provides these benefits:</strong>",
+            "<strong>Premium Placements</strong> - enhance your visibility for your practice area(s) across an entire metro area on the Justia & LII lawyer directories.",
+            "<strong>Premium Profile</strong> - features a contact form to increase client interaction. Competitor ads are also removed from the profile.",
+            "<strong>Traffic Statistics</strong> - view traffic stats of your visibility on the Justia & LII lawyer directories and legal portals."
+          ],
+          "width": 500
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More Now",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}
