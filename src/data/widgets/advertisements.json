@@ -1,12 +1,6 @@
 {
   "jld": {
     "ad1": {
-      "background": {
-        "image": "",
-        "width": 600,
-        "bgColor": "#061f45",
-        "cssSize": "600px 350px"
-      },
       "link": "https://www.justia.com/",
       "utm": {
         "medium": "email",
@@ -14,9 +8,9 @@
         "source": "directory-newsletter",
         "content": "[jld-ad-01-example]"
       },
-      "title": "",
       "titleResponsiveSize": 23,
       "image": "climb-top-graphic-01.png",
+      "imageAlt": "Climb to the Top With Premium Placements",
       "contentOrder": [
         {
           "type": "description",
