@@ -28,7 +28,7 @@
   ],
   "button": {
     "style": "red-ghost",
-    "link": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2020-07&utm_content=section-featured-site-of-the-month-learn-more-button-v1",
+    "link": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=<%= dateFormat.dash %>&utm_content=section-featured-site-of-the-month-learn-more-button-v1",
     "text": "Contact Us"
   }
 }
