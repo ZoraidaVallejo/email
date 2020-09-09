@@ -34,7 +34,8 @@
                   <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
                 </p>
               {{/if}}
-              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>{{/if}}
+              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
+              {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
             </td>
           </tr>
         {{/forEach}}
