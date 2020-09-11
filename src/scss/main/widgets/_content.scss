@@ -5,6 +5,10 @@
 .w-content {
     border-bottom: 1px solid plt('gallery');
     background-color: plt('alabaster');
+    
+    &.-notice {
+        background-color: plt('white'); 
+    }
 
     p {
         margin: 0 0 25px;

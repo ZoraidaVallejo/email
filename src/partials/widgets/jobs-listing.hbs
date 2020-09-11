@@ -1,17 +1,6 @@
 <!-- CONTENT -->
 
 {{#table class="w-jobs set-max-width"}}
-  <tr>
-    <td class="widget-main-title" responsive="mobile-padding-horizontal-sides">
-      <h4>Latest Opportunities</h4>
-      <p>The job listings are organized as follows:</p>
-      <ul>
-        <li>Jobs that have a flexible/remote location or are available in multiple cities
-        </li>
-        <li>Jobs listed by U.S. state (in alphabetical order by state)</li>
-      </ul>
-    </td>
-  </tr>
   {{#forEach jobsListing.places}}
     <tr>
       <td class="jobs-listing{{#if isFirst}} -first{{/if}}" responsive="mobile-padding-horizontal-sides">
