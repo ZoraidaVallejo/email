@@ -3,7 +3,15 @@
 {{! ================================================================================================================= }}
 
 {{!
-// TODO: Add anotations.
+ * @param {Object}   lawEvents
+ * @param {string}   lawEvents.widget.header
+ * @param {string}   lawEvents.widget.icon
+ * @param {Object[]} lawEvents.events
+ * @param {number}   lawEvents.events[].day
+ * @param {string}   lawEvents.events[].month
+ * @param {string}   lawEvents.events[].title
+ * @param {string}   lawEvents.events[].typeLocation
+ * @param {string}   lawEvents.events[].link
 }}
 
 {{assign "columnStructure" (chunks lawEvents.events 2 true)}}
@@ -34,7 +42,8 @@
                   <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
                 </p>
               {{/if}}
-              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>{{/if}}
+              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
+              {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
             </td>
           </tr>
         {{/forEach}}

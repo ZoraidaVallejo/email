@@ -9,6 +9,7 @@
  * @param {string} widgetConfig.layout          - Defines the layout arrangement of the header.
  * @param {Object} widgetConfig.logo            - Configuration object to customize the logo image.
  * @param {string} [widgetConfig.logo.name]     - Logo name in kebab-case format that defines the source path and the alt text.
+ * @param {string} [widgetConfig.logo.color]    - Logo color in kebab-case format that defines the version.
  * @param {string} [widgetConfig.logo.path]     - Custom logo source path for the logo image.
  * @param {string} [widgetConfig.logo.alt]      - Custom logo alt text for the logo image.
  * @param {Object} widgetConfig.logo.link       - Defines the URL and UTM variables values.
@@ -21,8 +22,12 @@
   {{assign "headerLogoSrc" widgetConfig.logo.path}}
   {{assign "headerLogoAlt" widgetConfig.logo.alt}}
 {{else if widgetConfig.logo.name}}
-  {{assign "headerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
   {{assign "headerLogoAlt" (get (concat (camelcase widgetConfig.logo.name) ".alt") logos)}}
+  {{#if widgetConfig.logo.color}}
+    {{assign "headerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path." widgetConfig.logo.color) logos)}}
+  {{else}}
+    {{assign "headerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
+  {{/if}}
 {{else}}
   {{assign "headerLogoSrc" null}}
   {{assign "headerLogoAlt" null}}
