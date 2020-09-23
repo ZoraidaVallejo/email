@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Seven Things Your Law Firm Needs to Know About Google’s LSAs (Local Services Ads)"
+      },
+      "readMore": "#",
+      "blockTitle": "Seven Things Your Law Firm Needs to Know About Google’s LSAs (Local Services Ads)",
+      "description": [
+        "Participating in LSAs (Local Services Ads) is a no-brainer for law firms that want to maintain a competitive online presence. These ads..."
+      ]
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Google My Business Adds Links To Connect Businesses With Video Conferencing Solutions"
+      },
+      "readMore": "#",
+      "blockTitle": "Google My Business Adds Links To Connect Businesses With Video Conferencing Solutions",
+      "description": [
+        "The Google My Business dashboard is now encouraging businesses to set up a video conferencing service by..."
+      ]
+    }
+  ]
+}

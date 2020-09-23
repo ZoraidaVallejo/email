@@ -1,0 +1,20 @@
+{
+  "type": "TEAM ACTIVITY",
+  "title": "Justia \"Pixcel\" Challenge",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "A huge thank you to everyone who participated in the Justia \"Pixcel\" Challenge. We were absolutely delighted to have received 16 submissions! Our competitors displayed a considerable amount of creativity, talent, patience, and authenticity. After tight voting, Laura García was granted the second place and awarded a $25 Amazon gift card. With 15 votes, Ana Serna was crowned as the undisputed winner of our competition and received the $50 Amazon gift card."
+      ]
+    },
+    {
+      "type": "image-column",
+      "config": {
+        "image1": "team-graphic-01.png",
+        "image2": "team-graphic-02.png"
+      }
+    }
+  ]
+}

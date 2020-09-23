@@ -1,0 +1,53 @@
+{
+  "widget": {
+    "type": "WELLNESS",
+    "header": "Activities to Help Your Mind Relax"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "During these days of the pandemic that we are living, stress can easily get into our heads. To counter this, here is a list of activities that can ease your mind:"
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "item": {
+        "image": "number-graphic-01.png",
+        "description": "Join an online yoga class."
+      },
+      "item": {
+        "image": "number-graphic-02.png",
+        "description": "Listen to new music."
+      },
+      "item": {
+        "image": "number-graphic-03.png",
+        "description": "Watch classic films."
+      },
+      "item": {
+        "image": "number-graphic-04.png",
+        "description": "Pick up an old hobby."
+      }
+    },
+    {
+      "item": {
+        "image": "number-graphic-05.png",
+        "description": "Test out a new recipe."
+      },
+      "item": {
+        "image": "number-graphic-06.png",
+        "description": "Unplug and read a book."
+      },
+      "item": {
+        "image": "number-graphic-07.png",
+        "description": "Try a meditation app."
+      },
+      "item": {
+        "image": "number-graphic-08.png",
+        "description": "Do some craftwork."
+      }
+    }
+  ]
+}
