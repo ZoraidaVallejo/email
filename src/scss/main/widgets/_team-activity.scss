@@ -56,11 +56,11 @@
             }
 
             &:first-child {
-                float: right;
+                float: left;
             }
 
             &:last-child {
-                float: left;
+                float: right;
             }
         }
 
@@ -84,10 +84,10 @@
     .-image-column {
 
         .content-side {
-            width: 225px;
+            width: 246px;
 
             img {
-                width: 225px;
+                width: 246px;
                 margin: 0 auto;
             }
         }

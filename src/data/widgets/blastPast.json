@@ -1,20 +1,14 @@
 {
-  "type": "TEAM ACTIVITY",
-  "title": "Justia \"Pixcel\" Challenge",
+  "type": "blast from the past",
+  "title": "Spooky and Fun Times at the Office",
   "titleResponsiveSize": 23,
+  "image": "past-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "A huge thank you to everyone who participated in the Justia \"Pixcel\" Challenge. We were absolutely delighted to have received 16 submissions! Our competitors displayed a considerable amount of creativity, talent, patience, and authenticity. After tight voting, Laura García was granted the second place and awarded a $25 Amazon gift card. With 15 votes, Ana Serna was crowned as the undisputed winner of our competition and received the $50 Amazon gift card."
+        "No doubt, this year's Halloween will be like no other at Justia. Meanwhile, we're taking you back in the day with the most astounding Justians' costumes of years past. Let's take a look at this blast from the past and get inspired!"
       ]
-    },
-    {
-      "type": "image-column",
-      "config": {
-        "image1": "team-graphic-01.png",
-        "image2": "team-graphic-02.png"
-      }
     }
   ]
 }

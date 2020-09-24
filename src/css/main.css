@@ -1568,6 +1568,18 @@ a {
   color: #06357a;
 }
 
+.w-holidays .widget-banner {
+  padding: 0 50px 35px;
+}
+
+.w-holidays .widget-description {
+  padding: 0 50px 50px;
+}
+
+.w-holidays .content-subtitle {
+  color: #06357a;
+}
+
 .w-holidays .image {
   padding: 0 25px 20px;
 }
@@ -1895,11 +1907,11 @@ a {
 }
 
 .w-team-activities .content .content-side:first-child {
-  float: right;
+  float: left;
 }
 
 .w-team-activities .content .content-side:last-child {
-  float: left;
+  float: right;
 }
 
 .w-team-activities .content.-first {
@@ -1919,11 +1931,11 @@ a {
 }
 
 .w-team-activities .-image-column .content-side {
-  width: 225px;
+  width: 246px;
 }
 
 .w-team-activities .-image-column .content-side img {
-  width: 225px;
+  width: 246px;
   margin: 0 auto;
 }
 

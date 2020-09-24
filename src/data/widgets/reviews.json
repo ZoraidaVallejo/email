@@ -1,7 +1,7 @@
 {
   "widget": {
     "type": "REVIEWS & RECOMMENDATIONS",
-    "header": "Sint ex mollit ad laboris ut"
+    "header": "The Knight in Rusty Armor"
   },
   "titleResponsiveSize": 23,
   "link": "#",
@@ -10,9 +10,9 @@
       "type": "image-description",
       "config": {
         "image": "reviews-graphic-01.png",
-        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Store</b></a>",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Amazon</b></a>",
         "description": [
-          "<i>\"Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.\"</i>",
+          "<i>\"It is one of my favorite books because it is full of pearls of wisdom. It is easy to read and includes some quite remarkable teachings about self-knowledge. The story shows how people tend to seek others' approval without considering their own well-being. Little by little, they get themselves locked down in heavy armor. Throughout the story, the readers can understand the importance of being who you are from the inside and learn that the key to defeating their biggest fears is knowing who they really are\"</i>",
           "- John Doe"
         ]
       }

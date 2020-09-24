@@ -11,7 +11,7 @@
         "image": "milestones-graphic-01.png",
         "link": "#",
         "description": [
-          "<b>LSA Promotion Campaign.</b> We started and continue promoting our newly added product through multiple channels. This is an effort from different teams that highlights our coordination and responsiveness."
+          "<b>Justia Amplify Review Tool: </b>This platform adds value to our Justia Amplify product by providing our clients with a centralized, professional looking page to ask for client reviews. (Note this hasn't been shared publicly yet as of 2020-09-15)"
         ]
       }
     },
@@ -21,7 +21,7 @@
         "image": "milestones-graphic-02.png",
         "link": "#",
         "description": [
-          "<b>Justia Amplify Has Been Born!</b> We have defined the name of our latest product. Justia Amplify is aimed at helping our clients with their Google LSAs, Google Ads, Bing Ads, and Facebook Ads campaigns, as well as their GMB."
+          "<b>GMB Media Downloads: </b>We have yet more added value to our Justia Amplify service. We can now make a copy of all media resources in a GMB listing to produce even better LSA pages."
         ]
       }
     },
@@ -31,7 +31,7 @@
         "image": "milestones-graphic-03.png",
         "link": "#",
         "description": [
-          "<b>Google My Business API Integration.</b> We released our integration with Google My Business API, and its first feature is to be able to schedule posts in advance. This will allow us to bring this service to even more clients."
+          "<b>State Regulations: </b>We published the regulation codes for all 50 states. It was a joint effort between Justia and Carl Malamud, who collected and provided us with the dataset."
         ]
       }
     },
@@ -40,16 +40,7 @@
       "config": {
         "image": "milestones-graphic-04.png",
         "description": [
-          "<b>PPC Calculator.</b> We launched a tool that allows both sales and accounting teams to save time processing costs and preparing quotes for potential clients. At the same time, it lets us streamline our offers to clients."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "milestones-graphic-05.png",
-        "description": [
-          "<b>JMonitor migration.</b> You wouldn't notice this, but the system we use to monitor and detect service interruption in our systems was upgraded to a standalone environment. This improves our general availability and lets us address issues right away."
+          "<b>Internal Tools Updates: </b>Our teams improve and update our workflows and protocols on an ongoing basis. As such, we are excited about the most recent improvement, a neat Slack integration. The integration will allow anyone to create meeting minutes instantly. We are pretty sure this will be beneficial to maintain better communication and save time. Very soon, we will be sharing this feature with everyone in the company."
         ]
       }
     }

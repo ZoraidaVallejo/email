@@ -14,9 +14,9 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{!-- {{>welcome widgetConfig=welcome}}
+        {{>welcome widgetConfig=welcome}}
         
-        {{>milestones widgetConfig=milestones}} --}}
+        {{>milestones widgetConfig=milestones}}
         
         {{>birthday widgetConfig=birthday}}
 
@@ -26,17 +26,19 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         
         {{>holidays widgetConfig=holidays}}
 
-        {{>blast-past widgetConfig=blastPast}}
+        {{>new-people}}
 
         {{>team-activity widgetConfig=teamActivity}}
+
+        {{>blast-past widgetConfig=blastPast}}
         
         {{>wellness widgetConfig=wellness}}
 
-        {{>take-pause widgetConfig=takePause}}
+        {{!-- {{>take-pause widgetConfig=takePause}} --}}
         
         {{!-- {{>teammates widgetConfig=teammates}} --}}
         
-        {{!-- {{>reviews widgetConfig=reviews}} --}}
+        {{>reviews widgetConfig=reviews}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
