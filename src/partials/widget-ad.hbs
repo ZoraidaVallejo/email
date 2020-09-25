@@ -127,6 +127,16 @@
         </tr>
       {{/compare}}
 
+      {{#compare this.type "===" "custom"}}
+        <tr>
+          <td class="content -custom -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              {{{this}}}
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "button"}}
         <tr>
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">

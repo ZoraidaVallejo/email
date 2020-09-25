@@ -4,13 +4,7 @@
     "logo": {
       "name": "insights",
       "link": {
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "medium": "email",
-          "campaign": "<%= dateFormat.dash %>",
-          "source": "client-newsletter",
-          "content": "image-header-logo-1"
-        }
+        "url": "#"
       },
       "path": false,
       "alt": false
@@ -21,16 +15,10 @@
     "logo": {
       "name": "insights",
       "link": {
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "medium": "email",
-          "campaign": "<%= dateFormat.dash %>",
-          "source": "directory-newsletter",
-          "content": "image-header-logo-1"
-        }
+        "url": "#"
       },
       "path": "justia-amplify-blue.png",
-      "alt": "Justia Amplify" 
+      "alt": "Justia Amplify"
     }
   }
 }
