@@ -21,7 +21,7 @@
         "image": "milestones-graphic-02.png",
         "link": "#",
         "description": [
-          "<b>GMB Media Downloads: </b>We have yet more added value to our Justia Amplify service. We can now make a copy of all media resources in a GMB listing to produce even better LSA pages."
+          "<b>GMB Media Downloads: </b>We have added yet more value to our Justia Amplify service. We can now make a copy of all media resources in a GMB listing to produce even better LSA pages."
         ]
       }
     },
@@ -40,7 +40,26 @@
       "config": {
         "image": "milestones-graphic-04.png",
         "description": [
-          "<b>Internal Tools Updates: </b>Our teams improve and update our workflows and protocols on an ongoing basis. As such, we are excited about the most recent improvement, a neat Slack integration. The integration will allow anyone to create meeting minutes instantly. We are pretty sure this will be beneficial to maintain better communication and save time. Very soon, we will be sharing this feature with everyone in the company."
+          "<b>Internal Tools Updates: </b>Our most recent improvement is a neat Slack integration. This integration will allow anyone to instantly create meeting minutes, maintain better communication, and save time. We will be sharing this feature with everyone in the company very soon."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "link": "#",
+        "description": [
+          "<b>Voter Resource Center: </b>In light of the 2020 general election in November, Justia has launched a Voter Resource Center with information on how citizens can vote. You also can find more information about how to safely drop off your ballot during the COVID-19 pandemic at votercadechallenge.com."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "description": [
+          "<b>Internal Tools Updates: </b>We recently redesigned our corporate center to look more modern and reflect the company's current state and focus. The primary purpose of these pages is to give our visitors a glimpse into who we are and what we do."
         ]
       }
     }

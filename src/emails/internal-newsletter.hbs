@@ -22,7 +22,7 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>our-blog}}
 
-        {{!-- {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}} --}}
+        {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
         
         {{>holidays widgetConfig=holidays}}
 
@@ -31,14 +31,14 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>team-activity widgetConfig=teamActivity}}
 
         {{>blast-past widgetConfig=blastPast}}
-        
-        {{>wellness widgetConfig=wellness}}
 
-        {{!-- {{>take-pause widgetConfig=takePause}} --}}
+        {{>take-pause widgetConfig=takePause}}
+        
+        {{>reviews widgetConfig=reviews}}
         
         {{!-- {{>teammates widgetConfig=teammates}} --}}
         
-        {{>reviews widgetConfig=reviews}}
+        {{!-- {{>wellness widgetConfig=wellness}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

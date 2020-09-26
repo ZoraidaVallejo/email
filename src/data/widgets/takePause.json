@@ -1,14 +1,13 @@
 {
   "widget": {
-    "header": "Take a Pause"
+    "header": "Wellness in Tech"
   },
-  "image": "pause-graphic.png",
   "titleResponsiveSize": 23,
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "One minute relaxation activity that you can do whenever you are feeling stressed or worried."
+        "As a result of the lockdown, stress may take a high toll on our productivity and, most importantly, our health. Don’t panic! Stress relief is right at your fingertips. In addition to the tips provided in our last newsletter, we would like to share new stress management tools. Try them out, reduce stress, and get more done."
       ]
     },
     {
@@ -17,10 +16,7 @@
         "image": "number-graphic-01.png",
         "link": "#",
         "description": [
-          "<b>Step 1: Set up</b>",
-          "Find a comfortable sitting position.",
-          "Put your feet flat on the floor and your hands in your lap.",
-          "Close your eyes if you feel comfortable doing so."
+          "<a href=\"www.calm.com\" target=\"_blank\"><b>www.calm.com</b></a> Calm promises to help you sleep better, boost confidence, and reduce stress and anxiety, all with the help of guided meditations, soothing music, and bedtime stories."
         ]
       }
     },
@@ -30,10 +26,7 @@
         "image": "number-graphic-02.png",
         "link": "#",
         "description": [
-          "<b>Step 2: Think, feel, body</b>",
-          "Ask yourself, \"What am I thinking now?\"",
-          "Notice your thoughts. Notice if they are positive or negative.",
-          "Notice how your body feels. Notice anything that hurts or is tense."
+          "<a href=\"www.yogastudioapp.com\" target=\"_blank\"><b>www.yogastudioapp.com</b></a> In this app, you’ll find general classes for beginners, as well as  classes to help with mental health and back pain. There’s even a Desk Series you can do during a much-needed break."
         ]
       }
     },
@@ -42,32 +35,7 @@
       "config": {
         "image": "number-graphic-03.png",
         "description": [
-          "<b>Step 3: Focus on your breath</b>",
-          "Listen to your breath as it goes in and out.",
-          "You may want to say to yourself: \"It’s okay. Whatever it is, I am okay.\"",
-          "Then just listen to your breath for a while."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-04.png",
-        "description": [
-          "<b>Step 4: Coming back</b>",
-          "Notice how your whole body feels.",
-          "Listen to the sounds in the room."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "number-graphic-05.png",
-        "description": [
-          "<b>Step 5: Reflecting</b>",
-          "Think: \"Do I feel different at all?\"",
-          "When you are ready, open your eyes."
+          "<a href=\"www.headspace.com\" target=\"_blank\"><b>www.headspace.com</b></a> Headspace is an app that helps you learn how to meditate and live mindfully. There are hundreds of sessions that help you deal with stress, sleep, focus, and anxiety, as well as shorter guided meditations."
         ]
       }
     }
