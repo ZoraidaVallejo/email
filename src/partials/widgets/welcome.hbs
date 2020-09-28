@@ -1,0 +1,43 @@
+<!-- WELCOME MESSAGE -->
+
+{{#table class="w-ruth set-max-width"}}
+  <tr>
+    {{>ui-background
+      backgroundBehavior="cell"
+      backgroundStart=true
+      bgCellClasses="container"
+      bgCellResponsiveClasses="mobile-padding-horizontal-sides mobile-padding-20-vertical-sides mobile-reset-height"
+      bgImage="ruth-bader-ginsburg-bg.png"
+      bgColor="#0f377a"
+      bgWidth="600"
+      bgHeight="253"
+    }}
+      {{#table}}
+        <tr>
+          <td class="main-content" responsive="collapse-one">
+            {{#table}}
+              <tr>
+                <td class="title-container">
+                  <strong class="title">Associate Justice<br responsive="mobile-hide"> Ruth Bader Ginsburg</strong>
+                  <p class="subtitle"><em>Mar. 15, 1933 - Sep. 18, 2020</em></p>
+                </td>
+              </tr>
+              <tr>
+                <td class="content" responsive="mobile-no-padding-horizontal-sides mobile-no-padding-top">
+                  <p>In honor of the late Justice Ruth Bader Ginsburg, Justia has compiled a list of the <a href="https://supreme.justia.com/justice-ruth-bader-ginsburg-cases/" target="_blank"><strong>opinions she authored</strong></a>.</p>
+                  <p>For a list of cases argued before the Court as an advocate, <a href="https://www.oyez.org/justices/ruth_bader_ginsburg" target="_blank"><strong>see her page on Oyez</strong></a>.</p>
+                </td>
+              </tr>
+            {{/table}}
+          </td>
+          <td class="img" responsive="collapse-one mobile-padding-20-vertical-sides">
+            {{>img
+              src="ruth-bader-ginsburg.png"
+              alt="Ruth Bader Ginsburg"
+            }}
+          </td>
+        </tr>
+      {{/table}}
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
+{{/table}}
