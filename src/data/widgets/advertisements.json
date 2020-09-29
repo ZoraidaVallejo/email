@@ -21,12 +21,12 @@
       ]
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "source": "client-newsletter",
+        "content": "banner-premium-memberships-v36"
       },
       "image": "google-local-services.png"
     }
@@ -53,12 +53,12 @@
       ]
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v36"
       },
       "image": "google-local-services.png"
     }
