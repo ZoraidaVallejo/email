@@ -1,0 +1,43 @@
+{
+  "clients": {
+    "banner": "lsa-02.gif",
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Client Review Platform Included with Justia Amplify",
+    "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+    "description": [
+      "If you use our Justia Amplify service, it now includes a customized client review platform for you. Justia Amplify is our service providing you with PPC (Google, Facebook & Bing Ads), Google LSAs, and Google My Business. The client review platform showcases your photo in addition to your practice areas, jurisdictions, years of experience, and a link to your website. Through your branded page, clients can leave you reviews on platforms such as Google My Business, Justia Lawyer Directory, and Google Local Services Ads. More review options will be added to the Justia Review Platform in the future, so stay tuned!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "lsa-01.gif",
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Client Review Platform Included with Justia Amplify",
+    "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+    "description": [
+      "If you use our Justia Amplify service, it now includes a customized client review platform for you. Justia Amplify is our service providing you with PPC (Google, Facebook & Bing Ads), Google LSAs, and Google My Business. The client review platform showcases your photo in addition to your practice areas, jurisdictions, years of experience, and a link to your website. Through your branded page, clients can leave you reviews on platforms such as Google My Business, Justia Lawyer Directory, and Google Local Services Ads. More review options will be added to the Justia Review Platform in the future, so stay tuned!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/contact/google-ppc-lsa/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}
