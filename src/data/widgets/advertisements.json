@@ -5,7 +5,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
+        "source": "client-newsletter",
         "content": "[jld-ad-01-example]"
       },
       "contentOrder": [
@@ -14,7 +14,7 @@
           "config": {
             "image": "voter-resource.png",
             "description": [
-              "Voting is vital to a strong democracy. Our <a href='' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
+              "Voting is vital to a strong democracy. Our <a href='/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
             ]
           }
         }
@@ -46,7 +46,7 @@
           "config": {
             "image": "voter-resource.png",
             "description": [
-              "Voting is vital to a strong democracy. Our <a href='' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
+              "Voting is vital to a strong democracy. Our <a href='/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
             ]
           }
         }

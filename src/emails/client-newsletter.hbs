@@ -15,6 +15,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
       {{>ui-layout-hack tableStart=true}}
 
         {{>welcome widgetConfig=welcome.clients}}
+
         {{>state-regulations widgetConfig=stateRegulations.clients}}
 
         {{>state-consumer widgetConfig=stateConsumer.clients}}   
@@ -39,12 +40,12 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{!-- {{>in-the-news}} --}}
 
-        {{!-- {{>events-we-attended}} --}}
+        {{>did-you-know widgetConfig=didYouKnow.clients}}
 
         {{>widget-ad widgetClass="-clients-ad-02" widgetConfig=advertisements.clients.ad2}}
 
-        {{>did-you-know widgetConfig=didYouKnow.clients}}
-        
+        {{!-- {{>events-we-attended}} --}}
+
         {{>social-media-news}}
 
         {{>inside-justia}}

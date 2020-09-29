@@ -27,9 +27,9 @@
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://www.justia.com/",
+      "link": "https://accounts.justia.com/signin/fast?uid=*|USER_ID|*&code=*|SIGN_CODE|*&destination=https%3A%2F%2Flawyers.justia.com%2Fprofile%2F*|PROFILE_ID|*%2Fedit%2Fvideo_chat%3Futm_medium%3Demail%26utm_source%3Ddirectory-newletter%26utm_campaign%3D2020-10%26utm_content%3Dsection-tip-of-the-month-profile-completeness-button-v1",
       "text": "Update Profile Now",
-      "width": 250
+      "width": 210
     }
   }
 }
