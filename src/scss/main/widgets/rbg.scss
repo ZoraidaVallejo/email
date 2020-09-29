@@ -13,7 +13,8 @@
     .title,
     .subtitle,
     .content p,
-    .content a {
+    .content a,
+    .content a strong {
         color: plt('white');
     }
 

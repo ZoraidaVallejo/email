@@ -1,23 +1,22 @@
 {
-    "clients": {
-      "widget": {
-        "icon": "new-1",
-        "header": "Justia 50-state Consumer Forms"
-      },
-      "title": "",
-      "description": [
-        "Justia now offers 50-state surveys of legal forms in certain key areas for consumers and businesses. The surveys also provide basic information on requirements and procedures in these areas. You can find more details and the <a href='https://www.justia.com/consumer-business-legal-forms/' target='_blank'><b>full list of forms here</b></a>."
-      ]
+  "clients": {
+    "widget": {
+      "icon": "new-1",
+      "header": "Justia 50-state Consumer Forms"
     },
-    "jld": {
-      "widget": {
-        "icon": "new-1",
-        "header": "Justia 50-state Consumer Forms"
-      },
-      "title": "",
-      "description": [
-        "Justia now offers 50-state surveys of legal forms in certain key areas for consumers and businesses. The surveys also provide basic information on requirements and procedures in these areas. You can find more details and the <a href='https://www.justia.com/consumer-business-legal-forms/' target='_blank'><b>full list of forms here</b></a>."
-      ]
-    }
+    "title": "",
+    "description": [
+      "Justia now offers 50-state surveys of legal forms in certain key areas for consumers and businesses. The surveys also provide basic information on requirements and procedures in these areas. You can find more details and the <a href='https://www.justia.com/consumer-business-legal-forms/' target='_blank'><b>full list of forms here</b></a>."
+    ]
+  },
+  "jld": {
+    "widget": {
+      "icon": "new-1",
+      "header": "Justia 50-state Consumer Forms"
+    },
+    "title": "",
+    "description": [
+      "Justia now offers 50-state surveys of legal forms in certain key areas for consumers and businesses. The surveys also provide basic information on requirements and procedures in these areas. You can find more details and the <a href='https://www.justia.com/consumer-business-legal-forms/' target='_blank'><b>full list of forms here</b></a>."
+    ]
   }
-  
+}
