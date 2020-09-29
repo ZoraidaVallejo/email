@@ -4,7 +4,7 @@
       "image": "reminders-bg-01.png",
       "width": 400,
       "bgColor": "#ffffff",
-      "cssSize": "550px 350px",
+      "cssSize": "550px 292px",
       "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
     },
     "contentOrder": [
@@ -41,8 +41,8 @@
           "image": "quote-graphic-01.png",
           "description": [
             "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">",
-            "<i>If you saturate your mind with positive thoughts, it will sustain you in any situation.\"</i>",
-            "– Lailah Gifty Akita"
+            "<i>Autumn, the season that teaches us that change can be beautiful.\"</i>",
+            "– Unknown"
           ]
         }
       }

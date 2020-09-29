@@ -185,7 +185,7 @@
 
                 p:first-child {
                     padding: 0;
-                    margin: 0 0 30px;
+                    margin: 0 0 24px;
                     background: none;
                 }
 
@@ -196,19 +196,20 @@
         }
 
         .content-side {
-            width: 230px;
+            width: 235px;
 
             &.-image {
-                width: 245px;
-                padding: 18px 0;
+                width: 240px;
+                padding: 0;
+                margin: 0 0 -22px 10px;
 
                 img {
-                    width: 245px;
+                    width: 193px;
                 }
             }
 
             p img {
-                width: 114px;
+                width: 87px;
             }
 
             &:first-child {

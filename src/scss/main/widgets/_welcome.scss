@@ -7,9 +7,13 @@
     background-color: plt('white');
 
     .widget-banner {
-        padding: grid-unit(0.4) $padding $padding;
+        padding: 0 0 $padding;
         background: image-url('welcome-bg-01.png') no-repeat;
         background-size: 100% auto;
+
+        img {
+            width: 100%;
+        }
     }
 
     .widget-description {

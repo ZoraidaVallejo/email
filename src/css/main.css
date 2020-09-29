@@ -794,9 +794,13 @@ a {
 }
 
 .widget.w-welcome .widget-banner {
-  padding: 20px 25px 25px;
+  padding: 0 0 25px;
   background: url("../images/welcome-bg-01.png") no-repeat;
   background-size: 100% auto;
+}
+
+.widget.w-welcome .widget-banner img {
+  width: 100%;
 }
 
 .widget.w-welcome .widget-description {
@@ -1137,7 +1141,7 @@ a {
 
 .w-advertisement.-jld-ad-quote .content .-description p:first-child {
   padding: 0;
-  margin: 0 0 30px;
+  margin: 0 0 24px;
   background: none;
 }
 
@@ -1146,20 +1150,21 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content-side {
-  width: 230px;
+  width: 235px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image {
-  width: 245px;
-  padding: 18px 0;
+  width: 240px;
+  padding: 0px 0 0;
+  margin: 0 0 -22px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image img {
-  width: 245px;
+  width: 193px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side p img {
-  width: 114px;
+  width: 87px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side:first-child {
