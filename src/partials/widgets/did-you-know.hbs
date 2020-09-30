@@ -20,11 +20,6 @@
     icon=widgetConfig.widget.icon
   }}
 
-  {{>widget-banner
-    imgSrc=widgetConfig.banner
-    imgAlt=widgetConfig.title 
-  }}
-
   {{!--
   // TODO: Maybe move title and description to a component.
   --}}
@@ -37,6 +32,11 @@
           {{#if widgetConfig.link}}</a>{{/if}}
         </h3>
       {{/if}}
+
+      {{>img
+        src=widgetConfig.banner
+        alt=widgetConfig.title 
+      }}
 
       {{#each widgetConfig.description}}
         <p>{{{this}}}</p>
