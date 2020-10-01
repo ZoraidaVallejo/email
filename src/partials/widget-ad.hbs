@@ -95,7 +95,7 @@
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
                 <div class="content-side -image" responsive="collapse-one align-center mobile-padding-20-bottom mobile-padding-20-top">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                  <a href="{{{../../widgetConfig.link}}}" target="_blank">
                     {{>img
                       src=../config.image
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
@@ -106,6 +106,9 @@
 
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding-top mobile-no-padding-sides mobile-padding-20-bottom">
+                    <p class="-title">
+                      {{{../config.title}}}
+                    </p>
                   {{#each ../config.description}}
                     <p>{{{this}}}</p>
                   {{/each}}

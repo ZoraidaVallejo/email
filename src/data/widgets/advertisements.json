@@ -1,7 +1,7 @@
 {
   "clients": {
     "ad1": {
-      "link": "",
+      "link": "https://www.justia.com/voter-resource-center/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -12,9 +12,10 @@
         {
           "type": "image-description",
           "config": {
+            "title": "<b><a href='https://www.justia.com/voter-resource-center/' target='_blank'>Voter Resource Center</a></b>",
             "image": "voter-resource.png",
             "description": [
-              "Voting is vital to a strong democracy. Our <a href='/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
+              "Voting is vital to a strong democracy. Our <a href='https://www.justia.com/voter-resource-center/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
             ]
           }
         }
@@ -33,7 +34,7 @@
   },
   "jld": {
     "ad1": {
-      "link": "",
+      "link": "https://www.justia.com/voter-resource-center/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -44,9 +45,10 @@
         {
           "type": "image-description",
           "config": {
+            "title": "<b><a href='https://www.justia.com/voter-resource-center/' target='_blank'>Voter Resource Center</a></b>",
             "image": "voter-resource.png",
             "description": [
-              "Voting is vital to a strong democracy. Our <a href='/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
+              "Voting is vital to a strong democracy. Our <a href='https://www.justia.com/voter-resource-center/' target='_blank'><b>Voter Resource Center</b></a> provides important information on voting in the 2020 US elections. You also can check out <a href='https://www.votercadechallenge.com/' target='_blank'><b>votercadechallenge.com</b></a> for tips on how to make voting fun!"
             ]
           }
         }
