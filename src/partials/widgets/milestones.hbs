@@ -94,10 +94,7 @@
 
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding">
-                  {{#if ../config.title}}<h4 class="title">{{#if ../config.link}}<a href="{{{../config.link}}}" target="_blank">{{/if}}{{../config.title}}{{#if ../config.link}}</a>{{/if}}</h4>{{/if}}
-                  {{#each ../config.description}}
-                    <p>{{{this}}}</p>
-                  {{/each}}
+                    <p>{{#if ../config.title}}<b class="title">{{#if ../config.link}}<a href="{{{../config.link}}}" target="_blank">{{/if}}{{../config.title}}{{#if ../config.link}}</a>{{/if}}</b>{{/if}}{{{../config.description}}}</p>
                 </div>
               {{/compare}}
 

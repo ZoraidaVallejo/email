@@ -4,25 +4,20 @@
       "image": "reminders-bg-01.png",
       "width": 400,
       "bgColor": "#ffffff",
-      "cssSize": "550px 292px",
-      "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
+      "cssSize": "550px 275px",
+      "responsive": "mobile-no-padding-top mobile-padding-30-bottom"
     },
     "contentOrder": [
       {
         "type": "image-description",
         "config": {
+          "responsive": "mobile-fz-16",
           "image": "reminders-graphic-01.png",
           "description": [
             "<b class=\"side-title\">Reminders</b>",
-            "<b>Backups.</b>  Remember to back up your laptop regularly. If your external hard drive is not working, please report it immediately to your supervisor and IT department."
+            "Protect yourself this fall and winter with a flu vaccine. Health experts are stressing the importance of flu vaccination this year. With no onsite vaccinations this year, Justia will reimburse the cost of your flu vaccination."
           ]
         }
-      },
-      {
-        "type": "description",
-        "config": [
-          "<b>Video Conferences.</b> Join meetings on time. If possible, join meetings earlier than two minutes before the start time. Do not forget to turn on the camera."
-        ]
       }
     ]
   },
@@ -38,6 +33,7 @@
       {
         "type": "image-description",
         "config": {
+          "responsive": "mobile-fz-19",
           "image": "quote-graphic-01.png",
           "description": [
             "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">",

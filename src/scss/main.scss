@@ -45,6 +45,7 @@ $mail-global-font-family: 'Roboto', Arial, sans-serif;
     'main/widgets/blast-past',
     'main/widgets/take-pause',
     'main/widgets/wellness',
+    'main/widgets/new-people-2',
     'main/utilities';
 
 // @import
@@ -65,12 +66,17 @@ body {
 
 .w-milestones {
     background: image-url('odd-block-01.png') no-repeat plt('white');
-    background-position: top center;
+    background-position: center;
 }
 
 .w-advertisement.-jld-ad-04,
-.w-blast-past,
+.w-take-pause,
 .w-wellness {
     background: image-url('odd-block-02.png') no-repeat plt('white');
     background-position: bottom;
+}
+
+.w-blog-justia {
+    background: image-url('odd-block-03.png') no-repeat plt('white');
+    background-position: top;
 }

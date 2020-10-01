@@ -17,6 +17,8 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>welcome widgetConfig=welcome}}
         
         {{>milestones widgetConfig=milestones}}
+
+        {{>widget-ad widgetClass="-jld-ad-reminders" widgetConfig=advertisements.reminders}}
         
         {{>birthday widgetConfig=birthday}}
 
@@ -27,6 +29,8 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>holidays widgetConfig=holidays}}
 
         {{>new-people}}
+
+        {{>new-people-2 widgetConfig=newPeople2}}
 
         {{>team-activity widgetConfig=teamActivity}}
 

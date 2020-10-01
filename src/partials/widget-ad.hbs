@@ -34,7 +34,7 @@
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-advertisement" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-advertisement dark-mode" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -44,7 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
-        responsive=widgetConfig.background.responsive
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -99,7 +99,7 @@
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                   {{#each ../config.description}}
-                    <p responsive="mobile-fz-19">{{{this}}}</p>
+                    <p {{#if ../../config.responsive}}responsive="{{../../config.responsive}}"{{/if}}>{{{this}}}</p>
                   {{/each}}
                 </div>
               {{/compare}}

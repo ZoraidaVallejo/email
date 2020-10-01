@@ -19,6 +19,10 @@
         }
     }
 
+    .widget-header {
+        padding: 68px 47px 25px;
+    }
+
     .title {
         padding: 0 0 5px;
         @include mail-font(18px, 1.15, 700);

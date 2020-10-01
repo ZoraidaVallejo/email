@@ -9,58 +9,51 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "link": "#",
-        "description": [
-          "<b>Justia Amplify Review Tool: </b>This platform adds value to our Justia Amplify product by providing our clients with a centralized, professional looking page to ask for client reviews. (Note this hasn't been shared publicly yet as of 2020-09-15)"
-        ]
+        "title": "Justia Amplify Review Tool: ",
+        "description": "This platform adds value to our Justia Amplify product by providing our clients with a centralized, professional looking page to ask for client reviews."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
-        "description": [
-          "<b>GMB Media Downloads: </b>We have added yet more value to our Justia Amplify service. We can now make a copy of all media resources in a GMB listing to produce even better LSA pages."
-        ]
+        "title": "GMB Media Downloads: ",
+        "description": "We have added yet more value to our Justia Amplify service. We can now make a copy of all media resources in a GMB listing to produce even better LSA pages."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "link": "#",
-        "description": [
-          "<b>State Regulations: </b>We published the regulation codes for all 50 states. It was a joint effort between Justia and Carl Malamud, who collected and provided us with the dataset."
-        ]
+        "link": "https://regulations.justia.com/states/",
+        "title": "50-State Regulations: ",
+        "description": "We published the regulation codes for all 50 states. It was a joint effort between Justia and Carl Malamud, who collected and provided us with the dataset."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "description": [
-          "<b>Internal Tools Updates: </b>Our most recent improvement is a neat Slack integration. This integration will allow anyone to instantly create meeting minutes, maintain better communication, and save time. We will be sharing this feature with everyone in the company very soon."
-        ]
+        "title": "Internal Tools Updates: ",
+        "description": "Our most recent improvement is a neat Slack integration. This integration will allow anyone to instantly create meeting minutes, maintain better communication, and save time. We will be sharing this feature with everyone in the company very soon."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-05.png",
-        "link": "#",
-        "description": [
-          "<b>Voter Resource Center: </b>In light of the 2020 general election in November, Justia has launched a Voter Resource Center with information on how citizens can vote. You also can find more information about how to safely drop off your ballot during the COVID-19 pandemic at votercadechallenge.com."
-        ]
+        "title": "Voter Resource Center: ",
+        "link": "https://www.justia.com/voter-resource-center/",
+        "description": "In light of the 2020 general election in November, Justia has launched a Voter Resource Center with information on how citizens can vote. You also can find more information about how to safely drop off your ballot during the COVID-19 pandemic at votercadechallenge.com."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-06.png",
-        "description": [
-          "<b>Internal Tools Updates: </b>We recently redesigned our corporate center to look more modern and reflect the company's current state and focus. The primary purpose of these pages is to give our visitors a glimpse into who we are and what we do."
-        ]
+        "link": "https://company.justia.com/",
+        "title": "Redesign of the Justia Corporate Center: ",
+        "description": "We recently redesigned our corporate center to look more modern and reflect the company's current state and focus. The primary purpose of these pages is to give our visitors a glimpse into who we are and what we do."
       }
     }
   ]
