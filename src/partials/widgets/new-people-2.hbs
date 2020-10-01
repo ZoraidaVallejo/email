@@ -19,7 +19,7 @@
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="collapse-one">
+                <div class="content-side -image" responsive="collapse-one mobile-padding-bottom">
                   {{>img
                     src=../config.image
                     alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
