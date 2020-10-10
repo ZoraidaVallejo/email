@@ -8,6 +8,10 @@
         text-align: center;
     }
 
+    .ui-background {
+        background-size: 100% auto !important;
+    }
+
     .justia-logo {
         padding: 40px $padding 30px;
         text-align: center;
@@ -35,8 +39,28 @@
         }
     }
 
+    .spacement {
+        padding: 100px $padding;
+
+        &.-large {
+            padding: 120px $padding;
+        }
+    }
+
     .content {
         padding: 0 $padding 25px;
+
+        p {
+            color: plt('white');
+
+            a {
+                color: plt('white');
+
+                b {
+                    color: plt('white');
+                }
+            }
+        }
 
         .content-side {
             width: 260px;
@@ -59,11 +83,11 @@
         }
 
         &.-button {
-            padding: 0 $padding 18px;
+            padding: 60px $padding 18px;
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 58px;
         }
     }
 }

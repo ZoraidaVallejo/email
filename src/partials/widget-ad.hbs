@@ -44,6 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -60,6 +61,21 @@
             alt=(get (concat (camelcase widgetConfig.logo.name) ".alt") logos)
           }}
         </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.background}}
+    <tr>
+      <td class="spacement" responsive="mobile-padding-50-bottom mobile-padding-50-top">
+      </td>
+    </tr>
+    <tr>
+      <td class="spacement" responsive="mobile-padding-50-bottom mobile-padding-50-top">
+      </td>
+    </tr>
+    <tr>
+      <td class="spacement -large" responsive="mobile-padding-50-bottom mobile-padding-50-top">
       </td>
     </tr>
   {{/if}}

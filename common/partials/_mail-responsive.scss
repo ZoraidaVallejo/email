@@ -79,7 +79,7 @@
             }
 
             &-50 {
-                @include set-responsive-reseters('padding', 50px, false, false);
+                @include set-responsive-reseters('padding', 50px);
             }
         }
 
