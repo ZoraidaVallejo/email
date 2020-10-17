@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "legal-industry-news",
+    "header": "Legal Industry News"
+  },
+  "news": [
+    {
+      "title": "[Ad laboris aliqua occaecat magna proident nulla pariatur.]",
+      "link": "https://www.justia.com/",
+      "description": "[Magna non pariatur nisi esse irure ex velit velit in culpa in aliqua Lorem deserunt...]"
+    },
+    {
+      "title": "[Ex ipsum velit non cupidatat aute qui cupidatat tempor esse.]",
+      "link": "https://www.justia.com/",
+      "description": "[Deserunt minim do tempor laborum reprehenderit id mollit laboris ea qui enim exercitation deserunt. Eu elit..]"
+    },
+    {
+      "title": "[Sint proident ipsum eiusmod dolor officia veniam occaecat officia sint.]",
+      "link": "https://www.justia.com/",
+      "description": "[Quis fugiat nisi incididunt minim reprehenderit. Id Lorem culpa aliqua officia est consectetur velit exercitation commodo..]"
+    },
+    {
+      "title": "[Qui id eiusmod officia fugiat qui.]",
+      "link": "https://www.justia.com/",
+      "description": "[Commodo eu est fugiat consequat pariatur cupidatat. Culpa ad ad dolor nostrud proident quis labore commodo..]"
+    }
+  ]
+}
