@@ -19,11 +19,18 @@
     }
 
     .title {
-        padding: 0 $padding 35px;
+        padding: 42px $padding 0;
+        background-color: plt('justia-blue');
+        color: plt('white');
+        @include mail-font(36px, 1.15);
+
+        b {
+            display: block;
+            @include mail-font(42px, 1.15, 700);
+        }
 
         a {
-            @include mail-font(30px, 1.15);
-            color: plt('justia-blue');
+            color: plt('white');
         }
     }
 
@@ -37,6 +44,7 @@
 
     .content {
         padding: 0 $padding 25px;
+        text-align: left;
 
         .content-side {
             width: 260px;
@@ -54,8 +62,41 @@
             }
         }
 
+        &.-columns {
+            padding: 0 50px 25px;
+            text-align: center;
+            box-shadow: inset 0px 50px 0px 0px plt('justia-blue');
+
+            div {
+                height: 200px;
+                padding: $padding 15px;
+                border-radius: 15px;
+                width: 120px;
+                float: left;
+                background-color: #e2f6ff;
+                background: linear-gradient(180deg, rgba(226,246,255,1) 0%, rgba(169,227,248,1) 100%);
+    
+                img {
+                    margin: 0 auto 15px;
+                }
+
+                strong {
+                    display: block;
+                    color: plt('justia-blue');
+                }
+    
+                &:first-child {
+                    margin: 0 25px 0 0;
+                }
+    
+                &:last-child {
+                    float: right;
+                }
+            }
+        }
+
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 15px $padding 34px;
         }
 
         &.-button {
@@ -64,6 +105,15 @@
 
         &.-last {
             padding: 0 $padding $widget-gap;
+        }
+    }
+
+    .-idx-1 {
+        background-color: plt('justia-blue');
+        color: plt('white');
+
+        a {
+            color: plt('white');
         }
     }
 }

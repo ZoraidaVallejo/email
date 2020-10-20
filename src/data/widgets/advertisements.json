@@ -18,27 +18,21 @@
         "source": "directory-newsletter",
         "content": "[jld-ad-01-example]"
       },
-      "logo": {
-        "name": "marketing",
-        "color": "blue"
-      },
       "title": "<b>Thank You!</b>for Editing Your Profile",
       "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
       "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "image": "ad-graphic-02.png",
-            "description": [
-              "[Incididunt irure fugiat excepteur officia cillum ipsum officia elit. Do adipisicing laborum sit magna veniam tempor consectetur incididunt aute officia dolor aliqua.]"
-            ]
-          }
-        },
         {
           "type": "description",
           "config": [
             "Keeping your profile up-to-date helps individuals and businesses find lawyers like you. Here are a few quick tips that can help you reach even more qualified clients."
+          ]
+        },
+        {
+          "type": "columns",
+          "config": [
+            "<img src=\"../dist/images/column-graphic-01.png\" alt=\"Camera Icon\"> <strong>Professional Photo</strong> <span>Draw attention to your profile.</span>",
+            "<img src=\"../dist/images/column-graphic-02.png\" alt=\"Contact Phone Apps Icon\"> <strong>Contact Information</strong> <span>Keep it up to date.</span>",
+            "<img src=\"../dist/images/column-graphic-03.png\" alt=\"JLD Placement Icon\"> <strong>Premium Placements</strong> <span>Improve your visibility.</span>"
           ]
         },
         {
@@ -77,54 +71,6 @@
             "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>",
             "<i>* This offer expires 30 days from receipt of this email.</i>"
           ]
-        }
-      ]
-    },
-    "ad2": {
-      "background": {
-        "image": "",
-        "width": 0,
-        "bgColor": "",
-        "cssSize": ""
-      },
-      "link": "<%= editingInterfaceLink %>",
-      "utm": {},
-      "logo": {
-        "name": "lawyer-directory",
-        "color": "blue"
-      },
-      "title": "[<b>Ipsum magna tempor occaecat voluptate amet fugiat.</b>]",
-      "titleResponsiveSize": 23,
-      "image": "ad-graphic-01.gif",
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "description": [
-              "[Esse in ad elit.]",
-              "[Anim laboris laborum veniam laboris sunt aute anim incididunt ad dolor amet id reprehenderit ut.]"
-            ],
-            "image": "ad-graphic-02.png"
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "Dolor ipsum exercitation pariatur sint. Sint commodo aute culpa irure minim cillum sit labore ex qui tempor consequat anim.",
-            "Mollit voluptate ullamco duis commodo elit ullamco non consectetur qui eiusmod dolore eu consectetur irure.",
-            "Veniam sint non id esse duis dolor id id reprehenderit Lorem quis."
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "[Magna pariatur]",
-            "width": 300,
-            "height": 50,
-            "fontSize": 18,
-            "responsive": ""
-          }
         }
       ]
     }
