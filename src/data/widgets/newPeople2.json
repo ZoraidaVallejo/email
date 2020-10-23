@@ -1,0 +1,35 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Noelia Amador",
+        "blockSubtitle": "Front-End Team",
+        "description": "Hello everyone, my name is Noelia Méndez, or simply Nóe. I'm 21 years old, and I am from the port of Manzanillo, Colima. I just graduated from Computer Systems Engineering. I am focused on front-end development. I am curious and a bit of an extrovert. I don't give up too easily, and I hate leaving things incomplete. I love dancing, singing, laughing, and enjoying every day of my life. I am not afraid to ask for or give help."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-02.png",
+        "title": "Ana Elena Aguilar",
+        "blockSubtitle": "Help Desk Team",
+        "description": "Hi everyone, my name is Ana Aguilar. I'm 32 years old, I'm from Saltillo, Coahuila, and I’ve been working on IT for about ten years in different areas: programming, project management, and support. I enjoy reading and baking in my free time. I firmly believe that spending time with the people we love and taking time for self-care is a big part of a balanced life. I look forward to starting this new journey and working with you all."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-03.png",
+        "title": "Keilah Cabrera",
+        "blockSubtitle": "Administrative Team",
+        "description": "Hello, thank you for your warm welcome! I grew up in the San Francisco Bay Area and graduated from the University of San Francisco in 2014 with a degree in Communication Studies. I enjoy hiking, watching documentaries, learning about plants, and using my creativity. I joined Justia because its mission is aligned with my values. I look forward to getting to know everyone!"
+      }
+    }
+  ]
+}

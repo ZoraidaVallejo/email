@@ -1,0 +1,20 @@
+{
+  "type": "TEAM ACTIVITY",
+  "title": "Virtual Escape Room",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "To promote teamwork efforts and escape from the usual routine, Justia had its very first “Virtual Escape Room” activity. Thank you all for participating and congratulations to the winners!"
+      ]
+    },
+    {
+      "type": "image-column",
+      "config": {
+        "image1": "team-graphic-01.png",
+        "image2": "team-graphic-02.png"
+      }
+    }
+  ]
+}
