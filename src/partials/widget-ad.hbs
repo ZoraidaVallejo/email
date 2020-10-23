@@ -131,7 +131,11 @@
         <tr>
           <td class="content -columns -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#each this.config}}
-              <div>{{{this}}}</div>
+              <div responsive="collapse-one mobile-no-padding-horizontal-sides mobile-reset-height">
+                <a href="#" target="_blank">
+                  {{{this}}}
+                </a>
+              </div>
             {{/each}}
           </td>
         </tr>

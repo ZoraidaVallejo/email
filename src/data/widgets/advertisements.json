@@ -5,19 +5,7 @@
   },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#f4f4f4",
-        "cssSize": "600px 350px"
-      },
       "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
-      },
       "title": "<b>Thank You!</b>for Editing Your Profile",
       "titleResponsiveSize": 23,
       "contentOrder": [
@@ -40,7 +28,7 @@
           "config": [
             "Hi [NAME],",
             "Thank you for updating your Justia & LII profiles. Keeping your profile up-to-date helps the hundreds of thousands of individuals and businesses who use the Justia & LII Lawyer Directories each month to find lawyers like you.",
-            "As a thank you for taking the time to update your profile, we are offering a 10% DISCOUNT on any new Gold yearly premium placement subscription."
+            "As a thank you for taking the time to update your profile, we are offering a <b>10% DISCOUNT</b> on any new Gold yearly premium placement subscription."
           ]
         },
         {
@@ -62,13 +50,13 @@
         {
           "type": "description",
           "config": [
-            "Additionally we are offering you a free one-on-one in-depth profile review with one of our senior consultants so that you may get the most out of your free profile."
+            "Additionally we are offering you a <u>free</u> one-on-one in-depth profile review with one of our senior consultants so that you may get the most out of your free profile."
           ]
         },
         {
           "type": "description",
           "config": [
-            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>",
+            "Justia Lawyer Directory Team <br><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>",
             "<i>* This offer expires 30 days from receipt of this email.</i>"
           ]
         }

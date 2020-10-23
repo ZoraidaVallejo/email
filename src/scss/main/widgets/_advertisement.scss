@@ -43,8 +43,9 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 50px 25px;
         text-align: left;
+        background-color: #ffffff;
 
         .content-side {
             width: 260px;
@@ -63,30 +64,42 @@
         }
 
         &.-columns {
-            padding: 0 50px 25px;
+            padding: 0 50px $padding;
             text-align: center;
-            box-shadow: inset 0px 50px 0px 0px plt('justia-blue');
+            background: #ffffff url(https://justatic.com/v/1/emails/images/newsletters/2020/10/columns-bg.png);
+            background-repeat:no-repeat;
+            background-size:600px 50px;
+
 
             div {
+                display: block;
                 height: 200px;
-                padding: $padding 15px;
+                padding: 25px 15px 22px;
                 border-radius: 15px;
+                margin: 0 0 15px;
                 width: 120px;
                 float: left;
-                background-color: #e2f6ff;
-                background: linear-gradient(180deg, rgba(226,246,255,1) 0%, rgba(169,227,248,1) 100%);
+                background: #e2f6ff url(https://justatic.com/v/1/emails/images/newsletters/2020/10/column-bg.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
     
                 img {
                     margin: 0 auto 15px;
                 }
 
+                a {
+                    color: plt('black');
+                }
+
                 strong {
                     display: block;
                     color: plt('justia-blue');
+                    margin: 0 0 3px;
+                    @include mail-font(18px, 1.3, 700);
                 }
     
                 &:first-child {
-                    margin: 0 25px 0 0;
+                    margin: 0 25px 15px 0;
                 }
     
                 &:last-child {
@@ -96,24 +109,39 @@
         }
 
         &.-first {
-            padding: 15px $padding 34px;
+            padding: 15px 50px 34px;
         }
 
         &.-button {
-            padding: 0 $padding 18px;
+            padding: 0 50px 18px;
+            text-align: center;
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 50px $widget-gap;
+            text-align: center;
+
+            a {
+                color: plt('black');
+                @include mail-font(18px);
+
+                b {
+                    color: plt('black');
+                }
+            }
+
+            p:last-child {
+                @include mail-font(14px);
+            }
         }
-    }
 
-    .-idx-1 {
-        background-color: plt('justia-blue');
-        color: plt('white');
-
-        a {
+        &.-idx-1 {
+            background-color: plt('justia-blue');
             color: plt('white');
+
+            a {
+                color: plt('white');
+            }
         }
     }
 }
