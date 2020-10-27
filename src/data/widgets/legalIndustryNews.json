@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "legal-industry-news",
+    "header": "Legal Industry News"
+  },
+  "news": [
+    {
+      "title": "Secrecy Sleeves and the “Naked Ballot”",
+      "link": "https://www.lawfareblog.com/secrecy-sleeves-and-naked-ballot",
+      "description": "At least 16 states will provide inner envelopes to absentee voters to protect their privacy in the November election. States diverge on whether ballots without secrecy sleeves will count."
+    },
+    {
+      "title": "Ballot Drop-Off Options in All 50 States",
+      "link": "https://www.lawfareblog.com/ballot-drop-options-all-50-states",
+      "description": "This resource describes the availability of ballot drop boxes in each state and identifies the locations where voters can drop off completed ballots before and on Election Day."
+    },
+    {
+      "title": "Ruling Against Yelp in S.F. Court Bars Recording Either Side of Phone Conversation Without Both Parties’ Consent",
+      "link": "https://www.sfchronicle.com/bayarea/article/Ruling-against-Yelp-in-SF-court-bars-recording-15632250.php",
+      "description": "According to a state appeals court judge, California privacy law requires all the participants in a conversation to consent to recording, even if only one participant is being recorded."
+    },
+    {
+      "title": "New Jury Instructions Strengthen Social Media Cautions",
+      "link": "https://www.uscourts.gov/news/2020/10/01/new-jury-instructions-strengthen-social-media-cautions",
+      "description": "A federal judiciary committee has provided an updated set of model jury instructions to federal judges to help them warn jurors against using social media to research or discuss cases."
+    },
+    {
+      "title": "California Bar Exam Takers Say Facial Recognition Software Rejected Them",
+      "link": "https://www.sfchronicle.com/business/article/California-bar-exam-takers-say-facial-recognition-15629617.php",
+      "description": "Many non-white test takers have said that they were forced to shine lights in their faces or submit selfies to enter various sections of the exam after the software rejected them."
+    },
+    {
+      "title": "When AI Hurts People, Who Is Held Responsible?",
+      "link": "https://venturebeat.com/2020/10/12/when-ai-hurts-people-who-is-held-responsible/",
+      "description": "A UCLA law school professor has published a paper arguing that artificial intelligence creates tension with the traditional legal theory of negligence and requires intervention by regulators."
+    }
+  ]
+}

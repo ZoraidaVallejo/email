@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Google Ads Intros Automated Insights, Performance Max Campaigns, to Release Video Action Out of Beta",
+      "link": "https://searchengineland.com/google-ads-intros-automated-insights-performance-max-campaigns-to-release-video-action-out-of-beta-341584",
+      "description": "Google continues to move forward in its effort to use machine learning to serve campaigns across many of its properties as it responds to the exigencies of the COVID-19 pandemic."
+    },
+    {
+      "title": "Google My Business Adds More COVID-19 Health & Safety Checks ",
+      "link": "https://www.seroundtable.com/google-my-business-more-health-safety-checks-30248.html",
+      "description": "Additional health and safety attributes that have been integrated into the GMB local listings include safety dividers at checkout and a policy of disinfecting surfaces between visits."
+    },  
+    {
+      "title": "Google Introduces Song Matching via Singing, Humming, or Whistling",
+      "link": "https://techcrunch.com/2020/10/15/google-introduces-song-matching-via-humming-whistling-or-singing/",
+      "description": "A new Google feature will allow people to identify a song through the app or widget by tapping the microphone, asking to search a song, and then humming, whistling, or singing the song."
+    },
+    {
+      "title": "Google My Business to Log Recent Customer Calls",
+      "link": "https://www.searchenginejournal.com/google-my-business-call-history/383250/amp/",
+      "description": "A new feature in Google My Business will allow businesses to see recent customer calls that were triggered by search results, although it remains in an early stage of development."
+    }
+  ]
+}

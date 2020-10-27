@@ -1,0 +1,59 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="client-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.clients}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome.clients}}
+
+        {{!-- {{>covid-updates widgetUtmVars=covidUpdates.utm.clients}} --}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
+
+        {{>widget-ad widgetClass="-clients-ad-01" widgetConfig=advertisements.clients.ad1}}
+
+        {{>tip-month widgetConfig=tipMonth.clients}}
+
+        {{>tech-news}}
+
+        {{>featured-site-month singleSite=true}}
+
+        {{>widget-ad widgetClass="-clients-ad-02" widgetConfig=advertisements.clients.ad2}}
+
+        {{>seo-news}}
+
+        {{>internet-stats}}
+
+        {{>in-the-news}}
+
+        {{!-- {{>did-you-know widgetConfig=didYouKnow.clients}} --}}
+
+        {{!-- {{>events-we-attended}} --}}
+
+        {{>social-media-news}}
+
+        {{>inside-justia}}
+
+        {{>legal-industry-news}}
+
+        {{>law-events}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.clients}}
+    </td>
+  </tr>
+{{/table}}

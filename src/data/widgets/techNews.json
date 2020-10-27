@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "Facebook and Twitter CEOs to Attend Hearing About Section 230 Protections",
+      "link": "https://www.engadget.com/facebook-twitter-ceo-section-230-senate-hearing-041347409.html",
+      "description": "Mark Zuckerberg and Jack Dorsey will testify before the Senate Commerce Committee on protections for online platforms from legal liability for content posted by their users."
+    },
+    {
+      "title": "The Justice Department has filed its antitrust lawsuit against Google",
+      "link": "https://techcrunch.com/2020/10/20/justice-department-will-reportedly-file-its-antitrust-lawsuit-against-google-today/",
+      "description": "The DOJ joins 11 states in arguing that Google is maintaining illegal monopolies in the markets for general search services, search advertising, and general search text advertising."
+    },
+    {
+      "title": "Congressional Antitrust Report Into Apple and Others Delayed as Two Sides Negotiate",
+      "link": "https://9to5mac.com/2020/10/06/congressional-antitrust-report/",
+      "description": "Republican and Democrat members of the committee agree that antitrust concerns require greater oversight of the tech industry, but they have not agreed on an appropriate solution."
+    },
+    {
+      "title": "Instagram Starts Labeling ‘State-controlled Media’ Accounts and Posts",
+      "link": "https://www.engadget.com/instagram-state-controlled-media-application-220248779.html",
+      "description": "Labels will appear on Instagram profile pages and posts, identifying content from media outlets that are believed to be at least partly under the editorial control of their government."
+    }
+  ]
+}

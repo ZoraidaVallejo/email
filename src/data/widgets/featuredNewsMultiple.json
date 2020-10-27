@@ -1,0 +1,35 @@
+{
+    "widget": {
+      "iconSrc": "",
+      "header": "Featured News"
+    },
+    "singleColumn": true,
+    "hasButton": true,
+    "columns": [
+      {
+        "image": {
+          "src": "featured-news-01.png",
+          "alt": "Voter Resource Center",
+          "link": "https://www.justia.com/voter-resource-center/"
+        },
+        "blockTitle": "Voter Resource Center",
+        "titleLink": "hhttps://www.justia.com/voter-resource-center/",
+        "description": [
+          "Voting is vital to a strong democracy. Our <b><a href='https://www.justia.com/voter-resource-center/' target='_blank'>Voter Resource Center</a></b> provides important information on voting in the 2020 US elections. You also can check out <b><a href='' target='_blank'>https://www.votercadechallenge.com/</a></b> votercadechallenge.com for tips on how to make voting fun!."
+        ],
+        "button": {
+          "style": "red-ghost",
+          "link": "https://www.justia.com/voter-resource-center/",
+          "text": "Read More",
+          "width": 170,
+          "utm": {
+            "medium": "email",
+            "source": "client-newsletter",
+            "campaign": "<%= dateFormat.dash %>",
+            "content": "button-learn-more-1"
+          }
+        }
+      }
+    ]
+  }
+  

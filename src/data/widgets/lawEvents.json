@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "5",
+      "month": "Nov",
+      "title": "Ethically Speaking: Lawyers, Judges, and Social Media",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/402677082/"
+    },
+    {
+      "day": "9",
+      "month": "Nov",
+      "title": "Medicare Law: Medicare Parts A/B Healthcare Reimbursement",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/406424849/"
+    },
+    {
+      "day": "10-12",
+      "month": "Nov",
+      "title": "Virtual 31st Annual Philadelphia Tax Conference",
+      "time": "12:30pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/403891105/"
+    },
+    {
+      "day": "11-12",
+      "month": "Nov",
+      "title": "2020 National Conference for Lawyer Assistance Programs",
+      "time": "9am ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/405885899/"
+    },
+    {
+      "day": "11-13",
+      "month": "Nov",
+      "title": "14th Annual Labor and Employment Law Conference",
+      "time": "11:30am ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/393798320/"
+    },
+    {
+      "day": "19-20",
+      "month": "Nov",
+      "title": "Criminal Justice Section Thirteenth Annual Fall Institute",
+      "time": "3pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/405540669/"
+    }
+  ]
+}

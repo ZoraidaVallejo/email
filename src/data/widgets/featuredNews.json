@@ -1,0 +1,34 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Voter Resource Center",
+  "description": [
+    "Voting is vital to a strong democracy. Our <b><a href='https://www.justia.com/voter-resource-center/' target='_blank'>Voter Resource Center</a></b> provides important information on voting in the 2020 US elections. You also can check out <b><a href='' target='_blank'>https://www.votercadechallenge.com/</a></b> votercadechallenge.com for tips on how to make voting fun!"
+  ]
+}

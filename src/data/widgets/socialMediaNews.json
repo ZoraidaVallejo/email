@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "Facebook Announces #BuyBlack Friday Campaign In Support of Black Owned Businesses",
+      "link": "https://www.bet.com/news/national/2020/10/08/facebook-plan-to-help-black-businesses.html",
+      "description": "Between October 30 and November 27, a campaign will urge users to buy Black-owned brands during the Black Friday retail event as part of the Holiday Hub “Season of Support.”"
+    },
+    {
+      "title": "Facebook Bans Holocaust Denial Amid Rapid Rise in “Deceptive” Content",
+      "link": "https://arstechnica.com/tech-policy/2020/10/facebook-bans-holocaust-denial-amid-rapid-rise-in-deceptive-content/",
+      "description": "In a reversal of controversial policies, Facebook is strengthening its enforcement against hate speech and misinformation in response to a perceived rise in anti-Semitism worldwide."
+    },
+    {
+      "title": "Guide to Navigating Social Media During the Election",
+      "link": "https://www.washingtonpost.com/technology/2020/10/20/election-social-misinfo/",
+      "description": "Explore these tips for reducing the risk of misinformation on social media regarding the November election and learn about what major outlets are doing to address this issue."
+    },
+    {
+      "title": "How to Improve Your Branding on Instagram ",
+      "link": "https://www.socialmediaexaminer.com/instagram-visual-design-how-to-improve-your-branding-on-instagram-kat-coroy/",
+      "description": "Designer Kat Coroy explains how to find your unique brand style and translate it to an Instagram profile, while improving your Instagram images and taking more effective selfies."
+    }
+  ]
+}
