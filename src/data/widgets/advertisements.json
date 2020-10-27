@@ -26,8 +26,8 @@
       "image": "quote-bg-01.png",
       "width": 500,
       "bgColor": "#ffffff",
-      "cssSize": "550px 325px",
-      "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
+      "cssSize": "550px 300px",
+      "responsive": "mobile-padding-20-top mobile-padding-30-bottom"
     },
     "contentOrder": [
       {
@@ -37,8 +37,8 @@
           "image": "quote-graphic-01.png",
           "description": [
             "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">",
-            "<i>Autumn, the season that teaches us that change can be beautiful.\"</i>",
-            "– Unknown"
+            "<i>Grateful acknowledging the good that you already have in your life is the foundation for all abundance.\"</i>",
+            "– Eckhart Tolle"
           ]
         }
       }

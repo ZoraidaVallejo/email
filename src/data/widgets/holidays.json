@@ -3,17 +3,27 @@
     "type": "upcoming holidays",
     "header": "Dates to Remember"
   },
-  "singleColumn": true,
+  "singleColumn": false,
   "columns": [
     {
       "image": {
-        "src": "holidays-graphic-01.gif",
-        "alt": "October 31st - Halloween"
+        "src": "holidays-graphic-01.png",
+        "alt": "Day of the Dead - November 2nd"
       },
-      "blockTitle": "October 31st - Halloween",
+      "blockTitle": "Day of the Dead<br>November 2nd",
       "description": [
-        "Trick or Treat! Halloween, also known as All Hallow's Eve or All Saint's Eve, is a fun autumn festival celebrated on the night of October 31. Even when some people associate Halloween with fear, it is actually an opportunity to welcome the unknown and release negativity by bringing joy into our daily lives.",
+        "The Day of the Dead, also known as All Souls Day, is a two-day Mexican holiday when people visit the graves of deceased loved ones and set up altars with their favorite dishes, drinks, and photos. Celebrating The Day of the Dead has a long history in Mexican tradition as the ancient indigenous people of Mexico have practiced rituals celebrating ancestors' lives for around 3,000 years.",
         "<i>*This is a non-federal holiday. It is not officially recognized. For more information about paid holidays please visit Justikia.</i>"
+      ]
+    },
+    {
+      "image": {
+        "src": "holidays-graphic-02.png",
+        "alt": "Thanksgiving - November 26th and 27th"
+      },
+      "blockTitle": "Thanksgiving<br>November 26th and 27th",
+      "description": [
+        "Thanksgiving is a federal holiday in the United States, which falls on the fourth Thursday of November. It is based on the colonial Pilgrims' 1621 harvest meal with the Wampanoag people. Rich in legend and symbolism, the holiday has been used as a day to reflect on the positive things in life, spend time with family and friends, watch football, and eat traditional Thanksgiving meals such as turkey, bread stuffing, potatoes, cranberries, and pumpkin pie."
       ]
     }
   ]

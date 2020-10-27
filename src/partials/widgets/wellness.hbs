@@ -76,6 +76,25 @@
           </td>
         </tr>
       {{/compare}}
+
+      {{#compare this.type "===" "image-column"}}
+        <tr>
+          <td class="content -image-column -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-reset-max-width">
+            <div class="content-side -image -image-01" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width mobile-padding-30-bottom">
+              {{>img
+                src=config.image1
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
+            <div class="content-side -image -image-02" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width">
+              {{>img
+                src=config.image2
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
+          </td>
+        </tr>
+      {{/compare}}
     {{/forEach}}
   {{/if}}
 
@@ -95,11 +114,11 @@
     </tr>
   {{/if}}
 
-  <tr>
+  {{!-- <tr>
     <td class="content -description -idx-2" responsive="mobile-padding-horizontal-sides">
       <p>Give them a try; they sure will help!</p>
     </td>
-  </tr>
+  </tr> --}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>

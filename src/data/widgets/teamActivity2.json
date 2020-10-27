@@ -1,0 +1,17 @@
+{
+  "type": "TEAM ACTIVITY",
+  "title": "Lorem Ipsum Dolor Sit",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "responsive": "mobile-fz-16",
+        "image": "team-holiday-graphic-01.png",
+        "description": [
+          "Yes! The holiday season is here, and most of us will get swept up by feasts and parties. Food is definitely the cornerstone of the holiday season as it brings people together. Food is full of memories, traditions, and great flavors. <a href=\"https://docs.google.com/forms/d/133CRrOZHHGUxlH_QECmS65w0lZnbqqMd97qGKaiCWhU/\" target=\"_blank\"><b>Click here</b></a> and share the dish or beverage you have a craving for. We will share your answers on Slack."
+        ]
+      }
+    }
+  ]
+}
