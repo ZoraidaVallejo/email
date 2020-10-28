@@ -10,7 +10,7 @@
     }
 
     .justia-logo {
-        padding: 52px $padding 23px;
+        padding: 52px $padding 15px;
         text-align: center;
 
         img {
@@ -24,7 +24,7 @@
         text-transform: uppercase;
 
         a {
-            @include mail-font(34px, 1.1);
+            @include mail-font(32px, 1.1);
             color: #503d36;
         }
     }

@@ -4,18 +4,18 @@
 {{!
 // TODO: Add anotations.
 }}
-{{#and featuredNewsMultiple.hasButton}}
+{{#and widgetConfig.hasButton}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
 {{/and}}
 {{#table class="widget w-featured-news set-max-width"}}
   {{>widget-header
-    header=featuredNewsMultiple.widget.header
+    header=widgetConfig.widget.header
     icon=featuredNews.widget.icon
   }}
-  {{#if featuredNewsMultiple.singleColumn}}
-    {{#each featuredNewsMultiple.columns}}
+  {{#if widgetConfig.singleColumn}}
+    {{#each widgetConfig.columns}}
       {{>widget-banner
         imgSrc=this.image.src
         imgAlt=this.image.alt
