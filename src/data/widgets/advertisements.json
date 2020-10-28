@@ -31,33 +31,39 @@
       "image": "guidance-for-businesses.jpg"
     },
     "ad3": {
+      "background": {
+        "image": "justia-community-background-01.png",
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 850px"
+      },
       "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v36"
+        "content": "banner-premium-memberships-v37"
       },
       "logo": {
         "name": "marketing",
-        "color": "blue"
+        "color": "blue-white"
       },
       "title": "",
       "titleResponsiveSize": 23,
-      "image": "premium-placements-graphic-01.png",
+      "imageOnly": "justia-community-graphic-01.png",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "This Thanksgiving, add one more thing onto your list to be thankful for. Justia’s premium placements provide higher visibility on the directory along with access to statistics and other benefits. <b>Level up your marketing by getting a premium placement.</b>"
+            "At Justia, we are here to help with your marketing presence. Contact us to learn more about <b>Premium Membership</b> opportunities available in your area."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Become a Premium Member Today",
-            "width": 350,
+            "text": "Contact Us Now",
+            "width": 200,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -65,13 +71,13 @@
             "fontStyle": "",
             "fontWeight": "",
             "fontSize": 18,
-            "responsive": "mobile-reset-width mobile-fz-14 mobile-padding-20-horizontal-sides"
+            "responsive": ""
           }
         },
         {
           "type": "description",
           "config": [
-            "Or call us at <a href='tel:8885878421' target='_blank'><b>(888) 587-8421</b></a>"
+            "or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
         }
       ]

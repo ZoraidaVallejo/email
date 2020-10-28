@@ -1051,16 +1051,12 @@ a {
   margin: 79px 0 0;
 }
 
-.w-advertisement {
-  background: #ffedcf;
-}
-
 .w-advertisement td {
   text-align: center;
 }
 
 .w-advertisement .justia-logo {
-  padding: 52px 30px 15px;
+  padding: 50px 30px 37px;
   text-align: center;
 }
 
@@ -1089,7 +1085,6 @@ a {
 
 .w-advertisement .content {
   padding: 0 50px 25px;
-  background-color: #503d36;
   color: #ffffff;
 }
 
@@ -1110,8 +1105,8 @@ a {
 }
 
 .w-advertisement .content.-first {
-  padding: 50px 50px 30px;
-  text-align: left;
+  padding: 20px 75px 35px;
+  text-align: center;
 }
 
 .w-advertisement .content.-button {
@@ -1119,7 +1114,7 @@ a {
 }
 
 .w-advertisement .content.-last {
-  padding: 0 30px 50px;
+  padding: 0 30px 32px;
 }
 
 .w-advertisement .content a b {

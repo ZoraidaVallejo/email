@@ -3,14 +3,14 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-    background: #ffedcf;
+    // background: #ffedcf;
 
     td {
         text-align: center;
     }
 
     .justia-logo {
-        padding: 52px $padding 15px;
+        padding: 50px $padding 37px;
         text-align: center;
 
         img {
@@ -39,7 +39,7 @@
 
     .content {
         padding: 0 50px 25px;
-        background-color: #503d36;
+        // background-color: #503d36;
         color: plt('white');
 
         .content-side {
@@ -59,8 +59,8 @@
         }
 
         &.-first {
-            padding: 50px 50px 30px;
-            text-align: left;
+            padding: 20px 75px 35px;
+            text-align: center;
         }
 
         &.-button {
@@ -68,7 +68,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 32px;
         }
 
         a b{
