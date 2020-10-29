@@ -1,5 +1,5 @@
 {
-  "clients":{
+  "clients": {
     "widget": {
       "iconSrc": "",
       "header": "Featured News"
@@ -9,7 +9,7 @@
     "columns": [
       {
         "image": {
-          "src": "featured-news-01.png",
+          "src": "featured-news-01.jpg",
           "alt": "Voter Resource Center",
           "link": "https://www.justia.com/voter-resource-center/?utm_medium=email&utm_campaign=2020-11&utm_source=client-newsletter&utm_content=image-onward-post-1"
         },
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "jld":{
+  "jld": {
     "widget": {
       "iconSrc": "",
       "header": "Featured News"
@@ -68,4 +68,3 @@
     ]
   }
 }
-  
