@@ -10,10 +10,10 @@
     {
       "type": "image-description",
       "config": {
-        "responsive": "mobile-fz-16",
+        "responsive": "mobile-fz-16 mobile-padding-horizontal-sides",
         "image": "reminders-graphic-01.png",
         "description": [
-          "<b class=\"side-title\" responsive=\"collapse-one mobile-padding-horizontal-sides mobile-padding-top mobile-padding-bottom\">Reminders</b>",
+          "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
           "<b>Requesting Time Off for the Holiday Season [December and January]</b><br>It is already November, so that means the holiday season is already at our doorstep. As you"
         ]
       }

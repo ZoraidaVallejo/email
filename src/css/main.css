@@ -1067,66 +1067,6 @@ a {
   padding: 50px 0;
 }
 
-.w-advertisement.-jld-ad-reminders .ui-background {
-  background-position: top left !important;
-  padding: 75px 25px 0;
-}
-
-.w-advertisement.-jld-ad-reminders .content {
-  padding: 0 25px;
-  background-color: #f6fdfc;
-}
-
-.w-advertisement.-jld-ad-reminders .content p {
-  color: #000000;
-}
-
-.w-advertisement.-jld-ad-reminders .content p .side-title {
-  font: 700 28px/1.2 Roboto, Arial, sans-serif;
-  display: none;
-  background-color: #06357a;
-  color: #ffffff;
-}
-
-.w-advertisement.-jld-ad-reminders .content.-last {
-  padding: 0 25px 40px;
-  border-radius: 0 0 10px 10px;
-}
-
-.w-advertisement.-jld-ad-reminders .content .-description {
-  padding: 23px 0 0;
-}
-
-.w-advertisement.-jld-ad-reminders .content .-description p:first-child {
-  padding: 0;
-  margin: 0;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side {
-  width: 225px;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side.-image {
-  width: 215px;
-  margin-top: -40px;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side img {
-  width: 215px;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side:first-child {
-  float: right;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side:last-child {
-  float: left;
-}
-
-.w-advertisement.-jld-ad-reminders .content-side p:first-child {
-  margin: 0 0 12px;
-}
-
 .w-advertisement.-jld-ad-quote .ui-background {
   background-position: center !important;
   padding: 28px 0;
@@ -1179,6 +1119,128 @@ a {
 
 .w-advertisement.-jld-ad-quote .content-side:last-child {
   float: left;
+}
+
+.-reminders td {
+  text-align: center;
+}
+
+.-reminders .title {
+  padding: 50px 25px 35px;
+  margin: 0 0 25px;
+  background: url("../images/title-decoration-01.png") no-repeat;
+  background-position: center bottom;
+  color: #06357a;
+  font: 700 34px/1.2 Roboto, Arial, sans-serif;
+}
+
+.-reminders .title a {
+  color: #06357a;
+}
+
+.-reminders .image {
+  padding: 0 25px 50px;
+}
+
+.-reminders .image img {
+  width: 500px;
+}
+
+.-reminders .content {
+  padding: 0 25px;
+  text-align: left;
+}
+
+.-reminders .content .content-side {
+  width: 225px;
+}
+
+.-reminders .content .content-side img {
+  width: 225px;
+}
+
+.-reminders .content .content-side:first-child {
+  float: right;
+}
+
+.-reminders .content .content-side:last-child {
+  float: left;
+}
+
+.-reminders .content.-first {
+  padding: 0 25px;
+}
+
+.-reminders .content.-button {
+  padding: 0 25px 18px;
+}
+
+.-reminders .content.-last {
+  padding: 0 25px 45px;
+}
+
+.-reminders .-image-column .content-side {
+  width: 225px;
+}
+
+.-reminders .-image-column .content-side img {
+  width: 225px;
+  margin: 0 auto;
+}
+
+.-reminders .ui-background {
+  background-position: top left !important;
+  padding: 75px 25px 0;
+}
+
+.-reminders .content {
+  background-color: #f6fdfc;
+}
+
+.-reminders .content p {
+  color: #000000;
+}
+
+.-reminders .content p .side-title {
+  font: 700 28px/1.2 Roboto, Arial, sans-serif;
+  display: none;
+  color: #ffffff;
+}
+
+.-reminders .content.-last {
+  padding: 0 25px 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+.-reminders .content .-description p:first-child {
+  padding: 0;
+  margin: 0;
+}
+
+.-reminders .content-side {
+  width: 225px;
+}
+
+.-reminders .content-side.-image {
+  width: 215px;
+  margin-top: -40px;
+}
+
+.-reminders .content-side.-description p:first-child {
+  background-color: #06357a;
+  border-radius: 10px 10px 0 0;
+}
+
+.-reminders .content-side.-description p:nth-child(2) {
+  padding: 23px 0 0;
+}
+
+.-reminders .content-side img {
+  width: 215px;
+}
+
+.-reminders .content-side p:first-child {
+  margin: 0 0 12px;
 }
 
 .w-answers-leaderboard .ranking-list {
@@ -1439,7 +1501,7 @@ a {
 }
 
 .w-milestones .-image-description.-last {
-  padding: 0 50px 50px;
+  padding: 0 50px 100px;
 }
 
 .w-birthday td {
@@ -1454,6 +1516,10 @@ a {
 .w-birthday .justia-logo img {
   width: 320px;
   margin: 0 auto;
+}
+
+.w-birthday .widget-header {
+  padding: 100px 47px 25px;
 }
 
 .w-birthday .title {
@@ -2370,7 +2436,7 @@ a {
 }
 
 .w-new-people-2 .-image-description.-first {
-  padding: 0 25px 45px;
+  padding: 0 25px;
 }
 
 .w-new-people-2 .-image-description.-button {
@@ -2431,20 +2497,24 @@ body {
 }
 
 .w-milestones {
-  background: url("../images/odd-block-01.png") no-repeat #ffffff;
+  background: url("../images/odd-block-02.png") no-repeat #ffffff;
   background-position: center;
 }
 
-.w-advertisement.-jld-ad-04,
-.w-take-pause,
-.w-wellness {
+.w-advertisement.-jld-ad-04 {
   background: url("../images/odd-block-02.png") no-repeat #ffffff;
   background-position: bottom;
 }
 
-.w-blog-justia {
+.w-blog-justia,
+.w-new-people-2 {
   background: url("../images/odd-block-03.png") no-repeat #ffffff;
-  background-position: top;
+  background-position: center;
+}
+
+.w-wellness {
+  background: url("../images/odd-block-03.png") no-repeat #ffffff;
+  background-position: bottom;
 }
 
 @media screen {

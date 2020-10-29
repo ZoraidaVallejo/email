@@ -14,11 +14,11 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{!-- {{>welcome widgetConfig=welcome}}
+        {{>welcome widgetConfig=welcome}}
         
-        {{>milestones widgetConfig=milestones}} --}}
+        {{>milestones widgetConfig=milestones}}
 
-        {{>reminders widgetClass="-jld-ad-reminders" widgetConfig=reminders}}
+        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
         
         {{>birthday widgetConfig=birthday}}
 
@@ -32,11 +32,11 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
+        {{>blast-past widgetConfig=blastPast}}
+
         {{>team-activity widgetConfig=teamActivity}}
 
-        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}}
-
-        {{>blast-past widgetConfig=blastPast}}
+        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 
         {{>team-activity-2 widgetConfig=teamActivity2}}
 

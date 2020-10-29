@@ -2,20 +2,10 @@
 // A D V E R T I S E M E N T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.w-advertisement {
+.-reminders {
 
     td {
         text-align: center;
-    }
-
-    .justia-logo {
-        padding: 40px $padding 30px;
-        text-align: center;
-
-        img {
-            width: 320px;
-            margin: 0 auto;
-        }
     }
 
     .title {
@@ -41,7 +31,7 @@
     }
 
     .content {
-        padding: 0 $padding-content 25px;
+        padding: 0 $padding;
         text-align: left;
 
         .content-side {
@@ -52,16 +42,16 @@
             }
 
             &:first-child {
-                float: left;
+                float: right;
             }
 
             &:last-child {
-                float: right;
+                float: left;
             }
         }
 
         &.-first {
-            padding: 0 $padding-content 35px;
+            padding: 0 $padding;
         }
 
         &.-button {
@@ -85,94 +75,63 @@
         }
     }
 
-    &.-jld-ad-01,
-    &.-jld-ad-02 {
-        .image {
-            padding: $widget-gap 0;
+    .ui-background {
+        background-position: top left !important;
+        padding: 75px $padding 0;
+    }
+
+    .content {
+        background-color: #f6fdfc;
+
+        p {
+            color: plt('black');
+
+            .side-title {
+                @include mail-font(28px, 1.2, 700);
+                display: none;
+                color: plt('white');
+            }
+        }
+
+        &.-last {
+            padding: 0 $padding 40px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .-description {
+
+            p:first-child {
+                padding: 0;
+                margin: 0;
+            }
         }
     }
 
-    &.-jld-ad-reminders {
+    .content-side {
+        width: 225px;
 
-        .ui-background {
-            background-position: top left !important;
-            padding: 75px $padding 0;
+        &.-image {
+            width: 215px;
+            margin-top: -40px;
         }
 
-        .content {
-            padding: 0 $padding;
-            // background-position: top !important;
-            // padding: 0 25px;
-            background-color: #f6fdfc;
-            // background-repeat: no-repeat;
-            // background-size: 550px 75px;
-            // border: $padding solid plt('white');
-            // border-width: 0 25px;
-
-            p {
-                color: plt('black');
-                // padding: 0 0 0 20px;
-                // background: image-url('list-icon-01.png') no-repeat top left;
-                // background-position: 0px 6px;
-
-                .side-title {
-                    @include mail-font(28px, 1.2, 700);
-                    display: none;
-                    color: plt('white');
-                }
-            }
-
-            // &.-first {
-            //     padding: 0 $padding 35px;
-            // }
-
-            // &.-button {
-            //     padding: 0 $padding 18px;
-            // }
-
-            &.-last {
-                padding: 0 $padding 40px;
-                border-radius: 0 0 10px 10px;
-            }
-
-            .-description {
-                padding: 23px 0 0;
-
-                p:first-child {
-                    padding: 0;
-                    margin: 0;
-                    // background: none;
-                }
-            }
-        }
-
-        .content-side {
-            width: 225px;
-
-            &.-image {
-                width: 215px;
-                margin-top: -40px;
-            }
-
-            &.-description p:first-child {
-                background-color: plt('justia-blue');
-            }
-
-            img {
-                width: 215px;
-            }
-
-            &:first-child {
-                float: right;
-            }
-
-            &:last-child {
-                float: left;
-            }
-
+        &.-description {
             p:first-child {
-                margin: 0 0 12px;
+                background-color: plt('justia-blue');
+                border-radius: 10px 10px 0 0;
             }
+
+            p:nth-child(2) {
+                padding: 23px 0 0;
+            }
+        }
+
+        img {
+            width: 215px;
+        }
+
+        p:first-child {
+            margin: 0 0 12px;
         }
     }
 }
