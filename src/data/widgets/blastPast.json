@@ -9,6 +9,59 @@
       "config": [
         "Instead of our traditional Halloween Costume Contest/Raffle, Justia had its very first Ghoulie Awards! Thank you, everyone, for submitting your costume for consideration this year; it looks like Halloween and creativity seem to go hand in hand! We have been dazzled with the originality that comes out in folks during these events. Without further ado, here are our winners for each category!"
       ]
+    },
+    {
+      "type": "image",
+      "config": "past-graphic-01.png"
+    },
+    {
+      "type": "lists-description",
+      "config": {
+        "left": [
+          {
+            "category": "Scariest",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "Funniest",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "Cartoon Character",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "Best Team/Group",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          }
+        ],
+        "right": [
+          {
+            "category": "Best Background",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "What the heck are you supposed to be",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "Most Effort",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          },
+          {
+            "category": "Best Overall",
+            "first": "John Doe - Mummy",
+            "second": "Jane Doe - Ghost"
+          }
+        ]
+      }
     }
   ]
 }

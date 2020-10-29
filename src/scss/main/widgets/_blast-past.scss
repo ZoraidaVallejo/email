@@ -33,7 +33,7 @@
     }
 
     .image {
-        padding: 0 $padding 38px;
+        padding: 0 $padding 20px;
 
         img {
             width: $inner-max-width;
@@ -58,6 +58,15 @@
             &:last-child {
                 float: right;
             }
+
+            > div {
+                margin-bottom: 28px;
+
+                strong,
+                span {
+                    display: block;
+                }
+            }
         }
 
         &.-first {
@@ -73,7 +82,7 @@
         }
 
         &.-description {
-            padding: 0 $padding-content 25px;
+            padding: 0 $padding 25px;
         }
     }
 
@@ -86,13 +95,6 @@
                 width: 225px;
                 margin: 0 auto;
             }
-        }
-    }
-
-    &.-jld-ad-01,
-    &.-jld-ad-02 {
-        .image {
-            padding: $widget-gap 0;
         }
     }
 }

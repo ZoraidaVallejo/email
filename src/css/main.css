@@ -1068,40 +1068,42 @@ a {
 }
 
 .w-advertisement.-jld-ad-reminders .ui-background {
-  background-position: center !important;
-  padding: 28px 0;
+  background-position: top left !important;
+  padding: 75px 25px 0;
 }
 
 .w-advertisement.-jld-ad-reminders .content {
-  padding: 0 25px 12px 50px;
+  padding: 0 25px;
+  background-color: #f6fdfc;
 }
 
 .w-advertisement.-jld-ad-reminders .content p {
-  color: #ffffff;
-  padding: 0 0 0 20px;
-  background: url("../images/list-icon-01.png") no-repeat top left;
-  background-position: 0px 6px;
+  color: #000000;
 }
 
 .w-advertisement.-jld-ad-reminders .content p .side-title {
   font: 700 28px/1.2 Roboto, Arial, sans-serif;
+  display: none;
+  background-color: #06357a;
+  color: #ffffff;
 }
 
 .w-advertisement.-jld-ad-reminders .content.-last {
-  padding: 0 25px 0 50px;
+  padding: 0 25px 40px;
+  border-radius: 0 0 10px 10px;
 }
 
 .w-advertisement.-jld-ad-reminders .content .-description {
-  padding: 10px 0 0;
+  padding: 23px 0 0;
 }
 
 .w-advertisement.-jld-ad-reminders .content .-description p:first-child {
   padding: 0;
-  background: none;
+  margin: 0;
 }
 
 .w-advertisement.-jld-ad-reminders .content-side {
-  width: 260px;
+  width: 225px;
 }
 
 .w-advertisement.-jld-ad-reminders .content-side.-image {
@@ -1980,7 +1982,7 @@ a {
 }
 
 .w-blast-past .image {
-  padding: 0 25px 38px;
+  padding: 0 25px 20px;
 }
 
 .w-blast-past .image img {
@@ -2008,6 +2010,15 @@ a {
   float: right;
 }
 
+.w-blast-past .content .content-side > div {
+  margin-bottom: 28px;
+}
+
+.w-blast-past .content .content-side > div strong,
+.w-blast-past .content .content-side > div span {
+  display: block;
+}
+
 .w-blast-past .content.-first {
   padding: 0 25px 35px;
 }
@@ -2021,7 +2032,7 @@ a {
 }
 
 .w-blast-past .content.-description {
-  padding: 0 50px 25px;
+  padding: 0 25px 25px;
 }
 
 .w-blast-past .-image-column .content-side {
@@ -2031,10 +2042,6 @@ a {
 .w-blast-past .-image-column .content-side img {
   width: 225px;
   margin: 0 auto;
-}
-
-.w-blast-past.-jld-ad-01 .image, .w-blast-past.-jld-ad-02 .image {
-  padding: 50px 0;
 }
 
 .w-take-pause {

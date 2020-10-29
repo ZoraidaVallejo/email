@@ -16,15 +16,15 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{!-- {{>welcome widgetConfig=welcome}}
         
-        {{>milestones widgetConfig=milestones}}
+        {{>milestones widgetConfig=milestones}} --}}
 
-        {{>widget-ad widgetClass="-jld-ad-reminders" widgetConfig=advertisements.reminders}}
+        {{>reminders widgetClass="-jld-ad-reminders" widgetConfig=reminders}}
         
         {{>birthday widgetConfig=birthday}}
 
         {{>our-blog}}
         
-        {{>holidays widgetConfig=holidays}} --}}
+        {{>holidays widgetConfig=holidays}}
 
         {{!-- {{>new-people}} --}}
 
@@ -34,7 +34,7 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>team-activity widgetConfig=teamActivity}}
 
-        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
+        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}}
 
         {{>blast-past widgetConfig=blastPast}}
 

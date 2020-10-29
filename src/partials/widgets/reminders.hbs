@@ -29,11 +29,12 @@
  * @param {string}          widgetClass
 }}
 
-{{assign "adClasses" (classList "widget" "w-blast-past" widgetClass "set-max-width")}}
+{{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "adClasses" (classList "widget" "w-advertisement" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-blast-past" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-advertisement dark-mode" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -43,34 +44,46 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
-        responsive=widgetConfig.background.responsive
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
+
+  {{#if widgetConfig.logo}}
+    <tr>
+      {{!
+      // TODO: Add modifier classes base on which logo is seleceted.
+      }}
+      <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=(get (concat (camelcase widgetConfig.logo.name) ".path." widgetConfig.logo.color) logos)
+            alt=(get (concat (camelcase widgetConfig.logo.name) ".alt") logos)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
 
   {{#if widgetConfig.title}}
     {{>widget-header
       header=widgetConfig.title
       type=widgetConfig.type
     }}
+    {{!-- <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.title}}}
+        </a>
+      </td>
+    </tr> --}}
   {{/if}}
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
-      {{#compare this.type "===" "image"}}
-        <tr>
-          <td class="image" responsive="mobile-padding-horizontal-sides">
-            {{>img
-              src=config
-              alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-            }}
-          </td>
-        </tr>
-      {{/compare}}
-
       {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides mobile-padding-30-top">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
                 <div class="content-side -image" responsive="mobile-hide">
@@ -84,9 +97,9 @@
               {{/compare}}
 
               {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-padding-horizontal-sides">
                   {{#each ../config.description}}
-                    <p responsive="mobile-fz-16">{{{this}}}</p>
+                    <p {{#if ../../config.responsive}}responsive="{{../../config.responsive}}"{{/if}}>{{{this}}}</p>
                   {{/each}}
                 </div>
               {{/compare}}
@@ -125,38 +138,6 @@
         </tr>
       {{/compare}}
 
-      {{#compare this.type "===" "lists-description"}}
-        <tr>
-          <td class="content -lists-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
-            {{#forIn this.config}}
-              {{#compare @key "===" "left"}}
-                <div class="content-side -left" responsive="collapse-one mobile-no-padding">
-                  {{#each ../config.left}}
-                    <div responsive="mobile-padding-30-bottom">
-                      <strong>{{{this.category}}}:</strong>
-                      <span>1st Place {{{this.first}}}</span>
-                      <span>2nd Place {{{this.second}}}</span>
-                    </div>
-                  {{/each}}
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "right"}}
-                <div class="content-side -right" responsive="collapse-one mobile-no-padding">
-                  {{#each ../config.right}}
-                    <div responsive="mobile-padding-30-bottom">
-                      <strong>{{{this.category}}}:</strong>
-                      <span>1st Place {{{this.first}}}</span>
-                      <span>2nd Place {{{this.second}}}</span>
-                    </div>
-                  {{/each}}
-                </div>
-              {{/compare}}
-            {{/forIn}}
-          </td>
-        </tr>
-      {{/compare}}
-
       {{#compare this.type "===" "button"}}
         <tr>
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
@@ -181,9 +162,22 @@
     {{/forEach}}
   {{/if}}
 
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>
-      {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
-    </tr>
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
   {{/and}}
 {{/table}}
