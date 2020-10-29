@@ -18,7 +18,9 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>covid-updates widgetUtmVars=covidUpdates.utm.jld}} --}}
 
-        {{>featured-news-multiple widgetConfig=featuredNewsMultiple.jld}}
+        {{>voter-resource widgetConfig=voterResource.jld}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true}}
 
@@ -27,6 +29,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>tech-news}}
 
         {{>seo-news}} 
+
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
         {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
 
@@ -49,8 +53,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>internet-stats}}
 
         {{>jurispro}}
-
-        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
         {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.jld.ad2}}
 

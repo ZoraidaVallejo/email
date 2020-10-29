@@ -18,15 +18,19 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{!-- {{>covid-updates widgetUtmVars=covidUpdates.utm.clients}} --}}
 
-        {{>featured-news-multiple widgetConfig=featuredNewsMultiple.clients}}
+        {{>voter-resource widgetConfig=voterResource.clients}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
         {{>tip-month widgetConfig=tipMonth.clients}}
 
         {{>tech-news}}
 
-        {{>featured-site-month singleSite=true}}
+        {{>featured-site-month singleSite=true addDescription=true hasButton=true}}
 
         {{>seo-news}}
+
+        {{>widget-ad widgetClass="-clients-ad-01" widgetConfig=advertisements.clients.ad1}}
 
         {{>internet-stats}}
 
@@ -41,8 +45,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
         {{>inside-justia}}
 
         {{>legal-industry-news}}
-
-        {{>widget-ad widgetClass="-clients-ad-01" widgetConfig=advertisements.clients.ad1}}
 
         {{>widget-ad widgetClass="-clients-ad-02" widgetConfig=advertisements.clients.ad2}}
 

@@ -9,10 +9,10 @@
 {{else}}
   {{assign "widgetWithButton" false}}
 {{/and}}
-{{#table class="widget w-featured-news set-max-width"}}
+{{#table class="widget w-voter-resource set-max-width"}}
   {{>widget-header
     header=widgetConfig.widget.header
-    icon=featuredNews.widget.icon
+    iconSrc=widgetConfig.widget.iconSrc
   }}
   {{#if widgetConfig.singleColumn}}
     {{#each widgetConfig.columns}}
@@ -51,6 +51,6 @@
       {{/if}}
     {{/each}}
   {{else}}
-    {{>widget-columns-with-image widgetConfig=featuredNewsMultiple.columns isLast=true}}
+    {{>widget-columns-with-image widgetConfig=voterResource.columns isLast=true}}
   {{/if}}
 {{/table}}
