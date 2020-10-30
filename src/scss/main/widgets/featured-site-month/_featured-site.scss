@@ -21,6 +21,11 @@
 
             .location {
                 margin: 0;
+
+                a,
+                b {
+                    color: plt('black');
+                }
             }
         }
 

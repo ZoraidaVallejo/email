@@ -6,6 +6,7 @@
       "plural": "Featured Sites of the Month"
     }
   },
+  "justiaLink": "https://www.justia.com/marketing/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=<%= dateFormat.dash %>&utm_content=section-featured-site-of-the-month-link-v1",
   "sites": [
     {
       "clientName": "Thurman, Wilson, Boutwell & Galvin P.A.",

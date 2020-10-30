@@ -138,7 +138,7 @@
 
       {{#compare this.type "===" "button"}}
         <tr>
-          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
             {{#uiButton
               href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
               presetStyle=this.config.style
