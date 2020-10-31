@@ -3,7 +3,7 @@
     "icon": "inside-justia",
     "header": "Inside Justia"
   },
-  "singleColumn": false,
+  "singleColumn": true,
   "columns": [
     {
       "image": {
@@ -18,13 +18,13 @@
     },
     {
       "image": {
-        "src": "inside-justia-01.jpg",
+        "src": "inside-justia-02.jpg",
         "alt": "Happy Pug-O-Ween!"
       },
       "blockTitle": "A Pug’s Tale",
       "blockSubtitle": "<b>Happy Pug-O-Ween!</b>",
       "description": [
-        "Halloween's not just for humans! Little Sheba the Hug Pug dressed up as well. Here she is in her bat costume, hoping for lots of treats."
+        "Halloween's not just for humans! Little Sheba the Hug Pug dressed up as well. Here she is in her butterfly costume, looking angelic :)"
       ]
     }
   ]
