@@ -38,6 +38,11 @@
         p {
             color: plt('black');
 
+            b {
+                display: block;
+                padding: 0 0 11px;
+            }
+
             .side-title {
                 @include mail-font(28px, 1.2, 700);
                 display: block;
@@ -58,7 +63,8 @@
             width: 225px;
 
             img {
-                width: 225px;
+                width: 200px;
+                margin: 0 auto;
             }
 
             &:first-child {
