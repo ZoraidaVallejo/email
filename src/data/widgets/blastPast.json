@@ -19,46 +19,50 @@
       "config": {
         "left": [
           {
+            "category": "Pets",
+            "first": "Boo - Lizeth Rios",
+            "second": "Kiwi - Alejandra Medina"
+          },
+          {
+            "category": "Children",
+            "first": "Mia Cole - Amanda Newman",
+            "second": "Nicole - Lauren Moskie"
+          },
+          {
             "category": "Scariest",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
-          },
-          {
-            "category": "Funniest",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
-          },
-          {
-            "category": "Cartoon Character",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "first": "Geovvany Suarez",
+            "second": "Claudia Duque"
           },
           {
             "category": "Best Team/Group",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "first": "Andrea Cervantes, Carolina Leija, Esteban Hinojosa, Miguel Saldivar"
           }
         ],
         "right": [
           {
-            "category": "Best Background",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "category": "Funniest",
+            "first": "Miguel Berlanga",
+            "second": "Edgar de Leon"
+          },
+          {
+            "category": "Cartoon Character",
+            "first": "Eduardo Garcia",
+            "second": "Donovan Coronado"
           },
           {
             "category": "What the Heck Are You Supposed to Be",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "first": "John Pruitt",
+            "second": "Linh Tran"
           },
           {
             "category": "Most Effort",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "first": "Eduardo Garcia",
+            "second": "Donovan Coronado"
           },
           {
             "category": "Best Overall",
-            "first": "John Doe - Mummy",
-            "second": "Jane Doe - Ghost"
+            "first": "Eduardo Garcia",
+            "second": "Miguel Berlanga"
           }
         ]
       }

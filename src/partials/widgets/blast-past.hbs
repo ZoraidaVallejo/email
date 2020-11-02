@@ -134,8 +134,8 @@
                   {{#each ../config.left}}
                     <div responsive="mobile-padding-bottom">
                       <strong>{{{this.category}}}:</strong>
-                      <span>1st Place {{{this.first}}}</span>
-                      <span>2nd Place {{{this.second}}}</span>
+                      {{#if this.first}}<span>1st Place: {{{this.first}}}</span>{{/if}}
+                      {{#if this.second}}<span>2nd Place: {{{this.second}}}</span>{{/if}}
                     </div>
                   {{/each}}
                 </div>
@@ -146,8 +146,8 @@
                   {{#each ../config.right}}
                     <div responsive="mobile-padding-bottom">
                       <strong>{{{this.category}}}:</strong>
-                      <span>1st Place {{{this.first}}}</span>
-                      <span>2nd Place {{{this.second}}}</span>
+                      {{#if this.first}}<span>1st Place: {{{this.first}}}</span>{{/if}}
+                      {{#if this.second}}<span>2nd Place: {{{this.second}}}</span>{{/if}}
                     </div>
                   {{/each}}
                 </div>
