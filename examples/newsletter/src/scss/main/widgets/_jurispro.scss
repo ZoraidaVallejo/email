@@ -29,6 +29,10 @@
             p {
                 @include mail-font(18px);
             }
+            
+            a {
+                color: plt('black');
+            }
         }
 
         .thumb {
