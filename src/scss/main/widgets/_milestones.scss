@@ -1,0 +1,109 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-milestones {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 0 5px;
+        @include mail-font(16px, 1.15, 700);
+        // color: plt('justia-blue');
+
+        a {
+            @include mail-font(16px, 1.15, 700);
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0 $padding;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+
+        a {
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            width: 350px;
+
+            img,
+            &.-image {
+                width: 80px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        .-list {
+            color: #340081;
+            text-align: left;
+
+            ul {
+                margin: 0;
+            }
+        }
+
+        &.-first {
+            padding: 35px $padding 20px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
+
+    .-description {
+        text-align: left;
+    }
+
+    .-image-description {
+        padding: 0 50px 45px;
+
+        &.-first {
+            padding: 0 50px 45px;
+        }
+
+        &.-button {
+            padding: 0 50px 18px;
+        }
+
+        &.-last {
+            padding: 0 50px $widget-gap;
+        }
+    }
+}
