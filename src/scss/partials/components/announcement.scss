@@ -1,0 +1,31 @@
+// ----------------------------------------------------------------------------------------------------------
+// Announcement
+// ----------------------------------------------------------------------------------------------------------
+
+.w-announcement {
+    max-width: 600px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #e5eaf0;
+
+    img {
+        max-width: 50px;
+        // float: left;
+    }
+
+    p {
+        // float: right;
+        // width: calc(100% - 80px);
+        padding-left: 30px;
+    }
+
+    strong {
+        color: #fc6c22;
+    }
+
+    .announcement-content {
+        display: block;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+}

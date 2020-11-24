@@ -1,0 +1,52 @@
+---
+subject: Your Justia Lawyer Directory Monthly Snapshot
+---
+
+{{>preheader text="Take a look at your report."}}
+
+{{#table}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header}}
+      {{>announcement}}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{#table class="top-container-wrapper set-max-width"}}
+          <tr>
+            {{>ui-background
+              backgroundBehavior="cell"
+              backgroundStart=true
+              bgImage="fade-background-01.png"
+              bgColor="#f2f2f2"
+              bgWidth="600"
+              bgCellClasses="blocks-wrapper"
+              bgCellResponsiveClasses="mobile-padding-horizontal-sides"
+            }}
+              {{>welcome}}
+              {{>widget-gap}}
+              {{>profile-info}}
+              {{>widget-gap}}
+              {{>profile-stats}}
+              {{>widget-gap}}
+              {{>rating}}
+              {{>widget-gap}}
+              {{>contact-info}}
+              {{>widget-gap}}
+              {{>ad}}
+            {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+          </tr>
+        {{/table}}
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer}}
+    </td>
+  </tr>
+{{/table}}

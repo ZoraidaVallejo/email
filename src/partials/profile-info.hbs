@@ -1,0 +1,93 @@
+<!-- YOUR PROFILE INFORMATION -->
+
+{{#table class="widget w-profile-info"}}
+  <tr>
+    <td class="widget-title" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      Your Profile Information
+    </td>
+  </tr>
+  <tr>
+    <td class="widget-desc" responsive="mobile-padding-horizontal-sides">
+      <p>Your profile is very important, take a look at what you achieved this month, what you can improve and etc.</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="profile-chart" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="chart-text" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-bottom">
+            {{#table}}
+              <tr>
+                <td class="title">
+                  <p>
+                    <strong>You’re Almost There.</strong>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="desc">
+                  <p>It seems like you’re currently missing some information, a complete profile recieves X times more views.</p>
+                </td>
+              </tr>
+            {{/table}}
+          </td>
+          <td class="chart-img" responsive="collapse-one mobile-padding-top">
+            {{>img src="profile-progress.png" alt="75%"}}
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="iconed-list-desc" responsive="mobile-padding-horizontal-sides">
+      <p><strong>Here are some tips on how to complete your profile.</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td class="iconed-list" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="list-item -icon">
+            {{>img src="profile-icon-01.png" alt="icon 1"}}
+          </td>
+          <td class="list-item -desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="list-item -icon">
+            {{>img src="profile-icon-02.png" alt="icon 2"}}
+          </td>
+          <td class="list-item -desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="list-item -icon -last">
+            {{>img src="profile-icon-03.png" alt="icon 3"}}
+          </td>
+          <td class="list-item -desc -last">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="widget-button align-center" responsive="mobile-padding-horizontal-sides">
+      {{#uiButton
+        href="https://www.justia.com/"
+        presetStyle="light-blue"
+        width="270"
+        height="50"
+        lineHeight="1.4"
+        backgroundColor="#00b3e3"
+        fontColor="#ffffff"
+        fontWeight="700"
+        class="custom-button"
+      }}
+        Complete Your Profile
+      {{/uiButton}}
+    </td>
+  </tr>
+{{/table}}

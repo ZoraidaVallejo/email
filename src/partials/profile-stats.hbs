@@ -1,0 +1,75 @@
+<!-- YOUR PROFILE STATS -->
+
+{{#table class="widget w-profile-stats"}}
+  <tr>
+    <td class="widget-title" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      Your Profile Stats
+    </td>
+  </tr>
+  <tr>
+    <td class="widget-desc" responsive="mobile-padding-horizontal-sides">
+      {{#if premium}}
+        <p>Ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+      {{else}}
+        <p>As a premium member, you can get exclusive access to your profile stats. Use this information to gain key insights into how to get your profile even more viewers. This information can help you decide how to invest your resources to maximize your online marketing efforts.</p>
+      {{/if}}
+    </td>
+  </tr>
+  <tr>
+    <td class="profile-graph" responsive="mobile-padding-horizontal-sides">
+      {{#if premium}}
+        {{#table class="premium-stats"}}
+          <tr>
+            <td class="img-col" responsive="mobile-hide">
+              {{>img src="premium-stats-01.png" alt="Premium Placement Stats" class="stats-img"}}
+            </td>
+            <td class="numbers-col" responsive="collapse-one mobile-no-padding-top">
+              <p class="number"><strong>65,496</strong></p>
+              <p class="text">Profile views in the last 30 days</p>
+            </td>
+          </tr>
+        {{/table}}
+      {{else}}
+        {{>img src="no-stats-01.png" alt="Premium Placement Stats" class="no-stats-img"}}
+      {{/if}}
+    </td>
+  </tr>
+  {{#if premium}}
+    <tr>
+      <td class="iconed-list-desc" responsive="mobile-padding-horizontal-sides">
+        <p><strong>Want more views to your profile?</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="iconed-list" responsive="mobile-padding-horizontal-sides">
+        {{#table}}
+          <tr>
+            <td class="list-item -icon -last">
+              {{>img src="profile-icon-05.png" alt="icon 4"}}
+            </td>
+            <td class="list-item -desc -last">
+              <p>Participate in <strong><a href="#" target="_blank">Ask a Lawyer</a></strong> to gain exposure.</p>
+            </td>
+          </tr>
+        {{/table}}
+      </td>
+    </tr>
+  {{/if}}
+  <tr>
+    <td class="widget-button align-center" responsive="mobile-padding-horizontal-sides">
+      {{#uiButton
+        href="https://www.justia.com/"
+        presetStyle="light-blue"
+        width="270"
+        height="50"
+        lineHeight="1.4"
+        backgroundColor="#00b3e3"
+        fontColor="#ffffff"
+        fontWeight="700"
+        class="custom-button"
+      }}
+        {{#if premium}}View Your Stats{{else}}Become a Premium Member{{/if}}
+      {{/uiButton}}
+    </td>
+  </tr>
+{{/table}}
