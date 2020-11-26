@@ -1069,7 +1069,7 @@ a {
 
 .w-advertisement.-jld-ad-reminders .ui-background {
   background-position: center !important;
-  padding: 28px 0;
+  padding: 24px 0 28px;
 }
 
 .w-advertisement.-jld-ad-reminders .content {
@@ -1106,7 +1106,6 @@ a {
 
 .w-advertisement.-jld-ad-reminders .content-side.-image {
   width: 215px;
-  margin-top: -40px;
 }
 
 .w-advertisement.-jld-ad-reminders .content-side img {
@@ -1135,7 +1134,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content p {
-  font: 700 26px/1.3 Roboto, Arial, sans-serif;
+  font: 700 32px/1.3 Roboto, Arial, sans-serif;
   color: #ffffff;
   margin: 0 0 8px;
 }
@@ -1578,7 +1577,7 @@ a {
 }
 
 .w-holidays .widget-banner {
-  padding: 0 50px 35px;
+  padding: 0 25px 35px;
 }
 
 .w-holidays .widget-description {
@@ -1742,6 +1741,95 @@ a {
 }
 
 .w-reviews .content.-last {
+  padding: 0 25px 50px;
+}
+
+.w-honor-roll td {
+  text-align: left;
+}
+
+.w-honor-roll .justia-logo {
+  padding: 40px 25px 30px;
+  text-align: center;
+}
+
+.w-honor-roll .justia-logo img {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.w-honor-roll .title {
+  padding: 0 25px 35px;
+}
+
+.w-honor-roll .title a {
+  font: 30px/1.15 Roboto, Arial, sans-serif;
+  color: #06357a;
+}
+
+.w-honor-roll .image {
+  padding: 0 25px;
+}
+
+.w-honor-roll .image img {
+  width: 500px;
+}
+
+.w-honor-roll .content {
+  padding: 0 25px 25px;
+}
+
+.w-honor-roll .content p {
+  margin-bottom: 0;
+}
+
+.w-honor-roll .content p a {
+  color: #06357a;
+}
+
+.w-honor-roll .content p a * {
+  color: #06357a;
+}
+
+.w-honor-roll .content .content-side {
+  width: 250px;
+}
+
+.w-honor-roll .content .content-side img {
+  width: 225px;
+  margin-top: 5px;
+}
+
+.w-honor-roll .content .content-side:first-child {
+  float: right;
+}
+
+.w-honor-roll .content .content-side:last-child {
+  float: left;
+}
+
+.w-honor-roll .content .-image {
+  width: 225px;
+}
+
+.w-honor-roll .content .-image p {
+  margin-top: 30px;
+}
+
+.w-honor-roll .content .-list {
+  color: #340081;
+  text-align: left;
+}
+
+.w-honor-roll .content.-first {
+  padding: 0 25px 20px;
+}
+
+.w-honor-roll .content.-button {
+  padding: 0 25px 18px;
+}
+
+.w-honor-roll .content.-last {
   padding: 0 25px 50px;
 }
 

@@ -96,7 +96,7 @@
 
         .ui-background {
             background-position: center !important;
-            padding: 28px 0;
+            padding: 24px 0 28px;
         }
 
         .content {
@@ -140,7 +140,7 @@
 
             &.-image {
                 width: 215px;
-                margin-top: -40px;
+                // margin-top: -40px;
             }
 
             img {
@@ -172,7 +172,7 @@
             padding: 0 $padding 12px 50px;
 
             p {
-                @include mail-font(26px, 1.3, 700);
+                @include mail-font(32px, 1.3, 700);
                 color: plt('white');
                 margin: 0 0 8px;
             }

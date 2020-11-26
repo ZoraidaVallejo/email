@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "type": "JUSTIA HONOR ROLL",
+    "header": "Esteban Hinojosa"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "honor-graphic-01.png",
+        "description": [
+          "We are happy to announce that Esteban Hinojosa finished the SysAdmin certification from The Linux Foundation. The Linux Foundation Certified System Administrator (LFCS) exam is ideal for candidates looking to validate their Linux system administration skillset. Congratulations Esteban, keep it up!"
+        ]
+      }
+    }
+  ]
+}

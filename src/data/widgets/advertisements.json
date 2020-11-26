@@ -4,7 +4,7 @@
       "image": "reminders-bg-01.png",
       "width": 400,
       "bgColor": "#ffffff",
-      "cssSize": "550px 275px",
+      "cssSize": "550px 375px",
       "responsive": "mobile-no-padding-top mobile-padding-30-bottom"
     },
     "contentOrder": [
@@ -15,9 +15,18 @@
           "image": "reminders-graphic-01.png",
           "description": [
             "<b class=\"side-title\">Reminders</b>",
-            "Protect yourself this fall and winter with a flu vaccine. Health experts are stressing the importance of flu vaccination this year. With no onsite vaccinations this year, Justia will reimburse the cost of your flu vaccination."
+            "Make sure to get things done before taking days off.",
+            "Add comprehensive notes in HD or CRM if something unforeseen comes up.",
+            "Submit your PTO form on time."
           ]
         }
+      },
+      {
+        "type": "description",
+        "config": [
+          "Update the calendar as soon as your PTO request is approved.",
+          "Send out an email to your teammates with clear directions on how to handle specific clients or tasks."
+        ]
       }
     ]
   },
@@ -26,7 +35,7 @@
       "image": "quote-bg-01.png",
       "width": 500,
       "bgColor": "#ffffff",
-      "cssSize": "550px 325px",
+      "cssSize": "550px 292px",
       "responsive": "mobile-padding-30-top mobile-padding-30-bottom"
     },
     "contentOrder": [
@@ -37,8 +46,8 @@
           "image": "quote-graphic-01.png",
           "description": [
             "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">",
-            "<i>Autumn, the season that teaches us that change can be beautiful.\"</i>",
-            "– Unknown"
+            "<i>Winter is not a season, it’s a celebration\"</i>",
+            "– Anamika Mishra"
           ]
         }
       }
