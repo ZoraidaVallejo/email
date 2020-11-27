@@ -11,7 +11,7 @@
       {
         "type": "image-description",
         "config": {
-          "responsive": "mobile-fz-16",
+          "responsive": "mobile-fz-16 mobile-no-margin",
           "image": "reminders-graphic-01.png",
           "description": [
             "<b class=\"side-title\">Reminders</b>",

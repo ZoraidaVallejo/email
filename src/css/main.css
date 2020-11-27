@@ -1130,7 +1130,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content {
-  padding: 0 25px 12px 50px;
+  padding: 10px 25px 45px 50px;
 }
 
 .w-advertisement.-jld-ad-quote .content p {
@@ -1140,7 +1140,7 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content .-description {
-  padding: 0;
+  padding: 10px 0 0;
 }
 
 .w-advertisement.-jld-ad-quote .content .-description p:first-child {
@@ -1154,17 +1154,17 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content-side {
-  width: 235px;
+  width: 220px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image {
-  width: 230px;
-  padding: 0 0 0 10px;
-  margin: 0 0 -22px;
+  width: 250px;
+  padding: 0;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image img {
-  width: 193px;
+  width: 250px;
+  margin: 20px 0 0;
 }
 
 .w-advertisement.-jld-ad-quote .content-side p img {
