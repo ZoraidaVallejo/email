@@ -1,0 +1,55 @@
+{
+  "widget": {
+    "icon": "featured-site-of-the-month",
+    "header": {
+      "singular": "Featured Site of the Month",
+      "plural": "Featured Sites of the Month"
+    }
+  },
+  "justiaLink": "https://www.justia.com/marketing/",
+  "sites": [
+    {
+      "clientName": "Rist Law Office",
+      "location": {
+        "detailed": "San Diego, CA",
+        "short": "San Diego, CA"
+      },
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.sdvictimlaw.com/",
+        "simple": "www.sdvictimlaw.com"
+      },
+      "screenshots": "featured-site-01.png",
+      "thumbnail": "featured-site-01-thumb.png"
+    }
+  ],
+  "description": [
+    "At Justia, we build law firm websites that are responsive, mobile-friendly, and AMP enabled. Our commitment to high-quality, relevant websites will help you attract clients in the practice areas and locations most important to your firm. We also offer Premium Membership on the Justia & LII Lawyer directories.",
+    "If you're interested in our website and SEO services, Premium membership opportunities, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
+  ],
+  "button": {
+    "style": "red-ghost",
+    "link": "https://www.justia.com/marketing/",
+    "text": "Contact Us"
+  },
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "justiaLink": "section-featured-site-of-the-month-link-v1",
+        "button": "section-featured-site-of-the-month-learn-more-button-v1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "justiaLink": "section-featured-site-of-the-month-link-v1",
+        "button": "button-learn-more-1"
+      }
+    }
+  }
+}

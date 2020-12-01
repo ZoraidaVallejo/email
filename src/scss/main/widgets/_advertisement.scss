@@ -1,0 +1,77 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+    // background: #ffedcf;
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 50px $padding 25px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 $padding 23px;
+        text-transform: uppercase;
+
+        a {
+            @include mail-font(32px, 1.1);
+            color: #503d36;
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 50px 25px;
+        color: plt('white');
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 20px 50px 35px;
+            text-align: left;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding 50px;
+        }
+
+        a b{
+            color: plt('white');
+        }
+    }
+}

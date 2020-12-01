@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "Amazon is Now Selling Prescription Drugs, and Prime Members Can Get Massive Discounts if They Pay Without Insurance",
+      "link": "https://www.businessinsider.com/amazon-starts-selling-prescription-medication-in-us-2020-11",
+      "description": "The Amazon Pharmacy service offers drugs through Amazon’s main website, and Prime members can get two-day delivery and discounts on both generic and brand-name drugs"
+    },
+    {
+      "title": "Google Says Chrome 87 Has the Biggest Performance Boost in Years",
+      "link": "https://www.engadget.com/google-chrome-87-roll-out-performance-boost-201423833.html",
+      "description": "Chrome will reduce CPU usage by prioritizing active tabs, while also improving system battery life, requiring less power and memory, and launching the browser and loading pages faster."
+    }
+  ]
+}
