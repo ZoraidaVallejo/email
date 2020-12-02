@@ -30,11 +30,11 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
-{{assign "adClasses" (classList "widget" "w-reviews" widgetClass "set-max-width")}}
+{{assign "adClasses" (classList "widget" "w-blog-justia" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-reviews" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-blog-justia" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -67,15 +67,30 @@
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
                     }}
                   </a>
-                  <p responsive="mobile-padding-top mobile-no-margin">{{{../config.where}}}</p>
                 </div>
               {{/compare}}
 
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                  {{#if ../config.title}}
+                    <p class="content-subtitle">
+                      {{#if ../../widgetConfig.link}}
+                        <a href="{{{../../widgetConfig.link}}}" target="_blank">
+                          {{{../config.title}}}
+                        </a>
+                      {{/if}}
+                    </p>
+                  {{/if}}
                   {{#each ../config.description}}
                     <p>{{{this}}}</p>
                   {{/each}}
+                  <p>
+                    {{#if ../../widgetConfig.link}}
+                      <a href="{{{../../widgetConfig.link}}}" target="_blank">
+                        <b>Read More</b>
+                      </a>
+                    {{/if}}
+                  </p>
                 </div>
               {{/compare}}
 

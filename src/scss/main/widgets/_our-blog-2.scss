@@ -2,16 +2,10 @@
 // A D V E R T I S E M E N T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.w-new-people {
-    p i {
-        @include mail-font(14px);
-    }
-}
-
-.w-new-people-2 {
+.w-blog-justia {
 
     td {
-        text-align: center;
+        text-align: left;
     }
 
     .justia-logo {
@@ -25,12 +19,10 @@
     }
 
     .title {
-        padding: 0 0 5px;
-        @include mail-font(16px, 1.15, 700);
-        // color: plt('justia-blue');
+        padding: 0 $padding 35px;
 
         a {
-            @include mail-font(16px, 1.15, 700);
+            @include mail-font(30px, 1.15);
             color: plt('justia-blue');
         }
     }
@@ -46,15 +38,18 @@
     .content {
         padding: 0 $padding 25px;
 
-        a {
-            color: plt('justia-blue');
+        p {
 
-            * {
+            a {
                 color: plt('justia-blue');
+
+                * {
+                    color: plt('justia-blue');
+                }
             }
         }
 
-        .block-title {
+        .content-subtitle {
             @include mail-font(16px, 1.5, tp('weight', 'bold'));
             margin: 0;
             color: plt('justia-blue');
@@ -71,53 +66,37 @@
         }
 
         .content-side {
-            width: 320px;
+            width: 250px;
 
-            img,
-            &.-image {
-                width: 160px;
+            img {
+                width: 225px;
+                margin: 5px auto 0;
             }
 
             &:first-child {
-                float: left;
+                float: right;
             }
 
             &:last-child {
-                float: right;
+                float: left;
+            }
+        }
+
+        .-image {
+            width: 225px;
+
+            p {
+                margin-top: 30px;
             }
         }
 
         .-list {
             color: #340081;
             text-align: left;
-
-            ul {
-                margin: 0;
-            }
         }
 
         &.-first {
-            padding: 35px $padding 20px;
-        }
-
-        &.-button {
-            padding: 0 $padding 18px;
-        }
-
-        &.-last {
-            padding: 0 $padding $widget-gap;
-        }
-    }
-
-    .-description {
-        text-align: left;
-    }
-
-    .-image-description {
-        padding: 0 $padding 45px;
-
-        &.-first {
-            padding: 0 $padding 45px;
+            padding: 0 $padding 20px;
         }
 
         &.-button {

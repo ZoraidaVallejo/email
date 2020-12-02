@@ -14,9 +14,9 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{!-- {{>welcome widgetConfig=welcome}}
+        {{>welcome widgetConfig=welcome}}
         
-        {{>milestones widgetConfig=milestones}} --}}
+        {{>milestones widgetConfig=milestones}}
 
         {{>widget-ad widgetClass="-jld-ad-reminders" widgetConfig=advertisements.reminders}}
         
@@ -24,7 +24,9 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         
         {{>honor-roll widgetConfig=honorRoll}}
 
-        {{>our-blog}}
+        {{>our-blog2 widgetConfig=ourBlog2}}
+
+        {{!-- {{>our-blog}} --}}
         
         {{>holidays widgetConfig=holidays}}
 

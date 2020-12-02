@@ -47,6 +47,7 @@ $mail-global-font-family: 'Roboto', Arial, sans-serif;
     'main/widgets/take-pause',
     'main/widgets/wellness',
     'main/widgets/new-people-2',
+    'main/widgets/our-blog-2',
     'main/utilities';
 
 // @import
@@ -77,7 +78,12 @@ body {
     background-position: bottom;
 }
 
-.w-blog-justia {
-    background: image-url('odd-block-03.png') no-repeat plt('white');
-    background-position: top;
+// .w-blog-justia {
+//     background: image-url('odd-block-03.png') no-repeat plt('white');
+//     background-position: top;
+// }
+
+.w-honor-roll {
+    background: image-url('odd-block-04.png') no-repeat plt('white');
+    background-position: center;
 }

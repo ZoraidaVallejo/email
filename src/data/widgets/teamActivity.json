@@ -2,19 +2,13 @@
   "type": "Company Events",
   "title": "Virtual Escape Room",
   "titleResponsiveSize": 23,
+  "image": "team-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
         "Given the success of our previous activity, Justia had its second “Virtual Escape Room” activity. Again, thank you all for participating, and congratulations to the winners!"
       ]
-    },
-    {
-      "type": "image-column",
-      "config": {
-        "image1": "team-graphic-01.png",
-        "image2": "team-graphic-02.png"
-      }
     }
   ]
 }

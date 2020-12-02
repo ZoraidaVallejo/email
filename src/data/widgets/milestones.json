@@ -25,7 +25,6 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "link": "https://regulations.justia.com/states/",
         "title": "Release of the UniCourt Norm API Service: ",
         "description": "This won't bring any noticeable changes in the short term, but we are working towards building a more up-to-date JLD lawyer database, and this is one step in that direction."
       }
@@ -36,6 +35,14 @@
         "image": "milestones-graphic-04.png",
         "title": "Jurist Search Upgrade: ",
         "description": "jurist.org is a legal news and commentary blog powered by Justia. We recently upgraded the search feature to provide a better user experience, which will allow Jurist to reach more audiences."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "Amplify Monthly Reports: ",
+        "description": "We incorporated Local Services Ads (LSA) and Google My Business (GMB) sections to the Amplify monthly reports. Previously they only had the Google Ads section."
       }
     }
   ]
