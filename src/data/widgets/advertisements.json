@@ -1,0 +1,44 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#0d3678",
+        "cssSize": "600px 350px"
+      },
+      "link": "",
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "thank-you.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "While all of us faced unprecedented challenges this year, we continued to move forward together. We appreciate your loyalty in difficult times, and we wish you a wonderful holiday season."
+          ]
+        },
+        {
+          "type": "",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}
