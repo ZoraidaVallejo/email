@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "type": "upcoming holidays",
+    "header": "Dates to Remember"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "holidays-graphic-01.png",
+        "alt": "Martin Luther King Jr. Day - January 18th"
+      },
+      "blockTitle": "Martin Luther King Jr. Day - January 18th",
+      "description": [
+        "It is a holiday observed yearly on the third Monday of January. It celebrates the life and achievements of Martin Luther King Jr. He was an important civil rights activist, and people honor his life and legacy on that day. He is widely known for his campaigns to end racial segregation and fight for racial equality in the United States.",
+        "<i>*This is a non-federal holiday. It is not officially recognized. For more information about paid holidays please visit Justikia.</i>"
+      ]
+    }
+  ]
+}

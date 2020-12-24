@@ -1,0 +1,49 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Justia Releaser:",
+        "description": "We released a tool that will streamline the technical documentation process for Justia teams that work directly with code. It is a huge time-saver."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Automation QA:",
+        "description": "Two items related to our automated QA efforts. First, an upgrade to the client blogs automated QA to make it more efficient and generate better reports. Second, the integration of the directory automated QA with every new update that goes live, in addition to the monthly scheduled check."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Regulations Content Update:",
+        "description": "This is content that we already had on our website. But now, we have streamlined the process to update it quarterly promptly and with little effort on our end."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "New Mexico Portal Content:",
+        "description": "As usual, we continue adding new content for our visitors. On this month, we posted Family Law content to the Mexico portal."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-0.png",
+        "title": "\"Thank You\" Blast:",
+        "description": "We are closing the year by thanking all our Justia clients and directory clients. We praised users for being part of the Justia community this year."
+      }
+    }
+  ]
+}

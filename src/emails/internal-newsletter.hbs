@@ -1,0 +1,55 @@
+---
+subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
+---
+
+{{>preheader text="Our monthly employee newsletter with company updates and announcements ----- "}}
+
+{{#table class="internal-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.internal}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome}}
+        
+        {{>milestones widgetConfig=milestones}}
+
+        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
+        
+        {{>birthday widgetConfig=birthday}}
+
+        {{>our-blog}}
+        
+        {{>holidays widgetConfig=holidays}}
+
+        {{>new-people-2 widgetConfig=newPeople2}}
+
+        {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
+
+        {{>blast-past widgetConfig=blastPast}}
+
+        {{>team-activity widgetConfig=teamActivity}}
+
+        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
+
+        {{>team-activity-2 widgetConfig=teamActivity2}}
+
+        {{>wellness widgetConfig=wellness}}
+        
+        {{>reviews widgetConfig=reviews}}
+        
+        {{!-- {{>teammates widgetConfig=teammates}} --}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.internal}}
+    </td>
+  </tr>
+{{/table}}

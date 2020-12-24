@@ -1,0 +1,52 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "03",
+            "name": "Jon Silver"
+          },
+          {
+            "day": "20",
+            "name": "Donovan Coronado"
+          },
+          {
+            "day": "25",
+            "name": "Alejandro Moreno"
+          },
+          {
+            "day": "26",
+            "name": "Jacqueline Chu"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Hector Rodriguez",
+            "years": "1st"
+          },
+          {
+            "name": "Priscila Martinez",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Samantha Larrus",
+            "years": "6th"
+          },
+          {
+            "name": "Meghna Patel",
+            "years": "6th"
+          }
+        ]
+      }
+    }
+  ]
+}

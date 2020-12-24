@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "The Mandalorian"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Disney+</b></a>",
+        "description": [
+          "<i>\"The Star Wars franchise's new addition takes us into a Mandalorian bounty hunter's adventures in a post galactic empire era. In my opinion, one of the best franchise sagas so far as it is a great combination of action, humor, familiar faces, and storytelling that will immediately captivate you. The \"Mando\" commitment to his missions is really encouraging and sets an example for our everyday lives.\"</i>",
+          "- Eddie Garcia"
+        ]
+      }
+    }
+  ]
+}
