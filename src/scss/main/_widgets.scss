@@ -16,14 +16,14 @@
     }
 
     .title {
-        padding: 0 25px 50px;
+        padding: 0 25px 45px;
 
         p {
             @include mail-font(26px, 1.2);
         }
 
         &.-first {
-            padding: 50px 25px 25px;
+            padding: 45px 25px 25px;
         }
     }
 
