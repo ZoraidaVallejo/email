@@ -54,17 +54,23 @@
     },
     "alt": "Justia"
   },
-  "employeesBirthday": {
+  "yourBirthday": {
     "path": {
-      "blue": "http://emaillogos.diego.udev.justatic.com/branding/logos/emails/justia-employees-birthday-blue.png"
+      "blue": "http://emaillogos.diego.udev.justatic.com/branding/logos/emails/justia-your-birthday-blue.png"
     },
-    "alt": "Justia Employee's Birthday"
+    "alt": "Justia Your Birthday"
   },
   "newEmployee": {
     "path": {
       "blue": "http://emaillogos.diego.udev.justatic.com/branding/logos/emails/justia-new-employee-blue.png"
     },
     "alt": "Justia New Employee"
+  },
+  "newIntern": {
+    "path": {
+      "blue": "http://emaillogos.diego.udev.justatic.com/branding/logos/emails/justia-new-intern-blue.png"
+    },
+    "alt": "Justia New Intern"
   },
   "workAnniversary": {
     "path": {
