@@ -23,6 +23,18 @@
       "alt": false
     }
   },
+  "newIntern": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "new-intern",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
   "workAnniversary": {
     "layout": "logo-only",
     "logo": {
