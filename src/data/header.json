@@ -1,33 +1,47 @@
 {
-  "clients": {
-    "layout": "with-date",
+  "birthday": {
+    "layout": "logo-only",
     "logo": {
-      "name": "insights",
+      "name": "employees-birthday",
       "link": {
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "medium": "email",
-          "campaign": "<%= dateFormat.dash %>",
-          "source": "client-newsletter",
-          "content": "image-header-logo-1"
-        }
+        "url": "",
+        "utm": {}
       },
       "path": false,
       "alt": false
     }
   },
-  "jld": {
-    "layout": "with-date",
+  "newEmployee": {
+    "layout": "logo-only",
     "logo": {
-      "name": "insights",
+      "name": "new-employee",
       "link": {
-        "url": "https://www.justia.com/marketing/",
-        "utm": {
-          "medium": "email",
-          "campaign": "<%= dateFormat.dash %>",
-          "source": "directory-newsletter",
-          "content": "image-header-logo-1"
-        }
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "workAnniversary": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "work-anniversary",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "onboarding": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "onboarding",
+      "link": {
+        "url": "",
+        "utm": {}
       },
       "path": false,
       "alt": false

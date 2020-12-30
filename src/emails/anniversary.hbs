@@ -1,0 +1,46 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.workAnniversary}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{#table class="widget set-max-width"}}
+          <tr>
+            <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+
+              {{#table class="w-work-anniversary set-max-width"}}
+                <tr>
+                  <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Hi [NAME]<br>Happy XX Anniversary!</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="image align-center" responsive="mobile-padding-horizontal-sides">
+                    {{>img src="happy-anniversary.png" alt="Work Anniversary"}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
+                    <p>We want to celebrate your work, commitment and dedication.<br>Congratulations!</p>
+                  </td>
+                </tr>
+              {{/table}}
+
+            </td>
+          </tr>
+        {{/table}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+{{/table}}

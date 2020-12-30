@@ -3,171 +3,87 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
-    border-bottom: 1px solid plt('gallery');
-    background-color: plt('white');
+    border-top: 2px solid plt('gallery');
+    background-color: #f2f5f8;
+    color: plt('justia-blue');
 
-    &:nth-child(odd) {
-        background-color: plt('wild-sand');
-    }
-}
+    .wrapper {
+        padding: 25px;
 
-// ----------------------------------------------------------------------------------------------------------
-
-.widget-header {
-    padding: $widget-gap $padding $padding;
-
-    .header-icon-column {
-        width: 55px;
-        vertical-align: middle;
-
-        img {
-            width: 55px;
+        > table {
+            background-color: plt('white');
         }
     }
 
-    .header-text-column {
-        padding: 0 0 0 15px;
-        vertical-align: middle;
-    }
+    .title {
+        padding: 0 25px 50px;
 
-    .type {
-        color: plt('justia-blue');
-
-        @include mail-font(16px, 1, tp('weight', 'normal'));
-    }
-
-    .header {
-        color: plt('justia-blue');
-
-        @include mail-font(32px, 1.2, tp('weight', 'bold'));
-
-        a {
-            color: plt('justia-blue');
-        }
-    }
-}
-
-// ----------------------------------------------------------------------------------------------------------
-
-.widget-banner {
-    padding: 0 $padding 35px;
-
-    img {
-        width: $inner-max-width;
-    }
-}
-
-// ----------------------------------------------------------------------------------------------------------
-
-.widget-description {
-    padding: 0 $padding 25px;
-
-    .content-title {
-        @include mail-font(22px, 1.2, tp('weight', 'bold'));
-        margin: 0 0 10px;
-        color: plt('black');
-
-        a {
-            color: plt('black');
+        p {
+            @include mail-font(26px, 1.2);
         }
 
-        &.-blue {
-            color: plt('justia-blue');
-
-            a {
-                color: plt('justia-blue');
-            }
+        &.-first {
+            padding: 50px 25px 25px;
         }
     }
 
-    .content-subtitle {
-        @include mail-font(18px, 1.3);
-        margin: 0 0 15px;
+    .image {
+        padding: 0 25px 25px;
     }
 
-    &.-no-button {
-        padding: 0 $padding $widget-gap;
-    }
-}
-
-// ----------------------------------------------------------------------------------------------------------
-
-.widget-button {
-    padding: 0 $padding $widget-gap;
-}
-
-// ----------------------------------------------------------------------------------------------------------
-
-.widget-columns {
-
-    > .wrapper {
-        padding: 0 $padding 20px;
+    .text {
+        padding: 0 25px 25px;
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 25px 50px;
         }
     }
 
-    &.-articles {
+    .list {
+        padding: 0 25px 25px;
 
-        .article {
-
-            a,
-            p {
-                color: plt('black');
-            }
-
-            .title {
-                margin: 0 0 8px;
-            }
-        }
-    }
-
-    &.-with-image {
-
-        .block-image,
-        .block-image-link {
-
-            + .block-description {
-                margin: 25px 0 16px;
-
-                &:last-child {
-                    margin: 25px 0 0;
-                }
-            }
+        td {
+            font-weight: bold;
+            vertical-align: top;
         }
 
-        .block-image {
-            width: 250px;
+        .sep {
+            padding-top: 25px;
+            font-size: 0;
         }
 
-        .block-title {
-            @include mail-font(22px, 1.1, tp('weight', 'bold'));
-            margin: 15px 0 10px;
-            color: plt('justia-blue');
+        .hour {
+            width: percentage(140px / 500px);
+            text-align: right;
+            padding: 15px 50px 15px 10px;
+            white-space: nowrap;
         }
 
-        .block-subtitle {
-            @include mail-font(18px, 1.3);
-            margin: 0 0 15px;
-        }
+        .event {
+            padding: 15px 25px;
+            background-color: #e5ecf2;
 
-        .block-description {
-
-            a {
-                color: plt('black');
+            &.-even {
+                background-color: #f2f5f8;
             }
         }
     }
 }
 
-.widget-date-square {
-    display: block;
-    width: 70px;
-    padding: 7px 0;
-    border: 1px solid #dddddd;
-    margin: 0 20px 0 0;
-    text-align: center;
-    background-color: plt('white');
-    color: plt('justia-blue');
+// ----------------------------------------------------------------------------------------------------------
+
+.w-birthday .image img {
+    width: 360px;
+}
+
+.w-new-employee .image img {
+    width: 380px;
+}
+
+.w-work-anniversary .image img {
+    width: 400px;
+}
+
+.w-onboarding .image img {
+    width: 370px;
 }

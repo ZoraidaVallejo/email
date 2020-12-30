@@ -1,0 +1,112 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive client newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.onboarding}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{#table class="widget set-max-width"}}
+          <tr>
+            <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+
+              {{#table class="w-onboarding set-max-width"}}
+                <tr>
+                  <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Welcome Aboard!</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="image align-center" responsive="mobile-padding-horizontal-sides">
+                    {{>img src="happy-anniversary.png" alt="Work Anniversary"}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text align-center" responsive="mobile-padding-horizontal-sides">
+                    <p>
+                      <strong>Dear [name], welcome to Justia!</strong><br>
+                      <br>
+                      [MONTH] [DAY] - [HOUR] is your starting date<br> and we are excited to have you in the team.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Agenda</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="list" responsive="mobile-padding-horizontal-sides">
+                    {{#table class="set-max-width"}}
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">9:00 CT</td>
+                        <td class="event" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">11:00 CT</td>
+                        <td class="event -even" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">11:30 CT</td>
+                        <td class="event" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Lectus</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">13:00 CT</td>
+                        <td class="event -even" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">13:20 CT</td>
+                        <td class="event" responsive="mobile-padding-horizontal-sides">Lunch</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">14:30 CT</td>
+                        <td class="event -even" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">15:00 CT</td>
+                        <td class="event" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">15:30 CT</td>
+                        <td class="event -even" responsive="mobile-padding-horizontal-sides">Lorem Ipsum Dolor Sit Amet</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                    {{/table}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
+                    <p>
+                      <strong>email/IM:</strong> <strong><a href="mailto:firstname.lastname@justia.com" target="_blank">firstname.lastname@justia.com</a></strong> &nbsp;<strong>Pw: xxxxxxx</strong><br>
+                      <br>
+                      INTRO TEXT as it is now.<br>
+                      <br>
+                      <strong>We are looking forward to seeing you. Welcome!</strong>
+                    </p>
+                  </td>
+                </tr>
+              {{/table}}
+
+            </td>
+          </tr>
+        {{/table}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+{{/table}}
