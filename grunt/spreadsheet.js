@@ -22,10 +22,13 @@ module.exports = function gruntSpreadsheet(grunt) {
                     .get();
 
                 const allLinks = new Csv(linksHolder, this.data.options);
-                allLinks
-                    .count(['href'])
-                    .getUtmVars('href')
-                    .write(`links-${filename}`);
+
+                if (allLinks.element.length > 0) {
+                    allLinks
+                        .count(['href'])
+                        .getUtmVars('href')
+                        .write(`links-${filename}`);
+                }
 
                 const imagesHolder = $('img')
                     .map(function getSrcAlt(idx, elem) {
@@ -34,10 +37,13 @@ module.exports = function gruntSpreadsheet(grunt) {
                     .get();
 
                 const allImages = new Csv(imagesHolder, this.data.options);
-                allImages
-                    .count(['src', 'alt'])
-                    .getImageSize('src')
-                    .write(`images-${filename}`);
+
+                if (allImages.element.length > 0) {
+                    allImages
+                        .count(['src', 'alt'])
+                        .getImageSize('src')
+                        .write(`images-${filename}`);
+                }
             });
 
             done();
