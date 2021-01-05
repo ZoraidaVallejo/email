@@ -1,0 +1,62 @@
+{
+  "birthday": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "your-birthday",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "newEmployee": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "new-employee",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "newIntern": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "new-intern",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "workAnniversary": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "work-anniversary",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "onboarding": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "onboarding",
+      "link": {
+        "url": "",
+        "utm": {}
+      },
+      "path": false,
+      "alt": false
+    }
+  }
+}
