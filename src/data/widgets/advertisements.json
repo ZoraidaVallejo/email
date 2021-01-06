@@ -36,16 +36,16 @@
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Become a Justia Premium Member",
-            "width": 280,
+            "text": "Learn More",
+            "width": 220,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 15,
-            "responsive": "mobile-fz-14"
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
           }
         },
         {
