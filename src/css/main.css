@@ -805,7 +805,7 @@ a {
 }
 
 .widget.w-welcome .widget-banner {
-  padding: 0 0 25px;
+  padding: 0 0 35px;
 }
 
 .widget.w-welcome .widget-banner img {
@@ -1025,7 +1025,7 @@ a {
 }
 
 .w-advertisement .justia-logo {
-  padding: 50px 30px 25px;
+  padding: 50px 30px 23px;
   text-align: center;
 }
 
@@ -1040,7 +1040,13 @@ a {
 }
 
 .w-advertisement .title a {
-  font: 32px/1.1 Arial, sans-serif;
+  font: 36px/1.1 Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.w-advertisement .title span {
+  display: inline-block;
 }
 
 .w-advertisement .image {
@@ -1089,6 +1095,10 @@ a {
 
 .w-advertisement .content.-button {
   padding: 0 30px 18px;
+}
+
+.w-advertisement .content.-button span {
+  display: inline-block;
 }
 
 .w-advertisement .content.-last {
@@ -1264,17 +1274,29 @@ a {
 }
 
 .w-milestones td {
-  text-align: center;
+  text-align: left;
 }
 
 .w-milestones .justia-logo {
   padding: 40px 30px 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .w-milestones .justia-logo img {
   width: 320px;
   margin: 0 auto;
+}
+
+.w-milestones .header-icon-column {
+  width: 65px;
+}
+
+.w-milestones .header-icon-column img {
+  width: 65px;
+}
+
+.w-milestones .header {
+  font: 700 29px/1.2 Arial, sans-serif;
 }
 
 .w-milestones .title {
@@ -1334,7 +1356,7 @@ a {
 }
 
 .w-milestones .content.-first {
-  padding: 35px 30px 20px;
+  padding: 0 30px 25px;
 }
 
 .w-milestones .content.-button {
@@ -1404,9 +1426,4 @@ a {
 
 .no-margin {
   margin: 0;
-}
-
-.w-milestones {
-  background: url("../images/odd-block-01.png") no-repeat #ffffff;
-  background-position: center;
 }

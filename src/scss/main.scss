@@ -33,9 +33,3 @@ $use-breakpoint: false;
 @import
     'main/client-specific',
     'main/jld-specific';
-
-
-.w-milestones {
-    background: image-url('odd-block-01.png') no-repeat plt('white');
-    background-position: center;
-}

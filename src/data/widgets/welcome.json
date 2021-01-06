@@ -1,6 +1,6 @@
 {
   "clients": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.png",
     "title": [
       "Welcome to the <%= dateFormat.string %> edition",
       "of the Justia client newsletter!"
@@ -16,7 +16,7 @@
     }
   },
   "jld": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.png",
     "title": [
       "Welcome to the <%= dateFormat.string %> edition",
       "of the Justia monthly newsletter!"

@@ -4,18 +4,33 @@
 
 .w-milestones {
 
+    // background: image-url('odd-block-01.png') no-repeat plt('white');
+    // background-position: center;
+
     td {
-        text-align: center;
+        text-align: left;
     }
 
     .justia-logo {
         padding: 40px $padding 30px;
-        text-align: center;
+        text-align: left;
 
         img {
             width: 320px;
             margin: 0 auto;
         }
+    }
+
+    .header-icon-column {
+        width: 65px;
+
+        img {
+            width: 65px;
+        }
+    }
+
+    .header{
+        @include mail-font(29px, 1.2, tp('weight', 'bold'));
     }
 
     .title {
@@ -77,7 +92,8 @@
         }
 
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 0 $padding 25px;
+            // padding: 35px $padding 20px;
         }
 
         &.-button {

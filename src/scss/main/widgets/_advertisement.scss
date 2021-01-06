@@ -10,7 +10,7 @@
     }
 
     .justia-logo {
-        padding: 50px $padding 25px;
+        padding: 50px $padding 23px;
         text-align: center;
 
         img {
@@ -22,10 +22,19 @@
     .title {
         padding: 0 $padding 23px;
         text-transform: uppercase;
+        // font-weight: get('font.weight.bold');
+        // color: plt('white');
+
+        // @include mail-font(36px, 1.15);
 
         a {
-            @include mail-font(32px, 1.1);
-            // color: #503d36;
+            @include mail-font(36px, 1.1);
+            color: plt('white');
+            font-weight: get('font.weight.bold');
+        }
+
+        span {
+            display: inline-block;
         }
     }
 
@@ -73,6 +82,10 @@
 
         &.-button {
             padding: 0 $padding 18px;
+
+            span {
+                display: inline-block;
+            }
         }
 
         &.-last {

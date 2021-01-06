@@ -22,7 +22,7 @@
         "name": "marketing",
         "color": "blue-white"
       },
-      "title": "",
+      "title": "START THE NEW YEAR OFF <span>ON THE RIGHT FOOT</span>",
       "titleResponsiveSize": 23,
       "image": "start-new-year.png",
       "contentOrder": [
@@ -37,15 +37,15 @@
           "config": {
             "style": "red",
             "text": "Become a Justia Premium Member",
-            "width": 300,
+            "width": 280,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
+            "fontSize": 15,
+            "responsive": "mobile-fz-14 mobile-padding-horizontal-sides"
           }
         },
         {
