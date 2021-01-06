@@ -83,7 +83,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 50px;
         }
     }
 
@@ -103,7 +103,7 @@
         }
 
         &.-last {
-            padding: 0 50px 100px;
+            padding: 0 50px 50px;
         }
     }
 }

@@ -18,19 +18,17 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         
         {{>milestones widgetConfig=milestones}}
 
-        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
-        
-        {{>birthday widgetConfig=birthday}}
+        {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
+
+        {{>blast-past widgetConfig=blastPast}}
 
         {{>our-blog}}
         
-        {{>holidays widgetConfig=holidays}}
-
-        {{>new-people-2 widgetConfig=newPeople2}}
+        {{>birthday widgetConfig=birthday}}
 
         {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
-        {{>blast-past widgetConfig=blastPast}}
+        {{>new-people widgetConfig=newPeople}}
 
         {{>team-activity widgetConfig=teamActivity}}
 
@@ -41,6 +39,8 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>wellness widgetConfig=wellness}}
         
         {{>reviews widgetConfig=reviews}}
+        
+        {{>holidays widgetConfig=holidays}}
         
         {{!-- {{>teammates widgetConfig=teammates}} --}}
 

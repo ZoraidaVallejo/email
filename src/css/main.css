@@ -788,6 +788,34 @@ a {
   color: #06357a;
 }
 
+.w-blog-justia .widget-banner {
+  padding: 0 25px 22px;
+}
+
+.w-blog-justia .widget-description a {
+  color: #06357a;
+}
+
+.w-blog-justia .widget-description a * {
+  color: #06357a;
+}
+
+.w-blog-justia .widget-description .block-title {
+  font: 700 16px/1.5 Roboto, Arial, sans-serif;
+  margin: 0;
+  color: #06357a;
+}
+
+.w-blog-justia .widget-description .block-title a {
+  color: #06357a;
+}
+
+.w-blog-justia .widget-description .block-subtitle {
+  font: 16px/1.3 Roboto, Arial, sans-serif;
+  margin: 0 0 8px;
+  color: #06357a;
+}
+
 .widget.w-welcome {
   border-bottom: 0;
   background-color: #ffffff;
@@ -1073,11 +1101,11 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content {
-  padding: 0 12px 45px 50px;
+  padding: 0 25px 45px 50px;
 }
 
 .w-advertisement.-jld-ad-quote .content p {
-  font: 700 22px/1.3 Roboto, Arial, sans-serif;
+  font: 700 32px/1.3 Roboto, Arial, sans-serif;
   color: #ffffff;
   margin: 0 0 8px;
 }
@@ -1097,12 +1125,12 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content-side {
-  width: 235px;
+  width: 227px;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image {
-  width: 253px;
-  padding: 0;
+  width: 248px;
+  padding: 40px 0 0;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image img {
@@ -1492,7 +1520,7 @@ a {
 }
 
 .w-milestones .-image-description.-last {
-  padding: 0 50px 100px;
+  padding: 0 50px 50px;
 }
 
 .w-birthday td {
@@ -1510,7 +1538,7 @@ a {
 }
 
 .w-birthday .widget-header {
-  padding: 100px 47px 25px;
+  padding: 50px 47px 25px;
 }
 
 .w-birthday .title {

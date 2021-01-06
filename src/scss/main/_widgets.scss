@@ -10,7 +10,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-header {
-    padding: $widget-gap 47px 25px;
+    padding: 50px 47px 25px;
 
     // .header-icon-column {
     //     width: 55px;
@@ -91,14 +91,14 @@
     }
 
     &.-no-button {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding 50px;
     }
 }
 
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-button {
-    padding: 0 $padding $widget-gap;
+    padding: 0 $padding 50px;
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -109,7 +109,7 @@
         padding: 0 $padding 20px;
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 50px;
         }
     }
 
@@ -177,6 +177,40 @@
                     color: plt('justia-blue');
                 }
             }
+        }
+    }
+}
+
+.w-blog-justia {
+
+    .widget-banner {
+        padding: 0 $padding 22px;
+    }
+
+    .widget-description {
+
+        a {
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        .block-title {
+            @include mail-font(16px, 1.5, tp('weight', 'bold'));
+            margin: 0;
+            color: plt('justia-blue');
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+
+        .block-subtitle {
+            @include mail-font(16px, 1.3);
+            margin: 0 0 8px;
+            color: plt('justia-blue');
         }
     }
 }

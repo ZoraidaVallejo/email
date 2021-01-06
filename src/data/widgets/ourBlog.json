@@ -3,28 +3,17 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
-  "singleColumn": false,
+  "singleColumn": true,
   "columns": [
     {
       "image": {
-        "src": "onward-02.png",
-        "alt": "Google Announcements From Its 2020 “Search On” Livestream Event"
-      },
-      "readMore": "https://onward.justia.com/2020/10/22/google-announcements-from-its-2020-search-on-livestream-event/",
-      "blockTitle": "Google Announcements From Its 2020 “Search On” Livestream Event",
-      "description": [
-        "Google made a significant number of announcements during its “Search On” livestream event last week..."
-      ]
-    },
-    {
-      "image": {
         "src": "onward-01.png",
-        "alt": "Why You Should Get Google Reviews for Your Local Services Ads"
+        "alt": "Justia Accomplishments in 2020 – Year in Review"
       },
-      "readMore": "https://onward.justia.com/2020/10/30/why-you-should-get-google-reviews-for-your-local-services-ads/",
-      "blockTitle": "Why You Should Get Google Reviews for Your Local Services Ads",
+      "readMore": "https://onward.justia.com/2020/12/23/justia-accomplishments-in-2020-year-in-review/",
+      "blockTitle": "Justia Accomplishments in 2020 – Year in Review",
       "description": [
-        "There are several ways to get reviews for your LSAs. However getting a LSA verified review should be made a priority..."
+        "In the future, 2020 will be seen as a symbol of change, adversity, adaptation, and resilience. At Justia, we overcame the challenges of this year and were able to complete projects and launch new initiatives as part of our commitment to consumers and the legal community."
       ]
     }
   ]

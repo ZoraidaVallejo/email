@@ -1,19 +1,13 @@
 {
   "title": "Ugly Sweater Contest",
   "titleResponsiveSize": 23,
+  "image": "team-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
         "Justia held its 2020 Ugly Sweater contest on Monday, December 14, at the end of our team meeting. We thank all entrants who had the chance to show off their sweaters. Congratulations to the winners who claimed the bragging rights to the title until next year and the Amazon gift card prizes."
       ]
-    },
-    {
-      "type": "image-column",
-      "config": {
-        "image1": "team-graphic-01.png",
-        "image2": "team-graphic-02.png"
-      }
     }
   ]
 }

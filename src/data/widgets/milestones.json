@@ -26,7 +26,7 @@
       "config": {
         "image": "milestones-graphic-03.png",
         "title": "Regulations Content Update:",
-        "description": "This is content that we already had on our website. But now, we have streamlined the process to update it quarterly promptly and with little effort on our end."
+        "description": "This is content that we already had on our <a href=\"https://regulations.justia.com/\" target=\"_blank\"><b>website</b></a>. But now, we have streamlined the process to update it promptly quarterly and with minimal effort."
       }
     },
     {
@@ -34,15 +34,15 @@
       "config": {
         "image": "milestones-graphic-04.png",
         "title": "New Mexico Portal Content:",
-        "description": "As usual, we continue adding new content for our visitors. On this month, we posted Family Law content to the Mexico portal."
+        "description": "As usual, we continue adding new content for our visitors. This month, we posted Family Law content to the <a href=\"https://mexico.justia.com/derecho-de-familia/\" target=\"_blank\"><b>Mexico portal</b></a>."
       }
     },
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-0.png",
+        "image": "milestones-graphic-05.png",
         "title": "\"Thank You\" Blast:",
-        "description": "We are closing the year by thanking all our Justia clients and directory clients. We praised users for being part of the Justia community this year."
+        "description": "We are closing the year by thanking all our Justia clients and directory clients. We showed our appreciation to users for being part of the Justia community this year."
       }
     }
   ]

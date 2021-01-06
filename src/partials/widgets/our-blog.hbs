@@ -24,9 +24,11 @@
       --}}
       <tr>
         <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-          {{!-- <h3 class="content-title">
-            {{{this.blockTitle}}}
-          </h3> --}}
+          <h3 class="block-title">
+            {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+              {{{this.blockTitle}}}
+            {{#if readMore}}</a>{{/if}}
+          </h3>
           {{#if this.blockSubtitle}}
             <p class="content-subtitle">
               {{{this.blockSubtitle}}}
@@ -34,6 +36,9 @@
           {{/if}}
           {{#each this.description}}
             <p>{{{this}}}</p>
+            {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+              <p><a href="{{{../readMore}}}" target="_blank"><b>Read More</b></a></p>
+            {{/and}}
           {{/each}}
         </td>
       </tr>
