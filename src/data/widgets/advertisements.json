@@ -1,0 +1,61 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "start-new-year-bg.png",
+        "width": 600,
+        "bgColor": "#062450",
+        "cssSize": "600px 850px"
+      },
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v40"
+      },
+      "logo": {
+        "name": "marketing",
+        "color": "blue-white"
+      },
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "start-new-year.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Discover your marketing potential with Justia:</b></p> <ul> <li> Promote your business easily. </li> <li> Stay ahead of your competition. </li> <li> Gain exposure in two directories and reach a new client base. </li> </ul> <p>Digital marketing is more important now than ever. Find out how to expand your platform with a Justia Premium Membership. </p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Become a Justia Premium Member",
+            "width": 300,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/2020/12/23/justia-accomplishments-in-2020-year-in-review/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Justia Accomplishments in 2020 – Year in Review",
+  "description": [
+    "In the future, 2020 will be seen as a symbol of change, adversity, adaptation, and resilience. At Justia, we overcame the challenges of this year and were able to complete projects and launch new initiatives as part of our commitment to consumers and the legal community."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://onward.justia.com/2020/12/23/justia-accomplishments-in-2020-year-in-review/",
+    "text": "Read More"
+  }
+}

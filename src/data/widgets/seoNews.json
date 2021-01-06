@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Google Explains Discovery & Refresh Data in Crawl Stats Report",
+      "link": "https://www.searchenginejournal.com/google-explains-discovery-refresh-data-in-crawl-stats-report/",
+      "description": "Discovered URLs were crawled by Google for the first time, while refreshed URLs had been previously crawled but were crawled again to update information in Google’s search index."
+    },
+    {
+      "title": "Google December 2020 Core Update Is Now Fully Rolled Out",
+      "link": "https://searchengineland.com/google-december-2020-core-update-is-now-fully-rolled-out-344864",
+      "description": "This global update had a significant impact, resulting in gains or declines of 10 percent to over 100 percent of previous levels of search traffic for sites in many regions and categories."
+    },
+    {
+      "title": "YouTube Remains Dominant Source of Video in Top Google Ranking Positions",
+      "link": "https://searchengineland.com/youtube-remains-dominant-source-of-video-in-top-google-ranking-positions-344458",
+      "description": "Although Google has denied that it gives a preference to YouTube over other video content, a study found that over 80 percent of videos in its search results carousel come from YouTube."
+    },
+    {
+      "title": "Google on Penalizing Misinformation",
+      "link": "https://www.searchenginejournal.com/google-on-penalizing-misinformation/",
+      "description": "Marketing insiders have questioned why Google applies only automated penalties to sites that spread misinformation, while it applies both automated and manual penalties to spam."
+    }
+  ]
+}

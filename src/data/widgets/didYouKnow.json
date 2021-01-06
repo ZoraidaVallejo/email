@@ -1,0 +1,46 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Justia Company Page Gets a New Look in 2020",
+    "link": "https://company.justia.com/",
+    "description": [
+      "We’ve recently updated our <b><a href='https://company.justia.com/' target='_blank'>Justia Company Page</a></b> where we have made available our <b><a href='https://company.justia.com/announcements/' target='_blank'>company announcements</a></b> and information about <b><a href='https://company.justia.com/leadership/' target='_blank'>the leadership team</a></b> behind our strategy and business operations. Be sure to check out the legal resources we have available from our <b><a href='https://supreme.justia.com/' target='_blank'>US Supreme Court Center</a></b> to our <b><a href='https://answers.justia.com/' target='_blank'>Ask a Lawyer forums</a></b> as well."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://company.justia.com/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "client-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Justia Company Page Gets a New Look in 2020",
+    "link": "https://company.justia.com/",
+    "description": [
+      "We’ve recently updated our <b><a href='https://company.justia.com/' target='_blank'>Justia Company Page</a></b> where we have made available our <b><a href='https://company.justia.com/announcements/' target='_blank'>company announcements</a></b> and information about <b><a href='https://company.justia.com/leadership/' target='_blank'>the leadership team</a></b> behind our strategy and business operations. Be sure to check out the legal resources we have available from our <b><a href='https://supreme.justia.com/' target='_blank'>US Supreme Court Center</a></b> to our <b><a href='https://answers.justia.com/' target='_blank'>Ask a Lawyer forums</a></b> as well."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://company.justia.com/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "legal-industry-news",
+    "header": "Legal Industry News"
+  },
+  "news": [
+    {
+      "title": "House Passes Bill to Make PACER Free as Judiciary Opposes ",
+      "link": "https://news.bloomberglaw.com/us-law-week/judiciary-opposes-revised-bill-to-make-u-s-court-records-free",
+      "description": "Supporters of the bill assert that technology is essential to preserve access to justice and court records, while detractors point to its budgetary and operational impact on federal courts."
+    },
+    {
+      "title": "Federal Courts Participate in Audio Livestream Pilot",
+      "link": "https://www.uscourts.gov/news/2020/12/15/federal-courts-participate-audio-livestream-pilot",
+      "description": "As part of a two-year pilot program, 13 district courts will livestream real-time courtroom audio of select proceedings in civil cases of public interest on their designated YouTube channels."
+    },
+    {
+      "title": "Employers Can Require Workers to Get Covid-19 Vaccine, U.S. Says",
+      "link": "https://www.nytimes.com/2020/12/18/us/eeoc-employers-coronavirus-mandate.html",
+      "description": "Federal disability laws that protect the medical privacy of employees do not prevent employers from barring employees from the workplace if they refuse the COVID-19 vaccine."
+    },
+    {
+      "title": "Supreme Court Has Golden Opportunity To Rein In NCAA ‘Amateurism’",
+      "link": "https://www.forbes.com/sites/marcedelman/2020/12/16/supreme-court-should-go-even-further-to-protect-college-athletes-economic-rights/?sh=56a70a211c3b",
+      "description": "The Supreme Court granted review of a Ninth Circuit decision that addresses whether the college sports industry may enforce amateurism rules that forbid paying college athletes."
+    }
+  ]
+}

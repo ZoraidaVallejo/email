@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "tech-news",
+    "header": "Tech News"
+  },
+  "news": [
+    {
+      "title": "U.S. Vs. Facebook: Inside the Tech Giant’s Behind-the-Scenes Campaign to Battle Back Antitrust Lawsuits",
+      "link": "https://www.washingtonpost.com/technology/2020/12/22/facebook-antitrust-lobbying-settlement/",
+      "description": "As state and federal investigators prepared to sue Facebook, the company responded by increasing lobbying, hiring elite lawyers, and launching numerous internal initiatives."
+    },
+    {
+      "title": "Google’s Antitrust Cases: A Guide for the Perplexed",
+      "link": "https://www.wired.com/story/google-antitrust-lawsuits-explainer/",
+      "description": "The tech giant faces three lawsuits by the US Department of Justice and 36 states, attacking its alleged monopoly over search, search advertising, and general digital advertising."
+    },
+    {
+      "title": "Ripple Faces a SEC Lawsuit for Breaking Investor-Protection Laws When Selling XRP",
+      "link": "https://markets.businessinsider.com/currencies/news/ripple-faces-sec-lawsuit-breaking-investor-protection-laws-xrp-2020-12-1029913345",
+      "description": "Federal regulators are suing cryptocurrency firm Ripple over its sale of a digital asset that is considered an unlicensed security but may be a cryptocurrency outside regulatory control."
+    },
+    {
+      "title": "Salesforce to Acquire Slack for $27.7 Billion",
+      "link": "https://www.nytimes.com/2020/12/01/technology/salesforce-slack-deal.html",
+      "description": "The biggest deal in the history of Salesforce caps a series of aggressive acquisitions by the software company and ends the existence of Slack as an independent publicly traded entity."
+    },
+    {
+      "title": "Google AI Ethics Co-Lead Timnit Gebru Says She Was Fired Over an Email",
+      "link": "https://venturebeat.com/2020/12/03/google-ai-ethics-co-lead-timnit-gebru-says-she-was-fired-over-an-email/",
+      "description": "The email from one of the world’s leading AI researchers reportedly expressed frustration with the lack of progress in hiring women at Google and the lack of accountability for this failure."
+    },
+    {
+      "title": "Google Illegally Fired And Spied On Workers Who Tried To Organize, Labor Agency Says",
+      "link": "https://www.npr.org/2020/12/03/941860802/google-illegally-fired-and-spied-on-workers-who-tried-to-organize-labor-agency-s",
+      "description": "Google allegedly fired two employees involved in labor organizing, took adverse actions against other employees, enforced rules unfairly, and systematically discouraged organizing. "
+    }
+  ]
+}

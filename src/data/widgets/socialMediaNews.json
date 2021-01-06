@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "Twitter Acquires Screen-Sharing Social App Squad",
+      "link": "https://techcrunch.com/2020/12/11/twitter-acquires-screen-sharing-social-app-squad/",
+      "description": "While the co-founders and team of Squad will join Twitter’s design, engineering, and product departments, Twitter has shut down the Squad app in a move similar to its shutdown of Vine."
+    },
+    {
+      "title": "LinkedIn Begins Testing Ads in LinkedIn Stories",
+      "link": "https://www.socialmediatoday.com/news/linkedin-begins-testing-ads-in-linkedin-stories/",
+      "description": "After it released LinkedIn Stories to all users in September, LinkedIn has started to test Stories Ads with a limited number of advertisers in a closed beta with all members globally."
+    },
+    {
+      "title": "Twitter Reverts to Traditional Retweet Process After Switching It Up for the US Election",
+      "link": "https://www.socialmediatoday.com/news/twitter-reverts-to-traditional-retweet-process-after-switching-it-up-for-th/",
+      "description": "The social media network had temporarily removed straight retweeting as an option in the US in October, requiring users to quote tweets, but this reduced sharing and user engagement. "
+    },
+    {
+      "title": "Instagram Adds New Prompts to Help Stop Resurgences of COVID-19",
+      "link": "https://www.socialmediatoday.com/news/instagram-adds-new-prompts-to-help-slow-resurgences-of-covid-19/",
+      "description": "Users in areas with surging cases will see a prompt connecting them to health authorities at the top of their feeds, while the quality of COVID-19 or vaccine search results will improve."
+    },
+    {
+      "title": "FTC Orders Amazon, Facebook, Twitter and TikTok to Provide Details on Personal Data, Advertising",
+      "link": "https://www.usatoday.com/story/tech/2020/12/14/ftc-asks-amazon-facebook-twitter-tiktok-how-they-use-personal-data/6544417002/",
+      "description": "Several social media and streaming sites must provide information about personal data usage and advertising and user engagement practices, including their impact on children and teens."
+    },
+    {
+      "title": "LinkedIn Adds New 'Products' Tab on Company Pages to Highlight Specific Products",
+      "link": "https://www.socialmediatoday.com/news/linkedin-adds-new-products-tab-on-company-pages-to-highlight-specific-pro/",
+      "description": "Companies can use the new feature for purposes such as spotlighting endorsements and testimonials, collecting ratings and reviews, and generating leads with a call to action button."
+    }
+  ]
+}

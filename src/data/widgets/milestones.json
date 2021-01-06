@@ -1,0 +1,149 @@
+{
+  "clients":{
+    "widget": {
+      "type": "",
+      "header": "Justia Accomplishments in 2020",
+      "iconSrc": "news.png"
+    },
+    "titleResponsiveSize": 23,
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-01.png",
+          "title": "2020 Year in Review – Highlights of Legal Developments",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-highlights-of-legal-developments/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-2",
+          "description": "While it may be hard to look past this tumultuous year, the legal developments of 2020 could shape the rights and obligations of Americans for years or even decades to come. Some of the notable events involved the coronavirus pandemic, while others had broader implications."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-02.png",
+          "title": "2020 Year in Review – SEO",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-seo/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-3",
+          "description": "Throughout 2020, we saw a remarkable amount of changes that affected search engine optimization. In this blog post, we will round up some of the most relevant stories in SEO's constantly evolving world. We can certainly predict that 2021 is coming stronger than ever, so in this post, we elaborate on our take for the coming year too."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-03.png",
+          "title": "2020 Year in Review – Local SEO",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-local-seo/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-4",
+          "description": "The landscape for local businesses changed drastically due to the restrictive measures imposed everywhere while trying to keep this virus at bay. The COVID-19 pandemic has taught business owners that they need to adapt and change how they communicate and reach customers."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-04.png",
+          "title": "2020 Year in Review – Google’s Paid Advertising Platforms",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-googles-paid-advertising-platforms/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-5",
+          "description": "The year 2020 will most certainly be a year that we will all remember. Society was challenged by something that most of us had never seen in our lifetimes. Through it all, we've overcome adversity and the pandemic has shown businesses the importance of online communications and how invaluable it is to get the right message to the right audience."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Web Design Trends",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-web-design-trends/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-6",
+          "description": "The year 2020 was packed with new trends full of creativity and innovation in web design. While some will fade away, others are definitely here to stay. Most of these trends were distinguished by attaining a perfect balance between a responsible design (which cares about usability and accessibility features) and a daring design that is very attractive to the visitor. Here is a list of some of these trends for your analysis and inspiration."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Social Media Trends: More Growth, More Misinformation, and More Money-Making",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-social-media-trends-more-growth-more-misinformation-and-more-money-making/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-7",
+          "description": "Social media had a year of incredible growth despite various controversies. From TikTok to Facebook to LinkedIn, all the big companies developed new features and found ways to encourage commerce across their platforms."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Marketing During COVID-19 and the Move to Virtual Meetings, Spaces & Entertainment",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-marketing-during-covid-19-and-the-move-to-virtual-meetings-spaces-entertainment/?utm_medium=email&utm_campaign=2021-01&utm_source=client-newsletter&utm_content=text-onward-post-title-8",
+          "description": "2020 was a year out of the ordinary. It was a year that, with social distancing and the home office, brought a rethinking of how people had to connect at work, professionally, at school, and with their families. The digital world was also affected, and the strategies that companies have used have changed as they adapt to the \"new\" communications methods of digital platforms, applications, and devices. We review some of these changes and how they became part of people's lives during this extraordinary time."
+        }
+      }
+    ]
+  },
+  "jld":{
+    "widget": {
+      "type": "",
+      "header": "Justia Accomplishments in 2020",
+      "iconSrc": "news.png"
+    },
+    "titleResponsiveSize": 23,
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-01.png",
+          "title": "2020 Year in Review – Highlights of Legal Developments",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-highlights-of-legal-developments/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-2",
+          "description": "While it may be hard to look past this tumultuous year, the legal developments of 2020 could shape the rights and obligations of Americans for years or even decades to come. Some of the notable events involved the coronavirus pandemic, while others had broader implications."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-02.png",
+          "title": "2020 Year in Review – SEO",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-seo/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-3",
+          "description": "Throughout 2020, we saw a remarkable amount of changes that affected search engine optimization. In this blog post, we will round up some of the most relevant stories in SEO's constantly evolving world. We can certainly predict that 2021 is coming stronger than ever, so in this post, we elaborate on our take for the coming year too."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-03.png",
+          "title": "2020 Year in Review – Local SEO",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-local-seo/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-4",
+          "description": "The landscape for local businesses changed drastically due to the restrictive measures imposed everywhere while trying to keep this virus at bay. The COVID-19 pandemic has taught business owners that they need to adapt and change how they communicate and reach customers."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-04.png",
+          "title": "2020 Year in Review – Google’s Paid Advertising Platforms",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-googles-paid-advertising-platforms/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-5",
+          "description": "The year 2020 will most certainly be a year that we will all remember. Society was challenged by something that most of us had never seen in our lifetimes. Through it all, we've overcome adversity and the pandemic has shown businesses the importance of online communications and how invaluable it is to get the right message to the right audience."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Web Design Trends",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-web-design-trends/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-6",
+          "description": "The year 2020 was packed with new trends full of creativity and innovation in web design. While some will fade away, others are definitely here to stay. Most of these trends were distinguished by attaining a perfect balance between a responsible design (which cares about usability and accessibility features) and a daring design that is very attractive to the visitor. Here is a list of some of these trends for your analysis and inspiration."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Social Media Trends: More Growth, More Misinformation, and More Money-Making",
+          "link":"https://onward.justia.com/2020/12/23/2020-year-in-review-social-media-trends-more-growth-more-misinformation-and-more-money-making/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-7",
+          "description": "Social media had a year of incredible growth despite various controversies. From TikTok to Facebook to LinkedIn, all the big companies developed new features and found ways to encourage commerce across their platforms."
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "milestones-graphic-05.png",
+          "title": "2020 Year in Review – Marketing During COVID-19 and the Move to Virtual Meetings, Spaces & Entertainment",
+          "link":"https://onward.justia.com/2020/12/31/2020-year-in-review-marketing-during-covid-19-and-the-move-to-virtual-meetings-spaces-entertainment/?utm_medium=email&utm_campaign=2021-01&utm_source=directory-newsletter&utm_content=text-onward-post-title-8",
+          "description": "2020 was a year out of the ordinary. It was a year that, with social distancing and the home office, brought a rethinking of how people had to connect at work, professionally, at school, and with their families. The digital world was also affected, and the strategies that companies have used have changed as they adapt to the \"new\" communications methods of digital platforms, applications, and devices. We review some of these changes and how they became part of people's lives during this extraordinary time."
+        }
+      }
+    ]
+  }
+}
+  
