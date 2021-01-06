@@ -2265,12 +2265,11 @@ a {
 
 .w-wellness .title {
   padding: 0 0 5px;
-  font: 700 18px/1.15 Roboto, Arial, sans-serif;
-  color: #06357a;
+  font: 700 16px/1.15 Roboto, Arial, sans-serif;
 }
 
 .w-wellness .title a {
-  font: 700 18px/1.15 Roboto, Arial, sans-serif;
+  font: 700 16px/1.15 Roboto, Arial, sans-serif;
   color: #06357a;
 }
 
@@ -2295,7 +2294,11 @@ a {
 }
 
 .w-wellness .content .content-side {
-  vertical-align: middle;
+  width: 350px;
+}
+
+.w-wellness .content .content-side img, .w-wellness .content .content-side.-image {
+  width: 80px;
 }
 
 .w-wellness .content .content-side:first-child {
@@ -2316,7 +2319,7 @@ a {
 }
 
 .w-wellness .content.-first {
-  padding: 0 25px 40px;
+  padding: 35px 25px 20px;
 }
 
 .w-wellness .content.-button {
@@ -2324,30 +2327,27 @@ a {
 }
 
 .w-wellness .content.-last {
-  padding: 0 25px 34px;
-}
-
-.w-wellness .-image-column .content-side {
-  width: 245px;
-}
-
-.w-wellness .-image-column .content-side img {
-  width: 245px;
-  margin: 0 auto;
+  padding: 0 25px 50px;
 }
 
 .w-wellness .-description {
   text-align: left;
 }
 
-.w-wellness .-description.-idx-2 {
-  padding: 10px 50px 50px;
-  text-align: center;
+.w-wellness .-image-description {
+  padding: 0 50px 45px;
 }
 
-.w-wellness .-image-description {
-  width: 225px;
-  padding: 0 25px 30px;
+.w-wellness .-image-description.-first {
+  padding: 0 50px 45px;
+}
+
+.w-wellness .-image-description.-button {
+  padding: 0 50px 18px;
+}
+
+.w-wellness .-image-description.-last {
+  padding: 0 50px 50px;
 }
 
 .w-new-people-2 td {
