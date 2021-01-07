@@ -28,9 +28,12 @@
             width: 65px;
         }
     }
+    .header-text-column{
+        padding: 0 0 0 20px;
+    }
 
     .header{
-        @include mail-font(29px, 1.2, tp('weight', 'bold'));
+        @include mail-font(30px, 1.2, tp('weight', 'bold'));
     }
 
     .title {
@@ -63,6 +66,10 @@
             * {
                 color: plt('justia-blue');
             }
+        }
+
+        strong a {
+            color: plt('black');
         }
 
         .content-side {

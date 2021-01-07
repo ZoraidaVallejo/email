@@ -23,7 +23,7 @@
         "color": "blue-white"
       },
       "title": "START THE NEW YEAR OFF <span>ON THE RIGHT FOOT</span>",
-      "titleResponsiveSize": 23,
+      "titleResponsiveSize": 22,
       "image": "start-new-year.png",
       "contentOrder": [
         {
@@ -44,8 +44,8 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 18,
-            "responsive": "mobile-fz-16"
+            "fontSize": 16,
+            "responsive": ""
           }
         },
         {

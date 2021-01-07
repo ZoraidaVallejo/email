@@ -72,11 +72,16 @@
 
             p {
                 margin: 0 0 5px;
+                @include mail-font(16px, 1.5);
+                b{
+                    @include mail-font(16px, 1.5);
+                }
             }
             ul {
                 margin: 0 0 15px;
                 line-height: 1.2;
-                padding: 0 16px 0;
+                padding: 0 18px 0;
+                @include mail-font(16px, 1.5);
             }
         }
 
