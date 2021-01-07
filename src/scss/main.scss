@@ -65,6 +65,17 @@ body {
     }
 }
 
+.-description,
+.widget-description {
+    a {
+        color: plt('justia-blue');
+
+        * {
+            color: plt('justia-blue');
+        }
+    }
+}
+
 .w-milestones {
     background: image-url('odd-block-02.png') no-repeat plt('white');
     background-position: center;
@@ -82,6 +93,6 @@ body {
 }
 
 .w-wellness {
-    background: image-url('odd-block-03.png') no-repeat plt('white');
+    background: image-url('odd-block-01.png') no-repeat plt('white');
     background-position: bottom;
 }

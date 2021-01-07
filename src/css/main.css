@@ -822,7 +822,7 @@ a {
 }
 
 .widget.w-welcome .widget-banner {
-  padding: 0 0 25px;
+  padding: 0 0 45px;
   background: url("../images/welcome-bg-01.png") no-repeat;
   background-size: 100% auto;
 }
@@ -2105,6 +2105,10 @@ a {
   display: block;
 }
 
+.w-blast-past .content.-description {
+  padding: 0 25px 25px;
+}
+
 .w-blast-past .content.-first {
   padding: 0 25px 35px;
 }
@@ -2115,10 +2119,6 @@ a {
 
 .w-blast-past .content.-last {
   padding: 0 25px 45px;
-}
-
-.w-blast-past .content.-description {
-  padding: 0 25px 25px;
 }
 
 .w-blast-past .-image-column .content-side {
@@ -2516,6 +2516,16 @@ body {
   width: 330px;
 }
 
+.-description a,
+.widget-description a {
+  color: #06357a;
+}
+
+.-description a *,
+.widget-description a * {
+  color: #06357a;
+}
+
 .w-milestones {
   background: url("../images/odd-block-02.png") no-repeat #ffffff;
   background-position: center;
@@ -2533,7 +2543,7 @@ body {
 }
 
 .w-wellness {
-  background: url("../images/odd-block-03.png") no-repeat #ffffff;
+  background: url("../images/odd-block-01.png") no-repeat #ffffff;
   background-position: bottom;
 }
 

@@ -9,7 +9,8 @@
       "type": "image-description",
       "config": {
         "image": "wellness-graphic-01.png",
-        "title": "Habit List ",
+        "link": "https://habitlist.com/",
+        "title": "Habit List: ",
         "description": "The road to becoming more organized starts with building better habits. Habit List lets you list habits you'd like to improve, whether it's exercising more, eating healthier, or just getting chores done."
       }
     },
@@ -17,7 +18,8 @@
       "type": "image-description",
       "config": {
         "image": "wellness-graphic-02.png",
-        "title": "Unroll.Me ",
+        "link": "https://www.unroll.me/",
+        "title": "Unroll.Me: ",
         "description": "How much time do you spend going through and deleting unwanted emails that clutter your inbox? Unroll.Me compiles all of your email list subscriptions into one daily email. It delivers greater control of your email lists, letting you unsubscribe from all unwanted emails in just one click and organizing the rest."
       }
     },
@@ -25,7 +27,8 @@
       "type": "image-description",
       "config": {
         "image": "wellness-graphic-03.png",
-        "title": "Things ",
+        "link": "https://culturedcode.com/things/",
+        "title": "Things: ",
         "description": "Things is a great organizational app that helps you break down your to-do lists into manageable tasks. You can design your calendar in the order you want to see your events: personal, family, work, and more. Set up a separate to-do list for evenings only for tasks you need to handle when you get home."
       }
     },
@@ -33,7 +36,8 @@
       "type": "image-description",
       "config": {
         "image": "wellness-graphic-04.png",
-        "title": "RescueTime ",
+        "link": "https://www.rescuetime.com/",
+        "title": "RescueTime: ",
         "description": "RescueTime is designed to do exactly what its name infers, save time. It records your digital footprint and keeps track of everything you do online—on websites and applications—and how much time you spend doing each activity."
       }
     },
@@ -41,7 +45,8 @@
       "type": "image-description",
       "config": {
         "image": "wellness-graphic-05.png",
-        "title": "Cozi ",
+        "link": "https://www.cozi.com/",
+        "title": "Cozi: ",
         "description": "Any parent knows that organizing family activities is no easy task. Cozi is a family activity app that will help you schedule all doctor's appointments, youth soccer games, and more on a daily calendar that sends you reminders so that you never miss an important event again."
       }
     }

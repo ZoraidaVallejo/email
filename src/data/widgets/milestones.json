@@ -9,7 +9,7 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Justia Releaser:",
+        "title": "Justia Releaser: ",
         "description": "We released a tool that will streamline the technical documentation process for Justia teams that work directly with code. It is a huge time-saver."
       }
     },
@@ -17,15 +17,15 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "title": "Automation QA:",
-        "description": "Two items related to our automated QA efforts. First, an upgrade to the client blogs automated QA to make it more efficient and generate better reports. Second, the integration of the directory automated QA with every new update that goes live, in addition to the monthly scheduled check."
+        "title": "Automation QA: ",
+        "description": "Related to our automated QA efforts, we upgraded the client blogs automated QA to make it more efficient and generate better reports. We also integrated the directory automated QA with every update that goes live, in addition to the monthly scheduled check."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "Regulations Content Update:",
+        "title": "Regulations Content Update: ",
         "description": "This is content that we already had on our <a href=\"https://regulations.justia.com/\" target=\"_blank\"><b>website</b></a>. But now, we have streamlined the process to update it promptly quarterly and with minimal effort."
       }
     },
@@ -33,7 +33,7 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "New Mexico Portal Content:",
+        "title": "New Mexico Portal Content: ",
         "description": "As usual, we continue adding new content for our visitors. This month, we posted Family Law content to the <a href=\"https://mexico.justia.com/derecho-de-familia/\" target=\"_blank\"><b>Mexico portal</b></a>."
       }
     },
@@ -41,7 +41,7 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-05.png",
-        "title": "\"Thank You\" Blast:",
+        "title": "\"Thank You\" Blast: ",
         "description": "We are closing the year by thanking all our Justia clients and directory clients. We showed our appreciation to users for being part of the Justia community this year."
       }
     }
