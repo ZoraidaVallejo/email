@@ -1,0 +1,57 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "platinum-placement-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Level up your marketing with an <b>Exclusive Platinum Placement*</b>. Don’t wait before it’s too late! It might be gone sooner than you think.",
+            "Not ready to get an <b>Exclusive Platinum Placement</b> yet? Or sold out in your area? Consider getting a <b>Gold Placement</b> for now and get on the Platinum waiting list."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<b>Call to secure your exclusive placement before it is gone!<br><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "config": [
+            "*Only One Available Per Practice Area/Metro."
+          ]
+        }
+      ]
+    }
+  }
+}
