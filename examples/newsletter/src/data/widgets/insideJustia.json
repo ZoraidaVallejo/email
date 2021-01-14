@@ -8,10 +8,11 @@
     {
       "image": {
         "src": "inside-justia-01.jpg",
-        "alt": "<b>Elit ipsum</b> esse amet culpa."
+        "alt": "Lorem ipsum dolor",
+        "link": "#"
       },
       "blockTitle": "Meet Our Team",
-      "blockSubtitle": "[<b>Elit ipsum</b> esse amet culpa.]",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
       "description": [
         "[Enim ipsum quis cillum consequat. Proident amet minim sint laborum qui fugiat velit nulla cupidatat irure esse culpa. Non eiusmod dolore sit qui.]"
       ]
@@ -19,10 +20,11 @@
     {
       "image": {
         "src": "inside-justia-01.jpg",
-        "alt": "<b>Id amet ex est nulla laboris.</b>"
+        "alt": "Lorem ipsum dolor",
+        "link": "#"
       },
       "blockTitle": "A Pug’s Tale",
-      "blockSubtitle": "[<b>Id amet ex est nulla laboris.</b>]",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
       "description": [
         "[Sint et mollit quis qui occaecat esse ex sint Lorem. Anim et aliquip ipsum in anim.]",
         "[Eu commodo nostrud reprehenderit minim ullamco nulla sunt aliqua reprehenderit.]"
