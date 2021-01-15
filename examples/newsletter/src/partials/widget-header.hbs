@@ -19,7 +19,11 @@
     {{#table class="wrapper"}}
       <tr>
         <td class="header-icon-column">
-          {{>img src=@root.widgetHeaderIcon alt="Icon"}}
+          {{#if iconSrc}}
+            {{>img src=iconSrc alt="Icon"}}
+          {{else}}
+            {{>img src=@root.widgetHeaderIcon alt="Icon"}}
+          {{/if}}
         </td>
         <td class="header-text-column">
           {{#if type}}<h4 class="type">{{type}}</h4>{{/if}}
