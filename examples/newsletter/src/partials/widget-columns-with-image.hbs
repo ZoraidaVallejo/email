@@ -22,7 +22,15 @@
 
             {{#if this.image}}
               {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
-                {{>img src=this.image.src alt=this.image.src class="block-image"}}
+
+              {{#if this.image.link}}
+                <a href="{{this.image.link}}">
+                  {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+                </a>
+              {{else}}
+                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+              {{/if}}
+                
               {{#if readMore}}</a>{{/if}}
 
               {{#if this.blockTitle}}
