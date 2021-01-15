@@ -21,17 +21,9 @@
             {{/unless}}
 
             {{#if this.image}}
-              {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
-
-              {{#if this.image.link}}
-                <a href="{{this.image.link}}">
-                  {{>img src=this.image.src alt=this.image.alt class="block-image"}}
-                </a>
-              {{else}}
+              <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
                 {{>img src=this.image.src alt=this.image.alt class="block-image"}}
-              {{/if}}
-                
-              {{#if readMore}}</a>{{/if}}
+              </a>
 
               {{#if this.blockTitle}}
                 <h3 class="block-title">{{{this.blockTitle}}}</h3>
