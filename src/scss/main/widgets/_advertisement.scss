@@ -55,8 +55,12 @@
         }
 
         &.-first {
-            padding: 50px 50px 30px;
-            text-align: left;
+            padding: 38px 45px 20px;
+            // text-align: left;
+            
+            p {
+                @include mail-font(20px);
+            }
         }
 
         &.-button {
@@ -66,8 +70,8 @@
         &.-last {
             padding: 0 $padding $widget-gap;
             
-            p {
-                @include mail-font(14px, 1);
+            p b {
+                @include mail-font(18px, 1.2, 700);
             }
         }
 

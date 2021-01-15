@@ -14,41 +14,34 @@
       "link": "https://www.justia.com/",
       "title": "",
       "titleResponsiveSize": 23,
-      "image": "platinum-placement-01.png",
+      "image": "update-profiles-01.gif",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Level up your marketing with an <b>Exclusive Platinum Placement*</b>. Don’t wait before it’s too late! It might be gone sooner than you think.",
-            "Not ready to get an <b>Exclusive Platinum Placement</b> yet? Or sold out in your area? Consider getting a <b>Gold Placement</b> for now and get on the Platinum waiting list."
+            "<b>Get discovered by potential clients</b> by updating your information on the Justia Lawyer Directory today."
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Learn More",
-            "width": 200,
+            "text": "Update Your Profile Now",
+            "width": 260,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 18,
+            "fontSize": 16,
             "responsive": ""
           }
         },
         {
           "type": "description",
           "config": [
-            "<b>Call to secure your exclusive placement before it is gone!<br><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
-          ]
-        },
-        {
-          "type": "disclaimer",
-          "config": [
-            "*Only One Available Per Practice Area/Metro."
+            "Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
           ]
         }
       ]
