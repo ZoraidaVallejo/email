@@ -53,5 +53,35 @@
       "blue": "https://justatic.com/v/20190705/branding/logos/justia-blue-rounded-300.png"
     },
     "alt": "Justia"
+  },
+  "yourBirthday": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-your-birthday-blue.png"
+    },
+    "alt": "Justia Your Birthday"
+  },
+  "newEmployee": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-employee-blue.png"
+    },
+    "alt": "Justia New Employee"
+  },
+  "newIntern": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-intern-blue.png"
+    },
+    "alt": "Justia New Intern"
+  },
+  "workAnniversary": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-work-anniversary-blue.png"
+    },
+    "alt": "Justia Work Anniversary"
+  },
+  "onboarding": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-onboarding-blue.png"
+    },
+    "alt": "Justia Onboarding"
   }
 }

@@ -1,0 +1,89 @@
+// ----------------------------------------------------------------------------------------------------------
+// W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.widget {
+    border-top: 2px solid plt('gallery');
+    background-color: #f2f5f8;
+    color: plt('justia-blue');
+
+    .wrapper {
+        padding: 25px;
+
+        > table {
+            background-color: plt('white');
+        }
+    }
+
+    .title {
+        padding: 0 25px 45px;
+
+        p {
+            @include mail-font(26px, 1.2);
+        }
+
+        &.-first {
+            padding: 45px 25px 25px;
+        }
+    }
+
+    .image {
+        padding: 0 25px 25px;
+    }
+
+    .text {
+        padding: 0 25px 25px;
+
+        &.-last {
+            padding: 0 25px 50px;
+        }
+    }
+
+    .list {
+        padding: 0 25px 25px;
+
+        td {
+            font-weight: bold;
+            vertical-align: top;
+        }
+
+        .sep {
+            padding-top: 25px;
+            font-size: 0;
+        }
+
+        .hour {
+            width: percentage(140px / 500px);
+            text-align: right;
+            padding: 15px 50px 15px 10px;
+            white-space: nowrap;
+        }
+
+        .event {
+            padding: 15px 25px;
+            background-color: #e5ecf2;
+
+            &.-even {
+                background-color: #f2f5f8;
+            }
+        }
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-birthday .image img {
+    width: 360px;
+}
+
+.w-new-employee .image img {
+    width: 380px;
+}
+
+.w-work-anniversary .image img {
+    width: 400px;
+}
+
+.w-onboarding .image img {
+    width: 370px;
+}
