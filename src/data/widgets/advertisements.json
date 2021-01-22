@@ -1,0 +1,109 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "webinar-bg-01.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 478px"
+      },
+      "link": "https://www.justia.com/",
+      "title": "Free Webinar<span responsive=\"mobile-fz-20\">Register Today!</span>",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "In partnership with Connectionology, please join us for a <b>FREE WEBINAR</b>: <i>\"Smart Branding and Promotion of Your Law Firm in the Digital Age – It Should Not Cost You a Fortune, But It Could Make You One\"!</i>",
+            "This live webinar will feature <a href=\"https://lawyers.justia.com/lawyer/david-alan-wolf-1412311\" target=\"_blank\"><b>David A. Wolf</b></a>, Esq. with Wood, Atter & Wolf, P.A. in Jacksonville, FL and <a href=\"https://lawyers.justia.com/lawyer/timothy-j-stanley-148043\" target=\"_blank\"><b>Tim Stanley</b></a>, CEO of Justia in Mountain View, CA. The webinar will be moderated by <a href=\"https://lawyers.justia.com/lawyer/john-fletcher-romano-528178\" target=\"_blank\"><b>John F. Romano</b></a>, Esq. with Romano Law Group in West Palm Beach, FL. "
+          ]
+        },
+        {
+          "type": "image",
+          "config": {
+            "src": "webinar-people-01.png",
+            "alt": "David A. Wolf, Tim Stanley, John F. Romano"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "The webinar is for plaintiff & criminal defense attorneys and paralegals. They may register for free and receive confirmation with log in instructions. No defense firms are permitted."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "yellow",
+            "text": "Register Today!",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#010b31",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<b><strong>Thursday, January 28, 2021</strong><span responsive=\"mobile-hide\"></span><strong responsive=\"collapse-one\">3:00 p.m. to 5:00 p.m. ET<span responsive=\"mobile-hide\">&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></b>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<i>Note: Registration remains open even during the webinar. The webinar attendee limit is 500 guests.</i>"
+          ]
+        },
+        {
+          "type": "double-wrap",
+          "config": [
+            "<p><b>Topics discussed during the webinar will include:</b></p>",
+            "<ul> <li><b></b><i>Grass Root Marketing</i></li> <li><b></b><i>Lawyer Directories</i></li> <li><b></b><i>Google My Business</i></li> <li><b></b><i>Reputation Management / Reviews</i></li> <li><b></b><i>Website Development</i></li> <li><b></b><i>Search Engine Optimization</i></li> <li><b></b><i>Best Practices for Websites, Blogs and Directories</i></li> <li><b></b><i>Best Practices and Avoidance of Black Hat Techniques – Ethical Promotion of Your Practice</i></li> </ul>",
+            "<p>Connectionology has applied for CLE credit and reciprocity in a few select states. CLE credit is approved for attorneys barred in MO. Those barred in AK, CT, HI, NJ, NY &amp; ND are eligible to apply for CLE reciprocity. CLE status is pending for attorneys barred in AR, GA, ME, TN, VT, WI &amp; WY. The State Bar of Arizona does not approve or accredit CLE activities for the Mandatory Continuing Legal Education requirement. This activity may qualify for up to 2.0 hours toward your annual CLE requirement for the State Bar of Arizona, including 0.0 hour(s) of professional responsibility. Certified paralegals may also request a certificate of attendance. They are responsible for self-reporting and maintaining their own copies of any required materials for certification.</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<b>Sponsors</b>"
+          ]
+        },
+        {
+          "type": "image-columns",
+          "config": [
+            {
+              "src": "webinar-badge-01.png",
+              "alt": "Global Litigation Consultants",
+              "link": "https://globallitigationconsultants.com/"
+            },
+            {
+              "src": "webinar-badge-02.png",
+              "alt": "HMR",
+              "link": "https://www.hmrservicing.com/"
+            },
+            {
+              "src": "webinar-badge-03.png",
+              "alt": "Fast Funds",
+              "link": "https://fastfunds.us/connectionology/"
+            }
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "HMR will be giving away 4 bags of Peruvian Organic Coffee to one lucky attendee. A portion of proceeds help fund education initiatives in farming co-operatives in St. Martin, Peru."
+          ]
+        }
+      ]
+    }
+  }
+}

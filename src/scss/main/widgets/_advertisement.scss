@@ -1,0 +1,198 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+   
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 23px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: $padding $padding 23px;
+        text-transform: uppercase;
+        color: plt('white');
+
+        a {
+            @include mail-font(44px, 1.1, 700);
+            color: plt('white');
+
+            span {
+                @include mail-font(28px, 1.1, 700);
+                display: block;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 50px 25px;
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        ul {
+            padding: 0;
+            text-align: left;
+
+            li {
+                display: block;
+                margin-bottom: 2px;
+
+                b {
+                    padding: 1px 20px 1px 0;
+                    background: image-url('webinar-list-icon-01.png') no-repeat left;
+                    vertical-align: top;
+                }
+
+                i {
+                    display: inline-block;
+                }
+            }
+        }
+
+        &.-first {
+            padding: 5px 50px 30px;
+            text-align: left;
+            color: plt('white');
+
+            a {
+                color: plt('white');
+
+                b {
+                    color: plt('white');
+                }
+            }
+        }
+
+        &.-idx-2 {
+            padding: 0 50px 5px;
+        }
+
+        &.-idx-3 {
+            padding: 20px 50px 35px;
+            text-align: left;
+        }
+
+        &.-idx-5 {
+            padding: 0 50px 28px;
+            text-align: center;
+            vertical-align: middle;
+
+            b {
+                display: block;
+
+                > span {
+                    display: inline-block;
+                    width: 3px;
+                    height: 25px;
+                    margin: 0 19px;
+                    background-color: #ffc700;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        &.-idx-6 {
+            text-align: left;
+            padding: 0 50px 38px;
+            
+            p {
+                @include mail-font(14px, 1);
+            }
+        }
+
+        &.-idx-7 {
+            padding: 0 50px 12px;
+            text-align: left;
+
+            td {
+                padding: 35px 22px 0;
+                text-align: left;
+                background: #f4f4f4;
+            }
+
+            tr + tr {
+
+                td {
+                    padding: 8px 22px 0;
+                }
+            }
+
+            tr + tr + tr {
+
+                td {
+                    padding: 10px 22px 35px;
+                    border-bottom: 1px solid #dddddd;
+                }
+            }
+        }
+
+        &.-idx-8 {
+            padding: 0 50px 10px;
+            text-transform: uppercase;
+
+            p {
+                letter-spacing: 1px;
+            }
+        }
+
+        &.-idx-9 {
+            padding: 0 50px 35px;
+
+            td {
+                padding: 0 0 20px;
+                border-bottom: 1px solid #dddddd;
+            }
+        }
+
+        &.-button {
+            padding: 0 $padding 42px;
+
+            a {
+                border-radius: 25px !important;
+                color: plt('black');
+            }
+        }
+
+        &.-last {
+            padding: 0 66px $widget-gap;
+            text-align: left;
+        }
+
+        b a {
+            color: plt('black');
+        }
+    }
+}
