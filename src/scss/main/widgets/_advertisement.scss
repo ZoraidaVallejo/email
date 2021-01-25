@@ -1,0 +1,111 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+   
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 40px $padding 23px;
+        // text-transform: uppercase;
+        
+
+        a {
+            @include mail-font(40px, 1.1);
+            color: plt('justia-blue');
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 50px 25px;
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 25px 50px 30px; 
+            text-align: left;
+
+            a {
+                color: plt('black');
+                b {
+                    color: plt('justia-blue');
+                }
+            }
+
+            p {
+                margin: 0 0 12px;
+                @include mail-font(16px, 1.5);
+            }
+
+            ul {
+                margin: 0 0 15px;
+                line-height: 1.2;
+                padding: 0 0 0 18px;
+                @include mail-font(16px, 1.5);
+
+                li{
+                    margin: 0 0 12px;
+                }
+            }
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 10px 50px $widget-gap;
+            
+
+            span{
+                text-align: left;
+                @include mail-font(14px, 1.5);
+                display: block;
+                margin: 25px 0 0 0 ;
+            }
+        }
+
+        b a {
+            color: plt('black');
+        }
+    }
+}

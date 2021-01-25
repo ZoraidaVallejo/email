@@ -1,0 +1,106 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "[jld-ad-01-example]"
+      },
+      "title": "<b>Here is a Sweet Treat <span>You Will Fall For</span></b>",
+      "titleResponsiveSize": 23,
+      "image": "discount-1.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Attract more clients and increase your firm's visibility when you purchase 2 or more Justia Gold Placements</p> <ul> <li> 2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'>Justia Lawyer Directory</a> and the <a href='#' target='_blank'><b>Legal Information Institute (LII)</b></a> Directory. </li> <li> Increase your visibility by more than 25 times. </li> <li> Act fast! <b>Offer only available for 5 days!</b> </li> </ul>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Your Discount Now",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team <br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>",
+            "<span>*Offer only valid within 5 days from date of email receipt. Offer only valid for the purchase of 2 or more Justia Gold Placements. Justia Platinum Placements and all other products excluded from offer. Offer may be modified or discontinued at any time without notice.</span>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "background": {
+        "image": "",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 550px"
+      },
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "[jld-ad-01-example]"
+      },
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "discount-2.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Score big and increase your firm's visibility when you purchase 2 or more Justia Gold Placements</p> <ul> <li> 2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'>Justia Lawyer Directory</a> and the <a href='#' target='_blank'><b>Legal Information Institute (LII)</b></a> Directory. </li> <li> Increase your visibility by more than 25 times. </li> <li> Act fast! <b>Offer only available for 5 days!</b> </li> </ul>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Your Discount Now",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team <br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>",
+            "<span>*Offer only valid within 5 days from date of email receipt. Offer only valid for the purchase of 2 or more Justia Gold Placements. Justia Platinum Placements and all other products excluded from offer. Offer may be modified or discontinued at any time without notice.</span>"
+          ]
+        }
+      ]
+    }
+  }
+}
