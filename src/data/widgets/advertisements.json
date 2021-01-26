@@ -8,27 +8,16 @@
       "background": {
         "image": "webinar-bg-01.png",
         "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 478px"
+        "bgColor": "#093d84",
+        "cssSize": "600px 478px",
+        "responsive": "mobile-reset-bg-image"
       },
-      "link": "https://www.justia.com/",
+      "link": "https://connectionology.zoom.us/webinar/register/WN_6LqH2xU2SLuIpsVcCTgTbQ",
       "title": "Free Webinar<span responsive=\"mobile-fz-20\">Register Today!</span>",
       "titleResponsiveSize": 23,
+      "description": "<p>In partnership with Connectionology, please join us for a <b>FREE WEBINAR</b>: <i>\"Smart Branding and Promotion of Your Law Firm in the Digital Age – It Should Not Cost You a Fortune, But It Could Make You One\"!</i></p><p>This live webinar will feature <a href=\"https://lawyers.justia.com/lawyer/david-alan-wolf-1412311\" target=\"_blank\"><b>David A. Wolf</b></a>, Esq. with Wood, Atter & Wolf, P.A. in Jacksonville, FL and <a href=\"https://lawyers.justia.com/lawyer/timothy-j-stanley-148043\" target=\"_blank\"><b>Tim Stanley</b></a>, CEO of Justia in Mountain View, CA. The webinar will be moderated by <a href=\"https://lawyers.justia.com/lawyer/john-fletcher-romano-528178\" target=\"_blank\"><b>John F. Romano</b></a>, Esq. with Romano Law Group in West Palm Beach, FL.</p>",
+      "image": "webinar-people-01.png",
       "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "In partnership with Connectionology, please join us for a <b>FREE WEBINAR</b>: <i>\"Smart Branding and Promotion of Your Law Firm in the Digital Age – It Should Not Cost You a Fortune, But It Could Make You One\"!</i>",
-            "This live webinar will feature <a href=\"https://lawyers.justia.com/lawyer/david-alan-wolf-1412311\" target=\"_blank\"><b>David A. Wolf</b></a>, Esq. with Wood, Atter & Wolf, P.A. in Jacksonville, FL and <a href=\"https://lawyers.justia.com/lawyer/timothy-j-stanley-148043\" target=\"_blank\"><b>Tim Stanley</b></a>, CEO of Justia in Mountain View, CA. The webinar will be moderated by <a href=\"https://lawyers.justia.com/lawyer/john-fletcher-romano-528178\" target=\"_blank\"><b>John F. Romano</b></a>, Esq. with Romano Law Group in West Palm Beach, FL. "
-          ]
-        },
-        {
-          "type": "image",
-          "config": {
-            "src": "webinar-people-01.png",
-            "alt": "David A. Wolf, Tim Stanley, John F. Romano"
-          }
-        },
         {
           "type": "description",
           "config": [
@@ -40,7 +29,7 @@
           "config": {
             "style": "yellow",
             "text": "Register Today!",
-            "width": 200,
+            "width": 280,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",

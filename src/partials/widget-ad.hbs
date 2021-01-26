@@ -44,6 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -74,10 +75,18 @@
     </tr>
   {{/if}}
 
+  {{#if widgetConfig.description}}
+    <tr>
+      <td class="description" responsive="mobile-padding-horizontal-sides">
+        {{{widgetConfig.description}}}
+      </td>
+    </tr>
+  {{/if}}
+
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image">
-        <a href="{{{@root.adLink}}}" target="_blank">
+      <td class="image" responsive="mobile-no-padding">
+        <a href="#" target="_blank">
           {{>img
             src=widgetConfig.image
             alt=(default widgetConfig.title widgetConfig.imageAlt)
@@ -86,6 +95,12 @@
       </td>
     </tr>
   {{/if}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+      </table>
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
+  {{/and}}
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
@@ -221,10 +236,4 @@
 
     {{/forEach}}
   {{/if}}
-
-  {{#and widgetConfig.background widgetConfig.background.image}}
-      </table>
-    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
-  </tr>
-  {{/and}}
 {{/table}}

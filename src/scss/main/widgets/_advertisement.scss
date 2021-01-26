@@ -35,8 +35,23 @@
         }
     }
 
+    .description {
+        padding: 5px 50px 30px;
+        text-align: left;
+        color: plt('white');
+
+        a {
+            color: plt('white');
+
+            b {
+                color: plt('white');
+            }
+        }
+    }
+
     .image {
         padding: 0;
+        box-shadow: 0 -4px 0 0 plt('white') inset;
 
         img {
             width: 100%;
@@ -45,6 +60,7 @@
 
     .content {
         padding: 0 50px 25px;
+        background-color: #ffffff;
 
         .content-side {
             width: 260px;
@@ -78,34 +94,35 @@
 
                 i {
                     display: inline-block;
+                    width: 90%;
                 }
             }
         }
+
+        // &.-first {
+        //     padding: 5px 50px 30px;
+        //     text-align: left;
+        //     color: plt('white');
+
+        //     a {
+        //         color: plt('white');
+
+        //         b {
+        //             color: plt('white');
+        //         }
+        //     }
+        // }
+
+        // &.-idx-2 {
+        //     padding: 0 50px 5px;
+        // }
 
         &.-first {
-            padding: 5px 50px 30px;
-            text-align: left;
-            color: plt('white');
-
-            a {
-                color: plt('white');
-
-                b {
-                    color: plt('white');
-                }
-            }
-        }
-
-        &.-idx-2 {
-            padding: 0 50px 5px;
-        }
-
-        &.-idx-3 {
             padding: 20px 50px 35px;
             text-align: left;
         }
 
-        &.-idx-5 {
+        &.-idx-3 {
             padding: 0 50px 28px;
             text-align: center;
             vertical-align: middle;
@@ -124,16 +141,16 @@
             }
         }
 
-        &.-idx-6 {
+        &.-idx-4 {
             text-align: left;
             padding: 0 50px 38px;
             
             p {
-                @include mail-font(14px, 1);
+                @include mail-font(14px, 1.2);
             }
         }
 
-        &.-idx-7 {
+        &.-idx-5 {
             padding: 0 50px 12px;
             text-align: left;
 
@@ -159,7 +176,7 @@
             }
         }
 
-        &.-idx-8 {
+        &.-idx-6 {
             padding: 0 50px 10px;
             text-transform: uppercase;
 
@@ -168,7 +185,7 @@
             }
         }
 
-        &.-idx-9 {
+        &.-idx-7 {
             padding: 0 50px 35px;
 
             td {
@@ -181,7 +198,7 @@
             padding: 0 $padding 42px;
 
             a {
-                border-radius: 25px !important;
+                border-radius: 50px !important;
                 color: plt('black');
             }
         }
