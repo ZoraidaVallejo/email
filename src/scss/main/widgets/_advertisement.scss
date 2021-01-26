@@ -4,6 +4,10 @@
 
 .w-advertisement {
    
+    &.-jld-ad-01{
+        border-top: 1px solid #e5e5e5;
+    }
+
     td {
         text-align: center;
     }
@@ -19,10 +23,9 @@
     }
 
     .title {
-        padding: 40px $padding 23px;
+        padding: 40px $padding 30px;
         // text-transform: uppercase;
         
-
         a {
             @include mail-font(40px, 1.1);
             color: plt('justia-blue');
@@ -66,6 +69,8 @@
 
             a {
                 color: plt('black');
+            
+                strong,
                 b {
                     color: plt('justia-blue');
                 }
@@ -77,13 +82,26 @@
             }
 
             ul {
+                list-style-type: none;
                 margin: 0 0 15px;
                 line-height: 1.2;
-                padding: 0 0 0 18px;
+                padding: 0;
                 @include mail-font(16px, 1.5);
+                
 
                 li{
                     margin: 0 0 12px;
+
+                    b {
+                        padding: 1px 20px 1px 0;
+                        background: url('images/bullet-icon.png') no-repeat left;
+                        vertical-align: top;
+                    }
+
+                    span{
+                       width: 90%;
+                       display: inline-block;
+                    }
                 }
             }
         }
