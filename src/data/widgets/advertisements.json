@@ -26,14 +26,14 @@
         {
           "type": "description",
           "config": [
-            "<p>Attract more clients and increase your firm's visibility when you purchase 2 or more Justia Gold Placements.</p> <ul> <li> <b></b><span>2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'><strong>Justia Lawyer Directory</strong></a> and the <a href='#' target='_blank'><strong>Legal Information Institute (LII)</strong></a> Directory.</span> </li> <li> <b></b><span>Increase your visibility by more than 25 times.</span> </li> <li> <b></b><span> Act fast! <strong>Offer only available for 5 days!</strong></span> </li> </ul>"
+            "<p>Attract more clients when you buy 2 or more Justia Gold Placements and increase your profile's visibility.</p> <ul> <li> <b></b><span>2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'><strong>Justia Lawyer Directory</strong></a> and the <a href='#' target='_blank'><strong>Legal Information Institute (LII)</strong></a> Directory.</span> </li> <li> <b></b><span>Increase your visibility by more than 25 times.</span> </li> <li> <b></b><span> Act fast! <strong>Offer only available for 5 days!</strong></span> </li> </ul>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Get Your Discount Now",
+            "text": "Get Discount Now",
             "width": 250,
             "height": 50,
             "borderColor": "",
@@ -41,7 +41,7 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 18,
+            "fontSize": 16,
             "responsive": ""
           }
         },
@@ -76,14 +76,14 @@
         {
           "type": "description",
           "config": [
-            "<p>Score big and increase your firm's visibility when you purchase 2 or more Justia Gold Placements.</p> <ul> <li> <b></b><span>2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'><strong>Justia Lawyer Directory</strong></a> and the <a href='#' target='_blank'><strong>Legal Information Institute (LII)</strong></a> Directory.</span> </li> <li> <b></b><span>Increase your visibility by more than 25 times.</span> </li> <li> <b></b><span> Act fast! <strong>Offer only available for 5 days!</strong></span> </li> </ul>"
+            "<p>Score big when you buy 2 or more Justia Gold Placements and increase your profile's visibility.</p> <ul> <li> <b></b><span>2 for the price of 1: Get listed in the <a href='https://www.justia.com/lawyers' target='_blank'><strong>Justia Lawyer Directory</strong></a> and the <a href='#' target='_blank'><strong>Legal Information Institute (LII)</strong></a> Directory.</span> </li> <li> <b></b><span>Increase your visibility by more than 25 times.</span> </li> <li> <b></b><span> Act fast! <strong>Offer only available for 5 days!</strong></span> </li> </ul>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Get Your Discount Now",
+            "text": "Get Discount Now",
             "width": 250,
             "height": 50,
             "borderColor": "",
@@ -91,7 +91,7 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 18,
+            "fontSize": 16,
             "responsive": ""
           }
         },
