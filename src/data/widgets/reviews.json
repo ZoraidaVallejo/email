@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Peace Is Every Breath"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Amazon</b></a>",
+        "description": [
+          "<i>\"Peace Is Every Breath: A Practice for Our Busy Lives is a beautiful book by Zen Buddhist master Thích Nhất Hạnh that guides readers through the power of mindfulness. From moment to moment - even amidst our busy workdays - we can find inner peace, happiness, and joy through being compassionately present. This is an insightful read for everyone from all backgrounds.\"</i>",
+          "- Katherine Le"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{{! ================================================================================================================= }}
+{{! I N S I D E   J U S T I A                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-blog-justia set-max-width"}}
+  {{>widget-header
+    header=ourBlog.widget.header
+    type=ourBlog.widget.type
+  }}
+
+  {{#if ourBlog.singleColumn}}
+
+    {{#each ourBlog.columns}}
+
+      {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt}}
+
+      {{!--
+      // TODO: Maybe move title and description to a component.
+      // TODO: Fix classes for content.
+      --}}
+      <tr>
+        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+          <h3 class="block-title">
+            {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+              {{{this.blockTitle}}}
+            {{#if readMore}}</a>{{/if}}
+          </h3>
+          {{#if this.blockSubtitle}}
+            <p class="content-subtitle">
+              {{{this.blockSubtitle}}}
+            </p>
+          {{/if}}
+          {{#each this.description}}
+            <p>{{{this}}}</p>
+            {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+              <p><a href="{{{../readMore}}}" target="_blank"><b>Read More</b></a></p>
+            {{/and}}
+          {{/each}}
+        </td>
+      </tr>
+    {{/each}}
+
+  {{else}}
+    {{>widget-columns-with-image widgetConfig=ourBlog.columns isLast=true}}
+  {{/if}}
+{{/table}}

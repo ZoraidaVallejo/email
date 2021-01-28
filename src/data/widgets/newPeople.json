@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "new-people-01.png",
+        "alt": "Kara Simon"
+      },
+      "blockTitle": "Kara Simon",
+      "blockSubtitle": "Editorial Team",
+      "description": [
+        "Hello all, my name is Kara Simon, and I am the newest member of the Editorial Team. I am based in Chicago, Illinois, but originally from Cleveland, Ohio. I have a BA in Writing and followed that with a JD after a year as a freelance writer and consultant. My newest talent is learning to boulder, and I have the blisters to prove it. I love the opportunity to try new things, and I look forward to getting to know the Justia team."
+      ]
+    },
+    {
+      "image": {
+        "src": "new-people-02.png",
+        "alt": "Marina Wilson"
+      },
+      "blockTitle": "Marina Wilson",
+      "blockSubtitle": "Marketing Team",
+      "description": [
+        "Hi everyone! My name is Marina Wilson. I am (almost) 28 years old, and I am from the New Orleans, Louisiana area. I have a bachelor's in Consumer Journalism from the University of Georgia and got my JD at LSU. When I am not at work, I am usually at a football game, spending time with my family and friends, or planning my next weekend adventure. I also have an English Bulldog that I love to take along for outings. I am looking forward to meeting you all and am glad to have joined the team at Justia!"
+      ]
+    }
+  ]
+}
