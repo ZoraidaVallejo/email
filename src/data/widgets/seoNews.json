@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "seo-news",
+    "header": "SEO News"
+  },
+  "news": [
+    {
+      "title": "Google Explains Why Sites With Some SEO Bad Practices Rank Well ",
+      "link": "https://www.seroundtable.com/google-seo-bad-practices-rank-high-30738.html",
+      "description": "Google uses multiple algorithms to rank sites, such that search engine rankings are essentially a balancing act considering various factors designed to focus on the overall value of a website."
+    },
+    {
+      "title": "How Do I Change my Google My Business Logo?",
+      "link": "https://localu.org/how-do-i-change-my-google-my-business-logo/",
+      "description": "Changing your logo on your Google My Business profile may be just as simple as updating your cover photo on the Google My Business website."
+    },
+    {
+      "title": "Google URL Inspection Tool Now Displays Multiple Referring Pages",
+      "link": "https://www.seroundtable.com/google-url-inspection-tool-multiple-referring-pages-30765.html",
+      "description": "A recent update to Google Search Console allows users to view multiple sources used by Google to discover your URL, as opposed to a single source."
+    },
+    {
+      "title": "Google's Thoughts On Selling Domains Based On SEO Value",
+      "link": "https://www.seroundtable.com/google-on-selling-domains-based-on-seo-value-30756.html",
+      "description": "According to certain Google employees, buying used domains based on their SEO footprint is similar to buying a car based on a topped-off gas tank."
+    },
+    {
+      "title": "Google Posts No Longer Expire After Seven Days ",
+      "link": "https://www.brightlocal.com/blog/google-posts-news-jan-2021/",
+      "description": "Google Posts, which allow businesses to communicate with customers through their Google My Business listings, are appearing in the Knowledge Panel beyond the previous expiration window."
+    },
+    {
+      "title": "Schema.org vs Google Structured Data Rich Results",
+      "link": "https://www.seroundtable.com/schema-vs-google-structured-data-rich-results-30772.html",
+      "description": "If you use structured data that is published on Schema.org and also listed on the Google developer site, you can benefit by showing up with richer search results in Google Search."
+    }
+  ]
+}

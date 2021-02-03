@@ -1,0 +1,62 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "puzzle-bg.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 501px"
+      },
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "banner-premium-memberships-v39"
+      },
+      "logo": {
+        "name": "marketing",
+        "color": "blue-white"
+      },
+      "title": "<b>STOP SEARCHING FOR THE <span>LAST PIECE OF THE PUZZLE</span></b>",
+      "titleResponsiveSize": 28,
+      "image": "puzzle.png",
+      "imageAlt": "Stop Searching for the Last Piece of the Puzzle",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Still searching for that missing puzzle piece to complete your firm's marketing plan? We found it. Increase your visibility in the Justia Lawyer Directory and reach more potential clients with a <b>Justia Premium Membership.</b> "
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Contact Us Now",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}

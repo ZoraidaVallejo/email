@@ -1,0 +1,42 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Google Updated The Options to Flag a Review",
+    "link": "https://www.justia.com/",
+    "description": [
+      "Google recently updated their options for flagging a review inside the Google My Business dashboard. There are now descriptions under each of the flag options, making it easier for a business owner to see which option they should choose. The old option labeled \"hateful, violent, or innapropriate\" has been split into 3 specific labels: profanity, bullying or harassment, and discrimination and hate speech. There is also a new option to flag that there is \"personal information\" in the review."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://localu.org/google-updates-the-options-to-flag-a-review/",
+      "text": "Read More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "",
+    "link": "https://www.justia.com/marketing/cpc-ppc/",
+    "description": [
+      "<b>Justia Amplify</b> umbrellas a number of different advertising channels known to increase conversions. The <b>Justia Amplify</b> service also includes a customized client review platform that showcases your photo, practice areas, link to your website, and more.",
+      "From Google’s Local Services Ads (LSAs), Google Ads, PPC, Bing Ads PPC, and Facebook Remarketing, our marketing professionals will devise strategies that align with the overall goals and characteristics of your law firm."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/cpc-ppc/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}

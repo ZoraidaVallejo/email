@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Answer New Legal Questions on Justia Ask A Lawyer",
+    "description": [
+      "With so many changes to our lives with the ongoing pandemic, potential clients have many new related legal questions. You don’t need to visit the website and browse around for questions to answer - just turn on notifications based on the practice areas in your jurisdiction and you'll get emails in real time when questions are submitted. Make sure to check your Justia account to ensure you are receiving questions relevant to you."
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://answers.justia.com/subscriptions/?utm_medium=email&utm_campaign=2021-02&utm_source=client-newsletter&utm_content=tip-of-the-month-button-1",
+      "text": "Sign Up or Login",
+      "width": 180
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "description": [
+      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]"
+    ],
+    "button": {
+      "style": "red-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}

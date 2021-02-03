@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Participating Lawyers",
+    "type": "Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "list": [
+    {
+      "id": "1232230",
+      "rank": 1,
+      "name": "Theodore Alatsas",
+      "location": "BROOKLYN, NY",
+      "nameLink": "https://answers.justia.com/lawyer/1232230/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1232230?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "1610479",
+      "rank": 2,
+      "name": "Benjamin Charles Korray",
+      "location": "Brooklyn, NY",
+      "nameLink": "https://answers.justia.com/lawyer/1610479/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/1610479?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1498782",
+      "rank": 3,
+      "name": "Michael Zamzow",
+      "location": "Grand Rapids, MI",
+      "nameLink": "https://answers.justia.com/lawyer/1498782/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1498782?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "132703",
+      "rank": 4,
+      "name": "Dara Joy Goldsmith",
+      "location": "Las Vegas, NV",
+      "nameLink": "https://answers.justia.com/lawyer/132703/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/132703?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "1664191",
+      "rank": 5,
+      "name": "Onyema Anene Farrey",
+      "location": "Atlanta, GA",
+      "nameLink": "https://answers.justia.com/lawyer/1664191/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/1664191?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-02&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "description": [
+    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "light-blue-ghost",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}

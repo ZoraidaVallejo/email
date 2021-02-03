@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.png",
+        "alt": "Free Law Firm Webinar with Tim Stanley"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Free Law Firm Webinar with Tim Stanley</b>",
+      "description": [
+        "On January 28th, Tim Stanley, our CEO, presented in the free webinar <i>\"Smart Branding and Promotion of Your Law Firm in the Digital Age – It Should Not Cost You a Fortune, But It Could Make You One!\"</i> along with Jacksonville attorney David A. Wolf, Esq. and moderator John F. Romano, Esq. Topics discussed included Grass Root Marketing, Lawyer Directories, Google My Business, SEO, and Reputation Management, among others."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.png",
+        "alt": "Sheba Sticking to New Year Resolutions"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Sheba Sticking to New Year Resolutions</b>",
+      "description": [
+        "When she's not napping, Sheba the Hug Pug is working hard on her swoll goals! Here she is at the gym, supporting her peeps while they work out :)"
+      ]
+    }
+  ]
+}
