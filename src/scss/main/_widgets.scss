@@ -218,7 +218,12 @@
     color: plt('justia-blue');
 }
 .w-inside-justia{
-    img{
+
+    .widget-banner{
+        padding: 0 30px 20px;
+    }
+
+    img {
         border-radius: 10px;
     }
 }
