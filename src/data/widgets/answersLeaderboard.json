@@ -1,7 +1,7 @@
 {
   "widget": {
     "icon": "ask-a-lawyer",
-    "header": "Participating Lawyers",
+    "header": "Justia Participating Lawyers",
     "type": "Ask A Lawyer",
     "link": "https://answers.justia.com/about-legal-answers#faq-atty"
   },
@@ -48,7 +48,7 @@
     }
   ],
   "description": [
-    "Justia Ask a Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+    "Justia Ask A Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
   ],
   "button": {
     "style": "light-blue-ghost",

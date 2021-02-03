@@ -14,7 +14,13 @@
       "blockSubtitle": "<b>Free Law Firm Webinar with Tim Stanley</b>",
       "description": [
         "On January 28th, Tim Stanley, our CEO, presented in the free webinar <i>\"Smart Branding and Promotion of Your Law Firm in the Digital Age – It Should Not Cost You a Fortune, But It Could Make You One!\"</i> along with Jacksonville attorney David A. Wolf, Esq. and moderator John F. Romano, Esq. Topics discussed included Grass Root Marketing, Lawyer Directories, Google My Business, SEO, and Reputation Management, among others."
-      ]
+      ],
+      "button": {
+        "style": "light-blue-ghost",
+        "link": "https://www.youtube.com/watch?v=S952C67hRDE",
+        "text": "View the Recording",
+        "width": 200
+      }
     },
     {
       "image": {

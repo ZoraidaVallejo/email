@@ -1,7 +1,7 @@
 {
   "widget": {
-    "icon": "featured-news",
-    "header": "Featured News"
+    "iconSrc": "webmaster.png",
+    "header": "Webmaster’s Corner"
   },
   "link": "https://onward.justia.com/2021/02/03/using-justia-ask-a-lawyer-as-a-great-tool-to-reach-potential-clients/",
   "utm": {
@@ -10,9 +10,9 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
       "content": {
-        "title": "text-onward-post-title-1",
-        "image": "image-onward-post-1",
-        "button": "button-learn-more-1"
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
       }
     },
     "jld": {
@@ -20,16 +20,16 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
       "content": {
-        "title": "text-onward-post-title-1",
-        "image": "image-onward-post-1",
-        "button": "button-learn-more-1"
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-3",
+        "button": "button-learn-more-2"
       }
     }
   },
-  "banner": "featured-news-01.jpg",
-  "title": "Using Justia Ask A Lawyer as a Great Tool to Reach Potential Clients",
+  "banner": "featured-news-02.jpg",
+  "title": "The New Google Analytics 4",
   "description": [
-    "If you are looking for unique, cost-effective ways to grow your practice, you should consider answering legal questions online. Justia Ask A Lawyer provides attorneys with a great opportunity to market their practice by doing just that – for free!"
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae blandit neque. Aliquam a varius massa. Duis leo nulla, congue ac dui quis, convallis porttitor orci."
   ],
   "button": {
     "style": "light-blue-ghost",
