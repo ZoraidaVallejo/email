@@ -16,7 +16,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "banner-premium-memberships-v39"
+        "content": "banner-premium-memberships-v41"
       },
       "logo": {
         "name": "marketing",
@@ -38,7 +38,7 @@
           "config": {
             "style": "red",
             "text": "Contact Us Now",
-            "width": 200,
+            "width": 220,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
