@@ -1,0 +1,27 @@
+{
+  "widget": {
+    "type": "COMPANY EVENTS",
+    "header": "Upcoming Events"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "team-graphic-01.png",
+        "alt": "Justia’s Virtual Create Your Own Pizza Party"
+      },
+      "description": [
+        "The countdown is on! Thank you to all who signed up for this culinary experience. Get ready to brush up on your kitchen skills, display your creativity, and turn into a world-class chef. Do not miss the hour and date: <b>Wednesday, February 10th, at 3:00 P.M. PST.</b>"
+      ]
+    },
+    {
+      "image": {
+        "src": "team-graphic-02.png",
+        "alt": "Justia Super Bowl Challenge - 2021"
+      },
+      "description": [
+        "The time has come for our traditional Justia Super Bowl Challenge experience. Do you think you know who will win Super Bowl LV? Make your prediction and win a $100 Amazon gift card. Participate and become the new Super Bowl Challenge Champion! The <b>deadline</b> for returning David’s completed email is <b>Thursday, February 4th at 12:00 P.M. PST.</b>"
+      ]
+    }
+  ]
+}

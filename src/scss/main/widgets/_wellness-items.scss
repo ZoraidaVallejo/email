@@ -49,11 +49,11 @@
         }
 
         .content-side {
-            width: 350px;
+            width: 375px;
 
             img,
             &.-image {
-                width: 80px;
+                width: 52px;
             }
 
             &:first-child {
@@ -75,7 +75,7 @@
         }
 
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 0 50px 20px;
         }
 
         &.-button {

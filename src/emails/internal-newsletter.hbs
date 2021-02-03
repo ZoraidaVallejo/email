@@ -22,8 +22,6 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         
         {{>birthday widgetConfig=birthday}}
 
-        {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
-
         {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
         {{>new-people-2 widgetConfig=newPeople2}}
@@ -34,13 +32,15 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>wellness-items widgetConfig=wellnessItems}}
 
-        {{>team-activity widgetConfig=teamActivity}}
+        {{>activities-columns widgetConfig=activitiesColumns}}
+        
+        {{>reviews widgetConfig=reviews}}
+
+        {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 
         {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
-        
-        {{>reviews widgetConfig=reviews}}
         
         {{!-- {{>teammates widgetConfig=teammates}} --}}
 

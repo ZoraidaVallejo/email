@@ -72,12 +72,16 @@
 
                 &.fifth-icon b {
                     padding: 1px 28px 1px 0;
-                    background: image-url('fifth-anniversary-icon-01.png') no-repeat right;
+                    background-image: url('https://justatic.com/v/1/emails/images/insider/2021/02/fifth-anniversary-icon-01.png');
+                    background-repeat: no-repeat;
+                    background-position: right;
                 }
 
                 &.tenth-icon b {
                     padding: 1px 28px 1px 0;
-                    background: image-url('tenth-anniversary-icon-01.png') no-repeat right;
+                    background-image: url('https://justatic.com/v/1/emails/images/insider/2021/02/tenth-anniversary-icon-01.png');
+                    background-repeat: no-repeat;
+                    background-position: right;
                 }
             }
 
@@ -98,12 +102,14 @@
             }
 
             .-birthdays > strong {
-                background: image-url('birthday-icon-01.png') no-repeat;
+                background-image: url('https://justatic.com/v/1/emails/images/insider/2021/02/birthday-icon-01.png');
+                background-repeat: no-repeat;
                 background-position: center left;
             }
 
             .-anniversaries > strong {
-                background: image-url('anniversary-icon-01.png') no-repeat;
+                background-image: url('https://justatic.com/v/1/emails/images/insider/2021/02/anniversary-icon-01.png');
+                background-repeat: no-repeat;
                 background-position: center left;
             }
         }
