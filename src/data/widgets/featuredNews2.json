@@ -3,7 +3,7 @@
     "iconSrc": "webmaster.png",
     "header": "Webmaster’s Corner"
   },
-  "link": "https://onward.justia.com/2021/02/03/using-justia-ask-a-lawyer-as-a-great-tool-to-reach-potential-clients/",
+  "link": "https://onward.justia.com/2021/02/03/the-new-google-analytics-4/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -21,7 +21,7 @@
       "source": "directory-newsletter",
       "content": {
         "title": "text-onward-post-title-2",
-        "image": "image-onward-post-3",
+        "image": "image-onward-post-2",
         "button": "button-learn-more-2"
       }
     }
@@ -29,11 +29,12 @@
   "banner": "featured-news-02.jpg",
   "title": "The New Google Analytics 4",
   "description": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae blandit neque. Aliquam a varius massa. Duis leo nulla, congue ac dui quis, convallis porttitor orci."
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae blandit neque. Aliquam a varius massa. Duis leo nulla, congue ac dui quis, convallis porttitor orci.",
+    "In sollicitudin, tellus sed ornare fermentum, velit magna mollis velit, sed aliquet mauris sapien ut mi. Nam id egestas nunc. Sed at ullamcorper diam."
   ],
   "button": {
     "style": "light-blue-ghost",
-    "link": "https://onward.justia.com/2021/02/03/using-justia-ask-a-lawyer-as-a-great-tool-to-reach-potential-clients/",
+    "link": "https://onward.justia.com/2021/02/03/the-new-google-analytics-4/",
     "text": "Read More"
   }
 }
