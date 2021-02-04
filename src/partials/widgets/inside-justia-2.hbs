@@ -1,0 +1,80 @@
+{{! ================================================================================================================= }}
+{{! I N S I D E   J U S T I A                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-inside-justia set-max-width"}}
+  {{>widget-header
+    header=insideJustia2.widget.header
+    icon=insideJustia2.widget.icon
+  }}
+
+  {{#if insideJustia2.singleColumn}}
+
+    {{#each insideJustia2.columns}}
+
+      {{#if this.readMore}}
+        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link=this.readMore}}
+      {{else}}
+        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link="#"}}
+      {{/if}}
+
+      {{!--
+      // TODO: Maybe move title and description to a component.
+      // TODO: Fix classes for content.
+      --}}
+
+      {{#if this.button}}
+        <tr>
+          <td class="widget-description" responsive="mobile-padding-horizontal-sides">
+            <h3 class="content-title">
+              {{{this.blockTitle}}}
+            </h3>
+            {{#if this.blockSubtitle}}
+              <p class="content-subtitle">
+                {{{this.blockSubtitle}}}
+              </p>
+            {{/if}}
+            {{#each this.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+            {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+              {{this.button.text}}
+            {{/uiButton}}
+          </td>
+        </tr>
+
+      {{else}}
+        <tr>
+          <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+            <h3 class="content-title">
+              {{{this.blockTitle}}}
+            </h3>
+            {{#if this.blockSubtitle}}
+              <p class="content-subtitle">
+                {{{this.blockSubtitle}}}
+              </p>
+            {{/if}}
+            {{#each this.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/if}}
+
+    {{/each}}
+
+  {{else}}
+    {{>widget-columns-with-image widgetConfig=insideJustia2.columns isLast=true}}
+  {{/if}}
+{{/table}}

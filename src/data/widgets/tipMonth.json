@@ -4,14 +4,14 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "Answer New Legal Questions on Justia Ask A Lawyer",
+    "title": "Answer New Questions on Justia Ask A Lawyer",
     "description": [
       "With so many changes to our lives with the ongoing pandemic, potential clients have many new related legal questions. You don’t need to visit the website and browse around for questions to answer - just turn on notifications based on the practice areas in your jurisdiction and you'll get emails in real time when questions are submitted. Make sure to check your Justia account to ensure you are receiving questions relevant to you."
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://answers.justia.com/subscriptions/?utm_medium=email&utm_campaign=2021-02&utm_source=client-newsletter&utm_content=tip-of-the-month-button-1",
-      "text": "Sign Up or Login",
+      "link": "https://answers.justia.com/subscriptions?utm_medium=email&utm_campaign=2021-02&utm_source=client-newsletter&utm_content=tip-of-the-month-button-1",
+      "text": "Sign Up or Log in",
       "width": 180
     }
   },
@@ -27,8 +27,8 @@
     ],
     "button": {
       "style": "red-ghost",
-      "link": "https://accounts.justia.com/signin/?utm_medium=email&utm_campaign=2021-02&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-profile-completeness-button-v1",
-      "text": "Update profile now",
+      "link": "https://accounts.justia.com/signin?utm_medium=email&utm_campaign=2021-02&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-profile-completeness-button-v1",
+      "text": "Update Profile Now",
       "width": 200
     }
   }
