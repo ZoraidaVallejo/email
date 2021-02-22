@@ -1,0 +1,56 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "update-profiles-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<b>Introducing Our New and Improved Dashboard and Editor</b>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "We have enhanced the Justia Lawyer Directory experience with a <b>new dashboard</b> and editor that allow you to keep your Justia Lawyer Directory profile up-to-date, even on the go."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Try It Now!",
+            "width": 175,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}
