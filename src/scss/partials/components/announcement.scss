@@ -16,20 +16,26 @@
     p {
         // float: right;
         // width: calc(100% - 80px);
-        padding-left: 30px;
+        padding-left: 25px;
     }
 
     strong {
-        color: #e2231a;
+        color: #000;
     }
 
     a {
-        color: #06357a
+        color: #06357a;
+        b {
+            display: inline-block;
+        }
+        strong {
+            color: #000;
+        }
     }
 
     .announcement-content {
         display: block;
-        max-width: 430px;
+        max-width: 470px;
         margin: 0 auto;
     }
 }
