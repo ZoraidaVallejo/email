@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Headspace Guide to Meditation"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Netflix</b></a>",
+        "description": [
+          "<i>\"Narrated by Andy Puddicombe, the co-founder of Headspace and former Tibetan Buddhist monk, “Headspace Guide to Meditation” consists of eight 20-minute animated episodes exploring the many benefits of meditation. Whether it is by reducing stress, improving sleep, increasing focus, or improving relationships, research shows mindfulness works. Next time you’re feeling overwhelmed, allow yourself 10 minutes to step away. By simply coming back to the present moment, we can enhance our focus and overall productivity. These guided meditations are a great way to increase resilience and improve communication.\"</i>",
+          "- Jessica Risso"
+        ]
+      }
+    }
+  ]
+}

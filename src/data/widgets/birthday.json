@@ -1,0 +1,110 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "01",
+            "name": "Julian Mercado"
+          },
+          {
+            "day": "02",
+            "name": "Keilah Cabrera"
+          },
+          {
+            "day": "07",
+            "name": "Katherine Le"
+          },
+          {
+            "day": "10",
+            "name": "John Gaspar"
+          },
+          {
+            "day": "14",
+            "name": "Claudia Duque"
+          },
+          {
+            "day": "14",
+            "name": "Hector Rodriguez"
+          },
+          {
+            "day": "19",
+            "name": "Geovvany Suarez"
+          },
+          {
+            "day": "24",
+            "name": "Carlos Silveira"
+          },
+          {
+            "day": "25",
+            "name": "Edgar de Leon"
+          },
+          {
+            "day": "29",
+            "name": "Sadaf Hussain"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Ken Chan",
+            "years": "16th"
+          },
+          {
+            "name": "Sadaf Hussain",
+            "years": "11th"
+          },
+          {
+            "name": "Gustavo Montes",
+            "years": "11th"
+          },
+          {
+            "name": "Miguel Saldivar",
+            "years": "6th"
+          },
+          {
+            "name": "Ana Espinoza",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Lavinia Fung",
+            "years": "3rd"
+          },
+          {
+            "name": "Thomas Sullivan",
+            "years": "3rd"
+          },
+          {
+            "name": "Shelby Mancini",
+            "years": "2nd"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

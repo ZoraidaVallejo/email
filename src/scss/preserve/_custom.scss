@@ -1,0 +1,32 @@
+// ----------------------------------------------------------------------------------------------------------
+// C U S T O M   R E S P O N S I V E   C L A S S E S
+// ----------------------------------------------------------------------------------------------------------
+
+@media only screen and (max-width: $responsive-max-width) {
+
+    // C U S T O M
+    // -----------
+    .main-footer {
+        background-color: red;
+
+        .footer-logo {
+            padding-bottom: 20px !important;
+            border-bottom: 1px solid plt('bright-blue');
+        }
+
+        .footer-social {
+            padding-top: 20px !important;
+        }
+    }
+
+    .responsive-button {
+        width: auto !important;
+        padding: 10px 20px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+
+.main-footer {
+    background-color: red;
+}

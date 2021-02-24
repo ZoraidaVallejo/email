@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "feature": {
+    "image": {
+      "src": "featuredonward-01.png",
+      "alt": "Introducing Your New Justia Lawyer Directory Profile Dashboard and Improved Profile Editor"
+    },
+    "readMore": "https://onward.justia.com/2021/02/18/introducing-your-new-justia-lawyer-directory-profile-dashboard-and-improved-profile-editor/",
+    "blockTitle": "Introducing Your New Justia Lawyer Directory Profile Dashboard and Improved Profile Editor"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Introducing Your New Justia Lawyer Directory Profile Dashboard and Improved Profile Editor"
+      },
+      "readMore": "https://onward.justia.com/2020/12/23/justia-accomplishments-in-2020-year-in-review/",
+      "blockTitle": "Justia Accomplishments in 2020 – Year in Review",
+      "description": [
+        "In the future, 2020 will be seen as a symbol of change, adversity, adaptation, and resilience. At Justia, we overcame the challenges of this year and were able to complete projects and launch new initiatives as part of our commitment to consumers and the legal community."
+      ]
+    }
+  ]
+}
