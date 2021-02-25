@@ -32,7 +32,7 @@
       "image": "quote-bg-01.png",
       "width": 500,
       "bgColor": "#ffffff",
-      "cssSize": "550px 300px",
+      "cssSize": "550px 275px",
       "responsive": "mobile-padding-20-top mobile-padding-30-bottom"
     },
     "contentOrder": [
@@ -43,8 +43,8 @@
           "image": "quote-graphic-01.png",
           "description": [
             "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">",
-            "<i>Trust the Magic of New<br>Beginnings\"</i>",
-            "– Janet Gwen"
+            "<i>An optimist is the human personification of spring.\"</i>",
+            "- Susan J. Bissonette"
           ]
         }
       }

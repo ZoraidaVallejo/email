@@ -1146,11 +1146,11 @@ a {
 }
 
 .w-advertisement.-jld-ad-quote .content {
-  padding: 0 25px 45px 50px;
+  padding: 0 25px 56px 50px;
 }
 
 .w-advertisement.-jld-ad-quote .content p {
-  font: 700 32px/1.3 Roboto, Arial, sans-serif;
+  font: 700 30px/1.3 Roboto, Arial, sans-serif;
   color: #ffffff;
   margin: 0 0 8px;
 }
@@ -1161,7 +1161,7 @@ a {
 
 .w-advertisement.-jld-ad-quote .content .-description p:first-child {
   padding: 0;
-  margin: 0 0 24px;
+  margin: 0 0 18px;
   background: none;
 }
 
@@ -1175,7 +1175,7 @@ a {
 
 .w-advertisement.-jld-ad-quote .content-side.-image {
   width: 248px;
-  padding: 40px 0 0;
+  padding: 15px 0 0;
 }
 
 .w-advertisement.-jld-ad-quote .content-side.-image img {
@@ -1685,110 +1685,104 @@ a {
   padding: 0 25px 50px;
 }
 
-.w-holidays td {
+.w-holidays-2 td {
   text-align: left;
 }
 
-.w-holidays .justia-logo {
+.w-holidays-2 .justia-logo {
   padding: 40px 25px 30px;
   text-align: center;
 }
 
-.w-holidays .justia-logo img {
+.w-holidays-2 .justia-logo img {
   width: 320px;
   margin: 0 auto;
 }
 
-.w-holidays .title {
+.w-holidays-2 .title {
   padding: 0 25px 35px;
 }
 
-.w-holidays .title a {
+.w-holidays-2 .title a {
   font: 30px/1.15 Roboto, Arial, sans-serif;
   color: #06357a;
 }
 
-.w-holidays .widget-banner {
-  padding: 0 50px 35px;
+.w-holidays-2 .image {
+  padding: 0 25px;
 }
 
-.w-holidays .widget-description {
-  padding: 0 50px 50px;
-}
-
-.w-holidays .content-subtitle {
-  font: 700 16px/1.3 Roboto, Arial, sans-serif;
-  color: #06357a;
-}
-
-.w-holidays .image {
-  padding: 0 25px 20px;
-}
-
-.w-holidays .image img {
+.w-holidays-2 .image img {
   width: 500px;
 }
 
-.w-holidays .content {
-  padding: 0 50px 45px;
+.w-holidays-2 .content {
+  padding: 0 25px 43px;
 }
 
-.w-holidays .content a {
-  font: 700 18px/1.5 Roboto, Arial, sans-serif;
-  color: #06357a;
-}
-
-.w-holidays .content a * {
-  color: #06357a;
-}
-
-.w-holidays .content p b {
-  color: #06357a;
-}
-
-.w-holidays .content p {
+.w-holidays-2 .content p {
   margin-bottom: 0;
 }
 
-.w-holidays .content .content-side {
-  width: 375px;
+.w-holidays-2 .content p a {
+  color: #06357a;
 }
 
-.w-holidays .content .content-side img {
-  width: 375px;
+.w-holidays-2 .content p a * {
+  color: #06357a;
 }
 
-.w-holidays .content .content-side:first-child {
-  float: left;
+.w-holidays-2 .content .content-subtitle {
+  color: #06357a;
 }
 
-.w-holidays .content .content-side:last-child {
+.w-holidays-2 .content .content-side {
+  width: 231px;
+}
+
+.w-holidays-2 .content .content-side img {
+  width: 225px;
+}
+
+.w-holidays-2 .content .content-side:first-child {
   float: right;
 }
 
-.w-holidays .content .-description {
-  padding: 80px 0 0;
+.w-holidays-2 .content .content-side:last-child {
+  float: left;
 }
 
-.w-holidays .content .-list {
+.w-holidays-2 .content .-image p {
+  margin-top: 15px;
+}
+
+.w-holidays-2 .content .-list {
   color: #340081;
   text-align: left;
 }
 
-.w-holidays .content.-button {
+.w-holidays-2 .content.-first {
+  padding: 0 25px 43px;
+}
+
+.w-holidays-2 .content.-button {
   padding: 0 25px 18px;
 }
 
-.w-holidays .content.-last {
-  padding: 0 50px 50px;
+.w-holidays-2 .content.-idx-3 {
+  padding: 0 25px 10px;
 }
 
-.w-holidays .content.-idx-2 {
-  padding: 0 50px 50px;
+.w-holidays-2 .content.-last {
+  padding: 0 25px 50px;
 }
 
-.w-holidays .content.-idx-2 p {
-  font: 16px/1.5 Roboto, Arial, sans-serif;
+.w-holidays-2 .-idx-2 .content-side:first-child {
+  float: left;
+}
+
+.w-holidays-2 .-idx-2 .content-side:last-child {
+  float: right;
 }
 
 .w-reviews td {
