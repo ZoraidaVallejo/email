@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "General Surgery Expert Witness Not Allowed to Testify in Wrongful Death Case",
+      "link": "https://www.expertwitnessblog.com/general-surgery-expert-witness-testimony-not-allowed/",
+      "description": "A <a href='https://www.jurispro.com/category/general-surgery-s-450' target='_blank'>General Surgery Expert Witness</a> was not allowed to testify because his training was in general medicine and not internal medicine."
+    },
+    {
+      "title": "Allergies & Immunology Expert Witness Testimony Not Allowed in Allergic Reaction Case",
+      "link": "https://www.expertwitnessblog.com/allergies-immunology-expert-witness-testimony-no-allowed/",
+      "description": "<a href='https://www.jurispro.com/category/allergies-and-immunology-s-437' target='_blank'>Allergies & Immunology Expert Witness</a> was not qualified to opine on the standard of care of a pharmacist in prescribing antibiotics."
+    },
+    {
+      "title": "Marine Engineering Expert Witness Testimony Limited in Asbestos Case",
+      "link": "https://www.expertwitnessblog.com/marine-engineering-expert-witness-testimony-allowed-in-part/",
+      "description": "<a href='https://www.jurispro.com/category/marine-engineering-s-320' target='_blank'>Marine Engineering Expert Witness</a> could testify on procurement of items used on ships, but could not opine on the duty to warn of asbestos."
+    },
+    {
+      "title": "Business Valuation Expert Witness Allowed to Testify in Benefits Claim Case",
+      "link": "https://www.expertwitnessblog.com/business-valuation-expert-witness-testimony-allowed-3/",
+      "description": "<a href='https://www.jurispro.com/category/business-valuation-s-86' target='_blank'>Business Valuation Expert Witness</a> could testify despite not being certified in financial forensics. "
+    }
+  ]
+}

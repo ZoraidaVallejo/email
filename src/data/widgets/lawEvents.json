@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "8-12",
+      "month": "Mar",
+      "title": "ABA TECHSHOW 2021",
+      "time": "11am ET",
+      "typeLocation": "Virtual Conference",
+      "link": "https://web.cvent.com/event/8f741302-1b33-4d9b-9b42-6c3fef1fb40b/summary"
+    },
+    {
+      "day": "15",
+      "month": "Mar",
+      "title": "Damages in the Age of COVID-19",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/409846765/"
+    },
+    {
+      "day": "19",
+      "month": "Mar",
+      "title": "Pro Bono in the Time of Pandemic",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/408361424/"
+    },
+    {
+      "day": "24",
+      "month": "Mar",
+      "title": "Investing in Well-being: Covid, Death, & Taxes - Young Lawyers, Make a Plan!",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/410530884/"
+    },
+    {
+      "day": "29-30",
+      "month": "Mar",
+      "title": "2021 Virtual Professional Success Summit",
+      "time": "9am ET",
+      "typeLocation": "Virtual Conference",
+      "link": "https://web.cvent.com/event/a7f80c7b-7616-4c60-8d79-2e95cafea635/summary"
+    }
+  ]
+}

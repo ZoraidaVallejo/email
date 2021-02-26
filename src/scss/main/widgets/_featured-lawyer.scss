@@ -1,0 +1,59 @@
+// ----------------------------------------------------------------------------------------------------------
+// F E A T U R E D   L A W Y E R
+// ----------------------------------------------------------------------------------------------------------
+
+.w-featured-lawyer {
+
+    .lawyer-info {
+        padding: 0 $padding 23px;
+        text-align: center;
+
+        a {
+            color: plt('black');
+        }
+
+        .images-group {
+            width: 292px;
+            border-bottom: 1px solid plt('mail', 'clear-gray');;
+            margin: 0 auto;
+
+            .wrapper {
+                width: 50%;
+
+                &.-photo {
+                    padding: 0 10px 15px 0;
+                    text-align: left;
+                }
+
+                &.-badge {
+                    padding: 0 0 15px 10px;
+                    text-align: right;
+                }
+            }
+        }
+
+        .photo {
+            width: 125px;
+        }
+
+        .name {
+            @include mail-font(20px, 1.1);
+            margin: 12px 0 6px;
+        }
+
+        .location {
+            @include mail-font(12px, 1);
+        }
+    }
+
+    .widget-description {
+
+        p {
+            margin: 0 0 24px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}

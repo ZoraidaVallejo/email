@@ -1,0 +1,35 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "[Esse est velit ea officia sunt consectetur exercitation veniam Lorem veniam ad nisi enim.]",
+    "description": [
+      "[Adipisicing quis incididunt qui excepteur. Magna ad enim commodo excepteur magna. Aute qui cillum officia veniam culpa laborum velit.]"
+    ],
+    "button": {
+      "style": "red",
+      "link": "",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Updating Your Justia Lawyer Directory Profile",
+    "description": [
+      "With the launch of the improved Editor, updating your profile is easier than ever. Including a list of practice areas, short bio, high quality photo, publications, awards, and a link to your website or blog will help you connect with clients and generate more leads.",
+      "Be sure to sign in to take advantage of all the sections available to update - all free!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://accounts.justia.com/signin?utm_medium=email&utm_campaign=2021-03&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-profile-completeness-button-v1",
+      "text": "Update Profile Now",
+      "width": 200
+    }
+  }
+}

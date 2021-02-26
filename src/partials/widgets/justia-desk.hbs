@@ -1,0 +1,23 @@
+{{! ================================================================================================================= }}
+{{! T E C H   N E W S                                                                                                 }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-justia-desk set-max-width"}}
+    {{#if justiaDesk.widget.iconSrc}}
+        {{>widget-header
+        header=justiaDesk.widget.header
+        iconSrc=justiaDesk.widget.iconSrc
+        }}
+    {{else}}
+        {{>widget-header
+        header=justiaDesk.widget.header
+        icon=justiaDesk.widget.icon
+        }}
+    {{/if}}
+
+  {{>widget-columns-articles widgetConfig=justiaDesk.news isLast=true}}
+{{/table}}

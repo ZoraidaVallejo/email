@@ -1,0 +1,97 @@
+{
+  "widget": {
+    "iconSrc": "trending-news.png",
+    "header": "Trending News"
+  },
+  "subtitle": "These are our editors' picks. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "The Bizarre Reaction To Facebook's Decision to Get Out of The News Business in Australia",
+          "link": "https://www.techdirt.com/articles/20210217/22383446265/bizarre-reaction-to-facebooks-decision-to-get-out-news-business-australia.shtml"
+        },
+        {
+          "title": "Tech Groups Are Suing to Halt Maryland’s New Digital Services Tax",
+          "link": "https://www.theverge.com/2021/2/18/22289825/maryland-digital-services-tax-lawsuit-internet-association"
+        },
+        {
+          "title": "Klobuchar Targets Big Tech With Biggest Antitrust Overhaul in 45 Years",
+          "link": "https://arstechnica.com/tech-policy/2021/02/klobuchar-targets-big-tech-with-biggest-antitrust-overhaul-in-45-years/"
+        },
+        {
+          "title": "Jeff Bezos to Step Down as Amazon CEO, Andy Jassy to Take Over in Q3",
+          "link": "https://www.cnbc.com/2021/02/02/jeff-bezos-to-step-down-as-amazon-ceo-andy-jassy-to-take-over-in-q3.html"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Google Updates Event Structured Data Requirements",
+          "link": "https://www.searchenginejournal.com/google-updates-event-structured-data-requirements/"
+        },
+        {
+          "title": "Inside Google Marketing: 3 Steps to Master Digital Advertising",
+          "link": "https://www.thinkwithgoogle.com/future-of-marketing/digital-transformation/digital-marketing-media-guide/"
+        },
+        {
+          "title": "Google My Business Adds Guidelines For Co-Working Spaces",
+          "link": "https://www.seroundtable.com/google-my-business-guidelines-co-working-spaces-30863.html"
+        },
+        {
+          "title": "Bing Local Replaces Yelp Reviews With Facebook & Foursquare Reviews",
+          "link": "https://www.seroundtable.com/bing-local-drops-yelp-reviews-for-facebook-foursquare-30932.html"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Parler Is Back Online After a Month of Downtime",
+          "link": "https://www.theverge.com/2021/2/15/22284036/parler-social-network-relaunch-new-hosting"
+        },
+        {
+          "title": "Brace Your Ears, Twitter Rolls Out Voice DMs in India, Brazil, and Japan",
+          "link": "https://thenextweb.com/plugged/2021/02/17/twitter-voice-dm-india-brazil-japan-launch/"
+        },
+        {
+          "title": "Facebook Will Block Australian Users and Publishers From Sharing News Links in Response to New Bill",
+          "link": "https://www.theverge.com/2021/2/17/22287776/facebook-block-news-australia-regulation-media-link-sharing"
+        },
+        {
+          "title": "TikTok Announces New Live-Stream Partnership with UFC",
+          "link": "https://www.socialmediatoday.com/news/tiktok-announces-new-live-stream-partnership-with-ufc/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Minneapolis, Minnesota Becomes the Latest Major City to Pass a Facial Recognition Ban",
+          "link": "https://www.techdirt.com/articles/20210214/09541746242/minneapolis-minnesota-becomes-latest-major-city-to-pass-facial-recognition-ban.shtml"
+        },
+        {
+          "title": "Judge Rules Against Britney Spears' Father In Conservatorship Dispute",
+          "link": "https://www.npr.org/2021/02/11/967176455/judge-rules-against-britney-spears-father-in-conservatorship-dispute"
+        },
+        {
+          "title": "Silenced No More Act Seeks to Ban Use of NDAs in Situations Involving Harassment or Discrimination",
+          "link": "https://techcrunch.com/2021/02/08/silenced-no-more-act-seeks-to-ban-use-of-ndas-in-situations-involving-harassment-or-discrimination/"
+        },
+        {
+          "title": "Debate Over Court Packing Continues",
+          "link": "https://www.scotusblog.com/2021/02/debate-over-court-packing-continues/"
+        }
+      ]
+    }
+  ]
+}

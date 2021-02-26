@@ -1,0 +1,42 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "You Can Quickly Add Video Chat Options to Your Profile With Our New Editor",
+    "link": "https://www.justia.com/",
+    "description": [
+      "Video conferencing is a great way to boost productivity, promote collaboration, and reduce travel time and expenses. During the ongoing COVID-19 pandemic, it is also a good way to safely meet with clients and colleagues. With our new Justia Lawyer Directory profile editor, you can easily update your profile to include information about your video chat and conferencing capabilities."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "[Quis reprehenderit aliquip laboris ex id ex adipisicing non cupidatat cillum adipisicing. Exercitation voluptate ex magna id dolore adipisicing commodo ex cupidatat officia veniam eu dolore. Labore quis ullamco ea magna id sit. Voluptate dolore id ad fugiat fugiat ipsum minim excepteur nisi laboris. Non ipsum ea ipsum laboris ullamco minim consectetur. Ullamco cupidatat ut magna do. Laboris et incididunt cillum voluptate voluptate sunt mollit pariatur irure non commodo commodo.]",
+      "[Nostrud velit occaecat excepteur deserunt laboris duis irure commodo irure ullamco magna occaecat in. Duis cupidatat enim aliqua est ut amet sunt. Aliquip duis nulla eu commodo dolore nostrud labore adipisicing duis culpa.]"
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}
