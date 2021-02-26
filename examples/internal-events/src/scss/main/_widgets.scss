@@ -87,3 +87,8 @@
 .w-onboarding .image img {
     width: 370px;
 }
+
+.persons-name {
+    @include mail-font(20px);
+    margin: 0 0 27px;
+}

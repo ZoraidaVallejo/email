@@ -2,7 +2,7 @@
 subject: Welcoming our new team member, [NAME]!
 ---
 
-{{>preheader text="Please join us and Welcome our new member [NAME]! ---- "}}
+{{>preheader text="Please join us in welcoming Lucia to Justia! ---- "}}
 
 {{#table align=""}}
   <tr>
@@ -13,20 +13,13 @@ subject: Welcoming our new team member, [NAME]!
   <tr>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
-
         {{#table class="widget set-max-width"}}
           <tr>
             <td class="wrapper" responsive="mobile-padding-horizontal-sides">
-
               {{#table class="w-new-employee set-max-width"}}
                 <tr>
                   <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
-                    <p>
-                      <strong>
-                        We Want to Welcome<br>
-                        Our New Team Member!
-                      </strong>
-                    </p>
+                    <p><strong>Welcome to Justia!</strong></p>
                   </td>
                 </tr>
                 <tr>
@@ -36,22 +29,31 @@ subject: Welcoming our new team member, [NAME]!
                 </tr>
                 <tr>
                   <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
-                    <p>
-                      <strong>[NAME]</strong><br>
-                      <strong>[TEAM]</strong><br>
-                      [DESCRIPTION]<br>
+                    <p class="persons-name">
+                      <strong>[NAME]</strong>
                       <br>
-                      Contact information:<br>
+                      <strong>[TEAM]</strong>
+                    </p>
+                    <p>
+                      [DESCRIPTION]
+                      <br>
+                      <br>
+                      Contact information:
+                      <br>
                       <strong>email/IM:</strong> <strong><a href="mailto:[EMAIL]" target="_blank">[EMAIL]</a></strong>
+                      <br>
+                      <br>
+                      Welcome [NAME]! Expect to be learning a lot and having some fun.
+                      <br>
+                      <br>
+                      The Justia Team
                     </p>
                   </td>
                 </tr>
               {{/table}}
-
             </td>
           </tr>
         {{/table}}
-
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
