@@ -799,11 +799,6 @@ a {
 
 .widget-columns.-with-image .grid-row .grid-cell {
   width: 225px;
-  padding: 0 25px 0 0;
-}
-
-.widget-columns.-with-image .grid-row .grid-cell:nth-child(2) {
-  padding: 0 0 0 25px;
 }
 
 .widget-columns.-with-image .block-image {

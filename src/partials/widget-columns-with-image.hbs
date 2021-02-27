@@ -14,7 +14,7 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
+        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=50 rowsGap=25 firstRow=@first}}
           {{#each this}}
             {{#unless @first}}
               {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
