@@ -108,9 +108,9 @@
     > .wrapper {
         padding: 0 $padding 20px;
 
-        &.-last {
-            padding: 0 $padding 50px;
-        }
+        // &.-last {
+        //     padding: 0 $padding 50px;
+        // }
     }
 
     &.-articles {
@@ -142,8 +142,17 @@
             }
         }
 
+        .grid-row .grid-cell {
+            width: 225px;
+            padding: 0 25px 0 0;
+
+            &:nth-child(2) {
+                padding: 0 0 0 25px;
+            }
+        }
+
         .block-image {
-            width: 370px;
+            width: 225px;
         }
 
         .block-title {
@@ -177,6 +186,19 @@
                     color: plt('justia-blue');
                 }
             }
+        }
+    }
+}
+.w-new-people .widget-columns {
+
+    > .wrapper {
+
+        .block-image {
+            width: 230px;
+        }
+
+        &.-last {
+            padding: 0 $padding 50px;
         }
     }
 }

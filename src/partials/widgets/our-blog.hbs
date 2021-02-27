@@ -12,6 +12,35 @@
     type=ourBlog.widget.type
   }}
 
+  {{#if ourBlog.description.top}}
+    <tr>
+      <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+        {{#each ourBlog.description.top}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if ourBlog.feature}}
+
+      {{>widget-banner imgSrc=ourBlog.feature.image.src imgAlt=ourBlog.feature.image.alt}}
+      <tr>
+        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+          <h3 class="block-title">
+            {{#if ourBlog.feature.readMore}}<a href="{{{ourBlog.feature.readMore}}}" target="_blank" class="block-image-link">{{/if}}
+              {{{ourBlog.feature.blockTitle}}}
+            {{#if ourBlog.feature.readMore}}</a>{{/if}}
+          </h3>
+          {{#if blockSubtitle}}
+            <p class="content-subtitle">
+              {{{blockSubtitle}}}
+            </p>
+          {{/if}}
+        </td>
+      </tr>
+  {{/if}}
+
   {{#if ourBlog.singleColumn}}
 
     {{#each ourBlog.columns}}
@@ -46,5 +75,15 @@
 
   {{else}}
     {{>widget-columns-with-image widgetConfig=ourBlog.columns isLast=true}}
+  {{/if}}
+
+  {{#if ourBlog.description.bottom}}
+    <tr>
+      <td class="widget-description -no-button -last" responsive="mobile-padding-horizontal-sides">
+        {{#each ourBlog.description.bottom}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      </td>
+    </tr>
   {{/if}}
 {{/table}}

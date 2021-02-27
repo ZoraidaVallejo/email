@@ -47,6 +47,7 @@ $mail-global-font-family: 'Roboto', Arial, sans-serif;
     'main/widgets/take-pause',
     'main/widgets/wellness-items',
     'main/widgets/new-people-2',
+    'main/widgets/our-blog',
     'main/utilities';
 
 // @import
@@ -77,18 +78,17 @@ body {
 }
 
 .w-milestones {
-    background: image-url('odd-block-02.png') no-repeat plt('white');
+    background: image-url('odd-block-03.png') no-repeat plt('white');
     background-position: center;
 }
 
-.w-advertisement.-jld-ad-04 {
-    background: image-url('odd-block-02.png') no-repeat plt('white');
-    background-position: bottom;
-}
+// .w-advertisement.-jld-ad-04 {
+//     background: image-url('odd-block-02.png') no-repeat plt('white');
+//     background-position: bottom;
+// }
 
-.w-blog-justia,
-.w-new-people-2 {
-    background: image-url('odd-block-03.png') no-repeat plt('white');
+.w-holidays-2 {
+    background: image-url('odd-block-01.png') no-repeat plt('white');
     background-position: center;
 }
 

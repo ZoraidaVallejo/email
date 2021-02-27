@@ -778,10 +778,6 @@ a {
   padding: 0 25px 20px;
 }
 
-.widget-columns > .wrapper.-last {
-  padding: 0 25px 50px;
-}
-
 .widget-columns.-articles .article a,
 .widget-columns.-articles .article p {
   color: #000000;
@@ -801,8 +797,17 @@ a {
   margin: 25px 0 0;
 }
 
+.widget-columns.-with-image .grid-row .grid-cell {
+  width: 225px;
+  padding: 0 25px 0 0;
+}
+
+.widget-columns.-with-image .grid-row .grid-cell:nth-child(2) {
+  padding: 0 0 0 25px;
+}
+
 .widget-columns.-with-image .block-image {
-  width: 370px;
+  width: 225px;
 }
 
 .widget-columns.-with-image .block-title {
@@ -831,6 +836,14 @@ a {
 
 .widget-columns.-with-image .block p a b {
   color: #06357a;
+}
+
+.w-new-people .widget-columns > .wrapper .block-image {
+  width: 230px;
+}
+
+.w-new-people .widget-columns > .wrapper.-last {
+  padding: 0 25px 50px;
 }
 
 .w-blog-justia .widget-banner {
@@ -1733,6 +1746,8 @@ a {
 }
 
 .w-holidays-2 .content .content-subtitle {
+  display: block;
+  font: 700 16px/1.3 Roboto, Arial, sans-serif;
   color: #06357a;
 }
 
@@ -1783,6 +1798,10 @@ a {
 
 .w-holidays-2 .-idx-2 .content-side:last-child {
   float: right;
+}
+
+.w-reviews {
+  border-radius: 0 0 10px 10px;
 }
 
 .w-reviews td {
@@ -2506,6 +2525,39 @@ a {
   padding: 0 25px 50px;
 }
 
+.w-blog-justia .image {
+  padding: 0 25px 20px;
+}
+
+.w-blog-justia .image img {
+  width: 500px;
+}
+
+.w-blog-justia .widget-description {
+  padding: 0 25px 34px;
+}
+
+.w-blog-justia .widget-description.-last {
+  padding: 10px 25px 45px;
+}
+
+.w-blog-justia .content {
+  padding: 0 25px 25px;
+  text-align: left;
+}
+
+.w-blog-justia .content.-description {
+  padding: 0 25px 25px;
+}
+
+.w-blog-justia .content.-first {
+  padding: 0 25px 35px;
+}
+
+.w-blog-justia .content.-button {
+  padding: 0 25px 18px;
+}
+
 .full-size {
   width: 100%;
   height: 100%;
@@ -2566,18 +2618,12 @@ body {
 }
 
 .w-milestones {
-  background: url("../images/odd-block-02.png") no-repeat #ffffff;
+  background: url("../images/odd-block-03.png") no-repeat #ffffff;
   background-position: center;
 }
 
-.w-advertisement.-jld-ad-04 {
-  background: url("../images/odd-block-02.png") no-repeat #ffffff;
-  background-position: bottom;
-}
-
-.w-blog-justia,
-.w-new-people-2 {
-  background: url("../images/odd-block-03.png") no-repeat #ffffff;
+.w-holidays-2 {
+  background: url("../images/odd-block-01.png") no-repeat #ffffff;
   background-position: center;
 }
 

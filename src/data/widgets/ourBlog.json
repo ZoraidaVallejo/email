@@ -3,9 +3,14 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
+  "description": {
+    "bottom": [
+      "Our Spanish blog Avanza was launched back on April 23rd, 2020. Since then, our team has consistently translated and added the most recent posts from our Onward site for all of the Spanish-speaking community. Take a look at our <a href=\"https://avanza.justia.com/\" target=\"_blank\"><b>blog</b></a> and read the blog posts in Spanish!"
+    ]
+  },
   "feature": {
     "image": {
-      "src": "featuredonward-01.png",
+      "src": "featured-onward-01.png",
       "alt": "Introducing Your New Justia Lawyer Directory Profile Dashboard and Improved Profile Editor"
     },
     "readMore": "https://onward.justia.com/2021/02/18/introducing-your-new-justia-lawyer-directory-profile-dashboard-and-improved-profile-editor/",
