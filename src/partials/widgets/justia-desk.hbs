@@ -32,8 +32,6 @@
 }}
 
 {{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars))}}
-
-
 {{assign "columnStructure" (chunks justiaDesk.news 2 true)}}
 
 {{! ================================================================================================================= }}
@@ -63,7 +61,7 @@
 
                 {{#if this.title}}
                 <p class="title">
-                    {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}{{#if this.content}}{{@root.justiaDeskTitleLink}}&{{this.content}}{{/if}}" target="_blank">{{/and}}
+                    {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
                     <b>{{{this.title}}}</b>
                     {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
                 </p>
