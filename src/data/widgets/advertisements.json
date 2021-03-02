@@ -5,52 +5,14 @@
   },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "premium-placement-bg.png",
-        "width": 600,
-        "bgColor": "#0056dc",
-        "cssSize": "600px 300px",
-        "responsive": "mobile-reset-bg-image"
-      },
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
-        "content": "[jld-ad-01-example]"
+        "content": "banner-premium-memberships-v42"
       },
-      "logo": {
-        "name": "marketing",
-        "color": "blue-white"
-      },
-      "titleResponsiveSize": 20,
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "description": [
-              "<b class='heading'>Don’t Wait to Get Lucky <span>With Your Marketing</span></b>",
-              "Not everything can be left up to chance. Expand your visibility and strengthen your brand with a <b>Justia Premium Membership.</b>"
-            ]
-          }
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Learn More",
-            "width": 150,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
-          }
-        }
-      ]
+      "image": "premium-placement.jpg"
     },
     "ad2": {
       "background": {
