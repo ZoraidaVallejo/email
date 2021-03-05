@@ -5,7 +5,7 @@
       "header": "Did You Know?"
     },
     "title": "You Can Quickly Add Video Chat Options to Your Profile With Our New Editor",
-    "link": "https://www.justia.com/lawyers",
+    "link": "https://www.justia.com/lawyers?utm_medium=email&utm_campaign=2021-03&utm_source=client-newsletter&utm_content=section-did-you-know-title-1",
     "description": [
       "Video conferencing is a great way to boost productivity, promote collaboration, and reduce travel time and expenses. During the ongoing COVID-19 pandemic, it is also a good way to safely meet with clients and colleagues. With our new Justia Lawyer Directory profile editor, you can easily update your profile to include information about your video chat and conferencing capabilities."
     ],
@@ -13,7 +13,12 @@
       "style": "justia-blue",
       "link": "https://www.justia.com/lawyers",
       "text": "Learn More",
-      "utm": {}
+      "utm": {
+        "medium": "email",
+        "source": "client-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
     }
   },
   "jld": {
