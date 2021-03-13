@@ -1,0 +1,20 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#fff",
+        "cssSize": "600px 350px"
+      },
+      "link": "https://www.justia.com/",
+      "title": "The Oral Argument Amicus",
+      "titleResponsiveSize": 24,
+      "image": "logo.png"
+    }
+  }
+}
