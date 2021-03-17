@@ -46,13 +46,13 @@
         }
 
         p {
-            margin: 0 0 22px
+            margin: 0 auto 22px
         }
 
         .heading4{
             font-size: rem-calc(18px);
             display: block;
-            margin: 0;
+            margin: 0 auto;
         }
 
         .subheading{
@@ -92,7 +92,7 @@
             p{
                 // padding: 0 50px;
                 max-width: 500px;
-                margin: 0 auto;
+                // margin: 0 auto;
             }
         }
 
@@ -120,6 +120,7 @@
 
         b a {
             color: plt('justia-blue')!important;
+            display: inline-block;
         }
     }
 }
