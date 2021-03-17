@@ -52,7 +52,7 @@
         .heading4{
             font-size: rem-calc(18px);
             display: block;
-            margin: 0 0 8px;
+            margin: 0;
         }
 
         .subheading{
@@ -83,8 +83,15 @@
         }
 
         &.-first {
-            padding: 40px 50px 25px;
+            padding: 40px 0px 25px;
             text-align: left;
+
+            img{
+                margin: 0 auto;
+            }
+            p{
+                padding: 0 50px;
+            }
         }
 
         &.-button {
