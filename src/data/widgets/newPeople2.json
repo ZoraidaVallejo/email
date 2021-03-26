@@ -1,0 +1,23 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Jose Soto",
+        "blockSubtitle": "Engineering Team",
+        "description": "Hello everyone! My name is Jose Soto, and I'm very excited to start working at Justia. I love to talk about sports, movies, series, and videogames. I'm a huge fan of RPGs such as Persona, Shin Megami Tensei, Yakuza, and FIFA."
+      }
+    },
+    {
+      "type": "description",
+      "config": [
+        "If you want a match, just send me a message through Slack! I also like sci-fi and fantasy movies, but the ones I love the most are superhero films. I'm very excited to be a part of this company!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Text Message Verification Feature in JLD: ",
+        "description": "As of March 10, 2021, any person claiming a profile in JLD will have the option of receiving a text message with an authorization code instead of receiving an automated phone call message."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "https://www.justia.com/consumer-business-legal-forms/",
+        "title": "Consumer & Business Legal Forms Center: ",
+        "description": "Our Editorial Team compiled surveys for each of the major topics in the 50 states, providing an overview of the core legal principles and links to each state's forms and resources."
+      }
+    }
+  ]
+}
