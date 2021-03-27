@@ -31,6 +31,10 @@
             color: plt('justia-blue');
         }
     }
+    
+    .widget-header {
+        padding: $widget-gap 40px 25px;
+    }
 
     .image {
         padding: 0 $padding $widget-gap;
@@ -93,10 +97,15 @@
         }
     }
 
-    &.-jld-ad-01,
-    &.-jld-ad-02 {
-        .image {
-            padding: $widget-gap 0;
+    &.w-team-activities-3 {
+        .widget-header {
+            padding: 40px 40px 25px;
+        }
+    }
+
+    &.w-team-activities-4 {
+        .widget-header {
+            padding: 42px 85px 25px;
         }
     }
 }

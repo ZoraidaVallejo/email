@@ -28,28 +28,6 @@
     ]
   },
   "quote": {
-    "background": {
-      "image": "quote-bg-01.png",
-      "width": 500,
-      "bgColor": "#ffffff",
-      "cssSize": "550px 275px",
-      "responsive": "mobile-padding-20-top mobile-padding-30-bottom"
-    },
-    "contentOrder": [
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "mobile-fz-19",
-          "image": "quote-graphic-01.png",
-          "description": [
-            "<img src=\"../dist/images/quote-icon-01.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"114px\">"
-          ]
-        }
-      }
-    ]
-  },
-  "event": {
-    "title": "Upcoming Events",
-    "image": "events-graphic-01.png"
+    "image": "quote-graphic-02.png"
   }
 }
