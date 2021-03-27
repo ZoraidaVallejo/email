@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Client Newsletter!"
+    ],
+    "message": [
+      "Stay up to date with legal marketing insights from reputation management to slogans and social media. Catch up on breaking legal and technology news, including Amazon’s NFL deal and new SEO updates from Google, and learn more about what is going on behind the doors at Justia."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Monthly Newsletter!"
+    ],
+    "message": [
+      "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing.",
+      "Justia has an unparalleled track record of helping law firms grow. If you're interested in our Justia Premium Membership opportunities, website and SEO services, PPC Management, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

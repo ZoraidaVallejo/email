@@ -1,0 +1,70 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   N E W S                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
+// In this case it uses featuredNews because both Newsletters shared the same info,
+// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
+}}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{#and webmaster.link (compare webmaster.link "!==" "")}}
+  {{assign "featuredNewsTitleLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsImageLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+
+{{#and webmaster.button (compare webmaster.button.link "!==" "")}}
+  {{assign "featuredNewsButtonLink" (concat webmaster.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-featured-news w-webmaster set-max-width"}}
+  {{>widget-header
+    header=webmaster.widget.header
+    iconSrc=webmaster.widget.iconSrc
+  }}
+
+  {{>widget-banner
+    imgSrc=webmaster.banner
+    imgAlt=webmaster.title
+    link=@root.featuredNewsImageLink
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <h3 class="content-title">
+        <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
+          {{{webmaster.title}}}
+        </a>
+      </h3>
+
+      {{#each webmaster.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=webmaster.button.style href=@root.featuredNewsButtonLink}}
+          {{webmaster.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

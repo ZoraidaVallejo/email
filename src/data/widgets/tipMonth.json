@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Optimize Your Google My Business Listing",
+    "description": [
+      "You should always keep your Google My Business (GMB) listing up to date. Having up to date and accurate information will help you get more clients and visits to your business. It is not a difficult process, and it only takes a few minutes. If you haven't yet claimed or fully filled out your GMB listing, follow our step-by-step instructions today!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://onward.justia.com/2021/01/20/setting-up-google-my-business-filling-out-the-information-on-your-business-listing/",
+      "text": "Read More",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Add Your Related Services",
+    "description": [
+      "Make the most of the services-filtering feature. Lawyers may now specify services they provide for select practice areas. This allows consumers’ searches to better match attorney services."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://accounts.justia.com/signin?utm_medium=email&utm_campaign=2021-04&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-profile-completeness-button-v1",
+      "text": "Update Profile Now",
+      "width": 200
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "widget": {
+      "iconSrc": "trending-news.png",
+      "header": "Trending News"
+    },
+    "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+    "columns": [
+      {
+        "category": "Tech",
+        "colored": "green",
+        "news": [
+          {
+            "title": "Massive SMS Flaw Gives An Attacker Full Access To Your Accounts For $16",
+            "link": "https://www.techdirt.com/articles/20210315/12492246428/massive-sms-flaw-gives-attacker-full-access-to-your-accounts-16.shtml"
+          },
+          {
+            "title": "Apple Bent Its Rules for Russia—and Other Countries Will Take Note",
+            "link": "https://arstechnica.com/gadgets/2021/03/apple-bent-its-rules-for-russia-and-other-countries-will-take-note/"
+          },
+          {
+            "title": "YouTube’s TikTok Rival, YouTube Shorts, Arrives in the US",
+            "link": "https://techcrunch.com/2021/03/18/2126652/"
+          },
+          {
+            "title": "Arizona House Passes Bill That Threatens Apple and Google’s App Stores",
+            "link": "https://www.cnbc.com/2021/03/03/arizona-house-passes-bill-that-threatens-apple-and-googles-app-stores-.html"
+          }
+        ]
+      },
+      {
+        "category": "SEO",
+        "colored": "orange",
+        "news": [
+            {
+              "title": "Google on Choosing the Best Anchor Text",
+              "link": "https://www.searchenginejournal.com/google-on-choosing-the-best-anchor-text/398170/#close"
+            },
+            {
+              "title": "Google My Business Report Shows How People Found Your Business",
+              "link": "https://searchengineland.com/google-my-business-people-who-viewed-your-business-report-346632"
+            },
+            {
+              "title": "Google: Title Tags Longer Than What Is Displayed Has SEO Benefit",
+              "link": "https://www.seroundtable.com/google-longer-title-tags-seo-30985.html"
+            },
+            {
+              "title": "Google Search Console Adds ‘Associations’ So You Can Link With Other Google Accounts ",
+              "link": "https://searchengineland.com/new-google-search-console-associations-346326"
+            },
+            {
+              "title": "71 Mind-Blowing Search Engine Optimization Stats",
+              "link": "https://www.searchenginejournal.com/seo-101/seo-statistics/"
+            },
+            {
+              "title": "Google Tests Displaying Cost Estimates in Local Search Results",
+              "link": "https://searchengineland.com/google-tests-displaying-cost-estimates-in-local-search-results-346885"
+            }
+        ]
+      },
+      {
+        "category": "Social Media",
+        "colored": "yellow",
+        "news": [
+            {
+              "title": "TikTok Provides New Business Tips and Resource Guides",
+              "link": "https://www.socialmediatoday.com/news/tiktok-provides-new-business-tips-and-resource-guides/596576/"
+            },
+            {
+              "title": "Instagram Adds New Teen Safety Tools as Competition With TikTok Heats Up",
+              "link": "https://techcrunch.com/2021/03/16/instagram-adds-new-teen-safety-tools-as-competition-with-tiktok-heats-up/"
+            },
+            {
+              "title": "Facebook Expands Support for Physical Security Keys to Mobile Devices",
+              "link": "https://www.socialmediatoday.com/news/facebook-expands-support-for-physical-security-keys-to-mobile-devices/596999/"
+            },
+            {
+              "title": "Amazon Scores Exclusive Rights to the NFL’s Thursday Night Football",
+              "link": "https://arstechnica.com/gadgets/2021/03/amazon-will-spend-1-billion-per-year-on-nfls-thursday-night-football/"
+            }
+        ]
+      },
+      {
+        "category": "Legal",
+        "colored": "teal",
+        "news": [
+            {
+              "title": "Virginia Governor Restores Voting Rights to Former Felons",
+              "link": "https://thehill.com/homenews/state-watch/543423-virginia-governor-restores-voting-rights-to-former-felons"
+            },
+            {
+              "title": "Twitter Hacker Pleads Guilty in Florida Court",
+              "link": "https://www.nytimes.com/2021/03/16/technology/twitter-hacker-florida.html"
+            },
+            {
+              "title": "Elon Musk, Tesla Board Sued in Lawsuit Alleging ‘Erratic’ Tweets Violate Fiduciary Duty",
+              "link": "https://techcrunch.com/2021/03/12/elon-musk-tesla-board-sued-in-lawsuit-alleging-erratic-tweets-violate-fiduciary-duty/"
+            },
+            {
+              "title": "Man Sues Hertz Over Lost Receipt That Was His Murder Alibi",
+              "link": "https://www.nytimes.com/2021/03/11/us/herbert-alford-hertz-lawsuit-receipt.html"
+            }
+        ]
+      }
+    ]
+  }
+  

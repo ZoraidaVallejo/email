@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/2021/03/12/strategies-for-effectively-managing-your-firms-reputation-in-google-search-results/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Strategies for Effectively Managing Your Firm's Reputation in Google Search Results",
+  "description": [
+    "Lawyers know reputation can make or break a practice. In this post, we review key strategies to consider when managing your firm’s reputation in online search results."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/2021/03/12/strategies-for-effectively-managing-your-firms-reputation-in-google-search-results/",
+    "text": "Read More"
+  }
+}
