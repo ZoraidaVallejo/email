@@ -5,15 +5,26 @@
       "header": "Did You Know?"
     },
     "title": "Legal Forms for Consumers Are Available on Justia",
-    "link": "https://www.justia.com/",
+    "link": "https://www.justia.com/marketing/",
     "description": [
       "To better equip consumers with access to free legal resources, Justia now offers a 50-state survey of legal forms for various common legal matters at both the state and federal levels."
     ],
+    "utm": {
+      "medium": "email",
+      "source": "client-newsletter",
+      "campaign": "<%= dateFormat.dash %>",
+      "content": "section-did-you-know-title-1"
+    },
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/",
       "text": "Learn More",
-      "utm": {}
+      "utm": {
+        "medium": "email",
+        "source": "client-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
     }
   },
   "jld": {
@@ -26,6 +37,12 @@
     "description": [
       "To better equip consumers with access to free legal resources, Justia now offers a 50-state survey of legal forms for various common legal matters at both the state and federal levels."
     ],
+    "utm": {
+      "medium": "email",
+      "source": "directory-newsletter",
+      "campaign": "<%= dateFormat.dash %>",
+      "content": "section-did-you-know-title-1"
+    },
     "button": {
       "style": "justia-blue-ghost",
       "link": "https://www.justia.com/marketing/",

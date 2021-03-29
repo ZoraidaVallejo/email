@@ -36,9 +36,6 @@
               {{#each this.description}}
                 <p class="block-description">
                   {{{this}}}
-                  {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
-                    <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
-                  {{/and}}
                 </p>
               {{/each}}
             {{else}}
