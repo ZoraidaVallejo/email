@@ -35,4 +35,8 @@ $settings: set('social-icons', (
             height: get('social-icons.size');
         }
     }
+
+    span.followus{
+        @include mail-font(16px, 1.25);
+    }
 }
