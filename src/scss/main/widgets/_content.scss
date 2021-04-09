@@ -1,0 +1,46 @@
+// ----------------------------------------------------------------------------------------------------------
+// C O N T E N T   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-content {
+    border-bottom: 1px solid plt('gallery');
+    background-color: plt('alabaster');
+    
+    &.-notice {
+        background-color: plt('white');
+    }
+
+    p {
+        margin: 0 0 25px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    .description {
+        padding: 0 $padding 25px;
+
+        &.-last {
+            padding: 0 $padding 35px;
+        }
+    }
+
+    .bullet-list {
+        padding: 0 $padding;
+
+        .bullet {
+            width: 25px;
+            padding: 3px 0 25px;
+            vertical-align: top;
+
+            img {
+                @include size(16px);
+            }
+        }
+
+        .text {
+            padding: 0 0 25px;
+        }
+    }
+}
