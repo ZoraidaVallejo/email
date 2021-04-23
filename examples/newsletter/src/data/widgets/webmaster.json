@@ -10,9 +10,9 @@
         "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
         "content": {
-          "title": "text-onward-post-title-1",
-          "image": "image-onward-post-1",
-          "button": "button-learn-more-1"
+          "title": "text-onward-post-title-2",
+          "image": "image-onward-post-2",
+          "button": "button-learn-more-2"
         }
       },
       "jld": {
@@ -20,9 +20,9 @@
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
         "content": {
-          "title": "text-onward-post-title-1",
-          "image": "image-onward-post-1",
-          "button": "button-learn-more-1"
+          "title": "text-onward-post-title-2",
+          "image": "image-onward-post-2",
+          "button": "button-learn-more-2"
         }
       }
     },
