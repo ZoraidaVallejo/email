@@ -3,22 +3,16 @@
 {{! ================================================================================================================= }}
 
 {{!
-// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
-// In this case it uses featuredNews because both Newsletters shared the same info,
-// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
-}}
-
-{{!
 // TODO: Fix anotations.
 }}
 
 {{#and webmaster.link (compare webmaster.link "!==" "")}}
-  {{assign "featuredNewsTitleLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
-  {{assign "featuredNewsImageLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+  {{assign "webmasterTitleLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "webmasterImageLink" (concat webmaster.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
 {{/and}}
 
 {{#and webmaster.button (compare webmaster.button.link "!==" "")}}
-  {{assign "featuredNewsButtonLink" (concat webmaster.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "webmasterButtonLink" (concat webmaster.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
@@ -35,7 +29,7 @@
   {{>widget-banner
     imgSrc=webmaster.banner
     imgAlt=webmaster.title
-    link=@root.featuredNewsImageLink
+    link=@root.webmasterImageLink
   }}
 
   {{!--
@@ -44,7 +38,7 @@
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <h3 class="content-title">
-        <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
+        <a href="{{{@root.webmasterTitleLink}}}" target="_blank">
           {{{webmaster.title}}}
         </a>
       </h3>
@@ -61,7 +55,7 @@
   {{#if @root.widgetWithButton}}
     <tr>
       <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=webmaster.button.style href=@root.featuredNewsButtonLink}}
+        {{#uiButton presetStyle=webmaster.button.style href=@root.webmasterButtonLink}}
           {{webmaster.button.text}}
         {{/uiButton}}
       </td>
