@@ -1,0 +1,47 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "Legal Marketing and Technology Blog",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "new-onward-post-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p class='heading3'><strong>TODAY’S POST | April 6, 2021</strong></p>",
+            "<p class='heading3'><strong>6 Key Brand Assets Every Law Firm Should Consider Having</strong></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Don't forget that your Local Services Ad (LSA) has its own review platform that is separate from your Google My Business (GMB) reviews! While you should still receive reviews through your GMB listing, you should prioritize obtaining reviews directly on your LSA business profile. The prominent placement of the rating and number of reviews on your LSA ad, just beneath your firm’s name, makes it one of the first things that potential clients see about your firm when doing a Google search. Here are quick ways to get started if you haven't already.</p>",
+            "<p>Your brand goes beyond the name by which your law firm or the products and services you offer are recognized. In this post, learn more about how the different elements of your brand, both tangible and intangible, can create a close bond between your law firm, your brand, and your clients.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Read More",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
