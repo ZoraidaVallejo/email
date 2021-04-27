@@ -5,10 +5,16 @@
   },
   "jld": {
     "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
       "title": "",
       "link": "#",
       "titleResponsiveSize": 23,
-      "image": "google-ads-01",
+      "image": "google-ads-01.png",
       "contentOrder": [
         {
           "type": "description",
