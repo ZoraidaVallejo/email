@@ -1,0 +1,17 @@
+{
+  "type": "Did You Know?",
+  "title": "Stacy’s New Role at Harvard Innovation Labs",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "responsive": "mobile-fz-16",
+        "image": "did-you-know-02.png",
+        "description": [
+          "Stacy now serves as an Expert-in-Residence at Harvard Innovation Labs. The Experts-in-Residence (EiR) Program brings together active entrepreneurs and business leaders to advise Harvard students and help nurture their ideas. Congratulations, Stacy, on your new career endeavor!"
+        ]
+      }
+    }
+  ]
+}

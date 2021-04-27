@@ -1,0 +1,77 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "06",
+            "name": "Daniel Lopez"
+          },
+          {
+            "day": "10",
+            "name": "Cicely Wilson"
+          },
+          {
+            "day": "12",
+            "name": "Vasu Kappettu"
+          },
+          {
+            "day": "12",
+            "name": "Eduardo Garcia"
+          },
+          {
+            "day": "14",
+            "name": "Valeria Dimas"
+          },
+          {
+            "day": "16",
+            "name": "Haydee Garcia"
+          },
+          {
+            "day": "16",
+            "name": "Karen Klaczynski"
+          },
+          {
+            "day": "17",
+            "name": "Monica Avila"
+          },
+          {
+            "day": "17",
+            "name": "Alejandro Hernandez"
+          },
+          {
+            "day": "24",
+            "name": "Jesus Sanchez"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Guillermo Vazquez",
+            "years": "2nd"
+          },
+          {
+            "name": "Chris Skelton",
+            "years": "7th"
+          },
+          {
+            "name": "Edgar Cano",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Julian Mercado",
+            "years": "10th",
+            "class": "tenth-icon"
+          }
+        ]
+      }
+    }
+  ]
+}

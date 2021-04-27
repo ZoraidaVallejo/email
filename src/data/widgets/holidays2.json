@@ -1,0 +1,44 @@
+{
+  "widget": {
+    "type": "UPCOMING HOLIDAYS",
+    "header": "Dates to Remember"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "holidays-graphic-01.png",
+        "blockTitle": "International Women's Day - March 8th",
+        "description": [
+          "As a focal point in the movement for women's rights, International Women's Day (IWD) is celebrated on March 8th every year worldwide. The day marks a call to action for gender parity and acknowledging women's achievements throughout history and across the globe."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "holidays-graphic-02.png",
+        "blockTitle": "St. Patrick’s Day - March 17th",
+        "description": [
+          "St Patrick's Day, on March 17th, honors one of Ireland's patron saints. Many Americans with Irish ancestry celebrate him on this day. Shamrocks and four-leaf clovers are used as St. Patrick's Day decor to commemorate the day."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "holidays-graphic-03.png",
+        "blockTitle": "Benito Juarez’ Birthday Memorial - March 21st*",
+        "description": [
+          "Benito Juarez, national hero and president of Mexico (1861–1872),  is one of Mexico's most respected leaders. He made substantial changes and reforms to create a democratic federal republic. Benito Juarez' Birthday is celebrated every year in Mexico on March 21st."
+        ]
+      }
+    },
+    {
+      "type": "description",
+      "config": [
+        "<i>*This is a federal holiday. It is officially recognized by Justia. For more information about holidays please visit Justikia.</i>"
+      ]
+    }
+  ]
+}

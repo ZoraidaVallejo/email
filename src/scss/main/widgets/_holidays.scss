@@ -1,0 +1,115 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-holidays {
+
+    td {
+        text-align: left;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 $padding 35px;
+
+        a {
+            @include mail-font(30px, 1.15);
+            color: plt('justia-blue');
+        }
+    }
+
+    .widget-banner {
+        padding: 0 50px 35px;
+    }
+
+    .widget-description {
+        padding: 0 50px 50px;
+    }
+
+    .content-subtitle {
+        color: plt('justia-blue');
+    }
+
+    .image {
+        padding: 0 $padding 20px;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding-content 45px;
+
+        a {
+            @include mail-font(18px, 1.5, 700);
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        p b {
+            color: plt('justia-blue');
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .content-side {
+            width: 375px;
+
+            img {
+                width: 375px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        .-description {
+            padding: 80px 0 0;
+        }
+
+        .-list {
+            color: #340081;
+            text-align: left;
+        }
+
+        // &.-first {
+        //     padding: 35px $padding 20px;
+        // }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding-content $widget-gap;
+        }
+    }
+
+    .content.-idx-2 {
+        padding: 0 $padding-content $widget-gap;
+
+        p {
+            @include mail-font(16px, 1.5);
+        }
+    }
+}
