@@ -1,0 +1,43 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "image": "google-ads-01",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>As a valued Justia client, you should know about our Justia Amplify promotional offer of <b>$500 in Google Ads credit</b>, which can help take your legal marketing to the next level.</p>",
+            "<p>When you sign up for Google Ads management with <b>Justia Amplify</b>, we will provide the following services:</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><span>Optimize your campaigns</span></p>",
+            "<p><span>Create landing pages to increase conversions</span></p>",
+            "<p><span>Implement call tracking</span></p>",
+            "<p><span>Integrate click fraud detection and prevention</span></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Once you have signed up with us, we would be happy to review your existing campaigns and discuss how we can improve your online marketing return on investment (ROI) by strengthening your branding and online visibility.</p>",
+            "<p class='heading4'><strong>Google Premier Partner</strong></p>",
+            "<p>Justia is a Google Premier Partner - a distinction reserved for the top pay-per-click agencies that have achieved a higher level of screening, certification, training, and product knowledge. Our professionals are certified by Google for their skill and expertise in online marketing.</p>",
+            "<p class='heading4'><strong>Get More Leads for the Cases You Want</strong></p>",
+            "<p>We focus 100% on law firms, so we know what works to get you more leads and clients. Get your $500 Google Ads credit today! Complete the <a href='#' target='_blank'><b>contact form</b></a> or <a href=\"tel:8885878421\" target=\"_blank\"><b>call us at (888) 587-8421</b></a> to schedule your free consultation.</p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
