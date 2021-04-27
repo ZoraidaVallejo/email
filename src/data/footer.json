@@ -46,7 +46,7 @@
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
-          "source": "directory-newsletter",
+          "source": "onward-newsletter",
           "content": "image-footer-logo-1"
         }
       },
@@ -67,10 +67,6 @@
         "link": "*|UNSUB|*"
       }
     ],
-    "disclaimer": "",
-    "address": {
-      "justiaLink": "https://www.justia.com/",
-      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
-    }
+    "disclaimer": "You are receiving this email because you are a <b>Justia Onward newsletter</b> subscriber.<br>Want to change how you receive these emails?<br>You can update your preferences or unsubscribe from this list. <br>Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email."
   }
 }

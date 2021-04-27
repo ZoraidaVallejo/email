@@ -19,11 +19,12 @@
     }
 
     .title {
-        padding: 0 $padding 23px;
-        text-transform: uppercase;
+        padding: 33px $padding;
+        border-top: 2px solid #f3f3f3;
 
         a {
-            @include mail-font(34px, 1.1);
+            @include mail-font(29px, 1.1, 700);
+            color: plt('black');
         }
     }
 
@@ -36,7 +37,7 @@
     }
 
     .content {
-        padding: 0 50px 25px;
+        padding: 0 50px 20px;
 
         strong a{
             color: plt('justia-blue');
@@ -46,22 +47,33 @@
         }
 
         p {
-            margin: 0 auto 22px
-        }
-
-        .heading4{
-            font-size: rem-calc(18px);
-            display: block;
             margin: 0 auto;
         }
 
-        .subheading{
+        .preheading {
+            @include mail-font(14px, 1.1);
+            margin: 0 auto 18px;
+            color: #565656;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .heading3 {
+            @include mail-font(26px, 1.1, 700);
+            display: block;
+            margin: 0 auto;
+            color: plt('justia-blue');
+            text-align: center;
+        }
+
+        .subheading {
             text-align: center;
             color: plt('justia-blue');
             display: block;
             font-size: rem-calc(18px);
             // padding: 0 0 8px;
-            span{
+            span {
                 display: inline-block;
             }
         }
@@ -83,16 +95,15 @@
         }
 
         &.-first {
-            padding: 40px 0px 25px;
+            padding: 45px 0px 12px;
             text-align: left;
 
             img{
                 margin: 0 auto;
             }
-            p{
-                // padding: 0 50px;
+
+            p {
                 max-width: 500px;
-                // margin: 0 auto;
             }
         }
 
@@ -102,7 +113,7 @@
 
         &.-last {
             padding: 0px 50px 50px;
-            text-align: left;
+            // text-align: left;
            
 
             p {
