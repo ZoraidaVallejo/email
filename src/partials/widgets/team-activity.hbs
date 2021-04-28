@@ -55,6 +55,19 @@
     }}
   {{/if}}
 
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{widgetConfig.link}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
@@ -136,19 +149,6 @@
         </tr>
       {{/compare}}
     {{/forEach}}
-  {{/if}}
-
-  {{#if widgetConfig.image}}
-    <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides">
-        <a href="{{{widgetConfig.link}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
-      </td>
-    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}

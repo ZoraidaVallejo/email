@@ -9,72 +9,56 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Justia Product Names: ",
-        "description": "At a recent meeting, Tim announced that our products have evolved and received consistent new names that deliver the right message. The new product names are <b>Justia Lawyer Directory</b>, <b>Justia Elevate</b>, <b>Justia Connect</b>, and <b>Justia Amplify</b>."
+        "title": "Justia Contributing to Google Tag Manager Templates Gallery: ",
+        "description": "We started contributing with templates to the Google Tag Manager community gallery. Go to this <a href=\"https://tagmanager.google.com/gallery/#/\" target=\"_blank\"><strong>page</strong></a> and type in \"Justia\" in the search box."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "title": "Justia <a href=\"https://onward.justia.com/\" target=\"_blank\"><strong>Onward</strong></a> and <a href=\"https://avanza.justia.com/\" target=\"_blank\"><strong>Avanza</strong></a> Blogs Ramping Up: ",
-        "description": "Our team put our blogs on full throttle, upping content production to set an all-time record <b>nine posts per blog</b> in one month."
+        "title": "Justia Lawyer Directory Data Update: ",
+        "description": "We completed the first round of significant updates to our <a href=\"https://www.justia.com/lawyers\" target=\"_blank\"><strong>Lawyer Directory</strong></a> by updating the information on more than 600K profiles. This will make it easier for lawyers to claim their JLD profiles."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "Social Media Efforts: ",
-        "description": "Our team has revamped and unified all of our social media accounts (Twitter, Facebook, and LinkedIn) with a new design, slogan (Justia For All), and hashtag (#JustiaForAll). The effort has paid off with an increase in the number of followers and fans. "
+        "title": "Content for Justia Lawyer Directory (Top Practice Area Pages): ",
+        "description": "All of the top-level <a href=\"https://www.justia.com/lawyers/personal-injury\" target=\"_blank\"><strong>practice area pages</strong></a> have dedicated content now."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "Calls Sorted by Day and Hour Added to the Justia Amplify Report: ",
-        "description": "We are now bringing in more comprehensive information to our LSA clients' reports with LSA call patterns."
+        "title": "Visual Regression QA: ",
+        "description": "Keeping up with our quality assurance efforts, we implemented a visual regression testing tool to monitor any visual changes to our Justia properties. The new implementation will help us reduce the time spent monitoring whenever there's a change to our traditional Justia look and feel."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-05.png",
-        "title": "Justia Law Database Upgrade: ",
-        "description": "This is the first of many database infrastructure upgrades that we will be performing on several Justia properties. For this first upgrade, we created a tool to automate the QA process."
+        "title": "2020 State Codes: ",
+        "description": "We started our yearly <a href=\"https://law.justia.com/codes/arizona/2020/\" target=\"_blank\"><strong>State Codes</strong></a> by pushing the first updated state of the year live: 2020 Arizona Revised Statutes. Also, new team members who joined the Engineering Team within the last month are helping this time."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-06.png",
-        "title": "Justia Internal Development Package Improvements: ",
-        "description": "We have been updating the packages to share codes among our applications. It is now easier to implement new features that are compatible with all our applications and maintain consistency across the board."
+        "title": "Google My Business (Malicious Updates Detection): ",
+        "description": "We are committed to guarding the integrity of the information in our clients' GMB listings by keeping track of any edits to their location name and bringing it back to their correct value. This is a new feature in the SEO Tool."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-07.png",
-        "title": "Dockerized <a href=\"https://www.oyez.org/\" target=\"_blank\"><strong>Oyez.org</strong></a> Transcript Converters: ",
-        "description": "Justia provides Supreme Court oral argument transcripts synced with the case audio. Now, our visitors can follow each case more accurately. We also improved the process to generate this type of content by reducing both time spent and server costs."
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "milestones-graphic-08.png",
-        "title": "<a href=\"http://openjurist.org\" target=\"_blank\"><strong>Openjurist.org</strong></a> Infrastructure Upgrades: ",
-        "description": "Our friends at <a href=\"http://openjurist.org\" target=\"_blank\"><strong>openjurist.org</strong></a> can now work with an upgraded version of MySQL, courtesy of Justia."
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "milestones-graphic-09.png",
-        "title": "New Labor Law Pages Added to the Justia Mexico Portal: ",
-        "description": "The pages cover the labor justice system, the Federal Center of Labor Conciliation and Registry, prejudicial conciliation procedures, collective bargaining agreements, and remote work policy."
+        "title": "Infrastructure and Server Maintenance: ",
+        "description": "As usual, we keep performing maintenance to our server infrastructure regularly. We continue with updates to our databases by covering the Ask a Lawyer DB and others supporting our clients' and Justia friends' properties. We also performed an upgrade to our HelpDesk system."
       }
     }
   ]

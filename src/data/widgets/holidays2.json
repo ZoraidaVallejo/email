@@ -8,9 +8,9 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-01.png",
-        "blockTitle": "International Women's Day - March 8th",
+        "blockTitle": "Labor Day (Mexico) - May 1st*",
         "description": [
-          "As a focal point in the movement for women's rights, International Women's Day (IWD) is celebrated on March 8th every year worldwide. The day marks a call to action for gender parity and acknowledging women's achievements throughout history and across the globe."
+          "Labor Day, also known as International Workers Day, is a federal public holiday in Mexico. It is held on May 1st each year to celebrate workers and the labor movement's fight for workers' rights and conditions. Labor Day was first formally celebrated in Mexico back in 1923."
         ]
       }
     },
@@ -18,9 +18,9 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-02.png",
-        "blockTitle": "St. Patrick’s Day - March 17th",
+        "blockTitle": "Mother’s Day (Mexico) - May 10th",
         "description": [
-          "St Patrick's Day, on March 17th, honors one of Ireland's patron saints. Many Americans with Irish ancestry celebrate him on this day. Shamrocks and four-leaf clovers are used as St. Patrick's Day decor to commemorate the day."
+          "As opposed to Mother’s Day in the U.S., Mother’s Day in Mexico is always celebrated on May 10th. During this celebration, people honor their mothers and thank them for their efforts in bringing them up. For children, it is one of the most respected and expected holidays."
         ]
       }
     },
@@ -28,16 +28,16 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-03.png",
-        "blockTitle": "Benito Juarez’ Birthday Memorial - March 21st*",
+        "blockTitle": "Memorial Day - May 31st*",
         "description": [
-          "Benito Juarez, national hero and president of Mexico (1861–1872),  is one of Mexico's most respected leaders. He made substantial changes and reforms to create a democratic federal republic. Benito Juarez' Birthday is celebrated every year in Mexico on March 21st."
+          "Memorial Day, originally known as Decoration Day, is a United States federal holiday commemorating those who have fallen in military service to their country. It is celebrated yearly on the last Monday of May. It is an occasion to honor those lost in combat and decorate their graves."
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "<i>*This is a federal holiday. It is officially recognized by Justia. For more information about holidays please visit Justikia.</i>"
+        "<i>*This is a federal holiday observed by Justia. For more information, please visit Justikia.</i>"
       ]
     }
   ]
