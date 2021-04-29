@@ -1,13 +1,15 @@
 {
   "widget": {
-    "header": "Get To Know Our Teammates"
+    "type": "JUSTIA EMPLOYEE SPOTLIGHT",
+    "header": "Winners of 2021 March Madness"
   },
   "titleResponsiveSize": 23,
+  "image": "march-madness-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Knowing your teammates as people rather than just job roles fosters and builds team spirit, confidence, and trust. Read these little-known facts about our teammates and guess which person they belong to."
+        "After a one-year hiatus, our traditional March Madness returned with a lot of surprising and unpredictable moments. Participants had multiple ways to win. Thank you all for participating and submitting your brackets. Congratulations to the winners!"
       ]
     },
     {

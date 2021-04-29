@@ -2,7 +2,7 @@
 // A D V E R T I S E M E N T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.w-blast-past {
+.w-blast-past-2 {
 
     td {
         text-align: center;
@@ -16,10 +16,6 @@
             width: 320px;
             margin: 0 auto;
         }
-    }
-
-    .widget-header {
-        padding: $widget-gap $padding $padding;
     }
 
     .title {
@@ -64,18 +60,23 @@
             }
 
             > div {
-                padding-bottom: 28px;
+                // padding-bottom: 28px;
                 @include mail-font(16px);
 
-                strong,
-                span {
+                b,
+                strong {
                     display: block;
                 }
-            }
-        }
 
-        &.-description {
-            padding: 0 $padding 25px;
+                br {
+                    line-height: 1;
+                }
+
+                strong {
+                    color: plt('justia-blue');
+                    text-transform: uppercase;
+                }
+            }
         }
 
         &.-first {
@@ -88,6 +89,10 @@
 
         &.-last {
             padding: 0 $padding 45px;
+        }
+
+        &.-description {
+            padding: 0 $padding 25px;
         }
     }
 

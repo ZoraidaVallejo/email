@@ -37,7 +37,7 @@
     }
 
     .image {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding $padding;
 
         img {
             width: $inner-max-width;
@@ -45,7 +45,7 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 $padding $widget-gap;
         text-align: left;
 
         p a {
