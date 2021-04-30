@@ -14,6 +14,22 @@
       "image": "google-credit-01.png",
       "contentOrder": [
         {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Started Today!",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#fff",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
+          }
+        },
+        {
           "type": "description",
           "config": [
             "<p>As a valued Justia client, you should know about our Justia Amplify promotional offer of <b>$500 in Google Ads credit</b>, which can help take your legal marketing to the next level.</p>",
@@ -38,6 +54,22 @@
             "<p class='heading4'><strong>Get More Leads for the Cases You Want</strong></p>",
             "<p>We focus 100% on law firms, so we know what works to get you more leads and clients. Get your $500 Google Ads credit today! Complete the <a href='#' target='_blank'><b>contact form</b></a> or <a href=\"tel:8885878421\" target=\"_blank\"><b>call us at (888) 587-8421</b></a> to schedule your free consultation.</p>"
           ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Started Today!",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#fff",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
+          }
         }
       ]
     },

@@ -85,15 +85,16 @@
             }
         }
 
-        &.-first {
-            padding: 5px 50px 10px;
-        }
-
         &.-button {
             padding: 0px $padding 45px;
+            text-align: center;
         }
 
-        &.-idx-2 {
+        &.-first {
+            padding: 5px 50px 38px;
+        }
+
+        &.-idx-3 {
             padding: 0px 50px 30px;
             text-align: left;
 
@@ -120,8 +121,8 @@
             }
         }
 
-        a,
-        a b {
+        p a,
+        p a b {
             color: plt('justia-blue')!important;
             display: inline-block;
         }
