@@ -35,6 +35,11 @@
   // In this case, check if it is posible to customize the H tag.
   --}}
   <tr>
+    <td>
+      {{>social-icons-welcome widgetClass="set-max-width"}}
+    </td>
+  </tr>
+  <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
 
