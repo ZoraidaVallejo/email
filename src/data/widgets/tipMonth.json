@@ -1,0 +1,33 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Update Health & Safety Attributes on Your GMB Listing",
+    "description": [
+      "During the ongoing COVID-19 pandemic, you can add new Health & Safety attributes to your Google My Business listing. Keep your clients informed about the additional health and safety measures your office is taking, such as required appointments, masks, and temperature checks. While adding this information to your profile, double-check that your Accessibility, Amenities, Planning, and Service options are all up to date."
+    ]
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "title": "Justia Lawyer Rating and Reviews",
+    "description": [
+      "The Justia Lawyer Directory features attorney reviews and ratings. Don’t miss out on your chance to showcase your Justia Lawyer Rating badge on your websites, blogs, and other properties!"
+    ],
+    "image": {
+      "src": "https://justatic.com/v/1/emails/images/lawyer-directory/common/justia-badge-10-placeholder.png",
+      "alt": "Justia Badge",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-05&utm_content=section-tip-of-the-month-lawyer-rating-and-reviews-image-v1"
+    },
+    "button": {
+      "style": "red",
+      "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews",
+      "text": "Learn How",
+      "width": 150
+    }
+  }
+}
