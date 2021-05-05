@@ -16,41 +16,29 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>welcome widgetConfig=welcome.jld}}
 
-        {{!-- {{>covid-updates widgetUtmVars=covidUpdates.utm.jld}} --}}
-
         {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
+        
         {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}}
 
         {{>webmaster widgetUtmVars=webmaster.utm.jld}}
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
-
         {{>tip-month widgetConfig=tipMonth.jld}}
 
         {{>trending-news}}
 
-        {{!-- {{>tech-news}} --}}
-
         {{>did-you-know widgetConfig=didYouKnow.jld}}
-
-        {{!-- {{>seo-news}} --}}
 
         {{>featured-lawyer}}
 
         {{>answers-leaderboard}}
 
-        {{!-- {{>legal-industry-news}} --}}
-
         {{>jobs-subscribe}}
 
-        {{!-- {{>social-media-news}} --}}
-
         {{>inside-justia}}
-
-        {{!-- {{>events-we-attended}} --}}
 
         {{>internet-stats}}
 
