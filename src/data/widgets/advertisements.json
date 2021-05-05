@@ -1,21 +1,12 @@
 {
-  "clients": {
-    "ad1": {},
-    "ad2": {}
-  },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 350px"
-      },
       "title": "Legal Marketing and Technology Blog",
-      "link": "https://www.justia.com/marketing/",
+      "link": "https://onward.justia.com/",
       "titleResponsiveSize": 23,
       "image": "new-onward-post-01.png",
-      "contentOrder": [{
+      "contentOrder": [
+        {
           "type": "description",
           "config": [
             "<p class='preheading'><strong>TODAY’S POST | April 6, 2021</strong></p>",
@@ -45,7 +36,6 @@
           }
         }
       ]
-    },
-    "ad2": {}
+    }
   }
 }

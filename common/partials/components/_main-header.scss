@@ -141,6 +141,67 @@ $settings: set('mail-header', (
     }
 }
 
+.main-header.-with-social {
+
+    .wrapper {
+        padding: $padding;
+        vertical-align: middle;
+
+        > table {
+            table-layout: fixed;
+        }
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .date {
+        width: 40%;
+        text-align: right;
+
+        span {
+            display: block;
+            color: plt('justia-blue');
+
+            @include mail-font(22px, 1.25);
+        }
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
+}
+
+
+.main-header.-with-social {
+
+    .logo {
+        width: 23%;
+    }
+
+    .logo-img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .social {
+        width: 23%;
+        text-align: right;
+        
+        > span {
+            display: block;
+            max-width: 140px;
+        }
+    }
+}
+
 
 .main-header.-insider-date {
     background-color: plt('mail', 'insider-blue');

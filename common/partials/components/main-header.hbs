@@ -92,6 +92,19 @@
             </tr>
           {{/table}}
         {{/compare}}
+
+        {{#compare widgetConfig.layout "===" "with-social"}}
+          {{#table}}
+            <tr>
+              <td class="logo" responsive="collapse-one mobile-padding-20-bottom">
+                {{>main-logo widgetConfig=@root.headerLogoConfig}}
+              </td>
+              <td class="social" responsive="collapse-one mobile-align-center">
+                <span responsive="mobile-fz-18 mobile-align-center">{{>social-icons widgetClass="set-max-width"}}</span>
+              </td>
+            </tr>
+          {{/table}}
+        {{/compare}}
       </td>
     </tr>
   {{/table}}
