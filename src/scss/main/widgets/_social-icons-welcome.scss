@@ -5,14 +5,14 @@
 $settings: set('social-icons', (
     'size': 35px,
     'gap': 7px,
-    'total': 5
+    'total': 6
 ));
 
 // ----------------------------------------------------------------------------------------------------------
 
 .social-icons-welcome {
     $_total: get('social-icons.total');
-    width: ((get('social-icons.size') * $_total) + (get('social-icons.gap') * ($_total - 1)));
+    width: ((get('social-icons.size') * $_total) + (6px * ($_total - 1)));
     margin-bottom: 25px;
 
     .icon {
