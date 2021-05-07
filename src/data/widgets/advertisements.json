@@ -1,0 +1,44 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/",
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "premium-placement-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<b>Build on Your Success With a Justia Premium Placement.</b>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get Started Now",
+            "width": 210,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team<br><b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}
