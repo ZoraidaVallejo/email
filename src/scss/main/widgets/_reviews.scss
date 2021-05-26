@@ -1,0 +1,94 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-reviews {
+    border-radius: 0 0 10px 10px; 
+
+    td {
+        text-align: left;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 $padding 35px;
+
+        a {
+            @include mail-font(30px, 1.15);
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0 $padding;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+
+        p {
+            margin-bottom: 0;
+
+            a {
+                color: plt('justia-blue');
+
+                * {
+                    color: plt('justia-blue');
+                }
+            }
+        }
+
+        .content-side {
+            width: 231px;
+
+            img {
+                width: 225px;
+                margin-top: 5px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        .-image {
+            p {
+                margin-top: 15px;
+            }
+        }
+
+        .-list {
+            color: #340081;
+            text-align: left;
+        }
+
+        &.-first {
+            padding: 0 $padding 20px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
+        }
+    }
+}

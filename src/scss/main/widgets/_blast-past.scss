@@ -1,0 +1,105 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-blast-past {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .widget-header {
+        padding: $widget-gap $padding $padding;
+    }
+
+    .title {
+        padding: $widget-gap $padding 35px;
+        margin: 0 0 grid-unit(0.5);
+        background: image-url('title-decoration-01.png') no-repeat;
+        background-position: center bottom;
+        color: plt('justia-blue');
+
+        @include mail-font(34px, 1.2, 700);
+
+        a {
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0 $padding 20px;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+        text-align: left;
+
+        .content-side {
+            width: 225px;
+
+            img {
+                width: 225px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+
+            > div {
+                padding-bottom: 28px;
+                @include mail-font(16px);
+
+                strong,
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        &.-description {
+            padding: 0 $padding 25px;
+        }
+
+        &.-first {
+            padding: 0 $padding 35px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding 45px;
+        }
+    }
+
+    .-image-column {
+
+        .content-side {
+            width: 225px;
+
+            img {
+                width: 225px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

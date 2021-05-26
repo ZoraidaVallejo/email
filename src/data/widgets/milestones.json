@@ -1,0 +1,36 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "link": "https://www.justia.com/",
+        "image": "milestones-graphic-01.png",
+        "title": "Main Portal Updates: ",
+        "description": "Our team updated our 50-state surveys on issues specific to the COVID-19 pandemic, such as state reopening plans, eviction and foreclosure protections, court operations, travel restrictions, and mask mandates. We also added snippets of key facts, issues, and definitions to our Divorce, Child Custody, Family Law, and Criminal Law centers."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "link": "https://www.justia.com/lawyers",
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Lawyer Directory: ",
+        "description": "Our team added pages to the JLD on considerations for hiring a lawyer in 19 different practice areas."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "link": "https://verdict.justia.com/",
+        "image": "milestones-graphic-03.png",
+        "title": "Legal News Blog: ",
+        "description": "We continued adding two blog posts per week to our Legal News blog."
+      }
+    }
+  ]
+}

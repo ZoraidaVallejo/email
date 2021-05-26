@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Alien Worlds"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Netflix</b></a>",
+        "description": [
+          "<i>Are you one of those people who's always thinking about life in outer space? Do you like animals? Do you appreciate good gaming graphics? If so, then you should watch this four-part sci-fi nature docufiction miniseries. For me, the best thing about the series is the thinking process behind it, how the creators figured out how physics and each planet's environment can impact the survival skills of living creatures. From forever-flying animals to parasitic deathly fungi, I think it is fascinating how the creators replicated Earth-like life into outer space planets.</i>",
+          "- Miguel Lopez"
+        ]
+      }
+    }
+  ]
+}
