@@ -2,8 +2,8 @@
   "background": {
     "image": "reminders-bg-01.png",
     "width": 400,
-    "bgColor": "#ffffff",
-    "cssSize": "550px 75px",
+    "bgColor": "#074787",
+    "cssSize": "550px 335px",
     "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
   },
   "contentOrder": [
@@ -14,14 +14,14 @@
         "image": "reminders-graphic-01.png",
         "description": [
           "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
-          "<b>Requesting Time Off for the Holiday Season</b>It is already November, so that means the holiday season is already at our doorstep. As you"
+          "<b>Reminder About Using Your PTO</b>This is a friendly reminder to encourage everyone to take some time off (PTO). It is an opportunity to take a step back, focus on your loved ones, and avoid work-related stress and burnout. Our HR "
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "know, this is typically the time of year when many people want to take time off. If you are planning to request time off during December and/or January, it is important to submit your Time Off Request Form as soon as possible."
+        "department suggests taking advantage of this benefit. Keep in mind that taking one or a couple of days off can make a huge difference. PTO is good for your health!"
       ]
     }
   ]

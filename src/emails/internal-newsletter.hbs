@@ -24,21 +24,21 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
-        {{>new-people-2 widgetConfig=newPeople2}}
+        {{>new-people widgetConfig=newPeople}}
         
         {{>holidays-2 widgetConfig=holidays2}}
 
-        {{>blast-past-2 widgetConfig=blastPast2}}
-
         {{>team-activity widgetConfig=teamActivity}}
 
+        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
+
         {{>blast-past widgetConfig=blastPast}}
+
+        {{>blast-past-2 widgetConfig=blastPast2}}
 
         {{!-- {{>team-activity-3 widgetConfig=teamActivity3}} --}}
         
         {{>reviews widgetConfig=reviews}}
-
-        {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 

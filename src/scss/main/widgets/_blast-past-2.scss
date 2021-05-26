@@ -94,6 +94,16 @@
         &.-description {
             padding: 0 $padding 25px;
         }
+
+        &.-idx-2 {
+            p {
+                margin: 0 0 7px;
+
+                span {
+                    color: #00b3e3;
+                }
+            }
+        }
     }
 
     .-image-column {

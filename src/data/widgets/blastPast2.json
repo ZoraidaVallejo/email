@@ -1,42 +1,24 @@
 {
-  "type": "TEAM ACTINITY",
-  "title": "Winners of 2021 March Madness",
+  "type": "WELLNESS",
+  "title": "The Benefits of Gardening",
   "titleResponsiveSize": 23,
-  "image": "march-madness-01.png",
+  "image": "wellness-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "After a one-year hiatus, our traditional March Madness returned with a lot of surprising and unpredictable moments. Thank you all for participating and submitting your brackets. Congratulations to the winners!"
+        "Believe it or not, in addition to reaping beautiful flowers and nutritious harvests for your table, gardening can do wonders for your well-being to make it through these tough times. Roll up your sleeves, start digging, planting, and weeding as a healthy alternative to cope with this \"new normal.\" Find below a list of several of these benefits:"
       ]
     },
     {
-      "type": "lists-description",
-      "config": {
-        "left": [
-          "<strong>Overall Bracket</strong>",
-          "<b>Winner – Ana Hidalgo</b><br>",
-          "<b>Runners Up</b>",
-          "Hayden Pham",
-          "Meztli Vergara",
-          "Clayton Dodds",
-          "Chris Skelton",
-          "Thomas Sullivan",
-          "Edgar Cano",
-          "Stacy Stern",
-          "Miguel Berlanga",
-          "Lauren Moskie",
-          "Keilah Cabrera"
-        ],
-        "right": [
-          "<strong>WINS</strong>",
-          "<b>Winner – Ana Hidalgo</b><br>",
-          "<strong>SWEET 16</strong>",
-          "<b>Winner – Chris Skelton</b><br>",
-          "<strong>CHAMPIONSHIP GAME</strong>",
-          "<b>Winner – Vasu Kappettu</b>"
-        ]
-      }
+      "type": "description",
+      "config": [
+        "<span>●</span> Gardening burns a lot of calories and can lower your blood pressure.",
+        "<span>●</span> Spending time outside is good for your bones.",
+        "<span>●</span> Growing your own food can help you eat healthier.",
+        "<span>●</span> Gardening can relieve stress.",
+        "<span>●</span> Gardening can make you happier."
+      ]
     }
   ]
 }

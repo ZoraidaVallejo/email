@@ -1206,13 +1206,12 @@ a {
 }
 
 .-reminders .content {
-  padding: 0 25px;
+  padding: 0 0 0 25px;
   text-align: left;
-  background-color: #f6fdfc;
 }
 
 .-reminders .content p {
-  color: #000000;
+  color: #ffffff;
 }
 
 .-reminders .content p b {
@@ -1223,8 +1222,8 @@ a {
 .-reminders .content p .side-title {
   font: 700 28px/1.2 Roboto, Arial, sans-serif;
   display: block;
-  padding: 0 0 30px;
-  color: #06357a;
+  padding: 0 0 7px;
+  color: #ffffff;
 }
 
 .-reminders .content .-description p:first-child {
@@ -1233,7 +1232,7 @@ a {
 }
 
 .-reminders .content .content-side {
-  width: 225px;
+  width: 245px;
 }
 
 .-reminders .content .content-side img {
@@ -1250,7 +1249,7 @@ a {
 }
 
 .-reminders .content.-first {
-  padding: 23px 25px 0;
+  padding: 23px 0 0 25px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -1259,7 +1258,7 @@ a {
 }
 
 .-reminders .content.-last {
-  padding: 0 25px 45px;
+  padding: 0 25px 21px;
   border-radius: 0 0 10px 10px;
 }
 
@@ -1278,15 +1277,15 @@ a {
 }
 
 .-reminders .content-side {
-  width: 225px;
+  width: 240px;
 }
 
 .-reminders .content-side.-image {
-  width: 215px;
+  width: 200px;
 }
 
 .-reminders .content-side img {
-  width: 215px;
+  width: 200px;
 }
 
 .-reminders .content-side p:first-child {
@@ -1573,11 +1572,11 @@ a {
 }
 
 .w-holidays-2 .content .content-side:first-child {
-  float: left;
+  float: right;
 }
 
 .w-holidays-2 .content .content-side:last-child {
-  float: right;
+  float: left;
 }
 
 .w-holidays-2 .content .-image p {
@@ -1590,7 +1589,7 @@ a {
 }
 
 .w-holidays-2 .content.-first {
-  padding: 0 25px 43px;
+  padding: 0 25px;
 }
 
 .w-holidays-2 .content.-button {
@@ -1898,7 +1897,7 @@ a {
 }
 
 .w-team-activities .content.-description {
-  padding: 0 25px 25px;
+  padding: 0 25px 85px;
 }
 
 .w-team-activities .-image-column .content-side {
@@ -1933,7 +1932,7 @@ a {
 }
 
 .w-blast-past .widget-header {
-  padding: 50px 25px 25px;
+  padding: 88px 25px 25px;
 }
 
 .w-blast-past .title {
@@ -2101,6 +2100,14 @@ a {
 
 .w-blast-past-2 .content.-description {
   padding: 0 25px 25px;
+}
+
+.w-blast-past-2 .content.-idx-2 p {
+  margin: 0 0 7px;
+}
+
+.w-blast-past-2 .content.-idx-2 p span {
+  color: #00b3e3;
 }
 
 .w-blast-past-2 .-image-column .content-side {
@@ -2543,18 +2550,18 @@ body {
 
 .w-milestones,
 .w-holidays-2 {
-  background: url("../dist/images/odd-block-01.png") no-repeat #ffffff;
-  background-position: center;
-}
-
-.w-team-activities {
   background: url("../dist/images/odd-block-04.png") no-repeat #ffffff;
   background-position: center;
 }
 
-.w-wellness {
+.w-birthday {
   background: url("../dist/images/odd-block-02.png") no-repeat #ffffff;
   background-position: bottom;
+}
+
+.w-blast-past-2 {
+  background: url("../dist/images/odd-block-04.png") no-repeat #ffffff;
+  background-position: center;
 }
 
 .w-team-activities-2 {

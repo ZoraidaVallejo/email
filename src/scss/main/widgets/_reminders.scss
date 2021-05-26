@@ -31,12 +31,12 @@
     }
 
     .content {
-        padding: 0 $padding;
+        padding: 0 0 0 $padding;
         text-align: left;
-        background-color: #f6fdfc;
+        // background-color: #f6fdfc;
 
         p {
-            color: plt('black');
+            color: plt('white');
 
             b {
                 display: block;
@@ -46,8 +46,8 @@
             .side-title {
                 @include mail-font(28px, 1.2, 700);
                 display: block;
-                padding: 0 0 30px;
-                color: plt('justia-blue');
+                padding: 0 0 7px;
+                color: plt('white');
             }
         }
 
@@ -60,7 +60,7 @@
         }
 
         .content-side {
-            width: 225px;
+            width: 245px;
 
             img {
                 width: 200px;
@@ -77,7 +77,7 @@
         }
 
         &.-first {
-            padding: 23px $padding 0;
+            padding: 23px 0 0 $padding;
             border-radius: 10px 10px 0 0;
         }
 
@@ -86,7 +86,7 @@
         }
 
         &.-last {
-            padding: 0 $padding 45px;
+            padding: 0 $padding 21px;
             border-radius: 0 0 10px 10px;
         }
     }
@@ -109,15 +109,15 @@
     }
 
     .content-side {
-        width: 225px;
+        width: 240px;
 
         &.-image {
-            width: 215px;
+            width: 200px;
             // margin-top: -40px;
         }
 
         img {
-            width: 215px;
+            width: 200px;
         }
 
         p:first-child {

@@ -65,11 +65,11 @@
             }
 
             &:first-child {
-                float: left;
+                float: right;
             }
 
             &:last-child {
-                float: right;
+                float: left;
             }
         }
 
@@ -85,7 +85,7 @@
         }
 
         &.-first {
-            padding: 0 $padding 43px;
+            padding: 0 $padding;
         }
 
         &.-button {
