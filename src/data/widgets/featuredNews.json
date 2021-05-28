@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/should-your-law-firm-invest-in-google-local-services-ads-lsas-and-google-ads/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Should Your Law Firm Invest in Google Local Services Ads (LSAs) and Google Ads?",
+  "description": [
+    "Law firms want to know how to best spend their money when it comes to advertising. Which marketing strategy will result in the highest return on investment (ROI), and how can you get started? Or, if you’re already running advertisements, such as Google Ads, you may wonder if your campaigns are fully optimized to get the best results possible. We want to give you an honest take on Google’s latest offering for law firms, Local Services Ads (LSAs), as well as Google Ads."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/should-your-law-firm-invest-in-google-local-services-ads-lsas-and-google-ads/",
+    "text": "Read More"
+  }
+}

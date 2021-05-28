@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "9",
+      "month": "June",
+      "title": "Better Legal Writing",
+      "time": "12:30pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/411600318/"
+    },
+    {
+      "day": "9-11",
+      "month": "June",
+      "title": "Summer Camp Legal Skills Conference",
+      "time": "12:30pm ET",
+      "typeLocation": " Virtual Conference",
+      "link": "https://web.cvent.com/event/bc8dd707-9878-487e-b882-ea0f06e415c3/summary"
+    },
+    {
+      "day": "10",
+      "month": "June",
+      "title": "Advanced Google Search for Lawyers",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://clewebinars.ce21.com/item/advanced-google-search-lawyers-236225"
+    },
+    {
+      "day": "24",
+      "month": "June",
+      "title": "Legal Ethics Issues When an Attorney Leaves the Firm",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.straffordpub.com/products/legal-ethics-issues-when-an-attorney-leaves-the-firm-2021-06-24"
+    },
+    {
+      "day": "24",
+      "month": "June",
+      "title": "Leveraging Historic Tax Credits in Real Estate Finance",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.straffordpub.com/products/leveraging-historic-tax-credits-in-real-estate-finance-2021-06-24"
+    }
+  ]
+}
