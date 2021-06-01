@@ -1,0 +1,80 @@
+{{! ================================================================================================================= }}
+{{! J U S T I A   D E S K                                                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{!
+    * @param {Object[]} justiaDesk2.news
+    * @param {string} justiaDesk2.news[].title
+    * @param {string} justiaDesk2.news[].link
+    * @param {string} justiaDesk2.news[].description
+    * @param {boolean} [isLast]
+    * @param {Object} justiaDesk2.utm
+    * @param {Object} justiaDesk2.utm.clients
+    * @param {string} justiaDesk2.utm.clients.medium
+    * @param {string} justiaDesk2.utm.clients.campaign
+    * @param {string} justiaDesk2.utm.clients.source
+    * @param {Object} justiaDesk2.utm.clients.content
+    * @param {string} justiaDesk2.utm.clients.content.title
+    * @param {string} justiaDesk2.utm.clients.content.image
+    * @param {string} justiaDesk2.utm.clients.content.button
+    * @param {Object} justiaDesk2.utm.jld
+    * @param {string} justiaDesk2.utm.jld.medium
+    * @param {string} justiaDesk2.utm.jld.campaign
+    * @param {string} justiaDesk2.utm.jld.source
+    * @param {Object} justiaDesk2.utm.jld.content
+    * @param {string} justiaDesk2.utm.jld.content.title
+    * @param {string} justiaDesk2.utm.jld.content.image
+    * @param {string} justiaDesk2.utm.jld.content.button
+}}
+
+{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars))}}
+{{assign "columnStructure" (chunks justiaDesk2.news 2 true)}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-justia-desk set-max-width"}}
+    {{#if justiaDesk2.widget.iconSrc}}
+        {{>widget-header
+        header=justiaDesk2.widget.header
+        iconSrc=justiaDesk2.widget.iconSrc
+        }}
+    {{else}}
+        {{>widget-header
+        header=justiaDesk2.widget.header
+        icon=justiaDesk2.widget.icon
+        }}
+    {{/if}}
+
+    <tr class="widget-columns -articles ui-columns-grid">
+    <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+        {{#table}}
+        {{#each @root.columnStructure}}
+            {{>ui-columns-grid cellClasses="article" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
+            {{#each this}}
+                {{#unless @first}}
+                {{>ui-columns-grid cellClasses="article" cellSeparator=true cellIsEmpty=(isFalsey this.title) firstRow=@../first}}
+                {{/unless}}
+
+                {{#if this.title}}
+                <p class="title">
+                    {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
+                    <b>{{{this.title}}}</b>
+                    {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                </p>
+                <p class="description">
+                    {{{this.description}}}
+                </p>
+                {{else}}
+                &nbsp;
+                {{/if}}
+            {{/each}}
+            {{>ui-columns-grid rowEnd=true}}
+        {{/each}}
+        {{/table}}
+    </td>
+    </tr>
+{{/table}}
