@@ -57,7 +57,7 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom{{#if isFirst}} mobile-no-padding-bottom{{/if}}">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
                 <div class="content-side -image" responsive="mobile-reset-max-width mobile-reset-width mobile-padding-bottom mobile-no-float">

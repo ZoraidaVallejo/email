@@ -3,7 +3,7 @@
     "image": "reminders-bg-01.png",
     "width": 400,
     "bgColor": "#074787",
-    "cssSize": "550px 335px",
+    "cssSize": "550px 300px",
     "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
   },
   "contentOrder": [
@@ -14,14 +14,14 @@
         "image": "reminders-graphic-01.png",
         "description": [
           "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
-          "<b>Reminder About Using Your PTO</b>This is a friendly reminder to encourage everyone to take some time off (PTO). It is an opportunity to take a step back, focus on your loved ones, and avoid work-related stress and burnout. Our HR "
+          "<b>Taking Time Off is Good for You</b>Due to the pandemic, many people postponed their vacations. We encourage you to take time off and recharge. When you take time off, you get an opportunity to take a step back, focus on your "
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "department suggests taking advantage of this benefit. Keep in mind that taking one or a couple of days off can make a huge difference. PTO is good for your health!"
+        "loved ones, and avoid work-related stress and burnout."
       ]
     }
   ]

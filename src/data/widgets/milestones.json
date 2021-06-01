@@ -10,8 +10,8 @@
       "config": {
         "link": "https://www.justia.com/",
         "image": "milestones-graphic-01.png",
-        "title": "Main Portal Updates: ",
-        "description": "Our team updated our 50-state surveys on issues specific to the COVID-19 pandemic, such as state reopening plans, eviction and foreclosure protections, court operations, travel restrictions, and mask mandates. We also added snippets of key facts, issues, and definitions to our Divorce, Child Custody, Family Law, and Criminal Law centers."
+        "title": "Main Portal Updates. ",
+        "description": "We converted four more centers to the new format and wrote step-by-step instructions on incorporating a business in six key states. We also added more than 200 snippets to the Criminal Law center. We continued to update the COVID-19 resources, including the changes to mask mandates and travel restrictions. Furthermore, we added content to the Tax center about tax benefits in Puerto Rico."
       }
     },
     {
@@ -19,17 +19,67 @@
       "config": {
         "link": "https://www.justia.com/lawyers",
         "image": "milestones-graphic-02.png",
-        "title": "Justia Lawyer Directory: ",
-        "description": "Our team added pages to the JLD on considerations for hiring a lawyer in 19 different practice areas."
+        "title": "Justia Lawyer Directory. ",
+        "description": "We added advice to 19 different practice areas on hiring a lawyer and updated sales proposals with a new look and feel that highlights our Lawyer Directory’s paid benefits. We also improved contact spam email blocking for administrators, added lazy loading for profile images on all listing pages, and included optimizations on our backend to reduce server loads."
       }
     },
     {
       "type": "image-description",
       "config": {
-        "link": "https://verdict.justia.com/",
+        "link": "https://www.oyez.org/cases/2020",
         "image": "milestones-graphic-03.png",
-        "title": "Legal News Blog: ",
-        "description": "We continued adding two blog posts per week to our Legal News blog."
+        "title": "Oyez Transcript Alignment Improvements. ",
+        "description": "We updated one of the libraries we use to produce the oral argument feature in Oyez. It is a huge time-saver for the folks in charge of processing each new case from the Supreme Court."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Justia Amplify. ",
+        "description": "This month, the team has accomplished several tasks, including rolling out the $500 Google Ads credit to existing Justia clients, transitioning PPC keywords from Broad Match Modified to Phrase Match, and implementing new conversion action labels that will help us to better track client conversions from ads."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "RDS Databases Upgrades. ",
+        "description": "We are continuing with the mass upgrade to our databases project. We recently completed the changes for <a href=\"https://dockets.justia.com/\" target=\"_blank\"><strong>Dockets</strong></a> and <a href=\"https://blawgsearch.justia.com/\" target=\"_blank\"><strong>Blawgsearch</strong></a>. There are a lot more upgrades coming in the following months."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "link": "https://jurispro.com/",
+        "image": "milestones-graphic-06.png",
+        "title": "JurisPro Spam Detection Improvements. ",
+        "description": "In light of the increasing spam affecting network security and performance, our team pushed an improved spam detection system for JurisPro and for our Justia friends live."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Contact Forms for Clients and Landing Pages. ",
+        "description": "Behind the scenes, our team completed the first milestone for improving the processing of contact forms this month. We will now be able to add new features."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "link": "https://regulations.justia.com/states/",
+        "image": "milestones-graphic-08.png",
+        "title": "Regulations. ",
+        "description": "While some regulations remain unchanged, others may evolve due to revisions, transformations, or transitions. To keep our portal up to date and engaging for our readers, our regular quarterly update of U.S. State Regulations was successfully published this month."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Writing Services. ",
+        "description": "Our transition from internal Writing Services to an external writer referral service will be complete. Although a small group of clients is continuing under the old system, no others will be added. Going forward, if a client asks about getting content, forward the request directly to Chris so that he can match them up with a writer."
       }
     }
   ]
