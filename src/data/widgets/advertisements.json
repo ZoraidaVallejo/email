@@ -6,7 +6,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
-        "content": ""
+        "content": "https://www.justia.com/marketing/contact/amplify-googleads/"
       },
       "image": "google-ad.png"
     },

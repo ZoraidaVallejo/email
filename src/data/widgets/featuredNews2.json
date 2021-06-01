@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/6-tips-for-creating-your-law-firms-marketing-plan/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "6 Tips for Creating Your Law Firm's Marketing Plan",
+  "description": [
+    "A key part of achieving marketing success is creating a marketing plan to guide your strategy. Check out this post for 6 tips to remember when creating a marketing plan for your law firm."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/6-tips-for-creating-your-law-firms-marketing-plan/",
+    "text": "Read More"
+  }
+}
