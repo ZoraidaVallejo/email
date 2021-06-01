@@ -211,12 +211,23 @@
     }
 }
 
-.w-webmaster{
+.w-webmaster {
+
+    p a {
+        font-weight: get('font.weight.bold');
+    }
+
     .header-icon-column {
         width: 45px;
 
         img {
             width: 45px;
         }
+    }
+}
+
+.w-internet-stats {
+    p a {
+        font-weight: get('font.weight.bold');
     }
 }
