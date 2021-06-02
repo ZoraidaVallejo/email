@@ -1,12 +1,12 @@
 {
   "clients": {
     "ad1": {
-      "link": "",
+      "link": "https://www.justia.com/marketing/contact/amplify-googleads/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "client-newsletter",
-        "content": "https://www.justia.com/marketing/contact/amplify-googleads/"
+        "content": "banner-google-ads-v1"
       },
       "image": "google-ad.png"
     },
