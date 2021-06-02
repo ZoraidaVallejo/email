@@ -28,7 +28,7 @@
     "button": {
       "style": "justia-blue",
       "link": "https://www.justia.com/marketing/",
-      "text": "Learn More",
+      "text": "Get Started",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
