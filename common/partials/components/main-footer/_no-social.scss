@@ -33,13 +33,28 @@
     }
 
     .footer-disclaimer {
-        padding: 28px $padding 8px;
+        padding: 28px $padding 10px;
         text-align: center;
     }
 
     .footer-address {
         padding: 0 $padding floor($padding * 4);
         text-align: center;
+    }
+
+    .footer-nav,
+    .footer-disclaimer,
+    .footer-collaborators {
+
+        p,
+        span,
+        a {
+            @include mail-font(14px, 1.7);
+        }
+
+        span {
+            margin-bottom: 0;
+        }
     }
 
     // L O G O   S I Z E S
