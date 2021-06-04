@@ -38,12 +38,14 @@
     }
 
     .content {
-        padding: 0 50px 20px;
+        padding: 0 30px 20px;
+        text-align: left;
 
-        strong a{
+        strong a {
             color: plt('justia-blue');
         }
-        b{
+
+        b {
             color: plt('red');
         }
 
@@ -114,7 +116,7 @@
 
         &.-last {
             padding: 0px 50px 50px;
-            text-align: left;
+            text-align: center;
 
             p {
                 max-width: 500px;
