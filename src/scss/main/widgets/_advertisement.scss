@@ -96,7 +96,7 @@
         }
 
         &.-first {
-            padding: 45px 0px 12px;
+            padding: 37px 0px 12px;
             text-align: left;
 
             img{
@@ -114,20 +114,18 @@
 
         &.-last {
             padding: 0px 50px 50px;
-            // text-align: left;
-           
+            text-align: left;
 
             p {
-               max-width: 500px;
-               margin: 0 auto;
-               padding: 25px 25px 20px;
-               background-color: #f2f5f8;
-               &:last-child{
-                   padding: 0px 25px 25px;
-               }
-            }
+                max-width: 500px;
+                margin: 0 auto;
+                padding: 25px 25px 20px;
+                background-color: #f2f5f8;
 
-          
+                &:last-child {
+                    padding: 0px 25px 25px;
+                }
+            }
         }
 
         b a {
