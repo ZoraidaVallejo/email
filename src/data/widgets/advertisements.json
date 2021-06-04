@@ -13,7 +13,7 @@
         {
           "type": "description",
           "config": [
-            "<p>With <b>Justia Platinum Placements</b>, an exclusive <br>top listing in the <b>Justia Lawyer Directory</b>, <br>potential clients see you first - before any competitor.</p>"
+            "<p>With <b>Justia Platinum Placements</b>, an exclusive top listing in the <b>Justia Lawyer Directory</b>, potential clients see you first - before any competitor.</p>"
           ]
         },
         {
@@ -21,7 +21,7 @@
           "config": {
             "style": "red",
             "text": "Secure Your Spot Now",
-            "width": 260,
+            "width": 300,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -35,7 +35,7 @@
         {
           "type": "description",
           "config": [
-            "Justia Lawyer Directory Team<br><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
+            "<p>Justia Lawyer Directory Team<br><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
           ]
         }
       ]
