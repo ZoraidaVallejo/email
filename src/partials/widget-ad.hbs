@@ -119,10 +119,26 @@
 
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
             {{#each this.config}}
               {{{this}}}
             {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "bg-block"}}
+        <tr>
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
+            <table {{{tableAttr}}}>
+              <tr>
+                <td class="-inner-wrap">
+                  {{#each this.config}}
+                    {{{this}}}
+                  {{/each}}
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       {{/compare}}

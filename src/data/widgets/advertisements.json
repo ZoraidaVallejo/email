@@ -8,32 +8,49 @@
       "background": {
         "image": "ad-gradient.png",
         "width": 600,
-        "bgColor": "#fefefe",
+        "bgColor": "#ffffff",
         "cssSize": "600px 350px"
       },
       "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 23,
-      "image": "lsa-reviews-01.png",
+      "image": "holiday-graphic-01.png",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p class='heading4'><strong>Did You Know Accidents and Crimes Increase Around the Holidays?</strong></p>"
+            "<p class=\"heading4\"><strong>Did You Know Accidents and Crimes Increase Around the Holidays?</strong></p>"
           ]
         },
         {
-          "type": "description",
+          "type": "bg-block",
           "config": [
+            "<img src=\"https://justatic.com/v/1/emails/images/newsletters/2021/06/tip-ribbon-01-2x.png\" alt=\"Helpful Tip\">",
             "<p>Data shows an unfortunate uptick in serious and fatal motor vehicle accidents around the 4th of July holiday. 40%<span class=\"red-info\">*</span> of fatal crashes are a DUI or alcohol-involved incident. While we hope everyone has a safe holiday weekend, increasing your PPC budget can help you to maximize your reach to connect with people who will need your services.</p>",
-            "<p class=\"source\"><span class=\"red-info\">*</span>Source: <strong><a hrefr='https://accidentdoctor.org/july-4th-accident-statistics-2020/' target='_blank'>https://accidentdoctor.org/july-4th-accident-statistics-2020/</a></strong></p>"
+            "<p class=\"source\"><span class=\"red-info\">*</span>Source: <strong responsive=\"collapse-one mobile-fz-13\"><a href=\"#\">https://accidentdoctor.org/july-4th-accident-statistics-2020/</a></strong></p>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "<p>Our <strong>Justia Amplify</strong> PPC Management experts can help you be seen.</p>"
+            "<p>Our <strong>Justia Amplify</strong> PPC Management experts can increase your visibility.</p>"
           ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Contact Us Now!",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
         }
       ]
     },

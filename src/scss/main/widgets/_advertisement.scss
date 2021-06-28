@@ -46,18 +46,16 @@
             color: plt('red');
         }
 
-        p {
-            margin: 0 auto 22px
-        }
-
         .red-info {
             color: #e2231a;
-            font-size: rem-calc(16px);
+            font-size: rem-calc(14px);
+            vertical-align: top;
         }
 
         .heading4 {
             text-align: center;
-            font-size: rem-calc(22px);
+            @include mail-font(22px, 1.2);
+            // font-size: rem-calc(22px);
             display: block;
             margin: 0 auto;
         }
@@ -75,6 +73,10 @@
 
         .source {
             font-size: rem-calc(14px);
+
+            strong {
+                color: plt('justia-blue');
+            }
         }
 
         .content-side {
@@ -94,7 +96,7 @@
         }
 
         &.-first {
-            padding: 40px 0px 25px;
+            padding: 45px 55px 28px;
             text-align: left;
 
             img {
@@ -113,18 +115,39 @@
         }
 
         &.-idx-2 {
-            padding: 0px 45px 50px;
+            padding: 0px 45px 25px;
             text-align: left;
-           
+
+            img {
+                margin: 0 auto;
+
+                & + p {
+                    // margin: -23px auto 0;
+                    padding: 14px 25px 20px;
+                }
+            }
 
             p {
                max-width: 500px;
                margin: 0 auto;
                padding: 25px 25px 20px;
-               background-color: #f2f5f8;
+
                &:last-child{
                    padding: 0px 25px 25px;
+                   @include mail-font(14px);
                }
+            }
+
+            .-inner-wrap {
+                background-color: #f2f5f8;
+                // box-shadow: inset 0 7px 0 0 #ffffff;
+                text-align: left;
+            }
+        }
+
+        &.-idx-3 {
+            p {
+                @include mail-font(15px);
             }
         }
 
