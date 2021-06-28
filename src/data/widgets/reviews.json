@@ -1,0 +1,24 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Project Hail Mary"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135202\" target=\"_blank\"><b>Amazon</b></a>",
+        "description": [
+          "<i>Project Hail Mary is Andy Weir's third novel written after 2011's The Martian and 2017's Artemis.</i>",
+          "<i>The novel centers on middle school-teacher-turned-astronaut Ryland Grace, who wakes up on a spaceship with no memory. He soon learns that he is the sole survivor on a desperate mission to save the Earth.</i>",
+          "<i>He starts recovering his memories slowly as he starts putting the pieces together to find out what has happened to complete his interstellar mission to save humanity. It is a fabulous story of sheer determination to survive using science and engineering against overwhelming odds.</i>",
+          "<i>The author is known for conducting extensive research for the sake of scientific accuracy, so this is also a great book to learn a thing or two about physics, astrobiology, and orbital mechanics. There's already a movie in the planning with Ryan Gosling starring.</i>",
+          "- Miguel Berlanga"
+        ]
+      }
+    }
+  ]
+}

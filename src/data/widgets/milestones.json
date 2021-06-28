@@ -1,0 +1,74 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Search Marketing Expo (SMX) Advanced 2021.",
+        "description": "Several of our colleagues virtually attended the SMX Advanced conference this June, where industry experts cover the most recent information and best practices about search marketing and SEO."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "https://company.justia.com/announcements/",
+        "title": "Justia Company Announcements Portal.",
+        "description": "Our team recently launched our brand new Press Center, which provides journalists, bloggers, and the general public with access to the latest company press releases and news from Justia. Get updated on the life and latest happenings of our company."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "<a href=\"https://onward.justia.com/\" target=\"_blank\"><strong>Onward</strong></a> Promotion.",
+        "description": "We made a few changes in order to increase the Onward audience. One was adding a new subscription feature for the blog so users can get instant notifications when a new post is published. The other one is that we are sharing the latest Onward posts in our Caselaw summary newsletters."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Hackathon 2021.",
+        "description": "On June 17th, we held our 2nd ever Justia Hackathon. Engineers were allowed to pick and work on their own projects all day long. The project didn't even have to be work-related; it just needed to use a new technology unfamiliar to the person or team implementing it. We anxiously await the results, because this time around, there is prize money on the line."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "<a href=\"https://www.justia.com/lawyers\" target=\"_blank\"><strong>Lawyer Directory</strong></a> SEO & Design Changes",
+        "description": "We've made some SEO changes to the lawyer directory premium listings to help our search engine placement. We've also taken the time to redesign the premium placements on mobile devices slightly.  Benchmarking was completed and scheduled to measure and analyze the effect of our changes."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "Social Media Tags for Justia Blogs.",
+        "description": "We've added changes to include Twitter meta tags which provide information about the authors and an estimated reading time in the snippet when a post is shared in social media for Justia blogs like <a href=\"https://onward.justia.com/\" target=\"_blank\"><strong>Onward</strong></a>, <a href=\"https://avanza.justia.com/\" target=\"_blank\"><strong>Avanza</strong></a>, <a href=\"https://verdict.justia.com/\" target=\"_blank\"><strong>Verdict</strong></a>, <a href=\"https://onward.justia.com/markup-optimization-for-social-media/\" target=\"_blank\"><strong>Justia Daily Summaries</strong></a>, and many more."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Backend Maintenances.",
+        "description": "As usual, we perform maintenance operations on several properties in order to ensure their security and availability. We did a mass upgrade of first and third-party packages used in our applications. We are also in the middle of upgrading most of our databases, with 47% of the instances completed already."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "QA Automation.",
+        "description": "Consistency across our application is super important, so our QA team released automated checks for Justia standard footer layouts. The next goal is to do the same for the header layouts."
+      }
+    }
+  ]
+}
