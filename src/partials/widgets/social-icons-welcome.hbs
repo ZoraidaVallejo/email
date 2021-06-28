@@ -1,0 +1,29 @@
+{{!
+    * @param {String} widgetClass
+    * @param {String} widgetResponsive
+   }}
+   
+   {{#table class=(classList "social-icons-welcome" widgetClass) responsive=widgetResponsive}}
+     <tr>
+         <td>
+             <span class="followus">
+                 Follow Us
+             </span>
+         </td>
+       <td class="icon">
+         <a href="https://www.facebook.com/justia" target="_blank">
+           {{>img src="fb-icon.png" alt="Facebook"}}
+         </a>
+       </td>
+       <td class="icon">
+         <a href="https://twitter.com/justiacom" target="_blank">
+           {{>img src="tw-icon.png" alt="Twitter"}}
+         </a>
+       </td>
+       <td class="icon">
+         <a href="https://www.linkedin.com/company/justia" target="_blank">
+           {{>img src="in-icon.png" alt="LinkedIn"}}
+         </a>
+       </td>
+     </tr>
+   {{/table}}

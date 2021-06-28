@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Participating Lawyers",
+    "type": "Justia Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "list": [
+    {
+      "id": "1587377",
+      "rank": 1,
+      "name": "Stephen M Vincent",
+      "location": "Phoenix, AZ",
+      "nameLink": "https://answers.justia.com/lawyer/1587377/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+      "photoLink": "https://lawyers.justia.com/lawyer/1587377?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+    },
+    {
+      "id": "1664390",
+      "rank": 2,
+      "name": "Omar Darwich",
+      "location": "Wadsworth, OH",
+      "nameLink": "https://answers.justia.com/lawyer/1664390/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-2",
+      "photoLink": "https://lawyers.justia.com/lawyer/1664390?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-2"
+    },
+    {
+      "id": "1563551",
+      "rank": 3,
+      "name": "Boe Lynn Bowen",
+      "location": "Houston, TX",
+      "nameLink": "https://answers.justia.com/lawyer/1563551/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-3",
+      "photoLink": "https://lawyers.justia.com/lawyer/1563551?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-3"
+    },
+    {
+      "id": "1495286",
+      "rank": 4,
+      "name": "Joshua W. Bugeja Esq.",
+      "location": "Fort Smith, AR",
+      "nameLink": "https://answers.justia.com/lawyer/1495286/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-4",
+      "photoLink": "https://lawyers.justia.com/lawyer/1495286?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-4"
+    },
+    {
+      "id": "1665672",
+      "rank": 5,
+      "name": "Denania Galloway",
+      "location": "Memphis, TN",
+      "nameLink": "https://answers.justia.com/lawyer/1665672/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=name-lawyer-ask-a-lawyer-leaderboard-5",
+      "photoLink": "https://lawyers.justia.com/lawyer/1665672?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-07&utm_content=image-lawyer-ask-a-lawyer-leaderboard-5"
+    }
+  ],
+  "description": [
+    "Justia Ask A Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These attorneys answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "https://answers.justia.com/about-legal-answers",
+    "text": "Read More"
+  }
+}

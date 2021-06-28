@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "iconSrc": "justia-desk.png",
+    "header": "From the Desk of Justia"
+  },
+  "news": [
+    {
+      "title": "How To Create a Facebook Page for Your Law Firm",
+      "link": "https://onward.justia.com/how-to-create-a-facebook-page-for-your-law-firm/",
+      "description": "Facebook is one of the first social media platforms that you should consider when building your law firm’s social media presence. Check out this post to learn more about the nuts and bolts of creating a Page for your law firm on Facebook.",
+      "index": "1"
+    },
+    {
+      "title": "Four Rules of Social Media Reputation Management for User Feedback",
+      "link": "https://onward.justia.com/four-rules-of-social-media-reputation-management-for-user-feedback/",
+      "description": "You know social media is an important part of a comprehensive legal marketing plan that is here to stay. In this post, we offer four strategies for managing your law firm’s reputation on social media.  ",
+      "index": "2"
+    },
+    {
+      "title": "Sign Up for Justia Amplify PPC Management and Get a Gift from Justia",
+      "link": "https://onward.justia.com/sign-up-for-justia-amplify-ppc-management-and-get-a-gift-from-justia/",
+      "description": "Have you ever considered utilizing Google Ads as part of your firm’s online marketing strategy? Now is the time for you to get started with Justia Amplify PPC Management services. Plus, for a limited time, we are offering up to $500 in Google Ads credit for new Justia Amplify PPC Management clients. ",
+      "index": "3"
+    },
+    {
+      "title": "Local Marketing 101: Google's Local Justifications & Attributes",
+      "link": "https://onward.justia.com/local-marketing-101-googles-local-justifications-attributes/",
+      "description": "As search engines increasingly work to match search results to user intent, the importance of local marketing continues to increase for lawyers and law firms. Check out this post to learn more about two often overlooked pieces of local marketing: Google's local justifications and attributes. ",
+      "index": "4"
+    },
+    {
+      "title": "Are United States Government Websites Accessible?",
+      "link": "https://onward.justia.com/are-united-states-government-websites-accessible/",
+      "description": "Web accessibility is important for all entities, but especially the ones that make and enforce the laws and regulations of the United States. We did some checking in to see how key government websites are doing with web accessibility standards. ",
+      "index": "5"
+    },
+    {
+      "title": "Identifying Core Values for Your Law Firm",
+      "link": "https://onward.justia.com/identifying-core-values-for-your-law-firm/",
+      "description": "Core values help you align your law firm’s culture and actions to ultimately strengthen your brand and achieve your law firm’s long-term goals. Check out this post for guidance on identifying core values to guide your firm into the future.",
+      "index": "6"
+    },
+    {
+      "title": "The Law in Music: 20 Cool Songs About Courtrooms, Lawyers, and the Law",
+      "link": "https://onward.justia.com/the-law-in-music-20-cool-songs-about-courtrooms-lawyers-and-the-law/",
+      "description": "Since the beginning of humanity, sound has been one of the most important instruments for communication. For much of history, music was an ideal method of telling stories and sharing info about news and important feats. Today, music continues to be one of the most used mediums for discussing many topics, including the law and the legal profession. ",
+      "index": "7"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": "text-justia-desk-title-"
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": "text-justia-desk-title-"
+    }
+  }
+}

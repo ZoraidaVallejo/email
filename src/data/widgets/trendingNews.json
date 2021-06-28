@@ -1,0 +1,97 @@
+{
+  "widget": {
+    "iconSrc": "trending-news.png",
+    "header": "Trending News"
+  },
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "FBI Tricks Criminal Groups Into Using Messaging App, Makes 800 Arrests",
+          "link": "https://www.cnet.com/news/fbi-tricks-criminal-groups-into-using-messaging-app-arrests-800-of-them/"
+        },
+        {
+          "title": "Tech Giants and Tax Havens Targeted by Historic G7 Deal",
+          "link": "https://www.reuters.com/business/g7-nations-near-historic-deal-taxing-multinationals-2021-06-05/"
+        },
+        {
+          "title": "What US States Will Support Apple Wallet Digital Identity Cards?",
+          "link": "https://www.cnet.com/news/what-us-states-will-support-apple-wallet-digital-identity-cards/"
+        },
+        {
+          "title": "Biden Revokes and Replaces Trump Orders Banning TikTok and WeChat",
+          "link": "https://www.theverge.com/2021/6/9/22525953/biden-tiktok-wechat-trump-bans-revoked-alipay"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Google June 2021 Core Update Finished Rolling Out On Saturday, June 12th",
+          "link": "https://www.seroundtable.com/google-june-2021-core-update-done-31601.html"
+        },
+        {
+          "title": "Google Expands GMB Profile Editing Capabilities in Search and Maps",
+          "link": "https://searchengineland.com/google-expands-gmb-profile-editing-capabilities-in-search-and-maps-349718"
+        },
+        {
+          "title": "Why Mobile and Desktop Rankings Are Different ",
+          "link": "https://www.searchenginejournal.com/what-factors-influence-difference-in-mobile-and-desktop-rankings/"
+        },
+        {
+          "title": "How Do Google Algorithmic Slow Rollout Work?",
+          "link": "https://www.seroundtable.com/google-algorithmic-slow-rollouts-31608.html"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Spotify’s Clubhouse Competitor Greenroom Launches Today",
+          "link": "https://www.theverge.com/2021/6/16/22535214/spotify-greenroom-locker-room-live-audio-app"
+        },
+        {
+          "title": "Facebook Is Debuting Podcasts, Because What Else is Left?",
+          "link": "https://thenextweb.com/news/facebook-podcast-pages-audio-analysis?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheNextWeb+%28The+Next+Web+All+Stories%29"
+        },
+        {
+          "title": "Following Lawsuits, Snapchat Pulls Its Controversial Speed Filter",
+          "link": "https://techcrunch.com/2021/06/17/following-lawsuits-snapchat-takes-down-controversial-speed-filter/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29"
+        },
+        {
+          "title": "Facebook Launches New Independent Artist Program to Provide Exposure Opportunities for Unsigned Musicians",
+          "link": "https://www.socialmediatoday.com/news/facebook-launches-new-independent-artist-program-to-provide-exposure-opport/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Texas Is 6th State To Require College Athlete NIL Rights As Of July 1",
+          "link": "https://abovethelaw.com/2021/06/texas-is-6th-state-to-require-college-athlete-nil-rights-as-of-july-1/"
+        },
+        {
+          "title": "Tech Antitrust Pioneer Lina Khan Will Lead FTC, Reports Say",
+          "link": "https://www.theverge.com/2021/6/15/22527709/lina-khan-ftc-commissioner-competition-facebook-amazon-google-apple"
+        },
+        {
+          "title": "Supreme Court Revives LinkedIn Case to Protect User Data From Web Scrapers",
+          "link": "https://techcrunch.com/2021/06/14/supreme-court-revives-linkedin-bid-to-protect-user-data-from-web-scrapers/"
+        },
+        {
+          "title": "Supreme Court Rules Catholic Group Doesn't Have To Consider LGBTQ Foster Parents",
+          "link": "https://www.npr.org/2021/06/17/996670391/supreme-court-rules-for-a-catholic-group-in-a-case-involving-gay-rights-foster-c"
+        }
+      ]
+    }
+  ]
+}

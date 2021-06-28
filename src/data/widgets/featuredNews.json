@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/seo-best-practices-for-internal-linking/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "SEO Best Practices for Internal Linking",
+  "description": [
+    "You know links matter for SEO, but why does internal linking matter and how should you approach it? In this post, we will give you some of the best practices and tips for internal linking used by our SEO experts at Justia."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/seo-best-practices-for-internal-linking/",
+    "text": "Read More"
+  }
+}

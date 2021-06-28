@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Team Building for 500, Alex!"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Team Building for 500, Alex!</b>",
+      "description": [
+        "This month our team enjoyed some healthy competition in our first Justia Jeopardy challenge! This fun tournament let us take a break to enjoy some laughs (and challenges) with our fellow Justians as we look forward to crowning the champion in a few short weeks."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Hug Pug Friends: Tom the Turkey"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Hug Pug Friends: Tom the Turkey</b>",
+      "description": [
+        "Sheba the Hug Pug has been making plenty of new friends lately. She met Tom, a wild turkey,  and invited him to join her at Justia’s Mountain View office. Tom’s friends joined, and they are happily clucking their way around while nearby employees continue to work from home."
+      ]
+    }
+  ]
+}

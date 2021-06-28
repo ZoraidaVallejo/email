@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "icon": "events-we-attended",
+    "header": "Events We Attended"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "events-attended-01.jpg",
+        "alt": "Search Marketing Expo (SMX) Advanced 2021"
+      },
+      "blockTitle": "<b>Search Marketing Expo (SMX) Advanced 2021</b>",
+      "description": [
+        "Several of our team members attended the SMX Advanced conference virtually this June, where the latest tips and best practices for search marketing and SEO are covered by industry experts."
+      ],
+      "readMore": "https://www.justia.com/"
+    }
+  ]
+}

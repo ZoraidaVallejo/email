@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "8",
+      "month": "July",
+      "title": "Improving Justice Outcomes for Veterans",
+      "time": "2pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://americanbar.zoom.us/webinar/register/WN_KwBo6dATQmS-HYTjDFs0Eg"
+    },
+    {
+      "day": "12-16",
+      "month": "July",
+      "title": "2021 Dispute Resolution Tech Expo",
+      "time": "8am ET",
+      "typeLocation": "Virtual Conference",
+      "link": "https://web.cvent.com/event/42648ba3-0a5c-4c50-8f2a-9e8543c92d58/summary"
+    },
+    {
+      "day": "14",
+      "month": "July",
+      "title": "Personal Injury Claims for Uber and Lyft Accidents",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.straffordpub.com/products/personal-injury-claims-for-uber-and-lyft-accidents-complex-liability-and-insurance-coverage-issues-2021-07-14"
+    },
+    {
+      "day": "20",
+      "month": "July",
+      "title": "Divorce: When a Spouse or Former Spouse Files Bankruptcy",
+      "time": "1pm ET",
+      "typeLocation": "Webinar",
+      "link": "https://www.straffordpub.com/products/divorce-when-a-spouse-or-former-spouse-files-bankruptcy-2021-07-20"
+    }
+  ]
+}
