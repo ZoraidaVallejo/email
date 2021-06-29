@@ -195,9 +195,14 @@
     }
 }
 
-.w-tip-month{
-    a b{
+.w-tip-month {
+    a {
         color: plt('black');
+        font-weight: get('font.weight.bold');
+
+        b {
+            color: plt('black');
+        }
     }
 }
 
