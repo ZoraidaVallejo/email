@@ -24,6 +24,10 @@
             @include mail-font(26px, 1.1, tp('weight', 'bold'));
         }
 
+        a {
+            font-weight: get('font.weight.bold');
+        }
+
         p,
         a {
             text-align: left;
