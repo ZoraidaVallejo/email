@@ -1,54 +1,17 @@
 {
   "widget": {
-    "header": "Get To Know Our Teammates"
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
   },
   "titleResponsiveSize": 23,
   "contentOrder": [
     {
-      "type": "description",
-      "config": [
-        "Knowing your teammates as people rather than just job roles fosters and builds team spirit, confidence, and trust. Read these little-known facts about our teammates and guess which person they belong to."
-      ]
-    },
-    {
       "type": "list",
       "config": [
-        "Excepteur magna excepteur qui laborum cillum nulla.",
-        "Excepteur magna excepteur qui laborum cillum nulla.",
-        "Excepteur magna excepteur qui laborum cillum nulla.",
-        "Excepteur magna excepteur qui laborum cillum nulla.",
-        "Excepteur magna excepteur qui laborum cillum nulla."
-      ]
-    },
-    {
-      "type": "faces",
-      "config": [
-        {
-          "image": "teammate-01.png",
-          "name": "Jane Doe"
-        },
-        {
-          "image": "teammate-02.png",
-          "name": "Jane Doe"
-        },
-        {
-          "image": "teammate-03.png",
-          "name": "Jane Doe"
-        },
-        {
-          "image": "teammate-04.png",
-          "name": "Jane Doe"
-        },
-        {
-          "image": "teammate-05.png",
-          "name": "Jane Doe"
-        }
-      ]
-    },
-    {
-      "type": "description",
-      "config": [
-        "We will share the correct answers tomorrow on Slack!"
+        "<strong>New Centers:</strong> We’ve created the content for International Law, Constitutional Law, Communications and Internet Law, and Entertainment Law during this past month. ",
+        "<strong>COVID-19 Updates:</strong> We’ve continued to update the 50-state surveys on mask mandates, travel restrictions, evictions, court operations, and general restrictions.",
+        "<strong>Criminal Law Center:</strong> Our team has added hundreds of informational boxes to these pages to improve their readability.",
+        "<strong>Divorce Center:</strong> We’ve started expanding and updating these pages to cover a broader range of issues and needs."
       ]
     }
   ]

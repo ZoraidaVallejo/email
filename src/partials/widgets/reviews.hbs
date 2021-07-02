@@ -68,7 +68,7 @@
                       responsive="mobile-align-center"
                     }}
                   </a>
-                  <p responsive="mobile-padding-top mobile-no-margin">{{{../config.where}}}</p>
+                  {{#if ../config.where}}<p responsive="mobile-padding-top mobile-no-margin">{{{../config.where}}}</p>{{/if}}
                 </div>
               {{/compare}}
 

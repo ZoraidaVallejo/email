@@ -18,6 +18,10 @@
         }
     }
 
+    .widget-header {
+        padding: $widget-gap $padding $padding;
+    }
+
     .title {
         padding: 0 $padding 35px;
 
@@ -109,16 +113,17 @@
 
         ul {
             margin: 0;
-            background-color: #f6fdfc;
-            padding: 1.2em 25px 0.3em;
-            border-radius: 10px;
+            padding: 0;
+            // background-color: #f6fdfc;
+            // padding: 1.2em 25px 0.3em;
+            // border-radius: 10px;
 
             li {
                 display: block;
-                padding: 0 0 0 22px;
+                padding: 0 0 0 15px;
                 margin-bottom: 15px;
                 background: image-url('list-icon-01.png') no-repeat top left;
-                background-position: 0px 6px;
+                background-position: 0px 8px;
             }
         }
     }

@@ -40,7 +40,11 @@
         padding: 0 $padding 25px;
 
         p {
-            margin-bottom: 0;
+            margin-bottom: 24px;
+
+            // &:last-child {
+            //     margin-bottom: 0;
+            // }
 
             a {
                 color: plt('justia-blue');
@@ -60,11 +64,11 @@
             }
 
             &:first-child {
-                float: left;
+                float: right;
             }
 
             &:last-child {
-                float: right;
+                float: left;
             }
         }
 
@@ -80,7 +84,7 @@
         }
 
         &.-first {
-            padding: 0 $padding 20px;
+            padding: 0 $padding;
         }
 
         &.-button {
