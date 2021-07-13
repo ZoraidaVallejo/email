@@ -1,0 +1,111 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 550px"
+      },
+      "link": "https://www.justia.com/marketing/contact/amplify-googleads-credit/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "[jld-ad-01-example]"
+      },
+      "title": "",
+      "titleResponsiveSize": 23,
+      "image": "ppc-tagline.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "For a limited time, Justia is offering up to <b>$500 in Google Ads credit</b> as a sign-up bonus for our new Justia Amplify PPC Management clients. This means it is now easier than ever to get started with Google Ads!",
+            "<strong>Why Justia Amplify PPC Management Services?</strong>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-1.png",
+            "description": [
+              "<strong>Easy to Try It Out</strong> Short-term agreements available with no long-term commitments required."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-2.png",
+            "description": [
+              "<strong>Tailored Solutions</strong> As a <b>Justia Amplify</b> client, you will have a dedicated campaign strategist that is familiar with your law firm’s unique needs and goals."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-3.png",
+            "description": [
+              "<strong>Legal Marketing Has Changed</strong> The proliferation of paid ads in search engine results has decreased organic visibility and increased the importance of PPC advertising."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-4.png",
+            "description": [
+              "<strong>Know Where Your $$$ Goes</strong> We have transparent processes designed to ensure you always understand where (and how) your advertising budget is being spent."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-5.png",
+            "description": [
+              "<strong>Significant, Measurable Results</strong> Our clients have improved their conversion rates by up to 40% while decreasing their overall cost per conversion by up to 62%."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "icon-6.png",
+            "description": [
+              "<strong>Legal Marketing Experts</strong> Justia is a Google Premier Partner. Our marketing professionals are certified in Google Ads and Google Analytics."
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<img src='../images/phone.png' alt='Call Us'>Call Us <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "I'm Interested!",
+            "width": 160,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}
