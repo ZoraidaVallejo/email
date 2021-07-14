@@ -77,10 +77,23 @@
 
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image">
+      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-50-top">
         <a href="{{{@root.adLink}}}" target="_blank">
           {{>img
             src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.image2}}
+    <tr>
+      <td class="image -img2" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image2
             alt=(default widgetConfig.title widgetConfig.imageAlt)
           }}
         </a>
@@ -119,7 +132,7 @@
 
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides {{#if this.paragraph}} mobile-padding-50-top{{/if}}">
             {{#each this.config}}
               <p>{{{this}}}</p>
             {{/each}}
@@ -128,6 +141,29 @@
       {{/compare}}
 
       {{#compare this.type "===" "button"}}
+        <tr>
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-50-bottom">
+            {{#uiButton
+              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+              presetStyle=this.config.style
+              width=this.config.width
+              height=this.config.height
+              borderColor=this.config.borderColor
+              backgroundColor=this.config.backgroundColor
+              fontColor=this.config.fontColor
+              fontStyle=this.config.fontStyle
+              fontWeight=this.config.fontWeight
+              fontSize=this.config.fontSize
+              responsive=this.config.responsive
+            }}
+              {{{this.config.text}}}
+            {{/uiButton}}
+            <br><br><br>
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "button2"}}
         <tr>
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#uiButton
