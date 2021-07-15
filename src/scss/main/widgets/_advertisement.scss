@@ -5,6 +5,7 @@ $padding: 50px;
 
 
 .w-advertisement {
+    background-color: plt('white');
 
     td {
         text-align: center;
@@ -30,14 +31,14 @@ $padding: 50px;
     }
 
     .image {
-        padding: 38px $padding 0;
+        padding: 0;
 
         &.-img2 {
             padding: 10px $padding 0;
         }
 
         img {
-            width: $inner-max-width;
+            width: 100%;
         }
     }
 
@@ -80,31 +81,31 @@ $padding: 50px;
             width: 175px;
         }
 
-        &.-first {
-            padding: 35px $padding 20px;
-            text-align: center;
-            color: plt('white');
-            // padding-top: 0;
+        // &.-first {
+        //     padding: 35px $padding 20px;
+        //     text-align: center;
+        //     color: plt('white');
+        //     // padding-top: 0;
            
-            p {
-                font-weight: get('font.weight.bold');
-                font-size: rem-calc(18px);
-                text-align: center;
-            }
+        //     p {
+        //         font-weight: get('font.weight.bold');
+        //         font-size: rem-calc(18px);
+        //         text-align: center;
+        //     }
 
-            a b {
-                color: plt('white');
-            }
+        //     a b {
+        //         color: plt('white');
+        //     }
 
-            img {
-                display: inline-block;
-                margin: 0 8px 5px 0;
-                vertical-align: middle;
-            }
+        //     img {
+        //         display: inline-block;
+        //         margin: 0 8px 5px 0;
+        //         vertical-align: middle;
+        //     }
 
-        }
+        // }
 
-        &.-idx-10{
+        &.-idx-8{
             padding: 0 $padding 20px;
             text-align: center;
             color: plt('black');
@@ -191,16 +192,16 @@ $padding: 50px;
             }
         }
 
-        &.-idx-2 {
-            padding: 0 50px 50px;
+        // &.-idx-2 {
+        //     padding: 0 50px 50px;
 
-            .-image {
-                padding: 32px 0;
-            }
-        }
+        //     .-image {
+        //         padding: 32px 0;
+        //     }
+        // }
 
-        &.-idx-3 {
-            padding: 20px 50px 32px;
+        &.-idx-1 {
+            padding: 40px 50px 32px;
 
             p {
                 text-align: left;
@@ -208,6 +209,7 @@ $padding: 50px;
 
             strong {
                 text-align: center;
+                padding: 10px 0 0;
             }
 
             .-image {
@@ -219,7 +221,7 @@ $padding: 50px;
             }
         }
 
-        &.-idx-4 {
+        &.-idx-2 {
             .-image {
                 width: 110px;
                 margin-top: 0;
@@ -237,7 +239,7 @@ $padding: 50px;
 
         }
 
-        &.-idx-5 {
+        &.-idx-3 {
             padding: 0 $padding 32px;
 
             .-image {
@@ -255,7 +257,7 @@ $padding: 50px;
 
            
         }
-        &.-idx-6 {
+        &.-idx-4 {
             .-image {
                 width: 125px;
                 // margin-top: -10px;
@@ -271,7 +273,7 @@ $padding: 50px;
             }
         }
 
-        &.-idx-7 {
+        &.-idx-5 {
             .-image {
                 width: 125px;
                 margin-top: 37px;
@@ -286,7 +288,7 @@ $padding: 50px;
             }
         }
 
-        &.-idx-8 {
+        &.-idx-6 {
             .-image {
                 width: 125px;
                margin-top: 5px;
@@ -301,7 +303,7 @@ $padding: 50px;
             }
         }
 
-        &.-idx-9 {
+        &.-idx-7 {
             .-image {
                 width: 142px;
                 margin-top: 20px;

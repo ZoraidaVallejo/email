@@ -6,7 +6,7 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "ppc-bg.png",
+        "image": "",
         "width": 600,
         "bgColor": "#ffffff",
         "cssSize": "600px 550px"
@@ -20,31 +20,8 @@
       },
       "title": "",
       "titleResponsiveSize": 23,
-      "image": "ppc-500.png",
-      "image2": "ppc-tagline-graph.png",
+      "image": "ppc-tagline.png",
       "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<img src='https://justatic.com/v/2/emails/images/newsletters/2021/07/phone.png' alt='Call Us'>Call Us <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "I'm Interested!",
-            "width": 210,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 18,
-            "responsive": ""
-          }
-        },
         {
           "type": "description",
           "paragraph": true,
@@ -110,7 +87,7 @@
         {
           "type": "description",
           "config": [
-            "<img src='https://justatic.com/v/2/emails/images/newsletters/2021/07/phone.png' alt='Call Us'>Call Us <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
+            "<img src='https://justatic.com/v/3/emails/images/newsletters/2021/07/phone.png' alt='Call Us'>Call Us <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
           ]
         },
         {
@@ -118,7 +95,7 @@
           "config": {
             "style": "red",
             "text": "I'm Interested!",
-            "width": 210,
+            "width": 250,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",

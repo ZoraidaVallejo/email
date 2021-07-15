@@ -77,7 +77,7 @@
 
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-50-top">
+      <td class="image" responsive="">
         <a href="{{{@root.adLink}}}" target="_blank">
           {{>img
             src=widgetConfig.image
@@ -132,7 +132,7 @@
 
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides {{#if this.paragraph}} mobile-padding-50-top{{/if}}">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides {{#if this.paragraph}} mobile-padding-20-top{{/if}}">
             {{#each this.config}}
               <p>{{{this}}}</p>
             {{/each}}
