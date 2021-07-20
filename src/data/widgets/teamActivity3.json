@@ -1,0 +1,42 @@
+{
+  "type": "TEAM ACTIVITY",
+  "title": "Winners of 2021 March Madness",
+  "titleResponsiveSize": 23,
+  "image": "march-madness-01.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "After a one-year hiatus, our traditional March Madness returned with a lot of surprising and unpredictable moments. Thank you all for participating and submitting your brackets. Congratulations to the winners!"
+      ]
+    },
+    {
+      "type": "lists-description",
+      "config": {
+        "left": [
+          "<strong>Overall Bracket</strong>",
+          "<b>Winner – Ana Hidalgo</b><br>",
+          "<b>Runners Up</b>",
+          "Hayden Pham",
+          "Meztli Vergara",
+          "Clayton Dodds",
+          "Chris Skelton",
+          "Thomas Sullivan",
+          "Edgar Cano",
+          "Stacy Stern",
+          "Miguel Berlanga",
+          "Lauren Moskie",
+          "Keilah Cabrera"
+        ],
+        "right": [
+          "<strong>WINS</strong>",
+          "<b>Winner – Ana Hidalgo</b><br>",
+          "<strong>SWEET 16</strong>",
+          "<b>Winner – Chris Skelton</b><br>",
+          "<strong>CHAMPIONSHIP GAME</strong>",
+          "<b>Winner – Vasu Kappettu</b>"
+        ]
+      }
+    }
+  ]
+}
