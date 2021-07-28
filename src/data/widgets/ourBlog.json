@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "SEO + PPC = Holistic Marketing Strategy for Lawyers"
+      },
+      "readMore": "We’ve started creating content for this brand new center for business owners, employees, and investors in the marijuana industry.",
+      "blockTitle": "SEO + PPC = Holistic Marketing Strategy for Lawyers"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Five Reasons Your Law Firm Needs a Marketing Plan"
+      },
+      "readMore": "https://onward.justia.com/five-reasons-your-law-firm-needs-a-marketing-plan/",
+      "blockTitle": "Five Reasons Your Law Firm Needs a Marketing Plan"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Maximizing the Benefits of Your Justia Lawyer Directory Profile"
+      },
+      "readMore": "https://onward.justia.com/five-reasons-your-law-firm-needs-a-marketing-plan/",
+      "blockTitle": "Maximizing the Benefits of Your Justia Lawyer Directory Profile"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "How To Leverage Twitter for Your Law Firm"
+      },
+      "readMore": "https://onward.justia.com/how-to-leverage-twitter-for-your-law-firm/",
+      "blockTitle": "How To Leverage Twitter for Your Law Firm"
+    }
+  ]
+}

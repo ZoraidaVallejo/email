@@ -1,0 +1,35 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Miriam Valdes",
+        "blockSubtitle": "Engineering Team",
+        "description": "Hi! I am Miriam, and I am an economist with a computer science background. I am very excited about joining the Justia Mexico team. I have two children, and I like to spend time with my family and enjoy reading, solving riddles, dancing, doing outside activities, and yoga. I also like to go shopping."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-02.png",
+        "title": "Yessica Acosta",
+        "blockSubtitle": "Help Desk Intern",
+        "description": "Hello there. I'm Yessica, I'm 24 years old, and I live in Chihuahua, Chihuahua. I'm about to graduate as a Computer Systems Engineer, and my area of expertise is Integral Security on IT and Front-End Development. Whenever I have free time, I like to watch videos to develop my programming skills and maybe do some late-night gaming. I live by the \"Nothing is impossible\" motto."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-03.png",
+        "title": "Daniel Gomez",
+        "blockSubtitle": "Help Desk Intern",
+        "description": "Hello, my name is Daniel Gómez. I’m 21 years old, and I’m from Fresnillo, Zacatecas. I’m about to graduate as a Computer Systems Engineer. I have a passion for software development and everything that has to do with technology. I also love doing exercise, swimming and running are my favorite ones. I look forward to beginning my journey in Justia and working with you."
+      }
+    }
+  ]
+}

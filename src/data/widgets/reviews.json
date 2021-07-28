@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Kurzgesagt - YouTube Channel"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.youtube.com/c/inanutshell/videos\" target=\"_blank\"><b>YouTube</b></a>",
+        "description": [
+          "<i>Kurzgesagt means ‘In a Nutshell’ in German, and it is just animation videos explaining things with optimistic nihilism. The studio’s YouTube channel focuses on minimalist animated educational content, using the flat design style. I like it because it discusses scientific, technological, political, philosophical, and psychological subjects. Most of their videos put some really interesting things into perspective.</i>",
+          "- Miguel Saldivar"
+        ]
+      }
+    }
+  ]
+}
