@@ -5,52 +5,44 @@
   },
   "events": [
     {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
+      "day": "12",
+      "month": "Aug",
+      "title": "A Trauma-Informed, Anti-Racist Approach to Legal Advocacy",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/412675108/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
     },
     {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
+      "day": "12-13",
+      "month": "Aug",
+      "title": "Skills Training for Estate Planners",
+      "link": "https://web.cvent.com/event/d8d1b17b-e3ad-412e-bffb-c367682d23c0/summary",
+      "time": "10am ET",
+      "typeLocation": "Webinar"
     },
     {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
+      "day": "17",
+      "month": "Aug",
+      "title": "Best of ABA TECHSHOW: Of PEN Tests and Policies",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/414732579/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
     },
     {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
+      "day": "19",
+      "month": "Aug",
+      "title": "Post-Pandemic Benefits Issues",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/413605828/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
     },
     {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
-    },
-    {
-      "day": "[00]",
-      "month": "[Month]",
-      "title": "[Title]",
-      "time": "[00PM ET]",
-      "typeLocation": "[Webinar]",
-      "link": "https://www.justia.com/"
+      "day": "26",
+      "month": "Aug",
+      "title": "Spouses Dividing Retirement Assets During Life",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/414674695/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
     }
   ]
 }

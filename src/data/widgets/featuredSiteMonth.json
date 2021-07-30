@@ -9,15 +9,15 @@
   "justiaLink": "https://www.justia.com/marketing/",
   "sites": [
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
+      "clientName": "Minor & Jester, P.C.",
       "location": {
-        "detailed": "[Anytown, CA]",
-        "short": "[Anytown, CA]"
+        "detailed": "Denton, TX",
+        "short": "Denton, TX"
       },
-      "possessiveAdjective": "[their]",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.minorandjester.com/",
+        "simple": "minorandjester.com"
       },
       "screenshots": "featured-site-01.jpg",
       "thumbnail": "featured-site-01-thumb.jpg"

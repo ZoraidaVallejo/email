@@ -27,10 +27,9 @@
     }
   },
   "banner": "featured-news-01.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "title": "Website Metrics with Google Lighthouse",
   "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+    "<a href='https://web.dev/vitals/' target='_blank'>Web Vitals</a> is here! Besides \"unique and relevant content\", the way you deliver it (user experience) is now playing a significant role in Google Search rankings, meaning that Google will prioritize pages with an excellent page experience. This article discusses <a href='https://developers.google.com/web/tools/lighthouse' target='_blank'>Google Lighthouse</a>, a neat tool designed to audit, analyze, and improve web pages' quality."
   ],
   "button": {
     "style": "justia-blue",

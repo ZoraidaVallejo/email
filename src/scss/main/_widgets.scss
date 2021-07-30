@@ -220,3 +220,10 @@
         }
     }
 }
+
+.w-featured-news,
+.w-tip-month {
+    .widget-description a {
+        font-weight: get('font.weight.bold');
+    }
+}
