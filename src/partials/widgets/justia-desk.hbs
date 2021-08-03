@@ -31,8 +31,17 @@
     * @param {string} justiaDesk.utm.jld.content.button
 }}
 
-{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars))}}
+{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+{{assign "onwardSub" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
 {{assign "columnStructure" (chunks justiaDesk.news 2 true)}}
+
+{{#and justiaDesk.button (compare justiaDesk.button.link "!==" "")}}
+  {{assign "justiaDeskButtonLink" (concat justiaDesk.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
 
 {{! ================================================================================================================= }}
 
@@ -48,6 +57,12 @@
         icon=justiaDesk.widget.icon
         }}
     {{/if}}
+
+    <tr>
+      <td class="-subscribe" responsive="mobile-padding-horizontal-sides">
+        <p>Want the latest updates? <a href="https://onward.justia.com/subscribe/{{@root.onwardSub}}" target="_blank">Subscribe Now</a></p>
+      </td>
+    </tr>
 
     <tr class="widget-columns -articles ui-columns-grid">
     <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
@@ -77,4 +92,6 @@
         {{/table}}
     </td>
     </tr>
+
+
 {{/table}}

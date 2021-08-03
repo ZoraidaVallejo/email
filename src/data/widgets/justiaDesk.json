@@ -13,7 +13,7 @@
     {
       "title": "Maximizing the Benefits of Your Justia Lawyer Directory Profile",
       "link": "https://onward.justia.com/maximizing-the-benefits-of-your-justia-lawyer-directory-profile/",
-      "description": "Your Justia Lawyer Directory profile is a free marketing opportunity for attorneys looking to connect with people who are actively searching for a lawyer. Read on for strategies designed to help get the most from your presence in our directory.",
+      "description": "Your Justia Lawyer Directory profile is a free marketing opportunity for you to connect with people who are actively searching for a lawyer. Read on for strategies designed to help get the most from your presence in our directory.",
       "index": "2"
     },
     {
@@ -58,13 +58,24 @@
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     },
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     }
+  },
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
   }
 }
