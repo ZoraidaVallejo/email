@@ -3,6 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
+    background: #fff;
    
     td {
         text-align: center;
@@ -105,7 +106,7 @@
 
             p {
                 // padding: 0 50px;
-                // max-width: 500px;
+                max-width: 509px;
 
                 &:not(:last-child) {
                     margin: 0 0 22px;
