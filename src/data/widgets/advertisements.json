@@ -1,0 +1,43 @@
+{
+  "jld": {
+    "ad1": {
+      "image": "attract-clients-01.gif",
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Are Paid Ads Right for You?</b></p>",
+            "<p>Busy lawyers know it can be tough to find the time to prioritize legal marketing. With Justia Amplify, you can get marketing solutions that work for you – around the clock.</p>",
+            "<p>While you focus on your practice, our marketing experts help bring you more leads through customized paid advertising solutions, including PPC campaigns, Google Local Services Ads, and Facebook remarketing.</p>",
+            "<p>Ready to try marketing strategies that do the work for you?</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Contact An Expert",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#fff",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <b>(888) 587-8421</b></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
