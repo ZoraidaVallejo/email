@@ -1,0 +1,75 @@
+{
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "winning-formula-01.gif",
+        "bgColor": "#052a62",
+        "cssSize": "100% auto",
+        "responsive": ""
+      },
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Call Us (888) 587-8421</b></p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "I'm Interested!",
+            "width": 240,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#fff",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>An integrated strategy can help your law firm thrive by leveraging the power of both strong SEO practices and targeted PPC ads. With these two solutions working together, you can reach more potential clients and attract more high-value leads for your firm.</p>",
+            "<p>To learn more, read our <a href=\"#\" target=\"_blank\"><b>PPC + SEO blog post</b></a> on Justia Onward</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p responsive=\"mobile-padding-horizontal-sides mobile-reset-bg-image\"><strong>Want to get the most out of PPC ads?</strong><br>For a limited time, Justia is offering new Justia Amplify PPC Management clients Google Ads credit on us as a bonus for signing up!*</p>",
+            "<p responsive=\"mobile-padding-horizontal-sides\">*Your credit from Justia is in addition to any promotional offers you may be eligible for directly from Google.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "I'm Interested!",
+            "width": 240,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "#fff",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": "mobile-fz-16"
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <b>(888) 587-8421</b></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
