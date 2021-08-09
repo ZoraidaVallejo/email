@@ -10,8 +10,8 @@
           "type": "description",
           "config": [
             "<p><b>Are Paid Ads Right for You?</b></p>",
-            "<p>Busy lawyers know it can be tough to find the time to prioritize legal marketing. With Justia Amplify, you can get marketing solutions that work for you – around the clock.</p>",
-            "<p>While you focus on your practice, our marketing experts help bring you more leads through customized paid advertising solutions, including PPC campaigns, Google Local Services Ads, and Facebook remarketing.</p>",
+            "<p>Busy lawyers know it can be tough to find the time to prioritize legal marketing. With <b>Justia Amplify</b>, you can get marketing solutions that work for you – around the clock.</p>",
+            "<p>While you focus on your practice, our marketing experts help bring you more leads through customized paid advertising solutions, including <b>PPC campaigns</b>, <b>Google Local Services Ads</b>, and <b>Facebook remarketing</b>.</p>",
             "<p>Ready to try marketing strategies that do the work for you?</p>"
           ]
         },
@@ -20,7 +20,7 @@
           "config": {
             "style": "red",
             "text": "Contact An Expert",
-            "width": 250,
+            "width": 270,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -34,7 +34,7 @@
         {
           "type": "description",
           "config": [
-            "<p>Or call us at <b>(888) 587-8421</b></p>"
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
           ]
         }
       ]

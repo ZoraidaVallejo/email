@@ -95,14 +95,14 @@
         }
 
         &.-first {
-            padding: 25px $padding 20px;
+            padding: 25px 50px 20px;
             // text-align: center;
             // color: plt('white');
             // background: transparent;
 
             p {
                 // margin-bottom: 0;
-                font-size: rem-calc(18px);
+                // font-size: rem-calc(16px);
 
                 &:first-child {
                     font-size: rem-calc(20px);
@@ -157,12 +157,23 @@
 
         &.-idx-3 {
             text-align: center;
-            font-size: rem-calc(18px);
+
+            p {
+                font-size: rem-calc(18px);
+
+                a {
+                    color: plt('black') !important;
+
+                    b {
+                        color: plt('black') !important;
+                    }
+                }
+            }
         }
 
         p a,
         p a b {
-            color: plt('justia-blue')!important;
+            color: plt('justia-blue') !important;
             display: inline-block;
         }
     }
