@@ -104,10 +104,10 @@
                 font-size: rem-calc(18px);
 
                 a {
-                    color: plt('white');
+                    color: plt('white') !important;
 
-                    b {
-                        color: plt('white');
+                    span {
+                        color: plt('white') !important;
                     }
                 }
 
@@ -182,17 +182,17 @@
             background-color: plt('white');
 
             a {
-                color: plt('black');
+                color: plt('black') !important;
 
                 b {
-                    color: plt('black');
+                    color: plt('black') !important;
                 }
             }
         }
 
         p a,
         p a b {
-            color: plt('justia-blue')!important;
+            color: plt('justia-blue') !important;
             display: inline-block;
         }
     }

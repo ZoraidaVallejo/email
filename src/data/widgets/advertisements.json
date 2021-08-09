@@ -14,7 +14,7 @@
         {
           "type": "description",
           "config": [
-            "<p><b>Call Us (888) 587-8421</b></p>"
+            "<p><b>Call Us <a href=\"tel:8885878421\" target=\"_blank\"><span>(888) 587-8421</span></a></b></p>"
           ]
         },
         {
@@ -66,7 +66,7 @@
         {
           "type": "description",
           "config": [
-            "<p>Or call us at <b>(888) 587-8421</b></p>"
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
           ]
         }
       ]
