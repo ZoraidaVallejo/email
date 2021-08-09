@@ -5,7 +5,7 @@
 .w-advertisement {
 
     .ui-background {
-        padding: 95px 0 0;
+        padding: 115px 0 0;
     }
    
     td {
@@ -42,7 +42,6 @@
     .content {
         padding: 0 50px 25px;
         text-align: left;
-        background-color: plt('white');
 
         strong a {
             color: plt('justia-blue');
@@ -95,7 +94,7 @@
         }
 
         &.-first {
-            padding: 175px $padding 20px;
+            padding: 155px $padding 20px;
             text-align: center;
             color: plt('white');
             background: transparent;
@@ -103,6 +102,14 @@
             p {
                 margin-bottom: 0;
                 font-size: rem-calc(18px);
+
+                a {
+                    color: plt('white');
+
+                    b {
+                        color: plt('white');
+                    }
+                }
 
                 b {
                     // display: block;
@@ -120,6 +127,7 @@
 
         &.-idx-3 {
             padding: 45px 50px 35px;
+            background-color: plt('white');
 
             p {
                 margin-bottom: 0 auto 28px;
@@ -133,6 +141,7 @@
         &.-idx-4 {
             padding: 0px 50px 40px;
             text-align: left;
+            background-color: plt('white');
 
             > p {
                 max-width: 500px;
@@ -164,11 +173,21 @@
 
         &.-idx-5 {
             padding: 0px $padding 20px;
+            background-color: plt('white');
         }
 
         &.-idx-6 {
             text-align: center;
             font-size: rem-calc(18px);
+            background-color: plt('white');
+
+            a {
+                color: plt('black');
+
+                b {
+                    color: plt('black');
+                }
+            }
         }
 
         p a,
