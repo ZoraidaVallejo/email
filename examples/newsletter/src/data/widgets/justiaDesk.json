@@ -1,6 +1,6 @@
 {
     "widget": {
-      "iconSrc": "justia-desk.png",
+      "icon": "justia-desk",
       "header": "From the Desk of Justia"
     },
     "news": [
@@ -44,4 +44,3 @@
       }
     }
   }
-  

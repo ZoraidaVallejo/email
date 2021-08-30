@@ -1,6 +1,6 @@
 {
     "widget": {
-      "iconSrc": "trending-news.png",
+      "icon": "trending-news",
       "header": "Trending News"
     },
     "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
@@ -95,4 +95,3 @@
       }
     ]
   }
-  
