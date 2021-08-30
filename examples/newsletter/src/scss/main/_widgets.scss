@@ -120,7 +120,7 @@
             .description {
                 color: plt('black');
 
-                a{
+                a {
                     color: plt('black');
                 }
             }
@@ -158,7 +158,7 @@
             @include mail-font(22px, 1.1, tp('weight', 'bold'));
             margin: 15px 0 10px;
             color: plt('black');
-            a{
+            a {
                 color: plt('justia-blue')
             }
         }
@@ -188,20 +188,20 @@
     color: plt('justia-blue');
 }
 
-.w-inside-justia{
+.w-inside-justia {
 
     a b {
         color: plt('justia-blue');
     }
 }
 
-.w-tip-month{
-    a b{
+.w-tip-month {
+    a b {
         color: plt('black');
     }
 }
 
-.w-justia-desk{
+.w-justia-desk {
     .header-icon-column {
         width: 50px;
 
@@ -211,7 +211,7 @@
     }
 }
 
-.w-webmaster{
+.w-webmaster {
     .header-icon-column {
         width: 45px;
 
