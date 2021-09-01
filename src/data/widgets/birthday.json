@@ -1,0 +1,96 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "07",
+            "name": "Jose Ramos"
+          },
+          {
+            "day": "07",
+            "name": "Priscila Martinez"
+          },
+          {
+            "day": "10",
+            "name": "Dan Vu Quoc"
+          },
+          {
+            "day": "13",
+            "name": "Edgar Cano"
+          },
+          {
+            "day": "13",
+            "name": "Carolina Leija"
+          },
+          {
+            "day": "19",
+            "name": "Miguel Lopez"
+          },
+          {
+            "day": "19",
+            "name": "Lenny Esquivel"
+          },
+          {
+            "day": "20",
+            "name": "Hector Lugo"
+          },
+          {
+            "day": "22",
+            "name": "Ana Espinoza"
+          },
+          {
+            "day": "22",
+            "name": "Noelia Amador"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Jesus Sanchez",
+            "years": "12th"
+          },
+          {
+            "name": "Luis Franco",
+            "years": "11th"
+          },
+          {
+            "name": "Dionicio Solano",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Miguel Lopez",
+            "years": "6th"
+          },
+          {
+            "name": "Pablo Fernandez",
+            "years": "3rd"
+          },
+          {
+            "name": "Carlos Silveira",
+            "years": "2nd"
+          },
+          {
+            "name": "Noelia Amador",
+            "years": "1st"
+          },
+          {
+            "name": "Ana Aguilar",
+            "years": "1st"
+          },
+          {
+            "name": "Keilah Cabrera",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}

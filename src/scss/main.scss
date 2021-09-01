@@ -1,0 +1,110 @@
+// ----------------------------------------------------------------------------------------------------------
+// M A I N
+// ----------------------------------------------------------------------------------------------------------
+
+$use-breakpoint: false;
+$padding: 25px !default;
+$padding-content: 50px !default;
+$max-width: 550px !default;
+$inner-max-width: $max-width - ($padding * 2) !default;
+$mail-global-font-size: 16px !default;
+$widget-gap: grid-unit(3);
+$use-special-font: false !default;
+$mail-global-font-family: 'Roboto', Arial, sans-serif;
+
+// ----------------------------------------------------------------------------------------------------------
+
+@import
+    'image-dimensions',
+    'maple-sass',
+    'mail-template-builder';
+
+@import
+    'mixins',
+    'main/mail-special-font',
+    'main/widgets',
+    'main/widgets/welcome',
+    'main/widgets/advertisement',
+    'main/widgets/reminders',
+    'main/widgets/advertisement/custom',
+    'main/widgets/milestones',
+    'main/widgets/birthday',
+    'main/widgets/holidays-2',
+    'main/widgets/reviews',
+    'main/widgets/portal-news',
+    'main/widgets/team-activity',
+    'main/widgets/team-activity-3',
+    'main/widgets/blast-past',
+    'main/widgets/take-pause',
+    'main/widgets/wellness-items',
+    'main/widgets/new-people-2',
+    'main/widgets/our-blog',
+    'main/utilities';
+
+// @import
+//     'main/client-specific',
+//     'main/jld-specific';
+
+body {
+    background-color: #f0f7ff;
+}
+
+.-insider-date .logo {
+    padding: 10px $padding;
+
+    .logo-img {
+        width: 330px;
+    }
+}
+
+.-description,
+.widget-description {
+    a {
+        color: plt('justia-blue');
+
+        * {
+            color: plt('justia-blue');
+        }
+    }
+}
+
+.w-milestones {
+    background: image-url('odd-block-01.png') no-repeat plt('white');
+    background-position: center;
+}
+
+.w-blog-justia {
+    background: image-url('odd-block-04.png') no-repeat plt('white');
+    background-position: center;
+}
+
+.w-blast-past {
+    background: image-url('odd-block-04.png') no-repeat plt('white');
+    background-position: center;
+}
+
+
+.w-holidays-2 {
+    background: image-url('odd-block-05.png') no-repeat plt('white');
+    background-position: center;
+}
+
+.w-wellness {
+    background: image-url('odd-block-01.png') no-repeat plt('white');
+    background-position: bottom;
+}
+
+// .w-team-activities-3 {
+//     background: image-url('odd-block-top.png') no-repeat plt('white');
+//     background-position: bottom;
+// }
+
+// .w-team-activities-2 {
+//     background: image-url('odd-block-center.png') no-repeat plt('white');
+//     background-position: center;
+// }
+
+// .w-team-activities-4 {
+//     background: image-url('odd-block-bottom.png') no-repeat plt('white');
+//     background-position: top;
+// }

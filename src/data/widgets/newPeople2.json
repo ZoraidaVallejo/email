@@ -1,0 +1,23 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Nina McKee",
+        "blockSubtitle": "Web Marketing Associate",
+        "description": "Hi everyone, my name is Nina McKee. I'm 22 and from the San Francisco Bay Area. I recently just graduated from SJSU with a degree in Psychology and Justice Studies. I've worked in marketing and data collection in both the private and nonprofit sectors. I love"
+      }
+    },
+    {
+      "type": "description",
+      "config": [
+        "to paint and draw in my free time, and I love to be in nature when I can. I look forward to working with you all."
+      ]
+    }
+  ]
+}
