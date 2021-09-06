@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "month": "Sept",
+      "day": "10",
+      "title": "Learn About Immigration Pathways for At-Risk Afghans",
+      "link": "https://www.pli.edu/programs/Learn-About-Immigration-Pathways-for-At-Risk-Afghans",
+      "time": "1PM ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "month": "Sept",
+      "day": "14",
+      "title": "The Future of the Expanded and Advance Child Tax Credit",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/415916537/",
+      "time": "1PM ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "month": "Sept",
+      "day": "14",
+      "title": "Returning to HQ: Management and Employee Well-being After the Pandemic",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/414956984/",
+      "time": "1PM ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "month": "Sept",
+      "day": "15",
+      "title": "Blockchain & Digital Currency 2021",
+      "link": "https://web.cvent.com/event/ce1e036f-d94f-4480-90e6-d984850b7ef0/summary",
+      "time": "12PM ET",
+      "typeLocation": "Virtual Conference"
+    },
+    {
+      "month": "Sept",
+      "day": "20",
+      "title": "Virtual 2021 Fall Tax Meeting",
+      "link": "https://web.cvent.com/event/b4931dd2-468a-4588-8243-7a1d943ab00c/summary",
+      "time": "9AM ET",
+      "typeLocation": "Virtual Conference"
+    }
+  ]
+}

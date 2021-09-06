@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Happy Trees Paint Night"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Happy Trees Paint Night</b>",
+      "description": [
+        "Justia hosted its first virtual painting class. Our team (and some of their children too!) participated in this fantastic activity. For about two hours, the participants displayed their talents and skills using canvas and acrylic paints to create some beautiful trees"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Friends of the Hug Pugs"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Friends of the Hug Pugs</b>",
+      "description": [
+        "Laila and Tasha are Arturo’s fur children and great friends of the Hug Pugs! They are practically twins – both are 6 years old, but Laila is 6 months older than Tasha. They love to spend time playing together and sleeping together, but don’t ask them to share their food!"
+      ]
+    }
+  ]
+}
