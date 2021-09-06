@@ -2,13 +2,7 @@
   "clients": {
     "ad1": {},
     "ad2": {
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "client-newsletter",
-        "content": "image-onward-poll"
-      },
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdKI1HPnDE5MQhQ4EDliIXqp8xRWR1Rre_oiP2yfsKjOqwMZw/viewform?vc=0&c=0&w=1&flr=0",
       "image": "onward-poll.png"
     }
   },
@@ -24,13 +18,7 @@
       "image": "premium-placement.gif"
     },
     "ad2": {
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "image-onward-poll"
-      },
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSdKI1HPnDE5MQhQ4EDliIXqp8xRWR1Rre_oiP2yfsKjOqwMZw/viewform?vc=0&c=0&w=1&flr=0",
       "image": "onward-poll.png"
     }
   }
