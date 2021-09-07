@@ -3,7 +3,7 @@
     "icon": "webmaster",
     "header": "Webmaster’s Corner"
   },
-  "link": "https://onward.justia.com/",
+  "link": "https://onward.justia.com/accessibility-for-websites-a11y/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -27,14 +27,13 @@
     }
   },
   "banner": "featured-news-02.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "title": "Accessibility For Websites (A11y)",
   "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+    "An important aspect of delivering a great user experience is ensuring that your website is accessible for people with disabilities or impairments. Web developers must provide alternative methods to access their content and ensure that no one is left out."
   ],
   "button": {
     "style": "justia-blue",
-    "link": "https://onward.justia.com/",
+    "link": "https://onward.justia.com/accessibility-for-websites-a11y/",
     "text": "Read More"
   }
 }
