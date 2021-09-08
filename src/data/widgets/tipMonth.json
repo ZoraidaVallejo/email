@@ -27,7 +27,7 @@
     ],
     "button": {
       "style": "red",
-      "link": "https://answers.justia.com/",
+      "link": "https://accounts.justia.com/signin/fast?uid=%USER_ID%&code=%SIGN_IN_CODE%&destination=https://answers.justia.com/settings%3Futm_medium%3Demail%26utm_campaign%3D2021-09%26utm_source%3Ddirectory-newsletter%26utm_content%3Dsection-tip-of-the-month-sign-up-now-button-v1",
       "text": "Sign Up Now",
       "width": 150
     }

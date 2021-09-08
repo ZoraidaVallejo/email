@@ -1,7 +1,7 @@
 {
   "widget": {
     "icon": "webmaster",
-    "header": "Webmaster’s Corner"
+    "header": "Webmaster's Corner"
   },
   "link": "https://onward.justia.com/accessibility-for-websites-a11y/",
   "utm": {
@@ -12,7 +12,7 @@
       "content": {
         "title": "text-onward-post-title-2",
         "image": "image-onward-post-2",
-        "button": "button-learn-more-2"
+        "button": "button-read-more-2"
       }
     },
     "jld": {
@@ -22,7 +22,7 @@
       "content": {
         "title": "text-onward-post-title-2",
         "image": "image-onward-post-2",
-        "button": "button-learn-more-2"
+        "button": "button-read-more-2"
       }
     }
   },

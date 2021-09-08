@@ -3,7 +3,7 @@
     "icon": "ask-a-lawyer",
     "header": "Participating Lawyers",
     "type": "Justia Ask A Lawyer",
-    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+    "link": "https://answers.justia.com/about-legal-answers?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-09&utm_content=ask-a-lawyer-title-1#faq-atty"
   },
   "list": [
     {
@@ -52,7 +52,7 @@
   ],
   "button": {
     "style": "justia-blue",
-    "link": "https://answers.justia.com/about-legal-answers",
+    "link": "https://answers.justia.com/about-legal-answers?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2021-09&utm_content=ask-a-lawyer-read-more-button-1",
     "text": "Read More"
   }
 }

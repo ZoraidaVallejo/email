@@ -17,15 +17,15 @@
       "index": "2"
     },
     {
-      "title": "Taking Advantage of Instagram to Build Your Law Firm’s Image",
+      "title": "Taking Advantage of Instagram to Build Your Law Firm's Image",
       "link": "https://onward.justia.com/taking-advantage-of-instagram-to-build-your-law-firms-image/",
-      "description": "While Instagram started as the social network for sharing photos with a personal or “artistic” touch, it has become a strong marketing tool for companies, including law firms, looking to strengthen their brand and increase their marketing opportunities. Check this post out for tips on using Instagram to reach potential clients.",
+      "description": "While Instagram started as the social network for sharing photos with a personal or \"artistic\" touch, it has become a strong marketing tool for companies, including law firms, looking to strengthen their brand and increase their marketing opportunities. Check this post out for tips on using Instagram to reach potential clients.",
       "index": "3"
     },
     {
       "title": "First Impressions: 20 Law Firm Logos to Inspire You",
       "link": "https://onward.justia.com/first-impressions-20-law-firm-logos-to-inspire-you/",
-      "description": "While your law firm name is the first element of your brand that people come into contact with, your logo - the visual identity of your firm and name - is usually a close second. We’ve put together a list of various law firm logos to illustrate different styles and offer some inspiration for your next design.",
+      "description": "While your law firm name is the first element of your brand that people come into contact with, your logo - the visual identity of your firm and name - is usually a close second. We've put together a list of various law firm logos to illustrate different styles and offer some inspiration for your next design.",
       "index": "4"
     },
     {
@@ -58,13 +58,24 @@
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     },
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     }
+  },
+  "button": {
+    "style": "justia-blue",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
   }
 }
