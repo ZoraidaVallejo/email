@@ -1,0 +1,54 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "holiday-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <b>Justia Connect Welcome Series!</b> While your journey through our Justia Connect Welcome Series may end here, your membership in our <b>Justia</b> community has only just begun. The <b>Justia Connect</b> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <b>Justia Connect Pro</b> membership to obtain the maximum available benefits.</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.<br><a href=\"#\"><span>View Webinars ›</span></a></p>"
+          ]
+        },
+        {
+          "type": "bg-block",
+          "config": [
+            "<img src=\"https://justatic.com/v/1/emails/images/newsletters/2021/06/tip-ribbon-01-2x.png\" alt=\"Helpful Tip\">",
+            "<p>Data shows an unfortunate uptick in serious and fatal motor vehicle accidents around the 4th of July holiday. 40%<span class=\"red-info\">*</span> of fatal crashes are a DUI or alcohol-involved incident. While we hope everyone has a safe holiday weekend, increasing your PPC budget can help you to maximize your reach to connect with people who will need your services.</p>",
+            "<p class=\"source\"><span class=\"red-info\">*</span>Source: <strong responsive=\"collapse-one mobile-fz-13\"><a href=\"#\">https://accidentdoctor.org/july-4th-accident-statistics-2020/</a></strong></p>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "box-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"59\">",
+              "<p>Justia Webinars</p>",
+              "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\"><span>View Webinars ›</span></a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
