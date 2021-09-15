@@ -95,16 +95,25 @@
         .content-side {
             width: 260px;
 
-            img {
-                width: 260px;
+            p {
+                border: 0;
+                padding: 0;
+            }
+
+            &.-image {
+                width: 140px;
+
+                img {
+                    width: 140px;
+                }
             }
 
             &:first-child {
-                float: left;
+                float: right;
             }
 
             &:last-child {
-                float: right;
+                float: left;
             }
         }
 
@@ -128,45 +137,46 @@
             padding: 0px $padding 45px;
         }
 
-        &.-idx-2 {
-            padding: 0px 45px 25px;
-            text-align: left;
+        // &.-idx-2 {
+        //     padding: 0px 45px 25px;
+        //     text-align: left;
 
-            img {
-                margin: 0 auto;
+        //     img {
+        //         margin: 0 auto;
 
-                & + p {
-                    // margin: -23px auto 0;
-                    padding: 14px 25px 20px;
-                }
-            }
+        //         & + p {
+        //             // margin: -23px auto 0;
+        //             padding: 14px 25px 20px;
+        //         }
+        //     }
 
-            p {
-               max-width: 500px;
-               margin: 0 auto;
-               padding: 25px 25px 20px;
+        //     p {
+        //        max-width: 500px;
+        //        margin: 0 auto;
+        //        padding: 25px 25px 20px;
 
-               &:last-child{
-                   padding: 0px 25px 25px;
-                   @include mail-font(14px);
-               }
-            }
+        //        &:last-child{
+        //            padding: 0px 25px 25px;
+        //            @include mail-font(14px);
+        //        }
+        //     }
 
-            .-inner-wrap {
-                background-color: #f2f5f8;
-                // box-shadow: inset 0 7px 0 0 #ffffff;
-                text-align: left;
-            }
-        }
+        //     .-inner-wrap {
+        //         background-color: #f2f5f8;
+        //         // box-shadow: inset 0 7px 0 0 #ffffff;
+        //         text-align: left;
+        //     }
+        // }
 
-        &.-idx-3 {
-            p {
-                @include mail-font(15px);
-            }
-        }
+        // &.-idx-3 {
+        //     p {
+        //         @include mail-font(15px);
+        //     }
+        // }
 
-        b a {
-            color: plt('justia-blue')!important;
+        a,
+        a b {
+            color: plt('red')!important;
             display: inline-block;
         }
     }
