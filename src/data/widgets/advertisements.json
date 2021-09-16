@@ -23,12 +23,53 @@
           ]
         },
         {
+          "type": "image-column",
+          "config": [
+            {
+              "image": {
+                "src": "box-graphic-01.png",
+                "alt": "Connect Dashboard"
+              },
+              "blockTitle": "Connect Dashboard",
+              "description": "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "box-graphic-02.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "box-graphic-03.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "box-graphic-04.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            }
+          ]
+        },
+        {
           "type": "image-description",
           "config": {
             "image": "box-graphic-05.png",
             "description": [
               "<img src=\"../dist/images/pro-label.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"59\">",
-              "<p>Justia Webinars</p>",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
               "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\"><b>View Webinars ›</b></a></p>"
             ]
           }

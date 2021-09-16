@@ -1066,15 +1066,43 @@ a {
   width: 100%;
 }
 
+.w-advertisement .content-wrapper {
+  padding: 60px 45px 25px;
+}
+
 .w-advertisement .content {
-  padding: 0 45px 25px;
+  padding: 0 0 40px;
+}
+
+.w-advertisement .content.-description > div,
+.w-advertisement .content.-image-description > div {
+  display: block;
+  padding: 20px 20px 45px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+.w-advertisement .content.-image-description > div {
+  width: 100%;
+  float: left;
+  padding: 20px 0 25px;
+}
+
+.w-advertisement .content.-image-description > div p {
+  padding: 0 0 0 25px;
+}
+
+.w-advertisement .content .blockTitle {
+  font: 700 16px/1.5 Arial, sans-serif;
+  display: block;
+  padding-left: 20px;
+  color: #06357a;
+  border-left: 3px solid #00b3e3;
+  text-align: left;
 }
 
 .w-advertisement .content p {
   font: 16px/1.5 Arial, sans-serif;
-  padding: 32px 25px 50px;
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
   text-align: left;
 }
 
@@ -1120,15 +1148,12 @@ a {
 
 .w-advertisement .content .content-side {
   width: 260px;
-}
-
-.w-advertisement .content .content-side p {
-  border: 0;
-  padding: 0;
+  vertical-align: middle;
 }
 
 .w-advertisement .content .content-side.-image {
-  width: 140px;
+  width: 160px;
+  text-align: left;
 }
 
 .w-advertisement .content .content-side.-image img {
@@ -1141,10 +1166,6 @@ a {
 
 .w-advertisement .content .content-side:last-child {
   float: left;
-}
-
-.w-advertisement .content.-first {
-  padding: 60px 50px 25px;
 }
 
 .w-advertisement .content.-button {
