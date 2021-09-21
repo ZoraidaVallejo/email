@@ -1,0 +1,27 @@
+---
+subject: Welcome Email Series
+---
+
+{{>preheader text=""}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.welcome.email51}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}
