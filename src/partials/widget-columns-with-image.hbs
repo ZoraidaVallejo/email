@@ -19,15 +19,17 @@
             {{#unless @first}}
               {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
             {{/unless}}
+            <div>
 
             {{#if this.image}}
-              <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
-                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
-              </a>
 
               {{#if this.blockTitle}}
                 <h3 class="block-title">{{{this.blockTitle}}}</h3>
               {{/if}}
+
+              <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
+                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+              </a>
 
               {{#if this.blockSubtitle}}
                 <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
@@ -36,14 +38,16 @@
               {{#each this.description}}
                 <p class="block-description">
                   {{{this}}}
-                  {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
-                    <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
-                  {{/and}}
                 </p>
               {{/each}}
+
+              {{#if this.readMore}}
+                <p><b><a href="{{{../readMore}}}" target="_blank">{{#if this.readMoreText}}{{this.readMoreText}}{{else}}Read More{{/if}} ›</a></b></p>
+              {{/if}}
             {{else}}
               &nbsp;
             {{/if}}
+            </div>
           {{/each}}
         {{>ui-columns-grid rowEnd=true}}
       {{/each}}

@@ -14,7 +14,9 @@ subject: Welcome Email Series
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.welcome.email1}}
+        {{>widget-block-first widgetClass="-jld-ad-01" widgetConfig=blockFirst.welcome.email1}}
+
+        {{>welcome-columns widgetConfig=welcomeColumns.email1}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

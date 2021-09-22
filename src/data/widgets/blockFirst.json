@@ -1,0 +1,65 @@
+{
+  "welcome": {
+    "email1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 440px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your first edition of the Justia Connect Welcome Series! Over the coming weeks, you will receive 5 emails designed to help you take advantage of everything offered through our Justia Connect membership program and the Justia Lawyer Directory. However, if you have questions in the meantime, please feel free to contact us.</p>",
+            "<p>On this week's docket? A few key aspects of your recently claimed Justia Lawyer Profile. Because the Justia Portal receives over 10 million visits each month, this is a great marketing opportunity.</p>"
+          ]
+        }
+      ]
+    },
+    "email2": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Reviews are the word-of-mouth advertising of the digital age. 79% of consumers report trusting online reviews as much as they trust personal recommendations from a friend or family member. This means that reviews are important! Luckily, Justia allows both peer reviews from other attorneys and reviews from your clients in our directory.</p>"
+          ]
+        }
+      ]
+    },
+    "email51": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <b>Justia Connect Welcome Series!</b> While your journey through our Justia Connect Welcome Series may end here, your membership in our <b>Justia</b> community has only just begun. The <b>Justia Connect</b> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <b>Justia Connect Pro</b> membership to obtain the maximum available benefits.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}

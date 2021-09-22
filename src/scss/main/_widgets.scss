@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
-    border-bottom: 1px solid plt('gallery');
+    // border-bottom: 1px solid plt('gallery');
     background-color: plt('white');
 
     &:nth-child(odd) {
@@ -101,7 +101,7 @@
 .widget-columns {
 
     > .wrapper {
-        padding: 0 $padding 20px;
+        padding: 0 $widget-gap 20px;
 
         &.-last {
             padding: 0 $padding $widget-gap;
@@ -125,6 +125,13 @@
 
     &.-with-image {
 
+        .block > div {
+            display: block;
+            padding: 20px 20px 45px;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+        }
+
         .block-image,
         .block-image-link {
 
@@ -142,7 +149,7 @@
         }
 
         .block-title {
-            @include mail-font(22px, 1.1, tp('weight', 'bold'));
+            @include mail-font(16px, 1.1, tp('weight', 'bold'));
             margin: 15px 0 10px;
             color: plt('justia-blue');
         }

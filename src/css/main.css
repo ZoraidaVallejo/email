@@ -680,7 +680,6 @@ a {
 }
 
 .widget {
-  border-bottom: 1px solid #efefef;
   background-color: #ffffff;
 }
 
@@ -764,7 +763,7 @@ a {
 }
 
 .widget-columns > .wrapper {
-  padding: 0 30px 20px;
+  padding: 0 50px 20px;
 }
 
 .widget-columns > .wrapper.-last {
@@ -778,6 +777,13 @@ a {
 
 .widget-columns.-articles .article .title {
   margin: 0 0 8px;
+}
+
+.widget-columns.-with-image .block > div {
+  display: block;
+  padding: 20px 20px 45px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
 }
 
 .widget-columns.-with-image .block-image + .block-description,
@@ -795,7 +801,7 @@ a {
 }
 
 .widget-columns.-with-image .block-title {
-  font: 700 22px/1.1 Arial, sans-serif;
+  font: 700 16px/1.1 Arial, sans-serif;
   margin: 15px 0 10px;
   color: #06357a;
 }
@@ -1070,12 +1076,43 @@ a {
   padding: 60px 45px 25px;
 }
 
+.w-advertisement .widget-columns .wrapper {
+  padding: 0;
+}
+
+.w-advertisement .grid-row {
+  float: left;
+}
+
+.w-advertisement .grid-cell {
+  width: 225px;
+  padding: 0;
+}
+
+.w-advertisement .grid-cell > div {
+  display: block;
+  width: 100%;
+  padding: 20px 20px 45px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+.w-advertisement .grid-cell .block-image {
+  width: 160px;
+  text-align: left;
+}
+
+.w-advertisement .grid-cell .block-image img {
+  width: 140px;
+}
+
 .w-advertisement .content {
   padding: 0 0 40px;
 }
 
 .w-advertisement .content.-description > div,
-.w-advertisement .content.-image-description > div {
+.w-advertisement .content.-image-description > div,
+.w-advertisement .content.grid-cell > div {
   display: block;
   padding: 20px 20px 45px;
   border: 1px solid #e6e6e6;

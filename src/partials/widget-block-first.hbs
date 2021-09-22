@@ -92,34 +92,6 @@
       <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
         <table {{{tableAttr}}}>
         {{#forEach widgetConfig.contentOrder}}
-          {{#compare this.type "===" "image-description"}}
-            <tr>
-              <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                <div>
-                  {{#forIn this.config}}
-                    {{#compare @key "===" "image"}}
-                      <div class="content-side -image" responsive="mobile-hide">
-                        <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
-                          {{>img
-                            src=../config.image
-                            alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                          }}
-                        </a>
-                      </div>
-                    {{/compare}}
-
-                    {{#compare @key "===" "description"}}
-                      <div class="content-side -description" responsive="collapse-one mobile-no-padding">
-                        {{#each ../config.description}}
-                          {{{this}}}
-                        {{/each}}
-                      </div>
-                    {{/compare}}
-                  {{/forIn}}
-                </div>
-              </td>
-            </tr>
-          {{/compare}}
 
           {{#compare this.type "===" "description"}}
             <tr>
@@ -129,66 +101,6 @@
                     {{{this}}}
                   {{/each}}
                 </div>
-              </td>
-            </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "image-column"}}
-            <tr class="widget-columns -with-image ui-columns-grid">
-              <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                {{#table}}
-                  {{#each this.config}}
-                    {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
-                      {{#each this}}
-                        {{#unless @first}}
-                          {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
-                        {{/unless}}
-                        <div>
-
-                        {{#if this.image}}
-                          {{#if this.blockTitle}}
-                            <h3 class="block-title">{{{this.blockTitle}}}</h3>
-                          {{/if}}
-
-                          
-                          <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
-                            {{>img src=this.image.src alt=this.image.alt class="block-image"}}
-                          </a>
-
-                          {{#if this.blockSubtitle}}
-                            <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
-                          {{/if}}
-
-                          {{!-- {{#each description}} --}}
-                            <p class="block-description">
-                              {{{this.description}}}
-                            </p>
-                            <p><b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b></p>
-                          </div>
-                          {{!-- {{/each}} --}}
-                        {{else}}
-                          &nbsp;
-                        {{/if}}
-                      {{/each}}
-                    {{>ui-columns-grid rowEnd=true}}
-                  {{/each}}
-                {{/table}}
-              </td>
-            </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "bg-block"}}
-            <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
-                <table {{{tableAttr}}}>
-                  <tr>
-                    <td class="-inner-wrap">
-                      {{#each this.config}}
-                        {{{this}}}
-                      {{/each}}
-                    </td>
-                  </tr>
-                </table>
               </td>
             </tr>
           {{/compare}}

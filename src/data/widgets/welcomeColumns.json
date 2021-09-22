@@ -1,0 +1,54 @@
+{
+  "email1": {
+    "try": "true",
+    "columns": [
+      {
+        "image": {
+          "src": "1-graphic-01.png",
+          "alt": "Contact Information"
+        },
+        "blockTitle": "Contact Information",
+        "description": [
+          "Potential clients want to contact you! Get more leads by updating your contact information, including your email and phone number."
+        ],
+        "readMore": "#",
+        "readMoreText": "Edit Your Information"
+      },
+      {
+        "image": {
+          "src": "1-graphic-02.png",
+          "alt": "Profile Completion"
+        },
+        "blockTitle": "Profile Completion",
+        "description": [
+          "Complete your profile by adding practice areas, a website, awards, and more! A higher completion percentage means more leads."
+        ],
+        "readMore": "#",
+        "readMoreText": "Add Practice Areas"
+      },
+      {
+        "image": {
+          "src": "1-graphic-03.png",
+          "alt": "Profile Photo"
+        },
+        "blockTitle": "Profile Photo",
+        "description": [
+          "Add a profile photo to build trust with your clients. Profiles with a high-quality photo get more leads and enjoy higher conversion rates"
+        ],
+        "readMore": "#",
+        "readMoreText": "Upload Profile Photo"
+      },
+      {
+        "image": {
+          "src": "1-graphic-04.png",
+          "alt": "Profile Benefits"
+        },
+        "blockTitle": "Profile Benefits",
+        "description": [
+          "Start maximizing your profile benefits. We have four phases we suggest doing this in, so don't worry if the process takes some time."
+        ],
+        "readMore": "#"
+      }
+    ]
+  }
+}
