@@ -2,7 +2,7 @@
 // A D V E R T I S E M E N T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.-first-block {
+.-bottom-block {
    
     td {
         text-align: center;
@@ -36,57 +36,19 @@
     }
 
     .content-wrapper {
-        padding: 60px $widget-gap 50px;
-    }
-
-    .widget-columns {
-        .wrapper {
-            padding: 0;
-        }
-    }
-
-    .grid-row {
-        float: left;
-    }
-
-    .grid-cell {
-        width: 225px;
-        padding: 0;
-
-        > div {
-            display: block;
-            width: 100%;
-            padding: 20px 20px 45px;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-        }
-
-        .block-image {
-            width: 160px;
-            text-align: left;
-
-            img {
-                width: 140px;
-            }
-        }
+        padding: 50px 50px 25px;
     }
 
     .content {
-        padding: 0;
-
-        &.-description > div,
-        &.-image-description > div,
-        &.grid-cell > div {
-            display: block;
-            padding: 20px 20px 45px;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-        }
+        padding: 0 0 40px;
 
         &.-image-description > div {
+            display: block;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
             width: 100%;
             float: left;
-            padding: 20px 0 25px;
+            padding: 30px 0 25px;
 
             p {
                 padding: 0 0 0 25px;
@@ -99,6 +61,7 @@
            padding-left: 20px;
            color: plt('justia-blue');
            border-left: 3px solid #00b3e3;
+           margin-bottom: 25px;
            text-align: left;
         }
 
@@ -111,10 +74,10 @@
             strong {
                 color: plt('black');
             }
+        }
 
-            a strong {
-                color: plt('justia-blue');
-            }
+        strong a {
+            color: plt('justia-blue');
         }
 
         .red-info {
@@ -139,6 +102,94 @@
             // padding: 0 0 8px;
             span {
                 display: inline-block;
+            }
+        }
+
+        .source {
+            font-size: rem-calc(14px);
+
+            strong {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            // display: inline-block;
+            width: 300px;
+            vertical-align: middle;
+
+            p:not(:last-child) {
+                margin: 0 0 25px;
+            }
+
+            &.-image {
+                width: 160px;
+                text-align: left;
+
+                a {
+                    display: block !important;
+                    margin: 0 auto 1em;
+                }
+
+                img {
+                    width: 140px;
+                    margin: 0 auto;
+                }
+            }
+
+            &:first-child {
+                float: right;
+            }
+
+            &:last-child {
+                float: left;
+            }
+
+            .red-link,
+            .red-link b {
+                color: plt('red') !important;
+            }
+        }
+
+        a,
+        a b {
+            color: plt('justia-blue') !important;
+            display: inline-block;
+        }
+    }
+
+    &.-email-1 {
+
+        .-image-description > div {
+    
+            p {
+                padding: 0 25px 0 0;
+            }
+        }
+
+        .content-side {
+            width: 360px;
+    
+            // p:not(:last-child) {
+            //     margin: 0 0 25px;
+            // }
+    
+            &.-image {
+                width: 115px;
+                text-align: left;
+                padding: 0 0 0 25px;
+    
+                img {
+                    width: 65px;
+                }
+            }
+    
+            &:first-child {
+                float: left;
+            }
+    
+            &:last-child {
+                float: right;
             }
         }
     }

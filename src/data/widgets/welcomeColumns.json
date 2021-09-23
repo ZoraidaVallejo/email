@@ -1,6 +1,5 @@
 {
   "email1": {
-    "try": "true",
     "columns": [
       {
         "image": {
@@ -46,6 +45,32 @@
         "blockTitle": "Profile Benefits",
         "description": [
           "Start maximizing your profile benefits. We have four phases we suggest doing this in, so don't worry if the process takes some time."
+        ],
+        "readMore": "#"
+      }
+    ]
+  },
+  "email2": {
+    "columns": [
+      {
+        "image": {
+          "src": "2-graphic-01.png",
+          "alt": "Client Reviews"
+        },
+        "blockTitle": "Client Reviews",
+        "description": [
+          "Requesting client reviews is one of the best ways to showcase your professional services for future clients.  Don’t worry – we only permit reviews from actual clients."
+        ],
+        "readMore": "#"
+      },
+      {
+        "image": {
+          "src": "2-graphic-02.png",
+          "alt": "Lawyer Reviews"
+        },
+        "blockTitle": "Lawyer Reviews",
+        "description": [
+          "Any lawyer with a verified Justia Profile can leave you a review if they are familiar with your work. Requesting these reviews is easy with a simple email invite."
         ],
         "readMore": "#"
       }

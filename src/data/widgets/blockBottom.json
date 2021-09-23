@@ -1,0 +1,57 @@
+{
+  "welcome": {
+    "email1": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Did you know? You can get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email2": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "2-graphic-03.png",
+            "description": [
+              "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
+              "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\" class=\"red-link\"><b>Learn More ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email51": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "5-1-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"59\">",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
+              "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\"><b>View Webinars ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

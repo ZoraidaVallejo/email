@@ -30,11 +30,11 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
-{{assign "adClasses" (classList "widget" "w-advertisement" widgetClass "set-max-width")}}
+{{assign "adClasses" (classList "widget" "w-advertisement" "-bottom-block" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-advertisement" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-advertisement" "-bottom-block" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -92,15 +92,60 @@
       <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
         <table {{{tableAttr}}}>
         {{#forEach widgetConfig.contentOrder}}
+          {{#compare this.type "===" "image-description"}}
+            <tr>
+              <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
+                <div>
+                  {{#forIn this.config}}
+
+                    {{#compare @key "===" "description"}}
+                      <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                        {{#each ../config.description}}
+                          {{{this}}}
+                        {{/each}}
+                      </div>
+                    {{/compare}}
+
+                    {{#compare @key "===" "image"}}
+                      <div class="content-side -image" responsive="collapse-one mobile-no-padding">
+                        <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                          {{>img
+                            src=../config.image
+                            alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                          }}
+                        </a>
+                      </div>
+                    {{/compare}}
+                  {{/forIn}}
+                </div>
+              </td>
+            </tr>
+          {{/compare}}
 
           {{#compare this.type "===" "description"}}
             <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
                 <div>
                   {{#each this.config}}
                     {{{this}}}
                   {{/each}}
                 </div>
+              </td>
+            </tr>
+          {{/compare}}
+
+          {{#compare this.type "===" "bg-block"}}
+            <tr>
+              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
+                <table {{{tableAttr}}}>
+                  <tr>
+                    <td class="-inner-wrap">
+                      {{#each this.config}}
+                        {{{this}}}
+                      {{/each}}
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           {{/compare}}
