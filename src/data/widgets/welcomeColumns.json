@@ -75,5 +75,135 @@
         "readMore": "#"
       }
     ]
+  },
+  "email3": {
+    "columns": [
+      {
+        "image": {
+          "src": "3-graphic-01.png",
+          "alt": "Platinum Placements"
+        },
+        "blockTitle": "Platinum Placements",
+        "description": [
+          "Justia Platinum Placements are an exclusive, top placement in the Justia Lawyer Directory, and only one is available per practice area/metro combination."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Started"
+      },
+      {
+        "image": {
+          "src": "3-graphic-02.png",
+          "alt": "Gold Placements"
+        },
+        "blockTitle": "Gold Placements",
+        "description": [
+          "Justia Gold Placements increase your visibility through sponsored placements that rotate above and among the organic listings in the Justia Lawyer Directory."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Started"
+      },
+      {
+        "image": {
+          "src": "3-graphic-03.png",
+          "alt": "Profile Traffic Insights"
+        },
+        "blockTitle": "Profile Traffic Insights",
+        "description": [
+          "All Justia Premium Placements also give you access to your profile traffic statistics for the Justia Lawyer Directory and Legal Information Institute (LII) Directory."
+        ],
+        "readMore": "#"
+      },
+      {
+        "image": {
+          "src": "3-graphic-04.png",
+          "alt": "Custom Landing Page"
+        },
+        "blockTitle": "Custom Landing Page",
+        "description": [
+          "Members who purchase a Justia Platinum Placement can also take advantage of a customized, Justia Landing Page that is designed for maximum conversions."
+        ],
+        "readMore": "#"
+      }
+    ]
+  },
+  "email4": {
+    "columns": [
+      {
+        "image": {
+          "src": "4-graphic-01.png",
+          "alt": "Justia Ask A Lawyer"
+        },
+        "blockTitle": "Justia Ask A Lawyer",
+        "description": [
+          "Answer questions and showcase your legal knowledge to potential clients through our Justia Ask A Lawyer forum, where you can reach people who may currently have a pressing legal matter and future users."
+        ],
+        "readMore": "#",
+        "readMoreText": "Answer Questions"
+      },
+      {
+        "image": {
+          "src": "4-graphic-02.png",
+          "alt": "Justia Annotations"
+        },
+        "blockTitle": "Justia Annotations",
+        "description": [
+          "Annotate case law to share your knowledge with other attorneys, legal researchers, and the general public. Sharing your expertise has the added benefit of helping you build your reputation online and reach more clients."
+        ],
+        "readMore": "#",
+        "readMoreText": "Annotate Cases"
+      }
+    ]
+  },
+  "email51": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-02.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      }
+    ]
   }
 }

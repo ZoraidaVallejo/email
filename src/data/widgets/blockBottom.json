@@ -28,17 +28,35 @@
         }
       ]
     },
+    "email3": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "3-graphic-05.png",
+            "description": [
+              "<strong class=\"blockTitle\">Ready for More Leads?</strong>",
+              "<p><a href=\"#\"><b>Contact us</b></a> today to get your Justia Premium Placement and start reaching more potential clients.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email4": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Stay ahead of the competition! Get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
     "email51": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 350px"
-      },
-      "title": "",
-      "link": "https://www.justia.com/marketing/",
-      "titleResponsiveSize": 23,
-      "image": "5-1-banner-graphic-01.png",
       "contentOrder": [
         {
           "type": "image-description",

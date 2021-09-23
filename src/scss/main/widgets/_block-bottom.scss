@@ -158,7 +158,8 @@
         }
     }
 
-    &.-email-1 {
+    &.-email-1,
+    &.-email-4 {
 
         .-image-description > div {
     
@@ -177,7 +178,7 @@
             &.-image {
                 width: 115px;
                 text-align: left;
-                padding: 0 0 0 25px;
+                // padding: 0 0 0 25px;
     
                 img {
                     width: 65px;
