@@ -24,7 +24,7 @@
         }
 
         .event-day {
-            @include mail-font(36px, 1, tp('weight', 'bold'));
+            @include mail-font(24px, 1, tp('weight', 'bold'));
             margin: 0;
         }
 

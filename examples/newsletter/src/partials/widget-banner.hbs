@@ -13,8 +13,12 @@
 
 <tr>
   <td class="{{classList "widget-banner" widgetClass}}" responsive="mobile-padding-horizontal-sides">
-    {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}
-      {{>img src=imgSrc alt=imgAlt}}
-    {{#if link}}</a>{{/if}}
+    {{#if link}}
+      <a href="{{{link}}}" target="_blank"> 
+    {{else}} 
+      <a href="#">
+    {{/if}}
+        {{>img src=imgSrc alt=imgAlt}}
+      </a>
   </td>
 </tr>
