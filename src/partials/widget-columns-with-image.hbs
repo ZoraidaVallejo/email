@@ -23,6 +23,10 @@
 
             {{#if this.image}}
 
+              {{#if this.proLabel}}
+                {{>img src="pro-label.png" alt="Pro Label" class="pro-label-image"}}
+              {{/if}}
+
               {{#if this.blockTitle}}
                 <h3 class="block-title">{{{this.blockTitle}}}</h3>
               {{/if}}

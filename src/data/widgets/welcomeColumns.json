@@ -183,11 +183,12 @@
       {
         "image": {
           "src": "5-1-graphic-03.png",
-          "alt": "Justia Deals"
+          "alt": "Enhanced Justia Profile"
         },
-        "blockTitle": "Justia Deals",
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
         "description": [
-          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+          "Upgrade to the enhanced Justia Profile to ensure your contact information is prominently displayed while removing competitor ads."
         ],
         "readMore": "#",
         "readMoreText": "Go Pro Now!"
@@ -195,6 +196,35 @@
       {
         "image": {
           "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Pick a client review of your choice and peer review from another attorney to feature before other reviews on your profile in the Justia Lawyer Directory."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      }
+    ]
+  },
+  "email52": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-2-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-02.png",
           "alt": "Justia Deals"
         },
         "blockTitle": "Justia Deals",
@@ -202,7 +232,61 @@
           "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
         ],
         "readMore": "#",
-        "readMoreText": "Go Pro Now!"
+        "readMoreText": "Get My Deals"
+      }
+    ]
+  },
+  "email53": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-3-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-3-graphic-02.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-3-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Take advantage of your enhanced profile and make the most of your prominently displayed contact information by ensuring it is complete and remains accurate."
+        ],
+        "readMore": "#",
+        "readMoreText": "Complete My Profile"
+      },
+      {
+        "image": {
+          "src": "5-3-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Make a great first impression by choosing an excellent client review and peer review from another attorney to feature on your Justia Profile."
+        ],
+        "readMore": "#",
+        "readMoreText": "Feature a Review"
       }
     ]
   }

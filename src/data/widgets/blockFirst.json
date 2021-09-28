@@ -101,6 +101,46 @@
           ]
         }
       ]
+    },
+    "email52": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 4400px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our Justia Connect Welcome Series may end here, your membership in our Justia community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your free <strong>Justia Connect Basic Membership</strong> benefits.</p>"
+          ]
+        }
+      ]
+    },
+    "email53": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 4400px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-3-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our Justia Connect Welcome Series may end here, your membership in our Justia community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <strong>Justia Connect Pro Membership</strong> to obtain the maximum available benefits.</p>"
+          ]
+        }
+      ]
     }
   }
 }
