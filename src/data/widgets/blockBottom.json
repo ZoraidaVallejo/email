@@ -93,21 +93,6 @@
           }
         }
       ]
-    },
-    "email53": {
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "image": "5-1-graphic-05.png",
-            "description": [
-              "<img src=\"../dist/images/pro-label.png\" border=\"0\" class=\"pro-label-image\">",
-              "<strong class=\"blockTitle\">Justia Webinars</strong>",
-              "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\" class=\"red-link\"><b>View Webinars ›</b></a></p>"
-            ]
-          }
-        }
-      ]
     }
   }
 }

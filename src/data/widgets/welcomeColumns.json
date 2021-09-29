@@ -233,6 +233,30 @@
         ],
         "readMore": "#",
         "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-03.png",
+          "alt": "Opinion Summaries"
+        },
+        "blockTitle": "Opinion Summaries",
+        "description": [
+          "Receive timely, <span style=\"display:inline-block;\">attorney-written</span> summaries of decisions in federal appellate courts and state supreme courts."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Alerts"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-04.png",
+          "alt": "Marketing Updates"
+        },
+        "blockTitle": "Marketing Updates",
+        "description": [
+          "Stay in the know on the latest in legal marketing and technology news with updates from our blog delivered directly to your inbox."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Updates"
       }
     ]
   },
@@ -264,29 +288,27 @@
       },
       {
         "image": {
-          "src": "5-3-graphic-03.png",
-          "alt": "Enhanced Justia Profile"
+          "src": "5-2-graphic-03.png",
+          "alt": "Opinion Summaries"
         },
-        "proLabel": true,
-        "blockTitle": "Enhanced Justia Profile",
+        "blockTitle": "Opinion Summaries",
         "description": [
-          "Take advantage of your enhanced profile and make the most of your prominently displayed contact information by ensuring it is complete and remains accurate."
+          "Receive timely, <span style=\"display:inline-block;\">attorney-written</span> summaries of decisions in federal appellate courts and state supreme courts."
         ],
         "readMore": "#",
-        "readMoreText": "Complete My Profile"
+        "readMoreText": "Get Alerts"
       },
       {
         "image": {
-          "src": "5-3-graphic-04.png",
-          "alt": "Featured Reviews"
+          "src": "5-2-graphic-04.png",
+          "alt": "Marketing Updates"
         },
-        "proLabel": true,
-        "blockTitle": "Featured Reviews",
+        "blockTitle": "Marketing Updates",
         "description": [
-          "Make a great first impression by choosing an excellent client review and peer review from another attorney to feature on your Justia Profile."
+          "Stay in the know on the latest in legal marketing and technology news with updates from our blog delivered directly to your inbox."
         ],
         "readMore": "#",
-        "readMoreText": "Feature a Review"
+        "readMoreText": "Get Updates"
       }
     ]
   }

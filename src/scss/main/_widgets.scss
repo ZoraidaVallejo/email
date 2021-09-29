@@ -108,6 +108,23 @@
         }
     }
 
+    .-blast-5-2 &,
+    .-blast-5-3 & {
+        > .wrapper {
+            padding: 0 $widget-gap $widget-gap;
+        }
+
+        &.-with-image {
+
+            .block > div {
+                
+                p {
+                    padding: 0 26px;
+                }
+            }
+        }
+    }
+
     .red-link {
         color: plt('red')!important;
         @include mail-font(15px, 1.5, 700);
