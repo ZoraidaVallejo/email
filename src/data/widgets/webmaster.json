@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "webmaster",
+    "header": "Webmaster’s Corner"
+  },
+  "link": "LINK",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "The Basics of Crawling, Indexing, and Ranking",
+  "description": [
+    "In today’s day and age, people commonly turn to the internet, seeking answers to their questions through various search engines. Understanding the process by which these search engines crawl, index, and rank content is both interesting and essential to improving your website’s search performance."
+  ],
+  "button": {
+    "style": "justia-blue",
+    "link": "LINK",
+    "text": "Read More"
+  }
+}

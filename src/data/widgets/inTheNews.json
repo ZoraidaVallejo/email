@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "client-in-the-news",
+    "header": "Clients in the News"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "Mark Eiglarsh was on the Dr. Phil show"
+      },
+      "description": [
+        "<b>Mark Eiglarsh</b> was on the Dr. Phil show discussing Brian Laundrie's involvement in Gabby Petito's disappearance."
+      ],
+      "readMore": "https://www.drphil.com/videos/a-defense-attorney-on-why-brian-laundrie-might-have-chosen-not-to-talk-about-gabby-petitos/"
+    },
+    {
+      "image": {
+        "src": "clients-news-logo-01.png",
+        "alt": "Ajay Pallegar was quoted by Fox News"
+      },
+      "description": [
+        "<b>Ajay Pallegar</b> was quoted by Fox News regarding Gabby Petito's homicide and whether Brian Laundrie's parents could be charged."
+      ],
+      "readMore": "https://www.foxnews.com/us/brian-laundrie-parents-legal-consequences"
+    }
+  ]
+}

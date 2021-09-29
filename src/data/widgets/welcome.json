@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Insights Client Newsletter!"
+    ],
+    "message": [
+      "Check out the latest in this month’s edition of Justia Insights! Find out whether there is any truth behind six of the most common SEO myths, learn more about setting up your own Google Ads campaigns, and find out what some of our clients have to say about their own legal marketing journeys. Catch up on marketing and technology news, and see what our team at Justia has been up to recently."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Insights Monthly Newsletter!"
+    ],
+    "message": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
+      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

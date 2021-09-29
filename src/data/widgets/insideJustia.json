@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "\"Pixcel\" Challenge"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>\"Pixcel\" Challenge</b>",
+      "description": [
+        "Our team participated in a \"pixcel\" challenge this month, creating awesome images pixel by pixel in Excel. We were delighted by all the submissions full of quality, creativity, and talent. We took a team vote, and Carolina won a prize for her submission of the Japanese bathhouse from the animated film Spirited Away."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Friends of the Hug Pugs"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Friends of the Hug Pugs</b>",
+      "description": [
+        "The pugs are proud to introduce another pal of theirs: Mez's dog, Ares, a mix between Great Dane and Saint Bernard. Despite being super lazy, Ares enjoys long walks around the neighborhood so that he can smell every bush along the way. While he is 6 years old, he still has the heart of a puppy!"
+      ]
+    }
+  ]
+}
