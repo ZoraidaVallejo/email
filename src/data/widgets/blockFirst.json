@@ -1,13 +1,6 @@
 {
   "welcome": {
     "email1": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 440px"
-      },
-      "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 23,
       "image": "1-banner-graphic-01.png",
@@ -22,13 +15,6 @@
       ]
     },
     "email2": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 440px"
-      },
-      "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 23,
       "image": "2-banner-graphic-01.png",
@@ -42,13 +28,6 @@
       ]
     },
     "email3": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 440px"
-      },
-      "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 33,
       "image": "3-banner-graphic-01.png",
@@ -63,13 +42,6 @@
       ]
     },
     "email4": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#ffffff",
-        "cssSize": "600px 440px"
-      },
-      "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 33,
       "image": "4-banner-graphic-01.png",
@@ -138,6 +110,30 @@
           "type": "description",
           "config": [
             "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our Justia Connect Welcome Series may end here, your membership in our Justia community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <strong>Justia Connect Pro Membership</strong> to obtain the maximum available benefits.</p>"
+          ]
+        }
+      ]
+    },
+    "email61": {
+      "link": "https://www.justia.com/marketing/",
+      "image": "6-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Congratulations on becoming a <strong>Justia Connect Pro!</strong> You are now getting the maximum available benefits from <strong>Justia Connect</strong>. Your membership will help you continue to grow into the future as you strive to reach your professional and practice-growth goals. Now, it is time to leverage your benefits to help you along the way.</p>"
+          ]
+        }
+      ]
+    },
+    "email62": {
+      "link": "https://www.justia.com/marketing/",
+      "image": "6-2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>You’re Connected. Become a Pro to get the most from Justia. When you upgrade your <strong>Justia Connect</strong> membership to <strong>Justia Connect Pro for only $19.99/month</strong>, you receive additional features and benefits that help you reach your full potential.</p>"
           ]
         }
       ]

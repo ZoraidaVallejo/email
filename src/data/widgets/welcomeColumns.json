@@ -311,5 +311,117 @@
         "readMoreText": "Get Updates"
       }
     ]
+  },
+  "email61": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Take advantage of your enhanced profile by making sure your information is accurate and complete."
+        ],
+        "readMore": "#",
+        "readMoreText": "Complete My Profile"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Make a great first impression by choosing excellent reviews to feature first on your Justia Profile."
+        ],
+        "readMore": "#",
+        "readMoreText": "Feature a Review"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-03.png",
+          "alt": "Heightened Visibility"
+        },
+        "proLabel": true,
+        "blockTitle": "Heightened Visibility",
+        "description": [
+          "Make the most of your potential for increased visibility on Justia by fully completing your profile."
+        ],
+        "readMore": "#",
+        "readMoreText": "Complete My Profile"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-04.png",
+          "alt": "Justia Credit"
+        },
+        "proLabel": true,
+        "blockTitle": "Justia Credit",
+        "description": [
+          "Utilize your Justia credit to upgrade your marketing plan with products from Justia Marketing Solutions."
+        ],
+        "readMore": "#",
+        "readMoreText": "Explore Solutions"
+      }
+    ]
+  },
+  "email62": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Upgrade to the enhanced Justia Profile to ensure your contact information is prominently displayed while removing competitor ads."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Choose a client review and a peer review from another attorney to feature first on your Justia Lawyer Directory profile and make a strong impression."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-03.png",
+          "alt": "Heightened Visibility"
+        },
+        "proLabel": true,
+        "blockTitle": "Heightened Visibility",
+        "description": [
+          "Maximize your visibility with potential opportunities to be featured in various locations across the Justia website."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-04.png",
+          "alt": "Justia Credit"
+        },
+        "proLabel": true,
+        "blockTitle": "Justia Credit",
+        "description": [
+          "Advance your marketing plan and get closer to your goals with $100 in credit to be used on Justia Marketing Solutions."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      }
+    ]
   }
 }

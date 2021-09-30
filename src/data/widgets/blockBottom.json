@@ -93,6 +93,21 @@
           }
         }
       ]
+    },
+    "email62": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "5-1-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" class=\"pro-label-image\">",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
+              "<p>Get access to exclusive, member-only webinars on important news and updates in the legal profession.</p><p><a href=\"#\" class=\"red-link\"><b>Go Pro Now! ›</b></a></p>"
+            ]
+          }
+        }
+      ]
     }
   }
 }
