@@ -1,0 +1,50 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "JSON-LD Schema for Justia Blogs: ",
+        "description": "We've added JSON-LD structured data schema to several of our Justia blogs, such as Onward, Verdict, and Opinion Summary Blogs, among others. This addition helps SEO crawlers better index our sites."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "#",
+        "title": "Onward and Avanza QA Automation: ",
+        "description": "Our QA team released automated checks to ensure that our Onward and Avanza blogs are fully functional."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Customized Onward Feeds on Marketing: <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
+        "description": "We have improved the relevance of the Onward articles shown within our Marketing site by targeting specific post categories."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Server Migrations: ",
+        "description": "Moving towards a more secure infrastructure, we migrated the server of some of our Justia friends' properties like NetForLawyers, Oregon Legal Research, ediscoverycouncil.com, and others over to VPC, highly reducing security risks."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Justia Amplify: ",
+        "description": "In order to improve the accuracy of billing calculations, we implemented a 2-month billing delay specifically for LSA services that was reflected in our internal reports, as well as in the monthly client reports."
+      }
+    }
+  ]
+}

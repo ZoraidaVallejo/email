@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "type": "SURVEYS",
+    "header": "What Is Your Favorite Scary Movie of All Time?"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Place</b></a>",
+        "description": [
+          "We will share the answers later by Slack."
+        ]
+      }
+    }
+  ]
+}

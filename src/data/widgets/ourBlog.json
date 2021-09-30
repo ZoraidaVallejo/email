@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "The Law of a Law Firm Website"
+      },
+      "readMore": "https://onward.justia.com/the-law-of-a-law-firm-website/",
+      "blockTitle": "The Law of a Law Firm Website"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Accessibility For Websites (A11y)"
+      },
+      "readMore": "https://onward.justia.com/accessibility-for-websites-a11y/",
+      "blockTitle": "Accessibility For Websites (A11y)"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "How To Set Up a Google Search Ad"
+      },
+      "readMore": "https://onward.justia.com/how-to-set-up-a-google-search-ad/",
+      "blockTitle": "How To Set Up a Google Search Ad"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Official Lawyer Directories of State Bar Associations & Licensing Organizations"
+      },
+      "readMore": "https://onward.justia.com/official-lawyer-directories-of-state-bar-associations-licensing-organizations/",
+      "blockTitle": "Official Lawyer Directories of State Bar Associations & Licensing Organizations"
+    }
+  ]
+}
