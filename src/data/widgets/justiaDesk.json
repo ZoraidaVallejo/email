@@ -46,13 +46,19 @@
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     },
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
       "source": "directory-newsletter",
-      "content": "text-justia-desk-title-"
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
     }
   }
 }

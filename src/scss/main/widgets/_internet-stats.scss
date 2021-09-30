@@ -33,6 +33,10 @@
 
         p {
             @include mail-font(16px, 1.3);
+
+            a {
+                font-weight: get('font.weight.bold');
+            }
         }
 
         .source {
