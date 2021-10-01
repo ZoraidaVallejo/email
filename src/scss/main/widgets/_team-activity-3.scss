@@ -33,7 +33,7 @@
     }
 
     .image {
-        padding: 0 $padding 20px;
+        padding: 0 $padding $widget-gap;
 
         img {
             width: $inner-max-width;

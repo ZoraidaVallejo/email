@@ -65,11 +65,11 @@
             }
 
             &:first-child {
-                float: right;
+                float: left;
             }
 
             &:last-child {
-                float: left;
+                float: right;
             }
         }
 
@@ -101,7 +101,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 15px $padding $widget-gap;
         }
     }
 

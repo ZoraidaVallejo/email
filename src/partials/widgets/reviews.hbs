@@ -53,6 +53,19 @@
     type=widgetConfig.widget.type
   }}
 
+  {{#if widgetConfig.image-top}}
+    <tr>
+      <td class="image image-top" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{widgetConfig.link}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image-top
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}

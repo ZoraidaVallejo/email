@@ -80,12 +80,12 @@
             padding: 0 $padding 18px;
         }
 
-        &.-last {
-            padding: 0 $padding 45px;
-        }
-
         &.-description {
             padding: 0 $padding 25px;
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
         }
     }
 

@@ -1443,11 +1443,11 @@ a {
 }
 
 .w-holidays-2 .content .content-side:first-child {
-  float: right;
+  float: left;
 }
 
 .w-holidays-2 .content .content-side:last-child {
-  float: left;
+  float: right;
 }
 
 .w-holidays-2 .content .-image p {
@@ -1472,7 +1472,7 @@ a {
 }
 
 .w-holidays-2 .content.-last {
-  padding: 0 25px 50px;
+  padding: 15px 25px 50px;
 }
 
 .w-holidays-2 .-idx-2 .content-side:first-child {
@@ -1570,6 +1570,11 @@ a {
 
 .w-reviews .content.-last {
   padding: 0 25px 50px;
+}
+
+.w-reviews .content.-description {
+  padding: 25px 25px 50px;
+  text-align: center;
 }
 
 .w-portal-news td {
@@ -1769,12 +1774,12 @@ a {
   padding: 0 25px 18px;
 }
 
-.w-team-activities .content.-last {
-  padding: 0 25px 45px;
-}
-
 .w-team-activities .content.-description {
   padding: 0 25px 25px;
+}
+
+.w-team-activities .content.-last {
+  padding: 0 25px 50px;
 }
 
 .w-team-activities .-image-column .content-side {
@@ -1822,7 +1827,7 @@ a {
 }
 
 .w-team-activity-3 .image {
-  padding: 0 25px 20px;
+  padding: 0 25px 50px;
 }
 
 .w-team-activity-3 .image img {
@@ -2414,23 +2419,28 @@ body {
 }
 
 .w-milestones {
-  background: url("../images/odd-block-03.png") no-repeat #ffffff;
-  background-position: center;
-}
-
-.w-birthday {
   background: url("../images/odd-block-02.png") no-repeat #ffffff;
   background-position: center;
 }
 
-.w-holidays-2 {
-  background: url("../images/odd-block-05.png") no-repeat #ffffff;
+.w-blog-justia {
+  background: url("../images/odd-block-04.png") no-repeat #ffffff;
   background-position: center;
 }
 
-.w-wellness {
-  background: url("../images/odd-block-01.png") no-repeat #ffffff;
+.w-new-people-2 {
+  background: url("../images/odd-block-02.png") no-repeat #ffffff;
+  background-position: center;
+}
+
+.w-blast-past {
+  background: url("../images/odd-block-bottom.png") no-repeat #ffffff;
   background-position: bottom;
+}
+
+.w-team-activities {
+  background: url("../images/odd-block-top.png") no-repeat #ffffff;
+  background-position: top;
 }
 
 @media screen {

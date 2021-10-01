@@ -94,5 +94,10 @@
         &.-last {
             padding: 0 $padding $widget-gap;
         }
+
+        &.-description {
+            padding: $padding $padding $widget-gap;
+            text-align: center;
+        }
     }
 }

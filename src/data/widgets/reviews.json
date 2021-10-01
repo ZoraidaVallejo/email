@@ -4,17 +4,14 @@
     "header": "What Is Your Favorite Scary Movie of All Time?"
   },
   "titleResponsiveSize": 23,
-  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "image-top": "reviews-graphic-01.png",
+  "link": "https://docs.google.com/forms/d/1AAhDfApDnHtx6st4MJnRaS2pQfQ0Nywr3eUyZE4zmfg/edit",
   "contentOrder": [
     {
-      "type": "image-description",
-      "config": {
-        "image": "reviews-graphic-01.png",
-        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Place</b></a>",
-        "description": [
-          "We will share the answers later by Slack."
-        ]
-      }
+      "type": "description",
+      "config": [
+        "We will share the answers later via Slack."
+      ]
     }
   ]
 }

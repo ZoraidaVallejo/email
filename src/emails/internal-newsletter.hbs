@@ -45,7 +45,10 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{!-- {{>blast-past widgetConfig=blastPast}} --}}
+        {{>blast-past widgetConfig=blastPast}}
+
+        {{!-- image, text and lists below --}}
+        {{>team-activity-3 widgetConfig=teamActivity3}}
 
         {{!-- Same layout as Milestones --}}
         {{!-- {{>wellness-items widgetConfig=wellnessItems}} --}}
@@ -54,9 +57,6 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{!-- E X T R A S --}}
         {{!-- Not Commonly Used --}}
-
-        {{!-- image, text and lists below --}}
-        {{!-- {{>team-activity-3 widgetConfig=teamActivity3}} --}}
 
         {{!-- tricky block with bg image --}}
         {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
