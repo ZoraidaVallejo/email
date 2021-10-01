@@ -5,16 +5,12 @@
   },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "ad-gradient.png",
-        "width": 600,
-        "bgColor": "#fefefe",
-        "cssSize": "600px 350px"
-      },
+      "background": {},
       "title": "",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 23,
       "image": "justia-connect.png",
+      "imageAlt": "Introducing Justia Connect",
       "contentOrder": [
         {
           "type": "description",
