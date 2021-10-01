@@ -33,7 +33,7 @@
     }
 
     .image {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding $padding;
 
         img {
             width: $inner-max-width;
@@ -92,7 +92,7 @@
         }
 
         &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 $padding $widget-gap;
         }
     }
 

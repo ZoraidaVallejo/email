@@ -1,5 +1,13 @@
 {
   "title": "Upcoming Events",
   "titleResponsiveSize": 23,
-  "image": "upcoming-events-01.png"
+  "image": "upcoming-events-01.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "This year's edition will be held on Friday, October 29th! While participation is voluntary, we highly encourage you all to dress up in a costume and nominate yourselves for one of the available categories. Fantastic prizes are waiting for you! We are eager to see a huge display of participation, enthusiasm, and creativity!"
+      ]
+    }
+  ]
 }
