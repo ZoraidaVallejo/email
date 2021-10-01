@@ -58,8 +58,17 @@
             padding: 35px $padding 20px;
             text-align: left;
 
-            p{
+            b {
+                display: inline-block;
+            }
+
+            p {
                 max-width: 500px;
+                margin: 0 auto 16px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
 
