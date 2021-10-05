@@ -64,8 +64,8 @@
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Get Notified",
-            "width": 230,
+            "text": "Be the First to Know",
+            "width": 280,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -79,7 +79,7 @@
         {
           "type": "description",
           "config": [
-            "<p><a href=\"#\" target=\"_blank\">#JustiaForAll</a></p>"
+            "&nbsp;"
           ]
         }
       ]
