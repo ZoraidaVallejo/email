@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "abenity-activation.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>You are already utilizing many of your <strong>Justia Connect</strong> membership benefits, but we want to make sure you also get all of the deals available through <strong>Justia Lifestyle Savings!</strong> To save more money, you must unlock your Justia Lifestyle Savings by logging in to the Justia Deals platform.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Unlock My Deal",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": "mobile-reset-bg-image"
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
