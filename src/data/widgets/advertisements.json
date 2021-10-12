@@ -5,84 +5,12 @@
   },
   "jld": {
     "ad1": {
-      "background": {
-        "image": "connect-teaser-bg-01.gif",
-        "width": 600,
-        "bgColor": "#06357a",
-        "cssSize": "100% auto",
-        "responsive": "mobile-reset-width"
-      },
-      "link": "https://www.justia.com/",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "&nbsp;"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Get Notified",
-            "width": 230,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p><a href=\"#\" target=\"_blank\">#JustiaForAll</a></p>"
-          ]
-        }
-      ]
+      "image": "connect-teaser-01.gif",
+      "link": "https://www.justia.com/"
     },
     "ad2": {
-      "background": {
-        "image": "connect-teaser-bg-02.png",
-        "width": 600,
-        "bgColor": "#06357a",
-        "cssSize": "100% auto",
-        "responsive": "mobile-reset-width"
-      },
-      "link": "https://www.justia.com/",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "&nbsp;"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Be the First to Know",
-            "width": 280,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "&nbsp;"
-          ]
-        }
-      ]
+      "image": "connect-teaser-02.png",
+      "link": "https://www.justia.com/"
     }
   }
 }
