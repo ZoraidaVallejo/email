@@ -7,7 +7,7 @@
     "ad1": {
       "background": {},
       "title": "",
-      "link": "",
+      "link": "#",
       "titleResponsiveSize": 23,
       "image": "premium-placements.gif",
       "imageAlt": "Justia Premium Placements",
@@ -15,9 +15,9 @@
         {
           "type": "description",
           "config": [
-            "Reaching more clients doesn’t have to be a nightmare. With increased visibility, enhanced profile features, and access to traffic stats, Justia Premium Placements make your profile stand out in a spooktacularly good way.",
+            "Reaching more clients doesn’t have to be a nightmare. With increased visibility, enhanced profile features, and access to traffic stats, <b>Justia Premium Placements</b> make your profile stand out in a spooktacularly good way.",
             "<strong>Act Now!</strong>",
-            "For a limited time, you can grab a special treat to help you save on new Justia Gold Placements."
+            "For a limited time, you can grab a special treat to help you save on new <b>Justia Gold Placements</b>."
           ]
         },
         {

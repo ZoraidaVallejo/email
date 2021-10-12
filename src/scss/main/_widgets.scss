@@ -6,9 +6,9 @@
     border-bottom: 1px solid plt('mail', 'clear-gray');
     background-color: plt('white');
 
-    &:nth-child(odd) {
-        background-color: plt('mail', 'clear-gray');
-    }
+    // &:nth-child(odd) {
+    //     background-color: plt('mail', 'clear-gray');
+    // }
 
     a {
         color: plt('justia-blue');
