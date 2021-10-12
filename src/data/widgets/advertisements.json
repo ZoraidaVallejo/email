@@ -1,0 +1,49 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "",
+      "titleResponsiveSize": 23,
+      "image": "premium-placements.gif",
+      "imageAlt": "Justia Premium Placements",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Reaching more clients doesn’t have to be a nightmare. With increased visibility, enhanced profile features, and access to traffic stats, Justia Premium Placements make your profile stand out in a spooktacularly good way.",
+            "<strong>Act Now!</strong>",
+            "For a limited time, you can grab a special treat to help you save on new Justia Gold Placements."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get My Treat",
+            "width": 175,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team <br><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
