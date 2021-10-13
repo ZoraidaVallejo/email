@@ -108,6 +108,17 @@
         }
     }
 
+    .-blast-4 & {
+        &.-with-image {
+
+            .block > div {
+                p {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+
     .-blast-5-2 &,
     .-blast-5-3 & {
         > .wrapper {
@@ -119,7 +130,7 @@
             .block > div {
                 
                 p {
-                    padding: 0 26px;
+                    padding: 0 25px;
                 }
             }
         }
