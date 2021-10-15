@@ -1,0 +1,56 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "connect-banner-non-jld-01.png",
+      "imageAlt": "Introducing Justia Connect",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "We are proud to announce the launch of <b>Justia Connect</b>, a free membership program designed exclusively for legal professionals!",
+            "Connected members have access to unique benefits and resources designed to help them achieve their goals, including enticing savings and discounts, offerings designed to help them expand their professional reach, and opportunities to both share and learn through Justia.",
+            "Justia Connect membership is open to all licensed, U.S. attorneys. Becoming a member is as simple as claiming (or creating) your free <b>Justia Lawyer Directory</b> profile.",
+            "While non-lawyers are unable to join Justia Connect at the present time, we continue our mission to make the law and legal resources free and accessible for all and invite everyone to participate in the larger Justia Community by leveraging our free legal information, the <b>Justia Ask A Lawyer</b> forum, <b>Justia Daily Opinion Summaries</b>, <b>Justia Legal Guides</b>, and more!"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "Ready to get connected?"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Join Now!",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Not a Lawyer?<br><a href=\"#\" target=\"_blank\">Learn more</a> about Justia resources available to you."
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
