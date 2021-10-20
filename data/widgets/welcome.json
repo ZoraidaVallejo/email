@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> edition",
+      "of the Justia client newsletter!"
+    ],
+    "message": [
+      "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> edition",
+      "of the Justia monthly newsletter!"
+    ],
+    "message": [
+      "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing.",
+      "Justia has an unparalleled track record of helping law firms grow. If you're interested in our website and SEO services, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}
