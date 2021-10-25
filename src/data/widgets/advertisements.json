@@ -1,0 +1,47 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "image": "thanksgiving.gif",
+      "imageAlt": "Something to Be Thankful For",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Increasing your Google Ads spend over the Thanksgiving holiday can give you even more to be thankful for—new leads!"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Tell Me More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
