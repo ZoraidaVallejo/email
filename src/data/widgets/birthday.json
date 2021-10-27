@@ -1,0 +1,63 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "04",
+            "name": "Andre Caceros"
+          },
+          {
+            "day": "05",
+            "name": "Diana Gonzalez"
+          },
+          {
+            "day": "06",
+            "name": "Amanda Newman"
+          },
+          {
+            "day": "06",
+            "name": "Omar Enriquez"
+          },
+          {
+            "day": "25",
+            "name": "Ana Aguilar"
+          },
+          {
+            "day": "29",
+            "name": "Jorge Contreras"
+          },
+          {
+            "day": "30",
+            "name": "Andres Sanchez"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Alejandro Moreno",
+            "years": "3rd"
+          },
+          {
+            "name": "Valeria Dimas",
+            "years": "6th"
+          },
+          {
+            "name": "Donovan Coronado",
+            "years": "7th"
+          },
+          {
+            "name": "Griselda Santos",
+            "years": "12th"
+          }
+        ]
+      }
+    }
+  ]
+}

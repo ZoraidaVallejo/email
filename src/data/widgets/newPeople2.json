@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Emilio Barrera",
+        "blockSubtitle": "Engineering Team",
+        "description": "My name is Emilio Barrera, and I'm a gamer who loves programming, dogs, cats, karate, chess, and every single geek-thing you can think of, except Star Wars and TLOTR (I haven't watched them yet). I'm open-minded, and even if I disagree with everyone's point of view, I do respect each of them."
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "description": {
+    "top": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ],
+    "bottom": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ]
+  },
+  "feature": {
+    "image": {
+      "src": "featured-onward-01.png",
+      "alt": "Et feugiat senectus platea quisque pretium arcu."
+    },
+    "readMore": "#",
+    "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Et feugiat senectus platea quisque pretium arcu."
+      },
+      "readMore": "#",
+      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Et feugiat senectus platea quisque pretium arcu."
+      },
+      "readMore": "#",
+      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Et feugiat senectus platea quisque pretium arcu."
+      },
+      "readMore": "#",
+      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Et feugiat senectus platea quisque pretium arcu."
+      },
+      "readMore": "#",
+      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    }
+  ]
+}
