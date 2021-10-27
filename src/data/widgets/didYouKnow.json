@@ -1,0 +1,42 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "Background Checks No Longer Required for Lawyer LSAs",
+    "link": "https://onward.justia.com/google-no-longer-requiring-background-checks-for-lawyer-local-services-ads-lsas/?utm_medium=email&utm_campaign=2021-11&utm_source=client-newsletter&utm_content=section-did-you-know-title-v1",
+    "description": [
+      "In a recent announcement, Google confirmed that lawyers no longer need to go through an additional background check to achieve \"Google Screened\" status for their Local Services Ads (LSAs). Learn more about this change and what it means for lawyers."
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://onward.justia.com/google-no-longer-requiring-background-checks-for-lawyer-local-services-ads-lsas/?utm_medium=email&utm_campaign=2021-11&utm_source=client-newsletter&utm_content=section-did-you-know-button-v1",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "[Quis reprehenderit aliquip laboris ex id ex adipisicing non cupidatat cillum adipisicing. Exercitation voluptate ex magna id dolore adipisicing commodo ex cupidatat officia veniam eu dolore. Labore quis ullamco ea magna id sit. Voluptate dolore id ad fugiat fugiat ipsum minim excepteur nisi laboris. Non ipsum ea ipsum laboris ullamco minim consectetur. Ullamco cupidatat ut magna do. Laboris et incididunt cillum voluptate voluptate sunt mollit pariatur irure non commodo commodo.]",
+      "[Nostrud velit occaecat excepteur deserunt laboris duis irure commodo irure ullamco magna occaecat in. Duis cupidatat enim aliqua est ut amet sunt. Aliquip duis nulla eu commodo dolore nostrud labore adipisicing duis culpa.]"
+    ],
+    "button": {
+      "style": "justia-blue",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "source": "directory-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}

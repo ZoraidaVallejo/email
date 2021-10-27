@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "05",
+      "month": "Nov",
+      "title": "Business Bankruptcy Committee 2021 Fall Meeting",
+      "link": "https://web.cvent.com/event/8722eea6-e05a-4a54-960b-b8735ca4ffcd/summary",
+      "time": "8am ET",
+      "typeLocation": "Virtual Conference"
+    },
+    {
+      "day": "08",
+      "month": "Nov",
+      "title": "Microsoft Teams: A Law Firm Lifesaver and a Bridge to the New Normal",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/417214648/",
+      "time": "12pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "08",
+      "month": "Nov",
+      "title": "Strategies and Tips: Securing and Preparing Your Expert Witness",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/415228381/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "08-09",
+      "month": "Nov",
+      "title": "32nd Annual Philadelphia Tax Conference",
+      "link": "https://web.cvent.com/event/06a7cfd2-94bc-4355-bdbd-d33ed931b57d/summary",
+      "time": "9am ET",
+      "typeLocation": "Virtual Conference"
+    },
+    {
+      "day": "10",
+      "month": "Nov",
+      "title": "Post-COVID-19/CARES Act Litigation",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/418183244/",
+      "time": "12pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "15",
+      "month": "Nov",
+      "title": "Responding to Online Reviews – Ethically – and Other Risky Online Activities",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/417494557/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "17",
+      "month": "Nov",
+      "title": "Sex Discrimination & Sex Abuse in the Workplace, School and Sports",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/417926731/",
+      "time": "11am ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

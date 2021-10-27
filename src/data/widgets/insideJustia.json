@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Justians Get Spooky"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Justians Get Spooky</b>",
+      "description": [
+        "In keeping with our annual tradition, the Justia Team participated in our annual Halloween celebration and costume contest: The Ghoulie Awards. Some costumes were scary, some were silly, but everyone had a great time getting into the Halloween spirit."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Rest in Peace, Little Sheba"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Rest in Peace, Little Sheba</b>",
+      "description": [
+        "Last month we had to say goodbye to the original Hug Pug, Little Sheba. She was part of our family for over 17.5 years. The wrinkles on her forehead appropriately formed a smiley face, as she brought joy to so many lives. We are lucky to have had her in our lives as long as we did and we miss her so much."
+      ]
+    }
+  ]
+}
