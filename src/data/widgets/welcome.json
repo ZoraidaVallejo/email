@@ -22,13 +22,13 @@
       "of the Justia Insights Monthly Newsletter!"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
-      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+      "Welcome to your November 2021 edition of Justia Insights! In this month’s edition, learn more about our new, free membership program for lawyers: Justia Connect! Get the latest news on changes in Local Services Ads (LSAs), discover the questions lawyers should be asking before hiring a PPC consultant, and get tips for marketing a criminal defense practice. Catch up on the latest in legal and technology news, and take a peek at what our team has been doing over the past month.",
+      "Our track record of empowering law firms to reach their growth goals is unparalleled. Whether you are interested in Justia Premium Placement opportunities, our Justia Amplify PPC Management services, or our Justia Elevate websites and SEO products, Justia Marketing Solutions can help you. Contact us today to start working towards your next marketing goal."
     ],
     "button": {
       "style": "justia-blue",
       "link": "https://www.justia.com/marketing/",
-      "text": "Learn More",
+      "text": "Get Started",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
