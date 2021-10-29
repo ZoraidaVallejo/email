@@ -1,0 +1,47 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "image": "premium-placements.gif",
+      "imageAlt": "",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Grow your practice with <b><span>Justia Premium</span> Placements</b> on the <b><span>Justia Lawyer Directory</span></b>. With increased visibility, enhanced profile features, and access to profile traffic stats, the more <b>Justia Premium <span>Placements</span></b> you sow, the greater your harvest."
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Tell Me More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Justia Lawyer Directory Team <br><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
