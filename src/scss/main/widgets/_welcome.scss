@@ -24,10 +24,13 @@
             @include mail-font(26px, 1.1, tp('weight', 'bold'));
         }
 
-        p,
-        a {
+        p {
             text-align: left;
             color: plt('black');
+
+            a {
+                color: plt('justia-blue')
+            }
         }
 
         p {

@@ -8,4 +8,8 @@
         padding: 0 $padding $widget-gap;
         text-align: center;
     }
+
+    .widget-columns .block-description a {
+        color: plt('justia-blue');
+    }
 }
