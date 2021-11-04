@@ -63,6 +63,10 @@
                 padding-bottom: 28px;
                 @include mail-font(16px);
 
+                strong {
+                    color: plt('justia-blue');
+                }
+
                 strong,
                 span {
                     display: block;

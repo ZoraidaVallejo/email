@@ -21,36 +21,36 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>portal-news widgetConfig=portalNews}}
 
         {{>our-blog}}
+
+        {{!-- tricky block with bg image --}}
+        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
         
         {{>birthday widgetConfig=birthday}}
 
         {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
         {{!-- 2 columns, for 2 people --}}
-        {{>new-people widgetConfig=newPeople}}
+        {{!-- {{>new-people widgetConfig=newPeople}} --}}
 
         {{!-- image and text aside, can be use for one to + 2 people --}}
-        {{!-- {{>new-people-2 widgetConfig=newPeople2}} --}}
-        
-        {{!-- 2 columns, for 2 people --}}
-        {{!-- {{>holidays widgetConfig=holidays}} --}}
+        {{>new-people-2 widgetConfig=newPeople2}}
         
         {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{>holidays-2 widgetConfig=holidays2}}
+        {{!-- {{>holidays-2 widgetConfig=holidays2}} --}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{!-- {{>team-activity widgetConfig=teamActivity}} --}}
-
-        {{!-- image and text aside --}}
-        {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
+        {{>blast-past widgetConfig=blastPast}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{!-- {{>blast-past widgetConfig=blastPast}} --}}
+        {{>team-activity widgetConfig=teamActivity}}
+        
+        {{!-- 2 columns, for 2 holidays --}}
+        {{>holidays widgetConfig=holidays}}
 
         {{!-- Same layout as Milestones --}}
         {{!-- {{>wellness-items widgetConfig=wellnessItems}} --}}
         
-        {{>reviews widgetConfig=reviews}}
+        {{!-- {{>reviews widgetConfig=reviews}} --}}
 
         {{!-- E X T R A S --}}
         {{!-- Not Commonly Used --}}
@@ -58,8 +58,8 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- image, text and lists below --}}
         {{!-- {{>team-activity-3 widgetConfig=teamActivity3}} --}}
 
-        {{!-- tricky block with bg image --}}
-        {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
+        {{!-- image and text aside --}}
+        {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 

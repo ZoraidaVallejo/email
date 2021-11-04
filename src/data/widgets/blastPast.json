@@ -1,15 +1,70 @@
 {
-  "type": "Blast to the Past",
-  "title": "Lorem ipsum dolor sit amet consectetur",
+  "type": "COMPANY EVENTS",
+  "title": "Justia Ghoulies Awards",
   "titleResponsiveSize": 23,
-  "image-top": "past-graphic-01.png",
-  "image-bottom": "past-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis. Blandit praesent luptatum zzril delenit augue duis dolore te feugait. Per seacula quarta decima lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        "We held our second Ghoulie Awards! As a returning Justia event, we were very excited to see all the fantastic and spooktacular costumes. We want to thank everyone for participating and submitting your costume for consideration in this year’s edition, and we are already looking forward to next year’s event with great participation, enthusiasm, and creativity! Without further ado, here are our winners for each category!"
       ]
+    },
+    {
+      "type": "image",
+      "config": "past-graphic-01.png"
+    },
+    {
+      "type": "lists-description",
+      "config": {
+        "left": [
+          {
+            "category": "Pets:",
+            "first": "Boo - Lizeth Rios",
+            "second": "Izzy - Jackie Chu"
+          },
+          {
+            "category": "Children: All Won!"
+          },
+          {
+            "category": "Scariest:",
+            "first": "Geovvany Suarez"
+          },
+          {
+            "category": "Best Team/Group:",
+            "first": "<em>Squid Girls -</em> Claudia Duque, Ana Espinoza, Griselda Santos, Laura Garcia, Valeria Dimas",
+            "second": "<em>Who is that Pokemon? -</em> Jose Soto, Karla Rodriguez, Carolina Leija, Andrea Cervantes"
+          }
+        ],
+        "right": [
+          {
+            "category": "Funniest:",
+            "first": "Edgar de Leon",
+            "second": "Miguel Berlanga"
+          },
+          {
+            "category": "Cartoon Character:",
+            "first": "Miriam Valdes",
+            "first": "John Pruitt",
+            "second": "Pablo Fernandez",
+            "second": "Eduardo Garcia"
+          },
+          {
+            "category": "What the Heck Are You Supposed to Be:",
+            "first": "Hector Lugo",
+            "second": "Barbara Cooper"
+          },
+          {
+            "category": "Most Effort:",
+            "first": "Miriam Valdes",
+            "second": "Eduardo Garcia"
+          },
+          {
+            "category": "Best Overall:",
+            "first": "Miriam Valdes",
+            "second": "Eduardo Garcia"
+          }
+        ]
+      }
     }
   ]
 }

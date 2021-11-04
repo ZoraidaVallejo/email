@@ -3,25 +3,25 @@
     "image": "reminders-bg-01.png",
     "width": 400,
     "bgColor": "#074787",
-    "cssSize": "550px 300px",
+    "cssSize": "550px 350px",
     "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
   },
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
-        "responsive": "mobile-fz-16 mobile-padding-horizontal-sides",
+        "responsive": "mobile-fz-16",
         "image": "reminders-graphic-01.png",
         "description": [
-          "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
-          "<b>Taking Time Off is Good for You</b>Due to the pandemic, many people postponed their vacations. We encourage you to take time off and recharge. When you take time off, you get an opportunity to take a step back, focus on your "
+          "<b class=\"side-title\" responsive=\"collapse-one mobile-padding-horizontal-sides mobile-padding-top mobile-padding-bottom\">Reminders</b>",
+          "<b>Requesting Time Off for the Holiday Season</b>November is here already, so that means the holiday season is now at our doorstep. As you know, this is typically the time of year when many people want to take time"
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "loved ones, and avoid work-related stress and burnout."
+        "off. If you are planning to request time off during December and/or January, it is important to submit your Time Off Request Form as soon as possible and follow the protocol accordingly."
       ]
     }
   ]

@@ -198,6 +198,24 @@
     }
 }
 
+.w-holidays {
+
+    .widget-columns {
+        > .wrapper {
+            padding: 0 $padding-content $widget-gap;
+        }
+    }
+}
+
+.w-blog-justia {
+
+    .widget-columns {
+        > .wrapper {
+            padding: 0 $padding ($widget-gap * 2);
+        }
+    }
+}
+
 .w-blog-justia {
 
     .widget-banner {

@@ -3,6 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-holidays {
+    border-radius: 0 0 10px 10px; 
 
     td {
         text-align: left;
@@ -101,6 +102,12 @@
         }
 
         &.-last {
+            padding: 0 $padding-content $widget-gap;
+        }
+    }
+
+    .widget-columns {
+        > .wrapper.-last {
             padding: 0 $padding-content $widget-gap;
         }
     }

@@ -55,21 +55,19 @@
     }}
   {{/if}}
 
-  {{#if widgetConfig.image-top}}
-    <tr>
-      <td class="image image-top" responsive="mobile-padding-horizontal-sides">
-        <a href="{{{widgetConfig.link}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image-top
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
-      </td>
-    </tr>
-  {{/if}}
-
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "image"}}
+        <tr>
+          <td class="image" responsive="mobile-padding-horizontal-sides">
+            {{>img
+              src=config
+              alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+            }}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "image-description"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
@@ -127,6 +125,38 @@
         </tr>
       {{/compare}}
 
+      {{#compare this.type "===" "lists-description"}}
+        <tr>
+          <td class="content -lists-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
+            {{#forIn this.config}}
+              {{#compare @key "===" "left"}}
+                <div class="content-side -left" responsive="collapse-one mobile-no-padding">
+                  {{#each ../config.left}}
+                    <div responsive="mobile-padding-bottom">
+                      <strong>{{{this.category}}}</strong>
+                      {{#if this.first}}<span><b>1st Place:</b> {{{this.first}}}</span>{{/if}}
+                      {{#if this.second}}<span><b>2nd Place:</b> {{{this.second}}}</span>{{/if}}
+                    </div>
+                  {{/each}}
+                </div>
+              {{/compare}}
+
+              {{#compare @key "===" "right"}}
+                <div class="content-side -right" responsive="collapse-one mobile-no-padding">
+                  {{#each ../config.right}}
+                    <div responsive="mobile-padding-bottom">
+                      <strong>{{{this.category}}}</strong>
+                      {{#if this.first}}<span><b>1st Place:</b> {{{this.first}}}</span>{{/if}}
+                      {{#if this.second}}<span><b>2nd Place:</b> {{{this.second}}}</span>{{/if}}
+                    </div>
+                  {{/each}}
+                </div>
+              {{/compare}}
+            {{/forIn}}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "button"}}
         <tr>
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
@@ -149,19 +179,6 @@
         </tr>
       {{/compare}}
     {{/forEach}}
-  {{/if}}
-
-  {{#if widgetConfig.image-bottom}}
-    <tr>
-      <td class="image image-bottom" responsive="mobile-padding-horizontal-sides">
-        <a href="{{{widgetConfig.link}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image-bottom
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
-      </td>
-    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}

@@ -9,33 +9,64 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Connect Basic Launch. ",
+        "description": "<a href=\"https://www.justia.com/marketing/connect/\" target=\"_blank\"><b>Justia Connect</b></a> is live. One of the most significant launches we have ever seen at Justia is finally completed. Justia Connect is our new membership program, and it's entirely free for attorneys. It comes along with a significant number of benefits for members of the legal community. Congratulations to all the team members who contributed to achieve this important company milestone."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Accounts. ",
+        "description": "We have revamped all of our Justia accounts with a new and unified look and feel."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "Et <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Lawyer Directory. ",
+        "description": "In light of our new Justia Connect membership program, our team updated the Connect messaging for the new profile/claim pages, the lawyers get listed page, the legal resources pages, and the profile dashboard. We have also updated the Premium Placement proposal language and the welcome series emails."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Marketing Page. ",
+        "description": "Our marketing portal called for an update as a result of our new Justia Connect program. Thus, our team revamped the homepage and created new pages for Connect, updated JLD pages, contact forms, and the whole navigation page."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "Company Page. ",
+        "description": "For consistency purposes, our team went in and updated all references to Justia Connect."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "Support Page. ",
+        "description": "Our team added updates for Justia Connect support. Specifically, we created a Justia Connect Frequently Asked Questions section."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Upgrades for All WordPress Installations. ",
+        "description": "We upgraded all our WordPress installations to the latest version. This covers all our client blogs, Justia blogs (such as <a href=\"https://onward.justia.com/\" target=\"_blank\"><b>Onward</b></a> and <a href=\"https://verdict.justia.com/\" target=\"_blank\"><b>Verdict</b></a>), and even Justia friends blogs (like <a href=\"https://www.jurist.org/\" target=\"_blank\"><b>Jurist</b></a> and <a href=\"https://www.lawsitesblog.com/\" target=\"_blank\"><b>LawSites</b></a>)."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "IT Maintenances. ",
+        "description": "Among other IT Team maintenances, we got upgrades for our internal IT assets tool, our JIRA/Confluence Documentation server, and the backend installation for Goldman blogs which was also migrated over to VPC, highly reducing security risks."
       }
     }
   ]
