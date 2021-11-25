@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Insights Client Newsletter!"
+    ],
+    "message": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://connect.justia.com/' target='_blank'>Justia Connect</a> Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to the <%= dateFormat.string %> Edition",
+      "of the Justia Insights Monthly Newsletter!"
+    ],
+    "message": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
+      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}
