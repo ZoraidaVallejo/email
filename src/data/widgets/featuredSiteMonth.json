@@ -9,15 +9,15 @@
   "justiaLink": "https://www.justia.com/marketing/",
   "sites": [
     {
-      "clientName": "[Law Offices of ABC Lawyers]",
+      "clientName": "Madu Law Group",
       "location": {
-        "detailed": "[Anytown, CA]",
-        "short": "[Anytown, CA]"
+        "detailed": "Orange, CA",
+        "short": "Orange, CA"
       },
-      "possessiveAdjective": "[their]",
+      "possessiveAdjective": "their",
       "domain": {
-        "long": "https://www.justia.com/",
-        "simple": "[website.com]"
+        "long": "https://www.madulawgroup.com/",
+        "simple": "www.madulawgroup.com"
       },
       "screenshots": "featured-site-01.jpg",
       "thumbnail": "featured-site-01-thumb.jpg"

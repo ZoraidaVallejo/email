@@ -1,12 +1,13 @@
 {
   "clients": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
       "Welcome to the <%= dateFormat.string %> Edition",
       "of the Justia Insights Client Newsletter!"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://connect.justia.com/' target='_blank'>Justia Connect</a> Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor."
+      "Stay informed with the newsletter designed to bring insights and updates from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community!",
+      "In this month’s edition, learn more about how Google indexes information in search results and discover how video marketing can take your legal marketing strategy up a notch in the new year. Catch up on breaking legal and technology news over the past month and take a look at what is going on behind the doors at Justia."
     ],
     "button": {
       "style": "justia-blue-ghost",
@@ -16,18 +17,16 @@
     }
   },
   "jld": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Monthly Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
-      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+      "Stay informed with the newsletter designed to bring insights and updates from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community! In this month’s edition, learn more about how Google indexes information in search results and discover how video marketing can take your legal marketing strategy up a notch in the new year. Catch up on breaking legal and technology news over the past month and take a look at what is going on behind the doors at Justia."
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/marketing/",
+      "link": "",
       "text": "Learn More",
       "utm": {
         "medium": "email",

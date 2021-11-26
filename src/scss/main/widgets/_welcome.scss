@@ -7,7 +7,7 @@
     background-color: plt('white');
 
     .widget-banner {
-        padding: 0 0 grid-unit(0.7);
+        padding: 0 0 grid-unit(0.4);
 
         img {
             width: 100%;
@@ -16,15 +16,15 @@
 
     .widget-description {
         text-align: center;
-        padding: 25px $padding grid-unit();
+        padding: 25px $padding grid-unit(.6);
 
         &.-top {
-            background-color: #f4f5f9;
+            background-color: #042e5d;
         }
 
         .content-title {
             margin: grid-unit(0.5) 0 0;
-            color: plt('justia-blue');
+            color: plt('white');
 
             @include mail-font(24px, 1.1, tp('weight', 'bold'));
         }
@@ -39,11 +39,16 @@
         p,
         a {
             text-align: left;
-            color: plt('black');
+        }
+
+        a {
+            color: plt('justia-blue');
+            font-weight: get('font.weight.bold');
         }
 
         p {
             margin: 0 0 grid-unit(0.5);
+            color: plt('black');
 
             &:last-child {
                 margin: 0 0;

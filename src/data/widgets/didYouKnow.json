@@ -4,17 +4,22 @@
       "icon": "did-you-know",
       "header": "Did You Know?"
     },
-    "banner": "default-icon.png",
-    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
-    "link": "https://www.justia.com/",
+    "banner": "did-you-know-icon.png",
+    "title": "Google My Business Is Now Google Business Profile",
+    "link": "https://onward.justia.com/google-my-business-becomes-google-business-profile/",
     "description": [
-      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+      "As part of a move to encourage small businesses to manage their profiles directly through Google Search and Google Maps, Google announced it is rebranding Google My Business to the new Google Business Profile. With this shift key changes are coming, including the retirement of the Google My Business app."
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/",
-      "text": "Learn More",
-      "utm": {}
+      "link": "https://onward.justia.com/google-my-business-becomes-google-business-profile/",
+      "text": "Read More",
+      "utm": {
+        "medium": "email",
+        "source": "client-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
     }
   },
   "jld": {
@@ -22,16 +27,15 @@
       "icon": "did-you-know",
       "header": "Did You Know?"
     },
-    "banner": "default-icon.png",
-    "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-    "link": "https://www.justia.com/marketing/",
+    "banner": "did-you-know-icon.png",
+    "title": "",
+    "link": "https://www.justia.com/marketing/amplify/",
     "description": [
-      "[Quis reprehenderit aliquip laboris ex id ex adipisicing non cupidatat cillum adipisicing. Exercitation voluptate ex magna id dolore adipisicing commodo ex cupidatat officia veniam eu dolore. Labore quis ullamco ea magna id sit. Voluptate dolore id ad fugiat fugiat ipsum minim excepteur nisi laboris. Non ipsum ea ipsum laboris ullamco minim consectetur. Ullamco cupidatat ut magna do. Laboris et incididunt cillum voluptate voluptate sunt mollit pariatur irure non commodo commodo.]",
-      "[Nostrud velit occaecat excepteur deserunt laboris duis irure commodo irure ullamco magna occaecat in. Duis cupidatat enim aliqua est ut amet sunt. Aliquip duis nulla eu commodo dolore nostrud labore adipisicing duis culpa.]"
+      "<a href='https://www.justia.com/marketing/amplify?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-did-you-know-text-v1' target='_blank'>Justia Amplify</a> offers a number of different advertising opportunities across various channels known to increase conversions. From Google's Local Services Ads (LSAs), Google Ads, Bing Ads (PPC), and Facebook Remarketing, our marketing professionals will devise strategies that align with the overall goals and characteristics of your law firm. <a href='https://www.justia.com/marketing/amplify?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-did-you-know-text-v2' target='_blank'>Justia Amplify</a> also includes a customized client review platform that showcases your photo, practice areas, link to your website, and more."
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/marketing/",
+      "link": "https://www.justia.com/marketing/amplify/",
       "text": "Learn More",
       "utm": {
         "medium": "email",

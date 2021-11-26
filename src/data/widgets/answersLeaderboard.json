@@ -3,7 +3,7 @@
     "icon": "ask-a-lawyer",
     "header": "Participating Lawyers",
     "type": "Justia Ask A Lawyer",
-    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+    "link": "https://answers.justia.com/#faq-atty"
   },
   "list": [
     {
@@ -52,7 +52,7 @@
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "https://answers.justia.com/about-legal-answers",
-    "text": "Read More"
+    "link": "https://answers.justia.com/",
+    "text": "Learn More"
   }
 }

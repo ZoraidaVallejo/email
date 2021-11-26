@@ -3,7 +3,7 @@
     "icon": "trending-news",
     "header": "Trending News"
   },
-  "banner": "default-icon.png",
+  "banner": "trending-icon.png",
   "subtitle": "Handpicked articles from our editors for our Justia Connect members. Because you can’t always trust an automated feed.",
   "columns": [
     {
@@ -11,20 +11,20 @@
       "colored": "green",
       "news": [
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Congress Mandates Anti-Drunk Driving Technology for Cars",
+          "link": "https://www.engadget.com/congress-mandate-anti-drunk-driving-technology-cars-201820120.html"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "U.S. States File Updated Antitrust Complaint Against Alphabet’s Google",
+          "link": "https://www.cnbc.com/2021/11/13/us-states-file-updated-antitrust-complaint-against-alphabets-google.html"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Ohio Attorney General Sues Meta Over Revelations From the 'Facebook Papers'",
+          "link": "https://edition.cnn.com/2021/11/15/tech/meta-facebook-ohio-lawsuit/index.html"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Peloton Sues Rivals Over Alleged Patent Infringement Related to On-Demand Classes",
+          "link": "https://techcrunch.com/2021/11/15/peloton-sues-rivals-over-alleged-patent-infringement-related-to-on-demand-classes/"
         }
       ]
     },
@@ -32,66 +32,66 @@
       "category": "SEO",
       "colored": "orange",
       "news": [
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          }
+        {
+          "title": "Google Offers a Definition of Quality Content",
+          "link": "https://www.searchenginejournal.com/google-offers-a-definition-of-quality-content/"
+        },
+        {
+          "title": "Claim Your Google Business Profile Directly On Search And Maps",
+          "link": "https://www.searchenginejournal.com/google-business-profile/"
+        },
+        {
+          "title": "The New Google Business Profile: A Complete Guide for Local SEO",
+          "link": "https://www.searchenginejournal.com/google-business-profile-overview/"
+        },
+        {
+          "title": "YouTube SEO From Basic To Advanced: How To Optimize Your Videos",
+          "link": "https://www.searchenginejournal.com/youtube-seo-video-optimization/"
+        }
       ]
     },
     {
       "category": "Social Media",
       "colored": "yellow",
       "news": [
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          }
+        {
+          "title": "YouTube Is Removing the Dislike Count on All Videos Across Its Platform",
+          "link": "https://techcrunch.com/2021/11/10/Youtube-Is-Removing-the-Dislike-Count-on-All-Videos-Across-Its-Platform/"
+        },
+        {
+          "title": "TikTok Resumes and Instagram Portfolios: How College Students Are Using Social Media to Find Jobs",
+          "link": "https://www.cnbc.com/2021/11/14/from-tiktok-to-Instagram-how-students-use-social-media-to-find-jobs.html"
+        },
+        {
+          "title": "Snapchat Launches Memories and Explore Layers on Snap Map",
+          "link": "https://techcrunch.com/2021/11/17/Snapchat-Launches-Memories-And-Explore-Layers-on-Snap-Map/"
+        },
+        {
+          "title": "8 State Attorneys General Launch Investigation into Instagram's Harmful Effect on Kids",
+          "link": "https://time.com/6121584/meta-instagram-state-investigation/"
+        }
       ]
     },
     {
       "category": "Legal",
       "colored": "teal",
       "news": [
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          },
-          {
-            "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-            "link": "https://www.justia.com/"
-          }
+        {
+          "title": "2 Men to Be Cleared in 1965 Assassination of Malcolm X",
+          "link": "https://apnews.com/article/crime-new-york-manhattan-cyrus-Vance-jr-Assassinations-0b44b78f40bbbb9bfa7b5d1673ae0e01"
+        },
+        {
+          "title": "Class Action Over PACER Fees Nears Resolution With 'Agreement in Principle' to Settle the Case",
+          "link": "https://www.abajournal.com/news/article/class-Action-over-pacer-fees-nears-resolution-with-Agreement-in-principle-to-settle-the-case"
+        },
+        {
+          "title": "Court Lottery Will Determine Which Federal Appeals Court Hears Vaccine Challenges",
+          "link": "https://www.abajournal.com/news/article/court-lottery-will-determine-which-federal-Appeals-court-hears-Vaccine-challenges"
+        },
+        {
+          "title": "Travis Scott and Astroworld Organisers Sued for $750m",
+          "link": "https://www.bbc.com/news/entertainment-arts-59331525"
+        }
       ]
     }
   ]

@@ -24,6 +24,13 @@
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
+        {{#if widgetConfig.banner}}
+          {{>widget-banner
+            imgSrc=widgetConfig.banner
+            imgAlt=widgetConfig.alt
+            link=widgetConfig.imageLink
+          }}
+        {{/if}}
 
         <h3 class="content-title">{{{widgetConfig.title}}}</h3>
 
