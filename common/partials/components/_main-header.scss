@@ -127,7 +127,7 @@ $settings: set('mail-header', (
             display: block;
             color: plt('justia-blue');
 
-            @include mail-font(22px, 1.25);
+            @include mail-font(20px, 1.25);
         }
     }
 

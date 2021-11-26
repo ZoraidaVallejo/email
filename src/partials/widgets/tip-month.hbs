@@ -26,13 +26,16 @@
       <div class="widget-wrapper">
         {{#if widgetConfig.banner}}
           {{>widget-banner
+            widgetClass="banner-icon"
             imgSrc=widgetConfig.banner
             imgAlt=widgetConfig.alt
             link=widgetConfig.imageLink
           }}
         {{/if}}
 
-        <h3 class="content-title">{{{widgetConfig.title}}}</h3>
+        {{#if widgetConfig.title}}
+          <h3 class="content-title">{{{widgetConfig.title}}}</h3>
+        {{/if}}
 
         {{#each widgetConfig.description}}
           <p>{{{this}}}</p>

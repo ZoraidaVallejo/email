@@ -11,8 +11,12 @@
     .content {
         background-color: #f2f4f8;
         padding: 20px 35px;
-        margin-bottom: 20px;
+        margin: 0 0 20px;
         border-radius: 10px;
+
+        &:last-child{
+            margin: 0;
+        }
     }
 
     .info {
