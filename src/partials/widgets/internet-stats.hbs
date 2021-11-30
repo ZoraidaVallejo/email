@@ -8,8 +8,8 @@
 
 {{#table class="widget w-internet-stats set-max-width"}}
   {{>widget-header
-    header=internetStats.widget.header
-    icon=internetStats.widget.icon
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
   }}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
@@ -17,39 +17,39 @@
         {{#table}}
 
         <tr>
-          <td class="chart{{#unless internetStats.description}} -last{{/unless}}">
-            {{#if internetStats.link}}<a href="{{internetStats.link}}" target="_blank">{{/if}}
+          <td class="chart{{#unless widgetConfig.description}} -last{{/unless}}">
+            {{#if widgetConfig.link}}<a href="{{widgetConfig.link}}" target="_blank">{{/if}}
               {{>img
-                src=internetStats.image
-                alt=internetStats.subtitle
+                src=widgetConfig.image
+                alt=widgetConfig.subtitle
               }}
-            {{#if internetStats.link}}</a>{{/if}}
+            {{#if widgetConfig.link}}</a>{{/if}}
           </td>
         </tr>
 
         <tr>
           <td class="subtitle">
-            <p><b>{{{internetStats.subtitle}}}</b></p>
+            <p><b>{{{widgetConfig.subtitle}}}</b></p>
 
-            {{#if internetStats.topDescription}}
-              <p class="top-description">{{{internetStats.topDescription}}}</p>
+            {{#if widgetConfig.topDescription}}
+              <p class="top-description">{{{widgetConfig.topDescription}}}</p>
             {{/if}}
           </td>
         </tr>
 
         <tr>
           <td class="description">
-            {{#if internetStats.source}}
+            {{#if widgetConfig.source}}
               <p class="source">
                 Source:
-                {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
-                  {{{internetStats.source}}}
-                {{#if internetStats.sourceLink}}</a>{{/if}}
+                {{#if widgetConfig.sourceLink}}<a href="{{widgetConfig.sourceLink}}" target="_blank">{{/if}}
+                  {{{widgetConfig.source}}}
+                {{#if widgetConfig.sourceLink}}</a>{{/if}}
               </p>
             {{/if}}
 
-            {{#if internetStats.description}}
-              {{#each internetStats.description}}
+            {{#if widgetConfig.description}}
+              {{#each widgetConfig.description}}
                 <p>{{{this}}}</p>
               {{/each}}
             {{/if}}

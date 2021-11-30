@@ -1,16 +1,32 @@
 {
-  "widget": {
-    "icon": "internet-stats",
-    "header": "Internet Stats"
+  "clients": {
+    "widget": {
+      "icon": "internet-stats",
+      "header": "Internet Stats"
+    },
+    "subtitle": "60% of businesses use video as a marketing tool",
+    "topDescription": "",
+    "link": "https://biteable.com/blog/video-marketing-statistics/",
+    "image": "internet-stats-01.png",
+    "description": [
+      "As we move into the final month of 2021 and the upcoming holiday season, many lawyers are beginning to look forward to their marketing strategies in 2022 and beyond. Consider using video as a marketing tool for your business and learn more about it <a href='https://onward.justia.com/why-lawyers-should-use-video-marketing-in-2022/?utm_medium=email&utm_campaign=2021-12&utm_source=client-newsletter&utm_content=text-internet-stats-1' target='_blank'>here</a>."
+    ],
+    "source": "Biteable",
+    "sourceLink": "https://biteable.com/blog/video-marketing-statistics/"
   },
-  "subtitle": "60% of businesses use video as a marketing tool",
-  "topDescription": "",
-  "link": "https://biteable.com/blog/video-marketing-statistics/",
-  "image": "internet-stats-01.png",
-  "description": [
-    "[Non fugiat voluptate dolor Lorem est. Mollit cillum cillum nulla Lorem esse incididunt. Dolore amet aliqua ut dolor Lorem incididunt labore ad. Irure cupidatat in sunt nostrud id ullamco.]",
-    "[Id voluptate irure excepteur duis sit aliqua consequat elit anim ullamco ea minim excepteur. Sit aliqua anim et tempor.]"
-  ],
-  "source": "Biteable",
-  "sourceLink": "https://biteable.com/blog/video-marketing-statistics/"
+  "jld": {
+    "widget": {
+      "icon": "internet-stats",
+      "header": "Internet Stats"
+    },
+    "subtitle": "60% of businesses use video as a marketing tool",
+    "topDescription": "",
+    "link": "https://biteable.com/blog/video-marketing-statistics/",
+    "image": "internet-stats-01.png",
+    "description": [
+      "As we move into the final month of 2021 and the upcoming holiday season, many lawyers are beginning to look forward to their marketing strategies in 2022 and beyond. Consider using video as a marketing tool for your business and learn more about it <a href='https://onward.justia.com/why-lawyers-should-use-video-marketing-in-2022/?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=text-internet-stats-1' target='_blank'>here</a>."
+    ],
+    "source": "Biteable",
+    "sourceLink": "https://biteable.com/blog/video-marketing-statistics/"
+  }
 }

@@ -14,14 +14,14 @@
   },
   "jld": {
     "ad1": {
-      "link": "https://www.justia.com/",
+      "link": "https://www.justia.com/marketing/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "directory-newsletter",
         "content": "banner-premium-memberships-v51"
       },
-      "image": "featured-news-01.png"
+      "image": "premium-placements.gif"
     },
     "ad2": {
       "background": {

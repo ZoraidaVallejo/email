@@ -3,22 +3,22 @@
     "icon": "inside-justia",
     "header": "Inside Justia"
   },
-  "singleColumn": false,
+  "singleColumn": true,
   "columns": [
     {
       "image": {
         "src": "inside-justia-01.jpg",
-        "alt": "Giving Thanks"
+        "alt": "In Memoriam, Donovan Coronado (1992-2021)"
       },
       "blockTitle": "Meet Our Team",
-      "blockSubtitle": "<b>Giving Thanks</b>",
+      "blockSubtitle": "<b>In Memoriam, Donovan Coronado (1992-2021)</b>",
       "description": [
-        "Our team members enjoyed wonderful meals with families this Thanksgiving. Here are some of their gatherings and their feasts. We hope you had a relaxing and enjoyable holiday!"
+        "With heavy hearts, the Justia Team shares the news that an invaluable member of the team, Donovan Coronado, passed away last month. Donovan contributed immensely to Justia and our clients over the past 7 years and is remembered for his dedication, creative spirit, and kind nature. His loss is felt by all Justians, and he is missed immensely."
       ]
     },
     {
       "image": {
-        "src": "inside-justia-01.jpg",
+        "src": "inside-justia-02.jpg",
         "alt": "Welcome, Zoey!"
       },
       "blockTitle": "A Pug’s Tale",
