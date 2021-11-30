@@ -10,6 +10,10 @@
             padding: 0 0 25px;
             text-align: left;
 
+            b a {
+                display: inline-block;
+            }
+
             .name {
                 @include mail-font(22px, 1.15);
                 margin: 0 0 10px;
@@ -26,10 +30,6 @@
                 b {
                     color: plt('justia-blue');
                 }
-            }
-
-            .website {
-                display: block;
             }
         }
 

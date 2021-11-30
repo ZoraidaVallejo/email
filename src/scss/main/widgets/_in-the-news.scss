@@ -21,4 +21,13 @@
             border-radius: 0;
         }
     }
+
+    .block-image{
+        max-height: 146px;
+    }
+    .block-description {
+        a {
+            display: inline-block;
+        }
+    }
 }

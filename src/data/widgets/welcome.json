@@ -2,8 +2,7 @@
   "clients": {
     "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Client Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
       "Stay informed with the newsletter designed to bring insights and updates from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community!",
