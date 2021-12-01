@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Featured Justia Resources: Drunk Driving (DUI/DWI) Center"
+      },
+      "readMore": "https://onward.justia.com/featured-justia-resources-drunk-driving-dui-dwi-center/",
+      "blockTitle": "Featured Justia Resources: Drunk Driving (DUI/DWI) Center"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Crawling: Googlebot and Your Website"
+      },
+      "readMore": "https://onward.justia.com/crawling-googlebot-and-your-website/",
+      "blockTitle": "Crawling: Googlebot and Your Website"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Google My Business Becomes Google Business Profile"
+      },
+      "readMore": "https://onward.justia.com/google-my-business-becomes-google-business-profile/",
+      "blockTitle": "Google My Business Becomes Google Business Profile"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Why Lawyers Should Use Video Marketing in 2022"
+      },
+      "readMore": "https://onward.justia.com/why-lawyers-should-use-video-marketing-in-2022/",
+      "blockTitle": "Why Lawyers Should Use Video Marketing in 2022"
+    }
+  ]
+}
