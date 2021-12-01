@@ -9,7 +9,6 @@
 
         a {
             color: plt('black');
-            font-weight: get('font.weight.bold');
         }
 
         .images-group {
@@ -67,6 +66,10 @@
 
             &:last-child {
                 margin: 0;
+            }
+
+            a {
+                font-weight: get('font.weight.bold');
             }
         }
     }
