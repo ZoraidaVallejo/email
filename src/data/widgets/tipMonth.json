@@ -13,7 +13,7 @@
       "style": "red",
       "link": "https://connect.justia.com/lifestyle-savings/?utm_medium=email&utm_campaign=2021-12&utm_source=client-newsletter&utm_content=section-tip-of-the-month-button-v1",
       "text": "Unlock My Deals",
-      "width": 210
+      "width": 190
     }
   },
   "jld": {
@@ -22,17 +22,15 @@
       "header": "Tip of the Month"
     },
     "banner": "tip-of-the-month.png",
-    "alt": "Justia launched Justia Connect",
-    "imageLink": "https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-image-v1",
-    "title": "",
+    "title": "Get More From Your Justia Connect Membership",
     "description": [
-      "Recently, Justia launched <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-text-v1' target='_blank'>Justia Connect</a>, our new, free membership program exclusively for the legal community! Members can access resources specifically designed to help them achieve their professional and practice-growth goals by leveraging opportunities to share, learn, and save."
+      "While you may already be utilizing many of your Justia Connect membership benefits, we encourage you to take advantage of the deals available through Justia Lifestyle Savings. To explore your deals and save more, you must unlock your discounts by clicking the “Start Saving” button in the Lifestyle Savings block of your Justia Connect dashboard."
     ],
     "button": {
       "style": "red",
-      "link": "https://connect.justia.com/?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-button-v1",
-      "text": "Get Connected Today",
-      "width": 210
+      "link": "https://connect.justia.com/lifestyle-savings/?utm_medium=email&utm_campaign=2021-12&utm_source=directory-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Unlock My Deals",
+      "width": 190
     }
   }
 }

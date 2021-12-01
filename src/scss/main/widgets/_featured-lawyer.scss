@@ -7,8 +7,14 @@
     .lawyer-info {
         padding: 0 $padding 50px;
 
-        a {
+        .images-group a {
             color: plt('black');
+            font-weight: get('font.weight.normal');
+        }
+
+        p a {
+            color: plt('justia-blue');
+            font-weight: get('font.weight.bold');
         }
 
         .images-group {
