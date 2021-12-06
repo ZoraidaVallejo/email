@@ -28,11 +28,11 @@
     }
 
     .widget-banner {
-        padding: 0 50px 35px;
+        padding: 0 25px 35px;
     }
 
-    .widget-description {
-        padding: 0 50px 50px;
+    .widget-description.-no-button {
+        padding: 0;
     }
 
     .content-subtitle {
@@ -101,15 +101,15 @@
         }
 
         &.-last {
-            padding: 0 $padding-content $widget-gap;
+            padding: 0 $padding-content $padding;
         }
     }
 
-    .content.-idx-2 {
-        padding: 0 $padding-content $widget-gap;
+    // .content.-idx-2 {
+    //     padding: 0 $padding-content $widget-gap;
 
-        p {
-            @include mail-font(16px, 1.5);
-        }
-    }
+    //     p {
+    //         @include mail-font(16px, 1.5);
+    //     }
+    // }
 }

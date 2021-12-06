@@ -230,4 +230,12 @@
             color: plt('justia-blue');
         }
     }
+
+    .widget-columns > .wrapper {
+        // padding: 0 $padding 20px;
+
+        &.-last {
+            padding: 0 $padding 90px;
+        }
+    }
 }

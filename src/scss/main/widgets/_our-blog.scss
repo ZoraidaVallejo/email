@@ -36,4 +36,10 @@
             padding: 0 $padding 18px;
         }
     }
+
+    .widget-columns.-with-image {
+        .wrapper .-last {
+            padding: 0 $padding 50px;
+        }
+    }
 }

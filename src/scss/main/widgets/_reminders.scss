@@ -40,7 +40,7 @@
 
             b {
                 display: block;
-                padding: 0 0 11px;
+                // padding: 0 0 11px;
             }
 
             .side-title {
@@ -60,7 +60,7 @@
         }
 
         .content-side {
-            width: 245px;
+            width: 272px;
 
             img {
                 width: 200px;
@@ -86,7 +86,7 @@
         }
 
         &.-last {
-            padding: 0 $padding 25px;
+            padding: 0 $padding 33px;
             border-radius: 0 0 10px 10px;
         }
     }

@@ -3,7 +3,7 @@
     "image": "reminders-bg-01.png",
     "width": 400,
     "bgColor": "#074787",
-    "cssSize": "550px 300px",
+    "cssSize": "550px 365px",
     "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
   },
   "contentOrder": [
@@ -14,14 +14,14 @@
         "image": "reminders-graphic-01.png",
         "description": [
           "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
-          "<b>Taking Time Off is Good for You</b>Due to the pandemic, many people postponed their vacations. We encourage you to take time off and recharge. When you take time off, you get an opportunity to take a step back, focus on your "
+          "<b>Stay Safe During the Holidays</b>With new variants of COVID-19 spiking worldwide, minimizing infection risks over the holiday season is more important than ever. For this upcoming holiday season, make sure to adapt and adjust when "
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "loved ones, and avoid work-related stress and burnout."
+        "gathering and socializing. The following pieces of advice may help you and your family stay safe: wear a mask at all times, keep your distance, organize smaller gatherings, plan ahead to avoid crowds, and, if possible, shop online."
       ]
     }
   ]

@@ -29,6 +29,7 @@ $mail-global-font-family: 'Roboto', Arial, sans-serif;
     'main/widgets/advertisement/custom',
     'main/widgets/milestones',
     'main/widgets/birthday',
+    'main/widgets/holidays',
     'main/widgets/holidays-2',
     'main/widgets/reviews',
     'main/widgets/portal-news',
@@ -70,7 +71,7 @@ body {
 }
 
 .w-milestones {
-    background: image-url('odd-block-03.png') no-repeat plt('white');
+    background: image-url('odd-block-02.png') no-repeat plt('white');
     background-position: center;
 }
 
@@ -85,15 +86,15 @@ body {
     background-position: center;
 }
 
-.w-wellness {
-    background: image-url('odd-block-01.png') no-repeat plt('white');
+.w-reviews {
+    background: image-url('odd-block-05.png') no-repeat plt('white');
     background-position: bottom;
 }
 
-// .w-team-activities-3 {
-//     background: image-url('odd-block-top.png') no-repeat plt('white');
-//     background-position: bottom;
-// }
+.w-team-activities {
+    background: image-url('odd-block-04.png') no-repeat plt('white');
+    background-position: bottom;
+}
 
 // .w-team-activities-2 {
 //     background: image-url('odd-block-center.png') no-repeat plt('white');
