@@ -1,0 +1,83 @@
+{{! ================================================================================================================= }}
+{{! A N N O T A T O R                                                                                                 }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   annotator
+ * @param {Object}   annotator.button
+ * @param {String}   annotator.button.style
+ * @param {String}   annotator.button.link
+ * @param {String}   annotator.button.text
+ * @param {Object[]} annotator.list
+ * @param {String}   annotator.list[].id
+ * @param {Number}   annotator.list[].rank
+ * @param {String}   annotator.list[].name
+ * @param {String}   annotator.list[].location
+ * @param {String}   annotator.list[].nameLink
+ * @param {String}   annotator.list[].photoLink
+ * @param {String[]} annotator.description
+}}
+
+{{#and annotator.button (compare annotator.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-annotator set-max-width"}}
+  {{>widget-header
+    header=annotator.widget.header
+    icon=annotator.widget.icon
+    type=annotator.widget.type
+    link=annotator.widget.link
+  }}
+
+  <tr>
+    <td class="annotator-info" responsive="mobile-padding-horizontal-sides">
+      {{#if annotator.featured.photoLink}}<a href="{{{annotator.featured.photoLink}}}" target="_blank">{{/if}}
+        {{>img src="annotator-photo-01.jpg" alt=annotator.featured.name class="photo"}}
+      {{#if annotator.featured.photoLink}}</a>{{/if}}
+
+      <p class="name">
+        {{#if annotator.featured.nameLink}}<a href="{{{annotator.featured.nameLink}}}" target="_blank">{{/if}}
+          {{{annotator.featured.name}}}
+        {{#if annotator.featured.nameLink}}</a>{{/if}}
+      </p>
+
+      <p class="location">
+        {{#uppercase}}{{annotator.featured.location}}{{/uppercase}}
+      </p>
+    </td>
+  </tr>
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#each annotator.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+    </td>
+  </tr>
+
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=annotator.button.style href=annotator.button.link}}
+          {{annotator.button.text}}
+        {{/uiButton}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

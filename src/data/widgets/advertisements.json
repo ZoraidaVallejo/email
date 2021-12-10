@@ -1,0 +1,45 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "save-taxes.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>The time is now! Save on taxes when you purchase <strong>Justia Premium Placements</strong>, while also growing your practice by leveraging an enhanced profile, increased visibility on the <strong>Justia Lawyer Directory</strong>, and more!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Start Saving Now",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
