@@ -1,0 +1,50 @@
+{{! ================================================================================================================= }}
+{{! I N S I D E   J U S T I A                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-inside-justia set-max-width"}}
+  {{>widget-header
+    header=insideJustia.widget.header
+    icon=insideJustia.widget.icon
+  }}
+
+  {{#if insideJustia.singleColumn}}
+  <tr>
+    <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#each insideJustia.columns}}
+
+        {{#if this.readMore}}
+          {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link=this.readMore}}
+        {{else}}
+          {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link="#"}}
+        {{/if}}
+
+        {{!--
+        // TODO: Maybe move title and description to a component.
+        // TODO: Fix classes for content.
+        --}}
+
+        <h3 class="content-title">
+          {{{this.blockTitle}}}
+        </h3>
+        {{#if this.blockSubtitle}}
+          <p class="content-subtitle">
+            {{{this.blockSubtitle}}}
+          </p>
+        {{/if}}
+        {{#each this.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      {{/each}}
+      </div>
+    </td>
+  </tr>
+  {{else}}
+      {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
+  {{/if}}
+{{/table}}

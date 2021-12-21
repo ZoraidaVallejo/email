@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "link": "https://www.justia.com/",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]"
+    },
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "Jan",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    }
+  ]
+}

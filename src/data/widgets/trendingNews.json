@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon.png",
+  "subtitle": "Handpicked articles from our editors for our Justia Connect members. Because you can’t always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+          "link": "https://www.justia.com/"
+        }
+      ]
+    }
+  ]
+}

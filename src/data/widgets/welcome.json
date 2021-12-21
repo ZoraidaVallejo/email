@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Lorem ipsum dolor sit amen <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> euismod!",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a luctus ante. Duis risus eros, molestie vel euismod eget, vestibulum in nisi. Etiam ut magna mi"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "welcome-graphic-01.png",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Lorem ipsum dolor sit amen <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=directory-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> euismod!",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a luctus ante. Duis risus eros, molestie vel euismod eget, vestibulum in nisi. Etiam ut magna mi"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "webmaster",
+    "header": "Webmaster’s Corner"
+  },
+  "link": "https://onward.justia.com/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "directory-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "description": [
+    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
+    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Read More"
+  }
+}
