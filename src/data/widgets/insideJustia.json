@@ -1,0 +1,40 @@
+{
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "1-graphic-01.png",
+        "alt": "Contact Information"
+      },
+      "blockTitle": "Contact Information",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
+      "description": [
+        "Potential clients want to contact you! Get more leads by updating your contact information, including your email and phone number."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Lorem ipsum dolor"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
+      "description": [
+        "[Sint et mollit quis qui occaecat esse ex sint Lorem. Anim et aliquip ipsum in anim.]",
+        "[Eu commodo nostrud reprehenderit minim ullamco nulla sunt aliqua reprehenderit.]"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Lorem ipsum dolor"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
+      "description": [
+        "[Sint et mollit quis qui occaecat esse ex sint Lorem. Anim et aliquip ipsum in anim.]",
+        "[Eu commodo nostrud reprehenderit minim ullamco nulla sunt aliqua reprehenderit.]"
+      ]
+    }
+  ]
+}

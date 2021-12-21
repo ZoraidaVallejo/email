@@ -1,0 +1,40 @@
+{
+  "welcome": {
+    "email1": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Did you know? You can get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email2": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Profile Completeness",
+            "image": "graphic-03.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Peer Reviews",
+            "image": "graphic-04.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        }
+      ]
+    }
+  }
+}
