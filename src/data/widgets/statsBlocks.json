@@ -20,6 +20,7 @@
           "type": "image-description",
           "config": {
             "blockTitle": "Profile Completeness",
+            "order": "image-text",
             "image": "graphic-03.png",
             "statistics": "100,000",
             "text": "Lorem Ipsum"
@@ -29,7 +30,18 @@
           "type": "image-description",
           "config": {
             "blockTitle": "Peer Reviews",
+            "order": "text-image",
             "image": "graphic-04.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Peer Reviews",
+            "order": "text-image",
+            "image": "graphic-05.png",
             "statistics": "100,000",
             "text": "Lorem Ipsum"
           }

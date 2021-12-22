@@ -1068,7 +1068,21 @@ a {
 }
 
 .-stats-block .content-wrapper {
-  padding: 50px 50px 25px;
+  padding: 0 50px;
+}
+
+.-stats-block .content-wrapper .content-wrapper-table tr:nth-child(odd) .-image {
+  float: left;
+}
+
+.-stats-block .content-wrapper .-statistics {
+  font: 700 62px/1.1 Arial, sans-serif;
+  display: block;
+}
+
+.-stats-block .content-wrapper .-text {
+  font: 20px/1.1 Arial, sans-serif;
+  display: block;
 }
 
 .-stats-block .content {
@@ -1089,7 +1103,7 @@ a {
 }
 
 .-stats-block .content .blockTitle {
-  font: 700 16px/1.5 Arial, sans-serif;
+  font: 700 24px/1.5 Arial, sans-serif;
   display: block;
   padding-left: 20px;
   color: #06357a;
@@ -1144,9 +1158,9 @@ a {
 }
 
 .-stats-block .content .content-side {
-  width: 300px;
+  width: 250px;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
 }
 
 .-stats-block .content .content-side p:not(:last-child) {
@@ -1154,7 +1168,8 @@ a {
 }
 
 .-stats-block .content .content-side.-image {
-  width: 190px;
+  float: right;
+  width: 200px;
   text-align: left;
 }
 
@@ -1172,8 +1187,8 @@ a {
   margin: 0 0 15px 20px;
 }
 
-.-stats-block .content .content-side:first-child {
-  float: right;
+.-stats-block .content .content-side.-description {
+  padding: 0 25px;
 }
 
 .-stats-block .content .content-side:last-child {

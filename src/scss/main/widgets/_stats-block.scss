@@ -36,7 +36,27 @@
     }
 
     .content-wrapper {
-        padding: 50px 50px 25px;
+        padding: 0 50px;
+
+        .content-wrapper-table {
+            tr:nth-child(odd) {
+                // background-color: plt('wild-sand');
+
+                .-image {
+                    float: left;
+                }
+            }
+        }
+
+        .-statistics {
+            @include mail-font(62px, 1.1, 700);
+            display: block;
+        }
+
+        .-text {
+            @include mail-font(20px, 1.1);
+            display: block;
+        }
     }
 
     .content {
@@ -56,7 +76,7 @@
         }
 
         .blockTitle {
-           @include mail-font(16px, 1.5, 700);
+           @include mail-font(24px, 1.5, 700);
            display: block;
            padding-left: 20px;
            color: plt('justia-blue');
@@ -115,16 +135,17 @@
 
         .content-side {
             // display: inline-block;
-            width: 300px;
+            width: 250px;
             vertical-align: middle;
-            text-align: left;
+            text-align: center;
 
             p:not(:last-child) {
                 margin: 0 0 25px;
             }
 
             &.-image {
-                width: 190px;
+                float: right;
+                width: 200px;
                 text-align: left;
 
                 a {
@@ -142,8 +163,8 @@
                 margin: 0 0 15px 20px;
             }
 
-            &:first-child {
-                float: right;
+            &.-description {
+                padding: 0 25px;
             }
 
             &:last-child {

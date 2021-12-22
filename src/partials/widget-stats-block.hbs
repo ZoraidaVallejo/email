@@ -91,24 +91,24 @@
   {{#if widgetConfig.contentOrder}}
     <tr>
       <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
-        <table {{{tableAttr}}}>
+        <table {{{tableAttr}}} class="content-wrapper-table">
         {{#forEach widgetConfig.contentOrder}}
           {{#compare this.type "===" "image-description"}}
             <tr>
               <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
                 <div responsive={{this.config.responsive}}>
                   {{#if this.config.blockTitle}}
-                    <h3 class="block-title">{{{this.config.blockTitle}}}</h3>
+                    <h3 class="blockTitle">{{{this.config.blockTitle}}}</h3>
                   {{/if}}
                   {{#forIn this.config}}
 
-                    {{#compare @key "===" "description"}}
+                    {{#compare @key "===" "statistics"}}
                       <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                         {{#if ../config.statistics}}
-                          <strong class="-statistics">{{{statistics}}}</strong>
+                          <strong class="-statistics">{{{../config.statistics}}}</strong>
                         {{/if}}
                         {{#if ../config.text}}
-                          <strong class="-text">{{{text}}}</strong>
+                          <strong class="-text">{{{../config.text}}}</strong>
                         {{/if}}
                         {{#each ../config.description}}
                           {{{this}}}
