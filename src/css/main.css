@@ -1095,7 +1095,7 @@ a {
   border-radius: 10px;
   width: 100%;
   float: left;
-  padding: 20px 0 25px;
+  padding: 25px 0 25px;
 }
 
 .-stats-block .content.-image-description > div p {
@@ -1108,7 +1108,7 @@ a {
   padding-left: 20px;
   color: #06357a;
   border-left: 3px solid #00b3e3;
-  margin-bottom: 18px;
+  margin: 0 0 15px;
   text-align: left;
 }
 
@@ -1175,11 +1175,12 @@ a {
 
 .-stats-block .content .content-side.-image a {
   display: block !important;
-  margin: 0 auto 1em;
+  margin: 0 auto;
 }
 
 .-stats-block .content .content-side.-image img {
-  width: 140px;
+  height: 100%;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -1188,7 +1189,7 @@ a {
 }
 
 .-stats-block .content .content-side.-description {
-  padding: 0 25px;
+  padding: 22px 25px 0;
 }
 
 .-stats-block .content .content-side:last-child {

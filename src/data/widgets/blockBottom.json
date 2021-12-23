@@ -17,14 +17,11 @@
     "email2": {
       "contentOrder": [
         {
-          "type": "image-description",
-          "config": {
-            "image": "2-graphic-03.png",
-            "description": [
-              "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
-              "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\" class=\"red-link\"><b>Learn More ›</b></a></p>"
-            ]
-          }
+          "type": "description",
+          "description": [
+            "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
+            "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\" class=\"red-link\"><b>Learn More ›</b></a></p>"
+          ]
         }
       ]
     },

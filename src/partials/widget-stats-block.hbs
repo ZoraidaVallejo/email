@@ -104,29 +104,31 @@
 
                     {{#compare @key "===" "statistics"}}
                       <div class="content-side -description" responsive="collapse-one mobile-no-padding">
-                        {{#if ../config.statistics}}
-                          <strong class="-statistics">{{{../config.statistics}}}</strong>
-                        {{/if}}
-                        {{#if ../config.text}}
-                          <strong class="-text">{{{../config.text}}}</strong>
-                        {{/if}}
-                        {{#each ../config.description}}
-                          {{{this}}}
-                        {{/each}}
+                        <div>
+                          {{#if ../config.statistics}}
+                            <strong class="-statistics">{{{../config.statistics}}}</strong>
+                          {{/if}}
+                          {{#if ../config.text}}
+                            <strong class="-text">{{{../config.text}}}</strong>
+                          {{/if}}
+                          {{#each ../config.description}}
+                            {{{this}}}
+                          {{/each}}
 
-                        {{#if ../config.button}}
-                          {{#uiButton
-                            href="#"
-                            presetStyle="red"
-                            width="210"
-                            height="50"
-                            fontSize="18"
-                            responsive=""
-                            fontColor="#ffffff"
-                          }}
-                            {{{../config.button}}}
-                          {{/uiButton}}
-                        {{/if}}
+                          {{#if ../config.button}}
+                            {{#uiButton
+                              href="#"
+                              presetStyle="red"
+                              width="210"
+                              height="50"
+                              fontSize="18"
+                              responsive=""
+                              fontColor="#ffffff"
+                            }}
+                              {{{../config.button}}}
+                            {{/uiButton}}
+                          {{/if}}
+                        </div>
                       </div>
                     {{/compare}}
 

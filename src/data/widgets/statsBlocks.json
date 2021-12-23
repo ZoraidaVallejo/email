@@ -39,9 +39,19 @@
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Peer Reviews",
+            "blockTitle": "Client Reviews",
             "order": "text-image",
             "image": "graphic-05.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Justia Ask A Lawyer Participation",
+            "order": "text-image",
+            "image": "graphic-06.png",
             "statistics": "100,000",
             "text": "Lorem Ipsum"
           }
