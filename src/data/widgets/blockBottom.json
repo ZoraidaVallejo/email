@@ -18,9 +18,10 @@
       "contentOrder": [
         {
           "type": "description",
-          "description": [
-            "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
-            "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\" class=\"red-link\"><b>Learn More ›</b></a></p>"
+          "config": [
+            "<p>While 2021 had many ups and downs, you are on track to keep your practice growing! Here are some tips that could help you to improve your <b>Justia Profile</b>, gain exposure, and get ahead of the curve in 2022:</p>",
+            "<ul responsive=\"mobile-padding-20-horizontal-sides mobile-padding-50-left\"><li>Keep your profile up-to-date.</li><li>Request peer reviews from your colleagues.</li><li>Ask your clients for reviews.</li><li>Participate regularly in <b>Justia Ask A Lawyer</b>.</li><li>Display your <b>Justia Lawyer Rating Badge</b>.</li><li>Consider <b>Justia Premium Placements</b> that can help you be found.</li></ul>",
+            "<p>We are confident that improving your <b>Justia Profile</b> in the year to come will help you get that much closer to surpassing your goals! Thank you for being part of the <b>Justia</b> community and we look forward to being a helpful part of your firm’s journey as you achieve your goals in 2022. </p>"
           ]
         }
       ]

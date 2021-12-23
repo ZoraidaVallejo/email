@@ -36,13 +36,14 @@
     }
 
     .content-wrapper {
-        padding: 50px 50px 25px;
+        padding: 0 50px 50px;
     }
 
     .content {
-        padding: 0 0 40px;
+        padding: 0;
 
-        &.-image-description > div {
+        &.-image-description > div,
+        &.-description > div {
             display: block;
             border: 1px solid #e6e6e6;
             border-radius: 10px;
@@ -52,6 +53,23 @@
 
             p {
                 padding: 0 0 0 25px;
+            }
+        }
+
+        &.-description > div {
+            padding: 20px 0 25px;
+
+            p {
+                padding: 0 25px;
+            }
+
+            ul {
+                margin: 2em 0;
+                padding: 0 25px 0 65px;
+            }
+
+            li {
+                text-align: left;
             }
         }
 
@@ -160,83 +178,6 @@
         a b {
             color: plt('justia-blue');
             // display: inline-block;
-        }
-    }
-
-    &.-email-1,
-    &.-email-4 {
-
-        .-image-description > div {
-    
-            p {
-                padding: 0 25px 0 0;
-            }
-        }
-
-        .content-side {
-            width: 360px;
-    
-            // p:not(:last-child) {
-            //     margin: 0 0 25px;
-            // }
-    
-            &.-image {
-                width: 115px;
-                text-align: left;
-                // padding: 0 0 0 25px;
-    
-                img {
-                    width: 65px;
-                }
-            }
-    
-            &:first-child {
-                float: left;
-            }
-    
-            &:last-child {
-                float: right;
-            }
-        }
-    }
-
-    &.-email-5-2 {
-
-        .-image-description > div {
-            border: 0;
-        }
-
-        .content-wrapper {
-            padding: 5px 50px 25px;
-        }
-
-        .-description {
-
-            img.pro-label-image {
-                margin: 0 0 25px 25px;
-            }
-
-            p {
-                color: plt('white');
-
-                strong {
-                    color: plt('white');
-                }
-            }
-
-            div {
-                padding: 0 0 0 25px;
-
-                a {
-                    color: plt('white') !important;
-                }
-            }
-        }
-
-        .content {
-            a {
-                color: plt('white') !important;
-            }
         }
     }
 }

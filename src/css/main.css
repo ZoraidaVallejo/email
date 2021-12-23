@@ -934,7 +934,7 @@ a {
 }
 
 .-first-block .content-wrapper {
-  padding: 40px 50px 50px;
+  padding: 40px 50px 25px;
 }
 
 .-first-block .widget-columns .wrapper {
@@ -1086,7 +1086,7 @@ a {
 }
 
 .-stats-block .content {
-  padding: 0 0 40px;
+  padding: 0 0 25px;
 }
 
 .-stats-block .content.-image-description > div {
@@ -1295,14 +1295,15 @@ a {
 }
 
 .-bottom-block .content-wrapper {
-  padding: 50px 50px 25px;
+  padding: 0 50px 50px;
 }
 
 .-bottom-block .content {
-  padding: 0 0 40px;
+  padding: 0;
 }
 
-.-bottom-block .content.-image-description > div {
+.-bottom-block .content.-image-description > div,
+.-bottom-block .content.-description > div {
   display: block;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
@@ -1311,8 +1312,26 @@ a {
   padding: 20px 0 25px;
 }
 
-.-bottom-block .content.-image-description > div p {
+.-bottom-block .content.-image-description > div p,
+.-bottom-block .content.-description > div p {
   padding: 0 0 0 25px;
+}
+
+.-bottom-block .content.-description > div {
+  padding: 20px 0 25px;
+}
+
+.-bottom-block .content.-description > div p {
+  padding: 0 25px;
+}
+
+.-bottom-block .content.-description > div ul {
+  margin: 2em 0;
+  padding: 0 25px 0 65px;
+}
+
+.-bottom-block .content.-description > div li {
+  text-align: left;
 }
 
 .-bottom-block .content .blockTitle {
@@ -1415,63 +1434,6 @@ a {
 .-bottom-block .content a,
 .-bottom-block .content a b {
   color: #06357a;
-}
-
-.-bottom-block.-email-1 .-image-description > div p, .-bottom-block.-email-4 .-image-description > div p {
-  padding: 0 25px 0 0;
-}
-
-.-bottom-block.-email-1 .content-side, .-bottom-block.-email-4 .content-side {
-  width: 360px;
-}
-
-.-bottom-block.-email-1 .content-side.-image, .-bottom-block.-email-4 .content-side.-image {
-  width: 115px;
-  text-align: left;
-}
-
-.-bottom-block.-email-1 .content-side.-image img, .-bottom-block.-email-4 .content-side.-image img {
-  width: 65px;
-}
-
-.-bottom-block.-email-1 .content-side:first-child, .-bottom-block.-email-4 .content-side:first-child {
-  float: left;
-}
-
-.-bottom-block.-email-1 .content-side:last-child, .-bottom-block.-email-4 .content-side:last-child {
-  float: right;
-}
-
-.-bottom-block.-email-5-2 .-image-description > div {
-  border: 0;
-}
-
-.-bottom-block.-email-5-2 .content-wrapper {
-  padding: 5px 50px 25px;
-}
-
-.-bottom-block.-email-5-2 .-description img.pro-label-image {
-  margin: 0 0 25px 25px;
-}
-
-.-bottom-block.-email-5-2 .-description p {
-  color: #ffffff;
-}
-
-.-bottom-block.-email-5-2 .-description p strong {
-  color: #ffffff;
-}
-
-.-bottom-block.-email-5-2 .-description div {
-  padding: 0 0 0 25px;
-}
-
-.-bottom-block.-email-5-2 .-description div a {
-  color: #ffffff !important;
-}
-
-.-bottom-block.-email-5-2 .content a {
-  color: #ffffff !important;
 }
 
 .full-size {

@@ -139,7 +139,7 @@
 
           {{#compare this.type "===" "description"}}
             <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
+              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding{{#if isFirst}} mobile-padding-30-top{{/if}}">
                 <div>
                   {{#each this.config}}
                     {{{this}}}
