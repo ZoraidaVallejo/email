@@ -44,6 +44,10 @@
 
                 .-image {
                     float: left;
+
+                    img {
+                        margin: 0 auto 0 25px;
+                    }
                 }
             }
         }
@@ -135,7 +139,7 @@
 
         .content-side {
             // display: inline-block;
-            width: 250px;
+            width: 235px;
             vertical-align: middle;
             text-align: center;
 
@@ -145,18 +149,19 @@
 
             &.-image {
                 float: right;
-                width: 200px;
+                width: 215px;
                 text-align: left;
 
                 a {
                     display: block !important;
-                    margin: 0 auto;
+                    // margin: 0 auto;
                 }
 
                 img {
                     height: 100%;
                     width: auto;
-                    margin: 0 auto;
+                    // margin: 0 auto;
+                    margin: 0 25px 0 auto;
                 }
             }
 
@@ -182,83 +187,6 @@
         a b {
             color: plt('justia-blue');
             // display: inline-block;
-        }
-    }
-
-    &.-email-1,
-    &.-email-4 {
-
-        .-image-description > div {
-    
-            p {
-                padding: 0 25px 0 0;
-            }
-        }
-
-        .content-side {
-            width: 360px;
-    
-            // p:not(:last-child) {
-            //     margin: 0 0 25px;
-            // }
-    
-            &.-image {
-                width: 115px;
-                text-align: left;
-                // padding: 0 0 0 25px;
-    
-                img {
-                    width: 65px;
-                }
-            }
-    
-            &:first-child {
-                float: left;
-            }
-    
-            &:last-child {
-                float: right;
-            }
-        }
-    }
-
-    &.-email-5-2 {
-
-        .-image-description > div {
-            border: 0;
-        }
-
-        .content-wrapper {
-            padding: 5px 50px 25px;
-        }
-
-        .-description {
-
-            img.pro-label-image {
-                margin: 0 0 25px 25px;
-            }
-
-            p {
-                color: plt('white');
-
-                strong {
-                    color: plt('white');
-                }
-            }
-
-            div {
-                padding: 0 0 0 25px;
-
-                a {
-                    color: plt('white') !important;
-                }
-            }
-        }
-
-        .content {
-            a {
-                color: plt('white') !important;
-            }
         }
     }
 }
