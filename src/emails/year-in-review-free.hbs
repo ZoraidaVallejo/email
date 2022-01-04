@@ -1,0 +1,33 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-block-bottom widgetClass="-email-2" widgetConfig=blockBottom.welcome.email2}}
+
+        {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.welcome.email2}}
+
+        {{!-- {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.email2}} --}}
+
+        {{!-- {{>welcome-columns widgetConfig=welcomeColumns.email2}} --}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}
