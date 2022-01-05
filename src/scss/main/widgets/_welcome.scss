@@ -18,13 +18,13 @@
         text-align: center;
 
         &.-top {
-            background-color: #f6f7fa;
+            background-color: #194a85;
             padding: 15px 30px 25px;
         }
 
         .content-title {
             margin: grid-unit(0.5) 0 0;
-            color: plt('black');
+            color: plt('white');
 
             @include mail-font(24px, 1.1, tp('weight', 'bold'));
         }

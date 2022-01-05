@@ -1,12 +1,12 @@
 {
   "clients": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
       "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amen <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> euismod!",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a luctus ante. Duis risus eros, molestie vel euismod eget, vestibulum in nisi. Etiam ut magna mi"
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Take a look at our end-of-year series to reflect on the trends that shaped legal marketing in 2021 and catch up on a few predictions for 2022. Learn more about conversion rates and get tips for creating a law firm newsletter. Don’t forget to check out the breaking legal and technology news over the past month and get a peek at what is going on behind the scenes at Justia!"
     ],
     "button": {
       "style": "justia-blue-ghost",
@@ -16,13 +16,13 @@
     }
   },
   "jld": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
       "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amen <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=directory-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> euismod!",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a luctus ante. Duis risus eros, molestie vel euismod eget, vestibulum in nisi. Etiam ut magna mi"
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-01&utm_source=directory-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Take a look at our end-of-year series to reflect on the trends that shaped legal marketing in 2021 and catch up on a few predictions for 2022. Learn more about conversion rates and get tips for creating a law firm newsletter. Don’t forget to check out the breaking legal and technology news over the past month and get a peek at what is going on behind the scenes at Justia!"
     ],
     "button": {
       "style": "justia-blue-ghost",

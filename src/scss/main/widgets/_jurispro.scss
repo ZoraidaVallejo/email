@@ -12,11 +12,19 @@
     }
 
     .custom-description {
-        padding: 0 $padding;
+        padding: 0 $padding 50px;
 
-        .widget-wrapper {
-            border-bottom: 0;
-            border-radius: 0;
+        // .widget-wrapper {
+        //     border-bottom: 0;
+        //     border-radius: 0;
+        // }
+
+        .title {
+            margin: 0 0 16px;
+
+            &.-last {
+                margin: 0;
+            }
         }
 
         &.-last {

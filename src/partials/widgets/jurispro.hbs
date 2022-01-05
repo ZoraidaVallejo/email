@@ -31,10 +31,28 @@
           link="https://www.jurispro.com/"
         }}
 
+
+          {{#forEach jurispro.cases}}
+            <div class="content">
+              {{#table}}
+                <p class="title {{#if isLast}} -last{{/if}}">
+                  {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
+                  <b>{{{this.title}}}</b>
+                  {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                </p>
+              {{/table}}
+            </div>
+          {{/forEach}}
+
+
      </div>
     </td>
   </tr>
 
-  {{>widget-columns-articles widgetConfig=jurispro.cases}}
+
+
+
+
+
 
 {{/table}}
