@@ -143,23 +143,20 @@
                   {{#each this.config}}
                     {{{this}}}
                   {{/each}}
+                  {{#if ../widgetConfig.button}}
+                    {{#uiButton
+                      href=../widgetConfig.link
+                      presetStyle=../widgetConfig.button.style
+                      width=../widgetConfig.button.width
+                      height=../widgetConfig.button.height
+                      fontSize=../widgetConfig.button.fontSize
+                      responsive=../widgetConfig.button.responsive
+                      fontColor=../widgetConfig.button.fontColor
+                    }}
+                      {{{../widgetConfig.button.text}}}
+                    {{/uiButton}}
+                  {{/if}}
                 </div>
-              </td>
-            </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "bg-block"}}
-            <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
-                <table {{{tableAttr}}}>
-                  <tr>
-                    <td class="-inner-wrap">
-                      {{#each this.config}}
-                        {{{this}}}
-                      {{/each}}
-                    </td>
-                  </tr>
-                </table>
               </td>
             </tr>
           {{/compare}}

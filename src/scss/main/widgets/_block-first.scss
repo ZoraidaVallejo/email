@@ -38,7 +38,7 @@
     }
 
     .content-wrapper {
-        padding: 40px 30px 25px;
+        padding: 30px 30px 25px;
     }
 
     .widget-columns {
@@ -103,6 +103,7 @@
 
         &.-description > div {
             a {
+                display: inline-block;
                 color: plt('red');
 
                 b {
