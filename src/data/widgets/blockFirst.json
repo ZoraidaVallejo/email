@@ -1,0 +1,46 @@
+{
+  "welcome": {
+    "email1": {
+      "background": {
+        "image": "connect-banner-bg-01.png",
+        "width": 600,
+        "bgColor": "#fff",
+        "cssSize": "600px 375px",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "link": "https://www.justia.com/",
+      "title": "Your Monthly Insights From Justia Connect Pro",
+      "titleResponsiveSize": 21,
+      "image": "connect-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Welcome to your quarterly updates from Justia Connect!</b>Be sure to check out this email for helpful tips from the Justia Connect team, featured discounts from Justia Deals, and the latest information on maximizing your Justia Connect membership benefits.</p>"
+          ]
+        }
+      ]
+    },
+    "email2": {
+      "background": {
+        "image": "connect-banner-bg-01.png",
+        "width": 600,
+        "bgColor": "#fff",
+        "cssSize": "600px 375px",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "link": "https://www.justia.com/",
+      "title": "Your Quarterly Notes From Justia Connect",
+      "titleResponsiveSize": 21,
+      "image": "connect-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>Welcome to your quarterly updates from Justia Connect!</b>Be sure to check out this email for helpful tips from the Justia Connect team, featured discounts from Justia Deals, and the latest information on maximizing your Justia Connect membership benefits.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}
