@@ -3,11 +3,11 @@
     "icon": "inside-justia",
     "header": "Inside Justia"
   },
-  "singleColumn": false,
+  "singleColumn": true,
   "columns": [
     {
       "image": {
-        "src": "inside-justia-01.jpg",
+        "src": "inside-justia-01.png",
         "alt": "Green Thumbs of Justia "
       },
       "blockTitle": "Meet Our Team",
@@ -18,7 +18,7 @@
     },
     {
       "image": {
-        "src": "inside-justia-02.jpg",
+        "src": "inside-justia-02.png",
         "alt": "One Happy Pug"
       },
       "blockTitle": "A Pug’s Tale",
