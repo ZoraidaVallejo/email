@@ -46,7 +46,7 @@
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
-          "source": "directory-newsletter",
+          "source": "insights-newsletter",
           "content": "image-footer-logo-1"
         }
       },

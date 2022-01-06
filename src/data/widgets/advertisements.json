@@ -9,7 +9,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
+        "source": "insights-newsletter",
         "content": "banner-premium-memberships-v52"
       },
       "image": "new-year-ad.gif"

@@ -73,7 +73,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-justia-desk-title-",
         "button": "text-justia-desk-suscribe-now-1"

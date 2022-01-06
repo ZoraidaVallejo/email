@@ -35,7 +35,7 @@
       "text": "Learn More",
       "utm": {
         "medium": "email",
-        "source": "directory-newsletter",
+        "source": "insights-newsletter",
         "campaign": "<%= dateFormat.dash %>",
         "content": "section-did-you-know-learn-more-button-v1"
       }
