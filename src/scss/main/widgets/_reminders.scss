@@ -31,7 +31,7 @@
     }
 
     .content {
-        padding: 0 0 0 $padding;
+        padding: 0 $padding;
         text-align: left;
         // background-color: #f6fdfc;
 
@@ -40,14 +40,18 @@
 
             b {
                 display: block;
-                padding: 0 0 11px;
+                padding: 11px 0 0;
             }
 
             .side-title {
                 @include mail-font(28px, 1.2, 700);
                 display: block;
-                padding: 0 0 7px;
+                padding: 0;
                 color: plt('white');
+            }
+
+            .extra-spacing {
+                padding: 22px 0 0;
             }
         }
 
@@ -104,7 +108,7 @@
     }
 
     .ui-background {
-        background-position: top left !important;
+        background-position: top center !important;
         padding: 0 $padding;
     }
 

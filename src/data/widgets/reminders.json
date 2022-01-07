@@ -1,9 +1,9 @@
 {
   "background": {
     "image": "reminders-bg-01.png",
-    "width": 400,
+    "width": 550,
     "bgColor": "#074787",
-    "cssSize": "550px 300px",
+    "cssSize": "550px 440px",
     "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
   },
   "contentOrder": [
@@ -14,14 +14,20 @@
         "image": "reminders-graphic-01.png",
         "description": [
           "<b class=\"side-title\" responsive=\"collapse-one mobile-reset-width mobile-padding-top mobile-padding-bottom\">Reminders</b>",
-          "<b>Taking Time Off is Good for You</b>Due to the pandemic, many people postponed their vacations. We encourage you to take time off and recharge. When you take time off, you get an opportunity to take a step back, focus on your "
+          "<b>Revised Time Off Request Form</b>Our current Time Off Request form has been revised and now includes sick time and wellness holidays. Kindly note that this version is now fillable and has a drop-down calendar for the date."
         ]
       }
     },
     {
       "type": "description",
       "config": [
-        "loved ones, and avoid work-related stress and burnout."
+        "fields. For further details, please refer to David Pott’s email sent on December 10th, 2021, or visit Justikia."
+      ]
+    },
+    {
+      "type": "description",
+      "config": [
+        "<b class=\"extra-spacing\">2022 Holiday Schedules</b>The 2022 Holiday Schedules for both Mexico and the U.S. are now available and include the wellness holidays. Both documents have already been posted in Justikia."
       ]
     }
   ]

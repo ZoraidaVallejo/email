@@ -55,29 +55,8 @@
     }}
   {{/if}}
 
-  {{#if widgetConfig.image}}
-    <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
-        {{>img
-          src=widgetConfig.image
-          alt=(default widgetConfig.title widgetConfig.imageAlt)
-        }}
-      </td>
-    </tr>
-  {{/if}}
-
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
-      {{#compare this.type "===" "image"}}
-        <tr>
-          <td class="image" responsive="mobile-padding-horizontal-sides">
-            {{>img
-              src=config
-              alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-            }}
-          </td>
-        </tr>
-      {{/compare}}
 
       {{#compare this.type "===" "image-description"}}
         <tr>
@@ -136,6 +115,29 @@
         </tr>
       {{/compare}}
 
+      {{#compare this.type "===" "list"}}
+        <tr>
+          <td class="content -list -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            <ul responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <li>{{{this}}}</li>
+            {{/each}}
+          </ul>
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "image"}}
+        <tr>
+          <td class="image" responsive="mobile-padding-horizontal-sides">
+            {{>img
+              src=config
+              alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+            }}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "lists-description"}}
         <tr>
           <td class="content -lists-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
@@ -182,6 +184,19 @@
         </tr>
       {{/compare}}
     {{/forEach}}
+  {{/if}}
+
+  
+
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+        {{>img
+          src=widgetConfig.image
+          alt=(default widgetConfig.title widgetConfig.imageAlt)
+        }}
+      </td>
+    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}

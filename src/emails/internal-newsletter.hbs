@@ -16,7 +16,7 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>welcome widgetConfig=welcome}}
         
-        {{>milestones widgetConfig=milestones}}
+        {{!-- {{>milestones widgetConfig=milestones}} --}}
         
         {{>portal-news widgetConfig=portalNews}}
 
@@ -32,6 +32,9 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- 2 columns, for 2 people --}}
         {{>new-people widgetConfig=newPeople}}
 
+        {{!-- image and text aside --}}
+        {{>team-activity-2 widgetConfig=teamActivity2}}
+
         {{!-- image and text aside, can be use for one to + 2 people --}}
         {{!-- {{>new-people-2 widgetConfig=newPeople2}} --}}
         
@@ -39,27 +42,24 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- {{>holidays widgetConfig=holidays}} --}}
         
         {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{>holidays-2 widgetConfig=holidays2}}
+        {{!-- {{>holidays-2 widgetConfig=holidays2}} --}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
         {{>team-activity widgetConfig=teamActivity}}
-
-        {{!-- image and text aside --}}
-        {{>team-activity-2 widgetConfig=teamActivity2}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
         {{!-- {{>blast-past widgetConfig=blastPast}} --}}
 
         {{!-- Same layout as Milestones --}}
-        {{>wellness-items widgetConfig=wellnessItems}}
+        {{!-- {{>wellness-items widgetConfig=wellnessItems}} --}}
+
+        {{!-- image, text and lists below --}}
+        {{>team-activity-3 widgetConfig=teamActivity3}}
         
         {{>reviews widgetConfig=reviews}}
 
         {{!-- E X T R A S --}}
         {{!-- Not Commonly Used --}}
-
-        {{!-- image, text and lists below --}}
-        {{>team-activity-3 widgetConfig=teamActivity3}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 

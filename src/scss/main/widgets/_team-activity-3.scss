@@ -18,6 +18,10 @@
         }
     }
 
+    .widget-header {
+        padding: $widget-gap $padding $padding;
+    }
+
     .title {
         padding: $widget-gap $padding 35px;
         margin: 0 0 grid-unit(0.5);
@@ -41,7 +45,7 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 50px 25px;
         text-align: left;
 
         .content-side {
@@ -80,7 +84,7 @@
         }
 
         &.-first {
-            padding: 0 $padding 35px;
+            padding: 0 50px 35px;
         }
 
         &.-button {
@@ -88,11 +92,30 @@
         }
 
         &.-last {
-            padding: 0 $padding 45px;
+            padding: 0 50px 20px;
         }
 
         &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 50px 25px;
+        }
+    }
+
+    .content.-list {
+        padding: 0 50px 30px;
+        // text-align: left;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: block;
+                padding: 0 0 0 15px;
+                // margin-bottom: 15px;
+                background: image-url('list-icon-01.png') no-repeat top left;
+                background-position: 0px 8px;
+                @include mail-font(16px, 1.5);
+            }
         }
     }
 
