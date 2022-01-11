@@ -5,21 +5,24 @@
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Impressions",
+            "blockTitle": "Community Tips",
             "order": "image-text",
             "image": "year-graphic-01.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "text": "One benefit of being a Justia Connect Pro is learning opportunities! Take advantage of our upcoming webinar on legal marketing to ensure your firm’s best practices are up to date.",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Profile Views",
+            "blockTitle": "Justia Deals",
             "order": "image-text",
             "image": "year-graphic-02.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "Legal Deals",
+            "text": "Simplify docket tracking for your firm! Justia Connect members save 50% off of their first month on selected Unicourt plans.",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -28,8 +31,10 @@
             "blockTitle": "Profile Completeness",
             "order": "image-text",
             "image": "year-graphic-03.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "Take the family out this weekend! Save 31% on AMC Yellow eTickets through Justia Lifestyle Savings. Just purchase and print.",
+            "text": "Lifestyle Savings",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -38,8 +43,10 @@
             "blockTitle": "Peer Reviews",
             "order": "text-image",
             "image": "year-graphic-04.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -48,8 +55,10 @@
             "blockTitle": "Client Reviews",
             "order": "text-image",
             "image": "year-graphic-05.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -58,8 +67,10 @@
             "blockTitle": "Justia Ask A Lawyer Participation",
             "order": "text-image",
             "image": "year-graphic-06.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         }
       ]
@@ -72,8 +83,10 @@
             "blockTitle": "Profile Completeness",
             "order": "image-text",
             "image": "year-graphic-03.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -82,8 +95,10 @@
             "blockTitle": "Peer Reviews",
             "order": "text-image",
             "image": "year-graphic-04.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -92,8 +107,10 @@
             "blockTitle": "Client Reviews",
             "order": "text-image",
             "image": "year-graphic-05.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         },
         {
@@ -102,8 +119,10 @@
             "blockTitle": "Justia Ask A Lawyer Participation",
             "order": "text-image",
             "image": "year-graphic-06.png",
-            "statistics": "100,000",
-            "text": "Lorem Ipsum"
+            "subtitle": "100,000",
+            "text": "Lorem Ipsum",
+            "button": "Lorem Ipsum",
+            "link": "#"
           }
         }
       ]

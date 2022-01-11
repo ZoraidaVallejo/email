@@ -1071,26 +1071,18 @@ a {
   padding: 0 50px;
 }
 
-.-stats-block .content-wrapper .content-wrapper-table tr:nth-child(odd) .-image {
-  float: left;
-}
-
-.-stats-block .content-wrapper .content-wrapper-table tr:nth-child(odd) .-image img {
-  margin: 0 auto 0 25px;
-}
-
-.-stats-block .content-wrapper .-statistics {
-  font: 700 62px/1.1 Arial, sans-serif;
-  display: block;
+.-stats-block .content-wrapper .-image img {
+  margin: 0 auto 25px;
 }
 
 .-stats-block .content-wrapper .-text {
-  font: 20px/1.1 Arial, sans-serif;
+  font: 16px/1.1 Arial, sans-serif;
   display: block;
 }
 
 .-stats-block .content {
   padding: 0 0 25px;
+  text-align: left;
 }
 
 .-stats-block .content.-image-description > div {
@@ -1114,6 +1106,17 @@ a {
   border-left: 3px solid #00b3e3;
   margin: 0 0 15px;
   text-align: left;
+}
+
+.-stats-block .content .-subtitle {
+  font: 700 22px/1.5 Arial, sans-serif;
+  text-align: left;
+  color: #06357a;
+  display: block;
+}
+
+.-stats-block .content .-subtitle span {
+  display: inline-block;
 }
 
 .-stats-block .content p {
@@ -1164,7 +1167,6 @@ a {
 .-stats-block .content .content-side {
   width: 235px;
   vertical-align: middle;
-  text-align: center;
 }
 
 .-stats-block .content .content-side p:not(:last-child) {
