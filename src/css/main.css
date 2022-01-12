@@ -1243,30 +1243,20 @@ a {
 }
 
 .-bottom-block .content-wrapper {
-  padding: 0 50px 50px;
+  padding: 0 55px 50px 30px;
 }
 
 .-bottom-block .content {
   padding: 0;
+  color: #ffffff;
 }
 
 .-bottom-block .content.-image-description > div,
 .-bottom-block .content.-description > div {
   display: block;
-  border: 1px solid #e6e6e6;
   border-radius: 10px;
   width: 100%;
   float: left;
-  padding: 20px 0 25px;
-}
-
-.-bottom-block .content.-image-description > div p,
-.-bottom-block .content.-description > div p {
-  padding: 0 0 0 25px;
-}
-
-.-bottom-block .content.-description > div {
-  padding: 20px 0 25px;
 }
 
 .-bottom-block .content.-description > div p {
@@ -1312,14 +1302,14 @@ a {
 }
 
 .-bottom-block .content .heading4 {
-  text-align: center;
-  font: 22px/1.2 Arial, sans-serif;
+  text-align: left;
+  font: 700 40px/1.2 Arial, sans-serif;
   display: block;
   margin: 0 auto;
 }
 
 .-bottom-block .content .subheading {
-  text-align: center;
+  text-align: left;
   color: #06357a;
   display: block;
   font-size: 1.125rem;
@@ -1348,7 +1338,7 @@ a {
 }
 
 .-bottom-block .content .content-side.-image {
-  width: 190px;
+  width: 177px;
   text-align: left;
 }
 
@@ -1358,7 +1348,7 @@ a {
 }
 
 .-bottom-block .content .content-side.-image img {
-  width: 140px;
+  width: 177px;
   margin: 0 auto;
 }
 
@@ -1367,11 +1357,11 @@ a {
 }
 
 .-bottom-block .content .content-side:first-child {
-  float: right;
+  float: left;
 }
 
 .-bottom-block .content .content-side:last-child {
-  float: left;
+  float: right;
 }
 
 .-bottom-block .content .content-side .red-link,
