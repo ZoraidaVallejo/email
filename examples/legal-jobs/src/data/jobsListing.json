@@ -1,46 +1,141 @@
 {
   "places": [
     {
-      "area": "Sit quis fugiat esse ad pariatur adipisicing esse tempor cillum irure id commodo sint laboris.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Deserunt exercitation exercitation do ut minim culpa ea laborum officia id ut.",
-          "company": "In exercitation voluptate pariatur.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         },
         {
-          "title": "Qui exercitation adipisicing mollit consectetur.",
-          "company": "Incididunt deserunt duis.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         }
       ]
     },
     {
-      "area": "Ut enim ea qui aute reprehenderit aute.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Ad irure commodo pariatur deserunt ad anim deserunt nulla et quis minim..",
-          "company": "Aute exercitation.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         }
       ]
     },
     {
-      "area": "Laboris aliqua occaecat non do irure culpa aliquip anim nulla dolore exercitation.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Laborum aliquip ut ex aliqua.",
-          "company": "Laborum consequat sit cupidatat ex elit elit eu eu ea.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         },
         {
-          "title": "Tempor esse id tempor ullamco elit aliqua consectetur dolore quis ipsum.",
-          "company": "Sint aliqua tempor.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         },
         {
-          "title": "Occaecat et reprehenderit enim ut id.",
-          "company": "Exercitation enim laborum sint reprehenderit dolor.",
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        }
+      ]
+    },
+    {
+      "area": "[AREA]",
+      "jobs": [
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "https://www.justia.com/"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
           "link": "https://www.justia.com/"
         }
       ]
