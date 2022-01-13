@@ -103,13 +103,13 @@
                   {{#forIn this.config}}
 
                     {{#compare @key "===" "text"}}
-                      <div class="-description" responsive="collapse-one mobile-no-padding">
+                      <div class="-description" responsive="collapse-one mobile-no-padding mobile-reset-width">
                         <div>
                           {{#if ../config.subtitle}}
                             <strong class="-subtitle">{{{../config.subtitle}}}</strong>
                           {{/if}}
                           {{#if ../config.text}}
-                            <strong class="-text">{{{../config.text}}}</strong>
+                            <div class="-text">{{{../config.text}}}</div>
                           {{/if}}
                           {{#each ../config.description}}
                             {{{this}}}

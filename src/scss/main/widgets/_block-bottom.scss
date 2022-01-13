@@ -107,7 +107,7 @@
 
         .heading4 {
             text-align: left;
-            @include mail-font(40px, 1.2, 700);
+            @include mail-font(39px, 1.2, 700);
             // font-size: rem-calc(22px);
             display: block;
             margin: 0 auto;
@@ -134,7 +134,7 @@
 
         .content-side {
             // display: inline-block;
-            width: 300px;
+            width: 295px;
             vertical-align: middle;
             text-align: left;
 
@@ -143,18 +143,21 @@
             }
 
             &.-image {
-                width: 177px;
+                width: 220px;
                 text-align: left;
 
                 a {
                     display: block !important;
-                    margin: 0 auto 1em;
                 }
 
                 img {
                     width: 177px;
-                    margin: 0 auto;
+                    margin: 0 auto 0 0;
                 }
+            }
+
+            &.-description {
+                padding: 30px 0 0;
             }
 
             img.pro-label-image {

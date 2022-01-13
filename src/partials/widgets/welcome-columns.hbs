@@ -8,6 +8,29 @@
 
 {{#table class="widget w-inside-justia set-max-width"}}
 
+  {{#if widgetConfig.title}}
+    <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.title}}}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
   {{>widget-columns-with-image widgetConfig=widgetConfig.columns}}
   {{!-- <p>{{widgetConfig.try}}</p> --}}
 {{/table}}

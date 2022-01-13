@@ -100,7 +100,7 @@
                   {{#forIn this.config}}
 
                     {{#compare @key "===" "description"}}
-                      <div class="content-side -description" responsive="collapse-one">
+                      <div class="content-side -description" responsive="collapse-one mobile-padding-30-bottom mobile-align-center">
                         {{#each ../config.description}}
                           {{{this}}}
                         {{/each}}
@@ -122,7 +122,7 @@
                     {{/compare}}
 
                     {{#compare @key "===" "image"}}
-                      <div class="content-side -image" responsive="collapse-one">
+                      <div class="content-side -image" responsive="mobile-hide">
                         <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
                           {{>img
                             src=../config.image

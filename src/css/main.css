@@ -785,12 +785,15 @@ a {
   font: 700 15px/1.5 Arial, sans-serif;
 }
 
+.widget-columns .blue-link {
+  color: #06357a !important;
+  font: 700 15px/1.5 Arial, sans-serif;
+}
+
 .widget-columns .block-title {
   font: 700 16px/1.5 Arial, sans-serif;
   display: block;
-  padding-left: 20px;
   color: #06357a;
-  border-left: 3px solid #00b3e3;
   text-align: left;
 }
 
@@ -806,12 +809,10 @@ a {
 .widget-columns.-with-image .block > div {
   display: block;
   padding: 20px 0 25px;
-  border: 1px solid #e6e6e6;
   border-radius: 10px;
 }
 
 .widget-columns.-with-image .block > div p {
-  padding: 0 24px;
   font: 15px/1.5 Arial, sans-serif;
 }
 
@@ -934,7 +935,7 @@ a {
 }
 
 .-first-block .content-wrapper {
-  padding: 40px 50px 25px;
+  padding: 40px 30px 25px;
 }
 
 .-first-block .widget-columns .wrapper {
@@ -1068,7 +1069,7 @@ a {
 }
 
 .-stats-block .content-wrapper {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 .-stats-block .content-wrapper .-image img {
@@ -1076,8 +1077,9 @@ a {
 }
 
 .-stats-block .content-wrapper .-text {
-  font: 16px/1.1 Arial, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
   display: block;
+  margin: 10px 0 25px;
 }
 
 .-stats-block .content {
@@ -1098,6 +1100,15 @@ a {
   padding: 0 0 0 25px;
 }
 
+.-stats-block .content .-description {
+  margin: 0 25px;
+}
+
+.-stats-block .content .-image {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
 .-stats-block .content .blockTitle {
   font: 700 24px/1.5 Arial, sans-serif;
   display: block;
@@ -1109,7 +1120,7 @@ a {
 }
 
 .-stats-block .content .-subtitle {
-  font: 700 22px/1.5 Arial, sans-serif;
+  font: 700 22px/1.1 Arial, sans-serif;
   text-align: left;
   color: #06357a;
   display: block;
@@ -1303,7 +1314,7 @@ a {
 
 .-bottom-block .content .heading4 {
   text-align: left;
-  font: 700 40px/1.2 Arial, sans-serif;
+  font: 700 39px/1.2 Arial, sans-serif;
   display: block;
   margin: 0 auto;
 }
@@ -1328,7 +1339,7 @@ a {
 }
 
 .-bottom-block .content .content-side {
-  width: 300px;
+  width: 295px;
   vertical-align: middle;
   text-align: left;
 }
@@ -1338,18 +1349,21 @@ a {
 }
 
 .-bottom-block .content .content-side.-image {
-  width: 177px;
+  width: 220px;
   text-align: left;
 }
 
 .-bottom-block .content .content-side.-image a {
   display: block !important;
-  margin: 0 auto 1em;
 }
 
 .-bottom-block .content .content-side.-image img {
   width: 177px;
-  margin: 0 auto;
+  margin: 0 auto 0 0;
+}
+
+.-bottom-block .content .content-side.-description {
+  padding: 30px 0 0;
 }
 
 .-bottom-block .content .content-side img.pro-label-image {

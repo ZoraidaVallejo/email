@@ -141,12 +141,17 @@
         @include mail-font(15px, 1.5, 700);
     }
 
+    .blue-link {
+        color: plt('justia-blue')!important;
+        @include mail-font(15px, 1.5, 700);
+    }
+
     .block-title {
        @include mail-font(16px, 1.5, 700);
        display: block;
-       padding-left: 20px;
+       // padding-left: 20px;
        color: plt('justia-blue');
-       border-left: 3px solid #00b3e3;
+       // border-left: 3px solid #00b3e3;
        text-align: left;
     }
 
@@ -170,12 +175,12 @@
         .block > div {
             display: block;
             padding: 20px 0 25px;
-            border: 1px solid #e6e6e6;
+            // border: 1px solid #e6e6e6;
             border-radius: 10px;
 
             p {
-                padding: 0 24px;
-                @include mail-font(15px, 1.5);
+                // padding: 0 24px;
+                @include mail-font(16px, 1.5);
             }
         }
 

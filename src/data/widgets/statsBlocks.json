@@ -9,7 +9,7 @@
             "order": "image-text",
             "image": "year-graphic-01.png",
             "text": "One benefit of being a Justia Connect Pro is learning opportunities! Take advantage of our upcoming webinar on legal marketing to ensure your firm’s best practices are up to date.",
-            "button": "Lorem Ipsum",
+            "button": "Add Photo Now",
             "link": "#"
           }
         },
@@ -21,7 +21,7 @@
             "image": "year-graphic-02.png",
             "subtitle": "Legal Deals",
             "text": "Simplify docket tracking for your firm! Justia Connect members save 50% off of their first month on selected Unicourt plans.",
-            "button": "Lorem Ipsum",
+            "button": "Learn More",
             "link": "#"
           }
         },
@@ -31,9 +31,9 @@
             "blockTitle": "Profile Completeness",
             "order": "image-text",
             "image": "year-graphic-03.png",
-            "subtitle": "Take the family out this weekend! Save 31% on AMC Yellow eTickets through Justia Lifestyle Savings. Just purchase and print.",
-            "text": "Lifestyle Savings",
-            "button": "Lorem Ipsum",
+            "subtitle": "Lifestyle Savings",
+            "text": "Take the family out this weekend! Save 31% on AMC Yellow eTickets through Justia Lifestyle Savings. Just purchase and print.",
+            "button": "Get My Discount",
             "link": "#"
           }
         },
@@ -52,24 +52,12 @@
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Client Reviews",
+            "blockTitle": "Breaking News Alert From Justia",
             "order": "text-image",
             "image": "year-graphic-05.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
-            "link": "#"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Justia Ask A Lawyer Participation",
-            "order": "text-image",
-            "image": "year-graphic-06.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
+            "subtitle": "Former Raiders Wide Receiver Henry Ruggs III Involved in Fatal Crash",
+            "text": "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning.",
+            "button": "Read More",
             "link": "#"
           }
         }
@@ -104,24 +92,12 @@
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Client Reviews",
+            "blockTitle": "Breaking News Alert From Justia",
             "order": "text-image",
             "image": "year-graphic-05.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
-            "link": "#"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Justia Ask A Lawyer Participation",
-            "order": "text-image",
-            "image": "year-graphic-06.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
+            "subtitle": "Former Raiders Wide Receiver Henry Ruggs III Involved in Fatal Crash",
+            "text": "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning.",
+            "button": "Read More",
             "link": "#"
           }
         }
@@ -129,3 +105,4 @@
     }
   }
 }
+
