@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .-first-block {
-   
+
     td {
         text-align: center;
     }
@@ -26,6 +26,10 @@
         a {
             @include mail-font(24px, 1.1, 700);
             color: plt('justia-blue');
+        }
+
+        span {
+            display: inline-block;
         }
     }
 
