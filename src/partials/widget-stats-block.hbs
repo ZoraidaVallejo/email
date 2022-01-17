@@ -90,7 +90,7 @@
 
   {{#if widgetConfig.contentOrder}}
     <tr>
-      <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
+      <td class="content-wrapper" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
         <table {{{tableAttr}}} class="content-wrapper-table">
         {{#forEach widgetConfig.contentOrder}}
           {{#compare this.type "===" "image-description"}}
@@ -106,7 +106,7 @@
                       <div class="-description" responsive="collapse-one mobile-no-padding mobile-reset-width">
                         <div>
                           {{#if ../config.subtitle}}
-                            <strong class="-subtitle">{{{../config.subtitle}}}</strong>
+                            <a href="{{{../config.link}}}" target="_blank"><strong class="-subtitle">{{{../config.subtitle}}}</strong></a>
                           {{/if}}
                           {{#if ../config.text}}
                             <div class="-text">{{{../config.text}}}</div>
@@ -133,10 +133,10 @@
 
                     {{#compare @key "===" "image"}}
                       <div class="-image" responsive="collapse-one mobile-no-padding">
-                        <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                        <a href="{{{../config.link}}}" target="_blank">
                           {{>img
                             src=../config.image
-                            alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                            alt=(default ../config.subtitle ../config.imageAlt)
                           }}
                         </a>
                       </div>

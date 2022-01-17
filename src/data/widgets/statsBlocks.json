@@ -1,6 +1,6 @@
 {
   "welcome": {
-    "email1": {
+    "communityTips": {
       "contentOrder": [
         {
           "type": "image-description",
@@ -8,11 +8,15 @@
             "blockTitle": "Community Tips",
             "order": "image-text",
             "image": "year-graphic-01.png",
-            "text": "One benefit of being a Justia Connect Pro is learning opportunities! Take advantage of our upcoming webinar on legal marketing to ensure your firm’s best practices are up to date.",
-            "button": "Add Photo Now",
-            "link": "#"
+            "text": "<p>Did you know you can get summaries of newly published appellate opinions in your chosen jurisdictions delivered directly to your inbox?</p><p>As a benefit of your Justia Connect membership, you can sign up for Justia Daily Opinion Summaries and receive daily summaries to help you keep informed about any new developments.</p>",
+            "button": "Subscribe Now",
+            "link": "https://law.justia.com/subscribe"
           }
-        },
+        }
+      ]
+    },
+    "justiaDeals": {
+      "contentOrder": [
         {
           "type": "image-description",
           "config": {
@@ -20,89 +24,39 @@
             "order": "image-text",
             "image": "year-graphic-02.png",
             "subtitle": "Legal Deals",
-            "text": "Simplify docket tracking for your firm! Justia Connect members save 50% off of their first month on selected Unicourt plans.",
-            "button": "Learn More",
-            "link": "#"
+            "text": "Simplify legal research for your firm! Get a free 7-day trial of Fastcase Premium today.",
+            "button": "Get Deal",
+            "link": "https://connect.justia.com/legal-deals/fastcase/first-week-free"
           }
         },
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Profile Completeness",
             "order": "image-text",
             "image": "year-graphic-03.png",
             "subtitle": "Lifestyle Savings",
-            "text": "Take the family out this weekend! Save 31% on AMC Yellow eTickets through Justia Lifestyle Savings. Just purchase and print.",
-            "button": "Get My Discount",
-            "link": "#"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Peer Reviews",
-            "order": "text-image",
-            "image": "year-graphic-04.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
-            "link": "#"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Breaking News Alert From Justia",
-            "order": "text-image",
-            "image": "year-graphic-05.png",
-            "subtitle": "Former Raiders Wide Receiver Henry Ruggs III Involved in Fatal Crash",
-            "text": "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning.",
-            "button": "Read More",
-            "link": "#"
+            "text": "Made a New Year’s Resolution to be more active? Help yourself achieve your goals by saving up to 20% off FitBit purchases with Justia Lifestyle Savings.",
+            "button": "Start Saving",
+            "link": "https://deals.justia.com/discounts/offer/1109:4"
           }
         }
       ]
     },
-    "email2": {
+    "fromJustia": {
       "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Profile Completeness",
-            "order": "image-text",
-            "image": "year-graphic-03.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
-            "link": "#"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Peer Reviews",
-            "order": "text-image",
-            "image": "year-graphic-04.png",
-            "subtitle": "100,000",
-            "text": "Lorem Ipsum",
-            "button": "Lorem Ipsum",
-            "link": "#"
-          }
-        },
         {
           "type": "image-description",
           "config": {
             "blockTitle": "Breaking News Alert From Justia",
             "order": "text-image",
             "image": "year-graphic-05.png",
-            "subtitle": "Former Raiders Wide Receiver Henry Ruggs III Involved in Fatal Crash",
-            "text": "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning.",
+            "subtitle": "Snap Takes Trademark Battle Over “Spectacles” to Federal Court",
+            "text": "This month, Snap, Inc. took their trademark battle over the term “spectacles” to federal court. If you want to track new developments in the litigation, <a href=\"https://dockets.justia.com/docket/california/cacdce/2:2022cv00085/840589\" target=\"_blank\"><b>follow the case</b></a> with Justia Dockets.",
             "button": "Read More",
-            "link": "#"
+            "link": "https://news.justia.com/snap-continues-to-wage-trademark-battle-over-camera-name/"
           }
         }
       ]
     }
   }
 }
-

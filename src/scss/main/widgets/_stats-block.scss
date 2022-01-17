@@ -36,7 +36,7 @@
     }
 
     .content-wrapper {
-        padding: 0 30px;
+        padding: 0 30px 50px;
 
         .-image {
 
@@ -45,61 +45,74 @@
             }
         }
 
-        // .content-wrapper-table {
-        //     tr:nth-child(odd) {
-        //         // background-color: plt('wild-sand');
-
-        //         .-image {
-        //             // float: left;
-
-        //             img {
-        //                 margin: 0 auto 25px;
-        //             }
-        //         }
-        //     }
-        // }
+        .content-wrapper-table {
+            display: block;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            width: 100%;
+            float: left;
+            padding: 25px 0 0;
+        }
 
         .-text {
             @include mail-font(16px, 1.5);
             display: block;
             margin: 10px 0 25px;
         }
+
+        .content {
+            
+        }
+
+        tr:nth-child(2) {
+            .content {
+                padding: 20px 0 30px;
+
+                .-image {
+                    border-top: 1px solid #e6e6e6;
+
+                    img {
+                        margin: 45px auto 25px;
+                    }
+                }
+            }
+        }
     }
 
     .content {
-        padding: 0 0 25px;
+        padding: 0 0 30px;
         text-align: left;
 
-        &.-image-description > div {
-            display: block;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-            width: 100%;
-            float: left;
-            padding: 25px 0 25px;
+        // &.-image-description > div {
+        //     display: block;
+        //     border: 1px solid #e6e6e6;
+        //     border-radius: 10px;
+        //     width: 100%;
+        //     float: left;
+        //     padding: 25px 0 25px;
 
-            p {
-                padding: 0 0 0 25px;
-            }
-        }
+        //     p {
+        //         padding: 0 0 0 25px;
+        //     }
+        // }
 
         .-description {
             margin: 0 25px;
         }
 
         .-image {
-            max-width: 85%;
+            max-width: 90%;
             margin: 0 auto;
         }
 
         .blockTitle {
-           @include mail-font(24px, 1.5, 700);
-           display: block;
-           padding-left: 20px;
-           color: plt('justia-blue');
-           border-left: 3px solid #00b3e3;
-           margin: 0 0 15px;
-           text-align: left;
+            @include mail-font(24px, 1.1, 700);
+            display: block;
+            padding: 7px 0 7px 20px;
+            color: plt('justia-blue');
+            border-left: 4px solid #00b3e3;
+            margin: 0 0 15px;
+            text-align: left;
         }
 
         .-subtitle {
@@ -121,6 +134,14 @@
 
             strong {
                 color: plt('black');
+            }
+
+            a {
+                @include mail-font(16px, 1.5, 700);
+
+                b {
+                    @include mail-font(16px, 1.5, 700);
+                }
             }
         }
 

@@ -4,10 +4,10 @@ subject:
 
 {{>preheader text=""}}
 
-{{#table class="jld-newsletter" align=""}}
+{{#table class="connect-series" align=""}}
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-header widgetConfig=header.jld}}
+      {{>main-header widgetConfig=header.connect}}
     </td>
   </tr>
   <tr>
@@ -16,9 +16,13 @@ subject:
 
         {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.welcome.email2}}
 
-        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.email2}}
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.communityTips}}
 
-        {{!-- {{>welcome-columns widgetConfig=welcomeColumns.email2}} --}}
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.justiaDeals}}
+
+        {{>welcome-columns widgetConfig=welcomeColumns.email1}}
+
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.fromJustia}}
 
         {{>widget-block-bottom widgetClass="-email-2" widgetConfig=blockBottom.welcome.email2}}
 

@@ -6,82 +6,20 @@
     "image": "year-graphic-04.png",
     "columns": [
       {
-        "image": {
-          "src": "1-graphic-01.png",
-          "alt": "Contact Information"
-        },
-        "blockTitle": "Lorem Ipsum Dolor Sit Ame ut sagittis orci vestibulum semper sem",
+        "blockTitle": "How To Claim and Complete Your Free Justia Lawyer Directory Profile",
         "description": [
-          "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+          "Justia is the most visited legal portal website in the United States and the Justia Lawyer Directory receives high volumes of visits every day from potential clients looking for a lawyer..."
         ],
-        "readMore": "#",
+        "readMore": "https://onward.justia.com/how-to-claim-and-complete-your-free-justia-lawyer-directory-profile/",
         "readMoreText": "Keep Reading"
       },
       {
-        "image": {
-          "src": "1-graphic-02.png",
-          "alt": "Profile Completion"
-        },
-        "blockTitle": "Lorem Ipsum Dolor Sit Ame ut sagittis orci vestibulum semper sem",
+        "blockTitle": "Statistics on Legal Marketing in 2021 (And a Look at 2022)",
         "description": [
-          "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+          "The results are in! In this first installment of Justia’s end-of-year series, discover the results of our survey on the legal marketing trends of 2021 and 2022."
         ],
-        "readMore": "#",
+        "readMore": "https://onward.justia.com/marketing-by-the-numbers-statistics-on-legal-marketing-in-2021-and-a-look-at-2022/",
         "readMoreText": "Keep Reading"
-      }
-    ]
-  },
-  "email2": {
-    "columns": [
-      {
-        "image": {
-          "src": "2-graphic-01.png",
-          "alt": "Client Reviews"
-        },
-        "blockTitle": "Client Reviews",
-        "description": [
-          "Requesting client reviews is one of the best ways to showcase your professional services for future clients.  Don’t worry – we only permit reviews from actual clients."
-        ],
-        "readMore": "#"
-      },
-      {
-        "image": {
-          "src": "2-graphic-02.png",
-          "alt": "Lawyer Reviews"
-        },
-        "blockTitle": "Lawyer Reviews",
-        "description": [
-          "Any lawyer with a verified Justia Profile can leave you a review if they are familiar with your work. Requesting these reviews is easy with a simple email invite."
-        ],
-        "readMore": "#"
-      }
-    ]
-  },
-  "email52": {
-    "columns": [
-      {
-        "image": {
-          "src": "5-2-graphic-01.png",
-          "alt": "Connect Dashboard"
-        },
-        "blockTitle": "Connect Dashboard",
-        "description": [
-          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
-        ],
-        "readMore": "#",
-        "readMoreText": "Visit My Dashboard"
-      },
-      {
-        "image": {
-          "src": "5-2-graphic-02.png",
-          "alt": "Justia Deals"
-        },
-        "blockTitle": "Justia Deals",
-        "description": [
-          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
-        ],
-        "readMore": "#",
-        "readMoreText": "Get My Deals"
       }
     ]
   }

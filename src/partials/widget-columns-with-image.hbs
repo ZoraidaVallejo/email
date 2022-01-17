@@ -11,13 +11,13 @@
 {{! ================================================================================================================= }}
 
 <tr class="widget-columns -with-image ui-columns-grid">
-  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
         {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=50 firstRow=@first}}
           {{#each this}}
             {{#unless @first}}
-              {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
+              {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.description) firstRow=@../first}}
             {{/unless}}
             <div>
 
@@ -28,7 +28,7 @@
               {{#if this.image}}
 
                 {{#if this.blockTitle}}
-                  <h3 class="block-title">{{{this.blockTitle}}}</h3>
+                  <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank"><h3 class="block-title">{{{this.blockTitle}}}</h3></a>
                 {{/if}}
 
                 <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
@@ -49,7 +49,23 @@
                   <p><b><a href="{{{../readMore}}}" target="_blank" class="blue-link">{{#if this.readMoreText}}{{this.readMoreText}}{{else}}Read More ›{{/if}}</a></b></p>
                 {{/if}}
               {{else}}
-                &nbsp;
+                {{#if this.blockTitle}}
+                  <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank"><h3 class="block-title">{{{this.blockTitle}}}</h3></a>
+                {{/if}}
+
+                {{#if this.blockSubtitle}}
+                  <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
+                {{/if}}
+
+                {{#each this.description}}
+                  <p class="block-description">
+                    {{{this}}}
+                  </p>
+                {{/each}}
+
+                {{#if this.readMore}}
+                  <p><b><a href="{{{../readMore}}}" target="_blank" class="blue-link">{{#if this.readMoreText}}{{this.readMoreText}}{{else}}Read More ›{{/if}}</a></b></p>
+                {{/if}}
               {{/if}}
             </div>
           {{/each}}

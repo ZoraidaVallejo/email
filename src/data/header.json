@@ -1,21 +1,4 @@
 {
-  "clients": {
-    "layout": "with-date",
-    "logo": {
-      "name": "insights",
-      "link": {
-        "url": "",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
-      },
-      "path": false,
-      "alt": false
-    }
-  },
   "jld": {
     "layout": "logo-only",
     "logo": {
@@ -27,37 +10,25 @@
       "alt": false
     }
   },
-  "ad1": {
+  "connectpro": {
     "layout": "logo-only",
     "logo": {
-      "name": "Lawyer Directory",
+      "name": "marketing",
       "link": {
-        "url": "https://www.justia.com/",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
+        "url": "https://www.justia.com/"
       },
-      "path": false,
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-pro-blue.png",
       "alt": false
     }
   },
-  "ad2": {
+  "connect": {
     "layout": "logo-only",
     "logo": {
-      "name": "Lawyer Directory",
+      "name": "marketing",
       "link": {
-        "url": "https://www.justia.com/",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
+        "url": "https://www.justia.com/"
       },
-      "path": false,
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
       "alt": false
     }
   }
