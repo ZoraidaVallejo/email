@@ -92,6 +92,21 @@
             </tr>
           {{/table}}
         {{/compare}}
+
+        {{#compare widgetConfig.layout "===" "plus-item"}}
+          {{#table}}
+            <tr>
+              <td class="date" responsive="mobile-align-center mobile-padding-horizontal-sides">
+                <span responsive="mobile-fz-18 mobile-align-center">{{widgetConfig.item.element}} Edition</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="logo" responsive="mobile-padding-bottom mobile-padding-horizontal-sides">
+                {{>main-logo widgetConfig=@root.headerLogoConfig}}
+              </td>
+            </tr>
+          {{/table}}
+        {{/compare}}
       </td>
     </tr>
   {{/table}}

@@ -1,0 +1,38 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "holiday-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p class=\"heading4\"><strong>[Name],</strong></p>",
+            "<p>We couldn’t help but notice you haven’t opened our emails lately, but your competitors have! Our emails share resources, promotions, and updates designed to help you reach your legal marketing and practice-growth goals.</p>",
+            "<p>We understand you are busy managing your practice, but please take a brief moment to select an option below and tell us how often you would like to hear from Justia in the future. We’d really appreciate it!</p>",
+            "<ul responsive=\"mobile-padding-horizontal-sides mobile-padding-50-left\"> <li><span>Enhanced Profile</span></li> <li><span>Increased Visibility</span></li> <li><span>Listed in 2 Directories (Justia & LII Directories)</span></li> <li><span>Prominent Contact Information</span></li> <li><span>No Competitor Ads</span></li> <li><span>Access to Traffic Stats</span></li> </ul>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Thanks,<br><b>The Justia Team</b></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
