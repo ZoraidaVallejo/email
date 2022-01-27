@@ -6,15 +6,14 @@
   "jld": {
     "ad1": {
       "background": {
-        "image": "ad-gradient.png",
+        "image": "reengagement-bg-01.png",
         "width": 600,
         "bgColor": "#ffffff",
-        "cssSize": "600px 350px"
+        "cssSize": "100% auto"
       },
-      "title": "",
+      "title": "Don't Be Left Behind",
       "link": "https://www.justia.com/marketing/",
       "titleResponsiveSize": 23,
-      "image": "holiday-graphic-01.png",
       "contentOrder": [
         {
           "type": "description",
@@ -22,14 +21,23 @@
             "<p class=\"heading4\"><strong>[Name],</strong></p>",
             "<p>We couldn’t help but notice you haven’t opened our emails lately, but your competitors have! Our emails share resources, promotions, and updates designed to help you reach your legal marketing and practice-growth goals.</p>",
             "<p>We understand you are busy managing your practice, but please take a brief moment to select an option below and tell us how often you would like to hear from Justia in the future. We’d really appreciate it!</p>",
-            "<ul responsive=\"mobile-padding-horizontal-sides mobile-padding-50-left\"> <li><span>Enhanced Profile</span></li> <li><span>Increased Visibility</span></li> <li><span>Listed in 2 Directories (Justia & LII Directories)</span></li> <li><span>Prominent Contact Information</span></li> <li><span>No Competitor Ads</span></li> <li><span>Access to Traffic Stats</span></li> </ul>"
+            "<ul class=\"mobile-padding-horizontal-sides mobile-padding-50-left\"> <li><a href=\"#\" target=\"_blank\">Don’t let my competitors get ahead. Of course, I want to hear about all things Justia!</a></li> <li><a href=\"#\" target=\"_blank\">Send me info about new products from Justia. No special offers or promos, please.</a></li> <li><a href=\"#\" target=\"_blank\">I want a once-monthly update from Justia.</a></li> <li><a href=\"#\" target=\"_blank\">I need a break from Justia. Ask me again next year.</a></li> <li><a href=\"#\" target=\"_blank\">I’m just not interested in ways to grow my practice. Take me off your list.</a></li> </ul>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "<p>Thanks,<br><b>The Justia Team</b></p>"
+            "<p>Thanks,<br><strong>The Justia Team</strong></p>"
           ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "reengagement-graphic-02.png",
+            "description": [
+              "<strong>Justia:</strong> Over 12 million site visits last month."
+            ]
+          }
         }
       ]
     },

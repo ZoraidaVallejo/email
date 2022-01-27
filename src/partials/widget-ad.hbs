@@ -66,7 +66,7 @@
 
   {{#if widgetConfig.title}}
     <tr>
-      <td class="title" responsive="mobile-padding-horizontal-sides">
+      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-30-top mobile-padding-50-bottom">
         <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
           {{{widgetConfig.title}}}
         </a>
@@ -94,7 +94,7 @@
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-hide">
+                <div class="content-side -image" responsive="mobile-no-float">
                   <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
                     {{>img
                       src=../config.image

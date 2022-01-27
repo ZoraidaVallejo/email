@@ -23,7 +23,8 @@
       "link": {
         "url": "https://www.justia.com/marketing/cpc-ppc/"
       },
-      "alt": false
+      "alt": false,
+      "responsive": "mobile-align-center"
     },
     "item": {
       "element": "#JustiaForAll",

@@ -72,7 +72,7 @@ $settings: set('mail-header', (
             'insider': 300px
         ),
         'plus-item': (
-            'justia': 135px,
+            'justia': 155px,
         )
     )
 ));
@@ -156,11 +156,13 @@ $settings: set('mail-header', (
     }
 
     .logo {
-        width: 60%;
+        float: left;
+        width: 50%;
     }
 
     .date {
-        width: 40%;
+        float: right;
+        width: 49%;
         text-align: right;
 
         span {
