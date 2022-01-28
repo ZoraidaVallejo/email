@@ -1,0 +1,113 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   S I T E   O F   T H E   M O N T H                                                               }}
+{{! ================================================================================================================= }}
+
+{{assign "setDescription" (and featuredSiteMonth.description addDescription)}}
+
+{{#and featuredSiteMonth.justiaLink (compare featuredSiteMonth.justiaLink "!==" "")}}
+  {{assign "featuredSiteMonthJustiaLink" (concat featuredSiteMonth.justiaLink (utmVariables widgetUtmVars content=widgetUtmVars.content.justiaLink))}}
+{{/and}}
+
+{{#and featuredSiteMonth.button hasButton (compare featuredSiteMonth.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+  {{assign "featuredSiteMonthButtonLink" (concat featuredSiteMonth.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-featured-site-month set-max-width"}}
+  {{>widget-header
+    header=(ternary listSites featuredSiteMonth.widget.header.plural featuredSiteMonth.widget.header.singular)
+    icon=featuredSiteMonth.widget.icon
+  }}
+
+  {{#if singleSite}}
+    <tr>
+      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+        <div class="widget-wrapper">
+          <div class="featured-site">
+            <div class="client-info">
+              <p>
+                Our friends at <b><a href="{{featuredSiteMonth.sites.0.domain.long}}"
+                  target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a></b> in {{featuredSiteMonth.sites.0.location.detailed}}, <br responsive="mobile-hide">recently launched&nbsp;{{featuredSiteMonth.sites.0.possessiveAdjective}} <b><a href="{{{@root.featuredSiteMonthJustiaLink}}}"
+                      target="_blank">Justia Elevate</a></b> website:
+                <b class="website"><a href="{{featuredSiteMonth.sites.0.domain.long}}"
+                  target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
+              </p>
+            </div>
+            <div class="devices{{#unless @root.setDescription}} -last{{/unless}}">
+              <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
+                {{>img
+                src=featuredSiteMonth.sites.0.screenshots
+                alt=featuredSiteMonth.sites.0.clientName
+              }}
+              </a>
+            </div>
+          </div>
+
+          {{#if @root.setDescription}}
+          {{!--
+          // TODO: Maybe move title and description to a component.
+          --}}
+            {{#each featuredSiteMonth.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          {{/if}}
+
+          {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          {{#if @root.widgetWithButton}}
+            <div class="widget-button">
+              {{#uiButton presetStyle=featuredSiteMonth.button.style href=@root.featuredSiteMonthButtonLink}}
+                {{featuredSiteMonth.button.text}}
+              {{/uiButton}}
+            </div>
+          {{/if}}
+
+        </div>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if listSites}}
+    <tr>
+      <td class="sites-list-description" responsive="mobile-padding-horizontal-sides">
+        <p>The following clients recently launched their sites with Justia.</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="sites-list" responsive="mobile-padding-horizontal-sides">
+        {{#forEach featuredSiteMonth.sites}}
+          {{#table align="" class=(concat "site-item -site-" index)}}
+            <tr>
+              <td class="devices{{#if isLast}} -last{{/if}}" responsive="mobile-hide">
+                <a href="{{this.domain.long}}" target="_blank">
+                  {{>img
+                    src=this.thumbnail
+                    alt=this.clientName
+                  }}
+                </a>
+              </td>
+              <td class="client-info{{#if isLast}} -last{{/if}}" responsive="collapse-one mobile-align-center {{#unless isLast}} mobile-padding-30-bottom{{else}} mobile-no-padding-bottom{{/unless}}">
+                <p class="name" responsive="mobile-fz-18">
+                  <b>{{{this.clientName}}}</b>
+                </p>
+                <p class="location">in {{this.location.short}}</p>
+                <p class="website">
+                  <a href="{{this.domain.long}}" target="_blank">{{this.domain.simple}}</a>
+                </p>
+              </td>
+            </tr>
+          {{/table}}
+        {{/forEach}}
+      </td>
+    </tr>
+  {{/if}}
+{{/table}}

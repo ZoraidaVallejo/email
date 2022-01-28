@@ -1,0 +1,60 @@
+// ----------------------------------------------------------------------------------------------------------
+// A S K   A   L A W Y E R   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-answers-leaderboard {
+
+    .content {
+        background-color: #f2f4f8;
+        padding: 0px;
+        margin-bottom: 20px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .ranking-list {
+        padding: 0 $padding grid-unit();
+
+        .cell {
+            padding: 0;
+        }
+
+        .photo,
+        .photo img {
+            width: 100px;
+        }
+
+        .info {
+            padding: 0 40px 0 30px;
+
+            a {
+                color: plt('black');
+            }
+
+            .name {
+                @include mail-font(20px, 1);
+                margin: 0 0 7px;
+            }
+
+            .location {
+                @include mail-font(14px, 1);
+            }
+        }
+
+        .ranking {
+            width: 70px;
+            padding:0 10px 0 0;
+
+            p {
+                @include mail-font(32px, 1, tp('weight', 'normal'));
+                margin: 0 10px 0 0;
+                border: 2px solid plt('justia-blue');
+                color: plt('justia-blue');
+                padding: 6px;
+                border-radius: 50%;
+                width: 100%;
+                text-align: center;
+                max-width: 33px;
+            }
+        }
+    }
+}
