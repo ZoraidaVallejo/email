@@ -31,12 +31,15 @@
     * @param {string} justiaDesk.utm.jld.content.button
 }}
 
-{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars))}}
+{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+{{assign "onwardSub" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
 {{assign "columnStructure" (chunks justiaDesk.news 2 true)}}
 
-{{#and justiaDesk.link (compare justiaDesk.link "!==" "")}}
-  {{assign "justiaDeskTitleLink" (concat justiaDesk.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
-  {{assign "justiaDeskImageLink" (concat justiaDesk.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{#and justiaDesk.button (compare justiaDesk.button.link "!==" "")}}
+  {{assign "justiaDeskButtonLink" (concat justiaDesk.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
 {{/and}}
 
 {{! ================================================================================================================= }}
@@ -59,8 +62,8 @@
     <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <div class="widget-wrapper">
 
-          <div class="-subscribe" responsive="mobile-padding-horizontal-sides">
-            <p>Want instant updates? Justia Connect members can <a href="https://onward.justia.com/subscribe/{{@root.onwardSub}}" target="_blank">subscribe now</a></p>
+          <div class="-subscribe">
+            <p>Want instant updates? Justia Connect members can <a href="https://onward.justia.com/subscribe/{{@root.onwardSub}}" target="_blank">subscribe now.</a></p>
           </div>
 
           {{>widget-banner

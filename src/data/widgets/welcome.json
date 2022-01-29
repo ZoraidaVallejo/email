@@ -1,12 +1,12 @@
 {
   "clients": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Client Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://connect.justia.com/' target='_blank'>Justia Connect</a> Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor."
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-02&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Learn our tips for using online tools to expand your network and discover common grammar mistakes to avoid when working on your next law firm blog post. Explore recent legal and technology news over the past month and check out the latest news from behind the scenes at Justia."
     ],
     "button": {
       "style": "justia-blue-ghost",
@@ -16,23 +16,22 @@
     }
   },
   "jld": {
-    "banner": "welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Monthly Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
-      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-02&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Learn our tips for using online tools to expand your network and discover common grammar mistakes to avoid when working on your next law firm blog post. Explore recent legal and technology news over the past month and check out the latest news from behind the scenes at Justia."
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/marketing/",
+      "link": "",
       "text": "Learn More",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
+        "source": "insights-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }

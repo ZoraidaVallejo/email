@@ -3,7 +3,7 @@
     "icon": "featured-news",
     "header": "Featured News"
   },
-  "link": "https://onward.justia.com/",
+  "link": "https://onward.justia.com/7-tips-for-optimizing-youtube-videos-for-seo-and-conversions/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-onward-post-title-1",
         "image": "image-onward-post-1",
@@ -27,14 +27,13 @@
     }
   },
   "banner": "featured-news-01.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "title": "7 Tips for Optimizing YouTube Videos for SEO and Conversions",
   "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+    "As video marketing increases in popularity, it is important to optimize your content for better rankings and increased conversions. Check out this post for seven tips that can help you do both."
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "https://onward.justia.com/",
+    "link": "https://onward.justia.com/7-tips-for-optimizing-youtube-videos-for-seo-and-conversions/",
     "text": "Read More"
   }
 }

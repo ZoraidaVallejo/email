@@ -4,7 +4,7 @@
       "icon": "did-you-know",
       "header": "Did You Know?"
     },
-    "banner": "default-icon.png",
+    "banner": "did-you-know-icon.png",
     "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
     "link": "https://www.justia.com/",
     "description": [
@@ -22,7 +22,7 @@
       "icon": "did-you-know",
       "header": "Did You Know?"
     },
-    "banner": "default-icon.png",
+    "banner": "did-you-know-icon.png",
     "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
     "link": "https://www.justia.com/marketing/",
     "description": [
@@ -35,7 +35,7 @@
       "text": "Learn More",
       "utm": {
         "medium": "email",
-        "source": "directory-newsletter",
+        "source": "insights-newsletter",
         "campaign": "<%= dateFormat.dash %>",
         "content": "section-did-you-know-learn-more-button-v1"
       }

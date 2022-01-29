@@ -7,7 +7,7 @@
     background-color: plt('white');
 
     .widget-banner {
-        padding: 0 0 grid-unit(0.7);
+        padding: 0 0 grid-unit(0.4);
 
         img {
             width: 100%;
@@ -16,10 +16,10 @@
 
     .widget-description {
         text-align: center;
-        padding: 25px $padding grid-unit();
 
         &.-top {
-            background-color: #f4f5f9;
+            background-color: #e2ecf9;
+            padding: 15px 30px 10px;
         }
 
         .content-title {
@@ -39,11 +39,16 @@
         p,
         a {
             text-align: left;
-            color: plt('black');
+        }
+
+        a {
+            color: plt('justia-blue');
+            font-weight: get('font.weight.bold');
         }
 
         p {
             margin: 0 0 grid-unit(0.5);
+            color: plt('black');
 
             &:last-child {
                 margin: 0 0;

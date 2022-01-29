@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-covid-19-title-1",
         "image": "image-covid-19-block-1",

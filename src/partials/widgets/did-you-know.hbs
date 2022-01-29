@@ -26,13 +26,6 @@
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
-        {{#if widgetConfig.title}}
-          <h3 class="content-title">
-            {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
-              {{{widgetConfig.title}}}
-            {{#if widgetConfig.link}}</a>{{/if}}
-          </h3>
-        {{/if}}
 
         {{>widget-banner
           widgetClass="banner-icon"
@@ -40,6 +33,14 @@
           imgAlt=widgetConfig.title
           link="#"
         }}
+
+        {{#if widgetConfig.title}}
+        <h3 class="content-title">
+          {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
+            {{{widgetConfig.title}}}
+          {{#if widgetConfig.link}}</a>{{/if}}
+        </h3>
+      {{/if}}
 
         {{#each widgetConfig.description}}
           <p>{{{this}}}</p>

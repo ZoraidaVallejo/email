@@ -28,10 +28,11 @@
     }
 
     .image {
-        padding: 0 $padding;
+        padding: 0 $padding grid-unit();
 
         img {
             width: $inner-max-width;
+            border-radius: 10px;
         }
     }
 

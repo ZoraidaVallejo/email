@@ -4,6 +4,7 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
+    "banner": "tip-of-the-month.png",
     "title": "[Esse est velit ea officia sunt consectetur exercitation veniam Lorem veniam ad nisi enim.]",
     "description": [
       "[Adipisicing quis incididunt qui excepteur. Magna ad enim commodo excepteur magna. Aute qui cillum officia veniam culpa laborum velit.]"
@@ -20,15 +21,15 @@
       "icon": "tip-of-the-month",
       "header": "Tip of the Month"
     },
-    "title": "[Id ipsum dolor ipsum quis minim irure exercitation anim voluptate ullamco est aliquip.]",
+    "banner": "tip-of-the-month.png",
+    "title": "Submit a DBA for Your LSAs",
     "description": [
-      "[Consequat commodo et irure deserunt sunt fugiat. Nostrud amet adipisicing nisi laborum commodo. Excepteur magna excepteur qui laborum cillum nulla consectetur esse deserunt voluptate anim. Ex ad voluptate ea irure duis eiusmod elit elit eu duis Lorem non.]",
-      "[Aute labore esse commodo irure dolore mollit aute minim dolore ullamco. Aute sint laboris mollit mollit mollit ut nisi laboris culpa ex eu tempor consectetur incididunt. Sint ex mollit ad laboris ut sunt ut non consectetur cupidatat quis aliquip eiusmod. Consequat irure cupidatat officia Lorem.]"
+      "In late 2021, Google announced it is ramping up its enforcement of requirements designed to ensure that businesses utilizing its Local Services Ads (LSAs) are advertising under names that belong to them. Thus, if you operate your law firm under a name that differs from your registered business name, you must submit a DBA to avoid any problems with your LSAs."
     ],
     "button": {
       "style": "red",
-      "link": "https://www.justia.com/",
-      "text": "Learn How",
+      "link": "https://onward.justia.com/icymi-submit-a-dba-for-google-local-services-ads/?utm_medium=email&utm_campaign=2022-02&utm_source=insights-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Learn More",
       "width": 150
     }
   }
