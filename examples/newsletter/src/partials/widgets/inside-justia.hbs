@@ -16,7 +16,11 @@
 
     {{#each insideJustia.columns}}
 
-      {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt}}
+      {{#if this.readMore}}
+        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link=this.readMore}}
+      {{else}}
+        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link="#"}}
+      {{/if}}
 
       {{!--
       // TODO: Maybe move title and description to a component.

@@ -15,12 +15,17 @@
                 margin: 0 0 10px;
 
                 a {
-                    color: plt('black');
+                    color: plt('justia-blue');
                 }
             }
 
             .location {
                 margin: 0;
+
+                a,
+                b {
+                    color: plt('justia-blue');
+                }
             }
         }
 

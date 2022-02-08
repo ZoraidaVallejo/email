@@ -20,11 +20,17 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive client newslett
 
         {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
 
+        {{>justia-desk widgetUtmVars=justiaDesk.utm.clients}}
+
+        {{>webmaster widgetUtmVars=webmaster.utm.clients}}
+
         {{>tip-month widgetConfig=tipMonth.clients}}
+
+        {{>trending-news}}
 
         {{>tech-news}}
 
-        {{>featured-site-month singleSite=true}}
+        {{>featured-site-month singleSite=true widgetUtmVars=featuredSiteMonth.utm.clients}}
 
         {{>seo-news}}
 

@@ -38,6 +38,10 @@
         .source {
             margin: 10px 0 25px;
 
+            a {
+                font-weight: get('font.weight.bold');
+            }
+
             &:last-child {
                 margin: 0;
             }

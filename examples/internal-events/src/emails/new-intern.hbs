@@ -1,0 +1,60 @@
+---
+subject: Welcoming our new team member, [NAME]!
+---
+
+{{>preheader text="Please join us in welcoming Lucia to Justia! ---- "}}
+
+{{#table align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.newIntern}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{#table class="widget set-max-width"}}
+          <tr>
+            <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+              {{#table class="w-new-employee set-max-width"}}
+                <tr>
+                  <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Welcome to Justia!</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="image align-center" responsive="mobile-padding-horizontal-sides">
+                    {{>img src="new-team-member.png" alt="New Employee"}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
+                    <p class="persons-name">
+                      <strong>[NAME]</strong>
+                      <br>
+                      <strong>[TEAM]</strong>
+                    </p>
+                    <p>
+                      [DESCRIPTION]
+                      <br>
+                      <br>
+                      Contact information:
+                      <br>
+                      <strong>email/IM:</strong> <strong><a href="mailto:[EMAIL]" target="_blank">[EMAIL]</a></strong>
+                      <br>
+                      <br>
+                      Welcome [NAME]! Expect to be learning a lot and having some fun.
+                      <br>
+                      <br>
+                      The Justia Team
+                    </p>
+                  </td>
+                </tr>
+              {{/table}}
+            </td>
+          </tr>
+        {{/table}}
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+{{/table}}

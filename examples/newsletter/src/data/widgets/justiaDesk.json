@@ -1,0 +1,46 @@
+{
+    "widget": {
+      "icon": "justia-desk",
+      "header": "From the Desk of Justia"
+    },
+    "news": [
+      {
+        "title": "[Title]",
+        "link": "https://www.justia.com/",
+        "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]",
+        "index": "1"
+      },
+      {
+        "title": "[Title]",
+        "link": "https://www.justia.com/",
+        "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]",
+        "index": "2"
+      },
+      {
+        "title": "[Title]",
+        "link": "https://www.justia.com/",
+        "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]",
+        "index": "3"
+      },
+      {
+        "title": "[Title]",
+        "link": "https://www.justia.com/",
+        "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]",
+        "index": "4"
+      }
+    ],
+    "utm": {
+      "clients": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "client-newsletter",
+        "content": "text-justia-desk-title-"
+      },
+      "jld": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "directory-newsletter",
+        "content": "text-justia-desk-title-"
+      }
+    }
+  }
