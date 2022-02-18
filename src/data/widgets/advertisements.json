@@ -84,6 +84,84 @@
           ]
         }
       ]
+    },
+    "ad3": {
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "price-change-reminder-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Justia Gold Placement prices are <strong>increasing by</strong> <strong class=\"heading4\">25%</strong> in just <strong>5 days!</strong> This is your last chance to take advantage of 2021 rates and increase your visibility in the <strong>Justia Lawyer Directory</strong> before the March 1st increase.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Save Now",
+            "width": 160,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:+888-587-8421\"><strong>(888) 587-8421</strong></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad4": {
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "price-change-reminder-graphic-02.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Justia Gold Placement prices are <strong>increasing by</strong> <strong class=\"heading4\">25%</strong> in just <strong>5 days!</strong>  As a valued Justia client, we want to be sure you do not miss out on this opportunity to increase your visibility with additional <strong>Justia Gold Placements</strong> before prices increase* on March 1st.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Contact Us Now",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:+888-587-8421\"><strong>(888) 587-8421</strong></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<i>*These new prices apply to additional <strong>Justia Gold Placements</strong>. The prices for your current placements will not be affected by the March 1, 2022 increase.</i>"
+          ]
+        }
+      ]
     }
   }
 }
