@@ -1,39 +1,18 @@
 {
   "widget": {
     "icon": "client-in-the-news",
-    "header": "Clients in the News"
+    "header": "Justia Connect Members in the News"
   },
   "columns": [
     {
       "image": {
         "src": "clients-news-logo-01.png",
-        "alt": "[Id commodo deserunt aute veniam non cupidatat.]"
+        "alt": "Attorney Matthew Barhoma appeared on ABC7 LA"
       },
       "description": [
-        "[<b>Dolor labore do id tempor</b> aliquip dolor qui tempor et cillum nisi fugiat. Culpa enim nostrud ad veniam dolore fugiat nostrud occaecat.]"
+        "Attorney Matthew Barhoma appeared on ABC7 LA on how his client will be freed after 27 years in prison."
       ],
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Exercitation aute laborum amet exercitation veniam.]"
-      },
-      "description": [
-        "[Eiusmod incididunt velit nostrud <b>elit anim ex exercitation</b> ipsum velit mollit.]"
-      ],
-      "readMore": "https://www.justia.com/"
-    },
-    {
-      "image": {
-        "src": "clients-news-logo-01.png",
-        "alt": "[Sit minim sit est sint adipisicing.]"
-      },
-      "description": [
-        "[Sunt labore exercitation elit ipsum nisi cillum labore do.]",
-        "[Excepteur commodo <b>aliquip ad in dolore mollit</b> enim ex elit veniam Lorem.]"
-      ],
-      "readMore": "https://www.justia.com/"
+      "readMore": "https://www.youtube.com/watch?v=6a_1k2mhOnA"
     }
   ]
 }

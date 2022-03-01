@@ -1,5 +1,5 @@
 {{! ================================================================================================================= }}
-{{! F E A T U R E D   N E W S                                                                                         }}
+{{! W E B M A S T E R ' S                                                                                         }}
 {{! ================================================================================================================= }}
 
 {{!
@@ -34,17 +34,19 @@
     }}
   {{/if}}
 
-  {{>widget-banner
-    imgSrc=webmaster.banner
-    imgAlt=webmaster.title
-    link=@root.webmasterImageLink
-  }}
-
   {{!--
   // TODO: Maybe move title and description to a component.
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+      {{>widget-banner
+        imgSrc=webmaster.banner
+        imgAlt=webmaster.title
+        link=@root.webmasterImageLink
+      }}
+
       <h3 class="content-title">
         <a href="{{{@root.webmasterTitleLink}}}" target="_blank">
           {{{webmaster.title}}}
@@ -54,19 +56,19 @@
       {{#each webmaster.description}}
         <p>{{{this}}}</p>
       {{/each}}
+
+      {{!
+      // TODO: Move to `widget-button` component.
+      }}
+      {{#if @root.widgetWithButton}}
+          <div class="widget-button">
+            {{#uiButton presetStyle=webmaster.button.style href=@root.webmasterButtonLink}}
+              {{webmaster.button.text}}
+            {{/uiButton}}
+          </div>
+      {{/if}}
+
+      </div>
     </td>
   </tr>
-
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=webmaster.button.style href=@root.webmasterButtonLink}}
-          {{webmaster.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
 {{/table}}

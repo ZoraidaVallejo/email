@@ -12,7 +12,20 @@
     }
 
     .custom-description {
-        padding: 0 $padding 25px;
+        padding: 0 $padding 50px;
+
+        // .widget-wrapper {
+        //     border-bottom: 0;
+        //     border-radius: 0;
+        // }
+
+        .title {
+            margin: 0 0 16px;
+
+            &.-last {
+                margin: 0;
+            }
+        }
 
         &.-last {
             padding: 10px $padding $widget-gap;
@@ -24,12 +37,11 @@
 
         .text {
             padding: 0 35px $padding 0;
-            border-bottom: 1px solid plt('justia-blue', 0.1);
 
             p {
                 @include mail-font(18px);
             }
-            
+
             a {
                 color: plt('justia-blue');
             }

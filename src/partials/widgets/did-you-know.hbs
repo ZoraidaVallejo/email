@@ -25,7 +25,16 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#if widgetConfig.title}}
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=widgetConfig.banner
+          imgAlt=widgetConfig.title
+          link="#"
+        }}
+
+        {{#if widgetConfig.title}}
         <h3 class="content-title">
           {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
             {{{widgetConfig.title}}}
@@ -33,22 +42,22 @@
         </h3>
       {{/if}}
 
-      {{#each widgetConfig.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
+        {{#each widgetConfig.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+        // TODO: Move to `widget-button` component.
+        }}
+
+        {{#if @root.widgetWithButton}}
+          <div class="widget-button">
+            {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+              {{widgetConfig.button.text}}
+            {{/uiButton}}
+          </div>
+        {{/if}}
+      </div>
     </td>
   </tr>
-
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
-          {{widgetConfig.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
 {{/table}}

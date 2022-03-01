@@ -27,15 +27,10 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-featured-news set-max-width"}}
+
   {{>widget-header
     header=featuredNews.widget.header
     icon=featuredNews.widget.icon
-  }}
-
-  {{>widget-banner
-    imgSrc=featuredNews.banner
-    imgAlt=featuredNews.title
-    link=@root.featuredNewsImageLink
   }}
 
   {{!--
@@ -43,28 +38,40 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">
-        <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
-          {{{featuredNews.title}}}
-        </a>
-      </h3>
+      <div class="widget-wrapper">
 
-      {{#each featuredNews.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
+        {{>widget-banner
+          imgSrc=featuredNews.banner
+          imgAlt=featuredNews.title
+          link=@root.featuredNewsImageLink
+        }}
+
+        <h3 class="content-title">
+          <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
+            {{{featuredNews.title}}}
+          </a>
+        </h3>
+
+        {{#each featuredNews.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          {{#if @root.widgetWithButton}}
+
+              <div class="widget-button">
+                {{#uiButton presetStyle=featuredNews.button.style href=@root.featuredNewsButtonLink}}
+                  {{featuredNews.button.text}}
+                {{/uiButton}}
+              </div>
+
+          {{/if}}
+      </div>
+
     </td>
   </tr>
 
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=featuredNews.button.style href=@root.featuredNewsButtonLink}}
-          {{featuredNews.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
+
 {{/table}}

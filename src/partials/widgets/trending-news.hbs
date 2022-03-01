@@ -1,5 +1,5 @@
 {{! ================================================================================================================= }}
-{{! I N S I D E   J U S T I A                                                                                         }}
+{{! T R E N D I N G   N E W S                                                                                         }}
 {{! ================================================================================================================= }}
 
 {{!
@@ -11,6 +11,11 @@
     * @param {number}   trendingNews.news[].title
     * @param {string}   trendingNews.news[].link
 }}
+
+{{#and trendingNews.link (compare trendingNews.link "!==" "")}}
+  {{assign "trendingNewsTitleLink" (concat trendingNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "trendingNewsImageLink" (concat trendingNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
 
 {{! ================================================================================================================= }}
 
@@ -30,39 +35,45 @@
 
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=trendingNews.banner
+          imgAlt=trendingNews.title
+          link="#"
+        }}
+
         <p class="subtitle">{{{trendingNews.subtitle}}}</p>
-    </td>
-  </tr>
-    {{#each trendingNews.columns}}
 
-      {{!--
-      // TODO: Maybe move title and description to a component.
-      // TODO: Fix classes for content.
-      --}}
+        {{#each trendingNews.columns}}
+          {{!--
+          // TODO: Maybe move title and description to a component.
+          // TODO: Fix classes for content.
+          --}}
 
-        <tr>
-          <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-            
+          <div class="section -no-button">
+
             {{#if this.colored}}
             <p class="category -{{{this.colored}}}">
                 {{{this.category}}}
-               </p>
+              </p>
             {{else}}
             <p class="category">
                 {{{this.category}}}
-               </p>
+              </p>
             {{/if}}
 
             {{#each this.news}}
             <p class="news">
-              
-                {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
-                    <b>{{{this.title}}}</b>
-                {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+              {{#and this.link (compare this.link "!==" "")}}<a href="{{{this.link}}}" target="_blank">{{/and}}
+                  <b>{{{this.title}}}</b>
+              {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
               </p>
             {{/each}}
-          </td>
-        </tr>
-    {{/each}}
-
+          </div>
+        {{/each}}
+      </div>
+    </td>
+  </tr>
 {{/table}}

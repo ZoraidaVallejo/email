@@ -7,5 +7,18 @@
     .extra-info {
         padding: 0 $padding $widget-gap;
         text-align: center;
+
+        .widget-wrapper {
+            padding: 25px 15px 30px;
+        }
+    }
+
+    .wrapper {
+        padding: 0 30px;
+
+        .widget-wrapper {
+            border-bottom: 0;
+            border-radius: 0;
+        }
     }
 }

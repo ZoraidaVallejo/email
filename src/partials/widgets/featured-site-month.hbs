@@ -28,28 +28,50 @@
   }}
 
   {{#if singleSite}}
-    <tr class="featured-site">
-      <td class="client-info" responsive="mobile-padding-horizontal-sides">
-        <p class="name">
-          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a></b>
-        </p>
-        <p class="location">
-          in {{featuredSiteMonth.sites.0.location.detailed}}, recently launched&nbsp;<br responsive="mobile-hide">
-          {{featuredSiteMonth.sites.0.possessiveAdjective}} <b><a href="{{{@root.featuredSiteMonthJustiaLink}}}" target="_blank">Justia</a></b> website:
-        </p>
-        <p class="website">
-          <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
-        </p>
-      </td>
-    </tr>
-    <tr class="featured-site">
-      <td class="devices{{#unless @root.setDescription}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
-        <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
-          {{>img
-            src=featuredSiteMonth.sites.0.screenshots
-            alt=featuredSiteMonth.sites.0.clientName
+    <tr>
+      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+        <div class="widget-wrapper">
+          <div class="featured-site">
+            <div class="client-info">
+              <p>
+                <b><a href="{{featuredSiteMonth.sites.0.domain.long}}"
+                  target="_blank">{{{featuredSiteMonth.sites.0.clientName}}}</a></b> in {{featuredSiteMonth.sites.0.location.detailed}}, recently launched&nbsp;{{featuredSiteMonth.sites.0.possessiveAdjective}} <b><a href="{{{@root.featuredSiteMonthJustiaLink}}}"
+                      target="_blank">Justia Elevate</a></b> website:
+                <b class="website"><a href="{{featuredSiteMonth.sites.0.domain.long}}"
+                  target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
+              </p>
+            </div>
+            <div class="devices{{#unless @root.setDescription}} -last{{/unless}}">
+              <a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">
+                {{>img
+                src=featuredSiteMonth.sites.0.screenshots
+                alt=featuredSiteMonth.sites.0.clientName
+              }}
+              </a>
+            </div>
+          </div>
+
+          {{#if @root.setDescription}}
+          {{!--
+          // TODO: Maybe move title and description to a component.
+          --}}
+            {{#each featuredSiteMonth.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          {{/if}}
+
+          {{!
+          // TODO: Move to `widget-button` component.
           }}
-        </a>
+          {{#if @root.widgetWithButton}}
+            <div class="widget-button">
+              {{#uiButton presetStyle=featuredSiteMonth.button.style href=@root.featuredSiteMonthButtonLink}}
+                {{featuredSiteMonth.button.text}}
+              {{/uiButton}}
+            </div>
+          {{/if}}
+
+        </div>
       </td>
     </tr>
   {{/if}}
@@ -85,33 +107,6 @@
             </tr>
           {{/table}}
         {{/forEach}}
-      </td>
-    </tr>
-  {{/if}}
-
-
-  {{#if @root.setDescription}}
-    {{!--
-    // TODO: Maybe move title and description to a component.
-    --}}
-    <tr>
-      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-        {{#each featuredSiteMonth.description}}
-          <p>{{{this}}}</p>
-        {{/each}}
-      </td>
-    </tr>
-  {{/if}}
-
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=featuredSiteMonth.button.style href=@root.featuredSiteMonthButtonLink}}
-          {{featuredSiteMonth.button.text}}
-        {{/uiButton}}
       </td>
     </tr>
   {{/if}}

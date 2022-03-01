@@ -11,13 +11,12 @@
 
 {{! ================================================================================================================= }}
 
-
-<div class="{{classList "widget-banner" widgetClass}}">
-    {{#if link}}
-      <a href="{{{link}}}" target="_blank">
-    {{else}}
+<tr>
+  <td class="{{classList "widget-banner" widgetClass}}">
+    {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}
       <a href="#">
-    {{/if}}
         {{>img src=imgSrc alt=imgAlt}}
       </a>
-</div>
+    {{#if link}}</a>{{/if}}
+  </td>
+</tr>

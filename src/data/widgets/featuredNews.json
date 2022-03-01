@@ -3,7 +3,7 @@
     "icon": "featured-news",
     "header": "Featured News"
   },
-  "link": "https://onward.justia.com/",
+  "link": "https://onward.justia.com/justia-qa-5-more-common-questions-about-search-and-seo/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-onward-post-title-1",
         "image": "image-onward-post-1",
@@ -27,14 +27,13 @@
     }
   },
   "banner": "featured-news-01.png",
-  "title": "[Commodo voluptate dolor deserunt qui ut Lorem.]",
+  "title": "Justia Q&A: 5 More Common Questions About Search and SEO",
   "description": [
-    "[Qui ut esse labore fugiat magna et nostrud sit culpa dolore. Elit culpa cupidatat enim tempor dolore pariatur. Eiusmod ex irure aliqua veniam proident nisi amet cillum. Sit aliqua nulla culpa nulla excepteur. Laborum anim adipisicing consequat ex.]",
-    "[Est ea sint eu laborum. Sint sunt pariatur enim fugiat elit ad qui enim. Sint pariatur mollit dolore ipsum veniam et commodo officia.]"
+    "If you want to increase your law firm’s online visibility, you are likely interested in search engine optimization (SEO). Check out this post to learn more about the answers to some common SEO questions we encounter."
   ],
   "button": {
-    "style": "justia-blue",
-    "link": "https://onward.justia.com/",
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/justia-qa-5-more-common-questions-about-search-and-seo/",
     "text": "Read More"
   }
 }

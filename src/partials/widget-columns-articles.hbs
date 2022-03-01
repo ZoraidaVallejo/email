@@ -20,6 +20,7 @@
 
 <tr class="widget-columns -articles ui-columns-grid">
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+    <div class="widget-wrapper">
     {{#table}}
       {{#each @root.columnStructure}}
         {{>ui-columns-grid cellClasses="article" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
@@ -44,5 +45,6 @@
         {{>ui-columns-grid rowEnd=true}}
       {{/each}}
     {{/table}}
+    </div>
   </td>
 </tr>

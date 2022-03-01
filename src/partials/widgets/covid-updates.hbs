@@ -61,27 +61,30 @@
     icon=covidUpdates.widget.icon
   }}
 
-  {{>widget-banner
-    imgSrc=covidUpdates.banner
-    imgAlt=covidUpdates.title
-    link=@root.covidUpdatesImageLink
-  }}
-
   <tr>
     <td class="widget-description" responsive="mobile-padding-horizontal-sides">
-      <h3 class="content-title">
-        <a href="{{{@root.covidUpdatesTitleLink}}}" target="_blank">
-          {{{covidUpdates.title}}}
-        </a>
-      </h3>
+      <div class="widget-wrapper">
 
-      {{#each covidUpdates.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
+        {{>widget-banner
+          imgSrc=covidUpdates.banner
+          imgAlt=covidUpdates.title
+          link=@root.covidUpdatesImageLink
+        }}
 
-      {{#each covidUpdates.list}}
-        <p><b>&bull;  <a href="{{{this.link}}}{{{@root.covidUpdatesListLink}}}{{{this.utm}}}" target="_blank">{{{this.text}}}</a></b></p>
-      {{/each}}
+        <h3 class="content-title">
+          <a href="{{{@root.covidUpdatesTitleLink}}}" target="_blank">
+            {{{covidUpdates.title}}}
+          </a>
+        </h3>
+
+        {{#each covidUpdates.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{#each covidUpdates.list}}
+          <p><b>&bull;  <a href="{{{this.link}}}{{{@root.covidUpdatesListLink}}}{{{this.utm}}}" target="_blank">{{{this.text}}}</a></b></p>
+        {{/each}}
+      </div>
     </td>
   </tr>
 {{/table}}

@@ -1,38 +1,37 @@
 {
   "clients": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Client Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor."
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-03&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Get our answers to some common SEO questions and learn more about the consequences of failing to prioritize web accessibility. Catch up on the legal and technology news that recently made headlines and take a peek at what the Justia team has been up to over the last month."
     ],
     "button": {
-      "style": "justia-blue",
+      "style": "justia-blue-ghost",
       "link": "",
       "text": "Learn More",
       "utm": {}
     }
   },
   "jld": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
+    "banner": "welcome-graphic-01.gif",
     "title": [
-      "Welcome to the <%= dateFormat.string %> Edition",
-      "of the Justia Insights Monthly Newsletter!"
+      "Welcome to Your Justia Insights Newsletter"
     ],
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue porta justo. Donec id efficitur est. Aliquam sagittis mauris sed arcu porttitor tempor.",
-      "Donec condimentum cursus eros sit amet tempus. Aenean scelerisque nisl id leo eleifend, ut vestibulum urna sagittis. Etiam tincidunt nec tortor dignissim dapibus. Etiam rhoncus non purus nec aliquam."
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-03&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Get our answers to some common SEO questions and learn more about the consequences of failing to prioritize web accessibility. Catch up on the legal and technology news that recently made headlines and take a peek at what the Justia team has been up to over the last month."
     ],
     "button": {
-      "style": "justia-blue",
-      "link": "https://www.justia.com/marketing/",
+      "style": "justia-blue-ghost",
+      "link": "",
       "text": "Learn More",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
+        "source": "insights-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }

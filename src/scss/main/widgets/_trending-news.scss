@@ -4,11 +4,6 @@
 
 .w-trending-news {
 
-
-    .widget-description {
-        padding: 10px 30px 35px;
-    }
-
     .subtitle {
         text-align: left;
         font-weight: get('font.weight.normal');
@@ -16,15 +11,23 @@
             display: inline-block;
         }
     }
+    .section {
+        padding: 10px 0 25px;
+
+        &:last-child {
+            padding: 10px 0 0;
+        }
+    }
 
     .category {
-        text-transform: uppercase;
         background-color: plt('dimgray');
         color: plt('white');
         font-weight: get('font.weight.bold');
         display: inline-block;
         padding: 4px 10px;
-        border-radius: 5px;
+        border-radius: 25px;
+        min-width: 50px;
+        text-align: center;
 
         &.-blue {
             background-color: plt('justia-blue')
@@ -39,7 +42,7 @@
             background-color: #ff6b00
         }
         &.-yellow {
-            background-color:#e8ae00
+            background-color:#ffc700
         }
         &.-teal {
             background-color:#3fd5ae

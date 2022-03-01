@@ -25,23 +25,32 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#each jobsSubscribe.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=jobsSubscribe.banner
+          imgAlt=jobsSubscribe.title
+          link="#"
+        }}
+
+        {{#each jobsSubscribe.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+        // TODO: Move to `widget-button` component.
+        }}
+        {{#if @root.widgetWithButton}}
+            <div class="widget-button">
+              {{#uiButton presetStyle=jobsSubscribe.button.style href=jobsSubscribe.button.link}}
+                {{jobsSubscribe.button.text}}
+              {{/uiButton}}
+            </div>
+        {{/if}}
+      </div>
     </td>
   </tr>
 
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=jobsSubscribe.button.style href=jobsSubscribe.button.link}}
-          {{jobsSubscribe.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
 {{/table}}
 

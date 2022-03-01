@@ -41,53 +41,50 @@
 
   <tr>
     <td class="lawyer-info" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#table class="images-group" responsive="mobile-reset-width"}}
+          <tr>
+            <td class="wrapper -photo">
+              {{#if featuredLawyer.featured.photoLink}}<a href="{{{featuredLawyer.featured.photoLink}}}" target="_blank">{{/if}}
+                {{>img src="lawyer-photo-01.jpg" alt=featuredLawyer.featured.name class="photo"}}
+              {{#if featuredLawyer.featured.photoLink}}</a>{{/if}}
+            </td>
+            <td class="wrapper -info">
+              <p class="name">
+                {{#if featuredLawyer.featured.nameLink}}<a href="{{{featuredLawyer.featured.nameLink}}}" target="_blank">{{/if}}
+                  {{{featuredLawyer.featured.name}}}
+                {{#if featuredLawyer.featured.nameLink}}</a>{{/if}}
+              </p>
+              <p class="location">
+                {{#uppercase}}{{featuredLawyer.featured.location}}{{/uppercase}}
+              </p>
+            </td>
+            <td class="wrapper -badge" responsive="mobile-hide mobile-no-padding-horizontal-sides">
+              {{>img src="https://justatic.com/v/20190708/emails/images/newsletters/common/v2/justia-badge.png" alt="Justia Badge" class="badge"}}
+            </td>
+          </tr>
+        {{/table}}
 
-      {{#table class="images-group" responsive="mobile-reset-width"}}
-        <tr>
-          <td class="wrapper -photo">
-            {{#if featuredLawyer.featured.photoLink}}<a href="{{{featuredLawyer.featured.photoLink}}}" target="_blank">{{/if}}
-              {{>img src="lawyer-photo-01.jpg" alt=featuredLawyer.featured.name class="photo"}}
-            {{#if featuredLawyer.featured.photoLink}}</a>{{/if}}
-          </td>
-          <td class="wrapper -badge">
-            {{>img src="https://justatic.com/v/20190708/emails/images/newsletters/common/v2/justia-badge.png" alt="Justia Badge" class="badge"}}
-          </td>
-        </tr>
-      {{/table}}
+          {{!--
+          // TODO: Maybe move title and description to a component.
+          --}}
+          {{#each featuredLawyer.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
 
-      <p class="name">
-        {{#if featuredLawyer.featured.nameLink}}<a href="{{{featuredLawyer.featured.nameLink}}}" target="_blank">{{/if}}
-          {{{featuredLawyer.featured.name}}}
-        {{#if featuredLawyer.featured.nameLink}}</a>{{/if}}
-      </p>
-
-      <p class="location">
-        {{#uppercase}}{{featuredLawyer.featured.location}}{{/uppercase}}
-      </p>
+          {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          {{#if @root.widgetWithButton}}
+            <div class="widget-button">
+              {{#uiButton presetStyle=featuredLawyer.button.style href=featuredLawyer.button.link width=featuredLawyer.button.width}}
+                {{featuredLawyer.button.text}}
+              {{/uiButton}}
+            </div>
+          {{/if}}
+      </div>
     </td>
   </tr>
 
-  {{!--
-  // TODO: Maybe move title and description to a component.
-  --}}
-  <tr>
-    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      {{#each featuredLawyer.description}}
-        <p>{{{this}}}</p>
-      {{/each}}
-    </td>
-  </tr>
 
-  {{!
-  // TODO: Move to `widget-button` component.
-  }}
-  {{#if @root.widgetWithButton}}
-    <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=featuredLawyer.button.style href=featuredLawyer.button.link}}
-          {{featuredLawyer.button.text}}
-        {{/uiButton}}
-      </td>
-    </tr>
-  {{/if}}
 {{/table}}

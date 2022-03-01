@@ -1,0 +1,49 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   I M A G E S   I N   C O L U M N S                                                           }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object[]} widgetConfig
+ * @param {string} widgetConfig[].image
+ * @param {string} widgetConfig[].link
+ * @param {string} widgetConfig[].description
+ * @param {boolean} [isFirst]
+ * @param {boolean} [isLast]
+}}
+
+{{assign "columnStructure" (chunks widgetConfig 1 true)}}
+
+{{! ================================================================================================================= }}
+
+<tr class="widget-columns -image-text ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+    <div class="widget-wrapper">
+    {{#table}}
+
+        {{#each @root.columnStructure}}
+        {{#forIn this}}
+          <tr class="content-wrapper -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
+            <td class="content -image-description" responsive="mobile-padding-horizontal-sides">
+              <div class="content-side -image" responsive="collapse-one mobile-padding-bottom">
+                {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+                  {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+                {{#if readMore}}</a>{{/if}}
+              </div>
+              <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                {{#each this.description}}
+                  <p>{{{this}}}</p>
+                {{/each}}
+              </div>
+            </td>
+          </tr>
+        {{/forIn}}
+      {{/each}}
+
+    {{/table}}
+  </div>
+  </td>
+</tr>

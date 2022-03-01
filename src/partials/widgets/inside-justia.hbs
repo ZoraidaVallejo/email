@@ -13,37 +13,38 @@
   }}
 
   {{#if insideJustia.singleColumn}}
+  <tr>
+    <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#each insideJustia.columns}}
 
-    {{#each insideJustia.columns}}
+        {{#if this.readMore}}
+          {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link=this.readMore}}
+        {{else}}
+          {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link="#"}}
+        {{/if}}
 
-      {{#if this.readMore}}
-        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link=this.readMore}}
-      {{else}}
-        {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt link="#"}}
-      {{/if}}
+        {{!--
+        // TODO: Maybe move title and description to a component.
+        // TODO: Fix classes for content.
+        --}}
 
-      {{!--
-      // TODO: Maybe move title and description to a component.
-      // TODO: Fix classes for content.
-      --}}
-      <tr>
-        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-          <h3 class="content-title">
-            {{{this.blockTitle}}}
-          </h3>
-          {{#if this.blockSubtitle}}
-            <p class="content-subtitle">
-              {{{this.blockSubtitle}}}
-            </p>
-          {{/if}}
-          {{#each this.description}}
-            <p>{{{this}}}</p>
-          {{/each}}
-        </td>
-      </tr>
-    {{/each}}
-
+        <h3 class="content-title">
+          {{{this.blockTitle}}}
+        </h3>
+        {{#if this.blockSubtitle}}
+          <p class="content-subtitle">
+            {{{this.blockSubtitle}}}
+          </p>
+        {{/if}}
+        {{#each this.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      {{/each}}
+      </div>
+    </td>
+  </tr>
   {{else}}
-    {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
+      {{>widget-columns-with-image widgetConfig=insideJustia.columns isLast=true}}
   {{/if}}
 {{/table}}

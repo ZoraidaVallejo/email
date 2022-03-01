@@ -3,6 +3,7 @@
     "icon": "trending-news",
     "header": "Trending News"
   },
+  "banner": "trending-icon.png",
   "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
   "columns": [
     {
@@ -10,20 +11,20 @@
       "colored": "green",
       "news": [
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Super Bowl ads boosted crypto app downloads by 279%, led by Coinbase",
+          "link": "https://techcrunch.com/2022/02/17/super-bowl-ads-boosted-crypto-app-downloads-by-279-led-by-coinbase/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Spotify acquires two more companies to become a podcasting juggernaut",
+          "link": "https://arstechnica.com/gadgets/2022/02/spotify-acquires-two-more-companies-to-become-a-podcasting-juggernaut/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Elon Musk accuses SEC of conducting a ‘harassment campaign’",
+          "link": "https://techcrunch.com/2022/02/17/elon-musk-accuses-sec-of-conducting-a-harassment-campaign/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "New bill would require companies like Facebook, Google to add features that protect children ",
+          "link": "https://www.cnbc.com/2022/02/16/new-bill-would-require-facebook-google-and-others-to-protect-children.html"
         }
       ]
     },
@@ -32,20 +33,20 @@
       "colored": "orange",
       "news": [
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Top 7 SEO Benefits Of Responsive Web Design",
+          "link": "https://www.searchenginejournal.com/responsive-design-seo-benefits/423605/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Google’s Broad Core Updates And The Difference Between Relevancy Adjustments, Intent Shifts, And Overall Site Quality Problems",
+          "link": "https://www.gsqi.com/marketing-blog/google-broad-core-updates-difference-between-relevancy-adjustments-intent-shifts-overall-site-quality/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Google: No Mechanism To Force Title Tag Changes Even For Legal Reasons",
+          "link": "https://www.seroundtable.com/google-title-tag-changes-legal-reasons-32861.html"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "The Complete Guide To Google Business Profile Reviews",
+          "link": "https://www.searchenginejournal.com/google-business-profile-reviews/434849/"
         }
       ]
     },
@@ -54,20 +55,20 @@
       "colored": "yellow",
       "news": [
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Instagram Rolls Out Updates To Live Videos & Remixes",
+          "link": "https://www.searchenginejournal.com/instagram-rolls-out-updates-to-live-videos-remixes/435246/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "YouTube Giving Creators More Ways To Make Money",
+          "link": "https://www.searchenginejournal.com/youtube-giving-creators-more-ways-to-make-money/437453/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Snapchat Partners With Ticketmaster to Match Users With Live Events Near Them",
+          "link": "https://techcrunch.com/2022/02/16/snapchat-partners-with-ticketmaster-to-match-users-with-live-events-near-them/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Twitter now lets you pin up to 6 DM conversations",
+          "link": "https://techcrunch.com/2022/02/17/twitter-now-lets-you-pin-up-to-6-dm-conversations/"
         }
       ]
     },
@@ -76,20 +77,20 @@
       "colored": "teal",
       "news": [
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "7th Circuit Upholds Dismissal of Lawyer’s Lawsuit Over Negative Online Reviews",
+          "link": "https://news.justia.com/7th-circuit-upholds-dismissal-of-lawyers-lawsuit-over-negative-online-reviews/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Lawyer Kicked Off LinkedIn for Alleged Self-Promotional Posts Loses Appeal of Consumer Fraud Case",
+          "link": "https://www.abajournal.com/news/article/lawyer-kicked-off-linkedin-for-alleged-self-promotional-posts-loses-appeal/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Google And The Right To Be Forgotten",
+          "link": "https://www.searchenginejournal.com/google-and-the-right-to-be-forgotten/438501/"
         },
         {
-          "title": "[Labore nulla cillum exercitation laborum do eiusmod.]",
-          "link": "https://www.justia.com/"
+          "title": "Fed Restricts Central Bank Officials’ Stock And Crypto Trades After High-Profile Resignations ",
+          "link": "https://www.forbes.com/sites/jonathanponciano/2022/02/18/fed-restricts-central-bank-officials-stock-and-crypto-trades-after-high-profile-resignations/?sh=4420780a5b8b"
         }
       ]
     }

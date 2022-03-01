@@ -18,31 +18,41 @@
 
   <tr>
     <td class="custom-description" responsive="mobile-padding-horizontal-sides">
-      {{#table}}
-        <tr>
-          <td class="text" responsive="mobile-no-padding-horizontal-sides">
-            <p>{{{jurispro.description}}}</p>
-          </td>
-          <td class="thumb" responsive="mobile-hide">
-            <a href="https://www.jurispro.com/" target="_blank">
-              {{>img
-                src="https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png"
-                alt=jurispro.widget.header
-              }}
-            </a>
-          </td>
-        </tr>
-      {{/table}}
+
+     <div class="widget-wrapper">
+        <div class="text" responsive="mobile-padding-horizontal-sides">
+          <p>{{{jurispro.description}}}</p>
+        </div>
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=jurispro.banner
+          imgAlt=jurispro.widget.header
+          link="https://www.jurispro.com/"
+        }}
+
+
+          {{#forEach jurispro.cases}}
+            <div class="content">
+              {{#table}}
+                <p class="title {{#if isLast}} -last{{/if}}">
+                  {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
+                  <b>{{{this.title}}}</b>
+                  {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                </p>
+              {{/table}}
+            </div>
+          {{/forEach}}
+
+
+     </div>
     </td>
   </tr>
 
-  {{>widget-columns-articles widgetConfig=jurispro.cases}}
 
-  <tr>
-    <td class="custom-description -last" responsive="mobile-padding-horizontal-sides">
-      <p>
-        Learn how to research experts here: <b><a href="https://www.jurispro.com/ExpertWitnessWhitePaper" target="_blank">JurisPro Expert Witness White Paper</a></b>
-      </p>
-    </td>
-  </tr>
+
+
+
+
+
 {{/table}}

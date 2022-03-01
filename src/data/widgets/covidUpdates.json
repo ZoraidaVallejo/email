@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "directory-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-covid-19-title-1",
         "image": "image-covid-19-block-1",
@@ -26,7 +26,7 @@
       }
     }
   },
-  "banner": "featured-covid-01.jpg",
+  "banner": "featured-news-01.png",
   "title": "Laws and Legal Resources Related to Coronavirus",
   "description": [
     "Stay up to date on the latest legal developments arising from the COVID-19 pandemic, including changes associated with employment law, evictions and foreclosures, business assistance, taxes, immigration, debts & bankruptcy, criminal proceedings, family law, and personal injury cases. We have also assembled 50-state resources on coronavirus and the law regarding topics including the following:"
