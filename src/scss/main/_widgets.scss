@@ -142,22 +142,25 @@
     &.-image-text {
 
         .content {
-            padding: 0 0 25px;
+            padding: 0;
 
             .content-side {
-                width: 255px;
+                width: 260px;
 
                 .block-image {
-                    width: 255px;
+                    width: 190px;
                     margin: 0 auto;
+
                 }
 
                 &:first-child {
                     float: left;
+                    width: 190px;
                 }
 
                 &:last-child {
                     float: right;
+                    padding: 20px 0 0;
                 }
             }
         }

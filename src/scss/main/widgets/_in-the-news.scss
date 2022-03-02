@@ -5,12 +5,22 @@
 .w-in-the-news {
 
     .extra-info {
-        padding: 0 $padding $widget-gap;
+
+        padding: 0 30px 50px;
+        display: block;
         text-align: center;
 
         .widget-wrapper {
-            padding: 25px 15px 30px;
+            padding: 25px 15px 0px;
+
+            &.-bottom {
+                padding: 0 15px 30px;
+            }
         }
+    }
+
+    .readmore{
+        display: inline-block;
     }
 
     .wrapper {

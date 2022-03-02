@@ -35,7 +35,9 @@
               </div>
               <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                 {{#each this.description}}
-                  <p>{{{this}}}</p>
+                  <p>{{{this}}}{{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+                    <b><a href="{{{../readMore}}}" target="_blank" class="readmore">Watch Now ›</a></b>
+                  {{/and}}</p>
                 {{/each}}
               </div>
             </td>
