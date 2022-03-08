@@ -1,0 +1,88 @@
+// ----------------------------------------------------------------------------------------------------------
+// Announcement
+// ----------------------------------------------------------------------------------------------------------
+$icon-space: 110px;
+$max-box-size: 500px;
+
+.w-announcement {
+    max-width: 600px;
+    height: 68px;
+    background-color: #fff;
+
+    img {
+        max-width: 72px;
+        margin: 20px auto;
+        padding: 0 0 0 ($icon-space/2 - 15 );
+        // float: left;
+    }
+
+    p {
+        // float: right;
+        padding: 20px 15px;
+        margin: 0;
+        text-align: left;
+    }
+
+    strong {
+        color: #000;
+
+    }
+
+    a {
+        color: #06357a;
+        b {
+            display: inline-block;
+        }
+        strong {
+            color: #000;
+        }
+    }
+
+    p strong {
+        display: inline-block;
+
+    }
+
+    .top-icon {
+        vertical-align: top;
+        float: left;
+    }
+
+    .content {
+        float: right;
+        width: calc(100% - #{$icon-space + 5});
+    }
+
+    .border{
+        border: solid plt('black');
+        border-width: 3px 0 0 0;
+        max-width: $max-box-size;
+        margin: 0 auto 25px;
+        display: block;
+    }
+
+    .announcement-content {
+        // display: block;
+        max-width: $max-box-size;
+        // margin: 0px auto;
+        padding:  0 50px;
+
+        table {
+            background-color: #e5eaee;
+        }
+
+        p {
+            @include mail-font(18px);
+
+            strong {
+                @include mail-font(20px);
+                font-weight: get('font.weight.bold');
+            }
+        }
+    }
+
+    .top-button a {
+        margin: 0 15px 20px;
+    }
+}
+

@@ -1,0 +1,50 @@
+
+{{#table class="widget w-announcement"}}
+  <tr>
+    <td class="announcement-wrapper" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="announcement-content" responsive="collapse-one mobile-padding-uneven-bottom">
+
+            {{#table}}
+              <tr>
+                <td>
+                    <img src="../dist/images/megaphone.png" alt="Announcement">
+                </td>
+                <td>
+                    <p>Introducing Our New <a href="" target="_blank"><strong>Dashboard</strong></a> and Enhanced <a href="" target="_blank"><strong>Editor</strong></a> for Your Justia Lawyer Directory Profile. <a href="" target="_blank"><b>Learn More.</b></a></p>
+
+                    {{#compare this.type "===" "button"}}
+                    <tr>
+                      <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                        {{#uiButton
+                          href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                          presetStyle=this.config.style
+                          width=this.config.width
+                          height=this.config.height
+                          borderColor=this.config.borderColor
+                          backgroundColor=this.config.backgroundColor
+                          fontColor=this.config.fontColor
+                          fontStyle=this.config.fontStyle
+                          fontWeight=this.config.fontWeight
+                          fontSize=this.config.fontSize
+                          responsive=this.config.responsive
+                        }}
+                          {{{this.config.text}}}
+                        {{/uiButton}}
+                      </td>
+                    </tr>
+                  {{/compare}}
+
+                </td>
+              </tr>
+
+            {{/table}}
+
+          </td>
+
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+{{/table}}
