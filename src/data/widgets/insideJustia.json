@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Celebrating Employee Appreciation Day"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Celebrating Employee Appreciation Day</b>",
+      "description": [
+        "March 4 was Employee Appreciation Day, and we wanted to show our talented team a little extra love. Justians, their families, and even their furry friends enjoyed a surprise delivery of new beanies!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Zoey the Social Butterfly"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Zoey the Social Butterfly</b>",
+      "description": [
+        "As Zoey grows, her friendly, playful nature continues to grow too. She loves greeting new friends while on her walks and enjoys a good playdate even more!"
+      ]
+    }
+  ]
+}

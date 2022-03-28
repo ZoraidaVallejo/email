@@ -1,0 +1,106 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon.png",
+  "news": [
+    {
+      "title": "Featured Justia Resources: Landlord-Tenant Law Center",
+      "link": "https://onward.justia.com/featured-justia-resources-landlord-tenant-law-center/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Landlord-Tenant Law Center.",
+      "index": "1"
+    },
+    {
+      "title": "7 Tips for Posting on Social Media That You Can Learn From Other Law Firms",
+      "link": "https://onward.justia.com/7-tips-for-posting-on-social-media-that-you-can-learn-from-other-law-firms/",
+      "description": "Social media is a great tool for marketing your practice while building a community. Read this post for seven lessons on creating posts from law firms that actively use social networks to market their practices.",
+      "index": "2"
+    },
+    {
+      "title": "Justia Ask A Lawyer By the Numbers: Fourth Quarter 2021",
+      "link": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-fourth-quarter-2021/",
+      "description": "We kicked off 2022 by checking out our data from 2021. Take a look at this post for the latest info about trends on the Justia Ask A Lawyer forum last year.",
+      "index": "3"
+    },
+    {
+      "title": "Google Page Experience Update for Desktop Is Now Fully Rolled Out",
+      "link": "https://onward.justia.com/google-page-experience-update-for-desktop-is-now-fully-rolled-out/",
+      "description": "After only nine days, Google confirmed that the Page Experience algorithm update for desktop is complete. Keep reading to learn more.",
+      "index": "4"
+    },
+    {
+      "title": "TikTok Alert: Maximum Video Length Expanding to 10 Minutes",
+      "link": "https://onward.justia.com/tiktok-alert-maximum-video-length-expanding-to-10-minutes/",
+      "description": "TikTok, a popular video-based social media app, rose to popularity by offering short videos limited to one minute or less. After allowing all users to begin posting three-minute videos in July 2021, it looks like even longer videos are now coming to the platform.",
+      "index": "5"
+    },
+    {
+      "title": "Google Will Take Down Universal Analytics",
+      "link": "https://onward.justia.com/google-will-take-down-universal-analytics/",
+      "description": "Google announced that all Universal Analytics properties will be deprecated in favor of Google Analytics 4. Any properties utilizing Universal Analytics will stop processing hits in 2023. Keep reading to learn more.",
+      "index": "6"
+    },
+    {
+      "title": "Drafting Your Ideal Attorney Biography",
+      "link": "https://onward.justia.com/drafting-your-ideal-attorney-biography/",
+      "description": "Your attorney biography on various platforms is often the first introduction someone has to you as a lawyer. It is also frequently the most visible information about your professional persona. Check out this post to learn more about crafting a new bio or refreshing your old one this year. ",
+      "index": "7"
+    },
+    {
+      "title": "Law Firm Slogans Revisited: 50 Catchphrases From 50 States",
+      "link": "https://onward.justia.com/law-firm-slogans-revisited-50-catchphrases-from-50-states/",
+      "description": "Many law firms incorporate a slogan or tagline as part of their brand to better connect with potential clients and increase the odds that people will remember the firm’s key messaging. Check out this post for 50 law firm slogans from across the United States.",
+      "index": "8"
+    },
+    {
+      "title": "What Is a Google Ads Quality Score and Why Does It Matter to Your Law Firm?",
+      "link": "https://onward.justia.com/what-is-a-google-ads-quality-score-and-why-does-it-matter-to-your-law-firm/",
+      "description": "Understanding your Google Ads Quality Score is an important part of increasing and evaluating the effectiveness of your Google Ads PPC campaigns. Read this post to learn more about why Quality Score matters to your law firm.",
+      "index": "9"
+    },
+    {
+      "title": "Featured Justia Resources: Birth Injuries Center",
+      "link": "https://onward.justia.com/featured-justia-resources-birth-injuries-center/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Birth Injuries Center. ",
+      "index": "10"
+    },
+    {
+      "title": "4 Marketing Tips for Bankruptcy Lawyers",
+      "link": "https://onward.justia.com/4-marketing-tips-for-bankruptcy-lawyers/",
+      "description": "Are you a bankruptcy lawyer looking for a few ideas to revamp your legal marketing strategy? Read this post for four tips we suggest ensuring are a part of your well-rounded legal marketing plan.",
+      "index": "11"
+    },
+    {
+      "title": "News & Notes on Google Local Services Ads: March 2022",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-march-2022/",
+      "description": "Want to stay in the know on the latest updates from Google for your Local Services Ads (LSAs)? This is the post for you!",
+      "index": "12"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
