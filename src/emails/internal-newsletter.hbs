@@ -1,10 +1,10 @@
 ---
 subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
----
+  ---
 
-{{>preheader text="Our monthly employee newsletter with company updates and announcements ----- "}}
+  {{>preheader text="Our monthly employee newsletter with company updates and announcements ----- "}}
 
-{{#table class="internal-newsletter" align=""}}
+  {{#table class="internal-newsletter" align=""}}
   <tr>
     <td class="full-size align-center valign-top">
       {{>main-header widgetConfig=header.internal}}
@@ -14,54 +14,54 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{>welcome widgetConfig=welcome}}
-        
-        {{>milestones widgetConfig=milestones}}
-        
-        {{>portal-news widgetConfig=portalNews}}
+      {{>welcome widgetConfig=welcome}}
 
-        {{>our-blog}}
-        
-        {{>birthday widgetConfig=birthday}}
+      {{>milestones widgetConfig=milestones}}
 
-        {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
+      {{>portal-news widgetConfig=portalNews}}
 
-        {{!-- 2 columns, for 2 people --}}
-        {{>new-people widgetConfig=newPeople}}
+      {{>our-blog}}
 
-        {{!-- image and text aside, can be use for one to + 2 people --}}
-        {{>new-people-2 widgetConfig=newPeople2}}
-        
-        {{!-- 2 columns, for 2 people --}}
-        {{>holidays widgetConfig=holidays}}
-        
-        {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{>holidays-2 widgetConfig=holidays2}}
+      {{>birthday widgetConfig=birthday}}
 
-        {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{>team-activity widgetConfig=teamActivity}}
+      {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
 
-        {{!-- image and text aside --}}
-        {{>team-activity-2 widgetConfig=teamActivity2}}
+      {{!-- 2 columns, for 2 people --}}
+      {{>new-people widgetConfig=newPeople}}
 
-        {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{>blast-past widgetConfig=blastPast}}
+      {{!-- image and text aside, can be use for one to + 2 people --}}
+      {{!-- {{>new-people-2 widgetConfig=newPeople2}}--}}
 
-        {{!-- Same layout as Milestones --}}
-        {{>wellness-items widgetConfig=wellnessItems}}
-        
-        {{>reviews widgetConfig=reviews}}
+      {{!-- 2 columns, for 2 people --}}
+      {{!-- {{>holidays widgetConfig=holidays}} --}}
 
-        {{!-- E X T R A S --}}
-        {{!-- Not Commonly Used --}}
+      {{!-- image and text aside, can be use for one to + 2 holidays --}}
+      {{>holidays-2 widgetConfig=holidays2}}
 
-        {{!-- image, text and lists below --}}
-        {{>team-activity-3 widgetConfig=teamActivity3}}
+      {{!-- supports image on top or/and bottom delete the one not needed --}}
+      {{!-- {{>team-activity widgetConfig=teamActivity}} --}}
 
-        {{!-- tricky block with bg image --}}
-        {{>reminders widgetClass="-reminders" widgetConfig=reminders}}
+      {{!-- image and text aside --}}
+      {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
 
-        {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
+      {{!-- supports image on top or/and bottom delete the one not needed --}}
+      {{!-- {{>blast-past widgetConfig=blastPast}} --}}
+
+      {{!-- Same layout as Milestones --}}
+      {{!-- {{>wellness-items widgetConfig=wellnessItems}} --}}
+
+      {{>reviews widgetConfig=reviews}}
+
+      {{!-- E X T R A S --}}
+      {{!-- Not Commonly Used --}}
+
+      {{!-- image, text and lists below --}}
+      {{!-- {{>team-activity-3 widgetConfig=teamActivity3}} --}}
+
+      {{!-- tricky block with bg image --}}
+      {{!-- {{>reminders widgetClass="-reminders" widgetConfig=reminders}} --}}
+
+      {{!-- {{>widget-ad widgetClass="-jld-ad-event" widgetConfig=advertisements.event}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
@@ -71,4 +71,4 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
       {{>main-footer widgetConfig=footer.internal}}
     </td>
   </tr>
-{{/table}}
+  {{/table}}
