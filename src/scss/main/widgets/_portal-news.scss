@@ -126,6 +126,10 @@
                 background-position: 0px 8px;
             }
         }
+
+        a {
+            @include mail-font(16px, 1.5, 700);
+        }
     }
 
     .content.-faces {
