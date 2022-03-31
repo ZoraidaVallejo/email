@@ -4,54 +4,50 @@
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
   "description": {
-    "top": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    "bottom": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ]
+    "top": [],
+    "bottom": []
   },
   "feature": {
     "image": {
-      "src": "featured-onward-01.png",
-      "alt": "Et feugiat senectus platea quisque pretium arcu."
+      "src": "",
+      "alt": ""
     },
-    "readMore": "#",
-    "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    "readMore": "",
+    "blockTitle": ""
   },
   "singleColumn": false,
   "columns": [
     {
       "image": {
         "src": "onward-01.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "What Is a Google Ads Quality Score and Why Does It Matter to Your Law Firm?"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/what-is-a-google-ads-quality-score-and-why-does-it-matter-to-your-law-firm/",
+      "blockTitle": "What Is a Google Ads Quality Score and Why Does It Matter to Your Law Firm?"
     },
     {
       "image": {
         "src": "onward-02.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Growing Your Practice With Justia Connect"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/growing-your-practice-with-justia-connect/",
+      "blockTitle": "Growing Your Practice With Justia Connect"
     },
     {
       "image": {
         "src": "onward-03.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Drafting Your Ideal Attorney Biography"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/drafting-your-ideal-attorney-biography/",
+      "blockTitle": "Drafting Your Ideal Attorney Biography"
     },
     {
       "image": {
         "src": "onward-04.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "4 Marketing Tips for Bankruptcy Lawyers"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/4-marketing-tips-for-bankruptcy-lawyers/",
+      "blockTitle": "4 Marketing Tips for Bankruptcy Lawyers"
     }
   ]
 }

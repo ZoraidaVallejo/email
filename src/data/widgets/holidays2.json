@@ -8,17 +8,12 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-01.png",
-        "blockTitle": "Holiday - Month Day",
+        "blockTitle": "Children’s Day <br> April 30th",
+        "blockSubtitle": "IT Team",
         "description": [
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Architecto beatae vitae dicta sunt explicabo dolor in reprehenderit in voluptate."
+          "Every April 30th, there is an annual celebration to pay  tribute to children in Mexico. Children are celebrated as an essential part of society in Mexico, so this day focuses on the importance of loving, accepting, and appreciating our children.Happy Children’s Day, everyone!"
         ]
       }
-    },
-    {
-      "type": "description",
-      "config": [
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
-      ]
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "widget": {
     "type": "REVIEWS & RECOMMENDATIONS",
-    "header": "Tortor fringilla dis"
+    "header": "Gates of Europe: A History of Ukraine"
   },
   "titleResponsiveSize": 23,
-  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "link": "https://www.amazon.com/Gates-Europe-History-Ukraine/dp/0465094864",
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
         "image": "reviews-graphic-01.png",
-        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Place</b></a>",
+        "where": "Available on <a href=\"https://www.amazon.com/Gates-Europe-History-Ukraine/dp/0465094864\" target=\"_blank\"><b>Amazon</b></a>",
         "description": [
-          "<i>\"Per seacula quarta decima lorem ipsum dolor sit amet, consectetur adipisicing elit. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Et feugiat senectus platea quisque pretium arcu cursus magna vestibulum, hac convallis euismod in morbi interdum himenaeos sagittis orttitor aenean, ad tristique nibh faucibus praesent nulla...\"</i>",
-          "- Reviewer"
+          "<i>\"Written by an award-winning historian, this thorough but reasonably concise volume brings Ukraine out of the shadow of Russia more than most narratives. Gates of Europe captures the richness of Ukraine’s history and culture, helping explain why its people fight fiercely for their freedom.\"</i>",
+          "- Chris Skelton"
         ]
       }
     }

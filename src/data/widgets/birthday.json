@@ -1,7 +1,7 @@
 {
   "widget": {
     "type": "Birthdays & WORK ANNIVERSARIES",
-    "header": "Congratulating Our Justia Members on Their Special Days"
+    "header": "Congratulating Our Justians on Their Special Days"
   },
   "titleResponsiveSize": 23,
   "image": "birthday-graphic-01.png",
@@ -11,48 +11,54 @@
       "config": {
         "birthdays": [
           {
-            "day": "01",
-            "name": "John Doer"
+            "day": "06",
+            "name": "Daniel Lopez"
           },
           {
-            "day": "02",
-            "name": "John Doea"
+            "day": "10",
+            "name": "Cicely Wilson"
           },
           {
-            "day": "03",
-            "name": "John Doeo"
+            "day": "12",
+            "name": "Eduardo Garcia"
           },
           {
-            "day": "04",
-            "name": "John Doel"
+            "day": "12",
+            "name": "Vasu Kappettu"
           },
           {
-            "day": "05",
-            "name": "John Doeo"
+            "day": "12",
+            "name": "Sarah Dondysh"
+          },
+          {
+            "day": "14",
+            "name": "Valeria Dimas"
+          },
+          {
+            "day": "16",
+            "name": "Haydee Garcia"
+          },
+          {
+            "day": "17",
+            "name": "Alejandro Hernandez"
+          },
+          {
+            "day": "24",
+            "name": "Jesus Sanchez"
           }
         ],
         "anniversaries": [
           {
-            "name": "John Doe",
-            "years": "1st"
-          },
-          {
-            "name": "John Doe",
-            "years": "2nd"
-          },
-          {
-            "name": "John Doe",
+            "name": "Guillermo Vazquez",
             "years": "3rd"
           },
           {
-            "name": "John Doe",
-            "years": "5th",
-            "class": "fifth-icon"
+            "name": "Chris Skelton",
+            "years": "7th"
           },
           {
-            "name": "John Doe",
-            "years": "10th",
-            "class": "tenth-icon"
+            "name": "Edgar Cano",
+            "years": "11th"
           }
         ]
       }
