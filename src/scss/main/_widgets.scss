@@ -80,7 +80,7 @@
             }
         }
 
-        > p {
+        >p {
             max-width: 600px;
         }
     }
@@ -105,7 +105,7 @@
 
 .widget-columns {
 
-    > .wrapper {
+    >.wrapper {
         padding: 0 $padding 20px;
 
         // &.-last {
@@ -133,7 +133,7 @@
         .block-image,
         .block-image-link {
 
-            + .block-description {
+            +.block-description {
                 margin: 25px 0 16px;
 
                 &:last-child {
@@ -184,16 +184,24 @@
         }
     }
 }
-.w-new-people .widget-columns {
 
-    > .wrapper {
+.w-new-people {
 
-        .block-image {
-            width: 230px;
-        }
+    .widget-header .header {
+        padding: 0 $padding;
+    }
 
-        &.-last {
-            padding: 0 $padding 50px;
+    .widget-columns {
+
+        >.wrapper {
+
+            .block-image {
+                width: 230px;
+            }
+
+            &.-last {
+                padding: 0 $padding 50px;
+            }
         }
     }
 }

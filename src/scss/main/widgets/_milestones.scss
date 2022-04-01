@@ -89,6 +89,10 @@
 
     .-description {
         text-align: left;
+
+        a {
+            font-weight: get('font.weight.bold');
+        }
     }
 
     .-image-description {
