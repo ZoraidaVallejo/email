@@ -107,6 +107,10 @@
 
     .-idx-2 {
 
+        &.-description {
+            padding-top: $padding;
+        }
+
         .content-side {
 
             &:first-child {
