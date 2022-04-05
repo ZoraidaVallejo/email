@@ -5,7 +5,6 @@
   },
   "jld": {
     "ad1": {
-      "title": "March Into Spring",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 23,
       "image": "march-into-spring-01.gif",
@@ -20,7 +19,7 @@
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Tell Me More!",
+            "text": "Tell Me More",
             "width": 250,
             "height": 50,
             "borderColor": "",
