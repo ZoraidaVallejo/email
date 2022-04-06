@@ -1082,13 +1082,21 @@ a {
 }
 
 .w-advertisement .content ul {
+  font: 18px/1.5 Arial, sans-serif;
   padding-left: 0;
   margin-top: 2em;
   list-style: none;
 }
 
 .w-advertisement .content ul span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
   padding-right: 12px;
+}
+
+.w-advertisement .content p {
+  font: 18px/1.5 Arial, sans-serif;
 }
 
 .w-advertisement .content .red-info {
