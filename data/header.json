@@ -21,7 +21,7 @@
     "logo": {
       "name": "marketing",
       "link": {
-        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-589-promo-253&utm_content=image-footer-logo-1"
+        "url": "https://www.justia.com/"
       },
       "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
       "alt": "Justia Connect"
@@ -32,7 +32,7 @@
     "logo": {
       "name": "Lawyer Directory",
       "link": {
-        "url": "https://www.justia.com/",
+        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-589-promo-253&utm_content=image-footer-logo-1",
         "utm": {
           "medium": "email",
           "campaign": "",
@@ -40,8 +40,8 @@
           "content": ""
         }
       },
-      "path": "false",
-      "alt": "false"
+      "path": false,
+      "alt": false
     }
   },
   "ad2": {
