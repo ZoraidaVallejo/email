@@ -70,9 +70,6 @@ $settings: set('mail-header', (
         ),
         'insider-date': (
             'insider': 300px
-        ),
-        'plus-item': (
-            'justia': 155px,
         )
     )
 ));
@@ -144,46 +141,6 @@ $settings: set('mail-header', (
     }
 }
 
-.main-header.-plus-item {
-
-    .wrapper {
-        padding: $padding;
-        vertical-align: middle;
-
-        > table {
-            table-layout: fixed;
-        }
-    }
-
-    .logo {
-        float: left;
-        width: 50%;
-    }
-
-    .date {
-        float: right;
-        width: 49%;
-        text-align: right;
-
-        span {
-            display: block;
-            color: plt('justia-blue');
-
-            @include mail-font(22px, 1.25);
-        }
-    }
-
-    // L O G O   S I Z E S
-    // -------------------
-    @each $logo-name, $width in get('mail-header.logos.plus-item') {
-
-        &.-#{$logo-name}-logo .logo-img {
-            width: $width;
-        }
-    }
-}
-
-
 .main-header.-insider-date {
     background-color: plt('mail', 'insider-blue');
 
@@ -226,43 +183,6 @@ $settings: set('mail-header', (
     // L O G O   S I Z E S
     // -------------------
     @each $logo-name, $width in get('mail-header.logos.insider-date') {
-
-        &.-#{$logo-name}-logo .logo-img {
-            width: $width;
-        }
-    }
-}
-
-.main-header.-plus-item {
-
-    .wrapper {
-        padding: $padding;
-        vertical-align: middle;
-
-        > table {
-            table-layout: fixed;
-        }
-    }
-
-    .logo {
-        width: 60%;
-    }
-
-    .date {
-        width: 40%;
-        text-align: right;
-
-        span {
-            display: block;
-            color: plt('justia-blue');
-
-            @include mail-font(22px, 1.25);
-        }
-    }
-
-    // L O G O   S I Z E S
-    // -------------------
-    @each $logo-name, $width in get('mail-header.logos.plus-item') {
 
         &.-#{$logo-name}-logo .logo-img {
             width: $width;
