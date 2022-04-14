@@ -40,7 +40,7 @@
   src=@root.headerLogoSrc
   alt=@root.headerLogoAlt
   link=@root.headerLogoLink
-  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "mobile-align-center")
+  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
 )}}
 
 {{#if (compare widgetConfig.layout "===" "with-date")}}
@@ -93,18 +93,6 @@
           {{/table}}
         {{/compare}}
 
-        {{#compare widgetConfig.layout "===" "plus-item"}}
-          {{#table}}
-            <tr>
-              <td class="logo" responsive="collapse-one mobile-no-float mobile-padding-bottom">
-                {{>main-logo widgetConfig=@root.headerLogoConfig}}
-              </td>
-              <td class="date" responsive="collapse-one mobile-no-float mobile-align-center">
-                <span responsive="mobile-fz-18 mobile-align-center">{{widgetConfig.item.element}}</span>
-              </td>
-            </tr>
-          {{/table}}
-        {{/compare}}
       </td>
     </tr>
   {{/table}}
