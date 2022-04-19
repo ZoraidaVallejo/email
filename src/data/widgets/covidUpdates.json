@@ -1,0 +1,51 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Important Updates Regarding COVID-19"
+  },
+  "link": "https://www.justia.com/covid-19/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-newsletter",
+      "content": {
+        "title": "text-covid-19-title-1",
+        "image": "image-covid-19-block-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Laws and Legal Resources Related to Coronavirus",
+  "description": [
+    "Stay up to date on the latest legal developments arising from the COVID-19 pandemic, including changes associated with employment law, evictions and foreclosures, business assistance, taxes, immigration, debts & bankruptcy, criminal proceedings, family law, and personal injury cases. We have also assembled 50-state resources on coronavirus and the law regarding topics including the following:"
+  ],
+  "list": [
+    {
+      "link": "[https://www.justia.com/covid-19/]",
+      "text": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+      "utm": "&utm_content=text-covid-19-text-01"
+    },
+    {
+      "link": "[https://www.justia.com/covid-19/]",
+      "text": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+      "utm": "&utm_content=text-covid-19-text-02"
+    },
+    {
+      "link": "[https://www.justia.com/covid-19/]",
+      "text": "[Labore nulla cillum exercitation laborum do eiusmod.]",
+      "utm": "&utm_content=text-covid-19-text-03"
+    }
+  ]
+}

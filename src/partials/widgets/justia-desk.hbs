@@ -1,0 +1,104 @@
+{{! ================================================================================================================= }}
+{{! J U S T I A   D E S K                                                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{!
+    * @param {Object[]} justiaDesk.news
+    * @param {string} justiaDesk.news[].title
+    * @param {string} justiaDesk.news[].link
+    * @param {string} justiaDesk.news[].description
+    * @param {boolean} [isLast]
+    * @param {Object} justiaDesk.utm
+    * @param {Object} justiaDesk.utm.clients
+    * @param {string} justiaDesk.utm.clients.medium
+    * @param {string} justiaDesk.utm.clients.campaign
+    * @param {string} justiaDesk.utm.clients.source
+    * @param {Object} justiaDesk.utm.clients.content
+    * @param {string} justiaDesk.utm.clients.content.title
+    * @param {string} justiaDesk.utm.clients.content.image
+    * @param {string} justiaDesk.utm.clients.content.button
+    * @param {Object} justiaDesk.utm.jld
+    * @param {string} justiaDesk.utm.jld.medium
+    * @param {string} justiaDesk.utm.jld.campaign
+    * @param {string} justiaDesk.utm.jld.source
+    * @param {Object} justiaDesk.utm.jld.content
+    * @param {string} justiaDesk.utm.jld.content.title
+    * @param {string} justiaDesk.utm.jld.content.image
+    * @param {string} justiaDesk.utm.jld.content.button
+}}
+
+{{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+{{assign "onwardSub" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{assign "columnStructure" (chunks justiaDesk.news 2 true)}}
+
+{{#and justiaDesk.button (compare justiaDesk.button.link "!==" "")}}
+  {{assign "justiaDeskButtonLink" (concat justiaDesk.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-justia-desk set-max-width"}}
+
+    {{#if justiaDesk.widget.iconSrc}}
+      {{>widget-header
+        header=justiaDesk.widget.header
+        iconSrc=justiaDesk.widget.iconSrc
+      }}
+    {{else}}
+      {{>widget-header
+        header=justiaDesk.widget.header
+        icon=justiaDesk.widget.icon
+      }}
+    {{/if}}
+
+    <tr class="widget-columns -articles ui-columns-grid">
+    <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+        <div class="widget-wrapper">
+
+          <div class="-subscribe">
+            <p>Want instant updates? Justia Connect members can <a href="https://onward.justia.com/subscribe/{{@root.onwardSub}}" target="_blank">subscribe now.</a></p>
+          </div>
+
+          {{>widget-banner
+            widgetClass="banner-icon"
+            imgSrc=justiaDesk.banner
+            imgAlt=justiaDesk.title
+            link="#"
+          }}
+
+          {{#table}}
+            {{#each @root.columnStructure}}
+              {{>ui-columns-grid cellClasses="article" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
+                {{#each this}}
+                    {{#unless @first}}
+                    {{>ui-columns-grid cellClasses="article" cellSeparator=true cellIsEmpty=(isFalsey this.title) firstRow=@../first}}
+                    {{/unless}}
+
+                    {{#if this.title}}
+                    <p class="title">
+                        {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
+                        <b>{{{this.title}}}</b>
+                        {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                    </p>
+                    <p class="description">
+                        {{{this.description}}}
+                    </p>
+                    <a href="{{{this.link}}}"><b>Read More</b></a>
+                    {{else}}
+                    &nbsp;
+                    {{/if}}
+                {{/each}}
+              {{>ui-columns-grid rowEnd=true}}
+            {{/each}}
+        {{/table}}
+        </div>
+    </td>
+    </tr>
+{{/table}}

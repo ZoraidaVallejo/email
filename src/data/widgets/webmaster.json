@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "webmaster",
+    "header": "Breaking News Alert From Justia"
+  },
+  "link": "https://news.justia.com/biometric-facial-scan-class-action-lawsuit-filed-against-louis-vuitton-north-america/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-newsletter",
+      "content": {
+        "title": "text-onward-post-title-2",
+        "image": "image-onward-post-2",
+        "button": "button-learn-more-2"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Former Raiders Wide Receiver Henry Ruggs III <span>Involved in Fatal Crash<span>",
+  "description": [
+    "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/biometric-facial-scan-class-action-lawsuit-filed-against-louis-vuitton-north-america/",
+    "text": "Read More"
+  }
+}

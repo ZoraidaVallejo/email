@@ -1,0 +1,46 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon.png",
+  "news": [
+    {
+      "title": "7 Tips for Posting on Social Media That You Can Learn From Other Law Firms",
+      "link": "https://onward.justia.com/7-tips-for-posting-on-social-media-that-you-can-learn-from-other-law-firms/",
+      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
+      "index": "1"
+    },
+    {
+      "title": "Behind the Scenes: Your Law Firm Website Maintenance",
+      "link": "https://onward.justia.com/behind-the-scenes-your-law-firm-website-maintenance/",
+      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
