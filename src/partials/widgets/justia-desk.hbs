@@ -32,6 +32,8 @@
 }}
 
 {{assign "justiaDeskTitleLink" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+{{assign "justiaDeskReadMore" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.readMore))}}
+
 {{assign "onwardSub" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
 {{assign "columnStructure" (chunks justiaDesk.news 2 true)}}
 
@@ -62,9 +64,9 @@
     <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
         <div class="widget-wrapper">
 
-          <div class="-subscribe">
+          <!-- <div class="-subscribe">
             <p>Want instant updates? Justia Connect members can <a href="https://onward.justia.com/subscribe/{{@root.onwardSub}}" target="_blank">subscribe now.</a></p>
-          </div>
+          </div> -->
 
           {{>widget-banner
             widgetClass="banner-icon"
@@ -90,7 +92,7 @@
                     <p class="description">
                         {{{this.description}}}
                     </p>
-                    <a href="{{{this.link}}}"><b>Read More</b></a>
+                    <a href="{{{this.link}}}{{#if this.index}}{{@root.justiaDeskReadMore}}{{this.index}}{{/if}}"><b>Read More</b></a>
                     {{else}}
                     &nbsp;
                     {{/if}}

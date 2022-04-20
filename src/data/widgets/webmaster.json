@@ -10,9 +10,9 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
       "content": {
-        "title": "text-onward-post-title-2",
-        "image": "image-onward-post-2",
-        "button": "button-learn-more-2"
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
       }
     },
     "jld": {
@@ -20,16 +20,16 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "quarterly-newsletter",
       "content": {
-        "title": "text-onward-post-title-2",
-        "image": "image-onward-post-2",
-        "button": "button-learn-more-2"
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
       }
     }
   },
-  "banner": "featured-news-01.png",
-  "title": "Former Raiders Wide Receiver Henry Ruggs III <span>Involved in Fatal Crash<span>",
+  "banner": "featured-news.png",
+  "title": "Biometric Facial Scan Class Action Lawsuit Filed Against Louis <span>Vuitton North America</span>",
   "description": [
-    "Henry Ruggs III, a former wide receiver for the Las Vegas Raiders, faces felony charges of driving under the influence causing death or substantial bodily injury and reckless driving following a crash early Tuesday morning."
+    "A recent class action lawsuit alleges Louis Vuitton North America secretly collects facial scans of people using the brand’s virtual try-on feature for eyewear. Want to learn more? You can use Justia Dockets to <b><a href='https://dockets.justia.com/docket/new-york/nysdce/1:2022cv02944/578061?utm_medium=email&utm_campaign=2022-04&utm_source=quarterly-newsletter&utm_content=link-alert-news-1' target='_blank'>track new developments</a></b> in this case."
   ],
   "button": {
     "style": "justia-blue-ghost",

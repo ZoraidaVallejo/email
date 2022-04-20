@@ -19,7 +19,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "insights-newsletter",
+        "source": "quarterly-newsletter",
         "content": ""
       },
       "image": "justia-premium.png"
