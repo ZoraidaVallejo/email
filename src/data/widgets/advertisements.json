@@ -15,7 +15,7 @@
       "image": "score-big.png"
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/platinum/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
