@@ -1,0 +1,50 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {
+        "image": "mothers-day-01.gif",
+        "width": 400,
+        "bgColor": "#ffffff",
+        "cssSize": "100% auto"
+      },
+      "title": "Save on Gifts for Mom",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Your <b>Justia Connect</b> membership can help you save on last-minute gifts this Mother’s Day weekend! Choose from discounts on flowers, dining, jewelry, and more with <b>Justia Lifestyle Savings</b>. All you have to do is activate your savings to get started!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Activate Savings Now",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
