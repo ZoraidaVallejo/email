@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "ask-a-lawyer.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><strong>Justia Ask A Lawyer</strong> is a free forum where you can market your practice, make a difference, and help people in need by answering basic legal questions on a variety of issues.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Answer Questions",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
