@@ -44,7 +44,6 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
-        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -88,6 +87,9 @@
     </tr>
   {{/if}}
 
+  <tr>
+    <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
@@ -151,6 +153,10 @@
       {{/compare}}
     {{/forEach}}
   {{/if}}
+
+{{/table}}
+</td>
+</tr>
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>

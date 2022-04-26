@@ -19,12 +19,11 @@
     }
 
     .title {
-        color: plt('justia-blue');
-        padding: 65px $padding 23px;
+        padding: 0 $padding 23px;
+        text-transform: uppercase;
 
         a {
-            @include mail-font(40px, 1.1, 700);
-            color: plt('justia-blue');
+            @include mail-font(34px, 1.1);
         }
     }
 
@@ -36,7 +35,13 @@
         }
     }
 
+    .content-wrapper {
+        padding: 30px 30px 15px;
+    }
+
     .content {
+        display: block;
+        border: 2px solid #e6e6e6;
         padding: 0 45px 25px;
 
         strong a {
@@ -97,8 +102,10 @@
         }
 
         &.-first {
-            padding: 40px 55px 35px;
+            padding: 50px 15px 45px;
+            border-bottom: 0;
             text-align: left;
+            border-radius: 15px 15px 0 0;
 
             img {
                 margin: 0 auto;
@@ -111,12 +118,14 @@
             }
         }
 
-        &.-last {
-            padding: 0 $padding 38px;
+        &.-button {
+            padding: 0px $padding 30px;
+            border-top: 0;
+            border-radius: 0 0 15px 15px;
         }
 
-        &.-button {
-            padding: 0px $padding 20px;
+        &.-last {
+            padding: 0 $padding 40px;
         }
 
         a b {
