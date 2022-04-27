@@ -1,0 +1,42 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "Justia Connect Pro Downgrade Confirmation",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Hi {Name},</p>",
+            "<p>Sorry to see you go! We have received your request to downgrade your Justia Connect Pro Membership to a free Justia Connect Basic Membership.</p>",
+            "<p>You’ll have access to Justia Connect Pro Membership benefits for the remainder of your current billing period. On <strong>[DATE]</strong>, you will lose access to your upgraded Justia Connect Pro benefits, including:</p>",
+            "<ul> <li><img src=\"cross-icon.png\" alt=\"X\">Enhanced Justia Profile Without Competitor Ads</li> <li><img src=\"cross-icon.png\" alt=\"X\">Featured Reviews Selections for Your Justia Profile</li> <li><img src=\"cross-icon.png\" alt=\"X\">$100 Credit for Justia Marketing Solutions</li> <li><img src=\"cross-icon.png\" alt=\"X\">Expanded Visibility Across the Justia Platform</li> <li><img src=\"/dist/cross-icon.png\" alt=\"X\">Justia Webinars Priority Access and Pro-Only Offerings</li> </ul>",
+            "<p><strong>Having second thoughts?</strong> You can upgrade again today!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Stay a Pro",
+            "width": 220,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
