@@ -42,10 +42,10 @@
     }
 
     .content {
-            display: block;
-            border: 1px solid #e6e6e6;
-            padding: 0 45px 25px;
-            background-color: plt('white');
+        display: block;
+        border: 1px solid #e6e6e6;
+        padding: 0 45px 25px;
+        background-color: plt('white');
 
         strong a {
             color: plt('justia-blue');
@@ -57,11 +57,26 @@
 
         ul {
             padding: 0;
+            margin-bottom: 1.5em;
             list-style-type: none;
+
+            img {
+                display: inline-block;
+                margin: 0 14px -4px 0;
+            }
+
+            span {
+                display: inline-block;
+                // width: 84%;
+            }
 
             li {
                 @include mail-font(16px, 1);
-                padding: 12px 0;
+                padding: 12px 22px;
+
+                * {
+                    vertical-align: top;
+                }
 
                 &:nth-child(odd) {
                     background-color: #f3f5f8;
@@ -123,10 +138,6 @@
             border-bottom: 0;
             text-align: left;
             border-radius: 15px 15px 0 0;
-
-            img {
-                margin: 0 auto;
-            }
 
             p {
                 // padding: 0 50px;
