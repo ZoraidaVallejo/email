@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "banner": "https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png",
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "Physical Medicine & Rehabilitation Expert Witness Testimony Allowed in Collision Case",
+      "link": "https://www.expertwitnessblog.com/physical-medicine-rehabilitation-expert-witness-not-excluded-in-collision-case-involving-a-usps-employee/"
+    },
+    {
+      "title": "Architecture Expert Witness Testimony Allowed in Retail Personal Injury Case",
+      "link": "https://www.expertwitnessblog.com/architecture-expert-witness-testimony-allowed-in-retail-personal-injury-case/"
+    },
+    {
+      "title": "Biomechanics Expert Witness Testimony Allowed in Part in Trampoline Park Accident",
+      "link": "https://www.expertwitnessblog.com/obstetrics-gynecology-ob-gyn-expert-witness-testimony-excluded/"
+    },
+    {
+      "title": "Obstetrics & Gynecology (OB/GYN) Expert Witness Testimony Excluded in Pregnancy Litigation",
+      "link": "https://www.expertwitnessblog.com/obstetrics-gynecology-ob-gyn-expert-witness-testimony-excluded/"
+    }
+  ]
+}

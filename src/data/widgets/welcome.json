@@ -1,0 +1,39 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-05&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Get our answers to some common SEO questions and learn more about the consequences of failing to prioritize web accessibility. Catch up on the legal and technology news that recently made headlines and take a peek at what the Justia team has been up to over the last month."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "banner": "welcome-graphic-01.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-05&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "In this month’s edition, learn more about the behind-the-scenes work required to maintain your law firm website and discover seven cost-effective marketing tools for small firms. Get the latest news in law and technology, including the new ABA Ethics Opinion on client solicitation, and take a peek at the cities where Justians are working from home!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

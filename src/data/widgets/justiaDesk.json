@@ -1,0 +1,88 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon.png",
+  "news": [
+    {
+      "title": "Growing Your Practice With Justia Connect",
+      "link": "https://onward.justia.com/growing-your-practice-with-justia-connect/",
+      "description": "Justia Connect is our exclusive membership program connecting lawyers with benefits and resources to help them achieve their professional and practice-growth goals. How? Keep reading to find out.",
+      "index": "1"
+    },
+    {
+      "title": "Google Is Shutting Down Its URL Parameters Tool",
+      "link": "https://onward.justia.com/google-is-shutting-down-its-url-parameters-tool/",
+      "description": "Because it no longer provides significant value to both users and Google, the company recently announced it is sunsetting the URL Parameters Tool on April 26, 2022. Keep reading to learn more. ",
+      "index": "2"
+    },
+    {
+      "title": "Law Firm PR: Managing Your Firm’s Reputation When Representing Controversial Clients",
+      "link": "https://onward.justia.com/law-firm-pr-managing-your-firms-reputation-when-representing-controversial-clients/",
+      "description": "As a lawyer, you fight to protect your clients’ interests regardless of your personal opinions and public perception. However, a vigorous defense of controversial clients can indeed take a toll on your firm’s reputation. Check out this post to learn more about some public relations considerations for managing your firm’s reputation in this situation. ",
+      "index": "3"
+    },
+    {
+      "title": "Featured Justia Resources: How to Incorporate a Business",
+      "link": "https://onward.justia.com/featured-justia-resources-how-to-incorporate-a-business/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Portal, including its guides for incorporating a business. ",
+      "index": "4"
+    },
+    {
+      "title": "Behind the Scenes: Your Law Firm Website Maintenance",
+      "link": "https://onward.justia.com/behind-the-scenes-your-law-firm-website-maintenance/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Cannabis Law Center.",
+      "index": "5"
+    },
+    {
+      "title": "Common Legal Marketing Wisdom: Fact or Fiction?",
+      "link": "https://onward.justia.com/common-legal-marketing-wisdom-fact-or-fiction/",
+      "description": "Some legal marketing tips and tricks seem to have stood the test of time and become tried-and-true wisdom. Others are relatively new advice but spread like wildfire. Need help separating the fact from the fiction? We have some answers. ",
+      "index": "6"
+    },
+    {
+      "title": "Justia Lawyer Directory by the Numbers: First Quarter 2022",
+      "link": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-first-quarter-2022/",
+      "description": "With the first quarter of 2022 already behind us, we took a look at some of the data trends for the Justia Lawyer Directory so far and are sharing this info with all of you.",
+      "index": "7"
+    },
+    {
+      "title": "7 Marketing Tools for Small Law Firms",
+      "link": "https://onward.justia.com/7-marketing-tools-for-small-law-firms/",
+      "description": "You don’t need a big budget to leverage powerful marketing tools. Check out our list of seven tools that can help small law firms achieve their marketing goals. ",
+      "index": "8"
+    },
+    {
+      "title": "News & Notes on Google Local Services Ads: April 2022",
+      "link": "News & Notes on Google Local Services Ads: April 2022",
+      "description": "Looking to stay up to date on the latest from Google on Local Services Ads? This is the post for you!",
+      "index": "9"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
