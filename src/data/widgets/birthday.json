@@ -1,0 +1,75 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "09",
+            "name": "Miguel Bala"
+          },
+          {
+            "day": "09",
+            "name": "Jorge Hernandez"
+          },
+          {
+            "day": "10",
+            "name": "Manuel Maldonado"
+          },
+          {
+            "day": "14",
+            "name": "Meztli Vergara"
+          },
+          {
+            "day": "16",
+            "name": "Arturo Jara"
+          },
+          {
+            "day": "24",
+            "name": "Roberto Escareño"
+          },
+          {
+            "day": "25",
+            "name": "Lizeth Rios"
+          },
+          {
+            "day": "31",
+            "name": "Gustavo Montes"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Ivan Bonilla",
+            "years": "1st"
+          },
+          {
+            "name": "Paola Gonzalez",
+            "years": "2nd"
+          },
+          {
+            "name": "Alejandra Medina",
+            "years": "9th"
+          },
+          {
+            "name": "Carlos Quintanilla",
+            "years": "9th"
+          },
+          {
+            "name": "Laura Garcia",
+            "years": "11th"
+          },
+          {
+            "name": "David Kemp",
+            "years": "11th"
+          }
+        ]
+      }
+    }
+  ]
+}

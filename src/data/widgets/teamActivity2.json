@@ -1,0 +1,23 @@
+{
+  "widget": {
+    "type": "DID YOU KNOW?",
+    "header": "Claudia Duque Attended a Women’s Empowerment Event"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "did-you-know-graphic-01.png",
+        "description": [
+          "Our colleague Claudia attended the swearing-in of the Board of Directors of AFFET (Association of Executive Women of Tourism Companies of the Mexican Republic A.C. Coahuila Chapter). The Association's mission "
+        ]
+      }
+    },
+    {
+      "type": "description",
+      "config": [
+        "is to promote women's participation in different fields to contribute to the empowerment, growth, and well-being of women in Coahuila. Learn more in <a href=\"https://www.elheraldodesaltillo.mx/2022/04/01/destaca-coahuila-papel-de-las-mujeres-en-recuperacion-economica-del-turismo/\" target=\"_blank\"><b>this local newsletter article</b></a>."
+      ]
+    }
+  ]
+}

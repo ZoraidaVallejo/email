@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Severance"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://youtu.be/xEQP4VVuyrY\" target=\"_blank\"><b>Apple TV+</b></a>",
+        "description": [
+          "<i>\"The premise is that this company changes its employees' minds, so their life and work persona are completely different from each other, even their memories. It's very clever because it explores the implications of all this. The story is a mystery thriller that's been pretty good so far. It's still in its first season, but it's super good!\"</i><br>- Edgar Cano"
+        ]
+      }
+    }
+  ]
+}
