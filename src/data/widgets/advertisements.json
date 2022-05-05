@@ -1,0 +1,45 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "Everyone Remembers<br>Who Came in",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "first-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>With a Justia Platinum Placement, you appear at the top of Justia Lawyer Directory listing pages so the first name potential clients see is yours. Lawyers with Justia Platinum Placements also enjoy additional benefits, including an enhanced profile with no competitors, access to traffic stats, and a customized landing page designed to increase client contacts.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Tell Me More",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}

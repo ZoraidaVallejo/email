@@ -1,0 +1,128 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+   
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 23px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 30px $padding 20px;
+        // text-transform: uppercase;
+        background: #00b3e3;
+
+        a {
+            @include mail-font(40px, 1.1, 700);
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 45px 25px;
+
+        strong a {
+            color: plt('justia-blue');
+        }
+
+        b {
+            color: plt('red');
+        }
+
+        .red-info {
+            color: #e2231a;
+            font-size: rem-calc(14px);
+            vertical-align: top;
+        }
+
+        .heading4 {
+            text-align: center;
+            @include mail-font(22px, 1.2);
+            // font-size: rem-calc(22px);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .subheading {
+            text-align: center;
+            color: plt('justia-blue');
+            display: block;
+            font-size: rem-calc(18px);
+            // padding: 0 0 8px;
+            span {
+                display: inline-block;
+            }
+        }
+
+        .source {
+            font-size: rem-calc(14px);
+
+            strong {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            width: 260px;
+
+            img {
+                width: 260px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 40px 55px 35px;
+            text-align: left;
+
+            img {
+                margin: 0 auto;
+            }
+
+            p {
+                // padding: 0 50px;
+                max-width: 500px;
+                // margin: 0 auto;
+            }
+        }
+
+        &.-last {
+            padding: 0 $padding 38px;
+        }
+
+        &.-button {
+            padding: 0px $padding 20px;
+        }
+
+        a b {
+            color: plt('black')!important;
+            display: inline-block;
+        }
+    }
+}
