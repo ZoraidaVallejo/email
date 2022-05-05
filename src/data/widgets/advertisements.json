@@ -1,0 +1,33 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "next-generation.png",
+      "contentOrder": [
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Tell Me More",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
