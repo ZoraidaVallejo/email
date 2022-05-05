@@ -5,7 +5,7 @@
   },
   "jld": {
     "ad1": {
-      "title": "Justia Connect Pro Downgrade Confirmation",
+      "title": "Justia Connect Pro<br>Downgrade Confirmation",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 23,
       "contentOrder": [
@@ -34,6 +34,12 @@
             "fontSize": 16,
             "responsive": ""
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>*See <a href=\"#\" target=\"_blank\"><b>Justia Connect Pro Credit Terms</b></a> for applicable conditions.</p>"
+          ]
         }
       ]
     },
