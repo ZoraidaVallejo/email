@@ -15,7 +15,7 @@
             "<p>Hi {Name},</p>",
             "<p>Sorry to see you go! We have received your request to downgrade your Justia Connect Pro Membership to a free Justia Connect Basic Membership.</p>",
             "<p>You’ll have access to Justia Connect Pro Membership benefits for the remainder of your current billing period. On <strong>[DATE]</strong>, you will lose access to your upgraded Justia Connect Pro benefits, including:</p>",
-            "<ul> <li><img src=\"/images/cross-icon.png\" responsive=\"collapse-one mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span>Enhanced Justia Profile Without Competitor Ads</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"collapse-one mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span>Featured Reviews Selections for Your Justia Profile</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"collapse-one mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span>$100 Credit for Justia Marketing Solutions</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"collapse-one mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span>Expanded Visibility Across the Justia Platform</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"collapse-one mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span>Justia Webinars Priority Access and Pro-Only Offerings</span></li> </ul>",
+            "<ul> <li><img src=\"/images/cross-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span responsive=\"collapse-one\">Enhanced Justia Profile Without Competitor Ads</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span responsive=\"collapse-one\">Featured Reviews Selections for Your Justia Profile</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span responsive=\"collapse-one\">$100 Credit for Justia Marketing Solutions</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span responsive=\"collapse-one\">Expanded Visibility Across the Justia Platform</span></li> <li><img src=\"/images/cross-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#9746;\"><span responsive=\"collapse-one\">Justia Webinars Priority Access and Pro-Only Offerings</span></li> </ul>",
             "<p><strong>Having second thoughts?</strong> You can upgrade again today!</p>"
           ]
         },
@@ -43,6 +43,42 @@
         }
       ]
     },
-    "ad2": {}
+    "ad2": {
+      "title": "{NAME}, You're a Pro!",
+      "image": "pro-graphic-01.png",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Go to your Justia Connect dashboard to use your upgraded Justia Connect membership benefits, including:</p>",
+            "<ul> <li><img src=\"/images/check-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#10003;\"><span responsive=\"collapse-one\">Enhanced Justia Profile in the Justia Lawyer Directory</span></li> <li><img src=\"/images/check-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#10003;\"><span responsive=\"collapse-one\">Ability to Feature Client and Peer Reviews</span></li> <li><img src=\"/images/check-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#10003;\"><span responsive=\"collapse-one\">$100 in Justia Credit*</span></li> <li><img src=\"/images/check-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#10003;\"><span responsive=\"collapse-one\">Priority Registration to Justia Webinars</span></li> <li><img src=\"/images/check-icon.png\" responsive=\"mobile-reset-width mobile-align-center mobile-padding-bottom\" alt=\"&#10003;\"><span responsive=\"collapse-one\">Plus Even More!</span></li> </ul>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Visit Your Dashboard",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>*See <a href=\"#\" target=\"_blank\"><b>Justia Connect Pro Credit Terms</b></a> for applicable conditions.</p>"
+          ]
+        }
+      ]
+    }
   }
 }

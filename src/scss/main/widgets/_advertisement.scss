@@ -30,7 +30,7 @@
     }
 
     .image {
-        padding: 0;
+        padding: 25px 25px 30px;
 
         img {
             width: 100%;
@@ -143,6 +143,10 @@
                 // padding: 0 50px;
                 max-width: 500px;
                 // margin: 0 auto;
+
+                &:last-child {
+                    text-align: center;
+                }
             }
         }
 
@@ -164,6 +168,7 @@
 
             a,
             a b {
+                display: inline;
                 color: plt('justia-blue') !important;
             }
         }
@@ -171,6 +176,18 @@
         a b {
             color: plt('black')!important;
             display: inline-block;
+        }
+    }
+
+    &.-jld-ad-02 {
+        .content {
+            ul {
+                margin-bottom: 0;
+            }
+
+            &.-first {
+                padding: 25px 25px 30px;
+            }
         }
     }
 }
