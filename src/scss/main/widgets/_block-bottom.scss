@@ -240,12 +240,13 @@
         }
     }
 
-    &.-email-6-1 {
+    &.-email-2,
+    &.-email-5-1,
+    &.-email-6-1,
+    &.-email-6-2 {
         .content-side {
             &.-image {
-                a {
-                    margin: 2em auto 1em;
-                }
+                    padding-top: 2em;
             }
         }
     }

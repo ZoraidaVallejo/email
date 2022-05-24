@@ -54,7 +54,7 @@
       {{!
       // TODO: Add modifier classes base on which logo is seleceted.
       }}
-      <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
+      <td class="justia-logo" responsive="mobile-padding-horizontal-sides mobile-no-padding-top">
         <a href="{{{@root.adLink}}}" target="_blank">
           {{>img
             src=(get (concat (camelcase widgetConfig.logo.name) ".path." widgetConfig.logo.color) logos)
