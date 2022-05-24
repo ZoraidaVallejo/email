@@ -1,0 +1,45 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "summer-reminder-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Take advantage of the discounts available through Justia Deals as you kick off the summer travel season this Memorial Day weekend! With special pricing and savings on everything from car rentals to hotels and premiere experiences, you can keep more money in your pocket to plan your next adventure.</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><strong>Simply activate your discounts to start saving today!</strong></p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Activate My Savings",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
