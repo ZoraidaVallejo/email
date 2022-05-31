@@ -81,7 +81,7 @@
     {{>widget-columns-with-image widgetConfig=widgetConfig.columns isLast=true}}
   {{/if}}
 
-  {{!-- {{#if widgetConfig.image}}
+  {{#if widgetConfig.image}}
     <tr>
       <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
         {{>img
@@ -133,16 +133,16 @@
       {{/compare}}
 
       {{#compare this.type "===" "description"}}
-        <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-            {{#each this.config}}
-              <p>{{{this}}}</p>
-            {{/each}}
-          </td>
-        </tr>
+      <tr>
+        <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-fz-16">
+          {{#each this.config}}
+          <p>{{{this}}}</p>
+          {{/each}}
+        </td>
+      </tr>
       {{/compare}}
     {{/forEach}}
-  {{/if}} --}}
+  {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>
