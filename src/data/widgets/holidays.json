@@ -30,9 +30,11 @@
   "contentOrder": [
     {
       "type": "description",
-      "config": [
-        "<i>*This is a non-federal holiday. It is not officially recognized. For more information about paid holidays please visit Justikia.</i>"
-      ]
+      "config": {
+        "description": [
+          "<i>*This is a non-federal holiday. It is not officially recognized. For more information about paid holidays please visit Justikia.</i>"
+        ]
+      }
     }
   ]
 }
