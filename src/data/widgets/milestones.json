@@ -9,33 +9,32 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Connect PRO: ",
+        "description": "A big one! Our team released the latest main Justia product: Justia Connect PRO, our paid membership program. It was a company-wide massive effort that involved updates of multiple properties, products and marketing campaigns."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Amplify Google APIs: ",
+        "description": "We completed the migration of the projects that use Google Ads and Google Business Profiles APIs to the latest versions to guarantee uninterrupted services for our Amplify clients."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "Et <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Data Reports: ",
+        "description": "Our Data Team analyzed the Lawyer Directory Peer & Client Reviews for the month. After further discussion with our Product Team, we came up with an action plan to improve the numbers to help us reach our yearly goal."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "IT Maintenance: ",
+        "description": "As part of our ongoing efforts, there were multiple IT maintenance actions during this month, including the migration of the Dockets infrastructure and our internal projects servers, to name a few."
       }
     }
   ]

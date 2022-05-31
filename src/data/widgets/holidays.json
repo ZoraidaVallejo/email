@@ -8,22 +8,30 @@
     {
       "image": {
         "src": "holidays-graphic-01.png",
-        "alt": "Holiday - Month Day"
+        "alt": "Holiday - Father's Day"
       },
-      "blockTitle": "Connect Dashboard",
+      "blockTitle": "Father's Day (Mexico & U.S.) June 20th*",
       "readMore": "",
       "description": [
-        "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        "In Mexico and the U.S., people celebrate Father’s Day on the third Sunday of June (it is not a public holiday, though). It is an observance to honor fathers and male parental figures in both countries. On this day, people thank all those men who set solid examples and guided them throughout their lives. Do not miss the opportunity to express your love, appreciation, and gratitude."
       ]
     },
     {
       "image": {
         "src": "holidays-graphic-02.png",
-        "alt": "Holiday - Month Day"
+        "alt": "Holiday - Pride Month"
       },
-      "blockTitle": "Holiday - Month Day",
+      "blockTitle": "Pride Month <br> June 28th*",
       "description": [
-        "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        "Pride Month is celebrated each June to honor the 1969 Stonewall Uprising in Manhattan. It commemorates years of struggle for civil rights and the ongoing pursuit of equal justice under the law for LGBTQ individuals. Most people gather together with colorful parades, festivals, picnics, and parties."
+      ]
+    }
+  ],
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "<i>*This is a non-federal holiday. It is not officially recognized. For more information about paid holidays please visit Justikia.</i>"
       ]
     }
   ]

@@ -3,55 +3,39 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
-  "description": {
-    "top": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    "bottom": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ]
-  },
-  "feature": {
-    "image": {
-      "src": "featured-onward-01.png",
-      "alt": "Et feugiat senectus platea quisque pretium arcu."
-    },
-    "readMore": "#",
-    "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
-  },
   "singleColumn": false,
   "columns": [
     {
       "image": {
         "src": "onward-01.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Justia Connect Pro"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/welcome-to-the-next-generation-of-justia-connect-justia-connect-pro/",
+      "blockTitle": "Welcome to the Next Generation of Justia Connect: Justia Connect Pro"
     },
     {
       "image": {
         "src": "onward-02.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Intellectual Property Center"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/featured-justia-resources-intellectual-property-center/",
+      "blockTitle": "Featured Justia Resources: Intellectual Property Center"
     },
     {
       "image": {
         "src": "onward-03.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "First Quarter 2022"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-first-quarter-2022/",
+      "blockTitle": "Justia Ask A Lawyer by the Numbers: First Quarter 2022"
     },
     {
       "image": {
         "src": "onward-04.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Short Videos for Lawyers"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/short-videos-for-lawyers-leveraging-tiktok-and-instagram-reels/",
+      "blockTitle": "Short Videos for Lawyers: Leveraging TikTok and Instagram Reels"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "widget": {
-    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "type": "NEW TEAM MEMBERS",
     "header": "Getting to Know the New Talent at Justia"
   },
   "contentOrder": [
@@ -8,27 +8,27 @@
       "type": "image-description",
       "config": {
         "image": "new-people-01.png",
-        "title": "John Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
+        "title": "Genaro Osoria",
+        "blockSubtitle": "Intern - Help Desk",
+        "description": "Hi, I am Genaro! I am a hard-working individual who studies at the Technical University of Coahuila. I have a motivated mindset, and I am always trying to learn new skills. I am adept at various social media platforms and tech programs. I like to listen to music in my free time, and I am currently working hard to learn more languages. One of my most significant objectives in life is to become a polyglot."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "new-people-02.png",
-        "title": "John Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
+        "title": "Saul de la Rosa",
+        "blockSubtitle": "IT Team",
+        "description": "My name is Saul De La Rosa. I’m passionate about motorcycles, especially the custom and cruiser ones. I love to learn new, exciting things, and I love to sing. I used to sing in different local choruses at the university, and I like new experiences. My goal in life is to always do my best in everything I do."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "new-people-03.png",
-        "title": "Jane Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
+        "title": "Dara Gama",
+        "blockSubtitle": "ENG Team",
+        "description": "Hello, I am Dara! I'm a person who has a lot of hunger for knowledge. I'm creative and spontaneous, and I love sports, food, and music. Also, I have a nine year old french poodle. My dream is to make this world a little bit better."
       }
     }
   ]

@@ -11,48 +11,74 @@
       "config": {
         "birthdays": [
           {
-            "day": "01",
-            "name": "John Doer"
-          },
-          {
             "day": "02",
-            "name": "John Doea"
-          },
-          {
-            "day": "03",
-            "name": "John Doeo"
-          },
-          {
-            "day": "04",
-            "name": "John Doel"
+            "name": "Alonso Zuñiga"
           },
           {
             "day": "05",
-            "name": "John Doeo"
+            "name": "Chris Skelton"
+          },
+          {
+            "day": "16",
+            "name": "David Kemp"
+          },
+          {
+            "day": "16",
+            "name": "Laura Garcia"
+          },
+          {
+            "day": "20",
+            "name": "Yessica Acosta"
+          },
+          {
+            "day": "21",
+            "name": "Jose Morales"
+          },
+          {
+            "day": "26",
+            "name": "Rene Peralta"
+          },
+          {
+            "day": "29",
+            "name": "Samuel Yang"
+          },
+          {
+            "day": "30",
+            "name": "Alfredo Galvan"
           }
         ],
         "anniversaries": [
           {
-            "name": "John Doe",
+            "name": "Erika Azuela",
+            "years": "11th"
+          },
+          {
+            "name": "Eduardo Garcia",
+            "years": "8th"
+          },
+          {
+            "name": "Diego Miguel",
+            "years": "8th"
+          },
+          {
+            "name": "Samuel Yang",
+            "years": "8th"
+          },
+          {
+            "name": "Haydee Garcia",
+            "years": "7th"
+          },
+          {
+            "name": "Gabriela Rodriguez",
+            "years": "7th"
+          },
+          {
+            "name": "Jupiter Barrera",
             "years": "1st"
           },
           {
-            "name": "John Doe",
-            "years": "2nd"
-          },
-          {
-            "name": "John Doe",
-            "years": "3rd"
-          },
-          {
-            "name": "John Doe",
-            "years": "5th",
-            "class": "fifth-icon"
-          },
-          {
-            "name": "John Doe",
-            "years": "10th",
-            "class": "tenth-icon"
+            "name": "Jorge Contrera",
+            "years": "1st"
           }
         ]
       }
