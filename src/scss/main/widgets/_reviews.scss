@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-reviews {
-    border-radius: 0 0 10px 10px; 
+    border-radius: 0 0 10px 10px;
 
     td {
         text-align: left;
@@ -56,19 +56,27 @@
         }
 
         .content-side {
-            width: 231px;
+            // width: 231px;
 
             img {
                 width: 225px;
                 margin-top: 5px;
             }
 
+            &.-image {
+                width: 226px;
+            }
+
+            &.-description {
+                width: 250px;
+            }
+
             &:first-child {
-                float: right;
+                float: left;
             }
 
             &:last-child {
-                float: left;
+                float: right;
             }
         }
 
