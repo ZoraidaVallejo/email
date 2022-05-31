@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "banner": "https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png",
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "titlee",
+      "link": "LINK"
+    },
+    {
+      "title": "titlee",
+      "link": "LINK"
+    },
+    {
+      "title": "titlee",
+      "link": "LINK"
+    },
+    {
+      "title": "titlee",
+      "link": "LINK"
+    }
+  ]
+}

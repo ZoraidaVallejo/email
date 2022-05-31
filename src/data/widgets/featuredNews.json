@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/welcome-to-the-next-generation-of-justia-connect-justia-connect-pro/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Welcome to the Next Generation of Justia Connect: Justia Connect Pro",
+  "description": [
+    "Lawyers are now invited to upgrade their free Justia Connect memberships to the all-new Justia Connect Pro, an enhanced membership offering that equips legal professionals with even more benefits and resources to achieve their professional and practice-growth goals."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/welcome-to-the-next-generation-of-justia-connect-justia-connect-pro/",
+    "text": "Read More"
+  }
+}

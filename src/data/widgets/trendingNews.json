@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon.png",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "DOJ Says It Will No Longer Prosecute Good-Faith Hackers Under CFAA",
+          "link": "https://techcrunch.com/2022/05/19/justice-department-good-fatih-hackers-cfaa/"
+        },
+        {
+          "title": "Feds Warn Employers Against Discriminatory Hiring Algorithms ",
+          "link": "https://www.wired.com/story/ai-hiring-bias-doj-eocc-guidance/"
+        },
+        {
+          "title": "Some Top 100,000 Websites Collect Everything You Type—Before You Hit Submit",
+          "link": "https://arstechnica.com/information-technology/2022/05/some-top-100000-websites-collect-everything-you-type-before-you-hit-submit/"
+        },
+        {
+          "title": "Y Combinator Advises Founders to ‘Plan for the Worst’ Amid Market Teardown",
+          "link": "https://techcrunch.com/2022/05/19/yc-advises-founders-to-plan-for-the-worst/"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Fake DMCA Requests Using AI Generated Lawyers To Demand For Links",
+          "link": "https://www.seroundtable.com/fake-dmca-ai-generated-lawyers-links-33308.html"
+        },
+        {
+          "title": "5 Ways to Use the Wayback Machine for SEO",
+          "link": "https://searchengineland.com/5-ways-to-use-the-wayback-machine-for-seo-383754"
+        },
+        {
+          "title": "https://www.searchenginejournal.com/google-business-profile-info-sources/",
+          "link": "https://www.searchenginejournal.com/google-business-profile-info-sources/"
+        },
+        {
+          "title": "110 Top SEO Tools That Are 100% Free",
+          "link": "https://www.searchenginejournal.com/top-seo-tools-free/"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Texas Looks To A Clarence Thomas Opinion To Defend Its Social Media Law",
+          "link": "https://arstechnica.com/tech-policy/2022/05/texas-looks-to-a-clarence-thomas-opinion-to-defend-its-social-media-law/"
+        },
+        {
+          "title": "Twitter Circle: Limit Who Can View Your Tweets",
+          "link": "https://searchengineland.com/twitter-circle-test-384915"
+        },
+        {
+          "title": "LinkedIn Updates Include Improvements To Search Results",
+          "link": "https://www.searchenginejournal.com/linkedin-updates-include-improvements-to-search-results/450154/"
+        },
+        {
+          "title": "Facebook Issues $397 Checks To Illinois Residents As Part Of Class-Action Lawsuit",
+          "link": "https://www.engadget.com/facebook-issues-397-checks-to-illinois-residents-as-part-of-class-action-over-photo-tags-233835674.html"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Biden Invokes Defense Production Act for Formula Shortage",
+          "link": "https://apnews.com/article/biden-health-government-and-politics-df586c2e52b5e5865ea9f8091d4d1f80"
+        },
+        {
+          "title": "US Women's Soccer Players Will Earn the Same as Men, Thanks to a Lawsuit and an Unusual Pooling Deal ",
+          "link": "https://www.abajournal.com/news/article/us-soccer-to-pay-male-and-female-players-the-same-following-lawsuit-settlement"
+        },
+        {
+          "title": "Pritzker Signs New Law Making Illinois First Midwest State to Ban Ghost Guns",
+          "link": "https://wgntv.com/news/wgn-news-now/new-illinois-law-restricting-ghost-guns-to-be-signed/"
+        },
+        {
+          "title": "Can an Elephant Be Considered a Person?",
+          "link": "https://news.justia.com/can-an-elephant-be-considered-a-person/"
+        }
+      ]
+    }
+  ]
+}

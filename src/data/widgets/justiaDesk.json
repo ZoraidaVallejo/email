@@ -1,0 +1,88 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon.png",
+  "news": [
+    {
+      "title": "Law Firm Google PPC Branding Campaigns: Get Ahead of Evil Competitors Bidding on Your Firm Name",
+      "link": "https://onward.justia.com/leveraging-ppc-branding-campaigns-to-get-ahead-of-your-competitors/",
+      "description": "Competing law firms may be buying your firm’s name and encroaching into your brand’s space on Google. Want to better protect your law firm’s digital presence? Discover why your firm should consider a PPC branding campaign. ",
+      "index": "1"
+    },
+    {
+      "title": "Using Case Studies to Build Trust With Clients and Help Your Law Firm Grow",
+      "link": "https://onward.justia.com/using-case-studies-to-build-trust-with-clients-and-help-your-law-firm-grow/",
+      "description": "Your potential clients are looking for well-qualified legal representation that they can trust. Check out this post to learn how case studies help bridge the gap by providing a concrete illustration of your successes in practice.  ",
+      "index": "2"
+    },
+    {
+      "title": "Is Live Chat Right for Your Law Firm?",
+      "link": "https://onward.justia.com/is-live-chat-right-for-your-law-firm/",
+      "description": "Live chat is not a one-size-fits-all marketing and technological solution. However, it can enhance a law firm’s website and provide a strategic benefit for some firms. Discover a few pros and cons to help you decide whether a live chat solution may be right for your practice.",
+      "index": "3"
+    },
+    {
+      "title": "Featured Justia Resources: Maritime Law Center",
+      "link": "https://onward.justia.com/featured-justia-resources-maritime-law-center/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Maritime Law Center.",
+      "index": "4"
+    },
+    {
+      "title": "Short Videos for Lawyers: Leveraging TikTok and Instagram Reels",
+      "link": "https://onward.justia.com/short-videos-for-lawyers-leveraging-tiktok-and-instagram-reels/",
+      "description": "Interested in new ways to market your practice? In this post, you can explore ways to leverage both TikTok and Instagram Reels to reach more clients.",
+      "index": "5"
+    },
+    {
+      "title": "News & Notes on Google Local Services Ads: May 2022",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-may-2022/",
+      "description": "Google’s LSAs are continuously evolving. Check out this post for the latest information about Local Services Ads for lawyers!",
+      "index": "6"
+    },
+    {
+      "title": "Featured Justia Resources: Intellectual Property Center",
+      "link": "https://onward.justia.com/featured-justia-resources-intellectual-property-center/",
+      "description": "Did you know that Justia offers numerous free resources to make the law more accessible and help people better understand the foundations of a variety of legal areas? In this post, you can learn more about the information available in Justia’s Intellectual Property Center",
+      "index": "7"
+    },
+    {
+      "title": "Justia Ask A Lawyer by the Numbers: First Quarter 2022",
+      "link": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-first-quarter-2022/",
+      "description": "With the first quarter of 2022 behind us and the second quarter well underway, we are taking a look at some of the data and trends on our Justia Ask A Lawyer forum so far this year. Keep reading to learn more. ",
+      "index": "8"
+    },
+    {
+      "title": "LSAs Alert: Google Screened Appearing in Google Maps",
+      "link": "https://onward.justia.com/lsas-alert-google-screened-appearing-in-google-maps/",
+      "description": "Google seems to be expanding the places where it shows Local Services Ads on its platform. Keep reading to learn more.",
+      "index": "9"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
