@@ -2,6 +2,7 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
+
 .widget.w-welcome {
     border-bottom: 0;
     background-color: plt('white');
@@ -43,9 +44,21 @@
                 margin: 0 15px;
             }
         }
+
+        &.-no-button {
+            padding: 0 $padding 20px;
+        }
     }
 
     .widget-button {
         text-align: center;
+    }
+
+    .image {
+        padding: 0 $padding 20px;
+
+        img {
+            width: $inner-max-width;
+        }
     }
 }
