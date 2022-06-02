@@ -61,10 +61,12 @@ responsiveClass="mobile-no-padding-horizontal-sides mobile-no-padding-top"
 {{#if widgetConfig.image-bottom}}
 <tr>
   <td class="image image-bottom" responsive="mobile-padding-horizontal-sides">
+    <a href="{{{widgetConfig.link}}}" target="_blank">
       {{>img
       src=widgetConfig.image-bottom
       alt=(default widgetConfig.title widgetConfig.imageAlt)
       }}
+    </a>
   </td>
 </tr>
 {{/if}}
