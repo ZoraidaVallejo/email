@@ -45,9 +45,9 @@
 
   <tr>
     <td class="event-details" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
-      <table>
+      <table responsive="mobile-padding-horizontal-sides">
         <tr>
-          <td class="-icon">
+          <td class="-icon" responsive="mobile-padding-right">
              <img src="../dist/images/megaphone-icon.png" alt="megaphone icon">
           </td>
           <td class="-date-time">
@@ -89,11 +89,14 @@
             {{/uiButton}}
           {{/if}}
         </div>
+
+        {{#if widgetConfig.note}}
         <div class="-note">
           {{#each widgetConfig.note}}
             <p>{{{this}}}</p>
           {{/each}}
         </div>
+        {{/if}}
       </div>
     </td>
   </tr>

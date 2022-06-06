@@ -75,19 +75,19 @@
     .event-details {
         padding: 0 30px 50px;
 
-        >table {
+        > table {
             display: block;
             // width: 100%;
             border: 1px solid #f2f2f2;
             border-width: 0 1px 1px 1px;
             border-radius: 0 0 5px 5px;
-            padding: 10px 25px;
-
+            padding: 10px 54px;
         }
 
         .-icon {
             img {
                 width: 20px;
+                margin-left: 10px
             }
         }
 
@@ -109,8 +109,8 @@
 
     .-note p{
         text-align: center;
+        padding: 12px 0;
         @include mail-font(14px, 1.1);
-        margin-bottom: 10px;
     }
 
 }
