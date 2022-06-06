@@ -1,0 +1,60 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-05&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Get our answers to some common SEO questions and learn more about the consequences of failing to prioritize web accessibility. Catch up on the legal and technology news that recently made headlines and take a peek at what the Justia team has been up to over the last month."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "webinar-01": {
+    "banner": "",
+    "title": [
+      "It’s Time to Improve Your Visibility on Google"
+    ],
+    "details": {
+      "date": "June __ , 2022",
+      "time": "1:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Join us for our inaugural <b>free Justia Webinar</b> exclusive to <b>Justia Connect</b> members, <b>SEO for Law Firm Websites: Intro to SEO & Website Content.</b>",
+      "Learn from Justia CEO and SEO expert Tim Stanley as you discover ways to enhance your law firm’s presence in Google Search results."
+    ],
+    "bottomline": [
+      "<b>Space is limited! Reserve your spot before it is too late.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com",
+      "text": "Reserve My Space",
+      "width": 250
+    }
+  },
+  "webinar-02": {
+    "banner": "",
+    "details": {
+      "date": "June __ , 2022",
+      "time": "1:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "You’ve successfully registered for the SEO for Lawyers webinar! We will see you on June __, 2022 at 11:00am PT/2:00pm ET.",
+      "Be on the lookout for an email from Zoom with your personal link to access this webinar. If you have questions or need assistance with your registration, please <a href='/'><b>contact Justia Support.</b></a>",
+      "Don’t forget to save the date!",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Worried about missing your webinar?</b>",
+      "Don’t be. Justia Connect Pros receive exclusive access",
+      "to recordings of all Justia Webinars"
+    ]
+  }
+}
