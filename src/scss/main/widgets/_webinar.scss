@@ -29,7 +29,7 @@
         .content-title {
             margin: 10px 0 grid-unit(0.4);
             color: plt('justia-blue');
-            @include mail-font(22px, 1.1, tp('weight', 'bold'));
+            @include mail-font(20px, 1.1, tp('weight', 'bold'));
         }
 
         > div {
@@ -81,7 +81,7 @@
             border: 1px solid #f2f2f2;
             border-width: 0 1px 1px 1px;
             border-radius: 0 0 5px 5px;
-            padding: 10px;
+            padding: 10px 25px;
 
         }
 
@@ -92,13 +92,20 @@
         }
 
         .-date-time {
+            @include mail-font(16px, 1.1);
             display: block;
             margin-left: 10px;
             text-align: left;
 
             span {
                 display: inline-block;
+
+                &.-separator{
+                    margin: 0 4px;
+                }
             }
+
+
         }
     }
 
