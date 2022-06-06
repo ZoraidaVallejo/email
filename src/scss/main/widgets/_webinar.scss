@@ -104,9 +104,13 @@
                     margin: 0 4px;
                 }
             }
-
-
         }
+    }
+
+    .-note p{
+        text-align: center;
+        @include mail-font(14px, 1.1);
+        margin-bottom: 10px;
     }
 
 }
