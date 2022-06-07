@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "fathers-day-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Hi {Name},</p>",
+            "<p>Did you know your <strong>Justia Connect</strong> membership can help you save on something special for the dads in your life this Father’s Day? When you activate your <strong>Justia Lifestyle Savings</strong> benefits, you unlock discounts on the activities and products Dad loves!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Activate Savings Now",
+            "width": 260,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
