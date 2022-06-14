@@ -155,5 +155,24 @@
       "Justia Connect Pro members receive exclusive access to recordings of all Justia Webinars.",
       "<a href='https://support.justia.com/'><b>Go Pro to get this benefit.</b></a>"
     ]
+  },
+  "webinar-07": {
+    "banner": "",
+    "title": [
+      "Catch the Replay of Our Most Recent Justia Webinar"
+    ],
+    "message": [
+      "Hi {Name},",
+      "We hope you enjoyed the recent webinar exclusively for Justia Connect members, SEO for Law Firm Websites: Intro to SEO & Website Content.",
+      "We shared a lot of valuable information about strategies to improve your law firm’s online performance – so much information you may even want to watch it twice. Regardless of whether you were able to attend the live webinar or just couldn’t make it, the recording of the presentation is now available to watch whenever convenient for you!",
+      "Accessing the Recording",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Worried about missing your webinar?</b>",
+      "Don’t be. Justia Connect Pro members receive exclusive access",
+      "to recordings of all Justia Webinars.",
+      "<a href='https://support.justia.com/'><b>Go Pro to get this benefit.</b></a>"
+    ]
   }
 }
