@@ -59,5 +59,31 @@
       "Don’t be. Justia Connect Pros receive exclusive access",
       "to recordings of all Justia Webinars"
     ]
+  },
+  "webinar-03": {
+    "banner": "",
+    "title": [
+      "Don’t Miss The Chance to Help Your Firm Grow"
+    ],
+    "details": {
+      "date": "June 23, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Still haven’t registered for our inaugural Justia Webinar? Just one week remains before Justia CEO Tim Stanley leads Justia Connect members in an exclusive learning opportunity that will help your law firm explore key strategies to improve its online performance by using content to reach more clients."
+    ],
+    "bottomline": [
+      "<b>Don’t wait to register!</b>",
+      "<b>Only a few more seats remain for this exciting event!</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com",
+      "text": "Register Today",
+      "width": 200
+    },
+    "note": [
+      "<b>Already registered?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
+    ]
   }
 }
