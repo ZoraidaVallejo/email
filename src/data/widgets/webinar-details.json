@@ -107,5 +107,32 @@
       "to recordings of all Justia Webinars.",
       "<a href='/'><b>Go Pro to get this benefit.</b></a>"
     ]
+  },
+  "webinar-05": {
+    "banner": "",
+    "title": [
+      "New Seats Available for Upcoming Justia Webinar"
+    ],
+    "details": {
+      "date": "June 23, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Didn’t register for our upcoming webinar? Today is your lucky day!",
+      "Due to the overwhelming response received for our inaugural webinar for Justia Connect members, we have added additional seats to our upcoming webinar."
+    ],
+    "bottomline": [
+      "Get insights from our CEO designed to help your law firm better understand and implement strategies to further optimize your law firm website content for better online performance and increased growth.",
+      "We only added a handful of additional seats so be sure to RSVP as soon as possible!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com",
+      "text": "Register Today",
+      "width": 200
+    },
+    "note": [
+      "<b>Already registered for our upcoming webinar?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
+    ]
   }
 }
