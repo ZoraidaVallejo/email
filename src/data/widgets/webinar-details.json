@@ -85,5 +85,27 @@
     "note": [
       "<b>Already registered?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
     ]
+  },
+  "webinar-04": {
+    "banner": "",
+    "title": [
+      "Are You Ready?"
+    ],
+    "details": {
+      "date": "June 23, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "In less than one week, you will be attending the SEO for Law Firm Websites: Intro to SEO & Website Content webinar led by Justia CEO Tim Stanley!",
+      "If you have not already received an email from Zoom with your unique access link for the webinar, please <a href='https://support.justia.com/'><b>contact Justia Support</b></a> for assistance.",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Worried about missing your webinar?</b>",
+      "Don’t be. Justia Connect Pro members receive exclusive access",
+      "to recordings of all Justia Webinars.",
+      "<a href='/'><b>Go Pro to get this benefit.</b></a>"
+    ]
   }
 }
