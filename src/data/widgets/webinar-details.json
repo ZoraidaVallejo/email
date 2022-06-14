@@ -134,5 +134,26 @@
     "note": [
       "<b>Already registered for our upcoming webinar?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
     ]
+  },
+  "webinar-06": {
+    "banner": "",
+    "title": [
+      "Reminder: Your Webinar Is Today"
+    ],
+    "details": {
+      "date": "June 23, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "Don’t forget that your SEO for Law Firm Websites: Intro to SEO & Website Content webinar starts at 11:00am PT/1:00pm ET today",
+      "You should have received an email from Zoom with your personal link to access this webinar. If you have not received this email, please check your spam folder. If you are still unable to locate your webinar link, please <a href='https://support.justia.com/'><b>contact Justia Support</b></a> immediately for assistance",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Can’t make it? We understand!</b>",
+      "Justia Connect Pro members receive exclusive access to recordings of all Justia Webinars.",
+      "<a href='https://support.justia.com/'><b>Go Pro to get this benefit.</b></a>"
+    ]
   }
 }
