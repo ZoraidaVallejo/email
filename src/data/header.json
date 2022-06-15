@@ -21,7 +21,7 @@
     "logo": {
       "name": "insights",
       "link": {
-        "url": "https://www.justia.com/marketing/",
+        "url": "https://www.justia.com/marketing/connect/",
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",

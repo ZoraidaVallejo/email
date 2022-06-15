@@ -42,7 +42,7 @@
     "logo": {
       "name": "justia",
       "link": {
-        "url": "https://www.justia.com/marketing/",
+        "url": "https://www.justia.com/marketing/connect/",
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
@@ -57,6 +57,10 @@
       {
         "text": "Contact Us",
         "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
       },
       {
         "text": "Privacy Policy",
