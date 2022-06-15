@@ -119,9 +119,7 @@
     },
     "message": [
       "Didn’t register for our upcoming webinar? Today is your lucky day!",
-      "Due to the overwhelming response received for our inaugural webinar for Justia Connect members, we have added additional seats to our upcoming webinar."
-    ],
-    "bottomline": [
+      "Due to the overwhelming response received for our inaugural webinar for Justia Connect members, we have added additional seats to our upcoming webinar.",
       "Get insights from our CEO designed to help your law firm better understand and implement strategies to further optimize your law firm website content for better online performance and increased growth.",
       "We only added a handful of additional seats so be sure to RSVP as soon as possible!"
     ],
@@ -132,7 +130,7 @@
       "width": 200
     },
     "note": [
-      "<b>Already registered for our upcoming webinar?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
+      "<b>Already registered for our upcoming webinar?</b><br> You can disregard this email. We’re looking forward<br> to seeing you on June 23!"
     ]
   },
   "webinar-06": {
