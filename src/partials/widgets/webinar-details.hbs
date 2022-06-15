@@ -1,0 +1,103 @@
+{{! ================================================================================================================= }}
+{{! W E L C O M E   M E S S A G E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}   widgetConfig
+ * @param {String[]} widgetConfig.title
+ * @param {String[]} widgetConfig.message
+ * @param {String[]} widgetConfig.bottomline
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+}}
+
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-webinar set-max-width"}}
+
+{{!--
+  // TODO: Maybe move title and description to a component.
+  // In this case, check if it is posible to customize the H tag.
+  --}}
+
+  <!-- <tr>
+    <td class="widget-description -top" responsive="mobile-padding-horizontal-sides">
+      <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+    </td>
+  </tr> -->
+
+  <!-- {{>widget-welcome-banner
+    imgSrc=widgetConfig.banner
+    imgAlt="Welcome"
+  }} -->
+
+  <!--<tr>
+    <td class="event-details" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
+      <table responsive="mobile-padding-horizontal-sides">
+        <tr>
+          <td class="-icon" responsive="mobile-padding-right">
+             <img src="../dist/images/megaphone-icon.png" alt="megaphone icon">
+          </td>
+          <td class="-date-time">
+            <span> <b>Date:</b> {{widgetConfig.details.date}} </span>
+            <span class="-separator">|</span>
+            <span> <b>Time:</b> {{widgetConfig.details.time}}</span>
+        </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>-->
+
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div>
+        {{#if widgetConfig.title}}
+          <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+        {{/if}}
+
+        {{#each widgetConfig.message}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        <div class="-bottomline">
+          {{#each widgetConfig.bottomline}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </div>
+
+        {{!
+          // TODO: Move to `widget-button` component.
+        }}
+
+        {{#if @root.widgetWithButton}}
+        <div class="widget-button">
+            {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+              {{widgetConfig.button.text}}
+            {{/uiButton}}
+          {{/if}}
+        </div>
+
+        {{#if widgetConfig.note}}
+        <div class="-note">
+          {{#each widgetConfig.note}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </div>
+        {{/if}}
+      </div>
+    </td>
+  </tr>
+{{/table}}

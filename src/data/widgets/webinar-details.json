@@ -1,0 +1,38 @@
+{
+  "clients": {
+    "banner": "welcome-graphic-01.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-05&utm_source=client-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Get our answers to some common SEO questions and learn more about the consequences of failing to prioritize web accessibility. Catch up on the legal and technology news that recently made headlines and take a peek at what the Justia team has been up to over the last month."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "webinar-01": {
+    "banner": "Hi",
+    "message": [
+      "Hi {Name},",
+      "<b>Time is running out to use one of your Justia Connect Pro Membership benefits: the $100 Justia Credit.*</b> It will expire on {Date}.",
+      "Don't let your $100 go to waste! From an optimized website through <b>Justia Elevate</b> to increased visibility with <b>Justia Premium Placements</b> on the <b>Justia Lawyer Directory</b> and PPC management services through <b>Justia Amplify</b>, we have a legal marketing solution for your various needs."
+    ],
+    "bottomline": [
+      "<b>Contact us today to get started!</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com",
+      "text": "Use My Credit",
+      "width": 215
+    },
+    "note": [
+      "*See <a href='https://connect.justia.com/pro/terms/stripe' target='_blank'>Justia Connect Pro Credit Terms</a> for applicable conditions."
+    ]
+  }
+}

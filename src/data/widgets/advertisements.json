@@ -1,0 +1,18 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "webinar-01": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://www.justia.com",
+      "image": "credit-expiration-notification.png"
+    }
+  }
+}
