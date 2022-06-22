@@ -58,5 +58,50 @@
         }
       ]
     }
+  },
+  "june": {
+    "communityTips": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Community Tips",
+            "order": "image-text",
+            "image": "year-graphic-01.png",
+            "subtitle": "Put Your Best Foot Forward",
+            "text": "<p>As a Justia Connect Pro, you have the ability to feature client reviews and peer reviews from other attorneys on your enhanced Justia Profile in the Justia Lawyer Directory. Don’t miss out on this opportunity to make a strong first impression on potential clients!</p><p>Don’t already have reviews? <a href=\"#\" target=\"_blank\"><b>You can request client reviews here</b></a> or <a href=\"#\" target=\"_blank\"><b>request peer reviews here</b></a> to get started.</p>",
+            "button": "Feature Reviews",
+            "link": "#"
+          }
+        }
+      ]
+    },
+    "justiaDeals": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Justia Deals",
+            "order": "image-text",
+            "image": "kenect-logo-01.png",
+            "subtitle": "Legal Deals",
+            "text": "Let your clients text you! Save $1,000 with a waived setup fee for the Kenect texting platform.",
+            "button": "Get Deal",
+            "link": "https://connect.justia.com/legal-deals/kenect/setup-waived"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "order": "image-text",
+            "image": "movies-graphic-01.png",
+            "subtitle": "Lifestyle Savings",
+            "text": "The summer movie season is here! Save on e-tickets at movie chains across the nation, including AMC Theaters, Cinemark Theaters, and more, courtesy of Justia!",
+            "button": "Start Saving",
+            "link": "https://deals.justia.com/discounts/category/Movie_Tickets"
+          }
+        }
+      ]
+    }
   }
 }

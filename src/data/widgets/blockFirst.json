@@ -41,6 +41,28 @@
           ]
         }
       ]
+    },
+    "email06": {
+      "background": {
+        "image": "connect-banner-bg-01.png",
+        "width": 600,
+        "bgColor": "#fff",
+        "cssSize": "600px 375px",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "link": "#",
+      "title": "Your Monthly Insights From <span>Justia Connect Pro</span>",
+      "titleResponsiveSize": 21,
+      "image": "connect-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your monthly update from <b>Justia Connect Pro</b>, your upgraded membership connecting you with even more benefits and exclusive resources to achieve your professional and practice-growth goals.</p>",
+            "<p>Be sure to check out this email for helpful tips specifically for Justia Connect Pros from our Justia Connect team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits.</p>"
+          ]
+        }
+      ]
     }
   }
 }
