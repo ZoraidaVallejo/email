@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/3-reasons-lawyers-should-claim-their-free-directory-profiles-in-the-early-summer/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "3 Reasons Lawyers Should Claim Their Free Directory Profiles in the Early Summer",
+  "description": [
+    "Free lawyer directory profiles are a great way to enhance your law firm’s digital marketing efforts at any time. However, if you have not claimed them already, here are three reasons to claim your free directory profiles early in the summer months. "
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/3-reasons-lawyers-should-claim-their-free-directory-profiles-in-the-early-summer/",
+    "text": "Read More"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-of-the-month.png",
+    "title": "Missed Our Webinar on Content SEO?",
+    "description": [
+      "SEO is crucial to your law firm website’s ongoing success! In our recent Justia Webinar, we shared expert strategies for optimizing your website content for increased visibility in Google Search results. If you missed this learning opportunity, you can get access to the webinar recording (and future webinar recordings) when you upgrade to Justia Connect Pro. "
+    ],
+    "button": {
+      "style": "red",
+      "link": "",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "tip-of-the-month",
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-of-the-month.png",
+    "title": "Missed Our Webinar on Content SEO?",
+    "description": [
+      "SEO is crucial to your law firm website’s ongoing success! In our recent Justia Webinar, we shared expert strategies for optimizing your website content for increased visibility in Google Search results. If you missed this learning opportunity, you can get access to the webinar recording (and future webinar recordings) when you upgrade to <b>Justia Connect Pro.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro/?utm_medium=email&utm_campaign=2022-07&utm_source=insights-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Go Pro Today",
+      "width": 170
+    }
+  }
+}

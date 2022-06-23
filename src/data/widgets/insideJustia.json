@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Justia Team Back Together"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Justia Team Back Together</b>",
+      "description": [
+        "Our Justia Team has been fortunate to reopen some of our offices in recent weeks and start hosting in-person events and gatherings! While some Justians continue to work from home, our open offices have welcomed new team members visiting for the first time, as well as familiar faces!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Zoey Turns ONE"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Zoey Turns ONE</b>",
+      "description": [
+        "Zoey the Hug Pug is growing up fast! She got to celebrate her very first birthday last month with her pug friends and favorite people too."
+      ]
+    }
+  ]
+}

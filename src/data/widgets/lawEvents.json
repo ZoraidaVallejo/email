@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "07",
+      "month": "Jul",
+      "title": "Obtaining Mobile Phone Evidence Without the Individual Device: Discovery Solutions",
+      "link": "https://www.straffordpub.com/products/obtaining-mobile-phone-evidence-without-the-individual-device-discovery-solutions-2022-07-07",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "12",
+      "month": "Jul",
+      "title": "The Heart of Your Law Office: The Fundamentals and Science of Training Paralegals",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/423616400/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "13",
+      "month": "Jul",
+      "title": "Ethics, Discipline, and Malpractice: Tips for Starting a Solo Practice",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/423917598/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "20",
+      "month": "Jul",
+      "title": "The Reverse Reptile: Rethinking Traditional Defense Strategies and Antidotes",
+      "link": "https://www.straffordpub.com/products/the-reverse-reptile-rethinking-traditional-defense-strategies-and-antidotes-2022-07-20",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "28",
+      "month": "Jul",
+      "title": "Litigating Wage and Hour Class Actions: Certification and Decertification",
+      "link": "https://www.straffordpub.com/products/litigating-wage-and-hour-class-actions-certification-and-decertification-2022-07-28 ",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}
