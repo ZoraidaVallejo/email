@@ -16,6 +16,8 @@
  * @param {string}          widgetConfig.title
  * @param {number}          widgetConfig.titleResponsiveSize
  * @param {string}          widgetConfig.image
+ * @param {string}          widgetConfig.bannerSpacing
+ * @param {string}          widgetConfig.bannerTopSpacing
  * @param {string}          widgetConfig.imageAlt
  * @param {Object}          widgetConfig.background
  * @param {string}          widgetConfig.background.image
@@ -76,13 +78,13 @@
 
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
-        <a href="{{{@root.adLink}}}" target="_blank">
+      <td class="image {{#if widgetConfig.bannerSpacing}}  -extra-space-above{{/if}} {{#if widgetConfig.bannerSpacing}} -extra-space{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
+        {{#if widgetConfig.link}}<a href="{{{@root.adLink}}}" target="_blank">{{/if}}
           {{>img
             src=widgetConfig.image
             alt=(default widgetConfig.title widgetConfig.imageAlt)
           }}
-        </a>
+        {{#if widgetConfig.link}}</a>{{/if}}
       </td>
     </tr>
 
@@ -96,12 +98,13 @@
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
                 <div class="content-side -image" responsive="mobile-hide">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                  {{#if widgetConfig.link}}
+                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">{{/if}}
                     {{>img
                       src=../config.image
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
                     }}
-                  </a>
+                  {{#if widgetConfig.link}}</a>{{/if}}
                 </div>
               {{/compare}}
 

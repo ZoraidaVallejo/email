@@ -9,12 +9,19 @@
 {{!
  * @param {Object}   widgetConfig
  * @param {String[]} widgetConfig.title
+ * @param {String[]} widgetConfig.subtitle
  * @param {String[]} widgetConfig.message
+ * @param {String[]} widgetConfig.message2
+ * @param {String[]} widgetConfig.message3
  * @param {String[]} widgetConfig.bottomline
  * @param {Object}   widgetConfig.button
  * @param {String}   widgetConfig.button.style
  * @param {String}   widgetConfig.button.link
  * @param {String}   widgetConfig.button.text
+ * @param {Object} widgetConfig.button2
+ * @param {String} widgetConfig.button2.style
+ * @param {String} widgetConfig.button2.link
+ * @param {String} widgetConfig.button2.text
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -23,9 +30,15 @@
   {{assign "widgetWithButton" false}}
 {{/and}}
 
+{{#and widgetConfig.button2 (compare widgetConfig.button2.link "!==" "")}}
+{{assign "widgetWithButton2" true}}
+{{else}}
+{{assign "widgetWithButton2" false}}
+{{/and}}
+
 {{! ================================================================================================================= }}
 
-{{#table class="widget w-webinar set-max-width"}}
+{{#table class="widget w-webinar set-max-width post-webinar"}}
 
 {{!--
   // TODO: Maybe move title and description to a component.
@@ -74,22 +87,44 @@
           <p>{{{this}}}</p>
         {{/each}}
 
+        {{#each widgetConfig.subtitle}}
+        <div class="subtitle">{{{this}}}</div>
+        {{/each}}
+
+        {{#each widgetConfig.message2}}
+        <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+        // TODO: Move to `widget-button` component.
+        }}
+
+        {{#if @root.widgetWithButton}}
+        <div class="widget-button button1">
+          {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+          {{widgetConfig.button.text}}
+          {{/uiButton}}
+          {{/if}}
+        </div>
+
+        {{#each widgetConfig.message3}}
+        <div class="border-top">
+          <p>{{{this}}}</p>
+        </div>
+        {{/each}}
+
+        {{#if @root.widgetWithButton2}}
+        <div class="widget-button button2">
+          {{#uiButton presetStyle=widgetConfig.button2.style width=widgetConfig.button2.width href=(concat widgetConfig.button2.link (utmVariables widgetConfig.button.utm))}}
+          {{widgetConfig.button2.text}}
+          {{/uiButton}}
+          {{/if}}
+        </div>
+
         <div class="-bottomline">
           {{#each widgetConfig.bottomline}}
             <p>{{{this}}}</p>
           {{/each}}
-        </div>
-
-        {{!
-          // TODO: Move to `widget-button` component.
-        }}
-
-        {{#if @root.widgetWithButton}}
-        <div class="widget-button">
-            {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
-              {{widgetConfig.button.text}}
-            {{/uiButton}}
-          {{/if}}
         </div>
 
         {{#if widgetConfig.note}}

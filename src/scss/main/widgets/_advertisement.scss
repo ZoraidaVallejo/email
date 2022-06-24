@@ -19,21 +19,30 @@
     }
 
     .title {
-        padding: 0 $padding 35px;
+        padding: 50px $padding 20px;
 
         a {
-            @include mail-font(30px, 1.15);
+            @include mail-font(36px, 1.15, tp('weight', 'bold'));
             color: plt('justia-blue');
         }
     }
 
+
     .image {
-        padding: 50px 0 0;
+        padding: 150px 0 0;
 
         img {
             width: $inner-max-width;
             // border-radius: 5px 5px 0 0;
         }
+    }
+
+    .-extra-space-above {
+        padding-top: 145px;
+     }
+
+    .-extra-space {
+        padding-bottom: 30px;
     }
 
     .content {

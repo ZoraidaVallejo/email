@@ -2,7 +2,9 @@
 // W E L C O M E   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.widget.w-webinar {
+.widget.w-webinar,
+.widget.post-webinar {
+
     border-bottom: 0;
     background-color: plt('white');
 
@@ -30,6 +32,10 @@
             margin: 10px 0 grid-unit(0.4);
             color: plt('justia-blue');
             @include mail-font(20px, 1.1, tp('weight', 'bold'));
+
+            .display-inlineb {
+                display: inline-block;
+            }
         }
 
         > div {
@@ -65,11 +71,23 @@
                 margin: 0 0;
             }
         }
+
+        .subtitle {
+            @include mail-font(20px, 1.1, tp('weight', 'bold'));
+            text-align: left;
+            display: block;
+            margin-bottom: grid-unit(0.2);
+        }
     }
 
     .widget-button {
         text-align: center;
         padding: 25px 30px 15px;
+    }
+
+    .button1 {
+        padding-top: 0;
+        padding-bottom: 30px;
     }
 
     .event-details {
@@ -113,4 +131,13 @@
         @include mail-font(14px, 1.1);
     }
 
+    .border-top {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 20px;
+    }
+}
+.widget.post-webinar {
+    .-bottomline {
+        color: #333333;
+    }
 }
