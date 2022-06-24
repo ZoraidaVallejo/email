@@ -157,21 +157,34 @@
   },
   "webinar-07": {
     "banner": "",
-    "title": [
-      "Catch the Replay of Our Most Recent Justia Webinar"
-    ],
     "message": [
-      "Hi {Name},",
+      "{Name},",
       "We hope you enjoyed the recent webinar exclusively for Justia Connect members, SEO for Law Firm Websites: Intro to SEO & Website Content.",
-      "We shared a lot of valuable information about strategies to improve your law firm’s online performance – so much information you may even want to watch it twice. Regardless of whether you were able to attend the live webinar or just couldn’t make it, the recording of the presentation is now available to watch whenever convenient for you!",
-      "Accessing the Recording",
-      "Sincerely,<br> The Justia Connect Team"
+      "We shared a lot of valuable information about strategies to improve your law firm’s online performance – so much information you may even want to watch it twice. Regardless of whether you were able to attend the live webinar or just couldn’t make it, the recording of the presentation is now available to watch whenever convenient for you!"
     ],
+    "subtitle": [
+      "Accessing the Recording"
+    ],
+    "message2": [
+      "<b>Justia Connect Pro Members:</b> You do not need to take any additional action to access this recording. It is available in your Justia Connect dashboard and is included as part of your Justia Connect Pro Membership benefits."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com",
+      "text": "Watch Now",
+      "width": 160
+    },
+    "message3": [
+      "<b>Justia Connect Basic Members:</b> You don’t have to miss out! Upgrade to Justia Connect Pro for as little as $16.65/month,* to watch this recording and unlock all of the great features Justia Connect Pro has to offer! Upgrade today to get access."
+    ],
+    "button2": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com",
+      "text": "Go Pro",
+      "width": 160
+    },
     "bottomline": [
-      "<b>Worried about missing your webinar?</b>",
-      "Don’t be. Justia Connect Pro members receive exclusive access",
-      "to recordings of all Justia Webinars.",
-      "<a href='https://support.justia.com/'><b>Go Pro to get this benefit.</b></a>"
+      "<em>*When paid annually. Justia Connect Pro is $19.99/month <br/> for members who have selected a monthly payment plan.</em>"
     ]
   }
 }

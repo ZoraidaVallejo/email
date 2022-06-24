@@ -66,13 +66,28 @@
     },
     "webinar-07": {
       "background": {
-        "image": "gray-bg.png",
+        "image": "bg-post-webinar.png",
         "width": 0,
         "bgColor": "",
         "cssSize": ""
       },
-      "link": "https://connect.justia.com/webinars/law-firm-website-content-for-seo",
-      "image": "webinar-registered.png"
+      "link": "https://www.justia.com",
+      "bannerSpacing": true,
+      "bannerTopSpacing": true,
+      "image": "post-webinar.png",
+      "contentOrder": [
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 160,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
     }
   }
 }
