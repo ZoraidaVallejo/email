@@ -29,7 +29,7 @@
 
 
     .image {
-        padding: 150px 0 0;
+        padding: 50px 0 0;
 
         img {
             width: $inner-max-width;
@@ -38,8 +38,8 @@
     }
 
     .-extra-space-above {
-        padding-top: 145px;
-     }
+        padding-top: 0 !important;
+    }
 
     .-extra-space {
         padding-bottom: 30px;

@@ -66,11 +66,12 @@
     },
     "webinar-07": {
       "background": {
-        "image": "bg-post-webinar.png",
+        "image": "gray-bg.png",
         "width": 0,
         "bgColor": "",
         "cssSize": ""
       },
+      "title": "Catch the Replay of Our Most Recent Justia Webinar",
       "link": "https://www.justia.com",
       "bannerSpacing": true,
       "bannerTopSpacing": true,
