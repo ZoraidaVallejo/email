@@ -137,6 +137,11 @@
     }
 }
 .widget.post-webinar {
+
+    .widget-description > div {
+        padding: 25px;
+    }
+
     .-bottomline {
         color: #333333;
     }
