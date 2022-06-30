@@ -1,0 +1,126 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justians on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "01",
+            "name": "Barbara Cooper"
+          },
+          {
+            "day": "01",
+            "name": "Esteban Hinojosa"
+          },
+          {
+            "day": "01",
+            "name": "Jose Soto"
+          },
+          {
+            "day": "04",
+            "name": "Zaid Corral"
+          },
+          {
+            "day": "06",
+            "name": "Meghna Patel"
+          },
+          {
+            "day": "08",
+            "name": "Genaro Osoria"
+          },
+          {
+            "day": "09",
+            "name": "Lenin Angulo"
+          },
+          {
+            "day": "10",
+            "name": "Rafael Peralta"
+          },
+          {
+            "day": "13",
+            "name": "Antonio Guizar"
+          },
+          {
+            "day": "15",
+            "name": "Tim Stanley"
+          },
+          {
+            "day": "19",
+            "name": "Gabriela Fonseca"
+          },
+          {
+            "day": "20",
+            "name": "Alonso Zuñiga"
+          },
+          {
+            "day": "21",
+            "name": "Carlos Quintanilla"
+          },
+          {
+            "day": "26",
+            "name": "Ana Hidalgo"
+          },
+          {
+            "day": "27",
+            "name": "Gabriela Rodriguez"
+          },
+          {
+            "day": "30",
+            "name": "Stacy Stern"
+          },
+          {
+            "day": "31",
+            "name": "Nina McKee"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Ismael Munoz",
+            "years": "11th"
+          },
+          {
+            "name": "Miguel Berlanga",
+            "years": "11th"
+          },
+          {
+            "name": "Rene Peralta",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Gabriela Fonseca",
+            "years": "10th",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Ana Serna",
+            "years": "7th"
+          },
+          {
+            "name": "Lizeth Rios",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Claudia Duque",
+            "years": "4th"
+          },
+          {
+            "name": "David Gonzalez",
+            "years": "2nd"
+          },
+          {
+            "name": "Miriam Valdes",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}

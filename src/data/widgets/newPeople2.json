@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "NEW TEAM MEMBERS",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-people-01.png",
+        "title": "Alejandro Mejia",
+        "blockSubtitle": "IT Team",
+        "description": "Hello team! My name is Alejandro Mejia. I am from San Luis Potosí. I am 22 years old and a self-taught person passionate about the IT world. I like to exercise at the gym and play musical instruments in my free time. I am willing to turn my dreams into goals and will not stop until I see them come true. I love learning new things daily and sharing my knowledge with others."
+      }
+    }
+  ]
+}

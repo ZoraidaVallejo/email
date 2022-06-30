@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Why Non-Google PPC Matters for Law Firms"
+      },
+      "readMore": "https://onward.justia.com/welcome-to-the-next-generation-of-justia-connect-justia-connect-pro/",
+      "blockTitle": "Why Non-Google PPC Matters for Law Firms"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Featured Justia Resources: Education Law Center"
+      },
+      "readMore": "https://onward.justia.com/featured-justia-resources-intellectual-property-center/",
+      "blockTitle": "Featured Justia Resources: Education Law Center"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "News & Notes on Google Local Services Ads: June 2022"
+      },
+      "readMore": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-first-quarter-2022/",
+      "blockTitle": "News & Notes on Google Local Services Ads: June 2022"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "SEO Basics for Lawyers: Keyword Research"
+      },
+      "readMore": "https://onward.justia.com/short-videos-for-lawyers-leveraging-tiktok-and-instagram-reels/",
+      "blockTitle": "SEO Basics for Lawyers: Keyword Research"
+    }
+  ]
+}

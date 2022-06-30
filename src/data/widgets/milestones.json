@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "First Justia Connect Webinar: ",
+        "description": "On June 23, we held our inaugural Justia Webinar, \"SEO for Law Firm Websites: Intro to SEO & Website Content,\" presented by Tim. With more than 100 attendants, the Webinar was very informative and successful. We have already received great feedback from lawyers, and people are excited about this series's upcoming talks. As a result, we have identified an increase in sign-ups for our Connect Pro service. Thank you to all the people involved in the event. Go Justia!"
+      }
+    }
+  ]
+}
