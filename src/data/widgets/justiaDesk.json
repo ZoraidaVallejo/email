@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Why Non-Google PPC Matters for Law Firms",
+      "link": "https://onward.justia.com/why-non-google-ppc-matters-for-law-firms/",
+      "description": "With Google dominating the search engine market, you may be wondering if any non-Google PPC advertising still matters. The short answer? Yes. Keep reading to learn more.",
+      "index": "1"
+    },
+    {
+      "title": "Behind the Scenes: Your Law Firm Website Maintenance",
+      "link": "https://onward.justia.com/seo-basics-for-lawyers-keyword-research",
+      "description": "Search engine optimization helps lawyers strengthen their digital marketing strategy by focusing on visibility in Google Search results and other search engine results too!",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

@@ -1,0 +1,65 @@
+{{! ================================================================================================================= }}
+{{! T I P   O F   T H E   M O N T H                                                                                   }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#and widgetConfig.content.button (compare widgetConfig.content.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-tip-month set-max-width"}}
+
+  {{>widget-header
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
+  }}
+
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        <p class="subtitle">Check out our Justia Help Center to see the following new/updated articles to help you with your Justia Elevate website.</p>
+
+        {{#each widgetConfig.content}}
+
+            {{#if this.banner}}
+              {{>widget-banner
+                widgetClass="banner-icon"
+                imgSrc=this.banner
+                imgAlt=widgetConfig.alt
+                link=widgetConfig.imageLink
+              }}
+            {{/if}}
+
+            {{#if this.title}}
+              <h3 class="content-title">{{{this.title}}}</h3>
+            {{/if}}
+
+            {{#each this.description}}
+              <p>{{{this}}}</p>
+            {{/each}}
+
+            {{!
+            // TODO: Move to `widget-button` component.
+            }}
+            <div class="widget-button">
+              {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+                {{this.button.text}}
+              {{/uiButton}}
+            </div>
+            {{#if this.border}}
+              <div class="border"></div>
+            {{/if}}
+        {{/each}}
+      </div>
+    </td>
+  </tr>
+
+
+{{/table}}
