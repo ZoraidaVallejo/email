@@ -10,7 +10,48 @@
       "config": {
         "image": "milestones-graphic-01.png",
         "title": "First Justia Connect Webinar: ",
-        "description": "On June 23, we held our inaugural Justia Webinar, \"SEO for Law Firm Websites: Intro to SEO & Website Content,\" presented by Tim. With more than 100 attendants, the Webinar was very informative and successful. We have already received great feedback from lawyers, and people are excited about this series's upcoming talks. As a result, we have identified an increase in sign-ups for our Connect Pro service. Thank you to all the people involved in the event. Go Justia!"
+        "description": "On June 23rd, we held our <a href=\"https://connect.justia.com/webinars/law-firm-website-content-for-seo\" target=\"_blank\">inaugural Justia Webinar</a>, \"SEO for Law Firm Websites: Intro to SEO & Website Content,\" presented by Tim. With more than 100 attendants, the webinar was very informative and successful. We have already received great feedback from lawyers, and people are excited about this series's upcoming talks. As a result, we have identified an increase in sign-ups for our Justia Connect Pro service. Thank you to all the people involved in the event. Go Justia!"
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Connect Webinar Marketing: ",
+        "description": "One of the biggest benefits of being a Justia Connect Pro Member is the Webinars. For the inaugural Justia Connect Webinar, which was open to all, we touched on various promotions through multiple campaigns, different ads, and numerous announcements on Justia properties, client reports, and client support center, among others."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Elevate Sites: ",
+        "description": "We hit the first big milestone after the launch this month, and we pushed the first-ever Justia Elevate platform website into production!"
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Mexican Constitution: ",
+        "link": "https://mexico.justia.com/federales/constitucion-politica-de-los-estados-unidos-mexicanos/",
+        "description": "We have finally started updating the content of our Mexico portal, starting with the Mexican Constitution, and improved the look and feel. This is just the first of many updates to our Mexico portal."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "QA Automation: ",
+        "description": "Our QA Team has been advancing our quality assurance coverage with updates to Justia Elevate, Justia Amplify, SEO Reports, SEC Contracts, and other properties."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "IT Maintenance: ",
+        "description": "As usual, the IT Team is working hard on maintaining several servers across the board. This affected the backend infrastructure of products such as our Justia Lawyer Directory, Free Law, and other major properties."
       }
     }
   ]

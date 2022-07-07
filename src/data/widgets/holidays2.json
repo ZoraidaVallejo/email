@@ -8,17 +8,11 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-01.png",
-        "blockTitle": "USA Independence Day - July 4th",
+        "blockTitle": "USA Independence Day<br>July 4th",
         "description": [
           "On July 4th, also known as Independence Day, the United States observes a federal holiday in honor of the Declaration of Independence. Specifically, the holiday commemorates America’s revolutionary Charter of Freedom. Happy Fourth of July!"
         ]
       }
-    },
-    {
-      "type": "description",
-      "config": [
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
-      ]
     }
   ]
 }
