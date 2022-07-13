@@ -1,5 +1,5 @@
 {{! ================================================================================================================= }}
-{{! COMMUNITY TIPS                                                                                         }}
+{{! community-tips                                                                                         }}
 {{! ================================================================================================================= }}
 
 {{!
@@ -42,9 +42,30 @@
         </h3>
       {{/if}}
 
-        {{#each widgetConfig.description}}
-          <p>{{{this}}}</p>
-        {{/each}}
+      {{#each widgetConfig.description}}
+        <p>{{{this}}}</p>
+      {{/each}}
+
+      {{#table}}
+        <tr>
+          <td class="bullet-list" responsive="mobile-padding-horizontal-sides">
+          {{#table class="set-max-width"}}
+            {{#each widgetConfig.list}}
+              <tr>
+                <td class="bullet">
+                  {{>img src="/bullet.png" alt="bullet"}}
+                </td>
+                <td class="text">
+                  <p>{{{this}}}</p>
+                </td>
+              </tr>
+              {{/each}}
+            {{/table}}
+          </td>
+        </tr>
+      {{/table}}
+
+
 
         {{!
         // TODO: Move to `widget-button` component.

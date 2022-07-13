@@ -279,8 +279,7 @@
     }
 }
 
-.w-tip-month,
-.w-justia-deals {
+.w-tip-month {
     // .widget-banner img {
     //     max-width: 100%;
     // }
@@ -294,6 +293,34 @@
     }
 }
 
+.w-justia-deals {
+    // .widget-banner img {
+    //     max-width: 100%;
+    // }
+    .border {
+        border-top:1px solid #dddddd;
+        margin: 0 0 25px;
+    }
+
+    .title-wrapper {
+        padding: 20px 0 0
+    }
+
+    .subtitle {
+        margin: 0 0 25px;
+    }
+
+    .widget-button {
+        padding: 10px 0 0px;
+        margin: 0 0 25px;
+    }
+
+    .widget-wrapper {
+        padding: 10px 25px 0px
+    }
+}
+
+
 .w-tip-month,
 .w-justia-deals,
 .w-did-you-know,
@@ -304,6 +331,34 @@
     }
     a {
         font-weight: get('font.weight.bold');
+    }
+}
+
+.w-community-tips {
+    // .widget-wrapper{
+    //     padding: 10px 25px 15px;
+    // }
+    .widget-button {
+        padding: 30px 0 0px;
+    }
+}
+
+.bullet-list {
+    padding: 0;
+
+    .bullet {
+        width: 45px;
+        padding: 8px 0 25px;
+        vertical-align: top;
+
+        img {
+            @include size(9px);
+            padding: 0 0 0 10px;
+        }
+    }
+
+    .text {
+        padding: 0 10px 5px 0 ;
     }
 }
 
