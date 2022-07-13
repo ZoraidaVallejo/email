@@ -25,7 +25,7 @@
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
-          "source": "quarterly-newsletter",
+          "source": "quarterly-elevate-newsletter",
           "content": "image-header-logo-1"
         }
       },

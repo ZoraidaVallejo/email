@@ -32,7 +32,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "quarterly-newsletter",
+      "source": "quarterly-elevate-newsletter",
       "content": {
         "title": "text-justia-desk-title-",
         "button": "text-justia-desk-suscribe-now-1",

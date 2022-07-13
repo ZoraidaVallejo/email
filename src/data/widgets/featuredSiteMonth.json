@@ -44,7 +44,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "quarterly-newsletter",
+      "source": "quarterly-elevate-newsletter",
       "content": {
         "justiaLink": "section-featured-site-of-the-month-link-v1",
         "button": "button-learn-more-1"

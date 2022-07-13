@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "quarterly-newsletter",
+      "source": "quarterly-elevate-newsletter",
       "content": {
         "title": "text-onward-post-title-1",
         "image": "image-onward-post-1",

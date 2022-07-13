@@ -31,7 +31,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "quarterly-newsletter",
+        "source": "quarterly-elevate-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }
