@@ -43,8 +43,7 @@ $mail-color-palette: (
     'catskill-white': #edf2f7,
     'fruit-salad': #4dab4f,
     'insider-blue': #f0f7ff,
-    'clear-gray': #f7f9fb,
-    'border-gray': #e6e6e6,
+    'clear-gray': #f7f9fb
 );
 
 $color-palette: map-set($color-palette, 'mail', $mail-color-palette);
