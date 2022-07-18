@@ -6,6 +6,10 @@
     border-bottom: 0;
     background-color: plt('white');
 
+    b {
+        display: inline-block;
+    }
+
     .widget-banner {
         padding: 0 0 grid-unit(0.4);
 
