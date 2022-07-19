@@ -1,0 +1,36 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legal-deals.png",
+        "title": "Legal Deals",
+        "border": true,
+        "description": [
+          "Get effective tracking and billing software for your firm! Save 15% off the monthly TimeSolv subscription price for the first 24 months of consecutive service."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/timesolv/15-percent-off/?utm_medium=email&utm_campaign=2022-04&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 150
+        }
+      },
+      {
+        "banner": "lifestyle.png",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Late summer vacation? Save up to 20% on parking, and even get a free weekend, with The Parking Spot. 37 locations are available at 22 airports."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:126/?utm_medium=email&utm_campaign=2022-04&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 170
+        }
+      }
+    ]
+  }
+}
