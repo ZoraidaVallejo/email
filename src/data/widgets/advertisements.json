@@ -5,14 +5,15 @@
   },
   "jld": {
     "ad1": {
-      "link": "https://connect.justia.com/pro",
+      "link": "https://www.justia.com/marketing/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "quarterly-connect-newsletter",
         "content": "connect-pro-membership"
       },
-      "image": "save-on-marketing.png"
+      "image": "save-on-marketing.png",
+      "imageAlt": "Save Money on Your Marketing"
     }
   }
 }
