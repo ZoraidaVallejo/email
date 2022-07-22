@@ -15,14 +15,15 @@
       "image": "score-big.png"
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/lawyer-directory/platinum/",
+      "link": "https://www.justia.com/marketing/amplify/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "monthly-connect-pro-newsletter",
         "content": ""
       },
-      "image": "justia-amplify.png"
+      "image": "justia-amplify.png",
+      "imageAlt": "Justia Amplify"
     }
   }
 }
