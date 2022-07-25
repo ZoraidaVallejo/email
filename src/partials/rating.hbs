@@ -1,0 +1,75 @@
+<!-- YOUR LAWYER RATING -->
+
+{{#table class="widget w-rating"}}
+  <tr>
+    <td class="widget-title" responsive="mobile-padding-horizontal-sides mobile-fz-24">
+      Your Lawyer Rating
+    </td>
+  </tr>
+  <tr>
+    <td class="profile-badge" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="badge-img" responsive="collapse-one mobile-padding-bottom">
+            {{>img src="justia-badge-img.png" alt="Justia Lawyer Rating"}}
+          </td>
+          <td class="badge-text" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-top">
+            <p class="title">
+              <strong>
+                {{#if premium}}
+                  Congratulations! You have a perfect 10.
+                {{else}}
+                  You don’t have any reviews yet!
+                {{/if}}
+              </strong>
+            </p>
+            <p>
+              {{#if premium}}
+                But don’t stop there. The more reviews you receive, the more that rating means to prospective clients.
+              {{else}}
+                Attorneys who have been reviewed by other attorneys can proudly display a badge with their Justia Lawyer Rating on their website, blog, and other properties across the internet. Collect reviews from your attorney colleagues and peers to build trust and strengthen your online reputation.
+              {{/if}}
+            </p>
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="iconed-list-desc" responsive="mobile-padding-horizontal-sides">
+      <p><strong>Your profile was reviewed 100 times this month.</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td class="iconed-list" responsive="mobile-padding-horizontal-sides">
+      {{#table}}
+        <tr>
+          <td class="list-item -icon -last">
+            {{>img src="profile-icon-05.png" alt="icon 4"}}
+          </td>
+          <td class="list-item -desc -last">
+            <p>Ask your colleagues to <strong><a href="#" target="_blank">Leave a Review</a></strong> on your profile.</p>
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+  <tr>
+    <td class="widget-button align-center" responsive="mobile-padding-horizontal-sides">
+      {{#uiButton
+        href="https://www.justia.com/"
+        presetStyle="light-blue"
+        width=(ternary premium "280" "350")
+        height="50"
+        lineHeight="1.4"
+        backgroundColor="#00b3e3"
+        fontColor="#ffffff"
+        fontWeight="700"
+        class="custom-button"
+        responsive=(ternary premium null "responsive-button")
+      }}
+        {{#if premium}}Read All Reviews{{else}}Learn More about Justia Lawyer Rating{{/if}}
+      {{/uiButton}}
+    </td>
+  </tr>
+{{/table}}

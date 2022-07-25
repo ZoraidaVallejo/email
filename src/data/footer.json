@@ -1,0 +1,32 @@
+{
+  "layout": "social-below",
+  "style": "basic",
+  "logo": {
+    "name": "justia",
+    "path": false,
+    "alt": false,
+    "link": {
+      "url": "",
+      "utm": {}
+    }
+  },
+  "navigation": [
+    {
+      "text": "Contact Us",
+      "link": "https://www.justia.com/marketing/"
+    },
+    {
+      "text": "Privacy Policy",
+      "link": "https://www.justia.com/marketing/privacy-policy/"
+    },
+    {
+      "text": "Unsubscribe",
+      "link": "*|UNSUB|*"
+    }
+  ],
+  "disclaimer": "You are receiving this email because you are in the lawyer directory.",
+  "address": {
+    "justiaLink": "https://www.justia.com/",
+    "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+  }
+}
