@@ -1,0 +1,25 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Top Participating Member",
+    "type": "Justia Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty"
+  },
+  "featured": {
+    "id": "00000",
+    "rank": 1,
+    "name": "John D. Doe",
+    "location": "Anytown, CA",
+    "nameLink": "https://lawyers.justia.com/lawyer-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2022-07&utm_content=name-justia-lawyer-rating-and-reviews-featured-1",
+    "photoLink": "https://lawyers.justia.com/?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2022-07&utm_content=image-justia-lawyer-rating-and-reviews-featured-1"
+  },
+  "description": [
+    "Justia Ask A Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. These Justia Connect members answered the most questions in the past month."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://lawyers.justia.com/about-the-justia-lawyer-rating-reviews?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2022-07&utm_content=button-justia-lawyer-rating-and-reviews-featured-read-more-1",
+    "text": "Learn More",
+    "width": 150
+  }
+}

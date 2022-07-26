@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Aug",
+      "title": "eventDescription",
+      "link": "LINK",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

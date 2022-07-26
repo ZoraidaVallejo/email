@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "dolor sit amen"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>dolor sit amen</b>",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique. "
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "lorem ipsum"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>lorem ipsum</b>",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique. "
+      ]
+    }
+  ]
+}

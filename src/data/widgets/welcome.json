@@ -1,0 +1,23 @@
+{
+  "jld": {
+    "banner": "welcome-graphic-01.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-07&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique. Pellentesque habitant reqiset"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

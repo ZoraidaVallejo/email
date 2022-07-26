@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-01.png",
+  "title": "Lorem ipsum",
+  "description": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique. Pellentesque habitant reqiset"
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "/",
+    "text": "Read More"
+  }
+}

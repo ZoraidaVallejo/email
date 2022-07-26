@@ -1,0 +1,67 @@
+{{! ================================================================================================================= }}
+{{! W E L C O M E   M E S S A G E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}   widgetConfig
+ * @param {String[]} widgetConfig.title
+ * @param {String[]} widgetConfig.message
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+}}
+
+{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-welcome set-max-width"}}
+
+{{!--
+  // TODO: Maybe move title and description to a component.
+  // In this case, check if it is posible to customize the H tag.
+  --}}
+
+  <!-- <tr>
+    <td class="widget-description -top" responsive="mobile-padding-horizontal-sides">
+      <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+    </td>
+  </tr> -->
+
+  {{>widget-welcome-banner
+    imgSrc=widgetConfig.banner
+    imgAlt="Welcome"
+  }}
+
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div>
+        <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+        {{#each widgetConfig.message}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+          // TODO: Move to `widget-button` component.
+        }}
+
+        {{#if @root.widgetWithButton}}
+        <div class="widget-button">
+            {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+              {{widgetConfig.button.text}}
+            {{/uiButton}}
+          {{/if}}
+        </div>
+      </div>
+    </td>
+  </tr>
+{{/table}}

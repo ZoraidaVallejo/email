@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amen reqiseto aerasumun herculeia",
+          "link": "LINK"
+        }
+      ]
+    }
+  ]
+}

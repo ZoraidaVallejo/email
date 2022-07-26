@@ -1,0 +1,18 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-month-icon",
+    "title": "Lorem ipsum dolor",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique <b>Justia Connect Pro.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2022-08&utm_source=insights-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Read More",
+      "width": 170
+    }
+  }
+}

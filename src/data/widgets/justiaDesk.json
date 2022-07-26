@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon",
+  "news": [
+    {
+      "title": "Lorem ipsum dolor sit amen helumpus alois",
+      "link": "LINK",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut erat lobortis, tempor urna a, ornare augue.",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amen helumpus alois",
+      "link": "LINK",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut erat lobortis, tempor urna a, ornare augue.",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amen helumpus alois",
+      "link": "LINK",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut erat lobortis, tempor urna a, ornare augue.",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amen helumpus alois",
+      "link": "LINK",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut erat lobortis, tempor urna a, ornare augue.",
+      "index": "1"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
