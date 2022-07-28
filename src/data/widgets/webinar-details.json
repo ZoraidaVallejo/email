@@ -124,14 +124,8 @@
       "Sincerely,<br>The Justia Connect Team"
     ],
     "bottomline": [
-      "<b>Worried about missing your webinar? We’re recording.</b>"
-    ],
-    "button": {
-      "style": "red",
-      "link": "#",
-      "text": "Go Pro to unlock access",
-      "width": 250
-    }
+      "<b>Worried about missing your webinar? We’re recording. <a href='https://connect.justia.com/pro' target=\"_blank\">Go Pro to unlock access</a></b>"
+    ]
   },
   "webinar-registered-reminder-02": {
     "banner": "",
@@ -147,7 +141,7 @@
       "Sincerely,<br>The Justia Connect Team"
     ],
     "bottomline": [
-      "<b>Can’t attend? Things happen. <a href='#' target=\"_blank\"><b>Upgrade to Justia Connect Pro</b></a> to unlock access to this webinar recording.</b>"
+      "<b>Can’t attend? Things happen. <a href='https://connect.justia.com/pro' target=\"_blank\">Upgrade to Justia Connect Pro</a> to unlock access to this webinar recording.</b>"
     ]
   },
   "webinar-06": {
