@@ -1,0 +1,104 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "webinar-01": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "image": "webinar-unregistered.png"
+    },
+    "webinar-basic": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "image": "webinar-unregistered.png"
+    },
+    "webinar-02": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "image": "webinar-registered.png"
+    },
+    "webinar-reminder-01": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "image": "webinar-unregistered.png"
+    },
+    "webinar-reminder-02": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "image": "webinar-unregistered.png"
+    },
+    "webinar-registered-reminder-01": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://zoom.us/webinar/register/3516565302208/WN_d4wEjRw8RmK2ALwjnRv05Q",
+      "image": "webinar-registered.png"
+    },
+    "webinar-registered-reminder-02": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "link": "https://zoom.us/webinar/register/3516565302208/WN_d4wEjRw8RmK2ALwjnRv05Q",
+      "image": "webinar-registered.png"
+    },
+    "webinar-07": {
+      "background": {
+        "image": "gray-bg.png",
+        "width": 0,
+        "bgColor": "",
+        "cssSize": ""
+      },
+      "title": "Catch the Replay of Our Most Recent <span>Justia Webinar</span>",
+      "link": "https://www.justia.com",
+      "bannerSpacing": true,
+      "bannerTopSpacing": true,
+      "image": "post-webinar.png",
+      "contentOrder": [
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 160,
+            "height": 50,
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}

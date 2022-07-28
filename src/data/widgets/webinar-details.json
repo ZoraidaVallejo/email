@@ -1,0 +1,207 @@
+{
+  "webinar-01": {
+    "banner": "",
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "Just a couple of days are left to take advantage of your Pro priority access to our <strong>upcoming Justia Webinar, SEO for Law Firm Websites: Fundamentals of Citation & Link Building!</strong> On Friday, July 22, 2022 registration for any remaining seats in this program will be opened to all Justia Connect members.",
+      "Join us for this first of a two-part webinar in our series on effective SEO for law firm websites, as Justia CEO and SEO expert Tim Stanley explores the basics of the relationship between citations, link building, and Google Search results. This webinar will also cover internal and external linking strategies, such as gaining directory links, analyzing your backlink profile, disavowing troublesome links, and responding to Google penalties."
+    ],
+    "bottomline": [
+      "<b>Space is limited! Reserve your spot before it is too late.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "Reserve My Space",
+      "width": 250
+    }
+  },
+  "webinar-basic": {
+    "banner": "",
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "You’re in luck! Seats remain and registration is now open to all Justia Connect members interested in joining our second Justia Webinar presented by Justia Connect, <strong>SEO for Law Firm Websites: Fundamentals of Citation & Link Building!</strong>",
+      "Explore the basics of the relationship between citations, link building, and Google Search results, as well as external and internal linking strategies, as you learn from Justia CEO and SEO expert Tim Stanley."
+    ],
+    "bottomline": [
+      "<b>Attendance is limited! Act now to save your space.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "Reserve My Space",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b> No need to register again!<br> We have you on our list and look forward to seeing you on August 3!"
+    ]
+  },
+  "webinar-reminder-01": {
+    "banner": "",
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Still haven’t registered for our upcoming Justia Webinar? Time is running out to join us for an exclusive program in which Justia CEO Tim Stanley shares the fundamentals of effective internal and external linking strategies to help your law firm improve your website visibility in Google Search results."
+    ],
+    "bottomline": [
+      "<b>You don’t want to miss out! Get your seat for this exciting event.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "Register Today",
+      "width": 200
+    },
+    "note": [
+      "<b>Already registered?</b> You can disregard this email. We’re looking forward to seeing you on June 23!"
+    ]
+  },
+  "webinar-04": {
+    "banner": "",
+    "title": [
+      "Are You Ready?"
+    ],
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "In less than one week, you will be attending the SEO for Law Firm Websites: Intro to SEO & Website Content webinar led by Justia CEO Tim Stanley!",
+      "If you have not already received an email from Zoom with your unique access link for the webinar, please <a href='https://support.justia.com/'><b>contact Justia Support</b></a> for assistance.",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Worried about missing your webinar?</b>",
+      "Don’t be. Justia Connect Pro members receive exclusive access",
+      "to recordings of all Justia Webinars.",
+      "<a href='/'><b>Go Pro to get this benefit.</b></a>"
+    ]
+  },
+  "webinar-reminder-02": {
+    "banner": "",
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Still haven’t registered for SEO for Law Firm Websites: Fundamentals of Citation & Link Building? Now is the time!",
+      "Take advantage of this exclusive, free opportunity for Justia Connect members to get exclusive insights from our CEO that will help you improve your online visibility in Google Search results by leveraging effective fundamental strategies for citation and link building."
+    ],
+    "bottomline": [
+      "<b>Limited Seats Remain</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "RSVP Today",
+      "width": 200
+    },
+    "note": [
+      "<b>Already registered for our upcoming webinar?</b><br> You can disregard this email. We’re looking forward<br> to seeing you on June 23!"
+    ]
+  },
+  "webinar-registered-reminder-01": {
+    "banner": "",
+    "details": {
+      "date": "August 3, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "Ready or not, it’s almost here! In just five days, you will be learning about effective internal and external linking strategies, analyzing your law firm website’s backlink profile, and more in an exclusive webinar with Justia CEO Tim Stanley!",
+      "You should have received an email from Zoom with your unique access link for this webinar. If you have not already received this email from Zoom, please <a href='https://support.justia.com/' target=\"_blank\"><b>contact Justia Support</b></a> for assistance.",
+      "Sincerely,<br>The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Worried about missing your webinar? We’re recording.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro to unlock access",
+      "width": 250
+    }
+  },
+  "webinar-registered-reminder-02": {
+    "banner": "",
+    "details": {
+      "date": "August 3, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "In a few short hours (at 11:00 am PT to be exact), your Fundamentals of Citation and Link Building for SEO webinar will begin! We’re looking forward to connecting with you.",
+      "By now, you should have received an email from Zoom with your personal link to access this webinar. If you have not received this email, please check your spam folder. ",
+      "If you are still unable to locate your webinar link, please <a href='https://support.justia.com/' target=\"_blank\"><b>contact Justia Support</b></a> immediately for assistance",
+      "Sincerely,<br>The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Can’t attend? Things happen. <a href='#' target=\"_blank\"><b>Upgrade to Justia Connect Pro</b></a> to unlock access to this webinar recording.</b>"
+    ]
+  },
+  "webinar-06": {
+    "banner": "",
+    "title": [
+      "Reminder: Your Webinar Is Today"
+    ],
+    "details": {
+      "date": "August 3rd, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi {Name},",
+      "Don’t forget that your SEO for Law Firm Websites: Intro to SEO & Website Content webinar starts at 11:00 am PT/2:00 pm ET today!",
+      "You should have received an email from Zoom with your personal link to access this webinar. If you have not received this email, please check your spam folder. If you are still unable to locate your webinar link, please <a href='https://support.justia.com/'><b>contact Justia Support</b></a> immediately for assistance.",
+      "<b>Important Note:</b> This webinar will be held via Zoom. To avoid any delays when joining our webinar, please be sure that you have the most recent version of the Zoom platform downloaded on your personal device. If you have not used Zoom before, you can <a href='https://zoom.us/download'><b>start the download process here</b></a>.",
+      "Sincerely,<br> The Justia Connect Team"
+    ],
+    "bottomline": [
+      "<b>Can’t make it? We understand!</b>",
+      "Justia Connect Pro members receive exclusive access to recordings of all Justia Webinars.",
+      "<a href='https://support.justia.com/'><b>Go Pro to get this benefit.</b></a>"
+    ]
+  },
+  "webinar-07": {
+    "banner": "",
+    "message": [
+      "{Name},",
+      "We hope you enjoyed the recent webinar exclusively for Justia Connect members, SEO for Law Firm Websites: Intro to SEO & Website Content.",
+      "We shared a lot of valuable information about strategies to improve your law firm’s online performance – so much information you may even want to watch it twice. Regardless of whether you were able to attend the live webinar or just couldn’t make it, the recording of the presentation is now available to watch whenever convenient for you!<br><br>"
+    ],
+    "subtitle": [
+      "Accessing the Recording"
+    ],
+    "message2": [
+      "<b>Justia Connect Pro Members:</b> You do not need to take any additional action to access this recording. It is available in your Justia Connect dashboard and is included as part of your Justia Connect Pro Membership benefits."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "Watch Now",
+      "width": 160
+    },
+    "message3": [
+      "<b>Justia Connect Basic Members:</b> You don’t have to miss out! Upgrade to Justia Connect Pro for as little as $16.65/month,* to watch this recording and unlock all of the great features Justia Connect Pro has to offer! Upgrade today to get access."
+    ],
+    "button2": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars/fundamentals-of-citation-link-building-for-seo",
+      "text": "Go Pro",
+      "width": 160
+    },
+    "bottomline": [
+      "<em>*When paid annually. Justia Connect Pro is $19.99/month for members who have selected a monthly payment plan.</em>"
+    ]
+  }
+}
