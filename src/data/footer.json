@@ -1,0 +1,53 @@
+{
+  "clients": {
+    "layout": "social-below",
+    "style": "basic",
+    "logo": {
+      "name": "justia",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-footer-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    },
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      }
+    ],
+    "disclaimer": "You are receiving this email because you are a Justia client. Except where noted otherwise, Justia makes no claims to the copyright of any of the materials linked to in this email.",
+    "address": {
+      "justiaLink": "https://www.justia.com/",
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  },
+  "internal": {
+    "layout": "social-insider",
+    "style": "insider",
+    "logo": {
+      "name": "justia-ver2",
+      "link": {
+        "url": "https://www.justia.com/"
+      },
+      "path": false,
+      "alt": false
+    },
+    "collaborators": "<b>Collaborators:</b> Alejandra Medina, Alejandro Moreno, Arturo Jara, Erika Azuela, Haydee Garcia, Jose Ramos, Lauren Moskie, Miguel Berlanga, Rene Peralta, and Zoraida Vallejo.",
+    "disclaimer": "You have received this email because you are a member of the Justia team. All content within The Justia Insider newsletter is the property of Justia unless otherwise stated. All rights reserved. No part of the newsletter may be reproduced, transmitted, or copied in any form or by any means without the prior written consent of Justia."
+  }
+}
