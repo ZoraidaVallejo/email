@@ -4,14 +4,14 @@
       "header": "Tip of the Month"
     },
     "banner": "tip-month-icon",
-    "title": "Lorem ipsum dolor",
+    "title": "Go Pro and Get $100",
     "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique <b>Justia Connect Pro.</b>"
+      "When you upgrade to Justia Connect Pro for as little as $16.65/month (when paid annually), you get $100 in Justia Credit applicable towards your <b>Justia Elevate</b> website, <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b>, or <b>Justia Amplify</b> PPC management services."
     ],
     "button": {
       "style": "red",
-      "link": "LINK?utm_medium=email&utm_campaign=2022-08&utm_source=insights-newsletter&utm_content=section-tip-of-the-month-button-v1",
-      "text": "Read More",
+      "link": "https://connect.justia.com/pro?utm_medium=email&utm_campaign=2022-08&utm_source=insights-newsletter&utm_content=section-tip-of-the-month-button-v1",
+      "text": "Claim My Credit",
       "width": 170
     }
   }

@@ -3,7 +3,7 @@
     "icon": "featured-news",
     "header": "Featured News"
   },
-  "link": "/",
+  "link": "https://onward.justia.com/3-big-risks-of-improper-law-firm-website-maintenance/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -27,13 +27,13 @@
     }
   },
   "banner": "featured-news-01.png",
-  "title": "Lorem ipsum",
+  "title": "3 Big Risks of Improper Law Firm Website Maintenance",
   "description": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis hendrerit rutrum. Nullam eleifend arcu et ante pharetra tristique. Pellentesque habitant reqiset"
+    "Website maintenance helps ensure your law firm website continues connecting your practice with new clients. Just as neglecting proper maintenance on a home or a car carries risks, there are risks associated with improper maintenance of your law firm website. Check out this post to learn more."
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "/",
+    "link": "https://onward.justia.com/3-big-risks-of-improper-law-firm-website-maintenance/",
     "text": "Read More"
   }
 }
