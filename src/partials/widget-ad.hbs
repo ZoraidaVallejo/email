@@ -76,7 +76,7 @@
 
   {{#if widgetConfig.image}}
     <tr>
-      <td class="image {{#if widgetConfig.bannerSpacing}}  -extra-space-above{{/if}} {{#if widgetConfig.bannerSpacing}} -extra-space{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
+      <td class="image {{#if widgetConfig.bannerSpacingTop}}-extra-space-above{{/if}} {{#if widgetConfig.bannerSpacing}}-extra-space{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
         {{#if widgetConfig.link}}<a href="{{{@root.adLink}}}" target="_blank">{{/if}}
           {{>img
             src=widgetConfig.image
