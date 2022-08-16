@@ -60,7 +60,7 @@ $atty-picture-width: image-width('/src/images/attorney-picture.jpg');
     }
 
     .atty-name {
-        padding: 0 $padding 10px;
+        padding: 5px $padding 10px;
         color: plt('justia-blue');
         text-align: center;
 
@@ -86,6 +86,12 @@ $atty-picture-width: image-width('/src/images/attorney-picture.jpg');
                 color: plt('red');
             }
         }
+    }
+
+    .pro-label {
+        display: inline;
+        margin: 0 0 5px 5px;
+        font-size: rem-calc(10px);
     }
 
     .small-divider {
