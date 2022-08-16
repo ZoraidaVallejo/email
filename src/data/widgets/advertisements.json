@@ -39,6 +39,42 @@
           }
         }
       ]
+    },
+    "ad2": {
+      "title": "Kick Off the Fall Right",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 22,
+      "background": {
+        "image": "test-01.gif",
+        "width": 600,
+        "bgColor": "#000000",
+        "cssSize": "auto 100%",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p responsive=\"mobile-fz-15\">From back to school shopping for the family to your Labor Day weekend plans, you could be saving more! Activate your free <strong>Justia Connect</strong> member discounts today to take advantage of the offers available through <strong>Justia Lifestyle Savings</strong>.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Activate Today",
+            "width": 230,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": ""
+          }
+        }
+      ]
     }
   }
 }
