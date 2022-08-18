@@ -1,0 +1,24 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Don’t Let $100 Go to Waste",
+    "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_campaign=2022-08&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "You have $100 in Justia Credit applicable toward select Justia Marketing Solutions! From Justia Premium Placements in the Justia Lawyer Directory - one of the most visited lawyer directories available online - to our affordable, user-friendly Justia Elevate websites and expert PPC management solutions from Justia Amplify, we have a product that can help your firm grow. Contact us to get started and be sure to mention you are a Justia Connect Pro when talking to our team!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/contact/",
+      "text": "Contact Justia",
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
