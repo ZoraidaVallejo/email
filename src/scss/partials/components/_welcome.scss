@@ -90,8 +90,10 @@ $atty-picture-width: image-width('/src/images/attorney-picture.jpg');
 
     .pro-label {
         display: inline;
-        margin: 0 0 5px 5px;
+        margin: 5px 0 0 5px;
         font-size: rem-calc(10px);
+        max-width: 53px;
+        max-height: 24px;;
     }
 
     .small-divider {
