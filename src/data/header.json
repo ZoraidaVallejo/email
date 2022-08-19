@@ -1,0 +1,35 @@
+{
+  "jld": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "marketing",
+      "link": {
+        "url": "https://www.justia.com/"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
+      "alt": false
+    }
+  },
+  "connectpro": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "marketing",
+      "link": {
+        "url": "https://connect.justia.com/"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-pro-blue.png",
+      "alt": false
+    }
+  },
+  "connect": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "marketing",
+      "link": {
+        "url": "https://connect.justia.com/"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
+      "alt": false
+    }
+  }
+}

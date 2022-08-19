@@ -1,0 +1,37 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="connect-series" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.connect}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.welcome.email2}}
+
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.communityTips}}
+
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.justiaDeals}}
+
+        {{>welcome-columns widgetConfig=welcomeColumns.email1}}
+
+        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks.welcome.fromJustia}}
+
+        {{>widget-block-bottom widgetClass="-email-2" widgetConfig=blockBottom.welcome.email2}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}
