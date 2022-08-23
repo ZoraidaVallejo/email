@@ -9,9 +9,6 @@ $logos-dimensions: (
     'insights': (
         'dims': 1120px 196px
     ),
-    'elevate': (
-        'dims': 1120px 196px
-    ),
     'lawyer-profile-essentials': (
         'dims': 2248px 158px
     ),
@@ -52,7 +49,6 @@ $settings: set('mail-header', (
         'logo-only': (
             'justia': 135px,
             'insights': 267px,
-            'elevate': 267px,
             'lawyer-profile-essentials': 470px,
             'legal-jobs': 308px,
             'lawyer-directory': 500px,
@@ -67,7 +63,6 @@ $settings: set('mail-header', (
         'with-date': (
             'justia': 135px,
             'insights': 267px,
-            'elevate': 267px,
             'lawyer-profile-essentials': 270px,
             'legal-jobs': 277px,
             'lawyer-directory': 300px,
