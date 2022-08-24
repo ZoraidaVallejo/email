@@ -65,138 +65,82 @@
     </tr>
   {{/if}}
 
-  {{#if widgetConfig.title}}
-    <tr>
-      <td class="title" responsive="mobile-padding-horizontal-sides">
-        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
-          {{{widgetConfig.title}}}
-        </a>
-      </td>
-    </tr>
-  {{/if}}
-
-  {{#if widgetConfig.image}}
-    <tr>
-      <td class="image">
-        <a href="{{{@root.adLink}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
-      </td>
-    </tr>
-  {{/if}}
-
   {{#if widgetConfig.contentOrder}}
     <tr>
       <td class="content-wrapper" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
         <table {{{tableAttr}}} class="content-wrapper-table">
-        {{#forEach widgetConfig.contentOrder}}
-          {{#compare this.type "===" "image-description"}}
+          {{#if widgetConfig.title}}
             <tr>
-              <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
-                <div responsive={{this.config.responsive}}>
-                  {{#if this.config.blockTitle}}
-                    <h3 class="blockTitle">{{{this.config.blockTitle}}}</h3>
-                  {{/if}}
-                  {{#forIn this.config}}
+              <td class="title" responsive="mobile-padding-horizontal-sides mobile-reset-width">
+                <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+                  {{{widgetConfig.title}}}
+                </a>
+              </td>
+            </tr>
+          {{/if}}
 
-                    {{#compare @key "===" "text"}}
-                      <div class="-description" responsive="collapse-one mobile-no-padding mobile-reset-width">
-                        <div>
-                          {{#if ../config.subtitle}}
-                            <a href="{{{../config.link}}}" target="_blank"><strong class="-subtitle">{{{../config.subtitle}}}</strong></a>
-                          {{/if}}
-                          {{#if ../config.text}}
-                            <div class="-text">{{{../config.text}}}</div>
-                          {{/if}}
-                          {{#each ../config.description}}
-                            {{{this}}}
-                          {{/each}}
+          <tr>
+            <td class="content-border" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+              <table {{{tableAttr}}} class="content-wrapper-inside" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+                {{#forEach widgetConfig.contentOrder}}
+                  {{#compare this.type "===" "image-description"}}
+                    <tr>
+                      <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-bottom">
+                        {{#forIn this.config}}
+                          {{#compare @key "===" "image"}}
+                            <div class="-image content-side" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-bottom mobile-no-float">
+                              <a href="{{{../config.link}}}" target="_blank">
+                                {{>img
+                                  src=../config.image
+                                  alt=(default ../config.subtitle ../config.imageAlt)
+                                  responsive="mobile-align-center"
+                                }}
+                              </a>
+                            </div>
+                          {{/compare}}
+                        {{/forIn}}
 
-                          {{#if ../config.button}}
+                        <div class="-description content-side" responsive="collapse-one mobile-no-padding mobile-no-float mobile-reset-width mobile-align-center">
+                          {{#if this.config.name}}
+                            <strong class="-name">{{{this.config.name}}}</strong>
+                          {{/if}}
+                          {{#if this.config.rank}}
+                            <div class="-rank">Your Rank for This Leaderboard: {{{this.config.rank}}}</div>
+                          {{/if}}
+                          {{#if this.config.link}}
+                            <a href="{{{this.config.link}}}" target="_blank"><strong>View Profile</strong></a>
+                          {{/if}}
+
+                          {{#if this.config.button}}
                             {{#uiButton
-                              href=../config.link
+                              href=this.config.link
                               presetStyle="justia-blue-ghost"
                               width="210"
                               height="50"
                               fontSize="18"
                               responsive=""
                             }}
-                              {{{../config.button}}}
+                              {{{this.config.button}}}
                             {{/uiButton}}
                           {{/if}}
                         </div>
-                      </div>
-                    {{/compare}}
-
-                    {{#compare @key "===" "image"}}
-                      <div class="-image" responsive="collapse-one mobile-no-padding">
-                        <a href="{{{../config.link}}}" target="_blank">
-                          {{>img
-                            src=../config.image
-                            alt=(default ../config.subtitle ../config.imageAlt)
-                          }}
-                        </a>
-                      </div>
-                    {{/compare}}
-                  {{/forIn}}
-                </div>
-              </td>
-            </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "description"}}
-            <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
-                <div>
-                  {{#each this.config}}
-                    {{{this}}}
-                  {{/each}}
-                </div>
-              </td>
-            </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "bg-block"}}
-            <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-30-top{{/if}}">
-                <table {{{tableAttr}}}>
-                  <tr>
-                    <td class="-inner-wrap">
-                      {{#each this.config}}
-                        {{{this}}}
-                      {{/each}}
-                    </td>
-                  </tr>
+                      </td>
+                    </tr>
+                  {{/compare}}
+                  {{#compare this.type "===" "profileCompleteness"}}
+                    <tr>
+                      <td class="content -profile-completeness -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-bottom mobile-padding-20-top">
+                        <strong class="-completeness">Profile Completeness: {{{this.config}}}%</strong>
+                        <div class="progress-bar-wrapper">
+                          <div class="progress-bar" style="width:{{{this.config}}}%"></div>
+                        </div>
+                      </td>
+                    </tr>
+                  {{/compare}}
+                {{/forEach}}
                 </table>
               </td>
             </tr>
-          {{/compare}}
-
-          {{#compare this.type "===" "button"}}
-            <tr>
-              <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                {{#uiButton
-                  href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
-                  presetStyle=this.config.style
-                  width=this.config.width
-                  height=this.config.height
-                  borderColor=this.config.borderColor
-                  backgroundColor=this.config.backgroundColor
-                  fontColor=this.config.fontColor
-                  fontStyle=this.config.fontStyle
-                  fontWeight=this.config.fontWeight
-                  fontSize=this.config.fontSize
-                  responsive=this.config.responsive
-                }}
-                  {{{this.config.text}}}
-                {{/uiButton}}
-              </td>
-            </tr>
-          {{/compare}}
-        {{/forEach}}
         </table>
       </td>
     </tr>

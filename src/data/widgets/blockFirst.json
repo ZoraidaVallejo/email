@@ -1,71 +1,5 @@
 {
   "welcome": {
-    "email1": {
-      "background": {
-        "image": "connect-banner-bg-01.png",
-        "width": 600,
-        "bgColor": "#fff",
-        "cssSize": "600px 375px",
-        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
-      },
-      "link": "#",
-      "name": "Kellam",
-      "title": "a New Question for You",
-      "titleResponsiveSize": 21,
-      "image": "connect-banner-graphic-01.png",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Welcome to your quarterly updates from <b>Justia Connect</b>, the membership program connecting legal professionals with benefits and resources to achieve their professional and practice-growth goals.</p> <p>Be sure to check out this email for helpful tips from our <b>Justia Connect</b> team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits.</p>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "justia-blue-ghost",
-            "link": "https://www.justia.com/marketing/",
-            "text": "Learn More"
-          }
-        }
-      ]
-    },
-    "email2": {
-      "background": {
-        "image": "connect-banner-bg-01.png",
-        "width": 600,
-        "bgColor": "#fff",
-        "cssSize": "600px 375px",
-        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
-      },
-      "link": "#",
-      "name": "Kellam",
-      "title": "a New Question for You",
-      "titleResponsiveSize": 21,
-      "image": "connect-banner-graphic-01.png",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Welcome to your quarterly updates from <b>Justia Connect</b>, the membership program connecting legal professionals with benefits and resources to achieve their professional and practice-growth goals.</p> <p>Be sure to check out this email for helpful tips from our <b>Justia Connect</b> team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits.</p>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "justia-blue-ghost",
-            "link": "https://www.justia.com/marketing/",
-            "text": "Learn More"
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Welcome to your quarterly updates from <b>Justia Connect</b>, the membership program connecting legal professionals with benefits and resources to achieve their professional and practice-growth goals.</p> <p>Be sure to check out this email for helpful tips from our <b>Justia Connect</b> team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits.</p>"
-          ]
-        }
-      ]
-    },
     "email06": {
       "background": {
         "image": "connect-banner-bg-01.png",
@@ -81,31 +15,29 @@
       "image": "connect-banner-graphic-01.png",
       "contentOrder": [
         {
-          "type": "newQuestion",
-          "config": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
-          ]
-        },
-        {
-          "type": "relatedDetails",
-          "config": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
-          ]
+          "type": "question",
+          "config": {
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit.",
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
+          }
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "link": "https://www.justia.com/marketing/",
-            "text": "Learn More"
+            "link": "#",
+            "width": "215px",
+            "text": "Answer Question",
+            "extraLink": "#",
+            "extraLinkText": "View More Questions Like This"
           }
         },
         {
           "type": "questionInfo",
           "config": {
-            "date": "Asked on May 5, 202   |   ",
+            "date": "Asked on May 5, 2022",
             "location": "Located in Virginia Beach, VA",
-            "category": "Asked in Divorce, Family Law, Child Custody and Child Support"
+            "category": "Divorce, Family Law, Child Custody and Child Support"
           }
         }
       ]

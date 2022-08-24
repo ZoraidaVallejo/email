@@ -90,43 +90,81 @@
   {{#if widgetConfig.contentOrder}}
     <tr>
       <td class="content-wrapper" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
-        <table {{{tableAttr}}}>
-        {{#forEach widgetConfig.contentOrder}}
+        <table {{{tableAttr}}} class="content-wrapper-table">
+          <tr>
+            <td class="content-border" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
+              <table {{{tableAttr}}}>
+              {{#forEach widgetConfig.contentOrder}}
 
-          {{#compare this.type "===" "description"}}
-            <tr>
-              <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
-                <div>
-                  {{#each this.config}}
-                    {{{this}}}
-                  {{/each}}
-                </div>
-              </td>
-            </tr>
-          {{/compare}}
+                {{#compare this.type "===" "description"}}
+                  <tr>
+                    <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+                      <div>
+                        {{#each this.config}}
+                          {{{this}}}
+                        {{/each}}
+                      </div>
+                    </td>
+                  </tr>
+                {{/compare}}
 
-          {{#compare this.type "===" "button"}}
-            <tr>
-              <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                {{#uiButton
-                  href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
-                  presetStyle=this.config.style
-                  width=this.config.width
-                  height=this.config.height
-                  borderColor=this.config.borderColor
-                  backgroundColor=this.config.backgroundColor
-                  fontColor=this.config.fontColor
-                  fontStyle=this.config.fontStyle
-                  fontWeight=this.config.fontWeight
-                  fontSize=this.config.fontSize
-                  responsive=this.config.responsive
-                }}
-                  {{{this.config.text}}}
-                {{/uiButton}}
-              </td>
-            </tr>
-          {{/compare}}
-        {{/forEach}}
+                {{#compare this.type "===" "question"}}
+                  <tr>
+                    <td class="content -question -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+                      <div>
+                        <p><b>New Question: </b>{{{this.config.description}}}</p>
+                        <p><b>Related Details: </b>{{{this.config.details}}}</p>
+                      </div>
+                    </td>
+                  </tr>
+                {{/compare}}
+
+                {{#compare this.type "===" "button"}}
+                  <tr>
+                    <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                      {{#uiButton
+                        href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                        presetStyle=this.config.style
+                        width=this.config.width
+                        height=this.config.height
+                        borderColor=this.config.borderColor
+                        backgroundColor=this.config.backgroundColor
+                        fontColor=this.config.fontColor
+                        fontStyle=this.config.fontStyle
+                        fontWeight=this.config.fontWeight
+                        fontSize=this.config.fontSize
+                        responsive=this.config.responsive
+                      }}
+                        {{{this.config.text}}}
+                      {{/uiButton}}
+                      {{#if this.config.extraLink}}
+                        <p responsive="mobile-fz-15">
+                          <a href="{{{this.config.extraLink}}}" target="_blank"><b>
+                            {{#if this.config.extraLinkText}}{{{this.config.extraLinkText}}}
+                            {{else}}
+                            View More
+                            {{/if}}
+                          <b></a>
+                        </p>
+                      {{/if}}
+                    </td>
+                  </tr>
+                {{/compare}}
+
+                {{#compare this.type "===" "questionInfo"}}
+                  <tr>
+                    <td class="content -question-info -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+                      <div>
+                        <p><span>{{{this.config.date}}}</span><b responsive="mobile-hide"></b><span responsive="collapse-one">{{{this.config.location}}}</span></p>
+                        <p>Asked in {{{this.config.category}}}</p>
+                      </div>
+                    </td>
+                  </tr>
+                {{/compare}}
+              {{/forEach}}
+              </table>
+            </td>
+          </tr>
         </table>
       </td>
     </tr>

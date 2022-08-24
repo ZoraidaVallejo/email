@@ -45,8 +45,23 @@
         }
     }
 
+    .content-border {
+        // display: block;
+        // width: 100%;
+        padding: 25px 24px 30px;
+    }
+
     .content-wrapper {
         padding: 40px 30px 50px;
+
+        .content-wrapper-table {
+            display: block;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            width: 100%;
+            float: left;
+            // padding: 25px 0 0;
+        }
     }
 
     .widget-columns {
@@ -62,14 +77,6 @@
     .grid-cell {
         width: 225px;
         padding: 0;
-
-        > div {
-            display: block;
-            width: 100%;
-            padding: 20px;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-        }
 
         .block-image {
             width: 160px;
@@ -149,6 +156,42 @@
             // padding: 0 0 8px;
             span {
                 display: inline-block;
+            }
+        }
+
+        &.-question {
+            p:first-child {
+                margin: 0 0 32px;
+            }
+        }
+
+        &.-button {
+            padding: $padding 0;
+
+            p {
+                margin-top: 15px;
+                text-align: center;
+    
+                a,
+                a b {
+                    color: plt('justia-blue');
+                }
+            }
+        }
+
+        &.-question-info {
+            p {
+                @include mail-font(14px);
+                margin: 0;
+                text-align: center;
+
+                b {
+                    display: inline-block;
+                    height: 12px;
+                    padding: 0 1em 0 0;
+                    border-right: 1px solid plt('black');
+                    margin: 0 1em -1px 0;
+                }
             }
         }
     }

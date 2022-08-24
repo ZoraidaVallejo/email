@@ -1,105 +1,21 @@
 {
-  "welcome": {
-    "communityTips": {
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Community Tips",
-            "order": "image-text",
-            "image": "year-graphic-01.png",
-            "text": "<p>Did you know you can get summaries of newly published appellate opinions in your chosen jurisdictions delivered directly to your inbox?</p><p>As a benefit of your Justia Connect membership, you can sign up for Justia Daily Opinion Summaries and receive daily summaries to help you keep informed about any new developments.</p>",
-            "button": "Subscribe Now",
-            "link": "https://law.justia.com/subscribe"
-          }
-        }
-      ]
-    },
-    "justiaDeals": {
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Justia Deals",
-            "order": "image-text",
-            "image": "year-graphic-02.png",
-            "subtitle": "Legal Deals",
-            "text": "Simplify legal research for your firm! Get a free 7-day trial of Fastcase Premium today.",
-            "button": "Get Deal",
-            "link": "https://connect.justia.com/legal-deals/fastcase/first-week-free"
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "order": "image-text",
-            "image": "year-graphic-03.png",
-            "subtitle": "Lifestyle Savings",
-            "text": "Made a New Year’s resolution to be more active? Help yourself achieve your goals by saving up to 20% off FitBit purchases with Justia Lifestyle Savings.",
-            "button": "Start Saving",
-            "link": "https://deals.justia.com/discounts/offer/1109:4"
-          }
-        }
-      ]
-    },
-    "fromJustia": {
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Breaking News Alert From Justia",
-            "order": "text-image",
-            "image": "year-graphic-05.png",
-            "subtitle": "Snap Takes Trademark Battle Over “Spectacles” to Federal Court",
-            "text": "This month, Snap, Inc. took their trademark battle over the term “spectacles” to federal court. If you want to track new developments in the litigation, <a href=\"https://dockets.justia.com/docket/california/cacdce/2:2022cv00085/840589\" target=\"_blank\"><b>follow the case</b></a> with Justia Dockets.",
-            "button": "Read More",
-            "link": "https://news.justia.com/snap-continues-to-wage-trademark-battle-over-camera-name/"
-          }
-        }
-      ]
-    }
-  },
   "june": {
     "communityTips": {
+      "title": "Your Stats",
+      "profileCompleteness": "95",
       "contentOrder": [
         {
           "type": "image-description",
           "config": {
-            "blockTitle": "Community Tips",
-            "order": "image-text",
             "image": "year-graphic-01.png",
-            "subtitle": "Put Your Best Foot Forward",
-            "text": "<p>As a Justia Connect Pro, you have the ability to feature client reviews and peer reviews from other attorneys on your enhanced Justia Profile in the Justia Lawyer Directory. Don’t miss out on this opportunity to make a strong first impression on potential clients!</p><p>Don’t already have reviews? <a href=\"#\" target=\"_blank\"><b>You can request client reviews here</b></a> or <a href=\"#\" target=\"_blank\"><b>request peer reviews here</b></a> to get started.</p>",
-            "button": "Feature Reviews",
-            "link": "#"
-          }
-        }
-      ]
-    },
-    "justiaDeals": {
-      "contentOrder": [
-        {
-          "type": "image-description",
-          "config": {
-            "blockTitle": "Justia Deals",
-            "order": "image-text",
-            "image": "kenect-logo-01.png",
-            "subtitle": "Legal Deals",
-            "text": "Let your clients text you! Save $1,000 with a waived setup fee for the Kenect texting platform.",
-            "button": "Get Deal",
-            "link": "https://connect.justia.com/legal-deals/kenect/setup-waived"
+            "link": "#",
+            "name": "Kellam T. Parks",
+            "rank": "2"
           }
         },
         {
-          "type": "image-description",
-          "config": {
-            "order": "image-text",
-            "image": "movies-graphic-01.png",
-            "subtitle": "Lifestyle Savings",
-            "text": "The summer movie season is here! Save on e-tickets at movie chains across the nation, including AMC Theaters, Cinemark Theaters, and more, courtesy of Justia!",
-            "button": "Start Saving",
-            "link": "https://deals.justia.com/discounts/category/Movie_Tickets"
-          }
+          "type": "profileCompleteness",
+          "config": "95"
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "projectName": "connect-newsletter",
-  "justaticVersion": "2",
-  "releaseDate": "2022-01-31",
+  "projectName": "ask-a-lawyer",
+  "justaticVersion": "1",
+  "releaseDate": "2022-08-31",
   "dateFormat": {
     "string": "MMMM YYYY",
     "stringFull": "MMMM DD, YYYY",
@@ -10,6 +10,6 @@
     "dash": "YYYY-MM",
     "dashFull": "YYYY-MM-DD"
   },
-  "remoteImages": "connect-newsletter/<%= dateFormat.slash %>",
+  "remoteImages": "ask-a-lawyer/<%= dateFormat.slash %>",
   "compressedFileName": ""
 }

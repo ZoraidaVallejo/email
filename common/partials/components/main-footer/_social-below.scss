@@ -33,12 +33,22 @@
     }
 
     .footer-disclaimer {
-        padding: 0 $padding 8px;
+        padding: 0 $padding 40px;
+        line-height: 1.5;
         text-align: center;
+
+        p {
+            display: block;
+            line-height: 2;
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
     }
 
     .footer-address {
-        padding: 0 $padding floor($padding * 4);
+        padding: 0 $padding floor($padding * 2);
         text-align: center;
     }
 
