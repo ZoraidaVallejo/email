@@ -30,11 +30,11 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
-{{assign "adClasses" (classList "widget" "w-advertisement" "-bottom-block" widgetClass "set-max-width")}}
+{{assign "adClasses" (classList "widget" "-bottom-block" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-advertisement" "-bottom-block" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "-bottom-block" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
