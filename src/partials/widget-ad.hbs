@@ -23,6 +23,7 @@
  * @param {number}          widgetConfig.background.width
  * @param {number}          widgetConfig.background.height
  * @param {string}          widgetConfig.background.cssSize
+ * @param {string}          widgetConfig.background.cssSize
  * @param {Object[]}        widgetConfig.contentOrder
  * @param {string}          widgetConfig.contentOrder[].type
  * @param {string[]|Object} widgetConfig.contentOrder[].config
@@ -131,7 +132,7 @@
 
       {{#compare this.type "===" "button"}}
         <tr>
-          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-50-bottom">
             {{#uiButton
               href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
               presetStyle=this.config.style
@@ -151,6 +152,14 @@
         </tr>
       {{/compare}}
     {{/forEach}}
+    <tr>
+      <td responsive="mobile-padding-50-top mobile-padding-50-bottom">
+      </td>
+    </tr>
+    <tr>
+      <td responsive="mobile-padding-20-top">
+      </td>
+    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}

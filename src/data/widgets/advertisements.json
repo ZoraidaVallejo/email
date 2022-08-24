@@ -11,9 +11,8 @@
       "background": {
         "image": "back-to-school.gif",
         "width": 600,
-        "height": 802,
         "bgColor": "#513827",
-        "cssSize": "100%",
+        "cssSize": "100% auto",
         "style": "background-position:bottom",
         "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
       },
