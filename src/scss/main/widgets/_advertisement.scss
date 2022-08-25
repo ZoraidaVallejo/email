@@ -154,7 +154,7 @@
         }
 
         &.-button {
-            padding: 0px $padding 461px;
+            padding: 0px $padding 520px;
         }
 
         a b {
@@ -172,6 +172,10 @@
 
             a strong {
                 color: plt('white')!important;
+            }
+
+            &.-first {
+                padding: 20px 45px 35px;
             }
         }
 
