@@ -5,12 +5,13 @@
   },
   "jld": {
     "ad1": {
-      "title": "Kick Off the Fall Right",
+      "title": "<span style=\"font-weight: 800;\">Kick Off the Fall Right</span>",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 22,
       "background": {
         "image": "back-to-school.gif",
         "width": 600,
+        "height": 546,
         "bgColor": "#513827",
         "cssSize": "100% auto",
         "style": "background-position:bottom",
@@ -21,7 +22,7 @@
           "type": "description",
           "config": {
             "description": [
-              "<p class=\"align-center\" responsive=\"mobile-fz-17\">From back to school shopping for the family to your Labor Day weekend plans, you could be saving more! Activate your free <strong>Justia Connect</strong> member discounts today to take advantage of the offers available through <strong>Justia Lifestyle Savings</strong>.</p>"
+              "<p class=\"align-center\" responsive=\"mobile-fz-17\" style=\"font-size:17px;\">From back to school shopping for the family to your Labor Day weekend plans, you could be saving more! Activate your free <strong>Justia Connect</strong> member discounts today to take advantage of the offers available through <strong>Justia Lifestyle Savings</strong>.</p>"
             ]
           }
         },
