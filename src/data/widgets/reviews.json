@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Factfulness: Ten Reasons We’re Wrong About the World"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814\" target=\"_blank\"><b>Amazon</b></a>",
+        "description": [
+          "<i>\"This is an eye-opening book. Hans Rosling will walk you through his experiences as a physician, researcher, TED-talk presenter, health adviser for WHO and UNICEF, and more. He will help you overcome biases and see the world with a clearer and broader perspective. He will also give you good reasons to be optimistic about the future of humanity. He will not give you hope, but data and facts.\"</i>",
+          "- Priscila Martinez"
+        ]
+      }
+    }
+  ]
+}

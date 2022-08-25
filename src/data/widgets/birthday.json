@@ -1,0 +1,91 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "7",
+            "name": "Jose Ramos"
+          },
+          {
+            "day": "7",
+            "name": "Priscila Martinez"
+          },
+          {
+            "day": "8",
+            "name": "Diego Cortes"
+          },
+          {
+            "day": "10",
+            "name": "Dan Vu Quoc"
+          },
+          {
+            "day": "13",
+            "name": "Edgar Cano"
+          },
+          {
+            "day": "18",
+            "name": "Ayumi Obana"
+          },
+          {
+            "day": "19",
+            "name": "Angel Sanchez"
+          },
+          {
+            "day": "19",
+            "name": "Miguel Lopez"
+          },
+          {
+            "day": "20",
+            "name": "Hector Lugo"
+          },
+          {
+            "day": "22",
+            "name": "Ana Espinoza"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Jesus Sanchez",
+            "years": "13th"
+          },
+          {
+            "name": "Dionicio Solano",
+            "years": "11th"
+          },
+          {
+            "name": "Miguel Lopez",
+            "years": "7th"
+          },
+          {
+            "name": "Pablo Fernandez",
+            "years": "4th"
+          },
+          {
+            "name": "Ana Aguilar",
+            "years": "2nd"
+          },
+          {
+            "name": "Keilah Cabrera",
+            "years": "2nd"
+          },
+          {
+            "name": "Andres Sanchez",
+            "years": "1st"
+          },
+          {
+            "name": "Sarah Dondysh",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}
