@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "Mobile Users Now Spend 4-5 Hours Per Day in Apps, Report Says",
+          "link": "https://techcrunch.com/2022/08/03/mobile-users-now-spend-4-5-hours-per-day-in-apps-report-says/"
+        },
+        {
+          "title": "11 Tips for Mastering Video Calls That Wow Your Clients",
+          "link": "https://www.searchenginejournal.com/mastering-video-calls/459014/"
+        },
+        {
+          "title": "16 Places to Create a Free Brand Logo",
+          "link": "https://www.searchenginejournal.com/create-free-brand-logo/459142/#close"
+        },
+        {
+          "title": "Airbnb Launches 'Anti-Party' Tech to Spot Potential Rule-Breakers at the Point of Booking ",
+          "link": "https://techcrunch.com/2022/08/17/airbnb-launches-anti-party-tech-to-spot-potential-rule-breakers-at-the-point-of-booking/"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Google: There Is No Objective Way to Count Links",
+          "link": "https://www.seroundtable.com/google-no-objective-way-to-count-links-33806.html"
+        },
+        {
+          "title": "Google Business Profile Conversion Factors",
+          "link": "https://www.brightlocal.com/learn/google-business-profile/optimization/conversion-factors/"
+        },
+        {
+          "title": "How Can We Improve Rankings for Older Content? Ask an SEO",
+          "link": "https://www.searchenginejournal.com/improve-old-content-rankings/457728/"
+        },
+        {
+          "title": "Google’s New Helpful Content Update Targets Sites Creating Content for Search Engines First",
+          "link": "https://searchengineland.com/googles-new-helpful-content-update-targets-sites-creating-content-for-search-engines-first-387237"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Ex-Twitter Exec Blows the Whistle, Alleging Reckless and Negligent Cybersecurity Policies",
+          "link": "https://www.cnn.com/2022/08/23/tech/twitter-whistleblower-peiter-zatko-security/index.html"
+        },
+        {
+          "title": "Facebook Will Disable New Political Ads a Week Before US Midterm Elections",
+          "link": "https://techcrunch.com/2022/08/16/facebook-political-ads-2022-midterms/"
+        },
+        {
+          "title": "Twitter Now Lets All Businesses Display Location and Contact Info on Their Profiles",
+          "link": "https://techcrunch.com/2022/08/04/twitter-now-lets-all-businesses-display-location-and-contact-info-on-their-profiles/"
+        },
+        {
+          "title": "How to Use LinkedIn Business Manager: A Guide for Marketers",
+          "link": "https://www.socialmediaexaminer.com/how-to-use-linkedin-business-manager-a-guide-for-marketers/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Scoop: Amazon Lawsuit Accuses Company of Selling Fake Seller Feedback",
+          "link": "https://www.axios.com/2022/08/10/amazon-lawsuit-fraud-fake-reviews"
+        },
+        {
+          "title": "Inventors Must Be Human, Federal Circuit Rules in Blow to AI (1) ",
+          "link": "https://news.bloomberglaw.com/business-and-practice/only-humans-not-ai-qualify-as-inventors-federal-circuit-rules"
+        },
+        {
+          "title": "Ex-Judges Ordered to Pay More Than $200M to Victims of Juvenile Detention Corruption Scheme",
+          "link": "https://www.abajournal.com/web/article/ex-judges-ordered-to-pay-more-than-200m-to-victims-of-juvenile-detention-corruption-scheme/"
+        },
+        {
+          "title": "Damages Awards Reach Nearly 10-Year High in Employment Cases, New Report Shows",
+          "link": "https://www.abajournal.com/web/article/damage-awards-reach-nearly-10-year-high-in-employment-cases-new-report-shows/"
+        }
+      ]
+    }
+  ]
+}

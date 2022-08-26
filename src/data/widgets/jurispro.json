@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "banner": "https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png",
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "Electrical Engineering Expert Witness Testimony Allowed in Aquarium Fire Litigation",
+      "link": "https://www.expertwitnessblog.com/electrical-engineering-expert-witness-testimony-allowed-in-aquarium-fire-litigation/"
+    },
+    {
+      "title": "Compensation Expert Witness Testimony Not Allowed in Employment Discrimination Litigation",
+      "link": "https://www.expertwitnessblog.com/compensation-expert-witness-testimony-not-allowed-in-employment-discrimination-litigation/"
+    },
+    {
+      "title": "Civil Engineering Expert Witness Testimony Allowed in Part in Water Slide Injury Litigation",
+      "link": "https://www.expertwitnessblog.com/civil-engineering-expert-witness-testimony-allowed-in-part-in-water-slide-injury-litigation/"
+    },
+    {
+      "title": "Mechanical Engineering Expert Witness Testimony Allowed in Ford Battery Design Defect Case",
+      "link": "https://www.expertwitnessblog.com/mechanical-engineering-expert-witness-testimony-allowed-in-ford-battery-design-defect-case/"
+    }
+  ]
+}
