@@ -118,4 +118,16 @@
             }
         }
     }
+
+    &.-pets-01 {
+        .content .content-side {
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+    }
 }

@@ -22,8 +22,8 @@
 
             {{#if this.image}}
               {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
-                {{#if this.image.alt}}{{>img src=this.image.src alt=this.image.alt class="block-image"}}
-                {{else}}{{>img src=this.image.src alt=this.image.src class="block-image"}}{{/if}}
+                {{#if this.image.alt}}{{>img src=this.image.src alt=this.image.alt class="block-image" responsive="mobile-align-center"}}
+                {{else}}{{>img src=this.image.src alt=this.image.src class="block-image" responsive="mobile-align-center"}}{{/if}}
               {{#if readMore}}</a>{{/if}}
 
               {{#if this.blockTitle}}

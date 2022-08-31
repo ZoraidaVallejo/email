@@ -26,7 +26,7 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         
         {{>birthday widgetConfig=birthday}}
 
-        {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}}
+        {{!-- {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}} --}}
 
         {{!-- 2 columns, for 2 people --}}
         {{!-- {{>new-people widgetConfig=newPeople}} --}}
@@ -37,14 +37,14 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- supports image on top or/and bottom delete the one not needed --}}
         {{!-- change the widgetConfig depending on the json that contains the info you need --}}
         {{>widget-image-description-columns widgetClass="-pets-01" widgetConfig=justiaPets}}
+        
+        {{!-- image and text aside, can be use for one to + 2 holidays --}}
+        {{>widget-image-description-columns widgetClass="-holidays-01" widgetConfig=holidays2}}
         {{>widget-image-description widgetClass="-justia-spotlight-01" widgetConfig=justiaSpotlight}}
         {{>widget-image-description widgetClass="-team-activity-01" widgetConfig=teamActivity}}
         
         {{!-- 2 columns, for 2 holidays --}}
         {{!-- {{>holidays widgetConfig=holidays}} --}}
-        
-        {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{!-- {{>widget-image-description-columns widgetClass="-holidays-01" widgetConfig=holidays2}} --}}
 
         {{!-- image and text aside --}}
         {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}

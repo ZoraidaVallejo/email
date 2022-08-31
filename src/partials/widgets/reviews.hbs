@@ -60,7 +60,7 @@
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-reset-max-width mobile-reset-width mobile-padding-30-bottom">
+                <div class="content-side -image" responsive="mobile-reset-max-width mobile-reset-width mobile-padding-30-bottom mobile-no-float mobile-align-center">
                   <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
                     {{>img
                       src=../config.image

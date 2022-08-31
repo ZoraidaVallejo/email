@@ -8,17 +8,11 @@
       "type": "image-description",
       "config": {
         "image": "holidays-graphic-01.png",
-        "blockTitle": "Holiday - Month Day",
+        "blockTitle": "Mexico’s Independence Day<br>September 16th",
         "description": [
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Architecto beatae vitae dicta sunt explicabo dolor in reprehenderit in voluptate."
+          "September 16th, 1810 is the date when Miguel Hidalgo y Costilla, a Catholic priest known as Father Hidalgo, made the first cry for independence. Mexico's Independence Day has become a nationwide celebration, and Mexicans around the globe celebrate the anniversary of the country's independence from Spain."
         ]
       }
-    },
-    {
-      "type": "description",
-      "config": [
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
-      ]
     }
   ]
 }
