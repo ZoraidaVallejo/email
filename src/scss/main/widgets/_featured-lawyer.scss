@@ -30,8 +30,13 @@
                 }
 
                 &.-info {
-                    padding: 0 0 0 5px;
+                    padding: 0 0 0 10px;
                     text-align: left;
+
+                    img.pill {
+                        display: inline;
+                        width: 38px;
+                    }
                 }
 
                 &.-badge {

@@ -31,7 +31,7 @@
 
 {{! ================================================================================================================= }}
 
-{{#table class="widget w-featured-lawyer set-max-width"}}
+{{#table class="widget w-featured-lawyer w-ask-a-lawyer set-max-width"}}
   {{>widget-header
     header=askALawyer.widget.header
     icon=askALawyer.widget.icon
@@ -53,7 +53,7 @@
               <p class="name">
                 {{#if askALawyer.featured.nameLink}}<a href="{{{askALawyer.featured.nameLink}}}" target="_blank">{{/if}}
                   {{{askALawyer.featured.name}}}
-                {{#if askALawyer.featured.nameLink}}</a>{{/if}}
+                {{#if askALawyer.featured.nameLink}} {{>img src="pro-label.png" alt="Pro Member" class="pill"}}</a>{{/if}}
               </p>
               <p class="location">
                 {{#uppercase}}{{askALawyer.featured.location}}{{/uppercase}}
