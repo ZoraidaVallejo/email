@@ -39,9 +39,10 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>widget-image-description-columns widgetClass="-pets-01" widgetConfig=justiaPets}}
         
         {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{>widget-image-description-columns widgetClass="-holidays-01" widgetConfig=holidays2}}
+        {{>widget-image-description-columns widgetClass="w-holidays-01" widgetConfig=holidays2}}
         {{>widget-image-description widgetClass="-justia-spotlight-01" widgetConfig=justiaSpotlight}}
-        {{>widget-image-description widgetClass="-team-activity-01" widgetConfig=teamActivity}}
+        {{>widget-image-description widgetClass="-team-activity-01" widgetConfig=teamActivity.activity1}}
+        {{>widget-image-description widgetClass="-team-activity-02" widgetConfig=teamActivity.activity2}}
         
         {{!-- 2 columns, for 2 holidays --}}
         {{!-- {{>holidays widgetConfig=holidays}} --}}

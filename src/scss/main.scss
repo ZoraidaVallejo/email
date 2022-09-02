@@ -29,7 +29,6 @@ $mail-global-font-family: 'Roboto', Arial, sans-serif;
     'main/widgets/advertisement/custom',
     'main/widgets/milestones',
     'main/widgets/birthday',
-    'main/widgets/holidays-2',
     'main/widgets/reviews',
     'main/widgets/portal-news',
     'main/widgets/image-description',
@@ -84,8 +83,8 @@ body {
     background-position: center;
 }
 
-.-justia-spotlight-01 {
-    background: image-url('odd-block-04.png') no-repeat plt('white');
+.w-holidays-01 {
+    background: image-url('odd-block-02.png') no-repeat plt('white');
     background-position: center;
 }
 

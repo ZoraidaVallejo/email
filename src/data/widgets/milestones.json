@@ -25,7 +25,7 @@
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-02.png",
+        "image": "milestones-graphic-03.png",
         "title": "Justia Elevate Contact Form Integrations: ",
         "description": "Another feature added to Justia Elevate sites: contact form integrations with third-party services, including Captorra, Clio, Constant Contact, and Legal Intake, among others."
       }
@@ -59,14 +59,6 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-07.png",
-        "title": "New Mexico Content: ",
-        "description": "Two Mexican federal laws were updated to their latest version: <a href=\"https://mexico.justia.com/federales/leyes/ley-federal-del-trabajo/\" target=\"_blank\"><b>Ley Federal del Trabajo</b></a> and <a href=\"https://mexico.justia.com/federales/codigos/codigo-penal-federal/\" target=\"_blank\"><b>Código Penal Federal</b></a>. It is worth mentioning that our version is available in HTML, making it even more convenient than the official government source."
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "milestones-graphic-08.png",
         "title": "Test Cafe for QA Automation: ",
         "description": "We’ve integrated Test Cafe into our Automated QA project, making it easier to script QA jobs for Justia Elevate and other React-based applications, which tend to focus more on user interaction."
       }

@@ -7,6 +7,16 @@
     {
       "type": "image-description",
       "config": {
+        "image": "holidays-graphic-02.png",
+        "blockTitle": "US Labor Day - September 5th",
+        "description": [
+          "Traditionally observed on the first Monday in September, Labor Day is a federal holiday rooted in the late nineteenth century. Many credit Peter J. McGuire, a carpenter and labor union leader, for coming up with the idea to pay tribute to American workers’ contributions and achievements."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
         "image": "holidays-graphic-01.png",
         "blockTitle": "Mexico’s Independence Day<br>September 16th",
         "description": [
