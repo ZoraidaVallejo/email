@@ -1,0 +1,26 @@
+{
+  "webinar-01": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Name,",
+      "Today’s the day! Registration is open to all Justia Connect members for our next Justia Webinar.",
+      "We’re continuing our series on law firm website SEO on September 28, 2022 when Justia CEO Tim Stanley explores advanced strategies for citation and link building to improve your site’s performance in Google Search results."
+    ],
+    "bottomline": [
+      "<b>Seats are going fast! <br> Don’t miss your chance to join this exclusive presentation.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/",
+      "text": "Get on the Guest List",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you on September 28."
+    ]
+  }
+}
