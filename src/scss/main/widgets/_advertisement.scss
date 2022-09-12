@@ -138,18 +138,6 @@
             }
         }
 
-        &.-traffic {
-
-            .subtitle {
-                margin: 0 0 40px;
-            }
-
-            img {
-                width: 75px;
-                margin: 0 auto 20px;
-            }
-        }
-
         &.-visitors {
 
             .subtitle {
@@ -171,6 +159,45 @@
         a b {
             color: plt('black')!important;
             display: inline-block;
+        }
+    }
+
+    .content-side.-items {
+        width: 200px;
+        padding: 12px 0 0 40px;
+        text-align: left;
+
+        div {
+            display: block;
+            margin-bottom: 12px;
+            text-align: left;
+            // vertical-align: middle;
+            @include mail-font(16px, 1);
+
+            &:nth-child(2) .bullet {
+                background-color: #FFC700;
+            }
+
+            &:nth-child(3) .bullet {
+                background-color: #06357A;
+            }
+
+            &:nth-child(4) .bullet {
+                background-color: #00AF41;
+            }
+
+            &:nth-child(5) .bullet {
+                background-color: #FF6B00;
+            }
+        }
+
+        .bullet {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-color: #00B3E3;
+            border-radius: 50%;
+            // vertical-align: middle;
         }
     }
 }

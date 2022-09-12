@@ -28,7 +28,13 @@
         "type": "visitors",
         "config": {
           "chart": "chart-01.png",
-          "items": "chart-info-01.png"
+          "items": [
+            "Direct",
+            "Organic Search",
+            "Referral",
+            "Paid Search",
+            "(Other)"
+          ]
         }
       },
       {

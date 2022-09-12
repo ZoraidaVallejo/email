@@ -86,103 +86,102 @@
       </td>
     </tr>
   {{/if}}
-        {{#if widgetConfig.contentOrder}}
-          {{#forEach widgetConfig.contentOrder}}
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+      <tr>
+        <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
+          {{#table}}
 
-  <tr>
-    <td class="content-wrapper" responsive="mobile-padding-horizontal-sides">
-      {{#table}}
+                {{#compare this.type "===" "intro"}}
+                  <tr>
+                    <td class="content -intro -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                      <p class="title" responsive="mobile-padding-horizontal-sides mobile-fz-31"><strong>Website Report</strong></p>
+                      <p class="date">{{{../widgetConfig.month}}}, {{{../widgetConfig.year}}}</p>
+                      <p class="website"><a href="{{{config.websiteLink}}}" target="_blank"><strong>{{{config.website}}}</strong></a></p>
+                    </td>
+                  </tr>
+                {{/compare}}
 
-            {{#compare this.type "===" "intro"}}
-              <tr>
-                <td class="content -intro -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                  <p class="title" responsive="mobile-padding-horizontal-sides mobile-fz-31"><strong>Website Report</strong></p>
-                  <p class="date">{{{../widgetConfig.month}}}, {{{../widgetConfig.year}}}</p>
-                  <p class="website"><a href="{{{config.websiteLink}}}" target="_blank"><strong>{{{config.website}}}</strong></a></p>
-                </td>
-              </tr>
-            {{/compare}}
+                {{#compare this.type "===" "traffic"}}
+                  <tr>
+                    <td class="content -traffic -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                      <p class="title" responsive="mobile-padding-horizontal-sides"><strong>Traffic Highlights</strong></p>
+                      <p class="subtitle">Core Traffic Metrics for { {{{../widgetConfig.month}}} }</p>
+                      {{#forIn this.config}}
+                        {{#compare @key "===" "visits"}}
+                          <div class="content-side -visits" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-30-bottom">
+                            {{>img
+                              src="traffic-icon-01.png"
+                              alt="Visits Icon"
+                            }}
+                            <p class="-visits-count -count"><strong>{{{this}}}</strong></p>
+                            <p>Visits</p>
+                          </div>
+                        {{/compare}}
 
-            {{#compare this.type "===" "traffic"}}
-              <tr>
-                <td class="content -traffic -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                  <p class="title" responsive="mobile-padding-horizontal-sides"><strong>Traffic Highlights</strong></p>
-                  <p class="subtitle">Core Traffic Metrics for { {{{../widgetConfig.month}}} }</p>
-                  {{#forIn this.config}}
-                    {{#compare @key "===" "visits"}}
-                      <div class="content-side -visits" responsive="collapse-one mobile-no-padding-horizontal-sides mobile-padding-30-bottom">
+                        {{#compare @key "===" "pageviews"}}
+                          <div class="content-side -pageviews" responsive="collapse-one mobile-no-padding">
+                            {{>img
+                              src="traffic-icon-02.png"
+                              alt="Pageviews Icon"
+                            }}
+                            <p class="-pageviews-count -count"><strong>{{{this}}}</strong></p>
+                            <p>Pageviews</p>
+                          </div>
+                        {{/compare}}
+                      {{/forIn}}
+                      <br style="clear:both">
+                    </td>
+                  </tr>
+                {{/compare}}
+
+                {{#compare this.type "===" "visitors"}}
+                  <tr>
+                    <td class="content -visitors -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
+                      <p class="title" responsive="mobile-padding-horizontal-sides"><strong>How Are Your Visitors Reaching Your Site?</strong></p>
+                      <p class="subtitle" responsive="mobile-padding-30-bottom">Breakdown of Visitors by Channel</p>
+                      {{#forIn this.config}}
+                        {{#compare @key "===" "chart"}}
+                          <div class="content-side -chart" responsive="collapse-one mobile-no-padding">
+                            {{>img
+                              src=this
+                              alt="chart Icon"
+                              responsive="mobile-align-center"
+                            }}
+                          </div>
+                        {{/compare}}
+
+                        {{#compare @key "===" "items"}}
+                          <div class="content-side -items" responsive="collapse-one mobile-reset-width mobile-padding-30-top">
+                            {{#each this}}
+                              <div><span class="bullet"></span> {{{this}}}</div>
+                            {{/each}}
+                          </div>
+                        {{/compare}}
+                      {{/forIn}}
+                      <br style="clear:both">
+                    </td>
+                  </tr>
+                {{/compare}}
+
+                {{#compare this.type "===" "ad"}}
+                  <tr>
+                    <td class="content -ad -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+                      <a href="{{{config.link}}}" target="_blank">
                         {{>img
-                          src="traffic-icon-01.png"
-                          alt="Visits Icon"
+                          src=config.image
+                          alt=config.alt
                         }}
-                        <p class="-visits-count -count"><strong>{{{this}}}</strong></p>
-                        <p>Visits</p>
-                      </div>
-                    {{/compare}}
+                      </a>
+                    </td>
+                  </tr>
+                {{/compare}}
 
-                    {{#compare @key "===" "pageviews"}}
-                      <div class="content-side -pageviews" responsive="collapse-one mobile-no-padding">
-                        {{>img
-                          src="traffic-icon-02.png"
-                          alt="Pageviews Icon"
-                        }}
-                        <p class="-pageviews-count -count"><strong>{{{this}}}</strong></p>
-                        <p>Pageviews</p>
-                      </div>
-                    {{/compare}}
-                  {{/forIn}}
-                  <br style="clear:both">
-                </td>
-              </tr>
-            {{/compare}}
-
-            {{#compare this.type "===" "visitors"}}
-              <tr>
-                <td class="content -visitors -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
-                  <p class="title" responsive="mobile-padding-horizontal-sides"><strong>How Are Your Visitors Reaching Your Site?</strong></p>
-                  <p class="subtitle" responsive="mobile-padding-30-bottom">Breakdown of Visitors by Channel</p>
-                  {{#forIn this.config}}
-                    {{#compare @key "===" "chart"}}
-                      <div class="content-side -chart" responsive="collapse-one mobile-no-padding">
-                        {{>img
-                          src=this
-                          alt="chart Icon"
-                        }}
-                      </div>
-                    {{/compare}}
-
-                    {{#compare @key "===" "items"}}
-                      <div class="content-side -items" responsive="collapse-one mobile-no-padding">
-                        {{>img
-                          src=this
-                          alt="items Icon"
-                        }}
-                      </div>
-                    {{/compare}}
-                  {{/forIn}}
-                  <br style="clear:both">
-                </td>
-              </tr>
-            {{/compare}}
-
-            {{#compare this.type "===" "ad"}}
-              <tr>
-                <td class="content -ad -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
-                  <a href="{{{config.link}}}" target="_blank">
-                    {{>img
-                      src=config.image
-                      alt=config.alt
-                    }}
-                  </a>
-                </td>
-              </tr>
-            {{/compare}}
-
-      {{/table}}
-    </td>
-  </tr>
-          {{/forEach}}
-        {{/if}}
+          {{/table}}
+        </td>
+      </tr>
+    {{/forEach}}
+  {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>
