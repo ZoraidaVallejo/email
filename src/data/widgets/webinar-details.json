@@ -7,7 +7,7 @@
     },
     "message": [
       "Name,",
-      "Today’s the day! <b><a href=\"https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw\">Registration is open</b> to all Justia Connect members for our next Justia Webinar.",
+      "Today’s the day! <b><a href=\"https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw\" target=\"_blank\">Registration is open</a></b> to all Justia Connect members for our next Justia Webinar.",
       "We’re continuing our series on law firm website SEO on September 28, 2022 when Justia CEO Tim Stanley explores advanced strategies for citation and link building to improve your site’s performance in Google Search results."
     ],
     "bottomline": [
@@ -21,6 +21,42 @@
     },
     "note": [
       "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you on September 28."
+    ]
+  },
+  "two-weeks-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Name,",
+      "Ever wondered how to respond to a Google penalty? Want to know more about tools for analyzing your backlink profile? We have answers!",
+      "In just two weeks, Justia CEO and SEO expert Tim Stanley continues our series of webinars on law firm website SEO where he will explore these questions and more. The presentation begins promptly at 11:00am PT on September 28 so <b><a href=\"https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw\" target=\"_blank\">RSVP today</a></b> and mark your calendars!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+      "text": "RSVP Today",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you on September 28."
+    ]
+  },
+  "two-weeks-registered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "In two short weeks, you will be learning advanced internal and external linking strategies, how to analyze your law firm website’s backlink profile, and more in our members-only webinar with Justia CEO Tim Stanley!",
+      "You should have received an email from Zoom with your unique access link for this webinar. If you have not already received this email from Zoom, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> for assistance."
+    ],
+    "note": [
+      "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. Unlock access when you <b><a href=\"#\" target=\"_blank\">Go Pro!</a></b>"
     ]
   }
 }

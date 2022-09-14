@@ -1,18 +1,32 @@
 {
-  "clients": {
-    "ad1": {},
-    "ad2": {}
+  "webinar-01": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registration.jpg"
   },
-  "jld": {
-    "webinar-01": {
-      "background": {
-        "image": "gray-bg.png",
-        "width": 0,
-        "bgColor": "",
-        "cssSize": ""
-      },
-      "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
-      "image": "webinar-registration.jpg"
-    }
+  "two-weeks-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registration.jpg"
+  },
+  "two-weeks-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registered.jpg"
   }
 }

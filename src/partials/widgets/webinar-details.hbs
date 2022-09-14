@@ -74,30 +74,32 @@
           <p>{{{this}}}</p>
         {{/each}}
 
-        <div class="-bottomline">
-          {{#each widgetConfig.bottomline}}
-            <p>{{{this}}}</p>
-          {{/each}}
-        </div>
+        {{#if widgetConfig.bottomline}}
+          <div class="-bottomline">
+            {{#each widgetConfig.bottomline}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </div>
+        {{/if}}
 
         {{!
           // TODO: Move to `widget-button` component.
         }}
 
         {{#if @root.widgetWithButton}}
-        <div class="widget-button">
-            {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
-              {{widgetConfig.button.text}}
-            {{/uiButton}}
-          {{/if}}
-        </div>
+          <div class="widget-button">
+              {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+                {{widgetConfig.button.text}}
+              {{/uiButton}}
+          </div>
+        {{/if}}
 
         {{#if widgetConfig.note}}
-        <div class="-note">
-          {{#each widgetConfig.note}}
-            <p>{{{this}}}</p>
-          {{/each}}
-        </div>
+          <div class="-note">
+            {{#each widgetConfig.note}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </div>
         {{/if}}
       </div>
     </td>
