@@ -58,5 +58,41 @@
     "note": [
       "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. Unlock access when you <b><a href=\"#\" target=\"_blank\">Go Pro!</a></b>"
     ]
+  },
+  "one-weeks-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Still haven’t RSVP’d to our upcoming webinar? Time is running out…and seats are too!",
+      "On September 28 at 11:00am PT, Tim Stanley – the fearless leader of Justia – will continue the Justia Webinars series on law firm website SEO with a presentation on <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Strategies for Citation and Link Building</a></b>.",
+      "You won’t want to miss this opportunity to learn strategies that can help your firm grow. <b><a href=\"https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw\" target=\"_blank\">Register today.</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+      "text": "RSVP Today",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you on September 28."
+    ]
+  },
+  "one-weeks-registered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Name,",
+      "It’s almost time for your Justia Webinar! At this time next week (11:00 a.m. PT), Justia CEO and SEO expert Tim Stanley will be offering information on advanced citation and link building strategies to improve your website SEO.",
+      "You should have received an email from Zoom with your unique access link for this webinar. If you have not already received this email from Zoom, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> for assistance."
+    ],
+    "note": [
+      "<b>Want to watch the recording instead?</b><br>You’ll need to <b><a href=\"#\" target=\"_blank\">upgrade to Pro</a></b> to unlock access."
+    ]
   }
 }

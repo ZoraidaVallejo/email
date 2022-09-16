@@ -46,6 +46,7 @@
         }
 
         .-bottomline {
+            padding: 0 0 25px;
 
             p,a {
                 text-align: center;
@@ -82,7 +83,7 @@
 
     .widget-button {
         text-align: center;
-        padding: 25px 30px 15px;
+        padding: 0 30px 15px;
     }
 
     .button1 {
@@ -99,13 +100,14 @@
             border: 1px solid #f2f2f2;
             border-width: 0 1px 1px 1px;
             border-radius: 0 0 5px 5px;
-            padding: 10px 25px;
+            padding: 10px 25px 10px 35px;
         }
 
         .-icon {
+            width: 20px;
+
             img {
-                width: 20px;
-                margin-left: 10px
+                // margin-left: 10px
             }
         }
 

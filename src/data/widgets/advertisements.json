@@ -28,5 +28,25 @@
     },
     "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
     "image": "webinar-registered.jpg"
+  },
+  "one-weeks-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registration.jpg"
+  },
+  "one-weeks-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registered.jpg"
   }
 }
