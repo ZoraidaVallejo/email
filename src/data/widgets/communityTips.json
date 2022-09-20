@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Watch Justia Webinars On-Demand",
+    "link": "LINK?utm_medium=email&utm_campaign=2022-08&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "Couldn’t make it to our inaugural Justia Webinar on Law Firm Website Content for SEO? As a Justia Connect Pro, you can watch it on-demand, whenever convenient for you!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "LINK",
+      "text": "Watch Now",
+      "width": 150,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

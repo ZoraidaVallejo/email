@@ -1,0 +1,43 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Upcoming Webinars",
+        "icon": {
+          "src": "icon-01.png",
+          "alt": "Upcoming Webinars"
+        },
+        "description": [
+          "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+        ],
+        "button": {
+          "style": "red",
+          "link": "LINK",
+          "text": "Watch Now",
+          "width": 150
+        }
+      },
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "icon-02.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+        ],
+        "button": {
+          "style": "red",
+          "link": "LINK",
+          "text": "Watch Now",
+          "width": 150
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legal-deals.png",
+        "alt": "lorem ipsum",
+        "title": "Legal Deals",
+        "border": true,
+        "description": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "LINK/?utm_medium=email&utm_campaign=2022-08&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Read More",
+          "width": 150
+        }
+      },
+      {
+        "banner": "lifestyle.png",
+        "alt": "lorem ipsum",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "LINK/?utm_medium=email&utm_campaign=2022-08&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Read More",
+          "width": 150
+        }
+      }
+    ]
+  }
+}

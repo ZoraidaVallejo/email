@@ -1,0 +1,73 @@
+{{! ================================================================================================================= }}
+{{! JUSTIA WEBINARS                                                                                   }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#and widgetConfig.content.button (compare widgetConfig.content.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-justia-webinars set-max-width"}}
+
+  {{>widget-header
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
+  }}
+
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=widgetConfig.banner
+          imgAlt=widgetConfig.alt
+          link=widgetConfig.imageLink
+        }}
+
+        {{#forEach widgetConfig.content}}
+
+            {{#table}}
+            <tr>
+              <td class="side-icon">
+                {{#if this.icon}}
+                  {{>img src=this.icon.src alt=this.icon.alt}}
+                {{/if}}
+              </td>
+              <td>
+                {{#if this.title}}
+                <h3 class="content-title">{{{this.title}}}</h3>
+              {{/if}}
+              </td>
+            </tr>
+          {{/table}}
+
+          {{#each this.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+
+          {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          <div class="widget-button {{#if isLast}} -last{{/if}}">
+            {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+              {{this.button.text}}
+            {{/uiButton}}
+          </div>
+
+
+
+        {{/forEach}}
+      </div>
+    </td>
+  </tr>
+
+
+{{/table}}
