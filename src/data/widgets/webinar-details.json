@@ -94,5 +94,61 @@
     "note": [
       "<b>Want to watch the recording instead?</b><br>You’ll need to <b><a href=\"#\" target=\"_blank\">upgrade to Pro</a></b> to unlock access."
     ]
+  },
+  "two-days-registered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Ready or not, it’s almost here! In just two days Justia Webinars is presenting Law Firm Website SEO: Advanced Citation and Link Building and you’re on the list.",
+      "Make sure you can locate your email from Zoom with the personalized access link for this webinar. If you have not already received an access email from Zoom, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> for assistance as soon as possible."
+    ],
+    "note": [
+      "<b>Need to cancel your registration?</b><br> We understand. <b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to all Justia Webinars recordings."
+    ]
+  },
+  "last-chance": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Name,",
+      "Waiting for a sign to <b><a href=\"https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw\" target=\"_blank\">register for our Justia Webinar</a></b> on advanced citation and link building for SEO? This is it!.",
+      "Today is the day and we had a couple of people reach out with last minute cancellations, so seats are still available for the presentation! At 11:00am PT, Justia CEO Tim Stanley will cover using Google Search Console to analyze your backlink profile, responding to Google penalties, the relationship between Google Business Profile and your SEO strategy, and more."
+    ],
+    "bottomline": [
+      "<b>What are you waiting for?</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+      "text": "Join This Webinar",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b> <br> No need to register again!We have you on our list and look forward to seeing you in a few short hours."
+    ]
+  },
+  "day-of-registered": {
+    "banner": "",
+    "details": {
+      "date": "September 28, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "<b style=\"display:block;text-align:center\">Knock, knock.</b>",
+      "<span style=\"display:block;text-align:center\">Who’s there?</span>",
+      "<b style=\"display:block;text-align:center\">You.</b>",
+      "<span style=\"display:block;text-align:center\">You who?</span>",
+      "<b style=\"display:block;text-align:center\">Yoohoo – It’s Justia Webinar day!</b>",
+      "Don’t forget your Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building begins at 11:00am PT.",
+      "You should have received a personalized Zoon link for this webinar. If you cannot locate your link, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> immediately for assistance.",
+      "If you can’t make it but want to watch this webinar, <b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
+    ]
   }
 }

@@ -26,7 +26,7 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "link": "https://connect.justia.com/webinars/advanced-citation-link-building-for-seo",
     "image": "webinar-registered.jpg"
   },
   "one-weeks-unregistered": {
@@ -46,7 +46,37 @@
       "bgColor": "",
       "cssSize": ""
     },
+    "link": "https://connect.justia.com/webinars/advanced-citation-link-building-for-seo",
+    "image": "webinar-registered.jpg"
+  },
+  "two-days-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/advanced-citation-link-building-for-seo",
+    "image": "webinar-registered.jpg"
+  },
+  "last-chance": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
     "link": "https://us06web.zoom.us/webinar/register/4316612882330/WN_1zpGwoa1R1m5eNWIK7RCYw",
+    "image": "webinar-registration.jpg"
+  },
+  "day-of-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/advanced-citation-link-building-for-seo",
     "image": "webinar-registered.jpg"
   }
 }

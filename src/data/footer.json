@@ -36,6 +36,43 @@
       "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
     }
   },
+  "registered": {
+    "layout": "social-below",
+    "style": "basic",
+    "logo": {
+      "name": "justia",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-footer-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    },
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/"
+      }
+    ],
+    "disclaimer": "You are receiving this because you have registered for <b>Justia Webinars</b>.<br>",
+    "address": {
+      "justiaLink": "https://www.justia.com/",
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  },
   "basic": {
     "layout": "social-below",
     "style": "basic",
