@@ -63,6 +63,18 @@
   </tr>
   {{/if}}
 
+  {{#if widgetConfig.topButton}}
+    <tr>
+      <td class="widget-top-button{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+        <div class="widget-button">
+            {{#uiButton presetStyle=widgetConfig.topButton.style width=widgetConfig.topButton.width href=(concat widgetConfig.topButton.link (utmVariables widgetConfig.topButton.utm))}}
+              {{widgetConfig.topButton.text}}
+            {{/uiButton}}
+        </div>
+      </td>
+    </tr>
+  {{/if}}
+
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div>

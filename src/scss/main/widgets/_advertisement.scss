@@ -19,7 +19,7 @@
     }
 
     .title {
-        padding: 50px $padding 20px;
+        padding: 50px $padding 0;
         color: plt('justia-blue');
         @include mail-font(36px, 1.15, tp('weight', 'bold'));
     }

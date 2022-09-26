@@ -150,5 +150,48 @@
       "You should have received a personalized Zoon link for this webinar. If you cannot locate your link, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> immediately for assistance.",
       "If you can’t make it but want to watch this webinar, <b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
     ]
+  },
+  "pro-recording": {
+    "banner": "",
+    "topButton": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    },
+    "message": [
+      "Hi Name,",
+      "Thanks for attending our <b><a href=\"#\" target=\"_blank\">Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. We shared a lot of information—so much info that you may want to hear it again!",
+      "As a Justia Connect Pro, you have exclusive access to watch our recording of the presentation at your own pace. Catch the information you may have missed, reinforce the key points, or listen while you work.",
+      "How you choose to use the recording is up to you. Enjoy!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "pro-recording-missed": {
+    "banner": "",
+    "topButton": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    },
+    "message": [
+      "Hi Name,",
+      "Things happen. Urgent client matters need attention. People forget to mark their calendar. Conflicts occur. We get it.",
+      "The good news? Regardless of what prevented you from attending Justia Webinars recent program on <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>, you can now watch it whenever you want!",
+      "As a Justia Connect Pro, you have exclusive access to the webinar recording and can still take advantage of SEO insights from our CEO to improve your website’s SEO strategy.",
+      "Happy Watching!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
   }
 }
