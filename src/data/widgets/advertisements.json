@@ -122,5 +122,16 @@
     "link": "#",
     "image": "post-webinar.png",
     "title": "We Missed You at the Advanced Citation and Link Building for SEO Webinar"
+  },
+  "survey": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-survey.png",
+    "title": "Your Opinion Matters to Us."
   }
 }
