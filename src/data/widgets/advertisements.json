@@ -133,5 +133,16 @@
     "link": "#",
     "image": "webinar-survey.png",
     "title": "Your Opinion Matters to Us."
+  },
+  "nonattendance": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-nonattendance.png",
+    "title": "Tell Us <span>Your Opinion</span>"
   }
 }
