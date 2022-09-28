@@ -193,5 +193,47 @@
       "text": "Watch Now",
       "width": 250
     }
+  },
+  "basic-recording": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Thanks for attending our <b><a href=\"#\" target=\"_blank\">Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. We shared a lot of information—so much info that you may want to hear it again!",
+      "Did you know that all Justia Webinar recordings, including the recent program SEO for Law Firm Websites: Advanced Citation and Link Building, are available on-demand for <b><a href=\"#\" target=\"_blank\">Justia Connect Pro</a></b> members.",
+      "For as little as $16.65/month*, you can watch Justia Webinars recordings whenever convenient for you and unlock access to all of the features Justia Connect Pro has to offer! <b><a href=\"#\" target=\"_blank\">Upgrade today</a></b> to get access."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro Now",
+      "width": 250
+    },
+    "note": [
+      "*$16.65/month when paid annually. Justia Connect Pro is $19.99/month for members who select a monthly payment plan."
+    ]
+  },
+  "basic-recording-missed": {
+    "banner": "",
+    "topButton": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    },
+    "message": [
+      "Hi Name,",
+      "We noticed you couldn’t make it to our recent Justia Webinar, but that doesn’t mean you have to miss out!",
+      "Did you know that all Justia Webinar recordings, including the recent program <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>, are available on-demand for <b><a href=\"#\" target=\"_blank\">Justia Connect Pro</a></b> members.",
+      "For as little as $16.65/month*, you can watch Justia Webinars recordings whenever convenient for you and unlock access to all of the features Justia Connect Pro has to offer! <b><a href=\"#\" target=\"_blank\">Upgrade today</a></b> to get access."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    },
+    "note": [
+      "*$16.65/month when paid annually. Justia Connect Pro is $19.99/month for members who select a monthly payment plan."
+    ]
   }
 }

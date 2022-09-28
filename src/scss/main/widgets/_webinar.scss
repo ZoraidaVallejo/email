@@ -48,7 +48,8 @@
         .-bottomline {
             padding: 0 0 25px;
 
-            p,a {
+            p,
+            a {
                 text-align: center;
                 margin: 0;
             }
@@ -97,7 +98,7 @@
     }
 
     .event-details {
-        padding: 0 30px 50px;
+        padding: 0 30px;
 
         > table {
             display: block;
@@ -132,7 +133,11 @@
         }
     }
 
-    .-note p{
+    .widget-description {
+        padding: 50px $padding;
+    }
+
+    .-note p {
         text-align: center;
         padding: 12px 0;
         // @include mail-font(14px, 1.1);

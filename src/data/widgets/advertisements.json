@@ -100,5 +100,27 @@
     "link": "#",
     "image": "post-webinar.png",
     "title": "We Missed You at the Advanced Citation and Link Building for SEO Webinar"
+  },
+  "basic-recording": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "post-webinar.png",
+    "title": "Want to Reinforce What<br>You Learned?"
+  },
+  "basic-recording-missed": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "post-webinar.png",
+    "title": "We Missed You at the Advanced Citation and Link Building for SEO Webinar"
   }
 }
