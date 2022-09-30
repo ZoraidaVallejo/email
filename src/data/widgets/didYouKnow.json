@@ -1,0 +1,17 @@
+{
+  "type": "Did You Know?",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "responsive": "mobile-fz-16",
+        "image": "did-you-know-01.png",
+        "description": [
+          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Et feugiat senectus platea quisque pretium arcu cursus magna vestibulum, hac convallis euismod in morbi interdum himenaeos sagittis."
+        ]
+      }
+    }
+  ]
+}

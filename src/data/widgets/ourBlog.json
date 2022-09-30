@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Combatting Click Fraud: 5 Questions and Answers to Help You Avoid Wasting Your Ad Budget"
+      },
+      "readMore": "#",
+      "blockTitle": "Combatting Click Fraud: 5 Questions and Answers to Help You Avoid Wasting Your Ad Budget"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "The 5 Must-Have Pages Your Law Firm Website Needs Before Going Live"
+      },
+      "readMore": "#",
+      "blockTitle": "The 5 Must-Have Pages Your Law Firm Website Needs Before Going Live"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Why Lawyers Need to Invest in a Professional Headshot"
+      },
+      "readMore": "#",
+      "blockTitle": "Why Lawyers Need to Invest in a Professional Headshot"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Lawyers as Thought Leaders: What You Should Know"
+      },
+      "readMore": "#",
+      "blockTitle": "Lawyers as Thought Leaders: What You Should Know"
+    }
+  ]
+}

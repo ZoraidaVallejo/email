@@ -1,0 +1,101 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "10",
+            "name": "Paola Lira"
+          },
+          {
+            "day": "13",
+            "name": "Jessica Risso"
+          },
+          {
+            "day": "18",
+            "name": "Ivan Bonilla"
+          },
+          {
+            "day": "20",
+            "name": "Jupiter Barrera"
+          },
+          {
+            "day": "25",
+            "name": "Linh Tran"
+          },
+          {
+            "day": "25",
+            "name": "Ana Serna"
+          },
+          {
+            "day": "27",
+            "name": "Adalit Flores"
+          },
+          {
+            "day": "30",
+            "name": "Saul de la Rosa"
+          },
+          {
+            "day": "31",
+            "name": "Miriam Valdes"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Barbara Cooper",
+            "years": "15th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "John Pruitt",
+            "years": "13th"
+          },
+          {
+            "name": "Ana Hidalgo",
+            "years": "12th"
+          },
+          {
+            "name": "Jaqueline Chu",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Lenin Angulo",
+            "years": "4th"
+          },
+          {
+            "name": "John Gaspar",
+            "years": "3rd"
+          },
+          {
+            "name": "Edgar de Leon",
+            "years": "3rd"
+          },
+          {
+            "name": "Arturo Jara",
+            "years": "2nd"
+          },
+          {
+            "name": "Emilio Barrera",
+            "years": "1st"
+          },
+          {
+            "name": "Daniel Gomez",
+            "years": "1st"
+          },
+          {
+            "name": "Hector Fernandez",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}
