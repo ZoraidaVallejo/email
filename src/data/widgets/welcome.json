@@ -1,0 +1,23 @@
+{
+  "jld": {
+    "banner": "welcome-image.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-10&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Explore our digital marketing tips for new law firms and find out why all lawyers should invest in a professional headshot. Check out the biggest headlines in law and technology over the past month, including the privacy lawsuits against Meta by Facebook users, and take a peek at some of the fun Team Justia and our resident pug have had lately!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}
