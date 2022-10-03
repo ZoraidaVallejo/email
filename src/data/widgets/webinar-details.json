@@ -153,12 +153,6 @@
   },
   "pro-recording": {
     "banner": "",
-    "topButton": {
-      "style": "red",
-      "link": "#",
-      "text": "Watch Now",
-      "width": 250
-    },
     "message": [
       "Hi Name,",
       "Thanks for attending our <b><a href=\"#\" target=\"_blank\">Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. We shared a lot of information—so much info that you may want to hear it again!",
@@ -174,12 +168,6 @@
   },
   "pro-recording-missed": {
     "banner": "",
-    "topButton": {
-      "style": "red",
-      "link": "#",
-      "text": "Watch Now",
-      "width": 250
-    },
     "message": [
       "Hi Name,",
       "Things happen. Urgent client matters need attention. People forget to mark their calendar. Conflicts occur. We get it.",
@@ -214,12 +202,6 @@
   },
   "basic-recording-missed": {
     "banner": "",
-    "topButton": {
-      "style": "red",
-      "link": "#",
-      "text": "Watch Now",
-      "width": 250
-    },
     "message": [
       "Hi Name,",
       "We noticed you couldn’t make it to our recent Justia Webinar, but that doesn’t mean you have to miss out!",
@@ -229,7 +211,7 @@
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Watch Now",
+      "text": "Go Pro",
       "width": 250
     },
     "note": [
