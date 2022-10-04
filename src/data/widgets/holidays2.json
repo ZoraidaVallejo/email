@@ -1,24 +1,17 @@
 {
   "widget": {
-    "type": "UPCOMING HOLIDAYS",
-    "header": "Dates to Remember"
+    "type": "JUSTIA PET NEWS",
+    "header": "Baby Mika and Caring Laila"
   },
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
-        "image": "holidays-graphic-01.png",
-        "blockTitle": "Holiday - Month Day",
+        "image": "pets-01.png",
         "description": [
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Architecto beatae vitae dicta sunt explicabo dolor in reprehenderit in voluptate."
+          "Mika, the Boxer, is four months old and the newest member of Arturo's Family. Laila, the Dogue de Bordeaux, is six years old, and she welcomed Mika with her paws wide open. Both like to sleep together, play tug-of-war, chase the ball, and wrestle until Laila growls because Mika bites her. But most of the time, they are just two lovely BFFs spending time together!"
         ]
       }
-    },
-    {
-      "type": "description",
-      "config": [
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
-      ]
     }
   ]
 }

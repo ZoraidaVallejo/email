@@ -5,6 +5,16 @@
 .widget {
     // border-bottom: 1px solid plt('gallery');
     background-color: plt('white');
+
+    &:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+
+    &:nth-child(even) {
+        background: image-url('odd-block-center.png') no-repeat plt('white');
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 // ----------------------------------------------------------------------------------------------------------

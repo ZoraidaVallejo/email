@@ -18,7 +18,6 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
         "title": "Justia Elevate QA Automation: ",
         "description": "The QA Team released the automated QA jobs to ensure the quality of the Justia Elevate WordPress interface. We are moving forward with additional features and making sure our system remains active and functional."
       }
@@ -51,7 +50,6 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
         "title": "Justia Connect Pro (Analytics Report): ",
         "description": "This report will provide insights into the actions of Justia Connect Pro members before and after they purchase the Pro membership."
       }
@@ -61,6 +59,7 @@
       "config": {
         "image": "milestones-graphic-03.png",
         "title": "First Short Video for Social Media: ",
+        "link": "https://fb.watch/fXrxIzhn8n/",
         "description": "Members of our Editorial, Design, and Marketing Teams produced and published the first short video on social networks as part of our legal content marketing strategy in Mexico."
       }
     },

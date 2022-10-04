@@ -1,41 +1,27 @@
 {
   "type": "TEAM ACTIVITY",
-  "title": "Winners of 2021 March Madness",
+  "title": "Justia’s Got Talent",
   "titleResponsiveSize": 23,
-  "image": "march-madness-01.png",
+  "image": "team-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "After a one-year hiatus, our traditional March Madness returned with a lot of surprising and unpredictable moments. Thank you all for participating and submitting your brackets. Congratulations to the winners!"
+        "On September 23rd, we had our pilot episode of Justia's Got Talent show! At the beginning of the event, we had a surprise cameo of American Idol legend William Hung wishing all participants good luck. We enjoyed all the entertaining and thrilling performances. Thank you very much for your participation! The event wouldn't have been the same without you. We are looking forward to having another exciting event soon!"
       ]
     },
     {
       "type": "lists-description",
       "config": {
         "left": [
-          "<strong>Overall Bracket</strong>",
-          "<b>Winner – Ana Hidalgo</b><br>",
-          "<b>Runners Up</b>",
-          "Hayden Pham",
-          "Meztli Vergara",
-          "Clayton Dodds",
-          "Chris Skelton",
-          "Thomas Sullivan",
-          "Edgar Cano",
-          "Stacy Stern",
-          "Miguel Berlanga",
-          "Lauren Moskie",
-          "Keilah Cabrera"
+          "<b>Top 5:</b>",
+          "Alfredo Galvan",
+          "Manu Maldonado",
+          "Meghna Patel",
+          "Laura Garcia",
+          "Ken Chan & Stacy Stern"
         ],
-        "right": [
-          "<strong>WINS</strong>",
-          "<b>Winner – Ana Hidalgo</b><br>",
-          "<strong>SWEET 16</strong>",
-          "<b>Winner – Chris Skelton</b><br>",
-          "<strong>CHAMPIONSHIP GAME</strong>",
-          "<b>Winner – Vasu Kappettu</b>"
-        ]
+        "right": []
       }
     }
   ]
