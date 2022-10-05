@@ -1,0 +1,33 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Announcements"
+  },
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-elevate-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "announcement.png",
+  "title": "Your Justia Elevate Site Is AMPed Up!",
+  "description": [
+    "Google spearheaded the Accelerated Mobile Pages project (AMP for short) to improve mobile user experiences through ultra-fast, instantly-loading versions of web pages. Your Justia Elevate site now has its own AMP version, ensuring that your website loads at nearly lightning-fast speeds for the growing ranks of mobile users. "
+  ]
+}
