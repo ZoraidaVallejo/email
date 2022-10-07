@@ -239,7 +239,7 @@
       "Hi Name,",
       "You recently registered for our recent Justia Webinars presentation, <b>SEO for Law Firm Websites: Advanced Citation and Link Building</b>. We missed having you join us on presentation day!",
       "Life is busy and we understand. However, your feedback as to why you were unable to attend matters to us as we continue to improve Justia Webinars and plan future presentations for our members.",
-      " Please take a few moments to answer a brief survey on why you were unable to attend the most recent presentation. Our team appreciates it more than you know!"
+      "Please take a few moments to answer a brief survey on why you were unable to attend the most recent presentation. Our team appreciates it more than you know!"
     ],
     "button": {
       "style": "red",
@@ -247,5 +247,15 @@
       "text": "Share My Feedback",
       "width": 250
     }
+  },
+  "save-the-date": {
+    "banner": "save-the-date-01.gif",
+    "message": [
+      "Hi Name,",
+      "In less than three weeks, Justia is hosting another webinar exclusively for Justia Connect members and you are one of the first to know!",
+      "Experts from the Justia Amplify PPC Management team will share strategies for leveraging Google Ads as part of your law firm’s legal marketing plan. You may get Google Ads information somewhere else but only our team is offering expert insights <b>specifically focused on the goals of lawyers and law firms!</b>",
+      "Mark your calendar on <b>October 26, 2022 at 11:00 a.m. PT</b> for the presentation and keep an eye out for our upcoming registration emails.",
+      "<b>Priority registration for <a href=\"https://connect.justia.com/pro\" target=\"_blank\">Justia Connect Pros</a> opens on October 17!</b>"
+    ]
   }
 }

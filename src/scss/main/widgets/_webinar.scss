@@ -148,6 +148,7 @@
         padding-top: 20px;
     }
 }
+
 .widget.post-webinar {
 
     .widget-description > div {
@@ -156,5 +157,20 @@
 
     .-bottomline {
         color: #333333;
+    }
+}
+
+.widget.-save-the-date {
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .widget-description > div {
+        padding: 25px 24px 26px;
     }
 }
