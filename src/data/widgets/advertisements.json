@@ -1,0 +1,161 @@
+{
+  "pro-registration": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "registration": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "two-weeks-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "two-weeks-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "one-weeks-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "one-weeks-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "two-days-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "last-chance": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "day-of-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "pro-recording": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png",
+    "title": "Want to Reinforce What<br>You Learned?"
+  },
+  "pro-recording-missed": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png",
+    "title": "We Missed You at the Advanced Citation and Link Building for SEO Webinar"
+  },
+  "basic-recording": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png",
+    "title": "Want to Reinforce What<br>You Learned?"
+  },
+  "basic-recording-missed": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png",
+    "title": "You Can Still Learn About Advanced Citation and Link Building for SEO"
+  },
+  "survey": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png",
+    "title": "Your Opinion Matters to Us."
+  },
+  "nonattendance": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-nonattendance.png",
+    "title": "Tell Us <span>Your Opinion</span>"
+  },
+  "save-the-date": {
+    "image": "webinar-registration.png"
+  }
+}
