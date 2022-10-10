@@ -1,0 +1,40 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "gold-placements-01.jpg"
+    },
+    "ad2": {
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>With <strong>Justia Platinum Placements</strong>, potential clients see you first! You’ll be featured before free profiles in the Justia Lawyer Directory and even Justia Gold Placements.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Tell Me More",
+            "width": 240,
+            "height": 50,
+            "fontSize": 20,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
