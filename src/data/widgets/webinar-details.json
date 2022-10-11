@@ -38,7 +38,7 @@
       "width": 250
     }
   },
-  "registration2": {
+  "registration-all": {
     "banner": "",
     "details": {
       "date": "October 26, 2022",
@@ -46,8 +46,8 @@
     },
     "message": [
       "Name,",
-      "A <b>new Justia Webinar</b> is opening for priority registration right now! Later this month, expert legal marketers from our Justia Amplify PPC Management team will share insights into how lawyers can use Google Ads PPC to grow their firms.",
-      "Space for this presentation is limited, but you have a chance to <b>reserve a seat now</b> by <b><a href=\"#\" target=\"_blank\">upgrading  to Justia Connect Pro</a></b>. Once you’ve upgraded, you can <b>register for the webinar</b>."
+      "Grab your seat before it’s gone! <b><a href=\"#\" target=\"_blank\">Registration is open to all</a></b> Justia Connect members for our new Justia Webinar focused on <b>Pay-Per-Click Advertising for Lawyers and Law Firms</b>.",
+      "Join us on Wednesday, October 26 at 11:00 a.m. PT for a presentation led by Samantha Larrus and Thomas Sullivan of the <b>Justia Amplify PPC Management Team</b> as they share insights into how lawyers and law firms can use <b>Google Ads</b> as an effective strategy for reaching more clients."
     ],
     "bottomline": [
       "<b>Seats are going fast! <br> Don’t miss your chance to join this exclusive presentation.</b>"
@@ -55,28 +55,7 @@
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Get on the Guest List",
-      "width": 250
-    },
-    "note": [
-      "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you on October 26."
-    ]
-  },
-  "two-weeks-unregistered": {
-    "banner": "",
-    "details": {
-      "date": "October 26, 2022",
-      "time": "11:00am PT/2:00pm ET"
-    },
-    "message": [
-      "Name,",
-      "Ever wondered how to respond to a Google penalty? Want to know more about tools for analyzing your backlink profile? We have answers!",
-      "In just two weeks, Justia CEO and SEO expert Tim Stanley continues our series of webinars on law firm website SEO where he will explore these questions and more. The presentation begins promptly at 11:00am PT on October 26 so <b><a href=\"#\" target=\"_blank\">RSVP today</a></b> and mark your calendars!"
-    ],
-    "button": {
-      "style": "red",
-      "link": "#",
-      "text": "RSVP Today",
+      "text": "Register for Free",
       "width": 250
     },
     "note": [
@@ -98,21 +77,23 @@
       "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. Unlock access when you <b><a href=\"#\" target=\"_blank\">Go Pro!</a></b>"
     ]
   },
-  "one-weeks-unregistered": {
+  "reminder-unregistered": {
     "banner": "",
     "details": {
       "date": "October 26, 2022",
       "time": "11:00am PT/2:00pm ET"
     },
     "message": [
-      "Still haven’t RSVP’d to our upcoming webinar? Time is running out…and seats are too!",
-      "On October 26 at 11:00am PT, Tim Stanley – the fearless leader of Justia – will continue the Justia Webinars series on law firm website SEO with a presentation on <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Strategies for Citation and Link Building</a></b>.",
-      "You won’t want to miss this opportunity to learn strategies that can help your firm grow. <b><a href=\"#\" target=\"_blank\">Register today.</a></b>"
+      "Did you know that Google Search results are increasingly dominated by paid ads? If you want potential clients to see you, now is the time to consider <b>Google Ads PPC</b> for your law firm.",
+      "You can learn best practices for using Google Ads to promote your firm when legal marketing specialists from our Justia Amplify Team host our <b><a href=\"#\" target=\"_blank\">next Justia Webinars presentation</a></b> for <b>Justia Connect</b> members on October 26 at 11:00 a.m. PT."
+    ],
+    "bottomline": [
+      "You won’t want to miss this free opportunity to learn strategies that can help your firm grow. <b><a href=\"#\" target=\"_blank\">Register today.</a></b>"
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "RSVP Today",
+      "text": "Get on the List",
       "width": 250
     },
     "note": [
@@ -157,8 +138,9 @@
     },
     "message": [
       "Name,",
-      "Waiting for a sign to <b><a href=\"#\" target=\"_blank\">register for our Justia Webinar</a></b> on advanced citation and link building for SEO? This is it!.",
-      "Today is the day and we had a couple of people reach out with last minute cancellations, so seats are still available for the presentation! At 11:00am PT, Justia CEO Tim Stanley will cover using Google Search Console to analyze your backlink profile, responding to Google penalties, the relationship between Google Business Profile and your SEO strategy, and more."
+      "We only have a handful of seats left for <b><a href=\"#\" target=\"_blank\">tomorrow’s webinar</a></b> on pay-per-click advertising for lawyers!",
+      "Want exclusive insights on Google Ads from our team of expert legal marketers? Claim one of these open seats before your competitors do!",
+      "At 11:00 a.m. PT on October 26,  Samantha Larrus and Thomas Sullivan from the Justia Amplify PPC Management team will share information only available from Justia about the ways lawyers can <b><a href=\"#\" target=\"_blank\">take advantage of Google Ads to expand their practice.</a></b>"
     ],
     "bottomline": [
       "<b>What are you waiting for?</b>"
@@ -166,11 +148,11 @@
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Join This Webinar",
+      "text": "Register Now",
       "width": 250
     },
     "note": [
-      "<b>Already registered?</b> <br> No need to register again!We have you on our list and look forward to seeing you in a few short hours."
+      "<b>Already registered?</b> <br> No need to register again! We have you on our list and look forward to seeing you tomorrow."
     ]
   },
   "day-of-registered": {
