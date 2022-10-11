@@ -3,11 +3,15 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
-    border-bottom: 1px solid plt('gallery');
+    border-bottom: 1px solid plt('mail', 'clear-gray');
     background-color: plt('white');
 
     &:nth-child(odd) {
-        background-color: plt('wild-sand');
+        background-color: plt('mail', 'clear-gray');
+    }
+
+    a {
+        color: plt('justia-blue');
     }
 }
 
@@ -31,18 +35,18 @@
     }
 
     .type {
-        color: plt('justia-blue');
+        color: plt('black');
 
         @include mail-font(16px, 1, tp('weight', 'normal'));
     }
 
     .header {
-        color: plt('justia-blue');
+        color: plt('black');
 
         @include mail-font(32px, 1.2, tp('weight', 'bold'));
 
         a {
-            color: plt('justia-blue');
+            color: plt('black');
         }
     }
 }
@@ -68,7 +72,7 @@
         color: plt('black');
 
         a {
-            color: plt('black');
+            color: plt('justia-blue');
         }
 
         &.-blue {
@@ -112,13 +116,22 @@
 
         .article {
 
-            a,
-            p {
+            p,
+            .description {
                 color: plt('black');
+
+                a {
+                    color: plt('black');
+                }
             }
 
             .title {
                 margin: 0 0 8px;
+                color: plt('justia-blue');
+
+                a {
+                    color: plt('justia-blue');
+                }
             }
         }
     }
@@ -144,7 +157,10 @@
         .block-title {
             @include mail-font(22px, 1.1, tp('weight', 'bold'));
             margin: 15px 0 10px;
-            color: plt('justia-blue');
+            color: plt('black');
+            a {
+                color: plt('justia-blue')
+            }
         }
 
         .block-subtitle {
@@ -157,6 +173,50 @@
             a {
                 color: plt('black');
             }
+        }
+    }
+}
+
+.widget-date-square {
+    display: block;
+    width: 70px;
+    padding: 7px 0;
+    border: 1px solid #dddddd;
+    margin: 0 20px 0 0;
+    text-align: center;
+    background-color: plt('white');
+    color: plt('justia-blue');
+}
+
+.w-inside-justia {
+
+    a b {
+        color: plt('justia-blue');
+    }
+}
+
+.w-tip-month {
+    a b {
+        color: plt('black');
+    }
+}
+
+.w-justia-desk {
+    .header-icon-column {
+        width: 50px;
+
+        img {
+            width: 50px;
+        }
+    }
+}
+
+.w-webmaster {
+    .header-icon-column {
+        width: 45px;
+
+        img {
+            width: 45px;
         }
     }
 }

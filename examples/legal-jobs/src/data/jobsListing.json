@@ -1,47 +1,62 @@
 {
   "places": [
     {
-      "area": "Sit quis fugiat esse ad pariatur adipisicing esse tempor cillum irure id commodo sint laboris.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Deserunt exercitation exercitation do ut minim culpa ea laborum officia id ut.",
-          "company": "In exercitation voluptate pariatur.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         },
         {
-          "title": "Qui exercitation adipisicing mollit consectetur.",
-          "company": "Incididunt deserunt duis.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         }
       ]
     },
     {
-      "area": "Ut enim ea qui aute reprehenderit aute.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Ad irure commodo pariatur deserunt ad anim deserunt nulla et quis minim..",
-          "company": "Aute exercitation.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
+        },
+        {
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         }
       ]
     },
     {
-      "area": "Laboris aliqua occaecat non do irure culpa aliquip anim nulla dolore exercitation.",
+      "area": "[AREA]",
       "jobs": [
         {
-          "title": "Laborum aliquip ut ex aliqua.",
-          "company": "Laborum consequat sit cupidatat ex elit elit eu eu ea.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         },
         {
-          "title": "Tempor esse id tempor ullamco elit aliqua consectetur dolore quis ipsum.",
-          "company": "Sint aliqua tempor.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         },
         {
-          "title": "Occaecat et reprehenderit enim ut id.",
-          "company": "Exercitation enim laborum sint reprehenderit dolor.",
-          "link": "https://www.justia.com/"
+          "title": "[JOB_DESCRIPTION]",
+          "company": "[COMPANY_NAME]",
+          "link": "[LINK]"
         }
       ]
     }

@@ -20,6 +20,12 @@ $logos-dimensions: (
     ),
     'marketing': (
         'dims': 1240px 196px
+    ),
+    'insider': (
+        'dims': 1240px 196px
+    ),
+    'justia-ver2': (
+        'dims': 300px 90px
     )
 );
 
@@ -46,7 +52,13 @@ $settings: set('mail-header', (
             'lawyer-profile-essentials': 470px,
             'legal-jobs': 308px,
             'lawyer-directory': 500px,
-            'marketing': 297px
+            'marketing': 297px,
+            'insider': 300px,
+            'your-birthday': 380px,
+            'new-employee': 395px,
+            'new-intern': 340px,
+            'work-anniversary': 440px,
+            'onboarding': 350px
         ),
         'with-date': (
             'justia': 135px,
@@ -55,6 +67,9 @@ $settings: set('mail-header', (
             'legal-jobs': 277px,
             'lawyer-directory': 300px,
             'marketing': 297px
+        ),
+        'insider-date': (
+            'insider': 300px
         )
     )
 ));
@@ -119,6 +134,56 @@ $settings: set('mail-header', (
     // L O G O   S I Z E S
     // -------------------
     @each $logo-name, $width in get('mail-header.logos.with-date') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
+}
+
+
+.main-header.-insider-date {
+    background-color: plt('mail', 'insider-blue');
+
+    .wrapper {
+        text-align: center;
+        vertical-align: middle;
+
+        > table {
+            table-layout: fixed;
+        }
+    }
+
+    @each $logo-name, $width in get('mail-header.logos.logo-only') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+            margin: 0 auto;
+        }
+    }
+
+    .logo {
+        border-radius: 10px 10px 0 0;
+        background-color: get('mail-header.background');
+        text-align: center;
+    }
+
+    .date {
+        width: 100%;
+        padding: 15px $padding;
+        text-align: right;
+
+        span {
+            display: block;
+            color: #585858;
+
+            @include mail-font(16px, 1.25);
+        }
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.insider-date') {
 
         &.-#{$logo-name}-logo .logo-img {
             width: $width;

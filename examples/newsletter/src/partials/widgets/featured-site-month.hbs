@@ -4,6 +4,17 @@
 
 {{assign "setDescription" (and featuredSiteMonth.description addDescription)}}
 
+{{#and featuredSiteMonth.justiaLink (compare featuredSiteMonth.justiaLink "!==" "")}}
+  {{assign "featuredSiteMonthJustiaLink" (concat featuredSiteMonth.justiaLink (utmVariables widgetUtmVars content=widgetUtmVars.content.justiaLink))}}
+{{/and}}
+
+{{#and featuredSiteMonth.button hasButton (compare featuredSiteMonth.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+  {{assign "featuredSiteMonthButtonLink" (concat featuredSiteMonth.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
 {{! ================================================================================================================= }}
 
 {{!
@@ -24,7 +35,7 @@
         </p>
         <p class="location">
           in {{featuredSiteMonth.sites.0.location.detailed}}, recently launched&nbsp;<br responsive="mobile-hide">
-          {{featuredSiteMonth.sites.0.possessiveAdjective}} Justia website:
+          {{featuredSiteMonth.sites.0.possessiveAdjective}} <b><a href="{{{@root.featuredSiteMonthJustiaLink}}}" target="_blank">Justia</a></b> website:
         </p>
         <p class="website">
           <b><a href="{{featuredSiteMonth.sites.0.domain.long}}" target="_blank">{{featuredSiteMonth.sites.0.domain.simple}}</a></b>
@@ -84,10 +95,23 @@
     // TODO: Maybe move title and description to a component.
     --}}
     <tr>
-      <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
         {{#each featuredSiteMonth.description}}
           <p>{{{this}}}</p>
         {{/each}}
+      </td>
+    </tr>
+  {{/if}}
+
+  {{!
+  // TODO: Move to `widget-button` component.
+  }}
+  {{#if @root.widgetWithButton}}
+    <tr>
+      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
+        {{#uiButton presetStyle=featuredSiteMonth.button.style href=@root.featuredSiteMonthButtonLink}}
+          {{featuredSiteMonth.button.text}}
+        {{/uiButton}}
       </td>
     </tr>
   {{/if}}

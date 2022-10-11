@@ -3,7 +3,15 @@
 {{! ================================================================================================================= }}
 
 {{!
-// TODO: Add anotations.
+ * @param {Object}   lawEvents
+ * @param {string}   lawEvents.widget.header
+ * @param {string}   lawEvents.widget.icon
+ * @param {Object[]} lawEvents.events
+ * @param {number}   lawEvents.events[].day
+ * @param {string}   lawEvents.events[].month
+ * @param {string}   lawEvents.events[].title
+ * @param {string}   lawEvents.events[].typeLocation
+ * @param {string}   lawEvents.events[].link
 }}
 
 {{assign "columnStructure" (chunks lawEvents.events 2 true)}}
@@ -17,34 +25,28 @@
     icon=lawEvents.widget.icon
   }}
 
-  <tr class="widget-columns ui-columns-grid">
+  <tr class="">
     <td class="wrapper -last" responsive="mobile-padding-horizontal-sides">
       {{#table}}
-        {{#each @root.columnStructure}}
-          {{assign "eventCounter" (add @root.eventCounter 1)}}
-          {{>ui-columns-grid cellClasses=(concat "event -event-" @root.eventCounter) rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
-            {{#each this}}
-              {{#unless @first}}
-                {{assign "eventCounter" (add @root.eventCounter 1)}}
-                {{>ui-columns-grid cellClasses=(concat "event -event-" @root.eventCounter) cellSeparator=true cellIsEmpty=(isFalsey this.dateTime) firstRow=@../first}}
-              {{/unless}}
-
-              {{#if this.dateTime}}
-                {{#if this.dateTime}}<p class="date">{{{this.dateTime}}}</p>{{/if}}
-                {{#if this.typeLocation}}<p class="type">{{{this.typeLocation}}}</p>{{/if}}
-                <p class="description">{{{this.description}}}</p>
-
-                {{#and this.readMore (compare this.readMore "!==" "")}}
-                  <p class="read-more" responsive="mobile-no-margin">
-                    <b><a href="{{{this.readMore}}}" target="_blank">Read More ›</a></b>
-                  </p>
-                {{/and}}
-              {{else}}
-                &nbsp;
+        {{#forEach lawEvents.events}}
+          <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
+            <td>
+              {{>widget-date-square
+                eventMonth=this.month
+                eventDay=this.day
+              }}
+            </td>
+            <td>
+              {{#if this.link}}
+                <p class="title">
+                  <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
+                </p>
               {{/if}}
-            {{/each}}
-          {{>ui-columns-grid rowEnd=true}}
-        {{/each}}
+              {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
+              {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
+            </td>
+          </tr>
+        {{/forEach}}
       {{/table}}
     </td>
   </tr>

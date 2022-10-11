@@ -4,10 +4,14 @@
 
 .widget.w-welcome {
     border-bottom: 0;
-    background-color: plt('mail', 'catskill-white');
+    background-color: plt('mail', 'clear-gray');
 
     .widget-banner {
-        padding: $padding $padding grid-unit(0.5);
+        padding: 0 0 grid-unit(0.7);
+
+        img {
+            width: 100%;
+        }
     }
 
     .widget-description {
@@ -15,14 +19,15 @@
 
         .content-title {
             margin: 0 0 grid-unit(0.5);
-            color: plt('justia-blue');
+            color: plt('black');
 
             @include mail-font(26px, 1.1, tp('weight', 'bold'));
         }
 
         p,
         a {
-            color: plt('justia-blue');
+            text-align: left;
+            color: plt('black');
         }
 
         p {

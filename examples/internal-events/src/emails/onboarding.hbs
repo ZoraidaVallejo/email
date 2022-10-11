@@ -1,0 +1,88 @@
+---
+subject: Welcome Aboard, [NAME]!
+---
+
+{{>preheader text="Congratulations on being part of the Justia team! ---- "}}
+
+{{#table align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.onboarding}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+        {{#table class="widget set-max-width"}}
+          <tr>
+            <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+              {{#table class="w-onboarding set-max-width"}}
+                <tr>
+                  <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Welcome Aboard!</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="image align-center" responsive="mobile-padding-horizontal-sides">
+                    {{>img src="welcome-aboard.png" alt="Welcome!"}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text align-center" responsive="mobile-padding-horizontal-sides">
+                    <p>
+                      <strong>Dear [NAME],</strong>
+                      <br>
+                      <br>
+                      We are very happy to have you join our team. As agreed, your start date is <strong>[DATE]</strong>. We’ve planned out your first day to help you get acclimated a bit easier. Below is the agenda for your first day. Please note that your first meeting will start at <strong>[HOUR]</strong>.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title align-center" responsive="mobile-padding-horizontal-sides">
+                    <p><strong>Agenda</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="list" responsive="mobile-padding-horizontal-sides">
+                    {{#table class="set-max-width"}}
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">[HOUR]</td>
+                        <td class="event" responsive="mobile-padding-horizontal-sides">[DESCRIPTION]</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                      <tr>
+                        <td class="hour" responsive="mobile-padding-20-right">[HOUR]</td>
+                        <td class="event -even" responsive="mobile-padding-horizontal-sides">[DESCRIPTION]</td>
+                      </tr>
+                      <tr><td class="sep" colspan="2"></td></tr>
+                    {{/table}}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
+                    <p>
+                      <strong>email/IM:</strong> <strong><a href="mailto:[EMAIL]" target="_blank">[EMAIL]</a></strong> &nbsp;
+                      <strong>Pw: [PASSWORD]</strong>
+                      <br>
+                      <br>
+                      [DESCRIPTION]
+                      <br>
+                      <br>
+                      [DESCRIPTION]
+                      <br>
+                      <br>
+                      We look forward to seeing you soon.
+                      <br>
+                      <br>
+                      The Justia Team
+                    </p>
+                  </td>
+                </tr>
+              {{/table}}
+            </td>
+          </tr>
+        {{/table}}
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+{{/table}}
