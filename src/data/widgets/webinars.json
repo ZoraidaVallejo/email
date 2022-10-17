@@ -1,0 +1,66 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Upcoming Webinars",
+        "icon": {
+          "src": "icon-01.png",
+          "alt": "Upcoming Webinars"
+        },
+        "description": [
+          "<a href='/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-title-1' target='_blank'>​<b>Google Ads for Lawyers: PPC 101 </b></a><br> There are endless online resources for Google Ads - but only here will you find information specifically tailored to law firms! Tune in for another Justia Webinars presentation where we go in-depth on pay-per-click advertising for law firms."
+        ],
+        "button": {
+          "style": "red",
+          "link": "",
+          "text": "Register Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<a href='/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-title-1' target='_blank'>​<b>Technical SEO for Law Firm Websites </b></a><br> Interested in learning more about optimizing your law firm website for search engines? Join us for the next Justia Webinars presentation in which Justia CEO Tim Stanley will offer new, in-depth insights into aspects of technical SEO, including speed, security, accessibility and more!"
+        ],
+        "button": {
+          "style": "red",
+          "link": "",
+          "text": "Register Now",
+          "width": 160
+        },
+        "border": true
+      },
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "icon-02.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "​<a href='/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-title-1' target='_blank'><b>​Advanced Citation and Link Building for SEO</b></a><br>Check out the second part of our two-part webinar on Citation & Link Building for SEO. In this on-demand presentation, you’ll learn advanced link-building techniques and citation/link analysis using leading industry tools to strengthen your SEO strategy."
+        ],
+        "button": {
+          "style": "red",
+          "link": "?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-link-3",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<a href='/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-title-4' target='_blank'><b>Fundamentals of Citation and Link Building for SEO</a></b><br>Catch up on the first installment of a two-part webinar on Citation & Link Building for SEO! In this webinar, we discuss the fundamentals of citation and link building for your law firm website and how they relate to rankings in Google organic search results and Google Business Profile. "
+        ],
+        "button": {
+          "style": "red",
+          "link": "?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-webinars-link-3",
+          "text": "Watch Now",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "widget": {
+    "header": "Breaking News Alert From Justia"
+  },
+  "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news.png",
+  "description": [
+    "In an Ohio case that’s creating its own parody-like headlines, famed parody publication The Onion has filed a brief in support of a man arrested for his own Facebook parodies of a local police department. You can read more about this and other breaking legal news on the <b><a href='?utm_medium=email&utm_campaign=2022-04&utm_source=monthly-connect-pro-newsletter&utm_content=link-alert-news-1' target='_blank'>Justia Legal News Blog</a></b>."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+    "text": "Read More"
+  }
+}

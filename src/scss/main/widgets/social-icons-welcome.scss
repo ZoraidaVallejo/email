@@ -1,0 +1,42 @@
+// ----------------------------------------------------------------------------------------------------------
+// M A I N   F O O T E R :   S O C I A L   I C O N S
+// ----------------------------------------------------------------------------------------------------------
+
+$settings: set('social-icons', (
+    'size': 35px,
+    'gap': 7px,
+    'total': 5
+));
+
+// ----------------------------------------------------------------------------------------------------------
+
+.social-icons-welcome {
+    $_total: get('social-icons.total');
+    width: ((get('social-icons.size') * $_total) + (get('social-icons.gap') * ($_total - 1)));
+    margin-bottom: 25px;
+
+    .icon {
+        width: (get('social-icons.size') + get('social-icons.gap'));
+        height: get('social-icons.size');
+        text-align: left;
+        vertical-align: top;
+
+        &:last-child {
+            width: get('social-icons.size');
+        }
+    }
+
+    a {
+        display: inline-block;
+        vertical-align: middle;
+
+        img {
+            width: get('social-icons.size');
+            height: get('social-icons.size');
+        }
+    }
+
+    span.followus{
+        @include mail-font(16px, 1.25);
+    }
+}
