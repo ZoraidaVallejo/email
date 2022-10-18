@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-pro-newsletter",
+      "source": "monthly-connect-newsletter",
       "content": {
         "title": "text-onward-post-title-1",
         "image": "image-onward-post-1",

@@ -6,15 +6,15 @@
   "banner": "justia-desk.png",
   "news": [
     {
-      "title": "lorem ipsdum dolor sit amen",
-      "link": "h",
-      "description": "asdlkjalsdj alksdjkl asdkljadklajsd",
+      "title": "The 5 Best Ways for Your Law Firm to Stand Out Online",
+      "link": "https://onward.justia.com/the-5-best-ways-for-your-law-firm-to-stand-out-online/",
+      "description": "In the traditional business sense, the legal market is crowded. Outside of the most niche practice areas, clients often have numerous lawyers to choose from when seeking assistance...",
       "index": "1"
     },
     {
-      "title": "lorem ipsdum dolor sit amen",
-      "link": "h",
-      "description": "asdlkjalsdj alksdjkl asdkljadklajsd",
+      "title": "News & Notes on Google Local Services Ads: October 2022",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-october-2022/",
+      "description": "Each month, Google sends a partner newsletter that helps keep search engine marketing professionals in the know on the latest changes impacting the ever-evolving Google Local Services Ads!",
       "index": "2"
     }
   ],
@@ -32,7 +32,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-pro-newsletter",
+      "source": "monthly-connect-newsletter",
       "content": {
         "title": "text-justia-desk-title-",
         "button": "text-justia-desk-suscribe-now-1",

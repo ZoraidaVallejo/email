@@ -4,19 +4,18 @@
       "header": "Community Tips"
     },
     "banner": "tips-icon.png",
-    "title": "Feature Peer Reviews on Your Justia Profile",
-    "link": "LINK?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "link": "daily.justia.com?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-newsletter&utm_content=section-community-tips-title-v1",
     "description": [
-      "With your Justia Connect Pro Membership, you unlocked the ability to feature a peer review from another attorney on your Justia Profile! Be sure to put your best foot forward by taking advantage of this benefit. If you don’t have a recent peer review, now is the perfect time to request one from a trusted colleague!"
+      "<b>Justia Connect</b> members are eligible for opinion alerts from the appellate courts in jurisdictions that matter most to their practices! By signing up for <b>Justia Daily Opinion Summaries</b>, you can get free, attorney-written summaries of opinions released on the previous day delivered directly to your inbox."
     ],
     "button": {
       "style": "justia-blue-ghost",
-      "link": "LINK",
-      "text": "Request Review",
-      "width": 160,
+      "link": "daily.justia.com",
+      "text": "Request Summaries Now",
+      "width": 230,
       "utm": {
         "medium": "email",
-        "source": "monthly-connect-pro-newsletter",
+        "source": "monthly-connect-newsletter",
         "campaign": "<%= dateFormat.dash %>",
         "content": "section-community-tips-button-v1"
       }

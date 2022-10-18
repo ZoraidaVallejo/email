@@ -18,7 +18,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-pro-newsletter",
+      "source": "monthly-connect-newsletter",
       "content": {
         "title": "text-covid-19-title-1",
         "image": "image-covid-19-block-1",

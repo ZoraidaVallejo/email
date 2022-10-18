@@ -44,7 +44,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-pro-newsletter",
+      "source": "monthly-connect-newsletter",
       "content": {
         "justiaLink": "section-featured-site-of-the-month-link-v1",
         "button": "button-learn-more-1"

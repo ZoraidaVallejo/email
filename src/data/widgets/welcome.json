@@ -16,7 +16,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "monthly-connect-pro-newsletter",
+        "source": "monthly-connect-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }
