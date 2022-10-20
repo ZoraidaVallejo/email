@@ -408,6 +408,15 @@
         width: 52px;
     }
 
+    .title {
+        b {
+            @include mail-font(16px);
+            font-weight: get('font.weight.bold');
+            display: block;
+            margin: 0 0 20px;
+        }
+    }
+
     .content-title {
         font-size: rem-calc(20px);
         margin: 2px 0px 0px 10px
@@ -415,10 +424,10 @@
 
     .widget-button {
         padding: 0;
-        margin-bottom: 50px;
+        margin: 30px 0 50px;
 
         &.-last {
-            margin-bottom: 0;
+            margin: 30px 0 0;
         }
     }
 }
