@@ -1,8 +1,8 @@
 {
   "widget": {
-    "header": "Breaking News Alert From Justia"
+    "header": "News Alert From Justia"
   },
-  "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+  "link": "https://news.justia.com/the-onion-files-amicus-brief-in-support-of-parody/",
   "utm": {
     "clients": {
       "medium": "email",
@@ -31,7 +31,7 @@
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+    "link": "https://news.justia.com/the-onion-files-amicus-brief-in-support-of-parody/",
     "text": "Read More"
   }
 }

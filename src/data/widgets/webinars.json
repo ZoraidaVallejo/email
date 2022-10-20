@@ -9,7 +9,7 @@
       {
         "title": "Upcoming Webinars",
         "icon": {
-          "src": "icon-01.png",
+          "src": "webinar-icon.png",
           "alt": "Upcoming Webinars"
         },
         "description": [
@@ -26,11 +26,11 @@
       {
         "description": [
           "<a class='title' href='?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2' target='_blank'>​<b>Technical SEO for Law Firm Websites </b></a>",
-          "<p>Interested in learning more about optimizing your law firm website for search engines? Join us for the next Justia Webinars presentation in which Justia CEO Tim Stanley will offer new, in-depth insights into aspects of technical SEO, including speed, security, accessibility and more!</p>"
+          "<p>Interested in learning more about optimizing your law firm website for search engines? Join us for the next Justia Webinars presentation in which Justia CEO Tim Stanley will offer new, in-depth insights into aspects of technical SEO, including speed, security, accessibility, and more!</p>"
         ],
         "button": {
           "style": "red",
-          "link": "LINK?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-2",
+          "link": "https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=campaign-1052-promo-452&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2",
           "text": "Register Now",
           "width": 160
         },
@@ -39,7 +39,7 @@
       {
         "title": "Recent Recordings",
         "icon": {
-          "src": "icon-02.png",
+          "src": "recordings-icon.png",
           "alt": "Recent Recordings"
         },
         "description": [
