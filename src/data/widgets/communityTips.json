@@ -1,0 +1,24 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "link": "daily.justia.com?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "<b>Justia Connect</b> members are eligible for opinion alerts from the appellate courts in jurisdictions that matter most to their practices! By signing up for <b>Justia Daily Opinion Summaries</b>, you can get free, attorney-written summaries of opinions released on the previous day delivered directly to your inbox."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "daily.justia.com",
+      "text": "Request Summaries Now",
+      "width": 230,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

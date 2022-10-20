@@ -1,0 +1,29 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/marketing/contact/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "monthly-connect-newsletter",
+        "content": "banner-premium-memberships-v53"
+      },
+      "image": "score-big.png"
+    },
+    "ad2": {
+      "link": "https://www.justia.com/marketing/amplify/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "monthly-connect-newsletter",
+        "content": ""
+      },
+      "image": "justia-amplify.png",
+      "imageAlt": "Justia Amplify"
+    }
+  }
+}

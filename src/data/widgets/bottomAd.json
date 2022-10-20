@@ -1,0 +1,28 @@
+{
+  "connect": {
+    "ad1": {
+      "background": {
+        "responsive": "mobile-reset-bg-image",
+        "image": "premium-bg.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 402px"
+      },
+      "link": "https://www.justia.com/marketing/lawyer-directory/platinum/?utm_medium=email&utm_campaign=2022-10&utm_source=image-monthly-connect-newsletter-bottom-section",
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "dark-mode",
+            "image": "mobile-preview.png",
+            "button": "Learn More",
+            "description": [
+              "<strong responsive=\"mobile-padding-20-horizontal-sides mobile-fz-30\" class=\"heading4\">More Visibility, More Clients</strong>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Increasing your visibility in the Justia Lawyer Directory can help you connect with more clients! With Justia Platinum Placements, you can ensure that clients looking for a lawyer in your practice area and location will see you first.</p>"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
