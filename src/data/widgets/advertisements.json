@@ -6,6 +6,7 @@
   "basic": {
     "ad1": {
       "link": "https://connect.justia.com/pro",
+      "btnLink": "https://connect.justia.com/pro",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -35,7 +36,7 @@
           "type": "description",
           "config": [
             "<p>Justia Connect Pro is about more: more sharing, learning, savings, and growth for your practice. Starting today, we’re giving Pro members even more!</p>",
-            "<p><b>Justia Connect members get $200 in Justia Credit*</b> when they upgrade to Justia Connect Pro. Now, your Justia Connect Pro Membership pays for itself** when you purchase any eligible Justia Marketing Solutions!</p>"
+            "<p><b>Justia Connect members get $200 in Justia Credit*</b> when they upgrade to Justia Connect Pro. Now, your Justia Connect Pro Membership pays for itself** when you purchase eligible Justia Marketing Solutions!</p>"
           ]
         },
         {
@@ -65,7 +66,9 @@
   },
   "pro": {
     "ad1": {
-      "link": "https://connect.justia.com/pro",
+      "link": "https://www.justia.com/marketing/connect/#pro-membership",
+      "btnLink": "https://www.justia.com/marketing/",
+      "btnLink2": "https://www.justia.com/marketing/contact/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -76,30 +79,7 @@
       "imageAlt": "Receive $200 in Justia Credit",
       "contentOrder": [
         {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Explore Marketing Solutions",
-            "width": 320,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": "mobile-fz-18"
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Justia Connect Pro is about more: more sharing, learning, savings, and growth for your practice. Starting today, we’re giving Pro members even more!</p>",
-            "<p><b>Justia Connect members get $200 in Justia Credit*</b> when they upgrade to Justia Connect Pro. Now, your Justia Connect Pro Membership pays for itself** when you purchase any eligible Justia Marketing Solutions!</p>"
-          ]
-        },
-        {
-          "type": "button",
+          "type": "button2",
           "config": {
             "style": "red",
             "text": "Use My Credit",
@@ -112,6 +92,29 @@
             "fontWeight": "",
             "fontSize": 20,
             "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Justia Connect Pro is about more: more sharing, learning, savings, and growth for your practice. Starting today, we’re giving Pro members even more!</p>",
+            "<p><b>Justia Connect members get $200 in Justia Credit*</b> when they upgrade to Justia Connect Pro. Now, your Justia Connect Pro Membership pays for itself** when you purchase eligible Justia Marketing Solutions!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "View Marketing Solutions",
+            "width": 310,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": "mobile-fz-18"
           }
         },
         {

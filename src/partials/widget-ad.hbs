@@ -30,6 +30,7 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "buttonLink" (concat widgetConfig.btnLink (utmVariables widgetConfig.utm))}}
 {{assign "adClasses" (classList "widget" "w-advertisement" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
@@ -133,7 +134,7 @@
         <tr>
           <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#uiButton
-              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+              href=(concat ../widgetConfig.btnLink (utmVariables ../widgetConfig.utm))
               presetStyle=this.config.style
               width=this.config.width
               height=this.config.height
@@ -150,6 +151,28 @@
           </td>
         </tr>
       {{/compare}}
+
+      {{#compare this.type "===" "button2"}}
+      <tr>
+        <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+          {{#uiButton
+            href=(concat ../widgetConfig.btnLink2 (utmVariables ../widgetConfig.utm))
+            presetStyle=this.config.style
+            width=this.config.width
+            height=this.config.height
+            borderColor=this.config.borderColor
+            backgroundColor=this.config.backgroundColor
+            fontColor=this.config.fontColor
+            fontStyle=this.config.fontStyle
+            fontWeight=this.config.fontWeight
+            fontSize=this.config.fontSize
+            responsive=this.config.responsive
+          }}
+            {{{this.config.text}}}
+          {{/uiButton}}
+        </td>
+      </tr>
+    {{/compare}}
     {{/forEach}}
   {{/if}}
 
