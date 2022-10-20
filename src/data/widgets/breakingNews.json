@@ -17,7 +17,7 @@
     "jld": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-newsletter",
+      "source": "monthly-connect-pro-newsletter",
       "content": {
         "title": "text-alert-news-title-1",
         "image": "image-alert-news-1",
@@ -27,7 +27,7 @@
   },
   "banner": "featured-news.png",
   "description": [
-    "In an Ohio case that’s creating its own parody-like headlines, famed parody publication <a href='https://www.theonion.com/' target='_blank'><b>The Onion<b></a> has filed a brief in support of a man arrested for his own Facebook parodies of a local police department. You can read more about this and other breaking legal news on the <b><a href='https://news.justia.com/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-newsletter&utm_content=link-alert-news-1' target='_blank'>Justia Legal News Blog</a></b>."
+    "In an Ohio case that’s creating its own parody-like headlines, famed parody publication <a href='https://www.theonion.com/' target='_blank'><b>The Onion<b></a> has filed a brief in support of a man arrested for his own Facebook parodies of a local police department. You can read more about this and other breaking legal news on the <b><a href='https://news.justia.com/?utm_medium=email&utm_campaign=2022-10&utm_source=monthly-connect-pro-newsletter&utm_content=link-alert-news-1' target='_blank'>Justia Legal News Blog</a></b>."
   ],
   "button": {
     "style": "justia-blue-ghost",

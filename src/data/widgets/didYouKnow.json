@@ -34,7 +34,7 @@
       "text": "Request Summaries Now",
       "utm": {
         "medium": "email",
-        "source": "monthly-connect-newsletter",
+        "source": "monthly-connect-pro-newsletter",
         "campaign": "<%= dateFormat.dash %>",
         "content": "section-community-tips-button-v1"
       }

@@ -2,12 +2,11 @@
   "jld": {
     "banner": "welcome-graphic.png",
     "title": [
-      "Your Quarterly Notes From <span>Justia Connect Pro</span>"
+      "Your Monthly Insights Notes From <span>Justia Connect Pro</span>"
     ],
     "message": [
-      "Welcome to your quarterly updates from <b>Justia Connect</b>, the membership program connecting legal professionals with benefits and resources to achieve their professional and practice-growth goals.",
-      "Be sure to check out this email for helpful tips from our <b>Justia Connect</b> team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits.",
-      "<b>P.S.</b> - We have big news about <b>Justia Connect Pro</b> coming soon! Be on the lookout for an update from our team."
+      "Welcome to your monthly update from <b>Justia Connect Pro</b>, your upgraded membership connecting you with even more benefits and exclusive resources to achieve your professional and practice-growth goals.",
+      "Be sure to check out this email for helpful tips specifically for Justia Connect Pros from our Justia Connect team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your free <b>Justia Connect</b> membership benefits."
     ],
     "button": {
       "style": "justia-blue-ghost",
@@ -16,7 +15,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "monthly-connect-newsletter",
+        "source": "monthly-connect-pro-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }

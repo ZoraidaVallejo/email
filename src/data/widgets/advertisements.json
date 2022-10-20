@@ -9,7 +9,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "monthly-connect-newsletter",
+        "source": "monthly-connect-pro-newsletter",
         "content": "banner-premium-memberships-v53"
       },
       "image": "score-big.png"
@@ -19,7 +19,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "monthly-connect-newsletter",
+        "source": "monthly-connect-pro-newsletter",
         "content": ""
       },
       "image": "justia-amplify.png",
