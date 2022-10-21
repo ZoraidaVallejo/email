@@ -38,7 +38,7 @@
     "logo": {
       "name": "insights",
       "link": {
-        "url": "https://www.justia.com/marketing/connect/",
+        "url": "https://www.justia.com/marketing/connect/#pro-membership",
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
