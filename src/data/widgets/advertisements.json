@@ -19,7 +19,27 @@
     "link": "#",
     "image": "webinar-registration.png"
   },
+  "registration-to-all": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
   "two-weeks-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
+  "reminder-unregistered": {
     "background": {
       "image": "gray-bg.png",
       "width": 0,
@@ -49,7 +69,7 @@
     "link": "#",
     "image": "webinar-registration.png"
   },
-  "one-weeks-registered": {
+  "first-reminder": {
     "background": {
       "image": "gray-bg.png",
       "width": 0,
@@ -87,7 +107,7 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png"
+    "image": "webinar-registered.png"
   },
   "pro-recording": {
     "background": {
@@ -97,8 +117,8 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png",
-    "title": "Want to Reinforce What<br>You Learned?"
+    "image": "webinar-recording.png",
+    "title": "Want to Catch It Again?"
   },
   "pro-recording-missed": {
     "background": {
@@ -108,8 +128,8 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png",
-    "title": "We Missed You at the Advanced Citation and Link Building for SEO Webinar"
+    "image": "webinar-recording.png",
+    "title": "We Missed You"
   },
   "basic-recording": {
     "background": {
@@ -119,8 +139,8 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png",
-    "title": "Want to Reinforce What<br>You Learned?"
+    "image": "webinar-recording.png",
+    "title": "Want to Watch It Again?"
   },
   "basic-recording-missed": {
     "background": {
@@ -130,8 +150,8 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png",
-    "title": "You Can Still Learn About Advanced Citation and Link Building for SEO"
+    "image": "webinar-recording.png",
+    "title": "You Can Still Learn About PPC Advertising From Our Team"
   },
   "survey": {
     "background": {
@@ -141,7 +161,7 @@
       "cssSize": ""
     },
     "link": "#",
-    "image": "webinar-registration.png",
+    "image": "post-webinar.png",
     "title": "Your Opinion Matters to Us."
   },
   "nonattendance": {

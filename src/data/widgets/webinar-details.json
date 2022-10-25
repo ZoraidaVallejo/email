@@ -38,7 +38,7 @@
       "width": 250
     }
   },
-  "registration-all": {
+  "registration-to-all": {
     "banner": "",
     "details": {
       "date": "October 26, 2022",
@@ -115,6 +115,27 @@
       "<b>Want to watch the recording instead?</b><br>You’ll need to <b><a href=\"#\" target=\"_blank\">upgrade to Pro</a></b> to unlock access."
     ]
   },
+  "first-reminder": {
+    "banner": "",
+    "details": {
+      "date": "October 26, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Did you know that Google Search results are increasingly dominated by paid ads? If you want potential clients to see you, now is the time to consider <b><a href=\"#\" target=\"_blank\">Google Ads PPC</a></b> for your law firm. ",
+      "You can learn best practices for using Google Ads to promote your firm when legal marketing specialists from our Justia Amplify Team host our <b><a href=\"#\" target=\"_blank\">next Justia Webinars presentation</a></b> for Justia Connect members on October 26 at 11:00 a.m. PT. ",
+      "You won’t want to miss this free opportunity to learn strategies that can help your firm grow. <b><a href=\"#\" target=\"_blank\">Register today</a></b>."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Get on the List",
+      "width": 250
+    },
+    "note": [
+      "<b>Already registered?</b><br> No need to register again! We have you on our list and look forward to seeing you on October 26."
+    ]
+  },
   "two-days-registered": {
     "banner": "",
     "details": {
@@ -162,21 +183,19 @@
       "time": "11:00am PT/2:00pm ET"
     },
     "message": [
-      "<b style=\"display:block;text-align:center\">Knock, knock.</b>",
-      "<span style=\"display:block;text-align:center\">Who’s there?</span>",
-      "<b style=\"display:block;text-align:center\">You.</b>",
-      "<span style=\"display:block;text-align:center\">You who?</span>",
-      "<b style=\"display:block;text-align:center\">Yoohoo – It’s Justia Webinar day!</b>",
-      "Don’t forget your Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building begins at 11:00am PT.",
-      "You should have received a personalized Zoon link for this webinar. If you cannot locate your link, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> immediately for assistance.",
-      "If you can’t make it but want to watch this webinar, <b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
+      "Hi Name,",
+      "We will see you soon when you and other members of our Justia Connect community come together for an exclusive webinar offering lawyers key insights into setting up Google Ads campaigns that help your law firm achieve its goals. ",
+      "The presentation will begin promptly at 11:00 a.m. PT. You should have received a unique Zoom link for this webinar. If you cannot locate your link, please <b><a href=\"http://support.justia.com/\" target=\"_blank\">contact Justia Support</a></b> immediately for assistance."
+    ],
+    "note": [
+      "<b>Can’t make it?</b> <br><b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
     ]
   },
   "pro-recording": {
     "banner": "",
     "message": [
       "Hi Name,",
-      "Thanks for attending our <b><a href=\"#\" target=\"_blank\">Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. We shared a lot of information—so much info that you may want to hear it again!",
+      "Thanks for attending our Justia Webinar, <b><a href=\"#\" target=\"_blank\">Google Ads for Lawyers PPC 101</a></b>. If you want to watch it again, you can!",
       "As a Justia Connect Pro, you have exclusive access to watch our recording of the presentation at your own pace. Catch the information you may have missed, reinforce the key points, or listen while you work.",
       "How you choose to use the recording is up to you. Enjoy!"
     ],
@@ -191,9 +210,8 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Things happen. Urgent client matters need attention. People forget to mark their calendar. Conflicts occur. We get it.",
-      "The good news? Regardless of what prevented you from attending Justia Webinars recent program on <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>, you can now watch it whenever you want!",
-      "As a Justia Connect Pro, you have exclusive access to the webinar recording and can still take advantage of SEO insights from our CEO to improve your website’s SEO strategy.",
+      "We noticed you couldn’t make it to our most recent Justia Webinars presentation on PPC advertising for lawyers. You’re a Pro, so you can still get the info!",
+      "Our recent Justia Webinars program is now available on-demand for Justia Connect Pro members. Watch it whenever, wherever. It is up to you!",
       "Happy Watching!"
     ],
     "button": {
@@ -207,9 +225,8 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Thanks for attending our <b><a href=\"#\" target=\"_blank\">Justia Webinar, SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. We shared a lot of information—so much info that you may want to hear it again!",
-      "Did you know that all Justia Webinar recordings, including the recent program SEO for Law Firm Websites: Advanced Citation and Link Building, are available on-demand for <b><a href=\"#\" target=\"_blank\">Justia Connect Pro</a></b> members.",
-      "For as little as $16.65/month*, you can watch Justia Webinars recordings whenever convenient for you and unlock access to all of the features Justia Connect Pro has to offer! <b><a href=\"#\" target=\"_blank\">Upgrade today</a></b> to get access."
+      "Thanks for attending our Justia Webinar, <b><a href=\"#\" target=\"_blank\">Google Ads for Lawyers PPC 101</a></b>. If you want to watch it again, you can!",
+      "By <b><a href=\"#\" target=\"_blank\">upgrading to Justia Connect Pro</a></b> for as little as $16.65/month,* you can unlock access to all Justia Webinars recordings, including the recent webinar on Google Ads PPC that you attended! Previous recordings also include information on search engine optimized content for law firm websites, citation and link building, and more!"
     ],
     "button": {
       "style": "red",
@@ -226,13 +243,13 @@
     "message": [
       "Hi Name,",
       "We noticed you couldn’t make it to our recent Justia Webinar, but that doesn’t mean you have to miss out!",
-      "Did you know that all Justia Webinar recordings, including the recent program <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>, are available on-demand for <b><a href=\"#\" target=\"_blank\">Justia Connect Pro</a></b> members.",
+      "Did you know that all Justia Webinar recordings, including the recent program <b><a href=\"#\" target=\"_blank\">Google Ads for Lawyers PPC 101</a></b>, are available on-demand for <b><a href=\"#\" target=\"_blank\">Justia Connect Pro</a></b> members.",
       "For as little as $16.65/month*, you can watch Justia Webinars recordings whenever convenient for you and unlock access to all of the features Justia Connect Pro has to offer! <b><a href=\"#\" target=\"_blank\">Upgrade today</a></b> to get access."
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Go Pro",
+      "text": "Go Pro Now",
       "width": 250
     },
     "note": [
@@ -243,9 +260,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Thank you for joining us for our recent Justia Webinars presentation, <b><a href=\"#\" target=\"_blank\">SEO for Law Firm Websites: Advanced Citation and Link Building</a></b>. It was a pleasure to “see” all of you!",
-      "Your feedback is invaluable as we continue to improve Justia Webinars and plan future presentations for our members.",
-      "If you have not done so already, we’d appreciate it if you took a few moments to complete our post-webinar <b><a href=\"#\" target=\"_blank\">survey</a></b>. Our team appreciates it more than you know!"
+      "Thank you for joining us for our recent Justia Webinars presentation, <b><a href=\"#\" target=\"_blank\">Google Ads for Lawyers PPC 101</a></b>! We love helping our Justia Connect members connect to learn new ways to achieve their practice goals and hope you enjoyed the presentation too.",
+      "As we continue to plan future Justia Webinars offerings for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience.",
+      "Good, bad, or indifferent, we want to hear it all! Our team appreciates it more than you know."
     ],
     "button": {
       "style": "red",
@@ -270,7 +287,7 @@
     }
   },
   "save-the-date": {
-    "banner": "save-the-date-01.gif",
+    "banner": "",
     "message": [
       "Hi Name,",
       "In less than three weeks, Justia is hosting another webinar exclusively for Justia Connect members and you are one of the first to know!",
