@@ -21,7 +21,7 @@
     "logo": {
       "name": "insights",
       "link": {
-        "url": "https://www.justia.com/marketing/connect/",
+        "url": "https://connect.justia.com/webinars",
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
