@@ -24,6 +24,18 @@
       },
       "image": "justia-amplify.png",
       "imageAlt": "Justia Amplify"
+    },
+    "ad3": {
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": {
+            "description": [
+              "<p class='smol'>*Conditions apply. See <b><a href='https://connect.justia.com/pro/terms/credit' target='_blank'>Justia Connect Pro Credit Terms of Use</a></b> for details</p>"
+            ]
+          }
+        }
+      ]
     }
   }
 }

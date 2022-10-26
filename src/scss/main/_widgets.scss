@@ -431,3 +431,30 @@
         }
     }
 }
+
+.widget.w-advertisement.-disc {
+   .content-wrapper {
+     padding: 0 30px;
+   }
+   .-description {
+        div {
+            border: 0;
+            padding: 0;
+        }
+   }
+
+   .smol {
+    text-align: center;
+
+    @include mail-font(14px);
+
+        a {
+            color: plt('justia-blue');
+            font-weight: get('font.weight.bold');
+        }
+
+        .-pro & {
+            border-top: 1px solid #e5e5e5;
+        }
+    }
+}
