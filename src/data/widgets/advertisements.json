@@ -1,0 +1,47 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "#",
+      "titleResponsiveSize": 23,
+      "image": "premium-placements.gif",
+      "imageAlt": "Justia Premium Placements",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Enjoy a fangtastic time while letting <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b> do the work. When you purchase a Justia Premium Placement, your firm gets more spooktacular leads from one of the most visited directories online - all year long!"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get More Info",
+            "width": 175,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a>"
+          ]
+        }
+      ]
+    },
+    "ad2": {}
+  }
+}
