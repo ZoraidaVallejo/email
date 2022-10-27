@@ -287,6 +287,12 @@
     a {
         font-weight: get('font.weight.bold');
     }
+
+    .disc {
+        display: block;
+        margin: 50px 0 10px;
+        text-align: center;
+    }
 }
 
 .w-justia-desk {

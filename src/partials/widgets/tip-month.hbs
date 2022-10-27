@@ -52,6 +52,12 @@
               {{/uiButton}}
             </div>
         {{/if}}
+        {{#if widgetConfig.disclaimer}}
+
+          {{#each widgetConfig.disclaimer}}
+            <p class="disc">{{{this}}}</p>
+          {{/each}}
+        {{/if}}
 
       </div>
     </td>
