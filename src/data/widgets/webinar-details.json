@@ -23,13 +23,14 @@
   "registration": {
     "banner": "",
     "details": {
-      "date": "Month 00, 202X",
-      "time": "Xpm ET"
+      "date": "November 16th, 2022",
+      "time": "11am PT"
     },
     "message": [
       "Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Want to learn more about the nuts and bolts of effective law firm website SEO? You’re in the right place!",
+      "You’re eligible to register for our upcoming Justia Webinar, Technical SEO for Law Firm Websites. Join us on Wednesday, November 16 at 11:00 am PT when Justia CEO Tim Stanley covers various aspects of technical SEO, including website security, search engine crawlability, website speed, and more!",
+      "Seats are going fast! Sign up today before they’re gone."
     ],
     "button": {
       "style": "red",
