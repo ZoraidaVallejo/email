@@ -1,0 +1,292 @@
+{
+  "pro-registration": {
+    "banner": "",
+    "details": {
+      "date": "October 26, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Use Priority Registration",
+      "width": 250
+    },
+    "note": [
+      "<b>Lorem ipsum</b><br>Dolro sit amen MM/DD/YYYY"
+    ]
+  },
+  "registration": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Save My Seat",
+      "width": 200
+    }
+  },
+  "registration-to-all": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "<b>Lorem ipsum dolor sit amen</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Register for Free",
+      "width": 250
+    },
+    "note": [
+      "<b>Lorem ipsum</b><br>Dolro sit amen MM/DD/YYYY"
+    ]
+  },
+  "two-weeks-registered": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "reminder-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "lorem ipsum dolor sit amen"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Get on the List",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "one-weeks-registered": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "first-reminder": {
+    "banner": "",
+    "details": {
+      "date": "October 26, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Get on the List",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "two-days-registered": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "note": [
+      "<b>Need to cancel your registration?</b><br> We understand. <b><a href=\"#\" target=\"_blank\">Upgrade to Justia Connect Pro</a></b> to unlock access to all Justia Webinars recordings."
+    ]
+  },
+  "last-chance": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "lorem ipsum dolor sit amen"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Register Now",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "day-of-registered": {
+    "banner": "",
+    "details": {
+      "date": "Month 00, 202X",
+      "time": "Xpm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "pro-recording": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "pro-recording-missed": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "basic-recording": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro Now",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "basic-recording-missed": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro Now",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "nonattendance": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "save-the-date": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ]
+  }
+}
