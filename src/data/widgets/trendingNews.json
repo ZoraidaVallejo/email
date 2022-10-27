@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "US to Launch ‘Labeling’ Rating Program for Internet-Connected Devices in 2023",
+          "link": "https://techcrunch.com/2022/10/19/us-cyber-label-routers-smart-speakers/"
+        },
+        {
+          "title": "Apple Begins Paying Developers After Reaching $100 Million App Store Settlement ",
+          "link": "https://www.macrumors.com/2022/10/21/apple-app-store-and-bag-check-payments/"
+        },
+        {
+          "title": "Texas AG Ken Paxton Sues Google Over Biometric Data Collection",
+          "link": "https://thehill.com/policy/technology/3698232-texas-ag-ken-paxton-sues-google-over-biometric-data-collection/"
+        },
+        {
+          "title": "Four U.S. States Order a Metaverse Casino to Halt Sale of NFTs",
+          "link": "https://www.cnbc.com/2022/10/20/four-us-states-order-a-metaverse-casino-to-halt-sale-of-nfts.html"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "9 Local Search Developments You Need to Know About From Q3 2022",
+          "link": "https://moz.com/blog/q3-2022-local-search-developments"
+        },
+        {
+          "title": "How to Turn Your Google Business Profile Into a Revenue-Generating Channel",
+          "link": "https://searchengineland.com/google-business-profile-revenue-generating-channel-388207"
+        },
+        {
+          "title": "Google Advice On When Copy Sites Outrank Your Original Content",
+          "link": "https://www.seroundtable.com/google-copy-sites-outrank-your-original-content-34190.html"
+        },
+        {
+          "title": "Spelling & Grammar: Are They Google Ranking Factors?",
+          "link": "https://www.searchenginejournal.com/ranking-factors/spelling-grammar-ranking-factors/"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "The Top 19 Tools for Managing Social Media Accounts",
+          "link": "https://www.searchenginejournal.com/top-tools-managing-social-media/461367/#close"
+        },
+        {
+          "title": "YouTube Launches @username Handles to Help Drive Traffic ",
+          "link": "https://www.searchenginejournal.com/youtube-launches-handles-to-help-creators-drive-traffic/"
+        },
+        {
+          "title": "TikTok Business vs. Personal Accounts: How to Choose",
+          "link": "https://blog.hootsuite.com/tiktok-business-vs-personal/"
+        },
+        {
+          "title": "Meta Agrees to Sell Giphy, Ending Battle With UK Regulators ",
+          "link": "https://apnews.com/article/technology-business-government-and-politics-3827553e4f3a11180c620d469cf024f2"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "The FTC Is Readying Its War on Fake Reviews",
+          "link": "https://www.protocol.com/newsletters/policy/ftc-fake-reviews-rules"
+        },
+        {
+          "title": "Supreme Court Dives Into Pop Culture With Warhol, Prince and Norman Lear ",
+          "link": "https://www.npr.org/2022/10/12/1128530841/supreme-court-warhol-prince"
+        },
+        {
+          "title": "Meta Sued For Tap Dancing Around Apple’s New App Privacy Rules ",
+          "link": "https://www.techdirt.com/2022/09/27/meta-sued-for-tap-dancing-around-apples-new-app-privacy-rules/"
+        },
+        {
+          "title": "Lawyer Is Sanctioned for Lifting Passages From Opponents' Motion; Copying Was 'Neither Slight Nor Subtle' ",
+          "link": "https://www.abajournal.com/web/article/lawyer-is-sanctioned-for-lifting-passages-from-opponents-motion-copying-was-neither-slight-nor-subtle"
+        }
+      ]
+    }
+  ]
+}

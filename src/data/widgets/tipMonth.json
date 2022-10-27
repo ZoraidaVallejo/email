@@ -1,0 +1,21 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-month-icon",
+    "title": "Go Pro and Get $200*",
+    "description": [
+      "We're giving Justia Connect Pro members a $200 credit applicable toward select Justia Marketing Solutions! Upgrade today to save on your website, premium directory placements, or PPC management from Justia. Plus, your annual Justia Connect membership fee pays for itself when you use your credit! <b>If you’re already enjoying your Justia services, be sure you don’t miss this opportunity to save.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro",
+      "text": "Go Pro Now",
+      "width": 150
+    },
+    "description": [
+      "*Conditions apply. See <a href='https://connect.justia.com/pro/terms/credit' target='_blank'>Justia Connect Pro Credit Terms of Use</a> for details."
+    ]
+  }
+}

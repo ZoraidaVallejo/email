@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "banner": "https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png",
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "Software Expert Witness Testimony Allowed in Trade Secrets Litigation ",
+      "link": "https://www.expertwitnessblog.com/software-expert-witness-testimony-allowed-in-part-in-trade-secrets-litigation/"
+    },
+    {
+      "title": "Economics Expert Witness Testimony Not Allowed in Prisoner Suicide Litigation",
+      "link": "https://www.expertwitnessblog.com/economics-expert-witness-testimony-not-allowed-in-prisoner-suicide-litigation/"
+    },
+    {
+      "title": "Child Psychiatry Expert Witness Testimony Denied in Part Sexual Assault Case ",
+      "link": "https://www.expertwitnessblog.com/child-psychiatry-expert-witness-testimony-allowed-in-part-in-sexual-assault-case/"
+    },
+    {
+      "title": "Law Enforcement Expert Witness Testimony Allowed in Civil Rights Litigation",
+      "link": "https://www.expertwitnessblog.com/law-enforcement-expert-witness-testimony-allowed-in-civil-rights-litigation/"
+    }
+  ]
+}
