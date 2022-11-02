@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "upcoming holidays",
+    "header": "Dates to Remember"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "holidays-graphic-01.png",
+        "description": [
+          "Thanksgiving is a federal holiday in the United States, which takes place every fourth Thursday of November. It is based on the colonial Pilgrims' 1621 harvest meal with the Wampanoag people. Rich in legend and symbolism, the holiday is a time to give thanks for all the sacrifice and hard work done for the harvest."
+        ]
+      }
+    }
+  ]
+}
