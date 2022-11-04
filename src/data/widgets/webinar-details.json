@@ -20,6 +20,64 @@
       "<b>Lorem ipsum</b><br>Dolro sit amen MM/DD/YYYY"
     ]
   },
+  "coming-soon": {
+    "banner": "",
+    "details": {
+      "date": "November 16th, 2022",
+      "time": "11am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "We wanted to remind you to mark your calendar for your upcoming Justia Webinars presentation: Technical SEO for Law Firm Websites.",
+      "On Wednesday, November 16 at 11:00 a.m. PT, Justia CEO Tim Stanley will be sharing exclusive insights on various technical SEO topics, including ADA compliance, website security, tools for analysis, and more!",
+      "You should have received an email from Zoom with your personalized access link for this webinar. If you have not already received this email from Zoom, please <a href='https://support.justia.com/' target='_blank'>contact Justia Support</a> for assistance."
+    ],
+    "bottomline": [
+      "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. <b>Go Pro to get access!</b>"
+    ],
+    "note": [
+      "You are receiving this because you have registered for a <b>Justia Webinars</b> presentation."
+    ]
+  },
+  "day-of-reminder": {
+    "banner": "",
+    "details": {
+      "date": "November 16th, 2022",
+      "time": "11am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "We can’t wait to “see” you in just a few short hours! You and other Justia Connect members will get access to technical SEO insights from our CEO Tim Stanley in a presentation that is exclusively for our Justia Connect members.",
+      "The presentation will begin promptly at 11:00 a.m. PT. You should have received your unique Zoon link for this webinar. If you cannot locate your link, please <a href='https://support.justia.com/' target='_blank'>contact Justia Support</a> immediately for assistance."
+    ],
+    "bottomline": [
+      "<b>Can’t make it anymore? Upgrade to Justia Connect Pro</b>  to unlock access to the recording."
+    ],
+    "note": [
+      "You are receiving this because you have registered for a <b>Justia Webinars</b> presentation."
+    ]
+  },
+  "reminder-registration": {
+    "banner": "",
+    "details": {
+      "date": "November 16th, 2022",
+      "time": "11am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Interested in exclusive technical SEO insights from Justia? Sign up for our next Justia Webinar to get them for free!",
+      "In less than one week, Justia CEO and SEO expert Tim Stanley will lead a free Justia Webinar on technical SEO. Topics covered will include ADA compliance, website security, tools for analysis, and more! You won’t want to miss this opportunity to help your firm grow."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Get SEO Info",
+      "width": 200
+    },
+    "note": [
+      "You are receiving this because you are a <b>Justia Connect</b> member."
+    ]
+  },
   "registration": {
     "banner": "",
     "details": {
