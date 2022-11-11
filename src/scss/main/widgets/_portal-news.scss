@@ -108,7 +108,7 @@
     }
 
     .content.-list {
-        padding: 0 $padding 13px;
+        padding: 0 $padding $widget-gap;
         text-align: left;
 
         ul {
@@ -121,9 +121,12 @@
             li {
                 display: block;
                 padding: 0 0 0 15px;
-                margin-bottom: 15px;
                 background: image-url('list-icon-01.png') no-repeat top left;
                 background-position: 0px 8px;
+            }
+
+            li:not(:last-child) {
+                margin-bottom: 15px;
             }
         }
     }

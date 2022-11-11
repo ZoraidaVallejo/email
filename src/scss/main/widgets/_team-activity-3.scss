@@ -79,6 +79,10 @@
             }
         }
 
+        &.-description {
+            padding: 0 $padding 25px;
+        }
+
         &.-first {
             padding: 0 $padding 35px;
         }
@@ -88,11 +92,7 @@
         }
 
         &.-last {
-            padding: 0 $padding 45px;
-        }
-
-        &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 $padding $widget-gap;
         }
     }
 

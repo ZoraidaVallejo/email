@@ -11,7 +11,7 @@
         "image": "milestones-graphic-01.png",
         "title": "Justia Webinar Center: ",
         "link": "https://connect.justia.com/webinars",
-        "description": "Justia Webinar Center: We launched a space dedicated to announcing and promoting the Justia Webinars presented by Justia Connect, showing both upcoming and past webinar recordings. This update improves our users' experience and how we organize, manage, and keep track of webinars internally."
+        "description": "We launched a space dedicated to announcing and promoting the Justia Webinars presented by Justia Connect, showing both upcoming and past webinar recordings. This update improves our users' experience and how we organize, manage, and keep track of webinars internally."
       }
     },
     {
@@ -20,7 +20,7 @@
         "image": "milestones-graphic-02.png",
         "title": "Zoom Registration for Justia Webinars: ",
         "link": "https://connect.justia.com/webinars",
-        "description": "Zoom Registration for Justia Webinars: Webinar attendees will now register directly through Justia Connect instead of Zoom. This was possible through the Zoom API integration, and it is a significant improvement for attendees' tracking and follow-up notifications."
+        "description": "Webinar attendees will now register directly through Justia Connect instead of Zoom. This was possible through the Zoom API integration, and it is a significant improvement for attendee tracking and follow-up notifications."
       }
     },
     {
@@ -28,7 +28,7 @@
       "config": {
         "image": "milestones-graphic-03.png",
         "title": "Justia Connect Pro Credit Increase: ",
-        "description": "Justia Connect Pro Credit Increase: One of the benefits of becoming a Justia Connect Pro member is to get real credit to use on other Justia products and services. This month we increased this benefit from $100 to $200, increasing its value for our members."
+        "description": "One of the benefits of becoming a Justia Connect Pro member is to get real credit to use on other Justia products and services. This month we increased this benefit from $100 to $200, boosting its value for our members."
       }
     },
     {
@@ -36,7 +36,7 @@
       "config": {
         "image": "milestones-graphic-04.png",
         "title": "Justia Elevate Reports: ",
-        "description": "Justia Elevate Reports: This month, we pushed live the first automated version of our monthly reports for our Justia Elevate clients. In addition to the PDF reports our clients already receive, we prepared a simplified version for the email contents this time. Both versions look awesome."
+        "description": "This month, we pushed the first automated version of our monthly reports for our Justia Elevate clients live. In addition to the PDF reports our clients already receive, we prepared a simplified version for the email contents this time. Both versions look awesome."
       }
     },
     {
@@ -44,7 +44,7 @@
       "config": {
         "image": "milestones-graphic-05.png",
         "title": "Justia Lawyer Directory Analysis Report: ",
-        "description": "Justia Lawyer Directory Analysis Report: Our Data Team worked on a data analysis report for the Justia Lawyer Directory. The report not only focuses on essential insights for our business but it's also built to automatically update on its own as new information comes in, making it current and relevant at all times."
+        "description": "Our Data Team worked on a data analysis report for the Justia Lawyer Directory. The report not only focuses on essential insights for our business but it's also built to automatically update on its own as new information comes in, making it current and relevant at all times."
       }
     },
     {
@@ -52,7 +52,7 @@
       "config": {
         "image": "milestones-graphic-06.png",
         "title": "Migrated OAuth Flow: ",
-        "description": "Migrated OAuth Flow: Our applications create and keep track of authentication tokens to access resources from Google services like Google Ads, Google Business Profiles, and Google Drive. We upgraded the process to create new tokens so it matches the latest standards."
+        "description": "Our applications create and keep track of authentication tokens to access resources from Google services like Google Ads, Google Business Profiles, and Google Drive. We upgraded the process to create new tokens so it matches the latest standards."
       }
     },
     {
@@ -60,7 +60,7 @@
       "config": {
         "image": "milestones-graphic-07.png",
         "title": "IT Maintenances: ",
-        "description": "IT Maintenances: As customary, our IT Team is on top of handling infrastructure upgrades and maintenance. This month they worked on servers related to projects like SEC Contracts and Justia Elevate storage system, among others."
+        "description": "As customary, our IT Team is on top of handling infrastructure upgrades and maintenance. This month they worked on servers related to projects like SEC Contracts and Justia Elevate storage system, among others."
       }
     },
     {
@@ -68,7 +68,7 @@
       "config": {
         "image": "milestones-graphic-08.png",
         "title": "Upgraded Development Environment: ",
-        "description": "Upgraded Development Environment: As part of the efforts involving the new Justia Jobs, we prepared a new version of our development environment with updated infrastructure (the OS), the development language, the application framework, and our internal shared application packages. This will allow us to start new projects (or even restart existing ones) with the latest features and security."
+        "description": "As part of the efforts involving the new Justia Jobs, we prepared a new version of our development environment with updated infrastructure (the OS), the development language, the application framework, and our internal shared application packages. This will allow us to start new projects (or even restart existing ones) with the latest features and security."
       }
     }
   ]
