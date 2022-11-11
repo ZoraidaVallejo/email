@@ -205,25 +205,22 @@
   "last-chance": {
     "banner": "",
     "details": {
-      "date": "Month 00, 202X",
-      "time": "Xpm ET"
+      "date": "November 16th, 2022",
+      "time": "11:00am PT/2:00pm ET"
     },
     "message": [
       "Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
-    ],
-    "bottomline": [
-      "lorem ipsum dolor sit amen"
+      "You have less than one day to register for the Technical SEO for Law Firm Websites webinar being held exclusively for Justia Connect members! This program is free for Justia Connect members – and that means you!",
+      "Submit your registration before time runs out."
     ],
     "button": {
       "style": "red",
-      "link": "#",
+      "link": "https://connect.justia.com/webinars/technical-seo-for-law-firm-websites",
       "text": "Register Now",
       "width": 250
     },
     "note": [
-      "lorem ipsum dolor sit amen"
+      "Interested in learning more about what’s on the agenda? Check out the details in our new <a href='https://connect.justia.com/webinars' target='_blank'>Justia Webinar Center</a>."
     ]
   },
   "day-of-registered": {
