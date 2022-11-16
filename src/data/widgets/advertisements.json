@@ -1,0 +1,46 @@
+{
+  "jld": {
+    "ad1": {
+      "title": "Legal Marketing and Technology Blog",
+      "link": "https://onward.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "new-onward-post-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p class='preheading'><strong>TODAY’S POST | April 6, 2021</strong></p>",
+            "<p class='heading3'><strong>6 Key Brand Assets Every Law Firm Should Consider Having</strong></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Your brand goes beyond the name by which your law firm or the products and services you offer are recognized. In this post, learn more about how the different elements of your brand, both tangible and intangible, can create a close bond between your law firm, your brand, and your clients.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Read More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad2": {
+      "link": "https://onward.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "https://justatic.com/v/1/emails/images/newsletters/common/connect-pro-next-level-v1.png"
+    }
+  }
+}
