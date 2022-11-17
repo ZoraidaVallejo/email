@@ -288,17 +288,18 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We noticed you couldn’t make it to our recent Justia Webinar, but that doesn’t mean you have to miss out!",
+      "The recent <b>Justia Webinar Technical SEO for Law Firm Websites</b> is available on-demand for Justia Connect Pro members!",
+      "For as little as $16.65/month*, you can watch this recent presentation and all prior Justia Webinar recordings whenever convenient for you! <a href=\"https://connect.justia.com/pro\" target=\"_blank\">Upgrade today</a> to get access."
     ],
     "button": {
       "style": "red",
-      "link": "#",
+      "link": "https://connect.justia.com/pro",
       "text": "Go Pro Now",
       "width": 250
     },
     "note": [
-      "lorem ipsum dolor sit amen"
+      "*$16.65/month when paid annually. Justia Connect Pro is $19.99/month for members who select a monthly payment plan."
     ]
   },
   "survey": {
