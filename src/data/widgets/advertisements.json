@@ -1,4 +1,14 @@
 {
+  "inital-announcement": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-registration.png"
+  },
   "pro-registration": {
     "background": {
       "image": "gray-bg.png",
