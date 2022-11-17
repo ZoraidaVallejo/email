@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Lorem Ipsum Dolor sit Amen",
+      "link": "LINK",
+      "description": "lorem ipsum dolor sit amen magnus opus sitotium listore capatus ligmus ansestralis",
+      "index": "1"
+    },
+    {
+      "title": "The Power of a Personal Profile for Individual Attorneys",
+      "link": "https://onward.justia.com/the-power-of-a-personal-profile-for-individual-attorneys/",
+      "description": "Social Media is a powerful tool for law firms, and the power of social media extends beyond just law firm business pages! Personal profiles for your attorneys can help build their personal professional brands while still marketing your law firm.",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
