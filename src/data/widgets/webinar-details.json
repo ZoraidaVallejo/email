@@ -238,19 +238,21 @@
       "lorem ipsum dolor sit amen"
     ]
   },
-  "pro-recording": {
+  "basic-recording": {
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Thanks for attending our Justia Webinar, Technical SEO for Law Firm Websites. If you want to watch it again for any reason, you can! By upgrading to Justia Connect Pro for as little as $16.65/month,* you unlock access to all Justia Webinars recordings, including your recently attended webinar on technical SEO. "
     ],
     "button": {
       "style": "red",
-      "link": "#",
-      "text": "Watch Now",
+      "link": "https://connect.justia.com/pro",
+      "text": "Go Pro Now",
       "width": 250
-    }
+    },
+    "note": [
+      "*$16.65/month when paid annually. Justia Connect Pro is $19.99/month for members who select a monthly payment plan."
+    ]
   },
   "pro-recording-missed": {
     "banner": "",
@@ -267,22 +269,20 @@
       "width": 250
     }
   },
-  "basic-recording": {
+  "pro-recording": {
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Did you know your Justia Connect Pro Membership benefits include access to all Justia Webinar recordings to watch at your own pace? That means you can rewatch your most recent Justia Webinar, <b>Technical SEO for Law Firm Websites</b>, whenever you want!",
+      "Plus, you can watch any prior webinar recording for free in our new <a href=\"https://connect.justia.com/webinars\" target=\"_blank\">Justia Webinar Center</a>.",
+      "Enjoy!"
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Go Pro Now",
+      "text": "Watch Now",
       "width": 250
-    },
-    "note": [
-      "lorem ipsum dolor sit amen"
-    ]
+    }
   },
   "basic-recording-missed": {
     "banner": "",

@@ -139,7 +139,7 @@
     "link": "#",
     "image": "webinar-registered.png"
   },
-  "pro-recording": {
+  "basic-recording": {
     "background": {
       "image": "gray-bg.png",
       "width": 0,
@@ -148,7 +148,7 @@
     },
     "link": "#",
     "image": "webinar-recording.png",
-    "title": "Want to Catch It Again?"
+    "title": "Want to Watch Again?"
   },
   "pro-recording-missed": {
     "background": {
@@ -161,7 +161,7 @@
     "image": "webinar-recording.png",
     "title": "We Missed You"
   },
-  "basic-recording": {
+  "pro-recording": {
     "background": {
       "image": "gray-bg.png",
       "width": 0,
@@ -170,7 +170,7 @@
     },
     "link": "#",
     "image": "webinar-recording.png",
-    "title": "Want to Watch It Again?"
+    "title": "Watch Your Webinar Again"
   },
   "basic-recording-missed": {
     "background": {
