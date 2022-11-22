@@ -1,0 +1,17 @@
+{
+  "justia": {
+    "banner": "",
+    "message": [
+      "Hi {Name},",
+      "You’ve successfully registered for the {Title} webinar! We will see you on {date} at {time}.",
+      "Use the personalized Zoom link below to access the presentation on webinar day:",
+      "<a href=\"#\" target=\"_blank\"><b>[Insert webinar URL]</b></a>",
+      "If you have questions or need assistance with your registration, please <a href=\"#\" target=\"_blank\"><b>contact the Justia Connect Team</b></a>.",
+      "Don’t forget to save the date!",
+      "Sincerely,<br>The Justia Connect Team"
+    ],
+    "note": [
+      "<b>Worried about missing your webinar?</b> Justia Connect Pro members receive exclusive access to recordings of all Justia Webinars. <a href=\"#\" target=\"_blank\"><b>Go Pro to get this benefit</b></a>."
+    ]
+  }
+}

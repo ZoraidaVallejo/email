@@ -1,0 +1,178 @@
+// ----------------------------------------------------------------------------------------------------------
+// W E L C O M E   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.widget.w-webinar,
+.widget.post-webinar {
+
+    border-bottom: 0;
+    background-color: plt('white');
+
+    td {
+        text-align: center;
+    }
+
+    .widget-banner {
+        padding: 0 0 grid-unit(0.4);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .widget-description {
+        text-align: center;
+
+        &.-top {
+            background-color: #e2ecf9;
+            padding: 15px 30px 10px;
+        }
+
+        .content-title {
+            margin: 10px 0 grid-unit(0.4);
+            color: plt('justia-blue');
+            @include mail-font(20px, 1.1, tp('weight', 'bold'));
+
+            .display-inlineb {
+                display: inline-block;
+            }
+        }
+
+        > div {
+            display: block;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            padding: 25px 24px 15px;
+        }
+
+        .-bottomline {
+            padding: 0 0 25px;
+
+            p,
+            a {
+                text-align: center;
+                margin: 0;
+            }
+        }
+
+        p,
+        a {
+            text-align: left;
+        }
+
+        a {
+            color: plt('justia-blue');
+            font-weight: get('font.weight.bold');
+        }
+
+        p {
+            margin: 0 0 grid-unit(0.5);
+            color: plt('black');
+
+            &:last-child {
+                margin: 0 0;
+            }
+        }
+
+        .subtitle {
+            @include mail-font(20px, 1.1, tp('weight', 'bold'));
+            text-align: left;
+            display: block;
+            margin-bottom: grid-unit(0.2);
+        }
+    }
+
+    .widget-button {
+        text-align: center;
+        padding: 0 30px 15px;
+    }
+
+    .widget-top-button {
+        text-align: center;
+        padding: 30px 30px;
+    }
+
+    .button1 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .event-details {
+        padding: 0 30px;
+
+        > table {
+            display: block;
+            // width: 100%;
+            border: 1px solid #f2f2f2;
+            border-width: 0 1px 1px 1px;
+            border-radius: 0 0 5px 5px;
+            padding: 10px 25px 10px 35px;
+        }
+
+        .-icon {
+            width: 20px;
+
+            img {
+                // margin-left: 10px
+            }
+        }
+
+        .-date-time {
+            @include mail-font(16px, 1.1);
+            display: block;
+            margin-left: 10px;
+            text-align: left;
+
+            span {
+                display: inline-block;
+
+                &.-separator{
+                    margin: 0 4px;
+                }
+            }
+        }
+    }
+
+    .widget-description {
+        padding: 50px $padding;
+    }
+
+    .-note {
+        border-top: 1px solid #e5e5e5;
+
+        p {
+            padding: 23px 0 7px;
+        }
+    }
+
+    .border-top {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 20px;
+    }
+}
+
+.widget.post-webinar {
+
+    .widget-description > div {
+        padding: 25px;
+    }
+
+    .-bottomline {
+        color: #333333;
+    }
+}
+
+.widget.-save-the-date {
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .widget-description > div {
+        padding: 25px 24px 26px;
+    }
+}
