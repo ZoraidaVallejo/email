@@ -15,7 +15,7 @@
       "image": "score-big.png"
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/amplify/",
+      "link": "https://www.justia.com/marketing/contact/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
