@@ -42,18 +42,19 @@
   "registration": {
     "banner": "",
     "details": {
-      "date": "Month 00, 202X",
-      "time": "Xpm ET"
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
     },
     "message": [
-      "Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Dear Name,",
+      "As you plan your 2023 digital marketing strategies, why not take advantage of <b><a href=\"#\" target=\"_blank\">free SEO insights</a></b> from the Justia Team?",
+      "As a Justia Connect member, you are eligible to <b><a href=\"#\" target=\"_blank\">join a roundtable discussion</a></b> between Justia {Title} Ana Hidalgo, Justia {Title} Gustavo Montes, and Justia CEO Tim Stanley as they review the trends that shaped law firm SEO over the last year and talk about what is on the horizon for 2023.",
+      "The presentation will begin promptly at 2:00pm ET/11:00am PT on Wednesday, December 7 so mark your calendar and <b><a href=\"#\" target=\"_blank\">claim your seat today!</a></b>"
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Save My Seat",
+      "text": "Claim My Seat",
       "width": 200
     }
   },
@@ -290,8 +291,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "You recently registered for our recent Justia Webinars presentation on Technical SEO for Law Firm Websites but weren’t able to join us. We missed having you with us on presentation day!",
+      "Things come up and life happens. Could you take a few moments to tell us why you were unable to attend this webinar?",
+      "Your feedback matters as we continue to improve Justia Webinars and plan future events for Justia Connect members. Our team appreciates it more than you know!"
     ],
     "button": {
       "style": "red",
