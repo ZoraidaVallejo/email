@@ -383,6 +383,19 @@
             font-weight: get('font.weight.bold');
         }
     }
+
+    .title a {
+        display: block;
+    }
+
+    .readmore {
+
+        font-size: rem-calc(16px);
+
+        b {
+            font-size: rem-calc(16px);
+        }
+    }
 }
 
 .w-webmaster {
