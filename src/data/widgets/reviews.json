@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Joan of Arc by Mark Twain"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/Joan-Arc-Mark-Twain/dp/0898702682",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Place</b></a>",
+        "description": [
+          "<i>\"A 16-year-old nobody girl shows up. Possibly experiencing bipolar disorder episodes, she begins to \"hear voices\" that lead her to the lost sword, find, and crown her King, raise an army, chew bubble gum, and kick butt. Unfortunately for the English, she’s out of gum. Mark Twain writes the definitive story on Joan of Arc that no movie has come close to capturing. Also, I was serious about the gum.\"</i>",
+          "- John Pruitt"
+        ]
+      }
+    }
+  ]
+}

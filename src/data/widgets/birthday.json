@@ -1,0 +1,84 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "09",
+            "name": "Guillermo Vazquez"
+          },
+          {
+            "day": "10",
+            "name": "Thomas Sullivan"
+          },
+          {
+            "day": "12",
+            "name": "Diego Miguel"
+          },
+          {
+            "day": "14",
+            "name": "Griselda Santos"
+          },
+          {
+            "day": "16",
+            "name": "Emilio Barrera"
+          },
+          {
+            "day": "19",
+            "name": "Shelby Mancini"
+          },
+          {
+            "day": "20",
+            "name": "David Gonzalez"
+          },
+          {
+            "day": "21",
+            "name": "Samuel Gomez"
+          },
+          {
+            "day": "25",
+            "name": "Hayden Pham"
+          },
+          {
+            "day": "30",
+            "name": "Alexis Ortiz"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Roberto Escareño",
+            "years": "6th"
+          },
+          {
+            "name": "Zoraida Vallejo",
+            "years": "6th"
+          },
+          {
+            "name": "Adalit Flores",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Omar Enriquez",
+            "years": "3rd"
+          },
+          {
+            "name": "Kara Simon",
+            "years": "2nd"
+          },
+          {
+            "name": "Yessica Acosta",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}

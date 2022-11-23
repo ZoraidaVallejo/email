@@ -1,0 +1,42 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Short Videos Production",
+        "description": "As an integral part of our content strategy, we have been creating short videos on legal topics. We implemented a process for producing these short videos systematically. Once the short videos are produced, they are posted on our Justia Mexico and Justia MX Office social media accounts."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "#",
+        "title": "Et feugiat senectus platea quisque pretium arcu.",
+        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Et <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
+        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Et feugiat senectus platea quisque pretium arcu.",
+        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+      }
+    }
+  ]
+}
