@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "07",
+      "month": "Dec",
+      "title": "Law Firms Face the Scourge of Ransomware: How to Ethically Prevent, Respond and Recover",
+      "link": "https://clewebinars.ce21.com/item/law-firms-face-scourge-ransomware-ethically-prevent-respond-recover-469389",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "07",
+      "month": "Dec",
+      "title": "Everything Young Lawyers Want to Know but Are Afraid to Ask",
+      "link": "https://web.cvent.com/event/f1389f0b-8760-4449-b537-aec45e037247/summary",
+      "time": "2pm ET",
+      "typeLocation": "Washington, DC"
+    },
+    {
+      "day": "14",
+      "month": "Dec",
+      "title": "Movin’ On: A Panel on Transitioning Into Retirement",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/424974048/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "00",
+      "month": "Dec",
+      "title": "Moving Your Practice Forward in 2023: Planning for the New Year and Creating a Culture for Legal Success",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/427226226/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

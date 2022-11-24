@@ -1,0 +1,23 @@
+{
+  "jld": {
+    "banner": "welcome-image.gif",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2022-12&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "Learn more about best practices for Google Reviews for your law firm. Explore recent news in law and technology, including cybersecurity for law firms, the Google location tracking case, and more! Plus, see how Team Justia celebrated Thanksgiving and what are favorite pug is giving thanks for this year."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}
