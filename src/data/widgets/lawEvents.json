@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "08",
+      "month": "Nov",
+      "title": "How to Be the “Go-To” Associate",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/426957483/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "16",
+      "month": "Nov",
+      "title": "Personal Injuries Arising From Protests: Claims, Defenses, Damages, Police Misconduct, and More",
+      "link": "https://www.straffordpub.com/products/personal-injuries-arising-from-protests-claims-defenses-damages-police-misconduct-and-more-2022-11-16",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "21",
+      "month": "Nov",
+      "title": "Camp Lejeune Justice Act and Chemical Toxic Exposure at U.S. Military Bases",
+      "link": "https://www.straffordpub.com/products/camp-lejeune-justice-act-and-chemical-toxic-exposure-at-u-s-military-bases-claims-benefits-damages-and-more-2022-11-21",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "22",
+      "month": "Nov",
+      "title": "Microsoft Office 365 in a Law Firm or Legal Department",
+      "link": "https://clewebinars.ce21.com/item/microsoft-office-365-law-firm-legal-department-378070",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

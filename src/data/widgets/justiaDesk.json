@@ -1,0 +1,76 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon",
+  "news": [
+    {
+      "title": "Get Free Technical SEO Info for Lawyers and Law Firms",
+      "link": "https://onward.justia.com/get-free-technical-seo-info-for-lawyers-and-law-firms/",
+      "description": "All Justia Connect members are now eligible to register to attend the next Justia Webinar for free! Check out this post to learn more about what to expect in this presentation and get the info on how to register.",
+      "index": "1"
+    },
+    {
+      "title": "News & Notes on Google LSAs: October 2022",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-october-2022/",
+      "description": "It is time for another edition of News & Notes on Google Local Services Ads! Keep reading this post to catch up on the latest information for lawyers in the Google Partner updates. ",
+      "index": "2"
+    },
+    {
+      "title": "Learn Pay-Per-Click Advertising Strategies From Legal Marketers at Justia",
+      "link": "https://onward.justia.com/learn-pay-per-click-advertising-strategies-from-legal-marketers-at-justia/",
+      "description": "Interested in exclusive PPC insights for lawyers that you won’t get from anybody else? You’re in the right place. Check out this post to learn more about our recent event offering pay-per-click advertising tips for the legal industry.",
+      "index": "3"
+    },
+    {
+      "title": "Justia Lawyer Directory by the Numbers: Third Quarter 2022",
+      "link": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-third-quarter-2022/",
+      "description": "We’re back with this year’s third edition of Justia Lawyer Directory by the Numbers! We looked at the data and trends for our directory in July, August, and September of this year and are sharing new data with all of you. ",
+      "index": "4"
+    },
+    {
+      "title": "Justia Free Resources: Debt Relief & Management Center",
+      "link": "https://onward.justia.com/justia-free-resources-debt-relief-management-center/",
+      "description": "Falling behind on financial obligations is stressful for anyone, and aggressive collection methods can increase the pressure. Fortunately, federal law protects people in debt from certain abuses by collectors. The Debt Relief & Management Center at Justia discusses these rights and describes strategies that consumers can use to manage their financial burdens. ",
+      "index": "5"
+    },
+    {
+      "title": "Justia Free Resources: Employment Law Info for All 50 States",
+      "link": "https://onward.justia.com/justia-free-resources-employment-law-info-for-all-50-states/",
+      "description": "In addition to protections provided by federal laws, employees have important rights under their state’s laws. However, these state laws vary greatly. That’s where Justia helps! Learn more about our 50-state surveys of state employment laws on diverse topics.",
+      "index": "6"
+    },
+    {
+      "title": "The Power of a Personal Profile for Individual Attorneys",
+      "link": "https://onward.justia.com/the-power-of-a-personal-profile-for-individual-attorneys/",
+      "description": "Social Media is a powerful tool for law firms, and the power of social media extends beyond just law firm business pages! In parallel, personal profiles for your attorneys can help build their personal professional brands while still marketing your law firm. Keep reading to learn more.",
+      "index": "7"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
