@@ -27,6 +27,7 @@
     background=(concat bgColor " url('" (resolveFilePath bgImage) "')")
     backgroundRepeat="no-repeat"
     backgroundSize=(ternary bgSize bgSize null)
+    backgroundPosition="bottom"
   )}}
 {{else}}
   {{assign "bgInlineStyles" null}}

@@ -14,6 +14,7 @@
  * @param {string}          widgetConfig.logo.name
  * @param {string}          widgetConfig.logo.color
  * @param {string}          widgetConfig.title
+ * @param {string}          widgetConfig.subtitle
  * @param {number}          widgetConfig.titleResponsiveSize
  * @param {string}          widgetConfig.image
  * @param {string}          widgetConfig.imageAlt
@@ -66,7 +67,7 @@
 
   {{#if widgetConfig.title}}
     <tr>
-      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top">
+      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top mobile-no-padding-bottom">
         <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
           {{{widgetConfig.title}}}
         </a>
@@ -74,15 +75,10 @@
     </tr>
   {{/if}}
 
-  {{#if widgetConfig.image}}
+  {{#if widgetConfig.subtitle}}
     <tr>
-      <td class="image">
-        <a href="{{{@root.adLink}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
+      <td class="subtitle" responsive="mobile-padding-horizontal-sides mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.subtitle}}}
       </td>
     </tr>
   {{/if}}
@@ -150,6 +146,19 @@
         </tr>
       {{/compare}}
     {{/forEach}}
+  {{/if}}
+
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
