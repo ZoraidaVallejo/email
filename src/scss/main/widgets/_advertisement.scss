@@ -169,26 +169,28 @@
         border-bottom: 0;
 
         .title {
-            @include mail-font(48px, 1, 700);
+            @include mail-font(48px, 1, 400);
             a {
-                @include mail-font(48px, 1, 700);
+                @include mail-font(48px, 1, 400);
             }
+            line-height: 1;
         }
 
         .subtitle {
             @include mail-font(36px, 1, 400);
             padding-bottom: 30px;
             color: plt('white');
+            line-height: 1.2;
             a {
                 color: plt('white');
             }
         }
 
         .image {
-            margin-top: 10px;
+            margin-top: 25px;
     
             img {
-                margin-top: 10px;
+                margin-top: 25px;
             }
         }
 
