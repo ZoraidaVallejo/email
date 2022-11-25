@@ -175,25 +175,16 @@
   "last-chance": {
     "banner": "",
     "details": {
-      "date": "Month 00, 202X",
-      "time": "Xpm ET"
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
     },
     "message": [
-      "Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Hi Name,",
+      "In just a few hours, you and other Justia Connect members will be joining members of Team Justia for a roundtable discussion on the SEO trends that shaped law firm SEO in 2022 with a look ahead to what is expected in 2023.",
+      "The presentation will begin promptly at 2:00 pm ET/11:00 am PT. You should have received your unique Zoon link for this webinar. If you cannot locate your link, please <a href=\"https://support.justia.com/\" target=\"_blank\">contact Justia Support</a> immediately for assistance."
     ],
     "bottomline": [
-      "lorem ipsum dolor sit amen"
-    ],
-    "button": {
-      "style": "red",
-      "link": "#",
-      "text": "Register Now",
-      "width": 250
-    },
-    "note": [
-      "lorem ipsum dolor sit amen"
+      "<b><a href=\"https://connect.justia.com/pro\" target=\"_blank\">Can’t make it anymore? Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
     ]
   },
   "day-of-registered": {
