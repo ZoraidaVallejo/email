@@ -97,28 +97,42 @@
       "lorem ipsum dolor sit amen"
     ]
   },
-  "reminder-unregistered": {
+  "reminder-registered": {
     "banner": "",
     "details": {
-      "date": "Month 00, 202X",
-      "time": "Xpm ET"
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
     },
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We wanted to remind you to mark your calendar for your <a href=\"https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023\" target=\"_blank\">upcoming Justia Webinars presentation</a> reviewing law firm SEO in 2022 and predicting what to expect in 2023!",
+      "You should have received an email from Zoom with your personalized access link for this webinar. If you have not already received this email from Zoom, please <a href=\"https://support.justia.com/\" target=\"_blank\">contact Justia Support</a> for assistance."
     ],
     "bottomline": [
-      "lorem ipsum dolor sit amen"
+      "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. <a href=\"https://connect.justia.com/pro\" target=\"_blank\">Go Pro to get access!</a>"
+    ]
+  },
+  "reminder-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "In just one week, Justia CEO Tim Stanley and SEO team leaders Ana Hidalgo and Gustavo Montes are leading an <b>exclusive webinar</b> for Justia Connect members covering 2022’s SEO developments while taking a look ahead to the trends that will continue to shape law firm SEO in the coming year."
+    ],
+    "bottomline": [
+      "<b>Register before time runs out!</b>"
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Get on the List",
+      "text": "Register for Webinar",
       "width": 250
     },
     "note": [
-      "lorem ipsum dolor sit amen"
+      "Interested in learning more about what’s on the agenda? Check out the details in our new <a href=\"https://connect.justia.com/webinars\" target=\"_blank\">Justia Webinar Center</a>."
     ]
   },
   "one-weeks-registered": {

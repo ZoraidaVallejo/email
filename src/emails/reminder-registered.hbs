@@ -14,9 +14,9 @@ subject: <%= dateFormat.string %>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{>widget-ad widgetClass="-reminder-unregistered" widgetConfig=advertisements.reminder-unregistered}}
+        {{>widget-ad widgetClass="-reminder-registered" widgetConfig=advertisements.reminder-registered}}
 
-        {{>webinar-details widgetConfig=webinar-details.reminder-unregistered}}
+        {{>webinar-details widgetConfig=webinar-details.reminder-registered}}
 
 
       {{>ui-layout-hack tableEnd=true}}
@@ -24,7 +24,7 @@ subject: <%= dateFormat.string %>
   </tr>
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-footer widgetConfig=footer.basic}}
+      {{>main-footer widgetConfig=footer.registered}}
     </td>
   </tr>
 {{/table}}
