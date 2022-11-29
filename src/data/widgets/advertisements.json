@@ -1,0 +1,62 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "Want More Money in Your Pocket? Save on Taxes!",
+      "link": "#",
+      "titleResponsiveSize": 22,
+      "background": {
+        "image": "jld-background.png",
+        "width": 600,
+        "cssSize": "100% 100%",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "image": "jld-picture.png"
+    },
+    "ad2": {
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": {
+            "description": [
+              "<p responsive=\"mobile-fz-17\">You still have time to save. Purchase <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b> and add another deduction for your 2022 taxes!</p>"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": {
+            "description": [
+              "<b responsive=\"mobile-fz-17\">Ready to Start Saving Today?</b>"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Yes, Tell Me More",
+            "width": 213,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
+  }
+}
