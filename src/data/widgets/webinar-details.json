@@ -150,6 +150,21 @@
       "lorem ipsum dolor sit amen"
     ]
   },
+  "this-week": {
+    "banner": "",
+    "details": {
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "We are looking forward to seeing you on Wednesday at <a href=\"https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023\" target=\"_blank\">Law Firm SEO: 2022 in Review & What to Expect in 2023</a> and wanted to send you a quick reminder about the presentation!",
+      "You should have received an email from Zoom with your personalized access link for this webinar. If you have not already received this email from Zoom, please <a href=\"https://support.justia.com/\" target=\"_blank\">contact Justia Support</a> for assistance."
+    ],
+    "note": [
+      "<b>Can’t make your webinar?</b> The recording will be available to Justia Connect Pros. <a href=\"https://connect.justia.com/pro\" target=\"_blank\">Go Pro to get access!</a>"
+    ]
+  },
   "first-reminder": {
     "banner": "",
     "details": {

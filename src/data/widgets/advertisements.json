@@ -49,6 +49,16 @@
     "link": "#",
     "image": "webinar-registration.png"
   },
+  "this-week": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023",
+    "image": "webinar-registered.png"
+  },
   "reminder-unregistered": {
     "background": {
       "image": "gray-bg.png",
