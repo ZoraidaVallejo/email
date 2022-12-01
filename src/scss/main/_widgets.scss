@@ -228,6 +228,7 @@
             @include mail-font(16px, 1.5, tp('weight', 'bold'));
             margin: 0;
             color: plt('justia-blue');
+            text-align: center;
 
             a {
                 color: plt('justia-blue');

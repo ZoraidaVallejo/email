@@ -20,9 +20,17 @@
         }
     }
 
+    .block-title {
+        text-align: center;
+
+        a {
+            text-align: center;
+        }
+    }
+
     .content {
         padding: 0 $padding 25px;
-        text-align: left;
+        text-align: center;
 
         &.-description {
             padding: 0 $padding 25px;

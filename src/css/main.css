@@ -867,6 +867,7 @@ a {
   font: 700 16px/1.5 Roboto, Arial, sans-serif;
   margin: 0;
   color: #06357a;
+  text-align: center;
 }
 
 .w-blog-justia .widget-description .block-title a {
@@ -2347,9 +2348,17 @@ a {
   padding: 10px 25px 45px;
 }
 
+.w-blog-justia .block-title {
+  text-align: center;
+}
+
+.w-blog-justia .block-title a {
+  text-align: center;
+}
+
 .w-blog-justia .content {
   padding: 0 25px 25px;
-  text-align: left;
+  text-align: center;
 }
 
 .w-blog-justia .content.-description {

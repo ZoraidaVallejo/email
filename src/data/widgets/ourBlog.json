@@ -3,55 +3,31 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
-  "description": {
-    "top": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    "bottom": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ]
-  },
   "feature": {
     "image": {
-      "src": "featured-onward-01.png",
-      "alt": "Et feugiat senectus platea quisque pretium arcu."
+      "src": "onward-01.png",
+      "alt": "Justia Wins 2022 LegalTech Breakthrough Award For “Legal Education Innovation of the Year”"
     },
-    "readMore": "#",
-    "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+    "readMore": "https://onward.justia.com/justia-wins-2022-legaltech-breakthrough-award-for-legal-education-innovation-of-the-year/",
+    "blockTitle": "Justia Wins 2022 LegalTech Breakthrough Award For “Legal Education Innovation of the Year”"
   },
   "singleColumn": false,
   "columns": [
     {
       "image": {
-        "src": "onward-01.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
-      },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
-    },
-    {
-      "image": {
         "src": "onward-02.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "Justia Free Resources: Immigration Law Center"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/justia-free-resources-immigration-law-center/",
+      "blockTitle": "Justia Free Resources: Immigration Law Center"
     },
     {
       "image": {
         "src": "onward-03.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
+        "alt": "News & Notes on Google Local Services Ads: November 2022"
       },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
-    },
-    {
-      "image": {
-        "src": "onward-04.png",
-        "alt": "Et feugiat senectus platea quisque pretium arcu."
-      },
-      "readMore": "#",
-      "blockTitle": "Et feugiat senectus platea quisque pretium arcu."
+      "readMore": "https://onward.justia.com/news-notes-on-google-local-services-ads-november-2022/",
+      "blockTitle": "News & Notes on Google Local Services Ads: November 2022"
     }
   ]
 }

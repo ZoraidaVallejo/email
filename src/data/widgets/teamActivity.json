@@ -1,15 +1,14 @@
 {
   "widget": {
-    "type": "TEAM ACTIVITY",
-    "header": "Lorem ipsum dolor sit amet consectetur"
+    "type": "DID YOU KNOW?",
+    "header": "Justia Sponsored a Student Event at a Local University"
   },
-  "imageTop": "team-graphic-01.png",
-  "imageBottom": "team-graphic-01.png",
+  "imageTop": "event-challenge.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis. Blandit praesent luptatum zzril delenit augue duis dolore te feugait. Per seacula quarta decima lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        "Justia was present as a sponsor at the event \"Programmer's Challenge ITS 2022,\" organized by the Computer Systems Student Chapter 2022-2023 of the Technical Institute of Saltillo. We appreciate the invitation and the opportunity to promote the development of students' skills in programming and problem-solving."
       ]
     }
   ]

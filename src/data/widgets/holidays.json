@@ -3,28 +3,13 @@
     "type": "upcoming holidays",
     "header": "Dates to Remember"
   },
-  "singleColumn": false,
+  "singleColumn": true,
   "columns": [
     {
       "image": {
         "src": "holidays-graphic-01.png",
         "alt": "Holiday - Month Day"
-      },
-      "blockTitle": "Connect Dashboard",
-      "readMore": "",
-      "description": [
-        "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
-      ]
-    },
-    {
-      "image": {
-        "src": "holidays-graphic-02.png",
-        "alt": "Holiday - Month Day"
-      },
-      "blockTitle": "Holiday - Month Day",
-      "description": [
-        "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
-      ]
+      }
     }
   ]
 }

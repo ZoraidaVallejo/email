@@ -9,33 +9,91 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Short Videos Production",
-        "description": "As an integral part of our content strategy, we have been creating short videos on legal topics. We implemented a process for producing these short videos systematically. Once the short videos are produced, they are posted on our Justia Mexico and Justia MX Office social media accounts."
+        "title": "Short Videos Production: ",
+        "description": "As an integral part of our content strategy, we have been creating short videos on legal topics. We implemented a process for producing these short videos systematically. Once the short videos are produced, they are posted on our <a href=\"#\" target=\"_blank\"><b>Justia Mexico</b></a> and <a href=\"#\" target=\"_blank\"><b>Justia MX Office</b></a> social media accounts. "
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "link": "https://connect.justia.com/case-law-summary-newsletters",
+        "title": "Justia Daily Opinion Summaries: ",
+        "description": "We refreshed the Justia Daily Opinion Summaries subscribe page with a fresh new look and changes to the backend. The redesign aims to provide an easy-to-use interface and better suggestions to our users and bring more caselaw summary subscribers."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "Et <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Elevate Updates: ",
+        "description": "We constantly update Justia Elevate to improve our clients' experience. This month we updated our internal <a href=\"#\" target=\"_blank\"><b>Justia Elevate guide</b></a>, improved documentation of all supported components, included new versions for the Attorneys' stripe, and tweaked our client contact form alerts monitoring process, among many other things."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Justia Connect Updates: ",
+        "description": "<a href=\"#\" target=\"_blank\"><b>Justia Connect</b></a> is also updated constantly. To mention a few changes, we have a new admin interface for Webinar registrants, a newly added sticky footer for anonymous users browsing our Webinars section, Tags for legal deals, and several other changes."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "Redesign for JLD Reviews: ",
+        "description": "We redesigned the Attorney to Attorney reviews page and the Client review page. The objective is to provide better context to users of our reviewing process."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "link": "#",
+        "title": "US State Regulations: ",
+        "description": "We released the latest quarterly update of the <a href=\"#\" target=\"_blank\"><b>US State Regulations</b></a>. As a reminder, this information is updated for all US states at once."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Blasts: ",
+        "description": "As usual, we process many marketing blasts each month to promote our products and services. This month our campaigns promoted the Webinar, Abenity benefits for Justia Connect members, our Justia Premium Placements, and of course or regular newsletters and automated reports for Justia Elevate, Justia Amplify, and Justia Connect."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "Data Team Reports: ",
+        "description": "Our Data Team continues delivering business knowledge through automated reports. This month they are releasing a JLD analysis that is always up to date. They also brought insights into our cloud infrastructure costs identifying areas of opportunity and action items."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-09.png",
+        "link": "#",
+        "title": "Justia, <a href=\"https://friends.justia.com/sccla/\" target=\"_blank\">SCCLA</a>, and <a href=\"https://friends.justia.com/napaba/\" target=\"_blank\">NAPABA</a>: ",
+        "description": "These are the first two of many landing pages we have designed to build relationships with various bar associations. Check out the page at the URLs above."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-10.png",
+        "title": "Server Maintenances: ",
+        "description": "Our IT Team took care of several server maintenances this month. Some of the properties involved in the upkeep were <a href=\"#\" target=\"_blank\"><b>Justia Dockets</b></a>, our Latin America Countries' website, and the infrastructure currently hosting our new version of <a href=\"#\" target=\"_blank\"><b>Justia Jobs</b></a>."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-11.png",
+        "title": "Laravel 9 Repository Starter: ",
+        "description": "This is another deliverable you won’t notice, but we have released a new version of our development projects starter that will allow us to use the latest and best version of our main application framework."
       }
     }
   ]
