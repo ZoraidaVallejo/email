@@ -201,6 +201,24 @@
       "<b><a href=\"https://connect.justia.com/pro\" target=\"_blank\">Can’t make it anymore? Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
     ]
   },
+  "last-chance-to-register": {
+    "banner": "",
+    "details": {
+      "date": "December 7, 2022",
+      "time": "11:00am PT/2:00pm ET"
+    },
+    "message": [
+      "Hi Name,",
+      "Today is the day for <a href=\"https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023\" target=\"_blank\">SEO in 2022 & What to Expect in 2023!</a> At 2:00 pm ET/11:00 am PT, Ana Hidalgo and Gustavo Montes, SEO experts from the Justia Team, and CEO Tim Stanley will discuss what 2022 brought for law firm SEO while predicting the changes and trends they think we will see in 2023.",
+      "The presentation is free for all Justia Connect members and seats remain available! RSVP now to get your personalized access link for the presentation."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023",
+      "text": "RSVP Now",
+      "width": 250
+    }
+  },
   "day-of-registered": {
     "banner": "",
     "details": {
