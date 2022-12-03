@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "Keeping Up With Kirbie"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "Kirbie is Marina's five-year-old English Bulldog, already counting down to her next birthday pawty! She spends her days snoring through Mom's meetings and snacking on her favorite treats. In addition to waddling around the house, Kirbie loves to go for a ride in the car - just don't tell her it is to the puppy hotel!"
+        ]
+      }
+    }
+  ]
+}

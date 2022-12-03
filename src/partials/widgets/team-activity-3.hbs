@@ -48,12 +48,10 @@
         <table {{{tableAttr}}}>
   {{/and}}
 
-  {{#if widgetConfig.title}}
     {{>widget-header
-      header=widgetConfig.title
-      type=widgetConfig.type
+      header=widgetConfig.widget.header
+      type=widgetConfig.widget.type
     }}
-  {{/if}}
 
   {{#if widgetConfig.image}}
     <tr>
@@ -136,9 +134,9 @@
         </tr>
       {{/compare}}
 
-      {{#compare this.type "===" "lists-description"}}
+      {{#compare this.type "===" "lists-two-columns"}}
         <tr>
-          <td class="content -lists-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
+          <td class="content -lists-two-columns -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
             {{#forIn this.config}}
               {{#compare @key "===" "left"}}
                 <div class="content-side -left" responsive="collapse-one mobile-no-padding">
@@ -151,6 +149,22 @@
               {{#compare @key "===" "right"}}
                 <div class="content-side -right" responsive="collapse-one mobile-no-padding">
                   {{#each ../config.right}}
+                    <div>{{{this}}}</div>
+                  {{/each}}
+                </div>
+              {{/compare}}
+            {{/forIn}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "lists-description"}}
+        <tr>
+          <td class="content -lists-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
+            {{#forIn this.config}}
+              {{#compare @key "===" "category"}}
+                <div class="-category" responsive="collapse-one mobile-no-padding">
+                  {{#each ../config.category}}
                     <div>{{{this}}}</div>
                   {{/each}}
                 </div>

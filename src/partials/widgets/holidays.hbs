@@ -63,86 +63,25 @@
       // TODO: Maybe move title and description to a component.
       // TODO: Fix classes for content.
       --}}
-      <tr>
-        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-          {{#if this.blockTitle}}
-            <b class="content-subtitle">
-              {{{this.blockTitle}}}
-            </b>
-          {{/if}}
-          {{#each this.description}}
-            <p>{{{this}}}</p>
-          {{/each}}
-        </td>
-      </tr>
+      {{#if this.description}}
+        <tr>
+          <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+            {{#if this.blockTitle}}
+              <b class="content-subtitle">
+                {{{this.blockTitle}}}
+              </b>
+            {{/if}}
+              {{#each this.description}}
+                <p>{{{this}}}</p>
+              {{/each}}
+          </td>
+        </tr>
+      {{/if}}
     {{/each}}
 
   {{else}}
     {{>widget-columns-with-image widgetConfig=widgetConfig.columns isLast=true}}
   {{/if}}
-
-  {{!-- {{#if widgetConfig.image}}
-    <tr>
-      <td class="image" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
-        {{>img
-          src=widgetConfig.image
-          alt=(default widgetConfig.title widgetConfig.imageAlt)
-        }}
-      </td>
-    </tr>
-  {{/if}}
-
-  {{#if widgetConfig.contentOrder}}
-    {{#forEach widgetConfig.contentOrder}}
-      {{#compare this.type "===" "image-description"}}
-        <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-reset-max-width">
-            {{#forIn this.config}}
-              {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-reset-max-width mobile-reset-width">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
-                    {{>img
-                      src=../config.image
-                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                    }}
-                  </a>
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-padding-30-top">
-                  {{#each ../config.description}}
-                    <p>{{{this}}}</p>
-                  {{/each}}
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description-list"}}
-                <div class="content-side -description -list" responsive="collapse-one mobile-no-padding">
-                  <ul>
-                    {{#each ../config.description-list}}
-                      <li>{{{this}}}</li>
-                    {{/each}}
-                  </ul>
-                </div>
-              {{/compare}}
-            {{/forIn}}
-
-          </td>
-        </tr>
-      {{/compare}}
-
-      {{#compare this.type "===" "description"}}
-        <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-            {{#each this.config}}
-              <p>{{{this}}}</p>
-            {{/each}}
-          </td>
-        </tr>
-      {{/compare}}
-    {{/forEach}}
-  {{/if}} --}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
       </table>

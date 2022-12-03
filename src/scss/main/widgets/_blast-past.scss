@@ -2,7 +2,7 @@
 // A D V E R T I S E M E N T   W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
-.w-blast-past {
+.-blast-past {
 
     td {
         text-align: center;
@@ -41,7 +41,7 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 $padding 50px;
         text-align: left;
 
         .content-side {
@@ -71,7 +71,7 @@
         }
 
         &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 $padding 50px;
         }
 
         &.-first {
@@ -83,7 +83,11 @@
         }
 
         &.-last {
-            padding: 0 $padding 45px;
+            padding: 0 $padding 50px;
+        }
+
+        &.-idx-1 {
+            padding: 0 $padding 50px;
         }
     }
 

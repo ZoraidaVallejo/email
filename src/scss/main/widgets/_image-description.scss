@@ -101,6 +101,12 @@
         }
     }
 
+    &.-team-activity-01 {
+        .content {
+            padding: 0 $padding;
+        }
+    }
+
     &.w-team-activities-3 {
         .widget-header {
             padding: 40px 40px 25px;

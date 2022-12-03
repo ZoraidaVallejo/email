@@ -44,7 +44,7 @@
         padding: 0 $padding 25px;
         text-align: left;
 
-        .content-side {
+        .category {
             width: 225px;
 
             img {
@@ -83,16 +83,37 @@
             padding: 0 $padding 35px;
         }
 
+        &.-description {
+            padding: 0 $padding 25px;
+        }
+
+        &.-idx-2 {
+            p {
+                margin-bottom: 0;
+            }
+
+            span {
+                display: block;
+                padding-left: 35px;
+            }
+
+            .place {
+                display: block;
+                padding-left: 15px;
+            }
+
+            b {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
         &.-button {
             padding: 0 $padding 18px;
         }
 
         &.-last {
-            padding: 0 $padding 45px;
-        }
-
-        &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 $padding 50px;
         }
     }
 
