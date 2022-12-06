@@ -9,12 +9,12 @@
       "link": "#",
       "titleResponsiveSize": 22,
       "background": {
-        "image": "jld-background.png",
+        "image": "jld-background.jpg",
         "width": 600,
         "cssSize": "100% 100%",
         "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
       },
-      "image": "jld-picture.png"
+      "image": "save-on-taxes.png"
     },
     "ad2": {
       "contentOrder": [
@@ -39,7 +39,7 @@
           "config": {
             "style": "red",
             "text": "Yes, Tell Me More",
-            "width": 213,
+            "width": 200,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
