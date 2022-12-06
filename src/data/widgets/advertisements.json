@@ -11,6 +11,7 @@
       "background": {
         "image": "jld-background.jpg",
         "width": 600,
+        "bgColor": "#082665",
         "cssSize": "100% 100%",
         "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
       },
