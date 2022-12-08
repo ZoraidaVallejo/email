@@ -3,6 +3,12 @@
     "ad1": {
       "layout": "bottom-image",
       "link": "https://www.justia.com/marketing/elevate/",
+      "background": {
+        "image": "border.jpg",
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 6px"
+      },
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",

@@ -32,7 +32,7 @@
 
     .title,
     .title2 {
-        background-color: #F2F2F2;
+        background-color: plt('white');
         color: plt('justia-blue');
 
         a {
@@ -47,7 +47,9 @@
 
     .title {
         padding: 30px 30px 0px;
+        border-top: 1px solid #e5e5e5;
     }
+
     .title2 {
         padding: 15px 30px 20px;
 
@@ -57,7 +59,7 @@
     }
 
     .top-button {
-        background-color: #F2F2F2;
+        background-color: plt('white');
         text-align: center;
     }
 
