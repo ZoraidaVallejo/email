@@ -1,0 +1,31 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "",
+    "link": "https://connect.justia.com/pro",
+    "description": [
+      "Become a <b>Justia Connect Pro</b> to take your free membership to the next level! You can now upgrade your free Justia Connect membership to Justia Connect Pro and access additional benefits, such as:"
+    ],
+    "list": [
+      "<b>$100 in Justia Credit</b> that can be applied to Justia Elevate, Justia Amplify, and Justia Premium Placement products",
+      "<b>Priority Access to Justia Webinars</b> to learn from leaders in legal marketing and technology",
+      "<b>Opportunities for Expanded Visibility</b> across the Justia platform",
+      "<b>Enhanced Profile in the Justia Lawyer Directory</b> with the eye-catching Pro badge and no competitors",
+      "<b>Featured Reviews for your Justia Profile</b>, so you can always put your best foot forward"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/pro",
+      "text": "Upgrade Now",
+      "utm": {
+        "medium": "email",
+        "source": "quarterly-connect-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

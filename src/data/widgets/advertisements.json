@@ -1,0 +1,56 @@
+{
+  "templates": {
+    "ad1": {
+      "layout": "bottom-image",
+      "link": "https://www.justia.com/marketing/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "",
+        "content": ""
+      },
+      "title": "<b>Discover Justia Elevate</b>",
+      "titleResponsiveSize": 23,
+      "title2": "The Next-Generation Website <span>Platform for Law Firms</span>",
+      "titleResponsiveSize2": 20,
+      "image": "discover-elevate.gif",
+      "imageAlt": "Lorem ipsum dolor",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Raise your website to new heights with our groundbreaking platform, designed and customized specifically for lawyers and law firms with powerful integrated features that unleash the full power of your online presence.</p> <table class='list'> <tr> <td class='icon'> <img src='../dist/images/icon-gears.png' alt='Justia Elevate icon'> </td> <td class='content'> <p><b>WordPress-based</b> platform enhanced for law firm websites.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-thunder.png' alt='Justia Elevate icon'> </td> <td class='content'> <p><b>Lightning-fast</b> loading times on any device, anywhere.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-search.png' alt='Justia Elevate icon'> </td> <td class='content'> <p><b>Optimized for search engines</b>, so clients can find you whenever they need to.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-write.png' alt='Justia Elevate icon'> </td> <td class='content'> <p><b>Easily add or edit your content</b> with a few quick clicks of a button.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-msn.png' alt='Justia Elevate icon'> </td> <td class='content'> <p><b>Beautiful designs</b> that authentically capture your firm's true image.</p> </td> </tr> </table>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Call us today to learn more about our <b>affordable plans starting at $990/Year</b></p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 150,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 18,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
