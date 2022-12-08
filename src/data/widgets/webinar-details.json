@@ -253,8 +253,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "As a Justia Connect Pro, you have unlocked access to all Justia Webinar recordings, including the recent presentation <a href=\"https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023\" target=\"_blank\">Law Firm SEO: 2022 in Review & What to Expect in 2023!</a>",
+      "As we approach the end of the year and you finalize your digital marketing strategies for 2023, we encourage you to watch this presentation to better set your law firm up for success for many years to come. Regardless of where you are spending the last weeks of 2022, you can watch this recording whenever and wherever convenient for you!",
+      "Enjoy the Presentation!"
     ],
     "button": {
       "style": "red",
@@ -281,8 +282,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Did you know Justia Connect Pros get unlimited access to all Justia Webinar recordings, including the recent presentation <a href=\"https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023\" target=\"_blank\">Law Firm SEO: 2022 in Review & What to Expect in 2023?</a> It is true!",
+      "As we approach the end of the year and you finalize your law firm’s digital marketing strategies for 2023, we encourage you to take advantage of this opportunity to get SEO insights that can help you set your practice up for success in the coming year and beyond.",
+      "For as little as $199.80 annually, you can both unlock these presentations and get a $200 Justia Credit* to be applied toward select Justia Marketing Solutions!"
     ],
     "button": {
       "style": "red",
@@ -291,7 +293,7 @@
       "width": 250
     },
     "note": [
-      "lorem ipsum dolor sit amen"
+      "*Conditions apply. See <a href=\"https://connect.justia.com/pro/terms/credit\" target=\"_blank\">Justia Connect Pro Credit Terms of Use</a> for details."
     ]
   },
   "basic-recording-missed": {
