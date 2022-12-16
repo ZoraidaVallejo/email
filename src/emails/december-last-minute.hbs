@@ -1,0 +1,28 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.connect}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-ad widgetClass="-jld-mob-ad-01" widgetConfig=advertisements.connect.ad1}}
+        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.connect.ad2}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.connect}}
+    </td>
+  </tr>
+{{/table}}

@@ -24,5 +24,14 @@
         "url": "https://www.justia.com/marketing/lawyer-directory/"
       }
     }
+  },
+  "connect": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "connect",
+      "link": {
+        "url": "https://www.justia.com/marketing/connect/"
+      }
+    }
   }
 }

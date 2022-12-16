@@ -149,5 +149,46 @@
         }
       ]
     }
+  },
+  "connect": {
+    "ad1": {
+      "link": "#",
+      "titleResponsiveSize": 22,
+      "image": "last-minute-shopping.gif"
+    },
+    "ad2": {
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": {
+            "description": [
+              "<p responsive=\"mobile-fz-17\">Save more with discounts available to <b>Justia Connect</b> members exclusively through <b>Justia Deals!</b> Activate your savings today.</p>"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Start Saving",
+            "width": 215,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b>"
+          ]
+        }
+      ]
+    }
   }
 }
