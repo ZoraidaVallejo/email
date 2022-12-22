@@ -1,0 +1,27 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="marketing-blast" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-ad widgetClass="-template-01b" widgetConfig=advertisements.templates.ad1}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}

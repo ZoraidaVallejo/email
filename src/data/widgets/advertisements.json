@@ -1,0 +1,48 @@
+{
+  "templates": {
+    "ad1": {
+      "layout": "bottom-image",
+      "link": "https://www.justia.com/marketing/connect/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "",
+        "content": ""
+      },
+      "image": "justia-connect-free.jpg",
+      "imageAlt": "Justia Connect is Free!",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Did you know an annual <b>Justia Connect Pro Membership</b> <u>pays for itself</u> when you buy any other eligible Justia Marketing Solution? It’s true!</p>",
+            "<p> You get a <b>$200 Justia Credit*</b> as a Pro, but the annual <b>Justia Connect Pro</b> Membership is only $199.80/year.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get My Justia Credit",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
+            "<p class='disclaimer'>**Conditions apply. Please see Justia Connect Pro Credit Terms of Use for details.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}
