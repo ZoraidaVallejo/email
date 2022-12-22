@@ -1,0 +1,230 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.-stats-block {
+   
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 23px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        @include mail-font(28px, 1.1, 700);
+        display: block;
+        width: 100%;
+        padding: 25px 0 0;
+        color: plt('justia-blue');
+        text-align: left;
+
+        a {
+            display: block;
+            padding: 7px 0 7px 20px;
+            border-left: 4px solid #00b3e3;
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .progress-bar-wrapper {
+        display: block;
+        max-width: 350px;
+        height: 25px;
+        border-radius: 12px;
+        margin: 20px auto 0;
+        background-color: #b9c8de;
+        // background-size: contain;
+
+        .progress-bar {
+            display: block;
+            height: 100%;
+            border-radius: 12px 0 0 12px;
+            background-color: #00b3e3;
+        }
+    }
+
+    .content-wrapper {
+        padding: 0 30px 50px;
+
+        .-image {
+
+            img {
+                margin: 0 auto 25px;
+            }
+        }
+
+        .content-border {
+            padding: 15px 24px 29px;
+        }
+
+        .content-wrapper-table {
+            display: block;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            width: 100%;
+            float: left;
+        }
+
+        .content-wrapper-inside {
+            display: block;
+            background: #f2f4f8;
+            border-radius: 10px;
+            width: 100%;
+            float: left;
+        }
+
+        .-text {
+            @include mail-font(16px, 1.5);
+            display: block;
+            margin: 10px 0 25px;
+        }
+    }
+
+    .content {
+        padding: 0 0 30px;
+        text-align: left;
+
+        // &.-image-description > div {
+        //     display: block;
+        //     border: 1px solid #e6e6e6;
+        //     border-radius: 10px;
+        //     width: 100%;
+        //     float: left;
+        //     padding: 25px 0 25px;
+
+        //     p {
+        //         padding: 0 0 0 25px;
+        //     }
+        // }
+
+        .-background-wrapper {
+            padding: 0 0 $padding;
+            border-bottom: 1px solid #dae1eb;
+        }
+
+        &.-image-description {
+            padding: $padding 45px 30px;
+        }
+
+        &.-profile-completeness {
+            padding: $padding 0;
+            margin: 0 auto;
+
+            strong {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .-description {
+            margin: 0 25px;
+        }
+
+        p {
+            @include mail-font(16px, 1.5);
+            // padding: 32px 25px 50px;
+            text-align: left;
+
+            strong {
+                color: plt('black');
+            }
+
+            a {
+                @include mail-font(16px, 1.5, 700);
+
+                b {
+                    @include mail-font(16px, 1.5, 700);
+                }
+            }
+        }
+
+        strong a {
+            color: plt('justia-blue');
+        }
+
+        .red-info {
+            color: #e2231a;
+            font-size: rem-calc(14px);
+            vertical-align: top;
+        }
+
+        .-name {
+            @include mail-font(20px);
+            font-weight: 700;
+            display: block;
+            color: plt('justia-blue');
+        }
+
+        .-rank {
+            @include mail-font(16px, 1.5);
+            display: block;
+        }
+
+        .-rank {
+            @include mail-font(16px, 1.5);
+            display: block;
+        }
+
+        .content-side {
+            display: inline-block;
+            width: 260px;
+            vertical-align: middle;
+            // text-align: center;
+
+            &.-image {
+                float: left;
+                width: 135px;
+                text-align: left;
+
+                a {
+                    display: block !important;
+                    // margin: 0 auto;
+                }
+
+                img {
+                    height: 100%;
+                    width: auto;
+                    // margin: 0 auto;
+                    margin: 0 auto 0 0;
+                }
+            }
+
+            &.-description {
+                text-align: left;
+            }
+
+            &:last-child {
+                float: right;
+                margin: 0;
+                max-width: 90%;
+            }
+
+            .red-link,
+            .red-link b {
+                color: plt('red') !important;
+            }
+        }
+
+        a,
+        a b {
+            color: plt('justia-blue');
+            // display: inline-block;
+        }
+    }
+}

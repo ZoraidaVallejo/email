@@ -1,0 +1,19 @@
+{
+  "title": "Your Stats",
+  "profileCompleteness": "95",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "year-graphic-01.png",
+        "link": "#",
+        "name": "Kellam T. Parks",
+        "rank": "2"
+      }
+    },
+    {
+      "type": "profileCompleteness",
+      "config": "95"
+    }
+  ]
+}

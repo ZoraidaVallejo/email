@@ -26,6 +26,9 @@ $logos-dimensions: (
     ),
     'justia-ver2': (
         'dims': 300px 90px
+    ),
+    'ask-a-lawyer': (
+        'dims': 2754px 368px
     )
 );
 
@@ -44,7 +47,7 @@ $global-mail-logos: ();
 $settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
-    'background': plt('white'),
+    'background': #ffffff,
     'logos': (
         'logo-only': (
             'justia': 135px,
@@ -58,7 +61,8 @@ $settings: set('mail-header', (
             'new-employee': 395px,
             'new-intern': 340px,
             'work-anniversary': 440px,
-            'onboarding': 350px
+            'onboarding': 350px,
+            'ask-lawyer': 470px
         ),
         'with-date': (
             'justia': 135px,

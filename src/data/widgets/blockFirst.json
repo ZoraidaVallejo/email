@@ -1,0 +1,35 @@
+{
+  "link": "#",
+  "name": "Kellam",
+  "title": "a New Question for You",
+  "titleResponsiveSize": 21,
+  "image": "connect-banner-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "question",
+      "config": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit.",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
+      }
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "red",
+        "link": "#",
+        "width": "215px",
+        "text": "Answer Question",
+        "extraLink": "#",
+        "extraLinkText": "View More Questions Like This"
+      }
+    },
+    {
+      "type": "questionInfo",
+      "config": {
+        "date": "Asked on May 5, 2022",
+        "location": "Located in Virginia Beach, VA",
+        "category": "Divorce, Family Law, Child Custody and Child Support"
+      }
+    }
+  ]
+}
