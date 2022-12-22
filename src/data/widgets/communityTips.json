@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Check Out the New Justia Webinar Center",
+    "link": "https://connect.justia.com/webinars?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "As a Justia Connect Pro, you have access to the on-demand recordings for all Justia Webinar presentations. Through the newly launched Justia Webinar Center, you can explore all of these previous presentations, watch recordings, and register for upcoming programs too!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars",
+      "text": "Explore Webinar Center",
+      "width": 235,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

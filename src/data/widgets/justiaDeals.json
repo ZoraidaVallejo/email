@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legal-deals.png",
+        "alt": "CloudLex",
+        "title": "Legal Deals",
+        "border": true,
+        "description": [
+          "Are you a personal injury lawyer? Then, check out CloudLex, the legal technology platform offering a complete set of solutions for personal injury attorneys! Plus, as a Justia Connect member, you’re eligible to receive 10% off your first year."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/cloudlex/10-percent-off-first-year?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "traveling.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Traveling during the end-of-year holiday season? Save up to 60% on accommodations through your Justia Connect membership with members-only access to Abenity Hotels!"
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:648173?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}
