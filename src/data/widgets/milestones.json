@@ -1,0 +1,58 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Justia Elevate. ",
+        "description": "Our Justia Elevate Team continued to release new features and patches for our clients. This month, several new options for various stripes got published along with other performance optimizations, minor features, and even an upgrade to the Justia Elevate WordPress installation."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "link": "#",
+        "title": "Blasts. ",
+        "description": "The number of blasts and email marketing campaigns we process exploded this year! This month, we continued with our efforts to reach our contact base to promote our products and services. One of the crucial campaigns during this month was promoting Justia Elevate to attorneys in the Justia Lawyer Directory."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "<a href=\"#\" target=\"_blank\">GA4 Support for AMP in Clients' Blogs<a>. ",
+        "description": "Continuing our migration to GA4, we have updated our client WordPress installations to support Google Analytics 4 event tracking features."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "IT Maintenances. ",
+        "description": "As usual, we continued to ensure the stability of our online services through ongoing server maintenance. This month, Justia projects like the Justia Lawyer Directory, Justia Law, and Justia Dockets got infrastructure updates. Even clearinghouse.net, a Justia-friend property, got a new development environment."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia.com SSL Certificate Renewal. ",
+        "description": "The SSL certificate, a vital component of our systems, for our main domain justia.com was renewed and uploaded to several servers."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Justia Ask A Lawyer Automated QA. ",
+        "description": "We continued with our efforts to increase our automated QA coverage for our properties. This month, the first version of the automated QA for Justia Ask A Lawyer was pushed live."
+      }
+    }
+  ]
+}

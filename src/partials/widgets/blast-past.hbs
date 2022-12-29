@@ -1,0 +1,172 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   A D V E R T I S E M E N T                                                                       }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}          widgetConfig
+ * @param {string}          widgetConfig.link
+ * @param {Object}          widgetConfig.utm
+ * @param {Object}          widgetConfig.logo
+ * @param {string}          widgetConfig.logo.name
+ * @param {string}          widgetConfig.logo.color
+ * @param {string}          widgetConfig.title
+ * @param {number}          widgetConfig.titleResponsiveSize
+ * @param {string}          widgetConfig.image
+ * @param {string}          widgetConfig.imageAlt
+ * @param {Object}          widgetConfig.background
+ * @param {string}          widgetConfig.background.image
+ * @param {string}          widgetConfig.background.bgColor
+ * @param {number}          widgetConfig.background.width
+ * @param {number}          widgetConfig.background.height
+ * @param {string}          widgetConfig.background.cssSize
+ * @param {Object[]}        widgetConfig.contentOrder
+ * @param {string}          widgetConfig.contentOrder[].type
+ * @param {string[]|Object} widgetConfig.contentOrder[].config
+ * @param {string}          widgetClass
+}}
+
+{{assign "adClasses" (classList "widget" "w-blast-past" widgetClass "set-max-width")}}
+
+{{! ================================================================================================================= }}
+
+{{#table class=(classList "widget" "w-blast-past" widgetClass "set-max-width")}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+    <tr>
+      {{>ui-background backgroundBehavior="cell" backgroundStart=true
+        bgImage=widgetConfig.background.image
+        bgColor=widgetConfig.background.bgColor
+        bgWidth=widgetConfig.background.width
+        bgHeight=widgetConfig.background.height
+        bgSize=widgetConfig.background.cssSize
+        responsive=widgetConfig.background.responsive
+      }}
+        <table {{{tableAttr}}}>
+  {{/and}}
+
+  {{#if widgetConfig.title}}
+    {{>widget-header
+      header=widgetConfig.title
+      type=widgetConfig.type
+    }}
+  {{/if}}
+
+  {{#if widgetConfig.imageTop}}
+    <tr>
+      <td class="image imageTop" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{widgetConfig.link}}}" target="_blank">
+          {{>img
+            src=widgetConfig.imageTop
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "image-description"}}
+        <tr>
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
+            {{#forIn this.config}}
+              {{#compare @key "===" "image"}}
+                <div class="content-side -image" responsive="mobile-hide">
+                  {{#if ../../widgetConfig.link}}<a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">{{/if}}
+                    {{>img
+                      src=../config.image
+                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                    }}
+                  {{#if ../../widgetConfig.link}}</a>{{/if}}
+                </div>
+              {{/compare}}
+
+              {{#compare @key "===" "description"}}
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                  {{#each ../config.description}}
+                    <p responsive="mobile-fz-16">{{{this}}}</p>
+                  {{/each}}
+                </div>
+              {{/compare}}
+            {{/forIn}}
+
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "image-column"}}
+        <tr>
+          <td class="content -image-column -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-reset-max-width">
+            <div class="content-side -image -image-01" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width mobile-padding-30-bottom">
+              {{>img
+                src=config.image1
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
+            <div class="content-side -image -image-02" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width">
+              {{>img
+                src=config.image2
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "description"}}
+        <tr>
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "button"}}
+        <tr>
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#uiButton
+              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+              presetStyle=this.config.style
+              width=this.config.width
+              height=this.config.height
+              borderColor=this.config.borderColor
+              backgroundColor=this.config.backgroundColor
+              fontColor=this.config.fontColor
+              fontStyle=this.config.fontStyle
+              fontWeight=this.config.fontWeight
+              fontSize=this.config.fontSize
+              responsive=this.config.responsive
+            }}
+              {{{this.config.text}}}
+            {{/uiButton}}
+          </td>
+        </tr>
+      {{/compare}}
+    {{/forEach}}
+  {{/if}}
+
+  {{#if widgetConfig.imageBottom}}
+    <tr>
+      <td class="image imageBottom" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{widgetConfig.link}}}" target="_blank">
+          {{>img
+            src=widgetConfig.imageBottom
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+      </table>
+      {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+    </tr>
+  {{/and}}
+{{/table}}
