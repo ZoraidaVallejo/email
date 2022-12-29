@@ -7,48 +7,30 @@
     "alt": "Justia Webinars",
     "content": [
       {
-        "title": "Upcoming Webinars",
-        "icon": {
-          "src": "webinar-icon.png",
-          "alt": "Upcoming Webinars"
-        },
-        "description": [
-          "<a class='title' href='https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023/?utm_medium=email&utm_campaign=2022-11&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-1' target='_blank'>​<b>Law Firm SEO: 2022 in Review & What to Expect in 2023</b></a>",
-          "<p>Explore changes in the SEO landscape over the past year and predict what is to come in 2023 during this webinar! Join our CEO and members of the Justia SEO Team as they review the SEO industry trends of 2022 that shaped the legal marketing industry and look ahead to 2023.</p>"
-        ],
-        "button": {
-          "style": "red",
-          "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023/?utm_medium=email&utm_campaign=2022-11&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-1",
-          "text": "Register Now",
-          "width": 160
-        },
-        "border": true
-      },
-      {
         "title": "Recent Recordings",
         "icon": {
           "src": "recordings-icon.png",
           "alt": "Recent Recordings"
         },
         "description": [
-          "<a class='title' href='https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=2022-11&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2' target='_blank'>​<b>Technical SEO for Law Firm Websites</b></a>",
-          "<p>Interested in learning more about optimizing your law firm website for search engines? Stream this on-demand Justia Webinar in which Justia CEO Tim Stanley offers new insights into aspects of technical SEO, including speed, security, accessibility, and more!</p>"
+          "<a class='title' href='https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=2022-12&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2' target='_blank'>​<b>Law Firm SEO: 2022 in Review & What to Expect in 2023</b></a>",
+          "<p>Need a refresher on SEO over the past year? Want to explore what’s on the SEO horizon in 2023? Tune in to this on-demand Justia Webinar, where our CEO and members of the Justia SEO Team review the SEO industry trends of 2022 that shaped legal marketing and look ahead to the year to come.</p>"
         ],
         "button": {
           "style": "red",
-          "link": "https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=campaign-1052-promo-452&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2",
+          "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=campaign-1052-promo-452&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2",
           "text": "Watch Now",
           "width": 160
         }
       },
       {
         "description": [
-          "<a class='title' href='https://connect.justia.com/webinars/google-ads-for-lawyers-ppc-101?utm_medium=email&utm_campaign=2022-11&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'><b>​​Google Ads for Lawyers: PPC 101</a></b>",
-          "<p>There are endless online resources for Google Ads - but only here will you find information specifically tailored to law firms! Tune in to this on-demand Justia Webinars presentation where we go in-depth on pay-per-click advertising for law firms.</p>"
+          "<a class='title' href='https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=2022-12&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'><b>Technical SEO for Law Firm Websites</a></b>",
+          "<p>Interested in learning more about optimizing your law firm website for search engines? Stream this on-demand Justia Webinar in which Justia CEO Tim Stanley offers new insights into aspects of technical SEO, including speed, security, accessibility, and more!</p>"
         ],
         "button": {
           "style": "red",
-          "link": "https://connect.justia.com/webinars/google-ads-for-lawyers-ppc-101?utm_medium=email&utm_campaign=2022-11&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-4",
+          "link": "https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=2022-12&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-4",
           "text": "Watch Now",
           "width": 160
         }
