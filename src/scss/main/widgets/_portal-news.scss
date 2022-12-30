@@ -61,6 +61,10 @@
 
         ul li {
             @include mail-font(16px, 1.5);
+
+            a {
+                @include mail-font(16px, 1.5, 700);
+            }
         }
 
         .content-side {
@@ -108,7 +112,7 @@
     }
 
     .content.-list {
-        padding: 0 $padding 13px;
+        padding: 0 $padding 35px;
         text-align: left;
 
         ul {

@@ -48,10 +48,12 @@
         <table {{{tableAttr}}}>
   {{/and}}
 
-  {{>widget-header
-    header=widgetConfig.widget.header
-    type=widgetConfig.widget.type
-  }}
+  {{#if widgetConfig.widget.header}}
+    {{>widget-header
+      header=widgetConfig.widget.header
+      type=widgetConfig.widget.type
+    }}
+  {{/if}}
 
   {{#if widgetConfig.singleColumn}}
 

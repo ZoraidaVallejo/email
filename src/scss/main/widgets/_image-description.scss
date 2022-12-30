@@ -107,9 +107,33 @@
         }
     }
 
-    &.w-team-activities-4 {
+    &.-holidays-2 {
+        .content-side {
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+    }
+
+    &.did-you-know-2 {
+    
         .widget-header {
-            padding: 42px 85px 25px;
+            padding: $widget-gap 50px 25px;
+        }
+    }
+
+    &.did-you-know-4 {
+    
+        .widget-header {
+            padding: $widget-gap 25px 25px;
+        }
+
+        .content {
+            padding: 0 $padding 50px;
         }
     }
 }

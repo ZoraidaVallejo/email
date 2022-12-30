@@ -1,24 +1,19 @@
 {
   "widget": {
-    "type": "UPCOMING HOLIDAYS",
-    "header": "Dates to Remember"
+    "type": "JUSTIA PET NEWS",
+    "header": "Smiley Terry"
   },
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
-        "image": "holidays-graphic-01.png",
+        "image": "pets-01.png",
         "blockTitle": "Holiday - Month Day",
         "description": [
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Architecto beatae vitae dicta sunt explicabo dolor in reprehenderit in voluptate."
+          "Terry is 12 years old. He loves to nap, play in the grass, and eat my plants. Terry adores giving and receiving love. Undoubtedly, he is the most affectionate dog I know and truly enjoys making new friends.",
+          "- Daniel Gomez"
         ]
       }
-    },
-    {
-      "type": "description",
-      "config": [
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla."
-      ]
     }
   ]
 }

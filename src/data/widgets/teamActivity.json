@@ -1,15 +1,14 @@
 {
   "widget": {
     "type": "TEAM ACTIVITY",
-    "header": "Lorem ipsum dolor sit amet consectetur"
+    "header": "Ugly Sweater Contest"
   },
   "imageTop": "team-graphic-01.png",
-  "imageBottom": "team-graphic-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis. Blandit praesent luptatum zzril delenit augue duis dolore te feugait. Per seacula quarta decima lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        "Justia held its 2022 Ugly Sweater Contest during the team meeting on Monday, December 12. We thank all the enthusiastic participants who had the chance to show off their sweaters (All of them were amazing!). Congratulations to our Ugly Sweater Contest Winners who claimed the bragging rights to the title. You set the bar for holiday fashion pretty high!"
       ]
     }
   ]

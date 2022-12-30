@@ -104,18 +104,4 @@
             padding: 0 $padding $widget-gap;
         }
     }
-
-    .-idx-2 {
-
-        .content-side {
-
-            &:first-child {
-                float: left;
-            }
-
-            &:last-child {
-                float: right;
-            }
-        }
-    }
 }

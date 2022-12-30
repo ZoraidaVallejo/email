@@ -16,53 +16,62 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>welcome widgetConfig=welcome}}
         
+        {{>milestones widgetClass="-blue-bg" widgetConfig=milestones}}
+        
+        {{>portal-news widgetConfig=portalNews}}
+
+        {{>our-blog widgetClass="-blue-bg"}}
+        
+        {{>birthday widgetClass="" widgetConfig=birthday}}
+
+        {{!-- {{>widget-ad widgetClass="-jld-ad-quote -blue-bg" widgetConfig=advertisements.quote}} --}}
+        
         {{!-- image and text aside, can be use for one to + 2 holidays --}}
         {{>widget-image-description widgetClass="-holidays-2 -blue-bg" widgetConfig=holidays2}}
 
-        {{>widget-image-description widgetClass="-jld-ad-quote -blue-bg" widgetConfig=quote}}
+        {{!-- {{>widget-image-description widgetClass="-jld-ad-quote -blue-bg" widgetConfig=quote}} --}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
         {{!-- change tje widgetConfig depending on the json that contains the info you need --}}
-        {{>widget-image-description widgetClass="-team-activity-01 -blue-bg" widgetConfig=teamActivity}}
-        
-        {{>milestones widgetClass="-blue-bg" widgetConfig=milestones}}
-        
-        {{>portal-news widgetClass="-blue-bg" widgetConfig=portalNews}}
-
-        {{>our-blog}}
-        
-        {{>birthday widgetClass="-blue-bg" widgetConfig=birthday}}
-
-        {{>widget-ad widgetClass="-jld-ad-quote -blue-bg" widgetConfig=advertisements.quote}}
-
-        {{!-- 2 columns, for 2 people --}}
-        {{>new-people widgetClass="-blue-bg" widgetConfig=newPeople}}
-
-        {{!-- image and text aside, can be use for one to + 2 people --}}
-        {{>new-people-2 widgetClass="-blue-bg" widgetConfig=newPeople2}}
-        
-        {{!-- 2 columns, for 2 people --}}
-        {{>holidays widgetClass="-blue-bg" widgetConfig=holidays}}
-
-        {{!-- image and text aside --}}
-        {{>team-activity-2 widgetClass="-blue-bg" widgetConfig=teamActivity2}}
+        {{>widget-image-description widgetClass="-team-activity-01" widgetConfig=teamActivity}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{>widget-image-description widgetClass="-blast-past -blue-bg" widgetConfig=blastPast}}
+        {{>widget-image-description widgetClass="-blue-bg" widgetConfig=didYouKnow2}}
+
+        {{!-- supports image on top or/and bottom delete the one not needed --}}
+        {{>widget-image-description widgetClass="-blue-bg" widgetConfig=didYouKnow3}}
+
+        {{!-- supports image on top or/and bottom delete the one not needed --}}
+        {{>widget-image-description widgetClass="-blue-bg did-you-know-4" widgetConfig=didYouKnow4}}
+
+        {{!-- 2 columns, for 2 people --}}
+        {{!-- {{>new-people widgetClass="-blue-bg" widgetConfig=newPeople}} --}}
+
+        {{!-- image and text aside, can be use for one to + 2 people --}}
+        {{!-- {{>new-people-2 widgetClass="-blue-bg" widgetConfig=newPeople2}} --}}
+
+        {{!-- image and text aside --}}
+        {{!-- {{>team-activity-2 widgetClass="-blue-bg" widgetConfig=teamActivity2}} --}}
+
+        {{!-- supports image on top or/and bottom delete the one not needed --}}
+        {{!-- {{>widget-image-description widgetClass="-blast-past -blue-bg" widgetConfig=blastPast}} --}}
+        
+        {{!-- 2 columns, for 2 people --}}
+        {{>holidays widgetClass="" widgetConfig=holidays}}
 
         {{!-- Same layout as Milestones --}}
-        {{>wellness-items widgetClass="-blue-bg" widgetConfig=wellnessItems}}
+        {{!-- {{>wellness-items widgetClass="-blue-bg" widgetConfig=wellnessItems}} --}}
         
-        {{>reviews widgetClass="-blue-bg" widgetConfig=reviews}}
+        {{!-- {{>reviews widgetClass="-blue-bg" widgetConfig=reviews}} --}}
 
         {{!-- E X T R A S --}}
         {{!-- Not Commonly Used --}}
 
         {{!-- image, text and lists below --}}
-        {{>team-activity-3 widgetClass="-blue-bg" widgetConfig=teamActivity3}}
+        {{!-- {{>team-activity-3 widgetClass="-blue-bg" widgetConfig=teamActivity3}} --}}
 
         {{!-- tricky block with bg image --}}
-        {{>reminders widgetClass="-reminders -blue-bg" widgetConfig=reminders}}
+        {{!-- {{>reminders widgetClass="-reminders -blue-bg" widgetConfig=reminders}} --}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-event -blue-bg" widgetConfig=advertisements.event}} --}}
 

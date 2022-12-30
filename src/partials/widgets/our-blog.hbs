@@ -6,7 +6,9 @@
 // TODO: Add anotations.
 }}
 
-{{#table class="widget w-blog-justia set-max-width"}}
+{{assign "adClasses" (classList "widget" "w-blog-justia" widgetClass "set-max-width")}}
+
+{{#table class=(classList "widget" "w-blog-justia" widgetClass "set-max-width")}}
   {{>widget-header
     header=ourBlog.widget.header
     type=ourBlog.widget.type

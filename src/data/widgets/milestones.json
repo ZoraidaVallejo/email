@@ -17,7 +17,6 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "link": "#",
         "title": "Blasts. ",
         "description": "The number of blasts and email marketing campaigns we process exploded this year! This month, we continued with our efforts to reach our contact base to promote our products and services. One of the crucial campaigns during this month was promoting Justia Elevate to attorneys in the Justia Lawyer Directory."
       }
@@ -26,7 +25,7 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "<a href=\"#\" target=\"_blank\">GA4 Support for AMP in Clients' Blogs<a>. ",
+        "title": "GA4 Support for AMP in Clients' Blogs. ",
         "description": "Continuing our migration to GA4, we have updated our client WordPress installations to support Google Analytics 4 event tracking features."
       }
     },
@@ -41,7 +40,7 @@
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-03.png",
+        "image": "milestones-graphic-05.png",
         "title": "Justia.com SSL Certificate Renewal. ",
         "description": "The SSL certificate, a vital component of our systems, for our main domain justia.com was renewed and uploaded to several servers."
       }
@@ -49,7 +48,7 @@
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-04.png",
+        "image": "milestones-graphic-06.png",
         "title": "Justia Ask A Lawyer Automated QA. ",
         "description": "We continued with our efforts to increase our automated QA coverage for our properties. This month, the first version of the automated QA for Justia Ask A Lawyer was pushed live."
       }
