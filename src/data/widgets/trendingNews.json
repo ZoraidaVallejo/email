@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "What Technology Do I Need to Set Up a Solo or Small Firm Practice?",
+          "link": "https://www.lawpracticetipsblog.com/2022/12/what-technology-do-i-need.html"
+        },
+        {
+          "title": "OpenAI’s New Chatbot Can Explain Code and Write Sitcom Scripts but Is Still Easily Tricked",
+          "link": "https://www.theverge.com/23488017/openai-chatbot-chatgpt-ai-examples-web-demo"
+        },
+        {
+          "title": "Two Executives in Sam Bankman-Fried’s Crypto Empire Plead Guilty to Fraud ",
+          "link": "https://www.nytimes.com/2022/12/21/technology/ftx-fraud-guilty-pleas.html"
+        },
+        {
+          "title": "Washington, Oregon Join California in Requiring All New Vehicle Sales to Be EVs by 2035 ",
+          "link": "https://www.geekwire.com/2022/washington-oregon-join-california-in-requiring-all-new-vehicle-sales-to-be-evs-by-2035/"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "A New Chat Bot Is a ‘Code Red’ for Google’s Search Business ",
+          "link": "https://www.nytimes.com/2022/12/21/technology/ai-chatgpt-google-search.html"
+        },
+        {
+          "title": "E-E-A-T and Major Updates to Google’s Quality Rater Guidelines ",
+          "link": "https://searchengineland.com/google-search-quality-rater-guidelines-changes-december-2022-390350"
+        },
+        {
+          "title": "Ranking Data During the December 2022 Google Helpful Content Update and Link Spam Update ",
+          "link": "https://searchengineland.com/ranking-data-during-the-december-2022-google-helpful-content-update-and-link-spam-update-390620"
+        },
+        {
+          "title": "Content Ideas May Be Coming to Google Search Console ",
+          "link": "https://searchengineland.com/content-ideas-may-be-coming-to-google-search-console-390244"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Tech Groups Ask Supreme Court to Weigh in on Texas Social Media Law ",
+          "link": "https://thehill.com/policy/technology/3776971-tech-groups-ask-supreme-court-to-weigh-in-on-texas-social-media-law/"
+        },
+        {
+          "title": "How the TikTok Algorithm Works: Everything You Need to Know ",
+          "link": "https://searchengineland.com/how-tiktok-algorithm-works-390229"
+        },
+        {
+          "title": "A Guide to LinkedIn Content Marketing  ",
+          "link": "https://searchengineland.com/linkedin-content-marketing-guide-389475"
+        },
+        {
+          "title": "Twitter’s New Verification System Has Blue & Gold Checkmarks",
+          "link": "https://www.searchenginejournal.com/twitters-new-verification-system-has-blue-gold-checkmarks/473934/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "San Francisco Police Seek Permission for Its Robots to Use Deadly Force",
+          "link": "https://www.engadget.com/san-francisco-police-seek-permission-for-its-robots-to-use-deadly-force-183514906.html"
+        },
+        {
+          "title": "Ticketmaster’s Taylor Swift Fiasco Sparks Senate Antitrust Hearing",
+          "link": "https://www.engadget.com/senate-antitrust-hearing-ticketmaster-taylor-swift-live-nation-175441631.html"
+        },
+        {
+          "title": "Google Files Lawsuit Against Company Falsely Promising Page 1 Rankings",
+          "link": "https://searchengineland.com/google-g-verifier-lawsuit-389853"
+        },
+        {
+          "title": "Taking Down SBF How the Website CoinDesk Shook Up the Crypto World ",
+          "link": "https://nymag.com/intelligencer/2022/12/sbf-ftx-crypto-coindesk.html"
+        }
+      ]
+    }
+  ]
+}

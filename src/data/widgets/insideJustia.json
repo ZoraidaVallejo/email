@@ -1,0 +1,32 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "Tacky Sweater Season"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Tacky Sweater Season</b>",
+      "description": [
+        "Team Justia ended the year with our annual Ugly Sweater contest! The creativity was off the charts and we enjoyed bonding with colleagues before kicking off the new year. "
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Pups on Holiday"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Pups on Holiday</b>",
+      "description": [
+        "Zoey and her Justia pup friends got into the holiday spirit for our annual Ugly Sweater contest too! These cuties could make any sweater look good and were all winners in the end."
+      ],
+      "readMore": "https://www.facebook.com/Hug.Pugs"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon",
+  "news": [
+    {
+      "title": "Justia Ask A Lawyer by the Numbers: Third Quarter 2022",
+      "link": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-third-quarter-2022/",
+      "description": "We’re back with another edition of Justia Ask A Lawyer by the Numbers, a series where we’re offering you a glimpse at the usage statistics for consumers and lawyers on our free question-and-answer forum!",
+      "index": "1"
+    },
+    {
+      "title": "Justia’s 2022 Year in Review",
+      "link": "https://onward.justia.com/justias-2022-year-in-review/",
+      "description": "Take a peek behind the doors at Justia to see some of our highlights over the past year, including accomplishments, changes, and time spent with our team!",
+      "index": "2"
+    },
+    {
+      "title": "Justia Free Resources: Foreclosure Center",
+      "link": "https://onward.justia.com/justia-free-resources-foreclosure-center/",
+      "description": "When the economy goes downhill, the risk of foreclosure looms large. The prospect of losing a home is daunting, but homeowners may have more options than they realize. The Foreclosure Center at Justia is designed to empower them.",
+      "index": "3"
+    },
+    {
+      "title": "Justia Free Resources: Aviation Law Center",
+      "link": "https://onward.justia.com/justia-free-resources-aviation-law-center/",
+      "description": "You probably don’t think twice before hopping on a plane for a vacation or a work event. But not every flight is smooth. The Aviation Law Center at Justia discusses many of the rules that may apply when something goes wrong.",
+      "index": "4"
+    },
+    {
+      "title": "The State of Legal Marketing 2022",
+      "link": "https://onward.justia.com/the-state-of-legal-marketing-2022/",
+      "description": "Join us for an end-of-year survey looking at some of the trends that shaped digital and legal marketing in 2022. Plus, check out our predictions for what is on the horizon in 2023.",
+      "index": "5"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

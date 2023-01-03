@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Featured Webinar"
+  },
+  "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-webinar-01.png",
+  "title": "Law Firm SEO: 2022 in Review & What to Expect in 2023",
+  "description": [
+    "In this interactive webinar, we’re reviewing the SEO highlights from 2022, including core algorithm updates, the latest news and trends in SEO, and how these changes have shaped the SEO landscape for the legal industry. Plus, get our predictions for the year to come!"
+  ],
+  "button": {
+    "style": "red",
+    "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023",
+    "text": "Watch Now"
+  }
+}

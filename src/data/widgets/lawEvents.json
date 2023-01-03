@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "10",
+      "month": "Jan",
+      "title": "Retaining Employees Through Challenging Times",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/427733815/",
+      "time": "12pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "10",
+      "month": "Jan",
+      "title": "Microsoft Excel for Lawyers",
+      "link": "https://www.pli.edu/programs/microsoft-excel-for-lawyers",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "17",
+      "month": "Jan",
+      "title": "Privacy 101 for Business Lawyers",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/428158582/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "19",
+      "month": "Jan",
+      "title": "Staying Secure Electronically",
+      "link": "https://clewebinars.ce21.com/item/staying-secure-electronically-301706",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "25",
+      "month": "Jan",
+      "title": "Unlocking the Stress Cycle in 2023",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/428173466/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}
