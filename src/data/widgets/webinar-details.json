@@ -1,0 +1,223 @@
+{
+  "inital-announcement": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Name,",
+      "You are invited to our very first <b>CLE Accredited Justia Webinar!</b> On January 18 at 2:00pm ET/11:00am PT, JurisPro Expert Witness Directory President Jim Robinson will offer a virtual CLE and webinar opportunity on <b><a href=\"https://connect.justia.com/webinars/finding-and-researching-expert-witnesses\" target=\"_blank\">Finding and Researching Expert Witnesses</a>*</b> exclusively for Justia Connect members.",
+      "<b>One hour of general California MCLE credit is offered as an exclusive <a href=\"https://connect.justia.com/pro\" target=\"_blank\">Justia Connect Pro</a> benefit.</b> Other jurisdictions may award credit case-by-case through the self-submission process.",
+      "If you are not a Justia Connect Pro but wish to attend this webinar for CLE credit, you can upgrade to Pro for only $19.99/month at <b><a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>.</b>",
+      "Not a Justia Connect Pro? You can still learn from a leader in expert witness research!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/finding-and-researching-expert-witnesses",
+      "text": "Register Now",
+      "width": 200
+    },
+    "note": [
+      "*This presentation is approved for one hour of general MCLE credit in California."
+    ]
+  },
+  "registration-reminder": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/",
+      "text": "Claim My Seat",
+      "width": 200
+    }
+  },
+  "last-chance-to-register": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/",
+      "text": "RSVP Now",
+      "width": 250
+    }
+  },
+  "last-chance-for-cle": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/",
+      "text": "RSVP Now",
+      "width": 250
+    }
+  },
+  "reminder-registered": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "reminder-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "lorem ipsum dolor sit amen"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Register for Webinar",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  },
+  "webinar-today": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00pm ET/11:00am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "<b><a href=\"https://connect.justia.com/pro\" target=\"_blank\">Can’t make it anymore? Upgrade to Justia Connect Pro</a></b> to unlock access to the recording."
+    ]
+  },
+  "survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "nonattendance": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "pro-recording": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "pro-recording-missed": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "basic-recording": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro",
+      "text": "Go Pro Now",
+      "width": 250
+    },
+    "note": [
+      "*Conditions apply. See <a href=\"https://connect.justia.com/pro/terms/credit\" target=\"_blank\">Justia Connect Pro Credit Terms of Use</a> for details."
+    ]
+  },
+  "basic-recording-missed": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro Now",
+      "width": 250
+    },
+    "note": [
+      "lorem ipsum dolor sit amen"
+    ]
+  }
+}

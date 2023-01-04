@@ -1,0 +1,113 @@
+{
+  "registered": {
+    "layout": "social-below",
+    "style": "basic",
+    "logo": {
+      "name": "justia",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-footer-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    },
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/"
+      }
+    ],
+    "disclaimer": "You are receiving this email because you registered for a <b>Justia Webinars</b> presentation.<br>",
+    "address": {
+      "justiaLink": "https://www.justia.com/",
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  },
+  "pro": {
+    "layout": "social-below",
+    "style": "basic",
+    "logo": {
+      "name": "justia",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-footer-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    },
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/"
+      }
+    ],
+    "disclaimer": "You are receiving this email because you are a <b>Justia Connect Pro</b> member.<br>",
+    "address": {
+      "justiaLink": "https://www.justia.com/",
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  },
+  "basic": {
+    "layout": "social-below",
+    "style": "basic",
+    "logo": {
+      "name": "justia",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "insights-newsletter",
+          "content": "image-footer-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    },
+    "navigation": [
+      {
+        "text": "Contact Us",
+        "link": "https://www.justia.com/marketing/"
+      },
+      {
+        "text": "Unsubscribe",
+        "link": "*|UNSUB|*"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "https://www.justia.com/marketing/privacy-policy/"
+      }
+    ],
+    "disclaimer": "You are receiving this email because you are a <b>Justia Connect</b> member.<br>",
+    "address": {
+      "justiaLink": "https://www.justia.com/",
+      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    }
+  }
+}
