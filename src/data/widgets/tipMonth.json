@@ -8,6 +8,12 @@
     "description": [
       "Want to make an easy change that significantly impacts your marketing? Add a high-resolution, professional photo to your Justia Lawyer Directory profile today and start reaching more clients.",
       "Our data shows that lawyers with professional profile photos receive more profile views and convert more potential clients into new leads through phone calls, website clicks, and contact forms."
-    ]
+    ],
+    "button": {
+      "style": "red",
+      "link": "/",
+      "text": "Add Photo",
+      "width": 150
+    }
   }
 }
