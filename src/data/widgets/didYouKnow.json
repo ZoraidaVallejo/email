@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "banner": "did-you-know-icon.png",
+    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "What's New in Design"
+    },
+    "banner": "whats-new.png",
+    "title": "",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "New design options are now available for your website's Attorneys stripe. If you'd like to refresh the look and feel of this stripe, it's easy! Just <b><a href='https://elevatedesigns.justia.com/' target='_blank'>click here</a></b> to view your options and get started.",
+      "You can now include rotating images in the main header banner on your website! View <b><a href='https://elevate-aa.justia.design/' target='_blank'>this site</a></b> for example.",
+      "Four new sample websites are available in our design gallery! If you are interested in changing your design theme or adjusting your website elements, check out the newly added designs  <b><a href='https://elevatedesigns.justia.com/' target='_blank'>here</a></b>."
+    ]
+  }
+}
