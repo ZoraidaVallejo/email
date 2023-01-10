@@ -98,21 +98,17 @@
       "time": "2:00pm ET/11:00am PT"
     },
     "message": [
-      "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
-    ],
-    "bottomline": [
-      "lorem ipsum dolor sit amen"
+      "You won’t want to miss our first <b>MCLE Accredited Justia Webinar</b> on January 18, 2023! JurisPro Expert Witness Directory President Jim Robinson is helping Justia Connect members sharpen their litigation skills in <b>Finding and Researching Expert Witnesses.*</b>"
     ],
     "button": {
       "style": "red",
-      "link": "#",
-      "text": "Register for Webinar",
+      "link": "https://connect.justia.com/webinars/finding-and-researching-expert-witnesses",
+      "text": "Reserve My Seat",
       "width": 250
     },
     "note": [
-      "lorem ipsum dolor sit amen"
+      "<b>Alert:</b> While all Justia Connect members are invited to attend the presentation, <b>only Justia Connect Pro members</b> are eligible to receive one hour of California general MCLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
+      "*This presentation is approved for one hour of general MCLE credit in California."
     ]
   },
   "webinar-today": {
