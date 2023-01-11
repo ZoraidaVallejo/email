@@ -5,11 +5,11 @@
   },
   "jld": {
     "ad1": {
-      "title": "Get the Attention<br>You Deserve",
+      "title": "<span>In a Crowded World</span> Be the One That Stands Out",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 22,
       "background": {
-        "image": "get-the-attention-01.png",
+        "image": "refocus-01.jpg",
         "width": 600,
         "bgColor": "#000000",
         "cssSize": "auto 100%",
@@ -19,15 +19,21 @@
         {
           "type": "description",
           "config": [
-            "<p responsive=\"mobile-fz-15\">Remove competitors from your Justia Profile in the <strong>Justia Lawyer Directory</strong><br>by upgrading to <strong>Justia Connect Pro</strong>.</p>"
+            "<p responsive=\"mobile-fz-18\">Right now, people are looking for a lawyer like you. With <strong>Justia Premium Placements</strong>, you will stand out.</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<ul> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Get Up to 280x More Profile Views</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Remove Competitor Ads From Your Profile</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Discover the Ways Clients Find You</li> </ul>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Learn More",
-            "width": 210,
+            "text": "Tell Me More",
+            "width": 250,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -37,42 +43,86 @@
             "fontSize": 20,
             "responsive": ""
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><strong>(888) 587-8421</strong></a></p>"
+          ]
         }
       ]
     },
     "ad2": {
-      "title": "Kick Off the Fall Right",
       "link": "https://www.justia.com/",
-      "titleResponsiveSize": 22,
-      "background": {
-        "image": "test-01.gif",
-        "width": 600,
-        "bgColor": "#000000",
-        "cssSize": "auto 100%",
-        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
-      },
+      "titleResponsiveSize": 23,
+      "image": "refocus-01.jpg",
       "contentOrder": [
         {
-          "type": "description",
-          "config": [
-            "<p responsive=\"mobile-fz-15\">From back to school shopping for the family to your Labor Day weekend plans, you could be saving more! Activate your free <strong>Justia Connect</strong> member discounts today to take advantage of the offers available through <strong>Justia Lifestyle Savings</strong>.</p>"
-          ]
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "refocus-icon-01.png",
+            "description": [
+              "Optimized Featured Placements for Your Target Audience"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "refocus-icon-02.png",
+            "description": [
+              "Twice the Visibility by Being Listed in 2 Directories<br>(Justia & LII Directories)"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "refocus-icon-03.png",
+            "description": [
+              "No Competitor Ads on Your Profile, so All Eyes Will Be on You"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "refocus-icon-04.png",
+            "description": [
+              "Increased Conversion Rates With an Enhanced Profile"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "refocus-icon-05.png",
+            "description": [
+              "Effective Tools to Monitor Your Performance"
+            ]
+          }
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Activate Today",
+            "text": "Tell Me More",
             "width": 230,
             "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
             "fontSize": 20,
             "responsive": ""
           }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
         }
       ]
     }

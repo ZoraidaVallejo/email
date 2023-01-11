@@ -19,12 +19,10 @@
   "jld": {
     "layout": "logo-only",
     "logo": {
-      "name": "insights",
+      "name": "Lawyer Directory",
       "link": {
-        "url": "https://www.justia.com/marketing/connect/"
-      },
-      "path": "https://justatic.com/v/20220405/branding/logos/emails/justia-connect-blue.png",
-      "alt": false
+        "url": "https://www.justia.com/"
+      }
     }
   },
   "ad1": {
@@ -32,7 +30,7 @@
     "logo": {
       "name": "Lawyer Directory",
       "link": {
-        "url": "https://www.justia.com/marketing/connect/",
+        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-589-promo-253&utm_content=image-footer-logo-1",
         "utm": {
           "medium": "email",
           "campaign": "",
@@ -40,7 +38,7 @@
           "content": ""
         }
       },
-      "path": "https://justatic.com/v/20220405/branding/logos/emails/justia-connect-blue.png",
+      "path": false,
       "alt": false
     }
   },
