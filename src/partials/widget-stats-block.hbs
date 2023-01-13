@@ -71,10 +71,16 @@
         <table {{{tableAttr}}} class="content-wrapper-table">
           {{#if widgetConfig.title}}
             <tr>
-              <td class="title" responsive="mobile-padding-horizontal-sides mobile-reset-width">
-                <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
-                  {{{widgetConfig.title}}}
-                </a>
+              <td class="title" responsive="mobile-reset-width">
+                <table {{{tableAttr}}} class="title-wrapper-table">
+                  <tr>
+                    <td class="inside-title" responsive="mobile-padding-horizontal-sides mobile-reset-width">
+                      <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+                        {{{widgetConfig.title}}}
+                      </a>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           {{/if}}

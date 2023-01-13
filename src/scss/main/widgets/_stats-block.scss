@@ -26,11 +26,22 @@
         color: plt('justia-blue');
         text-align: left;
 
-        a {
+        .title-wrapper-table {
+            text-align: left;
+        }
+
+        .inside-title  {
+            @include mail-font(28px, 1.1, 700);
             display: block;
             padding: 7px 0 7px 20px;
             border-left: 4px solid #00b3e3;
+            text-align: left;
+        }
+
+        a {
+            display: block;
             color: plt('justia-blue');
+            text-align: left;
         }
     }
 
@@ -50,12 +61,14 @@
         margin: 20px auto 0;
         background-color: #b9c8de;
         // background-size: contain;
+        text-align: left;
 
         .progress-bar {
             display: block;
             height: 100%;
-            border-radius: 12px 0 0 12px;
+            border-radius: 12px;
             background-color: #00b3e3;
+            text-align: left;
         }
     }
 
@@ -123,8 +136,9 @@
         }
 
         &.-profile-completeness {
-            padding: $padding 0;
+            padding: 0 45px $padding;
             margin: 0 auto;
+            text-align: center;
 
             strong {
                 display: block;

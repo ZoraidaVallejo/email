@@ -1,5 +1,5 @@
 {
-  "link": "#",
+  "link": "https://answers.justia.com/",
   "name": "Kellam",
   "title": "a New Question for You",
   "titleResponsiveSize": 21,
@@ -16,17 +16,17 @@
       "type": "button",
       "config": {
         "style": "red",
-        "link": "#",
-        "width": "215px",
+        "link": "https://answers.justia.com/",
+        "width": "250px",
         "text": "Answer Question",
-        "extraLink": "#",
+        "extraLink": "https://answers.justia.com/",
         "extraLinkText": "View More Questions Like This"
       }
     },
     {
       "type": "questionInfo",
       "config": {
-        "date": "Asked on May 5, 2022",
+        "date": "Asked on May 5, 2022&nbsp;",
         "location": "Located in Virginia Beach, VA",
         "category": "Divorce, Family Law, Child Custody and Child Support"
       }
