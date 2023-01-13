@@ -169,9 +169,9 @@
         border-bottom: 0;
 
         .title {
-            @include mail-font(48px, 1, 400);
+            @include mail-font(48px, 1, 700);
             a {
-                @include mail-font(48px, 1, 400);
+                @include mail-font(48px, 1, 700);
             }
             line-height: 1;
         }
