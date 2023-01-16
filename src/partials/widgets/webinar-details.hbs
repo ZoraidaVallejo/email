@@ -15,6 +15,7 @@
  * @param {String}   widgetConfig.button.style
  * @param {String}   widgetConfig.button.link
  * @param {String}   widgetConfig.button.text
+ * @param {string}          widgetClass
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -25,7 +26,7 @@
 
 {{! ================================================================================================================= }}
 
-{{#table class="widget w-webinar set-max-width"}}
+{{#table class=(classList "widget" "w-webinar" widgetClass "set-max-width")}}
 
 {{!--
   // TODO: Maybe move title and description to a component.
