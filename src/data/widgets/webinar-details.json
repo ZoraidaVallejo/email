@@ -111,6 +111,28 @@
       "*This presentation is approved for one hour of general MCLE credit in California."
     ]
   },
+  "second-reminder-unregistered": {
+    "banner": "",
+    "details": {
+      "date": "January 18, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "You are in the final hours to register for our next Justia Webinar, <b>Finding and Researching Expert Witnesses</b>. On January 18, JurisPro Expert Witness Directory President Jim Robinson will lead Justia Connect members in exploring some expert witness best practices for the early stages of litigation."
+    ],
+    "bottomline": [
+      "<b>This presentation is approved for one hour of general California MCLE credit.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/finding-and-researching-expert-witnesses",
+      "text": "Save My Seat",
+      "width": 250
+    },
+    "note": [
+      "<b>Alert:</b> While all Justia Connect members are invited to attend the presentation, <b>only Justia Connect Pro members</b> are eligible to receive CLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>."
+    ]
+  },
   "webinar-today": {
     "banner": "",
     "details": {
