@@ -196,13 +196,13 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "As a Justia Connect Pro, you now have free access to stream the recent Justia Webinars presentation on  <b>Finding and Researching Expert Witnesses</b>.",
+      "For no additional cost, you can sharpen your expert witness research skills for the new year by learning from industry leader Jim Robinson, President of the JurisPro Expert Witness Directory. Watch the recording whenever, wherever you would like!"
     ],
     "button": {
       "style": "red",
-      "link": "#",
-      "text": "Watch Now",
+      "link": "https://connect.justia.com/webinars/finding-and-researching-expert-witnesses",
+      "text": "Stream Now",
       "width": 250
     }
   },
