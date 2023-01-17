@@ -244,18 +244,16 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Did you know Justia Connect Pros get unlimited access to all Justia Webinar recordings, including the recent presentation on <b>Finding and Researching Expert Witnesses?</b>",
+      "You can sharpen your expert witness research skills for the new year by learning from industry leader Jim Robinson, President of the JurisPro Expert Witness Directory, in this on-demand presentation.",
+      "Simply upgrade to Justia Connect Pro for only $19.99/month today."
     ],
     "button": {
       "style": "red",
       "link": "https://connect.justia.com/pro",
       "text": "Go Pro Now",
       "width": 250
-    },
-    "note": [
-      "*Conditions apply. See <a href=\"https://connect.justia.com/pro/terms/credit\" target=\"_blank\">Justia Connect Pro Credit Terms of Use</a> for details."
-    ]
+    }
   },
   "basic-recording-missed": {
     "banner": "",
