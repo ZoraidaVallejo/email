@@ -1,0 +1,41 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "recordings-icon.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=2023-01&utm_source=quarterly-connect-basic&utm_content=section-webinars-title-1' target='_blank'>​<b>Law Firm SEO: 2022 in Review & What to Expect in 2023</b></a>",
+          "<p>Need a refresher on SEO over the past year? Want to explore what’s on the SEO horizon in 2023? Tune in to this on-demand Justia Webinar, where our CEO and members of the Justia SEO Team review the SEO industry trends of 2022 that shaped legal marketing and look ahead to the year to come.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=2023-01&utm_source=quarterly-connect-basic&utm_content=section-webinars-button-1",
+          "text": "Register Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<a class='title' href='?utm_medium=email&utm_campaign=2023-01&utm_source=quarterly-connect-basic&utm_content=section-webinars-title-2' target='_blank'>​<b>Technical SEO for Law Firm Websites</b></a>",
+          "<p>Interested in learning more about optimizing your law firm website for search engines? Stream this on-demand Justia Webinar in which Justia CEO Tim Stanley offers new insights into aspects of technical SEO, including speed, security, accessibility, and more!</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/technical-seo-for-law-firm-websites?utm_medium=email&utm_campaign=campaign-1052-promo-452&utm_source=quarterly-connect-basic&utm_content=section-webinars-title-2",
+          "text": "Register Now",
+          "width": 160
+        },
+        "border": false
+      }
+    ]
+  }
+}

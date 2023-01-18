@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "write-law.png",
+        "alt": "Write.law",
+        "title": "Legal Deals",
+        "border": true,
+        "description": [
+          "Want to sharpen your legal skills and fast-track your other professional development efforts? Justia Connect members get 15% off of Write.Law, a platform offering bite-sized training to help lawyers improve their legal writing and technology skills while modernizing their practice."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/write-law/write-law-15-percent-off/?utm_medium=email&utm_campaign=2023-01&utm_source=quarterly-connect-basic&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 150
+        }
+      },
+      {
+        "banner": "enjoying-cookies.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Treat yourself or someone special next month! Save 15% on any order of $40.00 or more from Cookies by Design, courtesy of your Justia Connect membership."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/2:13242633?utm_medium=email&utm_campaign=2023-01&utm_source=quarterly-connect-basic&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 150
+        }
+      }
+    ]
+  }
+}

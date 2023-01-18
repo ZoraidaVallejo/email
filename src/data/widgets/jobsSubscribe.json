@@ -1,0 +1,16 @@
+{
+  "widget": {
+    "icon": "justia-legal-jobs-newsletter",
+    "header": "Justia Legal Jobs Newsletter",
+    "link": "https://jobs.justia.com/?utm_medium=email&utm_source=quarterly-connect-basic&utm_campaign=2022-02&utm_content=title-jobs-subcribe-1"
+  },
+  "banner": "jobs-icon.png",
+  "description": [
+    "The <a target='_blank' href='https://jobs.justia.com/?utm_medium=email&utm_source=quarterly-connect-basic&utm_campaign=2022-02&utm_content=text-jobs-subcribe-1'>Justia Legal Jobs</a> newsletter features job listings from across the US for lawyers, law students, and other legal professionals. This newsletter is free for job seekers!"
+  ],
+  "button": {
+    "style": "red",
+    "link": "http://eepurl.com/dJneqj",
+    "text": "Subscribe"
+  }
+}
