@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "The State of Legal Marketing 2022",
+      "link": "https://onward.justia.com/the-state-of-legal-marketing-2022/",
+      "description": "Join us for an end-of-year survey looking at some of the trends that shaped digital and legal marketing in 2022. Plus, check out our...",
+      "index": "1"
+    },
+    {
+      "title": "Justia’s 2022 Year in Review",
+      "link": "https://onward.justia.com/justias-2022-year-in-review/",
+      "description": "Take a peek behind the doors at Justia to see some of our highlights over the past year, including accomplishments, changes, and time spent with our team!",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

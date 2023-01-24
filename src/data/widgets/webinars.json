@@ -1,0 +1,58 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Upcoming Webinars",
+        "icon": {
+          "src": "webinar-icon.png",
+          "alt": "Upcoming Webinars"
+        },
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/write-like-the-best-legal-writers?utm_medium=email&utm_campaign=2023-01&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-1' target='_blank'>​<b>Write Like the Best Legal Writers</b></a>",
+          "<p>Ready to improve your legal writing skills in 2023? Join us for a presentation just for Justia Connect members, offering insights into the craft of legal writing, how lawyers can improve their legal writing skills, and why writing matters. This presentation is approved for 1 hour of General MCLE Credit in California.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers?utm_medium=email&utm_campaign=2023-01&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-1",
+          "text": "Register Now",
+          "width": 160
+        },
+        "border": true
+      },
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "recordings-icon.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/finding-and-researching-expert-witnesses?utm_medium=email&utm_campaign=2023-01&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2' target='_blank'>​<b>Finding and Researching Expert Witnesses</b></a>",
+          "<p>Are you a litigator looking to sharpen your expert witness research skills? Stream this webinar in which Jim Robinson, President of JurisPro Expert Witness Directory, leads Justia Connect members in an exploration of best practices for the early stages of using expert witnesses.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/finding-and-researching-expert-witnesses?utm_medium=email&utm_campaign=campaign-1052-promo-452&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-2",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=2023-01&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'><b>​​Law Firm SEO: 2022 in Review & What to Expect in 2023</a></b>",
+          "<p>Need a refresher on SEO over the past year? Want to explore what’s on the SEO horizon in 2023? Tune in to this on-demand Justia Webinar, where our CEO and members of the Justia SEO Team review the SEO industry trends of 2022 that shaped legal marketing and look ahead to the year to come.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/law-firm-seo-2022-in-review-what-to-expect-in-2023?utm_medium=email&utm_campaign=2023-01&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-4",
+          "text": "Watch Now",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

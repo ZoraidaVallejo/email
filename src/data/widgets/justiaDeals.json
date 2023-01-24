@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legalpal.png",
+        "alt": "Legal Pal",
+        "title": "Legal Pal",
+        "border": true,
+        "description": [
+          "Get 50% off the monthly fee for Legal Pal, a financing solution to help you get your fee paid in full upfront while offering your clients the option to take advantage of more affordable payment plans. "
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/legalpal/legalpal-50-percent-off?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "anti-virus.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Need to renew or upgrade your anti-virus software? As a Justia Connect Pro, you can save up to $85 on McAfee Total Protection for up to 5 devices. "
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/2:13743245?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

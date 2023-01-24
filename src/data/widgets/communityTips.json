@@ -1,0 +1,26 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Exclusive Pro Benefit: Virtual CLE Credit",
+    "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "We are now  offering MCLE credit for select webinars as an exclusive benefit for our Justia Connect Pro members! Currently, our CLE programs are only accredited in California but attorneys may submit courses for approval in other states through their association’s self-submission process.",
+      "Our next CLE is on February 3. See you there!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+      "text": "Register Now",
+      "width": 160,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
