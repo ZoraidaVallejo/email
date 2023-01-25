@@ -5,35 +5,26 @@
   },
   "jld": {
     "ad1": {
-      "title": "<span>In a Crowded World</span> Be the One That Stands Out",
-      "link": "https://www.justia.com/",
-      "titleResponsiveSize": 22,
-      "background": {
-        "image": "refocus-01.jpg",
-        "width": 600,
-        "bgColor": "#000000",
-        "cssSize": "auto 100%",
-        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
-      },
+      "image": "not-just-another-01.jpg",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p responsive=\"mobile-fz-18\">Right now, people are looking for a lawyer like you. With <strong>Justia Premium Placements</strong>, you will stand out.</p>"
+            "<p responsive=\"mobile-fz-18\"><strong>The Justia Lawyer Directory</strong> is one of the most visited directories available online, toffering attorneys with <strong>Justia Premium Placements up to 280x more visibility</strong> before millions of visitors every month.</p>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "<ul> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Get Up to 280x More Profile Views</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Remove Competitor Ads From Your Profile</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Discover the Ways Clients Find You</li> </ul>"
+            "<p><strong>Find Out for Yourself Why Justia Is the Best Directory for Lawyers in 2023!</strong></p>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Tell Me More",
-            "width": 250,
+            "text": "Request a Free Consultation",
+            "width": 300,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",

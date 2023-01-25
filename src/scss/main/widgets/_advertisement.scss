@@ -163,17 +163,19 @@
 
     &.-jld-ad-01 {
         .content {
-            color: plt('white');
+            color: plt('black');
+
+            &.-first {
+                padding: 35px 38px 20px;
+                text-align: center;
+            }
 
             &.-idx-2 {
-                display: block;
-                max-width: 235px;
-                padding: 0 0 25px 45px;
-                text-align: left;
+                padding: 20px 50px 18px;
             }
 
             a strong {
-                color: plt('white')!important;
+                color: plt('black')!important;
             }
         }
 
