@@ -68,5 +68,18 @@
     "note": [
       "lorem ipsum dolor sit amen"
     ]
+  },
+  "reminder-01": {
+    "banner": "",
+    "details": {
+      "date": "February 3, 2023",
+      "time": "2:00 PM ET/11:00 AM PT"
+    },
+    "message": [
+      "Hi Name,",
+      "You are registered for <b>Write Like the Best Legal Writers*</b> with Adjunct Writing Professor, David Kemp on Friday, February 3, 2023 at 11:00 a.m. PT. <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Review the agenda here</a> and don’t forget to mark your calendar for this can’t-miss presentation!",
+      "<b>Reminder:</b> While all Justia Connect members are invited to attend the presentation, <b>only Justia Connect Pro members</b> are eligible to receive CLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
+      "*This presentation is approved for one hour of general MCLE credit in California."
+    ]
   }
 }
