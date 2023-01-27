@@ -15,11 +15,27 @@
     },
     {
       "image": {
+        "src": "onward-04.png",
+        "alt": "Justia Legal Guides: Traffic Tickets Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-traffic-tickets-center/",
+      "blockTitle": "Justia Legal Guides: Traffic Tickets Center"
+    },
+    {
+      "image": {
         "src": "onward-02.png",
         "alt": "New Form Justia Webinars: Finding and Researching Expert Witnesses CLE"
       },
       "readMore": "https://onward.justia.com/new-from-justia-webinars-finding-and-research-expert-witnesses-cle/",
       "blockTitle": "New Form Justia Webinars: Finding and Researching Expert Witnesses CLE"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "50 Legal Guides to Help Americans Understand Their Rights"
+      },
+      "readMore": "https://onward.justia.com/50-legal-guides-to-help-americans-understand-their-rights/",
+      "blockTitle": "50 Legal Guides to Help Americans Understand Their Rights"
     }
   ]
 }
