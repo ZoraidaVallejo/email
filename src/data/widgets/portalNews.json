@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "list",
+      "config": [
+        "<strong>Additional Snippets.</strong> We have improved the accessibility and clarity of our <a href=\"https://www.justia.com/intellectual-property/\" target=\"_blank\">Intellectual Property</a>, <a href=\"https://www.justia.com/education/\" target=\"_blank\">Education Law</a>, and <a href=\"https://www.justia.com/trials-litigation/\" target=\"_blank\">Lawyers and the Legal Process</a> centers by writing more snippets highlighting critical points in these areas.",
+        "<strong>New Video Project.</strong> We have started writing scripts for videos on some of the major practice areas, such as family law, criminal law, and personal injury. These will help bring the content of our Justia Legal Guides to life.",
+        "<strong>Child Safety Center Is Live!</strong> Check out <a href=\"https://www.justia.com/child-safety/\" target=\"_blank\">our newest Justia Legal Guide</a> on what parents can do to protect their children and legal claims when children are injured."
+      ]
+    }
+  ]
+}

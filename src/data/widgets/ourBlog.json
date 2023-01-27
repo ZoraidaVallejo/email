@@ -1,0 +1,25 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "The State of Legal Marketing"
+      },
+      "readMore": "https://onward.justia.com/the-state-of-legal-marketing-2022/",
+      "blockTitle": "The State of Legal Marketing"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "New Form Justia Webinars: Finding and Researching Expert Witnesses CLE"
+      },
+      "readMore": "https://onward.justia.com/new-from-justia-webinars-finding-and-research-expert-witnesses-cle/",
+      "blockTitle": "New Form Justia Webinars: Finding and Researching Expert Witnesses CLE"
+    }
+  ]
+}

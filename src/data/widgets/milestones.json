@@ -1,0 +1,57 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "CLE Justia Webinar. ",
+        "description": "We hosted our first CLE-eligible webinar this month. It is a result of our certification efforts, a new CLE Center in <a href=\"https://connect.justia.com/cle-center\" target=\"_blank\"><b>Justia Connect</b></a>, and other updates to make it easy for lawyers to fulfill their education requirements with Justia. Of course, we focused all our marketing efforts on promoting the first CLE webinar through web banners and email marketing."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Lawyer Directory Payments. ",
+        "description": "We migrated our contracts and payment processing over to DocuSign and Stripe, respectively. This significant improvement will allow us to improve our clients’ experience and retention."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Goals Tracking. ",
+        "description": "Our Data Team set up an interface to make it easy for company goal owners to track progress. Last month they also released the Justia Goals, Justia Ask A Lawyer, and the Justia Daily Opinion Summaries newsletters automated dashboards. These efforts are crucial to keeping an eye out for the goals."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "RDS Generational Upgrades. ",
+        "description": "We performed server maintenance for several of our database servers from a wide range of Justia properties to comply with AWS requirements this month. This is in addition to the usual monthly maintenance."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "Server OS Upgrade. ",
+        "description": "We upgraded our base server template to run on the latest major version of the Ubuntu operating system. We also successfully upgraded the first server to this upgraded image."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "Automation QA. ",
+        "description": "We actively continue working on improved support for automated QA for Justia Elevate. Also, we added support for Apache Tika, a tool that helps us process and QA PDF files, to continue ensuring the quality of our free law database resources."
+      }
+    }
+  ]
+}

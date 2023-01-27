@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Hot Fuzz (2007)"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.youtube.com/watch?v=ayTnvVpj9t4",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.youtube.com/watch?v=ayTnvVpj9t4\" target=\"_blank\"><b>Place</b></a>",
+        "description": [
+          "<i>\"No. It’s not that kind of movie! Simon Pegg plays an amazing police officer who gets moved to the quietest village anywhere. As he tries to unwind and live a quiet, normal life, his police instincts constantly act up and make him see crime everywhere. A movie that didn’t make the A-list, and many don’t even know it exists. It has a great cast of notable actors and actresses. If you watch it more than once, you will begin to see more and more foreshadowing and items you missed, making our police officer seem either crazier or more amazing.\"</i>",
+          "- John Pruitt"
+        ]
+      }
+    }
+  ]
+}

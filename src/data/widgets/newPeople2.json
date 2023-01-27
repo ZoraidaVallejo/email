@@ -1,0 +1,26 @@
+{
+  "widget": {
+    "type": "NEW INTERNS  |  NEW FULL TIME EMPLOYEES",
+    "header": "Getting to Know the New Talent at Justia"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-justians-01.png",
+        "title": "Irvin Garcia",
+        "blockSubtitle": "SEO Intern",
+        "description": "Hi! My name is Irvin García. I'm 20 years old, and I am from Saltillo, Coahuila. I'm currently studying Computer Systems Engineering. I'm really into new technologies and love coding, assembling computers, and learning new things. In my free time, I love to watch movies, hang out with friends, and take pictures of beautiful places. I'm constantly building up my career and am not afraid of new challenges."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "new-justians-02.png",
+        "title": "Fernando Vargas",
+        "blockSubtitle": "SEO Intern",
+        "description": "Hello everyone! My name is Fernando Vargas. I’m 21 years old, I’m from Valle de Santiago, Guanajuato. I’m studying Computer Systems Engineering. I’m motivated to learn new things about SEO and front-end development. I love playing video games and reading sci-fi books. I am inquisitive, and I love teamwork. I hate being left with doubts or not completing activities."
+      }
+    }
+  ]
+}
