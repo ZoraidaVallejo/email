@@ -1,0 +1,44 @@
+{
+  "version-01-registration": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "8th-webinar-registration.png"
+  },
+  "version-02-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "8th-webinar-registered.png"
+  },
+  "version-03-survey": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-survey.png",
+    "title": "Your Opinion Matters to Us."
+  },
+  "version-04-recording-available": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "8th-webinar-recording-available.png",
+    "title": "Lorem ipsum dolor sit amet"
+  }
+}
