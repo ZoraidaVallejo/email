@@ -67,7 +67,7 @@
 
         p,
         ul li {
-            @include mail-font(20px, 1.5);
+            @include mail-font(16px, 1.5);
         }
 
         .red-info {
@@ -129,7 +129,7 @@
         }
 
         &.-first {
-            padding: 15px 48px 50px;
+            padding: 45px 48px 35px;
             text-align: left;
 
             img {
@@ -152,7 +152,7 @@
         }
 
         &.-button {
-            padding: 0px $padding 20px;
+            padding: 0px $padding 40px;
         }
 
         a b {
@@ -161,45 +161,45 @@
         }
     }
 
-    &.-jld-ad-01 {
-        .content {
-            color: plt('white');
+    // &.-jld-ad-01 {
+    //     .content {
+    //         color: plt('white');
 
-            &.-idx-2 {
-                display: block;
-                max-width: 235px;
-                padding: 0 0 25px 45px;
-                text-align: left;
-            }
+    //         &.-idx-2 {
+    //             display: block;
+    //             max-width: 235px;
+    //             padding: 0 0 25px 45px;
+    //             text-align: left;
+    //         }
 
-            a strong {
-                color: plt('white')!important;
-            }
-        }
+    //         a strong {
+    //             color: plt('white')!important;
+    //         }
+    //     }
 
-        ul li {
-            padding-bottom: 28px;    
-        }
-    }
+    //     ul li {
+    //         padding-bottom: 28px;    
+    //     }
+    // }
 
-    &.-jld-ad-02 {
-        // .title {
-        //     background-color: #00317a;
-        // }
+    // &.-jld-ad-02 {
+    //     // .title {
+    //     //     background-color: #00317a;
+    //     // }
 
-        .content {
-            padding: 0 75px 25px;
-            color: plt('justia-blue');
-        }
+    //     .content {
+    //         padding: 0 75px 25px;
+    //         color: plt('justia-blue');
+    //     }
 
-        .content.-first {
-            padding: 40px 48px 35px;
-        }
+    //     .content.-first {
+    //         padding: 40px 48px 35px;
+    //     }
 
-        ul {
-            padding-left: 0;
-            margin-top: 1.2em;
-            list-style: none;
-        }
-    }
+    //     ul {
+    //         padding-left: 0;
+    //         margin-top: 1.2em;
+    //         list-style: none;
+    //     }
+    // }
 }
