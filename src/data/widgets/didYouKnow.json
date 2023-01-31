@@ -1,7 +1,7 @@
 {
   "jld": {
     "widget": {
-      "icon": "/images/did-you-know-icon.png",
+      "icon": "/did-you-know-icon.png",
       "header": "Did You Know?"
     },
     "description": [
@@ -11,6 +11,7 @@
       "style": "justia-blue-ghost",
       "link": "#",
       "text": "Upgrade",
+      "fontSize": 20,
       "utm": {}
     }
   }

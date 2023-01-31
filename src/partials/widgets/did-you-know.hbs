@@ -17,14 +17,14 @@
 {{#table class="widget w-did-you-know set-max-width"}}
   {{>widget-header
     header=widgetConfig.widget.header
-    icon=widgetConfig.widget.icon
+    iconSrc=widgetConfig.widget.icon
   }}
 
   {{!--
   // TODO: Maybe move title and description to a component.
   --}}
   <tr>
-    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-top mobile-padding-20-horizontal-sides">
       {{#if widgetConfig.title}}
         <h3 class="content-title">
           {{#if widgetConfig.link}}<a href="{{{widgetConfig.link}}}" target="_blank">{{/if}}
@@ -44,8 +44,8 @@
   }}
   {{#if @root.widgetWithButton}}
     <tr>
-      <td class="widget-button" responsive="mobile-padding-horizontal-sides">
-        {{#uiButton presetStyle=widgetConfig.button.style href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
+      <td class="widget-button" responsive="mobile-padding-20-horizontal-sides">
+        {{#uiButton presetStyle=widgetConfig.button.style fontSize=widgetConfig.button.fontSize href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
           {{widgetConfig.button.text}}
         {{/uiButton}}
       </td>

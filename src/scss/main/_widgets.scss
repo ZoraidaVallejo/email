@@ -14,19 +14,19 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-header {
-    padding: $widget-gap $padding $padding;
+    padding: 30px 50px 0;
 
     .header-icon-column {
-        width: 55px;
+        width: 35px;
         vertical-align: middle;
 
         img {
-            width: 55px;
+            width: 35px;
         }
     }
 
     .header-text-column {
-        padding: 0 0 0 15px;
+        padding: 0 0 0 10px;
         vertical-align: middle;
     }
 
@@ -39,7 +39,7 @@
     .header {
         color: plt('justia-blue');
 
-        @include mail-font(32px, 1.2, tp('weight', 'bold'));
+        @include mail-font(20px, 1.2, tp('weight', 'bold'));
 
         a {
             color: plt('justia-blue');
@@ -60,7 +60,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-description {
-    padding: 0 $padding 25px;
+    padding: 0 85px 25px 95px;
 
     .content-title {
         @include mail-font(22px, 1.2, tp('weight', 'bold'));
@@ -93,7 +93,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-button {
-    padding: 0 $padding $widget-gap;
+    padding: 0 95px 30px;
 }
 
 // ----------------------------------------------------------------------------------------------------------
