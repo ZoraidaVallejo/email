@@ -50,5 +50,15 @@
     },
     "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
     "image": "8th-webinar-registered.png"
+  },
+  "registration-reminder-01": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+    "image": "8th-webinar-registration.png"
   }
 }

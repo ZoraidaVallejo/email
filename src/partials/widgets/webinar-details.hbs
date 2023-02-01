@@ -16,6 +16,7 @@
  * @param {String}   widgetConfig.button.link
  * @param {String}   widgetConfig.button.text
  * @param {string}          widgetClass
+ * @param {String[]} widgetConfig.message2
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -104,6 +105,14 @@
               {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
                 {{widgetConfig.button.text}}
               {{/uiButton}}
+          </div>
+        {{/if}}
+
+        {{#if widgetConfig.message2}}
+          <div class="-message">
+            {{#each widgetConfig.message2}}
+              <p>{{{this}}}</p>
+            {{/each}}
           </div>
         {{/if}}
 
