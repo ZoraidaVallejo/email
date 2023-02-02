@@ -89,8 +89,7 @@
       "time": "2:00 PM ET/11:00 AM PT"
     },
     "message": [
-      "Don’t miss our upcoming Justia Webinar presentation: <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Write Like the Best Legal Writers*</a> on February 3, 2023! Attendees will enhance their legal writing skills by exploring the craft of legal writing with Rutgers Law and UC Berkeley Law Adjunct Professor David Kemp.",
-      "<b>All Justia Connect members are invited to join us for this free webinar!</b>"
+      "Don’t miss our upcoming Justia Webinar presentation: <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Write Like the Best Legal Writers*</a> At 11:00 am PT, Rutgers Law and UC Berkeley Law Adjunct Professor David Kemp will discuss how lawyers can improve their legal writing skills and why writing matters in the practice of law."
     ],
     "button": {
       "style": "red",
@@ -101,6 +100,30 @@
     "message2": [
       "<b>Alert:</b> While all Justia Connect members are invited to attend the presentation, only Justia Connect Pro members are eligible to receive one hour of California general MCLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
       "<i>*This presentation is approved for one hour of general MCLE credit in California.</i>"
+    ]
+  },
+  "last-chance-to-attend": {
+    "banner": "",
+    "details": {
+      "date": "February 3, 2023",
+      "time": "2:00 PM ET/11:00 AM PT"
+    },
+    "message": [
+      "Name,",
+      "You are in the final hours to register for our next Justia Webinar, <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Write Like the Best Legal Writers*</a> on February 3, 2023! Attendees will enhance their legal writing skills by exploring the craft of legal writing with Rutgers Law and UC Berkeley Law Adjunct Professor David Kemp."
+    ],
+    "bottomline": [
+      "<b>Act Now Before It Is Too Late!</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+      "text": "Save My Seat",
+      "width": 250
+    },
+    "message2": [
+      "<b>Alert:</b> While all Justia Connect members are invited to attend the presentation, <b>only Justia Connect Pro members</b> are eligible to receive CLE credit for this webinar. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
+      "<i>*This presentation is approved for one hour of General MCLE Credit in California.</i>"
     ]
   }
 }
