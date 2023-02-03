@@ -169,5 +169,20 @@
       "text": "Share My Feedback",
       "width": 250
     }
+  },
+  "nonattendance-reason": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "You recently registered for our recent Justia Webinars presentation <b>Write Like the Best Legal Writers</b>, but weren’t able to join us. We missed having you with us on presentation day!",
+      "Things come up and life happens. We get it! If possible, could you take a few moments to tell us why you were unable to attend this webinar?",
+      "Your feedback matters as we continue to improve Justia Webinars and plan future events for Justia Connect members. Our team appreciates it more than you know!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSeNe7yaJRR0DiGlfJ_Jvja5ddRz3Jzkq971bRXkbsOS9Fmw0A/viewform?usp=sf_link",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
