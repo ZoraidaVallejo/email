@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "banner": "https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png",
+  "description": [
+    "<b><a href='https://www.jurispro.com/' target='_blank'>JurisPro</a></b> provides a free directory of expert witnesses in over 10,000 areas of expertise."
+  ],
+  "cases": [
+    {
+      "title": "Banking Expert Witness Testimony Allowed in Commercial Deposit Case",
+      "link": "https://www.expertwitnessblog.com/banking-expert-witness-testimony-allowed-in-commercial-deposit-case/"
+    },
+    {
+      "title": "Radiology Expert Witness Testimony Allowed in Kidnapping Case",
+      "link": "https://www.expertwitnessblog.com/radiology-expert-witness-testimony-allowed-in-kidnapping-case/"
+    },
+    {
+      "title": "Professional Engineering Expert Witness Testimony Allowed in Part in Hail Storm Insurance Dispute",
+      "link": "https://www.expertwitnessblog.com/professional-engineering-expert-witness-testimony-allowed-in-part-in-hail-storm-insurance-dispute/"
+    },
+    {
+      "title": "Electrical Engineering Expert Witness Testimony Allowed in Aquarium Fire Litigation",
+      "link": "https://www.expertwitnessblog.com/electrical-engineering-expert-witness-testimony-allowed-in-aquarium-fire-litigation/"
+    }
+  ]
+}
