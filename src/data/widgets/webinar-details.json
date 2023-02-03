@@ -156,5 +156,18 @@
     "message2": [
       "If you have any questions about verification, please <a href=\"https://support.justia.com/\" target=\"_blank\">contact Justia Support</a>."
     ]
+  },
+  "survey": {
+    "banner": "",
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation: <b>Write Like the Best Legal Writers!</b> We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScEJ6YWWg1efj0DiZcUpUICCdkndmUckQtDJ5x3RG_SLG1ynA/viewform?usp=sf_link",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
