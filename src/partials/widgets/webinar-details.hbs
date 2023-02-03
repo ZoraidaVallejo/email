@@ -17,6 +17,7 @@
  * @param {String}   widgetConfig.button.text
  * @param {string}          widgetClass
  * @param {String[]} widgetConfig.message2
+ * @param {String[]} widgetConfig.list
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -87,6 +88,16 @@
         {{#each widgetConfig.message}}
           <p>{{{this}}}</p>
         {{/each}}
+
+        {{#if widgetConfig.list}}
+          <div class="-list">
+            <ol class="align-left">
+            {{#each widgetConfig.list}}
+              {{{this}}}
+            {{/each}}
+            </ol>
+          </div>
+        {{/if}}
 
         {{#if widgetConfig.bottomline}}
           <div class="-bottomline">
