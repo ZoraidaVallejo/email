@@ -112,5 +112,16 @@
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScEJ6YWWg1efj0DiZcUpUICCdkndmUckQtDJ5x3RG_SLG1ynA/viewform?usp=sf_link",
     "image": "webinar-survey.png",
     "title": "Tell Us Your Opinion"
+  },
+  "pro-recording-available": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+    "image": "8th-webinar-recording-available.png",
+    "title": "Watch Write Like the Best Legal Writers"
   }
 }

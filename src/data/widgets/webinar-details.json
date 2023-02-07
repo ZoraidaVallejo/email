@@ -184,5 +184,20 @@
       "text": "Share My Feedback",
       "width": 250
     }
+  },
+  "pro-recording-available": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "As a Justia Connect Pro, you now have free access to stream the recent Justia Webinars presentation <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Write Like the Best Legal Writers</a>.",
+      "Dive deeper into the craft of legal writing and learn practical strategies to improve your legal writing skills! Plus, you’ll get insights into effective tools that can help you write better today.",
+      "Start streaming wherever, whenever convenient for you!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+      "text": "Stream Now",
+      "width": 250
+    }
   }
 }
