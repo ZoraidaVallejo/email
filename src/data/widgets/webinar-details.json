@@ -199,5 +199,19 @@
       "text": "Stream Now",
       "width": 250
     }
+  },
+  "basic-recording-available": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Did you know Justia Connect Pros get unlimited access to all Justia Webinar recordings, including the recent presentation on <a href=\"https://connect.justia.com/webinars/write-like-the-best-legal-writers\" target=\"_blank\">Write Like the Best Legal Writers</a>?",
+      "By upgrading to Justia Connect Pro for only $19.99 today, you can dive deeper into the craft of legal writing and learn practical strategies to improve your legal writing skills! Plus, you’ll get insights into effective tools that can help you write better today."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro",
+      "text": "Go Pro Now",
+      "width": 250
+    }
   }
 }

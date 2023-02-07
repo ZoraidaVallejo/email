@@ -123,5 +123,16 @@
     "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
     "image": "8th-webinar-recording-available.png",
     "title": "Watch Write Like the Best Legal Writers"
+  },
+  "basic-recording-available": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/write-like-the-best-legal-writers",
+    "image": "8th-webinar-recording-available.png",
+    "title": "Learn How to Write Like the Best Legal Writers"
   }
 }
