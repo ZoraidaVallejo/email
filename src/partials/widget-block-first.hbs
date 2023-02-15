@@ -121,7 +121,7 @@
 
                 {{#compare this.type "===" "button"}}
                   <tr>
-                    <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides">
                       {{#uiButton
                         href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
                         presetStyle=this.config.style
@@ -155,7 +155,7 @@
                   <tr>
                     <td class="content -question-info -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
                       <div>
-                        <p><span>{{{this.config.date}}}</span><b responsive="mobile-hide"></b><span responsive="collapse-one mobile-no-padding">{{{this.config.location}}}</span></p>
+                        <p><span>{{{this.config.date}}}</span><b responsive="mobile-hide">, </b><span responsive="collapse-one mobile-no-padding">{{{this.config.location}}}</span></p>
                         <p>Asked in {{{this.config.category}}}</p>
                       </div>
                     </td>

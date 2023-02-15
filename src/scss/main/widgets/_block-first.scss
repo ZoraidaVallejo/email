@@ -166,7 +166,7 @@
         }
 
         &.-button {
-            padding: $padding 0;
+            padding: $padding 120px;
 
             p {
                 margin-top: 15px;
@@ -185,16 +185,12 @@
                 margin: 0;
                 text-align: center;
 
-                b {
-                    display: inline-block;
-                    height: 12px;
-                    padding: 0 0.6em 0 0;
-                    border-right: 1px solid plt('black');
+                // b {
 
-                    + span {
-                        padding: 0 0 0 1em;
-                    }
-                }
+                //     + span {
+                //         padding: 0 0 0 1em;
+                //     }
+                // }
             }
         }
     }
