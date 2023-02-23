@@ -121,8 +121,8 @@
             padding: 15px 50px 18px;
         }
 
-        &.-last {
-            padding: 0 $padding $widget-gap;
+        &.-idx-3 {
+            padding: 0 $padding 30px;
 
             a {
                 font-weight: get('font.weight.bold');
@@ -142,6 +142,10 @@
                 margin-top: 30px;
                 @include mail-font(14px);
             }
+        }
+
+        &.-last {
+            padding: 0 $padding $widget-gap;
         }
     }
 

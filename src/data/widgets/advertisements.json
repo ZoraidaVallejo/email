@@ -5,9 +5,15 @@
       "link": "https://www.justia.com/marketing/contact/elevate/",
       "utm": {
         "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "image-header-banner-1"
+      },
+      "buttonUtm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "button-learn-more-1"
       },
       "image": "elevate-banner.jpg",
       "imageAlt": "Justia Elevate",
@@ -16,7 +22,7 @@
           "type": "description",
           "config": [
             "<p class='heading -h1'><b>For two decades our team has been working exclusively with <span>law firms.</span></b></p> <p class='heading -h2'>Simply put, we know what brings you <span>more clients.</span> </p><a href='#'><img class=' deco' src='../dist/images/line-dec.png' alt='icon'></a>",
-            "<p><b>Now, for as little as $990/year</b>, you have the power to leverage our experience to grow your practice with a Justia Elevate website.</p>"
+            "<p><b>Now, for as little as $99/month*</b>, you have the power to leverage our experience to grow your practice with a Justia Elevate website.</p>"
           ]
         },
         {
@@ -39,6 +45,12 @@
           "type": "description",
           "config": [
             "<p><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>* Or pay $990/year and get two months free.</p>"
           ]
         }
       ]

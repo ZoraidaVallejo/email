@@ -24,8 +24,8 @@
         "url": "https://www.justia.com/marketing/elevate/",
         "utm": {
           "medium": "email",
-          "campaign": "<%= dateFormat.dash %>",
-          "source": "",
+          "campaign": "campaign-1163-promo-546",
+          "source": "promo-marketing-elevate",
           "content": "image-header-logo-1"
         }
       },
