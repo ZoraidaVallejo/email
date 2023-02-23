@@ -2,7 +2,7 @@
   "templates": {
     "temp2b": {
       "layout": "top-image",
-      "link": "https://www.justia.com/marketing/elevate/",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
