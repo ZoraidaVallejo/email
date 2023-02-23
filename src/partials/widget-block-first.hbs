@@ -68,7 +68,7 @@
     <tr>
       <td class="title" responsive="mobile-padding-horizontal-sides">
         <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
-          {{{widgetConfig.name}}}, {{{widgetConfig.title}}}
+          {{{widgetConfig.name}}} {{{widgetConfig.title}}}
         </a>
       </td>
     </tr>
@@ -99,11 +99,9 @@
                 {{#compare this.type "===" "description"}}
                   <tr>
                     <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
-                      <div>
-                        {{#each this.config}}
-                          {{{this}}}
-                        {{/each}}
-                      </div>
+                      {{#each this.config}}
+                        {{{this}}}
+                      {{/each}}
                     </td>
                   </tr>
                 {{/compare}}
@@ -114,6 +112,17 @@
                       <div>
                         <p><b>New Question: </b>{{{this.config.description}}}</p>
                         <p><b>Related Details: </b>{{{this.config.details}}}</p>
+                      </div>
+                    </td>
+                  </tr>
+                {{/compare}}
+
+                {{#compare this.type "===" "answers"}}
+                  <tr>
+                    <td class="content -question -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
+                      <div>
+                        <p><b>Question: </b>{{{this.config.question}}}</p>
+                        <p><b>Answer: </b>{{{this.config.answer}}}</p>
                       </div>
                     </td>
                   </tr>

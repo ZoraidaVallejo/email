@@ -14,13 +14,15 @@ subject:
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
-        {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.ad3}}
+        {{>widget-block-first widgetClass="-first-block -email-3" widgetConfig=blockFirst.ad3}}
 
-        {{>widget-ad widgetClass="-email-1" widgetConfig=advertisements.ad3}}
+        {{!-- {{>widget-ad widgetClass="-email-3" widgetConfig=advertisements.ad3}} --}}
 
-        {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks}}
+        {{>widget-ad widgetClass="-assistance" widgetConfig=advertisements.ad3-questions}}
 
-        {{>widget-block-bottom widgetClass="-email-1" widgetConfig=blockBottom.ad3}}
+        {{!-- {{>widget-stats-block widgetClass="-email-2" widgetConfig=statsBlocks}} --}}
+
+        {{>widget-block-bottom widgetClass="-email-3" widgetConfig=blockBottom.ad3}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

@@ -19,11 +19,29 @@
     }
 
     .title {
-        padding: 0 $padding 23px;
-        text-transform: uppercase;
+        @include mail-font(28px, 1.1, 700);
+        display: block;
+        width: 100%;
+        padding: 25px 0 0;
+        color: plt('justia-blue');
+        text-align: left;
+
+        .title-wrapper-table {
+            text-align: left;
+        }
+
+        .inside-title  {
+            @include mail-font(28px, 1.1, 700);
+            display: block;
+            padding: 7px 0 7px 20px;
+            border-left: 4px solid #00b3e3;
+            text-align: left;
+        }
 
         a {
-            @include mail-font(34px, 1.1);
+            display: block;
+            color: plt('justia-blue');
+            text-align: left;
         }
     }
 
@@ -42,7 +60,14 @@
     }
 
     .content-wrapper {
-        padding: 40px 30px 50px;
+        padding: 0 30px 50px;
+
+        > div {
+            display: block;
+            padding: 20px 20px 45px;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+        }
 
         .content-wrapper-table {
             display: block;
@@ -87,16 +112,6 @@
     }
 
     .content {
-        padding: 0 0 40px;
-
-        &.-description > div,
-        &.-image-description > div,
-        &.grid-cell > div {
-            display: block;
-            padding: 20px 20px 45px;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-        }
 
         &.-image-description > div {
             width: 100%;
@@ -253,10 +268,69 @@
         //     }
         // }
 
-        a,
-        a b {
-            color: plt('red')!important;
-            display: inline-block;
+        // a,
+        // a b {
+        //     color: plt('red')!important;
+        //     display: inline-block;
+        // }
+    }
+
+    &.-email-2 {
+        .content-wrapper {
+            padding: 30px 30px 50px;
+
+            > div {
+                padding: 0;
+            }
+        }
+
+        .content.-idx-1 {
+            padding: 25px;
+
+            p {
+                max-width: 488px;
+                margin: 0 0 28px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                a {
+                    color: plt('justia-blue');
+
+                    strong {
+                        color: plt('justia-blue');
+                    }
+                }
+            }
+        }
+    }
+
+    &.-assistance {
+        .content-wrapper > div {
+            padding: 0;
+        }
+
+        .content.-idx-1 {
+            padding: 25px 35px 30px 40px;
+
+            p {
+                @include mail-font(18px, 1.5);
+
+                a {
+                    display: inline;
+                    color: plt('justia-blue');
+
+                    strong {
+                        color: plt('justia-blue');
+                    }
+                }
+            }
+        }
+
+        .title,
+        .content p {
+            max-width: 462px;
         }
     }
 }

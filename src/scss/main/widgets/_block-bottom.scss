@@ -57,23 +57,6 @@
             // }
         }
 
-        &.-description > div {
-            // padding: 20px 0 25px;
-
-            p {
-                padding: 0 25px;
-            }
-
-            ul {
-                margin: 2em 0;
-                padding: 0 25px 0 65px;
-            }
-
-            li {
-                text-align: left;
-            }
-        }
-
         .blockTitle {
            @include mail-font(16px, 1.5, 700);
            display: block;
@@ -182,6 +165,16 @@
         a b {
             color: plt('justia-blue');
             // display: inline-block;
+        }
+    }
+
+    &.-email-3 {
+        .content {
+            color: plt('black');
+
+            p {
+                @include mail-font(14px, 1.5);
+            }
         }
     }
 }
