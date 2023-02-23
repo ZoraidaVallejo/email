@@ -15,7 +15,7 @@
         {
           "type": "description",
           "config": [
-            "<p class='heading -h1'><b>For two decades our team has been working exclusively with <span>law firms.</span></b></p> <p class='heading -h2'>Simply put, we know what brings you <span>more clients.</span> </p><img class=' deco' src='../dist/images/line-dec.png' alt='icon'>",
+            "<p class='heading -h1'><b>For two decades our team has been working exclusively with <span>law firms.</span></b></p> <p class='heading -h2'>Simply put, we know what brings you <span>more clients.</span> </p><a href='#'><img class=' deco' src='../dist/images/line-dec.png' alt='icon'></a>",
             "<p><b>Now, for as little as $990/year</b>, you have the power to leverage our experience to grow your practice with a Justia Elevate website.</p>"
           ]
         },
