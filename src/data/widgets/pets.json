@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "JUSTIA PET NEWS",
+    "header": "Chiqui and Kika"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "Here are Chiqui and Kika. Our family rescued both kittens from the street. Chiqui, the one on the right, was the first. She was mistreated and abused, so it was hard for her to trust people again. She cried a lot from a young age, so we adopted Kika as a companion. Now they have grown to be sisters and are always together.",
+          "- Fernando Mendoza"
+        ]
+      }
+    }
+  ]
+}

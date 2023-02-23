@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Avatar: The Last Airbender"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.youtube.com/watch?v=d1EnW4kn1kg",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <b>Netflix</b>",
+        "description": [
+          "<i>\"In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar and bring peace to the world. Besides the classic twist of the main character developing his superpowers, this series also deals with topics such as sexism, dictatorship, and trauma and its implications on healthy human development. The series also addresses the importance of making decisions, understanding limitations as opportunity areas, introspection, and how to guide your life to find your destiny. This show is currently streaming on Netflix. Give it a try! Once you begin watching, you won’t stop!\"</i>",
+          "- Genaro Osoria"
+        ]
+      }
+    }
+  ]
+}

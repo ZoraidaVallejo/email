@@ -1,0 +1,131 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "01",
+            "name": "Miguel Vazquez"
+          },
+          {
+            "day": "02",
+            "name": "Keilah Cabrera"
+          },
+          {
+            "day": "10",
+            "name": "John Gaspar"
+          },
+          {
+            "day": "11",
+            "name": "Dara Gama"
+          },
+          {
+            "day": "13",
+            "name": "Daniel Gomez"
+          },
+          {
+            "day": "14",
+            "name": "Claudia Duque"
+          },
+          {
+            "day": "14",
+            "name": "Hector Rodriguez"
+          },
+          {
+            "day": "18",
+            "name": "Jonatan Reynosa"
+          },
+          {
+            "day": "19",
+            "name": "Geovanny Suarez"
+          },
+          {
+            "day": "22",
+            "name": "Esau Martinez"
+          },
+          {
+            "day": "25",
+            "name": "Edgar de Leon"
+          },
+          {
+            "day": "26",
+            "name": "Ever Alvarez"
+          },
+          {
+            "day": "29",
+            "name": "Sadaf Hussain"
+          },
+          {
+            "day": "29",
+            "name": "Fernando Mendoza"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Alfredo Galvan",
+            "years": "1st"
+          },
+          {
+            "name": "Angel Sanchez",
+            "years": "1st"
+          },
+          {
+            "name": "Ever Alvarez",
+            "years": "1st"
+          },
+          {
+            "name": "Jonatan Reynosa",
+            "years": "1st",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Rafael Peralta",
+            "years": "2nd",
+            "class": "tenth-icon"
+          },
+          {
+            "name": "Jose Soto",
+            "years": "2nd"
+          },
+          {
+            "name": "Shelby Mancini",
+            "years": "4th"
+          },
+          {
+            "name": "Lavinia Fung",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Thomas Sullivan",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "Ana Espinoza",
+            "years": "7th"
+          },
+          {
+            "name": "Sadaf Hussain",
+            "years": "13th"
+          },
+          {
+            "name": "Gustavo Montes",
+            "years": "13th"
+          },
+          {
+            "name": "Ken Chan",
+            "years": "18th"
+          }
+        ]
+      }
+    }
+  ]
+}
