@@ -112,4 +112,27 @@
             padding: 42px 85px 25px;
         }
     }
+
+    &.-team-activity-01 {
+        .content {
+            &.-last {
+                padding: 0 $padding 45px;
+            }
+        }
+    }
+
+    &.-pets-1 {
+        .content {
+            .content-side {
+                &:first-child {
+                    float: left;
+                    font-style: italic;
+                }
+
+                &:last-child {
+                    float: right;
+                }
+            }
+        }
+    }
 }

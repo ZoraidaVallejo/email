@@ -64,11 +64,11 @@
             }
 
             &:first-child {
-                float: right;
+                float: left;
             }
 
             &:last-child {
-                float: left;
+                float: right;
             }
         }
 

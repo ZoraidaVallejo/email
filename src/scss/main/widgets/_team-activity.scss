@@ -49,7 +49,7 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 $padding 45px;
         text-align: left;
 
         p a {
@@ -80,12 +80,12 @@
             padding: 0 $padding 18px;
         }
 
-        &.-last {
+        &.-description {
             padding: 0 $padding 45px;
         }
 
-        &.-description {
-            padding: 0 $padding 25px;
+        &.-last {
+            padding: 0 $padding 45px;
         }
     }
 

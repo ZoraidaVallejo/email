@@ -118,9 +118,9 @@
     > .wrapper {
         padding: 0 $padding 20px;
 
-        // &.-last {
-        //     padding: 0 $padding 50px;
-        // }
+        &.-last {
+            padding: 0 $padding 45px;
+        }
     }
 
     &.-articles {
