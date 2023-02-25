@@ -1,0 +1,43 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "banner": "did-you-know-icon.png",
+    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "Add a photo to your free <b>Justia Lawyer Directory</b> profile! Profiles with photos have a better chance of connecting you with new clients."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/",
+      "text": "Add Photo Now",
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

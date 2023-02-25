@@ -1,0 +1,23 @@
+{
+  "jld": {
+    "banner": "welcome-graphic.png",
+    "title": [
+      "Your Monthly Insights From <span>Justia Connect Pro</span>"
+    ],
+    "message": [
+      "Welcome to your monthly update from <b>Justia Connect Pro</b>, your upgraded membership connecting you with even more benefits and exclusive resources to achieve your professional and practice-growth goals.",
+      "Check out this email for helpful tips specifically for Justia Connect Pros from our Justia Connect team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your <b>Justia Connect</b> membership benefits."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "monthly-connect-pro-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

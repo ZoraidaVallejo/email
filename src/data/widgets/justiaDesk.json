@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Justia Lawyer Directory by the Numbers: Fourth Quarter 2022",
+      "link": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-fourth-quarter-2022/ ",
+      "description": "In this first 2023 edition of Justia Lawyer Directory by the Numbers, we are taking a look back at the final quarter of 2022! Check out this post for data and trends for our lawyer directory in the months of October, November, and December last year.",
+      "index": "1"
+    },
+    {
+      "title": "Lawyer Commercials From the Big Game",
+      "link": "https://onward.justia.com/lawyer-commercials-from-the-big-game/",
+      "description": "When it comes to the NFL’s biggest game of the year, the commercials are often just as much of a draw as the teams on the field. Read this article to check out some of the legal industry commercials that graced viewers’ screens this year!",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

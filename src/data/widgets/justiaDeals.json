@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legalpal.png",
+        "alt": "LEAP Legal Software",
+        "title": "LEAP Legal Software",
+        "border": true,
+        "description": [
+          "Improve your productivity (and profitability) with LEAP, a legal software helping you with matter management, document assembly, billing, and more! Plus, Justia Connect members get 10% off when they sign up. "
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/leap/10-percent-off-leap?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "anti-virus.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Take advantage of Justia Deals to save on your tax preparation! Justia Connect members can get up to $15 off of TurboTax Preparation Programs."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:648704?utm_medium=email&utm_campaign=2022-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}
