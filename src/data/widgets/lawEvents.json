@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "13",
+      "month": "Mar",
+      "title": "Ethics in Social Media 2023",
+      "link": "https://www.pli.edu/programs/ethics-in-social-media?t=live",
+      "time": "1:30pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "15",
+      "month": "Mar",
+      "title": "Flexible Estate Tax Planning Techniques During an Uncertain Time",
+      "link": "https://www.straffordpub.com/products/flexible-estate-tax-planning-techniques-during-an-uncertain-time-2023-03-15",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "22",
+      "month": "Mar",
+      "title": "Learn How to Develop Your Personal Legal Brand",
+      "link": "https://www.americanbar.org/groups/young_lawyers/resources/webinars/learn-how-to-develop-your-personal-legal-brand-part-3/ ",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "23",
+      "month": "Mar",
+      "title": "Nursing Home Injuries: Proving Negligent, Reckless, or Intentional Understaffing and Inadequate Training and Supervision",
+      "link": "https://www.straffordpub.com/products/nursing-home-injuries-proving-negligent-reckless-or-intentional-understaffing-and-inadequate-training-and-supervision-2023-03-23",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "29",
+      "month": "Mar",
+      "title": "The Paperless Law Firm – A Digital Dream",
+      "link": "https://clewebinars.ce21.com/item/the-paperless-law-firm-digital-dream-297369",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

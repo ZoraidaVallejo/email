@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "What Is ChatGPT Doing … and Why Does It Work?",
+          "link": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
+        },
+        {
+          "title": "For the First Time, Genetically Modified Trees Have Been Planted in a U.S. Forest ",
+          "link": "https://www.nytimes.com/2023/02/16/science/genetically-modified-trees-living-carbon.html "
+        },
+        {
+          "title": "ChatGPT Is Scarily Good At Answering Legal Questions ",
+          "link": "https://abovethelaw.com/2023/02/chatgpt-is-scarily-good-at-answering-legal-questions/"
+        },
+        {
+          "title": "ChatGPT Plus Launches, It Costs $20 a Month",
+          "link": "https://searchengineland.com/chatgpt-plus-launches-392558"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Google Launches Bard, Its Answer to ChatGPT – Here’s What It Looks Like",
+          "link": "https://searchengineland.com/google-launches-bard-its-answer-to-chatgpt-to-trusted-testers-here-is-what-it-looks-like-392729"
+        },
+        {
+          "title": "New Bing Is Mind-Blowingly Fast and Better Than I Expected",
+          "link": "https://searchengineland.com/new-bing-mind-blowingly-fast-better-than-expected-393133"
+        },
+        {
+          "title": "AI Generates Article With ‘Serious’ YMYL Content Issues",
+          "link": "https://searchengineland.com/ai-generates-article-serious-ymyl-content-issues-393053"
+        },
+        {
+          "title": "How to Manage and Edit Your Google Business Profile From Google Search",
+          "link": "https://searchengineland.com/manage-edit-google-business-profile-from-google-search-385111"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "How to Keep Your Twitter Secure Without Giving Elon Musk Any Money",
+          "link": "https://techcrunch.com/2023/02/18/how-to-keep-twitter-secure-two-factor/ "
+        },
+        {
+          "title": "TikTok Staff Can Decide What Goes Viral",
+          "link": "https://www.searchenginejournal.com/tiktok-staff-can-decide-what-goes-viral/"
+        },
+        {
+          "title": "Instagram’s Founders Return with a New Social App",
+          "link": "https://www.socialmediatoday.com/news/Instagram-Founders-Launch-New-Social-App/641660/"
+        },
+        {
+          "title": "Is the ‘Exodus’ Over? Here’s How Twitter Alternatives Have Fared Since Elon Musk’s Acquisition ",
+          "link": "https://techcrunch.com/2023/02/15/is-the-exodus-over-heres-how-twitter-alternatives-have-fared-since-elon-musks-acquisition/ "
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "If You Ask Your Friend to Take Your Photo Using Your Camera, Who Owns the Copyright?–Shah v. NYP",
+          "link": "https://blog.ericgoldman.org/archives/2023/01/if-you-ask-your-friend-to-take-your-photo-using-your-camera-who-owns-the-copyright-shah-v-nyp.htm"
+        },
+        {
+          "title": "New TOS for AI-Powered Bing Poses Legal Issues for Microsoft and Users",
+          "link": "https://martech.org/new-tos-for-ai-powered-bing-poses-legal-issue/"
+        },
+        {
+          "title": "3M Unit’s Bankruptcy Should Be Dismissed, Combat Vets Say ",
+          "link": "https://news.bloomberglaw.com/bankruptcy-law/3m-units-bankruptcy-should-be-dismissed-combat-vets-say"
+        },
+        {
+          "title": "In a Pair of Challenges to Student-Debt Relief, Big Questions About Agency Authority and the Right to Sue",
+          "link": "https://www.scotusblog.com/2023/02/in-a-pair-of-challenges-to-student-debt-relief-big-questions-about-agency-authority-and-the-right-to-sue/"
+        }
+      ]
+    }
+  ]
+}
