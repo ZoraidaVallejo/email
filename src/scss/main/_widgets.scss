@@ -276,6 +276,16 @@
             padding: 25px 0 35px;
         }
     }
+
+    .block-description b {
+        color: plt('justia-blue');
+
+        a {
+            display: block;
+            color: plt('justia-blue')!important;
+            margin: 15px 0 0;
+        }
+    }
 }
 
 .w-tip-month,

@@ -3,19 +3,18 @@
     "icon": "inside-justia",
     "header": "Inside Justia"
   },
-  "singleColumn": true,
+  "singleColumn": false,
   "columns": [
     {
       "image": {
-        "src": "inside-justia-01.jpg",
+        "src": "inside-justia-01.png",
         "alt": "ChatGPT's Justia Rap"
       },
       "blockTitle": "Meet Our Team",
       "blockSubtitle": "<b>ChatGPT's Justia Rap</b>",
       "description": [
         "Our team has been having fun exploring the capabilities of ChatGPT and recently had the bot create our very own Justia rap song. Check it out on our <a href='https://www.facebook.com/justia/videos/1382589629161784' target='_blank'><b>Facebook page!</b></a>"
-      ],
-      "readMore": "https://www.facebook.com/justia/"
+      ]
     },
     {
       "image": {
@@ -26,8 +25,7 @@
       "blockSubtitle": "<b>Take Me Out to the Ball Game</b>",
       "description": [
         "Zoey is looking forward to the upcoming baseball season! She roots for the San Francisco Giants, even if she snoozes through most of the games. "
-      ],
-      "readMore": "https://www.facebook.com/Hug.Pugs"
+      ]
     }
   ]
 }
