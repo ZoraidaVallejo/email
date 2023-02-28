@@ -100,6 +100,11 @@
 
               {{#compare @key "===" "description"}}
                 <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                  {{#if ../config.blockTitle}}
+                    <b class="content-subtitle">
+                      {{{../config.blockTitle}}}
+                    </b>
+                  {{/if}}
                   {{#each ../config.description}}
                     <p responsive="mobile-fz-16">{{{this}}}</p>
                   {{/each}}

@@ -56,6 +56,13 @@
             color: plt('justia-blue');
         }
 
+        .content-subtitle {
+            @include mail-font(16px, 1.3, 700);
+            display: block;
+            margin: 0 0 0.5em;
+            color: plt('justia-blue');
+        }
+
         .content-side {
             width: 225px;
 
