@@ -205,6 +205,30 @@
             max-width: 490px;
         }
     }
+
+    &.-background-test {
+
+        .title {
+            background-color: plt('justia-blue');
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+        }
+
+        .image {
+            padding: 0 25px 25px;
+            background-color: plt('justia-blue');
+
+            a {
+                display: block;
+                max-width: 100%;
+                padding: 1em;
+                background-color: #ffffff;
+            }
+        }
+    }
 }
 
 
