@@ -9,33 +9,88 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "title": "Google Analytics 4 Events: ",
+        "description": "We already had support for general traffic tracking in GA4 for Jweb Sites and Blogs. However, this month, we expanded the support to track specific conversion events such as contact form submissions and top number interactions. We did this for WordPress, Jweb, and AMP versions of the websites and blogs."
       }
     },
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-01.png",
-        "link": "#",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "image": "milestones-graphic-02.png",
+        "title": "Inhouse Visual Regression: ",
+        "description": "Our QA Team is improving our visual regression testing capabilities and coverage by implementing an in-house solution to optimize resources and reduce costs. Visual regression testing allows us to maintain UI quality and consistency while still pushing live new features."
       }
     },
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-01.png",
-        "title": "Et <a href=\"#\" target=\"_blank\">feugiat senectus<a> platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Connect CLE: ",
+        "description": "We continue to bring improvements to our CLE Justia Webinars program for Justia Connect Pro members by working on internal tracking reports and management systems for credits and certifications."
       }
     },
     {
       "type": "image-description",
       "config": {
-        "image": "milestones-graphic-01.png",
-        "title": "Et feugiat senectus platea quisque pretium arcu.",
-        "description": "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "image": "milestones-graphic-04.png",
+        "title": "State Codes: ",
+        "description": "This month, we managed to push live the latest code versions s for more than ten states, including <a href=\"https://law.justia.com/codes/new-york/2022/\" target=\"_blank\"><b>New York</b></a>, <a href=\"https://law.justia.com/codes/illinois/2022/\" target=\"_blank\"><b>Illinois</b></a>, <a href=\"https://law.justia.com/codes/washington/2022/\" target=\"_blank\"><b>Washington</b></a>, and <a href=\"https://law.justia.com/codes/nevada/2022/\" target=\"_blank\"><b>Nevada</b></a>, among others."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "Justia Elevate: ",
+        "description": "Justia Elevate, one of our flagship products, continues having constant improvements like new versions for case results stripes, support for third-party chats like Intaker, Kenect, and Podium, updates to the Yoast SEO Plugin, and many other optimizations."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "IT Maintenances: ",
+        "description": "Our IT Team continues to take care of the wave of requested AWS maintenances to infrastructure for several of our properties like JLD, Laws, SEC Contracts, Patents, Trademarks, and internal projects, among many others. Additionally, they are also reducing operational costs by performing a clean-up of archived cloud resources."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Data: ",
+        "description": "This month, our Data Team integrated different technologies under the hood that allow for better communication between backend services to ensure optimal data transfer for analysis. Additionally, they continue delivering analysis reports such as detection for cost reduction in cloud resources and an updated version of the Case Law Summaries automated report."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "Justia Landing Pages: ",
+        "description": "A couple of improvements have been made to our customized Justia Landing Pages; we removed a dependency on the Justia Lawyer Directory configuration for Justia Amplify client pages, and we released a live report that provides us with more visibility into our landing pages' active inventory."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-09.png",
+        "title": "Payments: ",
+        "description": "Continuing our payments migration to Stripe, we switched clients with recurrent payment subscriptions to the new service. We also continue improving our detection and handling of payment issues with automated reports and error handling."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-10.png",
+        "title": "State Regulations: ",
+        "description": "This month, we also released the 2022 4th quarter Regulations update for all US states."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-11.png",
+        "title": "Blast: ",
+        "description": "In addition to our regular campaigns, this month, we resumed our series of Helpful Tips for our Justia Lawyer Directory users, promoting the attorney-to-attorney reviews. Additionally, we migrated our calendar of planned blasts and events to ClickUp so we can easily add more details to each entry."
       }
     }
   ]
