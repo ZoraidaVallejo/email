@@ -19,19 +19,11 @@
     }
 
     .title {
-        padding: 34px $padding 6px;
-        text-transform: capitalize;
-        color: plt('white');
-        // background-color: #00b3e3;
+        padding: 0 $padding 23px;
+        text-transform: uppercase;
 
         a {
-            @include mail-font(36px, 1, 700);
-            color: plt('white');
-        }
-
-        span {
-            display: block;
-            font-weight: normal;
+            @include mail-font(34px, 1.1);
         }
     }
 
@@ -43,32 +35,22 @@
         }
     }
 
+    // .content-wrapper {
+    //     padding: 30px 30px 50px;
+    // }
+
     .content {
+        display: block;
+        // border: 2px solid #e6e6e6;
         padding: 0 45px 25px;
 
         strong a {
             color: plt('justia-blue');
         }
 
-        b {
-            color: plt('red');
-        }
-
-        ul {
-            padding-left: 23px;
-            margin-top: 0;
-            margin-bottom: 0;
-
-            span {
-                padding-right: 12px;
-            }
-
-        }
-
-        p,
-        ul li {
-            @include mail-font(20px, 1.5);
-        }
+        // b {
+        //     color: plt('red');
+        // }
 
         .red-info {
             color: #e2231a;
@@ -104,19 +86,10 @@
         }
 
         .content-side {
-            width: 395px;
-            text-align: left;
-
-            &.-image {
-                width: 40px;
-            }
-
-            &.-description p {
-                margin-top: 10px;
-            }
+            width: 260px;
 
             img {
-                width: 40px;
+                width: 260px;
             }
 
             &:first-child {
@@ -129,8 +102,10 @@
         }
 
         &.-first {
-            padding: 15px 48px 50px;
+            padding: 50px 50px 50px;
+            border-bottom: 0;
             text-align: left;
+            border-radius: 15px 15px 0 0;
 
             img {
                 margin: 0 auto;
@@ -138,68 +113,40 @@
 
             p {
                 // padding: 0 50px;
-                // max-width: 500px;
+                max-width: 500px;
                 // margin: 0 auto;
             }
         }
 
-        &.-last {
-            padding: 0 $padding 50px;
-
-            p {
-                @include mail-font(18px, 1.5);
-            }
+        &.-idx-3 {
+            padding: 0 50px 50px;
         }
 
         &.-button {
-            padding: 0px $padding 20px;
+            padding: 0px 50px 15px;
+            border-top: 0;
+            border-radius: 0 0 15px 15px;
+        }
+
+        &.-last {
+            padding: 0 50px 50px;
+
+            // p {
+            //     @include mail-font(14px);
+            // }
+
+            // a {
+            //     color: plt('justia-blue');
+
+            //     span {
+            //         color: plt('justia-blue');
+            //     }
+            // }
         }
 
         a b {
-            color: plt('justia-blue');
+            color: plt('black')!important;
             display: inline-block;
-        }
-    }
-
-    &.-jld-ad-01 {
-        .content {
-            color: plt('white');
-
-            &.-idx-2 {
-                display: block;
-                max-width: 235px;
-                padding: 0 0 25px 45px;
-                text-align: left;
-            }
-
-            a strong {
-                color: plt('white')!important;
-            }
-        }
-
-        ul li {
-            padding-bottom: 28px;    
-        }
-    }
-
-    &.-jld-ad-02 {
-        // .title {
-        //     background-color: #00317a;
-        // }
-
-        .content {
-            padding: 0 75px 25px;
-            color: plt('justia-blue');
-        }
-
-        .content.-first {
-            padding: 40px 48px 35px;
-        }
-
-        ul {
-            padding-left: 0;
-            margin-top: 1.2em;
-            list-style: none;
         }
     }
 }
