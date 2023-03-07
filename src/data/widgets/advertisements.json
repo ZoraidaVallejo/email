@@ -1,0 +1,168 @@
+{
+  "inital-announcement": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registration.png"
+  },
+  "registration-reminder": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registration.png"
+  },
+  "last-chance-to-register": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/",
+    "image": "webinar-registration.png"
+  },
+  "last-chance-for-cle": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/",
+    "image": "webinar-registration.png"
+  },
+  "reminder-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registered.png"
+  },
+  "second-reminder-registered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registered.png"
+  },
+  "california-only-reminder": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registration.png"
+  },
+  "reminder-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registration.png"
+  },
+  "second-reminder-unregistered": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registration.png"
+  },
+  "webinar-today": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/",
+    "image": "webinar-registered.png"
+  },
+  "survey": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-survey.png",
+    "title": "Your Opinion Matters to Us."
+  },
+  "nonattendance": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-survey.png",
+    "title": "Tell Us <span>Your Opinion</span>"
+  },
+  "pro-recording": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-recording-available.png",
+    "title": "Watch Finding and Researching Expert Witnesses"
+  },
+  "pro-recording-missed": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-recording-available.png",
+    "title": "We Missed You"
+  },
+  "basic-recording": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-recording-available.png",
+    "title": "Watch Finding and Researching Expert Witnesses"
+  },
+  "basic-recording-missed": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "#",
+    "image": "webinar-recording-available.png",
+    "title": "Lorem ipsum dolor sit amet"
+  }
+}
