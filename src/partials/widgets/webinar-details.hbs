@@ -16,6 +16,8 @@
  * @param {String}   widgetConfig.button.link
  * @param {String}   widgetConfig.button.text
  * @param {string}          widgetClass
+ * @param {String[]} widgetConfig.message2
+ * @param {String[]} widgetConfig.list
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -87,6 +89,16 @@
           <p>{{{this}}}</p>
         {{/each}}
 
+        {{#if widgetConfig.list}}
+          <div class="-list">
+            <ul responsive="mobile-fz-16 mobile-padding-25-left">
+            {{#each widgetConfig.list}}
+              {{{this}}}
+            {{/each}}
+            </ul>
+          </div>
+        {{/if}}
+
         {{#if widgetConfig.bottomline}}
           <div class="-bottomline">
             {{#each widgetConfig.bottomline}}
@@ -104,6 +116,14 @@
               {{#uiButton presetStyle=widgetConfig.button.style width=widgetConfig.button.width href=(concat widgetConfig.button.link (utmVariables widgetConfig.button.utm))}}
                 {{widgetConfig.button.text}}
               {{/uiButton}}
+          </div>
+        {{/if}}
+
+        {{#if widgetConfig.message2}}
+          <div class="-message">
+            {{#each widgetConfig.message2}}
+              <p>{{{this}}}</p>
+            {{/each}}
           </div>
         {{/if}}
 
