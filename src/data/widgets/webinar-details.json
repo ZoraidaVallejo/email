@@ -51,16 +51,22 @@
       "time": "2:00pm ET/11:00am PT"
     },
     "message": [
-      "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "Name,",
+      "Just a few seats remain for our next Justia Webinar, and we want you to experience it! Take advantage of this opportunity to join Attorney and President of HTMlawyers Micah Buchdahl as he leads Justia in an exploration of legal marketing ethics, including:"
+    ],
+    "list": [
+      "<li><em>Bates v. Arizona</em></li><li>Virtual Law Practices</li><li>Advertising Ethics</li><li>The Rules of Professional Conduct</li><li>and more!</li>"
     ],
     "button": {
       "style": "red",
-      "link": "https://connect.justia.com/webinars/",
-      "text": "RSVP Now",
+      "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+      "text": "Save My Seat",
       "width": 250
-    }
+    },
+    "message2": [
+      "<b>Alert:</b> While all Justia Connect members are invited to attend the presentation, <b>only Justia Connect Pro members</b> are eligible to receive one hour of California legal ethics MCLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
+      "*This presentation is approved for one hour of legal ethics MCLE credit in California."
+    ]
   },
   "last-chance-for-cle": {
     "banner": "",
