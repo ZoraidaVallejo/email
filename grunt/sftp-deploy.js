@@ -1,7 +1,7 @@
 module.exports = {
     images: {
         auth: {
-            host: '192.168.88.191',
+            host: 'justatic.justiapro.com',
             authKey: 'key1'
         },
         src: '<%= relativeFolders.distImg %>',
