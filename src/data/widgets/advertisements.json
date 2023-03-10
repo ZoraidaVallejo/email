@@ -49,6 +49,16 @@
     "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
     "image": "webinar-registered.png"
   },
+  "day-of-reminder": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
+    "image": "webinar-registered.png"
+  },
   "second-reminder-registered": {
     "background": {
       "image": "gray-bg.png",
