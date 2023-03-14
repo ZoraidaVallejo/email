@@ -54,8 +54,12 @@
       "Name,",
       "Just a few seats remain for our next Justia Webinar, and we want you to experience it! Take advantage of this opportunity to join Attorney and President of HTMlawyers Micah Buchdahl as he leads Justia in an exploration of legal marketing ethics, including:"
     ],
-    "list": [
-      "<li><em>Bates v. Arizona</em></li><li>Virtual Law Practices</li><li>Advertising Ethics</li><li>The Rules of Professional Conduct</li><li>And More!</li>"
+    "number-list": [
+      "<em>Bates v. Arizona</em>",
+      "Virtual Law Practices",
+      "Advertising Ethics",
+      "The Rules of Professional Conduct",
+      "And More!"
     ],
     "button": {
       "style": "red",

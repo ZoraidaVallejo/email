@@ -17,7 +17,8 @@
  * @param {String}   widgetConfig.button.text
  * @param {string}          widgetClass
  * @param {String[]} widgetConfig.message2
- * @param {String[]} widgetConfig.list
+ * @param {String[]} widgetConfig.bullet-list
+ * @param {String[]} widgetConfig.number-list
 }}
 
 {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
@@ -89,13 +90,23 @@
           <p>{{{this}}}</p>
         {{/each}}
 
-        {{#if widgetConfig.list}}
+        {{#if widgetConfig.bullet-list}}
           <div class="-list">
             <ul responsive="mobile-fz-16 mobile-padding-25-left">
-            {{#each widgetConfig.list}}
-              {{{this}}}
+            {{#each widgetConfig.bullet-list}}
+              <li>{{{this}}}</li>
             {{/each}}
             </ul>
+          </div>
+        {{/if}}
+
+        {{#if widgetConfig.number-list}}
+          <div class="-list">
+            <ol responsive="mobile-fz-16 mobile-padding-25-left">
+            {{#each widgetConfig.number-list}}
+              <li>{{{this}}}</li>
+            {{/each}}
+            </ol>
           </div>
         {{/if}}
 
