@@ -1,0 +1,166 @@
+{
+  "templates": {
+    "ad1": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "image-header-banner-1"
+      },
+      "buttonUtm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "button-learn-more-1"
+      },
+      "image": "elevate-banner-1.jpg",
+      "imageAlt": "Justia Elevate",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>When you get a Justia Elevate website for just <b>$99/month</b>,* you'll save more than just daylight for this daylight savings season! Keep more money in your pocket while raising your law firm website to new heights with our groundbreaking website platform designed and customized for lawyers.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 24,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>* or pay $990/year and <b>get two months free!</b></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "image-header-banner-1"
+      },
+      "buttonUtm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "button-learn-more-1"
+      },
+      "image": "elevate-banner-2.jpg",
+      "imageAlt": "Justia Elevate",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>When you get a Justia Elevate website for just <b>$99/month</b>,* you'll save more than just daylight for this daylight savings season! Keep more money in your pocket while raising your law firm website to new heights with our groundbreaking website platform designed and customized for lawyers.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 24,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>* or pay $990/year and <b>get two months free!</b></p>"
+          ]
+        }
+      ]
+    },
+    "ad3": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "image-header-banner-1"
+      },
+      "buttonUtm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "button-learn-more-1"
+      },
+      "image": "elevate-banner-3.jpg",
+      "imageAlt": "Justia Elevate",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>When you get a Justia Elevate website for just <b>$99/month</b>,* you'll save more than just daylight for this daylight savings season! Keep more money in your pocket while raising your law firm website to new heights with our groundbreaking website platform designed and customized for lawyers.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Learn More",
+            "width": 180,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 24,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p><a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>* or pay $990/year and <b>get two months free!</b></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
