@@ -40,6 +40,78 @@
         }
       ]
     },
+    "ad2": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "StPatricks-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Win big with a Justia Premium Placement in the Justia Lawyer Directory. Take advantage of great benefits that will help you become the MVP:</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Request a Free Consultation",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 19,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad3": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "StPatricks-graphic-01.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Get the leads you want by making <b>Justia Premium Placements</b> your lucky charms. Take advantage of your presence in the Justia Lawyer Directory, one of the most visited directories online, with up to 280x more visibility before millions of visitors every month.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Request a Free Consultation",
+            "width": 280,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 19,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    },
     "ad2": {}
   }
 }
