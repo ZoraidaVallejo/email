@@ -91,7 +91,7 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-bottom">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-bottom">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
                 <div class="content-side -image" responsive="collapse-one mobile-align-center">
@@ -99,14 +99,14 @@
                     {{>img
                       src=../config.image
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                      responsive="mobile-align-center"
+                      responsive="mobile-align-center mobile-hide"
                     }}
                   </a>
                 </div>
               {{/compare}}
 
               {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-align-center">
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-align-center mobile-no-float">
                   {{#each ../config.description}}
                     <p>{{{this}}}</p>
                   {{/each}}
