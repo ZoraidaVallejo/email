@@ -17,6 +17,7 @@
  * @param {String}   widgetConfig.button.text
  * @param {string}          widgetClass
  * @param {String[]} widgetConfig.message2
+ * @param {String[]} widgetConfig.message3
  * @param {String[]} widgetConfig.bullet-list
  * @param {String[]} widgetConfig.number-list
 }}
@@ -110,6 +111,14 @@
           </div>
         {{/if}}
 
+        {{#if widgetConfig.message2}}
+          <div class="-message">
+            {{#each widgetConfig.message2}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </div>
+        {{/if}}
+
         {{#if widgetConfig.bottomline}}
           <div class="-bottomline">
             {{#each widgetConfig.bottomline}}
@@ -130,9 +139,9 @@
           </div>
         {{/if}}
 
-        {{#if widgetConfig.message2}}
+        {{#if widgetConfig.message3}}
           <div class="-message">
-            {{#each widgetConfig.message2}}
+            {{#each widgetConfig.message3}}
               <p>{{{this}}}</p>
             {{/each}}
           </div>

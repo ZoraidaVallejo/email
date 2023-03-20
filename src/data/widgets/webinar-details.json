@@ -255,13 +255,23 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "As a Justia Connect Pro, you now have free access to stream the recent Justia Webinars presentation on  <b>Finding and Researching Expert Witnesses</b>.",
-      "For no additional cost, you can sharpen your expert witness research skills for the new year by learning from industry leader Jim Robinson, President of the JurisPro Expert Witness Directory. Watch the recording whenever, wherever you would like!"
+      "As a Justia Connect Pro, you now have free, on-demand access to the recent Justia Webinars presentation <b>Fast-Mover Advantage: Law Marketing Ethics Issues in a Race for Clients</b>.",
+      "Dive deeper into key topics in legal marketing ethics, including:"
+    ],
+    "bullet-list": [
+      "<em>Bates v. Arizona</em>",
+      "Virtual Law Practices",
+      "Advertising Ethics",
+      "The Rules of Professional Conduct",
+      "And More!"
+    ],
+    "message2": [
+      "Take advantage of your Justia Connect Pro Membership benefits and stream this on-demand presentation today!"
     ],
     "button": {
       "style": "red",
       "link": "https://connect.justia.com/webinars/law-marketing-ethics-issues-in-a-race-for-clients",
-      "text": "Stream Now",
+      "text": "Watch Now",
       "width": 250
     }
   },
@@ -283,9 +293,18 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Did you know Justia Connect Pros get unlimited access to all Justia Webinar recordings, including the recent presentation on <b>Finding and Researching Expert Witnesses?</b>",
-      "You can sharpen your expert witness research skills for the new year by learning from industry leader Jim Robinson, President of the JurisPro Expert Witness Directory, in this on-demand presentation.",
-      "Simply upgrade to Justia Connect Pro for only $19.99/month today."
+      "Missed the recent Justia Webinar? Did you know Justia Connect Pros get unlimited access to all Justia Webinar recordings, including the recent presentation <b>Fast-Mover Advantage: Law Marketing Ethics Issues in a Race for Clients?</b>",
+      "By upgrading to Justia Connect Pro for just $19.99 today with no long-term commitment, you can dive deeper into key topics in legal marketing ethics, including:"
+    ],
+    "bullet-list": [
+      "<em>Bates v. Arizona</em>",
+      "Virtual Law Practices",
+      "Advertising Ethics",
+      "The Rules of Professional Conduct",
+      "And More!"
+    ],
+    "message2": [
+      "It just takes a few clicks of a button to get started."
     ],
     "button": {
       "style": "red",
