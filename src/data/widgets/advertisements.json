@@ -6,7 +6,7 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "#",
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "10th-webinar-registration.png"
   },
   "version-02-registered": {
@@ -16,7 +16,7 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "#",
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "10th-webinar-registered.png"
   },
   "version-03-survey": {
@@ -26,7 +26,7 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "#",
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "webinar-survey.png",
     "title": "Your Opinion Matters to Us."
   },
@@ -37,7 +37,7 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "#",
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "10th-webinar-recording-available.png",
     "title": "Lorem ipsum dolor sit amet"
   },
@@ -48,7 +48,17 @@
       "bgColor": "",
       "cssSize": ""
     },
-    "link": "#",
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
+    "image": "10th-webinar-registration.png"
+  },
+  "registration-reminder": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "10th-webinar-registration.png"
   }
 }

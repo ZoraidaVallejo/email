@@ -87,5 +87,26 @@
       "text": "Save My Seat",
       "width": 250
     }
+  },
+  "registration-reminder": {
+    "banner": "",
+    "details": {
+      "date": "March 30, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Name,",
+      "Don’t forget to register for our upcoming free Justia Webinars presentation, <a href=\"https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content\" target=\"_blank\">Using ChatGPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</a>.",
+      "Presentation day is barely a week away, and you won’t want to miss information specifically for lawyers on this hot topic!"
+    ],
+    "bottomline": [
+      "<b>Act Now! Seats are going fast.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
+      "text": "RSVP Today",
+      "width": 250
+    }
   }
 }
