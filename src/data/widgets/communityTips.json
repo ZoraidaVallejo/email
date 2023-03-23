@@ -1,0 +1,28 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Use Your Justia Connect Pro Credit",
+    "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_campaign=2023-03&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "Spruce up your legal marketing strategy this spring with all new legal marketing solutions from Justia Connect! Plus, you can use your Justia Connect Pro Credit* to save on Justia Premium Placements in the Justia Lawyer Directory, Justia Elevate websites, or Justia Amplify PPC management services. Contact our team to get started and be sure to mention your credit!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/contact/",
+      "text": "Contact Justia",
+      "width": 180,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    },
+    "description2": [
+      "<span class='disclaimer'>*Terms and Conditions Apply. See <b><a href='https://connect.justia.com/pro/terms/credit' target='_blank'>Justia Connect Pro Credit Terms of Use<a></b> for details.</span>"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Chat GPT Webinar -PENDING-",
+      "link": "LINK",
+      "description": "Lorem ipsum dolor sit amen lorem ipsum dolor sit amen resqsito lorem ipsum dolor sit amen",
+      "index": "1"
+    },
+    {
+      "title": "News & Notes on Google Local Services Ads: March 2023",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-march-2023/",
+      "description": "We’re back with our first edition of News & Notes on Google Local Services Ads of 2023! Check out this post for the latest information from the Google Partner newsletter that matters for lawyers.",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
