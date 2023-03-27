@@ -5,7 +5,7 @@
   },
   "jld": {
     "ad1": {
-      "link": "https://www.justia.com/marketing/elevate/#contact-us-form",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -15,7 +15,7 @@
       "image": "score-big.png"
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/elevate/#contact-us-form",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
