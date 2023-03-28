@@ -13,7 +13,7 @@
         {
           "type": "description",
           "config": [
-            "<p>As a <b>Justia Connect Pro</b>, you can always put your best foot forward by selecting two featured client reviews and one featured attorney review for your <b>Justia Lawyer Directory</b> profile.</p>",
+            "<p>As a <b>Justia Connect Pro</b>, you can always put your best foot forward by selecting two featured client reviews and one featured attorney review for your <b>Justia Lawyer Directory</b> profile.</p><br>",
             "<p>Want to explore what Featured Reviews and other <b>Justia Connect Pro</b> benefits can do for your practice? Sign up for just $19.99/month with no long-term commitment!</p>"
           ]
         },
@@ -22,7 +22,7 @@
           "config": {
             "style": "red",
             "text": "Go Pro Now",
-            "width": 230,
+            "width": 200,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",

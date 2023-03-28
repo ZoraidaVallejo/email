@@ -119,17 +119,14 @@
         }
 
         &.-button {
-            padding: 0px 50px 15px;
+            padding: 0px 40px 15px;
             border-top: 0;
             border-radius: 0 0 15px 15px;
+            font-size: rem-calc(22px);
         }
 
         &.-last {
             padding: 0 50px 50px;
-
-            p {
-                @include mail-font(14px);
-            }
 
             a {
                 color: plt('justia-blue');
