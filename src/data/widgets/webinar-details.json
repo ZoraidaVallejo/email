@@ -123,5 +123,23 @@
       "If you have any trouble accessing the presentation, please contact <a href=\"https://support.justia.com/\" target=\"_blank\">Justia Support</a> for assistance.",
       "See you in a week! <br> - The Justia Webinars Team"
     ]
+  },
+  "event-today-registration-reminder": {
+    "banner": "",
+    "details": {
+      "date": "March 30, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Due to the popularity of <a href=\"https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content\" target=\"_blank\">Using ChatGPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</a>, Justia Webinars just released a few additional seats to join today’s free presentation.",
+      "At 2:00 p.m. ET/ 11:00 a.m. PT, members of our Justia Team will discuss and analyze the pros and cons of using AI tools in your law firm’s content marketing efforts. <b>Register for free to save your seat!</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
+      "text": "Register Now",
+      "width": 250
+    }
   }
 }
