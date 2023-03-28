@@ -80,5 +80,15 @@
     },
     "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "10th-webinar-registration.png"
+  },
+  "day-of-reminder": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
+    "image": "10th-webinar-registered.png"
   }
 }
