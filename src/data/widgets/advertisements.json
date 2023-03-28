@@ -101,5 +101,16 @@
     "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
     "image": "webinar-survey.png",
     "title": "Your Opinion Matters to Us."
+  },
+  "nonattendee-survey": {
+    "background": {
+      "image": "gray-bg.png",
+      "width": 0,
+      "bgColor": "",
+      "cssSize": ""
+    },
+    "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content",
+    "image": "webinar-survey.png",
+    "title": "Tell Us Your Opinion."
   }
 }

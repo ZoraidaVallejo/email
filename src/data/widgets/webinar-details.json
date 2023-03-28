@@ -170,5 +170,20 @@
       "text": "Share My Feedback",
       "width": 250
     }
+  },
+  "nonattendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "You recently registered for <b>Using Chat GPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</b>, but weren’t able to join us. We missed having you with us on presentation day!",
+      "Would you mind taking a few moments to tell us why you were unable to attend this webinar?",
+      "Your feedback matters as we continue to improve Justia Webinars and plan future events for Justia Connect members. Our team appreciates it more than you know."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
