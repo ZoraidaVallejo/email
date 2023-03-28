@@ -156,5 +156,19 @@
       "You can also access the presentation 15 minutes prior to the scheduled start time <a href=\"https://connect.justia.com/\" target=\"_blank\">via your Justia Connect dashboard</a>.",
       "If you have any trouble accessing the presentation, please contact <a href=\"https://support.justia.com/\" target=\"_blank\">Justia Support</a> for assistance."
     ]
+  },
+  "attendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Thank you for joining us for our recent Justia Webinars presentation, <b>Using Chat GPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</b>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
