@@ -8,19 +8,20 @@
       "title": "",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 23,
-      "image": "connect-pro-february.png",
+      "image": "connect-pro-march.jpg",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p>When you upgrade your free Justia Connect Basic Membership to a <strong>Justia Connect Pro</strong> Membership for only $19.99/today, you get a <strong>$200 Justia Credit</strong>.*</p>"
+            "<p>As a <b>Justia Connect Pro</b>, you can always put your best foot forward by selecting two featured client reviews and one featured attorney review for your <b>Justia Lawyer Directory</b> profile.</p>",
+            "<p>Want to explore what Featured Reviews and other <b>Justia Connect Pro</b> benefits can do for your practice? Sign up for just $19.99/month with no long-term commitment!</p>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Upgrade Now",
+            "text": "Go Pro Now",
             "width": 230,
             "height": 50,
             "borderColor": "",
@@ -36,12 +37,6 @@
           "type": "description",
           "config": [
             "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
-          ]
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>*Conditions apply. See <a href=\"#\" target=\"_blank\"><span>Justia Connect Pro Credit Terms of Use</span></a> for Details</p>"
           ]
         }
       ]
