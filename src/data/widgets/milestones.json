@@ -9,48 +9,100 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Justia Elevate. ",
-        "description": "Our Justia Elevate Team continued to release new features and patches for our clients. This month, several new options for various stripes got published along with other performance optimizations, minor features, and even an upgrade to the Justia Elevate WordPress installation."
+        "title": "Justia U.S. Supreme Court Center. ",
+        "link": "https://supreme.justia.com/",
+        "description": "We finally published the redesigned version of our Justia U.S. Supreme Court Center, bringing a cleaner and better-looking access to decisions from the highest court in the federal judiciary of the United States."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-02.png",
-        "title": "Blasts. ",
-        "description": "The number of blasts and email marketing campaigns we process exploded this year! This month, we continued with our efforts to reach our contact base to promote our products and services. One of the crucial campaigns during this month was promoting Justia Elevate to attorneys in the Justia Lawyer Directory."
+        "title": "IT Maintenance. ",
+        "description": "As Vasu pointed out in one of our team meetings, our IT Team has successfully performed all AWS server maintenance. This month's maintenance involved properties such as general <a href=\"https://www.justia.com/lawyers\" target=\"_blank\"><b>Justia Lawyers Directory</b></a> infrastructure, Client and Justia blogs, and <a href=\"https://answers.justia.com/\" target=\"_blank\"><b>Justia Ask A Lawyer</b></a>, among others. Our IT Team also upgraded the OS version for some of those resources."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-03.png",
-        "title": "GA4 Support for AMP in Clients' Blogs. ",
-        "description": "Continuing our migration to GA4, we have updated our client WordPress installations to support Google Analytics 4 event tracking features."
+        "title": "Justia Ask A Lawyer Sticky Footer. ",
+        "link": "https://answers.justia.com/",
+        "description": "A change that had long been in the works. The goal is to promote contextual Justia Ask A Lawyer email notifications for lawyers browsing our portal."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-04.png",
-        "title": "IT Maintenances. ",
-        "description": "As usual, we continued to ensure the stability of our online services through ongoing server maintenance. This month, Justia projects like the Justia Lawyer Directory, Justia Law, and Justia Dockets got infrastructure updates. Even clearinghouse.net, a Justia-friend property, got a new development environment."
+        "title": "Data Team. ",
+        "description": "Our Data Team continues delivering value through analysis and research projects. We are already getting solid study returns after they researched AWS costs and the resulting suggestions. They now route data directly to their analytics platform from our mailer providers."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-05.png",
-        "title": "Justia.com SSL Certificate Renewal. ",
-        "description": "The SSL certificate, a vital component of our systems, for our main domain justia.com was renewed and uploaded to several servers."
+        "title": "QA Automation. ",
+        "description": "As usual, our QA Team is expanding our quality assurance coverage over specific properties such as Justia Ask A Lawyer and Justia Elevate. Our team is also working on a security report for all Justia properties. We need to ensure the final reports are functional and easy to understand."
       }
     },
     {
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-06.png",
-        "title": "Justia Ask A Lawyer Automated QA. ",
-        "description": "We continued with our efforts to increase our automated QA coverage for our properties. This month, the first version of the automated QA for Justia Ask A Lawyer was pushed live."
+        "title": "Justia Connect. ",
+        "link": "https://connect.justia.com/",
+        "description": "Every month, there are constant adjustments and modifications to improve the users' experience and benefits for Justia Connect and Justia Connect Pro. We are also running efforts to make it easier for our team to handle and keep track of all the activities involved."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Payments. ",
+        "description": "As we continue moving towards a systematic approach to client billing, our team has been automating some of the day-to-day processes and handling random payment-related situations in a timely manner."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "Justia Elevate. ",
+        "description": "Among other improvements, our Justia Elevate Team continues delivering value to our platform users with new content block versions and more color options consistent with their sites."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-09.png",
+        "title": "Mass Updates Across Justia Properties. ",
+        "description": "We pushed several implementations across multiple sites, such as the basics for rotating sidebar ads and the consistent collapsing behavior of sticky footers."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-10.png",
+        "title": "Justia SEC Contracts. ",
+        "description": "Justia's current quarterly priority is to improve our <a href=\"https://contracts.justia.com/\" target=\"_blank\"><b>Justia SEC Business Contracts site</b></a>. We've been pushing navigation and UI improvements with a particular focus on the extracted contract clauses. "
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-11.png",
+        "title": "State Codes. ",
+        "link": "https://law.justia.com/codes/us/2021/",
+        "description": "Continuing with the yearly updates of all U.S. Codes and Statutes, we published more versions this year, including the now-available 2021 U.S. Code."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-12.png",
+        "title": "Hackathon. ",
+        "description": "This month our Engineering Team participated in a Hackathon focused on rapid prototyping for solutions based on ChatGPT. This helps in keeping Justia updated with the whirlwind developing AI landscape."
       }
     }
   ]
