@@ -1,19 +1,18 @@
 {
   "widget": {
     "type": "REVIEWS & RECOMMENDATIONS",
-    "header": "Tortor fringilla dis"
+    "header": "Harvard Business Review"
   },
   "titleResponsiveSize": 23,
-  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "link": "https://hbr.org/",
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
         "image": "reviews-graphic-01.png",
-        "where": "Available on <a href=\"#\" target=\"_blank\"><b>Place</b></a>",
         "description": [
-          "<i>\"Why should you add Harvard Business Review (HBR) to your daily reading routine? Because HBR is a fantastic article resource that can help you grow professionally. You can find leadership and management articles written by industry experts and MBA professors. The articles are usually not too long and easy to read. HBR is great at enlightening and providing perspective on various topics, from writing effective emails to managing organizational culture. No time to read? Harvard Business Review also has a great YouTube channel. “Harvard Business Review is the leading destination for smart management thinking.”\"</i>",
-          "- Reviewer"
+          "<i>\"Why should you add <a href=\"https://hbr.org/\" target=\"_blank\"><b>Harvard Business Review</b></a> (HBR) to your daily reading routine? Because HBR is a fantastic article resource that can help you grow professionally. You can find leadership and management articles written by industry experts and MBA professors. The articles are usually not too long and easy to read. HBR is great at enlightening and providing perspective on various topics, from writing effective emails to managing organizational culture. No time to read? Harvard Business Review also has a great <a href=\"https://www.youtube.com/@harvardbusinessreview/videos\" target=\"_blank\"><b>YouTube channel</b></a>. “Harvard Business Review is the leading destination for smart management thinking.”\"</i>",
+          "- Hector Lugo"
         ]
       }
     }
