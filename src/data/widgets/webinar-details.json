@@ -187,7 +187,7 @@
     }
   },
   "recording-blast-basic": {
-    "banner": "Learn About ChatGPT & AI Tools fo Legal Marketing Content",
+    "banner": "",
     "message": [
       "Name,",
       "It’s not too late to learn the pros and cons of using ChatGPT and similar AI tools to develop law firm marketing content. With Justia Connect Pro, you can unlock unlimited access to our Justia Webinar recordings, including the recent presentation <b>Using Chat GPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</b>",
@@ -198,6 +198,30 @@
       "style": "red",
       "link": "#",
       "text": "Go Pro Now",
+      "width": 250
+    }
+  },
+  "recording-blast-pro": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "As a Justia Connect Pro, you now have free, on-demand access to the recent Justia Webinars presentation <b>Using Chat GPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</b>.",
+      "This presentation explores some of the pros and cons of AI legal marketing content, including:",
+      "It just takes a few clicks of a button to get started."
+    ],
+    "bullet-list": [
+      "AI Integration With Search Engines",
+      "Google Rankings for AI-Generated Content",
+      "Factual Accuracy Concerns With AI Content",
+      "And more!"
+    ],
+    "message2": [
+      "Take advantage of your Justia Connect Pro benefits by watching this presentation whenever, wherever you would like!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
       "width": 250
     }
   }
