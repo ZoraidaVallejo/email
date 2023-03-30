@@ -1,7 +1,7 @@
 {
   "version-01-registration": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -11,7 +11,7 @@
   },
   "version-02-registered": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -21,7 +21,7 @@
   },
   "version-03-survey": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -32,7 +32,7 @@
   },
   "version-04-recording-available": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -43,7 +43,7 @@
   },
   "registration-is-open": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -53,7 +53,7 @@
   },
   "registration-reminder": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -63,7 +63,7 @@
   },
   "01-week-reminder": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -73,7 +73,7 @@
   },
   "event-today-registration-reminder": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -83,7 +83,7 @@
   },
   "day-of-reminder": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -93,7 +93,7 @@
   },
   "attendee-survey": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -104,7 +104,7 @@
   },
   "nonattendee-survey": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -115,7 +115,7 @@
   },
   "recording-blast-basic": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
@@ -126,7 +126,7 @@
   },
   "recording-blast-pro": {
     "background": {
-      "image": "gray-bg.png",
+      "image": "",
       "width": 0,
       "bgColor": "",
       "cssSize": ""
