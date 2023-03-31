@@ -1,0 +1,28 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "banner-premium-memberships-v66"
+      },
+      "image": "premium-placement-2023-04.gif"
+    },
+    "ad2": {
+      "link": "https://www.justia.com/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "anniversary-banner-2023-04"
+      },
+      "image": "justia-20anniversary.jpg"
+    }
+  }
+}

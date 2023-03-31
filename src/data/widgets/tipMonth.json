@@ -1,0 +1,34 @@
+{
+  "client": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-month-icon",
+    "title": "Chat GPT, Your AI Friend in Content Marketing? For Lawyers, It Depends. ",
+    "description": [
+      "Want a helping hand with your legal marketing efforts? ChatGPT may be the solution! Check out our recent article published in the ABA's Law Practice Today magazine to learn more about the pros and cons of ChatGPT and AI content creation for legal marketing."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.lawpracticetoday.org/article/chat-gpt-your-ai-friend-in-content-marketing-for-lawyers-it-depends",
+      "text": "Read Now",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-month-icon",
+    "title": "Chat GPT, Your AI Friend in Content Marketing? For Lawyers, It Depends. ",
+    "description": [
+      "Want a helping hand with your legal marketing efforts? ChatGPT may be the solution! Check out our recent article published in the ABA's Law Practice Today magazine to learn more about the pros and cons of ChatGPT and AI content creation for legal marketing."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.lawpracticetoday.org/article/chat-gpt-your-ai-friend-in-content-marketing-for-lawyers-it-depends",
+      "text": "Read Now",
+      "width": 150
+    }
+  }
+}
