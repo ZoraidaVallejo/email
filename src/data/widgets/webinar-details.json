@@ -1,0 +1,124 @@
+{
+  "version-01-registration": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ]
+  },
+  "version-02-registered": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ]
+  },
+  "attendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "nonattendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "recording-blast-basic": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Go Pro Now",
+      "width": 250
+    }
+  },
+  "recording-blast-pro": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Watch Now",
+      "width": 250
+    }
+  },
+  "registration-is-open": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Name,",
+      "We wanted to remind you that registration for <a href=\"#\" target=\"_blank\">Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a> is now open to all Justia Connect members!",
+      "Join <a href=\"https://connect.justia.com/webinars/presenter/david-alan-wolf\" target=\"_blank\">David Alan Wolf</a>, Partner at Wood, Atter, & Wolf, P.A., on Friday, April 21 at 2:00 p.m. ET/11:00 a.m. PT for a free presentation designed to offer solo and small-firm lawyers specific strategies for promoting their brands and reaching more clients.",
+      "Save your seat to ensure you can take advantage of actionable insights to promote your law firm’s growth."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms",
+      "text": "Save My Seat",
+      "width": 250
+    }
+  }
+}
