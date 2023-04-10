@@ -120,5 +120,23 @@
       "text": "Save My Seat",
       "width": 250
     }
+  },
+  "registration-reminder": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Name,",
+      "Looking for ways to improve your marketing in a competitive marketing environment? Be sure to register for our upcoming free Justia Webinars presentation, <a href=\"https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms\" target=\"_blank\">Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a>. ",
+      "You won’t want to miss these practical insights from <a href=\"https://connect.justia.com/webinars/presenter/david-alan-wolf\" target=\"_blank\">David Alan Wolf</a>, Partner at Wood, Atter, & Wolf, P.A. These strategies are specifically designed to help lawyers working with limited time and a limited budget grow their firm."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Register Now",
+      "width": 250
+    }
   }
 }
