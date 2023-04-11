@@ -1,0 +1,63 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "car-icon",
+      "header": "Tip of the Month"
+    },
+    "banner": "justia-help-01.jpg",
+    "title": "[Esse est velit ea officia sunt consectetur exercitation veniam Lorem veniam ad nisi enim.]",
+    "description": [
+      "[Adipisicing quis incididunt qui excepteur. Magna ad enim commodo excepteur magna. Aute qui cillum officia veniam culpa laborum velit.]"
+    ],
+    "button": {
+      "style": "red",
+      "link": "",
+      "text": "Learn How",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "car-icon",
+      "header": "Justia Elevate Help Center Updates"
+    },
+    "content": [
+      {
+        "banner": "justia-help-01.jpg",
+        "title": "How to Add a Live Chat Widget / Chat Bots",
+        "border": true,
+        "imageLink": "https://help.justia.com/portal/en/kb/articles/how-to-add-a-live-chat-widget-chat-bots/?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=image-justia-help-center-1",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://help.justia.com/portal/en/kb/articles/how-to-add-a-live-chat-widget-chat-bots/?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=button-justia-help-center-1",
+          "text": "View Article",
+          "width": 150
+        }
+      },
+      {
+        "banner": "justia-help-02.jpg",
+        "title": "How to Add Jump Links on Your Page",
+        "border": false,
+        "imageLink": "https://help.justia.com/portal/en/kb/articles/how-to-add-jump-links-on-your-page?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=image-justia-help-center-2",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://help.justia.com/portal/en/kb/articles/how-to-add-jump-links-on-your-page?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=button-justia-help-center-2",
+          "text": "View Article",
+          "width": 150
+        }
+      },
+      {
+        "banner": "justia-help-03.jpg",
+        "title": "How to Remove Uncategorized From My Blog Posts",
+        "border": false,
+        "imageLink": "https://help.justia.com/portal/en/kb/articles/how-to-remove-uncategorized-from-my-blog-posts/?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=image-justia-help-center-2",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://help.justia.com/portal/en/kb/articles/how-to-remove-uncategorized-from-my-blog-posts/?utm_medium=email&utm_campaign=2023-04&utm_source=quarterly-elevate-newsletter&utm_content=button-justia-help-center-2",
+          "text": "View Article",
+          "width": 150
+        }
+      }
+    ]
+  }
+}
