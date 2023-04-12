@@ -204,7 +204,10 @@
 
         .content {
             padding: 0 50px 25px;
-            color: plt('justia-blue');
+            
+            p strong {
+                color: plt('justia-blue');
+            }
         }
 
         // .content.-first {
