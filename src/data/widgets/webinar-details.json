@@ -138,5 +138,18 @@
       "text": "Register Now",
       "width": 250
     }
+  },
+  "event-reminder": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "You are registered for <a href=\"https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms\"> Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a> on Friday, April 21 at 2:00 p.m. ET/11:00 a.m. PT! Don't forget to mark your calendar for the presentation.",
+      "On presentation day, you can come back to this email and <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
+      "If you have any trouble accessing the presentation, please contact <b><a href=\"https://support.justia.com/\" target=\"_blank\">Justia Support</a></b> for assistance"
+    ]
   }
 }
