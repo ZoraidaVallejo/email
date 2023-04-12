@@ -1,0 +1,120 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "<span>In a Crowded World</span> Be the One That Stands Out",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 22,
+      "background": {
+        "image": "stands-out-01.jpg",
+        "width": 600,
+        "bgColor": "#000000",
+        "cssSize": "auto 100%",
+        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
+      },
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p responsive=\"mobile-fz-18\">Right now, people are looking for a lawyer like you. With <strong>Justia Premium Placements</strong>, you will stand out.</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<ul> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Get Up to 280x More Profile Views</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Remove Competitor Ads From Your Profile</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Discover the Ways Clients Find You</li> </ul>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Stand Out Today",
+            "width": 250,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 20,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><strong>(888) 587-8421</strong></a></p>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "title": "<span>Top 5 Reasons to Choose</span>  Justia Gold Placements:",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 20,
+      "image": "20-off-banner-01.jpg",
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "number-bullet-01.png",
+            "description": [
+              "<strong>Maximize Your Exposure: </strong>Take full advantage of your presence in the Justia Lawyer Directory, a directory with over 1,000,000 monthly visits from potential clients."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "number-bullet-02.png",
+            "description": [
+              "<strong>Stand Out from the Crowd: </strong>Leverage featured placements in the Justia Lawyer Directory listing pages for more visibility and a competitive edge over free listings. "
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "number-bullet-03.png",
+            "description": [
+              "<strong>Dominate Your Market: </strong>Remove all competitor ads from your Justia Profile in the Justia Lawyer Directory, ensuring that potential clients focus solely on your practice."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "number-bullet-04.png",
+            "description": [
+              "<strong>Customize Your Brand Messaging: </strong>Take advantage of a customized tagline for your listing, enabling you to craft powerful messages that resonate with your target audience."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "number-bullet-05.png",
+            "description": [
+              "<strong>Track Your Success: </strong>Unlock access to your Justia Profile traffic statistics for valuable insights into how people find you on Justia so you can evaluate your performance."
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>*Anniversary offer valid for a limited time. To redeem offer, you must contact Justia by April 30, 2023 and complete the purchase of a new Justia Gold Placement by May 15, 2023.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}
