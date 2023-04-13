@@ -1,0 +1,54 @@
+{
+  "templates": {
+    "temp2b": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "image-header-banner-1"
+      },
+      "buttonUtm": {
+        "medium": "email",
+        "campaign": "campaign-1163-promo-546",
+        "source": "promo-marketing-elevate",
+        "content": "button-learn-more-1"
+      },
+      "image": "elevate-banner-2023-04.jpg",
+      "imageAlt": "Justia Elevate",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>This month marks our 20th anniversary! Help us celebrate two decades of supporting lawyers in achieving their goals by taking advantage of a <b>free, 20-minute law firm website consultation</b> to learn <u>the 5 most important strategies for your legal marketing plan.</u></p>",
+            "<p class='heading -h1'><b>No commitments. No hassle.</b></p>",
+            "<p>Just 20 minutes with a legal marketing specialist focused on your practice's growth opportunities.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Schedule Your Free Consultation",
+            "width": 450,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 24,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Or call us at  <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
