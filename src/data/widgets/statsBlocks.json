@@ -1,15 +1,33 @@
 {
-  "title": "Your Stats",
-  "profileCompleteness": "95",
-  "contentOrder": [
-    {
-      "type": "image-description",
-      "config": {
-        "image": "year-graphic-01.png",
-        "link": "https://answers.justia.com/",
-        "name": "Kellam T. Parks",
-        "rank": "2"
+  "stats": {
+    "title": "Your Stats",
+    "profileCompleteness": "95",
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "year-graphic-01.png",
+          "link": "https://answers.justia.com/",
+          "name": "Kellam T. Parks",
+          "rank": "2"
+        }
       }
-    }
-  ]
+    ]
+  },
+  "ad3-questions": {
+    "title": "Need Further Assistance?",
+    "link": "https://www.justia.com/marketing/",
+    "titleResponsiveSize": 23,
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>•&nbsp; <a href=\"#\"><strong>Contact {Lawyer Name} & Request a Consultation</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Find Other {State} {Practice Area} Lawyers</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Submit Another Question</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Turn Off Future Notifications for This Question</strong></a></p>"
+        ]
+      }
+    ]
+  }
 }

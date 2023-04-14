@@ -89,6 +89,16 @@
             <td class="content-border" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
               <table {{{tableAttr}}} class="content-wrapper-inside" responsive="">
                 {{#forEach widgetConfig.contentOrder}}
+                  {{#compare this.type "===" "description"}}
+                    <tr>
+                      <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isFirst}} mobile-padding-20-top{{/if}}">
+                        {{#each this.config}}
+                          {{{this}}}
+                        {{/each}}
+                      </td>
+                    </tr>
+                  {{/compare}}
+
                   {{#compare this.type "===" "image-description"}}
                     <tr>
                       <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
