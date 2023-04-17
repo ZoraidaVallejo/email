@@ -30,15 +30,15 @@
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Schedule Your Free Consultation",
-            "width": 450,
+            "text": "Schedule Consultation",
+            "width": 300,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 24,
+            "fontSize": 20,
             "responsive": ""
           }
         },

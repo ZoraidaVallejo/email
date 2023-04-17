@@ -127,7 +127,7 @@
             a {
                 font-weight: get('font.weight.bold');
                 color: plt('justia-blue');
-                @include mail-font(23px);
+                // @include mail-font(23px);
 
                 b {
                     color: plt('justia-blue');
