@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "header": "News Alert From Justia"
+  },
+  "link": "https://news.justia.com/planned-parenthood-sues-over-idahos-out-of-state-abortion-referral-ban/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-connect-basic",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news.jpg",
+  "title": "Planned Parenthood Sues Over Idaho’s Out-of-State Abortion Referral Ban",
+  "description": [
+    "As the national conversation around abortion law continues in the wake of last summer’s decision repealing Roe v. Wade, Planned Parenthood and two doctors have sued the Idaho attorney general in federal court. Catch up on this and other breaking news on the <b><a href='https://news.justia.com/' target='_blank'>Justia Legal News Blog</a></b>."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/planned-parenthood-sues-over-idahos-out-of-state-abortion-referral-ban/",
+    "text": "Read More"
+  }
+}

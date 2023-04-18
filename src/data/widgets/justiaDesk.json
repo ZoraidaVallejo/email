@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Top 10 Local Business Directories for Law Firms",
+      "link": "https://onward.justia.com/top-10-local-business-directories-for-law-firms/",
+      "description": "If you want to connect with more clients in the digital age, you certainly want to increase your online visibility! Check out this post for the top 10 local and business directories your law firm should get listed in today.",
+      "index": "1"
+    },
+    {
+      "title": "March 2023 Google Broad Core Algorithm Update Is Now Rolling Out",
+      "link": "https://onward.justia.com/march-2023-google-broad-core-algorithm-update-is-now-rolling-out/",
+      "description": "In keeping with their traditional updates, Google recently confirmed and began rolling out a new algorithm change. These important updates can have significant implications for search...",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-connect-basic",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
