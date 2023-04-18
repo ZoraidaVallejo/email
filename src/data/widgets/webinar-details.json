@@ -56,8 +56,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "You recently registered for <a href=\"https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms\" target=\"_blank\">Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a>, but weren’t able to join us. We missed having you with us on presentation day!",
+      "Would you mind taking a few moments to tell us why you were unable to attend this webinar?",
+      "Your feedback matters as we continue to improve Justia Webinars and plan future events for Justia Connect members. Our team appreciates it more than you know."
     ],
     "button": {
       "style": "red",
