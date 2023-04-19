@@ -170,5 +170,17 @@
       "text": "Reserve My Spot",
       "width": 250
     }
+  },
+  "registration-reminder-day-of": {
+    "banner": "",
+    "details": {
+      "date": "April 21, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Today is the day! Very soon (at 2:00 p.m. ET to be exact), <a href=\"https://connect.justia.com/webinars/presenter/david-alan-wolf\">David Alan Wolf</a>, Partner at Wood, Atter, & Wolf, P.A. will share key insights and strategies for building an impactful brand and promoting a law firm without overspending.",
+      "We are confident your practice would benefit from the tips David has to offer. Plus, registration is free! Don’t miss this chance."
+    ]
   }
 }
