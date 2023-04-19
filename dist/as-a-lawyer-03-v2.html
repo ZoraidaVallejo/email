@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+      a,
+      body,
+      table,
+      td {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+      img {
+        max-width: 100%;
+        border: 0;
+        outline: none;
+        line-height: 100%;
+        text-decoration: none;
+      }
+
+      table {
+        border-collapse: collapse !important;
+      }
+
+      body {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        font-weight: inherit !important;
+        font-size: inherit !important;
+        line-height: inherit !important;
+        font-family: inherit !important;
+        text-decoration: none !important;
+      }
+
+      .ios-links-black a {
+        color: #000000 !important;
+        text-decoration: none !important;
+      }
+
+      .ios-links-white a {
+        color: #ffffff !important;
+        text-decoration: none !important;
+      }
+
+      a[href^="tel"] {
+        color: currentColor !important;
+        text-decoration: none !important;
+      }
+
+      div[style*="margin: 16px 0;"] {
+        margin: 0 !important;
+      }
+
+      .ExternalClass {
+        width: 100%;
+        line-height: 100%;
+      }
+
+      .ExternalClass div,
+      .ExternalClass font,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass td {
+        line-height: 100%;
+      }
+
+      @font-face {
+        font-style: normal;
+        font-weight: 400;
+        font-family: "OpenSans";
+        src: url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Regular.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-style: normal;
+        font-weight: 700;
+        font-family: "OpenSans";
+        src: url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.woff2") format("woff2"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.woff") format("woff"), url("https://justatic.com/v/1/shared/fonts//OpenSans-Bold.ttf") format("truetype");
+      }
+
+      @media screen {
+        [style*="font"] {
+          font-family: "OpenSans", Arial, sans-serif !important;
+        }
+      }
+
+      @media only screen and (max-width: 640px) {
+        .collapse-one {
+          display: block !important;
+          width: 100% !important;
+        }
+        .dark-mode {
+          background-color: #0f357b !important;
+          background-size: 550px 400px !important;
+        }
+        .mobile-reset-width {
+          width: auto !important;
+        }
+        .mobile-reset-max-width {
+          max-width: none !important;
+        }
+        .mobile-reset-height {
+          height: auto !important;
+        }
+        .mobile-reset-bg-image {
+          background-image: none !important;
+        }
+        .mobile-hide {
+          display: none !important;
+        }
+        .mobile-align-center {
+          margin: 0 auto !important;
+          text-align: center !important;
+        }
+        .mobile-align-right {
+          text-align: right !important;
+        }
+        .mobile-align-left {
+          text-align: left !important;
+        }
+        .mobile-fz-5 {
+          font-size: 5px !important;
+        }
+        .mobile-fz-6 {
+          font-size: 6px !important;
+        }
+        .mobile-fz-7 {
+          font-size: 7px !important;
+        }
+        .mobile-fz-8 {
+          font-size: 8px !important;
+        }
+        .mobile-fz-9 {
+          font-size: 9px !important;
+        }
+        .mobile-fz-10 {
+          font-size: 10px !important;
+        }
+        .mobile-fz-11 {
+          font-size: 11px !important;
+        }
+        .mobile-fz-12 {
+          font-size: 12px !important;
+        }
+        .mobile-fz-13 {
+          font-size: 13px !important;
+        }
+        .mobile-fz-14 {
+          font-size: 14px !important;
+        }
+        .mobile-fz-15 {
+          font-size: 15px !important;
+        }
+        .mobile-fz-16 {
+          font-size: 16px !important;
+        }
+        .mobile-fz-17 {
+          font-size: 17px !important;
+        }
+        .mobile-fz-18 {
+          font-size: 18px !important;
+        }
+        .mobile-fz-19 {
+          font-size: 19px !important;
+        }
+        .mobile-fz-20 {
+          font-size: 20px !important;
+        }
+        .mobile-fz-21 {
+          font-size: 21px !important;
+        }
+        .mobile-fz-22 {
+          font-size: 22px !important;
+        }
+        .mobile-fz-23 {
+          font-size: 23px !important;
+        }
+        .mobile-fz-24 {
+          font-size: 24px !important;
+        }
+        .mobile-fz-25 {
+          font-size: 25px !important;
+        }
+        .mobile-fz-26 {
+          font-size: 26px !important;
+        }
+        .mobile-fz-27 {
+          font-size: 27px !important;
+        }
+        .mobile-fz-28 {
+          font-size: 28px !important;
+        }
+        .mobile-fz-29 {
+          font-size: 29px !important;
+        }
+        .mobile-fz-30 {
+          font-size: 30px !important;
+        }
+        .mobile-fz-31 {
+          font-size: 31px !important;
+        }
+        .mobile-fz-32 {
+          font-size: 32px !important;
+        }
+        .mobile-fz-33 {
+          font-size: 33px !important;
+        }
+        .mobile-fz-34 {
+          font-size: 34px !important;
+        }
+        .mobile-fz-35 {
+          font-size: 35px !important;
+        }
+        .mobile-fz-36 {
+          font-size: 36px !important;
+        }
+        .mobile-fz-37 {
+          font-size: 37px !important;
+        }
+        .mobile-fz-38 {
+          font-size: 38px !important;
+        }
+        .mobile-fz-39 {
+          font-size: 39px !important;
+        }
+        .mobile-fz-40 {
+          font-size: 40px !important;
+        }
+        .mobile-padding-top {
+          padding-top: 10px !important;
+        }
+        .mobile-padding-right {
+          padding-right: 10px !important;
+        }
+        .mobile-padding-bottom {
+          padding-bottom: 10px !important;
+        }
+        .mobile-padding-left {
+          padding-left: 10px !important;
+        }
+        .mobile-padding-horizontal-sides {
+          padding-right: 10px !important;
+          padding-left: 10px !important;
+        }
+        .mobile-padding-vertical-sides {
+          padding-top: 10px !important;
+          padding-bottom: 10px !important;
+        }
+        .mobile-padding-20-top {
+          padding-top: 20px !important;
+        }
+        .mobile-padding-20-right {
+          padding-right: 20px !important;
+        }
+        .mobile-padding-20-bottom {
+          padding-bottom: 20px !important;
+        }
+        .mobile-padding-20-left {
+          padding-left: 20px !important;
+        }
+        .mobile-padding-20-horizontal-sides {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+        .mobile-padding-20-vertical-sides {
+          padding-top: 20px !important;
+          padding-bottom: 20px !important;
+        }
+        .mobile-padding-30-top {
+          padding-top: 30px !important;
+        }
+        .mobile-padding-30-right {
+          padding-right: 30px !important;
+        }
+        .mobile-padding-30-bottom {
+          padding-bottom: 30px !important;
+        }
+        .mobile-padding-30-left {
+          padding-left: 30px !important;
+        }
+        .mobile-padding-30-horizontal-sides {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
+        }
+        .mobile-padding-30-vertical-sides {
+          padding-top: 30px !important;
+          padding-bottom: 30px !important;
+        }
+        .mobile-padding-50-top {
+          padding-top: 50px !important;
+        }
+        .mobile-padding-50-right {
+          padding-right: 50px !important;
+        }
+        .mobile-padding-50-bottom {
+          padding-bottom: 50px !important;
+        }
+        .mobile-padding-50-left {
+          padding-left: 50px !important;
+        }
+        .mobile-no-margin {
+          margin: 0 !important;
+        }
+        .mobile-no-padding {
+          padding: 0 !important;
+        }
+        .mobile-no-padding-top {
+          padding-top: 0 !important;
+        }
+        .mobile-no-padding-bottom {
+          padding-bottom: 0 !important;
+        }
+        .mobile-no-padding-horizontal-sides {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+        .mobile-no-float {
+          float: none !important;
+        }
+        .mobile-no-border {
+          border: 0 !important;
+        }
+        .main-footer .footer-logo {
+          padding-bottom: 20px !important;
+          border-bottom: 1px solid #00b3e3;
+        }
+        .main-footer .footer-social {
+          padding-top: 20px !important;
+        }
+        .responsive-button {
+          width: auto !important;
+          padding: 10px 20px !important;
+          line-height: 1.2 !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="width: 100% !important; height: 100% !important; padding: 0; margin: 0; background-color: #e7e8e8; font-family: Arial, sans-serif; -webkit-font-smoothing: antialiased;">
+    <div class="preheader" style="height: 0; overflow: hidden; opacity: 0; display: none; width: 0; max-width: 0; visibility: hidden; max-height: 0; color: #f3f3f3; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 1px; line-height: 1px; mso-hide: all;"></div>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" data-class="ask-a-lawyer-03">
+      <tr>
+        <td data-class="full-size align-center valign-top" style="   " width="100%" height="100%" align="center" valign="top">
+          <!--[if gte mso 9]><table border="0" cellpadding="0" cellspacing="0" align="center" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="main-header -logo-only -ask-lawyer-logo set-max-width" style=" max-width: 600px; margin: 0 auto; " bgcolor="#ffffff">
+            <tr>
+              <td data-class="wrapper" class="mobile-padding-horizontal-sides " style="  padding: 20px 30px;" width="100%" align="center">
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" alt="space" data-class="ui-spacer-hack" class="mobile-hide" border="0" style="max-width: 100%; display: block; opacity: 0;   margin: 0; font-size: 0;" width="540" height="1" />
+
+                <a href="#" target="_blank" style="color: #00b3e3; text-decoration: none;">
+                  <img src="https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-blue.png" alt data-class="logo-img" border="0" style="display: block; max-width: 87%; margin: 0;" />
+                </a>
+              </td>
+            </tr>
+          </table>
+
+          <!--[if gte mso 9]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td data-class="full-size align-center valign-top" style="   " width="100%" height="100%" align="center" valign="top">
+          <!--[if gte mso 9]><table border="0" cellpadding="0" cellspacing="0" align="center" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="widget -first-block -email-3-v2 set-max-width" style=" max-width: 600px; margin: 0 auto; " bgcolor="#ffffff">
+            <tr>
+              <td data-class="image" style=" padding: 0;" align="center">
+                <a href="#" target="_blank" style="color: #00b3e3; text-decoration: none;">
+                  <img src="../dist/images/title-banner-01.png" alt border="0" style="display: block; max-width: 100%; " />
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td data-class="content-wrapper" class="mobile-padding-horizontal-sides mobile-padding-20-bottom" style=" padding: 40px 30px 50px;" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="content-wrapper-table" style="display: block; border: 1px solid #e6e6e6; border-radius: 10px;  float: left;">
+                  <tr>
+                    <td data-class="content-border" class="mobile-padding-horizontal-sides mobile-padding-20-bottom" style=" padding: 25px 24px 30px;" align="center">
+                      <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+                        <tr>
+                          <td data-class="content -description -idx-1 -first -last" class="mobile-no-padding" style=" padding: 32px 0 0;" align="center">
+                            <p style="margin: 0 0 16px; font: 18px/1.5 Arial, sans-serif; text-align: left;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></p>
+                            <p style="margin: 0; font: 18px/1.5 Arial, sans-serif; text-align: left;">Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="widget -stats-block -email-3-v2 -assistance set-max-width" style=" max-width: 600px; margin: 0 auto; " bgcolor="#ffffff">
+            <tr>
+              <td data-class="content-wrapper" class="mobile-padding-horizontal-sides mobile-padding-20-bottom" style=" padding: 0 30px 50px;" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="content-wrapper-table" style="display: block; border: 1px solid #e6e6e6; border-radius: 10px;  float: left;">
+                  <tr>
+                    <td data-class="title" class="mobile-reset-width" style=" font: 700 28px/1.1 Arial, sans-serif; display: block;  padding: 25px 0 0; color: #06357a;" width="100%" align="left">
+                      <table border="0" cellpadding="0" cellspacing="0" align="left" width="100%" data-class="title-wrapper-table" style="text-align: left;">
+                        <tr>
+                          <td data-class="inside-title" class="mobile-padding-horizontal-sides mobile-reset-width" style=" font: 700 28px/1.1 Arial, sans-serif; display: block; padding: 7px 0 7px 20px; border-left: 4px solid #00b3e3;" align="left">
+                            <a href="https://www.justia.com/" target="_blank" class="mobile-fz-23" style="text-decoration: none; color: #06357a; display: block; text-align: left;">
+                              Lorem ipsum dolor sit
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-class="content-border" class="mobile-padding-horizontal-sides mobile-padding-20-bottom" style=" padding: 25px 20px 30px 40px;" align="center">
+                      <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="content-wrapper-inside" responsive style="display: block; background: none; border-radius: 0;  float: left;">
+                        <tr>
+                          <td data-class="content -description -idx-1 -first -last" class="mobile-padding-20-horizontal-sides mobile-padding-20-top" style=" padding: 0;" align="left">
+                            <p style="margin: 0 0 16px; text-align: left; font: 18px/1.5 Arial, sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, <b>id mollis est porta</b>. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p>
+                            <p style="margin: 0; text-align: left; font: 18px/1.5 Arial, sans-serif;">Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Duis varius elementum tincidunt.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="widget -bottom-block -email-3 set-max-width" style=" max-width: 600px; margin: 0 auto; " bgcolor="#ffffff">
+            <tr>
+              <td data-class="content-wrapper" class="mobile-padding-horizontal-sides" style=" padding: 0 55px 50px 30px;" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
+                  <tr>
+                    <td data-class="content -description -idx-1 -first -last" class="mobile-no-padding mobile-padding-30-top" style=" padding: 0; color: #000000;" align="center">
+                      <div style="display: block; border-radius: 10px; width: 100%; float: left;">
+                        <p style="margin: 0; text-align: left; font: 18px/1.5 Arial, sans-serif;"><b>About Justia</b><br />Justia is an online platform that provides the community with open access to the law, legal information, and lawyers.</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!--[if gte mso 9]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td data-class="full-size align-center valign-top" style="   " width="100%" height="100%" align="center" valign="top">
+          <!--[if gte mso 9]><table border="0" cellpadding="0" cellspacing="0" align="center" width="600"><tr><td align="center" valign="top" width="600"><![endif]-->
+
+          <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="main-footer -social-below -basic-style -justia-logo set-max-width" style=" max-width: 600px; margin: 0 auto; clear: both; " bgcolor="#ffffff">
+            <tr>
+              <td data-class="footer-head" class="mobile-padding-horizontal-sides" style=" padding: 14px 30px; border-top: 1px solid #06357a; border-bottom: 1px solid #06357a; " align="left" bgcolor="#06357a">
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" alt="space" data-class="ui-spacer-hack" class="mobile-hide" border="0" style="opacity: 0;   margin: 0; font-size: 0; display: block; max-width: none;" width="540" height="1" />
+
+                <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" data-class="fhead-wrapper set-max-width" style="max-width: 600px; margin: 0 auto; ">
+                  <tr>
+                    <td data-class="fhead-side -left footer-logo" class="collapse-one mobile-padding-bottom" style="  " width="40%" align="left" valign="middle">
+                      <a href="https://www.justia.com/marketing/?utm_medium=email&utm_campaign=2022-08&utm_source=directory-newsletter&utm_content=image-footer-logo-1" target="_blank" style="color: #00b3e3; text-decoration: none;">
+                        <img src="https://justatic.com/v/20190705/shared/images/logos/justia-blue.png" alt="Justia" data-class="logo-img" class="mobile-align-center" border="0" style="display: block; max-width: none;  " width="111" height="29" />
+                      </a>
+                    </td>
+                    <td data-class="fhead-side -right footer-nav" class="collapse-one mobile-align-center" style="  " width="60%" align="right" valign="middle">
+                      <p style="margin: 0; font: 14px/1.45 Arial, sans-serif; color: #ffffff;">
+                        <a class="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/" target="_blank" style="text-decoration: none; color: #ffffff; font: 14px/1.45 Arial, sans-serif; white-space: nowrap;">Contact Us</a>
+
+                        <span data-class="pipe" class="mobile-hide" style="margin: 0 10px; color: #ffffff; font: 14px/1.45 Arial, sans-serif;">|</span>
+
+                        <a class="collapse-one mobile-padding-vertical-sides" href="*|UNSUB|*" target="_blank" style="text-decoration: none; color: #ffffff; font: 14px/1.45 Arial, sans-serif; white-space: nowrap;">Unsubscribe</a>
+
+                        <span data-class="pipe" class="mobile-hide" style="margin: 0 10px; color: #ffffff; font: 14px/1.45 Arial, sans-serif;">|</span>
+
+                        <a class="collapse-one mobile-padding-vertical-sides" href="https://www.justia.com/marketing/privacy-policy/" target="_blank" style="text-decoration: none; color: #ffffff; font: 14px/1.45 Arial, sans-serif; white-space: nowrap;">Privacy Policy</a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td data-class="footer-social" class="mobile-padding-horizontal-sides" style="overflow: hidden;  padding: 28px 30px 15px;" align="center">
+                <img src="https://justatic.com/v/1/emails/images/spacer.gif" alt="space" data-class="ui-spacer-hack" class="mobile-hide" border="0" style="opacity: 0;   margin: 0; font-size: 0; display: block; max-width: none;" width="540" height="1" />
+
+                <table border="0" cellpadding="0" cellspacing="0" align="center" width="140" data-class="social-icons set-max-width" style=" max-width: 600px; margin: 0 auto; text-align: center;">
+                  <tr>
+                    <td data-class="icon" style="   " width="36" height="32" align="left" valign="top">
+                      <a href="https://www.facebook.com/justia" target="_blank" style="color: #00b3e3; text-decoration: none; display: inline-block; vertical-align: middle;">
+                        <img src="https://lawyers.justia.com/s/facebook-flat-64.png" alt="Facebook" border="0" style="display: block; max-width: none;  " width="32" height="32" />
+                      </a>
+                    </td>
+                    <td data-class="icon" style="   " width="36" height="32" align="left" valign="top">
+                      <a href="https://twitter.com/justiacom" target="_blank" style="color: #00b3e3; text-decoration: none; display: inline-block; vertical-align: middle;">
+                        <img src="https://lawyers.justia.com/s/twitter-flat-64.png" alt="Twitter" border="0" style="display: block; max-width: none;  " width="32" height="32" />
+                      </a>
+                    </td>
+                    <td data-class="icon" style="   " width="36" height="32" align="left" valign="top">
+                      <a href="https://www.linkedin.com/company/justia" target="_blank" style="color: #00b3e3; text-decoration: none; display: inline-block; vertical-align: middle;">
+                        <img src="https://lawyers.justia.com/s/linkedin-flat-64.png" alt="LinkedIn" border="0" style="display: block; max-width: none;  " width="32" height="32" />
+                      </a>
+                    </td>
+                    <td data-class="icon" style="   " width="32" height="32" align="left" valign="top">
+                      <a href="https://lawyers.justia.com/organization/justia-inc-16302" target="_blank" style="color: #00b3e3; text-decoration: none; display: inline-block; vertical-align: middle;">
+                        <img src="https://lawyers.justia.com/s/justia-flat-64.png" alt="Justia" border="0" style="display: block; max-width: none;  " width="32" height="32" />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td data-class="footer-disclaimer" class="mobile-padding-horizontal-sides" style=" padding: 0 30px 8px;" align="center">
+                <p style="margin: 0; font: 14px/1.45 Arial, sans-serif; color: #000000;">
+                  You are receiving this email because you have requested notifications for new questions in this practice area/location from <b>Justia Ask A Lawyer</b>.<br /><a href="#" style="text-decoration: none; color: #000000; font: 14px/1.45 Arial, sans-serif;"><b>Click here</b></a> to manage future notifications.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td data-class="footer-address" class="mobile-padding-horizontal-sides" style="  padding: 0 30px 120px;" align="center" valign="top">
+                <p style="margin: 0; font: 700 14px/1.5 Arial, sans-serif; color: #000000;">
+                  <a data-class="justia-inline" href="https://www.justia.com/" target="_blank" style="text-decoration: none; color: #000000; font: 700 14px/1.5 Arial, sans-serif;">Justia</a>
+
+                  <span data-class="pipe" style="color: #000000; font: 700 14px/1.5 Arial, sans-serif;">|</span>
+                  <span class="ios-links-black" style="color: #000000; font: 700 14px/1.5 Arial, sans-serif;">1380 Pear Ave #2B, Mountain View, CA 94043</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <!--[if gte mso 9]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

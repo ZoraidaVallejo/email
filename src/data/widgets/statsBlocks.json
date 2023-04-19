@@ -1,0 +1,47 @@
+{
+  "stats": {
+    "title": "Your Stats",
+    "profileCompleteness": "95",
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "image": "year-graphic-01.png",
+          "link": "https://answers.justia.com/",
+          "name": "Kellam T. Parks",
+          "rank": "2"
+        }
+      }
+    ]
+  },
+  "ad3-questions": {
+    "title": "Need Further Assistance?",
+    "link": "https://www.justia.com/marketing/",
+    "titleResponsiveSize": 23,
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>•&nbsp; <a href=\"#\"><strong>Contact {Lawyer Name} & Request a Consultation</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Find Other {State} {Practice Area} Lawyers</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Submit Another Question</strong></a></p>",
+          "<p>•&nbsp; <a href=\"#\"><strong>Turn Off Future Notifications for This Question</strong></a></p>"
+        ]
+      }
+    ]
+  },
+  "blogging": {
+    "title": "Lorem ipsum dolor sit",
+    "link": "https://www.justia.com/",
+    "titleResponsiveSize": 23,
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, <b>id mollis est porta</b>. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p>",
+          "<p>Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Duis varius elementum tincidunt.</p>"
+        ]
+      }
+    ]
+  }
+}

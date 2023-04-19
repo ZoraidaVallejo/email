@@ -1,0 +1,29 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="connect-series-pro" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.askLawyer}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.ad2}}
+
+        {{>widget-ad widgetClass="-email-2" widgetConfig=advertisements.ad2}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jaal1}}
+    </td>
+  </tr>
+{{/table}}

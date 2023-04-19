@@ -1,0 +1,31 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="ask-a-lawyer-02" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.askLawyer}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-block-first widgetClass="-first-block -email-2-v2" widgetConfig=blockFirst.ad2v2}}
+
+        {{!-- {{>widget-block-bottom widgetClass="-email-1" widgetConfig=blockBottom.ad2v2}}
+
+        {{>widget-ad widgetClass="-email-2-v2" widgetConfig=advertisements.ad2}} --}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.june}}
+    </td>
+  </tr>
+{{/table}}

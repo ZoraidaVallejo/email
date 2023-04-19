@@ -1,0 +1,120 @@
+{
+  "ad1": {
+    "link": "https://answers.justia.com/",
+    "name": "Kellam,",
+    "title": "a New Question for You",
+    "titleResponsiveSize": 21,
+    "image": "connect-banner-graphic-01.png",
+    "contentOrder": [
+      {
+        "type": "question",
+        "config": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit.",
+          "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "link": "https://answers.justia.com/",
+          "width": "250px",
+          "text": "Answer Question",
+          "extraLink": "https://answers.justia.com/",
+          "extraLinkText": "View More Questions Like This"
+        }
+      },
+      {
+        "type": "questionInfo",
+        "config": {
+          "date": "Asked on May 5, 2022",
+          "location": "Located in Virginia Beach, VA",
+          "category": "Divorce, Family Law, Child Custody and Child Support"
+        }
+      }
+    ]
+  },
+  "ad2": {
+    "link": "https://answers.justia.com/",
+    "title": "Welcome to Justia Accounts!",
+    "titleResponsiveSize": 21,
+    "image": "jaal-banner-graphic-02.png"
+  },
+  "ad2v2": {
+    "link": "https://answers.justia.com/",
+    "title": "Welcome to Justia Accounts!",
+    "titleResponsiveSize": 21,
+    "image": "jaal-banner-graphic-02.png",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>You are receiving this email because you created an account when submitting a question via <b>Justia Ask A Lawyer</b>.</p>",
+          "<p>To verify your email address and activate your account, please click on the following link or copy and paste the link into your browser:</p>",
+          "<p><a href=\"#\"><strong>{LINK}</strong></a></p>",
+          "<p><b>Didn't create a Justia Account?</b> You can ignore this email. Another user may have entered your email address in error. If you do not click the verification link above, the account will not be activated. </p>"
+        ]
+      }
+    ]
+  },
+  "ad3": {
+    "link": "https://answers.justia.com/",
+    "name": "{Lawyer Name}",
+    "title": "Answered Your Question on Justia Ask A Lawyer!",
+    "titleResponsiveSize": 21,
+    "image": "jaal-banner-graphic-03.png",
+    "contentOrder": [
+      {
+        "type": "answers",
+        "config": {
+          "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit.",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
+        }
+      },
+      {
+        "type": "description",
+        "type": "description",
+        "config": [
+          "<p>While we hope you find this response helpful, please remember questions and answers on Justia Ask A Lawyer do not replace a consultation with a licensed attorney in your jurisdiction, and participation in the forum does not create an attorney-client relationship between you and any lawyers on our platform.  </p>",
+          "<p><b>Please do not respond to this email.</b> This message came from an unmonitored inbox. Any responses to this email will not be seen by Justia or the responding attorney.</p>"
+        ]
+      }
+    ]
+  },
+  "ad3v2": {
+    "link": "https://answers.justia.com/",
+    "name": "{Lawyer Name}",
+    "title": "Answered Your Question on Justia Ask A Lawyer!",
+    "titleResponsiveSize": 21,
+    "image": "jaal-banner-graphic-03.png",
+    "contentOrder": [
+      {
+        "type": "answers",
+        "config": {
+          "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit.",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac velit vitae mauris posuere hendrerit."
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>While we hope you find this response helpful, please remember questions and answers on Justia Ask A Lawyer do not replace a consultation with a licensed attorney in your jurisdiction, and participation in the forum does not create an attorney-client relationship between you and any lawyers on our platform.  </p>",
+          "<p><b>Please do not respond to this email.</b> This message came from an unmonitored inbox. Any responses to this email will not be seen by Justia or the responding attorney.</p>"
+        ]
+      }
+    ]
+  },
+  "blogging": {
+    "link": "#",
+    "image": "title-banner-01.png",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></p>",
+          "<p>Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p>"
+        ]
+      }
+    ]
+  }
+}

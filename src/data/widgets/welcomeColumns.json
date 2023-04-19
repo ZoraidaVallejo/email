@@ -1,0 +1,26 @@
+{
+  "email1": {
+    "link": "https://www.justia.com/",
+    "title": "New From the Desk of Justia",
+    "titleResponsiveSize": 21,
+    "image": "year-graphic-04.png",
+    "columns": [
+      {
+        "blockTitle": "Why Non-Google PPC Matters for Law Firms",
+        "description": [
+          "With Google dominating the search engine market, you may be wondering if any non-Google PPC advertising still matters. The short answer? Yes. Keep reading to learn more...."
+        ],
+        "readMore": "https://onward.justia.com/why-non-google-ppc-matters-for-law-firms/",
+        "readMoreText": "Keep Reading"
+      },
+      {
+        "blockTitle": "SEO Basics for Lawyers: Keyword Research",
+        "description": [
+          "Search engine optimization helps lawyers strengthen their digital marketing strategy by focusing on visibility in Google Search results and other search engine results too!"
+        ],
+        "readMore": "https://onward.justia.com/seo-basics-for-lawyers-keyword-research/",
+        "readMoreText": "Keep Reading"
+      }
+    ]
+  }
+}

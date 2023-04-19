@@ -1,0 +1,46 @@
+{
+  "jld": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "askLawyer",
+      "link": {
+        "url": "https://www.justia.com/"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
+      "alt": false
+    }
+  },
+  "askLawyer": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "ask-lawyer",
+      "link": {
+        "url": "https://answers.justia.com/"
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "blogging": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "ask-lawyer",
+      "link": {
+        "url": "#"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-blue.png",
+      "alt": false
+    }
+  },
+  "connect": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "marketing",
+      "link": {
+        "url": "https://connect.justia.com/"
+      },
+      "path": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-blue.png",
+      "alt": false
+    }
+  }
+}
