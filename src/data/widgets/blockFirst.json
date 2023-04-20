@@ -111,8 +111,10 @@
       {
         "type": "description",
         "config": [
-          "<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></p>",
-          "<p>Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p>"
+          "<p>Hi [name],</p>",
+          "<p>As a current newsletter subscriber who receives ideas for [practice area] posts, we are excited to announce that you will now be subscribed to receive the latest opinion summaries for [practice area].</p>",
+          "<p>We encourage you to check out these case summaries, as they will serve as the best inspiration for creating blog posts with substantive legal analysis. The blogging ideas newsletter is now discontinued.</p>",
+          "<p>Please let us know if you have any questions about this update.</p>"
         ]
       }
     ]
