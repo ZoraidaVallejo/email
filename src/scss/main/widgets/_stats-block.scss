@@ -250,6 +250,11 @@
             p {
                 @include mail-font(18px, 1.5);
 
+                span {
+                    display: inline;
+                    padding: 0 0.7em;
+                }
+
                 a {
                     @include mail-font(18px, 1.5);
                     display: inline;

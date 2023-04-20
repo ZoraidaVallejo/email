@@ -31,6 +31,21 @@
     ]
   },
   "blogging": {
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p><strong>Lorem ipsum</strong></p>",
+          "<p><span>•</span><a href=\"#\"><strong>Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus.</strong></a></p>",
+          "<p><strong>Lorem ipsum</strong></p>",
+          "<p><span>•</span><a href=\"#\"><strong>Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus.</strong></a></p>",
+          "<p><strong>Lorem ipsum</strong></p>",
+          "<p><span>•</span><a href=\"#\"><strong>Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus.</strong></a></p>"
+        ]
+      }
+    ]
+  },
+  "blogging2": {
     "title": "Lorem ipsum dolor sit",
     "link": "https://www.justia.com/",
     "titleResponsiveSize": 23,
