@@ -1,0 +1,58 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Upcoming Webinars",
+        "icon": {
+          "src": "webinar-icon.png",
+          "alt": "Upcoming Webinars"
+        },
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/the-ethics-of-online-advertising-and-marketing?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-1' target='_blank'>​<b>The Ethics of Online Advertising and Marketing</b></a>",
+          "<p>In this presentation approved for one hour of legal ethics MCLE credit in California, Justia CEO Tim Stanley will share information to help demystify the ethical implications surrounding digital/online advertising for lawyers and law firms! We'll cover various ethical implications of digital legal marketing used to engage current clients and reach new clients.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/the-ethics-of-online-advertising-and-marketing?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-1",
+          "text": "Register Now",
+          "width": 160
+        },
+        "border": true
+      },
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "recordings-icon.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "​<a class='title' href='https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-3' target='_blank'><b>Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</b></a>",
+          "<p>Learn about effective marketing strategies for small law firms, combining digital and traditional approaches. Watch this on-demand presentation in which David Wolf, Partner at Wood, Atter & Wolf, P.A., provides practical guidance on how to promote your firm and create an impactful brand that brings in business.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-3",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<a class='title' href='https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'><b>Using ChatGPT & AI Tools for Writing Law Firm Marketing Content: The Good, The Bad, The Ugly</a></b>",
+          "<p>Want to learn more about how ChatGPT and other AI models can help your law firm create marketing content? Stream this on-demand presentation, as members of the Justia team explore how ChatGPT produces content, why lawyers should be mindful of factual inaccuracies in AI content, and more!</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/using-chatgpt-for-law-firm-marketing-content?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-4",
+          "text": "Watch Now",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Use Your Justia Connect Pro Credit",
+    "link": "https://connect.justia.com/case-law-summary-newsletters?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "Take advantage of your Justia Connect membership benefits and sign up for free Justia Daily Opinion Summaries, our newsletters offering daily alerts summarizing new appellate court opinions issued the previous day for the jurisdiction(s) of your choice!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/case-law-summary-newsletters",
+      "text": "Get Summaries",
+      "width": 180,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
