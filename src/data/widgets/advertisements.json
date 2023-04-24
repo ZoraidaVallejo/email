@@ -53,10 +53,10 @@
       ]
     },
     "ad2": {
-      "title": "<span>Top 5 Reasons to Choose</span>  Justia Gold Placements:",
+      "title": "And You Need Justia Connect Pro  <span><i>Top 5 Reasons to Go Pro Today</i></span>",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 20,
-      "image": "20-off-banner-01.jpg",
+      "image": "justia-connect-pro-wants-you.png",
       "contentOrder": [
         {
           "type": "image-description",
@@ -64,7 +64,7 @@
             "responsive": "mobile-fz-16",
             "image": "number-bullet-01.png",
             "description": [
-              "<strong>Maximize Your Exposure: </strong>Take full advantage of your presence in the Justia Lawyer Directory, a directory with over 1,000,000 monthly visits from potential clients."
+              "<strong>Upgrade Your Legal Marketing With $200 Justia Credit: </strong>Level up your legal marketing with an annual $200 Justia Credit applicable to Justia Premium Placements in the Justia Lawyer Directory, Justia Elevate websites, or Justia Amplify PPC management services."
             ]
           }
         },
@@ -74,7 +74,7 @@
             "responsive": "mobile-fz-16",
             "image": "number-bullet-02.png",
             "description": [
-              "<strong>Stand Out from the Crowd: </strong>Leverage featured placements in the Justia Lawyer Directory listing pages for more visibility and a competitive edge over free listings. "
+              "<strong>Stand Out With an Enhanced, Ad-Free Profile: </strong>Impress more potential clients and outshine the guy next door with an enhanced Justia Lawyer Directory profile that is free from competitor ads."
             ]
           }
         },
@@ -84,7 +84,7 @@
             "responsive": "mobile-fz-16",
             "image": "number-bullet-03.png",
             "description": [
-              "<strong>Dominate Your Market: </strong>Remove all competitor ads from your Justia Profile in the Justia Lawyer Directory, ensuring that potential clients focus solely on your practice."
+              "<strong>Showcase Your Best Reviews on Justia: </strong>As an exclusive benefit for Justia Connect Pro members, you can always put your best foot forward by choosing two client reviews and one peer review to feature on your Justia Profile."
             ]
           }
         },
@@ -94,7 +94,7 @@
             "responsive": "mobile-fz-16",
             "image": "number-bullet-04.png",
             "description": [
-              "<strong>Customize Your Brand Messaging: </strong>Take advantage of a customized tagline for your listing, enabling you to craft powerful messages that resonate with your target audience."
+              "<strong>Expand Your Knowledge With Justia Webinars: </strong>Never miss out on a learning opportunity! Gain priority access to select presentations and earn CLE credit for select webinars at no additional cost."
             ]
           }
         },
@@ -104,15 +104,19 @@
             "responsive": "mobile-fz-16",
             "image": "number-bullet-05.png",
             "description": [
-              "<strong>Track Your Success: </strong>Unlock access to your Justia Profile traffic statistics for valuable insights into how people find you on Justia so you can evaluate your performance."
+              "<strong>Get High-Value Benefits at a Low Price: </strong>Justia Connect Pro is available in affordable monthly ($19.99/month) and yearly ($16.65/month paid annually) membership plans. Plus, your upgraded membership pays for itself when you use your annual Justia Credit!"
             ]
           }
         },
         {
-          "type": "description",
-          "config": [
-            "<p>*Anniversary offer valid for a limited time. To redeem offer, you must contact Justia by April 30, 2023 and complete the purchase of a new Justia Gold Placement by May 15, 2023.</p>"
-          ]
+          "type": "button",
+          "config": {
+            "text": "Get Started",
+            "style": "red",
+            "link": "#",
+            "fontSize": "24px",
+            "width": "190px"
+          }
         }
       ]
     }

@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-   
+
     td {
         text-align: center;
     }
@@ -178,7 +178,7 @@
         }
 
         ul li {
-            padding-bottom: 28px;    
+            padding-bottom: 28px;
         }
     }
 
@@ -193,7 +193,7 @@
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
-                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+                // background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
             }
 
             span {
@@ -204,7 +204,7 @@
 
         .content {
             padding: 0 50px 25px;
-            color: plt('justia-blue');
+            // color: plt('justia-blue');
         }
 
         // .content.-first {
