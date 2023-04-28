@@ -12,6 +12,14 @@
         }
     }
 
+    .block-title {
+        text-align: center;
+    }
+
+    .block-image {
+        margin: 0 auto;
+    }
+
     .widget-description {
         padding: 0 $padding 34px;
 
@@ -26,7 +34,7 @@
 
     .content {
         padding: 0 $padding 25px;
-        text-align: left;
+        text-align: center;
 
         &.-description {
             padding: 0 $padding 25px;

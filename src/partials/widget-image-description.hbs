@@ -85,10 +85,10 @@
     {{#forEach widgetConfig.contentOrder}}
       {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-hide">
+                <div class="content-side -image" responsive="mobile-padding-30-bottom">
                   {{#if ../../widgetConfig.link}}<a href="{{{../../widgetConfig.link}}}" target="_blank">{{/if}}
                     {{>img
                       src=../config.image
