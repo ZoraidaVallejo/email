@@ -19,10 +19,12 @@
   "jld": {
     "layout": "logo-only",
     "logo": {
-      "name": "Lawyer Directory",
+      "name": "Anniversary Jld",
       "link": {
         "url": "https://www.justia.com/"
-      }
+      },
+      "path": false,
+      "alt": false
     }
   },
   "ad1": {
