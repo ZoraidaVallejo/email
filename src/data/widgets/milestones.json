@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Lorem ipsum dolor sit amet: ",
+        "link": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis posuere ipsum, eget pulvinar enim vestibulum sit amet. Aenean commodo massa velit, ac ultricies leo consectetur sed."
+      }
+    }
+  ]
+}

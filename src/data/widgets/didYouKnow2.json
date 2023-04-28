@@ -1,0 +1,16 @@
+{
+  "widget": {
+    "type": "DID YOU KNOW?",
+    "header": "Law Students Visit the MX Office"
+  },
+  "titleResponsiveSize": 23,
+  "imageTop": "event-01.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "We started receiving student visits at the MX Office. In the most recent one, we had law students from La Salle University (ULSA). We offered them an office tour and a coffee break. They also attended a presentation about Justia. We always enjoy sharing information about Justia with students!"
+      ]
+    }
+  ]
+}

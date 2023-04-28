@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Tetris"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.youtube.com/watch?v=loCVDF9Fu4g",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "where": "Available on <a href=\"https://www.youtube.com/watch?v=loCVDF9Fu4g\" target=\"_blank\"><b>Apple TV+</b></a>",
+        "description": [
+          "<i>Enjoy the story of one of the most nostalgic and current video games ever: Tetris. How it was developed, the chaos of intellectual property, and the conflict of interest with the Soviet Union. Tenacity can lead us to success, but sometimes the cost involved in the process is extremely high. You will love the graphics, the references, and the storytelling!</i>",
+          "- Alejandra Medina"
+        ]
+      }
+    }
+  ]
+}
