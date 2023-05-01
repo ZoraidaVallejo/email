@@ -71,13 +71,14 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We are excited to announce the release of our latest Justia Webinar recording <a href=\"https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms\" target=\"_blank\">Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a>.",
+      "This webinar dives into the world of marketing for solo and small firms by exploring effective and affordable digital and traditional marketing methods, including practical tips and tricks you can implement right away!",
+      "Whether you're just starting out or looking to refresh your marketing strategy, you won't want to miss out on these insights. Simply upgrade to Justia Connect Pro for $19.99 to take advantage of this resource."
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Go Pro Now",
+      "text": "Watch With Pro",
       "width": 250
     }
   },
@@ -85,16 +86,9 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
-    ],
-    "bullet-list": [
-      "Lorem ipsum dolor sit amet",
-      "Lorem ipsum dolor sit amet",
-      "Lorem ipsum dolor sit amet"
-    ],
-    "message2": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "We are excited to announce the release of our latest Justia Webinar recording <a href=\"https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms\" target=\"_blank\">Digital and Traditional Marketing for Solo and Small Firms - From No Cost to Low Cost Effective, Practical, and Proven</a>.",
+      "This webinar dives into the world of marketing for solo and small firms by exploring effective and affordable digital and traditional marketing methods, including practical tips and tricks you can implement right away!",
+      "Whether you're just starting out or looking to refresh your marketing strategy, you won't want to miss out on these insights."
     ],
     "button": {
       "style": "red",
