@@ -10,19 +10,9 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v66"
+        "content": "banner-premium-memberships-v68"
       },
       "image": "premium-placement-2023-05.gif"
-    },
-    "ad2": {
-      "link": "https://www.justia.com/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "insights-newsletter",
-        "content": "anniversary-banner-2023-05"
-      },
-      "image": "justia-20anniversary.jpg"
     }
   }
 }

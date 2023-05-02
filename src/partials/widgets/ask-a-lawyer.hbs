@@ -46,14 +46,14 @@
           <tr>
             <td class="wrapper -photo">
               {{#if askALawyer.featured.photoLink}}<a href="{{{askALawyer.featured.photoLink}}}" target="_blank">{{/if}}
-                {{>img src="ask-lawyer-02.jpg" alt=askALawyer.featured.name class="photo"}}
+                {{>img src="ask-lawyer-01.jpg" alt=askALawyer.featured.name class="photo"}}
               {{#if askALawyer.featured.photoLink}}</a>{{/if}}
             </td>
             <td class="wrapper -info">
               <p class="name">
                 {{#if askALawyer.featured.nameLink}}<a href="{{{askALawyer.featured.nameLink}}}" target="_blank">{{/if}}
                   {{{askALawyer.featured.name}}}
-                {{#if askALawyer.featured.nameLink}}</a>{{/if}}
+                {{#if askALawyer.featured.nameLink}}</a>{{>img src="pro-label.png" alt="Pro" class="pro-label"}}{{/if}}
               </p>
               <p class="location">
                 {{#uppercase}}{{askALawyer.featured.location}}{{/uppercase}}

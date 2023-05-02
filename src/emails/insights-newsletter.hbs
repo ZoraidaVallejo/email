@@ -34,11 +34,11 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>jobs-subscribe}} --}}
 
-        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
+        {{>did-you-know widgetConfig=didYouKnow.jld}}
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-        {{>tip-month widgetConfig=tipMonth.jld}}
+        {{!-- {{>tip-month widgetConfig=tipMonth.jld}} --}}
 
         {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
 
