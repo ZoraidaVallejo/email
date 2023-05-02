@@ -1,0 +1,63 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome.jld}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
+
+        {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}}
+
+        {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
+
+        {{!-- {{>webmaster widgetUtmVars=webmaster.utm.jld}} --}}
+
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
+
+        {{>featured-lawyer}}
+
+        {{!-- {{>answers-leaderboard}} --}}
+
+        {{>ask-a-lawyer}}
+
+        {{!-- {{>jobs-subscribe}} --}}
+
+        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
+
+        {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
+
+        {{>tip-month widgetConfig=tipMonth.client}}
+
+        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
+
+        {{>events-we-attended}}
+
+        {{>trending-news}}
+
+        {{>inside-justia}}
+
+        {{>jurispro}}
+
+        {{>law-events}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}

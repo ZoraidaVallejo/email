@@ -1,0 +1,90 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   L A W Y E R                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   askALawyer
+ * @param {Object}   askALawyer.button
+ * @param {String}   askALawyer.button.style
+ * @param {String}   askALawyer.button.link
+ * @param {String}   askALawyer.button.text
+ * @param {Object[]} askALawyer.list
+ * @param {String}   askALawyer.list[].id
+ * @param {Number}   askALawyer.list[].rank
+ * @param {String}   askALawyer.list[].name
+ * @param {String}   askALawyer.list[].location
+ * @param {String}   askALawyer.list[].nameLink
+ * @param {String}   askALawyer.list[].photoLink
+ * @param {String[]} askALawyer.description
+}}
+
+{{#and askALawyer.button (compare askALawyer.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-featured-lawyer w-ask-a-lawyer set-max-width"}}
+  {{>widget-header
+    header=askALawyer.widget.header
+    icon=askALawyer.widget.icon
+    type=askALawyer.widget.type
+    link=askALawyer.widget.link
+  }}
+
+  <tr>
+    <td class="lawyer-info" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#table class="images-group" responsive="mobile-reset-width"}}
+          <tr>
+            <td class="wrapper -photo">
+              {{#if askALawyer.featured.photoLink}}<a href="{{{askALawyer.featured.photoLink}}}" target="_blank">{{/if}}
+                {{>img src="ask-lawyer-02.jpg" alt=askALawyer.featured.name class="photo"}}
+              {{#if askALawyer.featured.photoLink}}</a>{{/if}}
+            </td>
+            <td class="wrapper -info">
+              <p class="name">
+                {{#if askALawyer.featured.nameLink}}<a href="{{{askALawyer.featured.nameLink}}}" target="_blank">{{/if}}
+                  {{{askALawyer.featured.name}}}
+                {{#if askALawyer.featured.nameLink}}</a>{{/if}}
+              </p>
+              <p class="location">
+                {{#uppercase}}{{askALawyer.featured.location}}{{/uppercase}}
+              </p>
+            </td>
+            <td class="wrapper -badge" responsive="mobile-hide mobile-no-padding-horizontal-sides">
+              {{>img src="ask-a-lawyer-icon.png" alt="Ask a Lawyer Badge" class="badge"}}
+            </td>
+          </tr>
+        {{/table}}
+
+          {{!--
+          // TODO: Maybe move title and description to a component.
+          --}}
+          {{#each askALawyer.description}}
+            <p>{{{this}}}</p>
+          {{/each}}
+
+          {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          {{#if @root.widgetWithButton}}
+            <div class="widget-button">
+              {{#uiButton presetStyle=askALawyer.button.style href=askALawyer.button.link width=askALawyer.button.width}}
+                {{askALawyer.button.text}}
+              {{/uiButton}}
+            </div>
+          {{/if}}
+      </div>
+    </td>
+  </tr>
+
+
+{{/table}}

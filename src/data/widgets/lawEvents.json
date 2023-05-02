@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "12",
+      "month": "Apr",
+      "title": "Key Family Law Matters Involving Military Families",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/429787299/",
+      "time": "12pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "18",
+      "month": "Apr",
+      "title": "Getting the Whole Truth: Interviewing Techniques for the Lawyer",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/428518888/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "20",
+      "month": "Apr",
+      "title": "Workers’ Compensation: Liability and Reimbursement Strategies When Marijuana is Legal",
+      "link": "https://www.straffordpub.com/products/workers-compensation-liability-and-reimbursement-strategies-when-marijuana-is-legal-2023-05-20",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "21",
+      "month": "Apr",
+      "title": "Effective Digital & Traditional Marketing for Small Law Firms",
+      "link": "https://connect.justia.com/webinars/effective-digital-traditional-marketing-for-small-law-firms",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "01",
+      "month": "May",
+      "title": "One License to Practice Law Anywhere?",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/430325569/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}
