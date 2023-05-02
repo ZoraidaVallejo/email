@@ -3,14 +3,6 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Onward"
   },
-  "feature": {
-    "image": {
-      "src": "featured-onward-01.png",
-      "alt": "Google Ads for Lawyers: A beginners Guide to PPC Success"
-    },
-    "readMore": "https://onward.justia.com/google-ads-for-lawyers-a-beginners-guide-to-ppc-success/",
-    "blockTitle": "Google Ads for Lawyers: A beginners Guide to PPC Success"
-  },
   "singleColumn": false,
   "columns": [
     {
@@ -28,6 +20,22 @@
       },
       "readMore": "https://onward.justia.com/justia-legal-guides-car-accidents-center/",
       "blockTitle": "Justia Legal Guides: <br>Car Accidents Center"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Google Ads for Lawyers: A beginners Guide to PPC Success"
+      },
+      "readMore": "https://onward.justia.com/google-ads-for-lawyers-a-beginners-guide-to-ppc-success/",
+      "blockTitle": "Google Ads for Lawyers: A beginners Guide to PPC Success"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "8 Web Design Best Practices for Law Firms in the Second Half of 2023"
+      },
+      "readMore": "https://onward.justia.com/8-web-design-best-practices-for-law-firms-in-the-second-half-of-2023/",
+      "blockTitle": "8 Web Design Best Practices for Law Firms in the Second Half of 2023"
     }
   ]
 }

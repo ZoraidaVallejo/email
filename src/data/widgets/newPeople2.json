@@ -7,28 +7,10 @@
     {
       "type": "image-description",
       "config": {
-        "image": "new-people-01.png",
-        "title": "John Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "new-people-02.png",
-        "title": "John Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "new-people-03.png",
-        "title": "Jane Doe",
-        "blockSubtitle": "Lorem Team",
-        "description": "Architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt eque porro quisquam est, qui dolorem ipsum quia dolor sit."
+        "image": "new-justians-01.png",
+        "title": "Kshama Kumar",
+        "blockSubtitle": "Data Team",
+        "description": "Hi everyone! My name is Kshama Kumar. I am 28 years old, from Goa, India. I recently graduated from Seattle University with a Master’s in Computer Science - Data Science specialization. I am usually shy and introverted until I get comfortable. I love to sing and dance. On the creative end, I love organizing events and setting up event spaces (no budget constraints, please). I am excited to be a part of Justia and look forward to working with you all!"
       }
     }
   ]

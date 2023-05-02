@@ -9,9 +9,58 @@
       "type": "image-description",
       "config": {
         "image": "milestones-graphic-01.png",
-        "title": "Lorem ipsum dolor sit amet: ",
-        "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis posuere ipsum, eget pulvinar enim vestibulum sit amet. Aenean commodo massa velit, ac ultricies leo consectetur sed."
+        "title": "Justia X Open AI Hackathon. ",
+        "description": "Our Engineering Team had the opportunity to use the Open AI APIs to develop a functional proof of concepts in a two-day Hackathon. New products and features will reflect their learning and contributions in the upcoming months."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "IT Team. ",
+        "description": "As always, our team kept on top of our server infrastructure and took care of maintenance and security updates to various Justia properties, such as the <a href=\"https://www.justia.com/lawyers\" target=\"_blank\"><b>Justia Lawyer Directory</b></a>, <a href=\"https://law.justia.com/\" target=\"_blank\"><b>Justia Case Law</b></a>, and JWeb, to name a few."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Lawyer Directory. ",
+        "link": "https://www.justia.com/lawyers",
+        "description": "Our team made multiple improvements to our lawyer directory, including updates to the A2A email invitations, client review moderation tools, and added a Justia Connect Pro promotional block in the Justia Profile dashboard."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Justia Connect. ",
+        "link": "https://connect.justia.com/",
+        "description": "We continue to improve Justia Connect by integrating new features like alerting Justia Connect Pro members about credits expiration and improvements to Justia CLE Webinars. We also added a Justia Connect Pro tooltip on various properties to promote the product better and added a sticky banner to Justia Accounts."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "QA Automation Team. ",
+        "description": "Our QA Team expanded our automated QA coverage for some properties, including <a href=\"https://brand.justia.com/\" target=\"_blank\"><b>Justia Brand</b></a> and <a href=\"https://answers.justia.com/\" target=\"_blank\"><b>Justia Ask A Lawyer</b></a>, and improved support for our JLD monthly report."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "GA4. ",
+        "description": "Continuing with the migration to GA4 for all our public properties, this month, we included tracking for some of our Justia Friends websites, such as <a href=\"https://www.joannagrossman.com/\" target=\"_blank\"><b>Joanna Grossman’s website</b></a>, <a href=\"https://fairuse.stanford.edu/\" target=\"_blank\"><b>Stanford Copyright & Fair Use site</b></a>, and <a href=\"https://www.ericgoldman.org/\" target=\"_blank\"><b>Eric Goldman's</b></a> blogs."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Blogging Ideas Migration. ",
+        "description": "This month, we completed the migration of our Blogging Ideas users to the <a href=\"https://connect.justia.com/case-law-summary-newsletters\" target=\"_blank\"><b>Justia Daily Opinion Summary</b></a> Newsletters, given that we discontinued that service this month."
       }
     }
   ]

@@ -21,7 +21,7 @@
     .title {
         padding: $widget-gap $padding 35px;
         margin: 0 0 grid-unit(0.5);
-        background: image-url('title-decoration-01.png') no-repeat;
+        background: url('../dist/images/title-decoration-01.png') no-repeat;
         background-position: center bottom;
         color: plt('justia-blue');
 
