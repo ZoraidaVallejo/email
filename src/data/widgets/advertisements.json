@@ -1,0 +1,36 @@
+{
+  "templates": {
+    "cancellation": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "",
+        "content": ""
+      },
+      "image": "refer-program.png",
+      "imageAlt": "We're sad to see you go",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Take advantage of our new referral program.</p><strong>How It Works</strong><table class='list'><tr><td class='icon'><img src='../dist/images/icon-message.png' alt='list image'></td><td class='content'><p>Recommend Justia Marketing Solutions to other lawyers and law firms in your network.</p></td></tr><tr><td class='icon'><img src='../dist/images/icon-code.png' alt='list image'></td><td class='content'><p>Give your unique referral code to interested lawyers and law firms.</p></td></tr><tr><td class='icon'><img src='../dist/images/icon-100.png' alt='list image'></td><td class='content'><p>You receive a $100 Justia Credit applicable to your own marketing solutions after an eligible lawyer you refer completes the sign-up process for qualified Justia Marketing Solutions.</p></td></tr><tr><td class='icon'><img src='../dist/images/icon-50.png' alt='list image'></td><td class='content'><p>Eligible referred lawyers also receive $50 in Justia Credit applicable to Justia Premium Placements in the Justia Lawyer Directory, Justia Amplify PPC management services, or a Justia Elevate website.</p></td></tr></table><table class='box'><tr><p>Participation is easy! <span>Just share your unique Justia Referral Code:</span></p><strong>[FirstName.LastName]</strong></tr></table>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Still have questions? Learn more or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>*Terms and conditions apply. Please see the Justia Marketing Solutions Referral Program Terms and Conditions for full details and eligibility guidelines.</b></p>"
+          ]
+        }
+      ]
+    }
+  }
+}
