@@ -71,8 +71,42 @@
             }
         }
 
+        p {
+
+            &.box {
+                background-color: #E5EAF1;
+                padding: 20px 50px;
+                margin: 0 30px;
+
+                span, strong {
+                    display: block;
+                }
+            }
+
+            &.tcenter {
+                text-align: center;
+            }
+
+            &.heading {
+                @include mail-font(24px, 1.2, tp('weight', 'bold'));
+                margin: 0 auto 20px!important;
+                color: plt('justia-blue');
+
+                strong,b {
+                    @include mail-font(22px, 1.2, tp('weight', 'bold'));
+                    color: plt('justia-blue');
+                }
+            }
+
+            .data {
+                margin: 10px 0 0;
+                @include mail-font(22px, 1.2, tp('weight', 'bold'));
+                color: plt('justia-blue');
+            }
+        }
+
         &.-first {
-            padding: 45px 50px 50px;
+            padding: 45px 50px 0px;
             text-align: left;
 
 
@@ -88,11 +122,11 @@
                 &:last-child {
                     margin-bottom: 0;
                 }
-
-                &.tcenter {
-                    text-align: center;
-                }
             }
+
+            // .tcenter {
+            //     text-align: center;
+            // }
         }
 
         &.-button {
@@ -102,17 +136,17 @@
         &.-last {
             // padding: 0 $padding $widget-gap;
 
-            a {
-                font-weight: get('font.weight.bold');
-                color: plt('black');
-            }
+            // a {
+            //     font-weight: get('font.weight.bold');
+            //     color: plt('black');
+            // }
 
             p {
                 @include mail-font(18px);
             }
 
             .disclaimer {
-                margin-top: 30px;
+                margin:0 0 30px;
                 @include mail-font(14px);
             }
         }
