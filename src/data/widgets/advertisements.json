@@ -1,6 +1,6 @@
 {
   "templates": {
-    "cancellation": {
+    "refer": {
       "layout": "top-image",
       "link": "/",
       "utm": {
@@ -21,7 +21,7 @@
         {
           "type": "description",
           "config": [
-            "<p class='box tcenter'> Participation is easy! <span>Just share your unique Justia Referral Code:</span> <strong class='data'>[FirstName.LastName]</strong></p>"
+            "<p class='box tcenter'> Participation is easy! <span>Just share your unique Justia Referral Code:</span> <strong class='data'>[FirstName LastName]</strong></p>"
           ]
         },
         {
