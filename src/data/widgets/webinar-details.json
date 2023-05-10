@@ -138,7 +138,7 @@
     "banner": "",
     "details": {
       "date": "May 12, 2023",
-      "time": "3:00 pm ET/12:00 am PT"
+      "time": "3:00 pm ET/12:00 pm PT"
     },
     "message": [
       "Name,",
@@ -146,6 +146,28 @@
       "<a href=\"#\" target=\"_blank\">Use this link</a> to join us at presentation time. If you have trouble accessing this presentation, please contact <a href=\"https://support.justia.com/\" target=\"_blank\">Justia Support</a> for assistance.",
       "<b>Reminder:</b> While all Justia Connect members are invited to attend the presentation, only Justia Connect Pro members are eligible to receive CLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
       "<em>*This presentation is approved for one hour of Legal Ethics MCLE credit in California.</em>"
+    ]
+  },
+  "12-webinar-today": {
+    "banner": "",
+    "details": {
+      "date": "May 12, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "This is your last chance to register for <a href=\"https://connect.justia.com/webinars/the-ethics-of-online-advertising-and-marketing\" target=\"_blank\">The Ethics of Online Advertising and Marketing</a>* with <a href=\"https://connect.justia.com/webinars/presenter/tim-stanley\" target=\"_blank\">Justia CEO Tim Stanley</a>. Don’t miss out on this opportunity to get insights into some of the various ethical implications surround digital advertising for lawyers and law firms.",
+      "The webinar will begin promptly at 3:00 p.m. ET/12:00 p.m. PT. Claim your spot before they’re gone!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/the-ethics-of-online-advertising-and-marketing",
+      "text": "Claim My Seat",
+      "width": 250
+    },
+    "message3": [
+      "<em>* This presentation is approved for one hour of Legal Ethics MCLE credit in California.</em>",
+      "<b>Alert:</b> All Justia Connect members are invited to join us for this free presentation but only Justia Connect Pro members are eligible to receive CLE credit for their attendance. To upgrade to Pro for only $19.99/month, visit <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>."
     ]
   }
 }
