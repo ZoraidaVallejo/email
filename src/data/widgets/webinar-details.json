@@ -169,5 +169,24 @@
       "<em>* This presentation is approved for one hour of Legal Ethics MCLE credit in California.</em>",
       "<b>Alert:</b> All Justia Connect members are invited to join us for this free presentation but only Justia Connect Pro members are eligible to receive CLE credit for their attendance. To upgrade to Pro for only $19.99/month, visit <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>."
     ]
+  },
+  "12-webinar-cle-verification": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Thank you for joining us for our recent Justia Webinars presentation! <b>You must complete your attendance verification to receive CLE credit</b>. As a reminder, if you have a free Justia Connect membership, you must <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro</a> to receive CLE credit.",
+      "<b>The steps below must be completed by 1:00 p.m. PT on Sunday, May 14, 2023 to receive credit.</b>",
+      "<b>Completing Your Attendance Verification</b>"
+    ],
+    "number-list": [
+      "Visit the Justia CLE Center: <a href=\"https://connect.justia.com/cle-center\" target=\"_blank\">https://connect.justia.com/cle-center</a>",
+      "Click on the “Complete Verification” button.",
+      "Input the attendance verification code received during your presentation.",
+      "Follow the remaining prompts in the form to input all pertinent information and offer evaluation of the MCLE presentation.",
+      "Download your certificate, and you’re done!"
+    ],
+    "message2": [
+      "If you have any questions about verification, please <a href=\"https://support.justia.com/\" target=\"_blank\">contact Justia Support</a>."
+    ]
   }
 }
