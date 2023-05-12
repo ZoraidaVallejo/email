@@ -79,13 +79,14 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We are excited to share that the recording of our recent webinar, <b>The Ethics of Online Advertising and Marketing</b>, is now available to watch on-demand!",
+      "By upgrading to Justia Connect Pro today, you can unlock access to this presentation and still get insights from Tim Stanley, CEO of Justia, into various ethical considerations for online advertising.",
+      "It just takes a few clicks to get started. Plus, the affordable Justia Connect Pro Membership is available without any long-term commitments!"
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Watch With Pro",
+      "text": "Upgrade to Unlock",
       "width": 250
     }
   },
@@ -93,13 +94,13 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We are excited to share that the recording of our recent webinar, The Ethics of Online Advertising and Marketing, is now available to watch on-demand!",
+      "As a Justia Connect Pro, you have unlocked access to this presentation and can get Justia CEO Tim Stanley’s insights into various ethical considerations for online advertising whenever, wherever you are."
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Watch Now",
+      "text": "Stream Now",
       "width": 250
     }
   },
