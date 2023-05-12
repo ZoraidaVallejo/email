@@ -83,5 +83,22 @@
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-onboarding-blue.png"
     },
     "alt": "Justia Onboarding"
+  },
+  "justiaAnniversary": {
+    "path": {
+      "amplify": "justia-20-amplify-blue.png",
+      "elevate": "justia-20-elevate-blue.png",
+      "connect": "justia-20-connect-blue.png",
+      "justia": "justia-20-justia-blue.png",
+      "lawyer-directory": "justia-20-lawyer-directory-blue.png",
+      "legal-jobs": "justia-20-legal-jobs-blue.png",
+      "marketing": "justia-20-marketing-blue.png",
+      "webinars": "justia-20-webinars-blue.png",
+      "summaries": "justia-20-daily-opinion-summaries-blue.png",
+      "onward": "justia-20-onward-blue.png",
+      "refer": "justia-20-refer-blue.png",
+      "insights": "justia-20-insights-blue.png"
+    },
+    "alt": "Justia 20 Anniversary "
   }
 }
