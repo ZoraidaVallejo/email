@@ -21,7 +21,7 @@
     &.-template-01 {
         .content {
             p {
-                @include mail-font(16px);
+                @include mail-font(18px);
             }
         }
     }

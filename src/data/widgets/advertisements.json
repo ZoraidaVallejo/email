@@ -1,6 +1,6 @@
 {
   "templates": {
-    "temp1": {
+    "elevate1": {
       "layout": "bottom-image",
       "link": "https://www.justia.com/marketing/",
       "utm": {
@@ -9,22 +9,22 @@
         "source": "",
         "content": ""
       },
-      "image": "template-01A.jpg",
-      "imageAlt": "Lorem ipsum dolor",
+      "image": "coin-in-pig.jpg",
+      "imageAlt": "Want A High-Quality Website That Won't Break The Bank",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl. Proin volutpat lectus diam, a gravida eros euismod non.</p>",
-            "<p>Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Aenean quis lacus id nulla varius scelerisque ac a ex. Duis varius elementum tincidunt.</p>"
+            "<p>Justia has you covered! With plans starting at only $99/month,* Justia Elevate equips your law firm with an optimized website that brings in more clients while leaving more dollars in your pocket. </p>",
+            "<p>Contact our team to learn more today.</p>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Call To Action",
-            "width": 170,
+            "text": "Tell Me More",
+            "width": 180,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -34,13 +34,6 @@
             "fontSize": 20,
             "responsive": ""
           }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
         }
       ]
     },

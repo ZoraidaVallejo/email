@@ -100,7 +100,7 @@
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 20px $padding $widget-gap;
 
             a {
                 font-weight: get('font.weight.bold');
