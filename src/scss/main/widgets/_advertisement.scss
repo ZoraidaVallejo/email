@@ -67,7 +67,7 @@
 
         p,
         ul li {
-            @include mail-font(18px, 1.5);
+            @include mail-font(22px, 1.5);
         }
 
         .red-info {
@@ -104,11 +104,11 @@
         }
 
         .content-side {
-            width: 425px;
+            width: 445px;
             text-align: left;
 
             &.-image {
-                width: 50px;
+                width: 30px;
             }
 
             &.-description p {
@@ -116,7 +116,7 @@
             }
 
             img {
-                width: 50px;
+                width: 30px;
             }
 
             &:first-child {
@@ -189,7 +189,7 @@
             color: plt('justia-blue');
 
             a {
-                @include mail-font(22px, 1.5, 700);
+                @include mail-font(28px, 1.25, 700);
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
@@ -214,13 +214,30 @@
         //     padding: 40px 48px 35px;
         // }
 
-        .content.-idx-6 {
+        .content.-last {
             padding: 25px 50px 50px;
 
             p {
                 @include mail-font(14px, 1.5);
                 color: #4F4F4F;
                 text-align: left;
+            }
+        }
+
+        .content.-first,
+        .content.-idx-8, {
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
+            }
+        }
+
+        .content.-idx-8, {
+            padding: 25px 70px 60px;
+
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
             }
         }
 

@@ -55,7 +55,7 @@
     "ad2": {
       "title": "<span>Justia Amplify </span> Has You Covered!",
       "link": "https://www.justia.com/",
-      "titleResponsiveSize": 20,
+      "titleResponsiveSize": 28,
       "image": "summer-google.gif",
       "contentOrder": [
         {
@@ -127,7 +127,7 @@
         {
           "type": "description",
           "config": [
-            "<p>Get started with up to $1,000 Google Ads credit!</p>"
+            "<p>Get started with up to <strong>$1,000</strong>  Google Ads credit!</p>"
           ]
         },
         {
@@ -142,7 +142,7 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 20,
+            "fontSize": 24,
             "responsive": ""
           }
         },
