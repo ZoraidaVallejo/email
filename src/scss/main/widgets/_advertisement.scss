@@ -71,6 +71,26 @@
             }
         }
 
+        &.-description {
+
+            p.heading1 {
+                @include mail-font(26px);
+                color: plt('justia-blue');
+                text-align: center;
+                margin: 40px auto 6px;
+            }
+
+            p.heading2 {
+                @include mail-font(22px);
+                color: plt('justia-blue');
+                margin: 5px 0 16px;
+            }
+
+            img.line {
+                margin: 0 auto 50px;
+            }
+        }
+
         &.-first {
             padding: 45px 50px 30px;
             text-align: left;
@@ -101,6 +121,7 @@
 
         &.-last {
             padding: 20px $padding $widget-gap;
+
 
             a {
                 font-weight: get('font.weight.bold');

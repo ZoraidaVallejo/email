@@ -19,9 +19,15 @@
     }
 
     &.-template-01 {
-        .content {
-            p {
-                @include mail-font(18px);
+        // .content {
+        //     // p {
+        //     //     @include mail-font(18px);
+        //     // }
+        // }
+
+        &.-elevate2 {
+            .content.-first {
+                padding: 45px 50px 0px !important;
             }
         }
     }
@@ -87,13 +93,17 @@
         margin: 0 auto;
 
         .icon {
-            width: 75px;
+            width: 50px;
             padding: 5px 0 $common-padding-bottom 0;
             vertical-align: top;
         }
 
+        p.text {
+            margin: 0 auto 16px !important;
+        }
+
         .content {
-            padding: 0 0 $common-padding-bottom 30px;
+            padding: 0 0 $common-padding-bottom 20px !important;
             text-align: left;
         }
 

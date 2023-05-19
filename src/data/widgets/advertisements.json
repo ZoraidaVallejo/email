@@ -2,7 +2,7 @@
   "templates": {
     "elevate1": {
       "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/",
+      "link": "https://www.justia.com/marketing/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -15,7 +15,7 @@
         {
           "type": "description",
           "config": [
-            "<p>Justia has you covered! With plans starting at only $99/month,* Justia Elevate equips your law firm with an optimized website that brings in more clients while leaving more dollars in your pocket. </p>",
+            "<p>Justia has you covered! With plans starting at only $99/month,* Justia Elevate equips your law firm with an <b>optimized website</b> that brings in more clients while leaving more dollars in your pocket. </p>",
             "<p>Contact our team to learn more today.</p>"
           ]
         },
@@ -24,43 +24,6 @@
           "config": {
             "style": "red",
             "text": "Tell Me More",
-            "width": 180,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        }
-      ]
-    },
-    "temp1b": {
-      "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
-      },
-      "image": "template-01B.jpg",
-      "imageAlt": "Lorem ipsum dolor",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl. Proin volutpat lectus diam, a gravida eros euismod non.</p>",
-            "<p>Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Aenean quis lacus id nulla varius scelerisque ac a ex. Duis varius elementum tincidunt.</p>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Call To Action",
             "width": 210,
             "height": 50,
             "borderColor": "",
@@ -68,225 +31,47 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 24,
+            "fontSize": 22,
             "responsive": ""
           }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
         }
       ]
     },
-    "temp1c": {
+    "elevate2": {
       "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/",
+      "link": "https://www.justia.com/marketing/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "",
         "content": ""
       },
-      "title": "<b>Lorem Ipsum Dolor Sit Amet Consectetu</b>",
-      "titleResponsiveSize": 23,
-      "image": "template-01.jpg",
-      "imageAlt": "Lorem ipsum dolor",
-      "topButton": [
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Call To Action",
-            "width": 170,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        }
-      ],
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id mollis est porta. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl. Proin volutpat lectus diam, a gravida eros euismod non.</p>",
-            "<p>Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Aenean quis lacus id nulla varius scelerisque ac a ex. Duis varius elementum tincidunt.</p>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Call To Action",
-            "width": 170,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
-        }
-      ]
-    },
-    "temp2": {
-      "layout": "top-image",
-      "link": "https://www.justia.com/marketing/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
-      },
-      "cta": "<b>Call to Action Text</b>",
-      "image": "template-02A.jpg",
+      "image": "reclaim-your-spot.jpg",
       "imageAlt": "Lorem ipsum dolor",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id <b>mollis est porta.</b> Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p> <table class='list'> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> </table>"
+            "<p>Are you frustrated with your website's search engine ranking? Do you find yourself being outranked by new websites or newer firms? This common problem has a solution.</p> <p class='heading1'><b>3 Tips for Reclaiming Your Place</b></p> <img class='line' src='../dist/images/line.png' alt='Line'> <table class='list'> <tr> <td class='icon'> <img src='../dist/images/bullet1.png' alt='bullet1'> </td> <td class='content'> <p class='heading2'><b>Optimize Your Page Titles</b></p> <p class='text'>Include your target keywords on all your important pages. Page titles are important signals that help Google understand what your pages are about and their target optimization. </p> <p class='text'><i><b>Potential Issues if Your Pages Lack Your Target Keywords</b></i></p> <ul> <li> <p>Your website may not show when clients use those location in searches</p> </li> <li> <p>Your site will compete with law firm websites from other states</p> </li> <li> <p>Lower quality traffic due to visitors from locations you don’t serve</p> </li> <li> <p>Pages not showing for their related practice area</p> </li> <li> <p>You may attract visitors not necessarily looking for legal services</p> </li> </ul> <p class='text'><i><b>What You or Your Website Provider Should Check on Your Page Titles</b></i></p> <ul> <li> <p>Include your main target location</p> </li> <li> <p>Include the main practice area relevant foreach page</p> </li> <li> <p>Include the word “lawyer” or “attorney”</p> </li> <li> <p>Include the name of the page</p> </li> </ul> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/bullet2.png' alt='bullet2'> </td> <td class='content'> <p class='heading2'><b>Optimize Your Content</b></p> <p class='text'> As with the page titles, Google heavily relies on your actual page content to understand the target optimization. Once you have added your target keyword to your titles...</p> </td> </tr> </table>"
           ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Call To Action",
-            "width": 204,
+            "text": "Get Two More Tips",
+            "width": 250,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 24,
+            "fontSize": 22,
             "responsive": ""
           }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
         }
       ]
-    },
-    "temp2b": {
-      "layout": "top-image",
-      "link": "https://www.justia.com/marketing/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
-      },
-      "cta": "<b>Call to Action Text</b>",
-      "image": "template-02B.jpg",
-      "imageAlt": "Lorem ipsum dolor",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id <b>mollis est porta.</b> Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p> <table class='list'> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/image-list.png' alt='list image'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> </table>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Call To Action",
-            "width": 170,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
-        }
-      ]
-    },
-    "temp3": {
-      "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
-      },
-      "image": "template-03.jpg",
-      "imageAlt": "Lorem ipsum dolor",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id <b>mollis est porta.</b> Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.</p> <table class='list -numbers'> <tr> <td class='icon'> <img src='../dist/images/icon-01.png' alt='number icon'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-02.png' alt='number icon'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-03.png' alt='number icon'> </td> <td class='content'> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus mauris hendrerit sapien eu justo finibus.</p> </td> </tr> </table>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Call To Action",
-            "width": 170,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>",
-            "<p class='disclaimer'>* Disclaimer: Lorem ipsum dolor sit amet, consectetur adipiscing elit consequat.</p>"
-          ]
-        }
-      ]
-    },
-    "temp4": {
-      "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "",
-        "content": ""
-      },
-      "image": "template-04.jpg",
-      "imageAlt": "Lorem ipsum dolor"
     }
   }
 }
