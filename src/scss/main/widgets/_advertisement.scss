@@ -104,11 +104,13 @@
         }
 
         .content-side {
-            width: 445px;
+            display: inline-block;
+            width: 400px;
             text-align: left;
+            vertical-align: middle;
 
             &.-image {
-                width: 30px;
+                width: 55px;
             }
 
             &.-description p {
@@ -119,13 +121,13 @@
                 width: 30px;
             }
 
-            &:first-child {
-                float: left;
-            }
+            // &:first-child {
+            //     float: left;
+            // }
 
-            &:last-child {
-                float: right;
-            }
+            // &:last-child {
+            //     float: right;
+            // }
         }
 
         &.-first {
@@ -207,6 +209,14 @@
             
             p strong {
                 color: plt('justia-blue');
+            }
+
+            &.-image-description {
+                text-align: left;
+
+                p {
+                    display: inline;
+                }
             }
         }
 
