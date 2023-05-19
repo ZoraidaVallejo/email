@@ -2,7 +2,7 @@
   "templates": {
     "elevate1": {
       "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/elevate/",
+      "link": "https://www.justia.com/marketing/contact/elevate/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
@@ -15,8 +15,8 @@
         {
           "type": "description",
           "config": [
-            "<p>Justia has you covered! With plans starting at only $99/month,* Justia Elevate equips your law firm with an <b>optimized website</b> that brings in more clients while leaving more dollars in your pocket. </p>",
-            "<p>Contact our team to learn more today.</p>"
+            "<p class='tcenter'>Justia has you covered! With plans starting at only $99/month,* Justia Elevate equips your law firm with an <b>optimized website</b> that brings in more clients while leaving more dollars in your pocket. </p>",
+            "<p class='tcenter'>Contact our team to learn more today.</p>"
           ]
         },
         {
@@ -39,7 +39,7 @@
     },
     "elevate2": {
       "layout": "bottom-image",
-      "link": "https://www.justia.com/marketing/elevate/",
+      "link": "/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
