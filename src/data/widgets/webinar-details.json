@@ -1,0 +1,126 @@
+{
+  "13-webinar-version-01-registration": {
+    "banner": "",
+    "details": {
+      "date": "June 9, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ]
+  },
+  "13-webinar-version-02-registered": {
+    "banner": "",
+    "details": {
+      "date": "June 9, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ]
+  },
+  "13-webinar-attendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "13-webinar-nonattendee-survey": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
+  },
+  "13-webinar-recording-blast-basic": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Upgrade to Unlock",
+      "width": 250
+    }
+  },
+  "13-webinar-recording-blast-pro": {
+    "banner": "",
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Stream Now",
+      "width": 250
+    }
+  },
+  "13-webinar-registration": {
+    "banner": "",
+    "details": {
+      "date": "June 9, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Registration is now open for the next Justia Webinar: <a href=\"#\" target=\"_blank\">Requests and Forms as Modern as the Evidence You Seek</a>.* On Friday, June 9 at 3:00 p.m. ET/12:00 p.m. PT, Craig Ball, Trial Lawyer & Computer Forensic Examiner, will discuss ways you can move beyond standard discovery practices and revamp your requests to target electronic evidence."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+      "text": "Register Now",
+      "width": 250
+    },
+    "message3": [
+      "<b>Please note:</b> All Justia Connect members are invited to join us for this free presentation but only Justia Connect Pro members are eligible to receive CLE credit for their attendance. To upgrade to Pro for only $19.99/month, visit <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>.",
+      "<em>*This presentation is approved for one hour of General MCLE credit in California.</em>"
+    ]
+  }
+}

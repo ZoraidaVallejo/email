@@ -1,0 +1,29 @@
+---
+subject: <%= dateFormat.string %>
+---
+
+{{>preheader text=""}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-ad widgetClass="-survey" widgetConfig=advertisements.13-webinar-nonattendee-survey}}
+
+        {{>webinar-details widgetConfig=webinar-details.13-webinar-nonattendee-survey}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.registered}}
+    </td>
+  </tr>
+{{/table}}
