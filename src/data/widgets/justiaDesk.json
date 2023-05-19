@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "8 Web Design Best Practices for Law Firms in the Second Half of 2023",
+      "link": "https://onward.justia.com/8-web-design-best-practices-for-law-firms-in-the-second-half-of-2023/",
+      "description": "If you are considering some spring cleaning for your law firm website design in 2023, there are some best practices we recommend keeping in mind. Check out this post to learn more.",
+      "index": "1"
+    },
+    {
+      "title": "Justia Featured Resources: Justia Dockets Offering Info on AI Lawsuits",
+      "link": "https://onward.justia.com/justia-featured-resources-justia-dockets-offering-info-on-ai-lawsuits/",
+      "description": "It’s often hard to fit new technologies into long-standing laws. A recent example is generative AI programs, which have spurred copyright lawsuits in federal courts. Justia...",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

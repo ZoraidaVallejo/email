@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "nextchapter-logo.png",
+        "alt": "Next Chapter",
+        "title": "Next Chapter",
+        "border": true,
+        "description": [
+          "NextChapter is the case management software created by lawyers, for lawyers. The comprehensive tools offered by this platform include virtual payment options, document automation, virtual paralegals available on a case-by-case basis, and more! As a Justia Connect member, you are eligible to save $100 off of an annual plan."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/nextchapter/100-off-annual-plan?utm_medium=email&utm_campaign=2023-05&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "room-icon.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "The summer travel season is here but you can always monitor what is going on at home! Cove is offering extra savings on its top-rated home security systems to our Justia Connect members. Save $50 on equipment and up to $150 on free monitoring with this exclusive offer; a total of up to $450 worth of equipment and 6 months of 24/7 professional monitoring for just $199."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:648335?utm_medium=email&utm_campaign=2023-05&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}
