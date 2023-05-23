@@ -67,7 +67,7 @@
 
         p,
         ul li {
-            @include mail-font(20px, 1.5);
+            @include mail-font(18px, 1.5);
         }
 
         .red-info {
@@ -129,7 +129,7 @@
         }
 
         &.-first {
-            padding: 15px 48px 50px;
+            padding: 50px 48px 50px;
             text-align: left;
 
             img {
@@ -146,13 +146,13 @@
         &.-last {
             padding: 0 $padding 50px;
 
-            p {
-                @include mail-font(18px, 1.5);
-            }
+            // p {
+            //     @include mail-font(18px, 1.5);
+            // }
         }
 
         &.-button {
-            padding: 0px $padding 20px;
+            padding: 0px $padding 50px;
         }
 
         a b {
@@ -162,24 +162,24 @@
     }
 
     &.-jld-ad-01 {
-        .content {
-            color: plt('white');
+        // .content {
+        //     color: plt('white');
 
-            &.-idx-2 {
-                display: block;
-                max-width: 235px;
-                padding: 0 0 25px 45px;
-                text-align: left;
-            }
+        //     &.-idx-2 {
+        //         display: block;
+        //         max-width: 235px;
+        //         padding: 0 0 25px 45px;
+        //         text-align: left;
+        //     }
 
-            a strong {
-                color: plt('white')!important;
-            }
-        }
+        //     a strong {
+        //         color: plt('white')!important;
+        //     }
+        // }
 
-        ul li {
-            padding-bottom: 28px;    
-        }
+        // ul li {
+        //     padding-bottom: 28px;    
+        // }
     }
 
     &.-jld-ad-02 {
@@ -188,13 +188,37 @@
         // }
 
         .content {
-            padding: 0 75px 25px;
-            color: plt('justia-blue');
+
+            &.-first {
+                padding: 50px 48px 25px;
+            }
+            
+            &.-idx-2 {
+                text-align: center;
+                color: plt('justia-blue');
+
+                p {
+                    @include mail-font(22px, 1.2);
+                }
+
+                strong {
+                    display: block;
+                }
+            }
+
+            &.-idx-3 {
+                text-align: left;
+                padding: 0 48px 50px;
+            }
+
+            &.-button {
+                padding: 0px $padding 50px;
+            }
         }
 
-        .content.-first {
-            padding: 40px 48px 35px;
-        }
+        // .content.-first {
+        //     padding: 40px 48px 35px;
+        // }
 
         ul {
             padding-left: 0;

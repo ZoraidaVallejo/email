@@ -5,49 +5,20 @@
   },
   "jld": {
     "ad1": {
-      "title": "<span>In a Crowded World</span> Be the One That Stands Out",
       "link": "https://www.justia.com/",
-      "titleResponsiveSize": 22,
-      "background": {
-        "image": "stands-out-01.jpg",
-        "width": 600,
-        "bgColor": "#000000",
-        "cssSize": "auto 100%",
-        "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
-      },
+      "titleResponsiveSize": 23,
+      "image": "connect-anniversary-banner.jpg",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p responsive=\"mobile-fz-18\">Right now, people are looking for a lawyer like you. With <strong>Justia Premium Placements</strong>, you will stand out.</p>"
+            "<p>We just wanted to drop a note to thank you for being connected with the <strong>Justia Connect Pro</strong> community for a whole year!  Thanks for choosing to be a part of this community, and we look forward to helping you continue to share, learn, save, and grow over the next year.</p>"
           ]
         },
         {
           "type": "description",
           "config": [
-            "<ul> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Get Up to 280x More Profile Views</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Remove Competitor Ads From Your Profile</li> <li responsive=\"mobile-fz-18 mobile-padding-bottom\">Discover the Ways Clients Find You</li> </ul>"
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Stand Out Today",
-            "width": 250,
-            "height": 50,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 20,
-            "responsive": ""
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><strong>(888) 587-8421</strong></a></p>"
+            "<p><strong>— The Justia Connect Pro Team</strong></p>"
           ]
         }
       ]
@@ -55,60 +26,37 @@
     "ad2": {
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 23,
-      "image": "stands-out-02.jpg",
+      "image": "pro-badge-banner.gif",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p>Right now, people are looking for a lawyer like you. With <strong>Justia Premium Placements</strong>, you will stand out.</p>"
+            "<p><strong>{Name},</strong></p>",
+            "<p>You spent years in academic study earning your degrees. You spent countless hours preparing for your bar exam. You've dedicated your professional life to building a successful practice.</p>"
           ]
         },
         {
-          "type": "image-description",
-          "config": {
-            "responsive": "mobile-fz-16",
-            "image": "icon-01.png",
-            "description": [
-              "Get Up to 280x More Profile Views"
-            ]
-          }
+          "type": "description",
+          "config": [
+            "<p><strong>You are a Pro.</strong>  It is time to make sure your clients know.</p>"
+          ]
         },
         {
-          "type": "image-description",
-          "config": {
-            "responsive": "mobile-fz-16",
-            "image": "icon-02.png",
-            "description": [
-              "Remove Competitor Ads From Your Profile"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "mobile-fz-16",
-            "image": "icon-03.png",
-            "description": [
-              "Discover the Ways Clients Find You"
-            ]
-          }
+          "type": "description",
+          "config": [
+            "<p>Tell them with the <strong>Justia Connect Pro Badge</strong> in the  Justia Lawyer Directory, exclusively available for serious lawyers committed to growing their practice with the enhanced membership benefits available to Justia Connect Pro members.</p>"
+          ]
         },
         {
           "type": "button",
           "config": {
             "style": "red",
-            "text": "Stand Out Today",
-            "width": 230,
+            "text": "Get My Pro Badge",
+            "width": 280,
             "height": 50,
-            "fontSize": 20,
+            "fontSize": 23,
             "responsive": ""
           }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
-          ]
         }
       ]
     }
