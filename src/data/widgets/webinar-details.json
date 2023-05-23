@@ -122,5 +122,28 @@
       "<b>Please note:</b> All Justia Connect members are invited to join us for this free presentation but only Justia Connect Pro members are eligible to receive CLE credit for their attendance. To upgrade to Pro for only $19.99/month, visit <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>.",
       "<em>*This presentation is approved for one hour of General MCLE credit in California.</em>"
     ]
+  },
+  "13-webinar-registration-reminder": {
+    "banner": "",
+    "details": {
+      "date": "June 9, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Are you tired of outdated and inefficient discovery practices that drain your law firm’s resources without effectively advancing the litigation process? It is time to embrace the power of modern e-discovery technique.",
+      "Join us for an exclusive webinar in which e-discovery expert <a href=\"https://connect.justia.com/webinars/presenter/craig-ball\" target=\"_blank\">Craig Ball</a> will share invaluable insights and strategies to help modernize your discovery requests and secure discoverable evidence in useful forms while helping your bottom line. The details are below:",
+      "<b>Date:</b> Friday, June 9, 2023 <br> <b>Time:</b> 3:00 p.m. ET/12:00 p.m. PT <br> <b>Where:</b> Virtually via Justia Connect <br> <b>Duration:</b> 60 Minutes <br> <b>CLE Credit:</b> California*"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+      "text": "Sign Up Today",
+      "width": 250
+    },
+    "message3": [
+      "<b>Please note:</b> All Justia Connect members are invited to join us for this free presentation but only Justia Connect Pro members are eligible to receive CLE credit for their attendance. To upgrade to Pro for only $19.99/month, visit <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>.",
+      "<em>*This presentation is approved for one hour of General MCLE credit in California.</em>"
+    ]
   }
 }
