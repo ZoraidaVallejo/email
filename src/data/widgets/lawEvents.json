@@ -1,0 +1,45 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "07",
+      "month": "Jun",
+      "title": "Why Lawyers Need To Know About AI (Artificial Intelligence)",
+      "link": "https://clewebinars.ce21.com/item/why-lawyers-need-ai-artificial-intelligence-471974"
+    },
+    {
+      "day": "00",
+      "month": "Jun",
+      "title": "How to Build a Real Estate Law Practice",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432055776/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "09",
+      "month": "Jun",
+      "title": "Requests and Forms as Modern as the Evidence You Seek",
+      "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+      "time": "3pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "20",
+      "month": "Jun",
+      "title": "Cybersecurity for Attorneys: Start with the Basics",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432116137/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "26",
+      "month": "Jun",
+      "title": "2023 Women of Legal Tech Summit",
+      "link": "https://web.cvent.com/event/a1d048f3-6bd7-4fc5-888b-c48fa4c1f03a/summary",
+      "time": "11am ET"
+    }
+  ]
+}

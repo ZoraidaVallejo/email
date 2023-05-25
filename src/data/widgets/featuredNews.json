@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/8-web-design-best-practices-for-law-firms-in-the-second-half-of-2023/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "placeholder.jpg",
+  "title": "Lorem Ipsum dolor",
+  "description": [
+    " lorem ipsum dolor sit amen lorem ipsum dolor sit amen lorem ipsum dolor sit amen lorem ipsum dolor sit amen lorem ipsum dolor sit amen"
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/8-web-design-best-practices-for-law-firms-in-the-second-half-of-2023/",
+    "text": "Read More"
+  }
+}

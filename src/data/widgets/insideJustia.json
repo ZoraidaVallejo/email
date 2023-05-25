@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "placeholder.jpg",
+        "alt": "Justia's Got Talent"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Justia's Got Talent</b>",
+      "description": [
+        "The 2nd episode of our in-house talent competition is in the books! Several Justians enjoyed showing off their skills while their colleagues cheered them on."
+      ]
+    },
+    {
+      "image": {
+        "src": "placeholder.jpg",
+        "alt": "Hug Pugs and Friends at the Los Altos Pet Parade"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Hug Pugs and Friends at the Los Altos Pet Parade</b>",
+      "description": [
+        "Zoey and her friends throughout the SF Bay area had fun spreading happiness while marching in the annual Los Altos Pet Parade last month!"
+      ]
+    }
+  ]
+}

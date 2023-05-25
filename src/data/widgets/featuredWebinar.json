@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Featured Webinar"
+  },
+  "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-webinar-01.jpg",
+  "title": "Requests and Forms as Modern as the Evidence You Seek",
+  "description": [
+    "Are your discovery requests still mired in a bygone world of telegrams and carbon paper? Are you getting pummeled with expenses and review challenges you need not accept? E-discovery expert Craig Ball discusses ways to revamp your requests to target electronic evidence and secure its production in utile and complete forms that will materially aid the bottom line. Learn to use requests and production protocols as modern as the evidence you seek."
+  ],
+  "button": {
+    "style": "red",
+    "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+    "text": "Register Now"
+  }
+}

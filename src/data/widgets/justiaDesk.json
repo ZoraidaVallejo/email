@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon",
+  "news": [
+    {
+      "title": "Discover The Success Three Law Firms Achieved With Justia Amplify",
+      "link": "https://onward.justia.com/discover-the-success-three-law-firms-achieved-with-justia-amplify/",
+      "description": "In today’s digital age, a robust online presence is crucial to expanding a law practice. Pay-per-click ads are a strategic tool to help your law firm achieve maximum visibility before high-value leads. With Justia Amplify PPC management services, lawyers are seeing exceptional results. Keep reading to learn more.",
+      "index": "1"
+    },
+    {
+      "title": "Justia Featured Resources: Justia Dockets Offering Info on AI Lawsuits",
+      "link": "https://onward.justia.com/justia-featured-resources-justia-dockets-offering-info-on-ai-lawsuits/",
+      "description": "It’s often hard to fit new technologies into long-standing laws. A recent example is generative AI programs, which have spurred copyright lawsuits in federal courts. Justia Dockets lets you keep up to date with the latest in litigation.",
+      "index": "1"
+    },
+    {
+      "title": "Justia Webinars Presents The Ethics of Online Advertising and Marketing",
+      "link": "https://onward.justia.com/happening-this-week-justia-webinars-presents-the-ethics-of-online-advertising-and-marketing/",
+      "description": "Check out this exclusive webinar about the ethics of online advertising for lawyers. In this presentation, attendees will learn more about the ethical implications of using digital marketing to engage with clients.",
+      "index": "1"
+    },
+    {
+      "title": "Justia Legal Guides: Animal & Dog Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-animal-dog-law-center/",
+      "description": "A bond between person and pet can resemble a bond between people. However, the benefits of pet ownership come with certain burdens. The Animal and Dog Law Center at Justia assists pet owners and people harmed by others’ pets.",
+      "index": "1"
+    },
+    {
+      "title": "Justia Lawyer Directory by the Numbers: First Quarter 2023",
+      "link": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-first-quarter-2023/",
+      "description": "We’ve crunched the numbers for the Justia Lawyer Directory in the first quarter of 2023 and are ready to share new insights with all of you. Check out this post to discover the top states for profile claims, some of our most active practice areas, and more!",
+      "index": "1"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

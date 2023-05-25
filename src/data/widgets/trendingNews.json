@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "Google To Remove Inactive Accounts",
+          "link": "https://www.searchenginejournal.com/google-to-remove-inactive-accounts/"
+        },
+        {
+          "title": "OpenAI Launches Free ChatGPT App for iOS ",
+          "link": "https://www.theverge.com/2023/5/18/23728703/openai-chatgpt-app-ios"
+        },
+        {
+          "title": "A.I.-Generated Content Discovered on News Sites, Content Farms and Product Review ",
+          "link": "https://www.nytimes.com/2023/05/19/technology/ai-generated-content-discovered-on-news-sites-content-farms-and-product-reviews.html"
+        },
+        {
+          "title": "Fearing Leaks, Apple Restricts ChatGPT Use Among Employees",
+          "link": "https://arstechnica.com/information-technology/2023/05/fearing-leaks-apple-restricts-its-employees-from-using-chatgpt-and-ai-tools/"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "How to Get Social Media Links on Your Google Business Profile",
+          "link": "https://whitespark.ca/blog/how-to-get-social-media-links-on-your-google-business-profile/"
+        },
+        {
+          "title": "Google: It's A Terrible Idea To Disavow Links Based On Third-Party Metrics",
+          "link": "https://www.seroundtable.com/google-disavow-links-third-party-metrics-35331.html"
+        },
+        {
+          "title": "An SEO’s Guide to Understanding Large Language Models (LLMs)",
+          "link": "https://searchengineland.com/seo-guide-large-language-models-413227"
+        },
+        {
+          "title": "Google Helpful Content Update Can Demote & Now Promote Content",
+          "link": "https://www.seroundtable.com/google-helpful-content-update-demote-promote-content-35393.html"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "Montana Is First State to Ban TikTok Over National Security Concerns",
+          "link": "https://arstechnica.com/tech-policy/2023/05/montana-is-first-state-to-ban-tiktok-over-national-security-concerns/ "
+        },
+        {
+          "title": "6 Tips to Protect Your Brand From Fake Social Media Accounts",
+          "link": "https://blog.hootsuite.com/fake-social-media-accounts/"
+        },
+        {
+          "title": "Twitter Now Allows Paid Users to Upload Two-Hour Long Videos ",
+          "link": "https://techcrunch.com/2023/05/18/twitter-now-allows-paid-users-to-upload-two-hour-long-videos/"
+        },
+        {
+          "title": "Everything We Know About Instagram’s Twitter Clone, Due This Summer",
+          "link": "https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Supreme Court Won’t Hold Tech Companies Liable for User Posts ",
+          "link": "https://www.nytimes.com/2023/05/18/us/politics/supreme-court-google-twitter-230.html"
+        },
+        {
+          "title": "TikTok Users Sue Montana, Calling State Ban Unconstitutional ",
+          "link": "https://www.nytimes.com/2023/05/18/business/media/tiktok-ban-free-speech-montana.html"
+        },
+        {
+          "title": "Privacy Law Is Devouring Internet Law (and Other Doctrines)…To Everyone’s Detriment",
+          "link": "https://blog.ericgoldman.org/archives/2023/05/privacy-law-is-devouring-internet-law-and-other-doctrines-to-everyones-detriment.htm"
+        },
+        {
+          "title": "Cybercrime Disruption Through Civil Litigation and Equitable Remedies",
+          "link": "https://www.lawfareblog.com/cybercrime-disruption-through-civil-litigation-and-equitable-remedies"
+        }
+      ]
+    }
+  ]
+}

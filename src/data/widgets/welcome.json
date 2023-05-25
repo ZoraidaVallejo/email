@@ -1,0 +1,23 @@
+{
+  "jld": {
+    "banner": "welcome-image-2023-06.jpg",
+    "title": [
+      "Welcome to Your Justia Insights Newsletter"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2023-05&utm_source=insights-newsletter&utm_content=text-welcome-section-v1' target='_blank'>Justia Connect</a> community.",
+      "In this edition of Justia Insights, learn more about some of Justia's most popular free resources, including information on AI lawsuits available via <b>Justia Dockets</b>, and register for the next <b>Justia Webinar</b> on e-Discovery techniques. Explore recent hot topics and news in the legal and technology industries, and take a peek at the fun team-bonding event we held last month!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}
