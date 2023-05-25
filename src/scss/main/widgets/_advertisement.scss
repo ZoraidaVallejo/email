@@ -235,14 +235,18 @@
         }
 
         .content.-first,
-        .content.-idx-8, {
+        .content.-idx-3, {
             p {
                 @include mail-font(27px, 1.25);
                 color: #06357A;
             }
         }
 
-        .content.-idx-8, {
+        .content.-idx-2, {
+            padding: 0 50px;
+        }
+
+        .content.-idx-3, {
             padding: 25px 70px 60px;
 
             p {
@@ -255,6 +259,115 @@
             padding-left: 0;
             margin-top: 1.2em;
             list-style: none;
+            text-align: left;
+
+            * {
+                vertical-align: middle;
+            }
+
+            li {
+                padding: 0 0 25px 0;
+            }
+
+            span {
+                display: inline-block;
+                padding: 0 0 0 25px;
+            }
+
+            img {
+                display: inline-block;
+            }
+        }
+    }
+
+    &.-jld-ad-03 {
+
+        .title {
+            padding: 50px $padding 25px;
+            color: plt('justia-blue');
+
+            a {
+                @include mail-font(28px, 1.25, 700);
+                display: block;
+                padding: 0 0 15px;
+                color: plt('justia-blue');
+                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+        }
+
+        .content {
+            padding: 0 50px 25px;
+            
+            p strong {
+                color: plt('justia-blue');
+            }
+
+            &.-image-description {
+                text-align: left;
+
+                p {
+                    display: inline;
+                }
+            }
+        }
+
+        // .content.-first {
+        //     padding: 40px 48px 35px;
+        // }
+
+        .content.-last {
+            padding: 25px 50px 50px;
+
+            p {
+                @include mail-font(14px, 1.5);
+                color: #4F4F4F;
+                text-align: left;
+            }
+        }
+
+        .content.-first,
+        .content.-idx-3, {
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
+            }
+        }
+
+        .content.-idx-2, {
+            padding: 0 50px;
+
+            div {
+                @include mail-font(22px, 1.5);
+
+                padding: 0 0 25px 0;
+                vertical-align: middle;
+                text-align: left;
+
+                span {
+                    display: inline-block;
+                    padding: 0 0 0 25px;
+                    vertical-align: middle;
+                }
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .content.-idx-3, {
+            padding: 25px 70px 60px;
+
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
+            }
         }
     }
 }

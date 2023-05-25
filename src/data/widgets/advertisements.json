@@ -153,6 +153,54 @@
           ]
         }
       ]
+    },
+    "ad3": {
+      "title": "<span>Justia Amplify </span> Has You Covered!",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 28,
+      "image": "summer-google.gif",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Get industry-leading PPC management services tailored for your law firm:</p>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<div responsive=\"mobile-fz-18 mobile-padding-20-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Optimized Landing Pages</span></div> <div responsive=\"mobile-fz-18 mobile-padding-20-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Click Fraud Detection & Prevention</span></div> <div responsive=\"mobile-fz-18 mobile-padding-20-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Call Tracking Integration</span></div> <div responsive=\"mobile-fz-18 mobile-padding-20-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Focused Locality Settings</span></div> <div responsive=\"mobile-fz-18 mobile-padding-20-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Targeted Keyword Selection</span></div> <div responsive=\"mobile-fz-18 mobile-no-padding-bottom mobile-align-center\"><img src=\"https://justatic.com/v/1/emails/images/newsletters/2023/04/check-icon.png\" alt=\"Check Icon\" width=\"30\"/><span responsive=\"collapse-one mobile-no-padding\">Ad Text Creation</span></div>"
+          ]
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Get started with up to <strong>$1,000</strong>  Google Ads credit!</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Get My Credit",
+            "width": 285,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 23,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Limited time offer. $500 Google Ads credit from Justia for new Justia Amplify Advance PPC management clients. Google promotional offer for first-time advertisers to Google Ads: Get $500.00 credit for spending $500.00 on Google Ads within 60 days of account opening. Subject to contract Terms and Conditions.</p>"
+          ]
+        }
+      ]
     }
   }
 }
