@@ -25,6 +25,8 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{>our-blog widgetClass="-blue-bg"}}
         
         {{>birthday widgetConfig=birthday}}
+        
+        {{>widget-image-description-sides widgetClass="-justia-pets-01" widgetConfig=justiaPets}}
 
         {{!-- {{>widget-ad widgetClass="-jld-ad-quote" widgetConfig=advertisements.quote}} --}}
 
@@ -44,16 +46,11 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- 2 columns, for 2 people --}}
         {{!-- {{>holidays widgetConfig=holidays}} --}}
         
-        {{>widget-image-description-sides widgetClass="-justia-pets-01" widgetConfig=justiaPets}}
-        
         {{!-- image and text aside, can be use for one to + 2 holidays --}}
-        {{>holidays-2 widgetClass="-blue-bg" widgetConfig=holidays2}}
+        {{!-- {{>holidays-2 widgetClass="-blue-bg" widgetConfig=holidays2}} --}}
 
         {{!-- image and text aside --}}
         {{!-- {{>team-activity-2 widgetConfig=teamActivity2}} --}}
-
-        {{!-- supports image on top or/and bottom delete the one not needed --}}
-        {{!-- {{>widget-image-description widgetClass="-blast-past" widgetConfig=blastPast}} --}}
 
         {{!-- supports image on top or/and bottom delete the one not needed --}}
         {{!-- {{>widget-image-description widgetClass="-justia-events" widgetConfig=justiaEvents}} --}}
@@ -61,7 +58,10 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
         {{!-- Same layout as Milestones --}}
         {{!-- {{>wellness-items widgetConfig=wellnessItems}} --}}
         
-        {{!-- {{>reviews widgetConfig=reviews}} --}}
+        {{>reviews widgetConfig=reviews}}
+
+        {{!-- supports image on top or/and bottom delete the one not needed --}}
+        {{>widget-image-description widgetClass="-blast-past" widgetConfig=blastPast}}
 
         {{!-- E X T R A S --}}
         {{!-- Not Commonly Used --}}

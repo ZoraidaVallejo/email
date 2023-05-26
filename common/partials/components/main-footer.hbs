@@ -30,7 +30,7 @@
   {{assign "footerLogoSrc" widgetConfig.logo.path}}
   {{assign "footerLogoAlt" widgetConfig.logo.alt}}
 {{else if widgetConfig.logo.name}}
-  {{assign "footerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.blue") logos)}}
+  {{assign "footerLogoSrc" (get (concat (camelcase widgetConfig.logo.name) ".path.justia") logos)}}
   {{assign "footerLogoAlt" (get (concat (camelcase widgetConfig.logo.name) ".alt") logos)}}
 {{else}}
   {{assign "footerLogoSrc" null}}
