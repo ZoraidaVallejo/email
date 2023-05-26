@@ -1,0 +1,20 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "The Ten Thousand Doors of January"
+  },
+  "titleResponsiveSize": 23,
+  "link": "https://www.amazon.com/gp/product/0140449337/",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "reviews-graphic-01.png",
+        "description": [
+          "<i>\"This book follows January Scaller in the early 1900s. She and her motley crew consisting of her dog, a former slave, and a neighbor boy, work together to find out who she really is and how to save her world from the loss of magical doors. The story pulls you in and makes you believe that magic truly exists as you find yourself trying to solve the mystery along with January. It will leave you wanting more of the world Harrow created.\"</i>",
+          "- Sarah Dondysh"
+        ]
+      }
+    }
+  ]
+}

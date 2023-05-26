@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "list",
+      "config": [
+        "<strong>Supreme Court Justices Bios.</strong> We completed biographies of all U.S. Supreme Court Justices, including notable opinions they wrote, for the Justia U.S. Supreme Court Center.",
+        "<strong>Justia Legal Dictionary.</strong> We developed a detailed prompt and reviewed AI-generated definitions of legal terms in preparation for creating a Justia Legal Dictionary with the assistance of AI.",
+        "<strong>50-State Surveys Expanded.</strong> We worked on surveys on minimum wage laws, marriage license laws, and dog bite laws by state, which will be added to our Employment Law, Family Law, and Personal Injury centers, respectively.",
+        "<strong>Commercial Real Estate Content.</strong> We wrote several new pages for the Small Business Center on legal concerns for businesses buying, selling, or leasing property."
+      ]
+    }
+  ]
+}
