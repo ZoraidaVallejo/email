@@ -11,7 +11,7 @@
     }
 
     &.-blue-bg {
-        background: image-url('odd-block-center.png') no-repeat plt('white');
+        background: url('../dist/images/odd-block-center.png') no-repeat plt('white');
         background-position: center;
         background-size: cover;
     }
@@ -35,7 +35,7 @@
         padding: 0 0 14px;
         vertical-align: middle;
         text-align: center;
-        background: image-url('title-decoration-01.png') no-repeat;
+        background: url('../dist/images/title-decoration-01.png') no-repeat;
         background-position: center bottom;
     }
 
@@ -239,5 +239,16 @@
             margin: 0 0 8px;
             color: plt('justia-blue');
         }
+    }
+}
+
+.w-holidays {
+
+    .widget-banner {
+        padding: 50px $padding;
+    }
+
+    .widget-description.-no-button {
+        padding: 0;
     }
 }

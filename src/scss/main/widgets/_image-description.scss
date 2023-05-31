@@ -21,7 +21,7 @@
     .title {
         padding: $widget-gap $padding 35px;
         margin: 0 0 grid-unit(0.5);
-        background: image-url('title-decoration-01.png') no-repeat;
+        background: url('../dist/images/title-decoration-01.png') no-repeat;
         background-position: center bottom;
         color: plt('justia-blue');
 
@@ -44,7 +44,7 @@
         }
     }
 
-    .image-top {
+    .imageTop {
         padding: 0 $padding $padding;
     }
 
@@ -101,30 +101,43 @@
         }
     }
 
-    &.-justia-events {
-
-        .image-bottom {
-            padding: 0 25px 25px;
-        }
-    }
-
-    // &.-team-activity-01 {
-    //     background: #fff;
-
-    //     .image-top {
-    //         padding: 0 25px 50px;
-    //     }
-    // }
-
     &.w-team-activities-3 {
         .widget-header {
             padding: 40px 40px 25px;
         }
     }
 
-    &.w-team-activities-4 {
+    &.-holidays-2 {
+        .content-side {
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+    }
+
+    &.did-you-know-2 {
+    
         .widget-header {
-            padding: 42px 85px 25px;
+            padding: $widget-gap 50px 25px;
+        }
+
+        .content.-description {
+            padding: 0 25px 50px;
+        }
+    }
+
+    &.did-you-know-4 {
+    
+        .widget-header {
+            padding: $widget-gap 25px 25px;
+        }
+
+        .content {
+            padding: 0 $padding 50px;
         }
     }
 }

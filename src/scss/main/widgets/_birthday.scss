@@ -72,17 +72,12 @@
 
                 &.fifth-icon b {
                     padding: 1px 28px 1px 0;
-                    background: image-url('fifth-anniversary-icon-01.png') no-repeat right;
+                    background: url('../dist/images/fifth-anniversary-icon-01.png') no-repeat right;
                 }
 
                 &.tenth-icon b {
                     padding: 1px 28px 1px 0;
-                    background: image-url('tenth-anniversary-icon-01.png') no-repeat right;
-                }
-
-                &.fifteen-icon b {
-                    padding: 1px 28px 1px 0;
-                    background: image-url('fifteen-anniversary-icon-01.png') no-repeat right;
+                    background: url('../dist/images/tenth-anniversary-icon-01.png') no-repeat right;
                 }
             }
 
@@ -103,12 +98,12 @@
             }
 
             .-birthdays > strong {
-                background: image-url('birthday-icon-01.png') no-repeat;
+                background: url('../dist/images/birthday-icon-01.png') no-repeat;
                 background-position: center left;
             }
 
             .-anniversaries > strong {
-                background: image-url('anniversary-icon-01.png') no-repeat;
+                background: url('../dist/images/anniversary-icon-01.png') no-repeat;
                 background-position: center left;
             }
         }

@@ -8,7 +8,7 @@
 
     .widget-banner {
         padding: 0 0 45px;
-        background: image-url('welcome-bg-01.png') no-repeat;
+        background: url('../dist/images/welcome-bg-01.png') no-repeat;
         background-size: 100% auto;
 
         img {
@@ -22,7 +22,7 @@
         .content-title {
             padding: 0 0 14px;
             margin: 0 0 18px;
-            background: image-url('title-decoration-01.png') no-repeat;
+            background: url('../dist/images/title-decoration-01.png') no-repeat;
             background-position: center bottom;
             color: plt('justia-blue');
 

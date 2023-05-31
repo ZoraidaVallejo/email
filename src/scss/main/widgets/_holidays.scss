@@ -28,12 +28,17 @@
     }
 
     .widget-banner {
-        padding: 0 50px 35px;
+        padding: 50px;
+        text-align: center;
+
+        img {
+            margin: 0 auto;
+        }
     }
 
-    .widget-description {
-        padding: 0 50px 50px;
-    }
+    // .widget-description {
+    //     padding: 0 50px 50px;
+    // }
 
     .content-subtitle {
         color: plt('justia-blue');
@@ -72,6 +77,7 @@
 
             img {
                 width: 375px;
+                margin: 0 auto 15px;
             }
 
             &:first-child {
@@ -103,6 +109,10 @@
         &.-last {
             padding: 0 $padding-content $widget-gap;
         }
+    }
+
+    .widget-description.-no-button {
+        padding: 0;
     }
 
     .content.-idx-2 {

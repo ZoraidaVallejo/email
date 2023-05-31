@@ -150,6 +150,15 @@ $settings: set('mail-footer', (
 
         .footer-head {
             padding: 25px $padding;
+
+            // a {
+            //     max-width: 500px;
+            //     overflow: hidden;
+
+            //     img {
+            //         max-width: 500px;
+            //     }
+            // }
         }
 
         img {

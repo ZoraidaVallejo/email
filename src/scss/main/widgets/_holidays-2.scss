@@ -64,12 +64,12 @@
                 // margin-top: 5px;
             }
 
-            &:last-child {
-                float: left;
-            }
-
             &:first-child {
                 float: right;
+            }
+
+            &:last-child {
+                float: left;
             }
         }
 
@@ -102,32 +102,6 @@
 
         &.-last {
             padding: 0 $padding $widget-gap;
-        }
-    }
-
-    .-idx-2 {
-
-        .content-side {
-
-            &:first-child {
-                float: left;
-            }
-
-            &:last-child {
-                float: right;
-            }
-        }
-    }
-
-    &.-justia-pets-01 {
-        .content .content-side {
-            &:first-child {
-                float: left;
-            }
-
-            &:last-child {
-                float: right;
-            }
         }
     }
 }
