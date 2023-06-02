@@ -198,5 +198,26 @@
       "<b>Reminder</b>: While all Justia Connect members are invited to attend the presentation, only Justia Connect Pro members are eligible to receive CLE credit. If you are not already a Pro, you can <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrade to Justia Connect Pro here</a>.",
       "<em>*This presentation is approved for one hour of General MCLE credit in California.</em>"
     ]
+  },
+  "13-webinar-last-chance": {
+    "banner": "",
+    "details": {
+      "date": "June 9, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "Last call for registrations! <a href=\"https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek\" target=\"_blank\">Requests and Forms as Modern as the Evidence You Seek</a>* is happening tomorrow. At 3:00 p.m. ET/12:00 p.m. PT, Craig Ball, Trial Lawyer & Computer Forensic Examiner, will share his expertise in the art of crafting effective e-discovery requests that both protect your bottom line and target discoverable information that could impact your case.",
+      "<b>This presentation is free for all lawyers</b> who have activated their Justia Connect membership by claiming their Justia Lawyer Directory profile. However, <b>free CLE credit is only available for Justia Connect Pros</b>. You can upgrade to Justia Connect Pro by visiting <a href=\"https://connect.justia.com/pro\" target=\"_blank\">connect.justia.com/pro</a>."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
+      "text": "Free Registration",
+      "width": 250
+    },
+    "note": [
+      "<em>*This presentation is approved for one hour of General MCLE credit in California.</em>"
+    ]
   }
 }
