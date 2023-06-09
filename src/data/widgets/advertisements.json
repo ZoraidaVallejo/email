@@ -56,7 +56,7 @@
       "title": "A <span>{State}</span> Lawyer Got Caught Getting Leads With Justia Premium Placements",
       "link": "https://www.justia.com/",
       "titleResponsiveSize": 22,
-      "image": "lawyer-directory-banner-2x.jpg",
+      "image": "lawyer-directory-banner.png",
       "contentOrder": [
         {
           "type": "description",
@@ -82,7 +82,7 @@
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 23,
+            "fontSize": 22,
             "responsive": ""
           }
         }
