@@ -55,13 +55,13 @@
     "ad2": {
       "title": "<span>Justia Amplify </span> Has You Covered!",
       "link": "https://www.justia.com/",
-      "titleResponsiveSize": 28,
+      "titleResponsiveSize": 23,
       "image": "summer-google.gif",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "<p>Get industry-leading PPC management services tailored for your law firm:</p>"
+            "<p responsive=\"mobile-fz-14\">Get industry-leading PPC management services tailored for your law firm:</p>"
           ]
         },
         {
@@ -127,7 +127,7 @@
         {
           "type": "description",
           "config": [
-            "<p>Get started with up to <strong>$1,000</strong>  Google Ads credit!</p>"
+            "<p responsive=\"mobile-fz-14\">Get started with up to <strong>$1,000</strong> of  Google Ads credit!</p>"
           ]
         },
         {
@@ -135,7 +135,7 @@
           "config": {
             "style": "red",
             "text": "Get My Credit",
-            "width": 265,
+            "width": 285,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
@@ -143,13 +143,13 @@
             "fontStyle": "",
             "fontWeight": "",
             "fontSize": 23,
-            "responsive": ""
+            "responsive": "mobile-fz-18"
           }
         },
         {
           "type": "description",
           "config": [
-            "<p>Limited time offer. $500 Google Ads credit from Justia for new Justia Amplify Advance PPC management clients. Google promotional offer for first-time advertisers to Google Ads: Get $500.00 credit for spending $500.00 on Google Ads within 60 days of account opening. Subject to contract Terms and Conditions.</p>"
+            "<p responsive=\"mobile-fz-10\">Limited time offer. $500 Google Ads credit from Justia for new Justia Amplify Advance PPC management clients. Google promotional offer for first-time advertisers to Google Ads: Get $500.00 credit for spending $500.00 on Google Ads within 60 days of account opening. Subject to contract Terms and Conditions.</p>"
           ]
         }
       ]
@@ -175,7 +175,7 @@
         {
           "type": "description",
           "config": [
-            "<p responsive=\"mobile-fz-14\">Get started with up to <strong>$1,000</strong>  Google Ads credit!</p>"
+            "<p responsive=\"mobile-fz-14\">Get started with up to <strong>$1,000</strong> of  Google Ads credit!</p>"
           ]
         },
         {
