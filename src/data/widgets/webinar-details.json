@@ -78,13 +78,14 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We are excited to share that the recording of our recent webinar, <a href=\"https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek\" target=\"_blank\">Requests and Forms as Modern as the Evidence You Seek</a>, is now available to watch on demand!",
+      "By <a href=\"https://connect.justia.com/pro\" target=\"_blank\">upgrading to Justia Connect Pro</a> for just $19.99/month, you can unlock access to this presentation and still get e-discovery insights from <a href=\"https://connect.justia.com/webinars/presenter/craig-ball\" target=\"_blank\">Craig Ball</a>, Trial Lawyer & Computer Forensic Examiner.",
+      "Information on revamping your discovery requests is just a few clicks away. Upgrade to unlock this presentation today."
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Upgrade to Unlock",
+      "text": "Upgrade to Pro",
       "width": 250
     }
   },
@@ -92,13 +93,13 @@
     "banner": "",
     "message": [
       "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "We are excited to share that the recording of our recent webinar, <a href=\"#\" target=\"_blank\">Requests and Forms as Modern as the Evidence You Seek</a>, is now available to watch online - whenever, wherever convenient for you!",
+      "Take advantage of strategic e-discovery insights from <a href=\"https://connect.justia.com/webinars/presenter/craig-ball\" target=\"_blank\">Craig Ball</a>, Trial Lawyer & Computer Forensic Examiner. Information on best practices for revamping your requests for modern technology is just a few clicks away."
     ],
     "button": {
       "style": "red",
       "link": "#",
-      "text": "Stream Now",
+      "text": "Watch Now",
       "width": 250
     }
   },
