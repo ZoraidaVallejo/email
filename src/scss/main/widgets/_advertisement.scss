@@ -1,0 +1,423 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+   
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 23px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 34px $padding 6px;
+        text-transform: capitalize;
+        color: plt('white');
+        // background-color: #00b3e3;
+
+        a {
+            @include mail-font(36px, 1, 700);
+            color: plt('white');
+        }
+
+        span {
+            display: block;
+            font-weight: normal;
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 45px 25px;
+
+        strong a {
+            color: plt('justia-blue');
+        }
+
+        b {
+            color: plt('red');
+        }
+
+        ul {
+            padding-left: 23px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            span {
+                padding-right: 12px;
+            }
+
+        }
+
+        p,
+        ul li {
+            @include mail-font(18px, 1.5);
+        }
+
+        .red-info {
+            color: #e2231a;
+            font-size: rem-calc(14px);
+            vertical-align: top;
+        }
+
+        .heading4 {
+            text-align: center;
+            @include mail-font(18px, 1.2);
+            // font-size: rem-calc(22px);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .subheading {
+            text-align: center;
+            color: plt('justia-blue');
+            display: block;
+            font-size: rem-calc(18px);
+            // padding: 0 0 8px;
+            span {
+                display: inline-block;
+            }
+        }
+
+        .source {
+            font-size: rem-calc(14px);
+
+            strong {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            display: inline-block;
+            // width: 400px;
+            text-align: left;
+            vertical-align: middle;
+
+            &.-image {
+                width: 30px;
+                padding: 0 25px 0 0;
+            }
+
+            &.-description p {
+                // margin-top: 10px;
+            }
+
+            img {
+                width: 30px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 15px 48px 50px;
+            text-align: left;
+
+            img {
+                margin: 0 auto;
+            }
+
+            p {
+                // padding: 0 50px;
+                // max-width: 500px;
+                // margin: 0 auto;
+            }
+        }
+
+        &.-last {
+            padding: 0 $padding 50px;
+
+            p {
+                @include mail-font(18px, 1.5);
+            }
+        }
+
+        &.-button {
+            padding: 0px $padding 20px;
+        }
+
+        a b {
+            color: plt('justia-blue');
+            display: inline-block;
+        }
+    }
+
+    &.-jld-ad-01 {
+        .content {
+            color: plt('white');
+
+            &.-idx-2 {
+                display: block;
+                max-width: 235px;
+                padding: 0 0 25px 45px;
+                text-align: left;
+            }
+
+            a strong {
+                color: plt('white')!important;
+            }
+        }
+
+        ul li {
+            padding-bottom: 28px;    
+        }
+    }
+
+    &.-jld-ad-02 {
+
+        .title {
+            padding: 50px $padding 25px;
+            color: plt('justia-blue');
+
+            a {
+                @include mail-font(28px, 1.25, 700);
+                display: block;
+                padding: 0 0 15px;
+                color: plt('justia-blue');
+                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+        }
+
+        .content {
+            padding: 0 50px 25px;
+            
+            p strong {
+                color: plt('justia-blue');
+            }
+
+            &.-image-description {
+                text-align: left;
+
+                p {
+                    display: inline;
+                }
+            }
+        }
+
+        .content.-last {
+            padding: 25px 50px 50px;
+
+            p {
+                text-align: left;
+            }
+        }
+
+        .content-side {
+            display: inline-block;
+            // width: 400px;
+            text-align: left;
+            vertical-align: middle;
+
+            &.-image {
+                width: 74px;
+                padding: 0 25px 0 0;
+            }
+
+            &.-description p {
+                @include mail-font(18px, 1.5);
+                display: block;
+                line-height: 30px;
+            }
+
+            img {
+                width: 74px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: left;
+                max-width: 80%;
+            }
+        }
+
+        .content.-first {
+            padding: 0 44px 0 0;
+            background: #0D9BB4;
+
+            .-image {
+                max-width: 300px;
+                width: 56%;
+                padding: 0;
+            }
+
+            img {
+                width: 300px;
+            }
+
+            .-description {
+                max-width: 250px;
+                width: 44%;
+                padding: 90px 0 0 5px;
+            }
+
+            .-description p {
+                @include mail-font(36px, 1.2);
+                display: block;
+                color: plt('white');
+                text-transform: uppercase;
+
+                span {
+                    @include mail-font(80px, 1.1, 700);
+                    display: block;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .content.-idx-2, {
+            padding: 50px 50px 25px;
+            text-align: left;
+
+            // div {
+            //     @include mail-font(22px, 1.5);
+
+            //     padding: 0 0 25px 0;
+            //     vertical-align: middle;
+            //     text-align: left;
+
+            //     span {
+            //         display: inline-block;
+            //         padding: 0 0 0 25px;
+            //         vertical-align: middle;
+            //     }
+
+            //     img {
+            //         display: inline-block;
+            //         vertical-align: middle;
+            //     }
+            // }
+        }
+    }
+
+    &.-jld-ad-02.-jld-yellow {
+
+        .content.-first {
+            background: #f9cd08;
+
+            .-description p {
+                color: plt('justia-blue');
+            }
+        }
+    }
+
+    &.-jld-ad-03 {
+
+        .title {
+            padding: 50px $padding 25px;
+            color: plt('justia-blue');
+
+            a {
+                @include mail-font(28px, 1.25, 700);
+                display: block;
+                padding: 0 0 15px;
+                color: plt('justia-blue');
+                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+        }
+
+        .content {
+            padding: 0 50px 25px;
+            
+            p strong {
+                color: plt('justia-blue');
+            }
+
+            &.-image-description {
+                text-align: left;
+
+                p {
+                    display: inline;
+                }
+            }
+        }
+
+        // .content.-first {
+        //     padding: 40px 48px 35px;
+        // }
+
+        .content.-last {
+            padding: 25px 50px 50px;
+
+            p {
+                @include mail-font(14px, 1.5);
+                color: #4F4F4F;
+                text-align: left;
+            }
+        }
+
+        .content.-first,
+        .content.-idx-3, {
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
+            }
+        }
+
+        .content.-idx-2, {
+            padding: 0 50px;
+
+            div {
+                @include mail-font(18px, 1.5);
+
+                padding: 0 0 25px 0;
+                vertical-align: middle;
+                text-align: left;
+
+                span {
+                    display: inline-block;
+                    padding: 0 0 0 25px;
+                    vertical-align: middle;
+                }
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .content.-idx-3, {
+            padding: 25px 70px 60px;
+
+            p {
+                @include mail-font(27px, 1.25);
+                color: #06357A;
+            }
+        }
+    }
+}

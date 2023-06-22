@@ -1,0 +1,164 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "yellow": {
+      "contentOrder": [
+        {
+          "type": "custom-banner",
+          "config": {
+            "responsive": "mobile-padding-horizontal-sides",
+            "image": "yellow-hammer-banner.gif",
+            "description": [
+              "You <br>Were Seen <span responsive=\"mobile-fz-32\">180x More</span> Than Competitors"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Hi {Name},</p>",
+            "<p>Did you know the Justia Lawyer Directory is one of the most visited directories available online with over one million visitors each month?</p>",
+            "<p>Because of your placement, more of those eyes are on you and potential clients are seeing you _____X more than the average lawyers in your area. (USA/State/City/Metro)</p>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-01.png",
+            "description": [
+              "An enhanced, competitor-free Justia Profile in the Justia Lawyer Directory, ensuring more potential clients keep their eyes on you"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-02.png",
+            "description": [
+              "Prominent contact information and an integrated contact form so it is easier for prospective clients to reach you"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-03.png",
+            "description": [
+              "A customized tagline for Justia Premium Placement listing, helping you keep your best foot forward when connecting with new clients "
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-04.png",
+            "description": [
+              "The eye-catching “Premium” label so your Justia Profile stands out across our site"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-05.png",
+            "description": [
+              "2 for 1 Visibility through featured placements in two top directories both the Justia Lawyer Directory and the Legal Information Institute Directory"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Thanks for being a Justia client! We are proud to help you continue to grow your firm with these benefits in the year to come.</p>"
+          ]
+        }
+      ]
+    },
+    "blue": {
+      "contentOrder": [
+        {
+          "type": "custom-banner",
+          "config": {
+            "responsive": "mobile-padding-horizontal-sides",
+            "image": "teal-hammer-banner.gif",
+            "description": [
+              "You <br>Were Seen <span responsive=\"mobile-fz-32\">180x More</span> Than Competitors"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Hi {Name},</p>",
+            "<p>Did you know the Justia Lawyer Directory is one of the most visited directories available online with over one million visitors each month?</p>",
+            "<p>Because of your placement, more of those eyes are on you and potential clients are seeing you _____X more than the average lawyers in your area. (USA/State/City/Metro)</p>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-01.png",
+            "description": [
+              "An enhanced, competitor-free Justia Profile in the Justia Lawyer Directory, ensuring more potential clients keep their eyes on you"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-02.png",
+            "description": [
+              "Prominent contact information and an integrated contact form so it is easier for prospective clients to reach you"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-03.png",
+            "description": [
+              "A customized tagline for Justia Premium Placement listing, helping you keep your best foot forward when connecting with new clients "
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-04.png",
+            "description": [
+              "The eye-catching “Premium” label so your Justia Profile stands out across our site"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-05.png",
+            "description": [
+              "2 for 1 Visibility through featured placements in two top directories both the Justia Lawyer Directory and the Legal Information Institute Directory"
+            ]
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p>Thanks for being a Justia client! We are proud to help you continue to grow your firm with these benefits in the year to come.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}
