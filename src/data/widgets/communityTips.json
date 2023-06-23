@@ -1,0 +1,24 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "link": "LINK/?utm_medium=email&utm_campaign=2023-06&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "<b>Justia Connect</b> Pros enjoy expanded visibility across the Justia platform. To make the most of this benefit, be sure you are keeping your <b>Justia Lawyer Directory</b> profile information up to date! You never know when a new client will want to reach out. "
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "LINK/",
+      "text": "Update My Profile",
+      "width": 200,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
