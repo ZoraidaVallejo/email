@@ -15,15 +15,15 @@
       "image": "score-big.png"
     },
     "ad2": {
-      "link": "https://www.justia.com/marketing/contact/elevate/",
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "monthly-connect-pro-newsletter",
         "content": ""
       },
-      "image": "elevate-request-info.jpg",
-      "imageAlt": "Justia Elevate"
+      "image": "more-visibility-more-clients.png",
+      "imageAlt": "Justia Lawyer Directory"
     }
   }
 }
