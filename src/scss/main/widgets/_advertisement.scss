@@ -1,0 +1,221 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-advertisement {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 52px $padding 23px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 25px $padding 10px;
+        // text-transform: capitalize;
+        color: plt('white');
+        // background-color: #00b3e3;
+
+        a {
+            @include mail-font(36px, 1, 700);
+            color: plt('white');
+        }
+
+        span {
+            display: block;
+            font-weight: normal;
+        }
+    }
+
+    .image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0 45px 25px;
+
+        strong a {
+            color: plt('justia-blue');
+        }
+
+        b {
+            color: plt('red');
+        }
+
+        ul {
+            padding-left: 23px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            span {
+                padding-right: 12px;
+            }
+        }
+
+        p,
+        ul li {
+            @include mail-font(18px, 1.5);
+        }
+
+        .red-info {
+            color: #e2231a;
+            font-size: rem-calc(14px);
+            vertical-align: top;
+        }
+
+        .heading4 {
+            text-align: center;
+            @include mail-font(22px, 1.2);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .subheading {
+            text-align: center;
+            color: plt('justia-blue');
+            display: block;
+            font-size: rem-calc(18px);
+
+            span {
+                display: inline-block;
+            }
+        }
+
+        .source {
+            font-size: rem-calc(14px);
+
+            strong {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            width: 425px;
+            text-align: left;
+
+            &.-image {
+                width: 50px;
+            }
+
+            &.-description p {
+                margin-top: 10px;
+            }
+
+            img {
+                width: 50px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-first {
+            padding: 15px $padding 50px;
+            text-align: left;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        &.-last {
+            padding: 0 $padding 50px;
+
+            p {
+                @include mail-font(18px, 1.5);
+            }
+        }
+
+        &.-button {
+            padding: 0px $padding 20px;
+        }
+
+        a b {
+            color: plt('justia-blue');
+            display: inline-block;
+        }
+    }
+
+    &.-jld-ad-01 {
+        .content {
+
+            &.-first {
+                padding: 50px 50px 25px;
+            }
+
+            a strong {
+                color: plt('white')!important;
+            }
+        }
+
+        ul li {
+            padding-bottom: 28px;
+        }
+    }
+
+    &.-jld-ad-02 {
+
+        .title, .subtitle {
+            color: plt('justia-blue');
+
+            a, strong {
+                @include mail-font(22px, 1.5, 700);
+                display: block;
+                color: plt('justia-blue');
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+        }
+
+        .content {
+            padding: 0 50px 50px;
+
+            &.-button {
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+
+            &.-last {
+                text-align: left;
+                letter-spacing: -.2px;
+            }
+        }
+
+        .content.-idx-6 {
+            padding: 25px 50px 50px;
+
+            p {
+                @include mail-font(14px, 1.5);
+                color: #4F4F4F;
+                text-align: left;
+            }
+        }
+
+        ul {
+            padding-left: 0;
+            margin-top: 1.2em;
+            list-style: none;
+        }
+    }
+}
