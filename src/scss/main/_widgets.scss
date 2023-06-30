@@ -3,43 +3,54 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
-    border-bottom: 1px solid plt('gallery');
+    // border-bottom: 1px solid plt('gallery');
     background-color: plt('white');
 
-    // &:nth-child(odd) {
-    //     background-color: plt('wild-sand');
-    // }
+    &:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+
+    &.-blue-bg {
+        background: url('../dist/images/odd-block-center.png') no-repeat plt('white');
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-header {
-    padding: $widget-gap $padding $padding;
+    padding: 50px 47px 25px;
 
-    .header-icon-column {
-        width: 55px;
-        vertical-align: middle;
+    // .header-icon-column {
+    //     width: 55px;
+    //     vertical-align: middle;
 
-        img {
-            width: 55px;
-        }
-    }
+    //     img {
+    //         width: 55px;
+    //     }
+    // }
 
     .header-text-column {
-        padding: 0 0 0 15px;
+        padding: 0 0 14px;
         vertical-align: middle;
+        text-align: center;
+        background: url('../dist/images/title-decoration-01.png') no-repeat;
+        background-position: center bottom;
     }
 
     .type {
-        color: plt('justia-blue');
-
-        @include mail-font(16px, 1, tp('weight', 'normal'));
+        letter-spacing: 1px;
+        display: block;
+        margin-bottom: 2em;
+        text-transform: uppercase;
+        color: #848484;
+        @include mail-font(15px, 1, tp('weight', 'normal'));
     }
 
     .header {
         color: plt('justia-blue');
-
-        @include mail-font(32px, 1.2, tp('weight', 'bold'));
+        @include mail-font(28px, 1.2, tp('weight', 'bold'));
 
         a {
             color: plt('justia-blue');
@@ -78,6 +89,10 @@
                 color: plt('justia-blue');
             }
         }
+
+        > p {
+            max-width: 600px;
+        }
     }
 
     .content-subtitle {
@@ -86,14 +101,14 @@
     }
 
     &.-no-button {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding 50px;
     }
 }
 
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-button {
-    padding: 0 $padding $widget-gap;
+    padding: 0 $padding 50px;
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -104,7 +119,7 @@
         padding: 0 $padding 20px;
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 $padding 45px;
         }
     }
 
@@ -137,19 +152,28 @@
             }
         }
 
+        .grid-row .grid-cell {
+            width: 225px;
+        }
+
         .block-image {
-            width: 250px;
+            width: 225px;
         }
 
         .block-title {
-            @include mail-font(22px, 1.1, tp('weight', 'bold'));
-            margin: 15px 0 10px;
+            @include mail-font(16px, 1.5, tp('weight', 'bold'));
+            margin: 18px 0 0;
             color: plt('justia-blue');
+
+            a {
+                color: plt('justia-blue');
+            }
         }
 
         .block-subtitle {
-            @include mail-font(18px, 1.3);
-            margin: 0 0 15px;
+            @include mail-font(16px, 1.3);
+            margin: 0 0 8px;
+            color: plt('justia-blue');
         }
 
         .block-description {
@@ -158,16 +182,62 @@
                 color: plt('black');
             }
         }
+
+        .block p {
+            a {
+                color: plt('justia-blue');
+
+                b {
+                    color: plt('justia-blue');
+                }
+            }
+        }
+    }
+}
+.w-new-people .widget-columns {
+
+    > .wrapper {
+
+        .block-image {
+            width: 230px;
+        }
+
+        &.-last {
+            padding: 0 $padding 50px;
+        }
     }
 }
 
-.widget-date-square {
-    display: block;
-    width: 70px;
-    padding: 7px 0;
-    border: 1px solid #dddddd;
-    margin: 0 20px 0 0;
-    text-align: center;
-    background-color: plt('white');
-    color: plt('justia-blue');
+.w-blog-justia {
+
+    .widget-banner {
+        padding: 0 $padding 22px;
+    }
+
+    .widget-description {
+
+        a {
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        .block-title {
+            @include mail-font(16px, 1.5, tp('weight', 'bold'));
+            margin: 0;
+            color: plt('justia-blue');
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+
+        .block-subtitle {
+            @include mail-font(16px, 1.3);
+            margin: 0 0 8px;
+            color: plt('justia-blue');
+        }
+    }
 }

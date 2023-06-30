@@ -3,11 +3,7 @@
 {{! ================================================================================================================= }}
 
 {{!
- * @param {Object}   jurispro
- * @param {string}   jurispro.widget.header
- * @param {string}   jurispro.widget.icon
- * @param {string}   jurispro.description
- * @param {Object[]} jurispro.cases
+// TODO: Add anotations.
 }}
 
 {{#table class="widget w-jurispro set-max-width"}}
@@ -21,15 +17,13 @@
       {{#table}}
         <tr>
           <td class="text" responsive="mobile-no-padding-horizontal-sides">
-            <p>{{{jurispro.description}}}</p>
+            <p>JurisPro provides a free directory of expert witnesses in over 10,000 areas of expertise.</p>
           </td>
           <td class="thumb" responsive="mobile-hide">
-            <a href="https://www.jurispro.com/" target="_blank">
-              {{>img
-                src="https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png"
-                alt=jurispro.widget.header
-              }}
-            </a>
+            {{>img
+              src="https://justatic.com/v/1/emails/images/newsletters/common/jurispro-01.png"
+              alt=jurispro.widget.header
+            }}
           </td>
         </tr>
       {{/table}}

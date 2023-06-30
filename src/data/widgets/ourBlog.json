@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Justia Legal Guides: LGBTQ+ Legal Resource Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-lgbtq-legal-resource-center/",
+      "blockTitle": "Justia Legal Guides: LGBTQ+ Legal Resource Center"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "5 Effective Strategies to Reduce Your Marketing Budget Without Losing Results"
+      },
+      "readMore": "https://onward.justia.com/5-effective-strategies-to-reduce-your-marketing-budget-without-losing-results/",
+      "blockTitle": "5 Effective Strategies to Reduce Your Marketing Budget Without Losing Results"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Justia Legal Guides: Administrative Law Resources"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-administrative-law-resources/",
+      "blockTitle": "Justia Legal Guides: Administrative Law Resources"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Justia Legal Guides: Disability Law Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-disability-law-center/",
+      "blockTitle": "Justia Legal Guides: Disability Law Center"
+    }
+  ]
+}

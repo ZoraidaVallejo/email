@@ -1,40 +1,16 @@
 {
-  "clients": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
-    "title": [
-      "Welcome to the <%= dateFormat.string %> edition",
-      "of the Justia client newsletter!"
-    ],
-    "message": [
-      "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing."
-    ],
-    "button": {
-      "style": "justia-blue-ghost",
-      "link": "",
-      "text": "Learn More",
-      "utm": {}
-    }
-  },
-  "jld": {
-    "banner": "https://justatic.com/v/1/emails/images/newsletters/common/v2/welcome-graphic-01.png",
-    "title": [
-      "Welcome to the <%= dateFormat.string %> edition",
-      "of the Justia monthly newsletter!"
-    ],
-    "message": [
-      "Get the latest scoop on online marketing, read our digest of legal and SEO news from the past month, and peek inside the doors at Justia to see what our team has been doing.",
-      "Justia has an unparalleled track record of helping law firms grow. If you're interested in our website and SEO services, or if you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
-    ],
-    "button": {
-      "style": "justia-blue-ghost",
-      "link": "https://www.justia.com/marketing/",
-      "text": "Learn More",
-      "utm": {
-        "medium": "email",
-        "campaign": "<%= dateFormat.dash %>",
-        "source": "directory-newsletter",
-        "content": "button-main-image-learn-more-1"
-      }
-    }
+  "banner": "welcome-graphic-01.png",
+  "title": [
+    "Welcome to the Latest Edition of",
+    "The Justia Insider"
+  ],
+  "message": [
+    "Welcome to the latest edition of The Justia Insider! As we enter the second half of 2023, we are proud of our team's achievements and milestones. Let's stay dedicated to delivering value and executing tasks effectively. Your suggestions for improvement are welcome as we strive to enhance our work and provide excellent service to our clients. Please feel free to share any comments or questions, as we value open communication and continuous employee development."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "",
+    "text": "Learn More",
+    "utm": {}
   }
 }

@@ -28,6 +28,7 @@
   {{>widget-banner
     imgSrc=widgetConfig.banner
     imgAlt="Welcome"
+    responsiveClass="mobile-no-padding-horizontal-sides mobile-no-padding-top"
   }}
 
   {{!--
@@ -36,7 +37,7 @@
   --}}
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
-      <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
+      <h1 class="content-title" responsive="mobile-fz-26"><span>{{{widgetConfig.title.[0]}}}</span>&nbsp;<br responsive="mobile-hide">{{{widgetConfig.title.[1]}}}</h1>
 
       {{#each widgetConfig.message}}
         <p>{{{this}}}</p>

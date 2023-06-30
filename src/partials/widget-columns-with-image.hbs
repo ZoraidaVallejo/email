@@ -14,19 +14,24 @@
   <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
     {{#table}}
       {{#each @root.columnStructure}}
-        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=25 firstRow=@first}}
+        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=50 rowsGap=25 firstRow=@first}}
           {{#each this}}
             {{#unless @first}}
               {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
             {{/unless}}
 
             {{#if this.image}}
-              <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
-                {{>img src=this.image.src alt=this.image.alt class="block-image"}}
-              </a>
+              {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+                {{#if this.image.alt}}{{>img src=this.image.src alt=this.image.alt class="block-image"}}
+                {{else}}{{>img src=this.image.src alt=this.image.src class="block-image"}}{{/if}}
+              {{#if readMore}}</a>{{/if}}
 
               {{#if this.blockTitle}}
-                <h3 class="block-title">{{{this.blockTitle}}}</h3>
+                <h3 class="block-title">
+                  {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+                    {{{this.blockTitle}}}
+                  {{#if readMore}}</a>{{/if}}
+                </h3>
               {{/if}}
 
               {{#if this.blockSubtitle}}
@@ -36,10 +41,10 @@
               {{#each this.description}}
                 <p class="block-description">
                   {{{this}}}
-                  {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
-                    <b><a href="{{{../readMore}}}" target="_blank">Read More ›</a></b>
-                  {{/and}}
                 </p>
+                {{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
+                  <p><a href="{{{../readMore}}}" target="_blank"><b>Read More</b></a></p>
+                {{/and}}
               {{/each}}
             {{else}}
               &nbsp;

@@ -1,164 +1,33 @@
 {
-  "clients": {
-    "ad1": {},
-    "ad2": {}
-  },
-  "jld": {
-    "yellow": {
-      "contentOrder": [
-        {
-          "type": "custom-banner",
-          "config": {
-            "responsive": "mobile-padding-horizontal-sides",
-            "image": "yellow-hammer-banner.gif",
-            "description": [
-              "You <br>Were Seen <span responsive=\"mobile-fz-32\">180x More</span> Than Competitors"
-            ]
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Hi {Name},</p>",
-            "<p>Did you know the <b>Justia Lawyer Directory</b> is one of the most visited directories available online with over one million visitors each month?</p>",
-            "<p>Because of your placement, more of those eyes are on you and <b>potential clients are seeing you _____X more than the average lawyers in your area</b>. (USA/State/City/Metro)</p>"
-          ]
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-01.png",
-            "description": [
-              "<b>An enhanced, competitor-free Justia Profile</b> in the Justia Lawyer Directory, ensuring more potential clients keep their eyes on you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-02.png",
-            "description": [
-              "<b>Prominent contact information and an integrated contact form</b> so it is easier for prospective clients to reach you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-03.png",
-            "description": [
-              "<b>A customized tagline for Justia Premium Placement listing</b>, helping you keep your best foot forward when connecting with new clients "
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-04.png",
-            "description": [
-              "<b>The eye-catching “Premium” label</b> so your Justia Profile stands out across our site"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-05.png",
-            "description": [
-              "<b>2 for 1 Visibility</b> through featured placements in two top directories both the Justia Lawyer Directory and the Legal Information Institute Directory"
-            ]
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Thanks for being a Justia client! We are proud to help you continue to grow your firm with these benefits in the year to come.</p>"
-          ]
-        }
-      ]
+  "reminders": {
+    "background": {
+      "image": "reminders-bg-01.png",
+      "width": 400,
+      "bgColor": "#ffffff",
+      "cssSize": "550px 75px",
+      "responsive": "mobile-padding-horizontal-sides mobile-no-padding-top mobile-reset-bg-image"
     },
-    "blue": {
-      "contentOrder": [
-        {
-          "type": "custom-banner",
-          "config": {
-            "responsive": "mobile-padding-horizontal-sides",
-            "image": "teal-hammer-banner.gif",
-            "description": [
-              "You <br>Were Seen <span responsive=\"mobile-fz-32\">180x More</span> Than Competitors"
-            ]
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Hi {Name},</p>",
-            "<p>Did you know the <b>Justia Lawyer Directory</b> is one of the most visited directories available online with over one million visitors each month?</p>",
-            "<p>Because of your placement, more of those eyes are on you and <b>potential clients are seeing you _____X more than the average lawyers in your area</b>. (USA/State/City/Metro)</p>"
-          ]
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-01.png",
-            "description": [
-              "<b>An enhanced, competitor-free Justia Profile</b> in the Justia Lawyer Directory, ensuring more potential clients keep their eyes on you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-02.png",
-            "description": [
-              "<b>Prominent contact information and an integrated contact form</b> so it is easier for prospective clients to reach you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-03.png",
-            "description": [
-              "<b>A customized tagline for Justia Premium Placement listing</b>, helping you keep your best foot forward when connecting with new clients "
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-04.png",
-            "description": [
-              "<b>The eye-catching “Premium” label</b> so your Justia Profile stands out across our site"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-05.png",
-            "description": [
-              "<b>2 for 1 Visibility</b> through featured placements in two top directories both the Justia Lawyer Directory and the Legal Information Institute Directory"
-            ]
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Thanks for being a Justia client! We are proud to help you continue to grow your firm with these benefits in the year to come.</p>"
+    "contentOrder": [
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "mobile-fz-16",
+          "image": "reminders-graphic-01.png",
+          "description": [
+            "<b class=\"side-title\" responsive=\"collapse-one mobile-padding-horizontal-sides mobile-padding-top mobile-padding-bottom\">Reminders</b>",
+            "<b>Requesting Time Off for the Holiday Season [December and January]</b><br>It is already November, so that means the holiday season is already at our doorstep. As you"
           ]
         }
-      ]
-    }
+      },
+      {
+        "type": "description",
+        "config": [
+          "know, this is typically the time of year when many people want to take time off. If you are planning to request time off during December and/or January, it is important to submit your Time Off Request Form as soon as possible."
+        ]
+      }
+    ]
+  },
+  "quote": {
+    "image": "quote-graphic-02.png"
   }
 }

@@ -4,43 +4,20 @@
 
 .w-law-events {
 
-    .wrapper.-last {
-        padding: 0 $padding $widget-gap;
-    }
-
     .event {
 
-        td {
-            vertical-align: top;
-        }
-
-        &:not(.first-row) > td {
-            padding: 30px 0 0;
-        }
-
-        .event-month {
-            @include mail-font(18px, 1, tp('weight', 'bold'));
+        .date {
+            @include mail-font(18px, 1.1, tp('weight', 'bold'));
             margin: 0;
         }
 
-        .event-day {
-            @include mail-font(36px, 1, tp('weight', 'bold'));
-            margin: 0;
-        }
-
-        .title {
-            @include mail-font(16px, 1.4);
-            margin: 0;
-            color: plt('justia-blue');
-
-            a {
-                color: plt('justia-blue');
-            }
+        .type {
+            @include mail-font(16px, 1.1, tp('weight', 'bold'));
+            margin: 3px 0 0;
         }
 
         .description {
-            @include mail-font(16px, 1.4);
-            margin: 0;
+            margin: 16px 0 0;
         }
 
         .read-more {

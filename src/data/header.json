@@ -1,61 +1,12 @@
 {
-  "clients": {
-    "layout": "with-date",
+  "internal": {
+    "layout": "insider-date",
     "logo": {
-      "name": "insights",
-      "link": {
-        "url": "",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
-      },
-      "path": false,
-      "alt": false
-    }
-  },
-  "jld": {
-    "layout": "logo-only",
-    "logo": {
-      "name": "justia-anniversary",
-      "color": "lawyer-directory",
+      "name": "insider",
       "link": {
         "url": "https://www.justia.com/"
-      }
-    }
-  },
-  "ad1": {
-    "layout": "logo-only",
-    "logo": {
-      "name": "Lawyer Directory",
-      "link": {
-        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-589-promo-253&utm_content=image-footer-logo-1",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
       },
-      "path": false,
-      "alt": false
-    }
-  },
-  "ad2": {
-    "layout": "logo-only",
-    "logo": {
-      "name": "Lawyer Directory",
-      "link": {
-        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-590-promo-255&utm_content=image-footer-logo-1",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
-      },
+      "color": "blue-white",
       "path": false,
       "alt": false
     }

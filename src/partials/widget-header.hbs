@@ -18,13 +18,9 @@
   <td class="{{classList "widget-header" widgetClass}}" responsive="mobile-padding-horizontal-sides">
     {{#table class="wrapper"}}
       <tr>
-        <td class="header-icon-column">
-          {{#if iconSrc}}
-            {{>img src=iconSrc alt="Icon"}}
-          {{else}}
-            {{>img src=@root.widgetHeaderIcon alt="Icon"}}
-          {{/if}}
-        </td>
+        {{!-- <td class="header-icon-column">
+          {{>img src=@root.widgetHeaderIcon alt="Icon"}}
+        </td> --}}
         <td class="header-text-column">
           {{#if type}}<h4 class="type">{{type}}</h4>{{/if}}
           <h2 class="header" responsive="mobile-fz-24">

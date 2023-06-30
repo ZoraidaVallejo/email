@@ -34,7 +34,7 @@
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-advertisement" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-advertisement dark-mode" widgetClass "set-max-width")}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
     <tr>
@@ -44,6 +44,7 @@
         bgWidth=widgetConfig.background.width
         bgHeight=widgetConfig.background.height
         bgSize=widgetConfig.background.cssSize
+        bgCellResponsiveClasses=widgetConfig.background.responsive
       }}
         <table {{{tableAttr}}}>
   {{/and}}
@@ -64,51 +65,41 @@
     </tr>
   {{/if}}
 
-  {{#if widgetConfig.image}}
-    <tr>
-      <td class="image">
-        <a href="{{{@root.adLink}}}" target="_blank">
-          {{>img
-            src=widgetConfig.image
-            alt=(default widgetConfig.title widgetConfig.imageAlt)
-          }}
-        </a>
-      </td>
-    </tr>
-  {{/if}}
-
   {{#if widgetConfig.title}}
-    <tr>
-      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top">
+    {{>widget-header
+      header=widgetConfig.title
+      type=widgetConfig.type
+    }}
+    {{!-- <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides">
         <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
           {{{widgetConfig.title}}}
         </a>
       </td>
-    </tr>
+    </tr> --}}
   {{/if}}
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
-      {{#compare this.type "===" "custom-banner"}}
+      {{#compare this.type "===" "image-description"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides mobile-padding-20-bottom">
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-align-center">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                <div class="content-side -image" responsive="mobile-hide">
+                  {{#if ../../widgetConfig.link}}<a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">{{/if}}
                     {{>img
                       src=../config.image
                       alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                      responsive="mobile-align-center"
                     }}
-                  </a>
+                  {{#if ../../widgetConfig.link}}</a>{{/if}}
                 </div>
               {{/compare}}
 
               {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="mobile-no-padding-horizontal-sides mobile-padding-50-top mobile-fz-18">
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                   {{#each ../config.description}}
-                    <p responsive="mobile-fz-18">{{{this}}}</p>
+                    <p {{#if ../../config.responsive}}responsive="{{../../config.responsive}}"{{/if}}>{{{this}}}</p>
                   {{/each}}
                 </div>
               {{/compare}}
@@ -118,40 +109,30 @@
         </tr>
       {{/compare}}
 
-      {{#compare this.type "===" "image-description"}}
+      {{#compare this.type "===" "image-column"}}
         <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-bottom">
-            {{#forIn this.config}}
-              {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-align-center mobile-no-padding-horizontal-sides mobile-padding-bottom mobile-no-float collapse-one">
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
-                    {{>img
-                      src=../config.image
-                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                      responsive="mobile-align-center"
-                    }}
-                  </a>
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="mobile-no-padding mobile-reset-max-width">
-                  {{#each ../config.description}}
-                    <p responsive="">{{{this}}}</p>
-                  {{/each}}
-                </div>
-              {{/compare}}
-            {{/forIn}}
-
+          <td class="content -image-column -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-reset-max-width">
+            <div class="content-side -image -image-01" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width mobile-padding-30-bottom">
+              {{>img
+                src=config.image1
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
+            <div class="content-side -image -image-02" responsive="collapse-one mobile-no-float mobile-reset-max-width mobile-reset-width">
+              {{>img
+                src=config.image2
+                alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+              }}
+            </div>
           </td>
         </tr>
       {{/compare}}
 
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-30-bottom mobile-padding-30-top">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
             {{#each this.config}}
-              {{{this}}}
+              <p>{{{this}}}</p>
             {{/each}}
           </td>
         </tr>
@@ -179,6 +160,19 @@
         </tr>
       {{/compare}}
     {{/forEach}}
+  {{/if}}
+
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
   {{/if}}
 
   {{#and widgetConfig.background widgetConfig.background.image}}
