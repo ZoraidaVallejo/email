@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk-icon",
+  "news": [
+    {
+      "title": "Justia Legal Guides: Administrative Law Resources",
+      "link": "https://onward.justia.com/justia-legal-guides-administrative-law-resources/",
+      "description": "From the New Deal of the 1930s sprang the administrative state. It was controversial then and remains controversial at times, but it’s here to stay. Justia provides a range of free resources to help Americans understand this complex area of law.",
+      "index": "1"
+    },
+    {
+      "title": "News & Notes on Google Local Services Ads: June 2023",
+      "link": "https://onward.justia.com/news-notes-on-google-local-services-ads-june-2023/",
+      "description": "The most recent Google Partner newsletter included key information for lawyers and law firms using Google LSAs as part of their well-rounded legal marketing strategy. Keep reading this post for more details. ",
+      "index": "2"
+    },
+    {
+      "title": "Requests and Forms as Modern as the Evidence You Seek Presented by Justia Webinars",
+      "link": "https://onward.justia.com/new-cle-this-week-requests-and-forms-as-modern-as-the-evidence-you-seek-presented-by-justia-webinars/",
+      "description": "If you are interested in bringing your discovery requests into the modern age of electronic evidence, this is the presentation for you! E-discovery expert Craig Ball shares ways to revamp your requests to target electronic evidence. ",
+      "index": "3"
+    },
+    {
+      "title": "Justia Legal Guides: Disability Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-disability-law-center/",
+      "description": "A disability may cause financial concerns and create obstacles in many areas of life. However, people with disabilities have important legal protections. The Justia Disability Law Center discusses available benefits and their rights more generally.",
+      "index": "4"
+    },
+    {
+      "title": "Justia Ask A Lawyer by the Numbers: First Quarter 2023",
+      "link": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-first-quarter-2023/",
+      "description": "Ready for a new edition of Justia Ask A Lawyer by the numbers? In this post, we are checking out the data for our Justia Ask A Lawyer forum in the first quarter of this year. Want to know what practice areas are most active in each state? Interested in learning more about the lawyers participating on the platform? We have answers.",
+      "index": "5"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

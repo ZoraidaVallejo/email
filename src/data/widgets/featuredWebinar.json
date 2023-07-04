@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Featured Webinar"
+  },
+  "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-webinar-01.jpg",
+  "title": "Supreme Court 2022-23 Term in Review",
+  "description": [
+    "After an eventful Supreme Court term, Justia Webinars is proud to present our 2022-23 Supreme Court term in review. Join Illinois Law Dean and Professor Vikram Amar and Cornell Law Professor Michael Dorf as they discuss some of the leading cases and issues decided in the recent SCOTUS term, as well as those issues the Court failed to address."
+  ],
+  "button": {
+    "style": "red",
+    "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review/",
+    "text": "Register Now"
+  }
+}

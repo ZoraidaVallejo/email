@@ -1,0 +1,98 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-icon",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "colored": "green",
+      "news": [
+        {
+          "title": "Apple Has Finally Unveiled the Vision Pro. Here’s What It’s Launching Next",
+          "link": "https://www.bloomberg.com/news/newsletters/2023-06-25/apple-2023-and-2024-road-map-iphone-15-m3-macs-ipad-air-vision-pro-headset-ljbftjwx"
+        },
+        {
+          "title": "Meta's Voicebox AI is a Dall-E for Text-to-Speech",
+          "link": "https://www.engadget.com/metas-voicebox-ai-is-a-dall-e-for-text-to-speech-150021287.html"
+        },
+        {
+          "title": "Microsoft: Bing Chat To Work On All Browsers Soon",
+          "link": "https://www.seroundtable.com/bing-chat-to-work-on-all-browsers-soon-35485.html"
+        },
+        {
+          "title": "OpenAI Reportedly Warned Microsoft About Bing’s Bizarre AI Responses",
+          "link": "https://www.theverge.com/2023/6/13/23759348/openai-microsoft-bing-ai-warning-gpt-4"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "colored": "orange",
+      "news": [
+        {
+          "title": "Google Business Profiles Now Display Long Form Videos",
+          "link": "https://www.seroundtable.com/google-business-profiles-long-form-videos-35497.html"
+        },
+        {
+          "title": "Google Is Forming A Policy On AI Content And E-E-A-T",
+          "link": "https://www.searchenginejournal.com/google-on-ai-content-and-e-e-a-t/"
+        },
+        {
+          "title": "The Small Business Guide To Reputation Management",
+          "link": "https://www.searchenginejournal.com/small-business-guide-reputation-management/"
+        },
+        {
+          "title": "Local SEO in 2023: 5 Simple Ways to Dominate Local Search",
+          "link": "https://searchengineland.com/local-seo-dominate-local-search-this-year-428339"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "colored": "yellow",
+      "news": [
+        {
+          "title": "WhatsApp Now Lets You Edit Messages With a 15-Minute Time Limit",
+          "link": "https://techcrunch.com/2023/05/22/whatsapp-now-lets-you-edit-messages-with-a-15-minute-time-limit/"
+        },
+        {
+          "title": "How to Use ChatGPT for Social Media + 46 Prompts to Get Started",
+          "link": "https://blog.hootsuite.com/chatgpt-social-media/#46_ChatGPT_prompts_for_social_media"
+        },
+        {
+          "title": "YouTube’s Algorithm: What You Need To Know In 2023",
+          "link": "https://www.searchenginejournal.com/youtubes-algorithm-what-you-need-to-know-in-2023/"
+        },
+        {
+          "title": "Protecting Your Brand Reputation on Social Media",
+          "link": "https://www.socialmediaexaminer.com/protecting-your-brand-reputation-on-social-media/"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "colored": "teal",
+      "news": [
+        {
+          "title": "Sanctions Ordered for Lawyers Who Relied on ChatGPT Artificial Intelligence to Prepare Court Brief",
+          "link": "https://www.courthousenews.com/sanctions-ordered-for-lawyers-who-relied-on-chatgpt-artificial-intelligence-to-prepare-court-brief/ "
+        },
+        {
+          "title": "FTC Sues Amazon for Allegedly Tricking Customers Into Prime Subscriptions",
+          "link": "https://www.engadget.com/ftc-sues-amazon-for-allegedly-tricking-customers-into-prime-subscriptions-151528914.html"
+        },
+        {
+          "title": "Leveraging ChatGPT in Legal Practice: Best Practices and Ethical Considerations",
+          "link": "https://abovethelaw.com/2023/05/leveraging-chatgpt-in-legal-practice-best-practices-and-ethical-considerations/"
+        },
+        {
+          "title": "https://abovethelaw.com/2023/05/leveraging-chatgpt-in-legal-practice-best-practices-and-ethical-considerations/",
+          "link": "https://www.usatoday.com/story/opinion/2023/06/20/gannett-ceo-why-we-are-suing-google-for-its-business-practices/70336910007/"
+        }
+      ]
+    }
+  ]
+}
