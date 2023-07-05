@@ -32,7 +32,7 @@
       {{>widget-banner imgSrc=ourBlog.feature.image.src imgAlt=ourBlog.feature.image.alt link=ourBlog.feature.readMore}}
       <tr>
         <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-          <h3 class="block-title">
+          <h3 class="block-title" responsive="mobile-align-center">
             {{#if ourBlog.feature.readMore}}<a href="{{{ourBlog.feature.readMore}}}" target="_blank" class="block-image-link">{{/if}}
               {{{ourBlog.feature.blockTitle}}}
             {{#if ourBlog.feature.readMore}}</a>{{/if}}
@@ -58,8 +58,8 @@
       --}}
       <tr>
         <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
-          <h3 class="block-title">
-            {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
+          <h3 class="block-title" responsive="mobile-align-center">
+            {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link" responsive="mobile-align-center">{{/if}}
               {{{this.blockTitle}}}
             {{#if readMore}}</a>{{/if}}
           </h3>
