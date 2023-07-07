@@ -172,19 +172,20 @@
       "time": "3:00 pm ET/12:00 pm PT"
     },
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+      "Name,",
+      "Only a handful of seats remain for Justia Webinars <a href=\"https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review\">2022-23 Supreme Court Term in Review</a>. Don’t miss out on this exciting <strong>free opportunity to catch up on the latest from SCOTUS</strong> with <a href=\"https://connect.justia.com/webinars/presenter/vikram-amar\">Illinois Law Dean and Professor Vikram Amar</a> and <a href=\"https://connect.justia.com/webinars/presenter/michael-dorf\">Cornell Law School Professor Michael Dorf</a> in a discussion moderated by <a href=\"https://connect.justia.com/webinars/presenter/david-kemp\">Rutgers Law School Adjunct Professor David Kemp</a>."
     ],
     "bottomline": [
-      "<b>Seats are going fast!</b>"
+      "<strong>Date:</strong> Wednesday, July 19, 2023<br/><strong>Time:</strong> 3:00 p.m. ET/12:00 p.m. PT<br/><strong>Where:</strong> Virtually via Justia Connect<br/><strong>Duration:</strong> 60 Minutes"
     ],
     "button": {
       "style": "red",
-      "link": "#",
-      "text": "RSVP & Complete Registration",
+      "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review",
+      "text": "RSVP Today",
       "width": 250
     },
     "message3": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+      "Time permitting, topics covered will include race-based affirmative action in higher education settings, judicial review of political gerrymandering, conflicts between free speech and anti-discrimination law, student loan debt forgiveness, state regulation of animal welfare, adoption preference for tribal members under the Indian Child Welfare Act, Title 42 border policy, social media company liability for third-party content, and more! Plus, if time allows, Professors Amar and Dorf will discuss recent calls to impose a binding ethics code on U.S. Supreme Court justices."
     ]
   },
   "last-chance": {
