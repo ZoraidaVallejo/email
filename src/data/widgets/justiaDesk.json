@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Creating ChatGPT Prompts for Your Law Firm Marketing",
+      "link": "https://onward.justia.com/creating-chatgpt-prompts-for-your-law-firm-marketing/",
+      "description": "In an ideal world, lawyers would have the time to do it all, including developing their own legal marketing. Unfortunately, the reality of time constraints in a law practice often kicks marketing to the backseat. Check out this post to learn how AI tools like ChatGPT can help make you more efficient.",
+      "index": "1"
+    },
+    {
+      "title": "5 Effective Strategies to Reduce Your Marketing Budget Without Losing Results",
+      "link": "https://onward.justia.com/5-effective-strategies-to-reduce-your-marketing-budget-without-losing-results/",
+      "description": "Law firms should always continue marketing, even when the economy is down or business gets tough. Check out this post to explore marketing budget optimization strategies to ensure your law firm remains visible and continues reaching more clients...",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-elevate-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
