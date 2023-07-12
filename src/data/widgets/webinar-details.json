@@ -155,14 +155,17 @@
       "We are already counting down to this exciting event and hope you are too! See you there in just two short weeks."
     ]
   },
-  "event-next-week": {
+  "next-week-reminder": {
     "banner": "",
     "details": {
       "date": "July 19, 2023",
       "time": "3:00 pm ET/12:00 pm PT"
     },
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+      "Name,",
+      "<a href=\"https://connect.justia.com/webinars/supreme-court-2022-23-term-in-rev\">Supreme Court 2022-23 Term in Review</a> presented by Justia Webinars is on Wednesday, July 19 at 3:00 p.m. ET/12:00 p.m. PT. Remember to mark your calendar so you do not miss this exciting event, led by <a href=\"https://connect.justia.com/webinars/presenter/vikram-amar\">Illinois Law Dean and Professor Vikram Amar</a> and <a href=\"https://connect.justia.com/webinars/presenter/michael-dorf\">Cornell Law School Professor Michael Dorf</a>",
+      "<a href=\"#\">Use this link</a> to join us 10 minutes before presentation time.",
+      "If you have trouble accessing this webinar, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
     ]
   },
   "next-week-registration": {
