@@ -1,0 +1,24 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "link": "https://connect.justia.com/pro?utm_medium=email&utm_campaign=2023-07&utm_source=quarterly-connect-basic&utm_content=section-community-tips-title-v1",
+    "description": [
+      "Ready to unlock everything a Justia Connect membership can offer? Take advantage of additional, exclusive benefits like free CLE, a $200 Justia Credit, and more by upgrading to Justia Connect Pro!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro",
+      "text": "Get Pro",
+      "width": 150,
+      "utm": {
+        "medium": "email",
+        "source": "quarterly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

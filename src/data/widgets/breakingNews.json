@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "header": "News Alert From Justia"
+  },
+  "link": "https://news.justia.com/canadian-judge-rules-that-emoji-constitutes-assent-in-a-contract/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-connect-basic",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news.jpg",
+  "title": "Canadian Judge Rules That Emoji Constitutes Assent in a Contract",
+  "description": [
+    "Sign a contract with an emoji? A Canadian judge has ruled that a thumbs up emoji sent via text message ultimately put a Saskatchewan farmer on the hook for expensive damages to a grain buyer. Catch up on this and other breaking news on the <b><a href='https://news.justia.com/' target='_blank'>Justia Legal News Blog</a></b>."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/canadian-judge-rules-that-emoji-constitutes-assent-in-a-contract/",
+    "text": "Read More"
+  }
+}
