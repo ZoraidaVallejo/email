@@ -1,0 +1,113 @@
+{
+  "welcome": {
+    "email1": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Did you know? You can get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email2": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "2-graphic-03.png",
+            "description": [
+              "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
+              "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\" class=\"red-link\"><b>Learn More ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email3": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "3-graphic-05.png",
+            "description": [
+              "<strong class=\"blockTitle\">Ready for More Leads?</strong>",
+              "<p><a href=\"#\"><b>Contact us</b></a> today to get your Justia Premium Placement and start reaching more potential clients.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email4": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Stay ahead of the competition! Get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p responsive=\"mobile-padding-20-horizontal-sides\">Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email51": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "5-1-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" class=\"pro-label-image\">",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
+              "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\" class=\"red-link\"><b>View Webinars ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email52": {
+      "background": {
+        "responsive": "mobile-reset-bg-image",
+        "image": "5-2-block-bg-01.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 247px"
+      },
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "dark-mode",
+            "image": "5-2-graphic-03.png",
+            "button": "Be the First to Know",
+            "description": [
+              "<img src=\"../dist/images/comming-soon-label.png\" border=\"0\" class=\"pro-label-image\">",
+              "<p><strong>Justia Connect Pro</strong>, an upgraded membership with exclusive features and additional benefits</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email62": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "image": "5-1-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" class=\"pro-label-image\">",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
+              "<p>Get access to exclusive, member-only webinars on important news and updates in the legal profession.</p><p><a href=\"#\" class=\"red-link\"><b>Go Pro Now! ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

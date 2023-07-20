@@ -1,0 +1,124 @@
+{
+  "welcome": {
+    "email1": {
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your first edition of the <strong>Justia Connect Welcome Series!</strong> Over the coming weeks, you will receive 5 emails designed to help you take advantage of everything offered through our <strong>Justia Connect</strong> membership program and the <strong>Justia Lawyer Directory</strong>. However, if you have questions in the meantime, please feel free to <a href=\"#\"><strong>contact us</strong></a>.</p>",
+            "<p>On this week's docket? A few key aspects of your recently claimed Justia Lawyer Directory profile. Because the Justia Portal receives over 10 million visits each month, this is a great marketing opportunity.</p>"
+          ]
+        }
+      ]
+    },
+    "email2": {
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Reviews are the word-of-mouth advertising of the digital age. 79% of consumers report trusting online reviews as much as they trust personal recommendations from a friend or family member. This means that <strong>reviews are important!</strong> Luckily, <strong>Justia allows</strong> both <strong>peer reviews</strong> from other attorneys <strong>and reviews from your clients</strong> in our directory.</p>"
+          ]
+        }
+      ]
+    },
+    "email3": {
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 33,
+      "image": "3-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to week three of the <strong>Justia Connect Welcome Series!</strong> Up next: <strong>Justia Premium Placements</strong>.</p>",
+            "<p><strong>Justia Premium Placements</strong> help you get ahead of your competition and rise to the top of the pack with featured placements on the <strong>Justia Lawyer Directory</strong> listing pages.</p>"
+          ]
+        }
+      ]
+    },
+    "email4": {
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 33,
+      "image": "4-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to the penultimate edition of the <strong>Justia Connect Welcome Series!</strong> Did you know you can utilize your <strong>Justia Profile to reach potential clients</strong> in other places on our site beyond the Justia Lawyer Directory? We offer various places where you can participate in the Justia legal community and increase your visibility while helping others.</p>"
+          ]
+        }
+      ]
+    },
+    "email51": {
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our Justia Connect Welcome Series may end here, your membership in our Justia community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your free <strong>Justia Connect Basic Membership</strong> benefits, as well as our optional Justia Connect Pro upgrade.</p>"
+          ]
+        }
+      ]
+    },
+    "email52": {
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our <strong>Justia Connect Welcome Series</strong> may end here, your membership in our <strong>Justia</strong> community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your free <strong>Justia Connect</strong> membership benefits.</p>"
+          ]
+        }
+      ]
+    },
+    "email53": {
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-3-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <strong>Justia Connect Welcome Series!</strong> While your journey through our Justia Connect Welcome Series may end here, your membership in our Justia community has only just begun. The <strong>Justia Connect</strong> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <strong>Justia Connect Pro Membership</strong> to obtain the maximum available benefits.</p>"
+          ]
+        }
+      ]
+    },
+    "email61": {
+      "link": "https://www.justia.com/marketing/",
+      "image": "6-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Congratulations on becoming a <strong>Justia Connect Pro!</strong> You are now getting the maximum available benefits from <strong>Justia Connect</strong>. Your membership will help you continue to grow into the future as you strive to reach your professional and practice-growth goals. Now, it is time to leverage your benefits to help you along the way.</p>"
+          ]
+        }
+      ]
+    },
+    "email62": {
+      "link": "https://www.justia.com/marketing/",
+      "image": "6-2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>You’re Connected. Become a Pro to get the most from Justia. When you upgrade your <strong>Justia Connect</strong> membership to <strong>Justia Connect Pro for only $19.99/month</strong>, you receive additional features and benefits that help you reach your full potential.</p>"
+          ]
+        }
+      ]
+    }
+  }
+}

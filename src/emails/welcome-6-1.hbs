@@ -1,0 +1,31 @@
+---
+subject: Welcome Email Series
+---
+
+{{>preheader text=""}}
+
+{{#table class="-blast-6-1" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>widget-block-first widgetClass="-first-block" widgetConfig=blockFirst.welcome.email61}}
+
+        {{>welcome-columns widgetConfig=welcomeColumns.email61}}
+
+        {{>widget-block-bottom widgetClass="-email-6-1" widgetConfig=blockBottom.welcome.email51}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}

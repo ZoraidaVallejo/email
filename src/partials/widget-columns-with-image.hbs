@@ -1,0 +1,60 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   C O L U M N S   W I T H   I M A G E                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{assign "columnStructure" (chunks widgetConfig 2 true)}}
+
+{{! ================================================================================================================= }}
+
+<tr class="widget-columns -with-image ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+    {{#table}}
+      {{#each @root.columnStructure}}
+        {{>ui-columns-grid cellClasses="block" rowStart=true fullWidth=540 totalCells=2 cellsGap=40 rowsGap=50 firstRow=@first}}
+          {{#each this}}
+            {{#unless @first}}
+              {{>ui-columns-grid cellClasses="block" cellSeparator=true cellIsEmpty=(isFalsey this.image) firstRow=@../first}}
+            {{/unless}}
+            <div>
+
+              {{#if this.proLabel}}
+                {{>img src="pro-label.png" alt="Pro Label" class="pro-label-image"}}
+              {{/if}}
+
+              {{#if this.image}}
+
+                {{#if this.blockTitle}}
+                  <h3 class="block-title">{{{this.blockTitle}}}</h3>
+                {{/if}}
+
+                <a href="{{#if readMore}}{{{readMore}}}{{else}}#{{/if}}" target="_blank" class="block-image-link">
+                  {{>img src=this.image.src alt=this.image.alt class="block-image"}}
+                </a>
+
+                {{#if this.blockSubtitle}}
+                  <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
+                {{/if}}
+
+                {{#each this.description}}
+                  <p class="block-description">
+                    {{{this}}}
+                  </p>
+                {{/each}}
+
+                {{#if this.readMore}}
+                  <p><b><a href="{{{../readMore}}}" target="_blank" class="red-link">{{#if this.readMoreText}}{{this.readMoreText}}{{else}}Read More{{/if}} ›</a></b></p>
+                {{/if}}
+              {{else}}
+                &nbsp;
+              {{/if}}
+            </div>
+          {{/each}}
+        {{>ui-columns-grid rowEnd=true}}
+      {{/each}}
+    {{/table}}
+  </td>
+</tr>
