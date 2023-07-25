@@ -20,5 +20,28 @@
         "content": "section-community-tips-button-v1"
       }
     }
+  },
+  "pro": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "On-Demand CLE Now Available for Pros",
+    "link": "https://connect.justia.com/webinars?utm_medium=email&utm_campaign=2023-07&utm_source=monthly-connect-basic&utm_content=section-community-tips-title-v1",
+    "description": [
+      "Your Justia Connect Pro benefits just got better! Now, Justia Connect Pro members can earn free CLE credit for watching the recordings of select Justia Webinar presentations. Explore our available courses via the Justia Webinar Center."
+    ],
+    "button": {
+      "style": "red",
+      "link": "connect.justia.com/webinars",
+      "text": "Explore Courses",
+      "width": 250,
+      "utm": {
+        "medium": "email",
+        "source": "quarterly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
   }
 }

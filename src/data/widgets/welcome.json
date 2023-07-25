@@ -19,5 +19,26 @@
         "content": "button-main-image-learn-more-1"
       }
     }
+  },
+  "pro": {
+    "banner": "welcome-graphic.png",
+    "title": [
+      "Your Quarterly Notes From <span>Justia Connect</span>"
+    ],
+    "message": [
+      "Welcome to your monthly update from <b>Justia Connect Pro</b>, the upgraded membership connecting you with even more benefits and exclusive resources to achieve your professional and practice-growth goals.",
+      "Check out this email for helpful tips specifically for Justia Connect Pros from our Justia Connect team, featured discounts from <b>Justia Deals</b>, and the latest information on maximizing your <b>Justia Connect</b> membership benefits."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "quarterly-connect-basic",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
   }
 }

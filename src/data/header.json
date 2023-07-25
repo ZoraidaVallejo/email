@@ -1,10 +1,10 @@
 {
-  "clients": {
-    "layout": "with-date",
+  "pro": {
+    "layout": "logo-only",
     "logo": {
-      "name": "insights",
+      "name": "justiaAnniversary",
       "link": {
-        "url": "https://www.justia.com/marketing/",
+        "url": "https://www.justia.com/marketing/connect/",
         "utm": {
           "medium": "email",
           "campaign": "<%= dateFormat.dash %>",
@@ -12,8 +12,8 @@
           "content": "image-header-logo-1"
         }
       },
-      "path": false,
-      "alt": false
+      "path": "connect-pro",
+      "alt": "20 Anniversary - Justia Connect Pro"
     }
   },
   "jld": {

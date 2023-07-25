@@ -54,5 +54,61 @@
         }
       }
     ]
+  },
+  "pro": {
+    "widget": {
+      "header": "Justia Webinars"
+    },
+    "banner": "webinars-icon.png",
+    "alt": "Justia Webinars",
+    "content": [
+      {
+        "title": "Upcoming Webinars",
+        "icon": {
+          "src": "webinar-icon.png",
+          "alt": "Upcoming Webinars"
+        },
+        "description": [
+          "<b class='title'><a href='https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-1' target='_blank'>​Practice Law With AI (Without Losing Your Law License)</a></b>",
+          "<p>Should lawyers steer clear of AI tools? If lawyers understand the technological limitations of AI and their professional responsibilities, AI tools have the potential to greatly benefit their practice. RSVP to this webinar in which attorneys and Justia Team members Kara Simon and Marina Wilson discuss some of the ins and outs of using AI in your practice.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-1",
+          "text": "Register Now",
+          "width": 160
+        },
+        "border": true
+      },
+      {
+        "title": "Recent Recordings",
+        "icon": {
+          "src": "recordings-icon.png",
+          "alt": "Recent Recordings"
+        },
+        "description": [
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review??utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'>​Supreme Court 2022-23 Term in Review</a></b>",
+          "<p>Another eventful U.S. Supreme Court Term is in the books and Justia Webinars proudly presented our 2022-2023 term in review. Stream Illinois Law Dean and Professor Vikram Amar and Cornell Law School Professor Michael Dorf’s discussion of some of the leading cases and issues decided in the most recent SCOTUS term.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-3",
+          "text": "Learn More",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-title-4' target='_blank'>Requests and Forms as Modern as the Evidence You Seek </a></b>",
+          "<p>Are your discovery requests still mired in a bygone world of telegrams and carbon paper? Are you getting pummeled with expenses and review challenges you need not accept? In this on-demand webinar, e-discovery expert Craig Ball discusses ways to revamp your requests to target electronic evidence and protect your bottom line in the modern world.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek?utm_medium=email&utm_campaign=2023-04&utm_source=monthly-connect-newsletter&utm_content=section-webinars-button-4",
+          "text": "Watch Now",
+          "width": 160
+        }
+      }
+    ]
   }
 }

@@ -12,17 +12,27 @@
       "index": "1"
     },
     {
-      "title": "Creating ChatGPT Prompts for Your Law Firm Marketing",
-      "link": "https://onward.justia.com/creating-chatgpt-prompts-for-your-law-firm-marketing/",
-      "description": "In an ideal world, lawyers would have the time to do it all, including developing their own legal marketing. Unfortunately, the reality of time constraints in a law practice often kicks marketing to the backseat. Check out...",
+      "title": "Law Firm PPC: Landing Pages 101",
+      "link": "https://onward.justia.com/law-firm-ppc-landing-pages-101/",
+      "description": "Are you investing in PPC advertising for your law firm? Maximize your return on this investment by leveraging landing pages tailored to your PPC campaigns.",
       "index": "2"
     }
   ],
   "utm": {
-    "pro": {
+    "clients": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "monthly-connect-pro",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-connect-basic",
       "content": {
         "title": "text-justia-desk-title-",
         "button": "text-justia-desk-suscribe-now-1",
