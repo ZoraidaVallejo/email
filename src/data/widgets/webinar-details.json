@@ -199,6 +199,27 @@
       "<b>Please note:</b> This presentation is accredited for <strong>one hour of General MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
     ]
   },
+  "event-today": {
+    "banner": "",
+    "details": {
+      "date": "July 31, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Today is the day! <strong>Last chance to register</strong> for our next Justia Webinar and learn about what AI technology can do for your legal practice. The presentation is starting very soon, and we want to see you there.",
+      "Join Justia Team members and attorneys <a href=\"https://connect.justia.com/webinars/presenter/kara-simon\">Kara Simon</a> and <a href=\"https://connect.justia.com/webinars/presenter/marina-wilson\">Marina Wilson</a> today at 3:00 p.m. ET/12:00 p.m. PT for <a href=\"https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license\">Practice With AI (Without Losing Your Law License)</a>, a presentation in which they discuss the relationship between AI and the practice of law, including practical uses for this new technology and ethical concerns of which lawyers need to be aware."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Register Now",
+      "width": 250
+    },
+    "message3": [
+      "<b>Please note:</b> This presentation is accredited for <b>one hour of General MCLE credit</b> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit.",
+      "You are receiving this email because you are a <b>Justia Connect</b> member."
+    ]
+  },
   "day-of-reminder": {
     "banner": "",
     "details": {
