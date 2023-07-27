@@ -32,6 +32,6 @@
   "disclaimer": "You are receiving this email because you subscribed to the Justia Legal Jobs newsletter.",
   "address": {
     "justiaLink": "https://www.justia.com/",
-    "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+    "direction": "%SENDER-INFO-SINGLELINE%"
   }
 }
