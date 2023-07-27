@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.jpg",
+        "alt": "SEO Team Luncheon"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>SEO Team Luncheon</b>",
+      "description": [
+        "Meet some of the faces behind our exceptional SEO team! Last month, they enjoyed a delicious meal together, strengthening their bond as they continue to drive our online success."
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "You Be the Judge"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>You Be the Judge</b>",
+      "description": [
+        "Was AI successful in transforming Zoey the Hug Pug into a convincing judge? While we've been hard at work on various AI projects at Justia, this was purely for fun!"
+      ]
+    }
+  ]
+}

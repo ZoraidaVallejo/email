@@ -1,0 +1,18 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "link": "https://www.justia.com/marketing/lawyer-directory/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "banner-premium-memberships-v69"
+      },
+      "image": "premium-placement-2023-08.gif"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "widget": {
+    "icon": "ask-a-lawyer",
+    "header": "Featured Participating Member",
+    "type": "Justia Ask A Lawyer",
+    "link": "https://answers.justia.com/about-legal-answers#faq-atty?utm_medium=email&utm_source=insights-newsletter&utm_campaign=2023-08&utm_content=text-lawyer-ask-a-lawyer-leaderboard-1"
+  },
+  "featured": {
+    "id": "1529307",
+    "rank": 1,
+    "name": "Chad Garrett Mann",
+    "location": "Springfield, MO",
+    "nameLink": "https://answers.justia.com/lawyer/1529307/questions/answered?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2023-08&utm_content=name-lawyer-ask-a-lawyer-leaderboard-1",
+    "photoLink": "https://lawyers.justia.com/lawyer/1529307?utm_medium=email&utm_source=directory-newsletter&utm_campaign=2023-08&utm_content=image-lawyer-ask-a-lawyer-leaderboard-1"
+  },
+  "description": [
+    "Justia Ask A Lawyer is a forum where people can get information from attorneys in response to their basic legal questions on a variety of topics. This featured Justia Connect member was active on the forum last month!",
+    "Want to be featured? Start answering questions today."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://answers.justia.com/about-legal-answers?utm_medium=email&utm_source=insights-newsletter&utm_campaign=2023-08&utm_content=button-lawyer-ask-a-lawyer-leaderboard-1",
+    "text": "Learn More",
+    "width": 150
+  }
+}
