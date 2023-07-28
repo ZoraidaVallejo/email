@@ -1,0 +1,63 @@
+{
+  "templates": {
+    "temp2b": {
+      "layout": "top-image",
+      "link": "https://www.justia.com/marketing/elevate/",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "",
+        "content": ""
+      },
+      "image": "elevate-banner-01.jpg",
+      "imageAlt": "Justia Elevate",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p class='heading -h1'>Discover Justia Elevate and get the</p> <p class='heading -h2'><b>website you need at a rate that fits your budget.</b></p><img class=' deco' src='../dist/images/line-dec.png' alt='icon'>",
+            "<p>Don't let your current website contract hold you back! <b>As a former Justia Client, we are proud to offer you an exclusive rate-lock promotion.</b> Sign up with Justia now to lock in your rate and start your Justia Elevate website services at any point within the next year.</p>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Lock My Rate",
+            "width": 200,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 22,
+            "responsive": ""
+          }
+        },
+        {
+          "type": "description",
+          "config": [
+            "<p class='heading -h1'>In addition to our affordable monthly rates,</p> <p class='heading -h2'><b>Justia Elevate offers:</b></p><img class=' deco' src='../dist/images/line-dec.png' alt='icon'> <table class='list'> <tr> <td class='icon'> <img src='../dist/images/icon-01.png' alt='list image'> </td> <td class='content'> <p>A state-of-the-art, WordPress-based platform</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-02.png' alt='list image'> </td> <td class='content'> <p>High-quality law firm website with responsive design</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-03.png' alt='list image'> </td> <td class='content'> <p>Integrated SEO, including strong technical markup and the Yoast Premium Plugin</p> </td> </tr> <tr> <td class='icon'> <img src='../dist/images/icon-04.png' alt='list image'> </td> <td class='content'> <p>Included Subfolder blog for posting legal updates and other law firm content</p> </td> </tr> </table>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Explore Justia Elevate",
+            "width": 299,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 22,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}
