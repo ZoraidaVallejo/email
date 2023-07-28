@@ -60,7 +60,7 @@
       },
       {
         "text": "Unsubscribe",
-        "link": "*|UNSUB|*"
+        "link": "%UNSUBSCRIBELINK%"
       },
       {
         "text": "Privacy Policy",
@@ -70,7 +70,7 @@
     "disclaimer": "You are receiving this email because you are a <b>Justia</b> client.",
     "address": {
       "justiaLink": "https://www.justia.com/",
-      "direction": "1380 Pear Ave #2B, Mountain View, CA 94043"
+      "direction": "%SENDER-INFO-SINGLELINE%"
     }
   }
 }
