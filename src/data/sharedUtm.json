@@ -1,5 +1,0 @@
-{
-  "medium": "email",
-  "campaign": "<%= dateFormat.dashFull %>",
-  "source": "legal-jobs-newsletter"
-}
