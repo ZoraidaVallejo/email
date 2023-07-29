@@ -71,11 +71,11 @@ body {
       .preview-interface-view .preview-header > .view-buttons > .button:last-child {
         border-radius: 0 2px 2px 0; }
       .preview-interface-view .preview-header > .view-buttons > .button:hover {
-        background-color: rgba(0, 179, 227, 0.1); }
+        background-color: rgba(233, 65, 150, 0.1); }
       .preview-interface-view .preview-header > .view-buttons > .button.-active {
         z-index: 2;
         border-color: #06357a;
-        background-color: rgba(0, 179, 227, 0.2); }
+        background-color: rgba(233, 65, 150, 0.2); }
 
 .preview-interface-view .preview-ui {
   position: relative;

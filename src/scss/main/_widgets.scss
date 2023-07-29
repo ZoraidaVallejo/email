@@ -4,19 +4,20 @@
 
 .widget {
     // border-bottom: 1px solid plt('mail', 'clear-gray');
-    background-color: plt('white');
+    // background-color: plt('white');
+    background-color: #FCF0F3;
 
     // &:nth-child(odd) {
     //     background-color: plt('mail', 'clear-gray');
     // }
 
     a {
-        color: plt('justia-blue');
+        color: #e94196;
     }
 
     .widget-wrapper {
         display: block;
-        border: 1px solid #e6e6e6;
+        border: 1px solid #e94196;
         border-radius: 0 0 10px 10px;
         border-width: 0 1px 1px 1px ;
         padding: 10px 25px $padding;
@@ -30,7 +31,7 @@
 
     .title-wrapper {
         padding: 20px 0;
-        border: 1px solid #e6e6e6;
+        border: 1px solid #e94196;
         border-radius: 10px 10px 0 0;
         border-width: 1px 1px 0 1px;
     }
@@ -58,14 +59,14 @@
 
     .header {
         padding: 0 25px 0 20px;
-        color: plt('justia-blue');
-        border-left: 5px solid #00b3e3;
-        color: plt('justia-blue');
+        color: #e94196;
+        border-left: 5px solid #e94196;
+        color: #e94196;
 
         @include mail-font(28px, 1.2, tp('weight', 'bold'));
 
         a {
-            color: plt('justia-blue');
+            color: #e94196;
         }
     }
 }
@@ -97,17 +98,17 @@
     .content-title {
         @include mail-font(22px, 1.2, tp('weight', 'bold'));
         margin: 0 0 20px;
-        color: plt('justia-blue');
+        color: #e94196;
 
         a {
-            color: plt('justia-blue');
+            color: #e94196;
         }
 
         &.-blue {
-            color: plt('justia-blue');
+            color: #e94196;
 
             a {
-                color: plt('justia-blue');
+                color: #e94196;
             }
         }
     }
@@ -203,10 +204,10 @@
 
             .title {
                 margin: 0 0 8px;
-                color: plt('justia-blue');
+                color: #e94196;
 
                 a {
-                    color: plt('justia-blue');
+                    color: #e94196;
                 }
             }
         }
@@ -235,7 +236,7 @@
             margin: 15px 0 10px;
             color: plt('black');
             a {
-                color: plt('justia-blue')
+                color: #e94196
             }
         }
 
@@ -257,18 +258,18 @@
     display: block;
     width: 70px;
     padding: 11px 0;
-    border: 1px solid plt('justia-blue');
+    border: 1px solid #e94196;
     border-radius: 5px;
     margin: 0 25px 0 0;
     text-align: center;
     background-color: plt('white');
-    color: plt('justia-blue');
+    color: #e94196;
 }
 
 .w-inside-justia {
 
     a b {
-        color: plt('justia-blue');
+        color: #e94196;
     }
 
     .widget-wrapper {
@@ -278,11 +279,11 @@
     }
 
     .block-description b {
-        color: plt('justia-blue');
+        color: #e94196;
 
         a {
             display: block;
-            color: plt('justia-blue')!important;
+            color: #e94196!important;
             margin: 15px 0 0;
         }
     }

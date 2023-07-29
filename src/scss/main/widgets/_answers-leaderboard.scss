@@ -5,7 +5,7 @@
 .w-answers-leaderboard {
 
     .content {
-        background-color: #f2f4f8;
+        background-color: #fff;
         padding: 0px;
         margin-bottom: 20px;
         border-radius: 0 10px 10px 0;
@@ -47,8 +47,8 @@
             p {
                 @include mail-font(32px, 1, tp('weight', 'normal'));
                 margin: 0 10px 0 0;
-                border: 2px solid plt('justia-blue');
-                color: plt('justia-blue');
+                border: 2px solid #e94196;
+                color: #e94196;
                 padding: 6px;
                 border-radius: 50%;
                 width: 100%;

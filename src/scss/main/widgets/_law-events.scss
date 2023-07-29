@@ -9,7 +9,7 @@
     }
 
     .content {
-        background-color: #f2f4f8;
+        background-color: #fff;
         padding: 20px 35px;
         margin: 0 0 20px;
         border-radius: 10px;
@@ -46,10 +46,10 @@
         .title {
             @include mail-font(16px, 1.4);
             margin: 0 0 5px;
-            color: plt('justia-blue');
+            color: #e94196;
 
             a {
-                color: plt('justia-blue');
+                color: #e94196;
             }
         }
 
