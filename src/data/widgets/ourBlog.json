@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Onward"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Justia Legal Guides: Home Ownership Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-home-ownership-center/",
+      "blockTitle": "Justia Legal Guides: Home Ownership Center"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Explore This Year’s Key Decisions From the United States Supreme Court"
+      },
+      "readMore": "https://onward.justia.com/explore-this-years-key-decisions-from-the-united-states-supreme-court/",
+      "blockTitle": "Explore This Year’s Key Decisions From the United States Supreme Court"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Law Firm PPC: Landing Pages 101"
+      },
+      "readMore": "https://onward.justia.com/law-firm-ppc-landing-pages-101/",
+      "blockTitle": "Law Firm PPC: Landing Pages 101"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "New CLE From Justia Webinars: Practice Law With AI (Without Losing Your Law License)"
+      },
+      "readMore": "https://onward.justia.com/new-cle-from-justia-webinars-practice-law-with-ai-without-losing-your-law-license/",
+      "blockTitle": "New CLE From Justia Webinars: Practice Law With AI (Without Losing Your Law License)"
+    }
+  ]
+}

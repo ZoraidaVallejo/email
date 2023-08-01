@@ -1,0 +1,65 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "",
+        "description": "We produced and uploaded a new short video about Sales Agreements (Mexican Law) to our Justia YouTube Channel. "
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Legal Guides Video. ",
+        "description": "We produced our first video in the Justia Legal Guides series. The video is dedicated to giving an overview of Family Law and was added to our Justia YouTube Channel."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Data and IT. ",
+        "description": "A huge accomplishment that has been in the works for several months now is the reduction of our infrastructure costs through the analysis and implementation of cost optimization strategies. These efforts will be ongoing since the goal is to always keep our spend under control."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "Free Law. ",
+        "description": "We’ve added headless crawling as part of our data extraction toolbox. Headless browsers are used to simulate a real user interacting with the site, allowing us to obtain a more complete version of the source pages."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "QA Automation. ",
+        "description": "The QA Team continues expanding our automated QA coverage. They released support for our Justia Elevate Yoast implementation. They also improved their security audit report by adding filtering options, which soon will be available in other QA reports."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "Data. ",
+        "description": "We continue migrating our tracking to Google Analytics 4 by adding support for “Click to Call” and “Click to Text” events in all our client properties, including their AMP versions."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Justia Elevate Reports. ",
+        "description": "This month we also transitioned the SEO Reports for legacy Justia Elevate clients from Universal Google Analytics to Google Analytics 4."
+      }
+    }
+  ]
+}

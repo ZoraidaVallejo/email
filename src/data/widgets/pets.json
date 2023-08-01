@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "JUSTIA PET NEWS",
+    "header": "Mischievous Miau Miau"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "Let me introduce “Miau Miau,” also known as “Micholin.” He is very curious and skittish. He loves jumping around the house and sleeping. He also loves to mess around with his dog siblings. His favorite activity is meowing when his human is in meetings.",
+          "- Eduardo Garcia"
+        ]
+      }
+    }
+  ]
+}
