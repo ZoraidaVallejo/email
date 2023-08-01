@@ -53,7 +53,7 @@
               <p class="name">
                 {{#if featuredLawyer.featured.nameLink}}<a href="{{{featuredLawyer.featured.nameLink}}}" target="_blank">{{/if}}
                   {{{featuredLawyer.featured.name}}}
-                {{#if featuredLawyer.featured.nameLink}}</a>{{/if}}
+                {{#if featuredLawyer.featured.nameLink}}</a>{{>img src="pro-label.png" alt="Pro" class="pro-label"}}{{/if}}
               </p>
               <p class="location">
                 {{#uppercase}}{{featuredLawyer.featured.location}}{{/uppercase}}

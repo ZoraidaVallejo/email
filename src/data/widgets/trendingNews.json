@@ -3,7 +3,7 @@
     "icon": "trending-news",
     "header": "Trending News"
   },
-  "banner": "trending-icon",
+  "banner": "trending-icon.png",
   "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
   "columns": [
     {
@@ -11,7 +11,7 @@
       "colored": "green",
       "news": [
         {
-          "title": "Lawyers, Don’t Fight AI. Supervise It To Enhance Your Value.",
+          "title": "Lawyers, Don’t Fight AI. Supervise It to Enhance Your Value.",
           "link": "https://abovethelaw.com/2023/07/lawyers-dont-fight-ai-supervise-it-to-enhance-your-value/"
         },
         {
@@ -33,7 +33,7 @@
       "colored": "orange",
       "news": [
         {
-          "title": "Google's John Mueller: No Ranking Factor Compensates For Missing Relevance",
+          "title": "Google's John Mueller: No Ranking Factor Compensates for Missing Relevance",
           "link": "https://www.seroundtable.com/google-no-ranking-factor-compensates-for-missing-relevance-35652.html"
         },
         {
@@ -41,11 +41,11 @@
           "link": "https://www.seroundtable.com/google-core-seo-advice-unchanged-35676.html"
         },
         {
-          "title": "Can I Turn Off Reviews For My Google Business Profile?",
+          "title": "Can I Turn Off Reviews for My Google Business Profile?",
           "link": "https://www.sterlingsky.ca/turn-off-google-business-profile-reviews/"
         },
         {
-          "title": "The Ultimate Guide To SEO Audit Tools",
+          "title": "The Ultimate Guide to SEO Audit Tools",
           "link": "https://www.searchenginejournal.com/seo-audit/seo-audit-tools/"
         }
       ]
@@ -81,7 +81,7 @@
           "link": "https://www.theverge.com/2023/6/30/23779880/ftc-fake-reviews-ban-ai"
         },
         {
-          "title": "Attorney Posts About Case On Social Media, So Judge Vacates The Jury Verdict",
+          "title": "Attorney Posts About Case On Social Media, So Judge Vacates the Jury Verdict",
           "link": "https://abovethelaw.com/2023/07/attorney-posts-about-case-on-social-media-so-judge-vacates-the-jury-verdict/"
         },
         {

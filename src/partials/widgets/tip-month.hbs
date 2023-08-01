@@ -28,7 +28,7 @@
         {{#if widgetConfig.banner}}
           {{>widget-banner
             widgetClass="banner-icon"
-            imgSrc=(concat "https://justatic.com/emails/images/newsletters/common/v2/icons/" widgetConfig.banner ".png")
+            imgSrc=widgetConfig.banner
             imgAlt=(default widgetConfig.alt widgetConfig.widget.header)
             link=widgetConfig.imageLink
           }}
