@@ -10,7 +10,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v70"
+        "content": "banner-premium-memberships-v71"
       },
       "image": "premium-placement-2023-08.gif"
     }
