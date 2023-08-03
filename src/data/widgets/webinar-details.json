@@ -1,18 +1,34 @@
 {
-  "version-01-registration": {
-    "banner": "",
+  "test": {
+    "banner": "https://via.placeholder.com/280x260/06357A/fff?font=open-sans&text=Placeholder+Image",
     "details": {
       "date": "August 11, 2023",
       "time": "2:00 pm ET/11:00 pm PT"
     },
+    "topButton": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
     "message": [
       "Hi Name,",
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
       "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
     ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
     "number-list": [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
     ],
     "bottomline": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -25,25 +41,9 @@
     },
     "note": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    ]
-  },
-  "version-02-registered": {
-    "banner": "",
-    "details": {
-      "date": "August 11, 2023",
-      "time": "2:00 pm ET/11:00 pm PT"
-    },
-    "message": [
-      "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
     ],
-    "bullet-list": [
-      "Lorem ipsum dolor sit amet",
-      "Lorem ipsum dolor sit amet"
-    ],
-    "bottomline": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
     ]
   },
   "registration": {
