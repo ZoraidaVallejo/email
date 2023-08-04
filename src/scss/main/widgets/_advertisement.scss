@@ -34,6 +34,14 @@
         }
     }
 
+    .bannerimg {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
     .-extra-space-above {
         padding-top: 0 !important;
     }
@@ -72,5 +80,9 @@
         &.-last {
             padding: 0 $padding $widget-gap;
         }
+    }
+
+    &.-missed-webinar-15 {
+        background-color: #F5F9FF;
     }
 }

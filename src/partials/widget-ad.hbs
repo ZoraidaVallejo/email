@@ -16,6 +16,7 @@
  * @param {string}          widgetConfig.title
  * @param {number}          widgetConfig.titleResponsiveSize
  * @param {string}          widgetConfig.image
+ * @param {string}          widgetConfig.bannerimg
  * @param {string}          widgetConfig.bannerSpacing
  * @param {string}          widgetConfig.bannerTopSpacing
  * @param {string}          widgetConfig.imageAlt
@@ -86,6 +87,20 @@
       </td>
     </tr>
 
+  {{/if}}
+
+
+  {{#if widgetConfig.bannerimg}}
+    <tr>
+      <td class="bannerimg">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.bannerimg
+            alt="Introducing Justia Connect"
+          }}
+        </a>
+      </td>
+    </tr>
   {{/if}}
 
   {{#if widgetConfig.contentOrder}}

@@ -20,5 +20,70 @@
   "recording-available": {
     "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
     "image": "16-webinar-recording-available.png"
+  },
+  "missed-webinar": {
+    "ad1": {
+      "background": {},
+      "title": "",
+      "link": "https://connect.justia.com/webinars/",
+      "titleResponsiveSize": 23,
+      "bannerimg": "missed-webinars-banner.png"
+    },
+    "ad2": {
+      "link": "https://connect.justia.com/webinars/",
+      "image": "connect-webinar-14-recording-available.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Share, Learn, Save, and Connect. Grow your practice with our exclusive membership program for lawyers like you and designed to give you access to resources and exclusive benefits to help you achieve your goals. <strong>Get Connected. Get More from Justia.</strong>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 220,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad3": {
+      "link": "https://connect.justia.com/webinars/",
+      "image": "connect-webinar-15-recording-available.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "Share, Learn, Save, and Connect. Grow your practice with our exclusive membership program for lawyers like you and designed to give you access to resources and exclusive benefits to help you achieve your goals. <strong>Get Connected. Get More from Justia.</strong>"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 220,
+            "height": 50,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    }
   }
 }
