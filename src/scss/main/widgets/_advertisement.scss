@@ -9,7 +9,7 @@
     }
 
     .justia-logo {
-        padding: 40px $padding 30px;
+        padding: 40px 50px 30px;
         text-align: center;
 
         img {
@@ -19,18 +19,23 @@
     }
 
     .title {
-        padding: 50px $padding 0;
+        padding: 50px 50px 0;
         color: plt('justia-blue');
         @include mail-font(36px, 1.15, tp('weight', 'bold'));
     }
 
+    .-twebinar {
+        color: plt('justia-blue');
+        text-align: left;
+        padding: 20px 50px 0;
+        @include mail-font(18px, 1.15, tp('weight', 'bold'));
+    }
 
     .image {
         padding: 50px 0 0;
 
         img {
-            width: $inner-max-width;
-            // border-radius: 5px 5px 0 0;
+            width: 500px;
         }
     }
 
@@ -51,7 +56,7 @@
     }
 
     .content {
-        padding: 0 $padding 25px;
+        padding: 0 50px 25px;
 
         .content-side {
             width: 260px;
@@ -70,15 +75,19 @@
         }
 
         &.-first {
-            padding: 35px $padding 20px;
+            padding: 10px 50px 20px;
         }
 
         &.-button {
-            padding: 0 $padding 18px;
+            padding: 0 50px 18px;
         }
 
         &.-last {
-            padding: 0 $padding $widget-gap;
+            padding: 0 50px ($widget-gap + $padding);
+        }
+
+        &.-description p {
+            text-align: left;
         }
     }
 

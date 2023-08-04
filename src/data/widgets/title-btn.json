@@ -1,0 +1,74 @@
+{
+  "widget": {
+    "header": "More On-Demand Webinars"
+  },
+  "titleResponsiveSize": 22,
+  "contentOrder": [
+    {
+      "type": "title-button",
+      "config": {
+        "title": "Requests and Forms as Modern as the Evidence You Seek",
+        "link": "#####",
+        "button": {
+          "config": {
+            "style": "justia-blue-ghost",
+            "text": "Watch Now",
+            "width": 125,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "title-button",
+      "config": {
+        "title": "The Ethics of Online Advertising and Marketing",
+        "link": "#####",
+        "button": {
+          "config": {
+            "style": "justia-blue-ghost",
+            "text": "Watch Now",
+            "width": 125,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      }
+    },
+    {
+      "type": "title-button",
+      "config": {
+        "title": "Effective Digital & Traditional Marketing for Small Law Firms",
+        "link": "#####",
+        "button": {
+          "config": {
+            "style": "justia-blue-ghost",
+            "text": "Watch Now",
+            "width": 125,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -32,11 +32,12 @@
     "ad2": {
       "link": "https://connect.justia.com/webinars/",
       "image": "connect-webinar-14-recording-available.png",
+      "t-webinar": "Supreme Court 2022-23 Term in Review",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Share, Learn, Save, and Connect. Grow your practice with our exclusive membership program for lawyers like you and designed to give you access to resources and exclusive benefits to help you achieve your goals. <strong>Get Connected. Get More from Justia.</strong>"
+            "The 2022-2023 U.S. Supreme Court term was full of interesting new legal developments. Justia Webinars reached out to two all-star law professors, Illinois Law Dean & Professor Vikram Amar and Cornell Law School Professor Michael Dorf, to lead a discussion on the top cases SCOTUS decided, and the issues SCOTUS failed to address, in the recent term."
           ]
         },
         {
@@ -44,8 +45,8 @@
           "config": {
             "style": "red",
             "text": "Watch Now",
-            "width": 220,
-            "height": 50,
+            "width": 146,
+            "height": 40,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
@@ -60,11 +61,12 @@
     "ad3": {
       "link": "https://connect.justia.com/webinars/",
       "image": "connect-webinar-15-recording-available.png",
+      "t-webinar": "Practice Law With AI (Without Losing Your Law License)",
       "contentOrder": [
         {
           "type": "description",
           "config": [
-            "Share, Learn, Save, and Connect. Grow your practice with our exclusive membership program for lawyers like you and designed to give you access to resources and exclusive benefits to help you achieve your goals. <strong>Get Connected. Get More from Justia.</strong>"
+            "In May 2023, a New York federal judge discovered several fake cases cited in a filed brief. The attorney admitted he used ChatGPT and was “unaware of the possibility its contents could be false.” Is this a warning signal that lawyers should steer clear of AI tools? Not necessarily. Justia Team members and attorneys Kara Simon and Marina Wilson discuss this developing technology and practical uses/considerations for lawyers."
           ]
         },
         {
@@ -72,8 +74,8 @@
           "config": {
             "style": "red",
             "text": "Watch Now",
-            "width": 220,
-            "height": 50,
+            "width": 146,
+            "height": 40,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",

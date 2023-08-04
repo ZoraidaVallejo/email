@@ -199,3 +199,61 @@
         text-align: left;
     }
 }
+
+.widget.w-text-btn {
+    .title {
+        padding: 0 0 5px;
+        @include mail-font(18px, 1.15, 700);
+        // color: plt('justia-blue');
+
+        a {
+            @include mail-font(18px, 1.15, 700);
+            color: plt('justia-blue');
+        }
+    }
+
+    .content {
+        padding: 0 50px 25px;
+
+        a {
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            width: 350px;
+
+            &.-button {
+                width: 125px;
+            }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.-title-button {
+            padding: 0 50px 50px;
+        }
+
+        &.-first {
+            padding: 35px 50px 50px;
+        }
+
+        &.-button {
+            padding: 0 50px 18px;
+            text-align: right;
+        }
+
+        &.-last {
+            padding: 0 50px 50px;
+        }
+    }
+}

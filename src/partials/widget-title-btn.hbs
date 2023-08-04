@@ -1,0 +1,112 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   A D V E R T I S E M E N T                                                                       }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}          widgetConfig
+ * @param {string}          widgetConfig.link
+ * @param {Object}          widgetConfig.utm
+ * @param {Object}          widgetConfig.logo
+ * @param {string}          widgetConfig.logo.name
+ * @param {string}          widgetConfig.logo.color
+ * @param {string}          widgetConfig.title
+ * @param {number}          widgetConfig.titleResponsiveSize
+ * @param {string}          widgetConfig.image
+ * @param {string}          widgetConfig.imageAlt
+ * @param {Object}          widgetConfig.background
+ * @param {string}          widgetConfig.background.image
+ * @param {string}          widgetConfig.background.bgColor
+ * @param {number}          widgetConfig.background.width
+ * @param {number}          widgetConfig.background.height
+ * @param {string}          widgetConfig.background.cssSize
+ * @param {Object[]}        widgetConfig.contentOrder
+ * @param {string}          widgetConfig.contentOrder[].type
+ * @param {string[]|Object} widgetConfig.contentOrder[].config
+ * @param {string}          widgetClass
+}}
+
+{{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "adClasses" (classList "widget" "w-text-btn" widgetClass "set-max-width")}}
+
+{{! ================================================================================================================= }}
+
+{{#table class=(classList "widget" "w-text-btn" widgetClass "set-max-width")}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+    <tr>
+      {{>ui-background backgroundBehavior="cell" backgroundStart=true
+        bgImage=widgetConfig.background.image
+        bgColor=widgetConfig.background.bgColor
+        bgWidth=widgetConfig.background.width
+        bgHeight=widgetConfig.background.height
+        bgSize=widgetConfig.background.cssSize
+      }}
+        <table {{{tableAttr}}}>
+  {{/and}}
+
+  {{>widget-header
+    header=widgetConfig.widget.header
+    type=widgetConfig.widget.type
+  }}
+
+  {{#if widgetConfig.title}}
+    <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides">
+        {{#if type}}<h4 class="type">{{type}}</h4>{{/if}}
+        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.title}}}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+
+      {{#compare this.type "===" "title-button"}}
+        <tr>
+          <td class="content -title-button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#forIn this.config}}
+
+              {{#compare @key "===" "title"}}
+                <div class="content-side -content" responsive="collapse-one mobile-no-padding">
+                    <p>{{#if ../config.title}}<b class="title">{{#if ../config.link}}<a href="{{{../config.link}}}" target="_blank">{{/if}}{{{../config.title}}}{{#if ../config.link}}</a>{{/if}}</b>{{/if}}</p>
+                </div>
+              {{/compare}}
+
+              {{#compare @key "===" "button"}}
+                <div class="content-side -button" responsive="collapse-one mobile-no-padding">
+                  {{#uiButton
+                    href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                    presetStyle=this.config.style
+                    width=this.config.width
+                    height=this.config.height
+                    borderColor=this.config.borderColor
+                    backgroundColor=this.config.backgroundColor
+                    fontColor=this.config.fontColor
+                    fontStyle=this.config.fontStyle
+                    fontWeight=this.config.fontWeight
+                    fontSize=this.config.fontSize
+                    responsive=this.config.responsive
+                  }}
+                    {{this.config.text}}
+                  {{/uiButton}}
+                </div>
+              {{/compare}}
+            {{/forIn}}
+          </td>
+        </tr>
+      {{/compare}}
+    {{/forEach}}
+  {{/if}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+      </table>
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
+  {{/and}}
+{{/table}}
