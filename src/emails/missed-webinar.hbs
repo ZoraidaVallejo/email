@@ -15,8 +15,8 @@ subject: <%= dateFormat.string %>
       {{>ui-layout-hack tableStart=true}}
 
         {{>widget-ad widgetClass="-missed-webinar" widgetConfig=advertisements.missed-webinar.ad1}}
-        {{>widget-ad widgetClass="-missed-webinar-14" widgetConfig=advertisements.missed-webinar.ad2}}
-        {{>widget-ad widgetClass="-missed-webinar-15" widgetConfig=advertisements.missed-webinar.ad3}}
+        {{>widget-ad widgetClass="-missed-webinar -missed-webinar-14" widgetConfig=advertisements.missed-webinar.ad2}}
+        {{>widget-ad widgetClass="-missed-webinar -missed-webinar-15" widgetConfig=advertisements.missed-webinar.ad3}}
         {{>widget-title-btn widgetClass="-w-text-btn" widgetConfig=title-btn}}
 
       {{>ui-layout-hack tableEnd=true}}
@@ -24,7 +24,7 @@ subject: <%= dateFormat.string %>
   </tr>
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-footer widgetConfig=footer.registered}}
+      {{>main-footer widgetConfig=footer.basic}}
     </td>
   </tr>
 {{/table}}

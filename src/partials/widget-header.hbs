@@ -8,6 +8,7 @@
  * @param {string} [type] - Defines the type of the content.
  * @param {string} [link] - Optional link for the header text.
  * @param {string} [widgetClass] - Optional extra CSS classes.
+ * @param {string} [bgimage]
 }}
 
 {{assign "widgetHeaderIcon" (concat "https://justatic.com/v/20210830/emails/images/newsletters/common/v2/icons/" icon ".png")}}
@@ -19,7 +20,7 @@
     <div class="title-wrapper">
       {{#table class="wrapper"}}
       <tr>
-        <td class="header-text-column">
+        <td class="header-text-column" background="../dist/images/title-decoration-01.png">
           {{#if type}}<h4 class="type">{{type}}</h4>{{/if}}
           <h2 class="header" responsive="mobile-fz-24">
             {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}{{{header}}}{{#if link}}</a>{{/if}}

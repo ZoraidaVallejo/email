@@ -32,10 +32,9 @@
     }
 
     .image {
-        padding: 50px 0 0;
-
         img {
-            width: 500px;
+            width: $inner-max-width;
+            // border-radius: 5px 5px 0 0;
         }
     }
 
@@ -79,7 +78,7 @@
         }
 
         &.-button {
-            padding: 0 50px 18px;
+            padding: 15px 50px 18px;
         }
 
         &.-last {
@@ -88,6 +87,16 @@
 
         &.-description p {
             text-align: left;
+        }
+    }
+
+    &.-missed-webinar {
+        .image {
+            padding: 50px 0 0;
+
+            img {
+                width: 500px;
+            }
         }
     }
 

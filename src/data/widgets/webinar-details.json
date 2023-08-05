@@ -228,42 +228,5 @@
       "text": "Watch Now",
       "width": 250
     }
-  },
-  "missed-webinars": {
-    "banner": "",
-    "title": [
-      "Lorem ipsum dolor sit amet"
-    ],
-    "message": [
-      "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
-    ],
-    "bullet-list": [
-      "Lorem ipsum dolor sit amet",
-      "Lorem ipsum dolor sit amet"
-    ],
-    "number-list": [
-      "Lorem ipsum dolor sit amet",
-      "Lorem ipsum dolor sit amet"
-    ],
-    "message2": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
-    ],
-    "bottomline": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    ],
-    "button": {
-      "style": "red",
-      "link": "#",
-      "text": "Lorem ipsum",
-      "width": 250
-    },
-    "note": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    ],
-    "message3": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
-    ]
   }
 }
