@@ -23,7 +23,11 @@
   },
   "missed-webinar": {
     "ad1": {
-      "background": {},
+      "background": {
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
+      },
       "title": "",
       "link": "https://connect.justia.com/webinars/",
       "titleResponsiveSize": 23,

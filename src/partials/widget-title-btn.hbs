@@ -81,7 +81,7 @@
               {{#compare @key "===" "button"}}
                 <div class="content-side -button" responsive="collapse-one mobile-no-padding">
                   {{#uiButton
-                    href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                    href=(concat ../config.link (utmVariables ../widgetConfig.utm))
                     presetStyle=this.config.style
                     width=this.config.width
                     height=this.config.height
