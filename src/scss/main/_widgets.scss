@@ -26,34 +26,82 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-header {
-    padding: 50px 47px 25px;
+    &:not(.-w-text-btn) {
+        padding: 0 $padding ;
 
-    .header-text-column {
-        padding: 0 0 14px;
-        vertical-align: middle;
-        text-align: center;
-        // background: url('../dist/images/title-decoration-01.png') no-repeat;
-        background-size: 150px 3px;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-    }
-
-    .type {
-        letter-spacing: 1px;
-        display: block;
-        margin-bottom: 2em;
-        text-transform: uppercase;
-        color: #848484;
-        @include mail-font(15px, 1, tp('weight', 'normal'));
-    }
-
-    .header {
-        color: plt('justia-blue');
-        @include mail-font(22px, 1.2, tp('weight', 'bold'));
-
-        a {
-            color: plt('justia-blue');
+        .title-wrapper {
+            padding: 20px 0;
+            border: 1px solid plt('mail', 'border-gray');
+            border-radius: 10px 10px 0 0;
+            border-width: 1px 1px 0 1px;
         }
+
+        .header-icon-column {
+            width: 55px;
+            vertical-align: middle;
+            float: left;
+
+            img {
+                width: 55px;
+            }
+        }
+
+        .header-text-column {
+            vertical-align: middle;
+        }
+
+        .type {
+            padding: 0 25px;
+            color: plt('black');
+
+            @include mail-font(14px, 1, tp('weight', 'normal'));
+        }
+
+        .header {
+            padding: 0 25px 0 20px;
+            color: plt('justia-blue');
+            border-left: 5px solid #00b3e3;
+            color: plt('justia-blue');
+
+            @include mail-font(28px, 1.2, tp('weight', 'bold'));
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+    }
+
+    &.-w-text-btn {
+        padding: 50px 47px 25px;
+
+        .header-text-column {
+            padding: 0 0 14px;
+            vertical-align: middle;
+            text-align: center;
+            // background: url('../dist/images/title-decoration-01.png') no-repeat;
+            background-size: 150px 3px;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+        }
+
+        .type {
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 2em;
+            text-transform: uppercase;
+            color: #848484;
+            @include mail-font(15px, 1, tp('weight', 'normal'));
+        }
+
+        .header {
+            color: plt('justia-blue');
+            @include mail-font(22px, 1.2, tp('weight', 'bold'));
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+
     }
 }
 
