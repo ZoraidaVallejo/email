@@ -158,8 +158,9 @@
       "time": "2:00 pm ET/11:00 pm PT"
     },
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success\">Great Life, Great Practice: Four Cornerstones of Law Firm Success</a> on Friday, July 11 at 2:00 p.m. ET/11:00 a.m. PT.",
+      "You can <b><a href=\"#\" target=\"_blank\">use this link</a></b> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
     ]
   },
   "cle-instructions": {
