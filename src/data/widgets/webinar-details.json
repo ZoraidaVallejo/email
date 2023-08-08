@@ -124,13 +124,14 @@
       "time": "2:00 pm ET/11:00 pm PT"
     },
     "message": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+      "This is it! Presentation day has arrived, and this is your <strong>last chance to take advantage of a free opportunity that could transform your law firm&rsquo;s future</strong>.",
+      "Join <a href=\"https://connect.justia.com/webinars/presenter/kimberly-t-lee\">Kimberly T. Lee</a>, attorney and founder of the Desert Law Group on today at 2:00 p.m. ET/11:00 a.m. PT for <a href=\"https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success\">Great Life, Great Practice: Four Cornerstones of Law Firm Success</a>.",
+      "Are you ready to unlock the keys to success by discovering business skills that aren&rsquo;t taught in law school? This is the presentation for you, and we hope you will join us in just a few short hours."
     ],
     "button": {
       "style": "red",
-      "link": "#",
-      "text": "Learn AI Practice Tips",
+      "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
+      "text": "Sign Me Up",
       "width": 250
     }
   },
