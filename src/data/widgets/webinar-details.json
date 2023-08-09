@@ -196,20 +196,6 @@
       "width": 250
     }
   },
-  "nonattendee-survey": {
-    "banner": "",
-    "message": [
-      "Hi Name,",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
-      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
-    ],
-    "button": {
-      "style": "red",
-      "link": "#",
-      "text": "Share My Feedback",
-      "width": 250
-    }
-  },
   "recording-blast-basic": {
     "banner": "",
     "message": [

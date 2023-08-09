@@ -1,5 +1,5 @@
 {
-  "registration": {
+  "register-btn": {
     "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
     "image": "16-webinar-registration.png"
   },
@@ -7,17 +7,12 @@
     "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
     "image": "16-webinar-registered.png"
   },
-  "attendee-survey": {
+  "survey": {
     "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
     "image": "webinar-survey.png",
     "title": "Your Opinion Matters to Us."
   },
-  "nonattendee-survey": {
-    "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
-    "image": "webinar-survey.png",
-    "title": "Tell Us Your Opinion."
-  },
-  "recording-available": {
+  "recording": {
     "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
     "image": "16-webinar-recording-available.png"
   },
