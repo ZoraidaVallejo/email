@@ -1,0 +1,90 @@
+{
+  "register-btn": {
+    "link": "#",
+    "image": "17-webinar-registration.png"
+  },
+  "registered": {
+    "link": "#",
+    "image": "17-webinar-registered.png"
+  },
+  "survey": {
+    "link": "#",
+    "image": "webinar-survey.png",
+    "title": "Your Opinion Matters to Us."
+  },
+  "recording": {
+    "link": "#",
+    "image": "17-webinar-recording-available.png"
+  },
+  "missed-webinar": {
+    "ad1": {
+      "background": {
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://connect.justia.com/webinars/",
+      "titleResponsiveSize": 23,
+      "bannerimg": "#"
+    },
+    "ad2": {
+      "link": "#",
+      "image": "connect-webinar-14-recording-available.png",
+      "t-webinar": "Supreme Court 2022-23 Term in Review",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            ""
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 146,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad3": {
+      "link": "#",
+      "image": "#",
+      "t-webinar": "#",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "###"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 146,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}
