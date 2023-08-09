@@ -39,5 +39,25 @@
     "message3": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
     ]
+  },
+  "announcement": {
+    "banner": "",
+    "details": {
+      "date": "August 24, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "As a {insert practice area} attorney, you have a unique opportunity to leverage PPC advertising for law firm growth. BUT keeping up with the ever-evolving PPC landscape can be challenging - especially for a busy attorney like you! Justia is here to help.",
+      "Join Justia Web Marketing Lead <a href=\"https://connect.justia.com/webinars/presenter/samantha-larrus\">Samantha Larrus</a> and Lead Marketing Analyst <a href=\"https://connect.justia.com/webinars/presenter/jessica-risso\">Jessica Risso</a> on Thursday, August 24 at 3:00 p.m. ET /12:00 p.m. PT for our exclusive, members-only presentation: <a href=\"https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities\">PPC Advertising in the Legal Industry: Challenges and Opportunities</a>."
+    ],
+    "bottomline": [
+      "<strong>Free Registration Now Open for All Members</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
+      "text": "Register Now",
+      "width": 250
+    }
   }
 }
