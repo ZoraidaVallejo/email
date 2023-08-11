@@ -1,0 +1,37 @@
+{
+  "clients": {
+    "layout": "with-date",
+    "logo": {
+      "name": "insights",
+      "link": {
+        "url": "https://www.justia.com/marketing/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-header-logo-1"
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "jld": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "justia-anniversary",
+      "color": "lawyer-directory",
+      "alt": "20 Anniversary - Justia Lawyer Directory",
+      "path": false,
+      "link": {
+        "url": "https://connect.justia.com/webinars",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "webinar-blast",
+          "content": "image-header-logo-1"
+        }
+      }
+    }
+  }
+}
