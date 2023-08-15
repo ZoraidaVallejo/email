@@ -6,11 +6,11 @@ $settings: set('footer-styles', (
     'basic': (
         'font-size': 14px,
         'color': plt('black'),
-        'background-color': #fcf0f3,
+        'background-color': plt('white'),
         'head': (
-            'background-color': #e94196,
-            'border-top': #e94196,
-            'border-bottom': #e94196
+            'background-color': plt('justia-blue'),
+            'border-top': plt('justia-blue'),
+            'border-bottom': plt('justia-blue')
         ),
         'address': (
             'font-weight': 700
@@ -41,14 +41,14 @@ $settings: set('footer-styles', (
         'background-color': plt('white'),
         'head': (
             'background-color': plt('white'),
-            'border-top': #e94196,
-            'border-bottom': #e94196
+            'border-top': plt('justia-blue'),
+            'border-bottom': plt('justia-blue')
         ),
         'address': (
             'font-weight': 700
         ),
         'nav': (
-            'color': #e94196
+            'color': plt('justia-blue')
         )
     ),
     'insider': (

@@ -47,7 +47,7 @@ $global-mail-logos: ();
 $settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
-    'background': #fcf0f3,
+    'background': plt('white'),
     'logos': (
         'logo-only': (
             'justia': 135px,
@@ -130,7 +130,7 @@ $settings: set('mail-header', (
 
         span {
             display: block;
-            color: #e94196;
+            color: plt('justia-blue');
 
             @include mail-font(22px, 1.25);
         }
