@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Discover Justia Marketing Solutions & Use Your $200 Credit",
+    "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_campaign=2023-08&utm_source=monthly-connect-pro-newsletter&utm_content=section-community-tips-title-v1",
+    "description": [
+      "As a Justia Connect Pro, you have a $200 Justia Credit applicable to select marketing solutions. From law firm websites to premium directory placements and PPC advertising, Justia Marketing Solutions can help your law firm grow. "
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/marketing/contact/",
+      "text": "Request Free Consultation",
+      "width": 280,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "chatbot-logo.png",
+        "alt": "Chatbot",
+        "title": "Chatbot",
+        "border": true,
+        "description": [
+          "Focus on your practice while your new AI legal assistant handles support! Let a bot answer frequently asked questions, gather potential client data, and schedule meetings, all while you work. As a Justia Connect Pro, you are eligible to try ChatBot with a 30-day free trial and 10% off your first monthly payment."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/chatbot/30-day-trial-10-percent-off/?utm_medium=email&utm_campaign=2023-08&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "audiobook-icon.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Take your reading with you on the car, to the office, and beyond with audiobooks! Because of your membership, you can unlock 13% off of a monthly AudioBooks.com subscription."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:84983?utm_medium=email&utm_campaign=2023-08&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}
