@@ -91,5 +91,18 @@
       "You can <a href=\"#\">use this link</a> to join us.",
       "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
     ]
+  },
+  "survey": {
+    "banner": "",
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>PPC Advertising in the Legal Industry: Challenges and Opportunities</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
