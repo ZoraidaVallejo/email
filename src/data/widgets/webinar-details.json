@@ -104,5 +104,26 @@
       "text": "Share My Feedback",
       "width": 250
     }
+  },
+  "last-chance": {
+    "banner": "",
+    "details": {
+      "date": "August 24, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Name,",
+      "You have not accepted our invitation to today&rsquo;s free webinar on the challenges and opportunities presented by PPC advertising for law firms! Don&rsquo;t wait until it is too late.",
+      "Join Justia Web Marketing Lead <a href=\"https://connect.justia.com/webinars/presenter/samantha-larrus\">Samantha Larrus</a> and Lead Marketing Analyst <a href=\"https://connect.justia.com/webinars/presenter/jessica-risso\">Jessica Risso</a> today at 3:00 p.m. ET /12:00 p.m. PT for our exclusive, members-only presentation: <a href=\"https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities\">PPC Advertising in the Legal Industry: Challenges and Opportunities</a>."
+    ],
+    "bottomline": [
+      "<b>Last Chance to Accept Your Invite: Registration Ends in a Few Hours.</b>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
+      "text": "Accept Free Invite",
+      "width": 250
+    }
   }
 }
