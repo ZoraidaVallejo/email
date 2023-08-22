@@ -1,0 +1,66 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "September 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "registration": {
+    "banner": "",
+    "details": {
+      "date": "August 24, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "The state of federal law is, in part, a product of a complex array of processes by which federal statutes and regulations are codified. Even for a seasoned attorney, the process by which finalized statutes and regulations make their way into the public domain is shrouded in mystery!",
+      "You are invited to join Justia Webinars and Cornell Law School Legal Information Institute Co-Directors <a href=\"https://connect.justia.com/webinars/presenter/craig-newton\">Craig Newton</a> and <a href=\"https://connect.justia.com/webinars/presenter/sara-frug\">Sara Frug</a> as they explore the nuances of codification and how challenges in the process impact the free law movement. <a href=\"https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law\">How Laws Get Online: Challenges in Free Law</a> begins promptly at 2:00 p.m. ET/11:00 a.m. PT on Friday, September 8, 2023."
+    ],
+    "bottomline": [
+      "<strong>Free Registration Now Available. Claim Your Seat Before It’s Gone!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
+      "text": "Register for Free",
+      "width": 250
+    },
+    "note": [
+      "<strong>Please note:</strong> This presentation is accredited for <strong>one hour of General MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
+  }
+}
