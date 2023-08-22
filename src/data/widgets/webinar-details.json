@@ -125,5 +125,23 @@
       "text": "Accept Free Invite",
       "width": 250
     }
+  },
+  "reminder-event-today": {
+    "banner": "",
+    "details": {
+      "date": "August 24, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities\">PPC Advertising in the Legal Industry: Challenges and Opportunities</a> today at 3:00 p.m. ET /12:00 p.m. PT.",
+      "You can <a href=\"http://support.justia.com\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
+      "text": "Accept Free Invite",
+      "width": 250
+    }
   }
 }
