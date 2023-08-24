@@ -184,6 +184,8 @@
 
         .title {
             padding: 50px $padding 0;
+            //title decoration with bg image 
+            padding: 50px $padding 15px;
             color: plt('justia-blue');
             text-align: center;
 
@@ -192,6 +194,8 @@
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
+                //title decoration with bg image 
+                // background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
             }
 
             span {
@@ -200,6 +204,7 @@
             }
         }
 
+        //comment if title decoration with bg image 
         .title-decoration {
             background-color: #00B3E3;
             display: block;
