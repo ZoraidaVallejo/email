@@ -27,12 +27,13 @@
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
 
-        {{>widget-banner
-          widgetClass="banner-icon"
-          imgSrc=(concat "https://justatic.com/emails/images/newsletters/common/v2/icons/" widgetConfig.banner ".png")
-          imgAlt=widgetConfig.title
-          link="#"
-        }}
+        {{#if widgetConfig.banner}}
+          {{>widget-banner
+            imgSrc=widgetConfig.banner
+            imgAlt=widgetConfig.title
+            link=widgetConfig.imageLink
+          }}
+        {{/if}}
 
         {{#if widgetConfig.title}}
         <h3 class="content-title">

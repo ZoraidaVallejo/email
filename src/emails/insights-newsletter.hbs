@@ -28,7 +28,9 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
-        {{>inside-justia}}
+        {{>meet-our-team}}
+
+        {{!-- {{>inside-justia}} --}}
 
         {{>featured-lawyer}}
 
@@ -36,9 +38,9 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>ask-a-lawyer}}
 
-        {{!-- {{>jobs-subscribe}} --}}
+        {{>jobs-subscribe}}
 
-        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
+        {{>did-you-know widgetConfig=didYouKnow.jld}}
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
@@ -49,6 +51,10 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>events-we-attended}}
 
         {{>trending-news}}
+
+        {{>more-justia widgetUtmVars=moreJustia.utm.jld}}
+
+        {{>hug-pug}}
 
         {{>jurispro}}
 

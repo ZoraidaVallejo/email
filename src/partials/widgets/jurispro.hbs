@@ -17,33 +17,33 @@
   }}
 
   <tr>
-    <td class="custom-description" responsive="mobile-padding-horizontal-sides">
+    <td class="custom-description widget-description" responsive="mobile-padding-horizontal-sides">
 
      <div class="widget-wrapper">
         <div class="text" responsive="mobile-padding-horizontal-sides">
           <p>{{{jurispro.description}}}</p>
         </div>
 
-        {{>widget-banner
-          widgetClass="banner-icon"
-          imgSrc=jurispro.banner
-          imgAlt=jurispro.widget.header
-          link="https://www.jurispro.com/"
-        }}
+        {{#if jurispro.banner}}
+          {{>widget-banner
+            widgetClass="banner-icon"
+            imgSrc=jurispro.banner
+            imgAlt=jurispro.widget.header
+            link="https://www.jurispro.com/"
+          }}
+        {{/if}}
 
-
-          {{#forEach jurispro.cases}}
-            <div class="content">
-              {{#table}}
-                <p class="title {{#if isLast}} -last{{/if}}">
-                  {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
-                  <b>{{{this.title}}}</b>
-                  {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
-                </p>
-              {{/table}}
-            </div>
-          {{/forEach}}
-
+        {{#forEach jurispro.cases}}
+          <div class="content">
+            {{#table}}
+              <p class="title {{#if isLast}} -last{{/if}}">
+                {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}{{#if this.index}}{{@root.justiaDeskTitleLink}}{{this.index}}{{/if}}' target="_blank">{{/and}}
+                <b>{{{this.title}}}</b>
+                {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+              </p>
+            {{/table}}
+          </div>
+        {{/forEach}}
 
      </div>
     </td>

@@ -45,11 +45,11 @@
   <tr>
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div>
-        <h1 class="content-title"><span>{{{widgetConfig.title.[0]}}}</span>
+        <h1 class="content-title" responsive="mobile-fz-22"><span>{{{widgetConfig.title.[0]}}}</span>
           {{{widgetConfig.title.[1]}}}
         </h1>
         {{#each widgetConfig.message}}
-          <p>{{{this}}}</p>
+          <p >{{{this}}}</p>
         {{/each}}
 
         {{!

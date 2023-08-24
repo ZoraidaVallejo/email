@@ -1,7 +1,7 @@
 {
   "widget": {
     "icon": "justia-desk",
-    "header": "From the Desk of Justia"
+    "header": "More from Justia"
   },
   "banner": "justia-desk.jpg",
   "imageLink": "BANNERLINK",
@@ -9,37 +9,32 @@
     {
       "title": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus depici leram ser.",
       "link": "LINK/",
-      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
       "details": "Marina Wilson | June 15, 2023",
       "index": "1"
     },
     {
       "title": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus depici leram ser.",
       "link": "LINK/",
-      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
       "details": "Marina Wilson | June 15, 2023",
-      "index": "2"
+      "index": "1"
     },
     {
       "title": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus depici leram ser.",
       "link": "LINK/",
-      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
       "details": "Marina Wilson | June 15, 2023",
-      "index": "3"
+      "index": "1"
     },
     {
       "title": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus depici leram ser.",
       "link": "LINK/",
-      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
       "details": "Marina Wilson | June 15, 2023",
-      "index": "4"
+      "index": "1"
     },
     {
       "title": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus depici leram ser.",
       "link": "LINK/",
-      "description": "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula.",
       "details": "Marina Wilson | June 15, 2023",
-      "index": "5"
+      "index": "1"
     }
   ],
   "utm": {
@@ -48,8 +43,8 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "client-newsletter",
       "content": {
-        "title": "text-justia-desk-title-",
-        "button": "text-justia-desk-suscribe-now-1"
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
       }
     },
     "jld": {
@@ -57,8 +52,8 @@
       "campaign": "<%= dateFormat.dash %>",
       "source": "insights-newsletter",
       "content": {
-        "title": "text-justia-desk-title-",
-        "button": "text-justia-desk-suscribe-now-1"
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
       }
     }
   },

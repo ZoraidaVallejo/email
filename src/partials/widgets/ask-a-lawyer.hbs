@@ -35,12 +35,11 @@
   {{>widget-header
     header=askALawyer.widget.header
     icon=askALawyer.widget.icon
-    type=askALawyer.widget.type
     link=askALawyer.widget.link
   }}
 
   <tr>
-    <td class="lawyer-info" responsive="mobile-padding-horizontal-sides">
+    <td class="lawyer-info widget-description" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
         {{#table class="images-group" responsive="mobile-reset-width"}}
           <tr>
@@ -53,7 +52,7 @@
               <p class="name">
                 {{#if askALawyer.featured.nameLink}}<a href="{{{askALawyer.featured.nameLink}}}" target="_blank">{{/if}}
                   {{{askALawyer.featured.name}}}
-                {{#if askALawyer.featured.nameLink}}</a>{{/if}}
+                {{#if askALawyer.featured.nameLink}}</a>{{>img src="pro-label.png" alt="Pro" class="pro-label"}}{{/if}}
               </p>
               <p class="location">
                 {{#uppercase}}{{askALawyer.featured.location}}{{/uppercase}}

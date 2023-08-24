@@ -77,9 +77,13 @@
                 <b>{{{this.title}}}</b>
                 {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
             </p>
-            <p class="description">
-              {{{this.description}}}
-            </p>
+
+            {{#if this.description}}
+              <p class="description">
+                {{{this.description}}}
+              </p>
+            {{/if}}
+
             <p class="details">{{{this.details}}}</p>
           </div>
         {{/each}}

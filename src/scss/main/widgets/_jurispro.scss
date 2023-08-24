@@ -36,7 +36,8 @@
         }
 
         .text {
-            padding: 0 35px $padding 0;
+            // padding: 0 35px $padding 0;
+            padding: 0 0 20px;
 
             p {
                 @include mail-font(18px);

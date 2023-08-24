@@ -27,12 +27,13 @@
     <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
 
+        {{#if jobsSubscribe.banner}}
         {{>widget-banner
-          widgetClass="banner-icon"
-          imgSrc=(concat "https://justatic.com/emails/images/newsletters/common/v2/icons/" jobsSubscribe.banner ".png")
+          imgSrc=jobsSubscribe.banner
           imgAlt=jobsSubscribe.title
-          link="#"
+          link=jobsSubscribe.imageLink
         }}
+      {{/if}}
 
         {{#each jobsSubscribe.description}}
           <p>{{{this}}}</p>

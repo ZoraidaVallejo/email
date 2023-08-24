@@ -99,7 +99,7 @@ $title-gap: 30px;
 
     .content-title {
         @include mail-font(22px, 1.2, tp('weight', 'bold'));
-        margin: 0 0 16px;
+        margin: 0 0 10px;
         color: plt('justia-blue');
 
         a {
@@ -117,7 +117,8 @@ $title-gap: 30px;
 
     p {
         @include mail-font(18px, 1.5);
-        margin: 0 0 20px;
+        // margin: 0 0 20px;
+        margin: 0
     }
 
     .content-subtitle {
@@ -127,14 +128,15 @@ $title-gap: 30px;
 
     &.-no-button {
         padding: 0 $padding $widget-gap;
+        // padding: 0;
     }
 }
 
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-button {
-    padding: 0;
-    // padding: 4px 0 0px;
+    // padding: 0;
+    padding: 20px 0 0px;
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -280,6 +282,10 @@ $title-gap: 30px;
         color: plt('justia-blue');
     }
 
+    .content-title {
+        color: plt('black');
+    }
+
     .widget-wrapper {
         p + .widget-banner {
             padding: 25px 0 35px;
@@ -320,6 +326,12 @@ $title-gap: 30px;
 
         img {
             width: 50px;
+        }
+    }
+
+    &.-more {
+        .title {
+            @include mail-font(18px, 1.1, tp('weight', 'bold'))
         }
     }
 

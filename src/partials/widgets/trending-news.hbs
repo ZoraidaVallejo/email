@@ -38,10 +38,9 @@
       <div class="widget-wrapper">
 
         {{>widget-banner
-          widgetClass="banner-icon"
-          imgSrc=(concat "https://justatic.com/emails/images/newsletters/common/v2/icons/" trendingNews.banner ".png")
+          imgSrc=trendingNews.banner
           imgAlt=trendingNews.title
-          link="#"
+          link=trendingNews.imageLink
         }}
 
         <p class="subtitle">{{{trendingNews.subtitle}}}</p>
