@@ -4,70 +4,69 @@
     "ad2": {}
   },
   "jld": {
-    "blue": {
-      "image": "first-place-banner.jpg",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>Hi {Name},</p>",
-            "<p>Did you know the <b>Justia Lawyer Directory</b> is one of the most visited directories available online with over one million visitors each month?</p>",
-            "<p>Because of your placement, more of those eyes are on you and <b>potential clients are seeing you _____X more than the average lawyers in your area</b>. (USA/State/City/Metro)</p>"
-          ]
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-01.png",
-            "description": [
-              "<b>An enhanced, competitor-free Justia Profile</b> in the Justia Lawyer Directory, ensuring more potential clients keep their eyes on you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-02.png",
-            "description": [
-              "<b>Prominent contact information and an integrated contact form</b> so it is easier for prospective clients to reach you"
-            ]
-          }
-        },
-        {
-          "type": "image-description",
-          "config": {
-            "responsive": "",
-            "image": "icon-03.png",
-            "description": [
-              "<b>A customized tagline for Justia Premium Placement listing</b>, helping you keep your best foot forward when connecting with new clients "
-            ]
-          }
-        },
-        {
-          "type": "description",
-          "config": [
-            "<p>Thanks for being a Justia client! We are proud to help you continue to grow your firm with these benefits in the year to come.</p>"
+    "image": "first-place-banner.jpg",
+    "title": "Answer: They're All in First Place!",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>With a <b>Justia Platinum Placement</b>, you can always be in first place. Take advantage of an <b>exclusive top spot on the Justia Lawyer Directory listing pages</b> for your practice area and locality with a Justia Platinum Placement.</p>",
+          "<p>Plus, lawyers with Justia Platinum Placements also receive:</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-01.png",
+          "description": [
+            "An Enhanced Justia Profile Without Competitor Ads"
           ]
         }
-      ]
-    },
-    "6month": {
-      "title": "Hi <span>{First Name}</span>",
-      "image": "example-chart.png",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "<p>That graph up there? That's your data! Just look at the work your <b>Justia Premium Placement</b> in the <b>Justia Lawyer Directory</b> has been doing for you lately.</p>",
-            "<p>You took your visibility to the next level and significantly increased your impressions in the <b>Justia Lawyer Directory</b>. This means even more potential clients have had their eyes  on you!</p>",
-            "<p>We are so glad things are going well and are proud to be a part of your law firm’s growth journey. </p>",
-            "<p>If you have any questions along the way about how to get even more from your placement, please do not hesitate to contact us at <a href=\"https://support.justia.com/\" target=\"_blank\">support.justia.com</a>.</p>",
-            "<p><b>- The Justia Lawyer Directory Team</b></p>"
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-02.png",
+          "description": [
+            "Access to Profile Traffic Statistics "
           ]
         }
-      ]
-    }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-03.png",
+          "description": [
+            "An Optional Customized Landing Page Designed  for Conversions"
+          ]
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Space is limited! Claim your top spot before someone  else does.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Get Started",
+          "width": 250,
+          "height": 50,
+          "fontSize": 18,
+          "responsive": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <b><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></b></p>"
+        ]
+      }
+    ]
   }
 }

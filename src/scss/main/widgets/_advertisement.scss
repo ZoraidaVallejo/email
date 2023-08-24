@@ -5,7 +5,7 @@
 .w-advertisement {
    
     td {
-        text-align: center;
+        text-align: left;
     }
 
     .justia-logo {
@@ -44,7 +44,20 @@
     }
 
     .content {
-        padding: 0 45px 25px;
+        
+        padding: 0 50px 30px;
+        
+        p strong {
+            color: plt('justia-blue');
+        }
+
+        &.-image-description {
+            text-align: left;
+
+            p {
+                display: inline;
+            }
+        }
 
         strong a {
             color: plt('justia-blue');
@@ -132,7 +145,7 @@
         }
 
         &.-first {
-            padding: 15px 48px 50px;
+            padding: 25px 48px 50px;
             text-align: left;
 
             img {
@@ -147,15 +160,18 @@
         }
 
         &.-last {
-            padding: 0 $padding 50px;
+            padding: 0 50px 50px;
+            text-align: center;
 
             p {
-                @include mail-font(18px, 1.5);
+                // @include mail-font(18px, 1.5);
+                text-align: center;
             }
         }
 
         &.-button {
-            padding: 0px $padding 20px;
+            padding: 0px $padding 15px;
+            text-align: center;
         }
 
         a b {
@@ -164,39 +180,18 @@
         }
     }
 
-    &.-jld-ad-01 {
-        .content {
-            color: plt('white');
-
-            &.-idx-2 {
-                display: block;
-                max-width: 235px;
-                padding: 0 0 25px 45px;
-                text-align: left;
-            }
-
-            a strong {
-                color: plt('white')!important;
-            }
-        }
-
-        ul li {
-            padding-bottom: 28px;    
-        }
-    }
-
-    &.-jld-ad-02 {
+    &.-jld-ad {
 
         .title {
-            padding: 50px $padding 25px;
+            padding: 50px $padding 0;
             color: plt('justia-blue');
+            text-align: center;
 
             a {
                 @include mail-font(28px, 1.25, 700);
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
-                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
             }
 
             span {
@@ -205,28 +200,13 @@
             }
         }
 
-        .content {
-            padding: 0 50px 25px;
-            
-            p strong {
-                color: plt('justia-blue');
-            }
-
-            &.-image-description {
-                text-align: left;
-
-                p {
-                    display: inline;
-                }
-            }
-        }
-
-        .content.-last {
-            padding: 25px 50px 50px;
-
-            p {
-                text-align: left;
-            }
+        .title-decoration {
+            background-color: #00B3E3;
+            display: block;
+            height: 3px;
+            width: 150px;
+            text-align: center;
+            margin: 0 auto;
         }
 
         .content-side {
@@ -236,8 +216,8 @@
             vertical-align: middle;
 
             &.-image {
-                width: 74px;
-                padding: 0 25px 0 0;
+                width: 50px;
+                padding: 0 22px 0 0;
             }
 
             &.-description p {
@@ -247,176 +227,20 @@
             }
 
             img {
-                width: 74px;
-            }
-
-            &:first-child {
-                float: left;
-            }
-
-            &:last-child {
-                float: left;
-                max-width: 80%;
-            }
-        }
-
-        .-inner-image-description .content-side {
-            &.-image {
-                float: none;
-                width: 74px;
-                padding: 0 25px 0 0;
-            }
-
-            img {
-                width: 74px;
+                width: 50px;
             }
 
             &.-description {
                 display: table-cell;
                 float: none;
                 max-width: 100%;
-                width: 80%;
-
-                div {
-                    float: none;
-                    max-width: 100%;
-                }
+                width: 90%;
             }
         }
 
-        .-inner-banner {
-            background: #1aa8b1;
+        .content.-image-description {
+            padding: 0 50px 25px;
             text-align: left;
-
-            td {
-                text-align: left;
-            }
         }
-
-        .content.-first {
-            padding: 0;
-            background: #1aa8b1;
-
-            .-image {
-                max-width: 300px;
-                padding: 0;
-            }
-
-            img {
-                width: 300px;
-            }
-
-            .-description {
-                max-width: 275px;
-                padding: 0 25px 0 0;
-            }
-
-            .-description p {
-                @include mail-font(36px, 1.2);
-                display: block;
-                color: plt('white');
-                // text-transform: uppercase;
-                margin: 4px 0 10px;
-                overflow-wrap:break-word;
-                word-wrap:break-word;
-                word-break:break-word;
-
-                span {
-                    @include mail-font(80px, 1.01, 700);
-                    display: block;
-                    font-weight: bold;
-                    overflow-wrap:break-word;
-                    word-wrap:break-word;
-                    word-break:break-word;
-                }
-            }
-        }
-
-        .content.-idx-2, {
-            padding: 50px 50px 25px;
-            text-align: left;
-
-            // div {
-            //     @include mail-font(22px, 1.5);
-
-            //     padding: 0 0 25px 0;
-            //     vertical-align: middle;
-            //     text-align: left;
-
-            //     span {
-            //         display: inline-block;
-            //         padding: 0 0 0 25px;
-            //         vertical-align: middle;
-            //     }
-
-            //     img {
-            //         display: inline-block;
-            //         vertical-align: middle;
-            //     }
-            // }
-        }
-    }
-
-    &.-jld-ad-02.-jld-yellow {
-
-        .-inner-banner {
-            background: #f9cd08;
-        }
-
-        .content.-first {
-            background: #f9cd08;
-
-            .-description p {
-                color: plt('justia-blue');
-            }
-        }
-    }
-
-    &.-jld-ad-03 {
-
-        .title {
-            padding: 50px $padding 75px;
-            color: plt('justia-blue');
-
-            a {
-                @include mail-font(40px, 1.25, 700);
-                color: plt('justia-blue');
-            }
-
-            span {
-                display: inline;
-                font-weight: get('font.weight.bold');
-            }
-        }
-
-        .content {
-            padding: 50px;
-            
-            // p strong {
-            //     color: plt('justia-blue');
-            // }
-
-            a {
-                color: plt('justia-blue');
-            }
-
-            &.-description p {
-                @include mail-font(18px, 1.5);
-                color: plt('black');
-                margin-bottom: 2em;
-            }
-
-            &.-image-description {
-                text-align: left;
-
-                p {
-                    display: inline;
-                }
-            }
-        }
-
-        // .content.-first {
-        //     padding: 40px 48px 35px;
-        // }
     }
 }
