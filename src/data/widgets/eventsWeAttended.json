@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "icon": "events-we-attended",
+    "header": "Events We Sponsored"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "events-attended-01.jpg",
+        "alt": "CALIcon 2023"
+      },
+      "blockTitle": "CALIcon 2023",
+      "description": [
+        "Justia sponsored and attended CALIcon 2023, held at the University of Pennsylvania Carey Law School in Philadelphia. The conference brought together leading academics, educators, institutional leaders, and technology professionals to share ideas, innovations, experiences and best practices in legal education and technology."
+      ]
+    }
+  ]
+}

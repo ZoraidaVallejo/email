@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "11",
+      "month": "Jul",
+      "title": "Lawyer Leadership Mastermind Series: Artificial Intelligence and ChatGPT",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432148453/",
+      "time": "12pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "12",
+      "month": "Jul",
+      "title": "How to Improve Your Closing Statement",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432447751/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "13",
+      "month": "Jul",
+      "title": "ChatGPT: Leary or Elated (Ethics)",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432181656/",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "19",
+      "month": "Jul",
+      "title": "Supreme Court 2022-23 Term in Review",
+      "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review",
+      "time": "3pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "24",
+      "month": "Jul",
+      "title": "How to Improve Your Direct Examination",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/432546040/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "31",
+      "month": "Jul",
+      "title": "Practice Law With AI (Without Losing Your Law License)",
+      "link": "https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license",
+      "time": "3pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

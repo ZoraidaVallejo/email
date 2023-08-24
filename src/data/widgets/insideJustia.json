@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "our-team.jpg",
+        "alt": "Lorem ipsum dolor"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Lorem ipsum dolor</b>",
+      "description": [
+        "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+      ]
+    },
+    {
+      "image": {
+        "src": "hugpug.jpg",
+        "alt": "Go Fetch!"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Go Fetch!</b>",
+      "description": [
+        "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+      ]
+    }
+  ]
+}
