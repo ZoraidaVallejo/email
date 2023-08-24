@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-   
+
     td {
         text-align: left;
     }
@@ -44,9 +44,9 @@
     }
 
     .content {
-        
+
         padding: 0 50px 30px;
-        
+
         p strong {
             color: plt('justia-blue');
         }
@@ -184,7 +184,7 @@
 
         .title {
             padding: 50px $padding 0;
-            //title decoration with bg image 
+            //title decoration with bg image
             padding: 50px $padding 15px;
             color: plt('justia-blue');
             text-align: center;
@@ -192,10 +192,10 @@
             a {
                 @include mail-font(28px, 1.25, 700);
                 display: block;
-                padding: 0 0 15px;
+                padding: 0 0 30px;
                 color: plt('justia-blue');
-                //title decoration with bg image 
-                // background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+                //title decoration with bg image
+                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
             }
 
             span {
@@ -204,15 +204,15 @@
             }
         }
 
-        //comment if title decoration with bg image 
-        .title-decoration {
-            background-color: #00B3E3;
-            display: block;
-            height: 3px;
-            width: 150px;
-            text-align: center;
-            margin: 0 auto;
-        }
+        //comment if title decoration with bg image
+        // .title-decoration {
+        //     background-color: #00B3E3;
+        //     display: block;
+        //     height: 3px;
+        //     width: 150px;
+        //     text-align: center;
+        //     margin: 0 auto;
+        // }
 
         .content-side {
             display: inline-block;
