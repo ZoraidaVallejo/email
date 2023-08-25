@@ -17,13 +17,15 @@ $title-gap: 30px;
         color: plt('justia-blue');
     }
 
-    // .widget-wrapper {
-    //     display: block;
-    //     border: 1px solid #e6e6e6;
-    //     border-radius: 0 0 10px 10px;
-    //     border-width: 0 1px 1px 1px ;
-    //     padding: 10px 25px $padding;
-    // }
+    .widget-wrapper {
+        margin: 0;
+        padding: 0;
+        // display: block;
+        // border: 1px solid #e6e6e6;
+        // border-radius: 0 0 10px 10px;
+        // border-width: 0 1px 1px 1px ;
+        // padding: 10px 25px $padding;
+    }
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -32,7 +34,8 @@ $title-gap: 30px;
     padding: 0 $padding ;
 
     .title-wrapper {
-        padding: 0 0 $title-gap;
+        margin: 0 0 $title-gap;
+        // padding: 0 0 $title-gap;
         // border: 1px solid #e6e6e6;
         // border-radius: 10px 10px 0 0;
         // border-width: 1px 1px 0 1px;
@@ -76,14 +79,17 @@ $title-gap: 30px;
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-banner {
-    padding: 0 0 20px;
+    // padding: 0 0 20px;
+    margin: 0 0 20px;
 
     img {
-        width: $inner-max-width + 40px; //580px
+        width: $inner-max-width;
     }
 
     &.banner-icon {
-        padding: 0 0 30px;
+        // padding: 0 0 30px;
+        margin: 0 0 30px;
+
 
         img {
             max-width: 200px;
@@ -136,7 +142,8 @@ $title-gap: 30px;
 
 .widget-button {
     // padding: 0;
-    padding: 20px 0 0px;
+    // padding: 20px 0 0px;
+    margin: 20px 0 0px;
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -286,11 +293,15 @@ $title-gap: 30px;
         color: plt('black');
     }
 
-    .widget-wrapper {
-        p + .widget-banner {
-            padding: 25px 0 35px;
-        }
+    p + .widget-banner {
+        margin: 20px 0;
     }
+
+    // .widget-wrapper {
+    //     p + .widget-banner {
+    //         padding: 25px 0 35px;
+    //     }
+    // }
 
     .block-description b {
         color: plt('justia-blue');
