@@ -7,15 +7,38 @@
     .subtitle {
         text-align: left;
         font-weight: get('font.weight.normal');
+        margin: 0 0 20px;
+
         span {
             display: inline-block;
         }
     }
     .section {
-        padding: 10px 0 25px;
+
+        //title decoration with bg image
+        // margin: 0 0 20px;
+        padding: 0 0 20px;
+        margin: 0 0 20px;
+        display: block;
+        color: plt('justia-blue');
+        text-align: center;
+        background: url('../dist/images/line-decoration.png') no-repeat center bottom;
 
         &:last-child {
-            padding: 10px 0 0;
+            padding: 0;
+            margin: 0;
+            background: none;
+        }
+    }
+
+    .title {
+        @include mail-font(22px, 1.1, tp('weight', 'bold'));
+        text-align: left;
+        margin: 0 0 20px;
+        color: plt('black');
+
+        a {
+            color: plt('black');
         }
     }
 
@@ -48,5 +71,22 @@
             background-color:#3fd5ae
         }
 
+    }
+
+    .news {
+        margin: 0 0 20px;
+        text-align: left;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        .via {
+            display: block;
+            font-style: italic;
+            color: plt('black');
+            // margin:0 20px;
+            // @include mail-font(14px, 1.25);
+        }
     }
 }

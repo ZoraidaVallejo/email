@@ -4,7 +4,6 @@
       "icon": "did-you-know",
       "header": "Did You Know?"
     },
-    "banner": "placeholder.jpg",
     "imageLink": "#",
     "title": "Praesent feugiat commod morto",
     "description": [
@@ -13,8 +12,8 @@
     "button": {
       "style": "justia-blue-ghost",
       "link": "https://www.youtube.com/Justia",
-      "text": "Browse Videos",
-      "width": 160,
+      "text": "Read More",
+      "width": 150,
       "utm": {
         "medium": "email",
         "source": "insights-newsletter",

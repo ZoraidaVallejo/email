@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------------------------------------
+// L A W Y E R   Q A   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+$common-padding: 20px 25px 20px 0;
+.w-lawyer-qa {
+
+    .widget-wrapper {
+
+        .section > div{
+            padding: 20px 25px;
+        }
+    }
+
+    .question {
+        background-color: plt('justia-blue');
+        color: plt('white');
+
+        .q-icon {
+            @include mail-font(36px);
+            padding: 20px 25px;
+        }
+
+        .question-text {
+            padding: $common-padding;
+            @include mail-font(16px, 1.2);
+            font-weight: get('font.weight.bold');
+        }
+    }
+
+    .answer {
+        background-color: #f2f4f8;
+        color: plt('justia-blue');
+
+
+        .answer-text {
+            padding: 20px 25px 8px 0;
+            @include mail-font(16px, 1.2);
+            font-style: italic;
+        }
+
+        .name,
+        .location {
+            @include mail-font(14px);
+            color: plt('black');
+        }
+    }
+
+    .widget-button {
+        padding: 20px 0 30px;
+    }
+
+    //images
+
+    .-photo {
+        vertical-align: top;
+        width: 120px;
+        padding: 20px 25px 0;
+    }
+
+    .-icon {
+        vertical-align: top;
+        width: 36px;
+        padding: 20px 25px 0;
+    }
+}
