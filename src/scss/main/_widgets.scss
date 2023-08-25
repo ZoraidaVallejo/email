@@ -83,7 +83,7 @@ $title-gap: 30px;
     margin: 0 0 20px;
 
     img {
-        width: $inner-max-width;
+        width: $inner-max-width + 40px; //580px
     }
 
     &.banner-icon {
