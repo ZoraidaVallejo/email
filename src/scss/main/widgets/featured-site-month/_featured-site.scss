@@ -34,7 +34,7 @@
             text-align: center;
 
             img {
-                width: $inner-max-width;
+                width: $inner-max-width + 40px; //580px;
             }
 
             &.-last {

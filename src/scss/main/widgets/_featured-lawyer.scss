@@ -17,7 +17,7 @@
             background-color: #f2f4f8;
             padding: 0px;
             border-radius: 0 10px 10px 0;
-            margin: 0 auto 20px;
+            margin: 0 0 20px;
 
             img.pro-label {
                 max-width: 36px;
@@ -30,19 +30,19 @@
                 text-align: center;
 
                 &.-photo {
-                    width: 28%;
+                    width: 23%;
                     padding: 0;
                     text-align: left;
                 }
 
                 &.-info {
-                    padding: 0 0 0 5px;
+                    padding: 0 25px 0;
                     text-align: left;
                 }
 
                 &.-badge {
-                    width: 25%;
-                    padding: 0 26px 0;
+                    width: 18%;
+                    padding: 0 25px 0 0;
                     text-align: right;
 
                     img {

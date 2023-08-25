@@ -31,7 +31,7 @@
         padding: 0 $padding 70px;
 
         img {
-            width: $inner-max-width;
+            width: $inner-max-width + 40px; //580px;
             border-radius: 10px;
         }
     }
