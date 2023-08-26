@@ -47,7 +47,7 @@ $global-mail-logos: ();
 $settings: set('mail-logos', $global-mail-logos);
 
 $settings: set('mail-header', (
-    'background': #ffffff,
+    'background': plt('white'),
     'logos': (
         'logo-only': (
             'justia': 135px,
@@ -60,15 +60,9 @@ $settings: set('mail-header', (
             'your-birthday': 380px,
             'new-team-member': 450px,
             'new-intern': 340px,
-<<<<<<< HEAD
-            'work-anniversary': 440px,
-            'onboarding': 350px,
-            'ask-lawyer': 470px
-=======
             'anniversary': 346px,
             'onboarding': 350px,
             'justia-anniversary': 470px
->>>>>>> master
         ),
         'with-date': (
             'justia': 135px,

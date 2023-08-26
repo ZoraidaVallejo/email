@@ -6,7 +6,7 @@ $settings: set('footer-styles', (
     'basic': (
         'font-size': 14px,
         'color': plt('black'),
-        'background-color': #ffffff,
+        'background-color': plt('white'),
         'head': (
             'background-color': plt('justia-blue'),
             'border-top': plt('justia-blue'),
@@ -16,16 +16,16 @@ $settings: set('footer-styles', (
             'font-weight': 700
         ),
         'nav': (
-            'color': #ffffff
+            'color': plt('white')
         )
     ),
     'light-bright': (
         'font-size': 14px,
         'color': plt('black'),
-        'background-color': #ffffff,
+        'background-color': plt('white'),
         'head': (
-            'background-color': #ffffff,
-            'border-top': #ffffff,
+            'background-color': plt('white'),
+            'border-top': plt('white'),
             'border-bottom': plt('bright-blue')
         ),
         'address': (
@@ -38,9 +38,9 @@ $settings: set('footer-styles', (
     'light-blue': (
         'font-size': 14px,
         'color': plt('black'),
-        'background-color': #ffffff,
+        'background-color': plt('white'),
         'head': (
-            'background-color': #ffffff,
+            'background-color': plt('white'),
             'border-top': plt('justia-blue'),
             'border-bottom': plt('justia-blue')
         ),
@@ -64,7 +64,7 @@ $settings: set('footer-styles', (
             'font-weight': 700
         ),
         'nav': (
-            'color': #ffffff
+            'color': plt('white')
         )
     )
 ));
