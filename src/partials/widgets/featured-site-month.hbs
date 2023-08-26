@@ -29,7 +29,7 @@
 
   {{#if singleSite}}
     <tr>
-      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-30-horizontal-sides">
+      <td class="widget-description {{#unless @root.widgetWithButton}}-no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
         <div class="widget-wrapper">
           <div class="featured-site">
             <div class="client-info">
@@ -78,12 +78,12 @@
 
   {{#if listSites}}
     <tr>
-      <td class="sites-list-description" responsive="mobile-padding-30-horizontal-sides">
+      <td class="sites-list-description" responsive="mobile-padding-horizontal-sides">
         <p>The following clients recently launched their sites with Justia.</p>
       </td>
     </tr>
     <tr>
-      <td class="sites-list" responsive="mobile-padding-30-horizontal-sides">
+      <td class="sites-list" responsive="mobile-padding-horizontal-sides">
         {{#forEach featuredSiteMonth.sites}}
           {{#table align="" class=(concat "site-item -site-" index)}}
             <tr>

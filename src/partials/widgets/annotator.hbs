@@ -40,7 +40,7 @@
   }}
 
   <tr>
-    <td class="annotator-info" responsive="mobile-padding-30-horizontal-sides">
+    <td class="annotator-info" responsive="mobile-padding-horizontal-sides">
       {{#if annotator.featured.photoLink}}<a href="{{{annotator.featured.photoLink}}}" target="_blank">{{/if}}
         {{>img src="annotator-photo-01.jpg" alt=annotator.featured.name class="photo"}}
       {{#if annotator.featured.photoLink}}</a>{{/if}}
@@ -61,7 +61,7 @@
   // TODO: Maybe move title and description to a component.
   --}}
   <tr>
-    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-30-horizontal-sides">
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
       {{#each annotator.description}}
         <p>{{{this}}}</p>
       {{/each}}
