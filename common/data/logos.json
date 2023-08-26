@@ -66,11 +66,11 @@
     },
     "alt": "Justia Your Birthday"
   },
-  "newEmployee": {
+  "newTeamMember": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-employee-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-team-member-blue.png"
     },
-    "alt": "Justia New Employee"
+    "alt": "Justia New Team Member"
   },
   "newIntern": {
     "path": {
@@ -78,16 +78,34 @@
     },
     "alt": "Justia New Intern"
   },
-  "workAnniversary": {
+  "anniversary": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-work-anniversary-blue.png"
+      "blue": "https://justatic.com/v/20230428/branding/logos/emails/justia-anniversary-blue.png"
     },
-    "alt": "Justia Work Anniversary"
+    "alt": "Justia Anniversary"
   },
   "onboarding": {
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-onboarding-blue.png"
     },
     "alt": "Justia Onboarding"
+  },
+  "justiaAnniversary": {
+    "path": {
+      "amplify": "https://justatic.com/branding/logos/emails/justia-20-amplify-blue.png",
+      "elevate": "https://justatic.com/branding/logos/emails/justia-20-elevate-blue.png",
+      "connect": "https://justatic.com/branding/logos/emails/justia-20-connect-blue.png",
+      "justia": "https://justatic.com/branding/logos/emails/justia-20-justia-blue.png",
+      "lawyer-directory": "https://justatic.com/branding/logos/emails/justia-20-lawyer-directory-blue.png",
+      "legal-jobs": "https://justatic.com/branding/logos/emails/justia-20-legal-jobs-blue.png",
+      "marketing": "https://justatic.com/branding/logos/emails/justia-20-marketing-blue.png",
+      "webinars": "https://justatic.com/branding/logos/emails/justia-20-webinars-blue.png",
+      "summaries": "https://justatic.com/branding/logos/emails/justia-20-daily-opinion-summaries-blue.png",
+      "onward": "https://justatic.com/branding/logos/emails/justia-20-onward-blue.png",
+      "refer": "https://justatic.com/branding/logos/emails/justia-20-refer-blue.png",
+      "insights": "https://justatic.com/branding/logos/emails/justia-20-insights-blue.png",
+      "ask-a-lawyer": "https://justatic.com/branding/logos/emails/justia-20-ask-a-lawyer-blue.png"
+    },
+    "alt": "20 Anniversary - Justia [Logo Name]"
   }
 }
