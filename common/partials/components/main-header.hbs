@@ -33,6 +33,8 @@
   {{assign "headerLogoAlt" null}}
 {{/if}}
 
+{{! ================================================================================================================= }}
+
 {{assign "headerLayoutClass" (concat "-" widgetConfig.layout)}}
 {{assign "headerLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
 {{assign "headerLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
@@ -52,6 +54,34 @@
 {{/if}}
 
 {{assign "headerDate" (moment conversionConfig.releaseDate format=conversionConfig.dateFormat.string)}}
+
+{{! Extra logo ====================================================================================================== }}
+
+{{#if widgetConfig.left-logo.path}}
+  {{assign "extraheaderLogoSrc" widgetConfig.left-logo.path}}
+  {{assign "extraheaderLogoAlt" widgetConfig.left-logo.alt}}
+{{else if widgetConfig.left-logo.name}}
+  {{assign "extraheaderLogoAlt" (get (concat (camelcase widgetConfig.left-logo.name) ".alt") logos)}}
+  {{#if widgetConfig.left-logo.color}}
+    {{assign "extraheaderLogoSrc" (get (concat (camelcase widgetConfig.left-logo.name) ".path." widgetConfig.left-logo.color) logos)}}
+  {{else}}
+    {{assign "extraheaderLogoSrc" (get (concat (camelcase widgetConfig.left-logo.name) ".path.blue") logos)}}
+  {{/if}}
+{{else}}
+  {{assign "extraheaderLogoSrc" null}}
+  {{assign "extraheaderLogoAlt" null}}
+{{/if}}
+{{! ====================================================== }}
+
+{{assign "extraheaderLayoutClass" (concat "-" widgetConfig.layout)}}
+{{assign "extraheaderLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
+{{assign "extraheaderLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
+{{assign "extraheaderLogoConfig" (toObject
+  src=@root.extraheaderLogoSrc
+  alt=@root.extraheaderLogoAlt
+  link=@root.extraheaderLogoLink
+  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
+)}}
 
 {{! ================================================================================================================= }}
 
@@ -73,6 +103,19 @@
               </td>
               <td class="date" responsive="collapse-one mobile-align-center">
                 <span responsive="mobile-fz-18 mobile-align-center">{{@root.headerDate}}</span>
+              </td>
+            </tr>
+          {{/table}}
+        {{/compare}}
+
+        {{#compare widgetConfig.layout "===" "two-logos"}}
+          {{#table}}
+            <tr>
+              <td class="logo" responsive="collapse-one mobile-padding-bottom">
+                {{>main-logo widgetConfig=@root.headerLogoConfig}}
+              </td>
+              <td class="date" responsive="collapse-one mobile-align-center">
+                {{>main-logo widgetConfig=@root.extraheaderLogoConfig}}
               </td>
             </tr>
           {{/table}}

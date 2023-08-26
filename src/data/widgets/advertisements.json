@@ -1,0 +1,99 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "ad1": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p><b>The Court heard oral arguments in the following cases:</b></p>",
+            "<ul><li><a href=\"#\">Coinbase v. Bielski</a></li><li><a href=\"#\">Abitron Austria GmbH v. Hetronic International, Inc.</a></li><li><a href=\"#\">Jack Daniel's Properties v. VIP Products LLC</a></li><li><a href=\"#\">Amgen Inc. v. Sanofi</a></li><li><a href=\"#\">United States v. Hansen</a></li><li><a href=\"#\">Lora v. United States</a></li><li><a href=\"#\">Smith v. United States</a></li><li><a href=\"#\">Samia v. United States</a></li><li><a href=\"#\">Polselli v. Internal Revenue Service</a></li></ul>"
+          ]
+        }
+      ]
+    },
+    "ad2": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Win big with a <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b>. Take advantage of great benefits that will help you become the MVP:</p>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "oyez-announcement-icon.png",
+            "description": [
+              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
+              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
+              "<p><b>Advocates:</b></p>",
+              "<p>Neal Kumar Katyal, for the Petitioner</p>",
+              "<p>Hassan A. Zavareei, for the Respondent</p>",
+              "<p><a>Review the filed briefs on Justia ›</a></p>"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "oyez-announcement-icon.png",
+            "description": [
+              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
+              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
+              "<p><b>Advocates:</b></p>",
+              "<p>Neal Kumar Katyal, for the Petitioner</p>",
+              "<p>Hassan A. Zavareei, for the Respondent</p>",
+              "<p><a href=\"#\">Review the filed briefs on Justia ›</a></p>"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "mobile-fz-16",
+            "image": "oyez-announcement-icon.png",
+            "description": [
+              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
+              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
+              "<p><b>Advocates:</b></p>",
+              "<p>Neal Kumar Katyal, for the Petitioner</p>",
+              "<p>Hassan A. Zavareei, for the Respondent</p>",
+              "<p><a href=\"#\">Review the filed briefs on Justia ›</a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "ad3": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Listen to other Supreme Court oral arguments from 1955-Present at Oyez.org</p>"
+          ]
+        }
+      ]
+    },
+    "ad4": {
+      "title": "",
+      "link": "https://www.justia.com/",
+      "titleResponsiveSize": 23,
+      "image": "/take-oyez-with-you.png"
+    }
+  }
+}
