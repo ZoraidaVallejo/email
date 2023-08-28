@@ -25,28 +25,11 @@
       }
     },
     "left-logo": {
-      "name": "justia",
+      "name": "lii",
       "link": {
         "url": "https://www.justia.com/"
       },
-      "path": "lii-logo.png"
-    }
-  },
-  "ad1": {
-    "layout": "logo-only",
-    "logo": {
-      "name": "Lawyer Directory",
-      "link": {
-        "url": "https://www.justia.com/marketing/?utm_source=promo-directory-editing&utm_campaign=campaign-589-promo-253&utm_content=image-footer-logo-1",
-        "utm": {
-          "medium": "email",
-          "campaign": "",
-          "source": "",
-          "content": ""
-        }
-      },
-      "path": false,
-      "alt": false
+      "path": false
     }
   },
   "extended-banner": {

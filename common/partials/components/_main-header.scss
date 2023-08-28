@@ -29,6 +29,9 @@ $logos-dimensions: (
     ),
     'justia-anniversary': (
         'dims': 470px 55px
+    ),
+    'lii': (
+        'dims': 887px 82px
     )
 );
 
@@ -75,6 +78,13 @@ $settings: set('mail-header', (
         ),
         'insider-date': (
             'insider': 300px
+        ),
+        'extended-banner': (
+            'oyez': 540px
+        ),
+        'two-logos': (
+            'justia':  300px,
+            'lii': 300px
         )
     )
 ));
@@ -146,7 +156,6 @@ $settings: set('mail-header', (
     }
 }
 
-
 .main-header.-insider-date {
     background-color: plt('mail', 'insider-blue');
 
@@ -189,6 +198,58 @@ $settings: set('mail-header', (
     // L O G O   S I Z E S
     // -------------------
     @each $logo-name, $width in get('mail-header.logos.insider-date') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
+}
+
+.main-header.-extended-banner {
+
+    .wrapper {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    img {
+        max-width: 600px;
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.extended-banner') {
+
+        &.-#{$logo-name}-logo .logo-img {
+            width: $width;
+        }
+    }
+}
+
+.main-header.-two-logos {
+
+    .wrapper {
+        padding: 13px 50px;
+        vertical-align: middle;
+
+        > table {
+            table-layout: fixed;
+        }
+    }
+
+    .left-logo {
+        width: 40%;
+    }
+
+    .right-logo {
+        width: 60%;
+        text-align: right;
+    }
+
+    // L O G O   S I Z E S
+    // -------------------
+    @each $logo-name, $width in get('mail-header.logos.two-logos') {
 
         &.-#{$logo-name}-logo .logo-img {
             width: $width;

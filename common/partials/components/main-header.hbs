@@ -74,13 +74,13 @@
 {{! ====================================================== }}
 
 {{assign "extraheaderLayoutClass" (concat "-" widgetConfig.layout)}}
-{{assign "extraheaderLogoModifierClass" (concat "-" widgetConfig.logo.name "-logo")}}
-{{assign "extraheaderLogoLink" (concat widgetConfig.logo.link.url (utmVariables widgetConfig.logo.link.utm))}}
+{{assign "extraheaderLogoModifierClass" (concat "-" widgetConfig.left-logo.name "-logo")}}
+{{assign "extraheaderLogoLink" (concat widgetConfig.left-logo.link.url (utmVariables widgetConfig.left-logo.link.utm))}}
 {{assign "extraheaderLogoConfig" (toObject
   src=@root.extraheaderLogoSrc
   alt=@root.extraheaderLogoAlt
   link=@root.extraheaderLogoLink
-  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
+  responsive=(ternary (compare widgetConfig.layout "===" "two-logos") "mobile-align-center" "")
 )}}
 
 {{! ================================================================================================================= }}
@@ -111,10 +111,10 @@
         {{#compare widgetConfig.layout "===" "two-logos"}}
           {{#table}}
             <tr>
-              <td class="logo" responsive="collapse-one mobile-padding-bottom">
+              <td class="left-logo" responsive="collapse-one mobile-padding-bottom">
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
-              <td class="date" responsive="collapse-one mobile-align-center">
+              <td class="right-logo" responsive="collapse-one mobile-align-center">
                 {{>main-logo widgetConfig=@root.extraheaderLogoConfig}}
               </td>
             </tr>
