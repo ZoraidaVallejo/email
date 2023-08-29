@@ -14,6 +14,7 @@
         .images-group {
             // width: 292px;
             // border-bottom: 1px solid plt('mail', 'clear-gray');
+            display: block;
             background-color: #f2f4f8;
             padding: 0px;
             border-radius: 0 10px 10px 0;
@@ -22,6 +23,7 @@
             img.pro-label {
                 max-width: 36px;
                 width: 36px;
+                height: 21px;
                 display: inline;
             }
 

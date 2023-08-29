@@ -271,18 +271,6 @@ $title-gap: 30px;
     }
 }
 
-.widget-date-square {
-    display: block;
-    width: 70px;
-    padding: 11px 0;
-    border: 1px solid plt('justia-blue');
-    border-radius: 5px;
-    margin: 0 25px 0 0;
-    text-align: center;
-    background-color: plt('white');
-    color: plt('justia-blue');
-}
-
 .w-inside-justia {
 
     a b {
@@ -348,7 +336,7 @@ $title-gap: 30px;
 
     .title {
         margin: 0 0 6px;
-        @include mail-font(22px, 1.1, tp('weight', 'bold'))
+        // @include mail-font(18px, 1.5, tp('weight', 'bold'))
     }
 
     div.content {
