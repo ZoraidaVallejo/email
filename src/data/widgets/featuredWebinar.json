@@ -3,7 +3,7 @@
     "icon": "",
     "header": "Featured Webinar"
   },
-  "link": "LINK",
+  "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
   "utm": {
     "clients": {
       "medium": "email",
@@ -26,14 +26,14 @@
       }
     }
   },
-  "banner": "webinar-01.jpg",
-  "title": "Lorem Ipsum Dolor Sit Amet ",
+  "banner": "webinar-02.jpg",
+  "title": "Balancing the Scales: Practical Stress Management for Lawyers",
   "description": [
-    "Mauris eget lectus sit amet purus rutrum tempus vel sit amet tellus. Praesent et vehicula sem. Suspendisse potenti. Curabitur condimentum arcu a odio auctor, eu posuere mi vehicula."
+    "This program will benefit lawyers and judges who are negatively impacted by the stress of practicing law. Attendees will learn what sets lawyers up to be stressed and overwhelmed and will become familiarized with the well-being spectrum for self-assessment. Attendees will be educated on the hallmarks of high levels of stress in themselves and others and will be provided tools for managing stress and resources for obtaining assistance."
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "LINK",
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
     "text": "Register Now"
   }
 }
