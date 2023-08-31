@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "list",
+      "config": [
+        "<strong>More 50-State Surveys.</strong> We worked on surveys on death penalty laws for the <a href=\"https://www.justia.com/constitutional-law/\">Constitutional Law Center</a>, state income tax laws for the <a href=\"https://www.justia.com/tax/\">Tax Law Center</a>, sex offender registration rules for the <a href=\"https://www.justia.com/criminal/\">Criminal Law Center</a>, and consumer protection laws for the <a href=\"https://www.justia.com/consumer/\">Consumer Protection Law Center</a>.",
+        "<strong>Justia Legal Dictionary.</strong> We implemented a new strategy for the forthcoming Justia Legal Dictionary as we learned more about how OpenAI works.</p>",
+        "<strong>Blog Posts. </strong>We continued to contribute to our <a href=\"https://news.justia.com/\">Justia Legal News</a> blog with articles about intriguing recent cases in areas such as <a href=\"https://news.justia.com/nike-wins-trademark-appeal-involving-smartphone-app/\">trademark registration</a> and <a href=\"https://news.justia.com/author-of-the-tetris-effect-sues-apple-and-tetris-for-copyright-infringement/\">copyright infringement</a>."
+      ]
+    }
+  ]
+}

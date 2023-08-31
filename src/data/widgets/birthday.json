@@ -1,0 +1,96 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "07",
+            "name": "Jose Ramos"
+          },
+          {
+            "day": "07",
+            "name": "Priscila Martinez"
+          },
+          {
+            "day": "08",
+            "name": "Diego Cortes"
+          },
+          {
+            "day": "10",
+            "name": "Dan Vu Quoc"
+          },
+          {
+            "day": "13",
+            "name": "Edgar Cano"
+          },
+          {
+            "day": "13",
+            "name": "Daniel Monroy"
+          },
+          {
+            "day": "18",
+            "name": "Ayumi Obana"
+          },
+          {
+            "day": "19",
+            "name": "Miguel Lopez"
+          },
+          {
+            "day": "20",
+            "name": "Irvin Garcia"
+          },
+          {
+            "day": "20",
+            "name": "Hector Lugo"
+          },
+          {
+            "day": "22",
+            "name": "Ana Espinoza"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Jesus Sanchez",
+            "years": "14th"
+          },
+          {
+            "name": "Miguel Lopez",
+            "years": "8th"
+          },
+          {
+            "name": "Ana Aguilar",
+            "years": "3rd"
+          },
+          {
+            "name": "Keilah Cabrera",
+            "years": "3rd"
+          },
+          {
+            "name": "Andres Sanchez",
+            "years": "2nd"
+          },
+          {
+            "name": "Sarah Dondysh",
+            "years": "2nd"
+          },
+          {
+            "name": "Jorge Hernandez",
+            "years": "5th",
+            "class": "1st"
+          },
+          {
+            "name": "Daniel Monroy",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}

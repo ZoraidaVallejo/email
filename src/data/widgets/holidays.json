@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "type": "upcoming holidays",
+    "header": "Dates to Remember"
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "type": "image-column",
+      "image": {
+        "src": "date_01.png",
+        "alt": "U.S. Labor Day - September 4th"
+      },
+      "blockTitle": "U.S. Labor Day September 4th",
+      "description": [
+        "Celebrated on the first Monday of September in the US, it honors the contributions of the American workforce and their role in the nation's prosperity. Originating from the late 19th-century labor movement, it symbolizes advancements in work conditions and wages. The holiday marks summer's end with parades and picnics and provides a well-deserved break while highlighting workers' rights and work-life balance."
+      ]
+    },
+    {
+      "type": "image-column",
+      "image": {
+        "src": "date_02.png",
+        "alt": "Mexico’s Independence Day - September 16th"
+      },
+      "blockTitle": "Mexico’s Independence Day September 16th",
+      "description": [
+        "On September 16, 1810, Miguel Hidalgo y Costilla, known as Father Hidalgo, initiated the call for autonomy, leading to Mexico's Independence Day—a nationally revered occasion. In over two centuries, September 16 has become a widespread celebration in Mexico, commemorating Father Hidalgo's initial advocacy for independence. Worldwide, individuals of Mexican heritage unite to honor their nation's liberation from Spanish rule."
+      ]
+    }
+  ]
+}

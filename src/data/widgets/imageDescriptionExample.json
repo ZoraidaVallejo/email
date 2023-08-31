@@ -1,0 +1,36 @@
+{
+  "widget": {
+    "type": "LORdEM IPSUM",
+    "header": "Et feugiat senectus"
+  },
+  "imageTop": "banner-example-01.png",
+  "imageBottom": "banner-example-01.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio.Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+      ]
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "side-image-example-01.png",
+        "blockTitle": "USA Independence Day<br>July 4th",
+        "description": [
+          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        ]
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "side-image-example-01.png",
+        "blockTitle": "USA Independence Day<br>July 4th",
+        "description": [
+          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        ]
+      }
+    }
+  ]
+}

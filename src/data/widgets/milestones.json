@@ -1,0 +1,73 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Marketing Blasts.",
+        "description": " We continue streamlining our email marketing processes for everyone's benefit. We've introduced a performance report for campaigns, offering valuable insights. Also, we're now sending a weekly digest version of our Justia Webinar recording blasts."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Elevate.",
+        "description": " We continue improving Justia Elevate with regular updates and features, including version upgrades for WordPress and the Yoast SEO plugin, support for YouTube shorts, and titles for FAQ stripes, among other improvements."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Elevate.",
+        "description": " We added the Full-Text Search to our client's websites and new versions for Header, Footer, and Contact Form Stripes to display the Search form to improve our Justia Elevate platform. We also added new versions for the Quarter goals for the Basic Stripe with credit card payment options and a different look and feel for the Client Reviews Stripe."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-04.png",
+        "title": "QA Automation.",
+        "description": " We've made significant enhancements to our Automated QA workflow. This includes automating the release notes protocol and restructuring the backend code for quicker development, ensuring smoother processes and faster deliverables."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-05.png",
+        "title": "IT Team.",
+        "description": " While our IT Team is deeply engaged in a complex backend migration for our Jweb clients, they also actively manage routine infrastructure maintenance. This includes maintenance for properties such as JLD, client blogs, Justia Elevate, Justia Dockets, and more."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-06.png",
+        "title": "Data Team.",
+        "description": " Our Data Team compiled a report on the performance of both the Justia Ask A Lawyer sidebar widget and the Justia Ask A Lawyer sticky footer, providing insights valuable to both technical and non-technical teams."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-07.png",
+        "title": "Regulations.",
+        "description": " Following our regular schedule, we have now published the quarterly version of all U.S. state regulations."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-08.png",
+        "title": "YouTube Link.",
+        "description": " We've updated most of our web properties to include a link to our YouTube channel in the footer section alongside other social media links. Like and subscribe!"
+      }
+    }
+  ]
+}
