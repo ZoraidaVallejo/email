@@ -20,11 +20,11 @@
 
     .title {
         padding: 34px $padding 6px;
-        text-transform: capitalize;
+        // text-transform: capitalize;
         color: plt('white');
         // background-color: #00b3e3;
 
-        a {
+        div {
             @include mail-font(36px, 1, 700);
             color: plt('white');
         }
@@ -189,10 +189,10 @@
             color: plt('justia-blue');
             text-align: center;
 
-            a {
+            div {
                 @include mail-font(28px, 1.25, 700);
                 display: block;
-                padding: 0 0 30px;
+                padding: 0 0 15px;
                 color: plt('justia-blue');
                 //title decoration with bg image
                 background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
