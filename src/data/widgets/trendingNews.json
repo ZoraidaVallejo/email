@@ -4,7 +4,7 @@
     "header": "Trending News"
   },
   "banner": "trending-news.jpg",
-  "imageLink": "LINK",
+  "imageLink": "#",
   "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
   "columns": [
     {
@@ -12,22 +12,22 @@
       "news": [
         {
           "title": "A Jargon-Free Explanation of How AI Large Language Models Work",
-          "via": "via NYT",
+          "via": "Via Ars Technica",
           "link": "https://arstechnica.com/science/2023/07/a-jargon-free-explanation-of-how-ai-large-language-models-work/"
         },
         {
           "title": "Major AI Companies Form Group to Research, Keep Control of AI",
-          "via": "via NYT",
+          "via": "Via Ars Technica",
           "link": "https://arstechnica.com/ai/2023/07/major-ai-companies-form-group-to-research-keep-control-of-ai/"
         },
         {
           "title": "Double Acquisition Highlights How Legal Industry Is Slowly Embracing AI ",
-          "via": "via NYT",
+          "via": "Via Wall Street Journal",
           "link": "https://www.wsj.com/articles/double-acquisition-highlights-how-legal-industry-is-slowly-embracing-ai-4a1e042c"
         },
         {
           "title": "10X Coders Beware: Meta’s New AI Model Boosts Coding and Debugging for Free",
-          "via": "via NYT",
+          "via": "Via Ars Technica",
           "link": "https://arstechnica.com/information-technology/2023/08/meta-introduces-code-llama-an-ai-tool-aimed-at-faster-coding-and-debugging/"
         }
       ]
@@ -37,22 +37,22 @@
       "news": [
         {
           "title": "Google Business Profile: New Guidelines and Policies",
-          "via": "via NYT",
+          "via": "Via BrightLocal",
           "link": "https://www.brightlocal.com/blog/google-business-profile-new-guidelines-and-policies/"
         },
         {
           "title": "Google: Don't Delete Older Content, It May Be Helpful Content",
-          "via": "via NYT",
+          "via": "Via Search Engine Roundtable ",
           "link": "https://www.seroundtable.com/google-dont-delete-older-helpful-content-35846.html"
         },
         {
           "title": "Google: Don’t Worry About SEO Tool Scores ",
-          "via": "via NYT",
+          "via": "Via Search Engine Land",
           "link": "https://searchengineland.com/google-search-seo-tools-scores-430771"
         },
         {
           "title": "Google on Ranking Updates: Focus on Big Picture, Not Individual Signals",
-          "via": "via NYT",
+          "via": "Via Search Engine Land ",
           "link": "https://searchengineland.com/google-ranking-updates-big-picture-431035"
         }
       ]
@@ -62,22 +62,22 @@
       "news": [
         {
           "title": "Twitter Has Officially Changed Its Logo to ‘X’",
-          "via": "via NYT",
+          "via": "Via TechCrunch ",
           "link": "https://techcrunch.com/2023/07/24/twitter-has-officially-changed-its-logo-to-x/"
         },
         {
           "title": "YouTube Creators Can Now Include More External Links on Their Channels",
-          "via": "via NYT",
+          "via": "Via Search Engine Land ",
           "link": "https://searchengineland.com/youtube-creators-can-now-include-more-external-links-on-their-channels-430635"
         },
         {
           "title": "Social Media Image Size Guide for All Platforms in 2023",
-          "via": "via NYT",
+          "via": "Via Search Engine Journal",
           "link": "https://www.searchenginejournal.com/social-media-image-sizes/"
         },
         {
           "title": "Court Doesn’t Expect YouTube to Moderate Content Perfectly–Newman v. Google",
-          "via": "via NYT",
+          "via": "Via Technology & Marketing Law Blog ",
           "link": "https://blog.ericgoldman.org/archives/2023/08/court-doesnt-expect-youtube-to-moderate-content-perfectly-newman-v-google.htm"
         }
       ]
@@ -87,22 +87,22 @@
       "news": [
         {
           "title": "Come On Barbie, Let's Go Litigate!",
-          "via": "via NYT",
+          "via": "Via Above the Law",
           "link": "https://abovethelaw.com/2023/07/come-on-barbie-lets-go-litigate/"
         },
         {
           "title": "Diane Humetewa: First Female Native American Federal Judge",
-          "via": "via NYT",
+          "via": "Via U.S. Courts",
           "link": "https://www.uscourts.gov/news/2023/07/27/diane-humetewa-first-female-native-american-federal-judge"
         },
         {
           "title": "Why We Should Care About Pseudonymity in Litigation",
-          "via": "via NYT",
+          "via": "Via Reason",
           "link": "https://reason.com/volokh/2023/08/23/why-we-should-care-about-pseudonymity-in-litigation/"
         },
         {
           "title": "3M Says It Will Pay $6 Billion to Resolve Combat Earplug Lawsuits",
-          "via": "via NYT",
+          "via": "Via The New York Times",
           "link": "https://www.nytimes.com/2023/08/29/business/3m-earplug-litigation.html"
         }
       ]
