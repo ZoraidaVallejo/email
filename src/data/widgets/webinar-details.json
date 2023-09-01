@@ -98,5 +98,28 @@
     "note": [
       "<strong>Please note:</strong> This presentation is accredited for <strong>one hour of General MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
     ]
+  },
+  "reminder-event-tomorrow": {
+    "banner": "",
+    "details": {
+      "date": "September 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Want to better understand the intricate world of federal statutes, regulations, and their place in the public domain? Tomorrow, we are hosting an exclusive webinar unraveling some of the complexities surrounding statutes and regulations, legal research platforms, copyright, and the future of AI-Powered legal tools. ",
+      "You are invited to join Justia Webinars and Cornell Law School Legal Information Institute Co-Directors <a href=\"https://connect.justia.com/webinars/presenter/craig-newton\">Craig Newton</a> and <a href=\"https://connect.justia.com/webinars/presenter/sara-frug\">Sara Frug</a> for <a href=\"https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law\">How Laws Get Online: Challenges in Free Law</a>, beginning promptly at 2:00 p.m. ET/11:00 a.m. PT tomorrow."
+    ],
+    "bottomline": [
+      "<strong>Sign up for this insightful program before time runs out!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
+      "text": "Sign Up Now",
+      "width": 250
+    },
+    "note": [
+      "<strong>Please note:</strong> This presentation is accredited for <strong>one hour of General MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
   }
 }
