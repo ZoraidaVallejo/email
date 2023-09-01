@@ -6,7 +6,9 @@
 // TODO: Add anotations.
 }}
 
-{{#table class="widget w-new-people set-max-width"}}
+{{assign "adClasses" (classList "widget" "w-new-people" widgetClass "set-max-width")}}
+
+{{#table class=(classList "widget" "w-new-people" widgetClass "set-max-width")}}
   {{>widget-header
     header=newPeople.widget.header
     type=newPeople.widget.type
