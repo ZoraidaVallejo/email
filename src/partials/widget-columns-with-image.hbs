@@ -22,12 +22,12 @@
 
             {{#if this.image}}
               {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
-                {{#if this.image.alt}}{{>img src=this.image.src alt=this.image.alt class="block-image"}}
-                {{else}}{{>img src=this.image.src alt=this.image.src class="block-image"}}{{/if}}
+                {{#if this.image.alt}}{{>img src=this.image.src alt=this.image.alt class="block-image" responsive="mobile-align-center"}}
+                {{else}}{{>img src=this.image.src alt=this.image.src class="block-image" responsive="mobile-align-center"}}{{/if}}
               {{#if readMore}}</a>{{/if}}
 
               {{#if this.blockTitle}}
-                <h3 class="block-title" responsive="mobile-align-center">
+                <h3 class="block-title" responsive="mobile-align-center mobile-padding-top">
                   {{#if readMore}}<a href="{{{readMore}}}" target="_blank" class="block-image-link">{{/if}}
                     {{{this.blockTitle}}}
                   {{#if readMore}}</a>{{/if}}
@@ -35,7 +35,7 @@
               {{/if}}
 
               {{#if this.blockSubtitle}}
-                <p class="block-subtitle">{{{this.blockSubtitle}}}</p>
+                <p class="block-subtitle" responsive="mobile-align-center">{{{this.blockSubtitle}}}</p>
               {{/if}}
 
               {{#each this.description}}
