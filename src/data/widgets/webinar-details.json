@@ -39,5 +39,28 @@
     "message3": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
     ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "September 20, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "If you find yourself negatively impacted by the stress of being a legal professional, this is a can't-miss presentation!",
+      "<a href=\"https://connect.justia.com/webinars/presenter/lynn-garson\">Lynn Garson</a>, attorney, mental health advocate, and author, will lead our next free presentation, <a href=\"https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers\">Balancing the Scales, Practical Stress Management for Lawyers</a>, on Wednesday, September 2023 at 2:00 p.m. ET/11:00 a.m. PT."
+    ],
+    "bottomline": [
+      "<strong>Claim Your Seat for This Popular Program Now!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+      "text": "Claim My Free Seat",
+      "width": 250
+    },
+    "message3": [
+      "<strong>Please note:</strong> This presentation is accredited for <strong>one hour of Competence Issues MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
   }
 }
