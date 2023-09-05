@@ -162,8 +162,13 @@
     "details": {},
     "message": [
       "Thank you for joining us for our recent Justia Webinars presentation, <strong>How Laws Get Online: Challenges in Free Law</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative. ",
-      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience.",
-      "<span class=\"align-center display-b\">Share My Feedback</span>"
-    ]
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
