@@ -24,23 +24,15 @@
       "titleResponsiveSize": 23,
       "contentOrder": [
         {
-          "type": "description",
-          "config": [
-            "<p>Win big with a <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b>. Take advantage of great benefits that will help you become the MVP:</p>"
-          ]
-        },
-        {
           "type": "image-description",
           "config": {
             "responsive": "mobile-fz-16",
             "image": "oyez-announcement-icon.png",
             "description": [
-              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
-              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
-              "<p><b>Advocates:</b></p>",
-              "<p>Neal Kumar Katyal, for the Petitioner</p>",
-              "<p>Hassan A. Zavareei, for the Respondent</p>",
-              "<p><a>Review the filed briefs on Justia ›</a></p>"
+              "<div class=\"-title\"><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</div>",
+              "<div class=\"-text\"><p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p></div>",
+              "<div class=\"-list\"><p><b>Advocates:</b></p><p>Neal Kumar Katyal, for the Petitioner</p><p>Hassan A. Zavareei, for the Respondent</p></div>",
+              "<div class=\"-link\"><p><a>Review the filed briefs on Justia ›</a></p></div>"
             ]
           }
         },
@@ -50,12 +42,10 @@
             "responsive": "mobile-fz-16",
             "image": "oyez-announcement-icon.png",
             "description": [
-              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
-              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
-              "<p><b>Advocates:</b></p>",
-              "<p>Neal Kumar Katyal, for the Petitioner</p>",
-              "<p>Hassan A. Zavareei, for the Respondent</p>",
-              "<p><a href=\"#\">Review the filed briefs on Justia ›</a></p>"
+              "<div class=\"-title\"><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</div>",
+              "<div class=\"-text\"><p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p></div>",
+              "<div class=\"-list\"><p><b>Advocates:</b></p><p>Neal Kumar Katyal, for the Petitioner</p><p>Hassan A. Zavareei, for the Respondent</p></div>",
+              "<div class=\"-link\"><p><a>Review the filed briefs on Justia ›</a></p></div>"
             ]
           }
         },
@@ -65,12 +55,10 @@
             "responsive": "mobile-fz-16",
             "image": "oyez-announcement-icon.png",
             "description": [
-              "<p><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</p>",
-              "<p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p>",
-              "<p><b>Advocates:</b></p>",
-              "<p>Neal Kumar Katyal, for the Petitioner</p>",
-              "<p>Hassan A. Zavareei, for the Respondent</p>",
-              "<p><a href=\"#\">Review the filed briefs on Justia ›</a></p>"
+              "<div class=\"-title\"><a href=\"#\">Coinbase v. Bielski</a> (Argued 03/21/2023)</div>",
+              "<div class=\"-text\"><p>Does a non-frivolous appeal of the denial of a motion to compel arbitration oust a district court’s jurisdiction to proceed with litigation pending appeal?</p></div>",
+              "<div class=\"-list\"><p><b>Advocates:</b></p><p>Neal Kumar Katyal, for the Petitioner</p><p>Hassan A. Zavareei, for the Respondent</p></div>",
+              "<div class=\"-link\"><p><a>Review the filed briefs on Justia ›</a></p></div>"
             ]
           }
         }

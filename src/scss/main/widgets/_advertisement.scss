@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-   
+
     td {
         text-align: center;
     }
@@ -44,8 +44,9 @@
         // border: 2px solid #e6e6e6;
         padding: 0 45px 25px;
 
-        strong a {
+        a {
             color: plt('justia-blue');
+            font-weight: 700;
         }
 
         // b {
@@ -118,15 +119,44 @@
                 // padding: 0 50px;
                 max-width: 500px;
                 // margin: 0 auto;
-                @include mail-font(18px);
             }
         }
 
         &.-image-description {
-            padding: 0 45px 0;
+            padding: 0 45px 0 !important;
+
+            .-image {
+                margin: 2px 0 0;
+            }
+
+            .-title {
+                font-size: rem-calc(18px);
+                padding: 0 0 8px;
+            }
+
+            .-text, .-list {
+                padding: 0 0 24px;
+            }
+
+            .-list {
+                line-height: 1.5;
+                p {
+                    margin: 0 0 9px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
 
             p {
-                @include mail-font(18px);
+                @include mail-font(16px);
+            }
+
+            &.-first {
+                margin-top: 50px;
+            }
+            &.-last {
+                margin-bottom: 50px;
             }
         }
 
@@ -138,23 +168,21 @@
 
         &.-last {
             padding: 0 50px 50px;
-
-            // p {
-            //     @include mail-font(14px);
-            // }
-
-            // a {
-            //     color: plt('justia-blue');
-
-            //     span {
-            //         color: plt('justia-blue');
-            //     }
-            // }
         }
 
         a b {
             color: plt('black')!important;
             display: inline-block;
+        }
+
+        ul {
+            padding-inline-start: 25px;
+        }
+    }
+
+    &.-simple {
+        .-first.-last {
+            padding-top: 50px;
         }
     }
 }
