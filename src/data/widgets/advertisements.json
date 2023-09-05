@@ -1,0 +1,90 @@
+{
+  "register-btn": {
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+    "image": "19-webinar-registration.png"
+  },
+  "registered": {
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+    "image": "19-webinar-registered.png"
+  },
+  "survey": {
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+    "image": "webinar-survey.png",
+    "title": "Your Opinion Matters to Us."
+  },
+  "recording": {
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+    "image": "19-webinar-recording-available.png"
+  },
+  "missed-webinar": {
+    "ad1": {
+      "background": {
+        "width": 600,
+        "bgColor": "#f4f4f4",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://connect.justia.com/webinars/",
+      "titleResponsiveSize": 23,
+      "bannerimg": "#"
+    },
+    "ad2": {
+      "link": "#",
+      "image": "#",
+      "t-webinar": "Supreme Court 2022-23 Term in Review",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            ""
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 146,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    },
+    "ad3": {
+      "link": "#",
+      "image": "#",
+      "t-webinar": "#",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "###"
+          ]
+        },
+        {
+          "type": "button",
+          "config": {
+            "style": "red",
+            "text": "Watch Now",
+            "width": 146,
+            "height": 40,
+            "borderColor": "",
+            "backgroundColor": "",
+            "fontColor": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "fontSize": 16,
+            "responsive": ""
+          }
+        }
+      ]
+    }
+  }
+}
