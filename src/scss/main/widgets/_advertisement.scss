@@ -49,6 +49,14 @@
             font-weight: 700;
         }
 
+        ul {
+            color: plt('justia-blue');
+            li {
+                margin-bottom: 5px;
+                font-size: rem-calc(16px);
+            }
+        }
+
         // b {
         //     color: plt('red');
         // }
@@ -183,6 +191,13 @@
     &.-simple {
         .-first.-last {
             padding-top: 50px;
+        }
+    }
+
+    &.-jld-ad-03 {
+        p {
+            @include mail-font(18px);
+            line-height: 2;
         }
     }
 }
