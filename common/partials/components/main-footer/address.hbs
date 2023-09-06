@@ -14,31 +14,31 @@
 
 <p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.unsubscribeOne}}
-    <a class="justia-inline -unsubscribeOne" href="{{widgetConfig.unsubscribeOne.linkuOne}}" target="_blank">
+    <a class="justia-inline -unsubscribeone" href="{{widgetConfig.unsubscribeOne.linkuOne}}" target="_blank">
       {{#if widgetConfig.unsubscribeOne.textuOne}}
-        <span id="ios-links-black">{{{widgetConfig.unsubscribeOne.textuOne}}}</span>
+        <span>{{{widgetConfig.unsubscribeOne.textuOne}}}</span>
       {{/if}}
     </a>
   {{/if}}
 </p>
-<p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
+<p class="-address" {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.justiaLink}}
     <a class="justia-inline" href="{{widgetConfig.justiaLink}}" target="_blank">
       {{#if widgetConfig.web}}
-        <span id="ios-links-black">{{{widgetConfig.web}}}</span>
+        <span>{{{widgetConfig.web}}}</span>
       {{/if}}
-    </a> | <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
+    </a> | <span>{{{widgetConfig.direction}}}</span>
   {{/if}}
   {{#if widgetConfig.tel}}
     {{>pipe widgetResponsive=false}}
-    <span id="ios-links-black">Tel: {{{widgetConfig.tel}}}</span>
+    <span>Tel: {{{widgetConfig.tel}}}</span>
   {{/if}}
 </p>
 <p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.unsubscribeAll}}
-    <a class="justia-inline -unsubscribeAll" href="{{widgetConfig.unsubscribeAll.linkuAll}}" target="_blank">
+    <a class="justia-inline -unsubscribeall" href="{{widgetConfig.unsubscribeAll.linkuAll}}" target="_blank">
       {{#if widgetConfig.unsubscribeAll.textuAll}}
-        <span id="ios-links-black">{{{widgetConfig.unsubscribeAll.textuAll}}}</span>
+        <span>{{{widgetConfig.unsubscribeAll.textuAll}}}</span>
       {{/if}}
     </a>
   {{/if}}

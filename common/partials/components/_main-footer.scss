@@ -13,7 +13,7 @@ $settings: set('footer-styles', (
             'border-bottom': plt('justia-blue')
         ),
         'address': (
-            'font-weight': 700
+            'font-weight': 400
         ),
         'nav': (
             'color': plt('white')
@@ -146,6 +146,33 @@ $settings: set('mail-footer', (
         vertical-align: top;
     }
 
+    .-unsubscribeone {
+
+        span {
+            color: plt('justia-blue') !important;
+            font-size: rem-calc(12px) !important;
+        }
+    }
+
+    .-address {
+
+        a span {
+            color: plt('justia-blue') !important;
+        }
+
+        span {
+            font-size: rem-calc(16px) !important;
+        }
+    }
+
+    .-unsubscribeall {
+
+        span {
+            color: #777777 !important;
+            font-size: rem-calc(12px) !important;
+        }
+    }
+
     &.-insider-style {
 
         .footer-head {
@@ -154,7 +181,7 @@ $settings: set('mail-footer', (
 
         img {
             margin: 0 auto;
-        }       
+        }
     }
 
     // F O O T E R   S T Y L E S
