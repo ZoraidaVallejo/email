@@ -27,8 +27,8 @@ $logos-dimensions: (
     'justia-ver2': (
         'dims': 300px 90px
     ),
-    'anniversaryJld': (
-        'dims': 470px 31px
+    'justia-anniversary': (
+        'dims': 470px 55px
     )
 );
 
@@ -58,11 +58,11 @@ $settings: set('mail-header', (
             'marketing': 297px,
             'insider': 300px,
             'your-birthday': 380px,
-            'new-employee': 395px,
+            'new-team-member': 450px,
             'new-intern': 340px,
-            'work-anniversary': 440px,
+            'anniversary': 346px,
             'onboarding': 350px,
-            'anniversaryJld': 470px
+            'justia-anniversary': 470px
         ),
         'with-date': (
             'justia': 135px,
@@ -70,7 +70,8 @@ $settings: set('mail-header', (
             'lawyer-profile-essentials': 270px,
             'legal-jobs': 277px,
             'lawyer-directory': 300px,
-            'marketing': 297px
+            'marketing': 297px,
+            'justia-anniversary': 270px
         ),
         'insider-date': (
             'insider': 300px

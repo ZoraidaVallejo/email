@@ -40,7 +40,8 @@ module.exports = {
             default: serialize(linterTasks, `${projectPath()} grunt build`),
             examples: serialize(
                 `${projectPath('examples/newsletter')} grunt build`,
-                `${projectPath('examples/legal-jobs')} grunt build`
+                `${projectPath('examples/legal-jobs')} grunt build`,
+                `${projectPath('examples/internal-events')} grunt build`
             ),
             preview: `${projectPath()} grunt buildPreview`,
 
@@ -48,7 +49,8 @@ module.exports = {
                 default: `${projectPath()} grunt devel`,
                 examples: serialize(
                     `${projectPath('examples/newsletter')} grunt devel`,
-                    `${projectPath('examples/legal-jobs')} grunt devel`
+                    `${projectPath('examples/legal-jobs')} grunt devel`,
+                    `${projectPath('examples/internal-events')} grunt devel`
                 )
             }
         },
