@@ -42,13 +42,15 @@
   src=@root.headerLogoSrc
   alt=@root.headerLogoAlt
   link=@root.headerLogoLink
-  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "")
+  responsive=(ternary (compare widgetConfig.layout "===" "with-date") "mobile-align-center" "mobile-align-center")
 )}}
 
 {{#if (compare widgetConfig.layout "===" "with-date")}}
   {{assign "headerWrapperResponsive" "mobile-padding-20-vertical-sides"}}
 {{else if (compare widgetConfig.layout "===" "insider-date")}}
   {{assign "headerWrapperResponsive" "mobile-padding-20-top mobile-no-padding-horizontal-sides"}}
+{{else if (compare widgetConfig.layout "===" "two-logos")}}
+  {{assign "headerWrapperResponsive" "mobile-padding-20-vertical-sides"}}
 {{else}}
   {{assign "headerWrapperResponsive" ""}}
 {{/if}}
@@ -80,7 +82,7 @@
   src=@root.extraheaderLogoSrc
   alt=@root.extraheaderLogoAlt
   link=@root.extraheaderLogoLink
-  responsive=(ternary (compare widgetConfig.layout "===" "two-logos") "mobile-align-center" "")
+  responsive=(ternary (compare widgetConfig.layout "===" "two-logos") "mobile-align-center" "mobile-align-center")
 )}}
 
 {{! ================================================================================================================= }}
@@ -111,10 +113,10 @@
         {{#compare widgetConfig.layout "===" "two-logos"}}
           {{#table}}
             <tr>
-              <td class="left-logo" responsive="collapse-one mobile-padding-bottom">
+              <td class="left-logo" responsive="collapse-one mobile-align-center mobile-padding-bottom">
                 {{>main-logo widgetConfig=@root.headerLogoConfig}}
               </td>
-              <td class="right-logo" responsive="collapse-one mobile-align-center">
+              <td class="right-logo" responsive="collapse-one mobile-align-center mobile-padding-top">
                 {{>main-logo widgetConfig=@root.extraheaderLogoConfig}}
               </td>
             </tr>
