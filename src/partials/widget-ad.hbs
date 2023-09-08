@@ -95,7 +95,7 @@
             <div>
             {{#forIn this.config}}
               {{#compare @key "===" "image"}}
-                <div class="content-side -image">
+                <div class="content-side -image" responsive="mobile-padding-right mobile-padding-bottom">
                   <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
                     {{>img
                       src=../config.image
