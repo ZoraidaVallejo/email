@@ -16,75 +16,8 @@
     "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
     "image": "17-webinar-recording-available.png"
   },
-  "missed-webinar": {
-    "ad1": {
-      "background": {
-        "width": 600,
-        "bgColor": "#f4f4f4",
-        "cssSize": "600px 350px"
-      },
-      "title": "",
-      "link": "https://connect.justia.com/webinars/",
-      "titleResponsiveSize": 23,
-      "bannerimg": "17-webinar-recording.png"
-    },
-    "ad2": {
-      "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
-      "image": "16-webinar-watch-now.png",
-      "t-webinar": "Great Life, Great Practice: Four Cornerstones of Law Firm Success",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "Law school doesn’t teach law firm owners the critical business skills necessary to thrive and grow in a solo or small law firm setting. Kimberly T. Lee, attorney and founder of the Desert Law Group, leads attendees in an exploration of this skill set in an invaluable opportunity for small firm owners."
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Watch Now",
-            "width": 146,
-            "height": 40,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
-          }
-        }
-      ]
-    },
-    "ad3": {
-      "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
-      "image": "17-webinar-recording-available.png",
-      "t-webinar": "PPC Advertising in the Legal Industry: Challenges and Opportunities",
-      "contentOrder": [
-        {
-          "type": "description",
-          "config": [
-            "PPC advertising is an ever-changing landscape that can be challenging to keep up with - especially for busy lawyers! Justia is here to help. Join members of the Justia Amplify Team as they unpack the challenges of Google Ads for law firms and explore opportunities and strategies to improve your ads for better results."
-          ]
-        },
-        {
-          "type": "button",
-          "config": {
-            "style": "red",
-            "text": "Watch Now",
-            "width": 146,
-            "height": 40,
-            "borderColor": "",
-            "backgroundColor": "",
-            "fontColor": "",
-            "fontStyle": "",
-            "fontWeight": "",
-            "fontSize": 16,
-            "responsive": ""
-          }
-        }
-      ]
-    }
+  "combined": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "17-webinar-recording.png"
   }
 }
