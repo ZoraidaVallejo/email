@@ -1,0 +1,125 @@
+{
+  "banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "19-webinar-recording.png"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/",
+    "image": "19-webinar-recording-available.png",
+    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-2": {
+    "link": "https://connect.justia.com/webinars/",
+    "image": "19-webinar-recording-available.png",
+    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "onDemand": {
+    "widget": {
+      "header": "Additional On-Demand List"
+    },
+    "titleResponsiveSize": 22,
+    "link": "https://connect.justia.com/webinars",
+    "contentOrder": [
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      }
+    ]
+  }
+}
