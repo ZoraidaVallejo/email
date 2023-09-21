@@ -1,0 +1,39 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "trustate-logo.png",
+        "alt": "Trustate",
+        "title": "Trustate",
+        "border": true,
+        "description": [
+          "Are you an estate planning or trust attorney? Take advantage of Trustate, an end-to-end estate operations platform using data and task automation to help lawyers like you quickly, efficiently, and accurately manage their estate case workload. "
+        ],
+        "imageLink": "https://connect.justia.com/legal-deals/trustate/200-off",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/trustate/200-off/?utm_medium=email&utm_campaign=2023-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "meal-icon.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "From meal delivery services to top local restaurants, Justia Deals can help you save! Explore offers and discounts available for your area today."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/category/Food_and_Dining?utm_medium=email&utm_campaign=2023-09&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

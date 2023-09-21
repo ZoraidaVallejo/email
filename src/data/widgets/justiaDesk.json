@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "6 Factors Influencing Your Law Firm Website Conversion Rates",
+      "link": "https://onward.justia.com/6-factors-influencing-your-law-firm-website-conversion-rates/",
+      "description": "You worked hard, and your SEO strategy is doing its job. People are visiting your law firm's website, but what if that traffic isn’t translating into more clients? Here are six factors that will...",
+      "index": "1"
+    },
+    {
+      "title": "Justia Legal Guides: Insurance Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-insurance-law-center/",
+      "description": "As a driver, a homeowner, or a patient, a consumer may want to get various forms of insurance. Unfortunately, this industry can be as confusing as it is critical. The Insurance Law Center at Justia aims to shed some light on its rules.",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

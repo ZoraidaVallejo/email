@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "Update Your Lawyer Directory Profile to Get More From Your Membership",
+    "link": "/",
+    "description": [
+      "You currently enjoyed increased visibility on the Justia Platform, courtesy of your Justia Connect Pro Membership. To get the most from this benefit, it is important to ensure your Justia Profile in the Justia Lawyer Directory is updated and as complete so you make a strong first impression on your potential clients!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "/",
+      "text": "Update Profile",
+      "width": 180,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
