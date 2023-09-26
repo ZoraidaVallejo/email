@@ -4,14 +4,14 @@
     "bannerimg": "19-webinar-recording.png"
   },
   "webinar-1": {
-    "link": "https://connect.justia.com/webinars/",
-    "image": "19-webinar-recording-available.png",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
+    "image": "18-webinar-recording-available.png",
+    "t-webinar": "How Laws Get Online: Challenges in Free Law",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Stream this webinar in which Cornell Law School Legal Information Institute Co-Directors Sara Frug and Craig Newton explore the nuances of codification and how challenges in the process impact the free law movement. Plus, earn one hour of California General MCLE credit for attending!"
         ]
       },
       {
@@ -27,14 +27,14 @@
     ]
   },
   "webinar-2": {
-    "link": "https://connect.justia.com/webinars/",
+    "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
     "image": "19-webinar-recording-available.png",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "t-webinar": "Balancing the Scales: Practical Stress Management for Lawyers",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Watch this on-demand program led by attorney, author, and mental health advocate Lynn Garson, designed to help lawyers identify stress triggers, recognize the hallmarks of stress in themselves and others, apply practical skills for stress management, and more! Attendees who complete this course are eligible for one hour of California Competence Issues MCLE credit."
         ]
       },
       {
@@ -59,8 +59,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "PPC Advertising in the Legal Industry: Challenges and Opportunities",
+          "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -75,8 +75,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Great Life, Great Practice: Four Cornerstones of Law Firm Success",
+          "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -91,8 +91,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Practice Law With AI (Without Losing Your Law License)",
+          "link": "https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -107,8 +107,24 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Supreme Court 2022-23 Term in Review",
+          "link": "hhttps://connect.justia.com/webinars/supreme-court-2022-23-term-in-review",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Requests and Forms as Modern as the Evidence You Seek",
+          "link": "https://connect.justia.com/webinars/requests-and-forms-as-modern-as-the-evidence-you-seek",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
