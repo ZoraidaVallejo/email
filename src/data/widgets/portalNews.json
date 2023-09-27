@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "list",
+      "config": [
+        "<strong>50-State Surveys.</strong> We worked on surveys on sex offender registration rules for the <a href=\"https://www.justia.com/criminal/\">Criminal Law Center</a> and consumer protection laws for the <a href=\"https://www.justia.com/consumer/\">Consumer Protection Law Center</a>.",
+        "<strong>Justia Legal Dictionary. </strong>We continued testing prompts for generating AI definitions of legal terms from various sources.",
+        "<strong>Justia Mexico Portal:</strong> <br><ul><li>We included new pages for the <a href=\"https://mexico.justia.com/derecho-penal \">Criminal Law Center</a> on the Justia Mexico Portal. These pages cover topics on Medical Malpractice, Fraud, Human Trafficking, Abuse of Trust, and Interception of Private Communications. Each topic includes an Overview and a FAQ section and each section contains cross links to other Justia Mexico Portal content and external links to relevant laws, codes, and government sites.</li><li>Our team has updated the <a href=\"https://mexico.justia.com federales/codigos/codigo-de-comercio/\">Commercial Code</a>center, one of the most searched laws on our Portal.</li><li>We updated topics on the <a href=\"https://mexico.justia.com/derecho-de-familia pension-alimenticia/\">Alimony</a> and <a href=\"https://mexico justia.com/derecho-de-familia registro-de-deudores-alimentarios-morosos-y-registro-nacional-de-ob igaciones-alimentarias/\">National Registry of Alimony Obligations</a> centers. This content has been cited as a source of consultation by the media and the Mexican Congress.</li></ul>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "Lazy Mindy and Tiger"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets_01.png",
+        "description": [
+          "<i>Mindy and Tiger are two rescued cats. They love to spend the afternoon sleeping in weird positions, especially during the hot weather.</i>",
+          "<i>— Valeria Dimas</i>"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Somebody Somewhere"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "review-01.png",
+        "where": "Available on <a href=\"https://play.hbomax.com/page/urn:hbo:page:GYZ1SZwrtOrZElQEAAAAb:type:series?source=googleHBOMAX&action=open\" target=\"_blank\"><b>HBO MAX</b></a>",
+        "description": [
+          "<i>\"Somebody Somewhere might not boast intricate intrigues, shocking unveilings, or gripping cliffhangers, yet it exudes a comforting sensitivity and profound compassion. The series reminds us that even if we don't quite align with the world around us, there will always be someone, somewhere, who helps us find our sense of belonging in their realm.\"</i>",
+          "<i>— Erika</i>"
+        ]
+      }
+    }
+  ]
+}

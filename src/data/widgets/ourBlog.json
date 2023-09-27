@@ -1,0 +1,49 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
+  },
+  "description": {
+    "top": [
+      ""
+    ],
+    "bottom": [
+      ""
+    ]
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Justia Legal Guides: Small Business Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-small-business-center/",
+      "blockTitle": "Justia Legal Guides: Small Business Center"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Justia Lawyer Directory by the Numbers: Second Quarter 2023"
+      },
+      "readMore": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-second-quarter-2023/",
+      "blockTitle": "Justia Lawyer Directory by the Numbers: Second Quarter 2023"
+    },
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Boost Your Law Firm’s Online Presence With the Power of Image Optimization"
+      },
+      "readMore": "https://onward.justia.com/boost-your-law-firms-online-presence-with-the-power-of-image-optimization/",
+      "blockTitle": "Boost Your Law Firm’s Online Presence With the Power of Image Optimization"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Google’s August 2023 Broad Core Algorithm Update is Rolling Out!"
+      },
+      "readMore": "https://onward.justia.com/googles-august-2023-broad-core-algorithm-update-is-rolling-out/",
+      "blockTitle": "Google’s August 2023 Broad Core Algorithm Update is Rolling Out!"
+    }
+  ]
+}
