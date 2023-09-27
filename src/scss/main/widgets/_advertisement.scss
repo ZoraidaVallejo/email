@@ -192,7 +192,7 @@
             color: plt('justia-blue');
 
             a {
-                @include mail-font(28px, 1.25, 700);
+                @include mail-font(22px, 1.25, 700);
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
@@ -293,67 +293,8 @@
             }
         }
 
-        /* .content.-first {
-            padding: 0;
-            background: #1aa8b1;
-
-            .-image {
-                max-width: 300px;
-                padding: 0;
-            }
-
-            img {
-                width: 300px;
-            }
-
-            .-description {
-                max-width: 275px;
-                padding: 0 25px 0 0;
-            }
-
-            .-description p {
-                @include mail-font(36px, 1.2);
-                display: block;
-                color: plt('white');
-                // text-transform: uppercase;
-                margin: 4px 0 10px;
-                overflow-wrap:break-word;
-                word-wrap:break-word;
-                word-break:break-word;
-
-                span {
-                    @include mail-font(80px, 1.01, 700);
-                    display: block;
-                    font-weight: bold;
-                    overflow-wrap:break-word;
-                    word-wrap:break-word;
-                    word-break:break-word;
-                }
-            }
-        } */
-
-        .content.-idx-2, {
-            padding: 50px 50px 25px;
+        .content.-idx-2 {
             text-align: left;
-
-            // div {
-            //     @include mail-font(22px, 1.5);
-
-            //     padding: 0 0 25px 0;
-            //     vertical-align: middle;
-            //     text-align: left;
-
-            //     span {
-            //         display: inline-block;
-            //         padding: 0 0 0 25px;
-            //         vertical-align: middle;
-            //     }
-
-            //     img {
-            //         display: inline-block;
-            //         vertical-align: middle;
-            //     }
-            // }
         }
     }
 }
