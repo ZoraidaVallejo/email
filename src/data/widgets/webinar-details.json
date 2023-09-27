@@ -39,5 +39,26 @@
     "message3": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
     ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "October 6, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Hi Name,",
+      "LinkedIn is an excellent tool for lawyers seeking new contacts and professional recognition! By encouraging conversation on popular topics, lawyers can increase their relevance while sharing reliable legal insights that paint them positively and increase their odds of garnering new referrals.",
+      "You&rsquo;re invited to join attorney <a href=\"https://connect.justia.com/webinars/presenter/andy-brownstein\">Andy Brownstein</a> and LinkedIn trainer and marketing consultant <a href=\"https://connect.justia.com/webinars/presenter/marc-w-halpert\">Marc W. Halpert</a> as they share their recommended LinkedIn strategies in a members-only presentation on Friday, October 6, 2023 at 3:00 p.m. ET./12:00 p.m. PT."
+    ],
+    "bottomline": [
+      "<strong>Register Before It’s Too Late!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin",
+      "text": "Secure My Spot",
+      "width": 250
+    }
   }
 }
