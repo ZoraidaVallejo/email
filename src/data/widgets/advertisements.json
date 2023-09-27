@@ -1,0 +1,74 @@
+{
+  "clients": {
+    "ad1": {},
+    "ad2": {}
+  },
+  "jld": {
+    "banner": {
+      "contentOrder": [
+        {
+          "type": "custom-banner",
+          "config": {
+            "responsive": "mobile-padding-horizontal-sides",
+            "color": "elevate",
+            "responsiveImgText": "mobile-align-center",
+            "description": [
+              "<span responsive=\"mobile-fz-40\">200x</span>"
+            ]
+          }
+        }
+      ]
+    },
+    "content": {
+      "title": "What Sets Justia AI Writer Apart",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>The <b>Justia AI Writer</b> – exclusively available on the Justia Elevate platform – takes the guesswork out of AI content generation by offering lawyers a user-friendly system to generate law firm website content with a few clicks of a button.</p>"
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-01.png",
+            "description": [
+              "<b>Optimized prompts for law firms</b> are integrated directly into the tool architecture so all you have to do is tell us your desired target location, practice area, and subtopics."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-02.png",
+            "description": [
+              "<b>Leverage the knowledge of our team</b> of attorneys and legal marketers built into our exclusive system."
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-03.png",
+            "description": [
+              "<b>Get exclusive guidance</b> on getting the most from your generated content with editing tips and more!"
+            ]
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "responsive": "",
+            "image": "icon-04.png",
+            "description": [
+              "<b>Easily export your content into a Word Doc</b> to edit and revise your generated content before adding to your law firm website."
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
