@@ -243,7 +243,7 @@
             &.-description p {
                 @include mail-font(18px, 1.5);
                 display: block;
-                line-height: 30px;
+                line-height: 27px;
             }
 
             img {
@@ -295,6 +295,12 @@
 
         .content.-idx-2 {
             text-align: left;
+        }
+
+        .-btn-description {
+            text-align: center;
+            padding: 20px 0 0;
+            @include mail-font(18px, 1.5);
         }
     }
 }
