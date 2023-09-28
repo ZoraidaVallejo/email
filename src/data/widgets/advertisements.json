@@ -5,19 +5,7 @@
   },
   "jld": {
     "banner": {
-      "contentOrder": [
-        {
-          "type": "custom-banner",
-          "config": {
-            "responsive": "mobile-padding-horizontal-sides",
-            "color": "elevate",
-            "responsiveImgText": "mobile-align-center",
-            "description": [
-              "<span responsive=\"mobile-fz-40\">200x</span>"
-            ]
-          }
-        }
-      ]
+      "image": "elevate-banner-text-01.jpg"
     },
     "content": {
       "title": "What Sets Justia AI Writer Apart",
@@ -73,14 +61,14 @@
           "config": {
             "style": "red",
             "text": "Learn More About Justia AI",
-            "width": 370,
+            "width": 360,
             "height": 50,
             "borderColor": "",
             "backgroundColor": "",
             "fontColor": "",
             "fontStyle": "",
             "fontWeight": "",
-            "fontSize": 24,
+            "fontSize": 23,
             "responsive": "",
             "description": "Or call us at <b>(888) 587-8421</b>"
           }
