@@ -11,81 +11,90 @@
       "config": {
         "birthdays": [
           {
-            "day": "07",
-            "name": "Jose Ramos"
-          },
-          {
-            "day": "07",
-            "name": "Priscila Martinez"
-          },
-          {
-            "day": "08",
-            "name": "Diego Cortes"
+            "day": "03",
+            "name": "Kshama Kumar"
           },
           {
             "day": "10",
-            "name": "Dan Vu Quoc"
+            "name": "Paola Lira"
           },
           {
             "day": "13",
-            "name": "Edgar Cano"
-          },
-          {
-            "day": "13",
-            "name": "Daniel Monroy"
+            "name": "Jessica Risso"
           },
           {
             "day": "18",
-            "name": "Ayumi Obana"
-          },
-          {
-            "day": "19",
-            "name": "Miguel Lopez"
+            "name": "Ivan Bonilla"
           },
           {
             "day": "20",
-            "name": "Irvin Garcia"
+            "name": "Jupiter Barrera"
           },
           {
-            "day": "20",
-            "name": "Hector Lugo"
+            "day": "25",
+            "name": "Ana Serna"
           },
           {
-            "day": "22",
-            "name": "Ana Espinoza"
+            "day": "27",
+            "name": "Adalit Flores"
+          },
+          {
+            "day": "30",
+            "name": "Saul de la Rosa"
           }
         ],
         "anniversaries": [
           {
-            "name": "Jesus Sanchez",
+            "name": "Barbara Cooper",
+            "years": "16th"
+          },
+          {
+            "name": "John Pruitt",
             "years": "14th"
           },
           {
-            "name": "Miguel Lopez",
-            "years": "8th"
+            "name": "Ana Hidalgo",
+            "years": "13th"
           },
           {
-            "name": "Ana Aguilar",
+            "name": "Jacqueline Chu",
+            "years": "6th"
+          },
+          {
+            "name": "Lenin Angulo",
+            "years": "5th",
+            "class": "fifth-icon"
+          },
+          {
+            "name": "John Gaspar",
+            "years": "4th"
+          },
+          {
+            "name": "Edgar de Leon",
+            "years": "4th"
+          },
+          {
+            "name": "Arturo Jara",
             "years": "3rd"
           },
           {
-            "name": "Keilah Cabrera",
-            "years": "3rd"
-          },
-          {
-            "name": "Andres Sanchez",
+            "name": "Hector Fernandez",
             "years": "2nd"
           },
           {
-            "name": "Sarah Dondysh",
+            "name": "Daniel Gomez",
             "years": "2nd"
           },
           {
-            "name": "Jorge Hernandez",
+            "name": "Emilio Barrera",
+            "years": "2nd"
+          },
+          {
+            "name": "Omar Mendoza",
             "years": "1st"
           },
           {
-            "name": "Daniel Monroy",
+            "name": "Antonio Leyva",
             "years": "1st"
           }
         ]

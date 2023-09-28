@@ -111,21 +111,24 @@
         padding: 0 $padding 13px;
         text-align: left;
 
-         ul {
+        > ul {
             margin: 0;
             padding: 0;
             // background-color: #f6fdfc;
             // padding: 1.2em 25px 0.3em;
             // border-radius: 10px;
 
-             li {
+            > li {
                 display: block;
                 padding: 0 0 0 15px;
                 margin-bottom: 15px;
                 background: url('http://justatic.com/v/1/emails/images/insider/common/list-icon-01.png') no-repeat top left;
                 background-position: 0px 8px;
 
-                
+                ul{
+                    list-style-type: disc;
+                    margin-top: 10px;
+                }
             }
         }
     }

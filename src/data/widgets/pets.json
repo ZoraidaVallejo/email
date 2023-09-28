@@ -1,16 +1,16 @@
 {
   "widget": {
     "type": "Justia Pet News",
-    "header": "Lazy Mindy and Tiger"
+    "header": "Elvis Presley"
   },
   "contentOrder": [
     {
       "type": "image-description",
       "config": {
-        "image": "pets_01.png",
+        "image": "pet-01.png",
         "description": [
-          "<i>Mindy and Tiger are two rescued cats. They love to spend the afternoon sleeping in weird positions, especially during the hot weather.</i>",
-          "<i>— Valeria Dimas</i>"
+          "<i>Elvis, the king of the house, is a 10-year-old Schnauzer who lives with Isma. He enjoys barking at every person or pet that walks down the street. His favorite meals include grilled chicken and dehydrated chicken feet. Elvis also takes pleasure in napping during the afternoons.</i>",
+          "<i>— Ismael Muñoz</i>"
         ]
       }
     }

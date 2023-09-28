@@ -1,36 +1,15 @@
 {
   "widget": {
-    "type": "LORdEM IPSUM",
-    "header": "Et feugiat senectus"
+    "type": "DID YOU KNOW?",
+    "header": "Just Meet Up! September’s Session"
   },
-  "imageTop": "banner-example-01.png",
-  "imageBottom": "banner-example-01.png",
+  "imageTop": "activity-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio.Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "On September 13th, we hosted an excellent \"Just Meet Up!\" session focusing on the exciting world of AI in Graphic Design. We were delighted to welcome enthusiastic students from our local universities. It was a fantastic gathering filled with joyful discussions on various related topics!"
       ]
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "side-image-example-01.png",
-        "blockTitle": "USA Independence Day<br>July 4th",
-        "description": [
-          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "side-image-example-01.png",
-        "blockTitle": "USA Independence Day<br>July 4th",
-        "description": [
-          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
-        ]
-      }
     }
   ]
 }
