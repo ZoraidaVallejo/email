@@ -4,14 +4,6 @@
     "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
   },
   "singleColumn": false,
-  "feature": {
-    "image": {
-      "src": "onward-03.png",
-      "alt": "Justia Legal Guides: Estate Planning Legal Center"
-    },
-    "readMore": "https://onward.justia.com/justia-legal-guides-estate-planning-legal-center/",
-    "blockTitle": "Justia Legal Guides: Estate Planning Legal Center"
-  },
   "columns": [
     {
       "image": {
@@ -28,6 +20,22 @@
       },
       "readMore": "https://onward.justia.com/justia-legal-guides-insurance-law-center/",
       "blockTitle": "Justia Legal Guides: Insurance Law Center"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Justia Legal Guides: Estate Planning Legal Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-estate-planning-legal-center/",
+      "blockTitle": "Justia Legal Guides: Estate Planning Legal Center"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Justia Ask A Lawyer by the Numbers: Second Quarter 2023"
+      },
+      "readMore": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-second-quarter-2023/",
+      "blockTitle": "Justia Ask A Lawyer by the Numbers: Second Quarter 2023"
     }
   ]
 }
