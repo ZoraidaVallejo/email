@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Meet Our Team"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "our-team-01.jpg",
+        "alt": "Front-End Team Luncheon"
+      },
+      "blockTitle": "Front-End Team Luncheon",
+      "description": [
+        "Meet some of the faces behind our awesome front-end team! They're the ones who skillfully transform design mockups into fully functional websites. Last month, they enjoyed a delicious meal together while welcoming a new team member."
+      ]
+    }
+  ]
+}

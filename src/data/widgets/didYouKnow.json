@@ -1,0 +1,25 @@
+{
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "imageLink": "#",
+    "title": "Praesent feugiat commod morto",
+    "description": [
+      "Quisque eget commodo nulla. Donec ut augue vel turpis posuere sollicitudin hendrerit vitae mauris. Curabitur est nisi, sollicitudin ac vehicula id"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.youtube.com/Justia",
+      "text": "Read More",
+      "width": 150,
+      "utm": {
+        "medium": "email",
+        "source": "insights-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-did-you-know-learn-more-button-v1"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Join Justia Webinars for a CLE Presentation on Stress Management for Lawyers",
+      "link": "https://onward.justia.com/new-this-week-join-justia-webinars-for-a-cle-presentation-on-stress-management-for-lawyers/",
+      "description": "Lawyers often struggle to cope with the demands practice places on their mental health. If you have ever dealt with overwhelming stress from the relentless pressure of being a lawyer, join us for our next Justia Webinar. Check out this post for more info. ",
+      "details": "Justia Team | September 18, 2023",
+      "index": "1"
+    },
+    {
+      "title": "Justia Ask A Lawyer by the Numbers: Second Quarter 2023",
+      "link": "https://onward.justia.com/justia-ask-a-lawyer-by-the-numbers-second-quarter-2023/",
+      "description": "It’s time for another edition of Justia Ask A Lawyer by the Numbers! We took a look at the data for our free question-and-answer forum in the second quarter this year and are back to share insights with all of you. Check out this post to learn more. ",
+      "details": "Justia Team | September 28, 2023",
+      "index": "2"
+    },
+    {
+      "title": "Justia Legal Guides: Estate Planning Legal Center ",
+      "link": "https://onward.justia.com/justia-legal-guides-estate-planning-legal-center/",
+      "description": "Tools like wills and trusts can help you control what happens to your property and provide security for those who matter most to you. The Estate Planning Legal Center at Justia describes some of the options that may be available.",
+      "details": "Chris Skelton | September 25, 2023",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

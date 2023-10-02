@@ -1,0 +1,111 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "trending-news.jpg",
+  "imageLink": "#",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "news": [
+        {
+          "title": "Artificial Intelligence Tools and Tips",
+          "via": "Via Law Practice Tips",
+          "link": "https://www.lawpracticetipsblog.com/2023/09/ai-tools-and-tips.html"
+        },
+        {
+          "title": "George R.R. Martin and Other Authors Sue OpenAI for Copyright Infringement",
+          "link": "https://www.theverge.com/2023/9/20/23882140/george-r-r-martin-lawsuit-openai-copyright-infringement",
+          "via": "Via The Verge"
+        },
+        {
+          "title": "Amazon Leaders Were ‘Okay’ With People Being Secretly Signed Up for Prime, Lawsuit Alleges ",
+          "link": "https://www.theverge.com/2023/9/20/23882675/amazon-prime-ftc-dark-patterns-lawsuit",
+          "via": "Via The Verge"
+        },
+        {
+          "title": "Bard Can Now Connect to Your Google Apps and Services ",
+          "link": "https://blog.google/products/bard/google-bard-new-features-update-sept-2023/",
+          "via": "Via Google The Keyword"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "news": [
+        {
+          "title": "How the August 2023 Google Core Update Compared to March 2023 Core Updates",
+          "link": "https://searchengineland.com/how-the-august-2023-google-core-update-compared-to-march-2023-core-updates-431851",
+          "via": "Via Search Engine Land"
+        },
+        {
+          "title": "Google September 2023 Helpful Content Update – Changes to the Algorithm",
+          "link": "https://www.searchenginejournal.com/google-september-2023-helpful-content-update-changes-to-the-algorithm/",
+          "via": "Via Search Engine Journal"
+        },
+        {
+          "title": "Google Autocomplete: The Silent Threat to Your Online Reputation",
+          "link": "https://searchengineland.com/google-autocomplete-online-reputation-432106",
+          "via": "Via Search Engine Land"
+        },
+        {
+          "title": "AMA With Google’s Gary Illyes: 15 Quick SEO Takeaways ",
+          "link": "https://searchengineland.com/ama-google-gary-illyes-seo-takeaways-432325",
+          "via": "Via Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "news": [
+        {
+          "title": "11 Social Media Content Types and Examples",
+          "link": "https://www.searchenginejournal.com/social-media-content/",
+          "via": "Via Search Engine Journal"
+        },
+        {
+          "title": "How to Optimize Your Social Media Pages for Search",
+          "link": "https://searchengineland.com/how-to-optimize-your-social-media-pages-for-search-431247",
+          "via": "Via Search Engine Land"
+        },
+        {
+          "title": "A Comparison of the Features of Threads and X [Infographic] ",
+          "link": "https://www.socialmediatoday.com/news/comparison-features-threads-x-infographic/691958/",
+          "via": "Via Social Media Today "
+        },
+        {
+          "title": "You Can Now Have Multiple Personal Profiles on Facebook  ",
+          "link": "https://about.fb.com/news/2023/09/you-can-now-have-multiple-personal-profiles-on-facebook/",
+          "via": "Via Meta Newsroom "
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "news": [
+        {
+          "title": "Attorney Ruled Not Funny by a Judge and Condemned to Ethics CLE ",
+          "link": "https://abovethelaw.com/2023/08/attorney-ruled-not-funny-by-a-judge-and-condemned-to-ethics-cle/",
+          "via": "Via Above the Law"
+        },
+        {
+          "title": "Sam Bankman-Fried’s Parents Sued by FTX ",
+          "link": "https://www.nytimes.com/2023/09/19/business/ftx-sam-bankman-fried-parents-sued.html",
+          "via": "Via New York Times"
+        },
+        {
+          "title": "‘Victoria’s Secret Karen’ Video: Lawsuits Show What Viewers Didn’t See ",
+          "link": "https://www.nytimes.com/2023/09/23/nyregion/victorias-secret-karen-video.html?searchResultPosition=4",
+          "via": "Via New York Times"
+        },
+        {
+          "title": "‘Hunter Biden Sues IRS, Alleging Violation of His Privacy ",
+          "link": "https://www.politico.com/news/2023/09/18/hunter-biden-tax-privacy-lawsuit-00116536",
+          "via": "Via Politico"
+        }
+      ]
+    }
+  ]
+}

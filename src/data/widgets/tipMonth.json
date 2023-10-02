@@ -1,0 +1,34 @@
+{
+  "client": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "banner": "tip-month.jpg",
+    "title": "lorem ipsum dolor sit amen",
+    "description": [
+      "Porem ipsum dolor sit amenorem ipsum dolor sit amenorem ipsum dolor sit amenorem ipsum dolor sit amen"
+    ],
+    "button": {
+      "style": "red",
+      "link": "/",
+      "text": "Click_here",
+      "width": 200
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "link": "https://connect.justia.com/pro/",
+    "title": "Enhance Your Profile With Our Justia Connect Pro Badge",
+    "description": [
+      "When you upgrade your free Justia Connect Basic Membership to <b>Justia Connect Pro</b>, you unlock the exclusive, eye-catching Justia Connect Pro Badge for your profile in the <b>Justia Lawyer Directory!</b> Plus, Pros get access to additional membership benefits, such as the ability to choose featured reviews for your Justia Profile and CLE courses."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro/",
+      "text": "Unlock My Badge",
+      "width": 180
+    }
+  }
+}
