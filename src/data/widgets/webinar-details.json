@@ -80,7 +80,7 @@
     },
     "message": [
       "LinkedIn may just be the key to helping your practice grow, but we haven’t received your RSVP yet! Don’t miss your chance to get free insights from our guest speakers that just may be the catalyst for change in your law firm.",
-      "You’re invited to join attorney <a href=\"https://connect.justia.com/webinars/presenter/andy-brownstein\">Andy Brownstein</a> and LinkedIn trainer and marketing consultant <a href=\"https://connect.justia.com/webinars/presenter/marc-w-halpert\">Marc W. Halpert</a> as they share their recommended LinkedIn strategies in a members-only presentation tomorrow, October 6, at 3:00 p.m. ET./12:00 p.m. PT."
+      "You’re invited to join attorney <a href=\"https://connect.justia.com/webinars/presenter/andy-brownstein\">Andy Brownstein</a> and LinkedIn trainer and marketing consultant <a href=\"https://connect.justia.com/webinars/presenter/marc-w-halpert\">Marc W. Halpert</a> as they share their recommended LinkedIn strategies in a members-only presentation tomorrow, October 6, at 3:00 p.m. ET/12:00 p.m. PT."
     ],
     "bottomline": [
       "<strong>Save Your Seat Before It’s Too Late!</strong>"
@@ -89,6 +89,32 @@
       "style": "red",
       "link": "https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin",
       "text": "RSVP NOW",
+      "width": 250
+    }
+  },
+  "reminder-event-today": {
+    "banner": "",
+    "details": {
+      "date": "October 6, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin\">Professionalism in the Age of Social Media: Relevance, Reliability, and Referability on LinkedIn</a> today at 3:00 p.m. ET/12:00 p.m. PT.",
+      "You can <a href=\"#\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ]
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <a href=\"https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin\"><strong>Professionalism in the Age of Social Media: Relevance, Reliability, and Referability on LinkedIn</strong></a>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
       "width": 250
     }
   }
