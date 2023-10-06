@@ -1,0 +1,92 @@
+{{! ================================================================================================================= }}
+{{! L A W   E V E N T S                                                                                               }}
+{{! ================================================================================================================= }}
+
+{{!
+ * @param {Object}   exploreWebinars
+ * @param {string}   exploreWebinars.widget.header
+ * @param {string}   exploreWebinars.widget.iconSrc
+ * @param {Object[]} exploreWebinars.events
+ * @param {number}   exploreWebinars.events[].category
+ * @param {string}   exploreWebinars.events[].title
+ * @param {string}   exploreWebinars.events[].speakers
+ * @param {string}   exploreWebinars.events[].cta
+ * @param {string}   exploreWebinars.events[].link
+}}
+
+{{assign "columnStructure" (chunks exploreWebinars.events 2 true)}}
+{{assign "eventCounter" 0}}
+{{assign "adClasses" (classList "widget" "w-text-btn" widgetClass "set-max-width")}}
+
+{{! ================================================================================================================= }}
+
+{{#table class=(classList "widget" "w-explore-webinars" "w-text-btn" widgetClass "set-max-width")}}
+
+  {{>widget-header
+    header=exploreWebinars.widget.header
+    icon=exploreWebinars.widget.icon
+  }}
+
+  <tr class="">
+    <td class="wrapper" responsive="mobile-padding-horizontal-sides">
+        <div class="widget-wrapper">
+          {{#table}}
+            <tr>
+              <td>
+                {{#forEach exploreWebinars.events}}
+                <div class="content" responsive="mobile-padding-horizontal-sides">
+                    {{#table}}
+                      <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
+                        <td class="widget-event-play valign-top">
+                          {{>widget-play
+                            category=this.category
+                            link=this.link
+                          }}
+
+                        </td>
+                        <td class="info">
+                          {{#if this.link}}
+                            <p class="title">
+                              <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
+                            </p>
+                          {{/if}}
+                          {{#if this.speakers}}<p class="description">{{this.speakers}}</p>{{/if}}
+                          {{#if this.cta}}
+                            <p class="read-more">
+                              <a href="{{{this.link}}}" class="{{{this.cta.style}}}" target="_blank">{{this.cta.text}}</a>
+                            </p>
+                          {{/if}}
+                        </td>
+                      </tr>
+                    {{/table}}
+                  </div>
+                {{/forEach}}
+              </td>
+            </tr>
+            {{#compare exploreWebinars.type "===" "button"}}
+            <tr>
+              <td class="-button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                {{#uiButton
+                  href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                  presetStyle=exploreWebinars.config.style
+                  width=exploreWebinars.config.width
+                  height=exploreWebinars.config.height
+                  borderColor=exploreWebinars.config.borderColor
+                  backgroundColor=exploreWebinars.config.backgroundColor
+                  fontColor=exploreWebinars.config.fontColor
+                  fontStyle=exploreWebinars.config.fontStyle
+                  fontWeight=exploreWebinars.config.fontWeight
+                  fontSize=exploreWebinars.config.fontSize
+                  responsive=exploreWebinars.config.responsive
+                }}
+                  {{{exploreWebinars.config.text}}}
+                {{/uiButton}}
+              </td>
+            </tr>
+          {{/compare}}
+          {{/table}}
+        </div>
+    </td>
+  </tr>
+
+{{/table}}

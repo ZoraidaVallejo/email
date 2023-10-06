@@ -1,0 +1,177 @@
+{
+  "main-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "webinars-main-banner.png"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
+    "image": "https://justatic.com/v/3/emails/images/webinars/2023/08/17-webinar-registered.png",
+    "widget": {
+      "header": "Don’t Miss Our Upcoming Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "The ever-changing landscape of PPC advertising can be difficult to keep up with, especially when you have a practice to run! Join members of the Justia Amplify team to unpack the… <a href=\"https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challe\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar.png",
+          "description": [
+            "October 3, 2023 11:00 AM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-2": {
+    "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/08/18-webinar-registered.png",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "In this webinar, LII Co-Directors Sara Frug and Craig Newton will help attendees understand various nuances in the codification of federal statutes and regulations, as well as identify issues... <a href=\"https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar.png",
+          "description": [
+            "October 5, 2023 1:00 PM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-videos-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "justia-videos-banner.png"
+  },
+  "webinar-3": {
+    "widget": {
+      "header": "Check Out Our Latest On-Demand Webinars"
+    },
+    "link": "https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license",
+    "image": "https://justatic.com/v/5/emails/images/webinars/2023/07/15-webinar-registration.png",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "In May 2023, a New York federal judge discovered several fake cases cited in a filed brief. The attorney admitted he used ChatGPT and was “unaware of the possibility its contents could be… <a href=\"https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 150,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-connect-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "justia-connect-banner.png"
+  },
+  "onDemand": {
+    "widget": {
+      "header": "More On-Demand Webinars"
+    },
+    "titleResponsiveSize": 22,
+    "link": "https://connect.justia.com/webinars",
+    "contentOrder": [
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Lorem ipsum dolor sit amet",
+          "link": "https://connect.justia.com/webinars/",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      }
+    ]
+  }
+}
