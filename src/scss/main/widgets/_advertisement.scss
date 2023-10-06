@@ -120,4 +120,12 @@
     &.-light-bg {
         background-color: #F5F9FF;
     }
+
+    &.-questions {
+
+        .title {
+            padding: 20px $padding 0;
+            @include mail-font(24px, 1.15, tp('weight', 'bold'));
+        }
+    }
 }

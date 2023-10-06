@@ -261,3 +261,14 @@
         }
     }
 }
+
+.widget.-questions {
+    .widget-description {
+        padding: $widget-gap;
+    }
+
+    .widget-button a {
+        height: 40px;
+        line-height: 2.5;
+    }
+}
