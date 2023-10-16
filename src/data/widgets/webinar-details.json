@@ -121,5 +121,39 @@
       "width": 180,
       "height": 40
     }
+  },
+  "cle-instructions": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Hi Name,",
+      "Thank you for joining us for our recent Justia Webinars presentation!<strong> You must complete your attendance verification to receive CLE credit. </strong>As a reminder, if you have a free Justia Connect membership, you must <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to receive CLE credit.",
+      "<strong>The steps below must be completed by 12:00 p.m. PT on Friday, October 13, 2023 to receive credit. </strong>",
+      "<strong>Completing Your Attendance Verification</strong>"
+    ],
+    "number-list": [
+      "Visit the <a href=\"https://connect.justia.com/cle-center\">Justia CLE Center</a>.",
+      "Click on the “Complete Verification” link.",
+      "Input the attendance verification code received during your presentation.",
+      "Follow the remaining prompts in the form to input all pertinent information and offer evaluation of the MCLE presentation.",
+      "Download your certificate, and you’re done!"
+    ],
+    "message2": [
+      "If you have any questions about verification, please <a href=\"http://support.justia.com\">contact Justia Support</a>."
+    ]
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>2023-2024 Supreme Court Term Preview</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
