@@ -1,13 +1,13 @@
 ---
-subject: Happy Justia Anniversary, [NAME]!
+subject: Happy Justia Anniversary, [FULL NAME]!
 ---
 
-{{>preheader text="Please join us in congratulating [NAME]! ---- "}}
+{{>preheader text="Please join us in congratulating [FULL NAME]! ---- "}}
 
 {{#table align=""}}
   <tr>
     <td class="full-size align-center valign-top">
-      {{>main-header widgetConfig=header.workAnniversary}}
+      {{>main-header widgetConfig=header.anniversary}}
     </td>
   </tr>
   <tr>
@@ -16,30 +16,26 @@ subject: Happy Justia Anniversary, [NAME]!
         {{#table class="widget set-max-width"}}
           <tr>
             <td class="wrapper" responsive="mobile-padding-horizontal-sides">
-              {{#table class="w-work-anniversary set-max-width"}}
+              {{#table class="w-anniversary set-max-width"}}
                 <tr>
                   <td class="title -first align-center" responsive="mobile-padding-horizontal-sides">
-                    <p>
-                      <strong>
-                        Hi [NAME]
-                        <br>
-                        Happy Anniversary!
-                      </strong>
-                    </p>
+                    <p class="line-1"><strong>Hi [NAME]</strong></p>
+                    <p class="line-2">[TEAM]</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="image align-center" responsive="mobile-padding-horizontal-sides">
-                    {{>img src="happy-anniversary-5.png" alt="5th year badge"}}
+                    {{>img src="https://justatic.com/v/1/emails/images/events/anniversaries/Wreath/Background-1.png" alt="Anniversary" class="special"}}
                   </td>
                 </tr>
                 <tr>
-                  <td class="text -last align-center" responsive="mobile-padding-horizontal-sides">
-                    <p>
-                      We all appreciate your work and dedication! We wish you continued success for many years to come.
+                  <td class="anniversary-text align-center" responsive="mobile-padding-horizontal-sides">
+                    <p class="count"><strong>Happy <span style="color:#1F8468">[ORDINAL NUMBER]</span> Anniversary</strong></p>
+                    <p class="thanks">
+                      Congratulations on completing your first year with Justia. Thank you for your contributions and dedication! They are greatly appreciated.
                       <br>
                       <br>
-                      The Justia Team
+                      <strong>The Justia Team</strong>
                     </p>
                   </td>
                 </tr>

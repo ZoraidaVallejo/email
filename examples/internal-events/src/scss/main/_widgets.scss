@@ -2,6 +2,13 @@
 // W I D G E T S
 // ----------------------------------------------------------------------------------------------------------
 
+.main-header.-logo-only {
+
+    .wrapper {
+        padding: 24px $padding;
+    }
+}
+
 .widget {
     border-top: 2px solid plt('gallery');
     background-color: #f2f5f8;
@@ -76,12 +83,49 @@
     width: 360px;
 }
 
-.w-new-employee .image img {
+.w-team-member .image img {
     width: 380px;
 }
 
-.w-work-anniversary .image img {
-    width: 400px;
+.w-anniversary {
+
+    .title {
+
+        .line-1 {
+            @include mail-font(26px, 1.2);
+            margin: 0;
+        }
+
+        .line-2 {
+            @include mail-font(16px, 1.2);
+            margin: 6px 0 0;
+        }
+    }
+
+    .image {
+        padding: 0 25px 20px;
+
+        .generic {
+            width: 402px;
+        }
+
+        .special {
+            width: 364px;
+        }
+    }
+
+    .anniversary-text {
+        padding: 0 25px 50px;
+
+        .count {
+            @include mail-font(38px, 1);
+            margin: 0;
+        }
+
+        .thanks {
+            margin: 15px 0 0;
+        }
+    }
 }
 
 .w-onboarding .image img {
