@@ -1,0 +1,21 @@
+{
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Justia Elevate Platform Updates"
+    },
+    "banner": "platform-updates.png",
+    "title": "Justia Elevate Platform Updates",
+    "description": [
+      "The Justia Elevate platform was recently updated to incorporate new features, such as the ability to add YouTube Shorts URLs as videos. Additionally, we included coloring changes to the search button and image overlays."
+    ],
+    "title2": "Yoast SEO Plugin Updates",
+    "description2": [
+      "Your Yoast SEO plugin was upgraded to improve compatibility and performance! This enhancement means faster loading times and a smoother user experience. You can find more information on this upgrade <b><a href='https://yoast.com/yoast-seo-august-8-2023/#shortlink=release-8-8-23' target='_blank'>here.</a></b>"
+    ],
+    "title3": "Your WordPress Version Was Updated",
+    "description3": [
+      "Your Justia Elevate website’s WordPress engine has been updated! This release features accessibility improvements across the platform, as well as updated functions and navigation designed to help you work and create with less effort. To learn more about this upgrade, check out this <b><a href='https://wordpress.org/news/2023/08/lionel/' target='_blank'>post from WordPress.<a></b>"
+    ]
+  }
+}
