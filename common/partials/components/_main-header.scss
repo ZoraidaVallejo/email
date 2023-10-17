@@ -27,6 +27,9 @@ $logos-dimensions: (
     'justia-ver2': (
         'dims': 300px 90px
     ),
+    'blogging': (
+        'dims': 1087px 139px
+    ),
     'justia-anniversary': (
         'dims': 470px 55px
     )
@@ -60,6 +63,7 @@ $settings: set('mail-header', (
             'your-birthday': 380px,
             'new-team-member': 450px,
             'new-intern': 340px,
+            'blogging': 460px,
             'anniversary': 346px,
             'onboarding': 350px,
             'justia-anniversary': 470px
