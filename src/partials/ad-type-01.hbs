@@ -1,0 +1,87 @@
+{{!
+ * @param {String}          widgetClass
+ * @param {Object}          widgetConfig
+ * @param {String}          widgetConfig.link
+ * @param {Object}          widgetConfig.utm
+ * @param {Object}          widgetConfig.logo
+ * @param {String}          widgetConfig.logo.name
+ * @param {String}          widgetConfig.logo.color
+ * @param {String}          widgetConfig.title
+ * @param {Number}          widgetConfig.titleResponsiveSize
+ * @param {String}          widgetConfig.image
+ * @param {String}          widgetConfig.imageAlt
+ * @param {Object[]}        widgetConfig.contentOrder
+ * @param {String}          widgetConfig.contentOrder[].type
+ * @param {String[]|Object} widgetConfig.contentOrder[].config
+}}
+
+{{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+
+{{#table class=(classList "w-advertisement" "-type-01" widgetClass "set-max-width")}}
+  {{#if widgetConfig.logo}}
+    <tr>
+      <td class="justia-logo" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=(get (concat (camelcase widgetConfig.logo.name) ".path." widgetConfig.logo.color) logos)
+            alt=(get (concat (camelcase widgetConfig.logo.name) ".alt") logos)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.title}}
+    <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides">
+        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.title}}}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.image}}
+    <tr>
+      <td class="image">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.contentOrder}}
+    {{#forEach widgetConfig.contentOrder}}
+      {{#compare this.type "===" "description"}}
+        <tr>
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#each this.config}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "button"}}
+        <tr>
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+            {{#uiButton
+              presetStyle=this.config.style
+              href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+              width=this.config.width
+              height=this.config.height
+              fontSize=this.config.fontSize
+              responsive=this.config.responsive
+            }}
+              {{{this.config.text}}}
+            {{/uiButton}}
+          </td>
+        </tr>
+      {{/compare}}
+    {{/forEach}}
+  {{/if}}
+{{/table}}
