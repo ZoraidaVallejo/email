@@ -1,0 +1,43 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "banner": "did-you-know-icon.png",
+    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "title": "",
+    "link": "daily.justia.com",
+    "description": [
+      "<b>Justia Connect</b> members are eligible for opinion alerts from the appellate courts in jurisdictions that matter most to their practices! By signing up for <b>Justia Daily Opinion Summaries</b>, you can get free, attorney-written summaries of opinions released on the previous day delivered directly to your inbox."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "daily.justia.com",
+      "text": "Request Summaries Now",
+      "utm": {
+        "medium": "email",
+        "source": "quarterly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}

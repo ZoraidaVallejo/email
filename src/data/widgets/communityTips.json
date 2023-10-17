@@ -1,0 +1,44 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "description": [
+      "Take advantage of professional development courses with your Justia Connect membership! Our <b>free Justia Webinars are open to all members</b> and explore a broad array of topics, including law practice management, legal marketing, substantive legal developments, professional ethics, and more. Please note that while all Justia Connect members are invited to attend Justia Webinars, only Justia Connect Pros are eligible to earn CLE credit."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars",
+      "text": "Browse Available Webinars",
+      "width": 280,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  },
+  "pro": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "tips-icon.png",
+    "description": [
+      "Take advantage of professional development courses with your Justia Connect membership! Our <b>free Justia Webinars are open to all members</b> and explore a broad array of topics, including law practice management, legal marketing, substantive legal developments, professional ethics, and more. Please note that while all Justia Connect members are invited to attend Justia Webinars, only Justia Connect Pros are eligible to earn CLE credit."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars",
+      "text": "Browse Available Webinars",
+      "width": 280,
+      "utm": {
+        "medium": "email",
+        "source": "quarterly-connect-pro",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
