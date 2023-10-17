@@ -11,10 +11,10 @@
       "alt": false
     }
   },
-  "newEmployee": {
+  "newTeamMember": {
     "layout": "logo-only",
     "logo": {
-      "name": "new-employee",
+      "name": "new-team-member",
       "link": {
         "url": "",
         "utm": {}
@@ -35,10 +35,10 @@
       "alt": false
     }
   },
-  "workAnniversary": {
+  "anniversary": {
     "layout": "logo-only",
     "logo": {
-      "name": "work-anniversary",
+      "name": "anniversary",
       "link": {
         "url": "",
         "utm": {}
