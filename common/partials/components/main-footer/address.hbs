@@ -8,11 +8,11 @@
 
 <p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.justiaLink}}
-    <a class="justia-inline" href="{{widgetConfig.justiaLink}}" target="_blank">Justia</a>
-  {{/if}}
-  {{#if widgetConfig.direction}}
-    {{>pipe widgetResponsive=false}}
-    <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
+    <a class="justia-inline" href="{{widgetConfig.justiaLink}}" target="_blank">
+      {{#if widgetConfig.direction}}
+        <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
+      {{/if}}
+    </a>
   {{/if}}
   {{#if widgetConfig.tel}}
     {{>pipe widgetResponsive=false}}
