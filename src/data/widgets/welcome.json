@@ -23,7 +23,7 @@
   "pro": {
     "banner": "welcome-graphic.png",
     "title": [
-      "Your Quarterly Notes From <span>Justia Connect</span>"
+      "Your Monthly Insights From <span>Justia Connect Pro</span>"
     ],
     "message": [
       "Welcome to your monthly update from <b>Justia Connect Pro</b>, the upgraded membership connecting you with even more benefits and exclusive resources to achieve your professional and practice-growth goals.",
@@ -36,7 +36,7 @@
       "utm": {
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
-        "source": "quarterly-connect-pro",
+        "source": "month-connect-pro-newsletter",
         "content": "button-main-image-learn-more-1"
       }
     }

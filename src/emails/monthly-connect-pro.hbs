@@ -19,22 +19,24 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         <!-- community tips -->
         {{>community-tips widgetConfig=communityTips.pro}}
 
+        {{>justia-webinars widgetConfig=webinars.pro}}
+
         <!-- legal deals -->
         <!-- lifestyle savings -->
         {{>justia-deals widgetConfig=justiaDeals.pro}}
 
-        {{>justia-desk widgetUtmVars=justiaDeskPro.utm.pro}}
+        {{>justia-desk-pro widgetUtmVars=justiaDeskPro.utm.pro}}
 
-        {{>justia-webinars widgetConfig=webinars.pro}}
+
 
         <!-- breaking news alert -->
         {{!-- {{>breaking-news widgetUtmVars=breakingNews.utm.jld}} --}}
 
         <!-- ad as img -->
-        {{!-- {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.jld.ad2}} --}}
+        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.jld.ad2}}
 
         <!-- propper ad -->
-        {{>widget-bottom-ad widgetClass="-justia-premium" widgetConfig=bottomAd.connect.ad1}}
+        {{!-- {{>widget-bottom-ad widgetClass="-justia-premium" widgetConfig=bottomAd.connect.ad1}}  --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
