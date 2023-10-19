@@ -1,0 +1,56 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "October 27, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "reminder-1": {
+    "banner": "",
+    "details": {
+      "date": "October 27, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for our <a href=\"https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional\">Virtual Isolation: Is Hyperconnectivity Helping or Harming the Legal Professional?</a> on Friday, October 27 at 2:00 p.m. ET/11:00 a.m. PT.",
+      "You can <a href=\"#\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance.",
+      "<strong>Please note: </strong>This presentation is accredited for <strong>one hour of General MCLE credit</strong> in California. If you want CLE credit, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
+  }
+}
