@@ -64,26 +64,26 @@
               </td>
             </tr>
             {{#compare exploreWebinars.type "===" "button"}}
-            <tr>
-              <td class="-button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
-                {{#uiButton
-                  href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
-                  presetStyle=exploreWebinars.config.style
-                  width=exploreWebinars.config.width
-                  height=exploreWebinars.config.height
-                  borderColor=exploreWebinars.config.borderColor
-                  backgroundColor=exploreWebinars.config.backgroundColor
-                  fontColor=exploreWebinars.config.fontColor
-                  fontStyle=exploreWebinars.config.fontStyle
-                  fontWeight=exploreWebinars.config.fontWeight
-                  fontSize=exploreWebinars.config.fontSize
-                  responsive=exploreWebinars.config.responsive
-                }}
-                  {{{exploreWebinars.config.text}}}
-                {{/uiButton}}
-              </td>
-            </tr>
-          {{/compare}}
+              <tr>
+                <td class="-button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                  {{#uiButton
+                    href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
+                    presetStyle=exploreWebinars.config.style
+                    width=exploreWebinars.config.width
+                    height=exploreWebinars.config.height
+                    borderColor=exploreWebinars.config.borderColor
+                    backgroundColor=exploreWebinars.config.backgroundColor
+                    fontColor=exploreWebinars.config.fontColor
+                    fontStyle=exploreWebinars.config.fontStyle
+                    fontWeight=exploreWebinars.config.fontWeight
+                    fontSize=exploreWebinars.config.fontSize
+                    responsive=exploreWebinars.config.responsive
+                  }}
+                    {{{exploreWebinars.config.text}}}
+                  {{/uiButton}}
+                </td>
+              </tr>
+            {{/compare}}
           {{/table}}
         </div>
     </td>
