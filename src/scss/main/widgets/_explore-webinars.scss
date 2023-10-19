@@ -66,16 +66,25 @@
     }
 
     .widget-event-play {
-        padding-right: 25px;
         text-align: center;
         vertical-align: top;
-        width: 60px;
+    }
+
+    .info {
+        padding-left: 25px;
     }
 
     .widget-event-category {
         margin-top: 10px;
         width: 60px;
         display: block;
+    }
+
+    .widget-event-icon {
+        width: 60px;
+        .-play-icon {
+            max-width: 60px;
+        }
     }
 
     .category {

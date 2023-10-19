@@ -6,7 +6,17 @@
   "columns": [
     {
       "image": {
-        "src": "clients-news-logo-01.png",
+        "src": "01.png",
+        "alt": "Attorney Matthew Barhoma appeared on ABC7 LA"
+      },
+      "description": [
+        "Attorney <b>Matthew Barhoma</b> appeared on ABC7 LA to discuss his client who will be freed after 27 years in prison."
+      ],
+      "readMore": "https://www.youtube.com/watch?v=6a_1k2mhOnA"
+    },
+    {
+      "image": {
+        "src": "02.png",
         "alt": "Attorney Matthew Barhoma appeared on ABC7 LA"
       },
       "description": [

@@ -3,6 +3,7 @@
 {{! ================================================================================================================= }}
 
 {{!
+ * @param {string} title - text
  * @param {string} imgSrc - Image path (relative or absolute).
  * @param {string} imgAlt - Image alternative text.
  * @param {string} [link] - Optional link for the banner.
@@ -10,27 +11,28 @@
 }}
 
 {{! ================================================================================================================= }}
-{{#table class="widget-event-play"}}
+{{#table}}
     <tr>
-      <td class="{{classList "widget-event-icon" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
-        <div class="{{classList "icon" widgetClass}}">
+      <td class="{{classList "widget-marketing-icon" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+        {{#if link}}
+          <a href="{{{link}}}" target="_blank">
+        {{else}}
+          <a href="#">
+        {{/if}}
+          {{>img src=this.image alt=this.title class="" width="30px" height="30px"}}
+        </a>
+      </td>
+      <td class="{{classList "widget-marketing-text" widgetClass}}">
+        <p>
           {{#if link}}
             <a href="{{{link}}}" target="_blank">
           {{else}}
             <a href="#">
           {{/if}}
-          {{>img src=icon alt="Justia Webinar" class="-play-icon" width="60" height="60"}}
-            {{!-- <img src="src/images/play-icon.png" width="60" height="60" alt="Justia Webinar"> --}}
+            {{title}}
           </a>
-        </div>
+        </p>
       </td>
     </tr>
-    {{#if category}}
-    <tr>
-        <td class="{{classList "widget-event-category" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
-          <div class="category"><span>{{category}}</span></div>
-        </td>
-    </tr>
-    {{/if}}
 {{/table}}
 

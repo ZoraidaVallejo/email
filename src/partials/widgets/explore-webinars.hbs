@@ -20,7 +20,7 @@
 
 {{! ================================================================================================================= }}
 
-{{#table class=(classList "widget" "w-explore-webinars" "w-text-btn" widgetClass "set-max-width")}}
+{{#table class=(classList "widget" "w-explore-webinars" "w-text-btn" widgetClass "set-max-width") }}
 
   {{>widget-header
     header=exploreWebinars.widget.header
@@ -29,7 +29,7 @@
 
   <tr class="">
     <td class="wrapper" responsive="mobile-padding-horizontal-sides">
-        <div class="widget-wrapper">
+        <div class="widget-wrapper" responsive="mobile-padding-horizontal-sides">
           {{#table}}
             <tr>
               <td>
@@ -37,12 +37,12 @@
                 <div class="content" responsive="mobile-padding-horizontal-sides">
                     {{#table}}
                       <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
-                        <td class="widget-event-play valign-top">
+                        <td class=" valign-top">
                           {{>widget-play
                             category=this.category
                             link=this.link
+                            icon=this.icon
                           }}
-
                         </td>
                         <td class="info">
                           {{#if this.link}}

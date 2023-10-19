@@ -6,11 +6,16 @@
 // TODO: Add anotations.
 }}
 
-{{#table class="widget w-legal-industry-news set-max-width"}}
-  {{>widget-header
-    header=legalIndustryNews.widget.header
-    icon=legalIndustryNews.widget.icon
-  }}
-
-  {{>widget-columns-articles widgetConfig=legalIndustryNews.news isLast=true}}
+{{#table class="widget w-marketing-solutions set-max-width" responsive="mobile-padding-horizontal-sides"}}
+  <tr>
+    <td class="-marketing-wrap -icon-top" background="../dist/images/marketing-flag-icon.png" responsive="mobile-padding-horizontal-sides">
+    {{#table class="content-wrapper"}}
+      {{>widget-header-marketing
+        header=marketingSolutions.widget.header
+        icon=marketingSolutions.widget.icon
+      }}
+      {{>widget-marketing-columns widgetConfig=marketingSolutions.news isLast=true}}
+    {{/table}}
+    </td>
+  </tr>
 {{/table}}
