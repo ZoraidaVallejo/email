@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "projectName": "webinar",
+  "justaticVersion": "2",
+  "releaseDate": "2023-10-20",
+  "dateFormat": {
+    "string": "MMMM YYYY",
+    "stringFull": "MMMM DD, YYYY",
+    "slash": "YYYY/MM",
+    "dash": "YYYY-MM",
+    "dashFull": "YYYY-MM-DD"
+  },
+  "remoteImages": "webinar-newsletter/<%= dateFormat.slash %>",
+  "compressedFileName": ""
+}

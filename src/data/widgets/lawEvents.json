@@ -1,0 +1,25 @@
+{
+  "widget": {
+    "header": "More Free Upcoming Webinars"
+  },
+  "events": [
+    {
+      "day": "03",
+      "month": "Nov",
+      "category": "CLE",
+      "title": "Navigating & Mitigating Ethical Conflicts in Estate Administration & Planning",
+      "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
+      "speakers": "Leah Del Percio",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "09",
+      "month": "Nov",
+      "category": "CLE",
+      "title": "Build Your All-Star Team With Inclusive Interviewing",
+      "link": "https://connect.justia.com/webinars/build-your-all-star-team-with-inclusive-interviewing",
+      "speakers": "Ama Karikari-Yawson",
+      "cta": "Learn More >"
+    }
+  ]
+}
