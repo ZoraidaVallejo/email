@@ -1,0 +1,54 @@
+{{! ================================================================================================================= }}
+{{! I N T E R N E T   S T A T S                                                                                       }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-internet-stats set-max-width"}}
+  {{>widget-header
+    header=internetStats.widget.header
+    icon=internetStats.widget.icon
+  }}
+
+  <tr>
+    <td class="subtitle" responsive="mobile-padding-horizontal-sides">
+      <p><b>{{{internetStats.subtitle}}}</b></p>
+
+      {{#if internetStats.topDescription}}
+        <p class="top-description">{{{internetStats.topDescription}}}</p>
+      {{/if}}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="chart{{#unless internetStats.description}} -last{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      {{#if internetStats.link}}<a href="{{internetStats.link}}" target="_blank">{{/if}}
+        {{>img
+          src=internetStats.image
+          alt=internetStats.subtitle
+        }}
+      {{#if internetStats.link}}</a>{{/if}}
+    </td>
+  </tr>
+
+  <tr>
+    <td class="description" responsive="mobile-padding-horizontal-sides">
+      {{#if internetStats.source}}
+        <p class="source">
+          Source:
+          {{#if internetStats.sourceLink}}<a href="{{internetStats.sourceLink}}" target="_blank">{{/if}}
+            {{{internetStats.source}}}
+          {{#if internetStats.sourceLink}}</a>{{/if}}
+        </p>
+      {{/if}}
+
+      {{#if internetStats.description}}
+        {{#each internetStats.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+      {{/if}}
+    </td>
+  </tr>
+{{/table}}
