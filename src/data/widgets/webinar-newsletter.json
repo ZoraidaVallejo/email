@@ -87,6 +87,7 @@
       },
       {
         "type": "button",
+        "link": "https://connect.justia.com/webinars",
         "config": {
           "style": "red",
           "text": "Watch Now",
@@ -98,7 +99,7 @@
     ]
   },
   "justia-connect-banner": {
-    "link": "https://connect.justia.com/webinars/",
+    "link": "https://connect.justia.com/pro",
     "bannerimg": "justia-connect-banner.png"
   },
   "onDemand": {
