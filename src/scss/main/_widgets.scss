@@ -346,3 +346,15 @@
         }
     }
 }
+
+.w-advertisement.-light-bg + .w-law-events {
+    .widget-header {
+        padding-top: $widget-gap;
+    }
+}
+
+.-webinar-3 + .w-explore-webinars {
+    .widget-header {
+        padding-top: 0;
+    }
+}
