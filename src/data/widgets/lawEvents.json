@@ -1,0 +1,34 @@
+{
+  "widget": {
+    "header": "More Free Upcoming Webinars"
+  },
+  "events": [
+    {
+      "day": "09",
+      "month": "Nov",
+      "category": "CLE",
+      "title": "Build Your All-Star Team With Inclusivew Interviewing",
+      "link": "https://connect.justia.com/webinars/build-your-all-star-team-with-inclusive-interviewing",
+      "speakers": "Ama Karikari-Yawson",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "17",
+      "month": "Nov",
+      "category": "",
+      "title": "Driving Your Success: Essential Habits for Law Firm Associates in the Post-Pandemic Landscape",
+      "link": "https://connect.justia.com/webinars/driving-your-success-essential-habits-for-law-firm-associates-in-the-post-pandemic-landscape",
+      "speakers": "Lana Manganiello, Benjamin Schwefel",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "01",
+      "month": "Dec",
+      "category": "CLE",
+      "title": "Ethical Evolution: Thriving at the Crossroads of Law and Business in the AI Era",
+      "link": "https://connect.justia.com/webinars/ethical-evolution-thriving-at-the-crossroads-of-law-and-business-in-the-ai-era",
+      "speakers": "Tom Shack",
+      "cta": "Learn More >"
+    }
+  ]
+}

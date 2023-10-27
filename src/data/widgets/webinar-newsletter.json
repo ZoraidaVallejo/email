@@ -1,0 +1,73 @@
+{
+  "main-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "webinars-main-banner-oct-29.jpg"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
+    "image": "webinar-23.jpg",
+    "widget": {
+      "header": "Don’t Miss Our Upcoming Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "This presentation given by Trustate founder and CEO Leah Del Percio, will go over the different types of intrafamilial conflicts that estate attorneys typically face, and how they can… <a href=\"https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar.png",
+          "description": [
+            "November 3, 3:00 PM ET/12:00 PM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-videos-banner": {
+    "link": "https://www.youtube.com/@Justia",
+    "bannerimg": "justia-videos-banner.png"
+  },
+  "webinar-3": {
+    "widget": {
+      "header": "Check Out Our Latest On-Demand Webinars"
+    },
+    "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
+    "image": "webinar-22.jpg",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "If we stop to think about what we look at most during the day, the answer would probably not be our family or friends, nor our clients or colleagues. The most feasible option would be our… <a href=\"https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "light-blue",
+          "text": "Coming Soon",
+          "width": 150,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-connect-banner": {
+    "link": "https://connect.justia.com/pro",
+    "bannerimg": "justia-connect-banner.png"
+  }
+}
