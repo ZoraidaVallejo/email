@@ -1,11 +1,11 @@
 {
   "main-banner": {
     "link": "https://connect.justia.com/webinars/",
-    "bannerimg": "webinars-main-banner-oct-29.jpg"
+    "bannerimg": "webinar-weekly-digest-main-banner-oct-29.jpg"
   },
   "webinar-1": {
     "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
-    "image": "webinar-23.jpg",
+    "image": "connect-webinar-23.jpg",
     "widget": {
       "header": "Don’t Miss Our Upcoming Webinars"
     },
@@ -46,12 +46,12 @@
       "header": "Check Out Our Latest On-Demand Webinars"
     },
     "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
-    "image": "webinar-22.jpg",
+    "image": "connect-webinar-22.jpg",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "If we stop to think about what we look at most during the day, the answer would probably not be our family or friends, nor our clients or colleagues. The most feasible option would be our… <a href=\"https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional\">View More ></a>"
+          "If we stop to think about what we look at most during the day, the answer would probably not be our family or friends, nor our clients or colleagues. The most feasible option would be our… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional\">View More ></a>"
         ]
       },
       {
