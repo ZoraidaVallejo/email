@@ -1,0 +1,81 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "November 3, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "November 3, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Estate planning presents the potential for various intrafamilial conflicts that attorneys must be capable of spotting and handling ethically in their practices.",
+      "You’re invited to join Leah Del Percio, attorney and founder of Trustate, as she discusses how attorneys can employ strategies to mitigate conflicts in a members-only presentation on Friday, November 3, 2023, at 3:00 p.m. ET./12:00 p.m. PT.",
+      "This presentation is approved for <strong>one hour of Legal Ethics MCLE credit</strong> in California.",
+      "<strong>*Please note:</strong> While all Justia Connect members are invited to attend our free webinars, you must <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to be eligible to earn MCLE credit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
+      "text": "Register Now",
+      "width": 250
+    }
+  },
+  "registration-2": {
+    "banner": "",
+    "details": {
+      "date": "November 3, 2023",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Estate planning presents the potential for various intrafamilial conflicts that attorneys must be capable of spotting and handling ethically in their practices.",
+      "Please join Leah Del Percio, attorney and founder of Trustate, as she discusses effective strategies to mitigate conflicts during Estate Planning in a members-only presentation on Friday, November 3, 2023, at 3:00 p.m. ET./12:00 p.m. PT.",
+      "This presentation is approved for <strong>one hour of Legal Ethics MCLE credit</strong> in California.",
+      "<strong>*Please note:</strong> While all Justia Connect members are invited to attend our free webinars, you must <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to be eligible to earn MCLE credit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
+      "text": "Register Now",
+      "width": 250
+    }
+  }
+}
