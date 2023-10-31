@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "A Pug’s Tale"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "hugpug-01.jpg",
+        "alt": "Happy Pug-O-Ween!"
+      },
+      "blockTitle": "Happy Pug-O-Ween!",
+      "description": [
+        "Halloween's not just for humans. Zoey the Hug Pug got into the spirit as well. Here she is dressed as__"
+      ]
+    }
+  ]
+}

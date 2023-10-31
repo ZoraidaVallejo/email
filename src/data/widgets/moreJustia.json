@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "More From Justia"
+  },
+  "banner": "more-justia.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Webinar: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+      "link": "https://onward.justia.com/webinar-is-hyperconnectivity-helping-or-harming-the-legal-professional/",
+      "details": "Justia Team | October 26, 2023",
+      "index": "1"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
