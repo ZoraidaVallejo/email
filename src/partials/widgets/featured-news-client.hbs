@@ -4,7 +4,7 @@
 
 {{!
 // TODO: Chat with Pris and Haydee about the naming convention for the config variables.
-// In this case it uses featuredNewsJLD because both Newsletters shared the same info,
+// In this case it uses featuredNewsCLIENT because both Newsletters shared the same info,
 // but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
 }}
 
@@ -12,13 +12,13 @@
 // TODO: Fix anotations.
 }}
 
-{{#and featuredNewsJLD.link (compare featuredNewsJLD.link "!==" "")}}
-  {{assign "featuredNewsJLDTitleLink" (concat featuredNewsJLD.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
-  {{assign "featuredNewsJLDImageLink" (concat featuredNewsJLD.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{#and featuredNewsCLIENT.link (compare featuredNewsCLIENT.link "!==" "")}}
+  {{assign "featuredNewsCLIENTTitleLink" (concat featuredNewsCLIENT.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsCLIENTImageLink" (concat featuredNewsCLIENT.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
 {{/and}}
 
-{{#and featuredNewsJLD.button (compare featuredNewsJLD.button.link "!==" "")}}
-  {{assign "featuredNewsJLDButtonLink" (concat featuredNewsJLD.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{#and featuredNewsCLIENT.button (compare featuredNewsCLIENT.button.link "!==" "")}}
+  {{assign "featuredNewsCLIENTButtonLink" (concat featuredNewsCLIENT.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
@@ -29,8 +29,8 @@
 {{#table class="widget w-featured-news set-max-width"}}
 
   {{>widget-header
-    header=featuredNewsJLD.widget.header
-    icon=featuredNewsJLD.widget.icon
+    header=featuredNewsCLIENT.widget.header
+    icon=featuredNewsCLIENT.widget.icon
   }}
 
   {{!--
@@ -41,18 +41,18 @@
       <div class="widget-wrapper">
 
         {{>widget-banner
-          imgSrc=featuredNewsJLD.banner
-          imgAlt=featuredNewsJLD.title
-          link=@root.featuredNewsJLDImageLink
+          imgSrc=featuredNewsCLIENT.banner
+          imgAlt=featuredNewsCLIENT.title
+          link=@root.featuredNewsCLIENTImageLink
         }}
 
         <h3 class="content-title">
-          <a href="{{{@root.featuredNewsJLDTitleLink}}}" target="_blank">
-            {{{featuredNewsJLD.title}}}
+          <a href="{{{@root.featuredNewsCLIENTTitleLink}}}" target="_blank">
+            {{{featuredNewsCLIENT.title}}}
           </a>
         </h3>
 
-        {{#each featuredNewsJLD.description}}
+        {{#each featuredNewsCLIENT.description}}
           <p>{{{this}}}</p>
         {{/each}}
 
@@ -62,8 +62,8 @@
           {{#if @root.widgetWithButton}}
 
               <div class="widget-button">
-                {{#uiButton presetStyle=featuredNewsJLD.button.style href=@root.featuredNewsJLDButtonLink}}
-                  {{featuredNewsJLD.button.text}}
+                {{#uiButton presetStyle=featuredNewsCLIENT.button.style href=@root.featuredNewsCLIENTButtonLink}}
+                  {{featuredNewsCLIENT.button.text}}
                 {{/uiButton}}
               </div>
 
