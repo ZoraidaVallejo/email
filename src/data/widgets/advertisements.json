@@ -1,0 +1,31 @@
+{
+  "blue": {
+    "title": "You have unlocked access to your  Justia Lawyer Directory profile traffic statistics for the next 24 hours!",
+    "image": "stats-banner-jld.png",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "View Your Stats",
+          "width": 260,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 24,
+          "responsive": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>To increase your visibility and unlock access to your profile traffic statistics at any time, get <b>Justia Premium Placements</b> in the <b>Justia Lawyer Directory</b>.</p>"
+        ]
+      }
+    ]
+  }
+}
