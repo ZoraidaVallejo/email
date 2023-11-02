@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "New Furry Members"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "<i>We're thrilled to introduce our four newest family members. These adorable furry additions to our household are two-month-old Chihuahuas. Not only are they incredibly playful, but they also have quite the appetite. Let us introduce them: Lana, our precious little girl; Johnny, the feistiest and bravest of the pack; Taylor, the one destined for stardom; and Bob, our charming little boy.</i>",
+          "<i>— Manu Maldonado</i>"
+        ]
+      }
+    }
+  ]
+}

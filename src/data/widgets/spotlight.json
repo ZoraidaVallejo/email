@@ -1,0 +1,15 @@
+{
+  "widget": {
+    "type": "Justia Employee Spotlight",
+    "header": "Diego Lopez Won 2nd Place in a Programming Contest at his University."
+  },
+  "imageTop": "spotlight-01.png",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "We hosted our latest Just Meet Up! on October 18th, focusing on open-source AI tools (from users to developers). Alonso delivered an engaging presentation that drew over 20 students and numerous other Justians who stuck around to join the presentation. The event started at 6 p.m. (Central time) and continued until 9:30 p.m. It was a fantastic evening of sharing and debating ideas; everyone was genuinely excited about it."
+      ]
+    }
+  ]
+}

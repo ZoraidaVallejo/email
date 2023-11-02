@@ -1,0 +1,49 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
+  },
+  "description": {
+    "top": [
+      ""
+    ],
+    "bottom": [
+      ""
+    ]
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Professionalism and the Social Media Age: Leveraging LinkedIn for Success"
+      },
+      "readMore": "https://onward.justia.com/professionalism-and-the-social-media-age-leveraging-linkedin-for-success/",
+      "blockTitle": "Professionalism and the Social Media Age: Leveraging LinkedIn for Success"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "Google Launches Broad Core Algorithm Update for October 2023"
+      },
+      "readMore": "https://onward.justia.com/google-launches-broad-core-algorithm-update-for-october-2023/",
+      "blockTitle": "Google Launches Broad Core Algorithm Update for October 2023"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Justia Legal Guides: International Law Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-guides-international-law-center/",
+      "blockTitle": "Justia Legal Guides: International Law Center"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "14 Essential Elements for Your Law Firm Website Homepage"
+      },
+      "readMore": "https://onward.justia.com/14-essential-elements-for-your-law-firm-website-homepage/",
+      "blockTitle": "14 Essential Elements for Your Law Firm Website Homepage"
+    }
+  ]
+}

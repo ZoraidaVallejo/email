@@ -1,0 +1,44 @@
+{{! ================================================================================================================= }}
+{{! I N S I D E   J U S T I A                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{assign "adClasses" (classList "widget" "w-new-people" widgetClass "set-max-width")}}
+
+{{#table class=(classList "widget" "w-new-people" widgetClass "set-max-width")}}
+  {{>widget-header
+    header=newPeople.widget.header
+    type=newPeople.widget.type
+  }}
+
+  {{#if newPeople.singleColumn}}
+
+    {{#each newPeople.columns}}
+
+      {{>widget-banner imgSrc=this.image.src imgAlt=this.image.alt}}
+
+      {{!--
+      // TODO: Maybe move title and description to a component.
+      // TODO: Fix classes for content.
+      --}}
+      <tr>
+        <td class="widget-description -no-button" responsive="mobile-padding-horizontal-sides">
+          {{#if this.name}}
+            <p class="content-subtitle">
+              {{{this.name}}}
+            </p>
+          {{/if}}
+          {{#each this.bio}}
+            <p>{{{this}}}</p>
+          {{/each}}
+        </td>
+      </tr>
+    {{/each}}
+
+  {{else}}
+    {{>widget-columns-with-image widgetConfig=newPeople.columns isLast=true}}
+  {{/if}}
+{{/table}}

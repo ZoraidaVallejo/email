@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justians on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "http://justatic.com/v/1/emails/images/insider/common/birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "05",
+            "name": "Diana Gonzalez"
+          },
+          {
+            "day": "06",
+            "name": "Amanda Newman"
+          },
+          {
+            "day": "12",
+            "name": "Omar Carreon"
+          },
+          {
+            "day": "25",
+            "name": "Ana Aguilar"
+          },
+          {
+            "day": "29",
+            "name": "Jorge Contreras"
+          },
+          {
+            "day": "30",
+            "name": "Andres Sanchez"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Angel Ponce",
+            "years": "14th"
+          },
+          {
+            "name": "Valeria Dimas",
+            "years": "8th"
+          },
+          {
+            "name": "Alejandro Moreno",
+            "years": "5th",
+            "class": "fifth-icon"
+          }
+        ]
+      }
+    }
+  ]
+}
