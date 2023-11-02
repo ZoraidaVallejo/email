@@ -73,7 +73,7 @@
             {{#forIn this.config}}
               {{#compare @key "===" "birthdays"}}
                 <div class="content-side -birthdays" responsive="collapse-one mobile-no-padding">
-                  <strong responsive="mobile-padding-top mobile-padding-20-bottom"><span></span>Birthdays of<br> the Month</strong>
+                  <strong responsive="mobile-padding-top mobile-padding-20-bottom"><span></span>Birthdays of the Month</strong>
                   <ul responsive="collapse-one mobile-no-margin mobile-no-padding-horizontal-sides mobile-padding-30-bottom">
                     {{#each ../config.birthdays}}
                       <li><b>{{{this.day}}}</b> {{{this.name}}}</li>
