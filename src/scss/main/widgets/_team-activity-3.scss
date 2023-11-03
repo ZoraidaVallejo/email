@@ -60,7 +60,7 @@
             }
 
             > div {
-                // padding-bottom: 28px;
+                // padding-bottom: 50px;
                 @include mail-font(16px);
 
                 b,
@@ -92,7 +92,7 @@
         }
 
         &.-description {
-            padding: 0 $padding 25px;
+            padding: 0 $padding 75px;
         }
     }
 

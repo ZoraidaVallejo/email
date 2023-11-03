@@ -1,9 +1,7 @@
 {
-  "widget": {
-    "type": "TEAM ACTIVITY",
-    "header": "Justia Ghoulie Awards 2023"
-  },
-  "imageTop": "event-halloween.png",
+  "type": "TEAM ACTIVITY",
+  "title": "Justia Ghoulie Awards 2023",
+  "image": "event-halloween.png",
   "contentOrder": [
     {
       "type": "description",
