@@ -1,0 +1,66 @@
+{
+  "widget": {
+    "header": "Explore Our On-Demand Webinars"
+  },
+  "events": [
+    {
+      "icon": "play-icon.png",
+      "category": "",
+      "title": "Virtual Isolation: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+      "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
+      "speakers": "Brian S. Quinn",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "2023-2024 Supreme Court Term Preview",
+      "link": "https://connect.justia.com/webinars/supreme-court-2022-23-term-in-review",
+      "speakers": "Vikram Amar, Michael Dorf",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "",
+      "title": "Professionalism in the Age of Social Media",
+      "link": "https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin",
+      "speakers": "Andy Brownstein, Marc W. Halpert",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "Balancing the Scales: Practical Stress Management for Lawyers",
+      "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+      "speakers": "Lynn Garson",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    }
+  ],
+  "link": "https://connect.justia.com/webinars/",
+  "type": "button",
+  "config": {
+    "style": "red",
+    "text": "See All Webinars",
+    "width": 205,
+    "height": 50,
+    "borderColor": "",
+    "backgroundColor": "",
+    "fontColor": "",
+    "fontStyle": "",
+    "fontWeight": "",
+    "fontSize": 18,
+    "responsive": ""
+  }
+}
