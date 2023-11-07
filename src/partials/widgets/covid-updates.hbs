@@ -1,0 +1,90 @@
+{{! ================================================================================================================= }}
+{{! C O V I D   U P D A T E S                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+ * @param {string}   covidUpdates.widget.header
+ * @param {string}   covidUpdates.widget.icon
+ * @param {string}   covidUpdates.link
+ * @param {Object[]} covidUpdates.utm
+ * @param {string}   covidUpdates.banner
+ * @param {string}   covidUpdates.title
+ * @param {string[]} covidUpdates.description
+ * @param {string}   widgetClass
+ * @param {Object}   annotator
+ * @param {Object}   annotator.button
+ * @param {string}   covidUpdates.link
+ * @param {Object[]} covidUpdates.list
+ * @param {string}   covidUpdates.list[].link
+ * @param {string}   covidUpdates.list[].utm
+ * @param {string}   covidUpdates.list[].text
+ * @param {Object}   covidUpdates.utm
+ * @param {Object}   covidUpdates.utm.clients
+ * @param {string}   covidUpdates.utm.clients.medium
+ * @param {string}   covidUpdates.utm.clients.campaign
+ * @param {string}   covidUpdates.utm.clients.source
+ * @param {Object}   covidUpdates.utm.clients.content
+ * @param {string}   covidUpdates.utm.clients.content.title
+ * @param {string}   covidUpdates.utm.clients.content.image
+ * @param {string}   covidUpdates.utm.clients.content.button
+ * @param {Object}   covidUpdates.utm.jld
+ * @param {string}   covidUpdates.utm.jld.medium
+ * @param {string}   covidUpdates.utm.jld.campaign
+ * @param {string}   covidUpdates.utm.jld.source
+ * @param {Object}   covidUpdates.utm.jld.content
+ * @param {string}   covidUpdates.utm.jld.content.title
+ * @param {string}   covidUpdates.utm.jld.content.image
+ * @param {string}   covidUpdates.utm.jld.content.button
+}}
+
+
+
+{{#and covidUpdates.link (compare covidUpdates.link "!==" "")}}
+  {{assign "covidUpdatesTitleLink" (concat covidUpdates.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "covidUpdatesImageLink" (concat covidUpdates.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+
+{{#and covidUpdates.button (compare covidUpdates.button.link "!==" "")}}
+  {{assign "covidUpdatesButtonLink" (concat covidUpdates.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{assign "covidUpdatesListLink" (concat (utmVariables widgetUtmVars))}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-covid-updates set-max-width"}}
+  {{>widget-header
+    header=covidUpdates.widget.header
+    icon=covidUpdates.widget.icon
+  }}
+
+  <tr>
+    <td class="widget-description" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          imgSrc=covidUpdates.banner
+          imgAlt=covidUpdates.title
+          link=@root.covidUpdatesImageLink
+        }}
+
+        <h3 class="content-title">
+          <a href="{{{@root.covidUpdatesTitleLink}}}" target="_blank">
+            {{{covidUpdates.title}}}
+          </a>
+        </h3>
+
+        {{#each covidUpdates.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{#each covidUpdates.list}}
+          <p><b>&bull;  <a href="{{{this.link}}}{{{@root.covidUpdatesListLink}}}{{{this.utm}}}" target="_blank">{{{this.text}}}</a></b></p>
+        {{/each}}
+      </div>
+    </td>
+  </tr>
+{{/table}}

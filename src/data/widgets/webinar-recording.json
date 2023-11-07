@@ -1,0 +1,164 @@
+{
+  "banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "nov-webinar-recording.jpg"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin",
+    "image": "https://justatic.com/v/2/emails/images/webinars/2023/10/20-webinar-recording-available.png",
+    "t-webinar": "Professionalism in the Age of Social Media: Relevance, Reliability, and Referability on LinkedIn",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Ready to use LinkedIn to better market your practice and build your professional reputation? Watch this on-demand Webinar in which Andy Brownstein, attorney, and Marc Halpert, LinkedIn coach and marketing consultant, discuss best practices for using LinkedIn to generate new contacts, press inquiries, and recognition for your firm."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-2": {
+    "link": "https://connect.justia.com/webinars/2023-2024-supreme-court-term-preview",
+    "image": "https://justatic.com/v/2/emails/images/webinars/2023/10/21-webinar-recording-available.png",
+    "t-webinar": "2023-2024 Supreme Court Term Preview",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Another eventful U.S. Supreme Court Term is underway! Get insights into some of the most anticipated courses of this term by streaming this on-demand CLE course in which Professors Vikram Amar and Michael Dorf discuss key matters on the court's docket in the 2023-2024 term. This course is approved for one hour of General MCLE credit in California."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-3": {
+    "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
+    "image": "22-webinar-recording-available.png",
+    "t-webinar": "Virtual Isolation: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "It is no secret that we are living in an always-connected society! Is this constant state of connectivity helping or harming lawyers? How should the legal profession respond? Watch this on-demand webinar in which Brian S. Quinn of Lawyers Concerned for Lawyers of PA explores the answers to these questions and attorney well-being in a digital society. This presentation is approved for one hour of Competence Issues MCLE credit in California."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "onDemand": {
+    "widget": {
+      "header": "More On-Demand Webinars"
+    },
+    "titleResponsiveSize": 22,
+    "link": "https://connect.justia.com/webinars",
+    "contentOrder": [
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Balancing the Scales: Practical Stress Management for Lawyers",
+          "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "How Laws Get Online: Challenges in Free Law",
+          "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "PPC Advertising in the Legal Industry: Challenges and Opportunities",
+          "link": "https://connect.justia.com/webinars/ppc-advertising-in-the-legal-industry-challenges-and-opportunities",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Great Life, Great Practice: Four Cornerstones of Law Firm Success",
+          "link": "https://connect.justia.com/webinars/great-life-great-practice-four-cornerstones-of-law-firm-success",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "Practice Law With AI (Without Losing Your Law License)",
+          "link": "https://connect.justia.com/webinars/practice-law-with-ai-without-losing-your-law-license",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      }
+    ]
+  }
+}
