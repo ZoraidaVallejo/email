@@ -1,0 +1,73 @@
+// ----------------------------------------------------------------------------------------------------------
+// J O B S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+$jobs-location-pin-dimensions: 10px 16px;
+
+// ----------------------------------------------------------------------------------------------------------
+
+.w-jobs {
+    border-bottom: 1px solid plt('gallery');
+    background-color: plt('white');
+}
+
+.jobs-listing {
+    padding: 0 $padding 40px;
+
+    &.-first {
+        padding: 35px $padding 40px;
+    }
+
+    .location-name {
+        padding: 0 0 14px;
+        border-bottom: 1px solid plt('justia-blue');
+        color: plt('justia-blue');
+
+        td {
+            vertical-align: top;
+        }
+
+        .pin {
+            width: 20px;
+            padding: 3px 0 0;
+
+            img {
+                @include size($jobs-location-pin-dimensions...);
+            }
+        }
+
+        .name p {
+            @include mail-font(18px, 1.2);
+        }
+    }
+
+    .available-jobs {
+
+        tr {
+            border-bottom: 1px solid plt('alto');
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        .description {
+            width: $inner-max-width - 110px - 10px;
+            padding: 25px 10px 25px 0;
+
+            .position {
+                color: plt('justia-blue');
+            }
+
+            .company {
+                color: plt('dove-gray');
+            }
+        }
+
+        .details-button {
+            width: 110px + 10px;
+            padding: 25px 0;
+            text-align: right;
+        }
+    }
+}
