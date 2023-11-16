@@ -1,0 +1,25 @@
+{
+  "widget": {
+    "header": "More Free Upcoming Webinars"
+  },
+  "events": [
+    {
+      "day": "01",
+      "month": "Dec",
+      "category": "CLE",
+      "title": "Ethical Evolution: Thriving at the Crossroads of Law and Business in the AI Era",
+      "link": "https://connect.justia.com/webinars/ethical-evolution-thriving-at-the-crossroads-of-law-and-business-in-the-ai-era",
+      "speakers": "Tom Shack",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "08",
+      "month": "Dec",
+      "category": "CLE",
+      "title": "Content Creator Law by a Content Creator",
+      "link": "https://connect.justia.com/webinars/content-creator-law-by-a-content-creator",
+      "speakers": "Julian Sarafian",
+      "cta": "Learn More >"
+    }
+  ]
+}
