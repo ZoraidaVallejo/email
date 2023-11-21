@@ -170,6 +170,11 @@
     .-message {
         padding: 12px 0;
     }
+
+    .-disclaimer {
+        @include mail-font(14px);
+        font-style: italic;
+    }
 }
 
 .widget.post-webinar {
