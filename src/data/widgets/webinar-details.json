@@ -1,0 +1,67 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "December 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "December 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Content creation is one of the newest professions brought about by modern social media! Brands across the country are starting to partner with content creators for marketing deals and product promotions. What legal issues arise in these contexts?",
+      "Join Julian Sarafian, attorney and content creator, for <a href=\"https://connect.justia.com/webinars/content-creator-law-by-a-content-creator\">Content Creator Law by a Content Creator</a>, a members-only presentation being held on Friday, December 8, 2023 at 2:00 p.m. ET/11:00 a.m. PT."
+    ],
+    "bottomline": [
+      "<strong>Free Registration Now Available!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/content-creator-law-by-a-content-creator",
+      "text": "Register Today",
+      "width": 250
+    },
+    "message3": [
+      "<strong>*Please note:</strong> This presentation is accredited for one hour of General MCLE Credit in California, North Carolina, and South Caroline. It has been submitted and is pending review for Minimum Continuing Legal Education credit by the State Bar of Texas Committee on MCLE in the amount of one credit hour.",
+      "If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
+  }
+}

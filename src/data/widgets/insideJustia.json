@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.png",
+        "alt": "Where in the World Are Justians?"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>Where in the World Are Justians?</b>",
+      "description": [
+        "As the Justia Team continues to work remotely, Justians are spread far and wide across small towns and big cities in the United States and Mexico. Check out some photos from a few of the places where we live and work!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.jpg",
+        "alt": "Zoey Represents Justia"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Zoey Represents Justia</b>",
+      "description": [
+        "For National Pet Day this year, Zoey shared the celebration with her favorite legal marketing company! She proudly embraced her new Justia bandana and showed it off to all of her friends."
+      ]
+    }
+  ]
+}
