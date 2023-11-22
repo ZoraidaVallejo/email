@@ -1,0 +1,41 @@
+{
+  "blue": {
+    "title": "Earn More With Justia Premium Placements",
+    "image": "firms-money-jld-banner.jpg",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>'Tis the season for gatherings with loved ones, tasty treats, and... spending. From end-of-year bills to holiday bonuses and more, law firms and lawyers alike often feel the pinch at this time of year.  </p>",
+          "<p><b>Justia Premium Placements can help your firm alleviate the pressure by bringing in new leads for December and beyond!</b> Lawyers with a Justia Premium Placement get up to 280x more visibility in a directory visited by over 1,000,000 potential clients each month.  </p>",
+          "<p>Request your free consultation today to learn more. A member of our team will be in touch soon.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Contact Me Please",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/?utm_source=campaign-{id}-promo-{id}&utm_medium=email&utm_campaign=elevate-ai-writer-launch&utm_content=button-learn-more-1"
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Can't wait and want more clients ASAP?  </p>",
+          "<p> Give us a call today at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  }
+}
