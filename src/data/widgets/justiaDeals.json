@@ -1,0 +1,39 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "livechat-logo.png",
+        "alt": "LiveChat",
+        "title": "LiveChat",
+        "border": true,
+        "description": [
+          "Are you considering switching to a new chat solution? Justia Connect members who are new to LiveChat can take advantage of an extended trial period and 10% off your first bill!"
+        ],
+        "imageLink": "https://connect.justia.com/legal-deals/livechat/chat-10-percent-off",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/livechat/chat-10-percent-off/?utm_medium=email&utm_campaign=2023-11&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "suitcases-icon.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "The holiday travel season has arrived! Need a place to stay while visiting family or taking a vacation? Your Justia Connect membership can help you save up to 60% on hotels worldwide."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:648173?utm_medium=email&utm_campaign=2023-11&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

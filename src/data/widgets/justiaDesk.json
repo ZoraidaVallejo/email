@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Justia Launches Justia AI Writer: New Tool to Generate Law Firm Website Content",
+      "link": "hhttps://onward.justia.com/justia-launches-justia-ai-writer-new-tool-to-generate-law-firm-website-content/",
+      "description": "Do you wish you could effortlessly draft content for your law firm website with just a few clicks? Now, you can! Discover Justia AI Writer – our new, exclusive tool available only to lawyers with a Justia Elevate law firm...",
+      "index": "1"
+    },
+    {
+      "title": "Justia Lawyer Directory by the Numbers: Third Quarter 2023",
+      "link": "https://onward.justia.com/justia-lawyer-directory-by-the-numbers-third-quarter-2023/",
+      "description": "The third quarter of this year is now in the rearview mirror! That means it is time for another edition of Justia Lawyer Directory by the Numbers. Want to know more about the lawyers appearing in our directory? This is...",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

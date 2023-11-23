@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "header": "Breaking News Alert From Justia"
+  },
+  "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news.png",
+  "title": "Ben & Jerry’s Sues Unilever to Prevent Sale of Ice Cream in the West Bank",
+  "description": [
+    "After years of discussion regarding the human rights implications surrounding the sale of Ben and Jerry’s products in the West Bank territory occupied by Israel, the matter has made it to federal court with Ben and Jerry’s suing its parent company in an effort to stop sales through a third-party distributor. You can track developments in the case using <b><a href='https://dockets.justia.com/docket/new-york/nysdce/1:2022cv05681/582605?utm_medium=email&utm_campaign=2022-04&utm_source=monthly-connect-pro-newsletter&utm_content=link-alert-news-1' target='_blank'>Justia Dockets</a></b>."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/ben-jerrys-sues-unilever-to-prevent-sale-of-ice-cream-in-the-west-bank/",
+    "text": "Read More"
+  }
+}
