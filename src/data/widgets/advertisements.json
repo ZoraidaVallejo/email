@@ -1,0 +1,84 @@
+{
+  "blue": {
+    "image": "connect-sign-up-confirmation-banner-2x.png",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Please confirm your request to sed quis ligula sit amet libero blandit consequat sit amet a velit consequat sit amet a velit as</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Click Here to Confirm",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Please do not reply to this email to confirm your email address. If you are unable to click the button above, please copy and paste the following link into your browser: _________________.</p>"
+        ]
+      }
+    ]
+  },
+  "pro": {
+    "image": "connect-pro-credit.gif",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>The season of giving is here! Give yourself the gift of  <b>Justia Connect Pro</b>, and we'll give you the gift of a $200 Justia Credit, applicable to eligible Justia Marketing Solutions*.</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p><b>It's that easy!</b></p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Get Justia Connect Pro",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p> Give us a call today at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p> *See <a href=\"https://connect.justia.com/pro/terms/credit\" target=\"_blank\"><span>Justia Connect Pro Credit Terms of Use</span></a> for details.</p>"
+        ]
+      }
+    ]
+  }
+}
