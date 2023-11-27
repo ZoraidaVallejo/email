@@ -64,6 +64,30 @@
       "If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
     ]
   },
+  "registration-2": {
+    "banner": "",
+    "details": {
+      "date": "December 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Content creator law is a rapidly developing practice area as the creator economy grows! Our next Justia Webinar is exploring the legal issues faced by content creators.",
+      "Join Julian Sarafian, attorney and content creator, for <a href=\"https://connect.justia.com/webinars/content-creator-law-by-a-content-creator\">Content Creator Law by a Content Creator</a>, a members-only presentation, tomorrow at 2:00 p.m. ET/11:00 a.m. PT."
+    ],
+    "bottomline": [
+      "<strong>Free Registration Now Available!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/content-creator-law-by-a-content-creator",
+      "text": "Register Today",
+      "width": 250
+    },
+    "message3": [
+      "<span class=\"-disclaimer\"><strong>*Please note:</strong> This presentation is accredited for one hour of General MCLE Credit in California, North Carolina, and South Caroline. It is approved for Minimum Continuing Legal Education credit by the State Bar of Texas Committee on MCLE in the amount of one credit hour.<span>",
+      "If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
+  },
   "reminder-event-next-week": {
     "banner": "",
     "details": {
@@ -99,5 +123,35 @@
     "message2": [
       "If you have any questions about verification, please <a href=\"http://support.justia.com\">contact Justia Support</a>."
     ]
+  },
+  "reminder-event-today": {
+    "banner": "",
+    "details": {
+      "date": "December 8, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/content-creator-law-by-a-content-creator\">Content Creator Law by a Content Creator</a> today  at 2:00 p.m. ET/11:00 a.m. PT.",
+      "You can <a href=\"#\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ],
+    "message3": [
+      "<span class=\"-disclaimer\"><strong>*Please note:</strong> This presentation is accredited for one hour of General MCLE Credit in California, North Carolina, and South Carolina. It is approved for Minimum Continuing Legal Education credit by the State Bar of Texas Committee on MCLE in the amount of one credit hour.<span>",
+      "If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit."
+    ]
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>Content Creator Law by a Content Creator</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
