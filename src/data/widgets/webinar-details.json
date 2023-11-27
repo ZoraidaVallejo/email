@@ -122,6 +122,24 @@
     ],
     "message2": [
       "If you have any questions about verification, please <a href=\"http://support.justia.com\">contact Justia Support</a>."
+    ],
+    "message3": [
+      "<span class=\"-disclaimer\"><b>*Please note:</b> This presentation has been approved for Minimum Continuing Legal Education credit by the State Bar of Texas Committee on MCLE in the amount of one credit hour, of which one hour will apply to legal ethics credit. It is also approved for 1.0 of Legal Ethics Credit in California, North Carolina, and South Carolina (all levels).</span>",
+      "While the presentation is free for all lawyers to attend, attorneys seeking CLE credit must <a href=\"https://connect.justia.com/pro\">upgrade to Justia Connect Pro</a>."
     ]
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>Ethical Evolution: Thriving at the Crossroads of Law and Business in the AI Era</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
