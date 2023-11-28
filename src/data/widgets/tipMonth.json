@@ -1,17 +1,17 @@
 {
-  "client": {
+  "clients": {
     "widget": {
       "header": "Tip of the Month"
     },
-    "banner": "tip-month.jpg",
-    "title": "Check Out the New, Free Justia Legal Dictionary",
+    "link": "",
+    "title": "Save on Taxes",
     "description": [
-      "Encountered a new area of the law in your legal research? Want to quickly check the definition of a legal term? We recently launched our new Justia Legal Dictionary, so you can easily look up legal terms on any device - no research log-ins or physical dictionaries required!"
+      "Before the year ends, contact us if you wish to advance your payments or purchase Justia Premium Placements in the Justia Lawyer Directory as part of your tax planning. Justia <a href='https://www.justia.com/marketing/lawyer-directory/' target='_blank'>Premium Placements</a> provide higher visibility in the directory along with other benefits."
     ],
     "button": {
       "style": "red",
-      "link": "https://dictionary.justia.com/",
-      "text": "Browse Dictionary",
+      "link": "",
+      "text": "",
       "width": 200
     }
   },
@@ -19,15 +19,15 @@
     "widget": {
       "header": "Tip of the Month"
     },
-    "link": "https://dictionary.justia.com/",
-    "title": "Check Out the New, Free Justia Legal Dictionary",
+    "link": "",
+    "title": "Save on Taxes",
     "description": [
-      "Encountered a new area of the law in your legal research? Want to quickly check the definition of a legal term? We recently launched our new Justia Legal Dictionary, so you can easily look up legal terms on any device - no research log-ins or physical dictionaries required!"
+      "Before the year ends, contact us if you wish to advance your payments or purchase Justia Premium Placements in the Justia Lawyer Directory as part of your tax planning. Justia <a href='https://www.justia.com/marketing/lawyer-directory/' target='_blank'>Premium Placements</a> provide higher visibility in the directory along with other benefits."
     ],
     "button": {
       "style": "red",
-      "link": "https://dictionary.justia.com/",
-      "text": "Browse Dictionary",
+      "link": "",
+      "text": "",
       "width": 200
     }
   }

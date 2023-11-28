@@ -6,9 +6,9 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v75"
+        "content": "banner-premium-memberships-v6"
       },
-      "image": "premium-placement-2023-11.gif"
+      "image": "premium-placement-2023-12.jpg"
     },
     "ad2": {}
   },
@@ -19,9 +19,9 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v75"
+        "content": "banner-premium-memberships-v6"
       },
-      "image": "premium-placement-2023-11.gif"
+      "image": "premium-placement-2023-12.jpg"
     }
   }
 }

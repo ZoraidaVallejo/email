@@ -18,7 +18,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-webinar widgetUtmVars=featuredWebinar.utm.clients}}
 
-        {{>featured-news-client widgetUtmVars=featuredNewsCLIENT.utm.clients}}
+        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
+        <!-- {{>featured-news-client widgetUtmVars=featuredNewsCLIENT.utm.clients}} IF FEATURED NEWs IS DIFFERENT PLEASE USE THIS-->
 
         {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
 
@@ -40,23 +41,27 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>jobs-subscribe}} --}}
 
-        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
-
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-        {{>tip-month widgetConfig=tipMonth.client}}
+         {{>tip-month widgetConfig=tipMonth.clients}}
 
-        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
+         {{!-- {{>upcoming-events widgetConfig=upcomingEvents.clients}} --}}
 
-        {{>events-we-attended}}
+         {{!-- {{>events-we-attended}} --}}
 
-        {{>trending-news}}
+         {{>trending-news}}
 
-        {{>inside-justia}}
+         {{>more-justia widgetUtmVars=moreJustia.utm.clients}}
 
-        {{>jurispro}}
+         {{>meet-our-team}}
 
-        {{>law-events}}
+         {{>hug-pug}}
+
+         {{!-- {{>did-you-know widgetConfig=didYouKnow.clients}} --}}
+
+         {{>jurispro}}
+
+         {{>law-events}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
