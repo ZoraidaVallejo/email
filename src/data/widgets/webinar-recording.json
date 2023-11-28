@@ -82,8 +82,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Virtual Isolation: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+          "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -98,8 +98,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "2023-2024 Supreme Court Term Preview",
+          "link": "https://connect.justia.com/webinars/2023-2024-supreme-court-term-preview",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -114,8 +114,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Professionalism in the Age of Social Media: Relevance, Reliability, and Referability on LinkedIn",
+          "link": "https://connect.justia.com/webinars/professionalism-in-the-age-of-social-media-relevance-reliability-and-referability-on-linkedin",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -130,8 +130,24 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Balancing the Scales: Practical Stress Management for Lawyers",
+          "link": "https://connect.justia.com/webinars/balancing-the-scales-practical-stress-management-for-lawyers",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "How Laws Get Online: Challenges in Free Law",
+          "link": "https://connect.justia.com/webinars/how-laws-get-online-challenges-in-free-law",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
