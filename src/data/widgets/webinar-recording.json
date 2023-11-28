@@ -1,17 +1,17 @@
 {
   "banner": {
     "link": "https://connect.justia.com/webinars/",
-    "bannerimg": "21-webinar-recording.png"
+    "bannerimg": "nov-webinar-recording.jpg"
   },
   "webinar-1": {
-    "link": "https://connect.justia.com/webinars/",
-    "image": "21-webinar-recording-available.png",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "link": "https://connect.justia.com/webinars/build-your-all-star-team-with-inclusive-interviewing",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/11/24-webinar-recording-available.png",
+    "t-webinar": "Build Your All-Star Team With Inclusive Interviewing",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Even law firms that make a conscious effort to promote diversity often find that implicit biases impact recruiting and retention efforts. Watch this on-demand course to learn more about implicit bias in law firm hiring and retention and how you can combat this in your practice. This program is eligible for one hour of Implicit Bias MCLE credit in California, one hour of General MCLE credit in South Carolina, and one hour of MCLE credit in Texas, of which one hour applied to the Legal Ethics requirement."
         ]
       },
       {
@@ -27,14 +27,37 @@
     ]
   },
   "webinar-2": {
-    "link": "https://connect.justia.com/webinars/",
-    "image": "21-webinar-recording-available.png",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/11/23-webinar-recording-available.jpg",
+    "t-webinar": "Navigating & Mitigating Ethical Conflicts in Estate Administration & Planning",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Estate Planning attorneys often face a unique web of ethical challenges in their practices. Stream this webinar to explore the different types of intrafamilial conflicts faced by estate attorneys and strategies to mitigate them. Please note, this course is eligible for one hour of Legal Ethics MCLE credit in California."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-3": {
+    "link": "https://connect.justia.com/webinars/driving-your-success-essential-habits-for-law-firm-associates-in-the-post-pandemic-landscape",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/11/25-webinar-recording-available.jpg",
+    "t-webinar": "Navigating & Mitigating Ethical Conflicts in Estate Administration & Planning",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "In today's rapidly evolving legal landscape and workplace, associates must develop certain habits and skills that lead not only to improved legal acumen but also to meaningful relationships, a differentiated reputation, and individually aligned professional opportunities. Stream this on-demand webinar to learn more about the ways law firm associates can position themselves for success in the legal profession."
         ]
       },
       {
