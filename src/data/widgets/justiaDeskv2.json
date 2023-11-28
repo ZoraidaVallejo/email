@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Justia Legal Guides: Criminal Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-criminal-law-center/",
+      "description": "Facing a criminal charge is daunting, but defendants have important rights to protect. The Criminal Law Center at Justia explains the elements of many crimes and a variety of potential defense strategies.",
+      "details": "Chris Skelton | October 31, 2023",
+      "index": "1"
+    },
+    {
+      "title": "Webinar: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+      "link": "https://onward.justia.com/webinar-is-hyperconnectivity-helping-or-harming-the-legal-professional/",
+      "description": "In a fast-paced, always-connected world, it is no secret that technology plays a significant role in our daily lives. How is our constantly connected culture impacting the mental health of lawyers? How should the legal profession react? This webinar explores the answers to these questions.",
+      "details": "Justia Team | October 26, 2023",
+      "index": "2"
+    },
+    {
+      "title": "Google Launches Broad Core Algorithm Update for October 2023",
+      "link": "https://onward.justia.com/google-launches-broad-core-algorithm-update-for-october-2023/",
+      "description": "In the ever-evolving landscape of online search, Google's October 2023 core update is rolling out, with the anticipated full implementation taking up to two weeks. Notably, this marks the third core algorithm adjustment in 2023.",
+      "details": "Justia Team | October 9, 2023",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "More From Justia"
+  },
+  "banner": "more-justia.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Justia Legal Guides: International Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-international-law-center/",
+      "details": "Chris Skelton | October 13, 2023",
+      "index": "1"
+    },
+    {
+      "title": "News & Notes From Google Local Services Ads: October 2023",
+      "link": "https://onward.justia.com/news-notes-from-google-local-services-ads-october-2023/",
+      "details": "Justia Amplify Team | October 5, 2023",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

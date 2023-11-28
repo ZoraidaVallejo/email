@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Meet Our Team"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "our-team-01.jpg",
+        "alt": "Justians Get Spooky"
+      },
+      "blockTitle": "Justians Get Spooky",
+      "description": [
+        "In keeping with our annual tradition, the Justia Team participated in our annual Halloween celebration and costume contest: The Ghoulie Awards. Some costumes were scary, some were silly, but everyone had a great time getting into the Halloween spirit."
+      ]
+    }
+  ]
+}
