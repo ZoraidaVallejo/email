@@ -8,11 +8,11 @@
     "clients": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "client-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-webinar-title-1",
         "image": "image-webinar-1",
-        "button": "button-learn-more-1"
+        "button": "button-register-now-1"
       }
     },
     "jld": {
@@ -22,7 +22,7 @@
       "content": {
         "title": "text-webinar-title-1",
         "image": "image-webinar-1",
-        "button": "button-learn-more-1"
+        "button": "button-register-now-1"
       }
     }
   },

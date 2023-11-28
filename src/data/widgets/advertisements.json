@@ -6,7 +6,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v6"
+        "content": "banner-premium-memberships-v74"
       },
       "image": "premium-placement-2023-12.jpg"
     },
@@ -19,7 +19,7 @@
         "medium": "email",
         "campaign": "<%= dateFormat.dash %>",
         "source": "insights-newsletter",
-        "content": "banner-premium-memberships-v6"
+        "content": "banner-premium-memberships-v74"
       },
       "image": "premium-placement-2023-12.jpg"
     }

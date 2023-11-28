@@ -4,26 +4,32 @@
     "header": "More From Justia"
   },
   "banner": "more-justia.jpg",
-  "imageLink": "https://onward.justia.com/",
+  "imageLink": "https://onward.justia.com/?utm_medium=email&utm_campaign=2023-12&utm_source=insights-newsletter&utm_content=image-more-from-justia-1",
   "news": [
     {
-      "title": "News & Notes From Google Local Services Ads: November 2023",
-      "link": "https://onward.justia.com/news-notes-from-google-local-services-ads-november-2023/",
-      "details": "Justia Amplify Team | November 15, 2023",
+      "title": "Justia Legal Guides: Medical Malpractice Law Center",
+      "link": "https://onward.justia.com/justia-legal-guides-medical-malpractice-law-center/",
+      "details": "Chris Skelton | November 10, 2023",
       "index": "1"
+    },
+    {
+      "title": "Promoting Success by Reducing Bias in Recruitment and Talent Management at Your Law Firm",
+      "link": "https://onward.justia.com/promoting-success-by-reducing-bias-in-recruitment-and-talent-management-at-your-law-firm/",
+      "details": "Justia Team | November 8, 2023",
+      "index": "2"
     },
     {
       "title": "Google Unveils November 2023 Broad Core Algorithm Update",
       "link": "https://onward.justia.com/google-unveils-november-2023-broad-core-algorithm-update/",
       "details": "Justia Team | November 3, 2023",
-      "index": "2"
+      "index": "3"
     }
   ],
   "utm": {
     "clients": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "client-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-more-justia-title-",
         "button": "text-more-justia-suscribe-now-1"

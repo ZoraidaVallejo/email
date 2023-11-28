@@ -14,25 +14,25 @@
       "index": "1"
     },
     {
-      "title": "Promoting Success by Reducing Bias in Recruitment and Talent Management at Your Law Firm",
-      "link": "https://onward.justia.com/promoting-success-by-reducing-bias-in-recruitment-and-talent-management-at-your-law-firm/",
-      "description": "Data shows that focusing on diversity and inclusion not only improves your business’ recruitment and retention efforts but also increases the company’s profitability and performance. To learn more about inclusive talent management for your law firm, view this recent Justia Webinar.",
-      "details": "Justia Team | November 8, 2023",
-      "index": "1"
+      "title": "Justia Legal Resources: 50-State Surveys",
+      "link": "https://onward.justia.com/justia-legal-resources-50-state-surveys/",
+      "description": "Variations in state laws can shape the rights and protections of employees, consumers, accident victims, criminal defendants, and more. This year, Justia has continued to expand our archive of 50-state surveys on key topics.",
+      "details": "Chris Skelton | November 28, 2023",
+      "index": "2"
     },
     {
-      "title": "Justia Legal Guides: Medical Malpractice Law Center",
-      "link": "https://onward.justia.com/justia-legal-guides-medical-malpractice-law-center/",
-      "description": "When people go to the doctor, they expect to get better rather than worse. Unfortunately, this doesn’t always happen. Justia provides a Medical Malpractice Law Center to help inform injured patients about their legal options.",
-      "details": "Chris Skelton | November 10, 2023",
-      "index": "1"
+      "title": "News & Notes From Google Local Services Ads: November 2023",
+      "link": "https://onward.justia.com/news-notes-from-google-local-services-ads-november-2023/",
+      "description": "We’re back with more updates from the latest edition of the Google Partner newsletter! Read this post to learn more about the recent changes and tweaks that matter most to lawyers using Google Local Services to market their practices.",
+      "details": "",
+      "index": "3"
     }
   ],
   "utm": {
     "clients": {
       "medium": "email",
       "campaign": "<%= dateFormat.dash %>",
-      "source": "client-newsletter",
+      "source": "insights-newsletter",
       "content": {
         "title": "text-justia-desk-title-",
         "button": "text-justia-desk-suscribe-now-1"
