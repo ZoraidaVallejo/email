@@ -154,6 +154,14 @@
             {{/each}}
           </div>
         {{/if}}
+
+        {{#if widgetConfig.message4}}
+          <div class="-message -border-top">
+            {{#each widgetConfig.message4}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </div>
+        {{/if}}
       </div>
     </td>
   </tr>
