@@ -1,0 +1,67 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "December 15, 2023",
+      "time": "3:00 pm ET/12:00 am PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "December 15, 2023",
+      "time": "3:00 pm ET/12:00 am PT"
+    },
+    "message": [
+      "Podcasts, from true crime to comedy and talk shows, require various agreements to move an idea along from vision to production. Lawyers play a critical role in creating these agreements that help bring people’s favorite podcasts to life!",
+      "You’re invited to join Alexia Bedat, Partner at Klaris Law PLLC, for a members-only webinar exploring the role of attorneys in the podcast space, from deal-making to production and beyond. <a href=\"https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution\">Podcasting 101: Advising Clients in Preproduction, Production, and Distribution</a> will be held on Friday, December 15, 2023 at 3:00 p.m. ET/12:00 p.m. PT."
+    ],
+    "bottomline": [
+      "<strong>Seats are limited, and free registration is ongoing!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution",
+      "text": "Register Now",
+      "width": 250
+    },
+    "message3": [
+      "<span class=\"-disclaimer\"><b>*Please note:</b> This presentation is accredited for one hour of General MCLE credit in California, North Carolina, and South Carolina (all levels). It has also been approved for Minimum Continuing Legal Education credit by the State Bar of Texas Committee on MCLE in the amount of one credit hour.</span>",
+      "<span class=\"-disclaimer\">If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"https://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit.</span>"
+    ]
+  }
+}
