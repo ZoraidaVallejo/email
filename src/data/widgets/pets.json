@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "Curious Neyla"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "<i>Meet Neyla, a 3-year-old dog with a predilection for curiosity. She enjoys exploring new scents, discovering different types of food, and investigating various items around the house. Neyla takes it upon herself to inspect every package that arrives, ensuring all is well. However, she harbors a fear of babies and thunder. Neyla enjoys gazing out the window, napping on the fluffiest pillows, and going for leisurely walks.</i>",
+          "<i>— Silvia de los Santos</i>"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "widget": {
+    "type": "Birthdays & WORK ANNIVERSARIES",
+    "header": "Congratulating Our Justia Members on Their Special Days"
+  },
+  "titleResponsiveSize": 23,
+  "image": "http://justatic.com/v/1/emails/images/insider/common/birthday-graphic-01.png",
+  "contentOrder": [
+    {
+      "type": "lists-description",
+      "config": {
+        "birthdays": [
+          {
+            "day": "09",
+            "name": "Guillermo Vazquez"
+          },
+          {
+            "day": "10",
+            "name": "Thomas Sullivan"
+          },
+          {
+            "day": "12",
+            "name": "Diego Miguel"
+          },
+          {
+            "day": "16",
+            "name": "Emilio Barrera"
+          },
+          {
+            "day": "19",
+            "name": "Shelby Mancini"
+          },
+          {
+            "day": "20",
+            "name": "David Gonzalez"
+          },
+          {
+            "day": "25",
+            "name": "Hayden Pham"
+          }
+        ],
+        "anniversaries": [
+          {
+            "name": "Zoraida Vallejo",
+            "years": "7th"
+          },
+          {
+            "name": "Roberto Escareño",
+            "years": "7th"
+          },
+          {
+            "name": "Adalit Flores",
+            "years": "6th"
+          },
+          {
+            "name": "Kara Simon",
+            "years": "3rd"
+          },
+          {
+            "name": "Yessica Acosta",
+            "years": "2nd"
+          },
+          {
+            "name": "Fernando Mendoza",
+            "years": "1st"
+          },
+          {
+            "name": "Jorge Hernandez",
+            "years": "1st"
+          },
+          {
+            "name": "Daniel Monroy",
+            "years": "1st"
+          }
+        ]
+      }
+    }
+  ]
+}
