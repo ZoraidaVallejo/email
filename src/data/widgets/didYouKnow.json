@@ -1,36 +1,15 @@
 {
   "widget": {
-    "type": "LORdEM IPSUM",
-    "header": "Et feugiat senectus"
+    "type": "DID YOU KNOW?",
+    "header": "Just Meet Up! Last Session of 2023"
   },
-  "imageTop": "banner-example-01.png",
-  "imageBottom": "banner-example-01.png",
+  "imageTop": "did-you-know-01.png",
   "contentOrder": [
     {
       "type": "description",
       "config": [
-        "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio.Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
+        "The energy was incredible at our last Just Meet Up! of 2023. On November 22nd, we had a full house! We dived into a super interesting discussion led by Claudia Duque on AI's legal and ethical aspects. She connected with the audience, making exploring the intricate dimensions of artificial intelligence insightful and engaging."
       ]
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "side-image-example-01.png",
-        "blockTitle": "USA Independence Day<br>July 4th",
-        "description": [
-          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
-        ]
-      }
-    },
-    {
-      "type": "image-description",
-      "config": {
-        "image": "side-image-example-01.png",
-        "blockTitle": "USA Independence Day<br>July 4th",
-        "description": [
-          "Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio. Tortor fringilla dis rhoncus sodales blandit aenean etiam orci euismod, cubilia aliquam sem netus dictum velit morbi odio."
-        ]
-      }
     }
   ]
 }

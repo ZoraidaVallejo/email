@@ -26,11 +26,15 @@ subject: "[Team] The Justia Insider - <%= dateFormat.string %> edition"
 
         {{>widget-image-description widgetClass="-pets-1 -blue-bg" widgetConfig=pets}}
 
-        {{>widget-image-description widgetClass="-pets-1 -blue-bg" widgetConfig=pets}}
+        {{>widget-image-description widgetConfig=spotlight}}
 
-        {{>holidays widgetClass="-blue-bg" widgetConfig=holidays}}
+        {{>widget-image-description widgetClass="-blue-bg" widgetConfig=didYouKnow}}
+
+        {{>widget-image-description widgetClass="-blue-bg -padding-top-large" widgetConfig=didYouKnow-02}}
 
         {{>reviews widgetConfig=reviews}}
+
+        {{>holidays widgetClass="-blue-bg" widgetConfig=holidays}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

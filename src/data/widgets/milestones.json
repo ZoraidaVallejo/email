@@ -20,6 +20,62 @@
         "title": "Justia Mexico Portal Content Updates.",
         "description": " We have recently updated the content of the <strong><a href=\"http://mexico.mexico-civilcode.darag.jld.justiapro.com/federales/codigos/codigo-civil-federal/\">Federal Civil Code</a></strong>, adding to the growing collection of updated laws on our portal."
       }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "<strong><a href=\"https://connect.justia.com/case-law-summary-newsletters\">Justia Daily Opinion Summaries</a></strong>.",
+        "description": " We have transitioned to AI-assisted generation for Justia Daily Opinion Summaries, signifying a significant process optimization. This allows us to cover all courts moving forward, ensuring comprehensive coverage for the benefit of our users."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Connect.",
+        "description": " We remain dedicated to improving CLE offerings! We have expanded support for South Carolina and Texas CLE Courses & Credits. Additionally, <strong><a href=\"https://connect.justia.com/\">Justia Connect</a></strong> users can easily add upcoming webinars to their calendars, along with other helpful updates."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Elevate.",
+        "description": " We have introduced several features for our Justia Elevate clients, including support for external blog feeds and updates to stripes, blocks, and site settings. Furthermore, a recent backend optimization will enhance overall performance as we integrate more sites into the system."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "QA Automation.",
+        "description": " We have launched the initial version of automated QA for both Justia Legal Dictionary and our Helpdesk system. Additionally, we've introduced visual regression support for <strong><a href=\"https://dictionary.justia.com/\">Justia Legal Dictionary</a></strong>, our <strong><a href=\"https://company.justia.com/\">Justia Company portal</a></strong>, and Justia Business Contracts. Finally, we have implemented other behind-the-scenes features to enhance our web performance and security issues coverage."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "IT Team.",
+        "description": " This month, we performed multiple server maintenance tasks, aligning with required updates from AWS and making infrastructure adjustments to optimize costs."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Data.",
+        "description": " We compiled and presented a report on the conversion performance of Justia Connect Pro and Justia Lawyer Directory profiles, providing valuable insights compared to our premium placement users."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia Lawyer Directory.",
+        "description": " We have implemented a notification for premium placement users at the 10-month mark to share highlights of their performance in our <strong><a href=\"https://www.justia.com/lawyers\">Justia Lawyer Directory</a></strong>."
+      }
     }
   ]
 }
