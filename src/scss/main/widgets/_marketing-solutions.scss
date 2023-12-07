@@ -1,0 +1,68 @@
+// ----------------------------------------------------------------------------------------------------------
+// L A W   E V E N T S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.widget.w-marketing-solutions {
+
+
+    /* .wrapper.-last {
+        padding: 0 $padding $widget-gap;
+    } */
+
+    .widget-header.-w-text-btn {
+        padding: 0 25px 25px;
+    }
+
+    .content-wrapper {
+        background-color: #F5F9FF;
+        border-radius: 10px;
+        max-width: 500px;
+    }
+
+    .widget-marketing-icon {
+        img {
+            width: 30px;
+        }
+    }
+
+/*     .-marketing .wrapper.-last {
+        padding: 0;
+    } */
+
+    .widget-wrapper {
+        padding: 10px 25px $padding;
+    }
+
+    .widget-marketing-icon {
+        width: 30px;
+        margin-top: 2px;
+    }
+
+    .widget-marketing-text {
+        padding-left: 15px;
+        text-align: left;
+        a {
+            color: #000;
+        }
+    }
+
+    .-marketing-wrap {
+        // padding: 0 0 14px;
+        vertical-align: middle;
+        text-align: center;
+        // background: url('../dist/images/title-decoration-01.png') no-repeat;
+        background-size: 50px 50px;
+        background-position: center top;
+        background-repeat: no-repeat;
+
+        &.-icon-top {
+            padding: 50px;
+            background-position: center 25px;
+        }
+
+        &.-icon-bottom {
+            padding: 50px 0 5px;
+            background-position: center -25px;
+        }
+    }
+}
