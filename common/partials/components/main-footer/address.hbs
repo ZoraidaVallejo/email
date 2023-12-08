@@ -1,45 +1,21 @@
 {{!
  * @param {String} widgetResponsive
  * @param {Object} widgetConfig
- * @param {Object} widgetConfig.unsubscribeOne
- * @param {Object} widgetConfig.unsubscribeOne.textuOne
- * @param {Object} widgetConfig.unsubscribeOne.linkuOne
- * @param {Object} widgetConfig.unsubscribeAll
- * @param {Object} widgetConfig.unsubscribeAll.textuAll
- * @param {Object} widgetConfig.unsubscribeAll.linkuAll
  * @param {Object} widgetConfig.justiaLink
  * @param {String} widgetConfig.direction
  * @param {String} widgetConfig.tel
 }}
 
 <p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
-  {{#if widgetConfig.unsubscribeOne}}
-    <a class="justia-inline -unsubscribeone" href="{{widgetConfig.unsubscribeOne.linkuOne}}" target="_blank">
-      {{#if widgetConfig.unsubscribeOne.textuOne}}
-        <span>{{{widgetConfig.unsubscribeOne.textuOne}}}</span>
-      {{/if}}
-    </a>
-  {{/if}}
-</p>
-<p class="-address" {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
   {{#if widgetConfig.justiaLink}}
     <a class="justia-inline" href="{{widgetConfig.justiaLink}}" target="_blank">
-      {{#if widgetConfig.web}}
-        <span>{{{widgetConfig.web}}}</span>
+      {{#if widgetConfig.direction}}
+        <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
       {{/if}}
-    </a> | <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
+    </a>
   {{/if}}
   {{#if widgetConfig.tel}}
     {{>pipe widgetResponsive=false}}
-    <span>Tel: {{{widgetConfig.tel}}}</span>
-  {{/if}}
-</p>
-<p {{#if widgetResponsive}}responsive="{{widgetResponsive}}"{{/if}}>
-  {{#if widgetConfig.unsubscribeAll}}
-    <a class="justia-inline -unsubscribeall" href="{{widgetConfig.unsubscribeAll.linkuAll}}" target="_blank">
-      {{#if widgetConfig.unsubscribeAll.textuAll}}
-        <span>{{{widgetConfig.unsubscribeAll.textuAll}}}</span>
-      {{/if}}
-    </a>
+    <span id="ios-links-black">Tel: {{{widgetConfig.tel}}}</span>
   {{/if}}
 </p>

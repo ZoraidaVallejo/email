@@ -84,6 +84,12 @@
     },
     "alt": "Justia Onboarding"
   },
+  "blogging": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-blue.png"
+    },
+    "alt": "Justia Blogging Ideas"
+  },
   "justiaAnniversary": {
     "path": {
       "amplify": "https://justatic.com/branding/logos/emails/justia-20-amplify-blue.png",
@@ -101,11 +107,5 @@
       "ask-a-lawyer": "https://justatic.com/branding/logos/emails/justia-20-ask-a-lawyer-blue.png"
     },
     "alt": "20 Anniversary - Justia [Logo Name]"
-  },
-  "lii": {
-    "path": {
-      "blue": "lii-logo.png"
-    },
-    "alt": "Legal Information Institute"
   }
 }
