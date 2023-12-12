@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Meet Our Team"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "insights-our-team-01.jpg",
+        "alt": "Meet Our team"
+      },
+      "blockTitle": "Lorem ipsum dolor sit amet",
+      "description": [
+        "Donec ac ante vitae magna rhoncus mattis id eu lectus. Etiam a lacinia massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate nulla turpis, fermentum malesuada est auctor ac."
+      ]
+    }
+  ]
+}

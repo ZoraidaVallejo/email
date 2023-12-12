@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "00",
+      "month": "Jan",
+      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
+      "link": "LINK",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    }
+  ]
+}

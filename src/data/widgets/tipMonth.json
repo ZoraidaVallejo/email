@@ -1,0 +1,34 @@
+{
+  "clients": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "link": "",
+    "title": "Save on Taxes",
+    "description": [
+      "Before the year ends, contact us if you wish to advance your payments or purchase Justia Premium Placements in the Justia Lawyer Directory as part of your tax planning. <a href='https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2024-01&utm_source=insights-newsletter&utm_content=text-title-tip-of-the-month-1' target='_blank'>Justia Premium Placements</a> provide higher visibility in the directory along with other benefits."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_campaign=2024-01&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Contact Us",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "link": "",
+    "title": "Save on Taxes",
+    "description": [
+      "Before the year ends, contact us if you wish to advance your payments or purchase Justia Premium Placements in the Justia Lawyer Directory as part of your tax planning. <a href='https://www.justia.com/marketing/lawyer-directory/?utm_medium=email&utm_campaign=2024-01&utm_source=insights-newsletter&utm_content=text-title-tip-of-the-month-1' target='_blank'>Justia Premium Placements</a> provide higher visibility in the directory along with other benefits."
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com/marketing/contact/?utm_medium=email&utm_campaign=2024-01&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Contact Us",
+      "width": 150
+    }
+  }
+}

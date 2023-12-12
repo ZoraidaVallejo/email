@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "insights-justia-desk.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "LINK",
+      "description": "Donec ac ante vitae magna rhoncus mattis id eu lectus. Etiam a lacinia massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate nulla turpis, fermentum malesuada est auctor ac mondum.",
+      "details": "Justia Team | Date 00, 2023",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "LINK",
+      "description": "Donec ac ante vitae magna rhoncus mattis id eu lectus. Etiam a lacinia massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate nulla turpis, fermentum malesuada est auctor ac mondum.",
+      "details": "Justia Team | Date 00, 2023",
+      "index": "2"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "LINK",
+      "description": "Donec ac ante vitae magna rhoncus mattis id eu lectus. Etiam a lacinia massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate nulla turpis, fermentum malesuada est auctor ac mondum.",
+      "details": "Justia Team | Date 00, 2023",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

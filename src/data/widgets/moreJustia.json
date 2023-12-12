@@ -1,0 +1,53 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "More From Justia"
+  },
+  "banner": "insights-more-justia.jpg",
+  "imageLink": "https://onward.justia.com/?utm_medium=email&utm_campaign=2024-01&utm_source=insights-newsletter&utm_content=image-more-from-justia-1",
+  "news": [
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur",
+      "link": "LINK",
+      "details": "Author | Date 00, 2023",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur",
+      "link": "LINK",
+      "details": "Author | Date 00, 2023",
+      "index": "2"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet, consectetur",
+      "link": "LINK",
+      "details": "Author | Date 00, 2023",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
