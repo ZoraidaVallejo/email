@@ -1,0 +1,95 @@
+{
+  "main-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "webinar-weekly-digest-main-banner-dec-17.png"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts",
+    "image": "seo-for-lawyers-2023-highlights-and-2024-forecasts.jpg",
+    "widget": {
+      "header": "Don’t Miss Our Upcoming Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Curious about the evolution of the SEO landscape in the past year? Ready to explore the future and make predictions for 2024? In our engaging webinar, we will dive into the SEO highlights… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar-icon.png",
+          "description": [
+            "December 18, 2:00 PM ET/11:00 AM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-videos-banner": {
+    "link": "https://www.youtube.com/@Justia",
+    "bannerimg": "justia-videos-banner.png"
+  },
+  "webinar-2": {
+    "link": "https://connect.justia.com/webinars/attorney-licensure-and-the-impaired-professional",
+    "image": "attorney-licensure-and-the-impaired-professional-cle.jpg",
+    "widget": {
+      "header": "Check Out Our Latest On-Demand Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Substance use disorders and mental health challenges can affect any attorney regardless of gender, culture, ethnicity, age, or socioeconomic status. This program, taught by… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/attorney-licensure-and-the-impaired-professional\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-3": {
+    "link": "https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution",
+    "image": "advising-clients-in-preproduction-production-and-distribution-cle.jpg",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Whether your clients are creating true crime, comedy, or talk show podcasts, a number of agreements are required to turn an idea into a production, including deals with host and guests… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-light-blue",
+          "text": "Coming Soon",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-connect-banner": {
+    "link": "https://connect.justia.com/pro",
+    "bannerimg": "justia-connect-banner.png"
+  }
+}
