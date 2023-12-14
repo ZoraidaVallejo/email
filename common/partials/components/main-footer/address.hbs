@@ -13,6 +13,8 @@
         <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
       {{/if}}
     </a>
+  {{else}}
+      <span id="ios-links-black">{{{widgetConfig.direction}}}</span>
   {{/if}}
   {{#if widgetConfig.tel}}
     {{>pipe widgetResponsive=false}}
