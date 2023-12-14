@@ -51,5 +51,51 @@
       "You can <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
       "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
     ]
+  },
+  "reminder-2": {
+    "banner": "",
+    "details": {
+      "date": "December 18, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts\">SEO for Lawyers: 2023 Highlights &amp; 2024 Forecasts</a> today at 2:00 p.m. ET/11:00 a.m. PT.",
+      "You can <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ]
+  },
+  "registration-2": {
+    "banner": "",
+    "details": {
+      "date": "December 18, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "Want to increase your law firm’s visibility in Google Search results? You need to know about SEO!",
+      "Join Justia CEO Tim Stanley, Justia Director of SEO Gustavo Montes, and Justia Sr. SEO Manager Ana Hidalgo for <a href=\"https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts\">SEO for Lawyers: 2023 Highlights &amp; 2024 Forecasts</a>. This free, members-only presentation is this Monday, December 18, starting at 2:00 p.m. ET/11:00 a.m. PT"
+    ],
+    "bottomline": [
+      "<strong>Last Chance to Register!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts",
+      "text": "Register Now",
+      "width": 250
+    }
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>SEO for Lawyers: 2023 Highlights & 2024 Forecasts</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative. ",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
