@@ -1,0 +1,74 @@
+{
+  "blue": {
+    "title": "Your firm deserves to start 2024 with the best in law firm websites: Justia Elevate",
+    "image": "elevate-start-2024.jpg",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Our customized platform, powered by WordPress, offers an unparalleled user-friendly experience on a website platform uniquely tailored for lawyers and law firms.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "elevate-content-icon-01_2x.png",
+          "description": [
+            "<b>A visually appealing website</b> optimized using technical SEO best practices"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "elevate-content-icon-02_2x.png",
+          "description": [
+            "Access to our proprietary tool for website content generation: <b>Justia AI Writer</b>"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "elevate-content-icon-03_2x.png",
+          "description": [
+            "<b>Exclusive resources</b> designed to set lawyers up for online success."
+          ]
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>All at some of the lowest prices on the market, with <b>websites available for as little as $99/month.<b></p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Get More Info",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p> Give us a call today at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  }
+}
