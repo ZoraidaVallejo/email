@@ -1,0 +1,70 @@
+{
+  "clients": {
+    "layout": "with-date",
+    "logo": {
+      "name": "insights",
+      "link": {
+        "url": "",
+        "utm": {
+          "medium": "email",
+          "campaign": "",
+          "source": "",
+          "content": ""
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "jld": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "Lawyer Directory",
+      "link": {
+        "url": "https://www.justia.com/",
+        "utm": {
+          "medium": "email",
+          "campaign": "",
+          "source": "",
+          "content": ""
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "ad1": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "Lawyer Directory",
+      "link": {
+        "url": "https://www.justia.com/",
+        "utm": {
+          "medium": "email",
+          "campaign": "",
+          "source": "",
+          "content": ""
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  },
+  "ad2": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "Lawyer Directory",
+      "link": {
+        "url": "https://www.justia.com/",
+        "utm": {
+          "medium": "email",
+          "campaign": "",
+          "source": "",
+          "content": ""
+        }
+      },
+      "path": false,
+      "alt": false
+    }
+  }
+}

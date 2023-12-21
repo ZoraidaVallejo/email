@@ -1,0 +1,112 @@
+{
+  "welcome": {
+    "email1": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Impressions",
+            "order": "image-text",
+            "image": "year-graphic-01.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Profile Views",
+            "order": "image-text",
+            "image": "year-graphic-02.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Profile Completeness",
+            "order": "image-text",
+            "image": "year-graphic-03.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Peer Reviews",
+            "order": "text-image",
+            "image": "year-graphic-04.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Client Reviews",
+            "order": "text-image",
+            "image": "year-graphic-05.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Justia Ask A Lawyer Participation",
+            "order": "text-image",
+            "image": "year-graphic-06.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        }
+      ]
+    },
+    "email2": {
+      "contentOrder": [
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Profile Completeness",
+            "order": "image-text",
+            "image": "year-graphic-03.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Peer Reviews",
+            "order": "text-image",
+            "image": "year-graphic-04.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Client Reviews",
+            "order": "text-image",
+            "image": "year-graphic-05.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "blockTitle": "Justia Ask A Lawyer Participation",
+            "order": "text-image",
+            "image": "year-graphic-06.png",
+            "statistics": "100,000",
+            "text": "Lorem Ipsum"
+          }
+        }
+      ]
+    }
+  }
+}

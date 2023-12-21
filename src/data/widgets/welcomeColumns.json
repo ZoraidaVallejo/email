@@ -1,0 +1,427 @@
+{
+  "email1": {
+    "columns": [
+      {
+        "image": {
+          "src": "1-graphic-01.png",
+          "alt": "Contact Information"
+        },
+        "blockTitle": "Contact Information",
+        "description": [
+          "Potential clients want to contact you! Get more leads by updating your contact information, including your email and phone number."
+        ],
+        "readMore": "#",
+        "readMoreText": "Edit Your Information"
+      },
+      {
+        "image": {
+          "src": "1-graphic-02.png",
+          "alt": "Profile Completion"
+        },
+        "blockTitle": "Profile Completion",
+        "description": [
+          "Complete your profile by adding practice areas, a website, awards, and more! A higher completion percentage means more leads."
+        ],
+        "readMore": "#",
+        "readMoreText": "Add Practice Areas"
+      },
+      {
+        "image": {
+          "src": "1-graphic-03.png",
+          "alt": "Profile Photo"
+        },
+        "blockTitle": "Profile Photo",
+        "description": [
+          "Add a profile photo to build trust with your clients. Profiles with a high-quality photo get more leads and enjoy higher conversion rates"
+        ],
+        "readMore": "#",
+        "readMoreText": "Upload Profile Photo"
+      },
+      {
+        "image": {
+          "src": "1-graphic-04.png",
+          "alt": "Profile Benefits"
+        },
+        "blockTitle": "Profile Benefits",
+        "description": [
+          "Start maximizing your profile benefits. We have four phases we suggest doing this in, so don't worry if the process takes some time."
+        ],
+        "readMore": "#"
+      }
+    ]
+  },
+  "email2": {
+    "columns": [
+      {
+        "image": {
+          "src": "2-graphic-01.png",
+          "alt": "Client Reviews"
+        },
+        "blockTitle": "Client Reviews",
+        "description": [
+          "Requesting client reviews is one of the best ways to showcase your professional services for future clients.  Don’t worry – we only permit reviews from actual clients."
+        ],
+        "readMore": "#"
+      },
+      {
+        "image": {
+          "src": "2-graphic-02.png",
+          "alt": "Lawyer Reviews"
+        },
+        "blockTitle": "Lawyer Reviews",
+        "description": [
+          "Any lawyer with a verified Justia Profile can leave you a review if they are familiar with your work. Requesting these reviews is easy with a simple email invite."
+        ],
+        "readMore": "#"
+      }
+    ]
+  },
+  "email3": {
+    "columns": [
+      {
+        "image": {
+          "src": "3-graphic-01.png",
+          "alt": "Platinum Placements"
+        },
+        "blockTitle": "Platinum Placements",
+        "description": [
+          "Justia Platinum Placements are an exclusive, top placement in the Justia Lawyer Directory, and only one is available per practice area/metro combination."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Started"
+      },
+      {
+        "image": {
+          "src": "3-graphic-02.png",
+          "alt": "Gold Placements"
+        },
+        "blockTitle": "Gold Placements",
+        "description": [
+          "Justia Gold Placements increase your visibility through sponsored placements that rotate above and among the organic listings in the Justia Lawyer Directory."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Started"
+      },
+      {
+        "image": {
+          "src": "3-graphic-03.png",
+          "alt": "Profile Traffic Insights"
+        },
+        "blockTitle": "Profile Traffic Insights",
+        "description": [
+          "All Justia Premium Placements also give you access to your profile traffic statistics for the Justia Lawyer Directory and Legal Information Institute (LII) Directory."
+        ],
+        "readMore": "#"
+      },
+      {
+        "image": {
+          "src": "3-graphic-04.png",
+          "alt": "Custom Landing Page"
+        },
+        "blockTitle": "Custom Landing Page",
+        "description": [
+          "Members who purchase a Justia Platinum Placement can also take advantage of a customized, Justia Landing Page that is designed for maximum conversions."
+        ],
+        "readMore": "#"
+      }
+    ]
+  },
+  "email4": {
+    "columns": [
+      {
+        "image": {
+          "src": "4-graphic-01.png",
+          "alt": "Justia Ask A Lawyer"
+        },
+        "blockTitle": "Justia Ask A Lawyer",
+        "description": [
+          "Answer questions and showcase your legal knowledge to potential clients through our Justia Ask A Lawyer forum, where you can reach people who may currently have a pressing legal matter and future users."
+        ],
+        "readMore": "#",
+        "readMoreText": "Answer Questions"
+      },
+      {
+        "image": {
+          "src": "4-graphic-02.png",
+          "alt": "Justia Annotations"
+        },
+        "blockTitle": "Justia Annotations",
+        "description": [
+          "Annotate case law to share your knowledge with other attorneys, legal researchers, and the general public. Sharing your expertise has the added benefit of helping you build your reputation online and reach more clients."
+        ],
+        "readMore": "#",
+        "readMoreText": "Annotate Cases"
+      }
+    ]
+  },
+  "email51": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-02.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Upgrade to the enhanced Justia Profile to ensure your contact information is prominently displayed while removing competitor ads."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Pick a client review of your choice and peer review from another attorney to feature before other reviews on your profile in the Justia Lawyer Directory."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      }
+    ]
+  },
+  "email52": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-2-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-02.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-03.png",
+          "alt": "Opinion Summaries"
+        },
+        "blockTitle": "Opinion Summaries",
+        "description": [
+          "Receive timely, <span style=\"display:inline-block;\">attorney-written</span> summaries of decisions in federal appellate <br responsive=\"mobile-hide\">courts and state supreme courts."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Alerts"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-04.png",
+          "alt": "Marketing Updates"
+        },
+        "blockTitle": "Marketing Updates",
+        "description": [
+          "Stay in the know on the latest in legal marketing and technology news with updates from our blog delivered directly to your inbox."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Updates"
+      }
+    ]
+  },
+  "email53": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-3-graphic-01.png",
+          "alt": "Connect Dashboard"
+        },
+        "blockTitle": "Connect Dashboard",
+        "description": [
+          "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits."
+        ],
+        "readMore": "#",
+        "readMoreText": "Visit My Dashboard"
+      },
+      {
+        "image": {
+          "src": "5-3-graphic-02.png",
+          "alt": "Justia Deals"
+        },
+        "blockTitle": "Justia Deals",
+        "description": [
+          "Activate your free savings and discounts on business services, travel and hotels, technology, and more."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get My Deals"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-03.png",
+          "alt": "Opinion Summaries"
+        },
+        "blockTitle": "Opinion Summaries",
+        "description": [
+          "Receive timely, <span style=\"display:inline-block;\">attorney-written</span> summaries of decisions in federal appellate <br responsive=\"mobile-hide\">courts and state supreme courts."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Alerts"
+      },
+      {
+        "image": {
+          "src": "5-2-graphic-04.png",
+          "alt": "Marketing Updates"
+        },
+        "blockTitle": "Marketing Updates",
+        "description": [
+          "Stay in the know on the latest in legal marketing and technology news with updates from our blog delivered directly to your inbox."
+        ],
+        "readMore": "#",
+        "readMoreText": "Get Updates"
+      }
+    ]
+  },
+  "email61": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Take advantage of your enhanced profile by making sure your information is accurate and complete."
+        ],
+        "readMore": "#",
+        "readMoreText": "Complete My Profile"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Make a great first impression by choosing excellent reviews to feature first on your Justia Profile."
+        ],
+        "readMore": "#",
+        "readMoreText": "Feature a Review"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-03.png",
+          "alt": "Heightened Visibility"
+        },
+        "proLabel": true,
+        "blockTitle": "Heightened Visibility",
+        "description": [
+          "Make the most of your potential for increased visibility on Justia by fully completing your profile."
+        ],
+        "readMore": "#",
+        "readMoreText": "Complete My Profile"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-04.png",
+          "alt": "Justia Credit"
+        },
+        "proLabel": true,
+        "blockTitle": "Justia Credit",
+        "description": [
+          "Utilize your Justia credit to upgrade your marketing plan with products from Justia Marketing Solutions."
+        ],
+        "readMore": "#",
+        "readMoreText": "Explore Solutions"
+      }
+    ]
+  },
+  "email62": {
+    "columns": [
+      {
+        "image": {
+          "src": "5-1-graphic-03.png",
+          "alt": "Enhanced Justia Profile"
+        },
+        "proLabel": true,
+        "blockTitle": "Enhanced Justia Profile",
+        "description": [
+          "Upgrade to the enhanced Justia Profile to ensure your contact information is prominently displayed while removing competitor ads."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "5-1-graphic-04.png",
+          "alt": "Featured Reviews"
+        },
+        "proLabel": true,
+        "blockTitle": "Featured Reviews",
+        "description": [
+          "Choose a client review and a peer review from another attorney to feature first on your Justia Lawyer Directory profile and make a strong impression."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-03.png",
+          "alt": "Heightened Visibility"
+        },
+        "proLabel": true,
+        "blockTitle": "Heightened Visibility",
+        "description": [
+          "Maximize your visibility with potential opportunities to be featured in various locations across the Justia website."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      },
+      {
+        "image": {
+          "src": "6-1-graphic-04.png",
+          "alt": "Justia Credit"
+        },
+        "proLabel": true,
+        "blockTitle": "Justia Credit",
+        "description": [
+          "Advance your marketing plan and get closer to your goals with $100 in credit to be used on Justia Marketing Solutions."
+        ],
+        "readMore": "#",
+        "readMoreText": "Go Pro Now!"
+      }
+    ]
+  }
+}

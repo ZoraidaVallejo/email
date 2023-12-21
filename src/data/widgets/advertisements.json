@@ -1,0 +1,201 @@
+{
+  "welcome": {
+    "email1": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 440px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your first edition of the Justia Connect Welcome Series! Over the coming weeks, you will receive 5 emails designed to help you take advantage of everything offered through our Justia Connect membership program and the Justia Lawyer Directory. However, if you have questions in the meantime, please feel free to contact us.</p>",
+            "<p>On this week's docket? A few key aspects of your recently claimed Justia Lawyer Profile. Because the Justia Portal receives over 10 million visits each month, this is a great marketing opportunity.</p>"
+          ]
+        },
+        {
+          "type": "image-column",
+          "config": [
+            {
+              "image": {
+                "src": "1-graphic-01.png",
+                "alt": "Contact Information"
+              },
+              "blockTitle": "Contact Information",
+              "description": "Potential clients want to contact you! Get more leads by updating your contact information, including your email and phone number.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "1-graphic-02.png",
+                "alt": "Profile Completion"
+              },
+              "blockTitle": "Profile Completion",
+              "description": "Complete your profile by adding practice areas, a website, awards, and more! A higher completion percentage means more leads.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "1-graphic-03.png",
+                "alt": "Profile Photo"
+              },
+              "blockTitle": "Profile Photo",
+              "description": "Add a profile photo to build trust with your clients. Profiles with a high-quality photo get more leads and enjoy higher conversion rates",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "1-graphic-04.png",
+                "alt": "Profile Benefits"
+              },
+              "blockTitle": "Profile Benefits",
+              "description": "Start maximizing your profile benefits. We have four phases we suggest doing this in, so don't worry if the process takes some time.",
+              "readMore": "#"
+            }
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "1-graphic-05.png",
+            "description": [
+              "<p>Did you know? You can get <a href=\"#\"><b>Justia Premium Placements</b></a> to increase your visibility in both the Justia Lawyer Directory and the LII Directory. Members with premium placements also get access to profile traffic statistics.</p>",
+              "<p>Call (888) 587-8421 or <a href=\"#\"><b>submit this form</b></a> to learn more.</p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email2": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "2-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Reviews are the word-of-mouth advertising of the digital age. 79% of consumers report trusting online reviews as much as they trust personal recommendations from a friend or family member. This means that reviews are important! Luckily, Justia allows both peer reviews from other attorneys and reviews from your clients in our directory.</p>"
+          ]
+        },
+        {
+          "type": "image-column",
+          "config": [
+            {
+              "image": {
+                "src": "2-graphic-01.png",
+                "alt": "Client Reviews"
+              },
+              "blockTitle": "Client Reviews",
+              "description": "Requesting client reviews is one of the best ways to showcase your professional services for future clients.  Don’t worry – we only permit reviews from actual clients.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "2-graphic-02.png",
+                "alt": "Lawyer Reviews"
+              },
+              "blockTitle": "Lawyer Reviews",
+              "description": "Any lawyer with a verified Justia Profile can leave you a review if they are familiar with your work. Requesting these reviews is easy with a simple email invite.",
+              "readMore": "#"
+            }
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "2-graphic-03.png",
+            "description": [
+              "<strong class=\"blockTitle\">Lawyer Ratings</strong>",
+              "<p>Lawyers receive our Justia Lawyer Ratings Badge based on their performance in peer reviews. This badge displays on your Justia Profile and can be used on your website and in your marketing materials!</p><p><a href=\"#\"><b>Learn More ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    },
+    "email51": {
+      "background": {
+        "image": "ad-gradient.png",
+        "width": 600,
+        "bgColor": "#ffffff",
+        "cssSize": "600px 350px"
+      },
+      "title": "",
+      "link": "https://www.justia.com/marketing/",
+      "titleResponsiveSize": 23,
+      "image": "5-1-banner-graphic-01.png",
+      "contentOrder": [
+        {
+          "type": "description",
+          "config": [
+            "<p>Welcome to your final edition of the <b>Justia Connect Welcome Series!</b> While your journey through our Justia Connect Welcome Series may end here, your membership in our <b>Justia</b> community has only just begun. The <b>Justia Connect</b> membership program will help you continue to grow into the future as you strive to reach for your professional and practice growth goals. As such, it is only fitting to close out this series with information on leveraging your <b>Justia Connect Pro</b> membership to obtain the maximum available benefits.</p>"
+          ]
+        },
+        {
+          "type": "image-column",
+          "config": [
+            {
+              "image": {
+                "src": "5-1-graphic-01.png",
+                "alt": "Connect Dashboard"
+              },
+              "blockTitle": "Connect Dashboard",
+              "description": "Visit your Justia Connect membership dashboard to manage your exclusive features and benefits.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "5-1-graphic-02.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "5-1-graphic-03.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            },
+            {
+              "image": {
+                "src": "5-1-graphic-04.png",
+                "alt": "Justia Deals"
+              },
+              "blockTitle": "Justia Deals",
+              "description": "Activate your free savings and discounts on business services, travel and hotels, technology, and more.",
+              "readMore": "#"
+            }
+          ]
+        },
+        {
+          "type": "image-description",
+          "config": {
+            "image": "5-1-graphic-05.png",
+            "description": [
+              "<img src=\"../dist/images/pro-label.png\" border=\"0\" style=\"display: block; max-width: 100%;\" width=\"59\">",
+              "<strong class=\"blockTitle\">Justia Webinars</strong>",
+              "<p>Reserve your seat in our upcoming webinars designed exclusively for Justia Connect Pro members.</p><p><a href=\"#\"><b>View Webinars ›</b></a></p>"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
