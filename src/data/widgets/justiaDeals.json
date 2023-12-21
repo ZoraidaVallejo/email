@@ -1,0 +1,39 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Justia Deals"
+    },
+    "content": [
+      {
+        "banner": "legal-deals-01.png",
+        "alt": "Fastcase",
+        "title": "Fastcase",
+        "border": true,
+        "description": [
+          "Exploring your legal research options? Fastcase provides industry-leading tools to solo lawyers, law firms, and bar associations across the country with the goal of making legal research easier and more intuitive. As a Justia Connect member, you are eligible for a 7-day free trial of Fastcase Premium, including access to over 750 publications, powerful third-party integrations, and more!"
+        ],
+        "imageLink": "https://connect.justia.com/legal-deals/fastcase/first-week-free",
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://connect.justia.com/legal-deals/fastcase/first-week-free/?utm_medium=email&utm_campaign=2023-12&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-1",
+          "text": "Get Deal",
+          "width": 160
+        }
+      },
+      {
+        "banner": "lifestyle-savings-01.png",
+        "alt": "Lifestyle Savings",
+        "title": "Lifestyle Savings",
+        "description": [
+          "Is your law firm exploring VPN solutions? You can save with your Justia Connect membership by getting 83% off of a three-year membership to Atlas VPN."
+        ],
+        "button": {
+          "style": "justia-blue-ghost",
+          "link": "https://deals.justia.com/discounts/offer/1:648683?utm_medium=email&utm_campaign=2023-11&utm_source=monthly-connect-pro-newsletter&utm_content=button-legal-deals-2",
+          "text": "Start Saving",
+          "width": 160
+        }
+      }
+    ]
+  }
+}

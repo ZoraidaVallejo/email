@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Justia Legal Resources: Banking and Finance Law Center",
+      "link": "https://onward.justia.com/justia-legal-resources-banking-and-finance-law-center/",
+      "description": "Buying securities or taking out a loan can be intimidating, but consumers have recourse against misconduct by financial professionals or institutions. The Banking and Finance Law Center at Justia explains some of the key rules in this area.",
+      "index": "1"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amen",
+      "link": "/",
+      "description": "lorem ipsum dolor sit amn quest cuesto melone infragatto lorem ipsum dolor sit amn quest cuesto melone infragatto lorem ipsum dolor sit amn quest cuesto melone infragatto ",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "monthly-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

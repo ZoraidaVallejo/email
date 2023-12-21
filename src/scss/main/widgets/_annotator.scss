@@ -1,0 +1,29 @@
+// ----------------------------------------------------------------------------------------------------------
+// A N N O T A T O R
+// ----------------------------------------------------------------------------------------------------------
+
+.w-annotator {
+
+    .annotator-info {
+        padding: 0 $padding 20px;
+        text-align: center;
+
+        a {
+            color: plt('black');
+        }
+
+        .photo {
+            width: 125px;
+            margin: 0 auto;
+        }
+
+        .name {
+            @include mail-font(20px, 1.1);
+            margin: 12px 0 6px;
+        }
+
+        .location {
+            @include mail-font(12px, 1);
+        }
+    }
+}

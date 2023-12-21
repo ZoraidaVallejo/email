@@ -1,0 +1,107 @@
+{{! ================================================================================================================= }}
+{{! JUSTIA WEBINARS                                                                                   }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#and widgetConfig.content.button (compare widgetConfig.content.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-justia-webinars set-max-width"}}
+
+  {{>widget-header
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
+  }}
+
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          widgetClass="banner-icon"
+          imgSrc=widgetConfig.banner
+          imgAlt=widgetConfig.alt
+          link=widgetConfig.imageLink
+        }}
+
+        {{#table class="heading"}}
+          <tr>
+            <td class="side-icon">
+              {{#if widgetConfig.recent.icon}}
+                {{>img src=widgetConfig.recent.icon.src alt=widgetConfig.recent.icon.alt}}
+              {{/if}}
+            </td>
+            <td>
+              {{#if widgetConfig.recent.title}}
+              <h3 class="content-title">{{{widgetConfig.recent.title}}}</h3>
+            {{/if}}
+            </td>
+          </tr>
+        {{/table}}
+
+        {{#forEach widgetConfig.recent.content}}
+
+          {{#each this.description}}
+          {{{this}}}
+          {{/each}}
+
+          {{!
+            // TODO: Move to `widget-button` component.
+            }}
+            <div class="widget-button {{#if isLast}} -last{{/if}}">
+              {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+              {{this.button.text}}
+              {{/uiButton}}
+            </div>
+        {{/forEach}}
+
+        {{#if widgetConfig.border}}
+        <div class="border"></div>
+        {{/if}}
+
+        {{#table class="heading"}}
+        <tr>
+          <td class="side-icon">
+            {{#if widgetConfig.upcoming.icon}}
+            {{>img src=widgetConfig.upcoming.icon.src alt=widgetConfig.upcoming.icon.alt}}
+            {{/if}}
+          </td>
+          <td>
+            {{#if widgetConfig.upcoming.title}}
+            <h3 class="content-title">{{{widgetConfig.upcoming.title}}}</h3>
+            {{/if}}
+          </td>
+        </tr>
+        {{/table}}
+
+        {{#forEach widgetConfig.upcoming.content}}
+
+        {{#each this.description}}
+        {{{this}}}
+        {{/each}}
+
+        {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          <div class="widget-button {{#if isLast}} -last{{/if}}">
+            {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+            {{this.button.text}}
+            {{/uiButton}}
+          </div>
+      {{/forEach}}
+
+
+      </div>
+    </td>
+  </tr>
+
+
+{{/table}}
