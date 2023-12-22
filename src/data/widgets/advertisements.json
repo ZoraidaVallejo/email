@@ -1,5 +1,5 @@
 {
-  "pro": {
+  "train": {
     "image": "jld-premium-placements-train.jpg",
     "link": "#",
     "contentOrder": [
@@ -16,6 +16,42 @@
           "style": "red",
           "text": "Learn More",
           "width": 230,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  },
+  "desk": {
+    "image": "jld_monthly-busy-year-01.gif",
+    "link": "#",
+    "title": "Let Justia Premium Placements  <span>Do the Work for You</span>",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Kick back and take a break from working to grow your practice. <b>Justia Premium Placements</b> will keep the leads coming while you're away by exponentially increasing your visibility in the most visited lawyer directory online.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Get More Leads",
+          "width": 250,
           "height": 50,
           "borderColor": "",
           "backgroundColor": "",

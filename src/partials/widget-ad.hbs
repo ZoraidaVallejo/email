@@ -64,16 +64,6 @@
     </tr>
   {{/if}}
 
-  {{#if widgetConfig.title}}
-    <tr>
-      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top">
-        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
-          {{{widgetConfig.title}}}
-        </a>
-      </td>
-    </tr>
-  {{/if}}
-
   {{#if widgetConfig.image}}
     <tr>
       <td class="image">
@@ -82,6 +72,16 @@
             src=widgetConfig.image
             alt=(default widgetConfig.title widgetConfig.imageAlt)
           }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#if widgetConfig.title}}
+    <tr>
+      <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top">
+        <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+          {{{widgetConfig.title}}}
         </a>
       </td>
     </tr>
@@ -168,7 +168,7 @@
 
       {{#compare this.type "===" "description"}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-30-bottom mobile-padding-30-top">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
             {{#each this.config}}
               {{{this}}}
             {{/each}}

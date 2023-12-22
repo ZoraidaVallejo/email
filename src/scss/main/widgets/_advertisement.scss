@@ -19,14 +19,15 @@
     }
 
     .title {
-        padding: 34px $padding 6px;
-        text-transform: capitalize;
-        color: plt('white');
-        // background-color: #00b3e3;
+        @include mail-font(22px, 1.25, 700);
+        display: block;
+        padding: 50px 0 15px;
+        color: plt('justia-blue');
+        background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
 
         a {
-            @include mail-font(22px, 1, 700);
-            color: plt('white');
+            @include mail-font(22px, 1.45, 700);
+            color: plt('justia-blue');
         }
 
         span {
@@ -37,6 +38,7 @@
 
     .image {
         padding: 0;
+        border-top: 1px solid #EFEFEF;
 
         img {
             width: 100%;
@@ -276,14 +278,14 @@
                 @include mail-font(22px, 1.25, 700);
             }
 
-            &.-last {
-                padding: 25px 50px 50px;
+            // &.-last {
+            //     padding: 25px 50px 50px;
 
-                p {
-                    @include mail-font(14px, 1.25, 400);
-                    font-style: italic;
-                }
-            }
+            //     p {
+            //         @include mail-font(14px, 1.25, 400);
+            //         font-style: italic;
+            //     }
+            // }
 
             &.-button, {
                 padding: 25px 50px 15px;
@@ -308,6 +310,43 @@
 
         ul li {
             padding-bottom: 28px;    
+        }
+    }
+
+    &.-jld-ad-02 {
+        .content {
+            &.-idx-1 {
+                padding: 15px 50px 0;
+            }
+
+            // &.-last {
+            //     padding: 25px 50px 50px;
+
+            //     p {
+            //         @include mail-font(14px, 1.25, 400);
+            //         font-style: italic;
+            //     }
+            // }
+
+            &.-button, {
+                padding: 50px 50px 15px;
+                // text-align: left;
+            }
+
+            // a {
+            //     strong {
+            //         color: plt('justia-blue')!important;
+            //     }
+
+            //     b {
+            //         color: plt('black')!important;
+            //     }
+
+            //     span {
+            //         color: plt('justia-blue')!important;
+            //         text-decoration: underline;
+            //     }
+            // }
         }
     }
 }
