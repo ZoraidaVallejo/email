@@ -1,21 +1,31 @@
 {
   "blue": {
-    "image": "placeholder.jpg",
+    "image": "connect-pro-monthly-blast-december-2023.jpg",
     "link": "#",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "<p>As you ring in 2024, upgrade your Justia Connect membership to Justia Connect Pro and unlock our full suite of membership benefits, including:</p>"
+          "As you ring in 2024, upgrade your <b>Justia Connect</b> membership to <b>Justia Connect Pro</b> and unlock our full suite of membership benefits, including:"
         ]
       },
       {
         "type": "image-description",
         "config": {
           "responsive": "",
-          "image": "coa-icon-03.png",
+          "image": "coa-icon-200-credit.png",
           "description": [
-            "<b>The $200 Justia Credit</b> so you can save on select Justia Marketing Solutions designed to bring your law firm new leads"
+            "<b>The $200 Justia Credit</b> so you can save on select Justia Marketing Solutions designed to bring your law firm new leads."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "coa-icon-recording-video.png",
+          "description": [
+            "<b>Live & On-Demand CLE Courses</b> so you can learn from leaders in the legal industry covering a wide range of topics."
           ]
         }
       },
@@ -25,31 +35,20 @@
           "responsive": "",
           "image": "coa-icon-03.png",
           "description": [
-            "<b>Live & On-Demand CLE Courses</b> so you can learn from leaders in the legal industry covering a wide range of topics"
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "coa-icon-03.png",
-          "description": [
-            "<b>The Justia Connect Pro Badge</b> so you catch the eye of more potential clients viewing your Justia Lawyer Directory profile"
+            "<b>The Justia Connect Pro Badge</b> so you catch  the eye of more potential clients viewing your  Justia Lawyer Directory profile."
           ]
         }
       },
       {
         "type": "description",
         "config": [
-          "<p>Plus, <b>Justia Connect Pros</b> get an enhanced Justia Profile in the Justia Lawyer Directory, the ability to choose featured reviews for their Justia Lawyer Directory profile, opportunities to stream webinar recordings on our platform, and more!</b>.</p>"
+          "Plus, <b>Justia Connect Pros</b> get an enhanced Justia Profile in the Justia Lawyer Directory, the ability to choose featured reviews for their Justia Lawyer Directory profile, opportunities to stream webinar recordings on our platform, and more!</b>"
         ]
       },
       {
-        "type": "description",
+        "type": "highlight-description",
         "config": [
-          "<p>Try Pro for just $19.99/month.</p>",
-          "<p>You can cancel at any time.</p>"
+          "<span><b>Try Pro for just $19.99/month.</b><br> You can cancel at any time.</span>"
         ]
       },
       {
@@ -71,7 +70,7 @@
       {
         "type": "description",
         "config": [
-          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></p>"
         ]
       }
     ]

@@ -137,7 +137,7 @@
               <tr>
                 {{#forIn this.config}}
                   {{#compare @key "===" "image"}}
-                    <td responsive="mobile-align-center mobile-no-padding-horizontal-sides mobile-no-float collapse-one">
+                    <td responsive="mobile-align-center mobile-no-padding-horizontal-sides mobile-no-float collapse-one" class="valign-top">
                       <div class="content-side -image" responsive="mobile-align-center mobile-no-padding-horizontal-sides mobile-padding-bottom mobile-no-float collapse-one">
                         <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
                           {{>img
@@ -169,6 +169,16 @@
       {{#compare this.type "===" "description"}}
         <tr>
           <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-30-bottom mobile-padding-30-top">
+            <p>{{#each this.config}}
+              {{{this}}}</p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/compare}}
+
+      {{#compare this.type "===" "highlight-description"}}
+        <tr>
+          <td class="content -highlight -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-30-bottom mobile-padding-30-top">
             {{#each this.config}}
               {{{this}}}
             {{/each}}

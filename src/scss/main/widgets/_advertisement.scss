@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-advertisement {
-   
+
     td {
         text-align: center;
     }
@@ -44,7 +44,7 @@
     }
 
     .content {
-        padding: 0 50px 25px;
+        padding: 0 50px 20px;
 
         strong a {
             color: plt('justia-blue');
@@ -103,6 +103,12 @@
             }
         }
 
+        &.-highlight {
+            color: plt('justia-blue');
+            font-size: rem-calc(22px);
+            padding: 0 50px 40px;
+        }
+
         .content-side {
             display: inline-block;
             // width: 400px;
@@ -111,7 +117,8 @@
 
             &.-image {
                 width: 30px;
-                padding: 0 25px 0 0;
+                padding: 5px 15px 0 3px;
+                text-align: left;
             }
 
             &.-description p {
@@ -132,7 +139,7 @@
         }
 
         &.-first {
-            padding: 50px;
+            padding-top: 50px;
             text-align: left;
 
             img {
@@ -152,7 +159,7 @@
         }
 
         &.-idx-5 {
-            padding: 25px 50px 50px;
+            padding: 0 50px 20px;
             text-align: left;
         }
 
@@ -176,7 +183,7 @@
         }
 
         &.-button {
-            padding: 0px $padding 20px;
+            padding: 0px $padding;
         }
 
         a b {
@@ -202,7 +209,7 @@
         }
 
         ul li {
-            padding-bottom: 28px;    
+            padding-bottom: 28px;
         }
     }
 
@@ -227,8 +234,8 @@
         }
 
         .content {
-            
-            
+
+
             p strong {
                 color: plt('justia-blue');
             }
@@ -246,11 +253,12 @@
             display: inline-block;
             // width: 400px;
             text-align: left;
-            vertical-align: middle;
+            vertical-align: top;
 
             &.-image {
-                width: 74px;
-                padding: 0 25px 0 0;
+                width: 55px;
+                padding: 5px 15px 0 3px;
+                text-align: left;
             }
 
             &.-description p {
@@ -271,13 +279,16 @@
                 float: left;
                 max-width: 80%;
             }
+
         }
 
         .-inner-image-description .content-side {
             &.-image {
                 float: none;
-                width: 74px;
-                padding: 0 25px 0 0;
+                width: 55px;
+                padding: 5px 15px 0 3px;
+                text-align: left;
+
             }
 
             img {
