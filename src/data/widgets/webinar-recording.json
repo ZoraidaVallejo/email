@@ -1,17 +1,17 @@
 {
   "banner": {
     "link": "https://connect.justia.com/webinars/",
-    "bannerimg": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image"
+    "bannerimg": "webinar-monthly-digest.png"
   },
   "webinar-1": {
-    "link": "https://connect.justia.com/webinars/",
-    "image": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "link": "https://connect.justia.com/webinars/ethical-evolution-thriving-at-the-crossroads-of-law-and-business-in-the-ai-era",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/12/26-webinar-recording-available-cle.jpeg",
+    "t-webinar": "Ethical Evolution: Thriving at the Crossroads of Law and Business in the AI Era",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Things can often become murky at the intersection of law and business ethics, especially in our evolving technological landscape. Stream an on-demand webinar offering insights to help you stay ahead of the curve while navigating business and legal ethics. Please note this program is accredited for one hour of Legal Ethics MCLE in California, North Carolina, South Carolina (all levels), and Texas."
         ]
       },
       {
@@ -27,14 +27,83 @@
     ]
   },
   "webinar-2": {
-    "link": "https://connect.justia.com/webinars/",
-    "image": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image",
-    "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "link": "https://connect.justia.com/webinars/content-creator-law-by-a-content-creator",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/12/27-webinar-recording-available.jpg",
+    "t-webinar": "Content Creator Law by a Content Creator",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>."
+          "Content creation is arguably a relatively new profession based in our current social media landscape. The brand deals entered into by creators often present unique considerations and legal concerns. In this on-demand webinar, you can learn more about content creator law - directly from a content creator/attorney! Please note this program is accredited for one hour of General MCLE credit in California, North Carolina, South Carolina (all levels), and Texas. "
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-3": {
+    "link": "https://connect.justia.com/webinars/attorney-licensure-and-the-impaired-professional",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/12/28-webinar-recording-available.jpg",
+    "t-webinar": "Attorney Licensure and the Impaired Professional",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Substance use disorders and mental health challenges can affect any attorney regardless of gender, culture, ethnicity, age, or socioeconomic status. This on-demand presentation instructs attorneys on how to recognize the impaired professional, provides various resources to assist in the recovery, and identifies the possible disciplinary implications of impaired attorneys' conduct. Please note this program is accredited for one hour of Competence Issues MCLE credit in California, one hour of Substance Abuse/Mental Health MCLE credit in North Carolina and South Carolina (all levels), and one hour of MCLE credit in Texas, of which one hour will apply to Legal Ethics MCLE credit."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-4": {
+    "link": "https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/12/29-webinar-recording-available.jpg",
+    "t-webinar": "Podcasting 101: Advising Clients in Preproduction, Production, and Distribution",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Whether your clients are creating true crime, comedy, or talk show podcasts, a number of agreements are required to turn an idea into a production. Stream this Justia Webinar to learn more about the law surrounding podcast production in this one-hour program! Please note this program is accredited for one hour of General MCLE credit in California, North Carolina, South Carolina (all levels), and Texas."
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 146,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-5": {
+    "link": "https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts",
+    "image": "https://justatic.com/v/1/emails/images/webinars/2023/12/30-webinar-recording-available.jpg",
+    "t-webinar": "SEO for Lawyers: 2023 Highlights & 2024 Forecasts",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Want more online visibility? You need SEO! Watch this on-demand Justia Webinar to learn more about the search engine optimization developments in 2023 that impacted law firms and get our team’s predictions for 2024!"
         ]
       },
       {
@@ -59,8 +128,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Driving Your Success: Essential Habits for Law Firm Associates in the Post-Pandemic Landscape",
+          "link": "https://connect.justia.com/webinars/driving-your-success-essential-habits-for-law-firm-associates-in-the-post-pandemic-landscape",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -75,8 +144,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Build Your All-Star Team With Inclusive Interviewing",
+          "link": "https://connect.justia.com/webinars/build-your-all-star-team-with-inclusive-interviewing",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -91,8 +160,8 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Navigating & Mitigating Ethical Conflicts in Estate Administration & Planning",
+          "link": "https://connect.justia.com/webinars/navigating-mitigating-ethical-conflicts-in-estate-administration-planning",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
@@ -107,8 +176,24 @@
       {
         "type": "title-button",
         "config": {
-          "title": "Lorem ipsum dolor sit amet",
-          "link": "https://connect.justia.com/webinars/",
+          "title": "Virtual Isolation: Is Hyperconnectivity Helping or Harming the Legal Professional?",
+          "link": "https://connect.justia.com/webinars/virtual-isolation-is-hyperconnectivity-helping-or-harming-the-legal-professional",
+          "button": {
+            "config": {
+              "style": "justia-blue-ghost",
+              "text": "Watch Now",
+              "width": 125,
+              "height": 40,
+              "fontSize": 16
+            }
+          }
+        }
+      },
+      {
+        "type": "title-button",
+        "config": {
+          "title": "2023-2024 Supreme Court Term Preview",
+          "link": "https://connect.justia.com/webinars/2023-2024-supreme-court-term-preview",
           "button": {
             "config": {
               "style": "justia-blue-ghost",
