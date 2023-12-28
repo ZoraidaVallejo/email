@@ -1,0 +1,73 @@
+{
+  "main-banner": {
+    "link": "https://connect.justia.com/webinars/",
+    "bannerimg": "webinar-weekly-digest-main-banner-dec-31.png"
+  },
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/the-addicted-lawyer-how-we-got-here-where-we-are-headed",
+    "image": "the-addicted-lawyer-how-we-got-here-where-we-are-headed.jpg",
+    "widget": {
+      "header": "Don’t Miss Our Upcoming Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Brian Cuban, lawyer, author, and mental health awareness and recovery advocate, shares his story of experiencing mental health and substance abuse issues as a lawyer and his journey… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/the-addicted-lawyer-how-we-got-here-where-we-are-headed\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar-icon.png",
+          "description": [
+            "January 4, 1:00 PM ET/10:00 AM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-videos-banner": {
+    "link": "https://www.youtube.com/@Justia",
+    "bannerimg": "justia-videos-banner.png"
+  },
+  "webinar-3": {
+    "link": "https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts",
+    "image": "seo-for-lawyers-2023-highlights-and-2024-forecasts.jpg",
+    "widget": {
+      "header": "Check Out Our Latest On-Demand Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Curious about the evolution of the SEO landscape in the past year? Ready to explore the future and make predictions for 2024? In our engaging webinar, we will dive into the SEO highlights… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-red",
+          "text": "Watch Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "justia-connect-banner": {
+    "link": "https://connect.justia.com/pro",
+    "bannerimg": "justia-connect-banner.png"
+  }
+}
