@@ -18,8 +18,9 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
-        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
+        {{>explore-webinars widgetConfig=exploreWebinars}}
 
+        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
         {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
 
@@ -62,7 +63,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>jurispro}}
 
-        {{>law-events}}
+        {{!-- {{>law-events widgetConfig=lawEvents}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

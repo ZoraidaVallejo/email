@@ -3,7 +3,7 @@
     "icon": "",
     "header": "Featured Webinar"
   },
-  "link": "LINK",
+  "link": "https://connect.justia.com/webinars/free-online-legal-resources",
   "utm": {
     "clients": {
       "medium": "email",
@@ -27,13 +27,13 @@
     }
   },
   "banner": "insights-webinar-01.jpg",
-  "title": "Neque porro quisquam est",
+  "title": "Free Online Legal Resources",
   "description": [
-    "Aenean semper purus enim, et dictum metus facilisis ut. Nullam eget urna sollicitudin, lobortis diam id, facilisis mi. Praesent convallis erat a mi tincidunt dapibus."
+    "Want to take advantage of legal research solutions and resources without breaking the bank? Join us for Free Online Legal Resources, a new Justia Webinar presented by Justia CEO (and champion of free law) Tim Stanley!"
   ],
   "button": {
     "style": "justia-blue-ghost",
-    "link": "LINK",
+    "link": "https://connect.justia.com/webinars/free-online-legal-resources",
     "text": "Register Now"
   }
 }
