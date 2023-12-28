@@ -5,50 +5,34 @@
   },
   "events": [
     {
-      "day": "00",
+      "day": "18",
       "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
+      "title": "Free Online Legal Resources",
+      "link": "https://connect.justia.com/webinars/free-online-legal-resources",
       "time": "2pm ET",
       "typeLocation": "Webinar | <b>CLE</b>"
     },
     {
-      "day": "00",
+      "day": "25",
       "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
+      "title": "Best of TECHSHOW - Empower with AI: How AI Could (And Perhaps Already Is) Changing Your Practice",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/437168724/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar | <b>CLE</b>"
+    },
+    {
+      "day": "26",
+      "month": "Jan",
+      "title": "Strategies to Improve Diversity and Interrupt Implicit Bias in the Legal Profession",
+      "link": "https://connect.justia.com/webinars/strategies-to-improve-diversity-and-interrupt-implicit-bias-in-the-legal-profession",
       "time": "2pm ET",
       "typeLocation": "Webinar | <b>CLE</b>"
     },
     {
-      "day": "00",
+      "day": "31",
       "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
-      "time": "2pm ET",
-      "typeLocation": "Webinar | <b>CLE</b>"
-    },
-    {
-      "day": "00",
-      "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
-      "time": "2pm ET",
-      "typeLocation": "Webinar | <b>CLE</b>"
-    },
-    {
-      "day": "00",
-      "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
-      "time": "2pm ET",
-      "typeLocation": "Webinar | <b>CLE</b>"
-    },
-    {
-      "day": "00",
-      "month": "Jan",
-      "title": "Sed venenatis ante nisi, a convallis libero semper ac",
-      "link": "LINK",
+      "title": "Charisma In-Person and On LinkedIn: Business Development for Attorneys",
+      "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
       "time": "2pm ET",
       "typeLocation": "Webinar | <b>CLE</b>"
     }
