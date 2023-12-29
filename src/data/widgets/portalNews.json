@@ -1,0 +1,17 @@
+{
+  "widget": {
+    "type": "JUSTIA PORTAL NEWS",
+    "header": "Take a Look at the Ongoing Development of Our Consumer Portal"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "list",
+      "config": [
+        "<strong>50-State Surveys.</strong> We extensively researched lemon laws for the Consumer Protection Law Center, power of attorney laws for the Estate Planning Legal Center, and negligence laws for the Personal Injury Center. These surveys were designed to capture variations in laws across states, providing comprehensive insights into the legal landscape.",
+        "<strong>FAQs for Social Media Influencers.</strong> We enhanced our current content by addressing FTC guidelines and other legal considerations for social media influencers and advertisers collaborating with them. This improvement involved creating a set of frequently asked questions (FAQs) to provide clearer insights on the topic.",
+        "<strong>AI Case Summaries.</strong> We streamlined the production of summaries for new decisions from state and federal appellate courts by completing the development of an AI tool capable of operating with minimal intervention."
+      ]
+    }
+  ]
+}

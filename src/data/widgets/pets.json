@@ -1,0 +1,19 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "Bruno The Frenchie"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "<i>Hey there, it's Bruno The Frenchie. I'm not your average bulldog – a bit on the larger side, with a cream-colored coat, a snazzy red nose, and a unique hairy eye. Mom says I'm beautiful, and who am I to argue? I'm a seasoned explorer, always up for checking out new places, but I admit I tire out quickly.</i>",
+          "<i>I'm a pizza and quesadilla enthusiast, but I have to be on my best behavior health-wise. When I hit the snooze button, I snore like a bear; rumor has it, and I make funny noises while dreaming. I'm all about the hugs and making new friends. So, if you see me strutting my stuff, don't be shy – come say hi!</i>",
+          "<i>— Ayumi Obana</i>"
+        ]
+      }
+    }
+  ]
+}

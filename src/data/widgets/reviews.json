@@ -1,0 +1,21 @@
+{
+  "widget": {
+    "type": "REVIEWS & RECOMMENDATIONS",
+    "header": "Somebody Somewhere"
+  },
+  "titleResponsiveSize": 23,
+  "link": "#",
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "review-01.png",
+        "where": "Available on <a href=\"https://www.youtube.com/watch?v=9ez8lm9I26Y\" target=\"_blank\"><b>Netflix</b></a>",
+        "description": [
+          "<i>\"Pluto, released in 2023, is an anime adaptation of Naoki Urasawa's work that reimagines the classic anime Astro Boy with a more adult and serious plot. It showcases a world where AI and humans coexist socially, exploring the consequences of this dynamic. The story revolves around Gesicht, a robot Europol investigator tasked with solving a series of murders in a society where AI is programmed not to harm humans. The narrative unfolds with the underlying theme of the strict directive that \"Robots must not become any more human…\"\"</i>",
+          "<i>— Andres Sanchez</i>"
+        ]
+      }
+    }
+  ]
+}
