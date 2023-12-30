@@ -39,7 +39,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>ask-a-lawyer}} --}}
 
-        {{!-- {{>lawyer-qa widgetConfig=lawyerQa.jld}} --}}
+        {{>lawyer-qa widgetConfig=lawyerQa.jld}}
 
         {{!-- {{>jobs-subscribe}} --}}
 
@@ -53,6 +53,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>trending-news}}
 
+         {{>tip-month widgetConfig=tipMonth.complimentary}}
+
 
 
         {{>meet-our-team}}
@@ -63,7 +65,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>jurispro}}
 
-        {{!-- {{>law-events widgetConfig=lawEvents}} --}}
+        {{>law-events widgetConfig=lawEvents}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
