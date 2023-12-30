@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .widget {
-    // border-bottom: 1px solid plt('gallery');
+    border-bottom: 1px solid plt('gallery');
     background-color: plt('white');
 
     // &:nth-child(odd) {
@@ -101,53 +101,11 @@
 .widget-columns {
 
     > .wrapper {
-        padding: 0 $widget-gap;
+        padding: 0 $padding 20px;
 
         &.-last {
             padding: 0 $padding $widget-gap;
         }
-    }
-
-    .-blast-4 & {
-        &.-with-image {
-
-            .block > div {
-                p {
-                    padding: 0 20px;
-                }
-            }
-        }
-    }
-
-    .-blast-5-2 &,
-    .-blast-5-3 & {
-        > .wrapper {
-            padding: 0 $widget-gap $widget-gap;
-        }
-
-        &.-with-image {
-
-            .block > div {
-                
-                p {
-                    padding: 0 25px;
-                }
-            }
-        }
-    }
-
-    .red-link {
-        color: plt('red')!important;
-        @include mail-font(15px, 1.5, 700);
-    }
-
-    .block-title {
-       @include mail-font(16px, 1.5, 700);
-       display: block;
-       padding-left: 20px;
-       color: plt('justia-blue');
-       border-left: 3px solid #00b3e3;
-       text-align: left;
     }
 
     &.-articles {
@@ -167,23 +125,11 @@
 
     &.-with-image {
 
-        .block > div {
-            display: block;
-            padding: 20px 0 25px;
-            border: 1px solid #e6e6e6;
-            border-radius: 10px;
-
-            p {
-                padding: 0 24px;
-                @include mail-font(15px, 1.5);
-            }
-        }
-
         .block-image,
         .block-image-link {
 
             + .block-description {
-                margin: 25px 0;
+                margin: 25px 0 16px;
 
                 &:last-child {
                     margin: 25px 0 0;
@@ -192,23 +138,13 @@
         }
 
         .block-image {
-            width: 100%;
-            max-width: 140px;
-            margin: 0 auto;
+            width: 250px;
         }
 
         .block-title {
-            @include mail-font(16px, 1.1, tp('weight', 'bold'));
-            margin: 10px 0 25px;
+            @include mail-font(22px, 1.1, tp('weight', 'bold'));
+            margin: 15px 0 10px;
             color: plt('justia-blue');
-        }
-
-        .pro-label-image {
-            margin: 0 auto;
-
-            + .block-title {
-                margin: 15px 0 25px;
-            }
         }
 
         .block-subtitle {
