@@ -121,5 +121,36 @@
       "<span class=\"-disclaimer\"><b>Please note:</b> This presentation is accredited for one hour of Prevention and Detection Competence credit in California. It is also approved for one hour of Substance/Abuse/Mental Health credit in North Carolina and South Carolina (all levels). It has been submitted to the State Bar of Texas Committee on MCLE and is pending review.</span>",
       "<span class=\"-disclaimer\">If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"https://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit.</span>"
     ]
+  },
+  "cle-instructions": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Hi Name,",
+      "Thank you for joining us for our recent Justia Webinars presentation!<strong> You must complete your attendance verification to receive CLE credit. </strong>As a reminder, if you have a free Justia Connect membership, you must <a href=\"http://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to receive CLE credit.",
+      "<strong>The steps below must be completed by 11:00 a.m. PT on Saturday, January 6, 2024 to receive credit.</strong>",
+      "<strong>Completing Your Attendance Verification</strong>"
+    ],
+    "number-list": [
+      "Visit the <a href=\"https://connect.justia.com/cle-center\">Justia CLE Center</a>.",
+      "Click on the “Verify Now” button.",
+      "Input the attendance verification code received during your presentation.",
+      "Follow the remaining prompts in the form to input all pertinent information and offer evaluation of the MCLE presentation.",
+      "Download your certificate, and you’re done!"
+    ]
+  },
+  "survey-reminder": {
+    "banner": "",
+    "details": {},
+    "message": [
+      "Thank you for joining us for our recent Justia Webinars presentation, <strong>The Addicted Lawyer. How We Got Here. Where We Are Headed</strong>. We love connecting our members with new learning opportunities and hope you found the webinar both engaging and informative.",
+      "As we continue to plan future Justia Webinars for Justia Connect members, we want to hear from you! If you have not already done so, please share your feedback about your recent webinar experience."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Share My Feedback",
+      "width": 250
+    }
   }
 }
