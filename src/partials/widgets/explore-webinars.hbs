@@ -46,7 +46,12 @@
                             <p class="title">
                               <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
                             </p>
+                          {{else}}
+                            <p class="title">
+                              <b>{{{this.title}}}</b>
+                            </p>
                           {{/if}}
+
                           {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
                           {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
                         </td>
