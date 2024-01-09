@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "social-media-news",
+    "header": "Social Media News"
+  },
+  "news": [
+    {
+      "title": "[Title]",
+      "link": "https://www.justia.com/",
+      "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]"
+    },
+    {
+      "title": "[Title]",
+      "link": "https://www.justia.com/",
+      "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]"
+    },
+    {
+      "title": "[Title]",
+      "link": "https://www.justia.com/",
+      "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]"
+    },
+    {
+      "title": "[Title]",
+      "link": "https://www.justia.com/",
+      "description": "[Lorem ipsum dolor sit amen magna laborum irure ullamco...]"
+    }
+  ]
+}

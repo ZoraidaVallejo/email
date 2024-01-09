@@ -1,0 +1,133 @@
+{
+  "v1": {
+    "title": "Your Justia Profile is <br>___% complete!",
+    "image": "lawyer-directory-banner-01.jpg",
+    "bottom-title": "Name, <span> You’re doing great!</span>",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Be sure you are keeping all of your information up-to-date to get the most from your <b>Justia Profile<b> in the new year!</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "lightBlueGhost",
+          "text": "Update My Profile",
+          "width": 280,
+          "height": 50,
+          "borderColor": "#00b3e3",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      }
+    ]
+  },
+  "v2": {
+    "title": "Your Justia Profile is <br>___% complete!",
+    "image": "lawyer-directory-banner-01.jpg",
+    "bottom-title": "Name,",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>You’re off to a great start, but increasing your profile completeness can help you get even more from your <b>Justia Lawyer Directory</b> profile!  </p>",
+          "<p>Be sure you have completed your core information,  have a strong profile picture, and include a biography to reach more clients.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "lightBlueGhost",
+          "text": "Update My Profile",
+          "width": 280,
+          "height": 50,
+          "borderColor": "#00b3e3",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      }
+    ]
+  },
+  "v1block": {
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Want to take your visibility even further?</b></p>",
+          "<p>Contact our team to learn more about how you can use  <b>Justia Premium Placements</b> to increase your visibility up to 280x when compared to a free profile in the <b>Justia Lawyer Directory!</b></p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Request Info",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  },
+  "v2block": {
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Want to boost your profile visibility even more?</b></p>",
+          "<p>  Lawyers with <b>Justia Premium Placements</b> enjoy up to  280x greater visibility in our directory when compared  to a free profile. Contact our team for a free, no-commitment consultation.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Request Info",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  }
+}
