@@ -1,0 +1,54 @@
+{
+  "widget": {
+    "icon": "featured-site-of-the-month",
+    "header": {
+      "singular": "Featured Site of the Month",
+      "plural": "Featured Sites of the Month"
+    }
+  },
+  "justiaLink": "https://www.justia.com/marketing/elevate/",
+  "sites": [
+    {
+      "clientName": "Farrell Weaver & Okun",
+      "location": {
+        "detailed": "Pittsburgh, PA",
+        "short": "Pittsburgh, PA"
+      },
+      "possessiveAdjective": "their",
+      "domain": {
+        "long": "https://www.tomfarrelllaw.com/",
+        "simple": "tomfarrelllaw.com"
+      },
+      "screenshots": "featured-site-01.png"
+    }
+  ],
+  "description": [
+    "At Justia, we build law firm websites that are responsive, mobile-friendly, and AMP enabled. Our commitment to high-quality, relevant websites will help you attract clients in the practice areas and locations most important to your firm.",
+    "If you would just like to learn more about what we have to offer, contact one of our marketing specialists today."
+  ],
+  "button": {
+    "style": "red",
+    "link": "https://www.justia.com/marketing/contact/",
+    "text": "Contact Us"
+  },
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "justiaLink": "section-featured-site-of-the-month-link-v1",
+        "button": "section-featured-site-of-the-month-learn-more-button-v1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-elevate-newsletter",
+      "content": {
+        "justiaLink": "section-featured-site-of-the-month-link-v1",
+        "button": "button-learn-more-1"
+      }
+    }
+  }
+}

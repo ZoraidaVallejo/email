@@ -1,0 +1,33 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "banner": "did-you-know-icon.png",
+    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "What's New in Design"
+    },
+    "banner": "whats-new.png",
+    "title": "",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "New design options are now available for your website's Client Reviews stripe. If you'd like to refresh the look and feel of this stripe, it's easy! Just  <b><a href='https://elevatedesigns.justia.com/#feature-choices#homepage' target='_blank'>click here</a></b> to view your options and get started.",
+      "You can now include a stripe displaying the payment methods your firm accepts and can link to your payment site if applicable. You'll find the option under Stripes > Add Stripe > Basic."
+    ]
+  }
+}
