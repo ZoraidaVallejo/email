@@ -1,0 +1,21 @@
+{{! ================================================================================================================= }}
+{{! L E G A L   I N D U S T R Y   N E W S                                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-marketing-solutions set-max-width" responsive="mobile-padding-horizontal-sides"}}
+  <tr>
+    <td class="-marketing-wrap -icon-top" background="../dist/images/marketing-flag-icon.png" responsive="mobile-padding-horizontal-sides">
+    {{#table class="content-wrapper"}}
+      {{>widget-header-marketing
+        header=marketingSolutions.widget.header
+        link=marketingSolutions.widget.link
+      }}
+      {{>widget-marketing-columns widgetConfig=marketingSolutions.news isLast=true}}
+    {{/table}}
+    </td>
+  </tr>
+{{/table}}

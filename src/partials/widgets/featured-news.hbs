@@ -1,0 +1,77 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   N E W S                                                                                         }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Chat with Pris and Haydee about the naming convention for the config variables.
+// In this case it uses featuredNews because both Newsletters shared the same info,
+// but `Welcome` uses `widgetConfig` because the main text is longer in the JLD vesion.
+}}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{#and featuredNews.link (compare featuredNews.link "!==" "")}}
+  {{assign "featuredNewsTitleLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+  {{assign "featuredNewsImageLink" (concat featuredNews.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
+{{/and}}
+
+{{#and featuredNews.button (compare featuredNews.button.link "!==" "")}}
+  {{assign "featuredNewsButtonLink" (concat featuredNews.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-featured-news set-max-width"}}
+
+  {{>widget-header
+    header=featuredNews.widget.header
+    icon=featuredNews.widget.icon
+  }}
+
+  {{!--
+  // TODO: Maybe move title and description to a component.
+  --}}
+  <tr>
+    <td class="widget-description{{#unless @root.widgetWithButton}} -no-button{{/unless}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+
+        {{>widget-banner
+          imgSrc=featuredNews.banner
+          imgAlt=featuredNews.title
+          link=@root.featuredNewsImageLink
+        }}
+
+        <h3 class="content-title">
+          <a href="{{{@root.featuredNewsTitleLink}}}" target="_blank">
+            {{{featuredNews.title}}}
+          </a>
+        </h3>
+
+        {{#each featuredNews.description}}
+          <p>{{{this}}}</p>
+        {{/each}}
+
+        {{!
+          // TODO: Move to `widget-button` component.
+          }}
+          {{#if @root.widgetWithButton}}
+
+              <div class="widget-button">
+                {{#uiButton presetStyle=featuredNews.button.style href=@root.featuredNewsButtonLink}}
+                  {{featuredNews.button.text}}
+                {{/uiButton}}
+              </div>
+
+          {{/if}}
+      </div>
+
+    </td>
+  </tr>
+
+
+{{/table}}

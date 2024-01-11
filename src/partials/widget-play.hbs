@@ -1,0 +1,36 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   D A T E   S Q U A R E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+ * @param {string} imgSrc - Image path (relative or absolute).
+ * @param {string} imgAlt - Image alternative text.
+ * @param {string} [link] - Optional link for the banner.
+ * @param {string} [widgetClass] - Optional extra CSS classes.
+}}
+
+{{! ================================================================================================================= }}
+{{#table class="widget-event-play"}}
+    <tr>
+      <td class="{{classList "widget-event-icon" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+        <div class="{{classList "icon" widgetClass}}">
+          {{#if link}}
+            <a href="{{{link}}}" target="_blank">
+          {{else}}
+            <a href="#">
+          {{/if}}
+          {{>img src=icon alt="Justia Webinar" class="-play-icon" width="60" height="60"}}
+            {{!-- <img src="src/images/play-icon.png" width="60" height="60" alt="Justia Webinar"> --}}
+          </a>
+        </div>
+      </td>
+    </tr>
+    {{#if category}}
+    <tr>
+        <td class="{{classList "widget-event-category" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+          <div class="category"><span>{{category}}</span></div>
+        </td>
+    </tr>
+    {{/if}}
+{{/table}}
+
