@@ -316,6 +316,9 @@
         font-weight: get('font.weight.bold');
     }
 }
+.w-did-you-know .bullet-list span {
+    color: plt('justia-blue')
+}
 
 .w-did-you-know .widget-wrapper{
     padding: 10px 25px 15px;
