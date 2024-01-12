@@ -2,7 +2,7 @@
   "blue": {
     "title": "The Justia AI Writer just got smarter!",
     "image": "elevate-monthly-ai-writer-01.jpg",
-    "link": "#",
+    "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/",
     "contentOrder": [
       {
         "type": "description",
@@ -57,7 +57,7 @@
         "config": {
           "style": "red",
           "text": "Learn More About Justia AI Writer",
-          "width": 280,
+          "width": 430,
           "height": 50,
           "borderColor": "",
           "backgroundColor": "",
@@ -65,8 +65,8 @@
           "fontStyle": "",
           "fontWeight": "",
           "fontSize": 23,
-          "responsive": "",
-          "link": ""
+          "responsive": "mobile-reset-width",
+          "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/"
         }
       },
       {
