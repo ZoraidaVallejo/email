@@ -1,0 +1,38 @@
+{
+  "pro": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "justia-anniversary",
+      "link": {
+        "url": "https://www.justia.com/marketing/connect/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "client-newsletter",
+          "content": "image-header-logo-1"
+        }
+      },
+      "color": "connect",
+      "path": "https://justatic.com/branding/logos/emails/justia-20-connect-pro-blue.png",
+      "alt": "20 Anniversary - Justia Connect Pro"
+    }
+  },
+  "jld": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "connect",
+      "color": "blue",
+      "link": {
+        "url": "https://www.justia.com/marketing/elevate/",
+        "utm": {
+          "medium": "email",
+          "campaign": "<%= dateFormat.dash %>",
+          "source": "",
+          "content": "image-header-logo-1"
+        }
+      },
+      "path": "",
+      "alt": "20 Anniversary - Justia Connect"
+    }
+  }
+}

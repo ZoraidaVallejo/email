@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "header": "News From Justia"
+  },
+  "link": "https://news.justia.com/pennsylvania-congressman-faces-election-eligibility-lawsuit/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-connect-basic",
+      "content": {
+        "title": "text-alert-news-title-1",
+        "image": "image-alert-news-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "connect-quarterly-featured-news-01.jpg",
+  "title": "Pennsylvania Congressman Faces Ballot Disqualification Lawsuit",
+  "description": [
+    "Section 3 of the Fourteenth Amendment to the U.S. Constitution disqualifies individuals from holding office if they previously took an oath to support the Constitution and later engaged in insurrection or rebellion against the United States.  Pennsylvania Congressman Scott Perry is the latest to confront a challenge under Section 3, with activist Gene Stilp arguing for his disqualification, alleging involvement in disrupting the transfer of administrations.",
+    "Catch up on this and other breaking news on the <b><a href='https://news.justia.com/' target='_blank'>Justia Legal News Blog</a></b>."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://news.justia.com/pennsylvania-congressman-faces-election-eligibility-lawsuit/",
+    "text": "Read More"
+  }
+}
