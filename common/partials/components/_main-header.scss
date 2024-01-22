@@ -121,6 +121,7 @@ $settings: set('mail-header', (
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header {
+    border-bottom: 1px solid plt('gallery');
     background-color: get('mail-header.background');
 
     .logo-img {
