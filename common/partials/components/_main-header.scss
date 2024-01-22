@@ -134,8 +134,12 @@ $settings: set('mail-header', (
 
     .wrapper {
         width: 100%;
-        padding: 20px $padding;
+        padding: 12px $padding;
         text-align: center;
+    }
+
+    .logo-img {
+        max-width: 92%;
     }
 
     // L O G O   S I Z E S
