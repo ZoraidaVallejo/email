@@ -6,8 +6,44 @@ $logos-dimensions: (
     'justia': (
         'dims': 879px 231px
     ),
+    'amplify': (
+        'dims': 1087px 139px
+    ),
+    'argument-summaries': (
+        'dims': 1554px 158px
+    ),
+    'ask-a-lawyer': (
+        'dims': 2754px 368px
+    ),
+    'blogging': (
+        'dims': 1087px 139px
+    ),
+    'cle': (
+        'dims': 1098px 135px
+    ),
+    'connect': (
+        'dims': 551px 96px
+    ),
+    'connect-pro': (
+        'dims': 500px 72px
+    ),
+    'elevate': (
+        'dims': 500px 72px
+    ),
+    'insider': (
+        'dims': 1240px 196px
+    ),
     'insights': (
         'dims': 1120px 196px
+    ),
+    'justia-ver2': (
+        'dims': 300px 90px
+    ),
+    'justia-anniversary': (
+        'dims': 470px 55px
+    ),
+    'lawyer-directory': (
+        'dims': 1762px 158px
     ),
     'lawyer-profile-essentials': (
         'dims': 2248px 158px
@@ -15,23 +51,14 @@ $logos-dimensions: (
     'legal-jobs': (
         'dims': 1328px 158px
     ),
-    'lawyer-directory': (
-        'dims': 1762px 158px
-    ),
     'marketing': (
         'dims': 1240px 196px
     ),
-    'insider': (
-        'dims': 1240px 196px
+    'opinion-summaries': (
+        'dims': 1433px 158px
     ),
-    'justia-ver2': (
-        'dims': 300px 90px
-    ),
-    'blogging': (
-        'dims': 1087px 139px
-    ),
-    'justia-anniversary': (
-        'dims': 470px 55px
+    'webinars': (
+        'dims': 2388px 387px
     )
 );
 
@@ -54,19 +81,27 @@ $settings: set('mail-header', (
     'logos': (
         'logo-only': (
             'justia': 135px,
-            'insights': 267px,
-            'lawyer-profile-essentials': 470px,
-            'legal-jobs': 308px,
-            'lawyer-directory': 500px,
-            'marketing': 297px,
-            'insider': 300px,
-            'your-birthday': 380px,
-            'new-team-member': 450px,
-            'new-intern': 340px,
-            'blogging': 460px,
             'anniversary': 346px,
+            'amplify': 291px,
+            'argument-summaries': 492px,
+            'ask-a-lawyer': 375px,
+            'blogging': 390px,
+            'cle': 407px,
+            'connect': 287px,
+            'connect-pro': 348px,
+            'elevate': 278px,
+            'insights': 267px,
+            'justia-anniversary': 470px,
+            'lawyer-directory': 421px,
+            'lawyer-profile-essentials': 470px,
+            'legal-jobs': 421px,
+            'marketing': 320px,
+            'new-intern': 340px,
+            'new-team-member': 450px,
             'onboarding': 350px,
-            'justia-anniversary': 470px
+            'opinion-summaries': 454px,
+            'webinars': 309px,
+            'your-birthday': 380px
         ),
         'with-date': (
             'justia': 135px,
@@ -78,7 +113,7 @@ $settings: set('mail-header', (
             'justia-anniversary': 270px
         ),
         'insider-date': (
-            'insider': 300px
+            'insider': 393px
         )
     )
 ));
