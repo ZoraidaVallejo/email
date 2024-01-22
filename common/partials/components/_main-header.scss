@@ -212,6 +212,7 @@ $settings: set('mail-header', (
     }
 
     .logo {
+        padding: 12px $padding;
         border-radius: 10px 10px 0 0;
         background-color: get('mail-header.background');
         text-align: center;
