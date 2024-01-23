@@ -2,7 +2,8 @@
   "pro": {
     "layout": "logo-only",
     "logo": {
-      "name": "justia-anniversary",
+      "name": "connect-pro",
+      "color": "pro",
       "link": {
         "url": "https://www.justia.com/marketing/connect/",
         "utm": {
@@ -11,10 +12,7 @@
           "source": "client-newsletter",
           "content": "image-header-logo-1"
         }
-      },
-      "color": "connect",
-      "path": "https://justatic.com/branding/logos/emails/justia-20-connect-pro-blue.png",
-      "alt": "20 Anniversary - Justia Connect Pro"
+      }
     }
   },
   "jld": {
