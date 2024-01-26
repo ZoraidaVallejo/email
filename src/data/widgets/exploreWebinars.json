@@ -1,0 +1,77 @@
+{
+  "widget": {
+    "header": "Explore Our On-Demand Webinars"
+  },
+  "events": [
+    {
+      "icon": "play-icon.png",
+      "category": "",
+      "title": "SEO for Lawyers: 2023 Highlights & 2024 Forecasts",
+      "link": "https://connect.justia.com/webinars/seo-for-lawyers-2023-highlights-2024-forecasts",
+      "speakers": "Ana Hidalgo, Gustavo Montes, Tim Stanley",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "Podcasting 101: Advising Clients in Preproduction, Production, and Distribution",
+      "link": "https://connect.justia.com/webinars/podcasting-101-advising-clients-in-preproduction-production-and-distribution",
+      "speakers": "Alexia Bedat",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "Attorney Licensure and the Impaired Professional",
+      "link": "https://connect.justia.com/webinars/attorney-licensure-and-the-impaired-professional",
+      "speakers": "Laurie J. Besden, Tracy L. Kepler",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "Content Creator Law by a Content Creator",
+      "link": "https://connect.justia.com/webinars/content-creator-law-by-a-content-creator",
+      "speakers": "Julian Sarafian",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    },
+    {
+      "icon": "play-icon.png",
+      "category": "CLE",
+      "title": "Ethical Evolution: Thriving at the Crossroads of Law and Business in the AI Era",
+      "link": "https://connect.justia.com/webinars/ethical-evolution-thriving-at-the-crossroads-of-law-and-business-in-the-ai-era",
+      "speakers": "Thomas Shack",
+      "cta": {
+        "style": "-red",
+        "text": "Watch Now >"
+      }
+    }
+  ],
+  "link": "https://connect.justia.com/webinars/",
+  "type": "button",
+  "config": {
+    "style": "red",
+    "text": "See All Webinars",
+    "width": 205,
+    "height": 50,
+    "borderColor": "",
+    "backgroundColor": "",
+    "fontColor": "",
+    "fontStyle": "",
+    "fontWeight": "",
+    "fontSize": 18,
+    "responsive": ""
+  }
+}
