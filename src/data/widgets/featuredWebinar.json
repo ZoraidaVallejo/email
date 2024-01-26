@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Featured Webinar"
+  },
+  "link": "https://connect.justia.com/webinars/free-law-resources-technology-legal-issues-past-present-future",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    }
+  },
+  "banner": "insights-webinar-01.jpg",
+  "title": "Free Law: Resources, Technology & Legal Issues (Past, Present & Future)",
+  "description": [
+    "Want to take advantage of legal research solutions and resources without breaking the bank? Join us for Free Online Legal Resources, a new Justia Webinar presented by Justia CEO (and champion of free law) Tim Stanley!"
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://connect.justia.com/webinars/free-law-resources-technology-legal-issues-past-present-future",
+    "text": "Register Now"
+  }
+}

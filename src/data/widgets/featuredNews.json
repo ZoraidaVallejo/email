@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/webinar-on-seo-for-lawyers-2023-recap-2024-outlook-with-a-look-at-ai/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-read-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-read-more-1"
+      }
+    }
+  },
+  "banner": "insights-featured-news-01.jpg",
+  "title": "Webinar on SEO for Lawyers: 2023 Recap & 2024 Outlook With a Look at AI",
+  "description": [
+    "Your law firm website is a cornerstone of a well-rounded digital marketing strategy for lawyers. Want to stay competitive and connect with more clients in the new year? Here are four resolutions to help you refresh your law firm website for 2024."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/webinar-on-seo-for-lawyers-2023-recap-2024-outlook-with-a-look-at-ai/",
+    "text": "Read More"
+  }
+}
