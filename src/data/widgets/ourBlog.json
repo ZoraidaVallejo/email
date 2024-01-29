@@ -1,0 +1,49 @@
+{
+  "widget": {
+    "type": "Our Blog",
+    "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
+  },
+  "description": {
+    "top": [
+      ""
+    ],
+    "bottom": [
+      ""
+    ]
+  },
+  "singleColumn": false,
+  "columns": [
+    {
+      "image": {
+        "src": "onward-01.png",
+        "alt": "Release Alert: New Features for Justia AI Writer"
+      },
+      "readMore": "https://onward.justia.com/release-alert-new-features-for-justia-ai-writer/",
+      "blockTitle": "Release Alert: New Features for Justia AI Writer"
+    },
+    {
+      "image": {
+        "src": "onward-02.png",
+        "alt": "4 New Year’s Resolutions for Your Law Firm Website"
+      },
+      "readMore": "https://onward.justia.com/4-new-years-resolutions-for-your-law-firm-website/",
+      "blockTitle": "4 New Year’s Resolutions for Your Law Firm Website"
+    },
+    {
+      "image": {
+        "src": "onward-03.png",
+        "alt": "Justia’s 2023 Year in Review"
+      },
+      "readMore": "https://onward.justia.com/justias-2023-year-in-review/",
+      "blockTitle": "Justia’s 2023 Year in Review"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "News and Notes From Google Local Services Ads: January 2024"
+      },
+      "readMore": "https://onward.justia.com/news-and-notes-from-google-local-services-ads-january-2024/",
+      "blockTitle": "News and Notes From Google Local Services Ads: January 2024"
+    }
+  ]
+}

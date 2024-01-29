@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "Justia Pet News",
+    "header": "Golden Boy Devo"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "pets-01.png",
+        "description": [
+          "<i>Say hello to my best boy, Devo! He is 13 years old, but he's pretty spry for his old age. He's about 60 lbs and is a Puggle (Pug + Beagle) Shar-Pei mix. Mutts are the best! His name at the shelter was \"Hunter\", and in his younger days, he was a pretty good one. He is very smart and loyal and stays by my side day and night.</i>",
+          "<i>— Lauren Moskie</i>"
+        ]
+      }
+    }
+  ]
+}
