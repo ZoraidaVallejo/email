@@ -332,11 +332,11 @@ $title-gap: 30px;
         }
     }
 
-    &.-more {
+    /* &.-more {
         .title {
             @include mail-font(18px, 1.1, tp('weight', 'bold'))
         }
-    }
+    } */
 
     .title {
         margin: 0 0 6px;
