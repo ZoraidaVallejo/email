@@ -1,0 +1,28 @@
+{
+  "widget": {
+    "icon": "jurispro",
+    "header": "JurisPro Expert Witness Directory",
+    "link": "https://www.jurispro.com/"
+  },
+  "description": [
+    "Powered by Justia, JurisPro (<a href='https://www.jurispro.com/' target='_blank'>www.JurisPro.com</a>) provides a free directory of expert witnesses in over 10,000 areas of expertise. "
+  ],
+  "cases": [
+    {
+      "title": "Orthopedic Surgeon Expert Witness Allowed to Testify in Collision Claim",
+      "link": "https://www.expertwitnessblog.com/orthopedic-surgeon-expert-witness-allowed-to-testify-in-collision-claim/"
+    },
+    {
+      "title": "Industrial Medicine Expert Witness Testimony Not Allowed in Mold Exposure Case",
+      "link": "https://www.expertwitnessblog.com/industrial-medicine-expert-witness-testimony-not-allowed-in-mold-exposure-case/"
+    },
+    {
+      "title": "Software Expert Witness Testimony Allowed in Breach of Contract Case Against GoDaddy",
+      "link": "https://www.expertwitnessblog.com/software-expert-witness-testimony-allowed-in-saas-contract-case/"
+    },
+    {
+      "title": "Electronics Expert Witness Testimony Not Allowed in Television Installation Case",
+      "link": "https://www.expertwitnessblog.com/electronics-expert-witness-testimony-not-allowed-in-television-installation-case/"
+    }
+  ]
+}

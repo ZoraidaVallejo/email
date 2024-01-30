@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "More From Justia"
+  },
+  "banner": "insights-more-justia.jpg",
+  "imageLink": "https://onward.justia.com/?utm_medium=email&utm_campaign=2024-02&utm_source=insights-newsletter&utm_content=image-more-from-justia-1",
+  "news": [
+    {
+      "title": "Justia CLE & Webinars: Free Law: Resources, Technology & Legal Issues (Past, Present & Future)",
+      "link": "https://onward.justia.com/justia-cle-webinars-free-law-resources-technology-legal-issues-past-present-future/",
+      "description": "Legal research has always been a core part of your career as a lawyer, but who says you have to break the bank for it? In this Justia Webinar, join Tim Stanley as he not only covers the history of free law and its impact in the present day, but also showcases the best places to find legal research online for free.",
+      "details": "Justia Team | January 16, 2024",
+      "index": "1"
+    },
+    {
+      "title": "News and Notes From Google Local Services Ads: January 2024",
+      "link": "https://onward.justia.com/news-and-notes-from-google-local-services-ads-january-2024/",
+      "description": "As we kick off 2024, it is time for another edition of our News and Notes From Google Local Services Ads, the series where we bring you info on the updates shared in the Google Partner newsletter that matter most for lawyers.",
+      "details": "Justia Amplify Team | January 5, 2024",
+      "index": "2"
+    },
+    {
+      "title": "The Addicted Lawyer: A CLE Webinar on Substance Abuse & Mental Health in the Legal Profession",
+      "link": "https://onward.justia.com/the-addicted-lawyer-a-cle-webinar-on-substance-abuse-mental-health-in-the-legal-profession/",
+      "description": "In the fast-paced, high-pressure world of law, mental health and substance abuse struggles are often hidden behind a facade of success. In this Justia Webinar, join Brian Cuban as we look behind the facade and explore the real substance abuse and mental health challenges faced by legal professionals.",
+      "details": "Justia Team | January 3, 2024",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-more-justia-title-",
+        "button": "text-more-justia-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

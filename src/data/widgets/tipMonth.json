@@ -1,0 +1,44 @@
+{
+  "clients": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "link": "",
+    "title": "",
+    "description": [
+      ""
+    ],
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-02&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Contact Us",
+      "width": 150
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Tip of the Month"
+    },
+    "link": "",
+    "title": "Showcase Your Best Reviews",
+    "description": [
+      "Online reviews play an important role in the decision-making process of choosing an attorney. Make a strong first impression by selecting featured reviews on your profile in the Justia Lawyer Directory. This is one of the many benefits when you upgrade to Justia Connect Pro. Expand your visibility with the eye-catching Justia Connect Pro Badge, get $200 credit applicable toward select Justia Marketing Solutions, and access our exclusive CLE webinars and recordings -- all of this is included in Justia Connect Pro!"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro?utm_medium=email&utm_campaign=2024-02&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Go Pro Now",
+      "width": 150
+    }
+  },
+  "complimentary": {
+    "widget": {
+      "header": "Complimentary Virtual CLE Conference"
+    },
+    "link": "",
+    "title": "",
+    "description": [
+      ""
+    ]
+  }
+}

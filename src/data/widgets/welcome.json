@@ -1,0 +1,42 @@
+{
+  "jld": {
+    "banner": "insights-welcome-01.jpg",
+    "title": [
+      "Welcome to Your <span>Justia Insights Newsletter</span>"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2024-02&utm_source=insights-newsletter&utm_content=text-justia-connect-1' target='_blank'>Justia Connect</a> community."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  },
+  "clients": {
+    "banner": "insights-welcome-01.jpg",
+    "title": [
+      "Welcome to Your <span>Justia Insights Newsletter</span>"
+    ],
+    "message": [
+      "Stay informed with the newsletter designed to bring updates and insights from our team directly to the <a href='https://connect.justia.com/?utm_medium=email&utm_campaign=2024-02&utm_source=insights-newsletter&utm_content=text-justia-connect-1' target='_blank'>Justia Connect</a> community."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "",
+      "text": "Learn More",
+      "utm": {
+        "medium": "email",
+        "campaign": "<%= dateFormat.dash %>",
+        "source": "insights-newsletter",
+        "content": "button-main-image-learn-more-1"
+      }
+    }
+  }
+}

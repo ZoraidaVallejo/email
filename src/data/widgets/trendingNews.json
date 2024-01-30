@@ -1,0 +1,111 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "banner": "insights-trending-news.jpg",
+  "imageLink": "#",
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "news": [
+        {
+          "title": "Apple Opens Gates to $1.1 Trillion in App Payments — For a Steep Price",
+          "link": "https://www.washingtonpost.com/technology/2024/01/17/apple-app-store-payments-iphone-lawsuit/",
+          "via": "Washington Post"
+        },
+        {
+          "title": "U.S. Criminally Charges eBay in Cyberstalking Case",
+          "link": "https://www.nytimes.com/2024/01/11/technology/ebay-cyberstalking-charges.html",
+          "via": "NYT"
+        },
+        {
+          "title": "Regulators Approve New Type of Bitcoin Fund, in Boon for Crypto Industry",
+          "link": "https://www.nytimes.com/2024/01/10/technology/sec-bitcoin-approval-exchange-traded-funds.html",
+          "via": "NYT"
+        },
+        {
+          "title": "Microsoft Network Breached Through Password-Spraying by Russian-State Hackers",
+          "link": "https://arstechnica.com/security/2024/01/microsoft-network-breached-through-password-spraying-by-russian-state-hackers/",
+          "via": "Ars Technica"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "news": [
+        {
+          "title": "SEO Year in Review 2023: The Year of Generative AI",
+          "link": "https://searchengineland.com/seo-2023-recap-436035",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "9 Strategies for Removing Negative Content From the Web",
+          "link": "https://searchengineland.com/strategies-remove-negative-wecontent-436461",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "Is That Google Calling or Is It a Scam?",
+          "link": "https://www.sterlingsky.ca/google-calling-or-scam/",
+          "via": "Sterling Sky"
+        },
+        {
+          "title": "7 Key 2024 Search Trends To Watch and 3 Top Priorities",
+          "link": "https://searchengineland.com/2024-search-trends-priorities-436058",
+          "via": "Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "news": [
+        {
+          "title": "More Americans Are Getting News on TikTok, Bucking the Trend Seen on Most Other Social Media Sites",
+          "link": "https://www.pewresearch.org/short-reads/2023/11/15/more-americans-are-getting-news-on-tiktok-bucking-the-trend-seen-on-most-other-social-media-sites/",
+          "via": "Pew Research Center"
+        },
+        {
+          "title": "TikTok Gains Traction As A Search Engine Among Gen Z [STUDY]",
+          "link": "https://www.searchenginejournal.com/tiktok-gains-traction-as-a-search-engine-among-gen-z-study/505633/",
+          "via": "Search Engine Journal"
+        },
+        {
+          "title": "55 Instagram Statistics and Facts for 2024",
+          "link": "https://www.searchenginejournal.com/instagram-statistics-facts/479315/",
+          "via": "Search Engine Journal"
+        },
+        {
+          "title": "20 Ways To Get More Views on Instagram Reels (These Work!)",
+          "link": "https://blog.hootsuite.com/how-to-get-more-views-on-instagram-reels/",
+          "via": "Hootsuite"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "news": [
+        {
+          "title": "Court Lets First AI Libel Case Go Forward",
+          "link": "https://reason.com/volokh/2024/01/17/court-lets-first-ai-libel-case-go-forward/",
+          "via": "Reason Foundation"
+        },
+        {
+          "title": "NY Times Copyright Suit Wants OpenAI To Delete All GPT Instances",
+          "link": "https://arstechnica.com/tech-policy/2023/12/ny-times-sues-open-ai-microsoft-over-copyright-infringement/",
+          "via": "Ars Technica"
+        },
+        {
+          "title": "In a New Lawsuit, Iowa Accuses TikTok of Lying About Content Available to Kids",
+          "link": "https://techcrunch.com/2024/01/18/tiktok-sued-iowa-attorney-general-children-safety/",
+          "via": "TechCrunch"
+        },
+        {
+          "title": "Parabellum’s New $754 Million Litigation Fund Is Among Largest",
+          "link": "https://news.bloomberglaw.com/business-and-practice/parabellums-new-754-million-litigation-fund-is-among-largest",
+          "via": "Bloomberg Law"
+        }
+      ]
+    }
+  ]
+}

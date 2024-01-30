@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "insights-justia-desk.jpg",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Justia’s 2023 Year in Review",
+      "link": "https://onward.justia.com/justias-2023-year-in-review/",
+      "description": "The last year has been a busy one for Justia! Check out our 2023 year in review for a look at what has been going on with the Justia team and our highlights over the past year.",
+      "details": "Justia Team | January 15, 2024",
+      "index": "1"
+    },
+    {
+      "title": "Justia Webinar: Ask Our Experts: SEO Basics To Start Your Year Off Right",
+      "link": "https://onward.justia.com/justia-webinar-ask-our-experts-seo-basics-to-start-your-year-off-right/",
+      "description": "Want to enhance your search engine optimization (SEO) but don’t know where to start? Take this chance to ask our experts! Learn first steps, what you can do to improve, resources and features you can rely on, and more.",
+      "details": "Justia Team | January 19, 2024",
+      "index": "2"
+    },
+    {
+      "title": "Release Alert: New Features for Justia AI Writer",
+      "link": "https://onward.justia.com/release-alert-new-features-for-justia-ai-writer/",
+      "description": "With the recently launched Justia AI Writer for Justia Elevate websites, lawyers can generate practice area page drafts for their law firm websites in just a few clicks. Now, newly released features expand upon the core framework of this popular tool to allow lawyers to draft freeform content on any website page using our system. Read more in this post.",
+      "details": "Justia Team | January 12, 2024",
+      "index": "3"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
