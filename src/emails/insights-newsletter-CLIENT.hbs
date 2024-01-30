@@ -16,10 +16,11 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>welcome widgetConfig=welcome.jld}}
 
-        {{>featured-webinar widgetUtmVars=featuredWebinar.utm.clients}}
+        {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
-        {{>featured-news widgetUtmVars=featuredNews.utm.clients}}
-        {{!-- {{>featured-news-client widgetUtmVars=featuredNewsCLIENT.utm.clients}} IF FEATURED NEWs IS DIFFERENT PLEASE USE THIS--}}
+        {{!-- {{>explore-webinars widgetConfig=exploreWebinars}} --}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
 
         {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
 
@@ -27,7 +28,7 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>webmaster widgetUtmVars=webmaster.utm.jld}} --}}
 
-        {{>widget-ad widgetClass="-client-ad-01" widgetConfig=advertisements.clients.ad1}}
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
 
         {{!-- {{>inside-justia}} --}}
 
@@ -37,31 +38,33 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{!-- {{>ask-a-lawyer}} --}}
 
-        {{>lawyer-qa widgetConfig=lawyerQa.clients}}
+        {{>lawyer-qa widgetConfig=lawyerQa.jld}}
 
         {{!-- {{>jobs-subscribe}} --}}
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-         {{>tip-month widgetConfig=tipMonth.clients}}
+         {{>tip-month widgetConfig=tipMonth.jld}}
 
-         {{!-- {{>upcoming-events widgetConfig=upcomingEvents.clients}} --}}
+        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
 
-         {{!-- {{>events-we-attended}} --}}
+        {{!-- {{>events-we-attended}} --}}
 
-         {{>trending-news}}
+        {{>trending-news}}
 
-         {{>more-justia widgetUtmVars=moreJustia.utm.clients}}
+         {{!-- {{>tip-month widgetConfig=tipMonth.complimentary}} --}}
 
-         {{>meet-our-team}}
+         {{>more-justia widgetUtmVars=moreJustia.utm.jld}}
 
-         {{>hug-pug}}
+        {{>meet-our-team}}
 
-         {{!-- {{>did-you-know widgetConfig=didYouKnow.clients}} --}}
+        {{>hug-pug}}
 
-         {{>jurispro}}
+        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
 
-         {{>law-events}}
+        {{>jurispro}}
+
+        {{>law-events widgetConfig=lawEvents}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
