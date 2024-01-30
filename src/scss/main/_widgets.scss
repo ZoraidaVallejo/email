@@ -214,11 +214,14 @@
         padding: 0 $padding 22px;
     }
 
+    td{
+        text-align: center;
+    }
+
     .widget-description {
 
         a {
             color: plt('justia-blue');
-
             * {
                 color: plt('justia-blue');
             }
