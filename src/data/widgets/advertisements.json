@@ -1,0 +1,144 @@
+{
+  "v1": {
+    "image": "connect-pro-enhance-profile-banner-01.jpg",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Get in front of more clients by taking advantage of an <b>enhanced Justia Profile in the Justia Lawyer Directory</b>.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-01.png",
+          "description": [
+            "No Competitor Ads"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-02.png",
+          "description": [
+            "Prominently Integrated Contact Form"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-03.png",
+          "description": [
+            "Exclusive Justia Connect Pro Badge"
+          ]
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>All of these benefits and MORE are available for just $19.99/month with a <b>Justia Connect Pro Membership</b>.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Enhance My Profile",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><span>(888) 587-8421</span></a></p>"
+        ]
+      }
+    ]
+  },
+  "v2": {
+    "image": "connect-pro-enhance-profile-banner-02.jpg",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Get in front of more clients by taking advantage of an <b>enhanced Justia Profile in the Justia Lawyer Directory</b>.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-01.png",
+          "description": [
+            "No Competitor Ads"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-02.png",
+          "description": [
+            "Prominently Integrated Contact Form"
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "connect-pro-enhance-profile-icon-03.png",
+          "description": [
+            "Exclusive Justia Connect Pro Badge"
+          ]
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>All of these benefits and MORE are available for just $19.99/month with a <b>Justia Connect Pro Membership</b>.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Enhance My Profile",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><span>(888) 587-8421</span></a></p>"
+        ]
+      }
+    ]
+  }
+}
