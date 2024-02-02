@@ -1,0 +1,24 @@
+{
+  "widget": {
+    "header": "More Free Upcoming Webinars"
+  },
+  "events": [
+    {
+      "day": "08",
+      "month": "Mar",
+      "title": "Understanding Loan Transactions for the Non-Finance Attorney",
+      "link": "https://connect.justia.com/webinars/understanding-loan-transactions-for-the-non-finance-attorney",
+      "speakers": "Jake Rheaume",
+      "category": "CLE",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "22",
+      "month": "Mar",
+      "title": "Converting Leads to Clients: Navigating the Critical Moments in Legal Consultations",
+      "link": "https://connect.justia.com/webinars/converting-leads-to-clients-navigating-the-critical-moments-in-legal-consultations",
+      "speakers": "Adam Boyd",
+      "cta": "Learn More >"
+    }
+  ]
+}
