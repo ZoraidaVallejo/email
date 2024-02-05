@@ -1,0 +1,64 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "10",
+      "month": "May",
+      "title": "Nitty Gritty of Estate Administration - Modern Practices",
+      "link": "https://www.pli.edu/programs/nitty-gritty-of-estate-administration---modern-practices?t=live",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "11",
+      "month": "May",
+      "title": "Eviction Mediation in a Time of Crisis and Pandemic",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/421691310/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "16",
+      "month": "May",
+      "title": "Skills 101: Tips for Effective Closing Arguments",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/420700965/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "17",
+      "month": "May",
+      "title": "Everything Young Lawyers Want to Know but Are Afraid to Ask Regional CLE Program",
+      "link": "https://web.cvent.com/event/05cccedb-31c1-4d6c-b288-144103436471/summary",
+      "time": "8am ET",
+      "typeLocation": "Washington, DC"
+    },
+    {
+      "day": "25",
+      "month": "May",
+      "title": "2022 Women of Legal Tech Summit",
+      "link": "https://web.cvent.com/event/527f85bd-4bef-44c0-852d-ec10f81cd0dd/summary",
+      "time": "1-5pm ET",
+      "typeLocation": "Virtual Summit"
+    },
+    {
+      "day": "25",
+      "month": "May",
+      "title": "Estate Planning In A Virtual World",
+      "link": "https://www.americanbar.org/events-cle/mtg/web/420755959/",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    },
+    {
+      "day": "26",
+      "month": "May",
+      "title": "Expert Witness 2022",
+      "link": "https://www.pli.edu/programs/expert-witness?t=live",
+      "time": "1pm ET",
+      "typeLocation": "Webinar & New York, NY"
+    }
+  ]
+}
