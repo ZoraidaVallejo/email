@@ -151,6 +151,36 @@
         </tr>
       {{/compare}}
 
+      {{#compare this.type "===" "custom-banner"}}
+        <tr>
+          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides">
+            {{#table class=(classList "-inner-banner" widgetClass "set-max-width")}}
+              <tr>
+                <td>
+                  <div class="-description" responsive="mobile-no-padding-horizontal-sides mobile-fz-18">
+                    {{#each config.description}}
+                      <p responsive="mobile-fz-18">{{{this}}}</p>
+                    {{/each}}
+                  </div>
+                </td>
+                <td>
+                  <div class="-image" responsive="mobile-align-right mobile-no-padding">
+                    <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank" responsive="mobile-no-padding">
+                      {{>img
+                        src=(concat "webinar-weekly-digest-main-banner.png")
+                        alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                        responsive="mobile-align-right"
+                      }}
+                    </a>
+                  </div>
+                </td>
+
+              </tr>
+            {{/table}}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "main-banner"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
