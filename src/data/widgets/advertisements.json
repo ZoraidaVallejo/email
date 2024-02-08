@@ -1,0 +1,73 @@
+{
+  "v1": {
+    "image": "jld-premium-placements-banner-01.jpg",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>You've got the skills. You've got the experience. You've got everything you need to <b>become the Most Valuable Lawyer for your clients</b>.</p>",
+          "<p>Justia Premium Placements place you <b>in front of people actively seeking <span>[Practice Area]</span> lawyers</b>. Appear above the competition so that potential <b>clients can find and contact you</b>.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Become the MVL",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  },
+  "v2": {
+    "image": "jld-premium-placements-banner-02.gif",
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Justia Premium Placements in the Justia Lawyer Directory puts you <b>in front of potential clients</b> so they will find you first and easily, and thanks to the prominent contact information and form on your enhanced Justia Profile, <b>people can contact you easily</b>, transforming those contacts into your  <b>Most Valuable <span>[Practice Area]</span> Leads</b>.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Give Me My MVLs",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><b>(888) 587-8421</b></a></p>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    },
+    {
+      "day": "[00]",
+      "month": "[Month]",
+      "title": "[Title]",
+      "time": "[00PM ET]",
+      "typeLocation": "[Webinar]",
+      "link": "https://www.justia.com/"
+    }
+  ]
+}
