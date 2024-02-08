@@ -41,6 +41,7 @@
         padding-bottom: 30px;
     }
 
+
     .content {
         padding: 0 $padding 25px;
 
@@ -172,5 +173,45 @@
             }
         }
 
+    }
+
+    &.-main-banner {
+        padding: 0;
+        background-color: plt('justia-blue');
+    }
+    .content.-idx-1 {
+        padding: 0;
+
+        .-description {
+            margin: 45px 0 45px 50px;
+            width: 240px;
+            float: left;
+            text-align: left;
+            p {
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            .title {
+                color: plt('white');
+                padding-bottom: 10px;
+
+                @include mail-font(30px, 1.2, tp('weight', 'bold'));
+                display: block;
+            }
+            .date {
+                color: plt('white');
+                @include mail-font(18px);
+                display: block;
+            }
+        }
+
+        .-image{
+            float: right;
+            width: 245px;
+
+            img {
+                max-width: 245px;
+            }
+        }
     }
 }

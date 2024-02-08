@@ -13,12 +13,17 @@ subject: <%= dateFormat.string %>
   <tr>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
-        {{>widget-ad widgetClass="" widgetConfig=webinar-newsletter.main-banner}}
+        {{>widget-ad widgetClass="-main-banner" widgetConfig=webinar-newsletter.main-banner}}
+
+
+        {{!-- {{>in-the-news widgetClass="" widgetConfig=insideJustia}} --}}
+
         {{>widget-ad widgetClass="-ad-image -w-text-btn" widgetConfig=webinar-newsletter.webinar-1}}
+        {{>widget-ad widgetClass="-ad-image -w-text-btn -light-bg" widgetConfig=webinar-newsletter.webinar-2}}
         {{>law-events widgetClass="-w-text-btn" widgetConfig=lawEvents}}
         {{>widget-ad widgetClass="" widgetConfig=webinar-newsletter.justia-videos-banner}}
         {{>widget-ad widgetClass="-ad-image -w-text-btn -webinar-3" widgetConfig=webinar-newsletter.webinar-3}}
-        {{>widget-ad widgetClass="-ad-image -w-text-btn -webinar-4" widgetConfig=webinar-newsletter.webinar-4}}
+        {{>widget-ad widgetClass="-ad-image -w-text-btn -webinar-4 -light-bg" widgetConfig=webinar-newsletter.webinar-4}}
         {{>explore-webinars widgetClass="-w-text-btn" widgetConfig=exploreWebinars}}
         {{>widget-ad widgetClass="" widgetConfig=webinar-newsletter.justia-connect-banner}}
 
