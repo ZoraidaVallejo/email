@@ -59,5 +59,25 @@
       "text": "Reserve My Seat",
       "width": 250
     }
+  },
+  "registration-2": {
+    "banner": "",
+    "details": {
+      "date": "February 22, 2024",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "In this webinar, join us to learn how your most impactful tool in reaching new clients and building your law firm brand is your charisma. Our guest speakers, Marc Halpert and Scott Mason will not only walk you through how to use your charisma to get a competitive edge, but how utilizing it both online and in-person can drive your business forward.",
+      "<strong><a href=\"https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys\">Charisma In-Person and on LinkedIn: Business Development for Attorneys</a></strong> begins promptly at 2 p.m. ET/11 a.m. PT on Thursday, February 22, 2024."
+    ],
+    "bottomline": [
+      "<strong>Time is running out to register! </strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
+      "text": "Register for Free",
+      "width": 250
+    }
   }
 }
