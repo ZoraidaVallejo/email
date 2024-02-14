@@ -52,9 +52,6 @@
   "webinar-2": {
     "link": "https://connect.justia.com/webinars/",
     "image": "law-firm-video-101-establishing-trust-with-an-effective-video-strategy.jpg",
-    "widget": {
-      "header": "Don’t Miss Our Upcoming Webinars"
-    },
     "contentOrder": [
       {
         "type": "description",
@@ -113,6 +110,28 @@
     ]
   },
   "webinar-4": {
+    "link": "https://connect.justia.com/webinars/",
+    "image": "resources-technology-and-legal-issues-past-present-and-future.jpg",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero et ipsum, quaerat ea aspernatur corrupti magnam. Porro, officia molestiae? Omnis quaerat porro sed… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/\">View More ></a>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Watch Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
+  "webinar-5": {
     "link": "https://connect.justia.com/webinars/",
     "image": "resources-technology-and-legal-issues-past-present-and-future.jpg",
     "contentOrder": [
