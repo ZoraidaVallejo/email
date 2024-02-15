@@ -1,0 +1,108 @@
+// ----------------------------------------------------------------------------------------------------------
+// Explore Our On-Demand Webinars  W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.widget.w-explore-webinars {
+
+    /* .wrapper.-last {
+        padding: 0 $padding $widget-gap;
+    } */
+
+    .widget-wrapper {
+        padding: 10px $widget-gap $widget-gap;
+    }
+
+    .content {
+        background-color: #F5F9FF;
+        padding: 25px;
+        margin: 0 0 20px;
+        border-radius: 10px;
+
+        &:last-child{
+            margin: 0 0 $padding;
+        }
+    }
+
+    // .info {
+    //     width: 100%;
+    // }
+
+    .event {
+
+        td {
+            vertical-align: top;
+        }
+
+        .title {
+            @include mail-font(18px, 1.4);
+            color: plt('justia-blue');
+            margin: 0;
+
+            a {
+                color: plt('justia-blue');
+            }
+        }
+
+        .description {
+            @include mail-font(16px, 1.4);
+            margin: 0;
+        }
+
+        .read-more {
+            font-weight: get('font.weight.bold');
+            @include mail-font(16px);
+        }
+
+        .-red {
+            color: #E2231A;
+        }
+        .-blue {
+            color: #00B3E3;
+        }
+
+        a {
+            color: plt('black');
+        }
+    }
+
+    .widget-event-play {
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .info {
+        padding-left: 25px;
+    }
+
+    .widget-event-category {
+        margin-top: 10px;
+        width: 60px;
+        display: block;
+    }
+
+    .widget-event-icon {
+        width: 60px;
+        .-play-icon {
+            max-width: 60px;
+        }
+        img {
+            width: 60px;
+        }
+    }
+
+    .category {
+        text-transform: uppercase;
+        color: plt('white');
+        font-weight: get('font.weight.bold');
+        padding: 5px 5px;
+        border-radius: 15px;
+        background-color: plt('justia-blue');
+        line-height: 1.1;
+        display: block;
+        text-align: center;
+    }
+
+    .-button {
+        text-align: center;
+    }
+}
