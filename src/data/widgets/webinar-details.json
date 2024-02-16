@@ -71,5 +71,25 @@
       "text": "Reserve My Seat",
       "width": 250
     }
+  },
+  "registration-2": {
+    "banner": "",
+    "details": {
+      "date": "February 28, 2024",
+      "time": "3:00 pm ET/12:00 pm PT"
+    },
+    "message": [
+      "Are you an attorney with too much to do and not enough time? We’re here to help! Join us for our upcoming webinar as we talk about unlocking your full professional and personal potential by improving your time management skills.",
+      "You’re invited to join guest speaker Chris Earley as he shares how to most effectively manage your time to best optimize your practice and your life. <a href=\"https://connect.justia.com/webinars/effective-time-management-for-attorneys\">Effective Time Management for Attorneys</a> begins promptly at 3 p.m. ET/12 p.m. PT on Wednesday February 28th."
+    ],
+    "bottomline": [
+      "<strong>Time is running out to register!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/effective-time-management-for-attorneys",
+      "text": "Register for Free",
+      "width": 250
+    }
   }
 }
