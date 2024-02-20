@@ -43,7 +43,7 @@ $logos-dimensions: (
         'dims': 470px 55px
     ),
     'lawyer-directory': (
-        'dims': 1762px 158px
+        'dims': 842px 100px
     ),
     'lawyer-profile-essentials': (
         'dims': 2248px 158px
@@ -80,28 +80,35 @@ $settings: set('mail-header', (
     'background': plt('white'),
     'logos': (
         'logo-only': (
-            'justia': 135px,
+            'justia': 167px,
+            'amplify': 288px,
             'anniversary': 346px,
-            'amplify': 291px,
-            'argument-summaries': 492px,
-            'ask-a-lawyer': 375px,
-            'blogging': 390px,
-            'cle': 407px,
-            'connect': 287px,
-            'connect-pro': 348px,
+            'answers': 298px,
+            'argument-summaries': 490px,
+            'ask-a-lawyer': 373px,
+            'blogging': 389px,
+            'cle': 406px,
+            'connect': 292px,
+            'connect-pro': 349px,
+            'daily-summaries': 537px,
             'elevate': 278px,
-            'insights': 267px,
-            'justia-anniversary': 470px,
+            'insights': 286px,
+            'justia-anniversary': 346px,
+            'law-firm-marketing': 459px,
             'lawyer-directory': 421px,
-            'lawyer-profile-essentials': 470px,
-            'legal-jobs': 421px,
-            'marketing': 320px,
-            'new-intern': 340px,
-            'new-team-member': 450px,
-            'onboarding': 350px,
-            'opinion-summaries': 454px,
-            'webinars': 309px,
-            'your-birthday': 380px
+            'lawyer-profile-essentials': 529px,
+            'legal-jobs': 330px,
+            'marketing': 316px,
+            'new-intern': 330px,
+            'new-team-member': 451px,
+            'onboarding': 347px,
+            'onward': 288px,
+            'opinion-summaries': 457px,
+            'refer': 251px,
+            'webinars': 311px,
+            'website-seo-report': 472px,
+            'weekly-opinion-summaries': 550px,
+            'your-birthday': 374px
         ),
         'with-date': (
             'justia': 135px,
@@ -113,7 +120,7 @@ $settings: set('mail-header', (
             'justia-anniversary': 270px
         ),
         'insider-date': (
-            'insider': 393px
+            'insider': 334px
         )
     )
 ));
