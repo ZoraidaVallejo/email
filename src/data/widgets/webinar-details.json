@@ -59,5 +59,17 @@
       "text": "Reserve My Seat",
       "width": 250
     }
+  },
+  "reminder-1": {
+    "banner": "",
+    "details": {
+      "date": "March 1, 2024",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "<b>Reminder:</b> You are registered for <a href=\"https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy\">Law Firm Video 101: Establishing Trust With an Effective Video Strategy</a> on Friday, March 1, 2024 at 2 p.m. ET/11 a.m. PT.",
+      "You can <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ]
   }
 }
