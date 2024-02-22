@@ -21,10 +21,10 @@ $logos-dimensions: (
     'ask-a-lawyer': (
         'dims': 746px 100px
     ),
-    'blogging': (
+    'blogging-ideas': (
         'dims': 778px 100px
     ),
-    'cle': (
+    'cle-webinars': (
         'dims': 812px 100px
     ),
     'connect': (
@@ -33,7 +33,7 @@ $logos-dimensions: (
     'connect-pro': (
         'dims': 698px 100px
     ),
-    'daily-summaries': (
+    'daily-opinion-summaries': (
         'dims': 1074px 100px
     ),
     'elevate': (
@@ -122,11 +122,11 @@ $settings: set('mail-header', (
             'answers': 298px,
             'argument-summaries': 490px,
             'ask-a-lawyer': 373px,
-            'blogging': 389px,
-            'cle': 406px,
+            'blogging-ideas': 389px,
+            'cle-webinars': 406px,
             'connect': 292px,
             'connect-pro': 349px,
-            'daily-summaries': 537px,
+            'daily-opinion-summaries': 537px,
             'elevate': 278px,
             'insights': 286px,
             'justia-anniversary': 346px,
@@ -147,13 +147,11 @@ $settings: set('mail-header', (
             'your-birthday': 374px
         ),
         'with-date': (
-            'justia': 135px,
-            'insights': 267px,
-            'lawyer-profile-essentials': 270px,
-            'legal-jobs': 277px,
-            'lawyer-directory': 300px,
-            'marketing': 297px,
-            'justia-anniversary': 270px
+            'justia': 167px,
+            'insights': 286px,
+            'legal-jobs': 330px,
+            'marketing': 316px,
+            'justia-anniversary': 346px
         ),
         'insider-date': (
             'insider': 334px
@@ -169,7 +167,7 @@ $settings: set('mail-header', (
 
     .logo-img {
         display: block;
-        max-width: 87%;
+        max-width: 90%;
         margin: 0;
     }
 }
@@ -178,12 +176,12 @@ $settings: set('mail-header', (
 
     .wrapper {
         width: 100%;
-        padding: 12px $padding;
+        padding: 11px 25px 12px;
         text-align: center;
     }
 
     .logo-img {
-        max-width: 92%;
+        max-width: 100%;
     }
 
     // L O G O   S I Z E S
@@ -199,7 +197,7 @@ $settings: set('mail-header', (
 .main-header.-with-date {
 
     .wrapper {
-        padding: $padding;
+        padding: 11px 25px 12px;
         vertical-align: middle;
 
         > table {
