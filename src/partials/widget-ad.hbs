@@ -89,6 +89,20 @@
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
+
+      {{#compare this.type "===" "title"}}
+
+
+        <tr>
+          <td class="title" responsive="mobile-padding-horizontal-sides mobile-padding-20-top">
+            <a href="{{{@root.adLink}}}" target="_blank" responsive="mobile-fz-{{default widgetConfig.titleResponsiveSize "24"}}">
+              {{{this.config}}}
+            </a>
+          </td>
+        </tr>
+       
+      {{/compare}}
+
       {{#compare this.type "===" "custom-banner"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides mobile-padding-20-bottom">

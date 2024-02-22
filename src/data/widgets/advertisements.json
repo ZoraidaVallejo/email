@@ -1,79 +1,40 @@
 {
-  "blue": {
-    "title": "{Title}</span>",
-    "image": "example-chart.png",
+  "ad1": {
+    "image": "connect-pro-200-credit.jpg",
     "link": "#",
     "contentOrder": [
       {
-        "type": "custom-banner",
-        "config": {
-          "responsive": "mobile-padding-horizontal-sides",
-          "color": "example",
-          "description": [
-            "<span responsive=\"mobile-fz-32\">[TEXT]</span>"
-          ]
-        }
-      },
-      {
-        "type": "description",
+        "type": "title",
         "config": [
-          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+          "Grab yourself a sweet treat with<br>Justia Connect Pro!"
         ]
       },
       {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
+        "type": "description",
+        "config": [
+          "<p>Justia Connect Pro gives you a $200 Justia Credit, applicable to eligible Justia Marketing Solutions. It's that easy!</p>"
+        ]
       },
       {
-        "type": "image-description",
+        "type": "button",
         "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
+          "style": "red",
+          "text": "Get Your Credit",
+          "width": 224,
+          "height": 58,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 24,
+          "responsive": ""
         }
       },
       {
         "type": "description",
         "config": [
-          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+          "<p>Or call us at <strong><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></strong></p>"
         ]
       }
     ]

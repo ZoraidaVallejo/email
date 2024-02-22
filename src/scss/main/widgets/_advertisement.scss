@@ -116,6 +116,7 @@
 
             &.-description p {
                 // margin-top: 10px;
+                
             }
 
             img {
@@ -172,7 +173,7 @@
                 display: block;
                 max-width: 235px;
                 padding: 0 0 25px 45px;
-                text-align: left;
+                text-align: center;
             }
 
             a strong {
@@ -192,11 +193,12 @@
             color: plt('justia-blue');
 
             a {
-                @include mail-font(28px, 1.25, 700);
+                line-height: 32px;
+                @include mail-font(22px, 1.25, 700);
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
-                background: url('../dist/images/line-decoration-01.jpg') no-repeat center bottom;
+                background: url('../dist/images/line-decoration.png') no-repeat center bottom;
             }
 
             span {
@@ -209,7 +211,7 @@
             padding: 0 50px 25px;
             
             p strong {
-                color: plt('justia-blue');
+                color: plt('black');
             }
 
             &.-image-description {
@@ -222,10 +224,10 @@
         }
 
         .content.-last {
-            padding: 25px 50px 50px;
+            padding: 0px 50px 50px;
 
             p {
-                text-align: left;
+                text-align: center;
             }
         }
 
@@ -241,6 +243,7 @@
             }
 
             &.-description p {
+                
                 @include mail-font(18px, 1.5);
                 display: block;
                 line-height: 30px;
@@ -293,48 +296,48 @@
             }
         }
 
-        .content.-first {
-            padding: 0;
-            background: #aaaaaa;
+        // .content.-first {
+        //     padding: 15px 48px 50px;
+        //     background: #aaaaaa;
 
-            .-image {
-                max-width: 300px;
-                padding: 0;
-            }
+        //     .-image {
+        //         max-width: 300px;
+        //         padding: 0;
+        //     }
 
-            img {
-                width: 300px;
-            }
+        //     img {
+        //         width: 300px;
+        //     }
 
-            .-description {
-                max-width: 275px;
-                padding: 0 25px 0 0;
-            }
+        //     .-description {
+        //         max-width: 275px;
+        //         padding: 0 25px 0 0;
+        //     }
 
-            .-description p {
-                @include mail-font(36px, 1.2);
-                display: block;
-                color: plt('white');
-                // text-transform: uppercase;
-                margin: 4px 0 10px;
-                overflow-wrap:break-word;
-                word-wrap:break-word;
-                word-break:break-word;
+        //     .-description p {
+        //         @include mail-font(36px, 1.2);
+        //         display: block;
+        //         color: plt('white');
+        //         // text-transform: uppercase;
+        //         margin: 4px 0 10px;
+        //         overflow-wrap:break-word;
+        //         word-wrap:break-word;
+        //         word-break:break-word;
 
-                span {
-                    @include mail-font(80px, 1.01, 700);
-                    display: block;
-                    font-weight: bold;
-                    overflow-wrap:break-word;
-                    word-wrap:break-word;
-                    word-break:break-word;
-                }
-            }
-        }
+        //         span {
+        //             @include mail-font(80px, 1.01, 700);
+        //             display: block;
+        //             font-weight: bold;
+        //             overflow-wrap:break-word;
+        //             word-wrap:break-word;
+        //             word-break:break-word;
+        //         }
+        //     }
+        // }
 
-        .content.-idx-2, {
-            padding: 50px 50px 25px;
-            text-align: left;
+        .content.-idx-2 {
+            padding: 0px 50px 35px;
+            text-align: center;
         }
     }
 }
