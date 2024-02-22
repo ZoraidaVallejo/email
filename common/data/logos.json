@@ -66,7 +66,7 @@
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-daily-opinion-summaries-blue.png"
     },
-    "alt": "Justia Opinion Summaries"
+    "alt": "Justia Daily Opinion Summaries"
   },
   "elevate": {
     "path": {
@@ -182,12 +182,6 @@
     },
     "alt": "Justia Opinion Summaries"
   },
-  "weeklyOpinionSummaries": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
-    },
-    "alt": "Justia Opinion Summaries"
-  },
   "webinars": {
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-webinars-blue.png"
@@ -200,6 +194,12 @@
       "transparent": "https://justatic.com/v/20190705/branding/logos/emails/justia-website-seo-report-transparent.png"
     },
     "alt": "Justia Website Seo Report"
+  },
+  "weeklyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Weekly Opinion Summaries"
   },
   "yourBirthday": {
     "path": {
