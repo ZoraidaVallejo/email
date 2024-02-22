@@ -5,6 +5,12 @@
     },
     "alt": "Justia"
   },
+  "amplify": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-amplify-blue.png"
+    },
+    "alt": "Justia Amplify"
+  },
   "anniversary": {
     "path": {
       "blue": "https://justatic.com/v/20230428/branding/logos/emails/justia-anniversary-blue.png"
@@ -17,12 +23,6 @@
       "transparent": "https://justatic.com/v/20190705/branding/logos/emails/justia-answers-transparent.png"
     },
     "alt": "Justia Answers"
-  },
-  "amplify": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-amplify-blue.png"
-    },
-    "alt": "Justia Amplify"
   },
   "argumentSummaries": {
     "path": {
@@ -58,9 +58,15 @@
   },
   "connectPro": {
     "path": {
-      "pro": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-pro-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-connect-pro-blue.png"
     },
     "alt": "Justia Connect Pro"
+  },
+  "dailyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-daily-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Opinion Summaries"
   },
   "elevate": {
     "path": {
@@ -179,12 +185,6 @@
   "weeklyOpinionSummaries": {
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
-    },
-    "alt": "Justia Opinion Summaries"
-  },
-  "dailyOpinionSummaries": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-daily-opinion-summaries-blue.png"
     },
     "alt": "Justia Opinion Summaries"
   },
