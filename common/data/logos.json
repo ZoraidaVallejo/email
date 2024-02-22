@@ -37,14 +37,14 @@
     },
     "alt": "Justia Ask A Lawyer"
   },
-  "blogging": {
+  "bloggingIdeas": {
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-blue.png",
       "transparent": "https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-transparent.png"
     },
     "alt": "Justia Blogging Ideas"
   },
-  "cle": {
+  "cleWebinars": {
     "path": {
       "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-cle-webinars-blue.png"
     },
@@ -172,9 +172,19 @@
   },
   "opinionSummaries": {
     "path": {
-      "daily": "https://justatic.com/v/20190705/branding/logos/emails/justia-daily-opinion-summaries-blue.png",
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-opinion-summaries-blue.png",
-      "weekly": "https://justatic.com/v/20190705/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Opinion Summaries"
+  },
+  "weeklyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Opinion Summaries"
+  },
+  "dailyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-daily-opinion-summaries-blue.png"
     },
     "alt": "Justia Opinion Summaries"
   },
