@@ -195,6 +195,7 @@
             a {
                 line-height: 32px;
                 @include mail-font(22px, 1.25, 700);
+                text-transform: none;
                 display: block;
                 padding: 0 0 15px;
                 color: plt('justia-blue');
@@ -208,7 +209,7 @@
         }
 
         .content {
-            padding: 0 50px 25px;
+            padding: 0 50px 20px;
             
             p strong {
                 color: plt('black');
@@ -336,7 +337,7 @@
         // }
 
         .content.-idx-2 {
-            padding: 0px 50px 35px;
+            padding: 0px 50px 45px;
             text-align: center;
         }
     }
