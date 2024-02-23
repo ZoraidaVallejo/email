@@ -167,7 +167,7 @@ $settings: set('mail-header', (
 
     .logo-img {
         display: block;
-        max-width: 90%;
+        max-width: 100%;
         margin: 0;
     }
 }
@@ -178,10 +178,6 @@ $settings: set('mail-header', (
         width: 100%;
         padding: 11px 25px 12px;
         text-align: center;
-    }
-
-    .logo-img {
-        max-width: 100%;
     }
 
     // L O G O   S I Z E S
