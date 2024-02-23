@@ -2,8 +2,8 @@
   "test": {
     "banner": "",
     "details": {
-      "date": "March 8, 2024",
-      "time": "4:00 pm ET/1:00 pm PT"
+      "date": "December 18, 2023",
+      "time": "2:00 pm ET/11:00 am PT"
     },
     "title": [
       "Lorem ipsum dolor sit amet"
@@ -43,25 +43,33 @@
   "registration-1": {
     "banner": "",
     "details": {
-      "date": "March 8, 2024",
-      "time": "4:00 pm ET/1:00 pm PT"
+      "date": "March 1, 2024",
+      "time": "2:00 pm ET/11:00 am PT"
     },
     "message": [
-      "When loan transactions make their way into your practice as a non-finance attorney, how do you navigate them? Jake Rheaume is here to help. In this webinar, he walks you through when you might encounter loan documents in your practice, how to analyze common loan documents, and how to help your borrower clients.",
-      "<a href=\"https://connect.justia.com/webinars/understanding-loan-transactions-for-the-non-finance-attorney\">Understanding Loan Transactions for the Non-Finance Attorney</a> begins promptly at 4 p.m. ET / 1 p.m. PT on Friday, March 8, 2024."
+      "In the legal world, the competition can be fierce. Setting yourself apart in a way that displays your expertise, while creating an engaging space for clients can feel impossible. But look no further! Video is your answer. This webinar will explore just how video can work for you in your  practice, walking you through how to’s for video strategy, production, and use.",
+      "You’re invited to join guest speaker Robert Weiss as he shares a comprehensive way to use video to your law firm’s advantage through strategic planning. <a href=\"https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy\">Law Firm Video 101: Establishing Trust With an Effective Video Strategy</a> begins promptly at 2 p.m. ET/11 a.m. PT on Friday March 1, 2024."
     ],
     "bottomline": [
       "<strong>Seats are limited, so reserve yours today!</strong>"
     ],
     "button": {
       "style": "red",
-      "link": "https://connect.justia.com/webinars/understanding-loan-transactions-for-the-non-finance-attorney",
+      "link": "https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy",
       "text": "Reserve My Seat",
       "width": 250
+    }
+  },
+  "reminder-1": {
+    "banner": "",
+    "details": {
+      "date": "March 1, 2024",
+      "time": "2:00 pm ET/11:00 am PT"
     },
-    "message3": [
-      "<span class=\"-disclaimer\"><b>Please note:</b> This presentation is approved for one hour of General CLE credit in California, Texas, North Carolina, and South Carolina (all levels).</span>",
-      "<span class=\"-disclaimer\">If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"https://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit.</span>"
+    "message": [
+      "<b>Reminder:</b> You are registered for <a href=\"https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy\">Law Firm Video 101: Establishing Trust With an Effective Video Strategy</a> on Friday, March 1, 2024 at 2 p.m. ET/11 a.m. PT.",
+      "You can <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
     ]
   }
 }
