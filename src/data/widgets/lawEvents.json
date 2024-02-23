@@ -1,0 +1,34 @@
+{
+  "widget": {
+    "header": "More Free Upcoming Webinars"
+  },
+  "events": [
+    {
+      "day": "01",
+      "month": "Mar",
+      "title": "Law Firm Video 101: Establishing Trust With an Effective Video Strategy",
+      "link": "https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy",
+      "speakers": "Robert Weiss",
+      "category": "",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "08",
+      "month": "Mar",
+      "title": "Understanding Loan Transactions for the Non-Finance Attorney",
+      "link": "https://connect.justia.com/webinars/understanding-loan-transactions-for-the-non-finance-attorney",
+      "speakers": "Jake Rheaume",
+      "category": "CLE",
+      "cta": "Learn More >"
+    },
+    {
+      "day": "11",
+      "month": "Mar",
+      "title": "Google Search Console for Lawyers: The Secret Weapon You Didn’t Know You Had",
+      "link": "https://connect.justia.com/webinars/google-search-console-for-lawyers-the-secret-weapon-you-didn-t-know-you-had",
+      "speakers": "Gustavo Montes",
+      "category": "",
+      "cta": "Learn More >"
+    }
+  ]
+}
