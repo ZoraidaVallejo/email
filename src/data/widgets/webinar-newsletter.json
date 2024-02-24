@@ -14,6 +14,41 @@
       }
     ]
   },
+  
+  "webinar-1": {
+    "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
+    "image": "charisma-in-person-and-on-linkedin-business-development-for-attorneys.jpg",
+    "widget": {
+      "header": "Don’t Miss Our Upcoming Webinars"
+    },
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "If you want to attract clients and build your law firm, showing charisma isn't a mere luxury. The ability to command attention, be remembered, and attract those who need your services is essential… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys\">View More ></a>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "image": "calendar-icon.png",
+          "description": [
+            "February 22, 2:00 PM ET/11:00 AM PT"
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "-red",
+          "text": "Register Now",
+          "width": 160,
+          "height": 40,
+          "fontSize": 16
+        }
+      }
+    ]
+  },
   "webinar-1": {
     "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
     "image": "charisma-in-person-and-on-linkedin-business-development-for-attorneys.jpg",
