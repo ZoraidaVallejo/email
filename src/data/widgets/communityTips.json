@@ -1,0 +1,45 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "connect-monthly-tips-icon-01.png",
+    "description": [
+      "Maximize the benefits of your Justia Connect membership by enrolling in our complimentary service, Justia Daily Opinion Summaries. Receive daily alerts summarizing recent appellate court opinions from the jurisdiction(s) of your choice!"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/case-law-summary-newsletters",
+      "text": "Get Summaries",
+      "width": 220,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  },
+  "pro": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "title": "Explore Justia Marketing Solutions and Take Advantage of Your $200 Credit",
+    "banner": "connect-monthly-tips-icon-01.png",
+    "description": [
+      "If you are a Justia Connect Pro member, you can apply your $200 Justia Credit towards various marketing solutions. Whether you're interested in enhancing your law firm website, securing premium directory placements, or investing in PPC advertising, Justia Marketing Solutions offer valuable tools to support the growth of your law practice."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com",
+      "text": "Request Free Consultation",
+      "width": 250,
+      "utm": {
+        "medium": "email",
+        "source": "month-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
