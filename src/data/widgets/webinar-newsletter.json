@@ -8,16 +8,15 @@
           "responsive": "mobile-padding-horizontal-sides",
           "description": [
             "<span responsive=\"mobile-fz-22\" class=\"title\"> Justia Webinars<br>Weekly Digest<span>",
-            "<span responsive=\"mobile-fz-18\" class=\"date\">Week of February 18, 2024<span>"
+            "<span responsive=\"mobile-fz-18\" class=\"date\">Week of February 25, 2024<span>"
           ]
         }
       }
     ]
   },
-  
   "webinar-1": {
-    "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
-    "image": "charisma-in-person-and-on-linkedin-business-development-for-attorneys.jpg",
+    "link": "https://connect.justia.com/webinars/effective-time-management-for-attorneys",
+    "image": "effective-time-management-for-attorneys.jpg",
     "widget": {
       "header": "Don’t Miss Our Upcoming Webinars"
     },
@@ -25,7 +24,7 @@
       {
         "type": "description",
         "config": [
-          "If you want to attract clients and build your law firm, showing charisma isn't a mere luxury. The ability to command attention, be remembered, and attract those who need your services is essential… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys\">View More ></a>"
+          "This presentation will discuss ways we can better manage our time in order to work more efficiently and productively, make more money, and, most importantly, preserve our sanity. As attorney… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/effective-time-management-for-attorneys\">View More ></a>"
         ]
       },
       {
@@ -33,7 +32,7 @@
         "config": {
           "image": "calendar-icon.png",
           "description": [
-            "February 22, 2:00 PM ET/11:00 AM PT"
+            "February 28, 3:00 PM ET/12:00 PM PT"
           ]
         }
       },
@@ -49,17 +48,14 @@
       }
     ]
   },
-  "webinar-1": {
-    "link": "https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys",
-    "image": "charisma-in-person-and-on-linkedin-business-development-for-attorneys.jpg",
-    "widget": {
-      "header": "Don’t Miss Our Upcoming Webinars"
-    },
+  "webinar-2": {
+    "link": "https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy",
+    "image": "law-firm-video-101-establishing-trust-with-an-effective-video-strategy.jpg",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "If you want to attract clients and build your law firm, showing charisma isn't a mere luxury. The ability to command attention, be remembered, and attract those who need your services is essential… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/charisma-in-person-and-on-linkedin-business-development-for-attorneys\">View More ></a>"
+          "Video has proven itself to be an effective digital method that can showcase a firm’s people, skill sets, industry insight, and expertise. Not only can video be used through different channels… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/law-firm-video-101-establishing-trust-with-an-effective-video-strategy\">View More ></a>"
         ]
       },
       {
@@ -67,7 +63,7 @@
         "config": {
           "image": "calendar-icon.png",
           "description": [
-            "February 22, 2:00 PM ET/11:00 AM PT"
+            "March 1, 2:00 PM ET/11:00 AM PT"
           ]
         }
       },
