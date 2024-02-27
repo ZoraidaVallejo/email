@@ -19,8 +19,8 @@
   "jld": {
     "layout": "logo-only",
     "logo": {
-      "name": "justia-anniversary",
-      "color": "webinars",
+      "name": "webinars",
+      "color": "blue",
       "link": {
         "url": "https://connect.justia.com/webinars",
         "utm": {
@@ -30,7 +30,7 @@
           "content": "image-header-logo-1"
         }
       },
-      "path": false,
+      "path": "https://justatic.com/branding/logos/emails/justia-webinars-blue.png",
       "alt": "20 Anniversary - Justia Webinars"
     }
   }
