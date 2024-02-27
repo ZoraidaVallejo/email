@@ -19,16 +19,17 @@
     }
 
     .title {
-        padding: 0 0 $padding 0;
+        padding: 50px $padding 0;
         color: plt('justia-blue');
         @include mail-font(36px, 1.15, tp('weight', 'bold'));
     }
 
+
     .image {
-        padding: 0;
+        padding: 50px 0 0;
 
         img {
-            width: 500px;
+            width: $inner-max-width;
             // border-radius: 5px 5px 0 0;
         }
     }
@@ -40,7 +41,6 @@
     .-extra-space {
         padding-bottom: 30px;
     }
-
 
     .content {
         padding: 0 $padding 25px;
@@ -74,144 +74,58 @@
         }
     }
 
-    &.-light-bg {
-        background-color: #F5F9FF;
-    }
+    &.-missed-webinar {
+        .image {
+            padding: 50px 0 0;
 
-    &.-ad-image {
+            img {
+                width: 500px;
+            }
+        }
 
-        > tr:first-child {
-            td {
-                padding-top: 50px;
+        .-twebinar {
+            color: plt('justia-blue');
+            text-align: left;
+            padding: 20px 50px 0;
+            @include mail-font(18px, 1.15, tp('weight', 'bold'));
+        }
+
+        .bannerimg {
+            padding: 0;
+
+            img {
+                width: 100%;
             }
         }
 
         .content {
-
-            .content-side {
-                width: 20px;
-
-                img {
-                    width: 20px;
-                }
-
-                &:first-child {
-                    float: left;
-                }
-
-                &:last-child {
-                    width: 480px;
-                    float: right;
-                    text-align: left;
-                    padding: 0 0 28px;
-                }
+            &.-first {
+                padding: 10px 50px 20px;
             }
 
-            &.-description.-first {
-                padding: $padding 50px 15px;
-                border-bottom: 0;
+            &.-button {
+                padding: 15px 50px 18px;
+            }
+
+            &.-last {
+                padding: 0 50px ($widget-gap + $padding);
+            }
+
+            &.-description p {
                 text-align: left;
-                border-radius: 15px 15px 0 0;
-
-                img {
-                    margin: 0 auto;
-                }
-
-                p {
-                    // padding: 0 50px;
-                    max-width: 500px;
-                    // margin: 0 auto;
-                }
-
-                a {
-                    font-weight: get('font.weight.bold');
-                }
-            }
-
-            &.-image-description {
-                padding: 0 50px 25px;
-
-                .-image {
-                    margin: 2px 0 0;
-                }
-
-                .-description {
-                    max-width: 470px;
-                    padding: 0 0 10px 10px;
-
-                    a {
-                        font-weight: get('font.weight.bold');
-                    }
-                }
-
-                .-title {
-                    font-size: rem-calc(18px);
-                    padding: 0 0 8px;
-                }
-
-                .-text, .-list {
-                    padding: 0 0 24px;
-                }
-
-                .-list {
-                    line-height: 1.5;
-                    p {
-                        margin: 0 0 9px;
-                        &:last-child {
-                            margin: 0;
-                        }
-                    }
-                }
-
-                p {
-                    @include mail-font(16px);
-                }
-
-                &.-first {
-                    padding: 50px 45px 25px;
-                }
             }
         }
-
     }
 
-    &.-main-banner {
-        padding: 0;
-        background-color: plt('justia-blue');
+    &.-light-bg {
+        background-color: #F5F9FF;
     }
-    .content.-idx-1 {
-        padding: 0;
 
-        .-description {
-            margin: 45px 0 45px 50px;
-            width: 240px;
-            float: left;
-            text-align: left;
-            p {
-                margin-bottom: 0;
-                padding-bottom: 0;
-            }
-            .title {
-                color: plt('white');
-                padding-bottom: 10px;
+    &.-questions {
 
-                @include mail-font(30px, 1.2, tp('weight', 'bold'));
-                display: block;
-            }
-            .date {
-                color: plt('white');
-                @include mail-font(18px);
-                display: block;
-            }
-        }
-
-        .-image{
-            float: right;
-            width: 245px;
-
-            img {
-                width: 245px;
-            }
+        .title {
+            padding: 20px $padding 0;
+            @include mail-font(24px, 1.15, tp('weight', 'bold'));
         }
     }
 }

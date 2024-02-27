@@ -16,6 +16,9 @@
 
     .widget-wrapper {
         display: block;
+        border: 1px solid plt('mail', 'border-gray');
+        border-radius: 0 0 10px 10px;
+        border-width: 0 1px 1px 1px ;
         padding: 10px 25px $padding;
     }
 }
@@ -28,6 +31,9 @@
 
         .title-wrapper {
             padding: 20px 0;
+            border: 1px solid plt('mail', 'border-gray');
+            border-radius: 10px 10px 0 0;
+            border-width: 1px 1px 0 1px;
         }
 
         .header-icon-column {
@@ -284,7 +290,7 @@
 
 .widget-date-square {
     display: block;
-    width: 58px;
+    width: 70px;
     padding: 11px 0;
     border: 1px solid plt('justia-blue');
     border-radius: 5px;
@@ -345,20 +351,4 @@
             width: 45px;
         }
     }
-}
-
-.w-advertisement.-light-bg + .w-law-events {
-    .widget-header {
-        padding-top: $widget-gap;
-    }
-}
-
-.-webinar-3 + .w-explore-webinars {
-    .widget-header {
-        padding-top: 0;
-    }
-}
-
-.display-inlineb {
-    display: inline-block;
 }

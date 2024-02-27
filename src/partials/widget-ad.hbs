@@ -14,7 +14,6 @@
  * @param {string}          widgetConfig.logo.name
  * @param {string}          widgetConfig.logo.color
  * @param {string}          widgetConfig.title
- * @param {string}          widgetConfig.date
  * @param {string}          widgetConfig.t-webinar
  * @param {number}          widgetConfig.titleResponsiveSize
  * @param {string}          widgetConfig.image
@@ -53,13 +52,6 @@
         <table {{{tableAttr}}}>
   {{/and}}
 
-  {{#if widgetConfig.widget.header}}
-    {{>widget-header
-      header=widgetConfig.widget.header
-      type=widgetConfig.widget.type
-    }}
-  {{/if}}
-
   {{#if widgetConfig.logo}}
     <tr>
       {{!
@@ -84,6 +76,8 @@
     </tr>
   {{/if}}
 
+
+
   {{#if widgetConfig.image}}
     <tr>
       <td class="image {{#if widgetConfig.bannerSpacingTop}}-extra-space-above{{/if}} {{#if widgetConfig.bannerSpacing}}-extra-space{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-30-top">
@@ -95,6 +89,7 @@
         {{#if widgetConfig.link}}</a>{{/if}}
       </td>
     </tr>
+
   {{/if}}
 
   {{#if widgetConfig.t-webinar}}
@@ -139,66 +134,7 @@
               {{/compare}}
 
               {{#compare @key "===" "description"}}
-                <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-padding-horizontal-sides" >
-                  {{#each ../config.description}}
-                    <p>{{{this}}}</p>
-                  {{/each}}
-                </div>
-              {{/compare}}
-            {{/forIn}}
-
-          </td>
-        </tr>
-      {{/compare}}
-
-      {{#compare this.type "===" "custom-banner"}}
-        <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides">
-            {{#table class=(classList "-inner-banner" widgetClass "set-max-width")}}
-              <tr>
-                <td>
-                  <div class="-description" responsive="mobile-no-padding-horizontal-sides mobile-fz-18">
-                    {{#each config.description}}
-                      <p responsive="mobile-fz-18">{{{this}}}</p>
-                    {{/each}}
-                  </div>
-                </td>
-                <td>
-                  <div class="-image" responsive="mobile-align-right mobile-no-padding">
-                    <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank" responsive="mobile-no-padding">
-                      {{>img
-                        src=(concat "webinar-weekly-digest-main-banner.png")
-                        alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                        responsive="mobile-align-right"
-                      }}
-                    </a>
-                  </div>
-                </td>
-
-              </tr>
-            {{/table}}
-          </td>
-        </tr>
-      {{/compare}}
-
-      {{#compare this.type "===" "main-banner"}}
-        <tr>
-          <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding">
-            {{#forIn this.config}}
-              {{#compare @key "===" "image"}}
-                <div class="content-side -image" responsive="mobile-hide mobile-reset-width">
-                  {{#if widgetConfig.link}}
-                  <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">{{/if}}
-                    {{>img
-                      src=../config.image
-                      alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
-                    }}
-                  {{#if widgetConfig.link}}</a>{{/if}}
-                </div>
-              {{/compare}}
-
-              {{#compare @key "===" "description"}}
-                <div class="content-side valign-middle -description" responsive="mobile-align-center collapse-one mobile-no-padding-horizontal-sides mobile-padding-30-vertical-sides" >
+                <div class="content-side -description" responsive="collapse-one mobile-no-padding">
                   {{#each ../config.description}}
                     <p>{{{this}}}</p>
                   {{/each}}

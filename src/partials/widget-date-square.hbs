@@ -5,9 +5,6 @@
 {{!
  * @param {string} eventMonth
  * @param {string} eventDay
- * @param {string} category
- * @param {string} speakers
- * @param {string} cta
 }}
 
 {{! ================================================================================================================= }}
@@ -18,11 +15,4 @@
           <p class="event-day">{{eventDay}}</p>
       </td>
     </tr>
-    {{#if eventCategory}}
-    <tr>
-        <td class="{{classList "widget-event-category" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
-          <div class="category"><span>{{eventCategory}}</span></div>
-        </td>
-    </tr>
-    {{/if}}
 {{/table}}

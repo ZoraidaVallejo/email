@@ -1,11 +1,11 @@
 {
   "banner": {
     "link": "https://connect.justia.com/webinars/",
-    "bannerimg": "20-webinar-recording.png"
+    "bannerimg": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image"
   },
   "webinar-1": {
     "link": "https://connect.justia.com/webinars/",
-    "image": "20-webinar-recording-available.png",
+    "image": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image",
     "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "contentOrder": [
       {
@@ -28,7 +28,7 @@
   },
   "webinar-2": {
     "link": "https://connect.justia.com/webinars/",
-    "image": "20-webinar-recording-available.png",
+    "image": "https://placehold.co/950x534/06357a/ffffff.jpg?text=Placeholder+Image",
     "t-webinar": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "contentOrder": [
       {

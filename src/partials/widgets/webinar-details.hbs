@@ -54,7 +54,7 @@
       <table responsive="mobile-padding-20-horizontal-sides">
         <tr>
           <td class="-icon" responsive="mobile-padding-right">
-             <img src="../dist/images/megaphone-icon.png" alt="megaphone icon">
+             <img src="https://justatic.com/v/1/emails/images/webinars/common/megaphone-icon.png" alt="megaphone icon">
           </td>
           <td class="-date-time">
             <span> <b>Date:</b> {{widgetConfig.details.date}} </span>
@@ -150,6 +150,14 @@
         {{#if widgetConfig.message3}}
           <div class="-message">
             {{#each widgetConfig.message3}}
+              <p>{{{this}}}</p>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if widgetConfig.message4}}
+          <div class="-message -border-top">
+            {{#each widgetConfig.message4}}
               <p>{{{this}}}</p>
             {{/each}}
           </div>

@@ -2,24 +2,20 @@
 // L A W   E V E N T S   W I D G E T
 // ----------------------------------------------------------------------------------------------------------
 
-.widget.w-law-events {
+.w-law-events {
 
-    /* .wrapper.-last {
+    .wrapper.-last {
         padding: 0 $padding $widget-gap;
-    } */
+    }
 
-    .widget-wrapper {
-        padding: 10px $widget-gap $widget-gap;
+    .content {
+        background-color: #f2f4f8;
+        padding: 20px 35px;
+        margin: 0 0 20px;
+        border-radius: 10px;
 
-        .content {
-            background-color: #F5F9FF;
-            padding: 25px;
-            margin: 0 0 20px;
-            border-radius: 10px;
-
-            &:last-child{
-                margin: 0;
-            }
+        &:last-child{
+            margin: 0;
         }
     }
 
@@ -27,14 +23,10 @@
         width: 100%;
     }
 
-    .widget-header {
-        padding-top: 0;
-    }
-
     .event {
 
         td {
-            vertical-align: top;
+            vertical-align: middle;
         }
 
         // &:not(.first-row) > td {
@@ -42,7 +34,7 @@
         // }
 
         .event-month {
-            @include mail-font(14px, 1, tp('weight', 'bold'));
+            @include mail-font(18px, 1, tp('weight', 'bold'));
             margin: 0;
         }
 
@@ -52,9 +44,9 @@
         }
 
         .title {
-            @include mail-font(18px, 1.4);
+            @include mail-font(16px, 1.4);
+            margin: 0 0 5px;
             color: plt('justia-blue');
-            margin: 0;
 
             a {
                 color: plt('justia-blue');
@@ -67,34 +59,11 @@
         }
 
         .read-more {
-            font-weight: get('font.weight.bold');
-            @include mail-font(16px);
-        }
-
-        .-red {
-            color: #E2231A !important;
+            margin: 7px 0 0;
         }
 
         a {
             color: plt('black');
         }
-    }
-
-    .widget-event-category {
-        margin-top: 10px;
-        width: 60px;
-        display: block;
-    }
-
-    .category {
-        text-transform: uppercase;
-        color: plt('white');
-        font-weight: get('font.weight.bold');
-        padding: 5px 5px;
-        border-radius: 15px;
-        background-color: plt('justia-blue');
-        line-height: 1.1;
-        display: block;
-        text-align: center;
     }
 }

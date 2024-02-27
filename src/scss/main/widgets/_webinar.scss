@@ -170,6 +170,16 @@
     .-message {
         padding: 12px 0;
     }
+
+    .-border-top {
+        border-top: 1px solid plt('alto');
+        padding-top: 22px;
+    }
+
+    .-disclaimer {
+        @include mail-font(14px);
+        font-style: italic;
+    }
 }
 
 .widget.post-webinar {
@@ -259,5 +269,16 @@
         &.-last {
             padding: 0 50px 50px;
         }
+    }
+}
+
+.widget.-questions {
+    .widget-description {
+        padding: $widget-gap;
+    }
+
+    .widget-button a {
+        height: 40px;
+        line-height: 2.5;
     }
 }

@@ -30,6 +30,7 @@
 }}
 
 {{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "adClasses" (classList "widget" "w-text-btn" widgetClass "set-max-width")}}
 
 {{! ================================================================================================================= }}
 
@@ -47,12 +48,10 @@
         <table {{{tableAttr}}}>
   {{/and}}
 
-  {{#if widgetConfig.header}}
-    {{>widget-header
-      header=widgetConfig.widget.header
-      type=widgetConfig.widget.type
-    }}
-  {{/if}}
+  {{>widget-header
+    header=widgetConfig.widget.header
+    type=widgetConfig.widget.type
+  }}
 
   {{#if widgetConfig.title}}
     <tr>
