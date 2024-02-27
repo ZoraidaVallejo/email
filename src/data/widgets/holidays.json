@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "type": "upcoming holidays",
+    "header": "Dates to Remember"
+  },
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "holiday-01.png",
+        "blockTitle": "Benito Juarez’s Birthday<br>March 21st",
+        "description": [
+          "<br>Benito Juarez's birthday, observed on March 21st, honors the birth of a prominent Mexican leader. Born in 1806 in Oaxaca, Juarez became known for his efforts to modernize Mexico and promote democratic principles. His legacy as a promoter of justice and equality remains influential, making his birthday a day to remember his contributions to Mexican history and society."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-wellness {
+
+    td {
+        text-align: center;
+    }
+
+    .justia-logo {
+        padding: 40px $padding 30px;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 0 auto;
+        }
+    }
+
+    .title {
+        padding: 0 0 5px;
+        @include mail-font(18px, 1.15, 700);
+        color: plt('justia-blue');
+
+        a {
+            @include mail-font(18px, 1.15, 700);
+            color: plt('justia-blue');
+        }
+    }
+
+    .image {
+        padding: 0 $padding;
+
+        img {
+            width: $inner-max-width;
+        }
+    }
+
+    .content {
+        padding: 0 $padding 25px;
+
+        a {
+            color: plt('justia-blue');
+
+            * {
+                color: plt('justia-blue');
+            }
+        }
+
+        .content-side {
+            // width: 180px;
+            vertical-align: middle;
+
+            // img,
+            // &.-image {
+            //     width: 38px;
+            // }
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                // padding: 7px 0 7px 7px;
+                float: right;
+            }
+        }
+
+        .-list {
+            color: #340081;
+            text-align: left;
+
+            ul {
+                margin: 0;
+            }
+        }
+
+        &.-first {
+            padding: 0 $padding 40px;
+        }
+
+        &.-button {
+            padding: 0 $padding 18px;
+        }
+
+        &.-last {
+            padding: 0 $padding 34px;
+        }
+    }
+
+    .-image-column {
+
+        .content-side {
+            width: 245px;
+
+            img {
+                width: 245px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .-description {
+        text-align: left;
+    }
+
+    .-description.-idx-2 {
+        padding: 10px $widget-gap $widget-gap;
+        text-align: center;
+    }
+
+    .-image-description {
+        width: 225px;
+        padding: 0 $padding 30px;
+    }
+}

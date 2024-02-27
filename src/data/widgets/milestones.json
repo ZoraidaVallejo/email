@@ -1,0 +1,33 @@
+{
+  "widget": {
+    "type": "Milestones & Accomplishments",
+    "header": "Let’s Find Out What’s Been Achieved So Far by Our Teams at Justia"
+  },
+  "titleResponsiveSize": 23,
+  "contentOrder": [
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-01.png",
+        "title": "Marketing Blasts.",
+        "description": " We continue streamlining our email marketing processes for everyone's benefit. We've introduced a performance report for campaigns, offering valuable insights. Also, we're now sending a weekly digest version of our Justia Webinar recording blasts."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-02.png",
+        "title": "Justia State Case Law.",
+        "description": " We've made important updates to our Justia Case Law U.S. Courts. Specifically, we've renamed the Maryland Supreme Court and the Maryland Appellate Court. Additionally, we're pleased to introduce the West Virginia Intermediate Court of Appeals. We are working closely with our Legal experts to ensure the accuracy of the information."
+      }
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "milestones-graphic-03.png",
+        "title": "Justia Elevate.",
+        "description": " We continue improving Justia Elevate with regular updates and features, including version upgrades for WordPress and the Yoast SEO plugin, support for YouTube shorts, and titles for FAQ stripes, among other improvements."
+      }
+    }
+  ]
+}
