@@ -4,37 +4,97 @@
 
 $logos-dimensions: (
     'justia': (
-        'dims': 879px 231px
+        'dims': 334px 100px
     ),
-    'insights': (
-        'dims': 1120px 196px
+    'amplify': (
+        'dims': 576px 100px
     ),
-    'lawyer-profile-essentials': (
-        'dims': 2248px 158px
+    'anniversary': (
+        'dims': 692px 100px
     ),
-    'legal-jobs': (
-        'dims': 1328px 158px
+    'answers': (
+        'dims': 596px 100px
     ),
-    'lawyer-directory': (
-        'dims': 1762px 158px
+    'argument-summaries': (
+        'dims': 980px 100px
     ),
-    'marketing': (
-        'dims': 1240px 196px
+    'ask-a-lawyer': (
+        'dims': 746px 100px
     ),
-    'insider': (
-        'dims': 1240px 196px
+    'blogging-ideas': (
+        'dims': 778px 100px
     ),
-    'justia-ver2': (
-        'dims': 300px 90px
+    'cle-webinars': (
+        'dims': 812px 100px
     ),
-    'blogging': (
-        'dims': 1087px 139px
+    'connect': (
+        'dims': 584px 100px
+    ),
+    'connect-pro': (
+        'dims': 698px 100px
+    ),
+    'daily-opinion-summaries': (
+        'dims': 1074px 100px
     ),
     'elevate': (
-        'dims': 2498px 450px
+        'dims': 556px 100px
+    ),
+    'insider': (
+        'dims': 668px 100px
+    ),
+    'insights': (
+        'dims': 572px 100px
+    ),
+    'justia-ver2': (
+        'dims': 334px 100px
     ),
     'justia-anniversary': (
-        'dims': 470px 55px
+        'dims': 692px 100px
+    ),
+    'law-firm-marketing': (
+        'dims': 918px 100px
+    ),
+    'lawyer-directory': (
+        'dims': 842px 100px
+    ),
+    'lawyer-profile-essentials': (
+        'dims': 1058px 100px
+    ),
+    'legal-jobs': (
+        'dims': 660px 100px
+    ),
+    'marketing': (
+        'dims': 632px 100px
+    ),
+    'new-intern': (
+        'dims': 660px 100px
+    ),
+    'new-team-member': (
+        'dims': 902px 100px
+    ),
+    'onboarding': (
+        'dims': 694px 100px
+    ),
+    'onward': (
+        'dims': 576px 100px
+    ),
+    'opinion-summaries': (
+        'dims': 914px 100px
+    ),
+    'refer': (
+        'dims': 502px 100px
+    ),
+    'webinars': (
+        'dims': 622px 100px
+    ),
+    'website-seo-report': (
+        'dims': 944px 100px
+    ),
+    'weekly-opinion-summaries': (
+        'dims': 1100px 100px
+    ),
+    'your-birthday': (
+        'dims': 748px 100px
     )
 );
 
@@ -56,33 +116,45 @@ $settings: set('mail-header', (
     'background': plt('white'),
     'logos': (
         'logo-only': (
-            'justia': 135px,
-            'insights': 267px,
-            'lawyer-profile-essentials': 470px,
-            'legal-jobs': 308px,
-            'lawyer-directory': 500px,
-            'marketing': 297px,
-            'insider': 300px,
-            'your-birthday': 380px,
-            'new-team-member': 450px,
-            'new-intern': 340px,
-            'blogging': 460px,
+            'justia': 167px,
+            'amplify': 288px,
             'anniversary': 346px,
-            'onboarding': 350px,
-            'elevate': 250px,
-            'justia-anniversary': 470px
+            'answers': 298px,
+            'argument-summaries': 490px,
+            'ask-a-lawyer': 373px,
+            'blogging-ideas': 389px,
+            'cle-webinars': 406px,
+            'connect': 292px,
+            'connect-pro': 349px,
+            'daily-opinion-summaries': 537px,
+            'elevate': 278px,
+            'insights': 286px,
+            'justia-anniversary': 346px,
+            'law-firm-marketing': 459px,
+            'lawyer-directory': 421px,
+            'lawyer-profile-essentials': 529px,
+            'legal-jobs': 330px,
+            'marketing': 316px,
+            'new-intern': 330px,
+            'new-team-member': 451px,
+            'onboarding': 347px,
+            'onward': 288px,
+            'opinion-summaries': 457px,
+            'refer': 251px,
+            'webinars': 311px,
+            'website-seo-report': 472px,
+            'weekly-opinion-summaries': 550px,
+            'your-birthday': 374px
         ),
         'with-date': (
-            'justia': 135px,
-            'insights': 267px,
-            'lawyer-profile-essentials': 270px,
-            'legal-jobs': 277px,
-            'lawyer-directory': 300px,
-            'marketing': 297px,
-            'justia-anniversary': 270px
+            'justia': 167px,
+            'insights': 286px,
+            'legal-jobs': 330px,
+            'marketing': 316px,
+            'justia-anniversary': 346px
         ),
         'insider-date': (
-            'insider': 300px
+            'insider': 334px
         )
     )
 ));
@@ -90,11 +162,12 @@ $settings: set('mail-header', (
 // ----------------------------------------------------------------------------------------------------------
 
 .main-header {
+    border-bottom: 1px solid plt('gallery');
     background-color: get('mail-header.background');
 
     .logo-img {
         display: block;
-        max-width: 87%;
+        max-width: 100%;
         margin: 0;
     }
 }
@@ -103,7 +176,7 @@ $settings: set('mail-header', (
 
     .wrapper {
         width: 100%;
-        padding: 20px $padding;
+        padding: 12px 25px;
         text-align: center;
     }
 
@@ -120,7 +193,7 @@ $settings: set('mail-header', (
 .main-header.-with-date {
 
     .wrapper {
-        padding: $padding;
+        padding: 12px 25px;
         vertical-align: middle;
 
         > table {
@@ -176,6 +249,7 @@ $settings: set('mail-header', (
     }
 
     .logo {
+        padding: 12px $padding;
         border-radius: 10px 10px 0 0;
         background-color: get('mail-header.background');
         text-align: center;

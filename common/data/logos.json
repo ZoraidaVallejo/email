@@ -1,76 +1,15 @@
 {
   "justia": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/shared/images/logos/justia-blue.png"
+      "blue": "https://justatic.com/v/2040227/shared/images/logos/justia-blue.png"
     },
     "alt": "Justia"
   },
-  "insights": {
+  "amplify": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-blue.png",
-      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-transparent.png",
-      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-insights-blue-white.png"
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-amplify-blue.png"
     },
-    "alt": "Justia Insights"
-  },
-  "marketing": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-blue.png",
-      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-transparent.png",
-      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-marketing-blue-white.png"
-    },
-    "alt": "Justia Marketing"
-  },
-  "legalJobs": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-legal-jobs-blue.png"
-    },
-    "alt": "Justia Legal Jobs"
-  },
-  "lawyerDirectory": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-blue.png",
-      "white": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-transparent.png",
-      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-directory-blue-white.png"
-    },
-    "alt": "Justia Lawyer Directory"
-  },
-  "lawyerProfileEssentials": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-lawyer-profile-essentials-blue.png"
-    },
-    "alt": "Justia Lawyer Profile Essentials"
-  },
-  "insider": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-insider-blue.png",
-      "blue-white": "https://justatic.com/v/20190705/branding/logos/emails/justia-insider-blue-white.png"
-    },
-    "alt": "The Justia Insider"
-  },
-  "justiaVer2": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/justia-blue-rounded-300.png"
-    },
-    "alt": "Justia"
-  },
-  "yourBirthday": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-your-birthday-blue.png"
-    },
-    "alt": "Justia Your Birthday"
-  },
-  "newTeamMember": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-team-member-blue.png"
-    },
-    "alt": "Justia New Team Member"
-  },
-  "newIntern": {
-    "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-new-intern-blue.png"
-    },
-    "alt": "Justia New Intern"
+    "alt": "Justia Amplify"
   },
   "anniversary": {
     "path": {
@@ -78,40 +17,194 @@
     },
     "alt": "Justia Anniversary"
   },
-  "onboarding": {
+  "answers": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-onboarding-blue.png"
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-answers-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-answers-transparent.png"
     },
-    "alt": "Justia Onboarding"
+    "alt": "Justia Answers"
   },
-  "blogging": {
+  "argumentSummaries": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-blogging-ideas-blue.png"
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-argument-summaries-blue.png"
+    },
+    "alt": "Justia Argument Summaries"
+  },
+  "askALawyer": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-ask-a-lawyer-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-ask-a-lawyer-transparent.png"
+    },
+    "alt": "Justia Ask A Lawyer"
+  },
+  "bloggingIdeas": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-blogging-ideas-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-blogging-ideas-transparent.png"
     },
     "alt": "Justia Blogging Ideas"
   },
+  "cleWebinars": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-cle-webinars-blue.png"
+    },
+    "alt": "Justia CLE & Webinars"
+  },
+  "connect": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-connect-blue.png"
+    },
+    "alt": "Justia Connect"
+  },
+  "connectPro": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-connect-pro-blue.png"
+    },
+    "alt": "Justia Connect Pro"
+  },
+  "dailyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-daily-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Daily Opinion Summaries"
+  },
   "elevate": {
     "path": {
-      "blue": "https://justatic.com/v/20190705/branding/logos/emails/justia-elevate-blue.png"
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-elevate-blue.png"
     },
     "alt": "Justia Elevate"
+  },
+  "insider": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-insider-blue.png",
+      "white": "https://justatic.com/v/2040227/branding/logos/emails/justia-insider-white.png",
+      "blue-white": "https://justatic.com/v/2040227/branding/logos/emails/justia-insider-blue-white.png"
+    },
+    "alt": "The Justia Insider"
+  },
+  "insights": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-insights-blue.png",
+      "white": "https://justatic.com/v/2040227/branding/logos/emails/justia-insights-transparent.png",
+      "blue-white": "https://justatic.com/v/2040227/branding/logos/emails/justia-insights-blue-white.png"
+    },
+    "alt": "Justia Insights"
   },
   "justiaAnniversary": {
     "path": {
       "amplify": "https://justatic.com/branding/logos/emails/justia-20-amplify-blue.png",
-      "elevate": "https://justatic.com/branding/logos/emails/justia-20-elevate-blue.png",
+      "ask-a-lawyer": "https://justatic.com/branding/logos/emails/justia-20-ask-a-lawyer-blue.png",
+      "cle-webinar": "https://justatic.com/branding/logos/emails/justia-20-cle-webinar-blue.png",
       "connect": "https://justatic.com/branding/logos/emails/justia-20-connect-blue.png",
+      "connect-pro": "https://justatic.com/branding/logos/emails/justia-20-connect-pro-blue.png",
+      "summaries": "https://justatic.com/branding/logos/emails/justia-20-daily-opinion-summaries-blue.png",
+      "elevate": "https://justatic.com/branding/logos/emails/justia-20-elevate-blue.png",
+      "insights": "https://justatic.com/branding/logos/emails/justia-20-insights-blue.png", 
       "justia": "https://justatic.com/branding/logos/emails/justia-20-justia-blue.png",
       "lawyer-directory": "https://justatic.com/branding/logos/emails/justia-20-lawyer-directory-blue.png",
       "legal-jobs": "https://justatic.com/branding/logos/emails/justia-20-legal-jobs-blue.png",
       "marketing": "https://justatic.com/branding/logos/emails/justia-20-marketing-blue.png",
-      "webinars": "https://justatic.com/branding/logos/emails/justia-20-webinars-blue.png",
-      "summaries": "https://justatic.com/branding/logos/emails/justia-20-daily-opinion-summaries-blue.png",
       "onward": "https://justatic.com/branding/logos/emails/justia-20-onward-blue.png",
       "refer": "https://justatic.com/branding/logos/emails/justia-20-refer-blue.png",
-      "insights": "https://justatic.com/branding/logos/emails/justia-20-insights-blue.png",
-      "ask-a-lawyer": "https://justatic.com/branding/logos/emails/justia-20-ask-a-lawyer-blue.png"
+      "webinars": "https://justatic.com/branding/logos/emails/justia-20-webinars-blue.png"
     },
     "alt": "20 Anniversary - Justia [Logo Name]"
+  },
+  "justiaVer2": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/justia-blue-rounded-300.png"
+    },
+    "alt": "Justia"
+  },
+  "lawFirmMarketing": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-law-firm-marketing-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-law-firm-marketing-transparent.png"
+    },
+    "alt": "Justia Law Firm Marketing"
+  },
+  "lawyerDirectory": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-lawyer-directory-blue.png",
+      "white": "https://justatic.com/v/2040227/branding/logos/emails/justia-lawyer-directory-transparent.png",
+      "blue-white": "https://justatic.com/v/2040227/branding/logos/emails/justia-lawyer-directory-blue-white.png"
+    },
+    "alt": "Justia Lawyer Directory"
+  },
+  "lawyerProfileEssentials": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-lawyer-profile-essentials-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-lawyer-profile-essentials-transparent.png"
+    },
+    "alt": "Justia Lawyer Profile Essentials"
+  },
+  "legalJobs": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-legal-jobs-blue.png"
+    },
+    "alt": "Justia Legal Jobs"
+  },
+  "marketing": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-marketing-blue.png",
+      "white": "https://justatic.com/v/2040227/branding/logos/emails/justia-marketing-transparent.png",
+      "blue-white": "https://justatic.com/v/2040227/branding/logos/emails/justia-marketing-blue-white.png"
+    },
+    "alt": "Justia Marketing"
+  },
+  "newIntern": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-new-intern-blue.png"
+    },
+    "alt": "Justia New Intern"
+  },
+  "newTeamMember": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-new-team-member-blue.png"
+    },
+    "alt": "Justia New Team Member"
+  },
+  "onboarding": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-onboarding-blue.png"
+    },
+    "alt": "Justia Onboarding"
+  },
+  "onward": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-onward-blue.png"
+    },
+    "alt": "Justia Onward"
+  },
+  "opinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Opinion Summaries"
+  },
+  "webinars": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-webinars-blue.png"
+    },
+    "alt": "Justia Webinars"
+  },
+  "websiteSeoReport": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-website-seo-report-blue.png",
+      "transparent": "https://justatic.com/v/2040227/branding/logos/emails/justia-website-seo-report-transparent.png"
+    },
+    "alt": "Justia Website Seo Report"
+  },
+  "weeklyOpinionSummaries": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-weekly-opinion-summaries-blue.png"
+    },
+    "alt": "Justia Weekly Opinion Summaries"
+  },
+  "yourBirthday": {
+    "path": {
+      "blue": "https://justatic.com/v/2040227/branding/logos/emails/justia-your-birthday-blue.png"
+    },
+    "alt": "Justia Your Birthday"
   }
 }
