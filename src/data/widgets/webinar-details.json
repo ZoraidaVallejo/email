@@ -59,5 +59,17 @@
       "text": "Reserve My Seat",
       "width": 250
     }
+  },
+  "reminder-1": {
+    "banner": "",
+    "details": {
+      "date": "March 11, 2024",
+      "time": "2:00 pm ET/11:00 am PT"
+    },
+    "message": [
+      "<strong>Reminder:</strong> You are registered for <a href=\"https://connect.justia.com/webinars/google-search-console-for-lawyers-the-secret-weapon-you-didn-t-know-you-had\">Google Search Console for Lawyers: The Secret Weapon You Didn’t Know You Had</a> on Monday, March 11th at 2 p.m. ET/11 a.m. PT.",
+      "You can <a href=\"#\" target=\"_blank\">use this link</a> to join us.",
+      "If you have trouble, please contact <a href=\"http://support.justia.com\">Justia Support</a> for assistance."
+    ]
   }
 }
