@@ -1,0 +1,67 @@
+{
+  "test": {
+    "banner": "",
+    "details": {
+      "date": "March 27, 2024",
+      "time": "12:00 pm ET/9:00 am PT"
+    },
+    "title": [
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message": [
+      "Hi Name,",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>",
+      "Nullam vulputate ultrices orci, eu blandit sem pellentesque porta. Nunc placerat ligula ut massa rhoncus imperdiet. Integer sollicitudin <b><a href=\"#\" target=\"_blank\">Register today</a></b>"
+    ],
+    "bullet-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "number-list": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ],
+    "message2": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ],
+    "bottomline": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "button": {
+      "style": "red",
+      "link": "#",
+      "text": "Lorem ipsum",
+      "width": 250
+    },
+    "note": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    ],
+    "message3": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a interdum lorem, ac lacinia nisl. Aenean varius suscipit tortor, nec fermentum dui rhoncus id <b>new Justia Webinar</b>"
+    ]
+  },
+  "registration-1": {
+    "banner": "",
+    "details": {
+      "date": "March 27, 2024",
+      "time": "12:00 pm ET/9:00 am PT"
+    },
+    "message": [
+      "In an industry where men have traditionally outnumbered women, it isn’t uncommon for women to face unique challenges. At our upcoming Justia webinar, we’ll unravel various strategies specifically tailored for women in family law that can help advance their careers and cultivate inclusivity in the profession!",
+      "You’re invited to join our guest speaker Anna Blood as she explores the challenges and opportunities that arise for women practicing family law. <a href=\"https://connect.justia.com/webinars/empowering-women-in-family-law-strategies-for-success\">Empowering Women in Family Law: Strategies for Success</a> begins promptly at 12 p.m. ET/9 a.m. PT on Wednesday, March 27, 2024."
+    ],
+    "bottomline": [
+      "<strong>Seats are limited, so reserve yours today!</strong>"
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/webinars/empowering-women-in-family-law-strategies-for-success",
+      "text": "Reserve My Seat",
+      "width": 250
+    },
+    "message3": [
+      "<span class=\"-disclaimer\"><b>Please note:</b> This presentation is approved for one hour of General CLE credit in California and South Carolina (all levels). An application for accreditation of this activity has been submitted to the MCLE Committee of the State Bar of Texas and is pending.</span>",
+      "<span class=\"-disclaimer\">If you want to earn CLE credit for your attendance at this webinar, you will need to <a href=\"https://connect.justia.com/pro\">upgrade to Justia Connect Pro</a> to take advantage of this exclusive benefit.</span>"
+    ]
+  }
+}
