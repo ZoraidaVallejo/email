@@ -3,14 +3,6 @@
     "type": "Our Blog",
     "header": "We Invite You to Read Our Latest Blog Posts on Justia Onward"
   },
-  "description": {
-    "top": [
-      ""
-    ],
-    "bottom": [
-      ""
-    ]
-  },
   "singleColumn": false,
   "columns": [
     {
@@ -24,14 +16,6 @@
     {
       "image": {
         "src": "onward-02.png",
-        "alt": "Justia Legal Resources: Elder Law Center"
-      },
-      "readMore": "https://onward.justia.com/justia-legal-resources-elder-law-center/",
-      "blockTitle": "Justia Legal Resources: Elder Law Center"
-    },
-    {
-      "image": {
-        "src": "onward-03.png",
         "alt": "TikTok News: Best Practices Guide for Ad Campaigns and Bidding Strategies"
       },
       "readMore": "https://onward.justia.com/tiktok-news-best-practices-guide-for-ad-campaigns-and-bidding-strategies/",
@@ -39,11 +23,19 @@
     },
     {
       "image": {
-        "src": "onward-04.png",
+        "src": "onward-03.png",
         "alt": "News and Notes From Google Local Services Ads: February 2024"
       },
       "readMore": "https://onward.justia.com/news-and-notes-from-google-local-services-ads-february-2024/",
       "blockTitle": "News and Notes From Google Local Services Ads: February 2024"
+    },
+    {
+      "image": {
+        "src": "onward-04.png",
+        "alt": "Justia Legal Resources: Elder Law Center"
+      },
+      "readMore": "https://onward.justia.com/justia-legal-resources-elder-law-center/",
+      "blockTitle": "Justia Legal Resources: Elder Law Center"
     }
   ]
 }
