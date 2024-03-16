@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "connect-monthly-justia-desk-01.png",
+  "news": [
+    {
+      "title": "Google’s Bard AI Makes Its Official Transition to Gemini",
+      "link": "https://onward.justia.com/googles-bard-ai-makes-its-official-transition-to-gemini/",
+      "description": "Google updated its AI chatbot, Bard, to Gemini (its latest and most advanced AI model), offering its own Android app and introducing a paid version named Gemini Advanced.",
+      "index": "1"
+    },
+    {
+      "title": "Google Will Update Its Core Web Vitals Metrics on March 12",
+      "link": "https://onward.justia.com/google-will-update-its-core-web-vitals-metrics-on-march-12/",
+      "description": "Google has officially announced that as of March 12, 2024, the Interaction to Next Paint (INP) metric will replace First Input Delay (FID) as a Core Web Vital.",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "pro": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "month-connect-pro-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
