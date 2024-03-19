@@ -56,11 +56,13 @@
           {{!
           // TODO: Move to `widget-button` component.
           }}
-          <div class="widget-button {{#if isLast}} -last{{/if}}">
-            {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
-              {{this.button.text}}
-            {{/uiButton}}
-          </div>
+          {{#if this.button}}
+            <div class="widget-button {{#if isLast}} -last{{/if}}">
+              {{#uiButton presetStyle=this.button.style href=this.button.link width=this.button.width}}
+                {{this.button.text}}
+              {{/uiButton}}
+            </div>
+          {{/if}}
 
           {{#if this.border}}
             <div class="border"></div>
