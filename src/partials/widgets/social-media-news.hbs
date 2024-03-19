@@ -1,0 +1,16 @@
+{{! ================================================================================================================= }}
+{{! S O C I A L   M E D I A   N E W S                                                                                 }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{#table class="widget w-social-media-news set-max-width"}}
+  {{>widget-header
+    header=socialMediaNews.widget.header
+    icon=socialMediaNews.widget.icon
+  }}
+
+  {{>widget-columns-articles widgetConfig=socialMediaNews.news isLast=true}}
+{{/table}}
