@@ -1,0 +1,113 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   A D V E R T I S E M E N T                                                                       }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}          widgetConfig
+ * @param {string}          widgetConfig.link
+ * @param {Object}          widgetConfig.utm
+ * @param {Object}          widgetConfig.logo
+ * @param {string}          widgetConfig.logo.name
+ * @param {string}          widgetConfig.logo.color
+ * @param {string}          widgetConfig.title
+ * @param {number}          widgetConfig.titleResponsiveSize
+ * @param {string}          widgetConfig.image
+ * @param {string}          widgetConfig.imageAlt
+ * @param {Object}          widgetConfig.background
+ * @param {string}          widgetConfig.background.image
+ * @param {string}          widgetConfig.background.bgColor
+ * @param {number}          widgetConfig.background.width
+ * @param {number}          widgetConfig.background.height
+ * @param {string}          widgetConfig.background.cssSize
+ * @param {Object[]}        widgetConfig.contentOrder
+ * @param {string}          widgetConfig.contentOrder[].type
+ * @param {string[]|Object} widgetConfig.contentOrder[].config
+ * @param {string}          widgetClass
+}}
+
+{{assign "adLink" (concat widgetConfig.link (utmVariables widgetConfig.utm))}}
+{{assign "adClasses" (classList "widget" "w-banner" widgetClass "set-max-width")}}
+
+{{! ================================================================================================================= }}
+
+{{#table class=(classList "widget" "w-banner" widgetClass "set-max-width")}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+    <tr>
+      {{>ui-background backgroundBehavior="cell" backgroundStart=true
+        bgImage=widgetConfig.background.image
+        bgColor=widgetConfig.background.bgColor
+        bgWidth=widgetConfig.background.width
+        bgHeight=widgetConfig.background.height
+        bgSize=widgetConfig.background.cssSize
+      }}
+        <table {{{tableAttr}}}>
+  {{/and}}
+  {{#if widgetConfig.customBanner}}
+    <tr>
+      <td class="" responsive="mobile-no-padding-horizontal-sides mobile-padding-20-bottom">
+        {{#table class="-inner-banner set-max-width"}}
+          <tr>
+            {{#if widgetConfig.largeImageAlt}}
+              <td>
+                <div class="-image" responsive="mobile-align-center">
+                  <a href="{{{widgetConfig.link}}}{{{ utmVariables widgetConfig.utm}}}" target="_blank">
+                    {{>img
+                      src=(concat widgetConfig.context "-large-image.jpg")
+                      alt=(default widgetConfig.title widgetConfig.largeImageAlt)
+                      responsive="mobile-align-center"
+                    }}
+                  </a>
+                </div>
+              </td>
+            {{/if}}
+            <td class="-va-{{widgetConfig.verticalAlignment}}">
+              <div class="-description" responsive="mobile-no-padding-horizontal-sides mobile-fz-18">
+                {{#if widgetConfig.smallImageAlt1}}
+                  {{>img
+                    src=(concat widgetConfig.context "-banner-text-01.jpg")
+                    alt=widgetConfig.smallImageAlt1
+                    responsive=config.responsiveImgText
+                  }}
+                {{/if}}
+
+                {{#each widgetConfig.description}}
+                  <span responsive="mobile-fz-32">{{{this}}}</span>
+                {{/each}}
+
+                {{#if widgetConfig.smallImageAlt2}}
+                  {{>img
+                    src=(concat widgetConfig.context "-banner-text-02.jpg")
+                    alt=widgetConfig.smallImageAlt2
+                    responsive="mobile-align-center"
+                  }}
+                {{/if}}
+              </div>
+            </td>
+          </tr>
+        {{/table}}
+      </td>
+    </tr>
+  {{else}}
+    <tr>
+      <td class="image">
+        <a href="{{{@root.adLink}}}" target="_blank">
+          {{>img
+            src=widgetConfig.image
+            alt=(default widgetConfig.title widgetConfig.imageAlt)
+          }}
+        </a>
+      </td>
+    </tr>
+  {{/if}}
+
+  {{#and widgetConfig.background widgetConfig.background.image}}
+      </table>
+    {{>ui-background backgroundBehavior="cell" backgroundEnd=true}}
+  </tr>
+  {{/and}}
+{{/table}}

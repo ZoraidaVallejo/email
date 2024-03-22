@@ -1,0 +1,32 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-general-title {
+    border-bottom: 0;
+
+    .title {
+        padding: 48px $padding 0;
+        color: plt('justia-blue');
+        text-align: center;
+
+        a {
+            @include mail-font(28px, 1.25, 700);
+            display: block;
+            color: plt('justia-blue');
+        }
+
+        span {
+            display: block;
+            font-weight: normal;
+        }
+
+        &.-decoration {
+            a {
+
+                padding: 0 0 16px;
+                background: url('https://justatic.com/v/1/emails/images/newsletters/common/line-decoration-01.jpg') no-repeat center bottom;
+            }
+        }
+    }
+}

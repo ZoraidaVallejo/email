@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "customBanner": true,
+    "context": "yellow",
+    "largeImageAlt": "Anyways",
+    "smallImageAlt1": "You Were Seen",
+    "smallImageAlt2": "More Than Competitors",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "180x"
+    ]
+  },
+  "banner2": {
+    "customBanner": false,
+    "image": "connect-upgrade-profile-banner-01.png",
+    "imageAlt": "Keep All Eyes on You",
+    "link": "#"
+  },
+  "bannerExample": {
+    "customBanner": true,
+    "context": "example",
+    "largeImageAlt": "[Image 1]",
+    "smallImageAlt1": "[Image 2]",
+    "smallImageAlt2": "[Image 3]",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "[TEXT]",
+      "[TEXT]"
+    ]
+  }
+}

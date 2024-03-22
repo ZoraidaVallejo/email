@@ -1,0 +1,123 @@
+{
+  "ad1": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Get in front of more clients by taking advantage of an <strong>enhanced Justia Profile in the Justia Lawyer Directory</strong>.</p>"
+        ]
+      },
+      {
+        "type": "image-description-list",
+        "config": [
+          {
+            "responsive": "",
+            "image": "connect-upgrade-profile-icon-01.png",
+            "description": [
+              "No Competitor Ads"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "connect-upgrade-profile-icon-02.png",
+            "description": [
+              "Prominently Integrated Contact Form"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "connect-upgrade-profile-icon-03.png",
+            "description": [
+              "Exclusive Justia Connect Pro Badge"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>All available for as little as $16.65/month on an annual <strong>Justia Connect Pro Membership plan</strong>.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Upgrade My Profile",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      }
+    ]
+  },
+  "ad2": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "[Button Text]",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      }
+    ]
+  }
+}
