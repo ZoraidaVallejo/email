@@ -4,6 +4,12 @@
 
 .w-advertisement {
 
+    &.-registration{
+        .title {
+            padding: 0;
+        }    
+    }
+
     td {
         text-align: center;
     }
