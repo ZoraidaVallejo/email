@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Featured Webinar"
+  },
+  "link": "https://connect.justia.com/webinars/converting-leads-to-clients-navigating-the-critical-moments-in-legal-consultations",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    }
+  },
+  "banner": "insights-webinar-01.jpg",
+  "title": "How To Effectively Handle Long COVID Disability Insurance Claims",
+  "description": [
+    "In this webinar, we will be discussing the complexities of handling a long COVID disability insurance claim and how best to present these claims to insurance companies. Insurance companies do not appreciate the extent to which long COVID symptoms can be disabling. Using our winning strategy with these types of claims gives claimants the best chance of being paid short-term and long-term disability insurance benefits, and if necessary, preparing to litigate denials."
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims",
+    "text": "Register Now"
+  }
+}
