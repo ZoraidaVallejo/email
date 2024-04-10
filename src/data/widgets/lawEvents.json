@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "10-13",
+      "month": "Apr",
+      "title": "2024 IRIS Spring Meeting",
+      "link": "https://events.americanbar.org/event/4BD492DF-DE35-40F4-85BD-5D170BF984DC/summary",
+      "time": "",
+      "typeLocation": "Savanna, GA | CLE"
+    },
+    {
+      "day": "16",
+      "month": "Apr",
+      "title": "How To Effectively Handle Long COVID Disability Insurance Claims",
+      "link": "https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims",
+      "time": "11am ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "17",
+      "month": "Apr",
+      "title": "Generative AI: Improving or Impairing Access to Justice?",
+      "link": "https://www.pli.edu/programs/generative-ai-improving-or-impairing-access-to-justice?t=live&p=401510",
+      "time": "1pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "24",
+      "month": "Apr",
+      "title": "The Attack on DEI – Safeguarding Corporate DEI Initiatives Post-Supreme Court’s Affirmative Action Decision",
+      "link": "https://connect.justia.com/webinars/the-attack-on-dei-safeguarding-corporate-dei-initiatives",
+      "time": "12pm ET",
+      "typeLocation": "Webinar | CLE"
+    }
+  ]
+}

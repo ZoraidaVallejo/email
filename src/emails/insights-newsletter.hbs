@@ -1,0 +1,81 @@
+---
+subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
+---
+
+{{>preheader text="News and developments from Justia and the tech world ----- "}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.jld}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{>welcome widgetConfig=welcome.jld}}
+
+        {{>trending-news}}
+
+        {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
+
+        {{>tip-month widgetConfig=tipMonth.jld}}
+
+        {{>featured-lawyer}}
+
+        {{>lawyer-qa widgetConfig=lawyerQa.jld}}
+
+        {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
+
+        {{!-- Justia Deals --}}
+
+        {{>justia-deskv2 widgetUtmVars=justiaDeskv2.utm.jld}}
+
+        {{>meet-our-team}}
+
+        {{>hug-pug}}
+
+        {{>law-events widgetConfig=lawEvents}}
+
+        {{!-- {{>explore-webinars widgetConfig=exploreWebinars}} --}}
+
+        {{!-- {{>featured-news widgetUtmVars=featuredNews.utm.jld}} --}}
+
+        {{!-- {{>tip-month widgetConfig=featuredNewsv2.jld}} --}}
+
+        {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
+
+        {{!-- {{>webmaster widgetUtmVars=webmaster.utm.jld}} --}}
+
+        {{!-- {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}} --}}
+
+        {{!-- {{>inside-justia}} --}}
+
+        {{!-- {{>answers-leaderboard}} --}}
+
+        {{!-- {{>ask-a-lawyer}} --}}
+
+        {{!-- {{>jobs-subscribe}} --}}
+
+        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
+
+        {{!-- {{>events-we-attended}} --}}
+
+        {{!-- {{>tip-month widgetConfig=tipMonth.complimentary}} --}}
+
+        {{!-- {{>more-justia widgetUtmVars=moreJustia.utm.jld}} --}}
+
+        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
+
+        {{!-- {{>jurispro}} --}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}
