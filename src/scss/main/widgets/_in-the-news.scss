@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------------------------------------
+// C L I E N T S   I N   T H E   N E W S   W I D G E T
+// ----------------------------------------------------------------------------------------------------------
+
+.w-in-the-news {
+
+    .title-wrapper,
+    .widget-wrapper {
+        background-color: plt('justia-blue');
+        color: plt('white');
+    }
+
+    .extra-info {
+
+        padding: 0 30px 50px;
+        display: block;
+        text-align: center;
+
+        .widget-wrapper {
+            padding: 25px 15px 0px;
+
+            &.-bottom {
+                padding: 0 15px 30px;
+            }
+        }
+    }
+
+    .-image-description {
+        color: plt('white');
+    }
+
+    .readmore{
+        display: inline-block;
+    }
+
+    .wrapper {
+        padding: 0 30px;
+
+        .widget-wrapper {
+            border-bottom: 0;
+            border-radius: 0;
+        }
+    }
+}
