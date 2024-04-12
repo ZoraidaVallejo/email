@@ -1,8 +1,8 @@
 {
+  "widget": {
+    "header": "Tip of the Month"
+  },
   "clients": {
-    "widget": {
-      "header": "Tip of the Month"
-    },
     "link": "",
     "title": "",
     "description": [
@@ -16,29 +16,25 @@
     }
   },
   "jld": {
-    "widget": {
-      "header": "Tip of the Month"
-    },
-    "link": "",
-    "title": "Subscribe to the Justia YouTube Channel",
-    "description": [
-      "Don't miss out! If you haven't checked out our YouTube channel lately, it's loaded with webinar clips covering key topics such as Search Engine Optimization, Legal Marketing, Business Development, Tech, and AI. Stay updated and expand your legal knowledge with expert discussions and analyses. Subscribe and start learning!"
+    "link": "##",
+    "columns": [
+      {
+        "image": {
+          "src": "insights-tip-of-the-month.png",
+          "alt": "Tip of the Month"
+        },
+        "title": "Lorem ipsum dolor sit amet, consectetur",
+        "link": "##",
+        "description": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et rutrum nunc. Vestibulum vel nulla tortor. In ultrices sit amet justo eu sagittis."
+        ]
+      }
     ],
     "button": {
       "style": "red",
-      "link": "https://www.youtube.com/@Justia",
-      "text": "Subscribe",
+      "link": "#",
+      "text": "Go Pro Now",
       "width": 150
     }
-  },
-  "complimentary": {
-    "widget": {
-      "header": "Complimentary Virtual CLE Conference"
-    },
-    "link": "",
-    "title": "",
-    "description": [
-      ""
-    ]
   }
 }

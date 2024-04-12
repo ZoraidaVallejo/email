@@ -1,0 +1,87 @@
+{{! ================================================================================================================= }}
+{{! J U S T I A   D E S K                                                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{!
+    * @param {Object[]} justiaNews.news
+    * @param {string} justiaNews.news[].title
+    * @param {string} justiaNews.news[].link
+    * @param {string} justiaNews.news[].description
+    * @param {boolean} [isLast]
+    * @param {Object} justiaNews.utm
+    * @param {Object} justiaNews.utm.clients
+    * @param {string} justiaNews.utm.clients.medium
+    * @param {string} justiaNews.utm.clients.campaign
+    * @param {string} justiaNews.utm.clients.source
+    * @param {Object} justiaNews.utm.clients.content
+    * @param {string} justiaNews.utm.clients.content.title
+    * @param {string} justiaNews.utm.clients.content.image
+    * @param {string} justiaNews.utm.clients.content.button
+    * @param {Object} justiaNews.utm.jld
+    * @param {string} justiaNews.utm.jld.medium
+    * @param {string} justiaNews.utm.jld.campaign
+    * @param {string} justiaNews.utm.jld.source
+    * @param {Object} justiaNews.utm.jld.content
+    * @param {string} justiaNews.utm.jld.content.title
+    * @param {string} justiaNews.utm.jld.content.image
+    * @param {string} justiaNews.utm.jld.content.button
+}}
+
+{{assign "justiaNewsTitleLink" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.title))}}
+{{assign "onwardSub" (concat (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{assign "columnStructure" (chunks justiaNews.news 2 true)}}
+
+{{#and justiaNews.button (compare justiaNews.button.link "!==" "")}}
+{{assign "justiaNewsButtonLink" (concat justiaNews.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{assign "widgetWithButton" true}}
+{{else}}
+{{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-justia-desk set-max-width"}}
+
+    {{#if justiaNews.widget.iconSrc}}
+      {{>widget-header
+        header=justiaNews.widget.header
+        iconSrc=justiaNews.widget.iconSrc
+      }}
+    {{else}}
+        {{>widget-header
+          header=justiaNews.widget.header
+          icon=justiaNews.widget.icon
+        }}
+    {{/if}}
+
+<tr class="widget-columns widget-description -articles ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+    <div class="widget-wrapper">
+
+        {{#each justiaNews.news}}
+          <div class="content">
+            <p class="title">
+              {{#and this.link (compare this.link "!==" "")}}<a
+                href='{{{this.link}}}{{#if this.index}}{{@root.justiaNewsTitleLink}}{{this.index}}{{/if}}'
+                target="_blank">{{/and}}
+                <b>{{{this.title}}}</b>
+                {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+            </p>
+
+            {{#if this.description}}
+              <p class="description">
+                {{{this.description}}}
+              </p>
+            {{/if}}
+
+          </div>
+        {{/each}}
+
+    </div>
+  </td>
+</tr>
+{{/table}}

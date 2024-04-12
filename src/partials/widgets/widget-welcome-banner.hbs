@@ -3,20 +3,18 @@
 {{! ================================================================================================================= }}
 
 {{!
- * @param {string} imgSrc - Image path (relative or absolute).
- * @param {string} imgAlt - Image alternative text.
- * @param {string} [link] - Optional link for the banner.
- * @param {string} [widgetClass] - Optional extra CSS classes.
+ * @param {string} description - descreptive text
 }}
 
 {{! ================================================================================================================= }}
-
-<tr>
-  <td class="{{classList "widget-banner" widgetClass}}">
-    {{#if link}}<a href="{{{link}}}" target="_blank">{{/if}}
-      <a href="#">
-        {{>img src=imgSrc alt=imgAlt}}
-      </a>
-    {{#if link}}</a>{{/if}}
-  </td>
-</tr>
+{{#table class="widget w-welcome-banner set-max-width"}}
+  <tr>
+    <td class="widget-description" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#if widgetConfig.description}}
+          <p class="-description"><em>{{{widgetConfig.description}}}</em></p>
+        {{/if}}
+      </div>
+    </td>
+  </tr>
+{{/table}}

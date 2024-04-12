@@ -3,6 +3,8 @@
 // ----------------------------------------------------------------------------------------------------------
 
 $use-breakpoint: false;
+$justia-blue: #06357a;
+$light-blue: #0A56C6;
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -15,6 +17,7 @@ $use-breakpoint: false;
     'mixins',
     'main/main-header',
     'main/widgets',
+    'main/custom',
     'main/widgets/welcome',
     'main/widgets/social-icons-welcome',
     'main/widgets/featured-site-month/featured-site',

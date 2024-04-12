@@ -34,6 +34,13 @@
                 {{#if readMore}}</a>{{/if}}
               </div>
               <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                {{#if this.title}}
+                <p class="title">
+                  {{#and this.link (compare this.link "!==" "")}}<a href='{{{this.link}}}' target="_blank">{{/and}}
+                  <b>{{{this.title}}}</b>
+                  {{#and this.link (compare this.link "!==" "")}}</a>{{/and}}
+                </p>
+                {{/if}}
                 {{#each this.description}}
                   <p>{{{this}}}{{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
                     <b><a href="{{{../readMore}}}" target="_blank" class="readmore">Watch Now ›</a></b>

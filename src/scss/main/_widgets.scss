@@ -15,7 +15,7 @@ $title-gap: 30px;
     // }
 
     a {
-        color: plt('justia-blue');
+        color: $light-blue;
     }
 
     .widget-wrapper {
@@ -382,6 +382,17 @@ $title-gap: 30px;
         img {
             width: 45px;
         }
+    }
+}
+
+.w-welcome-banner {
+    .widget-description {
+        padding: 5px $padding 15px;
+    }
+    .-description {
+        text-align: center;
+        @include mail-font(14px, 1.1, tp('weight', 'normal'));
+        color: plt('justia-blue');
     }
 }
 

@@ -14,13 +14,17 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
 
+        {{>widget-welcome-banner widgetConfig=widget-welcome-banner.jld}}
+
         {{>welcome widgetConfig=welcome.jld}}
 
-        {{>trending-news}}
+        {{>justia-news widgetUtmVars=justiaNews.utm.jld}}
 
         {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
-        {{>tip-month widgetConfig=tipMonth.jld}}
+        {{>justia-tip-month widgetConfig=tipMonth.jld}}
+
+        {{>in-the-news widgetClass="" widgetConfig=insideJustia}}
 
         {{>featured-lawyer}}
 
@@ -38,37 +42,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>law-events widgetConfig=lawEvents}}
 
-        {{!-- {{>explore-webinars widgetConfig=exploreWebinars}} --}}
-
-        {{!-- {{>featured-news widgetUtmVars=featuredNews.utm.jld}} --}}
-
-        {{!-- {{>tip-month widgetConfig=featuredNewsv2.jld}} --}}
-
-        {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
-
-        {{!-- {{>webmaster widgetUtmVars=webmaster.utm.jld}} --}}
-
-        {{!-- {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}} --}}
-
-        {{!-- {{>inside-justia}} --}}
-
-        {{!-- {{>answers-leaderboard}} --}}
-
-        {{!-- {{>ask-a-lawyer}} --}}
-
-        {{!-- {{>jobs-subscribe}} --}}
-
-        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
-
-        {{!-- {{>events-we-attended}} --}}
-
-        {{!-- {{>tip-month widgetConfig=tipMonth.complimentary}} --}}
-
-        {{!-- {{>more-justia widgetUtmVars=moreJustia.utm.jld}} --}}
-
-        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
-
-        {{!-- {{>jurispro}} --}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

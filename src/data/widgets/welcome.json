@@ -1,33 +1,9 @@
 {
-  "jld": {
-    "link": "https://connect.justia.com/webinars/",
-    "contentOrder": [
-      {
-        "type": "custom-banner",
-        "config": {
-          "responsive": "mobile-padding-horizontal-sides",
-          "description": [
-            "<span responsive=\"mobile-fz-22\" class=\"title\"> Justia Webinars<br>Weekly Digest<span>",
-            "<span responsive=\"mobile-fz-18\" class=\"date\">Week of February 18, 2024<span>"
-          ],
-          "date": "<%= dateFormat.dash %>"
-        }
-      }
-    ]
-  },
   "clients": {
-    "link": "https://connect.justia.com/webinars/",
-    "contentOrder": [
-      {
-        "type": "custom-banner",
-        "config": {
-          "responsive": "mobile-padding-horizontal-sides",
-          "description": [
-            "<span responsive=\"mobile-fz-22\" class=\"title\"> Justia Webinars<br>Weekly Digest<span>",
-            "<span responsive=\"mobile-fz-18\" class=\"date\">Week of February 18, 2024<span>"
-          ]
-        }
-      }
-    ]
+    "disclaimer": "Stay informed with the newsletter designed to bring insights and updates from our team directly to the Justia Connect community!"
+  },
+  "jld": {
+    "link": "##",
+    "disclaimer": "Stay informed with the newsletter designed to bring insights and updates from our team directly to the <b>Justia Connect</b> community!"
   }
 }

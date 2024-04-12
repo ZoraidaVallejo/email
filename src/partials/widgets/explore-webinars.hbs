@@ -20,48 +20,29 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-law-events w-explore-webinars set-max-width"}}
-  {{>widget-header
-    header=exploreWebinars.widget.header
-    icon=exploreWebinars.widget.icon
-  }}
-
-  <tr class="">
+  <tr>
     <td class="wrapper .widget-description -last" responsive="mobile-padding-horizontal-sides">
         <div class="widget-wrapper">
-          {{#table}}
-            <tr>
-              <td>
-                {{#forEach exploreWebinars.events}}
-                <div class="content" responsive="mobile-padding-horizontal-sides">
-                    {{#table}}
-                      <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
-                        <td class="date">
-                          {{>widget-date-square
-                            eventMonth=this.month
-                            eventDay=this.day
-                          }}
-                        </td>
-                        <td class="info">
-                          {{#if this.link}}
-                            <p class="title">
-                              <b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b>
-                            </p>
-                          {{else}}
-                            <p class="title">
-                              <b>{{{this.title}}}</b>
-                            </p>
-                          {{/if}}
-
-                          {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
-                          {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
-                        </td>
-                      </tr>
-                    {{/table}}
-                  </div>
-                {{/forEach}}
-              </td>
-            </tr>
-          {{/table}}
+          {{#forEach exploreWebinars.events}}
+          <div class="content" responsive="mobile-padding-horizontal-sides">
+              {{#table}}
+                <tr class="event event-0{{index}}{{#if isFirst}} first-row{{/if}}">
+                  <td class="date">
+                    {{>widget-date-square
+                      eventMonth=this.month
+                      eventDay=this.day
+                    }}
+                  </td>
+                  <td class="info">
+                    {{#if this.link}}<p class="title"><b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b></p>
+                    {{else}}<p class="title"><b>{{{this.title}}}</b></p>{{/if}}
+                    {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
+                    {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
+                  </td>
+                </tr>
+              {{/table}}
+            </div>
+          {{/forEach}}
         </div>
     </td>
   </tr>
