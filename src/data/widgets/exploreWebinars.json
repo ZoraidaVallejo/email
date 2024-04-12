@@ -1,20 +1,26 @@
 {
+  "widget": {
+    "icon": "",
+    "header": "More Free Upcoming Webinars"
+  },
   "events": [
     {
-      "day": "TBD",
-      "month": "",
+      "day": "10",
+      "month": "Apr",
+      "cle": false,
       "title": "Strategies to Improve Diversity and Interrupt Implicit Bias in the Legal Profession",
-      "link": "",
-      "time": "2pm ET",
-      "typeLocation": "Webinar"
+      "link": "#",
+      "presentation": "Sara Frug, Craig Newton",
+      "moreLink": "Learn More >"
     },
     {
       "day": "31",
-      "month": "Jan",
+      "month": "Apr",
+      "cle": true,
       "title": "Charisma In-Person and On LinkedIn: Business Development for Attorneys",
-      "link": "",
-      "time": "2pm ET",
-      "typeLocation": "Webinar | CLE"
+      "link": "#",
+      "presentation": "Sara Frug",
+      "moreLink": "Learn More >"
     }
   ]
 }

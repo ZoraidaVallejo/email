@@ -16,6 +16,7 @@ $title-gap: 30px;
 
     a {
         color: $light-blue;
+        font-weight: get('font.weight.bold');
     }
 
     .widget-wrapper {
@@ -393,6 +394,32 @@ $title-gap: 30px;
         text-align: center;
         @include mail-font(14px, 1.1, tp('weight', 'normal'));
         color: plt('justia-blue');
+    }
+}
+
+.w-featured-webinar {
+    .widget-description  {
+        padding-bottom: grid-unit(1);
+    }
+
+    .-description {
+        padding-bottom: 10px;
+    }
+    .-image-text {
+        margin-top: 10px;
+        .content {
+            .content-side {
+                &.-image {
+                    padding-top: 3px;
+                    width: 20px;
+                    margin: 0 auto;
+                }
+                &.-description {
+                    width: 510px;
+                    padding: 0;
+                }
+            }
+        }
     }
 }
 

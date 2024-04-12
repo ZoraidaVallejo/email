@@ -15,4 +15,11 @@
           <p class="event-day">{{eventDay}}</p>
       </td>
     </tr>
+    {{#if cle}}
+    <tr>
+        <td class="{{classList "widget-event-category" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+          <div class="category"><span>CLE</span></div>
+        </td>
+    </tr>
+    {{/if}}
 {{/table}}

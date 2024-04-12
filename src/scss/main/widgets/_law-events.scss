@@ -9,7 +9,7 @@
     }
 
     .content {
-        background-color: #f2f4f8;
+        background-color: #E7EEF9;
         padding: 20px 25px;
         margin: 0 0 20px;
         border-radius: 10px;
@@ -30,12 +30,8 @@
             vertical-align: middle;
         }
 
-        // &:not(.first-row) > td {
-        //     padding: 30px 0 0;
-        // }
-
         .event-month {
-            @include mail-font(18px, 1, tp('weight', 'bold'));
+            @include mail-font(14px, 1, tp('weight', 'bold'));
             margin: 0;
         }
 
@@ -45,17 +41,17 @@
         }
 
         .title {
-            @include mail-font(18px, 1.3);
+            @include mail-font(18px, 1.4);
             margin: 0 0 5px;
-            color: plt('justia-blue');
+            color: $light-blue;
 
             a {
-                color: plt('justia-blue');
+                color: $light-blue;
             }
         }
 
         .description {
-            @include mail-font(16px, 1.4);
+            @include mail-font(16px, 1);
             margin: 0;
 
             b {
@@ -65,17 +61,18 @@
 
         .read-more {
             margin: 7px 0 0;
+            @include mail-font(16px, 1);
         }
 
-        a {
-            color: plt('black');
+        .-red {
+            color: plt('red')
         }
     }
 
     .widget-date-square {
         display: block;
-        width: 70px;
-        padding: 11px 0;
+        width: 60px;
+        padding: 10px 0;
         border: 1px solid plt('justia-blue');
         border-radius: 5px;
         margin: 0;
@@ -87,5 +84,22 @@
     .disc {
         margin: 35px 0 0 0;
         @include mail-font(14px);
+    }
+
+    .widget-event-category {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .category {
+        text-transform: uppercase;
+        color: plt('white');
+        font-weight: get('font.weight.bold');
+        padding: 5px 5px;
+        border-radius: 15px;
+        background-color: plt('justia-blue');
+        line-height: 1.1;
+        display: block;
+        text-align: center;
     }
 }

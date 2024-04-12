@@ -26,14 +26,33 @@
       }
     }
   },
-  "banner": "insights-webinar-01.jpg",
+  "image": "insights-webinar-01.jpg",
   "title": "",
-  "description": [
-    "In this webinar, we will be discussing the complexities of handling a long COVID disability insurance claim and how best to present these claims to insurance companies. Insurance companies do not appreciate the extent to which long COVID symptoms can be disabling. Using our winning strategy with these types of claims gives claimants the best chance of being paid short-term and long-term disability insurance benefits, and if necessary, preparing to litigate denials."
-  ],
-  "button": {
-    "style": "justia-blue-ghost",
-    "link": "https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims",
-    "text": "Register Now"
-  }
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "This presentation will discuss ways we can better manage our time in order to work more efficiently and productively, make more money, and, most importantly, preserve our sanity. As attorney… <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/effective-time-management-for-attorneys\">Register Now ></a>"
+      ]
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "calendar-icon.png",
+        "description": [
+          "February 28, 3:00 PM ET/12:00 PM PT"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "config": {
+        "style": "-red",
+        "text": "Register Now",
+        "width": 160,
+        "height": 40,
+        "fontSize": 16
+      }
+    }
+  ]
 }

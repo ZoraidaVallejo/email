@@ -22,6 +22,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
+        {{>explore-webinars widgetConfig=exploreWebinars}}
+
         {{>justia-tip-month widgetConfig=tipMonth.jld}}
 
         {{>in-the-news widgetClass="" widgetConfig=insideJustia}}
@@ -41,7 +43,6 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>hug-pug}}
 
         {{>law-events widgetConfig=lawEvents}}
-
 
       {{>ui-layout-hack tableEnd=true}}
     </td>

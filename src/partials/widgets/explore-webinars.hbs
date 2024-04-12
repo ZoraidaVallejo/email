@@ -20,6 +20,10 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-law-events w-explore-webinars set-max-width"}}
+  {{>widget-header
+    header=exploreWebinars.widget.header
+    icon=exploreWebinars.widget.icon
+  }}
   <tr>
     <td class="wrapper .widget-description -last" responsive="mobile-padding-horizontal-sides">
         <div class="widget-wrapper">
@@ -34,15 +38,27 @@
                     }}
                   </td>
                   <td class="info">
-                    {{#if this.link}}<p class="title"><b><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></b></p>
-                    {{else}}<p class="title"><b>{{{this.title}}}</b></p>{{/if}}
-                    {{#if this.time}}<p class="description">{{{this.time}}}{{#and this.typeLocation}} | {{{this.typeLocation}}}{{/and}}</p>
-                    {{else}}<p class="description">{{{this.typeLocation}}}</p>{{/if}}
+                    {{#if this.link}}
+                    <p class="title"><a href="{{{this.link}}}" target="_blank">{{{this.title}}}</a></p>
+                    {{else}}
+                    <p class="title"><b>{{{this.title}}}</b></p>
+                    {{/if}}
+                    {{#if this.presentation}}
+                    <p class="description">{{{this.presentation}}}</p>
+                    {{/if}}
+                    {{#if this.link}}
+                    <p class="read-more"><a class="-red" href="{{{this.link}}}" target="_blank">{{{this.moreLink}}}</a></p>
+                    {{/if}}
                   </td>
                 </tr>
               {{/table}}
             </div>
           {{/forEach}}
+        </div>
+        <div class="widget-wrapper -calendar-link">
+          <p>
+            <a href="#" target="_blank">View Full Calendar</a>
+          </p>
         </div>
     </td>
   </tr>

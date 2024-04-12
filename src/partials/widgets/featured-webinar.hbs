@@ -17,8 +17,8 @@
   {{assign "featuredWebinarImageLink" (concat featuredWebinar.link (utmVariables widgetUtmVars content=widgetUtmVars.content.image))}}
 {{/and}}
 
-{{#and featuredWebinar.button (compare featuredWebinar.button.link "!==" "")}}
-  {{assign "featuredWebinarButtonLink" (concat featuredWebinar.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
+{{#and featuredWebinar.contentOrder.button (compare featuredWebinar.contentOrder.button.link "!==" "")}}
+  {{assign "featuredWebinarButtonLink" (concat featuredWebinar.contentOrder.button.link (utmVariables widgetUtmVars content=widgetUtmVars.content.button))}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
@@ -41,7 +41,7 @@
       <div class="widget-wrapper">
 
         {{>widget-banner
-          imgSrc=featuredWebinar.banner
+          imgSrc=featuredWebinar.image
           imgAlt=featuredWebinar.title
           link=@root.featuredWebinarImageLink
         }}
@@ -52,29 +52,62 @@
           </a>
         </h3>
 
-        {{#each featuredWebinar.description}}
-          <p>{{{this}}}</p>
-        {{/each}}
+        {{#table}}
+          {{#if featuredWebinar.contentOrder}}
+            {{#forEach featuredWebinar.contentOrder}}
 
-        {{!
-          // TODO: Move to `widget-button` component.
-          }}
-          {{#if @root.widgetWithButton}}
+              {{#compare this.type "===" "description"}}
+                <tr>
+                  <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    {{#each this.config}}
+                      <p>{{{this}}}</p>
+                    {{/each}}
+                  </td>
+                </tr>
+              {{/compare}}
 
-              <div class="widget-button">
-                {{#uiButton presetStyle=featuredWebinar.button.style href=@root.featuredWebinarButtonLink}}
-                  {{featuredWebinar.button.text}}
-                {{/uiButton}}
-              </div>
+              {{#compare this.type "===" "image-description"}}
+                <tr class="widget-columns -image-text ui-columns-grid">
+                  <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+                    {{#forIn this.config}}
+                      {{#compare @key "===" "image"}}
+                        <div class="content-side -image" responsive="mobile-hide">
+                          {{#if featuredWebinar.link}}
+                          <a href="{{{../../featuredWebinar.link}}}{{{ utmVariables ../../featuredWebinar.utm}}}" target="_blank">{{/if}}
+                            {{>img
+                              src=../config.image
+                              alt=(default ../../featuredWebinar.title ../../featuredWebinar.imageAlt)
+                            }}
+                          {{#if featuredWebinar.link}}</a>{{/if}}
+                        </div>
+                      {{/compare}}
 
+                      {{#compare @key "===" "description"}}
+                        <div class="content-side -description" responsive="collapse-one mobile-no-padding mobile-padding-horizontal-sides" >
+                          {{#each ../config.description}}
+                            <p>{{{this}}}</p>
+                          {{/each}}
+                        </div>
+                      {{/compare}}
+                    {{/forIn}}
+
+                  </td>
+                </tr>
+              {{/compare}}
+
+              {{#compare this.type "===" "button"}}
+                {{#if @root.widgetWithButton}}
+                  <div class="widget-button">
+                    {{#uiButton presetStyle=featuredWebinar.button.contentOrder.style href=@root.featuredWebinarButtonLink}}
+                      {{featuredWebinar.button.contentOrder.text}}
+                    {{/uiButton}}
+                  </div>
+                {{/if}}
+              {{/compare}}
+            {{/forEach}}
           {{/if}}
+        {{/table}}
       </div>
-
     </td>
   </tr>
-
-
-
-  {{>explore-webinars widgetConfig=exploreWebinars}}
-
 {{/table}}
