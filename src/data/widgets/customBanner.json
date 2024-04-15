@@ -1,0 +1,21 @@
+{
+  "banner2": {
+    "customBanner": false,
+    "image": "jld-success-banner-01.png",
+    "imageAlt": "Spring to Success and Watch Your Practice Blossom!",
+    "link": "#"
+  },
+  "bannerExample": {
+    "customBanner": true,
+    "context": "example",
+    "largeImageAlt": "[Image 1]",
+    "smallImageAlt1": "[Image 2]",
+    "smallImageAlt2": "[Image 3]",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "[TEXT]",
+      "[TEXT]"
+    ]
+  }
+}
