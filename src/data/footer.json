@@ -1,0 +1,37 @@
+{
+  "layout": "social-below",
+  "style": "basic",
+  "logo": {
+    "name": "justia",
+    "link": {
+      "url": "",
+      "utm": {
+        "medium": "",
+        "campaign": "",
+        "source": "",
+        "content": ""
+      }
+    },
+    "path": false,
+    "alt": false
+  },
+  "navigation": [
+    {
+      "text": "Contact Us",
+      "link": "https://www.justia.com/marketing/"
+    },
+    {
+      "text": "Privacy Policy",
+      "link": "https://www.justia.com/marketing/privacy-policy/"
+    },
+    {
+      "text": "Unsubscribe",
+      "link": "%UNSUBSCRIBELINK%"
+    }
+  ],
+  "disclaimer": "You are receiving this email because you subscribed to the Justia Legal Jobs newsletter.",
+  "address": {
+    "justiaLink": "https://www.justia.com/",
+    "direction": "%SENDER-INFO-SINGLELINE%"
+  }
+}
