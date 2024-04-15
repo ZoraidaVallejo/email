@@ -48,9 +48,12 @@
       }}
 
       <h3 class="content-title">
+        {{#if announcements.link}}
         <a href="{{{@root.announcementsTitleLink}}}" target="_blank">
           {{{announcements.title}}}
         </a>
+        {{/if}}
+          {{{announcements.title}}}
       </h3>
 
       {{#each announcements.description}}
