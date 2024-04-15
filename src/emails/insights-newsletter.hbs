@@ -44,6 +44,30 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>law-events widgetConfig=lawEvents}}
 
+        {{>trending-news}}
+
+        {{>featured-news widgetUtmVars=featuredNews.utm.jld}}
+
+        {{>tip-month widgetConfig=featuredNewsv2.jld}}
+
+        {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}}
+
+        {{>webmaster widgetUtmVars=webmaster.utm.jld}}
+
+        {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}}
+
+        {{>inside-justia}}
+
+        {{>answers-leaderboard}}
+
+        {{>ask-a-lawyer}}
+
+        {{>jobs-subscribe}}
+
+        {{>upcoming-events widgetConfig=upcomingEvents.jld}}
+
+        {{>events-we-attended}}
+
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>

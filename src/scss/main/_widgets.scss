@@ -147,6 +147,7 @@ $title-gap: 30px;
     // padding: 0;
     // padding: 20px 0 0px;
     margin: 20px 0 0px;
+    text-align: center;
 }
 
 // ----------------------------------------------------------------------------------------------------------
@@ -198,13 +199,6 @@ $title-gap: 30px;
 
             &.-last .content {
                 padding: 0 0 $widget-gap;
-            }
-        }
-
-        .-description {
-
-            a {
-                color: plt('black');
             }
         }
     }
@@ -305,7 +299,6 @@ $title-gap: 30px;
     }
 }
 
-.w-tip-month,
 .w-did-you-know,
 .w-jobs-newsletter {
     a b {
