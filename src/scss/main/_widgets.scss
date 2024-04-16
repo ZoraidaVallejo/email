@@ -167,17 +167,16 @@ $title-gap: 30px;
             padding: 0;
 
             .content-side {
-                width: 260px;
+                width: 380px;
 
                 .block-image {
-                    width: 190px;
+                    width: 140px;
                     margin: 0 auto;
-
                 }
 
                 &:first-child {
                     float: left;
-                    width: 190px;
+                    width: 140px;
                 }
 
                 &:last-child {

@@ -23,12 +23,12 @@
  * @param {String[]} widgetConfig.description
 }}
 
-{{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+{{!-- {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
   {{assign "widgetWithButton" true}}
 {{else}}
   {{assign "widgetWithButton" false}}
 {{/and}}
-
+ --}}
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-lawyer-qa set-max-width"}}
@@ -38,57 +38,37 @@
     link=widgetConfig.widget.link
   }}
 
-  <tr>
-    <td class="widget-description" responsive="mobile-padding-horizontal-sides">
+  <tr class="widget-columns -image-text -atty-wrapper ui-columns-grid">
+    <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
-
-        {{#table class="question-section" responsive="mobile-reset-width"}}
-          <tr class="question">
-            <td class="-icon" responsive="mobile-padding-horizontal-sides">
-              {{>img src="q-icon.png" alt="icon" class="icon"}}
-            </td>
-            <td>
-              <p class="question-text">
-                {{{widgetConfig.question}}}
-              </p>
-            </td>
-          </tr>
-        {{/table}}
-
-        {{#table class="answer-section" responsive="mobile-reset-width"}}
-          <tr class="answer">
-            <td class="-photo" responsive="mobile-padding-horizontal-sides">
-              {{#if widgetConfig.photoLink}}<a href="{{{widgetConfig.photoLink}}}" target="_blank">{{/if}}
-                {{>img src="insights-lawyer-qa-01.png" alt=widgetConfig.name class="photo"}}
-              {{#if widgetConfig.photoLink}}</a>{{/if}}
-            </td>
-            <td>
-              <p class="answer-text">
-                {{{widgetConfig.answer}}}
-              </p>
-              <p class="name">
-                {{#if widgetConfig.nameLink}}<a href="{{{widgetConfig.nameLink}}}" target="_blank">{{/if}}
-                  {{{widgetConfig.name}}}
-                {{#if widgetConfig.nameLink}}</a>{{>img src="pro-label.png" alt="Pro" class="pro-label"}}{{/if}}
-              </p>
-              <p class="location">
-                {{#uppercase}}{{widgetConfig.location}}{{/uppercase}}
-              </p>
-              {{#if @root.widgetWithButton}}
-              <div class="widget-button">
-                {{#uiButton presetStyle=widgetConfig.button.style href=widgetConfig.button.link width=widgetConfig.button.width}}
-                  {{widgetConfig.button.text}}
-                {{/uiButton}}
+        {{#table}}
+          <tr class="content-wrapper">
+            <td class="content -image-description" responsive="mobile-padding-horizontal-sides">
+              <div class="content-side wrapper -photo" responsive="collapse-one mobile-padding-bottom">
+                {{#if widgetConfig.photoLink}}<a href="{{{widgetConfig.photoLink}}}" target="_blank">{{/if}}
+                 {{>img src="insights-lawyer-qa-01.png" alt=widgetConfig.name class="photo"}}
+                {{#if widgetConfig.photoLink}}</a>{{/if}}
               </div>
-            {{/if}}
+              <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                <p class="question-text">
+                  Q: {{{widgetConfig.question}}}
+                </p>
+                <p class="answer-text">
+                  <b>Answer:</b> <em>{{{widgetConfig.answer}}}</em> {{#if widgetConfig.learnMore}}<a href="{{{widgetConfig.learnMore}}}" target="_blank">{{/if}} Learn More › {{#if widgetConfig.learnMore}}</a>{{/if}}
+                </p>
+              </div>
             </td>
           </tr>
         {{/table}}
-
-
       </div>
     </td>
   </tr>
-
-
+  <tr>
+    <td class="lawyer-info widget-description" responsive="mobile-padding-horizontal-sides">
+      <div responsive="mobile-padding-horizontal-sides">
+        <p class="name"><b>{{{widgetConfig.name}}}</b></p>
+        <span class="location">{{{widgetConfig.location}}}</span>
+      </div>
+    </td>
+  </tr>
 {{/table}}
