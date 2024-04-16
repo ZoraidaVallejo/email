@@ -43,7 +43,7 @@
                 {{/if}}
                 {{#each this.description}}
                   <p>{{{this}}}{{#and @last (and ../readMore (compare ../readMore "!==" ""))}}
-                    <b><a href="{{{../readMore}}}" target="_blank" class="readmore">Watch Now ›</a></b>
+                    <b><a href="{{{../readMore}}}" target="_blank" class="readmore">{{{../linkText}}}</a></b>
                   {{/and}}</p>
                 {{/each}}
               </div>

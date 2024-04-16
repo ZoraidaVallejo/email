@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "header": "Justia Deals"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "insights-deals-01.jpg",
+        "alt": "Legal Deals"
+      },
+      "title": "Legal Deals",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et rutrum nunc. Vestibulum vel nulla tortor."
+      ],
+      "linkText": "Get Deal ›",
+      "readMore": "#"
+    },
+    {
+      "image": {
+        "src": "insights-deals-02.jpg",
+        "alt": "Lifestyle Savings"
+      },
+      "title": "Lifestyle Savings",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et rutrum nunc. Vestibulum vel nulla tortor."
+      ],
+      "linkText": "Start Saving ›",
+      "readMore": "#"
+    }
+  ]
+}

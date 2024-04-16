@@ -32,7 +32,15 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-        {{!-- {{>in-the-news widgetClass="" widgetConfig=insideJustia}} --}}
+        {{>featured-justia-deals widgetClass="" widgetConfig=featuredJustiaDeals}}
+
+        {{>justia-deskv2 widgetUtmVars=justiaDeskv2.utm.jld}}
+
+        {{>meet-our-team}}
+
+        {{>hug-pug}}
+
+        {{>law-events widgetConfig=lawEvents}}
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
