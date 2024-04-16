@@ -4,11 +4,54 @@
 
 .w-featured-lawyer {
 
-    .lawyer-info {
-        padding: 0 $padding 50px;
+    .wrapper {
+        padding-bottom: 10px;
+    }
 
-        a {
-            color: plt('black');
+    .content .content-side {
+        &.-description {
+            width: 380px;
+            padding-top: 0 !important;
+            line-height: 1.6;
+
+
+            .title {
+                padding-bottom: 10px;
+                margin: 0;
+                @include mail-font(18px);
+            }
+        }
+
+        &.-image-description {
+            .-photo {
+                width: 140px;
+                padding-top: 3px;
+            }
+
+            img {
+                margin-top: 5px;
+            }
+        }
+
+        &:first-child {
+            width: 140px !important;
+        }
+    }
+
+    .lawyer-info {
+        padding: 0 $padding 70px;
+
+        .name {
+            margin: 0 0 5px;
+            @include mail-font(16px, 1);
+        }
+
+        .location {
+            @include mail-font(14px, 1);
+        }
+
+        .widget-wrapper {
+            padding-bottom: 20px;
         }
 
         .images-group {
@@ -16,9 +59,9 @@
             // border-bottom: 1px solid plt('mail', 'clear-gray');
             display: block;
             background-color: #f2f4f8;
-            padding: 0px;
-            border-radius: 0 10px 10px 0;
-            margin: 0 0 20px;
+            padding: 15px 30px;
+            border-radius: 10px;
+            margin: 0;
 
             img.pro-label {
                 max-width: 36px;
@@ -28,55 +71,23 @@
             }
 
             .wrapper {
-                width: 32%;
                 padding: 0;
                 text-align: center;
 
-                &.-photo {
-                    width: 23%;
+                &.-info {
                     padding: 0;
                     text-align: left;
                 }
 
-                &.-info {
-                    padding: 0 25px 0;
-                    text-align: left;
-                }
-
                 &.-badge {
-                    width: 18%;
                     padding: 0 25px 0 0;
-                    text-align: right;
+                    text-align: left;
 
                     img {
-                        width: 85px;
+                        width: 50px;
                     }
                 }
             }
         }
-
-        .photo {
-            width: 150px;
-        }
-
-        .name {
-            @include mail-font(18px, 1.1);
-            margin: 0 0 5px
-        }
-
-        .location {
-            @include mail-font(14px, 1);
-        }
     }
-
-    // .widget-description {
-
-    //     p {
-    //         margin: 0 0 24px;
-
-    //         &:last-child {
-    //             margin: 0;
-    //         }
-    //     }
-    // }
 }
