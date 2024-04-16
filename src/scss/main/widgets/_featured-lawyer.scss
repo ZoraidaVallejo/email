@@ -2,40 +2,10 @@
 // F E A T U R E D   L A W Y E R
 // ----------------------------------------------------------------------------------------------------------
 
-.w-featured-lawyer, .-atty-wrapper {
+.w-featured-lawyer {
 
     .wrapper {
         padding-bottom: 10px;
-    }
-
-    .content .content-side {
-        &.-description {
-            width: 380px;
-            padding-top: 0 !important;
-            line-height: 1.6;
-
-
-            .title {
-                padding-bottom: 10px;
-                margin: 0;
-                @include mail-font(18px);
-            }
-        }
-
-        &.-image-description {
-            .-photo {
-                width: 140px;
-                padding-top: 3px;
-            }
-
-            img {
-                margin-top: 5px;
-            }
-        }
-
-        &:first-child {
-            width: 140px !important;
-        }
     }
 
     .lawyer-info {

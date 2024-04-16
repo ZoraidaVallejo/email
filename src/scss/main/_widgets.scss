@@ -163,11 +163,25 @@ $title-gap: 30px;
     }
     &.-image-text {
 
+        .title {
+            @include mail-font(18px);
+            padding-top: 0;
+            color: plt('justia-blue');
+        }
+
         .content {
             padding: 0;
 
             .content-side {
                 width: 380px;
+
+                &.-description {
+                    padding-top: 0;
+
+                    p {
+                        @include mail-font(18px, 1.4);
+                    }
+                }
 
                 .block-image {
                     width: 140px;
@@ -264,6 +278,10 @@ $title-gap: 30px;
                 color: plt('black');
             }
         }
+    }
+
+    .lawyer-info {
+
     }
 }
 

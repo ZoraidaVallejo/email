@@ -38,15 +38,15 @@
     link=featuredLawyer.widget.link
   }}
 
-  <tr class="widget-columns -image-text -atty-wrapper ui-columns-grid">
+  <tr class="widget-columns -image-text  ui-columns-grid">
     <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
       <div class="widget-wrapper">
         {{#table}}
           <tr class="content-wrapper -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
             <td class="content -image-description" responsive="mobile-padding-horizontal-sides">
-              <div class="content-side wrapper -photo" responsive="collapse-one mobile-padding-bottom">
-                {{#if featuredLawyer.featured.photoLink}}<a href="{{{featuredLawyer.featured.photoLink}}}" target="_blank">{{/if}}
-                {{>img src="insights-featured-lawyer-01.jpg" alt=featuredLawyer.featured.name class="photo"}}
+              <div class="content-side -image" responsive="collapse-one mobile-padding-bottom">
+                {{#if featuredLawyer.featured.photoLink}}<a href="{{{featuredLawyer.featured.photoLink}}}" target="_blank" class="block-image-link">{{/if}}
+                {{>img src="insights-featured-lawyer-01.jpg" alt=featuredLawyer.featured.name class="block-image"}}
               {{#if featuredLawyer.featured.photoLink}}</a>{{/if}}
               </div>
               <div class="content-side -description" responsive="collapse-one mobile-no-padding">
@@ -68,8 +68,8 @@
     </td>
   </tr>
   <tr>
-    <td class="lawyer-info widget-description" responsive="mobile-padding-horizontal-sides">
-      <div class="widget-wrapper" responsive="mobile-padding-horizontal-sides">
+    <td class="lawyer-info widget-description" responsive="mobile-padding-20-horizontal-sides">
+      <div class="widget-wrapper" >
         <p class="name"><b>{{{featuredLawyer.featured.name}}}</b></p>
         <p class="location">{{{featuredLawyer.featured.location}}}</p>
       </div>
