@@ -93,8 +93,8 @@
           "alt": "Upcoming Webinars"
         },
         "description": [
-          "<b class='title'><a href='https://connect.justia.com/webinars/the-attack-on-dei-safeguarding-corporate-dei-initiatives?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-1' target='_blank'>Free Law: Resources, Technology & Legal Issues (Past, Present & Future)</a></b>",
-          "<p>Explore free legal research solutions in our webinar on Free Law with Justia CEO Tim Stanley. Discover key resources and delve into legal issues like copyright, privacy, and public access. Tim will trace the history and technology behind organizations offering free legal resources, examining the Free Law movement’s evolution since the 1990s.</p>"
+          "<b class='title'><a href='https://connect.justia.com/webinars/the-attack-on-dei-safeguarding-corporate-dei-initiatives?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-1' target='_blank'>The Attack on DEI – Safeguarding Corporate DEI Initiatives Post-Supreme Court’s Affirmative Action Decision</a></b>",
+          "<p>This webinar offers an exploration of the historical context surrounding challenges to diversity, equity, and inclusion (DEI), including the Supreme Court's recent ruling on Students for Fair Admissions (SFFA). It also delves into reactions from conservative organizations and provides practical guidance for companies seeking to safeguard their DEI initiatives in the aftermath of the Supreme Court's decision.</p>"
         ],
         "button": {
           "style": "red",
@@ -111,13 +111,49 @@
           "alt": "Recent Recordings"
         },
         "description": [
-          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-2' target='_blank'>The Addicted Lawyer. How We Got Here. Where We Are Headed.</a></b>",
-          "<p>Substance use disorders in the legal community are a well-known issue that can substantially impair an attorney’s ability to practice law and adhere to professional obligations. In this CLE-accredited webinar, Brian Cuban explores the impacts of mental health and recovery in the legal profession.</p>"
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-2' target='_blank'>How To Effectively Handle Long COVID Disability Insurance Claims</a></b>",
+          "<p>This webinar explored the intricacies involved in managing long COVID disability insurance claims and provided insights into effectively presenting such claims to insurance providers. Often, insurance companies underestimate the disabling effects of long COVID symptoms. Our proven strategy for handling these claims enhances claimants' prospects of receiving both short-term and long-term disability insurance benefits. Additionally, they discussed preparing for potential litigation in cases of claim denials.</p>"
         ],
         "button": {
           "style": "red",
           "link": "https://connect.justia.com/webinars/how-to-effectively-handle-long-covid-disability-insurance-claims?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-button-2",
-          "text": "Learn More",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/confronting-racial-bias-in-jury-selection?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-3' target='_blank'>Confronting Racial Bias in Jury Selection</a></b>",
+          "<p>Juries that lack diversity not only sideline and neglect communities of color but also lead to unjust convictions and inequitable sentences, unfairly impacting Black individuals and people of color. In this presentation by Angie Setzer, she highlighted the significance of diverse juries, delved into the historical context of racial bias in jury selection, and explored tactics to address and eradicate illegal racial discrimination during jury selection.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/confronting-racial-bias-in-jury-selection?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-button-3",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/converting-leads-to-clients-navigating-the-critical-moments-in-legal-consultations?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-4' target='_blank'>Converting Leads to Clients: Navigating the Critical Moments in Legal Consultations</a></b>",
+          "<p>In this webinar, Adam Boyd addressed common pitfalls attorneys face in converting leads, particularly in client consultations. He explores the reasons behind poor outcomes, such as misunderstandings or missed opportunities, stemming from critical mistakes in communication. Boyd outlined conversational structures that help align expectations, facilitating mutual qualification, information exchange, and a clear understanding of the client-attorney relationship. Additionally, he provided best practices for handling potential clients, aiming to improve reviews, even with those who ultimately choose not to engage the attorney.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/converting-leads-to-clients-navigating-the-critical-moments-in-legal-consultations?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-button-4",
+          "text": "Watch Now",
+          "width": 160
+        }
+      },
+      {
+        "description": [
+          "<b class='title'><a class='title' href='https://connect.justia.com/webinars/empowering-women-in-family-law-strategies-for-success?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-title-5' target='_blank'>Empowering Women in Family Law: Strategies for Success</a></b>",
+          "<p>In this presentation, Anna thoroughly examined empowerment strategies designed specifically for women in the field of family law. She addressed the unique challenges and opportunities faced by women in this practice area, offered insights into effective strategies for overcoming obstacles, advancing in one's career, and fostered inclusivity in a field traditionally dominated by men.</p>"
+        ],
+        "button": {
+          "style": "red",
+          "link": "https://connect.justia.com/webinars/empowering-women-in-family-law-strategies-for-success?utm_medium=email&utm_campaign=2024-04&utm_source=month-connect-pro-newsletter&utm_content=section-webinars-button-5",
+          "text": "Watch Now",
           "width": 160
         }
       }
