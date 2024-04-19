@@ -1,0 +1,45 @@
+{
+  "jld": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "banner": "connect-quarterly-tips-icon-01.png",
+    "description": [
+      "Take advantage of professional development courses with your Justia Connect Membership! Our <b>free Justia Webinars are open to all members</b> and explore a broad array of topics, including law practice management, legal marketing, substantive legal developments, professional ethics, and more. Please note that while all Justia Connect members are invited to attend Justia Webinars, only Justia Connect Pros are eligible to earn CLE credit."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com/webinars",
+      "text": "Browse Available Webinars",
+      "width": 250,
+      "utm": {
+        "medium": "email",
+        "source": "monthly-connect-basic",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  },
+  "pro": {
+    "widget": {
+      "header": "Community Tips"
+    },
+    "title": "Enhance Your Membership Benefits by Updating Your Justia Lawyer Directory Profile",
+    "banner": "connect-quarterly-tips-icon-01.png",
+    "description": [
+      "As a Justia Connect Pro Member, you currently benefit from heightened visibility on the Justia Platform. To maximize this advantage, it's crucial to maintain and complete your Justia Profile in the Justia Lawyer Directory. By ensuring it is up-to-date, you can make a compelling first impression on potential clients and extract the most value from your membership."
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://connect.justia.com",
+      "text": "Visit My Profile",
+      "width": 200,
+      "utm": {
+        "medium": "email",
+        "source": "month-connect-pro-newsletter",
+        "campaign": "<%= dateFormat.dash %>",
+        "content": "section-community-tips-button-v1"
+      }
+    }
+  }
+}
