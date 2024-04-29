@@ -383,4 +383,20 @@ $title-gap: 30px;
     }
 }
 
+.w-law-events {
+    .widget-description {
+        padding: 0 30px 40px !important;
+    }
+}
+
+.w-did-you-know {
+    p {
+        @include mail-font(14px, 1.1, tp('weight', 'bold'));
+    }
+
+    .widget-description {
+
+    }
+}
+
 /* .w-featured-webinar .widget-description { padding: 0 30px 0 !important;} */

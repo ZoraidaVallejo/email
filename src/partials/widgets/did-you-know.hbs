@@ -15,10 +15,13 @@
 {{! ================================================================================================================= }}
 
 {{#table class="widget w-did-you-know set-max-width"}}
-  {{>widget-header
-    header=widgetConfig.widget.header
-    icon=widgetConfig.widget.icon
-  }}
+
+  {{#if widget.header}}
+    {{>widget-header
+      header=widgetConfig.widget.header
+      icon=widgetConfig.widget.icon
+    }}
+  {{/if}}
 
   {{!--
   // TODO: Maybe move title and description to a component.
