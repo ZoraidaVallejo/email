@@ -1,0 +1,174 @@
+{
+  "ad1": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>So, hurry up! Secure the Top Spot for your practice/metro combination in the Justia Lawyer Directory, boost your visibility, and let people find you first with Justia Platinum Placements, <b>before prices go up!</b></p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Take Me to the #1 Spot",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 22,
+          "responsive": "mobile-fz-18",
+          "link": "https://www.justia.com/marketing/contact/lawyer-directory/"
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Here are more facts about Justia Platinum Placements:</p>"
+        ]
+      },
+      {
+        "type": "image-description-list",
+        "config": [
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-01.png",
+            "description": [
+              "Justia Platinum Placements put you on the TOP of the Justia Lawyer Directory listings"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-02.png",
+            "description": [
+              "You can boost your visibility up to 280x"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-03.png",
+            "description": [
+              "With a Justia Platinum Placement you get an enhanced profile with NO competitor ads"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-04.png",
+            "description": [
+              "There is only ONE Justia Platinum Placement per metro/practice area"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-05.png",
+            "description": [
+              "You get a complimentary Justia Landing Page designed to increase client contacts and convert leads"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image-description-list",
+        "config": [
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-signature-jackie.png"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Take Me to the #1 Spot",
+          "width": 280,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 22,
+          "responsive": "mobile-fz-18",
+          "link": "https://www.justia.com/marketing/contact/lawyer-directory/"
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      },
+      {
+        "type": "description",
+        "border": "false",
+        "config": [
+          "<p>*Please note: The price increase applies to purchasing new, additional Justia Platinum Placements. The prices for your current placements will not be affected by the June 1, 2024 increase.</p>"
+        ]
+      }
+    ]
+  },
+  "ad2": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": "false",
+        "config": [
+          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "[Button Text]",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "border": "false",
+        "config": [
+          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      }
+    ]
+  }
+}
