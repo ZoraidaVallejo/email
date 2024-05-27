@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Inside Justia"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "inside-justia-01.png",
+        "alt": "The Great Escape"
+      },
+      "blockTitle": "Meet Our Team",
+      "blockSubtitle": "<b>The Great Escape</b>",
+      "description": [
+        "In our first team activity of the year, Justians participated in a virtual escape room with our coworkers. Our hour of fun came with plenty of mysteries and riddles. In the end, all of our teams managed to successfully escape, and we had a great time!"
+      ]
+    },
+    {
+      "image": {
+        "src": "inside-justia-02.png",
+        "alt": "Taking It Easy"
+      },
+      "blockTitle": "A Pug’s Tale",
+      "blockSubtitle": "<b>Taking It Easy</b>",
+      "description": [
+        "Zoey the Hug Pug is resting up while recovering from hip surgery. She will be back to normal in no time and cannot wait to return to her adventures soon! Until then, she is embracing the cone life."
+      ]
+    }
+  ]
+}
