@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "header": "Justia Deals"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "insights-deals-03.jpg",
+        "alt": "Multivision Digital"
+      },
+      "title": "Multivision Digital",
+      "description": [
+        "Turn-Key Video Production & Marketing. 15% off 1st & 2nd Video Projects."
+      ],
+      "linkText": "Get Deal ›",
+      "readMore": "https://connect.justia.com/legal-deals/multivision-digital/multivisiondigital-15-percent-off"
+    },
+    {
+      "image": {
+        "src": "insights-deals-02.jpg",
+        "alt": "Lifestyle Savings"
+      },
+      "title": "Lifestyle Savings",
+      "description": [
+        "50% off each of your first 4 boxes, that’s 20 free meals."
+      ],
+      "linkText": "Start Saving ›",
+      "readMore": "https://deals.justia.com/discounts/offer/1413:649040"
+    }
+  ]
+}
