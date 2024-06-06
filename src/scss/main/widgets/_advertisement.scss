@@ -238,19 +238,42 @@
         }
     }
 
-    // &.-jld-ad-01 {
-    //     .content {
+    &.-jld-ad-lego {
+        .content {
 
-    //         &.-idx-2 {
-    //             display: block;
-    //             max-width: 235px;
-    //             padding: 0 0 24px 45px;
-    //             text-align: left;
-    //         }
-    //     }
+            &.-idx-3 {
+                padding: 0 48px 48px;
+            }
 
-    //     ul li {
-    //         padding-bottom: 28px;    
-    //     }
-    // }
+            &.-idx-4 {
+                padding: 0 48px 50px;
+    
+                .-inner-image-description td {
+                    text-align: center;
+                }
+    
+                .content-side {
+                    text-align: center;
+
+                    &.-image {
+                        float: none;
+                        width: 112px;
+                        padding: 0;
+                    }
+    
+                    img {
+                        width: 112px;
+                    }
+    
+                    &.-description {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        ul li {
+            padding-bottom: 28px;    
+        }
+    }
 }

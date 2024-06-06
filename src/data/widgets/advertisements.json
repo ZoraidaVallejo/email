@@ -115,41 +115,21 @@
       }
     ]
   },
-  "ad2": {
+  "adLego": {
     "link": "#",
     "contentOrder": [
       {
         "type": "description",
-        "border": "false",
+        "border": false,
         "config": [
-          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+          "<p>When people need to find a lawyer, you'll want to be the one they find! Justia Premium Placements in the Justia Lawyer Directory increase your exposure to potential clients, so when they find you, you may surely be the one they pick</p>"
         ]
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
       },
       {
         "type": "button",
         "config": {
           "style": "red",
-          "text": "[Button Text]",
+          "text": "I Want To Be Picked",
           "width": 250,
           "height": 50,
           "borderColor": "",
@@ -163,10 +143,19 @@
         }
       },
       {
-        "type": "description",
-        "border": "false",
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      },
+      {
+        "type": "image-description-list",
         "config": [
-          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-signature-jackie-02.png"
+          }
         ]
       }
     ]
