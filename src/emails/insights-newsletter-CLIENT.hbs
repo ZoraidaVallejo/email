@@ -13,61 +13,35 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
   <tr>
     <td class="full-size align-center valign-top">
       {{>ui-layout-hack tableStart=true}}
+        {{>widget-welcome-banner widgetConfig=widget-welcome-banner.jld}}
 
-        {{!-- {{>welcome widgetConfig=welcome.jld}} --}}
+        {{>welcome widgetConfig=welcome.jld}}
 
-        {{!-- {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}} --}}
+        {{>justia-news widgetUtmVars=justiaNews.utm.jld}}
 
-        {{!-- {{>explore-webinars widgetConfig=exploreWebinars}} --}}
+        {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
-        {{!-- {{>featured-news widgetUtmVars=featuredNews.utm.jld}} --}}
+        {{>explore-webinars widgetConfig=exploreWebinars}}
 
-        {{!-- {{>tip-month widgetConfig=featuredNewsv2.jld}} --}}
+        {{>justia-tip-month widgetConfig=tipMonth.jld}}
 
-        {{!-- {{>justia-desk widgetUtmVars=justiaDesk.utm.jld}} --}}
+        {{>featured-lawyer}}
 
-        {{!-- {{>justia-deskv2 widgetUtmVars=justiaDeskv2.utm.jld}} --}}
+        {{>lawyer-qa widgetConfig=lawyerQa.jld}}
 
-        {{!-- {{>webmaster widgetUtmVars=webmaster.utm.jld}} --}}
+        {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}}
 
-        {{!-- {{>widget-ad widgetClass="-jld-ad-01" widgetConfig=advertisements.jld.ad1}} --}}
+        {{>trending-news}}
 
-        {{!-- {{>inside-justia}} --}}
+        {{>featured-justia-deals widgetClass="" widgetConfig=featuredJustiaDeals}}
 
-        {{!-- {{>featured-lawyer}} --}}
+        {{>justia-deskv2 widgetUtmVars=justiaDeskv2.utm.jld}}
 
-        {{!-- {{>answers-leaderboard}} --}}
+        {{>meet-our-team}}
 
-        {{!-- {{>ask-a-lawyer}} --}}
+        {{>hug-pug}}
 
-        {{!-- {{>lawyer-qa widgetConfig=lawyerQa.jld}} --}}
-
-        {{!-- {{>jobs-subscribe}} --}}
-
-        {{!-- {{>featured-site-month singleSite=true addDescription=true hasButton=true widgetUtmVars=featuredSiteMonth.utm.jld}} --}}
-
-         {{!-- {{>tip-month widgetConfig=tipMonth.jld}} --}}
-
-        {{!-- {{>upcoming-events widgetConfig=upcomingEvents.jld}} --}}
-
-        {{!-- {{>events-we-attended}} --}}
-
-        {{!-- {{>trending-news}} --}}
-
-         {{!-- {{>tip-month widgetConfig=tipMonth.complimentary}} --}}
-
-         {{!-- {{>more-justia widgetUtmVars=moreJustia.utm.jld}} --}}
-
-        {{!-- {{>meet-our-team}} --}}
-
-        {{!-- {{>hug-pug}} --}}
-
-        {{!-- {{>did-you-know widgetConfig=didYouKnow.jld}} --}}
-
-        {{!-- {{>jurispro}} --}}
-
-        {{!-- {{>law-events widgetConfig=lawEvents}} --}}
-
+        {{>law-events widgetConfig=lawEvents}}
       {{>ui-layout-hack tableEnd=true}}
     </td>
   </tr>
