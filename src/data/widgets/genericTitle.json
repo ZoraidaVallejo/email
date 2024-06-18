@@ -1,0 +1,18 @@
+{
+  "premium": {
+    "title-decoration": true,
+    "link": "#",
+    "title": [
+      "{Title}",
+      "<br>{subTitle}"
+    ]
+  },
+  "nonpremium": {
+    "title-decoration": true,
+    "link": "#",
+    "title": [
+      "{Title}",
+      "<br>{subTitle}"
+    ]
+  }
+}

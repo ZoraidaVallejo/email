@@ -1,0 +1,35 @@
+---
+subject: 
+---
+
+{{>preheader text=""}}
+
+{{#table class="jld-newsletter" align=""}}
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-header widgetConfig=header.ad1}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>ui-layout-hack tableStart=true}}
+
+        {{!-- {{>generic-title widgetClass="" widgetConfig=genericTitle.title1}} --}}
+
+        {{>widget-custom-banner widgetClass="-custom" widgetConfig=customBanner.nonpremium}}
+
+        {{!-- {{>widget-custom-banner widgetClass="-jld-ad-02" widgetConfig=customBanner.banner2}} --}}
+
+        {{!-- {{>generic-title widgetClass="" widgetConfig=genericTitle.nonpremium}} --}}
+
+        {{>widget-ad widgetClass="-jld-ad-02" widgetConfig=advertisements.nonpremium}}
+
+      {{>ui-layout-hack tableEnd=true}}
+    </td>
+  </tr>
+  <tr>
+    <td class="full-size align-center valign-top">
+      {{>main-footer widgetConfig=footer.jld}}
+    </td>
+  </tr>
+{{/table}}
