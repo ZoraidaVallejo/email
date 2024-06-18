@@ -122,14 +122,14 @@
         "type": "description",
         "border": false,
         "config": [
-          "<p>When people need to find a lawyer, you'll want to be the one they find! Justia Premium Placements in the Justia Lawyer Directory increase your exposure to potential clients, so when they find you, you may surely be the one they pick</p>"
+          "<p>When people need to find a lawyer, you'll want to be the one they find! Justia Premium Placements in the Justia Lawyer Directory increase your exposure to potential clients, so when they find you, you may surely be the one they choose.</p>"
         ]
       },
       {
         "type": "button",
         "config": {
           "style": "red",
-          "text": "I Want To Be Picked",
+          "text": "I Want To Be Chosen",
           "width": 250,
           "height": 50,
           "borderColor": "",
