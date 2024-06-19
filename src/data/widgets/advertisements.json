@@ -8,17 +8,19 @@
         "config": [
           "<p>Hi *|FNAME|*,</p>",
           "<p>As a valued Justia Client, we're thrilled to offer you a <b>FREE TRIAL</b> to experience our Justia Connect Pro Membership.</p>",
-          "<p><b>How does it work?</b><br>Upgrade now and start your complimentary trial. During your trial, you can experience all the exclusive benefits of being a Justia Connect Pro member, including a $200 credit that can be applied to one of the selected services you have with Justia.</p>",
-          "<p>Once your free trial ends, we'll charge you for the Justia Connect Pro Membership ($199.80)* and then automatically apply your $200 credit towards your chosen Justia service, essentially making your membership free!</p>"
+          "<p><b>How does it work?</b><br>Upgrade now and start your complimentary trial. During your trial, you can experience all the exclusive benefits of being a Justia Connect Pro member, including a <strong>$200 credit</strong> that can be applied to one of the selected services you have with Justia.</p>",
+          "<p>Once your free trial ends, we'll charge you for the Justia Connect Pro Membership ($199.80)* and then automatically apply your <strong>$200 credit</strong> towards your chosen Justia service, essentially making your membership free!</p>"
         ]
       },
       {
         "type": "description",
         "border": false,
+        "responsive": "mobile-no-padding-bottom",
         "config": [
           "<p>To take advantage of the free trial</p>"
         ]
-      },{
+      },
+      {
         "type": "button",
         "config": {
           "style": "red",
@@ -38,6 +40,7 @@
       {
         "type": "description",
         "border": false,
+        "responsive": "mobile-no-padding-top",
         "config": [
           "<p><strong>Justia Connect Pro benefits include:</strong></p>"
         ]
@@ -49,21 +52,21 @@
             "responsive": "",
             "image": "connect-pro-icon-02.png",
             "description": [
-              "A Justia Connect Pro Badge for your Justia Lawyer Directory Profile page."
+              "A <strong>Justia Connect Pro Badge</strong> for your Justia Lawyer Directory Profile page."
             ]
           },
           {
             "responsive": "",
             "image": "connect-pro-icon-03.png",
             "description": [
-              "The opportunity to feature your best client and peer reviews on your Justia Lawyer Directory Profile."
+              "The opportunity to feature your best client and peer reviews on your <strong>Justia Lawyer Directory Profile</strong>."
             ]
           },
           {
             "responsive": "",
             "image": "connect-pro-icon-04.png",
             "description": [
-              "CLE Credit for select Justia Webinars."
+              "CLE Credit for select <strong>Justia Webinars</strong>."
             ]
           }
         ]
@@ -73,7 +76,7 @@
         "border": false,
         "config": [
           "<p>Don't miss the opportunity to take advantage of your free trial!</p>",
-          "<p>If you have any questions about Justia Connect Pro, please feel free to call us at <a href=\"tel:+1-(888) 587-8421\" target=\"_blank\"><b>(888) 587-8421</b></a> or contact us at <a href=\"#\" target=\"_blank\"><b>support.justia.com</b></a></p>"
+          "<p>If you have any questions about <strong>Justia Connect Pro</strong>, please feel free to call us at <a href=\"tel:+1-(888) 587-8421\" target=\"_blank\"><b>(888) 587-8421</b></a> or contact us at <a href=\"https://support.justia.com/\" target=\"_blank\"><u>support.justia.com</u></a></p>"
         ]
       },
       {
@@ -94,17 +97,19 @@
         "config": [
           "<p>Hi *|FNAME|*,</p>",
           "<p>As a valued Justia Client, we're thrilled to offer you a <b>FREE TRIAL</b> to experience our Justia Connect Pro Membership.</p>",
-          "<p><b>How does it work?</b><br>Upgrade now and start your complimentary trial. During your trial, you can experience all the exclusive benefits of being a Justia Connect Pro member, including a $200 credit that can be applied to one of the selected services you have with Justia.</p>",
-          "<p>Once your free trial ends, we'll charge you for the Justia Connect Pro Membership ($199.80)* and then automatically apply your $200 credit towards your chosen Justia service, essentially making your membership free!</p>"
+          "<p><b>How does it work?</b><br>Upgrade now and start your complimentary trial. During your trial, you can experience all the exclusive benefits of being a Justia Connect Pro member, including a <strong>$200 credit</strong> that can be applied to one of the selected services you have with Justia.</p>",
+          "<p>Once your free trial ends, we'll charge you for the Justia Connect Pro Membership ($199.80)* and then automatically apply your <strong>$200 credit</strong> towards your chosen Justia service, essentially making your membership free!</p>"
         ]
       },
       {
         "type": "description",
         "border": false,
+        "responsive": "mobile-no-padding-bottom",
         "config": [
           "<p>To take advantage of the free trial</p>"
         ]
-      },{
+      },
+      {
         "type": "button",
         "config": {
           "style": "red",
@@ -128,35 +133,28 @@
             "responsive": "",
             "image": "connect-pro-icon-01.png",
             "description": [
-              "Get an enhanced Justia Lawyer Directory Profile:No competitor ads, easy contact form, and prominent contact info."
+              "Get an enhanced Justia Lawyer Directory Profile: No competitor ads, easy contact form, and prominent contact info."
             ]
           },
           {
             "responsive": "",
             "image": "connect-pro-icon-02.png",
             "description": [
-              "A Justia Connect Pro Badge for your Justia Lawyer Directory Profile page."
-            ]
-          },
-          {
-            "responsive": "",
-            "image": "connect-pro-icon-02.png",
-            "description": [
-              "A Justia Connect Pro Badge for your Justia Lawyer Directory Profile page."
+              "A <strong>Justia Connect Pro Badge</strong> for your Justia Lawyer Directory Profile page."
             ]
           },
           {
             "responsive": "",
             "image": "connect-pro-icon-03.png",
             "description": [
-              "The opportunity to feature your best client and peer reviews on your Justia Lawyer Directory Profile."
+              "The opportunity to feature your best client and peer reviews on your <strong>Justia Lawyer Directory Profile</strong>."
             ]
           },
           {
             "responsive": "",
             "image": "connect-pro-icon-04.png",
             "description": [
-              "CLE Credit for select Justia Webinars."
+              "CLE Credit for select <strong>Justia Webinars</strong>."
             ]
           }
         ]
@@ -166,7 +164,7 @@
         "border": false,
         "config": [
           "<p>Don't miss the opportunity to take advantage of your free trial!</p>",
-          "<p>If you have any questions about Justia Connect Pro, please feel free to call us at <a href=\"tel:+1-(888) 587-8421\" target=\"_blank\"><b>(888) 587-8421</b></a> or contact us at <a href=\"#\" target=\"_blank\"><b>support.justia.com</b></a></p>"
+          "<p>If you have any questions about <strong>Justia Connect Pro</strong>, please feel free to call us at <a href=\"tel:+1-(888) 587-8421\" target=\"_blank\"><b>(888) 587-8421</b></a> or contact us at <a href=\"https://support.justia.com/\" target=\"_blank\"><u>support.justia.com</u></a></p>"
         ]
       },
       {

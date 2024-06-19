@@ -166,11 +166,11 @@
       {{#compare this.type "===" "description"}}
         {{#if this.border}}
           <tr>
-            <td class="-border-wrapper{{#if isFirst}} -first-bodered{{/if}}{{#if isLast}} -last-bodered{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-40-bottom{{else}} mobile-padding-20-bottom{{/if}}">
+            <td class="-border-wrapper{{#if isFirst}} -first-bodered{{/if}}{{#if isLast}} -last-bodered{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-50-bottom{{else}} mobile-padding-20-bottom{{/if}}">
               <table {{{tableAttr}}}>
         {{/if}}
         <tr>
-          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-40-bottom{{else}} mobile-padding-20-bottom{{/if}}">
+          <td class="content -description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-50-bottom{{else}} mobile-padding-20-bottom{{/if}}{{#if this.responsive}} {{this.responsive}}{{/if}}">
             {{#each this.config}}
               {{{this}}}
             {{/each}}
@@ -185,7 +185,7 @@
 
       {{#compare this.type "===" "button"}}
         <tr>
-          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-40-bottom{{else}} mobile-padding-20-bottom{{/if}}">
+          <td class="content -button -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides mobile-padding-20-top{{#if isLast}} mobile-padding-50-bottom{{else}} mobile-padding-50-bottom{{/if}}">
             {{#uiButton
               href=(concat ../widgetConfig.link (utmVariables ../widgetConfig.utm))
               presetStyle=this.config.style
@@ -207,7 +207,7 @@
 
       {{#compare this.type "===" "phone"}}
         <tr>
-          <td class="content -phone -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isLast}} mobile-padding-40-bottom{{else}} mobile-padding-20-bottom{{/if}}">
+          <td class="content -phone -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides{{#if isLast}} mobile-padding-50-bottom{{else}} mobile-padding-20-bottom{{/if}}">
             <p>{{this.config.text}} <a href="tel:+1-{{{this.config.phone}}}" target="_blank"><b>{{{this.config.phone}}}</b></a></p>
           </td>
         </tr>
