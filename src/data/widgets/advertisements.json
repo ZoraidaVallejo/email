@@ -1,0 +1,166 @@
+{
+  "ad1": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Help Me Get More Leads",
+          "width": 340,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 24,
+          "responsive": "collapse-one mobile-fz-20",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p><strong>Connect With More Clients With Justia Chat!</strong></p>"
+        ]
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p><strong>Justia Chat</strong> is an AI-powered lead generation tool designed to streamline interactions with potential clients on your website. Using natural language processing, this virtual assistant engages visitors and gathers pertinent information, transforming it into actionable leads for your law firm.</p>",
+          "<p>Exclusively available to <strong>Justia Elevate</strong> clients, <strong>Justia Chat</strong> empowers law firms to connect with potential clients like never before.</p>"
+        ]
+      },
+      {
+        "type": "image-description-list",
+        "config": [
+          {
+            "responsive": "",
+            "image": "non-elevate-justia-chat-icon-01.png",
+            "description": [
+              "<strong>Get More Leads</strong> With 24/7 Chat Availability"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "non-elevate-justia-chat-icon-02.png",
+            "description": [
+              "<strong>Capture Lead Details</strong> With Smart User Guidance"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "non-elevate-justia-chat-icon-03.png",
+            "description": [
+              "<strong>Connect with Clients</strong> With AI Chat Personalization"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "non-elevate-justia-chat-icon-04.png",
+            "description": [
+              "<strong>Be More Efficient</strong> With Summarized Chat Transcripts"
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "non-elevate-justia-chat-icon-05.png",
+            "description": [
+              "<strong>Increase Engagement</strong> With Fast Response Times"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Is your current website doing enough? Don’t wait and start getting more leads now with <strong>Justia Chat</strong> for <strong>Justia Elevate</strong> and transform your legal practice today.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "I Want More Leads, Tell Me More!",
+          "width": 440,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 24,
+          "responsive": "collapse-one mobile-fz-22",
+          "link": ""
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      }
+    ]
+  },
+  "ad2": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "[Button Text]",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      }
+    ]
+  }
+}
