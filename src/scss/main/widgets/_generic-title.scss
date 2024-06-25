@@ -4,21 +4,23 @@
 
 .w-general-title {
     border-bottom: 0;
+    background-color: #0052CB;
 
     .title {
-        padding: 48px $padding 0;
-        color: plt('justia-blue');
+        padding: 48px $padding 30px;
+        color: plt('white');
         text-align: center;
 
         a {
-            @include mail-font(28px, 1.25, 700);
+            @include mail-font(37px, 1.25, 700);
             display: block;
-            color: plt('justia-blue');
+            color: plt('white');
         }
 
         span {
             display: block;
             font-weight: normal;
+            @include mail-font(25px, 1);
         }
 
         &.-decoration {

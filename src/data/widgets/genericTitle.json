@@ -1,10 +1,10 @@
 {
   "premium": {
-    "title-decoration": true,
+    "title-decoration": false,
     "link": "#",
     "title": [
-      "{Title}",
-      "<br>{subTitle}"
+      "Limited-Time Offer!",
+      "<span class=\"small-line\" responsive=\"mobile-fz-19\">Free <strong>Justia Connect Pro Membership</strong> Trial</span>"
     ]
   },
   "nonpremium": {
