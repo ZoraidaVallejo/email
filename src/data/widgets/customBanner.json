@@ -23,6 +23,12 @@
     "imageAlt": "Example Chart",
     "link": "#"
   },
+  "bannerSummer": {
+    "customBanner": false,
+    "image": "jld-summer-banner-01.gif",
+    "imageAlt": "Example Chart",
+    "link": "#"
+  },
   "bannerExample": {
     "customBanner": true,
     "context": "example",

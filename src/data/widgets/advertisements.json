@@ -159,5 +159,67 @@
         ]
       }
     ]
+  },
+  "adSummer": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Summer's here. It's your time to relax without losing any potential leads. Maximize your visibility up to 280X and <b>turn your lawyer directory profile visitors into potential hot leads</b> with Justia Premium Placements.</p>"
+        ]
+      },
+      {
+        "type": "image-description-list",
+        "config": [
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-02.png",
+            "description": [
+              "<b>Get Seen First:</b> Stand out and let customers find you first."
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-summer-icon-01.png",
+            "description": [
+              "<b>Easy Contact:</b> Capture leads seamlessly with a prominent contact form."
+            ]
+          },
+          {
+            "responsive": "",
+            "image": "jld-platinum-placements-icon-03.png",
+            "description": [
+              "<b>Shine Brighter:</b> No competitor ads means all eyes are on your profile."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Let's Generate Hot Leads",
+          "width": 300,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 22,
+          "responsive": "collapse-one",
+          "link": ""
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      }
+    ]
   }
 }

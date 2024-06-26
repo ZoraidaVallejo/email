@@ -276,4 +276,21 @@
             padding-bottom: 28px;    
         }
     }
+
+    &.-jld-ad-summer {
+        .content {
+
+            &.-button {
+                padding: 24px 48px 15px;
+            }
+
+            &.-phone {
+                padding: 0 $padding 48px;
+            }
+        }
+
+        ul li {
+            padding-bottom: 28px;    
+        }
+    }
 }
