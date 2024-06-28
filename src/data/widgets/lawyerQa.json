@@ -1,0 +1,45 @@
+{
+  "clients": {
+    "widget": {
+      "header": "Featured Q&A",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=text-featured-qa-1"
+    },
+    "question": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam?"
+    ],
+    "answer": [
+      "<b>Answer:</b> Curabitur non lorem eu felis rutrum dapibus sagittis nec erat. Integer id mollis urna. Aenean semper purus enim, et dictum metus facilisis ut..."
+    ],
+    "photoLink": "LINK?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=image-featured-qa-1",
+    "name": "<b>Name Lastname</b>",
+    "location": "Location",
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=button-view-full-answer-1",
+      "text": "View Full Answer",
+      "width": 170
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Featured Q&A",
+      "link": "https://answers.justia.com/question/2024/05/15/i-have-a-ma-c-corp-want-to-reorganize-as-1014306?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=text-featured-qa-1"
+    },
+    "question": [
+      "I have a MA C corp, want to reorganize as an LLC… Can I do this simply/cheaply?"
+    ],
+    "answer": [
+      "While it's technically possible to convert your C Corp to an LLC through entity conversion, the dissolution and formation approach might…"
+    ],
+    "photoLink": "https://answers.justia.com/question/2024/05/15/i-have-a-ma-c-corp-want-to-reorganize-as-1014306?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=image-featured-qa-1",
+    "name": "Nicholas Matlach",
+    "location": "Providence, RI",
+    "learnMore": "https://answers.justia.com/question/2024/05/15/i-have-a-ma-c-corp-want-to-reorganize-as-1014306?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=learn-more-answer-1",
+    "button": {
+      "style": "red",
+      "link": "https://answers.justia.com/question/2024/05/15/i-have-a-ma-c-corp-want-to-reorganize-as-1014306?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=button-view-full-answer-1",
+      "text": "View Full Answer",
+      "width": 170
+    }
+  }
+}

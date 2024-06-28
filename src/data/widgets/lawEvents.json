@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "10",
+      "month": "July",
+      "title": "Your Bar License Is Trapped in the 20th Century. Or Is It?",
+      "link": "https://connect.justia.com/webinars/your-bar-license-is-trapped-in-the-20th-century-or-is-it-multi-jurisdictional-rules-proposed-changes",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "12",
+      "month": "July",
+      "title": "Logic for Lawyers- Crafting Persuasive Legal Arguments",
+      "link": "https://connect.justia.com/webinars/logic-for-lawyers-crafting-persuasive-legal-arguments",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "16",
+      "month": "July",
+      "title": "Breaking Down the Bench",
+      "link": "https://connect.justia.com/webinars/breaking-down-the-bench-key-rulings-from-the-2023-2024-supreme-court-term",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "17",
+      "month": "July",
+      "title": "AI in Law",
+      "link": "https://connect.justia.com/webinars/ai-in-law-exploring-30-game-changing-use-cases-in-60-minutes",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "30",
+      "month": "July",
+      "title": "The Power of Professionalism",
+      "link": "https://connect.justia.com/webinars/the-power-of-professionalism-cultivating-civility-in-legal-practice",
+      "time": "1pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

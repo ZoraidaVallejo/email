@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "A Pug’s Tale"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "insights-hugpug-01.jpg",
+        "alt": "Hug Pugs"
+      },
+      "description": [
+        "Need a pick-me-up? Zoey says just talk a quick walk and you'll be all smiles :) Nothing like some exercise to boost your energy and bring a smile to your face!"
+      ]
+    }
+  ]
+}

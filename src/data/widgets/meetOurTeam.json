@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "Meet Our Team"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "insights-our-team-01.jpg",
+        "alt": ""
+      },
+      "description": [
+        "Our CEO Tim Stanley spoke at the CALI Conference in Seattle last month about artificial intelligence & free law and how emerging technologies affect the information landscape."
+      ]
+    }
+  ]
+}
