@@ -3,6 +3,9 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-explore-webinars {
+    .wrapper.-last {
+        padding: 0 $padding $widget-gap;
+    }
     .header {
         @include mail-font(20px, 1.2, tp('weight', 'bold'));
     }

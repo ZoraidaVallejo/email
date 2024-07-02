@@ -3,9 +3,7 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-justia-deals {
-
     .-image-text {
-
         .wrapper {
             padding-bottom: grid-unit(1);
         }
@@ -14,9 +12,7 @@
             padding: 0 0 $padding;
 
             .content-side {
-
                 &.-description {
-
                     p {
                         line-height: 1.6;
                     }
@@ -33,11 +29,11 @@
         display: inline-block;
     }
 
-/*     .block-image {
-        border: 1px solid #ccc;
-    } */
+    .block-image {
+        border: 1px solid #ddd;
+    }
 
-/*     .wrapper {
+    /*     .wrapper {
         padding: 0 30px;
 
         .widget-wrapper {

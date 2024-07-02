@@ -3,7 +3,6 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-lawyer-qa {
-
     .wrapper {
         padding: 0 $padding $widget-gap;
     }
@@ -19,5 +18,9 @@
         .location {
             @include mail-font(14px, 1);
         }
+    }
+
+    .block-image {
+        border: 1px solid #ddd;
     }
 }

@@ -3,13 +3,11 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-featured-lawyer {
-
     .wrapper {
         padding-bottom: 10px;
     }
 
     .lawyer-info {
-
         padding: 15px 0 0;
 
         .name {
@@ -24,9 +22,11 @@
         .widget-wrapper {
             padding-bottom: 20px;
         }
-
     }
     .badge-block {
+        .block-image {
+            border: 1px solid #ddd;
+        }
 
         padding: 20px $padding 70px;
 

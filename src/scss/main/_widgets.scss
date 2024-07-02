@@ -4,11 +4,9 @@
 $widget-gap: grid-unit(1.4); //70px
 $title-gap: 30px;
 
-
 .widget {
     // border-bottom: 1px solid plt('mail', 'clear-gray');
-    background-color: plt('white');
-
+    background-color: plt("white");
 
     // &:nth-child(odd) {
     //     background-color: plt('mail', 'clear-gray');
@@ -16,7 +14,7 @@ $title-gap: 30px;
 
     a {
         color: $light-blue;
-        font-weight: get('font.weight.bold');
+        font-weight: get("font.weight.bold");
     }
 
     .widget-wrapper {
@@ -64,17 +62,17 @@ $title-gap: 30px;
 
     .type {
         padding: 0 25px;
-        color: plt('black');
+        color: plt("black");
 
-        @include mail-font(14px, 1, tp('weight', 'normal'));
+        @include mail-font(14px, 1, tp("weight", "normal"));
     }
 
     .header {
-        color: plt('justia-blue');
-        @include mail-font(22px, 1.2, tp('weight', 'bold'));
+        color: plt("justia-blue");
+        @include mail-font(22px, 1.2, tp("weight", "bold"));
 
         a {
-            color: plt('justia-blue');
+            color: plt("justia-blue");
         }
     }
 }
@@ -93,7 +91,6 @@ $title-gap: 30px;
         // padding: 0 0 30px;
         margin: 0 0 30px;
 
-
         img {
             max-width: 200px;
             margin: 0 auto;
@@ -107,19 +104,19 @@ $title-gap: 30px;
     padding: 0 $padding $widget-gap;
 
     .content-title {
-        @include mail-font(22px, 1.2, tp('weight', 'bold'));
+        @include mail-font(22px, 1.2, tp("weight", "bold"));
         margin: 0 0 10px;
-        color: plt('justia-blue');
+        color: plt("justia-blue");
 
         a {
-            color: plt('justia-blue');
+            color: plt("justia-blue");
         }
 
         &.-blue {
-            color: plt('justia-blue');
+            color: plt("justia-blue");
 
             a {
-                color: plt('justia-blue');
+                color: plt("justia-blue");
             }
         }
     }
@@ -127,7 +124,7 @@ $title-gap: 30px;
     p {
         @include mail-font(18px, 1.5);
         // margin: 0 0 20px;
-        margin: 0
+        margin: 0;
     }
 
     .content-subtitle {
@@ -153,7 +150,6 @@ $title-gap: 30px;
 // ----------------------------------------------------------------------------------------------------------
 
 .widget-columns {
-
     > .wrapper {
         padding: 0 $padding $widget-gap;
 
@@ -162,11 +158,10 @@ $title-gap: 30px;
         }
     }
     &.-image-text {
-
         .title {
             @include mail-font(18px);
             padding-top: 0;
-            color: plt('justia-blue');
+            color: plt("justia-blue");
         }
 
         .content {
@@ -201,7 +196,6 @@ $title-gap: 30px;
         }
 
         .content-wrapper {
-
             &.-first .content {
                 padding: 35px 0 20px;
             }
@@ -217,34 +211,30 @@ $title-gap: 30px;
     }
 
     &.-articles {
-
         .article {
-
             p,
             .description {
-                color: plt('black');
+                color: plt("black");
 
                 a {
-                    color: plt('black');
+                    color: plt("black");
                 }
             }
 
             .title {
                 margin: 0 0 8px;
-                color: plt('justia-blue');
+                color: plt("justia-blue");
 
                 a {
-                    color: plt('justia-blue');
+                    color: plt("justia-blue");
                 }
             }
         }
     }
 
     &.-with-image {
-
         .block-image,
         .block-image-link {
-
             + .block-description {
                 margin: 25px 0 16px;
 
@@ -259,11 +249,11 @@ $title-gap: 30px;
         }
 
         .block-title {
-            @include mail-font(22px, 1.1, tp('weight', 'bold'));
+            @include mail-font(22px, 1.1, tp("weight", "bold"));
             margin: 15px 0 10px;
-            color: plt('black');
+            color: plt("black");
             a {
-                color: plt('justia-blue')
+                color: plt("justia-blue");
             }
         }
 
@@ -273,22 +263,20 @@ $title-gap: 30px;
         }
 
         .block-description {
-
             a {
-                color: plt('black');
+                color: plt("black");
             }
         }
     }
 }
 
 .w-inside-justia {
-
     a b {
-        color: plt('justia-blue');
+        color: plt("justia-blue");
     }
 
     .content-title {
-        color: plt('black');
+        color: plt("black");
     }
 
     p + .widget-banner {
@@ -306,11 +294,11 @@ $title-gap: 30px;
     // }
 
     .block-description b {
-        color: plt('justia-blue');
+        color: plt("justia-blue");
 
         a {
             display: block;
-            color: plt('justia-blue')!important;
+            color: plt("justia-blue") !important;
             margin: 15px 0 0;
         }
     }
@@ -319,10 +307,10 @@ $title-gap: 30px;
 .w-did-you-know,
 .w-jobs-newsletter {
     a b {
-        color: plt('black');
+        color: plt("black");
     }
     a {
-        font-weight: get('font.weight.bold');
+        font-weight: get("font.weight.bold");
     }
 
     // p b {
@@ -375,13 +363,12 @@ $title-gap: 30px;
         }
     }
 
-
     .-subscribe {
         padding: 0 0 25px;
 
         a {
             display: inline-block;
-            font-weight: get('font.weight.bold');
+            font-weight: get("font.weight.bold");
         }
     }
 }
@@ -402,13 +389,19 @@ $title-gap: 30px;
     }
     .-description {
         text-align: center;
-        @include mail-font(14px, 1.1, tp('weight', 'normal'));
-        color: plt('justia-blue');
+        @include mail-font(14px, 1.1, tp("weight", "normal"));
+        color: plt("justia-blue");
+    }
+}
+
+.w-disclaimer {
+    .description {
+        @include mail-font(14px, 1.1, tp("weight", "normal"));
     }
 }
 
 .w-featured-webinar {
-    .widget-description  {
+    .widget-description {
         padding-bottom: grid-unit(1);
     }
 

@@ -3,18 +3,17 @@
 // ----------------------------------------------------------------------------------------------------------
 
 .w-law-events {
-
     .wrapper.-last {
-        padding: 0 $padding $widget-gap;
+        padding: 0 $padding $padding;
     }
 
     .content {
-        background-color: #E7EEF9;
+        background-color: #e7eef9;
         padding: 20px 25px;
         margin: 0 0 20px;
         border-radius: 10px;
 
-        &:last-child{
+        &:last-child {
             margin: 0;
         }
     }
@@ -25,18 +24,17 @@
     }
 
     .event {
-
         td {
             vertical-align: middle;
         }
 
         .event-month {
-            @include mail-font(14px, 1, tp('weight', 'bold'));
+            @include mail-font(14px, 1, tp("weight", "bold"));
             margin: 0;
         }
 
         .event-day {
-            @include mail-font(24px, 1, tp('weight', 'bold'));
+            @include mail-font(24px, 1, tp("weight", "bold"));
             margin: 0;
         }
 
@@ -65,7 +63,7 @@
         }
 
         .-red {
-            color: plt('red')
+            color: plt("red");
         }
     }
 
@@ -73,12 +71,12 @@
         display: block;
         width: 60px;
         padding: 10px 0;
-        border: 1px solid plt('justia-blue');
+        border: 1px solid plt("justia-blue");
         border-radius: 5px;
         margin: 0;
         text-align: center;
-        background-color: plt('white');
-        color: plt('justia-blue');
+        background-color: plt("white");
+        color: plt("justia-blue");
     }
 
     .disc {
@@ -93,11 +91,11 @@
 
     .category {
         text-transform: uppercase;
-        color: plt('white');
-        font-weight: get('font.weight.bold');
+        color: plt("white");
+        font-weight: get("font.weight.bold");
         padding: 5px 5px;
         border-radius: 15px;
-        background-color: plt('justia-blue');
+        background-color: plt("justia-blue");
         line-height: 1.1;
         display: block;
         text-align: center;

@@ -1,0 +1,29 @@
+{{! ================================================================================================================= }}
+{{! W E L C O M E   M E S S A G E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {Object}   widgetConfig
+ * @param {String[]} widgetConfig.disclaimer
+ * @param {String}   widgetConfig.link
+}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-disclaimer set-max-width"}}
+  <tr>
+    <td class="w-disclaimer widget-description" responsive="mobile-padding-20-horizontal-sides mobile-padding-top">
+      <div class="widget-wrapper">
+        {{#if widgetConfig.disclaimer}}
+          <p class="description">
+            {{{widgetConfig.disclaimer}}}
+          </p>
+        {{/if}}
+      </div>
+    </td>
+  </tr>
+{{/table}}
