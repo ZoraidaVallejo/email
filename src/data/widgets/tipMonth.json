@@ -5,12 +5,10 @@
   "clients": {
     "link": "",
     "title": "",
-    "description": [
-      ""
-    ],
+    "description": [""],
     "button": {
       "style": "red",
-      "link": "LINK?utm_medium=email&utm_campaign=2024-06&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=button-contact-us",
       "text": "Contact Us",
       "width": 150
     }
@@ -32,7 +30,7 @@
     ],
     "button": {
       "style": "red",
-      "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/",
+      "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=button-contact-us",
       "text": "Learn More",
       "width": 150,
       "fontSize": 20
