@@ -175,6 +175,11 @@
         &.-first {
             padding: 48px $padding 24px;
         }
+        &.-idx-3 {
+            p {
+                text-align: left;
+            }
+        }
 
         &.-phone {
             padding: 0 $padding 24px;
