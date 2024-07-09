@@ -46,14 +46,14 @@ export const Button = createBlock<IButton>({
       type: BasicType.BUTTON,
       data: {
         value: {
-          content: 'Button',
+          content: 'Call to Action',
         },
       },
       attributes: {
         align: 'center',
-        'background-color': '#414141',
+        'background-color': '#e2231a',
         color: '#ffffff',
-        'font-weight': 'normal',
+        'font-weight': 'bold',
         'border-radius': '3px',
         padding: '10px 25px 10px 25px',
         'inner-padding': '10px 25px 10px 25px',

@@ -29,7 +29,7 @@ export const Hero = createBlock<IHero>({
     return t('Hero');
   },
   type: BasicType.HERO,
-  create: (payload) => {
+  create: payload => {
     const defaultData: IHero = {
       type: BasicType.HERO,
       data: {
@@ -48,7 +48,7 @@ export const Hero = createBlock<IHero>({
           type: 'text',
           data: {
             value: {
-              content: 'We Serve Healthy &amp; Delicious Foods',
+              content: 'Lorem Ipsum Dolor Sit Amet Consectetu',
             },
           },
           attributes: {
@@ -65,7 +65,7 @@ export const Hero = createBlock<IHero>({
           data: {
             value: {
               content:
-                'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<br>',
+                'Lorem Ipsum Dolor Sit Amet<br>',
             },
           },
           attributes: {
@@ -95,11 +95,11 @@ export const Hero = createBlock<IHero>({
           },
           attributes: {
             align: 'center',
-            'background-color': '#f3a333',
+            'background-color': '#e2231a',
             color: '#ffffff',
-            'font-size': '13px',
-            'font-weight': 'normal',
-            'border-radius': '30px',
+            'font-size': '24px',
+            'font-weight': 'bold',
+            'border-radius': '4px',
             padding: '10px 25px 10px 25px',
             'inner-padding': '10px 25px 10px 25px',
             'line-height': '120%',
@@ -117,6 +117,11 @@ export const Hero = createBlock<IHero>({
   },
   validParentType: [BasicType.PAGE, BasicType.WRAPPER],
   render(params) {
-    return <BasicBlock params={params} tag="mj-hero" />;
+    return (
+      <BasicBlock
+        params={params}
+        tag='mj-hero'
+      />
+    );
   },
 });
