@@ -178,14 +178,6 @@ function Index() {
                   >
                     Create Template
                   </Button>
-                  {featureEnabled && (
-                    <Button
-                      type='primary'
-                      href='https://demo.easyemail.pro?utm_source=trypro'
-                    >
-                      Try commercial version
-                    </Button>
-                  )}
                 </Space>
               }
             />

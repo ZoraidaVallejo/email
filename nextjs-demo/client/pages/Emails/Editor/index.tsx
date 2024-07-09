@@ -23,14 +23,6 @@ const fontList = [
   'Georgia',
   'Lato',
   'Montserrat',
-  '黑体',
-  '仿宋',
-  '楷体',
-  '标楷体',
-  '华文仿宋',
-  '华文楷体',
-  '宋体',
-  '微软雅黑',
 ].map(item => ({ value: item, label: item }));
 
 // theme, If you need to change the theme, you can make a duplicate in https://arco.design/themes/design/1799/setting/base/Color
@@ -207,15 +199,6 @@ export default function App() {
                     >
                       <strong>Save</strong>
                     </Button>
-                    {featureEnabled && (
-                      <Button
-                        type='primary'
-                        target='_blank'
-                        href='https://demo.easyemail.pro?utm_source=easyemail'
-                      >
-                        Try commercial version
-                      </Button>
-                    )}
                   </Stack>
                 }
               />
