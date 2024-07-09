@@ -29,7 +29,7 @@ export type ISocial = IBlockData<
   },
   {
     elements: Array<{
-      content: string;
+      alt?: string;
       src: string;
       align?: string;
       alt?: string;
@@ -71,19 +71,31 @@ export const Social: IBlock<ISocial> = createBlock({
               href: '#',
               target: '_blank',
               src: getImg('IMAGE_02'),
-              content: 'Facebook',
+              alt: 'Facebook',
             },
             {
               href: '#',
               target: '_blank',
               src: getImg('IMAGE_03'),
-              content: 'Google',
+              alt: 'Twitter',
             },
             {
               href: '',
               target: '_blank',
               src: getImg('IMAGE_04'),
-              content: 'Twitter',
+              alt: 'Linkedin',
+            },
+            {
+              href: '',
+              target: '_blank',
+              src: getImg('IMAGE_05'),
+              alt: 'Youtube',
+            },
+            {
+              href: '',
+              target: '_blank',
+              src: getImg('IMAGE_06'),
+              alt: 'Justia',
             },
           ],
         },
@@ -94,13 +106,13 @@ export const Social: IBlock<ISocial> = createBlock({
         mode: 'horizontal',
         'font-size': '13px',
         'font-weight': 'normal',
-        'border-radius': '3px',
+        'border-radius': '0',
         padding: '10px 25px 10px 25px',
         'inner-padding': '4px 4px 4px 4px',
         'line-height': '22px',
         'text-padding': '4px 4px 4px 0px',
         'icon-padding': '0px',
-        'icon-size': '20px',
+        'icon-size': '32px',
       },
       children: [],
     };
@@ -112,11 +124,10 @@ export const Social: IBlock<ISocial> = createBlock({
     const elements = (data ).data.value.elements
       .map((element) => {
         const elementAttributeStr = Object.keys(element)
-          .filter((key) => key !== 'content' && element[key as keyof typeof element] !== '') // filter att=""
           .map((key) => `${key}="${element[key as keyof typeof element]}"`)
           .join(' ');
         return `
-          <mj-social-element ${elementAttributeStr}>${element.content}</mj-social-element>
+          <mj-social-element ${elementAttributeStr}></mj-social-element>
           `;
       })
       .join('\n');
