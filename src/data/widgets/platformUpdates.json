@@ -1,0 +1,21 @@
+{
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Justia Elevate Platform Updates"
+    },
+    "banner": "platform-updates.png",
+    "title": "Your Justia Elevate Platform Has Been Upgraded",
+    "description": [
+      "We've revamped the Justia Elevate platform, unlocking new functionalities and capabilities for you! Experience new features such as a customizable setting to hide phone labels in attorney profiles for a sleeker appearance, and the flexibility to insert scripts directly into pages. Additionally, we have integrated opening hours and social media links into the schema."
+    ],
+    "title2": "Justia Elevate WordPress Engine Updates",
+    "description2": [
+      "Security is always our top priority. We've updated your WordPress engine to the latest version. For more details, check out this <b><a href='https://wordpress.org/news/2024/05/wordpress-6-5-3-maintenance-release/' target='_blank'>post from WordPress</a></b>."
+    ],
+    "title3": "Justia Chat Closing Message Options",
+    "description3": [
+      "If you are using Justia Chat, our AI-powered lead generation tool, you now have the ability to change the closing message on the chat. You may choose from 2 new message options or create a custom message of your own. Find this in the Justia Elevate platform under Global Settings > Chatbots."
+    ]
+  }
+}

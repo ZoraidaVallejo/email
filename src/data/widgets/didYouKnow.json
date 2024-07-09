@@ -1,0 +1,33 @@
+{
+  "clients": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "Did You Know?"
+    },
+    "banner": "did-you-know-icon.png",
+    "title": "[Irure magna tempor Lorem ullamco cupidatat sint esse amet.]",
+    "link": "https://www.justia.com/",
+    "description": [
+      "[Elit Lorem ex sunt voluptate officia nisi veniam. Irure ipsum aliquip ad eu sunt excepteur ex in id labore velit fugiat enim. Aliqua anim tempor nostrud mollit proident dolor. Lorem veniam velit et mollit anim Lorem ipsum aliqua consequat proident ullamco.]"
+    ],
+    "button": {
+      "style": "justia-blue-ghost",
+      "link": "https://www.justia.com/",
+      "text": "Learn More",
+      "utm": {}
+    }
+  },
+  "jld": {
+    "widget": {
+      "icon": "did-you-know",
+      "header": "What's New in Design"
+    },
+    "banner": "whats-new.png",
+    "title": "",
+    "link": "https://www.justia.com/marketing/",
+    "description": [
+      "<b><span>New Info Blocks & Our Process Stripes</span></b><br> We’ve incorporated two sets of new stripes you can use on your website's Homepage. <b>Info Blocks</b> is a versatile section for displaying any information you'd like to showcase. <b>Our Process</b> can explain your firm's legal process to your potential client. Check out these new stripe options in <a href='https://elevatedesigns.justia.com/#feature-choices#homepage#process' target='_blank'>our gallery here</a>.",
+      "<b><span>Your Main Banner Image Can Now Include Video</span></b> <br> Now, you have the option to include video in your main banner image stripe. Check out your banner image options <a href='https://elevatedesigns.justia.com/#feature-choices#homepage#banner-image' target='_blank'>here</a>."
+    ]
+  }
+}

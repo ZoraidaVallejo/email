@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "From the Desk of Justia"
+  },
+  "banner": "justia-desk.png",
+  "news": [
+    {
+      "title": "Justia CLE & Webinars: AI in Law: Exploring 30+ Game-Changing Use Cases in 60 Minutes",
+      "link": "https://onward.justia.com/justia-cle-webinars-ai-in-law-exploring-30-game-changing-use-cases-in-60-minutes/",
+      "description": "AI is ever-changing and ever-growing. Even a few years ago, you probably could not predict its impact on a global scale, so how could you possibly imagine how it would affect the legal landscape and your practice? Well if you’re excited to see how AI can revolutionize the legal field, look no further!",
+      "index": "1"
+    },
+    {
+      "title": "Justia Chat Offers Lawyers Another Avenue for Generating Leads From Their Law Firm Website",
+      "link": "https://onward.justia.com/justia-chat-offers-lawyers-another-avenue-for-generating-leads-from-their-law-firm-website/",
+      "description": "Justia Chat is a powerful interactive tool designed to help law firms engage with website visitors seeking legal assistance. Discover how it can transform your legal practice today!",
+      "index": "2"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "client-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "quarterly-elevate-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1",
+        "readMore": "link-justia-desk-title-"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}
