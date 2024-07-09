@@ -154,6 +154,37 @@ const defaultCategories: ExtensionProps['categories'] = [
           />
         </div>
       </BlockAvatarWrapper>,
+      <BlockAvatarWrapper type={CustomBlocksType.BLOCK_TEST}>
+      <div
+        style={{
+          position: 'relative',
+          border: '1px solid #ccc',
+          marginBottom: 20,
+          width: '80%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        }}
+      >
+        <img
+          src={
+            'http://res.cloudinary.com/dwkp0e1yo/image/upload/v1665841389/ctbjtig27parugrztdhk.png'
+          }
+          style={{
+            maxWidth: '100%',
+          }}
+        />
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: 2,
+          }}
+        />
+      </div>
+    </BlockAvatarWrapper>,
     ],
   },
 ];
@@ -440,13 +471,6 @@ export default function Editor() {
                           <strong>Export</strong>
                         </Button>
                       </Dropdown>
-                      <Button
-                        type='primary'
-                        target='_blank'
-                        href='https://demo.easyemail.pro?utm_source=easyemail'
-                      >
-                        Try commercial version
-                      </Button>
                     </Stack>
                   }
                 />
