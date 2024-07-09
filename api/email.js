@@ -7,7 +7,7 @@ module.exports = async (request, response) => {
   const msg = {
     to: body.email,
     from: process.env.FROM_EMAIL,
-    subject: `${body.email} want to try commercial version `,
+    subject: `${body.email}`,
     text: `Email: ${body.email}`,
     html: `<strong>Email: ${body.email}</strong>`,
   };
