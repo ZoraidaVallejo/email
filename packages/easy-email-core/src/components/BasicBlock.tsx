@@ -41,7 +41,7 @@ export function BasicBlock(props: {
       return (
         <>
           {`<${tag} ${getAdapterAttributesString(adapterData)} src="${getImg(
-            'IMAGE_59'
+            'IMAGE_31'
           )}">`}
 
           {`</${tag}>`}
