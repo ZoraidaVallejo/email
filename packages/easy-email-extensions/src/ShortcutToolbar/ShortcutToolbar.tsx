@@ -14,7 +14,7 @@ export function ShortcutToolbar() {
       <BlocksPanel>
         <div ref={blocksPanelRef} />
       </BlocksPanel>
-      <DragIcon type={AdvancedType.TEXT} color='rgb(110, 215, 135)' payload={{ attributes: { padding: '0px 25px 0px 25px', 'align': 'center' } }} />
+      <DragIcon type={AdvancedType.TEXT || AdvancedType.TEXTTWO} color='rgb(110, 215, 135)' payload={{ attributes: { padding: '0px 25px 0px 25px', 'align': 'center' } }} />
       <DragIcon<IImage> payload={{ attributes: { padding: '0px 0px 0px 0px' } }} type={AdvancedType.IMAGE} color='rgb(250, 208, 97)' />
       <DragIcon<IButton> type={AdvancedType.BUTTON} color='rgb(238,144,172)' />
       <DragIcon type={AdvancedType.SOCIAL} color='rgb(111,206,236) ' />

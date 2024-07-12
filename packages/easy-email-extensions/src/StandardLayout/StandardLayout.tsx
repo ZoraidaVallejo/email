@@ -24,6 +24,9 @@ const defaultCategories: ExtensionProps['categories'] = [
         type: AdvancedType.TEXT,
       },
       {
+        type: AdvancedType.TEXTTWO,
+      },
+      {
         type: AdvancedType.IMAGE,
         payload: { attributes: { padding: '0px 0px 0px 0px' } },
       },

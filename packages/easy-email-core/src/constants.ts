@@ -7,6 +7,7 @@ export enum BasicType {
   COLUMN = 'column',
   GROUP = 'group',
   TEXT = 'text',
+  TEXTTWO = 'texttwo',
   IMAGE = 'image',
   DIVIDER = 'divider',
   SPACER = 'spacer',
@@ -30,6 +31,7 @@ export enum BasicType {
 // 高级组件
 export enum AdvancedType {
   TEXT = 'advanced_text',
+  TEXTTWO = 'advanced_texttwo',
   IMAGE = 'advanced_image',
   DIVIDER = 'advanced_divider',
   SPACER = 'advanced_spacer',

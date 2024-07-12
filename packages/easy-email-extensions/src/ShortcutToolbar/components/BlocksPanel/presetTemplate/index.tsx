@@ -3,6 +3,7 @@ import { AdvancedType } from 'easy-email-core';
 import { Stack, TextStyle } from 'easy-email-editor';
 
 import { TextBlockItem } from './TextBlockItem';
+import { TexttwoBlockItem } from './TexttwoBlockItem';
 import { ImageBlockItem } from './ImageBlockItem';
 import { SpacerBlockItem } from './SpacerBlockItem';
 import { DividerBlockItem } from './DividerBlockItem';
@@ -33,6 +34,16 @@ export const defaultCategories = [
           return t('This block allows you to display text in your email');
         },
         component: TextBlockItem,
+      },
+      {
+        type: AdvancedType.TEXTTWO,
+        get title() {
+          return t('Text');
+        },
+        get description() {
+          return t('This block allows you to display text in your email');
+        },
+        component: TexttwoBlockItem,
       },
       {
         type: AdvancedType.IMAGE,

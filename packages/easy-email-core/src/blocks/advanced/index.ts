@@ -22,10 +22,12 @@ import {
   AdvancedGroup,
   AdvancedColumn,
   AdvancedHero,
+  AdvancedTexttwo,
 } from './blocks';
 
 export const advancedBlocks = {
   [AdvancedType.TEXT]: AdvancedText,
+  [AdvancedType.TEXTTWO]: AdvancedTexttwo,
   [AdvancedType.BUTTON]: AdvancedButton,
   [AdvancedType.IMAGE]: AdvancedImage,
   [AdvancedType.DIVIDER]: AdvancedDivider,

@@ -2,6 +2,7 @@ import { IPage, Page } from './Page';
 import { ISection, Section } from './Section';
 import { Column, IColumn } from './Column';
 import { IText, Text } from './Text';
+import { ITexttwo, Texttwo } from './Texttwo';
 import { IImage, Image } from './Image';
 import { Group, IGroup } from './Group';
 import { Button, IButton } from './Button';
@@ -27,6 +28,7 @@ export const standardBlocks = {
   [BasicType.SECTION]: Section,
   [BasicType.COLUMN]: Column,
   [BasicType.TEXT]: Text,
+  [BasicType.TEXTTWO]: Texttwo,
   [BasicType.IMAGE]: Image,
   [BasicType.GROUP]: Group,
   [BasicType.BUTTON]: Button,
@@ -59,6 +61,7 @@ export type {
   IColumn,
   IGroup,
   IText,
+  ITexttwo,
   ITable,
   IImage,
   IButton,

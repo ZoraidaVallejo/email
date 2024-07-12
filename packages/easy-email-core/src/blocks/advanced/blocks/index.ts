@@ -6,6 +6,7 @@ import {
   INavbar,
   ISpacer,
   IText,
+  ITexttwo,
   IAccordion,
   ISocial,
   IWrapper,
@@ -21,6 +22,11 @@ import { generateAdvancedLayoutBlock } from '../generateAdvancedLayoutBlock';
 export const AdvancedText = generateAdvancedContentBlock<IText>({
   type: AdvancedType.TEXT,
   baseType: BasicType.TEXT,
+});
+
+export const AdvancedTexttwo = generateAdvancedContentBlock<ITexttwo>({
+  type: AdvancedType.TEXTTWO,
+  baseType: BasicType.TEXTTWO,
 });
 
 export const AdvancedButton = generateAdvancedContentBlock<IButton>({

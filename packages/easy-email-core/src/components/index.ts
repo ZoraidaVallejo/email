@@ -2,6 +2,7 @@ export { Page } from './Page';
 export { Section } from './Section';
 export { Column } from './Column';
 export { Text } from './Text';
+export { Texttwo } from './Texttwo';
 export { Image } from './Image';
 export { Group } from './Group';
 export { Button } from './Button';

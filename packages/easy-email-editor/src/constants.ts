@@ -21,4 +21,5 @@ export const CONTENT_EDITABLE_RICH_TEXT_CLASS_NAME = 'easy-email-content_editabl
 export enum ContentEditableType {
   RichText = 'rich_text',
   Text = 'text',
+  Texttwo = 'texttwo',
 }
