@@ -32,7 +32,6 @@ export type ISocial = IBlockData<
       alt?: string;
       src: string;
       align?: string;
-      alt?: string;
       'background-color'?: string;
       'border-radius'?: string;
       color?: string;
@@ -68,13 +67,13 @@ export const Social: IBlock<ISocial> = createBlock({
         value: {
           elements: [
             {
-              href: '#',
+              href: '',
               target: '_blank',
               src: getImg('IMAGE_02'),
               alt: 'Facebook',
             },
             {
-              href: '#',
+              href: '',
               target: '_blank',
               src: getImg('IMAGE_03'),
               alt: 'Twitter',
