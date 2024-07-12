@@ -1,0 +1,386 @@
+{
+  "path": "demo.json",
+  "article_id": 666,
+  "title": "Webinar Demo",
+  "summary": "Nice to meet you!",
+  "picture": "https://justatic.com/v/1/emails/images/webinars/common/placeholder.jpg",
+  "category_id": 96,
+  "origin_source": "",
+  "readcount": 67,
+  "user_id": 107,
+  "secret": 0,
+  "level": 10,
+  "created_at": 1645697464,
+  "updated_at": 1645865828,
+  "deleted_at": 0,
+  "content": {
+    "article_id": 802,
+    "content": {
+      "type": "page",
+      "data": {
+        "value": {
+          "breakpoint": "480px",
+          "headAttributes": "",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "1.7",
+          "headStyles": [],
+          "fonts": [],
+          "responsive": true,
+          "font-family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif",
+          "text-color": "#000000"
+        }
+      },
+      "attributes": {
+        "background-color": "#efeeea",
+        "width": "600px"
+      },
+      "children": [
+        {
+          "type": "advanced_wrapper",
+          "data": {
+            "value": {}
+          },
+          "attributes": {
+            "padding": "0px 0px 0px 0px",
+            "border": "none",
+            "direction": "ltr",
+            "text-align": "center",
+            "background-color": "#FFFFFF"
+          },
+          "children": [
+            {
+              "type": "advanced_image",
+              "data": {
+                "value": {}
+              },
+              "attributes": {
+                "align": "center",
+                "height": "50px",
+                "padding": "12px 0px 12px 0px",
+                "src": "https://justatic.com/v/2040227/branding/logos/emails/justia-webinars-blue.png",
+                "width": "311px"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "advanced_wrapper",
+          "data": {
+            "value": {}
+          },
+          "attributes": {
+            "padding": "0px 0px 0px 0px",
+            "border": "none",
+            "direction": "ltr",
+            "text-align": "center",
+            "background-color": "#FFFFFF"
+          },
+          "children": [
+            {
+              "type": "advanced_image",
+              "data": {
+                "value": {}
+              },
+              "attributes": {
+                "align": "center",
+                "height": "auto",
+                "padding": "0px 0px 0px 0px",
+                "src": "https://justatic.com/v/1/emails/images/webinars/common/placeholder.jpg"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "advanced_wrapper",
+          "data": {
+            "value": {}
+          },
+          "attributes": {
+            "padding": "50px 50px 50px 50px",
+            "border": "none",
+            "direction": "ltr",
+            "text-align": "center",
+            "background-color": "#FFFFFF"
+          },
+          "children": [
+            {
+              "type": "advanced_text",
+              "data": {
+                "value": {
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lorem in augue iaculis dapibus. Mauris hendrerit sapien eu justo finibus, id <b>mollis est porta</b>. Cras non arcu sapien. Pellentesque fermentum, dui id vestibulum consequat, neque felis ornare magna, in semper dui neque non nisl.&nbsp;<div><br></div><div>Fusce ac tristique metus. Suspendisse luctus nunc tempus ex auctor, eu iaculis ipsum vehicula. Phasellus sit amet porttitor purus. Aenean vel turpis sit amet odio tincidunt ullamcorper luctus non magna. Duis varius elementum tincidunt.</div>"
+                }
+              },
+              "attributes": {
+                "padding": "0px 0px 0px 0px",
+                "align": "left",
+                "font-size": "18px"
+              },
+              "children": []
+            },
+            {
+              "type": "advanced_button",
+              "data": {
+                "value": {
+                  "content": "Call to Action"
+                }
+              },
+              "attributes": {
+                "align": "center",
+                "background-color": "#e2231a",
+                "color": "#ffffff",
+                "font-weight": "bold",
+                "border-radius": "3px",
+                "padding": "30px 25px 10px 25px",
+                "inner-padding": "10px 25px 10px 25px",
+                "line-height": "120%",
+                "target": "_blank",
+                "vertical-align": "middle",
+                "border": "none",
+                "text-align": "center",
+                "href": "#"
+              },
+              "children": []
+            },
+            {
+              "type": "advanced_text",
+              "data": {
+                "value": {
+                  "content": "<div style=\"text-align: center;\"><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\">Or call us at </span><b style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\">(888) 587-8421</b></div>"
+                }
+              },
+              "attributes": {
+                "padding": "0px 25px 0px 25px",
+                "align": "left",
+                "font-size": "18px"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "advanced_wrapper",
+          "data": {
+            "value": {}
+          },
+          "attributes": {
+            "padding": "20px 0px 20px 0px",
+            "border": "none",
+            "direction": "ltr",
+            "text-align": "center",
+            "background-color": "#163679"
+          },
+          "children": [
+            {
+              "type": "advanced_section",
+              "data": {
+                "value": {
+                  "noWrap": false
+                }
+              },
+              "attributes": {
+                "padding": "0px 0px 0px 0px",
+                "background-repeat": "repeat",
+                "background-size": "auto",
+                "background-position": "top center",
+                "border": "none",
+                "direction": "ltr",
+                "text-align": "center"
+              },
+              "children": [
+                {
+                  "type": "advanced_column",
+                  "attributes": {
+                    "width": "33%",
+                    "padding": "0px 0px 0px 0px"
+                  },
+                  "data": {
+                    "value": {}
+                  },
+                  "children": [
+                    {
+                      "type": "advanced_image",
+                      "data": {
+                        "value": {}
+                      },
+                      "attributes": {
+                        "align": "center",
+                        "height": "29px",
+                        "padding": "0px 0px 0px 0px",
+                        "src": "https://justatic.com/v/2040227/shared/images/logos/justia-blue.png",
+                        "width": "111px"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "advanced_column",
+                  "attributes": {
+                    "width": "67%",
+                    "padding": "0px 0px 0px 0px"
+                  },
+                  "data": {
+                    "value": {}
+                  },
+                  "children": [
+                    {
+                      "type": "advanced_navbar",
+                      "data": {
+                        "value": {
+                          "links": [
+                            {
+                              "href": "https://www.justia.com/marketing/",
+                              "content": "Contact Us",
+                              "color": "#FFFFFF",
+                              "font-size": "14px",
+                              "target": "_blank",
+                              "padding": "5px 10px  ",
+                              "text-transform": "capitalize"
+                            },
+                            {
+                              "href": "%UNSUBSCRIBELINK%",
+                              "content": "Unsubscribe",
+                              "color": "#FFFFFF",
+                              "font-size": "13px",
+                              "target": "_blank",
+                              "padding": "5px 10px  ",
+                              "text-transform": "capitalize",
+                              "text-decoration": ""
+                            },
+                            {
+                              "href": "https://www.justia.com/privacy-policy/",
+                              "content": "Privacy Policy",
+                              "color": "#FFFFFF",
+                              "font-size": "13px",
+                              "target": "_blank",
+                              "padding": "5px 10px  ",
+                              "text-transform": "capitalize"
+                            }
+                          ]
+                        }
+                      },
+                      "attributes": {
+                        "align": "center"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "advanced_wrapper",
+          "data": {
+            "value": {}
+          },
+          "attributes": {
+            "padding": "20px 0px 50px 0px",
+            "border": "none",
+            "direction": "ltr",
+            "text-align": "center",
+            "background-color": "#FFFFFF"
+          },
+          "children": [
+            {
+              "type": "advanced_social",
+              "data": {
+                "value": {
+                  "elements": [
+                    {
+                      "href": "#",
+                      "target": "_blank",
+                      "src": "https://lawyers.justia.com/s/facebook-flat-64.png",
+                      "alt": "Facebook"
+                    },
+                    {
+                      "href": "#",
+                      "target": "_blank",
+                      "src": "https://lawyers.justia.com/s/twitter-flat-64.png",
+                      "alt": "Twitter"
+                    },
+                    {
+                      "href": "",
+                      "target": "_blank",
+                      "src": "https://lawyers.justia.com/s/linkedin-flat-64.png",
+                      "alt": "Linkedin"
+                    },
+                    {
+                      "href": "",
+                      "target": "_blank",
+                      "src": "https://lawyers.justia.com/s/youtube-flat-64.png",
+                      "alt": "Youtube"
+                    },
+                    {
+                      "href": "",
+                      "target": "_blank",
+                      "src": "https://lawyers.justia.com/s/justia-flat-64.png",
+                      "alt": "Justia"
+                    }
+                  ]
+                }
+              },
+              "attributes": {
+                "align": "center",
+                "color": "#333333",
+                "mode": "horizontal",
+                "font-size": "13px",
+                "font-weight": "normal",
+                "border-radius": "0",
+                "padding": "0px 25px 0px 25px",
+                "inner-padding": "4px 4px 4px 4px",
+                "line-height": "22px",
+                "text-padding": "4px 4px 4px 0px",
+                "icon-padding": "0px",
+                "icon-size": "32px"
+              },
+              "children": []
+            },
+            {
+              "type": "advanced_text",
+              "data": {
+                "value": {
+                  "content": "<div style=\"text-align: center;\"><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\">You are receiving this email because you are a </span><b style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\">Justia Connect</b><span style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\"> member.</span></div>"
+                }
+              },
+              "attributes": {
+                "padding": "15px 25px 0px 25px",
+                "align": "left"
+              },
+              "children": []
+            },
+            {
+              "type": "advanced_text",
+              "data": {
+                "value": {
+                  "content": "<div style=\"text-align: center;\"><b style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; word-spacing: normal;\">%SENDER-INFO-SINGLELINE%</b></div>"
+                }
+              },
+              "attributes": {
+                "padding": "0px 25px 10px 25px",
+                "align": "left"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tags": [
+    {
+      "tag_id": 64,
+      "name": "test",
+      "picture": "https://justatic.com/v/1/emails/images/webinars/common/placeholder.jpg",
+      "desc": "test",
+      "created_at": 1576227276,
+      "user_id": 64,
+      "updated_at": 0,
+      "deleted_at": 0
+    }
+  ]
+}

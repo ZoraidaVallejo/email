@@ -1,5 +1,33 @@
 [
   {
+    "path": "demo.json",
+    "article_id": 666,
+    "title": "Webinar Demo",
+    "summary": "Nice to meet you!",
+    "picture": "https://justatic.com/v/1/emails/images/webinars/common/placeholder.jpg",
+    "category_id": 96,
+    "origin_source": "",
+    "readcount": 67,
+    "user_id": 107,
+    "secret": 0,
+    "level": 10,
+    "created_at": 1645697464,
+    "updated_at": 1645865828,
+    "deleted_at": 0,
+    "tags": [
+      {
+        "tag_id": 64,
+        "name": "test",
+        "picture": "",
+        "desc": "test",
+        "created_at": 1576227276,
+        "user_id": 64,
+        "updated_at": 0,
+        "deleted_at": 0
+      }
+    ]
+  },
+  {
     "path": "St. Patrick's Day - Newsletter.json",
     "article_id": 902,
     "title": "Arturia - Newsletter",

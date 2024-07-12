@@ -5,6 +5,10 @@ export async function getTemplate(id: string | number) {
   if (!item) return null;
   let data: any = null;
   switch (item.path) {
+    case 'demo.json':
+      data = (await import('@demo/templates/demo.json')).default;
+      break;
+
     case 'Arturia - Newsletter.json':
       data = (await import('@demo/templates/Arturia - Newsletter.json')).default;
       break;
