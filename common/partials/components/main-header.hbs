@@ -59,7 +59,6 @@
   {{#table class=(classList "main-header" @root.headerLayoutClass @root.headerLogoModifierClass widgetClass "set-max-width")}}
     <tr>
       <td class="wrapper" responsive="mobile-padding-horizontal-sides {{@root.headerWrapperResponsive}}">
-        {{>ui-spacer-hack}}
 
         {{#compare widgetConfig.layout "===" "logo-only"}}
           {{>main-logo widgetConfig=@root.headerLogoConfig}}
