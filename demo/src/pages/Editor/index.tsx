@@ -88,7 +88,22 @@ const defaultCategories: ExtensionProps['categories'] = [
         type: AdvancedType.WRAPPER,
       },
       {
-        type: AdvancedType.TEXTTWO,
+        type: AdvancedType.ACCORDION,
+      },
+      {
+        type: AdvancedType.CAROUSEL,
+      },
+      {
+        type: AdvancedType.COLUMN,
+      },
+      {
+        type: AdvancedType.GROUP,
+      },
+      {
+        type: AdvancedType.NAVBAR,
+      },
+      {
+        type: AdvancedType.SECTION,
       },
     ],
   },
@@ -131,7 +146,7 @@ const defaultCategories: ExtensionProps['categories'] = [
           style={{
             position: 'relative',
             border: '1px solid #ccc',
-            marginBottom: 20,
+            marginBottom: 0,
             width: '80%',
             marginLeft: 'auto',
             marginRight: 'auto',
@@ -139,7 +154,7 @@ const defaultCategories: ExtensionProps['categories'] = [
         >
           <img
             src={
-              'http://res.cloudinary.com/dwkp0e1yo/image/upload/v1665841389/ctbjtig27parugrztdhk.png'
+              'https://placehold.co/160x120/042453/fff/?text=Placeholder'
             }
             style={{
               maxWidth: '100%',
@@ -162,7 +177,7 @@ const defaultCategories: ExtensionProps['categories'] = [
         style={{
           position: 'relative',
           border: '1px solid #ccc',
-          marginBottom: 20,
+          marginBottom: 0,
           width: '80%',
           marginLeft: 'auto',
           marginRight: 'auto',
@@ -170,7 +185,7 @@ const defaultCategories: ExtensionProps['categories'] = [
       >
         <img
           src={
-            'http://res.cloudinary.com/dwkp0e1yo/image/upload/v1665841389/ctbjtig27parugrztdhk.png'
+            'https://placehold.co/160x120/042453/fff/?text=Law+Event'
           }
           style={{
             maxWidth: '100%',
@@ -201,14 +216,6 @@ const fontList = [
   'Georgia',
   'Lato',
   'Montserrat',
-  '黑体',
-  '仿宋',
-  '楷体',
-  '标楷体',
-  '华文仿宋',
-  '华文楷体',
-  '宋体',
-  '微软雅黑',
 ].map(item => ({ value: item, label: item }));
 
 export default function Editor() {

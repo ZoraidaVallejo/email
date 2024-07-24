@@ -10,163 +10,102 @@ import {
 
 import { CustomBlocksType } from '../constants';
 import React from 'react';
+import { link } from 'fs';
 
-const { Column, Section, Wrapper, Text, Button, Image, Group } = components;
+const {Wrapper, Section, Column, Image, Navbar } = components;
 
 export type IBlockTest = IBlockData<
   {
-    'background-color': string;
-    'button-color': string;
-    'button-text-color': string;
-    'product-name-color': string;
-    'product-price-color': string;
-    'title-color': string;
+    'background-color'?: string;
+    'text-color'?: string;
+    align?: string;
   },
   {
-    title: string;
-    buttonText: string;
-    quantity: number;
+    links: Array<{
+      content: string;
+      color?: string;
+      href?: string;
+      'font-family'?: string;
+      'font-size'?: string;
+      'font-style'?: string;
+      'font-weight'?: string;
+      'line-height'?: string;
+      'text-decoration'?: string;
+      target?: string;
+      padding?: string;
+    }>;
   }
 >;
-
-const productPlaceholder = {
-  image: 'https://assets.maocanhua.cn/8e0e07e2-3f84-4426-84c1-2add355c558b-image.png',
-  title: 'Red Flock Buckle Winter Boots',
-  price: '$59.99 HKD',
-  url: 'https://easy-email-m-ryan.vercel.app',
-};
 
 export const BlockTest = createCustomBlock<IBlockTest>({
   name: 'Product recommendation',
   type: CustomBlocksType.BLOCK_TEST,
   validParentType: [BasicType.PAGE, AdvancedType.WRAPPER, BasicType.WRAPPER],
-  create: payload => {
+  create: (payload) => {
     const defaultData: IBlockTest = {
       type: CustomBlocksType.BLOCK_TEST,
       data: {
         value: {
-          title: 'You might also like',
-          buttonText: 'Buy now',
-          quantity: 3,
+          links: [
+            {
+              href: 'https://www.justia.com/marketing/',
+              content: 'Contact Us',
+              color: '#ffffff',
+              'font-size': '14px',
+              target: '_blank',
+              padding: '5px 10px',
+            },
+            {
+              href: 'https://www.justia.com/marketing/',
+              content: 'Unsubscribe',
+              color: '#ffffff',
+              'font-size': '14px',
+              target: '_blank',
+              padding: '5px 10px',
+            },
+            {
+              href: 'https://www.justia.com/privacy-policy/',
+              content: 'Privacy Policy',
+              color: '#ffffff',
+              'font-size': '14px',
+              target: '_blank',
+              padding: '5px 10px',
+            },
+          ],
         },
       },
       attributes: {
+        align: 'center',
         'background-color': '#ffffff',
-        'button-text-color': '#ffffff',
-        'button-color': '#414141',
-        'product-name-color': '#414141',
-        'product-price-color': '#414141',
-        'title-color': '#222222',
       },
       children: [
-        {
-          type: BasicType.TEXT,
-          children: [],
-          data: {
-            value: {
-              content: 'custom block title',
-            },
-          },
-          attributes: {},
-        },
       ],
     };
     return mergeBlock(defaultData, payload);
   },
-  render: ({ data, idx, mode, context, dataSource }) => {
-    const { title, buttonText, quantity } = data.data.value;
-    const attributes = data.attributes;
 
-    const productList =
-      mode === 'testing'
-        ? new Array(quantity).fill(productPlaceholder)
-        : (dataSource?.product_list || []).slice(0, quantity);
+  render(params) {
+    const { data } = params;
+    const attributes = (data).attributes;
+    const links = (data).data.value.links.map((link) => {
+      const linkAttributeStr = Object.keys(link)
+        .filter((key) => key !== 'content' && link[key as keyof typeof link] !== '') // filter att=""
+        .map((key) => `${key}="${link[key as keyof typeof link]}"`)
+        .join(' ');
+      return `<mj-navbar-link ${linkAttributeStr}>${link.content}</mj-navbar-link>`;
+    }).join('\n');
 
-    const perWidth = quantity <= 3 ? '' : '33.33%';
+    console.log(links)
 
     return (
       <Wrapper
-        css-class={mode === 'testing' ? getPreviewClassName(idx, data.type) : ''}
         padding='20px 0px 20px 0px'
         border='none'
         direction='ltr'
         text-align='center'
         background-color={attributes['background-color']}
       >
-        <Section padding='0px'>
-          <Column
-            padding='0px'
-            border='none'
-            vertical-align='top'
-          >
-            <Text
-              font-size='20px'
-              padding='10px 25px 10px 25px'
-              line-height='1'
-              align='center'
-              font-weight='bold'
-              color={attributes['title-color']}
-            >
-              {title}
-            </Text>
-          </Column>
-        </Section>
-
-        <Section padding='0px'>
-          <Group
-            vertical-align='top'
-            direction='ltr'
-          >
-            {productList.map((item, index) => (
-              <Column
-                key={index}
-                width={perWidth}
-                padding='0px'
-                border='none'
-                vertical-align='top'
-              >
-                <Image
-                  align='center'
-                  height='auto'
-                  padding='10px'
-                  width='150px'
-                  src={item.image}
-                />
-                <Text
-                  font-size='12px'
-                  padding='10px 0px 10px 0px '
-                  line-height='1'
-                  align='center'
-                  color={attributes['product-name-color']}
-                >
-                  {item.title}
-                </Text>
-                <Text
-                  font-size='12px'
-                  padding='0px'
-                  line-height='1'
-                  align='center'
-                  color={attributes['product-price-color']}
-                >
-                  {item.price}
-                </Text>
-                <Button
-                  align='center'
-                  padding='15px 0px'
-                  background-color={attributes['button-color']}
-                  color={attributes['button-text-color']}
-                  target='_blank'
-                  vertical-align='middle'
-                  border='none'
-                  text-align='center'
-                  href={item.url}
-                >
-                  {buttonText}
-                </Button>
-              </Column>
-            ))}
-          </Group>
-        </Section>
+            <Navbar>{links}</Navbar>
       </Wrapper>
     );
   },

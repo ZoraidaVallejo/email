@@ -23,6 +23,7 @@ import {
   AdvancedColumn,
   AdvancedHero,
   AdvancedTexttwo,
+  AdvancedFooter
 } from './blocks';
 
 export const advancedBlocks = {
@@ -42,6 +43,7 @@ export const advancedBlocks = {
   [AdvancedType.GROUP]: AdvancedGroup,
   [AdvancedType.COLUMN]: AdvancedColumn,
   [AdvancedType.HERO]: AdvancedHero,
+  [AdvancedType.FOOTER]: AdvancedFooter,
 };
 
 export { Operator, OperatorSymbol };

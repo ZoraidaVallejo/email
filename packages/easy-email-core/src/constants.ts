@@ -26,6 +26,8 @@ export enum BasicType {
   TABLE = 'table',
 
   TEMPLATE = 'template',
+
+  FOOTER = 'footer',
 }
 
 // 高级组件
@@ -46,6 +48,8 @@ export enum AdvancedType {
   COLUMN = 'advanced_column',
   GROUP = 'advanced_group',
   HERO = 'advanced_hero',
+
+  FOOTER = 'advanced_footer'
 }
 
 export const MERGE_TAG_CLASS_NAME = 'easy-email-merge-tag-container';

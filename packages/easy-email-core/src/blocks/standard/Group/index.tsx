@@ -18,7 +18,7 @@ export const Group: IBlock<IGroup> = createBlock({
     return t('Group');
   },
   type: BasicType.GROUP,
-  create: (payload) => {
+  create: payload => {
     const defaultData: IGroup = {
       type: BasicType.GROUP,
       data: {
@@ -35,6 +35,11 @@ export const Group: IBlock<IGroup> = createBlock({
   validParentType: [BasicType.SECTION],
 
   render(params) {
-    return <BasicBlock params={params} tag="mj-group" />;
+    return (
+      <BasicBlock
+        params={params}
+        tag='mj-group'
+      />
+    );
   },
 });

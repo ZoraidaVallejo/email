@@ -21,6 +21,7 @@ import { AccordionElement, IAccordionElement } from './AccordionElement';
 import { AccordionTitle, IAccordionTitle } from './AccordionTitle';
 import { AccordionText, IAccordionText } from './AccordionText';
 import { Table, ITable } from './Table';
+import { Footer, IFooter } from './Footer';
 import { BasicType } from '@core/constants';
 
 export const standardBlocks = {
@@ -52,6 +53,8 @@ export const standardBlocks = {
   [BasicType.ACCORDION_TEXT]: AccordionText,
 
   [BasicType.TABLE]: Table,
+
+  [BasicType.FOOTER]: Footer,
 };
 
 export type {
@@ -77,4 +80,5 @@ export type {
   IAccordionTitle,
   IAccordionText,
   ITemplate,
+  IFooter
 };

@@ -20,6 +20,7 @@ import { Hero } from './Hero';
 import { Navbar } from './Navbar';
 import { Social } from './Social';
 import { Table } from './Table';
+import { Footer } from './Footer';
 import { BasicType, AdvancedType } from 'easy-email-core';
 
 export const blocks = {
@@ -61,4 +62,6 @@ export const blocks = {
   [AdvancedType.SECTION]: Section,
   [AdvancedType.GROUP]: Group,
   [AdvancedType.COLUMN]: Column,
+
+  [AdvancedType.FOOTER]: Footer,
 };

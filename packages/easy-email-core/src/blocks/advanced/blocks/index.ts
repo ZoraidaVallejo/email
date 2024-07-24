@@ -14,6 +14,7 @@ import {
   IGroup,
   IColumn,
   IHero,
+  IFooter,
 } from '../../standard';
 import { AdvancedType, BasicType } from '@core/constants';
 import { generateAdvancedContentBlock } from '../generateAdvancedContentBlock';
@@ -107,5 +108,15 @@ export const AdvancedHero = generateAdvancedLayoutBlock<IHero>({
     BasicType.WRAPPER,
     AdvancedType.WRAPPER,
     BasicType.PAGE,
+  ],
+});
+
+export const AdvancedFooter = generateAdvancedLayoutBlock<IFooter>({
+  type: AdvancedType.FOOTER,
+  baseType: BasicType.FOOTER,
+  validParentType: [
+    BasicType.PAGE,
+    BasicType.WRAPPER,
+    BasicType.COLUMN
   ],
 });

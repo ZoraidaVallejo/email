@@ -89,6 +89,18 @@ export const defaultCategories = [
         component: HeroBlockItem,
       },
       {
+        type: AdvancedType.FOOTER,
+        get title() {   
+          return t('Footer');
+        },
+        get description() {
+          return t(
+            'This block displays a Footer stripe with logo and navbar.',
+          );
+        },
+        component: HeroBlockItem,
+      },
+      {
         type: AdvancedType.NAVBAR,
         get title() {
           return t('Navbar');
