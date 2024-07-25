@@ -1,0 +1,94 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   L A W Y E R                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   featuredLawyer
+ * @param {Object}   featuredLawyer.button
+ * @param {String}   featuredLawyer.button.style
+ * @param {String}   featuredLawyer.button.link
+ * @param {String}   featuredLawyer.button.text
+ * @param {Object[]} featuredLawyer.list
+ * @param {String}   featuredLawyer.list[].id
+ * @param {Number}   featuredLawyer.list[].rank
+ * @param {String}   featuredLawyer.list[].name
+ * @param {String}   featuredLawyer.list[].location
+ * @param {String}   featuredLawyer.list[].nameLink
+ * @param {String}   featuredLawyer.list[].photoLink
+ * @param {String[]} featuredLawyer.description
+}}
+
+{{#and featuredLawyer.button (compare featuredLawyer.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-featured-lawyer set-max-width"}}
+  {{>widget-header
+    header=featuredLawyer.widget.header
+    icon=featuredLawyer.widget.icon
+    link=featuredLawyer.widget.link
+  }}
+
+  <tr class="widget-columns -image-text  ui-columns-grid">
+    <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#table}}
+          <tr class="content-wrapper -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}">
+            <td class="content -image-description" responsive="mobile-padding-horizontal-sides">
+              <div class="content-side -image" responsive="collapse-one mobile-padding-bottom">
+                {{#if featuredLawyer.featured.photoLink}}<a href="{{{featuredLawyer.featured.photoLink}}}" target="_blank" class="block-image-link">{{/if}}
+                  {{>img src="insights-featured-lawyer-01.jpg" alt=featuredLawyer.featured.name class="block-image"}}
+                {{#if featuredLawyer.featured.photoLink}}</a>{{/if}}
+                <div class="lawyer-info" responsive="mobile-align-center">
+                  <p class="name"><b>{{{featuredLawyer.featured.name}}}</b></p>
+                  <p class="location">{{{featuredLawyer.featured.location}}}</p>
+                </div>
+              </div>
+              <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                {{#if featuredLawyer.title}}
+                <p class="title">
+                  {{#and featuredLawyer.widget.link (compare featuredLawyer.widget.link "!==" "")}}<a href='{{{featuredLawyer.widget.link}}}' target="_blank">{{/and}}
+                  <b>{{{featuredLawyer.title}}}</b>
+                  {{#and featuredLawyer.widget.link (compare featuredLawyer.widget.link "!==" "")}}</a>{{/and}}
+                </p>
+                {{/if}}
+                {{#each featuredLawyer.description}}
+                  <p>{{{this}}}</p>
+                {{/each}}
+              </div>
+            </td>
+          </tr>
+        {{/table}}
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="badge-block widget-description" responsive="mobile-padding-20-horizontal-sides">
+      {{#table class="images-group" responsive="mobile-reset-width mobile-no-padding-horizontal-sides" }}
+        <tr>
+          <td class="wrapper -badge" responsive="mobile-hide mobile-no-padding-horizontal-sides">
+            {{>img src="https://justatic.com/v/20190708/emails/images/newsletters/common/v2/justia-badge.png" alt="Justia Badge" class="badge"}}
+          </td>
+          <td class="wrapper -info -active" responsive="mobile-padding-horizontal-sides">
+            <p class="name">
+              Request Peer Reviews Today.
+              {{#if featuredLawyer.button.link}}<a href="{{{featuredLawyer.button.link}}}" target="_blank">{{/if}}
+                Learn More ›
+              {{#if featuredLawyer.button.link}}</a>{{/if}}
+              {{#if featuredLawyer.featured.pro}}{{>img src="pro-label.png" alt="Pro" class="pro-label"}}{{/if}}
+            </p>
+          </td>
+        </tr>
+      {{/table}}
+    </td>
+  </tr>
+{{/table}}

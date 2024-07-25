@@ -1,0 +1,25 @@
+{{! ================================================================================================================= }}
+{{! W I D G E T   -   D A T E   S Q U A R E                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+ * @param {string} eventMonth
+ * @param {string} eventDay
+}}
+
+{{! ================================================================================================================= }}
+{{#table}}
+    <tr>
+      <td class="{{classList "widget-date-square" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+          <p class="event-month">{{eventMonth}}</p>
+          <p class="event-day">{{eventDay}}</p>
+      </td>
+    </tr>
+    {{#if cle}}
+    <tr>
+        <td class="{{classList "widget-event-category" widgetClass}}" responsive="mobile-no-padding-horizontal-sides">
+          <div class="category"><span>CLE</span></div>
+        </td>
+    </tr>
+    {{/if}}
+{{/table}}

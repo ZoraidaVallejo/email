@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "News"
+  },
+  "banner": "",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Justia Chat Offers Lawyers Another Avenue for Generating Leads From Their Law Firm Website",
+      "link": "https://onward.justia.com/justia-chat-offers-lawyers-another-avenue-for-generating-leads-from-their-law-firm-website/",
+      "description": "Justia Chat is a powerful interactive tool designed to help law firms engage with website visitors seeking legal assistance. Discover how it can transform your legal practice today!",
+      "index": "1"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

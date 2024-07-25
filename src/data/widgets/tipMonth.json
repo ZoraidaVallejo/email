@@ -1,0 +1,42 @@
+{
+  "widget": {
+    "header": "Tip of the Month"
+  },
+  "clients": {
+    "link": "",
+    "title": "",
+    "description": [
+      ""
+    ],
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Contact Us",
+      "width": 150
+    }
+  },
+  "jld": {
+    "link": "##",
+    "columns": [
+      {
+        "image": {
+          "src": "insights-tip-of-the-month.png",
+          "alt": "Tip of the Month"
+        },
+        "title": "",
+        "link": "",
+        "description": [
+          "<strong>Go Pro and Get $200<a class=\"display-inlineb\" href=\"https://connect.justia.com/pro/terms/credit\">*</a></strong>",
+          "We're giving Justia Connect Pro members a $200 credit applicable toward select Justia Marketing Solutions! Upgrade today to save on your website, premium directory placements, or PPC management from Justia. Plus, your annual Justia Connect membership fee pays for itself when you use your credit! If you’re already enjoying your Justia services, be sure you don’t miss this opportunity to save."
+        ]
+      }
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://connect.justia.com/pro",
+      "text": "Go Pro Now",
+      "width": 150,
+      "fontSize": 20
+    }
+  }
+}

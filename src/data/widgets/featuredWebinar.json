@@ -1,0 +1,48 @@
+{
+  "widget": {
+    "icon": "",
+    "header": "Justia Webinars"
+  },
+  "link": "https://connect.justia.com/webinars/expert-witnesses-and-artificial-intelligence",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-webinar-title-1",
+        "image": "image-webinar-1",
+        "button": "button-register-now-1"
+      }
+    }
+  },
+  "image": "insights-webinar-01.jpg",
+  "title": "",
+  "contentOrder": [
+    {
+      "type": "description",
+      "config": [
+        "Expert witnesses are used in virtually every litigation. Artificial intelligence (AI) is changing the way that law is practiced, including the use of expert witnesses. Through this webinar, you will discover how to use AI to research experts, prepare for their depositions, and evaluate their credibility. You will also learn the role that expert witnesses will play in an emerging AI legal environment. <a class=\"display-inlineb\" href=\"https://connect.justia.com/webinars/expert-witnesses-and-artificial-intelligence\">Register Now ›</a>"
+      ]
+    },
+    {
+      "type": "image-description",
+      "config": {
+        "image": "calendar-icon.png",
+        "description": [
+          "Aug 22, 1:00 PM ET/10:00 AM PT"
+        ]
+      }
+    }
+  ]
+}

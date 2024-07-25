@@ -1,0 +1,45 @@
+{
+  "clients": {
+    "widget": {
+      "header": "Featured Q&A",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=text-featured-qa-1"
+    },
+    "question": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam?"
+    ],
+    "answer": [
+      "<b>Answer:</b> Curabitur non lorem eu felis rutrum dapibus sagittis nec erat. Integer id mollis urna. Aenean semper purus enim, et dictum metus facilisis ut..."
+    ],
+    "photoLink": "LINK?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=image-featured-qa-1",
+    "name": "<b>Name Lastname</b>",
+    "location": "Location",
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=button-view-full-answer-1",
+      "text": "View Full Answer",
+      "width": 170
+    }
+  },
+  "jld": {
+    "widget": {
+      "header": "Featured Q&A",
+      "link": "https://answers.justia.com/question/2024/07/02/can-i-win-against-an-adoption-petition-1020625?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=text-featured-qa-1"
+    },
+    "question": [
+      "Can I win against an adoption petition?"
+    ],
+    "answer": [
+      "You are in a very tough position. A biological parent's consent is not needed for a step-parent adoption if they have…"
+    ],
+    "photoLink": "https://answers.justia.com/question/2024/07/02/can-i-win-against-an-adoption-petition-1020625?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=image-featured-qa-1",
+    "name": "Nicholas Matlach",
+    "location": "Cleveland Heights, OH",
+    "learnMore": "https://answers.justia.com/question/2024/07/02/can-i-win-against-an-adoption-petition-1020625?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=learn-more-answer-1",
+    "button": {
+      "style": "red",
+      "link": "https://answers.justia.com/question/2024/07/02/can-i-win-against-an-adoption-petition-1020625?utm_medium=email&utm_campaign=2024-07&utm_source=insights-newsletter&utm_content=button-view-full-answer-1",
+      "text": "View Full Answer",
+      "width": 170
+    }
+  }
+}

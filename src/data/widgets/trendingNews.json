@@ -1,0 +1,109 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "news": [
+        {
+          "title": "Custom ChatGPTs: Navigating Legal and Ethical Compliance for Public-Facing AI Tools",
+          "link": "https://myshingle.com/2024/07/articles/artificial-intelligence/custom-chatgpts-navigating-legal-and-ethical-compliance-for-public-facing-ai-tools/",
+          "via": "My Shingle"
+        },
+        {
+          "title": "The Push To Develop Generative A.I. Without All the Lawsuits",
+          "link": "https://www.nytimes.com/2024/07/19/technology/generative-ai-getty-shutterstock.html",
+          "via": "NYT"
+        },
+        {
+          "title": "The Data That Powers A.I. Is Disappearing Fast",
+          "link": "https://www.nytimes.com/2024/07/19/technology/ai-data-restrictions.html",
+          "via": "NYT"
+        },
+        {
+          "title": "What Is Apple Intelligence, When Is It Coming and Who Will Get It?",
+          "link": "https://techcrunch.com/2024/07/18/what-is-apple-intelligence-when-is-coming-and-who-will-get-it/",
+          "via": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "news": [
+        {
+          "title": "The SEO’s Guide to Google Search Console",
+          "link": "https://searchengineland.com/google-search-console-seo-guide-443942",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "Google Posts Reviews Troubleshooting & FAQs for Missing and Remove Reviews",
+          "link": "https://www.seroundtable.com/google-reviews-troubleshooting-faqs-37648.html",
+          "via": "Search Engine Roundtable"
+        },
+        {
+          "title": "Content Marketing and SEO: Creating an Integrated SEO Plan",
+          "link": "https://searchengineland.com/content-marketing-seo-integrated-plan-444094",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "Internal Linking for Bloggers: 9 Mistakes To Fix Immediately",
+          "link": "https://searchengineland.com/internal-linking-blogger-mistakes-444009",
+          "via": "Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "news": [
+        {
+          "title": "20 Confirmed Facts About YouTube’s Algorithm",
+          "link": "https://www.searchenginejournal.com/confirmed-facts-about-youtubes-algorithm/",
+          "via": "Via Search Engine Journal"
+        },
+        {
+          "title": "Should My Law Firm Be on TikTok? 4 Questions To Ask Before Adopting Any Social Media Platform",
+          "link": "https://www.attorneyatwork.com/should-my-law-firm-be-on-tiktok/",
+          "via": "Attorney At Work"
+        },
+        {
+          "title": "A New Development in the Debate About Instagram and Teens",
+          "link": "https://www.theatlantic.com/technology/archive/2024/07/instagram-teen-well-being-studies/679048/",
+          "via": "The Atlantic"
+        },
+        {
+          "title": "Instagram Will Enable You To Add 20 Audio Tracks to Reels",
+          "link": "https://www.socialmediatoday.com/news/instagram-now-enable-add-20-audio-tracks-reels/",
+          "via": "Social Media Today"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "news": [
+        {
+          "title": "Roberts Court Hands Major Wins to Trump, Conservative Movement in 2023–24 Term",
+          "link": "https://www.scotusblog.com/2024/07/roberts-court-hands-major-wins-to-trump-conservative-movement-in-2023-24-term/",
+          "via": "SCOTUSblog"
+        },
+        {
+          "title": "What Should a Court Do When Faced with a 40-Year-Old Conviction Resting on Science That Has Now Been Wholly Discredited?",
+          "link": "https://reason.com/volokh/2024/07/02/what-should-a-court-do-when-faced-with-a-40-year-old-convicion-resting-on-science-that-has-now-been-wholly-discredited/",
+          "via": "Reason"
+        },
+        {
+          "title": "Judge Dismisses Classified Documents Case Against Trump",
+          "link": "https://www.nytimes.com/live/2024/07/15/us/trump-documents-case-dismissed",
+          "via": "NYT"
+        },
+        {
+          "title": "The Law Firm Hitting Businesses With Thousands of Disability Suits",
+          "link": "https://www.wsj.com/business/entrepreneurship/small-business-web-accessibility-lawsuits-c910f6fb",
+          "via": "The Wall Street Journal"
+        }
+      ]
+    }
+  ]
+}

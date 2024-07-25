@@ -1,0 +1,31 @@
+{
+  "widget": {
+    "header": "Justia Deals"
+  },
+  "columns": [
+    {
+      "image": {
+        "src": "insights-deals-03.jpg",
+        "alt": "Legal Deals"
+      },
+      "title": "Legal Deals",
+      "description": [
+        "Discover vLex’s intelligent legal research platform, with content from over 100 countries and AI-powered tools to enhance your productivity."
+      ],
+      "linkText": "Get Deal ›",
+      "readMore": "https://connect.justia.com/legal-deals/vlex/7-day-free-access"
+    },
+    {
+      "image": {
+        "src": "insights-deals-02.jpg",
+        "alt": "Lifestyle Savings"
+      },
+      "title": "Lifestyle Savings",
+      "description": [
+        "Save 31% On AMC® Yellow eTickets (Not Valid in CA, NY, or NJ) Save 25% on AMC® Black eTickets."
+      ],
+      "linkText": "Start Saving ›",
+      "readMore": "https://deals.justia.com/discounts/brands/AMC"
+    }
+  ]
+}

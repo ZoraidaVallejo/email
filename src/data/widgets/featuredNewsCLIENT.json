@@ -1,0 +1,39 @@
+{
+  "widget": {
+    "icon": "featured-news",
+    "header": "Featured News"
+  },
+  "link": "https://onward.justia.com/14-essential-elements-for-your-law-firm-website-homepage/",
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-onward-post-title-1",
+        "image": "image-onward-post-1",
+        "button": "button-learn-more-1"
+      }
+    }
+  },
+  "banner": "featured-news-02.jpg",
+  "title": "6 Factors Influencing Your Law Firm Website Conversion Rates",
+  "description": [
+    "Your website homepage often is the first impression your law firm makes on new clients! Plus, it plays an integral role in your SEO strategy and online visibility. To learn more about the essential elements of your law firm website's homepage, check out this post!"
+  ],
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/14-essential-elements-for-your-law-firm-website-homepage/",
+    "text": "Read More"
+  }
+}
