@@ -1,15 +1,45 @@
 {
   "v1": {
     "link": "#",
-    "title": "<b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b>",
+    "title": "<b>Lorem ipsum dolor</b><br><span>Sunt officia irure adipisicing sit sit consectetur velit!<span>",
     "contentOrder": [
       {
         "type": "description",
         "config": [
-          "<span><b>[Sunt officia irure adipisicing sit sit consectetur velit.]</b></span>",
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>",
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>",
-          ""
+          "<p>Hi [Name],</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Lorem ipsum dolor sit amet</b></p>",
+          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Lorem ipsum dolor sit amet</b></p>",
+          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p><b>Lorem ipsum dolor sit amet</b></p>",
+          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem.</p>"
         ]
       },
       {
@@ -51,7 +81,7 @@
       {
         "type": "description",
         "config": [
-          "<p>*Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime.</p>"
+          "<p class=\"-disclaimer\">*Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime.</p>"
         ]
       }
     ]
