@@ -1,7 +1,6 @@
 {
   "v1": {
-    "link": "#",
-    "title": "<b>Lorem ipsum dolor</b><br><span>Sunt officia irure adipisicing sit sit consectetur velit!<span>",
+    "title": "<strong>Introducing Justia Chat</strong><span>Exclusive to Justia Connect Pro Members in the Justia Lawyer Directory!</span>",
     "contentOrder": [
       {
         "type": "description",
@@ -12,147 +11,88 @@
       {
         "type": "description",
         "config": [
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+          "<p>Starting July 30th, your Justia Lawyer Directory Profile will feature our latest <b>Justia Connect Pro benefit—Justia Chat!</b></p>"
         ]
       },
       {
         "type": "description",
         "config": [
-          "<p><b>Lorem ipsum dolor sit amet</b></p>",
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+          "<p><b>What is Justia Chat?</b></p>",
+          "<p>Justia Chat is a <b>new and exclusive benefit</b> for Justia Connect Pro members like yourself. It is an AI-powered lead generation tool designed to streamline interactions with potential clients on your Justia Lawyer Directory Profile. Powered by AI, this virtual assistant engages visitors and gathers pertinent information, transforming it into actionable leads for you.</p>"
         ]
       },
       {
         "type": "description",
         "config": [
-          "<p><b>Lorem ipsum dolor sit amet</b></p>",
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+          "<p><b>What This New Benefit Means for You?</b></p>",
+          "<p>Having Justia Chat* on your Jusita Lawyer Directory Profile can boost your chances of getting even more potential clients from your enhanced profile.</p>"
         ]
       },
       {
         "type": "description",
         "config": [
-          "<p><b>Lorem ipsum dolor sit amet</b></p>",
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem. Perspiciatis quasi neque quidem, ratione quod rem ut, laborum esse, blanditiis distinctio in ex voluptatem beatae velit et nesciunt praesentium eum? Corrupti, accusantium.</p>"
+          "<p><b>How Do I Unlock This New Perk?</b></p>",
+          "<p>Sit back and relax! This benefit will automatically be added to your Justia Lawyer Directory Profile on July 30—no action required.</p>"
         ]
       },
       {
         "type": "description",
         "config": [
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime, similique quod, harum temporibus autem.</p>"
+          "<p>However, if you wish to disable the Justia Chat feature, the instructions are below:</p>"
         ]
       },
       {
-        "type": "image-description",
+        "type": "list-description",
         "config": {
           "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-01.png",
+          "text": [
+            "1"
+          ],
           "description": [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+            "Log into your Justia Lawyer Directory Profile: <strong><a href=\"https://www.justia.com/lawyers\">https://www.justia.com/lawyers</a></strong>"
           ]
         }
       },
       {
-        "type": "image-description",
+        "type": "list-description",
         "config": {
           "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-02.png",
+          "text": [
+            "2"
+          ],
           "description": [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+            "Click on the “Edit Chat Settings” below “Your Dashboard”."
           ]
         }
       },
       {
-        "type": "image-description",
+        "type": "list-description",
         "config": {
           "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-03.png",
+          "text": [
+            "3"
+          ],
           "description": [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit."
-          ]
-        }
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p class=\"-disclaimer\">*Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur repellendus doloremque unde repudiandae possimus at sequi iure quis officia ex omnis maxime.</p>"
-        ]
-      }
-    ]
-  },
-  "v2": {
-    "image": "connect-pro-enhance-profile-banner-02.jpg",
-    "link": "#",
-    "contentOrder": [
-      {
-        "type": "description",
-        "config": [
-          "<p>Get in front of more clients by taking advantage of an <b>enhanced Justia Profile in the Justia Lawyer Directory</b>.</p>"
-        ]
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-01.png",
-          "description": [
-            "No Competitor Ads"
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-02.png",
-          "description": [
-            "Prominently Integrated Contact Form"
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "connect-pro-enhance-profile-icon-03.png",
-          "description": [
-            "Exclusive Justia Connect Pro Badge"
+            "Uncheck the checkbox “Enable Justia Chat”."
           ]
         }
       },
       {
         "type": "description",
         "config": [
-          "<p>All of these benefits and MORE are available for just $19.99/month with a <b>Justia Connect Pro Membership</b>.</p>"
+          "<p>Let us know if you have any questions.</p>"
         ]
-      },
-      {
-        "type": "button",
-        "config": {
-          "style": "red",
-          "text": "Enhance My Profile",
-          "width": 280,
-          "height": 50,
-          "borderColor": "",
-          "backgroundColor": "",
-          "fontColor": "",
-          "fontStyle": "",
-          "fontWeight": "",
-          "fontSize": 23,
-          "responsive": "",
-          "link": ""
-        }
       },
       {
         "type": "description",
         "config": [
-          "<p>Or call us at <a href=\"tel:8885878421\" target=\"_blank\"><span>(888) 587-8421</span></a></p>"
+          "<p>Sincerely, <br> The Justia Connect Pro Team</p>"
+        ]
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p class=\"-disclaimer\">*Justia Connect Pro members choosing to utilize Justia Chat agree and acknowledge that Justia is not responsible for the content of the chat conversations.</p>"
         ]
       }
     ]
