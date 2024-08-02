@@ -43,8 +43,8 @@
     }
 
     .content {
-        padding: 0 48px 30px;
-        text-align: left;
+        padding: 0 48px;
+        @include mail-font(18px);
             
         p strong {
             color: plt('justia-blue');
@@ -55,7 +55,8 @@
         }
 
         p {
-            margin: 0 0 8px;
+            margin: 0 0 42px;
+            text-align: left;
         }
 
         ul {
@@ -68,9 +69,13 @@
             }
         }
 
+        .-description {
+            text-align: left;
+        }
+
         p,
         ul li {
-            @include mail-font(18px, 1.5);
+            @include mail-font(18px, 1.55);
         }
 
         .red-info {
@@ -88,11 +93,10 @@
         }
 
         .subheading {
-            text-align: center;
-            color: plt('justia-blue');
+            text-align: left;
             display: block;
             font-size: rem-calc(18px);
-            // padding: 0 0 8px;
+            padding: 0 0 8px;
             span {
                 display: inline-block;
             }
@@ -104,6 +108,10 @@
             strong {
                 color: plt('justia-blue');
             }
+        }
+
+        &.-image {
+            padding-bottom: 42px;
         }
 
         &.-image-description {
@@ -197,6 +205,10 @@
         }
         
         
+        
+
+
+        
 
         .-inner-image-description .content-side {
             &.-image {
@@ -223,8 +235,6 @@
         }
 
         &.-first {
-            padding: 0 48px 30px 48px;
-            text-align: left;
 
             img {
                 margin: 0 auto;
@@ -232,7 +242,6 @@
         }
 
         &.-last {
-            padding: 16px 48px 48px;
 
             p {
                 @include mail-font(18px, 1.5);
@@ -247,14 +256,14 @@
                 }
 
                 &.-disclaimer {
-                    @include mail-font(14px, 1.2);
+                    @include mail-font(14px, 1.5);
                     color: #4F4F4F;
                 }
             }
         }
 
         &.-button {
-            padding: 0px $padding;
+            padding: 22px $padding 42px;
         }
 
         a b {
@@ -288,6 +297,31 @@
 
         .title {
             padding: 48px 50px 25px;
+            color: plt('justia-blue');
+
+            h1 {
+                @include mail-font(22px, 1.5, 700);
+                display: block;
+                padding: 0 0 15px;
+                color: plt('justia-blue');
+                background: url('https://justatic.com/v/1/emails/images/newsletters/common/line-decoration-01.jpg') no-repeat center bottom;
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+            strong {
+                padding-bottom: 8px;
+                display: block;
+            }
+        }
+    }
+
+    &.-jld-ad-03 {
+
+        .title {
+            padding: 34px 105px 16px;
             color: plt('justia-blue');
 
             h1 {

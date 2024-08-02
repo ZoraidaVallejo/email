@@ -66,7 +66,7 @@
 
   {{#if widgetConfig.title}}
     <tr>
-      <td class="title" responsive="mobile-padding-30-horizontal-sides mobile-padding-20-top">
+      <td class="title" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-top">
           <h1>{{{widgetConfig.title}}}</h1>
       </td>
     </tr>
@@ -87,6 +87,25 @@
 
   {{#if widgetConfig.contentOrder}}
     {{#forEach widgetConfig.contentOrder}}
+
+      {{#compare this.type "===" "image-banner"}}
+        <tr>
+          <td class="content -image" responsive="mobile-padding-20-horizontal-sides mobile-padding-20-bottom">
+            {{#forIn this.config}}
+              {{#compare @key "===" "image"}}
+                <a href="{{{../../widgetConfig.link}}}{{{ utmVariables ../../widgetConfig.utm}}}" target="_blank">
+                  {{>img
+                    src=../config.image
+                    alt=(default ../../widgetConfig.title ../../widgetConfig.imageAlt)
+                    responsive="mobile-align-center"
+                  }}
+                </a>
+              {{/compare}}
+            {{/forIn}}
+          </td>
+        </tr>
+      {{/compare}}
+
       {{#compare this.type "===" "custom-banner"}}
         <tr>
           <td class="content -image-description -idx-{{index}}{{#if isFirst}} -first{{/if}}{{#if isLast}} -last{{/if}}" responsive="mobile-no-padding-horizontal-sides mobile-padding-20-bottom">

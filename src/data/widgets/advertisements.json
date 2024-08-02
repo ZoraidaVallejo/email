@@ -5,39 +5,14 @@
       {
         "type": "description",
         "config": [
-          "<p>Hi [Name],</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p>Starting July 30th, your Justia Lawyer Directory Profile will feature our latest <b>Justia Connect Pro benefit—Justia Chat!</b></p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p><b>What is Justia Chat?</b></p>",
-          "<p>Justia Chat is a <b>new and exclusive benefit</b> for Justia Connect Pro members like yourself. It is an AI-powered lead generation tool designed to streamline interactions with potential clients on your Justia Lawyer Directory Profile. Powered by AI, this virtual assistant engages visitors and gathers pertinent information, transforming it into actionable leads for you.</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p><b>What This New Benefit Means for You?</b></p>",
-          "<p>Having Justia Chat* on your Jusita Lawyer Directory Profile can boost your chances of getting even more potential clients from your enhanced profile.</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p><b>How Do I Unlock This New Perk?</b></p>",
-          "<p>Sit back and relax! This benefit will automatically be added to your Justia Lawyer Directory Profile on July 30—no action required.</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
+          "<p>Hi [Name],</p>",
+          "<p>Starting July 30th, your Justia Lawyer Directory Profile will feature our latest <b>Justia Connect Pro benefit—Justia Chat!</b></p>",
+          "<strong class=\"subheading\">What is Justia Chat?</b></strong>",
+          "<p>Justia Chat is a <b>new and exclusive benefit</b> for Justia Connect Pro members like yourself. It is an AI-powered lead generation tool designed to streamline interactions with potential clients on your Justia Lawyer Directory Profile. Powered by AI, this virtual assistant engages visitors and gathers pertinent information, transforming it into actionable leads for you.</p>",
+          "<strong class=\"subheading\">What This New Benefit Means for You?</b></strong>",
+          "<p>Having Justia Chat* on your Jusita Lawyer Directory Profile can boost your chances of getting even more potential clients from your enhanced profile.</p>",
+          "<strong class=\"subheading\">How Do I Unlock This New Perk?</b></strong>",
+          "<p>Sit back and relax! This benefit will automatically be added to your Justia Lawyer Directory Profile on July 30—no action required.</p>",
           "<p>However, if you wish to disable the Justia Chat feature, the instructions are below:</p>"
         ]
       },
@@ -80,19 +55,64 @@
       {
         "type": "description",
         "config": [
-          "<p>Let us know if you have any questions.</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
-          "<p>Sincerely, <br> The Justia Connect Pro Team</p>"
-        ]
-      },
-      {
-        "type": "description",
-        "config": [
+          "<p>Let us know if you have any questions.</p>",
+          "<p>Sincerely, <br> The Justia Connect Pro Team</p>",
           "<p class=\"-disclaimer\">*Justia Connect Pro members choosing to utilize Justia Chat agree and acknowledge that Justia is not responsible for the content of the chat conversations.</p>"
+        ]
+      }
+    ]
+  },
+  "v2": {
+    "title": "<span><b>Try Justia Chat:</b> Transform Your Justia Lawyer Directory Experience!</span>",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Hi [Name],</p>",
+          "<p>Want to attract more potential clients with your Justia Lawyer Directory Profile? We have a solution that can help. We are excited to introduce <b>Justia Chat</b>, a game-changing tool designed to boost your online presence and generate valuable leads.</p>",
+          "<strong class=\"subheading\">What Is Justia Chat?</strong>",
+          "<p>Justia Chat is an AI-powered lead generation tool designed to streamline interactions with potential clients on your Justia Lawyer Directory Profile. Powered by AI, this virtual assistant engages visitors and gathers pertinent information, transforming it into actionable leads for you.</p>"
+        ]
+      },
+      {
+        "type": "image-banner",
+        "config": {
+          "image": "chatbot-connect.gif"
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<strong class=\"subheading\">What This New Benefit Means for You</strong>",
+          "<p>Having Justia Chat* on your Justia Lawyer Directory Profile can boost your chances of getting even more potential clients by offering a quick and seamless way to contact you.</p>",
+          "<strong class=\"subheading\">How Do I Unlock This New Perk?</strong>",
+          "<p>Unlocking the power of Justia Chat is as easy as upgrading to a Justia Connect Pro Membership. Justia Chat is just the latest of many benefits available exclusively for Justia Connect Pro members.</p>",
+          "<span><b>Start generating more leads today.</b></span>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Upgrade Now",
+          "width": 202,
+          "height": 52,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 20,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Let us know if you have any questions.</p>",
+          "<p>Sincerely, <br> The Justia Connect Team</p>",
+          "<p class=\"-disclaimer\">*Justia Connect Pro members who use Justia Chat acknowledge and agree that Justia is not responsible for the content of the chat conversations and that Justia may alter Justia Chat access or features at any time, without prior notice.</p>"
         ]
       }
     ]

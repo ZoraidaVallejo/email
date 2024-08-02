@@ -25,5 +25,15 @@
         "url": "https://www.justia.com/"
       }
     }
+  },
+  "connect": {
+    "layout": "logo-only",
+    "logo": {
+      "name": "connect",
+      "color": "blue",
+      "link": {
+        "url": "https://www.justia.com/"
+      }
+    }
   }
 }
