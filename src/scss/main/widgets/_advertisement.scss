@@ -342,4 +342,29 @@
             }
         }
     }
+
+    &.-jld-ad-04 {
+
+        .title {
+            padding: 34px 115px 16px;
+            color: plt('justia-blue');
+
+            h1 {
+                @include mail-font(22px, 1.5, 700);
+                display: block;
+                padding: 0 0 15px;
+                color: plt('justia-blue');
+                background: url('https://justatic.com/v/1/emails/images/newsletters/common/line-decoration-01.jpg') no-repeat center bottom;
+            }
+
+            span {
+                display: block;
+                font-weight: normal;
+            }
+            strong {
+                padding-bottom: 8px;
+                display: block;
+            }
+        }
+    }
 }
