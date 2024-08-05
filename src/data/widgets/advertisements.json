@@ -1,0 +1,32 @@
+{
+  "jld": {
+    "title": "<span>With</span> Justia Premium Placements<span>, You Can Turn These “What Ifs” Into a Reality!</span>",
+    "image": "jld-monthly-blast-august-24-what-if.jpg",
+    "link": "https://www.justia.com/marketing/contact/lawyer-directory/",
+    "titleResponsiveSize": "22",
+    "contentOrder": [
+      {
+        "type": "description",
+        "config": [
+          "<p>Sign up today and start enhancing your online visibility by up to 280X, let more potential clients find your practice online and grow your legal practice. It’s time to turn those \"what ifs\" into \"what is\" and grow your practice today! </p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Increase My Visibility",
+          "width": 303,
+          "height": 50,
+          "fontSize": 24
+        }
+      },
+      {
+        "type": "description",
+        "config": [
+          "<p>Or call us at <strong><a href=\"tel:8885878421\" target=\"_blank\">(888) 587-8421</a></strong></p>"
+        ]
+      }
+    ]
+  }
+}
