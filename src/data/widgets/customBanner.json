@@ -1,0 +1,33 @@
+{
+  "banner": {
+    "customBanner": true,
+    "context": "yellow",
+    "largeImageAlt": "Anyways",
+    "smallImageAlt1": "You Were Seen",
+    "smallImageAlt2": "More Than Competitors",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "180x"
+    ]
+  },
+  "banner2": {
+    "customBanner": false,
+    "image": "2500-googleads-credit.jpg",
+    "imageAlt": "Put Your Best Foot Forward",
+    "link": "#"
+  },
+  "bannerExample": {
+    "customBanner": true,
+    "context": "example",
+    "largeImageAlt": "[Image 1]",
+    "smallImageAlt1": "[Image 2]",
+    "smallImageAlt2": "[Image 3]",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "[TEXT]",
+      "[TEXT]"
+    ]
+  }
+}

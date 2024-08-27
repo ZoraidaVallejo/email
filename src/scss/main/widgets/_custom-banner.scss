@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------------------------------------
+// A D V E R T I S E M E N T   W I D G E T S
+// ----------------------------------------------------------------------------------------------------------
+
+.w-banner {
+    border-bottom: 0;
+
+    .image {
+        text-align: center;
+    }
+
+    &.-custom {
+    
+        .-inner-banner {
+            background: #aaaaaa;
+            text-align: left;
+    
+            td {
+                text-align: left;
+            }
+        }
+    }
+
+    .-va-top {
+        vertical-align: top;
+    }
+    
+    .-va-middle {
+        vertical-align: middle;
+    }
+    
+    .-va-bottom {
+        vertical-align: bottom;
+    }
+}

@@ -1,0 +1,103 @@
+{
+  "ad1": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>If you’ve considered <b>Google Ads Pay-Per-Click (PPC)</b> for your law firm advertising, now is a good time to start! New advertisers can get up to <b>$2500 Google Ads credit.*</b></p>",
+          "<p>The credit may help you get started, but how will you ensure campaign success?</p>",
+          "<p>The seasoned PPC experts on the <b>Justia Amplify Team</b> can answer your questions, optimize your campaigns, and maximize your return on investment.</p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Get Started",
+          "width": 190,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "phone": "(888) 587-8421"
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p class=\"-disclaimer\">*Offer valid for new Google Ads advertisers only and while supplies last. <br> See the <a href=\"https://www.google.com/intl/en_us/ads/coupons/terms/\">full terms and conditions.</a></p>"
+        ]
+      }
+    ]
+  },
+  "ad2": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "[Button Text]",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      }
+    ]
+  }
+}
