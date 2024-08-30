@@ -1,0 +1,42 @@
+{
+  "widget": {
+    "header": "Tip of the Month"
+  },
+  "clients": {
+    "link": "",
+    "title": "",
+    "description": [
+      ""
+    ],
+    "button": {
+      "style": "red",
+      "link": "LINK?utm_medium=email&utm_campaign=2024-08&utm_source=insights-newsletter&utm_content=button-contact-us",
+      "text": "Contact Us",
+      "width": 150
+    }
+  },
+  "jld": {
+    "link": "##",
+    "columns": [
+      {
+        "image": {
+          "src": "insights-tip-of-the-month.png",
+          "alt": "Tip of the Month"
+        },
+        "title": "",
+        "link": "",
+        "description": [
+          "<strong>New Topics Added to Justia AI Writer</strong>",
+          "Now you can create practice area page drafts for the topics of <b>Immigration Law</b> and <b>Tax Law</b>! Harness the power of AI for your law firm's website content with Justia AI Writer. Easily generate practice area page drafts in just a few clicks. Need something more specific? Our system also allows you to create custom freeform content for any page on your site."
+        ]
+      }
+    ],
+    "button": {
+      "style": "red",
+      "link": "https://www.justia.com/marketing/contact/elevate-ai-writer/",
+      "text": "Learn More",
+      "width": 150,
+      "fontSize": 20
+    }
+  }
+}

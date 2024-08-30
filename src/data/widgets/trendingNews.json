@@ -1,0 +1,109 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "news": [
+        {
+          "title": "Take Heed Before Using Artificial Intelligence, New ABA Ethics Opinion Says",
+          "link": "https://www.abajournal.com/web/article/take-heed-before-using-ai-according-to-new-opinion",
+          "via": "ABA"
+        },
+        {
+          "title": "‘Google Is a Monopolist,’ Judge Rules in Landmark Antitrust Case",
+          "link": "https://www.nytimes.com/2024/08/05/technology/google-antitrust-ruling.html",
+          "via": "NYT"
+        },
+        {
+          "title": "These New AI Bots Will Do Just About Anything for You",
+          "link": "https://www.wsj.com/tech/ai/ai-agents-autonomous-bots-human-tasks-913c0ce5",
+          "via": "WSJ"
+        },
+        {
+          "title": "How a Law That Shields Big Tech Is Now Being Used Against It",
+          "link": "https://www.nytimes.com/2024/08/20/technology/meta-section-230-lawsuit.html",
+          "via": "NYT"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "news": [
+        {
+          "title": "11 Local SEO Tools You Should Be Using",
+          "link": "https://searchengineland.com/local-seo-tools-you-should-use-444604",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "Google AI Overviews, Organic Results Overlap Jumps to 99%, Analysis Finds",
+          "link": "https://searchengineland.com/google-ai-overviews-organic-results-overlap-99-445374",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "How Search Query Length Is Shifting in the LLM Era: Insights for Brands ",
+          "link": "https://searchengineland.com/keyword-query-length-insights-445376",
+          "via": "Search Engine Land"
+        },
+        {
+          "title": "How Google Ending Continuous Scroll Could Impact ORM",
+          "link": "https://searchengineland.com/google-continuous-scroll-orm-445239",
+          "via": "Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "news": [
+        {
+          "title": "How Elon Musk Got Tangled Up in Blue",
+          "link": "https://www.nytimes.com/2024/08/24/technology/elon-musk-twitter-blue.html",
+          "via": "NYT"
+        },
+        {
+          "title": "Threads Officially Announces Analytics, Adds Post Drafts and Scheduling",
+          "link": "https://www.socialmediatoday.com/news/threads-officially-announces-analytics-adds-post-drafts-and-scheduling/724428/",
+          "via": "Social Media Today"
+        },
+        {
+          "title": "How To Create Engaging Instagram Carousels",
+          "link": "https://www.searchenginejournal.com/how-to-create-engaging-instagram-carousels/522723/",
+          "via": "Search Engine Journal"
+        },
+        {
+          "title": "Meta Lets You Cross-Post From Instagram and Facebook to Threads. Here’s How To Do It",
+          "link": "https://techcrunch.com/2024/08/22/how-to-cross-post-from-instagram-and-facebook-to-threads/",
+          "via": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "news": [
+        {
+          "title": "U.S. Accuses RealPage of Illegally Coordinating Rent Prices",
+          "link": "https://www.wsj.com/us-news/law/u-s-accuses-real-estate-software-company-of-illegally-coordinating-rent-prices-26e5c71d",
+          "via": "WSJ"
+        },
+        {
+          "title": "Ticketmaster’s Nontransferable ‘SafeTix’ Are Anticompetitive, DOJ Suit Claims",
+          "link": "https://www.theverge.com/2024/8/19/24223774/ticketmaster-safetix-doj-antitrust-lawsuit-10-states-join",
+          "via": "The Verge"
+        },
+        {
+          "title": "Judge Blocks F.T.C.’s Noncompete Rule",
+          "link": "https://www.nytimes.com/2024/08/20/business/economy/noncompete-ban-ftc-texas.html",
+          "via": "NYT"
+        },
+        {
+          "title": "George Santos Pleads Guilty to Wire Fraud and Identity Theft",
+          "link": "https://www.nytimes.com/2024/08/19/nyregion/george-santos-guilty-plea-court.html",
+          "via": "NYT"
+        }
+      ]
+    }
+  ]
+}

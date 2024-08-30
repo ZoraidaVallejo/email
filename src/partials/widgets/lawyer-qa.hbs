@@ -1,0 +1,71 @@
+{{! ================================================================================================================= }}
+{{! F E A T U R E D   QA L A W Y E R                                                                                     }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Fix anotations.
+}}
+
+{{!
+ * @param {String}   widgetClass
+ * @param {Object}   widgetConfig
+ * @param {Object}   widgetConfig.button
+ * @param {String}   widgetConfig.button.style
+ * @param {String}   widgetConfig.button.link
+ * @param {String}   widgetConfig.button.text
+ * @param {Object[]} widgetConfig.list
+ * @param {String}   widgetConfig.list[].id
+ * @param {Number}   widgetConfig.list[].rank
+ * @param {String}   widgetConfig.list[].name
+ * @param {String}   widgetConfig.list[].location
+ * @param {String}   widgetConfig.list[].nameLink
+ * @param {String}   widgetConfig.list[].photoLink
+ * @param {String[]} widgetConfig.description
+}}
+
+{{!-- {{#and widgetConfig.button (compare widgetConfig.button.link "!==" "")}}
+  {{assign "widgetWithButton" true}}
+{{else}}
+  {{assign "widgetWithButton" false}}
+{{/and}}
+ --}}
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-lawyer-qa set-max-width"}}
+  {{>widget-header
+    header=widgetConfig.widget.header
+    icon=widgetConfig.widget.icon
+    link=widgetConfig.widget.link
+  }}
+
+  <tr class="widget-columns -image-text ui-columns-grid">
+    <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-horizontal-sides">
+      <div class="widget-wrapper">
+        {{#table}}
+          <tr class="content-wrapper">
+            <td class="content -image-description" responsive="mobile-padding-horizontal-sides">
+              <div class="content-side -image" responsive="collapse-one mobile-padding-bottom">
+                {{#if widgetConfig.photoLink}}<a href="{{{widgetConfig.photoLink}}}" target="_blank"  class="block-image-link">{{/if}}
+                  {{>img src="insights-lawyer-qa-01.jpg" alt=widgetConfig.name class="block-image"}}
+                {{#if widgetConfig.photoLink}}</a>{{/if}}
+                <div class="lawyer-info" responsive="mobile-align-center">
+                  <span class="name"><b>{{{widgetConfig.name}}}</b></span><br>
+                  <span class="location">{{{widgetConfig.location}}}</span>
+                </div>
+              </div>
+              <div class="content-side -description" responsive="collapse-one mobile-no-padding">
+                <p class="question-text title">
+                  <b>{{#if widgetConfig.widget.link}}<a href="{{{widgetConfig.widget.link}}}" target="_blank">{{/if}}Q: {{{widgetConfig.question}}}{{#if widgetConfig.widget.link}}</a>{{/if}}</b>
+                </p>
+                <p class="answer-text">
+                  <b>Answer:</b> <em>{{{widgetConfig.answer}}}</em> {{#if widgetConfig.learnMore}}<a href="{{{widgetConfig.learnMore}}}" target="_blank" class="readmore">{{/if}} View Full Answer › {{#if widgetConfig.learnMore}}</a>{{/if}}
+                </p>
+              </div>
+            </td>
+          </tr>
+        {{/table}}
+      </div>
+    </td>
+  </tr>
+
+{{/table}}
