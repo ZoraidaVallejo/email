@@ -17,11 +17,13 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
 
         {{>welcome widgetConfig=welcome.jld}}
 
-        {{!-- {{>justia-news widgetUtmVars=justiaNews.utm.jld}} --}}
+        {{>justia-news widgetUtmVars=justiaNews.utm.jld}}
 
         {{>featured-webinar widgetUtmVars=featuredWebinar.utm.jld}}
 
         {{>explore-webinars widgetConfig=exploreWebinars}}
+
+        {{>disclaimer widgetConfig=disclaimer}}
 
         {{>justia-tip-month widgetConfig=tipMonth.jld}}
 
@@ -42,6 +44,8 @@ subject: <%= dateFormat.string %> edition - Justia’s exclusive newsletter!
         {{>hug-pug}}
 
         {{>law-events widgetConfig=lawEvents}}
+
+        {{>disclaimer widgetConfig=disclaimer}}
 
       {{>ui-layout-hack tableEnd=true}}
     </td>
