@@ -1,0 +1,41 @@
+{
+  "widget": {
+    "icon": "justia-desk",
+    "header": "News"
+  },
+  "banner": "",
+  "imageLink": "https://onward.justia.com/",
+  "news": [
+    {
+      "title": "Lorem ipsum, dolor sit amet",
+      "link": "https://onward.justia.com/",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi harum corporis mollitia optio blanditiis consequuntur quas, totam quibusdam doloremque. Quaerat laboriosam nam numquam rerum. Aliquid est dolore atque dicta placeat?",
+      "index": "1"
+    }
+  ],
+  "utm": {
+    "clients": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    },
+    "jld": {
+      "medium": "email",
+      "campaign": "<%= dateFormat.dash %>",
+      "source": "insights-newsletter",
+      "content": {
+        "title": "text-justia-desk-title-",
+        "button": "text-justia-desk-suscribe-now-1"
+      }
+    }
+  },
+  "button": {
+    "style": "justia-blue-ghost",
+    "link": "https://onward.justia.com/",
+    "text": "Subscribe Now"
+  }
+}

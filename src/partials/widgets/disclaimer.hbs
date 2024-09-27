@@ -1,0 +1,33 @@
+{{! ================================================================================================================= }}
+{{! J U S T I A   D E S K                                                                                             }}
+{{! ================================================================================================================= }}
+
+{{!
+// TODO: Add anotations.
+}}
+
+{{!
+    * @param {Object[]} justiaNews.news
+    * @param {string} justiaNews.news[].title
+    * @param {string} justiaNews.news[].link
+    * @param {string} justiaNews.news[].description
+}}
+
+
+{{! ================================================================================================================= }}
+
+{{#table class="widget w-disclaimer set-max-width"}}
+<tr class="widget-columns widget-description -disclaimer ui-columns-grid">
+  <td class="wrapper{{#if isLast}} -last{{/if}}" responsive="mobile-padding-20-horizontal-sides">
+    <div class="widget-wrapper">
+      <div class="content">
+        {{#if disclaimer.description}}
+          <p class="description">
+            {{{disclaimer.description}}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+  </td>
+</tr>
+{{/table}}

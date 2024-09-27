@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "icon": "inside-justia",
+    "header": "A Pug’s Tale"
+  },
+  "singleColumn": true,
+  "columns": [
+    {
+      "image": {
+        "src": "insights-hugpug-01.jpg",
+        "alt": "Hug Pugs vote"
+      },
+      "description": [
+        "The Hug Pugs want to make sure your peeps are registered and have a plan to vote! Check with friends and family to make sure they are registered and have a plan too. Your vote matters!"
+      ]
+    }
+  ]
+}

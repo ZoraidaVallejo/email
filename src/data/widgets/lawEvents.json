@@ -1,0 +1,40 @@
+{
+  "widget": {
+    "icon": "law-events",
+    "header": "Law Events"
+  },
+  "events": [
+    {
+      "day": "8",
+      "month": "Oct",
+      "title": "Taming High-Performing Nightmares: A Leadership Survival Guide",
+      "link": "https://connect.justia.com/webinars/taming-high-performing-nightmares-a-leadership-survival-guide",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "10",
+      "month": "Oct",
+      "title": "Five Steps To Tax Mastery for Law Firm Owners To Enhance Profitability",
+      "link": "https://connect.justia.com/webinars/five-steps-to-tax-mastery-for-law-firm-owners-to-enhance-profitability",
+      "time": "1pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "15",
+      "month": "Oct",
+      "title": "Flying Solo Checklist:30 Things You Need To Do To Avoid Malpractice",
+      "link": "https://connect.justia.com/webinars/flying-solo-checklist-30-things-you-need-to-do-to-avoid-malpractice",
+      "time": "2pm ET",
+      "typeLocation": "Webinar | CLE"
+    },
+    {
+      "day": "23",
+      "month": "Oct",
+      "title": "Personality as a Conflict Resolution Tool: Exploring the Enneagram Types",
+      "link": "https://connect.justia.com/webinars/personality-as-a-conflict-resolution-tool-exploring-the-enneagram-types",
+      "time": "2pm ET",
+      "typeLocation": "Webinar"
+    }
+  ]
+}

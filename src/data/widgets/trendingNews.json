@@ -1,0 +1,109 @@
+{
+  "widget": {
+    "icon": "trending-news",
+    "header": "Trending News"
+  },
+  "subtitle": "These are our editors' picks from across the web. Because you can't always trust an automated feed.",
+  "columns": [
+    {
+      "category": "Tech",
+      "news": [
+        {
+          "title": "OpenAI’s New “Reasoning” AI Models Are Here: o1-Preview and o1-miniOpenAI’s New “Reasoning” AI Models Are Here: o1-Preview and o1-Mini",
+          "link": "https://arstechnica.com/information-technology/2024/09/openais-new-reasoning-ai-models-are-here-o1-preview-and-o1-mini/",
+          "via": "Ars Technica"
+        },
+        {
+          "title": "California Passes Landmark Law Requiring Actors’ Permission for AI Likenesses ",
+          "link": "https://www.engadget.com/ai/california-passes-landmark-regulation-to-require-permission-from-actors-for-ai-deepfakes-174234452.html",
+          "via": "Engadget"
+        },
+        {
+          "title": "F.T.C. Study Finds ‘Vast Surveillance’ of Social Media Users ",
+          "link": "https://www.nytimes.com/2024/09/19/technology/ftc-meta-tiktok-privacy-surveillance.html ",
+          "via": "NYT"
+        },
+        {
+          "title": "TikTok’s Defense Strategy Involves Throwing Shein and Temu Under the Bus ",
+          "link": "https://www.wired.com/story/tiktok-defense-china-ban/ ",
+          "via": "Wired"
+        }
+      ]
+    },
+    {
+      "category": "SEO",
+      "news": [
+        {
+          "title": "My Interview of Google’s Search Liaison on the August 2024 Core Update",
+          "link": "https://www.seroundtable.com/interview-google-august-core-update-38024.html",
+          "via": "Search Engine Roundtable"
+        },
+        {
+          "title": "Google To Receive Punishment for Search Monopoly by Next August, Says Judge ",
+          "link": "https://techcrunch.com/2024/09/06/google-to-receive-punishment-for-search-monopoly-by-next-august-says-judge/",
+          "via": "TechCrunch"
+        },
+        {
+          "title": "Google Business Profile Video Verification Best Practices",
+          "link": "https://www.searchenginejournal.com/google-business-profile-video-verification-best-practices/518609/",
+          "via": "Search Engine Journal"
+        },
+        {
+          "title": "Google Adtech Antitrust Trial: Everything You Need To Know ",
+          "link": "https://searchengineland.com/google-adtech-antitrust-trial-updates-446488 ",
+          "via": "Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Social Media",
+      "news": [
+        {
+          "title": "California Passes Election ‘Deepfake’ Laws, Forcing Social Media Companies To Take Action ",
+          "link": "https://www.nytimes.com/2024/09/17/technology/california-deepfakes-law-social-media-newsom.html ",
+          "via": "NYT"
+        },
+        {
+          "title": "US Attorneys General Endorse Plan for Social Media Warning Labels",
+          "link": "https://www.socialmediatoday.com/news/us-attorney-generals-endorse-plan-social-media-warning-labels/726664/",
+          "via": "Social Media Today"
+        },
+        {
+          "title": "LinkedIn Company Page Strategies for 2025 and Beyond",
+          "link": "https://www.socialmediaexaminer.com/linkedin-company-page-strategies-for-2025-and-beyond/",
+          "via": "Social Media Examiner"
+        },
+        {
+          "title": "A Guide to Creating Social Media Videos (for Search and Beyond)",
+          "link": "https://searchengineland.com/social-media-videos-search-guide-446621",
+          "via": "Search Engine Land"
+        }
+      ]
+    },
+    {
+      "category": "Legal",
+      "news": [
+        {
+          "title": "MrBeast and Amazon Are Being Sued by Contestants of Their Planned Competition Show ",
+          "link": "https://www.engadget.com/entertainment/streaming/mrbeast-and-amazon-are-being-sued-by-contestants-of-their-planned-competition-show-152613641.html",
+          "via": "Engadget"
+        },
+        {
+          "title": "Lawsuits Fly Over Election Rules and Who Gets To Vote ",
+          "link": "https://www.wsj.com/politics/elections/2024-election-voting-laws-registration-2b6fddd",
+          "via": "WSJ"
+        },
+        {
+          "title": "The Internet Archive Loses Its Appeal of a Major Copyright Case",
+          "link": "https://www.wired.com/story/internet-archive-loses-hachette-books-case-appeal/",
+          "via": "Wired"
+        },
+        {
+          "title": "CrowdStrike Faces Onslaught of Legal Action From Faulty Software Update",
+          "link": "https://techcrunch.com/2024/09/02/crowdstrike-faces-onslaught-of-legal-action-from-faulty-software-update/",
+          "via": "TechCrunch"
+        }
+      ]
+    }
+  ]
+}
