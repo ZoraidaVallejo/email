@@ -19,6 +19,7 @@ export function ShortcutToolbar() {
       <DragIcon<IButton> type={AdvancedType.BUTTON} color='rgb(238,144,172)' />
       <DragIcon type={AdvancedType.SOCIAL} color='rgb(111,206,236) ' />
       <DragIcon type={AdvancedType.NAVBAR} color='rgb(191,24,84)' />
+      <DragIcon type={AdvancedType.FOOTER} color='rgb(191,24,84)' />
       <DragIcon type={AdvancedType.DIVIDER} color='rgb(71,67,239)' />
       <DragIcon type={AdvancedType.SPACER} color='#ccc' />
       <DragIcon

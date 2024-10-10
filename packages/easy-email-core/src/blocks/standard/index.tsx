@@ -41,6 +41,7 @@ export const standardBlocks = {
   [BasicType.HERO]: Hero,
   [BasicType.NAVBAR]: Navbar,
   [BasicType.SOCIAL]: Social,
+  [BasicType.FOOTER]: Footer,
 
   // spacial block, render string
   [BasicType.TEMPLATE]: Template,
@@ -54,7 +55,6 @@ export const standardBlocks = {
 
   [BasicType.TABLE]: Table,
 
-  [BasicType.FOOTER]: Footer,
 };
 
 export type {
@@ -80,5 +80,5 @@ export type {
   IAccordionTitle,
   IAccordionText,
   ITemplate,
-  IFooter
+  IFooter,
 };

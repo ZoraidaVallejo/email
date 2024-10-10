@@ -22,3 +22,5 @@ export { Table } from './Table';
 export { Template } from './Template';
 export { BlockRenderer } from './BlockRenderer';
 export { default as MjmlBlock } from './MjmlBlock';
+export { BasicBlock } from './BasicBlock';
+export { Footer } from './Footer';

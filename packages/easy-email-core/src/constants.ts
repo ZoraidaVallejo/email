@@ -22,12 +22,11 @@ export enum BasicType {
   CAROUSEL = 'carousel',
   NAVBAR = 'navbar',
   SOCIAL = 'social',
+  FOOTER = 'footer',
   // TODO
   TABLE = 'table',
 
   TEMPLATE = 'template',
-
-  FOOTER = 'footer',
 }
 
 // 高级组件
@@ -42,14 +41,13 @@ export enum AdvancedType {
   SOCIAL = 'advanced_social',
   ACCORDION = 'advanced_accordion',
   CAROUSEL = 'advanced_carousel',
+  FOOTER = 'advanced_footer',
 
   WRAPPER = 'advanced_wrapper',
   SECTION = 'advanced_section',
   COLUMN = 'advanced_column',
   GROUP = 'advanced_group',
   HERO = 'advanced_hero',
-
-  FOOTER = 'advanced_footer'
 }
 
 export const MERGE_TAG_CLASS_NAME = 'easy-email-merge-tag-container';

@@ -8,6 +8,7 @@ import { isButtonBlock } from './isButtonBlock';
 import { getContentEditableIdxFromClassName, getContentEditableTypeFromClassName } from './contenteditable';
 import { getContentEditableClassName } from './getContentEditableClassName';
 import { isNavbarBlock } from './isNavbarBlock';
+import { isFooterBlock } from './isFooterBlock';
 
 const domParser = new DOMParser();
 
@@ -181,6 +182,11 @@ function makeBlockNodeContentEditable(node: ChildNode) {
     node.setAttribute(DATA_CONTENT_EDITABLE_TYPE, ContentEditableType.Text);
     node.setAttribute(DATA_CONTENT_EDITABLE_IDX, idx);
 
+  } else if (isFooterBlock(type)) {
+    node.setAttribute('contentEditable', 'true');
+    node.setAttribute(DATA_CONTENT_EDITABLE_TYPE, ContentEditableType.Text);
+    node.setAttribute(DATA_CONTENT_EDITABLE_IDX, idx);
+
   }
 
   node.childNodes.forEach(makeBlockNodeContentEditable);
@@ -192,6 +198,12 @@ function makeStandardContentEditable(node: HTMLElement, blockType: string, idx: 
     node.classList.add(...getContentEditableClassName(blockType, `${idx}.data.value.content`));
   }
   if (isNavbarBlock(blockType)) {
+    node.querySelectorAll('.mj-link').forEach((anchor, index) => {
+
+      anchor.classList.add(...getContentEditableClassName(blockType, `${idx}.data.value.links.${index}.content`));
+    });
+  }
+  if (isFooterBlock(blockType)) {
     node.querySelectorAll('.mj-link').forEach((anchor, index) => {
 
       anchor.classList.add(...getContentEditableClassName(blockType, `${idx}.data.value.links.${index}.content`));

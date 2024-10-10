@@ -55,6 +55,11 @@ export const AdvancedNavbar = generateAdvancedContentBlock<INavbar>({
   baseType: BasicType.NAVBAR,
 });
 
+export const AdvancedFooter = generateAdvancedContentBlock<IFooter>({
+  type: AdvancedType.FOOTER,
+  baseType: BasicType.FOOTER,
+});
+
 export const AdvancedAccordion = generateAdvancedContentBlock<IAccordion>({
   type: AdvancedType.ACCORDION,
   baseType: BasicType.ACCORDION,
@@ -108,15 +113,5 @@ export const AdvancedHero = generateAdvancedLayoutBlock<IHero>({
     BasicType.WRAPPER,
     AdvancedType.WRAPPER,
     BasicType.PAGE,
-  ],
-});
-
-export const AdvancedFooter = generateAdvancedLayoutBlock<IFooter>({
-  type: AdvancedType.FOOTER,
-  baseType: BasicType.FOOTER,
-  validParentType: [
-    BasicType.PAGE,
-    BasicType.WRAPPER,
-    BasicType.COLUMN
   ],
 });

@@ -37,13 +37,13 @@ export const advancedBlocks = {
   [AdvancedType.ACCORDION]: AdvancedAccordion,
   [AdvancedType.CAROUSEL]: AdvancedCarousel,
   [AdvancedType.SOCIAL]: AdvancedSocial,
+  [AdvancedType.FOOTER]: AdvancedFooter,
 
   [AdvancedType.WRAPPER]: AdvancedWrapper,
   [AdvancedType.SECTION]: AdvancedSection,
   [AdvancedType.GROUP]: AdvancedGroup,
   [AdvancedType.COLUMN]: AdvancedColumn,
   [AdvancedType.HERO]: AdvancedHero,
-  [AdvancedType.FOOTER]: AdvancedFooter,
 };
 
 export { Operator, OperatorSymbol };

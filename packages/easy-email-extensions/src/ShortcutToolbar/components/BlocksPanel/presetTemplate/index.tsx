@@ -17,6 +17,7 @@ import { WrapperBlockItem } from './WrapperBlockItem';
 import { SectionBlockItem } from './SectionBlockItem';
 import { GroupBlockItem } from './GroupBlockItem';
 import { ColumnBlockItem } from './ColumnBlockItem';
+import { FooterBlockItem } from './FooterBlockItem';
 
 export const defaultCategories = [
   {
@@ -98,7 +99,7 @@ export const defaultCategories = [
             'This block displays a Footer stripe with logo and navbar.',
           );
         },
-        component: HeroBlockItem,
+        component: FooterBlockItem,
       },
       {
         type: AdvancedType.NAVBAR,

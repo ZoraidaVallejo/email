@@ -48,9 +48,9 @@ const defaultCategories: ExtensionProps['categories'] = [
       {
         type: AdvancedType.WRAPPER,
       },
-      /* {
+      {
         type: AdvancedType.FOOTER,
-      }, */
+      },
     ],
   },
   {
