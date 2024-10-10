@@ -7,18 +7,20 @@ import {
   AdvancedType,
   mergeBlock,
 } from 'easy-email-core';
-
+import { NavbarLinkPadding } from "easy-email-extensions";
 import { CustomBlocksType } from '../constants';
 import React from 'react';
-import { link } from 'fs';
 
-const {Wrapper, Section, Column, Image, Navbar } = components;
+const {Wrapper, Section, Column, Image, BasicBlock } = components;
 
 export type IBlockTest = IBlockData<
   {
     'background-color'?: string;
     'text-color'?: string;
     align?: string;
+    'src'?: string;
+    width?: string;
+    padding?: string;
   },
   {
     links: Array<{
@@ -31,6 +33,7 @@ export type IBlockTest = IBlockData<
       'font-weight'?: string;
       'line-height'?: string;
       'text-decoration'?: string;
+      'text-transform'?: string;
       target?: string;
       padding?: string;
     }>;
@@ -38,7 +41,7 @@ export type IBlockTest = IBlockData<
 >;
 
 export const BlockTest = createCustomBlock<IBlockTest>({
-  name: 'Product recommendation',
+  name: 'Footer',
   type: CustomBlocksType.BLOCK_TEST,
   validParentType: [BasicType.PAGE, AdvancedType.WRAPPER, BasicType.WRAPPER],
   create: (payload) => {
@@ -53,7 +56,8 @@ export const BlockTest = createCustomBlock<IBlockTest>({
               color: '#ffffff',
               'font-size': '14px',
               target: '_blank',
-              padding: '5px 10px',
+              padding: '5px 10px 0px 0px',
+              'text-transform': 'capitalize',
             },
             {
               href: 'https://www.justia.com/marketing/',
@@ -61,7 +65,8 @@ export const BlockTest = createCustomBlock<IBlockTest>({
               color: '#ffffff',
               'font-size': '14px',
               target: '_blank',
-              padding: '5px 10px',
+              padding: '5px 10px 0px 0px',
+              'text-transform': 'capitalize',
             },
             {
               href: 'https://www.justia.com/privacy-policy/',
@@ -69,23 +74,27 @@ export const BlockTest = createCustomBlock<IBlockTest>({
               color: '#ffffff',
               'font-size': '14px',
               target: '_blank',
-              padding: '5px 10px',
+              padding: '5px 10px 0px 0px',
+              'text-transform': 'capitalize',
             },
           ],
         },
       },
       attributes: {
         align: 'center',
-        'background-color': '#ffffff',
+        'text-color': '#fffff',
+        'background-color': '#06357a',
+        src: 'https://justatic.com/v/2040227/shared/images/logos/justia-blue.png',
+        width: '111px',
+        padding: '12px 0px 12px 0px'
       },
-      children: [
-      ],
+      children: [],
     };
     return mergeBlock(defaultData, payload);
   },
 
   render(params) {
-    const { data } = params;
+    const { data, idx, mode, context, dataSource } = params;
     const attributes = (data).attributes;
     const links = (data).data.value.links.map((link) => {
       const linkAttributeStr = Object.keys(link)
@@ -95,17 +104,43 @@ export const BlockTest = createCustomBlock<IBlockTest>({
       return `<mj-navbar-link ${linkAttributeStr}>${link.content}</mj-navbar-link>`;
     }).join('\n');
 
-    console.log(links)
+    mode == 'testing';
 
     return (
       <Wrapper
-        padding='20px 0px 20px 0px'
+        css-class={mode === 'testing' ? getPreviewClassName(idx, data.type) : ''}
+        padding={attributes['padding']}
         border='none'
         direction='ltr'
         text-align='center'
         background-color={attributes['background-color']}
       >
-            <Navbar>{links}</Navbar>
+        <Section padding='0px'>
+          <Column
+            width='35%'
+            padding='0px'
+            border='none'
+            vertical-align='middle'
+          >
+            <Image
+              align='center'
+              height='auto'
+              padding='0px'
+              width={attributes['width']}
+              src={attributes['src']}
+            />
+          </Column>
+          <Column
+            width='65%'
+            padding='0px'
+            border='none'
+            vertical-align='middle'
+          >
+            <BasicBlock params={params} tag='mj-navbar'>
+              {links}
+            </BasicBlock>
+          </Column>
+        </Section>
       </Wrapper>
     );
   },

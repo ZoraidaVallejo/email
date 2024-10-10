@@ -105,6 +105,9 @@ const defaultCategories: ExtensionProps['categories'] = [
       {
         type: AdvancedType.SECTION,
       },
+      {
+        type: AdvancedType.FOOTER,
+      },
     ],
   },
   {
