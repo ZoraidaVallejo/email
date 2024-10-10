@@ -1,0 +1,96 @@
+{
+  "ad1": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p><strong>Justia Lawyer Directory</strong> Profile Stats are only available for <strong>Justia Premium Placements</strong> holders, but for only 3 days, you will have exclusive access to your detailed profile stats – absolutely for FREE!</p>",
+          "<p>Explore key insights about your profile performance, audience demographics, and more to leverage professional-grade opportunities to engage with your audience.</p>",
+          "<p><strong>Time is ticking – make the most of this opportunity while it lasts.</strong></p>"
+        ]
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "Unlock Your Free Stats Now",
+          "width": 380,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 24,
+          "responsive": "mobile-fz-20 collapse-one",
+          "link": ""
+        }
+      },
+      {
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "text2": "before it’s too late."
+        }
+      }
+    ]
+  },
+  "ad2": {
+    "link": "#",
+    "contentOrder": [
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "image-description",
+        "config": {
+          "responsive": "",
+          "image": "icon-example-01.png",
+          "description": [
+            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
+          ]
+        }
+      },
+      {
+        "type": "button",
+        "config": {
+          "style": "red",
+          "text": "[Button Text]",
+          "width": 250,
+          "height": 50,
+          "borderColor": "",
+          "backgroundColor": "",
+          "fontColor": "",
+          "fontStyle": "",
+          "fontWeight": "",
+          "fontSize": 23,
+          "responsive": "mobile-fz-20 collapse-one",
+          "link": ""
+        }
+      },
+      {
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "banner": {
+    "customBanner": true,
+    "context": "yellow",
+    "largeImageAlt": "Anyways",
+    "smallImageAlt1": "You Were Seen",
+    "smallImageAlt2": "More Than Competitors",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "180x"
+    ]
+  },
+  "banner1": {
+    "customBanner": false,
+    "image": "jld-profile-stats-banner-01.png",
+    "imageAlt": "Only for 3 Days! Unlock Your Free Profile Stats",
+    "link": "#"
+  },
+  "banner2": {
+    "customBanner": false,
+    "image": "jld-profile-stats-banner-02.png",
+    "imageAlt": "Only for 3 Days! Unlock Your Free Profile Stats",
+    "link": "#"
+  },
+  "bannerExample": {
+    "customBanner": true,
+    "context": "example",
+    "largeImageAlt": "[Image 1]",
+    "smallImageAlt1": "[Image 2]",
+    "smallImageAlt2": "[Image 3]",
+    "verticalAlignment": "middle",
+    "responsive": "mobile-padding-horizontal-sides",
+    "description": [
+      "[TEXT]",
+      "[TEXT]"
+    ]
+  }
+}
