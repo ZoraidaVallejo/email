@@ -3,16 +3,27 @@
     "title-decoration": true,
     "link": "#",
     "title": [
-      "{Title}",
-      "<br>{subTitle}"
+      " Exclusive Access to Advanced Insights.",
+      "<br>Don't Miss Out!"
     ]
   },
   "title2": {
+    "title-decoration": false,
+    "title": [
+      "<strong>Timothy</strong>",
+      ", ",
+      "<strong>Timothy</strong>",
+      ", ",
+      "<strong>Timothy</strong>",
+      "!"
+    ]
+  },
+  "title2-2": {
     "title-decoration": true,
     "link": "#",
     "title": [
-      " Exclusive Access to Advanced Insights.",
-      "<br>Don't Miss Out!"
+      "Step into the Spotlight.",
+      "<br>It Is Your Time to Be Seen"
     ]
   }
 }

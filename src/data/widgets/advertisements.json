@@ -44,52 +44,41 @@
         "type": "description",
         "border": false,
         "config": [
-          "<p>Vulputate velit esse consequat vel illum dolore eu feugiat nulla facilisis at! Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
+          "<p>Step into the world of SuperVisibility with Justia Premium Placements in the Justia Lawyer Directory.</p>",
+          "<p>Let your profile rise from the shadows, grabbing the attention of potential clients haunting your practice area.</p>",
+          "<p>Haunt the Top Spots with Justia Premium Placements and ensure your profile stays in the spotlight, where no client can miss it.</p>"
         ]
       },
       {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
-      },
-      {
-        "type": "image-description",
-        "config": {
-          "responsive": "",
-          "image": "icon-example-01.png",
-          "description": [
-            "<b>Nunc putamus parum claram</b> nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis."
-          ]
-        }
+        "type": "description",
+        "border": false,
+        "config": [
+          "<p>The Clock Is Ticking <br>Summon Your Justia Premium Placement Today!</p>"
+        ]
       },
       {
         "type": "button",
         "config": {
           "style": "red",
-          "text": "[Button Text]",
-          "width": 250,
+          "text": "Go Ahead, Make Me Premium",
+          "width": 375,
           "height": 50,
           "borderColor": "",
           "backgroundColor": "",
           "fontColor": "",
           "fontStyle": "",
           "fontWeight": "",
-          "fontSize": 23,
+          "fontSize": 24,
           "responsive": "mobile-fz-20 collapse-one",
           "link": ""
         }
       },
       {
-        "type": "description",
-        "border": false,
-        "config": [
-          "<p>Veniam quis nostrud, exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat? Nunc putamus parum claram anteposuerit litterarum formas humanitatis.</p>"
-        ]
+        "type": "phone",
+        "config": {
+          "text": "Call us at",
+          "text2": "before it’s too late."
+        }
       }
     ]
   }

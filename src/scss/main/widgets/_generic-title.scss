@@ -29,4 +29,20 @@
             }
         }
     }
+
+    &.-jld-title-02 {
+
+        .title {
+            padding: 25px $padding 10px;
+            @include mail-font(33px, 1.2, 800);
+            background-color: #a0c238;
+            color: plt('black');
+            text-transform: uppercase;
+
+            a {
+                @include mail-font(33px, 1.2, 800);
+                color: plt('black');
+            }
+        }
+    }
 }
