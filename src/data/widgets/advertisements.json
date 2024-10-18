@@ -44,16 +44,16 @@
         "type": "description",
         "border": false,
         "config": [
-          "<p>Step into the world of SuperVisibility with Justia Premium Placements in the Justia Lawyer Directory.</p>",
+          "<p>Step into the world of <b>SuperVisibility</b> with Justia Premium Placements in the Justia Lawyer Directory.</p>",
           "<p>Let your profile rise from the shadows, grabbing the attention of potential clients haunting your practice area.</p>",
-          "<p>Haunt the Top Spots with Justia Premium Placements and ensure your profile stays in the spotlight, where no client can miss it.</p>"
+          "<p><b>Haunt the Top Spots</b> with Justia Premium Placements and ensure your profile stays in the spotlight, where <b>no client can miss it</b>.</p>"
         ]
       },
       {
         "type": "description",
         "border": false,
         "config": [
-          "<p>The Clock Is Ticking <br>Summon Your Justia Premium Placement Today!</p>"
+          "<p><b>The Clock Is Ticking <br>Summon Your Justia Premium Placement Today!</b></p>"
         ]
       },
       {
@@ -61,7 +61,7 @@
         "config": {
           "style": "red",
           "text": "Go Ahead, Make Me Premium",
-          "width": 375,
+          "width": 400,
           "height": 50,
           "borderColor": "",
           "backgroundColor": "",
@@ -76,8 +76,7 @@
       {
         "type": "phone",
         "config": {
-          "text": "Call us at",
-          "text2": "before it’s too late."
+          "text": "Call us at"
         }
       }
     ]
